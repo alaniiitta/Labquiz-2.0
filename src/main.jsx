@@ -59,7 +59,7 @@ function App(){
 }
 const pageTitle=p=>({summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",progress:"Progreso",simulacrum:"Simulacro"}[p]);
 
-function HomePage({go,openTopic}){return <div>
+function HomePage({go,openTopic}){return <div className="homeDashboard">
  <section className="hero"><div><span className="eyebrow">TU SESIÓN DE HOY</span><h2>Estudia rápido. <em>Avanza de verdad.</em></h2><p>Elige un resumen, haz unas preguntas y convierte tus errores en puntos.</p><div className="heroBtns"><button className="primary" onClick={()=>go("test")}>⚡ Test rápido <ChevronRight/></button><button className="secondary" onClick={()=>go("summaries")}>📚 Ver resúmenes</button></div></div><div className="heroOrb">🧪</div></section>
  <section className="section"><div className="sectionHead"><div><h3>Tu progreso</h3><p>Una visión rápida de tu preparación</p></div></div><div className="stats"><Stat icon="🎯" value="78%" label="Aciertos"/><Stat icon="🧠" value="342" label="Preguntas"/><Stat icon="🔥" value="7 días" label="Racha"/><Stat icon="⭐" value="24" label="Difíciles"/></div></section>
  <section className="twoCol section"><div className="card"><div className="sectionHead"><div><h3>Temas prioritarios</h3><p>Donde más te interesa invertir tiempo</p></div><button className="textBtn" onClick={()=>go("summaries")}>Ver todos</button></div>{topics.slice(0,4).map(t=><TopicRow key={t.id} t={t} onClick={()=>openTopic(t)}/>)}</div>
