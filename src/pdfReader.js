@@ -36,7 +36,7 @@ function getYellowRects(operatorList) {
 
     if (yellowFill && fn === OPS.constructPath) {
       const rect = getPathRect(operatorList.argsArray[index]);
-      if (rect) rectangles.push([...rect]);
+        if (rect && Math.abs(rect[2] - rect[0]) < 500 && Math.abs(rect[3] - rect[1]) < 500) rectangles.push([...rect]);
     }
   });
 
@@ -54,7 +54,8 @@ function groupTextItems(items) {
   items.filter((item) => normalizeQuestionText(item.str)).forEach((item) => {
     const [scaleX, , , scaleY, x, y] = item.transform;
     const height = Math.abs(scaleY) || item.height || 10;
-    const current = lines.find((line) => Math.abs(line.baseline - y) < 2);
+    const column = x < 290 ? 'left' : 'right';
+    const current = lines.find((line) => line.column === column && Math.abs(line.baseline - y) < 2);
 
     if (current) {
       current.items.push({
@@ -63,6 +64,7 @@ function groupTextItems(items) {
         right: x + item.width,
         bottom: y,
         top: y + height,
+        column,
       });
       current.items.sort((a, b) => a.left - b.left);
       current.text = normalizeQuestionText(current.items.map((part) => part.text).join(' '));
@@ -73,6 +75,7 @@ function groupTextItems(items) {
     } else {
       lines.push({
         baseline: y,
+        column,
         text: normalizeQuestionText(item.str),
         left: x,
         right: x + item.width,
@@ -164,7 +167,9 @@ export function parseQuestionsFromPdfPages(pages = []) {
         ...line,
         text: line.text.replace(/(?:^|\s+)(?:Academia Contraste de Fases|Síguenos:|https?:\/\/|www\.)[^]*$/i, '').trim(),
       };
-      const questionMatch = cleanLine.text.match(QUESTION_PATTERN);
+      const questionMatch = (cleanLine.left < 30 || (cleanLine.left >= 290 && cleanLine.left < 310))
+        ? cleanLine.text.match(QUESTION_PATTERN)
+        : null;
       const optionMatch = cleanLine.text.match(OPTION_PATTERN);
 
       if (questionMatch) {
@@ -204,6 +209,8 @@ export function parseQuestionsFromPdfPages(pages = []) {
   if (currentQuestion && currentQuestion.answers.every(Boolean)) questions.push(currentQuestion);
 
   return questions.map(({ optionLines, number, ...question }) => ({
+    id: number,
+    number,
     ...question,
     explanation: question.explanation || 'Respuesta identificada automáticamente por el resaltado amarillo del PDF.',
   }));
