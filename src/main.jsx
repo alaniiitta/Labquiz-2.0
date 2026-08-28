@@ -3,6 +3,8 @@ import {createRoot} from "react-dom/client";
 import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Clock3,CheckCircle2,AlertCircle,Star,FlaskConical,Menu,X,ArrowLeft} from "lucide-react";
 import "./styles.css";
 
+import questionBank from "./questions";
+
 const topics=[
  {id:1,title:"Líquidos biológicos",priority:"Alta",progress:82,questions:68,summary:"Muestras, características, análisis y valores clave."},
  {id:2,title:"Genética y biología molecular",priority:"Media",progress:38,questions:54,summary:"ADN, ARN, replicación, expresión y técnicas moleculares."},
@@ -29,11 +31,8 @@ const topics=[
  {id:23,title:"Técnicas de laboratorio",priority:"Alta",progress:61,questions:88,summary:"Principios, procedimientos y aplicaciones prácticas."}
 ];
 
-const demoQuestions=[
- {q:"¿Qué prueba valora principalmente la vía extrínseca de la coagulación?",a:["Tiempo de protrombina (TP)","Tiempo de trombina","Tiempo de sangría","Tiempo de coagulación"],correct:0,topic:5,explain:"El TP evalúa principalmente la vía extrínseca y común."},
- {q:"¿Cuál es la principal proteína plasmática sintetizada por el hígado?",a:["Albúmina","Hemoglobina","Troponina","Mioglobina"],correct:0,topic:5,explain:"La albúmina se sintetiza principalmente en el hígado."},
- {q:"¿Qué muestra se utiliza habitualmente para un hemograma?",a:["Sangre con EDTA","Suero","Orina","LCR"],correct:0,topic:4,explain:"El hemograma se realiza sobre sangre total anticoagulada con EDTA."}
-];
+const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
+const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
 
 function App(){
  const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false);
@@ -82,7 +81,62 @@ function TopicPage({topic,go}){return <div>
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>10 preguntas del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
-function TestPage({go}){const [i,setI]=useState(0),[score,setScore]=useState(0),[done,setDone]=useState(false);const q=demoQuestions[i];if(done)return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{demoQuestions.length}</strong><p>Las preguntas falladas quedarán disponibles en Repaso.</p><button className="primary" onClick={()=>{setI(0);setScore(0);setDone(false)}}>Repetir</button><button className="secondary" onClick={()=>go("review")}>Ver repaso</button></div>;return <div className="testWrap"><div className="testMeta"><span>TEST RÁPIDO</span><b>{i+1} / {demoQuestions.length}</b></div><div className="progressLine"><i style={{width:((i+1)/demoQuestions.length*100)+"%"}}/></div><div className="testCard"><span className="badge">Tema {String(q.topic).padStart(2,"0")}</span><h2>{q.q}</h2><div className="answers">{q.a.map((a,n)=><button key={a} onClick={()=>{if(n===q.correct)setScore(score+1);if(i===demoQuestions.length-1)setDone(true);else setI(i+1)}}><span>{String.fromCharCode(65+n)}</span>{a}</button>)}</div><div className="testTip">💡 Al responder, te mostramos la explicación y la pregunta quedará registrada.</div></div></div>}
+function TestPage({go}){
+ const [selectedTopicId,setSelectedTopicId]=useState(null);
+ const [i,setI]=useState(0);
+ const [score,setScore]=useState(0);
+ const [selectedAnswer,setSelectedAnswer]=useState(null);
+ const [showResult,setShowResult]=useState(false);
+ const [done,setDone]=useState(false);
+
+ const currentTopic=selectedTopicId ? topics.find(t=>t.id===selectedTopicId) : null;
+ const questionBankForTopic=selectedTopicId ? getQuestionBank(selectedTopicId) : [];
+ const totalQuestions=questionBankForTopic.length;
+ const q=questionBankForTopic[i] ?? null;
+
+ const resetSelection=()=>{
+  setSelectedTopicId(null);
+  setI(0);
+  setScore(0);
+  setSelectedAnswer(null);
+  setShowResult(false);
+  setDone(false);
+ };
+
+ const handleAnswer=(answerIndex)=>{
+  if(!q || showResult) return;
+  setSelectedAnswer(answerIndex);
+  setShowResult(true);
+  if(answerIndex===q.correctAnswer) setScore(prev=>prev+1);
+ };
+
+ const handleNext=()=>{
+  if(!q) return;
+  if(i>=totalQuestions-1){
+   setDone(true);
+   setSelectedAnswer(null);
+   setShowResult(false);
+   return;
+  }
+  setI(prev=>prev+1);
+  setSelectedAnswer(null);
+  setShowResult(false);
+ };
+
+ if(!selectedTopicId){
+  return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid">{topics.map(topic=><button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{topic.questions} preguntas · {topic.priority}</small></button>)}</div></div>;
+ }
+
+ if(!q){
+  return <div className="result card"><div className="resultIcon">📘</div><h2>Este tema aún no tiene preguntas</h2><p>El banco de preguntas está preparado para añadirse desde archivos separados por tema.</p><button className="primary" onClick={resetSelection}>Volver a temas</button></div>;
+ }
+
+ if(done){
+  return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p>Cuando añadas preguntas a este tema, la sesión se completará con su contenido propio.</p><button className="primary" onClick={()=>{setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false)}}>Repetir</button><button className="secondary" onClick={resetSelection}>Elegir otro tema</button></div>;
+ }
+
+ return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">Tema {String(currentTopic.id).padStart(2,"0")}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><p className={selectedAnswer===q.correctAnswer?"testStatus success":"testStatus error"}>{selectedAnswer===q.correctAnswer?"✅ Correcto":"❌ Incorrecto"}</p><p><strong>Respuesta correcta:</strong> {q.answers[q.correctAnswer]}</p><p><strong>Explicación:</strong> {q.explanation}</p></div>}<div className="testActions">{showResult&&<button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Ver resultado":"Siguiente pregunta"}</button>}<button className="secondary" onClick={resetSelection}>Cambiar tema</button></div></div></div>;
+}
 
 function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>No pierdas tiempo repitiendo lo que ya sabes. Aquí se concentra lo que necesitas reforzar.</p></div><div className="reviewGrid"><div className="card"><span className="bigIcon">🔴</span><h3>8 preguntas falladas</h3><p>Preguntas que has contestado mal recientemente.</p><button className="primary" onClick={()=>go("test")}>Repasar ahora</button></div><div className="card"><span className="bigIcon">⭐</span><h3>24 preguntas difíciles</h3><p>Marcadas para volver a ellas cuando tengas tiempo.</p><button className="secondary">Ver difíciles</button></div><div className="card"><span className="bigIcon">⏳</span><h3>12 para recuperar</h3><p>Contenido que llevas días sin repasar.</p><button className="secondary">Empezar repaso</button></div></div></div>}
 
