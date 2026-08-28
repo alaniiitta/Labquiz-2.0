@@ -1,65 +1,218 @@
-import * as pdfjsLib from 'pdfjs-dist';
+import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.mjs';
+import { OPS } from 'pdfjs-dist/legacy/build/pdf.mjs';
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.mjs',
-  import.meta.url,
+pdfjsLib.GlobalWorkerOptions.workerSrc = (typeof window === 'undefined'
+  ? new URL('../node_modules/pdfjs-dist/legacy/build/pdf.worker.mjs', import.meta.url)
+  : new URL('pdfjs-dist/legacy/build/pdf.worker.mjs', import.meta.url)
 ).toString();
 
-export async function extractTextFromPdf(fileUrl) {
-  const loadingTask = pdfjsLib.getDocument(fileUrl);
-  const pdf = await loadingTask.promise;
+const OPTION_PATTERN = /^([A-D])[.)]\s*(.*)$/i;
+const QUESTION_PATTERN = /^(\d{1,3})[.)]\s*(.*)$/;
+
+export function normalizeQuestionText(value = '') {
+  return String(value).replace(/\s+/g, ' ').trim();
+}
+
+function getPathRect(pathArgs) {
+  const bounds = pathArgs?.[2];
+  if (bounds && [bounds[0], bounds[1], bounds[2], bounds[3]].every(Number.isFinite)) {
+    return [bounds[0], bounds[1], bounds[2], bounds[3]];
+  }
+
+  const rect = pathArgs?.find((value) => value && typeof value.length === 'number'
+    && value.length === 4 && [...value].every(Number.isFinite));
+  return rect ? [rect[0], rect[1], rect[0] + rect[2], rect[1] + rect[3]] : null;
+}
+
+function getYellowRects(operatorList) {
+  const rectangles = [];
+  let yellowFill = false;
+
+  operatorList.fnArray.forEach((fn, index) => {
+    if (fn === OPS.setFillRGBColor) {
+      yellowFill = JSON.stringify(operatorList.argsArray[index]) === '["#ffff00"]';
+      return;
+    }
+
+    if (yellowFill && fn === OPS.constructPath) {
+      const rect = getPathRect(operatorList.argsArray[index]);
+      if (rect) rectangles.push([...rect]);
+    }
+  });
+
+  return rectangles.map(([x1, y1, x2, y2]) => ({
+    left: Math.min(x1, x2),
+    right: Math.max(x1, x2),
+    bottom: Math.min(y1, y2),
+    top: Math.max(y1, y2),
+  }));
+}
+
+function groupTextItems(items) {
+  const lines = [];
+
+  items.filter((item) => normalizeQuestionText(item.str)).forEach((item) => {
+    const [scaleX, , , scaleY, x, y] = item.transform;
+    const height = Math.abs(scaleY) || item.height || 10;
+    const current = lines.find((line) => Math.abs(line.baseline - y) < 2);
+
+    if (current) {
+      current.items.push({
+        text: item.str,
+        left: x,
+        right: x + item.width,
+        bottom: y,
+        top: y + height,
+      });
+      current.items.sort((a, b) => a.left - b.left);
+      current.text = normalizeQuestionText(current.items.map((part) => part.text).join(' '));
+      current.left = Math.min(current.left, x);
+      current.right = Math.max(current.right, x + item.width);
+      current.bottom = Math.min(current.bottom, y);
+      current.top = Math.max(current.top, y + height);
+    } else {
+      lines.push({
+        baseline: y,
+        text: normalizeQuestionText(item.str),
+        left: x,
+        right: x + item.width,
+        bottom: y,
+        top: y + height,
+        items: [{ text: item.str, left: x, right: x + item.width, bottom: y, top: y + height }],
+      });
+    }
+  });
+
+  return lines.sort((a, b) => b.baseline - a.baseline);
+}
+
+function lineIsHighlighted(line, rectangles) {
+  return rectangles.some((rect) => {
+    const horizontalOverlap = line.right > rect.left && line.left < rect.right;
+    const verticalOverlap = line.top > rect.bottom && line.bottom < rect.top;
+    return horizontalOverlap && verticalOverlap;
+  });
+}
+
+function orderLinesByColumns(lines) {
+  const leftColumn = lines.filter((line) => line.left < 290);
+  const rightColumn = lines.filter((line) => line.left >= 290);
+  const byReadingOrder = (a, b) => b.baseline - a.baseline;
+  const deferredQuestions = [];
+  const expandLines = (columnLines, isLeftColumn) => columnLines
+    .sort(byReadingOrder)
+    .flatMap((line) => {
+      const embeddedQuestion = isLeftColumn && line.left < 50
+        ? line.text.match(/\s+(\d{1,3})[.)]\s+(.+)$/)
+        : null;
+      if (!embeddedQuestion) return [line];
+
+      const questionStart = line.text.lastIndexOf(embeddedQuestion[0]);
+      const optionLine = { ...line, text: line.text.slice(0, questionStart).trim() };
+      deferredQuestions.push({
+        ...line,
+        text: `${embeddedQuestion[1]}. ${embeddedQuestion[2]}`,
+        left: 290,
+      });
+      return [optionLine];
+    });
+
+  return [...expandLines(leftColumn, true), ...deferredQuestions, ...expandLines(rightColumn, false)];
+}
+
+function isNoiseLine(text) {
+  return /^(Página \d+ de \d+|RESPUESTAS DE EXÁMENES OFICIALES|Test tema \d+:|Academia Contraste de Fases|Síguenos:)/i.test(text);
+}
+
+export async function extractPdfPages(fileUrl) {
+  const source = typeof fileUrl === 'string' ? { url: fileUrl } : fileUrl;
+  const options = typeof window === 'undefined'
+    ? { ...source, disableWorker: true }
+    : source;
+  const pdf = await pdfjsLib.getDocument(options).promise;
   const pages = [];
 
   for (let pageIndex = 1; pageIndex <= pdf.numPages; pageIndex += 1) {
     const page = await pdf.getPage(pageIndex);
-    const textContent = await page.getTextContent();
-    pages.push(
-      textContent.items
-        .map((item) => item.str)
-        .join(' ')
-    );
+    const [textContent, operatorList] = await Promise.all([
+      page.getTextContent(),
+      page.getOperatorList(),
+    ]);
+    pages.push({
+      lines: groupTextItems(textContent.items),
+      yellowRects: getYellowRects(operatorList),
+    });
   }
 
-  return pages.join('\n\n');
+  return pages;
 }
 
-export function normalizeQuestionText(value = '') {
-  return String(value)
-    .replace(/\s+/g, ' ')
-    .trim();
+export async function extractTextFromPdf(fileUrl) {
+  const pages = await extractPdfPages(fileUrl);
+  return pages.map((page) => page.lines.map((line) => line.text).join('\n')).join('\n\n');
+}
+
+export function parseQuestionsFromPdfPages(pages = []) {
+  const questions = [];
+  let currentQuestion = null;
+  let currentOption = null;
+
+  pages.forEach((page, pageIndex) => {
+    orderLinesByColumns(page.lines).forEach((line) => {
+      if (isNoiseLine(line.text)) return;
+      const cleanLine = {
+        ...line,
+        text: line.text.replace(/(?:^|\s+)(?:Academia Contraste de Fases|Síguenos:|https?:\/\/|www\.)[^]*$/i, '').trim(),
+      };
+      const questionMatch = cleanLine.text.match(QUESTION_PATTERN);
+      const optionMatch = cleanLine.text.match(OPTION_PATTERN);
+
+      if (questionMatch) {
+        if (currentQuestion && currentQuestion.answers.every(Boolean)) questions.push(currentQuestion);
+        currentQuestion = {
+          number: Number(questionMatch[1]),
+          question: normalizeQuestionText(questionMatch[2]),
+          answers: ['', '', '', ''],
+          correctAnswer: null,
+          explanation: '',
+          optionLines: [],
+        };
+        currentOption = null;
+        return;
+      }
+
+      if (!currentQuestion) return;
+
+      if (optionMatch) {
+        const optionIndex = optionMatch[1].toUpperCase().charCodeAt(0) - 65;
+        currentOption = optionIndex;
+        currentQuestion.answers[optionIndex] = normalizeQuestionText(optionMatch[2]);
+        currentQuestion.optionLines[optionIndex] = { pageIndex, line: cleanLine };
+        if (lineIsHighlighted(cleanLine, page.yellowRects)) currentQuestion.correctAnswer = optionIndex;
+        return;
+      }
+
+      if (currentOption !== null) {
+        currentQuestion.answers[currentOption] = normalizeQuestionText(`${currentQuestion.answers[currentOption]} ${cleanLine.text}`);
+      } else {
+        currentQuestion.question = normalizeQuestionText(`${currentQuestion.question} ${cleanLine.text}`);
+      }
+    });
+
+  });
+
+  if (currentQuestion && currentQuestion.answers.every(Boolean)) questions.push(currentQuestion);
+
+  return questions.map(({ optionLines, number, ...question }) => ({
+    ...question,
+    explanation: question.explanation || 'Respuesta identificada automáticamente por el resaltado amarillo del PDF.',
+  }));
 }
 
 export function parseQuestionsFromPdfText(rawText = '') {
-  const text = rawText.replace(/\r/g, '');
-  const blocks = text.split(/(?=\b(?:Pregunta|PREGUNTA|Q\d+|\d+\s*\)))/i).filter(Boolean);
-
-  return blocks.map((block) => {
-    const cleaned = block.replace(/\s+/g, ' ').trim();
-
-    const answerMatch = cleaned.match(/(?:A\)|A\.|A\s*[-:]\s*)([^;\n]+)/i);
-    const bMatch = cleaned.match(/(?:B\)|B\.|B\s*[-:]\s*)([^;\n]+)/i);
-    const cMatch = cleaned.match(/(?:C\)|C\.|C\s*[-:]\s*)([^;\n]+)/i);
-    const dMatch = cleaned.match(/(?:D\)|D\.|D\s*[-:]\s*)([^;\n]+)/i);
-
-    const questionMatch = cleaned.match(/(?:Pregunta\s*[:\-]?|PREGUNTA\s*[:\-]?|Q\d+\s*[:\-]?)(.*?)(?=\s*(?:A\)|A\.|A\s*[-:])|$)/i);
-    const correctMatch = cleaned.match(/(?:respuesta\s*correcta|correcta|marcada\s*en\s*amarillo|amarillo)\s*[:\-]?\s*([A-D])/i);
-
-    const question = questionMatch ? normalizeQuestionText(questionMatch[1]) : normalizeQuestionText(cleaned);
-    const answers = [
-      answerMatch ? normalizeQuestionText(answerMatch[1]) : '',
-      bMatch ? normalizeQuestionText(bMatch[1]) : '',
-      cMatch ? normalizeQuestionText(cMatch[1]) : '',
-      dMatch ? normalizeQuestionText(dMatch[1]) : ''
-    ];
-
-    const correctLetter = correctMatch ? correctMatch[1].toUpperCase() : null;
-    const correctAnswer = correctLetter ? { A: 0, B: 1, C: 2, D: 3 }[correctLetter] ?? null : null;
-
-    return {
-      question: question || 'Pregunta sin texto',
-      answers,
-      correctAnswer,
-      explanation: 'Se detectará automáticamente con la respuesta marcada en amarillo tras procesar el PDF.',
-    };
-  }).filter((entry) => entry.answers.some(Boolean));
+  const pages = rawText.split(/\n{2,}/).map((text) => ({
+    lines: text.split('\n').map((line) => ({ text: normalizeQuestionText(line) })).filter((line) => line.text),
+    yellowRects: [],
+  }));
+  return parseQuestionsFromPdfPages(pages);
 }
