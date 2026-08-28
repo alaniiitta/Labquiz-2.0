@@ -1,3 +1,5 @@
+main{padding:28px 34px;min-width:0;overflow-x:hidden}
+@media(max-width:700px){main{padding:18px}}
 .testWrap{width:100%;min-width:0}.testCard{width:100%;min-width:0}.testCard h2,.answers button{overflow-wrap:anywhere}.answers button{width:100%;white-space:normal}.testActions{flex-wrap:wrap}.testActions button{max-width:100%;white-space:normal}
 @media(max-width:600px){.testWrap{padding:0 12px}.testCard{padding:20px 16px}.testCard h2{font-size:21px;line-height:1.3}.testActions{flex-direction:column}.testActions button{width:100%;justify-content:center}.answers button{align-items:flex-start}.answers button>span{flex:0 0 28px}}
 
