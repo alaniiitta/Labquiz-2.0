@@ -5,7 +5,6 @@ Aplicación base creada con React + Vite.
 ## Estructura funcional
 - Inicio / dashboard
 - 23 temas
-- Biblioteca de resúmenes
 - Página individual de tema con plantilla de contenido
 - Test rápido
 - Repaso de errores

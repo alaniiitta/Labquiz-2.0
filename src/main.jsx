@@ -33,7 +33,7 @@ const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
 
 function App(){
- const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false);
+ const [page,setPage]=useState("home"),[mobile,setMobile]=useState(false);
  const [userData,setUserData]=useState(loadUserData);
  useEffect(()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(userData)),[userData]);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
@@ -41,14 +41,12 @@ function App(){
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
    <button className="close" onClick={()=>setMobile(false)}><X/></button>
     <nav className="nav">{[
-    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["review","Repaso",RotateCcw],["progress","Progreso",BarChart3],["simulacrum","Simulacro",Trophy]
+    ["home","Inicio",Home],["test","Test",Brain],["review","Repaso",RotateCcw],["progress","Progreso",BarChart3],["simulacrum","Simulacro",Trophy]
    ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
   <main><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
-    {page==="home"&&<HomePage go={go} data={userData} openTopic={t=>{setSelected(t);go("topic")}}/>}
-   {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
-   {page==="topic"&&selected&&<TopicPage topic={selected} go={go}/>}
+    {page==="home"&&<HomePage go={go} data={userData}/>}
     {page==="test"&&<TestPage go={go} questionProgress={userData.progress} onQuestionAnswered={next=>setUserData(prev=>({...prev,progress:next}))} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
    {page==="review"&&<ReviewPage go={go}/>}
     {page==="progress"&&<ProgressPage data={userData}/>}
@@ -59,11 +57,10 @@ function App(){
   </main>
  </div>
 }
-const pageTitle=p=>({summaries:"Temas",topic:"Tema",test:"Test",review:"Modo repaso",progress:"Estadísticas",wrong:"Preguntas falladas",favorites:"Favoritas",history:"Historial",simulacrum:"Simulacro"}[p]);
+const pageTitle=p=>({test:"Test",review:"Modo repaso",progress:"Progreso",wrong:"Preguntas falladas",favorites:"Favoritas",history:"Historial",simulacrum:"Simulacro"}[p]);
 
 const quickActions=[
  ["test","Hacer test","Comienza una sesión",FileText],
- ["summaries","Temas","Explora los bancos",LayoutGrid],
  ["review","Modo repaso","Vuelve a practicar",Target],
  ["wrong","Preguntas falladas","Revisa tus errores",CircleX],
  ["favorites","Favoritas","Tus preguntas guardadas",Star],
@@ -71,11 +68,10 @@ const quickActions=[
  ["history","Historial","Consulta tus tests",History]
 ];
 
-function HomePage({go,openTopic,data}){return <div className="homeDashboard">
+function HomePage({go,data}){return <div className="homeDashboard">
  <section className="welcome"><span className="eyebrow">LABQUIZ</span><h2>Tu preparación, <em>a tu ritmo.</em></h2><p>Todo lo que necesitas para avanzar en tus oposiciones, en un solo lugar.</p></section>
  <section className="quickSection"><div className="sectionHead"><div><h3>Accesos rápidos</h3><p>Empieza justo donde lo necesitas.</p></div></div><div className="quickGrid">{quickActions.map(([id,label,description,Icon])=><button className="quickAction" key={id} onClick={()=>go(id)}><span className="quickIcon"><Icon/></span><span><b>{label}</b><small>{description}</small></span><ChevronRight/></button>)}</div></section>
  <section className="continueSection"><div><span className="eyebrow">CONTINUAR ESTUDIANDO</span><h3>{data.tests?"Continúa con tu preparación":"¡Empieza tu primer test!"}</h3><p>{data.tests?"Retoma tu último test cuando quieras.":"Responde preguntas para comenzar a construir tu progreso."}</p></div><button className="primary" onClick={()=>go("test")}><Play/> Empezar test</button></section>
- <section className="topicsSection"><div className="sectionHead"><div><h3>Tus temas</h3><p>{topics.length} temas disponibles</p></div><button className="textBtn" onClick={()=>go("summaries")}>Ver todos <ChevronRight/></button></div><div className="homeTopics">{topics.map(topic=><button className="homeTopic" key={topic.id} onClick={()=>openTopic(topic)}><span className="topicNumber">{String(topic.id).padStart(2,"0")}</span><span className="homeTopicInfo"><b>{topic.title}</b><small>{getQuestionBank(topic.id).length?`${getQuestionBank(topic.id).length} preguntas`:(getPdfUrl(topic.id)?"PDF disponible":"Próximamente")}</small></span><ChevronRight/></button>)}</div></section>
  </div>}
 
 function Stat({icon,value,label}){return <div className="stat"><span>{icon}</span><strong>{value}</strong><small>{label}</small></div>}
@@ -88,7 +84,7 @@ function SummaryPage({openTopic}){const [q,setQ]=useState("");const filtered=top
  </div>}
 
 function TopicPage({topic,go}){return <div>
- <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
+ <button className="back" onClick={()=>go("test")}><ArrowLeft/> Volver al test</button>
  <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>Contenido pendiente de añadir.</p></div></section>
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3><div className="placeholder"><h4>Lo imprescindible</h4><p>Aquí irá el contenido estructurado del tema. La plantilla está preparada para añadir el resumen, conceptos clave, valores, técnicas y puntos de examen sin cambiar el diseño.</p><ul><li>Conceptos fundamentales</li><li>Datos y valores que memorizar</li><li>Interpretación de resultados</li><li>Errores frecuentes en examen</li></ul></div><h3>⭐ Preguntas que debes dominar</h3><div className="questionStrip">Añade aquí las preguntas estrella del tema.</div><h3>🧠 Reglas mnemotécnicas</h3><div className="questionStrip">Espacio preparado para tus reglas y trucos de memoria.</div></article>
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
