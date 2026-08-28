@@ -20,6 +20,7 @@ import topic19 from "./topic-19";
 import topic20 from "./topic-20";
 import topic21 from "./topic-21";
 import topic22 from "./topic-22";
+import topic23 from "./topic-23";
 
 export default Object.fromEntries([
  ["tema-01", topic01], ["tema-02", topic02], ["tema-03", topic03],
@@ -29,5 +30,5 @@ export default Object.fromEntries([
  ["tema-13", topic13], ["tema-14", topic14], ["tema-15", topic15],
  ["tema-16", topic16], ["tema-17", topic17], ["tema-18", topic18],
  ["tema-19", topic19], ["tema-20", topic20], ["tema-21", topic21],
- ["tema-22", topic22]
+ ["tema-22", topic22], ["tema-23", topic23]
 ]);

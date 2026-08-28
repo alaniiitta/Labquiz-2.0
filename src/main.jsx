@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Clock3,CheckCircle2,AlertCircle,Star,FlaskConical,Menu,X,ArrowLeft} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Clock3,CheckCircle2,AlertCircle,Star,FlaskConical,Menu,X,ArrowLeft,FileText,LayoutGrid,Target,CircleX,History,Play} from "lucide-react";
 import "./styles.css";
 
 import questionBank from "./questions";
@@ -19,7 +19,8 @@ const topics=[
  {id:15,title:"Equilibrio ácido-base e iones"}, {id:16,title:"Metabolismo lipídico"},
  {id:17,title:"Metabolismo hidratos de carbono"}, {id:18,title:"Hormonas"},
  {id:19,title:"Genética"}, {id:20,title:"Reproducción y cribados"},
-    {id:21,title:"Drogas de abuso y Fármacos"}, {id:22,title:"Marcadores tumorales"}
+    {id:21,title:"Drogas de abuso y Fármacos"}, {id:22,title:"Marcadores tumorales"},
+    {id:23,title:"Técnicas de laboratorio"}
 ];
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
@@ -29,6 +30,7 @@ const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|
 
 function App(){
  const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false);
+ const [userData,setUserData]=useState({tests:0,answered:0,correct:0,incorrect:0,favorites:[],history:[],progress:{},streak:0});
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
@@ -39,20 +41,36 @@ function App(){
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
   <main><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
-   {page==="home"&&<HomePage go={go} openTopic={t=>{setSelected(t);go("topic")}}/>}
+    {page==="home"&&<HomePage go={go} data={userData} openTopic={t=>{setSelected(t);go("topic")}}/>}
    {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
    {page==="topic"&&selected&&<TopicPage topic={selected} go={go}/>}
-   {page==="test"&&<TestPage go={go}/>}
+    {page==="test"&&<TestPage go={go} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
    {page==="review"&&<ReviewPage go={go}/>}
-   {page==="progress"&&<ProgressPage/>}
+    {page==="progress"&&<ProgressPage data={userData}/>}
+    {page==="wrong"&&<EmptyDataPage title="Preguntas falladas" message="Aquí aparecerán las preguntas que respondas incorrectamente." go={go}/>}
+    {page==="favorites"&&<EmptyDataPage title="Favoritas" message="Aquí aparecerán las preguntas que marques como favoritas." go={go}/>}
+    {page==="history"&&<HistoryPage data={userData} go={go}/>}
    {page==="simulacrum"&&<SimulacrumPage go={go}/>}
   </main>
  </div>
 }
-const pageTitle=p=>({summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",progress:"Progreso",simulacrum:"Simulacro"}[p]);
+const pageTitle=p=>({summaries:"Temas",topic:"Tema",test:"Test",review:"Modo repaso",progress:"Estadísticas",wrong:"Preguntas falladas",favorites:"Favoritas",history:"Historial",simulacrum:"Simulacro"}[p]);
 
-function HomePage({go,openTopic}){return <div className="homeDashboard">
- <section className="hero"><div><span className="eyebrow">TU SESIÓN DE HOY</span><h2>Estudia rápido. <em>Avanza de verdad.</em></h2><p>Elige un resumen, haz unas preguntas y convierte tus errores en puntos.</p><div className="heroBtns"><button className="primary" onClick={()=>go("test")}>⚡ Test rápido <ChevronRight/></button><button className="secondary" onClick={()=>go("summaries")}>📚 Ver resúmenes</button></div></div><div className="heroOrb">🧪</div></section>
+const quickActions=[
+ ["test","Hacer test","Comienza una sesión",FileText],
+ ["summaries","Temas","Explora los bancos",LayoutGrid],
+ ["review","Modo repaso","Vuelve a practicar",Target],
+ ["wrong","Preguntas falladas","Revisa tus errores",CircleX],
+ ["favorites","Favoritas","Tus preguntas guardadas",Star],
+ ["progress","Estadísticas","Mide tu progreso",BarChart3],
+ ["history","Historial","Consulta tus tests",History]
+];
+
+function HomePage({go,openTopic,data}){return <div className="homeDashboard">
+ <section className="welcome"><span className="eyebrow">LABQUIZ</span><h2>Tu preparación, <em>a tu ritmo.</em></h2><p>Todo lo que necesitas para avanzar en tus oposiciones, en un solo lugar.</p></section>
+ <section className="quickSection"><div className="sectionHead"><div><h3>Accesos rápidos</h3><p>Empieza justo donde lo necesitas.</p></div></div><div className="quickGrid">{quickActions.map(([id,label,description,Icon])=><button className="quickAction" key={id} onClick={()=>go(id)}><span className="quickIcon"><Icon/></span><span><b>{label}</b><small>{description}</small></span><ChevronRight/></button>)}</div></section>
+ <section className="continueSection"><div><span className="eyebrow">CONTINUAR ESTUDIANDO</span><h3>{data.tests?"Continúa con tu preparación":"¡Empieza tu primer test!"}</h3><p>{data.tests?"Retoma tu último test cuando quieras.":"Responde preguntas para comenzar a construir tu progreso."}</p></div><button className="primary" onClick={()=>go("test")}><Play/> Empezar test</button></section>
+ <section className="topicsSection"><div className="sectionHead"><div><h3>Tus temas</h3><p>{topics.length} temas disponibles</p></div><button className="textBtn" onClick={()=>go("summaries")}>Ver todos <ChevronRight/></button></div><div className="homeTopics">{topics.map(topic=><button className="homeTopic" key={topic.id} onClick={()=>openTopic(topic)}><span className="topicNumber">{String(topic.id).padStart(2,"0")}</span><span className="homeTopicInfo"><b>{topic.title}</b><small>{getQuestionBank(topic.id).length?`${getQuestionBank(topic.id).length} preguntas`:(getPdfUrl(topic.id)?"PDF disponible":"Próximamente")}</small></span><ChevronRight/></button>)}</div></section>
  </div>}
 
 function Stat({icon,value,label}){return <div className="stat"><span>{icon}</span><strong>{value}</strong><small>{label}</small></div>}
@@ -71,7 +89,7 @@ function TopicPage({topic,go}){return <div>
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
-function TestPage({go}){
+function TestPage({go,onSessionComplete}){
  const [selectedTopicId,setSelectedTopicId]=useState(null);
  const [i,setI]=useState(0);
  const [score,setScore]=useState(0);
@@ -116,6 +134,7 @@ function TestPage({go}){
  const handleNext=()=>{
   if(!q) return;
   if(i>=totalQuestions-1){
+    onSessionComplete?.({topicId:selectedTopicId,answered:totalQuestions,correct:score,incorrect:totalQuestions-score,completedAt:new Date().toISOString()});
    setDone(true);
    setSelectedAnswer(null);
    setShowResult(false);
@@ -147,7 +166,11 @@ function TestPage({go}){
 
 function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando respondas tus primeras preguntas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>}
 
-function ProgressPage(){return <div><section className="section card"><h3>Sin datos de progreso</h3><p>El progreso aparecerá cuando completes tus primeros tests.</p></section></div>}
+function ProgressPage({data}){const accuracy=data.answered?Math.round(data.correct/data.answered*100):0;return <div><div className="stats"><Stat icon="🎯" value={`${accuracy}%`} label="Aciertos"/><Stat icon="🧠" value={data.answered} label="Preguntas respondidas"/><Stat icon="✅" value={data.correct} label="Aciertos"/><Stat icon="❌" value={data.incorrect} label="Fallos"/></div><section className="section card"><h3>{data.tests?"Progreso por tema":"Sin datos de progreso"}</h3><p>{data.tests?"Tus estadísticas se actualizan al completar cada test.":"El progreso aparecerá cuando completes tus primeros tests."}</p></section></div>}
+
+function EmptyDataPage({title,message,go}){return <div className="emptyPage"><div className="emptyIcon"><History/></div><h2>{title}</h2><p>{message}</p><button className="primary" onClick={()=>go("test")}><Play/> Empezar test</button></div>}
+
+function HistoryPage({data,go}){if(!data.history.length)return <EmptyDataPage title="Historial" message="Todavía no has realizado ningún test." go={go}/>;return <div><div className="pageIntro"><div><span className="eyebrow">HISTORIAL</span><h2>Tests realizados</h2></div></div><div className="historyList">{data.history.map((session,index)=><article className="historyItem" key={`${session.completedAt}-${index}`}><div><b>Tema {String(session.topicId).padStart(2,"0")}</b><small>{new Date(session.completedAt).toLocaleString("es-ES")}</small></div><strong>{session.correct}/{session.answered}</strong></article>)}</div><button className="primary" onClick={()=>go("test")}><Play/> Hacer otro test</button></div>}
 
 function SimulacrumPage({go}){return <div><section className="simHero"><Trophy/><h2>Simulacro de oposición</h2><p>El simulacro estará disponible cuando haya preguntas cargadas.</p><button className="secondary" onClick={()=>go("test")}>Ver temas disponibles</button></section></div>}
 
