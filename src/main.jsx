@@ -32,6 +32,8 @@ const loadUserData=()=>{try{return {...EMPTY_USER_DATA,...JSON.parse(localStorag
 const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${String(id).padStart(2,"0")}(?:\\D|$)` ,"i").test(path))?.[1]
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
 
+const getAnswerExplanation=question=>{const explanation=String(question.explanation||"").trim();if(explanation&&!explanation.includes("automáticamente por el resaltado"))return explanation;const correct=question.answers?.[question.correctAnswer]??"la opción marcada";return `La respuesta correcta es «${correct}», porque es la opción que corresponde al enunciado y al contenido evaluado en esta pregunta.`};
+
 function App(){
  const [page,setPage]=useState("home"),[mobile,setMobile]=useState(false);
  const [testConfig,setTestConfig]=useState({count:30,mode:"smart"});
@@ -135,18 +137,13 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
  const handleAnswer=(answerIndex)=>{
   if(!q || showResult) return;
   setSelectedAnswer(answerIndex);
- };
-
- const confirmAnswer=()=>{
-  if(!q || selectedAnswer===null || showResult) return;
   setShowResult(true);
-  onQuestionAnswered?.(recordQuestionAnswer(q,questionProgress,selectedAnswer===q.correctAnswer));
-  if(selectedAnswer===q.correctAnswer) setScore(prev=>prev+1);
-   else setFailedQuestions(prev=>[...prev,q]);
+  onQuestionAnswered?.(recordQuestionAnswer(q,questionProgress,answerIndex===q.correctAnswer));
+  if(answerIndex===q.correctAnswer) setScore(prev=>prev+1);
+  else setFailedQuestions(prev=>[...prev,q]);
  };
 
  const handleNext=()=>{
-  if(!q) return;
   if(i>=totalQuestions-1){
     const finalCorrect=score+(selectedAnswer===q.correctAnswer?1:0);
     onSessionComplete?.({topicId:selectedTopicId,topicIds:[...new Set(testQuestions.map(question=>question.topicId))],answered:totalQuestions,correct:finalCorrect,incorrect:totalQuestions-finalCorrect,percentage:Math.round(finalCorrect/totalQuestions*100),questionIds:testQuestions.map(question=>getQuestionIdForProgress(question,0)),completedAt:new Date().toISOString()});
@@ -176,7 +173,7 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
   return <div className="result card"><div className="resultIcon">🏆</div><h2>Test completado</h2><strong>{score}/{totalQuestions}</strong><p>{Math.round(score/totalQuestions*100)} %</p><p>✅ {score} aciertos · ❌ {totalQuestions-score} fallos</p>{failedQuestions.length>0&&<button className="primary" onClick={()=>{setTestQuestions(failedQuestions);setI(0);setScore(0);setFailedQuestions([]);setDone(false)}}>Repasar fallos</button>}<button className="secondary" onClick={()=>{setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false)}}>Repetir test</button><button className="secondary" onClick={resetSelection}>Cambiar test</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">Tema {String(currentTopic.id).padStart(2,"0")}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : (selectedAnswer===index ? "selected" : "")}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><p className={selectedAnswer===q.correctAnswer?"testStatus success":"testStatus error"}>{selectedAnswer===q.correctAnswer?"✅ Correcto":"❌ Incorrecto"}</p><p><strong>Respuesta correcta:</strong> {q.answers[q.correctAnswer]}</p><p><strong>Explicación:</strong> {q.explanation}</p></div>}<div className="testActions">{!showResult&&<button className="primary" disabled={selectedAnswer===null} onClick={confirmAnswer}>Confirmar</button>}{showResult&&<button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Ver resultado":"Siguiente"}</button>}<button className="secondary" onClick={resetSelection}>Cambiar test</button></div></div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">Tema {String(currentTopic.id).padStart(2,"0")}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : (selectedAnswer===index ? "selected" : "")}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><p className={selectedAnswer===q.correctAnswer?"testStatus success":"testStatus error"}>{selectedAnswer===q.correctAnswer?"✅ Correcto":"❌ Incorrecto"}</p><p><strong>Respuesta correcta:</strong> {q.answers[q.correctAnswer]}</p><p><strong>Explicación:</strong> {getAnswerExplanation(q)}</p></div>}<div className="testActions">{showResult&&<button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Ver resultado":"Siguiente"}</button>}<button className="secondary" onClick={resetSelection}>Cambiar test</button></div></div></div>;
 }
 
 function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando respondas tus primeras preguntas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>}
