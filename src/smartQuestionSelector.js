@@ -123,6 +123,17 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
   return shuffle(selected.map((item) => item.question), random);
 }
 
+export function selectQuestionsByMode(allQuestions = [], userProgress = {}, count = 30, mode = "smart", topicFilter = null, random = Math.random, now = Date.now()) {
+  const eligible = allQuestions.filter((question, index) => {
+    const state = userProgress[getQuestionId(question, index)] ?? createInitialQuestionProgress();
+    if (mode === "failed") return state.vecesFallada > 0;
+    if (mode === "new") return state.vecesVista === 0;
+    if (mode === "review") return state.vecesVista > 0 && (!state.fechaProximoRepaso || state.fechaProximoRepaso <= now);
+    return true;
+  });
+  return selectSmartQuestions(eligible, userProgress, count, topicFilter, random, now);
+}
+
 export function recordQuestionAnswer(question, userProgress = {}, isCorrect, now = Date.now()) {
   const id = getQuestionId(question);
   const current = { ...createInitialQuestionProgress(), ...(userProgress[id] || {}) };
