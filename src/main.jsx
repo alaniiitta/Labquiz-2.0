@@ -5,7 +5,7 @@ import "./styles.css";
 
 import questionBank from "./questions";
 import {parsePdfQuestions} from "./pdfPipeline.js";
-import {getQuestionIdForProgress,recordQuestionAnswer,selectSmartQuestions} from "./smartQuestionSelector.js";
+import {getQuestionIdForProgress,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 
@@ -108,12 +108,12 @@ function TestPage({go,questionProgress,onQuestionAnswered,onSessionComplete}){
   const totalQuestions=testQuestions.length;
   const q=testQuestions[i] ?? null;
  useEffect(()=>{
-    if(!selectedTopicId) return;
+    if(selectedTopicId===null) return;
     const topicIds=selectedTopicId===0?topics.map(topic=>topic.id):[selectedTopicId];
     const missing=topicIds.filter(topicId=>!loadedQuestions[topicId]&&!getQuestionBank(topicId).length&&getPdfUrl(topicId));
     if(!missing.length){
       const available=topicIds.flatMap(topicId=>(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId,id:question.id??`${topicId}-${question.number}`})));
-      setTestQuestions(selectSmartQuestions(available,questionProgress,30,selectedTopicId===0?null:selectedTopicId));
+      setTestQuestions(selectSmartQuestions(available,questionProgress,30,selectedTopicId===0?null:selectedTopicId).map(question=>shuffleQuestionOptions(question)));
       setLoading(false);
       return;
     }
@@ -157,7 +157,7 @@ function TestPage({go,questionProgress,onQuestionAnswered,onSessionComplete}){
   setShowResult(false);
  };
 
- if(!selectedTopicId){
+ if(selectedTopicId===null){
     return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small></button>{topics.map(topic=><button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{getQuestionBank(topic.id).length||getPdfUrl(topic.id)?"Preguntas disponibles":"Próximamente"}</small></button>)}</div></div>;
  }
 
