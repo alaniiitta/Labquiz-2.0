@@ -1,0 +1,3363 @@
+{
+  "tema": 9,
+  "titulo": "Coagulación",
+  "source_file": "Test tema 9 Coagulación (respuestas).pdf",
+  "total_questions": 259,
+  "questions": [
+    {
+      "id": 1,
+      "question": "El déficit congénito de Proteína S puede producir:",
+      "options": {
+        "A": "Episodios repetidos de trombosis.",
+        "B": "Afibrinogenemia.",
+        "C": "Crisis hemolíticas de repetición.",
+        "D": "Hemorragias frecuentes en las articulaciones."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Episodios repetidos de trombosis."
+    },
+    {
+      "id": 2,
+      "question": "¿Qué factor estabiliza la formación del coagulo?",
+      "options": {
+        "A": "Factor IX.",
+        "B": "Factor VII.",
+        "C": "Factor XII.",
+        "D": "Factor XIII."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Factor XIII."
+    },
+    {
+      "id": 3,
+      "question": "¿Cuantos minutos dura la fase de agregación plaquetaria?:",
+      "options": {
+        "A": "10 minutos.",
+        "B": "20 minutos.",
+        "C": "30 minutos.",
+        "D": "40 minutos."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "10 minutos."
+    },
+    {
+      "id": 4,
+      "question": "¿Qué determinación es vitamina K-dependiente?",
+      "options": {
+        "A": "Fosfatasa alcalina.",
+        "B": "Tiempo de protrombina.",
+        "C": "Albúmina.",
+        "D": "GOT."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Tiempo de protrombina."
+    },
+    {
+      "id": 5,
+      "question": "¿Qué prueba deberíamos realizar para determinar la fragilidad capilar?",
+      "options": {
+        "A": "Succión.",
+        "B": "IVY",
+        "C": "Factor plaquetario IV",
+        "D": "TEG"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Succión."
+    },
+    {
+      "id": 6,
+      "question": "Si queremos provocar una agregación plaquetaria indirecta, añadiremos:",
+      "options": {
+        "A": "ADP",
+        "B": "Adrenalina.",
+        "C": "Factor de Born.",
+        "D": "Todas son ciertas."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Adrenalina."
+    },
+    {
+      "id": 7,
+      "question": "En el caso que la petición tuviera una anotación por el médico, diciendo que el paciente ha tomado ácido acetil salicílico, heparina o anticoagulante oral, sería importante saberlo por posible alteración de:",
+      "options": {
+        "A": "Hipertriglicemia.",
+        "B": "Coagulación.",
+        "C": "Bioquímica.",
+        "D": "Hipoglucemia."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Coagulación."
+    },
+    {
+      "id": 8,
+      "question": "El control por el laboratorio de la terapéutica con anticoagulantes orales se realiza con:",
+      "options": {
+        "A": "Tiempo de coagulación.",
+        "B": "Tiempo de hemorragia.",
+        "C": "Tiempo de protrombina.",
+        "D": "Tiempo de trombina."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de protrombina."
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es el factor estabilizante de la fibrina?",
+      "options": {
+        "A": "V",
+        "B": "VII",
+        "C": "IX",
+        "D": "XIII"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "XIII"
+    },
+    {
+      "id": 10,
+      "question": "Señale la respuesta correcta sobre los trastornos adquiridos de la coagulación",
+      "options": {
+        "A": "Son más frecuentes que los trastornos",
+        "B": "Suelen afectar a un solo factor.",
+        "C": "En ellos el sangrado suele aparecer en un solo sitio.",
+        "D": "Todas son falsas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Son más frecuentes que los trastornos"
+    },
+    {
+      "id": 11,
+      "question": "¿Qué prueba es más adecuada para el estudio de la vía intrínseca de la coagulación?",
+      "options": {
+        "A": "Tiempo de trombina.",
+        "B": "Tiempo de protrombina.",
+        "C": "Tiempo de tromboplastina parcial activada.",
+        "D": "Determinación de fibrinógeno."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de tromboplastina parcial activada."
+    },
+    {
+      "id": 12,
+      "question": "¿Qué prueba es más adecuada para el estudio de la vía extrínseca de la coagulación?",
+      "options": {
+        "A": "Tiempo de trombina.",
+        "B": "Tiempo de protrombina.",
+        "C": "Tiempo de tromboplastina parcial activada.",
+        "D": "Recuento de plaquetas."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Tiempo de protrombina."
+    },
+    {
+      "id": 13,
+      "question": "¿Qué factor de coagulación es de vida media más corta?",
+      "options": {
+        "A": "Factor II.",
+        "B": "Factor VII.",
+        "C": "Factor IX.",
+        "D": "Factor VIII."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Factor VII."
+    },
+    {
+      "id": 14,
+      "question": "De las siguientes alteraciones biológicas causantes de un estado de trombofilia o hipercoagulabilidad señale cual es las más frecuente en la población occidental:",
+      "options": {
+        "A": "Deficiencia en antitrombina",
+        "B": "Presencia de anticoagulante lúpico.",
+        "C": "Resistencia a la proteína C activada (Factor V de",
+        "D": "Deficiencia en proteína S."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Resistencia a la proteína C activada (Factor V de"
+    },
+    {
+      "id": 15,
+      "question": "Cuando hablamos de un paciente con Hemofilia A. ¿En qué factor de coagulación se produce el déficit?",
+      "options": {
+        "A": "Factor V.",
+        "B": "Factor VII.",
+        "C": "Factor VIII.",
+        "D": "Factor X."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 16,
+      "question": "Señale el factor de la coagulación común a la vía intrínseca y a la vía extrínseca:",
+      "options": {
+        "A": "Factor XI.",
+        "B": "Factor VIII.",
+        "C": "Protrombina.",
+        "D": "Factor III."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Protrombina."
+    },
+    {
+      "id": 17,
+      "question": "Cuál de las siguientes respuestas es correcta en relación al Factor IX de la coagulación:",
+      "options": {
+        "A": "También llamado Factor de Navidad.",
+        "B": "Actúa en la Vía Extrínseca.",
+        "C": "Es un cofactor proteico.",
+        "D": "Todas las anteriores."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "También llamado Factor de Navidad."
+    },
+    {
+      "id": 18,
+      "question": "¿Qué pruebas seleccionamos para la monitorización de un paciente que recibe trombolíticos y está anticoagulado con heparina?",
+      "options": {
+        "A": "TT (Tiempo de trombina).",
+        "B": "Tiempo de reptilase.",
+        "C": "TP (Tiempo de protrombina).",
+        "D": "TT y Tiempo de reptilase."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "TT y Tiempo de reptilase."
+    },
+    {
+      "id": 19,
+      "question": "¿Con qué método se detecta el anticoagulante lúpico?",
+      "options": {
+        "A": "Por inmunofluorescencia.",
+        "B": "Mediante pruebas coagulométricas.",
+        "C": "Nefelometría.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Mediante pruebas coagulométricas."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué factor es la trombina?",
+      "options": {
+        "A": "Factor IXa.",
+        "B": "Factor lla.",
+        "C": "Factor Vlla.",
+        "D": "Factor Xllla."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Factor lla."
+    },
+    {
+      "id": 21,
+      "question": "¿Cuáles son los factores comunes a las vías extrínsecas e intrínsecas?",
+      "options": {
+        "A": "I, II, V; X,",
+        "B": "I, II, VII, X.",
+        "C": "I, II, VII, VIII.",
+        "D": "I, III, V, VII."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "I, II, V; X,"
+    },
+    {
+      "id": 22,
+      "question": "La agregación plaquetaria no está alterada en:",
+      "options": {
+        "A": "Hemofilia B",
+        "B": "Enfermedad de Willebrand",
+        "C": "Tratamiento con aspirina",
+        "D": "Los está en todas"
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Hemofilia B"
+    },
+    {
+      "id": 23,
+      "question": "¿Qué prueba se utiliza para controlar a un paciente tratado con dicumarinas",
+      "options": {
+        "A": "Dosificación de fibrinógeno",
+        "B": "Recuentos plaquetarios",
+        "C": "Tiempo de protrombina",
+        "D": "Tiempo de cefalina caolín"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de protrombina"
+    },
+    {
+      "id": 24,
+      "question": "En la hemofilia que patrón esperaría encontrar:",
+      "options": {
+        "A": "TP normal, TTPA normal, TT alargado",
+        "B": "TP normal, TTPA alargado, TT normal",
+        "C": "TP alargado, TTPA alargado, TT normal",
+        "D": "TP alargado, TTPA normal, TT alargado"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "TP normal, TTPA alargado, TT normal"
+    },
+    {
+      "id": 25,
+      "question": "Una pareja entre una mujer normal y un hombre hemofílico:",
+      "options": {
+        "A": "Todos los hijos varones padecerán la enfermedad",
+        "B": "El 50% de las hijas serán portadoras",
+        "C": "Todas las hijas serán portadoras",
+        "D": "El 50% de los hijos varones padecerán la enfermedad"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Todas las hijas serán portadoras"
+    },
+    {
+      "id": 26,
+      "question": "¿Qué es el INR?",
+      "options": {
+        "A": "Índice de sensibilidad nacional",
+        "B": "Proporción internacional normalizada",
+        "C": "Patrón de referencia de tromboplastina",
+        "D": "Índice nacional racional"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Proporción internacional normalizada"
+    },
+    {
+      "id": 27,
+      "question": "Al Factor XIII de la coagulación se le conoce también como:",
+      "options": {
+        "A": "Factor Stuart",
+        "B": "Factor Christmas",
+        "C": "Factor estabilizante de la fibrina",
+        "D": "Factor de Voguel"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Factor estabilizante de la fibrina"
+    },
+    {
+      "id": 28,
+      "question": "Cuáles de los siguientes factores no es vitamina K dependiente:",
+      "options": {
+        "A": "Factor X",
+        "B": "Proteína C",
+        "C": "Proteína S",
+        "D": "Factor VIII"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Factor VIII"
+    },
+    {
+      "id": 29,
+      "question": "¿Qué factor de coagulación inicia la vía intrínseca?",
+      "options": {
+        "A": "Factor II",
+        "B": "Factor IV",
+        "C": "Factor VI",
+        "D": "Factor XII"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Factor XII"
+    },
+    {
+      "id": 30,
+      "question": "Recibimos también un tubo de tapón celeste con sangre para practicar las pruebas de coagulación. ¿Qué anticoagulante es el usado en este tipo de tubos?",
+      "options": {
+        "A": "Heparina sódica",
+        "B": "EDTA",
+        "C": "Citrato sódico",
+        "D": "Heparina litio"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Citrato sódico"
+    },
+    {
+      "id": 31,
+      "question": "¿Qué sustancia es segregada por las plaquetas al producirse su agregación?:",
+      "options": {
+        "A": "Renina.",
+        "B": "Serotonina.",
+        "C": "Insulina.",
+        "D": "Globulina."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Serotonina."
+    },
+    {
+      "id": 32,
+      "question": "¿Qué prueba de las siguientes estudia la vía extrínseca de la coagulación?:",
+      "options": {
+        "A": "Tiempo de tromboplastina parcial activada (TTPA).",
+        "B": "Tiempo de protombina (TP).",
+        "C": "Tiempo de recalcificación del plasma.",
+        "D": "Tiempo de tromboplastina parcial (TTP)."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Tiempo de protombina (TP)."
+    },
+    {
+      "id": 33,
+      "question": "¿Qué sustancia se usa como sustituto del f3p en la determinación del TTPA?:",
+      "options": {
+        "A": "Lecitina.",
+        "B": "Caolín.",
+        "C": "Cefalina.",
+        "D": "Heparina."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Cefalina."
+    },
+    {
+      "id": 34,
+      "question": "¿Cuál es la sustancia que da lugar al coágulo después de consolidar el agregado plaquetario?:",
+      "options": {
+        "A": "Plasmina.",
+        "B": "Fibrinógeno.",
+        "C": "Plasminógeno.",
+        "D": "Fibrina."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Fibrina."
+    },
+    {
+      "id": 35,
+      "question": "La hemofilia es un trastorno congénito ligado al cromosoma X ¿A qué factor de la coagulación afecta la hemofilia B?:",
+      "options": {
+        "A": "Factor VIII",
+        "B": "Factor V",
+        "C": "Factor X",
+        "D": "Factor IX"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Factor IX"
+    },
+    {
+      "id": 36,
+      "question": "Para estudiar la agregación plaquetaria usaremos:",
+      "options": {
+        "A": "El método de IVY combinado.",
+        "B": "El procedimiento fotométrico de Born.",
+        "C": "Métodos inmunológicos.",
+        "D": "Métodos de sangría provocada."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "El procedimiento fotométrico de Born."
+    },
+    {
+      "id": 37,
+      "question": "El sustrato cromogénico usado en el estudio de la ATIII es:",
+      "options": {
+        "A": "A-523.",
+        "B": "S-223822.",
+        "C": "L-43652514.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "S-223822."
+    },
+    {
+      "id": 38,
+      "question": "Podemos definir al suero como:",
+      "options": {
+        "A": "Es lo mismo que el plasma.",
+        "B": "Plasma al que se le ha añadido factor de la coagulación.",
+        "C": "Parte forme de la sangre.",
+        "D": "Es plasma al que se le ha eliminado el fibrinógeno."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Es plasma al que se le ha eliminado el fibrinógeno."
+    },
+    {
+      "id": 39,
+      "question": "Los tromboxanos que se producen en la activación de las plaquetas:",
+      "options": {
+        "A": "Se producen a partir de los leucotrienos.",
+        "B": "Son vasoconstrictores.",
+        "C": "Inhiben la agregación plaquetaria.",
+        "D": "Se producen en las células endoteliales."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Son vasoconstrictores."
+    },
+    {
+      "id": 40,
+      "question": "Para valorar la agregación plaquetaria, se puede utilizar:",
+      "options": {
+        "A": "Calcio.",
+        "B": "Protrombina.",
+        "C": "ADP.",
+        "D": "ATP."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "ADP."
+    },
+    {
+      "id": 41,
+      "question": "Para control de la terapia con dicumarínicos (Sintrom) se emplea:",
+      "options": {
+        "A": "TT (Tiempo de Trombina).",
+        "B": "TP (Tiempo de protrombina).",
+        "C": "APTT (Tiempo de Tromboplastina Parcial Activada).",
+        "D": "TR (Tiempo de Reptilasa)."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "TP (Tiempo de protrombina)."
+    },
+    {
+      "id": 42,
+      "question": "La plasmina, al actuar sobre la fibrina, produce:",
+      "options": {
+        "A": "Dímeros D.",
+        "B": "PDF (Productos de degradación del fibrinógeno).",
+        "C": "Dímeros D y PDF.",
+        "D": "Monómeros de fibrina."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Dímeros D y PDF."
+    },
+    {
+      "id": 43,
+      "question": "Para las pruebas de coagulación se emplea sangre:",
+      "options": {
+        "A": "Con citrato 1:4.",
+        "B": "Con citrato 1:9.",
+        "C": "Con CPD y citrato.",
+        "D": "Con heparina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Con citrato 1:9."
+    },
+    {
+      "id": 44,
+      "question": "La sustancia que inhibe la adhesión de los trombocitos es:",
+      "options": {
+        "A": "Endoperóxido PGG2.",
+        "B": "Prostaglandina E2.",
+        "C": "Prostaciclina.",
+        "D": "Tromboxano A2."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Prostaciclina."
+    },
+    {
+      "id": 45,
+      "question": "Los anticuerpos lúpicos pueden detectarse principalmente con:",
+      "options": {
+        "A": "TTPA (Tiempo de Tromboplastina Parcial",
+        "B": "TP (Tiempo de protrombina).",
+        "C": "TT (Tiempo de Trombina).",
+        "D": "TR (Tiempo de Reptilasa)."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "TTPA (Tiempo de Tromboplastina Parcial"
+    },
+    {
+      "id": 46,
+      "question": "En las coagulopatías por déficit de vitamina K se altera notoriamente en forma temprana el:",
+      "options": {
+        "A": "TTPA (Tiempo de Tromboplastina Parcial activada).",
+        "B": "TP (Tiempo de protrombina).",
+        "C": "TT (Tiempo de Trombina).",
+        "D": "Fibrinógeno."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "TP (Tiempo de protrombina)."
+    },
+    {
+      "id": 47,
+      "question": "¿Uno de estos factores no es vitamina K- dependientes?",
+      "options": {
+        "A": "Factor II.",
+        "B": "Factor VII.",
+        "C": "Factor VIII.",
+        "D": "Factor X."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 48,
+      "question": "¿Cómo se denomina el conjunto de mecanismos biológicos mediante los cuales se consigue prevenir la salida de sangre del interior de los vasos?",
+      "options": {
+        "A": "Fibrinólisis.",
+        "B": "Hemostasia.",
+        "C": "Adhesión plaquetaria.",
+        "D": "Agregación plaquetaria."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Hemostasia."
+    },
+    {
+      "id": 49,
+      "question": "La Hemofilia A es un déficit de:",
+      "options": {
+        "A": "Factor XII.",
+        "B": "Factor V.",
+        "C": "Factor VIII.",
+        "D": "Factor IX."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 50,
+      "question": "¿Qué otro nombre recibe el Tiempo de Protrombina?",
+      "options": {
+        "A": "Tiempo de Trombina",
+        "B": "Fibrinógeno.",
+        "C": "Tiempo de Quick.",
+        "D": "Tiempo de Reptilase"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de Quick."
+    },
+    {
+      "id": 51,
+      "question": "El gen de la Hemofilia es un gen ligado al",
+      "options": {
+        "A": "Cromosoma X",
+        "B": "Cromosoma 8",
+        "C": "Cromosoma Y",
+        "D": "Cromosoma 9"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Cromosoma X"
+    },
+    {
+      "id": 52,
+      "question": "¿Qué parámetro es necesario para realizar el control de la terapia con anticoagulantes orales (ACO)?",
+      "options": {
+        "A": "El tiempo de Trombina.",
+        "B": "El Tiempo de Protrombina.",
+        "C": "El Tiempo de Reptilase.",
+        "D": "El fibrinógeno."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "El Tiempo de Protrombina."
+    },
+    {
+      "id": 53,
+      "question": "La fibrinólisis tiene como finalidad lisar el coágulo innecesario, una vez ha cumplido su misión. ¿Qué agente es el responsable de esta lisis?",
+      "options": {
+        "A": "Trombina.",
+        "B": "Antitrombina III.",
+        "C": "Heparina.",
+        "D": "Plasmina."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Plasmina."
+    },
+    {
+      "id": 54,
+      "question": "En las pruebas de coagulación se utilizan tubos con un anticoagulante especial, ¿cuál?:",
+      "options": {
+        "A": "Heparina sódica en proporción anticoagulante/sangre de 1/9.",
+        "B": "Citrato sódico en proporción anticoagulante/sangre de 1/4.",
+        "C": "Citrato potásico en proporción anticoagulante/sangre de 1/9.",
+        "D": "Citrato sódico en proporción anticoagulante/sangre de 1/9."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Citrato sódico en proporción anticoagulante/sangre de 1/9."
+    },
+    {
+      "id": 55,
+      "question": "¿Dónde se encuentra presente el fibrinógeno?:",
+      "options": {
+        "A": "En el suero.",
+        "B": "En el plasma.",
+        "C": "En los hematíes.",
+        "D": "En las plaquetas"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "En el plasma."
+    },
+    {
+      "id": 56,
+      "question": "El factor VIII de la coagulación es una glucoproteína que presenta varias fracciones. ¿Qué función realiza la fracción VIII-C de esta glucoproteína?:",
+      "options": {
+        "A": "Cofactor de la vía intrínseca y activación del",
+        "B": "Activación del factor IX.",
+        "C": "Facilita la agregación de los trombocitos y contribuye a la adhesión de las plaquetas en el endotelio vascular.",
+        "D": "Activación de la tromboplastina."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Cofactor de la vía intrínseca y activación del"
+    },
+    {
+      "id": 57,
+      "question": "De los siguientes factores, indique cual no es vitamina K dependiente:",
+      "options": {
+        "A": "II",
+        "B": "V",
+        "C": "VII",
+        "D": "X"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "V"
+    },
+    {
+      "id": 58,
+      "question": "Los factores de la coagulación:",
+      "options": {
+        "A": "Son liberados por las plaquetas tras formar el trombo plaquetario.",
+        "B": "Son factores humorales que circulan en el plasma",
+        "C": "Son factores plasmáticos que circulan activados.",
+        "D": "Solo se sintetizan cuando existe una hemorragia."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Son factores humorales que circulan en el plasma"
+    },
+    {
+      "id": 59,
+      "question": "Respecto a la función de las plaquetas que afirmación no es cierta:",
+      "options": {
+        "A": "Previenen la salida de sangre de los vasos",
+        "B": "Su única función es constituir el trombo",
+        "C": "Contienen diversos factores que intervienen en la coagulación",
+        "D": "Su déficit produce una tendencia al sangrado"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Su única función es constituir el trombo"
+    },
+    {
+      "id": 60,
+      "question": "¿Qué prueba se utiliza para controlar a un paciente tratado con dicumarinas",
+      "options": {
+        "A": "Dosificación de fibrinógeno",
+        "B": "Recuentos plaquetarios",
+        "C": "Tiempo de protrombina",
+        "D": "Tiempo de cefalina caolín"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de protrombina"
+    },
+    {
+      "id": 61,
+      "question": "La agregación plaquetaria no está alterada en:",
+      "options": {
+        "A": "Hemofilia B",
+        "B": "Enfermedad de Willebrand",
+        "C": "Tratamiento con aspirina",
+        "D": "Los está en todas"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Hemofilia B"
+    },
+    {
+      "id": 62,
+      "question": "Cuáles de los siguientes factores no es vitamina K dependiente:",
+      "options": {
+        "A": "Factor X",
+        "B": "Proteína C",
+        "C": "Proteína S",
+        "D": "Factor VIII"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Factor VIII"
+    },
+    {
+      "id": 63,
+      "question": "¿Cuál de las siguientes pruebas estudia la vía intrínseca de la coagulación?",
+      "options": {
+        "A": "TTP",
+        "B": "Tiempo de reptilase",
+        "C": "Tiempo de coagulación",
+        "D": "TT"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "TTP"
+    },
+    {
+      "id": 64,
+      "question": "La Hemofilia B está causada por:",
+      "options": {
+        "A": "Déficit del factor VII",
+        "B": "Déficit del factor VIII",
+        "C": "Déficit del factor IX",
+        "D": "Déficit del factor X"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Déficit del factor IX"
+    },
+    {
+      "id": 65,
+      "question": "¿Cuál de los siguientes trastornos no es causa de hemorragia?",
+      "options": {
+        "A": "Déficit de plaquetas",
+        "B": "Déficit de la Antitrombina III",
+        "C": "Déficit de la Vitamina K",
+        "D": "Hemofilia A"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Déficit de la Antitrombina III"
+    },
+    {
+      "id": 66,
+      "question": "¿Cuál de los siguientes cationes es fundamental en el proceso de coagulación?",
+      "options": {
+        "A": "Litio",
+        "B": "Potasio",
+        "C": "Plomo",
+        "D": "Calcio"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Calcio"
+    },
+    {
+      "id": 67,
+      "question": "La destrucción de la fibrina está realizada por:",
+      "options": {
+        "A": "La plasmina.",
+        "B": "La proteína C.",
+        "C": "La proteína S.",
+        "D": "Todas son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "La plasmina."
+    },
+    {
+      "id": 68,
+      "question": "El inhibidor más importante de las reacciones de coagulación es:",
+      "options": {
+        "A": "Alfa -2-macroglobulina.",
+        "B": "Alfa-1-antitripsina.",
+        "C": "Antitrombina III.",
+        "D": "Todas son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Antitrombina III."
+    },
+    {
+      "id": 69,
+      "question": "Nomenclatura de los factores plasmáticos de la coagulación. El factor II es:",
+      "options": {
+        "A": "Fibrinógeno.",
+        "B": "Protrombina.",
+        "C": "Proacelerina.",
+        "D": "Proconvertina."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Protrombina."
+    },
+    {
+      "id": 70,
+      "question": "En relación a la prueba de laboratorio llamada “tiempo de trombina (TT)” cuál de las respuestas es correcta:",
+      "options": {
+        "A": "En presencia de heparina no presenta un tiempo alargado.",
+        "B": "Está alterada en una hipofibrinogenemia o",
+        "C": "Es sensible a la concentración de todos los factores de la coagulación.",
+        "D": "Se realiza para el estudio del factor von Willebrand."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Está alterada en una hipofibrinogenemia o"
+    },
+    {
+      "id": 71,
+      "question": "En un paciente con historia de hemorragias, que tiene los tiempos de protrombina, tromboplastina parcial activada, trombina y reptilasa normales, se recomienda estudiar:",
+      "options": {
+        "A": "El factor XIII.",
+        "B": "La función plaquetaria.",
+        "C": "El factor Von Willebrand.",
+        "D": "Todos ellos."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todos ellos."
+    },
+    {
+      "id": 72,
+      "question": "La agregación plaquetaria no está alterada en:",
+      "options": {
+        "A": "Hemofilia B.",
+        "B": "Enfermedad de Willebrad.",
+        "C": "Tratamiento con aspirina.",
+        "D": "Lo está en todas."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Hemofilia B."
+    },
+    {
+      "id": 73,
+      "question": "¿Qué prueba se utiliza para controlar a un paciente tratado con dicumarinas?:",
+      "options": {
+        "A": "Dosificación del fibrinógeno.",
+        "B": "Recuentos plaquetarios.",
+        "C": "Tiempo de protombina.",
+        "D": "Tiempo de cefalina caolín."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de protombina."
+    },
+    {
+      "id": 74,
+      "question": "Cuáles de los siguientes factores no es vitamina K dependiente:",
+      "options": {
+        "A": "Factor X",
+        "B": "Proteína C",
+        "C": "Proteína S",
+        "D": "Factor VIII"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Factor VIII"
+    },
+    {
+      "id": 75,
+      "question": "El anticoagulante que se utiliza para procedimientos de coagulación, incluidos los tiempos de protrombina y tromboplastina y que ayuda a evitar el rápido deterioro de los factores lábiles de la coagulación como el factor V y el factor VII es:",
+      "options": {
+        "A": "Heparina sódica",
+        "B": "EDTA",
+        "C": "Heparina de litio",
+        "D": "Citrato sódico"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Citrato sódico"
+    },
+    {
+      "id": 76,
+      "question": "El anticoagulante lúpico (LA):",
+      "options": {
+        "A": "Es un anticuerpo antimembrana citoplasmático.",
+        "B": "Inhibe el paso de protrombina a trombina.",
+        "C": "Está presente en una tercera parte de los enfermos de Lupus eritematoso sistémico.",
+        "D": "Todas son ciertas."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 77,
+      "question": "Uno de estos parámetros no se puede obtener en suero:",
+      "options": {
+        "A": "PCR.",
+        "B": "Litio.",
+        "C": "Dímero-D.",
+        "D": "Bilirrubina."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Dímero-D."
+    },
+    {
+      "id": 78,
+      "question": "¿Cuál es la antitrombina que lleva a cabo la neutralización de la trombina en el suero:",
+      "options": {
+        "A": "Antitrombina I.",
+        "B": "Antitrombina II.",
+        "C": "Antitrombina III.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Antitrombina III."
+    },
+    {
+      "id": 79,
+      "question": "¿A qué fase corresponden estos dos periodos: Formación del coágulo y lisis del coágulo:",
+      "options": {
+        "A": "Fase vascular.",
+        "B": "Fase plaquetaria.",
+        "C": "Fase de coagulación plasmática.",
+        "D": "Todas correctas."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Fase de coagulación plasmática."
+    },
+    {
+      "id": 80,
+      "question": "Los anticoagulantes orales están indicados en:",
+      "options": {
+        "A": "Trombosis venosa profunda (TVP).",
+        "B": "Tromboembolismo pulmonar(TEP).",
+        "C": "Prótesis valvular mecánica.",
+        "D": "Todas correctas."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas correctas."
+    },
+    {
+      "id": 81,
+      "question": "El fibrinógeno interviene en:",
+      "options": {
+        "A": "Formación del trombo.",
+        "B": "Formación del coágulo.",
+        "C": "Activación en cascada de la coagulación.",
+        "D": "Lisis del coágulo."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Formación del coágulo."
+    },
+    {
+      "id": 82,
+      "question": "Una de las siguientes pruebas no se utiliza en el estudio de una trombofilia. ¿cuál?",
+      "options": {
+        "A": "Vitamina K.",
+        "B": "Antitrombina III.",
+        "C": "Factor V de Leyden.",
+        "D": "Anticoagulante lúpico."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Vitamina K."
+    },
+    {
+      "id": 83,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa, respecto a la hemofilia A?",
+      "options": {
+        "A": "Se debe a un déficit de factor VIII.",
+        "B": "Se hereda como un rasgo recesivo ligado al cromosoma X.",
+        "C": "Su incidencia se estima en 1 caso por cada 5000 recién nacidos vivos.",
+        "D": "Añadiendo plasma normal al 50%, al plasma problema, las pruebas de coagulación no se modifican."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Añadiendo plasma normal al 50%, al plasma problema, las pruebas de coagulación no se modifican."
+    },
+    {
+      "id": 84,
+      "question": "El INR (international normalized ratio), se calcula en función de la:",
+      "options": {
+        "A": "Tromboplastina.",
+        "B": "Cefalina.",
+        "C": "Trombina.",
+        "D": "Protrombina."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Tromboplastina."
+    },
+    {
+      "id": 85,
+      "question": "¿Cuál de los siguientes factores de la coagulación es vitamina k dependiente?",
+      "options": {
+        "A": "XII.",
+        "B": "Protrombina.",
+        "C": "XI.",
+        "D": "VIII."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Protrombina."
+    },
+    {
+      "id": 86,
+      "question": "¿Cuál es el test de mayor utilidad para monitorizar en caso necesario el tratamiento con heparina de bajo peso molecular?:",
+      "options": {
+        "A": "APTT.",
+        "B": "INR.",
+        "C": "Factor VII.",
+        "D": "Anti factor X activado."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Anti factor X activado."
+    },
+    {
+      "id": 87,
+      "question": "La presencia de anticuerpos contra la beta2 glicoproteína está relacionada con:",
+      "options": {
+        "A": "Síndrome antifosfolípido.",
+        "B": "Artritis reumatoide.",
+        "C": "Hepatitis autoinmune.",
+        "D": "Enfermedad inflamatoria intestinal."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Síndrome antifosfolípido."
+    },
+    {
+      "id": 88,
+      "question": "La vitamina K es necesaria para la actividad de cuál de los siguientes Factores de coagulación:",
+      "options": {
+        "A": "Factor V.",
+        "B": "Factor X.",
+        "C": "Factor XI.",
+        "D": "Factor XII."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Factor X."
+    },
+    {
+      "id": 89,
+      "question": "Un hombre de 30 años sin antecedentes personales o familiares de sangrado es admitido en Urgencias por una enfermedad psiquiátrica, donde se observa un aPTT alargado a 98 segundos (ratio 2,9) y un PT normal, tiempo de trombina y fibrinógeno. El estudio de mezcla a 1:1 corrige el intervalo de aPTT al rango de referencia, y la incubación del estudio de mezclas no muestra prolongación en comparación al control. ¿Cuál de los siguientes diagnósticos es el más probable?:",
+      "options": {
+        "A": "Contaminación con heparina.",
+        "B": "Anticoagulante lúpico.",
+        "C": "Deficiencia del factor V.",
+        "D": "Deficiencia de factor XII."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Deficiencia de factor XII."
+    },
+    {
+      "id": 90,
+      "question": "En la práctica clínica diaria, ¿cuál es la causa más frecuente de un TTPAa alargado que NO corrige tras añadir plasma normal?:",
+      "options": {
+        "A": "Déficit de factores de la vía intrínseca.",
+        "B": "Presencia de heparina en la muestra.",
+        "C": "Hepatopatía crónica.",
+        "D": "Déficit de factores de la vía extrínseca"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Presencia de heparina en la muestra."
+    },
+    {
+      "id": 91,
+      "question": "¿Cuál de las siguientes enfermedades está ligada al cromosoma X?:",
+      "options": {
+        "A": "Fibrosis quística.",
+        "B": "Anemia falciforme.",
+        "C": "Hemofilia A.",
+        "D": "Corea de Huntington"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Hemofilia A."
+    },
+    {
+      "id": 92,
+      "question": "El TTPA se alarga en todos los casos expuestos excepto:",
+      "options": {
+        "A": "Paciente tratado con warfarina.",
+        "B": "Paciente con déficit de factor XI.",
+        "C": "Paciente con dabigatran.",
+        "D": "Paciente con déficit de factor VII"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Paciente con déficit de factor VII"
+    },
+    {
+      "id": 93,
+      "question": "De forma general, los valores de INR en paciente anticoagulado oral deben oscilar entre:",
+      "options": {
+        "A": "2 - 3.5",
+        "B": "7-10",
+        "C": "10-15",
+        "D": "20-25"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "2 - 3.5"
+    },
+    {
+      "id": 94,
+      "question": "Para el estudio de la presencia de anticoagulantes circulantes, se realiza:",
+      "options": {
+        "A": "Tiempo de Caolín.",
+        "B": "Tiempo de veneno de Russell.",
+        "C": "A y B, son ciertas.",
+        "D": "Ninguna técnica es correcta."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "A y B, son ciertas."
+    },
+    {
+      "id": 95,
+      "question": "¿Qué técnica de laboratorio se puede realizar después de un resultado alargado de TTPA para descartar una posible contaminación por heparina en la muestra del paciente?",
+      "options": {
+        "A": "Dímero-D",
+        "B": "TP",
+        "C": "Tiempo de trombina/reptilasa",
+        "D": "Fibrinógeno"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de trombina/reptilasa"
+    },
+    {
+      "id": 96,
+      "question": "En el momento de llevar a cabo los tests de protrombina (TP) y tromboplastina parcial activada (TTPA) en el analizador automático, qué reactivo es imprescindible para su realización, ¿ya que retoma el proceso coagulativo de la sangre?",
+      "options": {
+        "A": "El fibrinógeno",
+        "B": "La trombina E) La heparina",
+        "D": "El calcio"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "El calcio"
+    },
+    {
+      "id": 97,
+      "question": "¿En qué consiste el tiempo de tromboplastina parcial activada (TTPA)?",
+      "options": {
+        "A": "Medida la actividad de la vía extrínseca",
+        "B": "Medida la actividad de la vía intrínseca únicamente",
+        "C": "Medida la actividad de la vía intrínseca y común",
+        "D": "Mide la actividad de la vía extrínseca y común"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Medida la actividad de la vía intrínseca y común"
+    },
+    {
+      "id": 98,
+      "question": "En la enfermedad de Von Willebrand el dato de laboratorio más importante para establecer el diagnóstico es:",
+      "options": {
+        "A": "Tiempo de protrombina disminuido",
+        "B": "Disminución del factor IX",
+        "C": "Tiempo de sangría prolongado",
+        "D": "Recuento de plaquetas disminuido"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de sangría prolongado"
+    },
+    {
+      "id": 99,
+      "question": "¿Cuál es el factor plasmático más abundante?",
+      "options": {
+        "A": "Fibrinógeno",
+        "B": "Factor XI",
+        "C": "Factor XII",
+        "D": "Protrombina"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Fibrinógeno"
+    },
+    {
+      "id": 100,
+      "question": "¿Qué proteína de las siguientes se sintetiza en el hígado y es vitamina K dependiente?",
+      "options": {
+        "A": "Alfa2-macroglobulina.",
+        "B": "Alfa2-antiplasmina.",
+        "C": "Proteína C.",
+        "D": "Antitrombina III."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Proteína C."
+    },
+    {
+      "id": 101,
+      "question": "El efecto anticoagulante de la heparina se ejerce a través de:",
+      "options": {
+        "A": "La inhibición de los factores sensibles a la trombina.",
+        "B": "La Antiplasmina.",
+        "C": "La Antitrombina III.",
+        "D": "La Alfa2-macroglobulina."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "La Antitrombina III."
+    },
+    {
+      "id": 102,
+      "question": "La Hemofilia es un déficit congénito de un factor. Si en una pareja el hombre es hemofílico y la mujer es sana (no portadora), ¿qué ocurriría con sus hijos?",
+      "options": {
+        "A": "Todos sus hijos varones padecerán la enfermedad.",
+        "B": "El 50% de las hijas serán portadoras.",
+        "C": "El 50% de los hijos varones padecerán la enfermedad.",
+        "D": "Todas las hijas serán portadoras."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todas las hijas serán portadoras."
+    },
+    {
+      "id": 103,
+      "question": "En la coagulación intravascular diseminada existe trombopenia producida por:",
+      "options": {
+        "A": "Lesión medular.",
+        "B": "Un consumo excesivo de plaquetas.",
+        "C": "Trombopoyesis ineficaz.",
+        "D": "Anticuerpos frente a antígenos plaquetarios."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Un consumo excesivo de plaquetas."
+    },
+    {
+      "id": 104,
+      "question": "Respecto a la hemofilia A, es cierto que",
+      "options": {
+        "A": "Es un trastorno de la coagulación caracterizado por déficit del factor VIII.",
+        "B": "Es una enfermedad ligada al cromosoma X.",
+        "C": "El gen responsable de esta enfermedad se localiza en el cromosoma Xq28 que contiene 26 exones.",
+        "D": "Todas las anteriores son ciertas."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son ciertas."
+    },
+    {
+      "id": 105,
+      "question": "Según el modelo teórico, ¿qué factor de la coagulación actúa sobre el fibrinógeno para formar fibrina?",
+      "options": {
+        "A": "Trombina.",
+        "B": "Factor VIII.",
+        "C": "Protrombina.",
+        "D": "Factor X."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Trombina."
+    },
+    {
+      "id": 106,
+      "question": "Los estudios de coagulación son muy sensibles al llenado incorrecto del tubo. ¿Qué valores de la coagulación se ven alterados?",
+      "options": {
+        "A": "TP.",
+        "B": "INR.",
+        "C": "APTT.",
+        "D": "Todas son ciertas."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 107,
+      "question": "¿Cuál de las siguientes opciones es CIERTA respecto a la fisiología de la hemostasia?",
+      "options": {
+        "A": "El factor tisular se une al factor X activando al factor V.",
+        "B": "La coagulación se inicia por la unión del factor",
+        "C": "La vía extrínseca no es capaz de activar por sí sola el proceso de la coagulación.",
+        "D": "El factor X se activa por acción del fibrinógeno."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "La coagulación se inicia por la unión del factor"
+    },
+    {
+      "id": 108,
+      "question": "En la formación del tapón plaquetario, ¿cuál de las siguientes proteínas ayuda a la adhesión de las plaquetas al colágeno del vaso sanguíneo lesionado?",
+      "options": {
+        "A": "Fibrinógeno.",
+        "B": "Factor de von Willebrand.",
+        "C": "Protrombina.",
+        "D": "Factor de Hageman."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Factor de von Willebrand."
+    },
+    {
+      "id": 109,
+      "question": "Indique la asociación INCORRECTA con respecto a los factores de la coagulación:",
+      "options": {
+        "A": "Factor X ---- Factor de Stuart.",
+        "B": "Factor IV ---- Calcio.",
+        "C": "Factor XII ---- Factor de Hageman.",
+        "D": "Factor II ---- Fibrinógeno."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Factor II ---- Fibrinógeno."
+    },
+    {
+      "id": 110,
+      "question": "¿Cuál es el INR (Ratio Internacional Normalizado) de una muestra de sangre citratada sabiendo que el tiempo de protrombina es de 22 segundos, el tiempo de protrombina del control normal es de 11 segundos y el ISI (índice de sensibilidad internacional de tromboplastina) es de 1?",
+      "options": {
+        "A": "0,5.",
+        "B": "1.",
+        "C": "1,5.",
+        "D": "2."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "2."
+    },
+    {
+      "id": 111,
+      "question": "¿Qué es falso en el test de mezcla?",
+      "options": {
+        "A": "Indicado para TPTA alargados.",
+        "B": "Se hace con volúmenes iguales de muestra problema y control normal.",
+        "C": "La mezcla se debe incubar a 37ºC durante no más de 15 minutos.",
+        "D": "Si los tiempos se corrigen se confirma que hay déficit en la vía extrínseca."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Si los tiempos se corrigen se confirma que hay déficit en la vía extrínseca."
+    },
+    {
+      "id": 112,
+      "question": "¿A qué cromosoma va ligada la hemofilia?",
+      "options": {
+        "A": "Cromosoma Y.",
+        "B": "Cromosoma X.",
+        "C": "Cromosoma X pero sólo en mujeres.",
+        "D": "Indistintamente al X o Y."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Cromosoma X."
+    },
+    {
+      "id": 113,
+      "question": "¿Qué son los Dímeros-D?",
+      "options": {
+        "A": "Dímeros de Trombina.",
+        "B": "Productos de degradación del fibrinógeno.",
+        "C": "Productos de degradación de la fibrina.",
+        "D": "Dímeros de Protrombina."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Productos de degradación de la fibrina."
+    },
+    {
+      "id": 114,
+      "question": "Valores de normalidad para TP Y TPTA:",
+      "options": {
+        "A": "TP: 25-35 segundos y TPTA: 10-15 segundos.",
+        "B": "TP: 10-15 segundos y TPTA: 25-35 segundos.",
+        "C": "TP: 1,5-2,0 segundos y TPTA: 2,5-3,5 segundos.",
+        "D": "TP: 1,0-1,5 segundos y TPTA: 2,5-3,5 segundos."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "TP: 10-15 segundos y TPTA: 25-35 segundos."
+    },
+    {
+      "id": 115,
+      "question": "¿Para qué enfermedad no se emplea la determinación de Dímeros-D?",
+      "options": {
+        "A": "TEP.",
+        "B": "TVP.",
+        "C": "Enfermedad Von Willebrand.",
+        "D": "CID."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Enfermedad Von Willebrand."
+    },
+    {
+      "id": 116,
+      "question": "Es falso respecto a la coagulación intravascular diseminada",
+      "options": {
+        "A": "Se suele encontrar una trombocitopenia moderada (50-100.000/μL).",
+        "B": "Se produce un consumo de factores de coagulación.",
+        "C": "Se produce una elevación característica del",
+        "D": ""
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Se produce una elevación característica del"
+    },
+    {
+      "id": 117,
+      "question": "¿Cuál de las siguientes pruebas de laboratorio se utiliza para la monitorización del efecto de las heparinas de bajo peso molecular?",
+      "options": {
+        "A": "Factor anti Xa",
+        "B": "TTPA",
+        "C": "INR",
+        "D": "Factor II"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Factor anti Xa"
+    },
+    {
+      "id": 118,
+      "question": "Respecto al test de mezclas en coagulación, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Se realiza para valorar un posible déficit de factores de coagulación.",
+        "B": "Está indicada cuando hay un valor de APTT",
+        "C": "acortado.",
+        "D": "Se realiza para valorar la presencia de sustancias inhibidoras de la coagulación."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Está indicada cuando hay un valor de APTT"
+    },
+    {
+      "id": 119,
+      "question": "De los siguientes fármacos, ¿cuál pertenece a los considerados “nuevos anticoagulantes orales”?",
+      "options": {
+        "A": "Sintrom",
+        "B": "Acenocumarol",
+        "C": "Apixaban",
+        "D": "Wafarina"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Apixaban"
+    },
+    {
+      "id": 120,
+      "question": "¿Cuál de los siguientes factores no influye en la viscosidad plasmática?",
+      "options": {
+        "A": "Concentración plasmática de fibrinógeno",
+        "B": "Hematocrito",
+        "C": "Concentración plasmática de globulinas.",
+        "D": "Concentración plasmática de calcio"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Concentración plasmática de calcio"
+    },
+    {
+      "id": 121,
+      "question": "De los siguientes factores, ¿cuál inicia la vía intrínseca?",
+      "options": {
+        "A": "I",
+        "B": "IV",
+        "C": "V",
+        "D": "XII"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "XII"
+    },
+    {
+      "id": 122,
+      "question": "¿Cuál de los siguientes factores de la coagulación es vitamina K dependiente?",
+      "options": {
+        "A": "I",
+        "B": "V",
+        "C": "VII",
+        "D": "XII"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "VII"
+    },
+    {
+      "id": 123,
+      "question": "De entre los siguientes, ¿cuál es la técnica que determina la capacidad funcional del fibrinógeno y lo cuantifica?",
+      "options": {
+        "A": "Fibrinógeno derivado",
+        "B": "Tiempo de Quick",
+        "C": "Método de Clauss",
+        "D": "Plasminógeno"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Método de Clauss"
+    },
+    {
+      "id": 124,
+      "question": "¿Qué vía se activa por medio del contacto de sangre con colágeno?",
+      "options": {
+        "A": "La vía intrínseca",
+        "B": "La vía extrínseca",
+        "C": "La vía común",
+        "D": "La vía de activación de la fibrina"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "La vía intrínseca"
+    },
+    {
+      "id": 125,
+      "question": "De entre los siguientes, ¿qué sustancia está a cargo del proceso de destrucción del coágulo?",
+      "options": {
+        "A": "Fibrina",
+        "B": "Fibrinógeno",
+        "C": "Plasmina",
+        "D": "Plasminógeno"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Plasmina"
+    },
+    {
+      "id": 126,
+      "question": "En condiciones normales, ¿por cuantos sistemas distintos puede ocurrir la activación de la protrombina?",
+      "options": {
+        "A": "Por uno",
+        "B": "Por dos",
+        "C": "Por tres",
+        "D": "Por cuatro"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Por dos"
+    },
+    {
+      "id": 127,
+      "question": "¿Cuál de los siguientes factores de coagulación no es sensible a la trombina?",
+      "options": {
+        "A": "Factor V",
+        "B": "Factor IX",
+        "C": "Factor VIII",
+        "D": "Factor XIII"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Factor IX"
+    },
+    {
+      "id": 128,
+      "question": "De entre las siguientes, ¿cuál es la proteína de elevado peso molecular que está presente en el plasma, pero no en el suero?",
+      "options": {
+        "A": "Antitrombina",
+        "B": "Cefalina",
+        "C": "Fibrinógeno",
+        "D": "Protrombina"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Fibrinógeno"
+    },
+    {
+      "id": 129,
+      "question": "¿Cuál de las siguientes pruebas mide la hemostasia primaria?",
+      "options": {
+        "A": "Tiempo de hemorragia",
+        "B": "Tiempo de protrombina",
+        "C": "Tiempo de Stypven",
+        "D": "Tiempo de tromboplastina parcial activada"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Tiempo de hemorragia"
+    },
+    {
+      "id": 130,
+      "question": "Indique la opción falsa:",
+      "options": {
+        "A": "La vida media en la circulación de las plaquetas es de aproximadamente 10 días",
+        "B": "Las plaquetas son los elementos formes más pequeños de la sangre",
+        "C": "Además de su papel en la hemostasia, las plaquetas participan en procesos como la trombosis, la inflamación y la remodelación tisular",
+        "D": "Intervienen en la hemostasia secundaria a través de los procesos de adhesión y agregación"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Intervienen en la hemostasia secundaria a través de los procesos de adhesión y agregación"
+    },
+    {
+      "id": 131,
+      "question": "De las variables a tener en cuenta para el estudio de la función plaquetaria, indique la falsa:",
+      "options": {
+        "A": "Se aconseja no realizar deporte 24h antes de la extracción de la muestra, así como abstenerse de fumar mínimo 30 minutos antes y no consumir cafeína en las 2h previas",
+        "B": "Se deben utilizar agujas de calibre >21 G y la",
+        "C": "Para evitar la activación de las plaquetas, la",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Se deben utilizar agujas de calibre >21 G y la"
+    },
+    {
+      "id": 132,
+      "question": "Indique la afirmación falsa respecto a la agregometría:",
+      "options": {
+        "A": "La agregometría óptica se realiza con plasma rico en plaquetas",
+        "B": "Es un método que mide en tiempo real la agregación de las plaquetas",
+        "C": "Los métodos para evaluar la agregación",
+        "D": "Todas las anteriores son falsas"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Los métodos para evaluar la agregación"
+    },
+    {
+      "id": 133,
+      "question": "¿Cuál de los siguientes es un factor vitamina K dependiente?:",
+      "options": {
+        "A": "II.",
+        "B": "III.",
+        "C": "V.",
+        "D": "XIII."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "II."
+    },
+    {
+      "id": 134,
+      "question": "Señale la respuesta correcta, la TTPA estudia:",
+      "options": {
+        "A": "La vía intrínseca",
+        "B": "La vía extrínseca",
+        "C": "La común y la extrínseca",
+        "D": "La común y la intrínseca"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "La común y la intrínseca"
+    },
+    {
+      "id": 135,
+      "question": "Un motivo de exclusión de un tubo de citrato para la determinación de coagulación es:",
+      "options": {
+        "A": "Que el volumen extraído supera la marca del tubo.",
+        "B": "Menos volumen del marcado en el tubo.",
+        "C": "A y B son ciertas.",
+        "D": "El volumen de muestra extraído no interfiere en la realización de la muestra"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "A y B son ciertas."
+    },
+    {
+      "id": 136,
+      "question": "De las siguientes opciones. ¿Cuál es un valor normal de laboratorio?",
+      "options": {
+        "A": "Estudio de fibrinógeno en plasma 1,5-3,5 g/L.",
+        "B": "Estudio de fibrinógeno en suero 0-1 g/L.",
+        "C": "Estudio de fibrinógeno en plasma 0-120 mg/dL.",
+        "D": "Estudio de fibrinógeno en suero 400-550 mg/dL."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Estudio de fibrinógeno en plasma 1,5-3,5 g/L."
+    },
+    {
+      "id": 137,
+      "question": "Señale la opción verdadera para las pruebas de coagulación sanguíneas",
+      "options": {
+        "A": "El tubo indicado para las pruebas de coagulación",
+        "B": "El tubo indicado para las pruebas de coagulación",
+        "C": "El tubo indicado para las pruebas de coagulación",
+        "D": "El tubo indicado para las pruebas de coagulación es aquel que contiene heparina."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "El tubo indicado para las pruebas de coagulación"
+    },
+    {
+      "id": 138,
+      "question": "La aspirina",
+      "options": {
+        "A": "Produce un efecto irreversible sobre la",
+        "B": "Produce una alteración en la secreción",
+        "C": "Provoca la agregación plaquetaria masiva durante las primeras horas de su ingestión.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Produce un efecto irreversible sobre la"
+    },
+    {
+      "id": 139,
+      "question": "La parte de las plaquetas encargadas de la adhesión se denomina",
+      "options": {
+        "A": "Membrana celular.",
+        "B": "Glucocáliz.",
+        "C": "Hialoplasma.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Glucocáliz."
+    },
+    {
+      "id": 140,
+      "question": "¿Cuál de las siguientes pruebas estudia la vía intrínseca de la coagulación?",
+      "options": {
+        "A": "TTP.",
+        "B": "Tiempo de Reptilase.",
+        "C": "Tiempo de coagulación.",
+        "D": "TEG."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "TTP."
+    },
+    {
+      "id": 141,
+      "question": "La principal característica de la vía intrínseca es",
+      "options": {
+        "A": "Que en ella solo participan factores que se",
+        "B": "Que en ella solo participan factores vitamina K dependiente.",
+        "C": "Que solo se activa para hemorragias menores.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Que en ella solo participan factores que se"
+    },
+    {
+      "id": 142,
+      "question": "Para control de la terapia con dicumarínicos (Sintrom) se emplea",
+      "options": {
+        "A": "Tiempo de Trombina (TT).",
+        "B": "Tiempo de Protombina (TP).",
+        "C": "Tiempo de Tromboplastina Parcial Activada (APTT).",
+        "D": "Tiempo de Reptilase (TR)."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Tiempo de Protombina (TP)."
+    },
+    {
+      "id": 143,
+      "question": "El tiempo de tromboplastina parcial activada se ve alargado en el tratamiento con",
+      "options": {
+        "A": "Warfarina.",
+        "B": "Heparina no fraccionada.",
+        "C": "Acenocumarol.",
+        "D": "Tras la administración de vitamina K."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Heparina no fraccionada."
+    },
+    {
+      "id": 144,
+      "question": "El tiempo de Reptilase se diferencia del TT (Tiempo de Trombina) en que su alargamiento detecta la presencia de",
+      "options": {
+        "A": "Déficit de factores de la vía común.",
+        "B": "Heparina.",
+        "C": "Anticoagulante lúpico.",
+        "D": "Déficit de factores de contacto."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Heparina."
+    },
+    {
+      "id": 145,
+      "question": "La Hemofilia A se debe a un déficit del",
+      "options": {
+        "A": "Factor XIII.",
+        "B": "Factor VIII.",
+        "C": "Factor VII.",
+        "D": "Factor V."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 146,
+      "question": "¿Qué producto de degradación de la fibrina es el más útil para la evaluación de la fibrinólisis?",
+      "options": {
+        "A": "F XIII.",
+        "B": "PTA.",
+        "C": "Fragmento E.",
+        "D": "Dímero D."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Dímero D."
+    },
+    {
+      "id": 147,
+      "question": "Son factores de la coagulación de la vía intrínseca:",
+      "options": {
+        "A": "VII, V, II.",
+        "B": "VIII, IX, XII.",
+        "C": "I, III, VII.",
+        "D": "V, VI, X."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "VIII, IX, XII."
+    },
+    {
+      "id": 148,
+      "question": "Señale la respuesta correcta, la hemofilia de tipo B:",
+      "options": {
+        "A": "Está causada por un déficit de factor VIII.",
+        "B": "Hay un déficit de fibrinógeno.",
+        "C": "Está causada por un déficit de factor V.",
+        "D": "Está causada por un déficit de factor IX."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Está causada por un déficit de factor IX."
+    },
+    {
+      "id": 149,
+      "question": "El tiempo de tromboplastina parcial activada se ve alargado en el tratamiento con:",
+      "options": {
+        "A": "Warfarina.",
+        "B": "Heparina no fraccionada.",
+        "C": "Acenocumarol.",
+        "D": "Tras la administración de vitamina K."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Heparina no fraccionada."
+    },
+    {
+      "id": 150,
+      "question": "¿Cuál de estos no es un factor de coagulación?:",
+      "options": {
+        "A": "Factor Hageman.",
+        "B": "Fibrinógeno.",
+        "C": "Calcio.",
+        "D": "Factor Steve."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Factor Steve."
+    },
+    {
+      "id": 151,
+      "question": "¿Cuál de estos factores de coagulación es vitamina K dependiente?:",
+      "options": {
+        "A": "Factor antihemofílico A (VIII).",
+        "B": "Protombina (II).",
+        "C": "Fibrinógeno (I).",
+        "D": "Tromboplastina tisular (III)."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Protombina (II)."
+    },
+    {
+      "id": 152,
+      "question": "Señale el orden correcto en relación a:",
+      "options": {
+        "A": "Hemostasia primaria -> Formación del ateroma - > Hemostasia terciaria.",
+        "B": "Hemostasia primaria -> Fibrinólisis -> Coagulación.",
+        "C": "Hemostasia primaria -> Formación del ateroma - > Coagulación.",
+        "D": "Hemostasia primaria -> Coagulación -> Fibrinólisis."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Hemostasia primaria -> Coagulación -> Fibrinólisis."
+    },
+    {
+      "id": 153,
+      "question": "El anticoagulante lúpico puede provocar:",
+      "options": {
+        "A": "Alargamiento del Tiempo de Tromboplastina Parcial Activada (TPPA).",
+        "B": "Clínica de trombosis arterial y/o venosa.",
+        "C": "A y B son ciertas.",
+        "D": "A y B son falsas."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "A y B son ciertas."
+    },
+    {
+      "id": 154,
+      "question": "Señale la respuesta falsa:",
+      "options": {
+        "A": "Un estudio para el diagnóstico de la trombofilia debe realizarse al menos tres meses después de un episodio trombótico.",
+        "B": "Las trombopenias son la causa más frecuente de sangrado.",
+        "C": "La hemofilia A y B se heredan mediante un rasgo recesivo ligado al cromosoma X.",
+        "D": "La prueba del fibrinógeno Clauss se utiliza para medir el factor X de la coagulación."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "La prueba del fibrinógeno Clauss se utiliza para medir el factor X de la coagulación."
+    },
+    {
+      "id": 155,
+      "question": "¿De qué factor de la coagulación son deficitarios los pacientes con hemofilia A?:",
+      "options": {
+        "A": "Factor VIII.",
+        "B": "Factor V.",
+        "C": "Factor XII.",
+        "D": "Factor VI."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 156,
+      "question": "¿Cuál es el factor plasmático IV de la coagulación?:",
+      "options": {
+        "A": "Fibrinógeno.",
+        "B": "Calcio.",
+        "C": "Protombina.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Calcio."
+    },
+    {
+      "id": 157,
+      "question": "La técnica manual más utilizada para el estudio de la coagulación es:",
+      "options": {
+        "A": "La técnica del tubo inclinado.",
+        "B": "La curva de formación del coágulo.",
+        "C": "El método de adherencia.",
+        "D": "La técnica de estabilización."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "La técnica del tubo inclinado."
+    },
+    {
+      "id": 158,
+      "question": "La enfermedad de Von Willebrand es:",
+      "options": {
+        "A": "Debida a un déficit de vitamina K.",
+        "B": "Una enfermedad por anemia ferropénica.",
+        "C": "La enfermedad hemorrágica hereditaria más",
+        "D": "Debida a un hiperesplenismo."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "La enfermedad hemorrágica hereditaria más"
+    },
+    {
+      "id": 159,
+      "question": "¿Cuál de los siguientes factores de coagulación NO es dependiente de la vitamina K?:",
+      "options": {
+        "A": "Protrombina o Factor II.",
+        "B": "Factor VIII.",
+        "C": "Factor IX.",
+        "D": "Factor VII."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 160,
+      "question": "¿Qué inhibidor fisiológico de la coagulación ejerce una acción proteolítica sobre los factores V y VIII?:",
+      "options": {
+        "A": "Antitrombina III.",
+        "B": "Proteína C.",
+        "C": "Proteína S.",
+        "D": "Cofactor II de la heparina."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Proteína C."
+    },
+    {
+      "id": 161,
+      "question": "¿Qué técnica de laboratorio es utilizada para el control del tratamiento con anticoagulantes orales?:",
+      "options": {
+        "A": "Tiempo de Reptilase.",
+        "B": "Tiempo de Protrombina (TP).",
+        "C": "Tiempo de Trombina (TT).",
+        "D": "Tiempo de tromboplastina parcial activada (TTPa)."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Tiempo de Protrombina (TP)."
+    },
+    {
+      "id": 162,
+      "question": "El método coagulativo de Clauss se utiliza para:",
+      "options": {
+        "A": "Valoración del Factor XIII.",
+        "B": "Determinación del Fibrinógeno.",
+        "C": "Determinación de la Trombina.",
+        "D": "Determinación del Factor VIII."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Determinación del Fibrinógeno."
+    },
+    {
+      "id": 163,
+      "question": "Señale la respuesta correcta. Los valores de referencia de la prueba de laboratorio llamada (TTPa) Tiempo de Tromboplastina Parcial activada son:",
+      "options": {
+        "A": "1-4 minutos.",
+        "B": "80-120%.",
+        "C": "5-20 segundos.",
+        "D": "25-35 segundos."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "25-35 segundos."
+    },
+    {
+      "id": 164,
+      "question": "Un plasma necesario para realizar las pruebas básicas de coagulación se obtiene de:",
+      "options": {
+        "A": "Sangre con citrato sódico centrifugada a 200g durante 10 minutos.",
+        "B": "Sangre con citrato sódico centrifugada a 2000g",
+        "C": "Sangre con heparina sódica centrifugada a 200g durante 15 minutos.",
+        "D": "Sangre con heparina sódica centrifugada a 2000g durante 10 minutos."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Sangre con citrato sódico centrifugada a 2000g"
+    },
+    {
+      "id": 165,
+      "question": "En una muestra de un paciente con dosis terapéutica correcta de heparina, ¿cuál de las siguientes situaciones es correcta?",
+      "options": {
+        "A": "TTPa alargado, TT normal, Tiempo de reptilase normal.",
+        "B": "TTPa normal, TT alargado, Tiempo de reptilase normal.",
+        "C": "TTPa alargado, TT alargado, Tiempo de reptilase",
+        "D": "TTPa alargado, TT normal, Tiempo de reptilase alargado."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "TTPa alargado, TT alargado, Tiempo de reptilase"
+    },
+    {
+      "id": 166,
+      "question": "¿Qué mide el tiempo de trombina?",
+      "options": {
+        "A": "La funcionalidad del fibrinógeno.",
+        "B": "La velocidad de formación de trombina.",
+        "C": "La velocidad de destrucción del coágulo.",
+        "D": "La vía extrínseca."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "La funcionalidad del fibrinógeno."
+    },
+    {
+      "id": 167,
+      "question": "¿Qué proteína de síntesis hepática NO es vitamina K dependiente?",
+      "options": {
+        "A": "Factor VII.",
+        "B": "Factor II.",
+        "C": "Factor V.",
+        "D": "Proteína S."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Factor V."
+    },
+    {
+      "id": 168,
+      "question": "¿Cuál de las siguientes sustancias activan el plasminógeno?",
+      "options": {
+        "A": "Alfa 2 macroglobulina.",
+        "B": "Estreptoquinasa.",
+        "C": "PAI 1.",
+        "D": "Dímero D."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Estreptoquinasa."
+    },
+    {
+      "id": 169,
+      "question": "Con respecto al Dímero D, ¿cuál de las siguientes afirmaciones es cierta?",
+      "options": {
+        "A": "Procede de la degradación de la fibrina",
+        "B": "Su elevación es específica de la existencia de un proceso trombótico.",
+        "C": "Activa el plasminógeno.",
+        "D": "Forma parte de la vía común de la coagulación."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Procede de la degradación de la fibrina"
+    },
+    {
+      "id": 170,
+      "question": "Existe un gran número de variantes con una expresión anómala del antígeno D, variantes RhD, y pueden tener implicaciones postransfusionales y/o importancia en la enfermedad hemolítica del recién nacido. En relación a estas variantes, señale la respuesta correcta:",
+      "options": {
+        "A": "Las variantes DEL representan un nivel de expresión de antígeno D normal pero sumamente defectuoso, es decir, la densidad de antígeno D en la membrana eritroide es normal pero su expresión está cualitativamente muy alterada.",
+        "B": "En las variantes RhD débil no se expresan la totalidad de los epítopos. La mayoría de individuos portadores de un D débil desarrollan un aloanti D al entrar en contacto, por transfusión o gestación, con hematíes D positivo.",
+        "C": "En el caso de las variantes D parcial, la densidad de antígeno D en la membrana eritrocitaria está disminuida y la mayoría no presentan riesgo de sensibilización anti D.",
+        "D": "En la población caucásica, se estima que entre un 0,2-1% de los individuos RhD positivo presentan un fenotipo D débil."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "En la población caucásica, se estima que entre un 0,2-1% de los individuos RhD positivo presentan un fenotipo D débil."
+    },
+    {
+      "id": 171,
+      "question": "La plasmina:",
+      "options": {
+        "A": "Se obtiene tras la activación del plasminógeno.",
+        "B": "Destruye los coágulos de fibrina.",
+        "C": "Es un enzima poco específico que puede atacar a diversos factores como el factor V y el factor VIII.",
+        "D": "Todas son ciertas."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 172,
+      "question": "Para realizar el control del tratamiento anticoagulante con dicumarínicos administrados vía oral, se emplea la siguiente prueba:",
+      "options": {
+        "A": "Determinación enzimática del factor XIII.",
+        "B": "TR (Tiempo de Reptilasa).",
+        "C": "TP (Tiempo de Protrombina).",
+        "D": "TTPA (Tiempo de Tromboplastina Parcial Activada)."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "TP (Tiempo de Protrombina)."
+    },
+    {
+      "id": 173,
+      "question": "¿A qué tipo de alteración se debe la Hemofilia A?",
+      "options": {
+        "A": "Déficit de factor XI.",
+        "B": "Déficit de factor VIII.",
+        "C": "Exceso de Fibrinógeno.",
+        "D": "Déficit de factor V."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Déficit de factor VIII."
+    },
+    {
+      "id": 174,
+      "question": "Respecto al fibrinógeno:",
+      "options": {
+        "A": "Es un factor de coagulación presente en el suero.",
+        "B": "Es el factor II de la coagulación.",
+        "C": "No es sensible a la trombina.",
+        "D": "Es una glucoproteína cuya fracción proteica está constituida por tres pares de cadenas polipeptídicas."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Es una glucoproteína cuya fracción proteica está constituida por tres pares de cadenas polipeptídicas."
+    },
+    {
+      "id": 175,
+      "question": "En las determinaciones cronométricas para el estudio de la coagulación ES FALSO QUE:",
+      "options": {
+        "A": "Cada prueba está diseñada para que la formación del coágulo dependa de un factor o grupo de factores.",
+        "B": "El instrumento utilizado es el coagulómetro.",
+        "C": "La mayoría de ellas necesita el uso de una solución de cloruro cálcico para poner en marcha el proceso coagulatorio.",
+        "D": "El tiempo de coagulación se acorta si el plasma carece del factor o factores analizados."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "El tiempo de coagulación se acorta si el plasma carece del factor o factores analizados."
+    },
+    {
+      "id": 176,
+      "question": "A la formación de un entramado constituido por la agregación de las plaquetas entre sí, se le denomina:",
+      "options": {
+        "A": "Trombo rojo.",
+        "B": "Trombo blanco.",
+        "C": "Trombo rosáceo.",
+        "D": "Trombo TVP."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Trombo blanco."
+    },
+    {
+      "id": 177,
+      "question": "Señale la respuesta correcta.",
+      "options": {
+        "A": "En la vía intrínseca de la coagulación intervienen",
+        "B": "En la vía extrínseca de la coagulación intervienen el factor IX, el factor XI y el factor XII.",
+        "C": "En la vía común de la coagulación interviene el factor IX, el factor XI y el factor XII.",
+        "D": "En la vía extrínseca de la coagulación interviene el factor 3 plaquetario (f3p)."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "En la vía intrínseca de la coagulación intervienen"
+    },
+    {
+      "id": 178,
+      "question": "Señale la respuesta correcta respecto a las pruebas que estudian las vías de la coagulación.",
+      "options": {
+        "A": "El tiempo de tromboplastina parcial (TTP) estudia la vía intrínseca.",
+        "B": "El tiempo de protrombina (TP) estudia la vía extrínseca.",
+        "C": "El tiempo de trombina (TT) estudia la vía común.",
+        "D": "Todas son ciertas."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 179,
+      "question": "Señale la respuesta correcta entre las pruebas parciales que estudian la fibrinólisis.",
+      "options": {
+        "A": "Cuantificación de la α2 – macroglobulina.",
+        "B": "Cuantificación del fibrinógeno.",
+        "C": "Cuantificación del plasminógeno.",
+        "D": "B) y C) son ciertas."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "B) y C) son ciertas."
+    },
+    {
+      "id": 180,
+      "question": "La heparina inhibe la coagulación porque:",
+      "options": {
+        "A": "Activa el factor V.",
+        "B": "Activa la proteína C.",
+        "C": "Activa la antitrombina III."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Activa la antitrombina III."
+    },
+    {
+      "id": 181,
+      "question": "¿Qué prueba de laboratorio haríamos para vigilar la terapia con heparina?:",
+      "options": {
+        "A": "Tiempo de protrombina.",
+        "B": "Tiempo de cefalina o aPTT.",
+        "C": "Dímero D."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Tiempo de cefalina o aPTT."
+    },
+    {
+      "id": 182,
+      "question": "Las principales pruebas analíticas para el estudio de la fibrinólisis son:",
+      "options": {
+        "A": "Análisis de los productos de degradación de la",
+        "B": "Análisis de los productos de degradación de la fibrina (PDF) y tiempo de tromboplastina parcial activada (TTPa).",
+        "C": "Tiempo de tromboplastina parcial activada (TTPa) y dímeros D (DD)."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Análisis de los productos de degradación de la"
+    },
+    {
+      "id": 183,
+      "question": "En una muestra de coagulación los anticuerpos lúpicos pueden detectarse principalmente mediante:",
+      "options": {
+        "A": "TP (tiempo de protrombina).",
+        "B": "TT (tiempo de trombina).",
+        "C": "TTPA (tiempo de tromboplastina parcial",
+        "D": "TR (tiempo de reptilasa)."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "TTPA (tiempo de tromboplastina parcial"
+    },
+    {
+      "id": 184,
+      "question": "Los valores de INR en paciente anticoagulado oral deben oscilar (de forma general) entre:",
+      "options": {
+        "A": "2-3.",
+        "B": "4-7.",
+        "C": "8-10.",
+        "D": "11-15."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "2-3."
+    },
+    {
+      "id": 185,
+      "question": "¿Qué factor estabiliza la formación del coágulo?",
+      "options": {
+        "A": "Factor IX.",
+        "B": "Factor VII.",
+        "C": "Factor XIII.",
+        "D": "Factor XII."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Factor XIII."
+    },
+    {
+      "id": 186,
+      "question": "Para el control de la terapia de Sintrom (dicumarínico) se emplea:",
+      "options": {
+        "A": "TT (tiempo de trombina).",
+        "B": "TR (tiempo de reptilasa).",
+        "C": "APTT (tiempo de tromboplastina parcial activada).",
+        "D": "TP (tiempo de protrombina)."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "TP (tiempo de protrombina)."
+    },
+    {
+      "id": 187,
+      "question": "¿Cuál es la sustancia que da lugar al coágulo después de consolidar el agregado plaquetario?",
+      "options": {
+        "A": "Plasmina.",
+        "B": "Fibrinógeno.",
+        "C": "Plasminógeno.",
+        "D": "Fibrina."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Fibrina."
+    },
+    {
+      "id": 188,
+      "question": "Las lesiones hemorrágicas puntiformes se denominan:",
+      "options": {
+        "A": "Equimosis.",
+        "B": "Púrpuras.",
+        "C": "Hematomas.",
+        "D": "Petequias."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Petequias."
+    },
+    {
+      "id": 189,
+      "question": "¿Cuál de los siguientes cationes es fundamental en el proceso de coagulación?",
+      "options": {
+        "A": "Li.",
+        "B": "K.",
+        "C": "Ca."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Ca."
+    },
+    {
+      "id": 190,
+      "question": "¿Cuál es el factor I de la coagulación?",
+      "options": {
+        "A": "El fibrinógeno.",
+        "B": "El factor tisular.",
+        "C": "El calcio.",
+        "D": "La protrombina."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "El fibrinógeno."
+    },
+    {
+      "id": 191,
+      "question": "¿Cuál de los siguientes no es un factor de la coagulación y, por tanto, no favorece la Hemostasia?",
+      "options": {
+        "A": "Fibrinógeno.",
+        "B": "Plasminógeno.",
+        "C": "Protrombina.",
+        "D": "Calcio."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Plasminógeno."
+    },
+    {
+      "id": 192,
+      "question": "¿Cuáles son los factores de la coagulación dependientes de la vitamina K?",
+      "options": {
+        "A": "I, II, V, VII.",
+        "B": "II, V, IX, XI.",
+        "C": "II, VII, IX, X.",
+        "D": "Ninguno."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "II, VII, IX, X."
+    },
+    {
+      "id": 193,
+      "question": "¿Cuál de los siguientes factores de la coagulación no es dependiente de la vitamina K?",
+      "options": {
+        "A": "II.",
+        "B": "V.",
+        "C": "VII.",
+        "D": "IX."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "V."
+    },
+    {
+      "id": 194,
+      "question": "¿Qué sustancia produce la degradación de la fibrina?",
+      "options": {
+        "A": "Proteína S.",
+        "B": "Plasmina.",
+        "C": "Proteína C.",
+        "D": "Todas son correctas"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Plasmina."
+    },
+    {
+      "id": 195,
+      "question": "¿Qué factor de coagulación esta alterado en la Hemofilia A?",
+      "options": {
+        "A": "Factor VII.",
+        "B": "Factor VIII.",
+        "C": "Factor IX."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Factor VIII."
+    },
+    {
+      "id": 196,
+      "question": "Señale la respuesta falsa:",
+      "options": {
+        "A": "La vía intrínseca se inicia con el factor tisular que contacta con la sangre cuando se lesiona el vaso.",
+        "B": "En la vía intrínseca interviene el factor XII, la precalicreína, la calicreína y el cininógeno.",
+        "C": "La estabilización de la fibrina se realiza por el factor XIII, activado por la trombina en presencia de calcio.",
+        "D": "La vía intrínseca mide el tiempo de protombina."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "La vía intrínseca mide el tiempo de protombina."
+    },
+    {
+      "id": 197,
+      "question": "Señale la respuesta falsa:",
+      "options": {
+        "A": "La hemofilia A se debe a un déficit de factor VIII.",
+        "B": "La hemofilia B se debe a un déficit de factor XI.",
+        "C": "La hemofilia A y B, se heredan mediante un rasgo recesivo ligado al cromosoma X.",
+        "D": "La deficiencia del factor Von Willebrand impide la adhesión de las plaquetas y la estabilidad del factor VIII."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "La hemofilia B se debe a un déficit de factor XI."
+    },
+    {
+      "id": 198,
+      "question": "¿Cuál de los siguientes factores no es vitamina K dependiente?",
+      "options": {
+        "A": "Factor II.",
+        "B": "Factor V.",
+        "C": "Factor VII.",
+        "D": "Factor IX."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Factor V."
+    },
+    {
+      "id": 199,
+      "question": "¿Cuáles son los factores de la coagulación que actúan en la vía intrínseca?",
+      "options": {
+        "A": "VIII, IX, XI, XII",
+        "B": "I, II, VII, VIII",
+        "C": "II, V, VII, X",
+        "D": "VII, F. Tisular, VII, IX"
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "VIII, IX, XI, XII"
+    },
+    {
+      "id": 200,
+      "question": "Nos llega al laboratorio un tubo de citrato no llenado completamente, ¿qué consecuencias tendrá para el ensayo de coagulación?",
+      "options": {
+        "A": "Disminuye TT y TTPA",
+        "B": "Aumenta los niveles de fibrinógeno",
+        "C": "TT y TTPA son normales",
+        "D": "Prolonga TP, TTPA y TT"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Prolonga TP, TTPA y TT"
+    },
+    {
+      "id": 201,
+      "question": "¿Cuál de las siguientes pruebas de laboratorio se utiliza para el estudio de la fibrinólisis?",
+      "options": {
+        "A": "Tiempo de trombina",
+        "B": "Tiempo de protombina",
+        "C": "Fibrinógeno",
+        "D": "Dímero-D"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Dímero-D"
+    },
+    {
+      "id": 202,
+      "question": "En la Hemofilia tipo B ¿qué factor de la coagulación está disminuido y/o alterado?",
+      "options": {
+        "A": "Factor VIII.",
+        "B": "Factor XI.",
+        "C": "Factor X.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las anteriores es correcta."
+    },
+    {
+      "id": 203,
+      "question": "¿Cuál de los siguientes elementos formes de la sangre son esenciales para valorar la hemostasia primaria?",
+      "options": {
+        "A": "Las plaquetas.",
+        "B": "El fibrinógeno.",
+        "C": "La fibrina.",
+        "D": "Todos los factores de la coagulación."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Las plaquetas."
+    },
+    {
+      "id": 204,
+      "question": "Para el diagnóstico de enfermedades como el tromboembolismo pulmonar (TEP) o la trombosis venosa profunda (TVP), se utiliza la determinación de Dímeros D. En relación a los métodos de medida de los Dímeros D, señale la afirmación correcta:",
+      "options": {
+        "A": "Se determinan por Aglutinación por degradación de partículas de látex.",
+        "B": "Se determinan por Unión enzimática por inmunoabsorción (ELISA).",
+        "C": "Se determinan por Unión enzimática por fluorescencia (ELFA).",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 205,
+      "question": "En relación con las hemofilias, señale la afirmación INCORRECTA:",
+      "options": {
+        "A": "Son trastornos hemorrágicos hereditarios frecuentes causados por deficiencias del factor de coagulación VIII o IX.",
+        "B": "El grado de deficiencia del factor determina la probabilidad y la gravedad de la hemorragia.",
+        "C": "La hemofilia A se debe a una deficiencia de factor VIII.",
+        "D": "La hemofilia B se debe a una deficiencia de factor XIII."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "La hemofilia B se debe a una deficiencia de factor XIII."
+    },
+    {
+      "id": 206,
+      "question": "La prueba más idónea para controlar la acción de los anticoagulantes orales es:",
+      "options": {
+        "A": "El tiempo de tromboplastina parcial activado.",
+        "B": "El tiempo de trombina.",
+        "C": "El tiempo de protrombina.",
+        "D": "El nivel plasmático del fibrinógeno."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "El tiempo de protrombina."
+    },
+    {
+      "id": 207,
+      "question": "El factor de Stuart Prower es el factor:",
+      "options": {
+        "A": "VI.",
+        "B": "X.",
+        "C": "XII.",
+        "D": "XV."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "X."
+    },
+    {
+      "id": 208,
+      "question": "Al tiempo que tarda en coagular el plasma al añadir trombina, se le conoce como:",
+      "options": {
+        "A": "Tiempo de trombina.",
+        "B": "Tiempo de protrombina.",
+        "C": "Tiempo de tromboplastina.",
+        "D": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Tiempo de trombina."
+    },
+    {
+      "id": 209,
+      "question": "Los trastornos de la coagulación pueden ser debidos a:",
+      "options": {
+        "A": "Alteraciones de la pared vascular.",
+        "B": "Alteraciones de las plaquetas.",
+        "C": "Alteraciones de los factores de la coagulación.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 210,
+      "question": "De las afirmaciones siguientes, señale la INCORRECTA:",
+      "options": {
+        "A": "El tiempo de protrombina (TP), valora la vía extrínseca.",
+        "B": "El tiempo de tromboplastina parcial activado (TTPa), valora la vía intrínseca.",
+        "C": "El tiempo de trombina (TT), valora el tiempo de",
+        "D": "El tiempo de hemorragia, valora el funcionamiento plaquetar."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "El tiempo de trombina (TT), valora el tiempo de"
+    },
+    {
+      "id": 211,
+      "question": "¿Cuál NO se considera una prueba básica para el diagnóstico de una hemofilia?",
+      "options": {
+        "A": "Hemograma.",
+        "B": "Estudio de factores de coagulación.",
+        "C": "TTPA.",
+        "D": "Dímeros D."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Dímeros D."
+    },
+    {
+      "id": 212,
+      "question": "Se obtiene un tiempo de tromboplastina parcial activada (TTPA) prolongado, y se decide hacer un test de mezcla. Señale la afirmación correcta:",
+      "options": {
+        "A": "La corrección del TTPA durante la prueba de",
+        "B": "El test de mezcla se realiza por la adición al",
+        "C": "El test de mezcla se realiza cuando el TTPA está acortado.",
+        "D": "El test de mezcla se realiza por la adición al plasma estudiado de sangre total citratada en proporción (1:3)."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "La corrección del TTPA durante la prueba de"
+    },
+    {
+      "id": 213,
+      "question": "En relación con la coagulación, la vía común está formada por:",
+      "options": {
+        "A": "Factor VIII, IX, XI, XII.",
+        "B": "Factor V, Factor X, el calcio y los fosfolipídicos",
+        "C": "Tromboplastina tisular y el factor VII."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Factor V, Factor X, el calcio y los fosfolipídicos"
+    },
+    {
+      "id": 214,
+      "question": "¿Cuál sería la secuencia correcta en las fases de la hemostasia primaria?",
+      "options": {
+        "A": "Vasoconstricción local → coágulo de fibrina → trombo plaquetario → fibrinólisis.",
+        "B": "Vasoconstricción local → trombo plaquetario →",
+        "C": "Vasoconstricción local → trombo plaquetario → fibrinólisis → coágulo de fibrina."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Vasoconstricción local → trombo plaquetario →"
+    },
+    {
+      "id": 215,
+      "question": "¿Cuál es la causa más frecuente de sangrado?",
+      "options": {
+        "A": "Déficit de factor XXII.",
+        "B": "Déficit de proteína C.",
+        "C": "Trombopenia."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Trombopenia."
+    },
+    {
+      "id": 216,
+      "question": "En cuántas fases actúa la hemostasia:",
+      "options": {
+        "A": "3 fases.",
+        "B": "4 fases.",
+        "C": "2 fases."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "3 fases."
+    },
+    {
+      "id": 217,
+      "question": "¿Cuál es el precursor de la fibrina?",
+      "options": {
+        "A": "La protrombina.",
+        "B": "El fibrinógeno.",
+        "C": "La cefalina."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "El fibrinógeno."
+    },
+    {
+      "id": 218,
+      "question": "30. La adherencia y agregación plaquetaria se facilitan por acción:",
+      "options": {
+        "A": "El factor Von Willebrand.",
+        "B": "El factor Christmas.",
+        "C": "El fibrinógeno.",
+        "D": "La tromboplastina."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "El factor Von Willebrand."
+    },
+    {
+      "id": 219,
+      "question": "¿Cuál es la proteasa afectora del fenómeno de la fribrinólisis?:",
+      "options": {
+        "A": "Plasmina.",
+        "B": "Tripsina.",
+        "C": "Vitamina K.",
+        "D": "Estreptoquinasa."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Plasmina."
+    },
+    {
+      "id": 220,
+      "question": "¿Con qué parámetro de la coagulación se monitoriza el tratamiento con anticoagulantes orales anti-vitaminas K, como el acenocumarol (Sintrom®)?",
+      "options": {
+        "A": "Actividad de Protrombina.",
+        "B": "Fibrinógeno.",
+        "C": "INR.",
+        "D": "Tiempo de Tromboplastina Parcial Activada."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "INR."
+    },
+    {
+      "id": 221,
+      "question": "Cuál de los siguientes factores de la coagulación es vitamina K dependiente:",
+      "options": {
+        "A": "XII",
+        "B": "II",
+        "C": "XI",
+        "D": "VIII"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "II"
+    },
+    {
+      "id": 222,
+      "question": "Ante una alteración prolongada del tiempo parcial de tromboplastina activada (TIPA) podemos encontrar:",
+      "options": {
+        "A": "Heparina no fraccionada en el plasma.",
+        "B": "Posible existencia de anticoagulante lúpico.",
+        "C": "Alteración de factores de la vía intrínseca.",
+        "D": "Todas son correctas."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 223,
+      "question": "En la determinación del fibrinógeno en plasma:",
+      "options": {
+        "A": "Con una concentración elevada de trombina, el",
+        "B": "Con una concentración disminuida de trombina,",
+        "C": "Con una concentración elevada de trombina, el tiempo de coagulación del plasma es directamente proporcional a la concentración de fibrinógeno.",
+        "D": "Con una concentración disminuida de trombina, el tiempo de coagulación del plasma es inversamente proporcional a la concentración de fibrinógeno."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Con una concentración elevada de trombina, el"
+    },
+    {
+      "id": 224,
+      "question": "¿Qué prueba es más sensible para el estudio de la vía intrínseca de la coagulación?",
+      "options": {
+        "A": "Tiempo de trombina.",
+        "B": "Tiempo de protrombina.",
+        "C": "Tiempo de tromboplastina parcial activada.",
+        "D": "Determinación de fibrinógeno."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Tiempo de tromboplastina parcial activada."
+    },
+    {
+      "id": 225,
+      "question": "Señale la respuesta incorrecta:",
+      "options": {
+        "A": "El fibrinógeno es una proteína sérica.",
+        "B": "El fibrinógeno se sintetiza en el hígado.",
+        "C": "El fibrinógeno es una proteína soluble.",
+        "D": "Su principal función es la formación del coágulo."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "El fibrinógeno es una proteína sérica."
+    },
+    {
+      "id": 226,
+      "question": "El factor estabilizador de la fibrina es:",
+      "options": {
+        "A": "Factor X.",
+        "B": "Factor VIII.",
+        "C": "Factor XIII.",
+        "D": "Factor I."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Factor XIII."
+    },
+    {
+      "id": 227,
+      "question": "Respecto a la función de las plaquetas. ¿Qué afirmación es INCORRECTA?",
+      "options": {
+        "A": "Previenen la salida de sangre de los vasos.",
+        "B": "Su única función es construir el trombo",
+        "C": "Actúan en diversos pasos de la activación de los factores de coagulación.",
+        "D": "Su déficit produce una tendencia al sangrado."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Su única función es construir el trombo"
+    },
+    {
+      "id": 228,
+      "question": "¿Con qué nombre se conoce también al tiempo de protombina?",
+      "options": {
+        "A": "Tiempo de trombina.",
+        "B": "Tiempo de Reptilase.",
+        "D": "Tiempo de Quick."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Tiempo de Quick."
+    },
+    {
+      "id": 229,
+      "question": "En relación a la homocisteína en sangre ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "La homocisteína aumenta con la edad.",
+        "B": "Se incrementa en el hipertiroidismo.",
+        "C": "Los hombres presentan valores más elevados que las mujeres premenopáusicas.",
+        "D": "El déficit de las vitaminas B⁶, B¹² o el ácido fólico origina hiperhomocisteinemia"
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Se incrementa en el hipertiroidismo."
+    },
+    {
+      "id": 230,
+      "question": "¿Cuál de las siguientes alteraciones justifica una prolongación del tiempo de protrombina con tiempo de tromboplastina parcial activada normal?:",
+      "options": {
+        "A": "Deficiencia de factor V.",
+        "B": "Deficiencia de factor VII.",
+        "C": "Deficiencia de factor XII.",
+        "D": "Inhibidor adquirido frente al factor VIII."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Deficiencia de factor VII."
+    },
+    {
+      "id": 231,
+      "question": "Un niño de 2 años ha ingerido rodenticida (warfarina). ¿Cuál es la mejor prueba para controlar el efecto?:",
+      "options": {
+        "A": "Tiempo de protrombina.",
+        "B": "Concentraciones plasmáticas de warfarina.",
+        "C": "Tiempo de tromboplastina parcial activada.",
+        "D": "Tiempo de trombina."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Tiempo de protrombina."
+    },
+    {
+      "id": 232,
+      "question": "Para el control de pacientes en tratamiento con cumarínicos el parámetro analítico de mayor valor es:",
+      "options": {
+        "A": "Tiempo de coagulación en tubo.",
+        "B": "Tiempo de tromboplastina parcial.",
+        "C": "Tiempo de trombina.",
+        "D": "Tiempo de protrombina"
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Tiempo de protrombina"
+    },
+    {
+      "id": 233,
+      "question": "¿Cuál de las pruebas se usan para el diagnóstico de trombofilia? Señale la CORRECTA:",
+      "options": {
+        "A": "Determinación de proteína C y S, Coombs directo.",
+        "B": "Determinación de Inmunoglobulinas y proteína C y S.",
+        "C": "Determinación de homocisteína y proteína C y S.",
+        "D": "Son verdaderas A y C"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Determinación de homocisteína y proteína C y S."
+    },
+    {
+      "id": 234,
+      "question": "¿Cuál de las siguientes características NO se corresponde con el INR?",
+      "options": {
+        "A": "Expresa el valor correcto del tiempo de protrombina (TP).",
+        "B": "En pacientes sanos tiene un valor alrededor de 1.",
+        "C": "Es una prueba que se utiliza para descartar anomalías en la vía extrínseca de la coagulación.",
+        "D": "Se utiliza para monitorizar el efecto anticoagulante de la heparina no fraccionada (HNF)."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Se utiliza para monitorizar el efecto anticoagulante de la heparina no fraccionada (HNF)."
+    },
+    {
+      "id": 235,
+      "question": "¿Qué sugiere un resultado de dímero D por encima de 2000 ng/mL en un paciente que presenta sospecha de trombosis venosa profunda?:",
+      "options": {
+        "A": "El resultado de dímero D confirma el diagnóstico de trombosis venosa profunda.",
+        "B": "El resultado de dímero D descarta el diagnóstico de trombosis venosa profunda.",
+        "C": "El resultado de dímero D tiene un alto valor predictivo positivo.",
+        "D": "La principal utilidad del DD es un valor predictivo negativo en caso de normalidad."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "La principal utilidad del DD es un valor predictivo negativo en caso de normalidad."
+    },
+    {
+      "id": 236,
+      "question": "Son factores que dependen de la Vitamina K:",
+      "options": {
+        "A": "II, VII. IX. X.",
+        "B": "II, V, IX, XI.",
+        "C": "Fibrinógeno, VII, IX, X.",
+        "D": "II, VI, IX, X."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "II, VII. IX. X."
+    },
+    {
+      "id": 237,
+      "question": "La prueba de Rumpel-leede es:",
+      "options": {
+        "A": "La prueba del tiempo de coagulación.",
+        "B": "La prueba del tiempo de obturación.",
+        "C": "La prueba del torniquete.",
+        "D": "La prueba del tiempo de sangría"
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "La prueba del torniquete."
+    },
+    {
+      "id": 238,
+      "question": "¿Cuál de los siguientes factores pertenece a la vía intrínseca?",
+      "options": {
+        "A": "II",
+        "B": "VII",
+        "C": "VIII",
+        "D": "X"
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "VIII"
+    },
+    {
+      "id": 239,
+      "question": "Respecto a la Proteína C, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Es de síntesis renal y no K dependiente.",
+        "B": "Es una proteína plasmática.",
+        "C": "Facilita la lisis del coágulo.",
+        "D": "Su cimógeno es activado por la trombina."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Es de síntesis renal y no K dependiente."
+    },
+    {
+      "id": 240,
+      "question": "¿Qué vitamina es imprescindible para la síntesis de algunos de los factores de la coagulación, así como de las proteínas C y S?:",
+      "options": {
+        "A": "Vitamina E.",
+        "B": "Vitamina D.",
+        "C": "Vitamina A.",
+        "D": "Vitamina K."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Vitamina K."
+    },
+    {
+      "id": 241,
+      "question": "¿Qué tipo de plasma suele ser el más empleado en la mayoría de las pruebas de coagulación?",
+      "options": {
+        "A": "Plasma rico en plaquetas.",
+        "B": "Plasma pobre en plaquetas.",
+        "C": "Plasma adsorbido.",
+        "D": "No se utiliza plasma, es más adecuado utilizar suero."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Plasma pobre en plaquetas."
+    },
+    {
+      "id": 242,
+      "question": "¿Qué trombofilia está producida por diferentes factores patológicos, farmacológicos o nutricionales, destacando la ingesta escasa de vitamina B12 y de ácido fólico?",
+      "options": {
+        "A": "Hiperhomocisteinemia congénita.",
+        "B": "Disfibrinogenemia.",
+        "C": "Hiperhomocisteinemia adquirida.",
+        "D": "Síndrome nefrótico."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Hiperhomocisteinemia adquirida."
+    },
+    {
+      "id": 243,
+      "question": "Se realizan las pruebas de coagulación y, teniendo en cuenta los valores de referencia, obtenemos los siguientes resultados: un tiempo de protrombina (TP) normal y un tiempo de tromboplastina parcial activado (TTPA) acortado. ¿Qué debemos considerar antes de validar técnicamente estos resultados?",
+      "options": {
+        "A": "Descartar la contaminación por heparina realizando la prueba trombina/Reptilase.",
+        "B": "Realizar la prueba dímero-D.",
+        "C": "Descartar un coágulo en la muestra.",
+        "D": "Realizar la prueba fibrinógeno."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Descartar un coágulo en la muestra."
+    },
+    {
+      "id": 244,
+      "question": "Confirmado el proceso infeccioso, ¿qué parámetro de la coagulación, al tratarse de un reactante de fase aguda, estará alterado y en qué sentido?",
+      "options": {
+        "A": "Un resultado de dímero-D disminuido",
+        "B": "Un resultado de fibrinógeno elevado",
+        "C": "Un resultado de TP acortado",
+        "D": "Un resultado de TTPA alargado"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Un resultado de fibrinógeno elevado"
+    },
+    {
+      "id": 245,
+      "question": "En un déficit del factor VIII de la coagulación, ¿cuál de estos resultados puede ayudarnos a su diagnóstico?",
+      "options": {
+        "A": "Un tiempo de protrombina (TP) alargado.",
+        "B": "Un tiempo de protrombina (TP) acortado.",
+        "C": "Un tiempo de tromboplastina parcial activada",
+        "D": "Un tiempo de tromboplastina parcial activada (TTPA) acortado."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Un tiempo de tromboplastina parcial activada"
+    },
+    {
+      "id": 246,
+      "question": "En relación con la técnica de tiempo de trombina (TT), ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "A": "Cuantifica el tiempo que tarda en formarse el coágulo cuando añadimos calcio al plasma citratado.",
+        "B": "Se acorta el tiempo en presencia de heparina.",
+        "C": "Se alarga el tiempo en casos de hiperfibrinólisis.",
+        "D": "Se utiliza para cuantificar factores vitamina K- dependientes"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Se alarga el tiempo en casos de hiperfibrinólisis."
+    },
+    {
+      "id": 247,
+      "question": "¿Cuál sería el tratamiento de elección si se ha producido una sobredosificación de cumarínicos e interesa normalizar su efecto?",
+      "options": {
+        "A": "Ácido acetil salicílico",
+        "B": "Vitamina K",
+        "C": "Heparina de bajo peso molecular",
+        "D": "Acenocumarol"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Vitamina K"
+    },
+    {
+      "id": 248,
+      "question": "¿Cuál es el trastorno hemorrágico congénito más frecuente?",
+      "options": {
+        "A": "Hemofilia A",
+        "B": "Hemofilia B",
+        "C": "Hemofilia C",
+        "D": "Enfermedad de Von Willebrand"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Enfermedad de Von Willebrand"
+    },
+    {
+      "id": 249,
+      "question": "¿En qué situación sería esperable una prolongación del Tiempo de Reptilase?",
+      "options": {
+        "A": "Coagulación intravascular diseminada",
+        "B": "Enfermedad renal",
+        "C": "Tratamientos con heparina",
+        "D": "Tromboembolismo pulmonar"
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Coagulación intravascular diseminada"
+    },
+    {
+      "id": 250,
+      "question": "¿Qué factores son comunes a la vía extrínseca e intrínseca?",
+      "options": {
+        "A": "I, II, V, X.",
+        "B": "I, II, VII, X.",
+        "C": "I, III, V, VII.",
+        "D": "II, V, X, XI."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "I, II, V, X."
+    },
+    {
+      "id": 251,
+      "question": "El tiempo de protrombina determina:",
+      "options": {
+        "A": "La vía extrínseca.",
+        "B": "La vía intrínseca.",
+        "C": "La vía común.",
+        "D": "a y c son correctas."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "a y c son correctas."
+    },
+    {
+      "id": 252,
+      "question": "La coagulación intravascular diseminada es una causa de trombocitopenia adquirida de origen periférico debida a:",
+      "options": {
+        "A": "Distribución anormal",
+        "B": "Hiperconsumo",
+        "C": "Etiología inmune",
+        "D": "A y C son correctas"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Hiperconsumo"
+    },
+    {
+      "id": 253,
+      "question": "La hemostasia actúa en:",
+      "options": {
+        "A": "Tres fases.",
+        "B": "Dos fases.",
+        "C": "Cuatro fases.",
+        "D": "Una fase."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Tres fases."
+    },
+    {
+      "id": 254,
+      "question": "La heparina inhibe la coagulación porque:",
+      "options": {
+        "A": "Activa el factor V.",
+        "B": "Inhibe la trombina.",
+        "C": "Activa la proteína C.",
+        "D": "Activa la antitrombina III."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Activa la antitrombina III."
+    },
+    {
+      "id": 255,
+      "question": "El factor de Von Willebrand:",
+      "options": {
+        "A": "Favorece la agregación plaquetaria.",
+        "B": "Inhibe la coagulación.",
+        "C": "Favorece la fibrinolisis.",
+        "D": "Estabiliza el coagulo de fibrina."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Favorece la agregación plaquetaria."
+    },
+    {
+      "id": 256,
+      "question": "¿Cuál es el único factor estructural de la coagulación?",
+      "options": {
+        "A": "Factor I o fibrinógeno.",
+        "B": "Factor X o de Stuart-Prower.",
+        "C": "Factor VIII.",
+        "D": "Factor II o protrombina."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Factor I o fibrinógeno."
+    },
+    {
+      "id": 257,
+      "question": "¿Cuál es el diagnóstico más probable de un paciente con trombopenia progresiva, niveles de fibrinógeno bajos, alargamiento de los tiempos de protrombina y tromboplastina parcial activada, aumento de los dímeros-D y esquitocitos en el frotis de sangre periférica?",
+      "options": {
+        "A": "Coagulación intravascular diseminada.",
+        "B": "Púrpura trombótica trombocitopénica.",
+        "C": "Síndrome antifosfolípido catastrófico.",
+        "D": "Enfermedad de von Willebrand."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Coagulación intravascular diseminada."
+    },
+    {
+      "id": 258,
+      "question": "La agregación plaquetaria NO está alterada en:",
+      "options": {
+        "A": "Hemofilia B.",
+        "B": "Enfermedad de Von Willebrand.",
+        "C": "Tratamiento con aspirina.",
+        "D": "Está alterada en todas."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Hemofilia B."
+    },
+    {
+      "id": 259,
+      "question": "Indique la afirmación correcta sobre el plasminógeno:",
+      "options": {
+        "A": "El plasminógeno o profibrinolisina es una glicoproteína sintetizada por el hígado, presente en el plasma sanguíneo",
+        "B": "El plasminógeno tipo I aparece reclutado en los coágulos de fibrina",
+        "C": "El plasminógeno tipo II está preferentemente presente en la superficie de la célula",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    }
+  ]
+}

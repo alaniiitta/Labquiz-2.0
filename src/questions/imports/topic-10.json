@@ -1,0 +1,4124 @@
+{
+  "tema": 10,
+  "titulo": "Banco de sangre",
+  "source_file": "TEST tema 10 Banco de sangre (respuestas).pdf",
+  "total_questions": 317,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Si el grupo sanguíneo del padre es A y el de la madre es B, el grupo del hijo puede ser:",
+      "options": {
+        "A": "tiene que ser AB.",
+        "B": "sólo puede ser A.",
+        "C": "puede ser A, B, AB o 0.",
+        "D": "sólo puede ser B."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "puede ser A, B, AB o 0."
+    },
+    {
+      "id": 2,
+      "question": "¿Qué temperatura deben mantener los frigoríficos que se utilizan en la conservación y almacenamiento concentrado de hematíes o sangre total?:",
+      "options": {
+        "A": "-2 a -10ºC.",
+        "B": "5 a 10ºC.",
+        "C": "2 a 6ºC.",
+        "D": "-2 a +2ºC."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "2 a 6ºC."
+    },
+    {
+      "id": 3,
+      "question": "¿Qué es una aféresis?:",
+      "options": {
+        "A": "Extracción de sangre para analíticas.",
+        "B": "Extracción de sangre, y separación de sus",
+        "C": "Extracción de sangre y separación de sus",
+        "D": "Extracción de plaquetas."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Extracción de sangre, y separación de sus"
+    },
+    {
+      "id": 4,
+      "question": "En el Plasma del grupo AB, se denomina receptor universal porque carecen de:",
+      "options": {
+        "A": "Antígeno A.",
+        "B": "Antígeno AB.",
+        "C": "Anticuerpos AB0.",
+        "D": "Antígeno B."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos AB0."
+    },
+    {
+      "id": 5,
+      "question": "La prueba del Du resulta ser positiva, considerándose:",
+      "options": {
+        "A": "Rh positivo, por antígeno débil.",
+        "B": "Rh negativo por gen amorfo o silencioso.",
+        "C": "Antígeno D incompleto y, por tanto, Rh negativo.",
+        "D": "Se considera a todos los efectos como Rh negativo."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Rh positivo, por antígeno débil."
+    },
+    {
+      "id": 6,
+      "question": "Durante el estudio del Rh es falso que:",
+      "options": {
+        "A": "Suelen ser IgG calientes.",
+        "B": "En el sistema Rh no existen aglutininas naturales.",
+        "C": "Se considera el fenotipo dd como Rh negativo.",
+        "D": "Se considera el fenotipo Dd como Rh negativo."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Se considera el fenotipo Dd como Rh negativo."
+    },
+    {
+      "id": 7,
+      "question": "Para prevenir la inmunización de la madre durante el parto, a Lola se le debe administrar:",
+      "options": {
+        "A": "Anticuerpos anti-D antes de una semana.",
+        "B": "Anticuerpos anti-D antes de las 72 horas.",
+        "C": "Inmunoglobulina anti-D durante la semana posparto.",
+        "D": "Anticuerpos anti-D un mes antes del parto."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos anti-D antes de las 72 horas."
+    },
+    {
+      "id": 8,
+      "question": "¿Qué parámetro nos ayudarían a catalogar la anemia como hemolítica?:",
+      "options": {
+        "A": "VIT B 12.",
+        "B": "Fólico.",
+        "C": "Coombs directo.",
+        "D": "Receptor soluble de la transferrina."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Coombs directo."
+    },
+    {
+      "id": 9,
+      "question": "En el test de Coombs directo, se investiga:",
+      "options": {
+        "A": "Si en suero existen anticuerpos incompletos.",
+        "B": "La presencia de Ac en la superficie de los",
+        "C": "La presencia de anticuerpos completos en el suero.",
+        "D": "La presencia de antígenos en los hematíes."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "La presencia de Ac en la superficie de los"
+    },
+    {
+      "id": 10,
+      "question": "¿A qué temperatura se debe conservar los CH?:",
+      "options": {
+        "A": "-2 a -10ªC.",
+        "B": "-2 a +2ªC.",
+        "C": "+2 a +6ªC.",
+        "D": "+5 a +10ªC."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "+2 a +6ªC."
+    },
+    {
+      "id": 11,
+      "question": "De los siguientes registros, indicar cuál es el más adecuado para mantenimiento de plaquetas:",
+      "options": {
+        "A": "Sin agitación a 22ªC (+/- 2ºC), caducidad máxima 10 días.",
+        "B": "Sin agitación a 22ºC (+/- 2ºC), caducidad máxima7 días.",
+        "C": "Con agitación a 22ºC (+/- 2ºC), caducidad",
+        "D": "Con agitación a 10ºC, caducidad máxima 7 días."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Con agitación a 22ºC (+/- 2ºC), caducidad"
+    },
+    {
+      "id": 12,
+      "question": "Es falso que los concentrados de plaquetas:",
+      "options": {
+        "A": "Se pueden obtener de donaciones múltiples por centrifugación.",
+        "B": "Presenta riesgo de transmisión de enfermedades.",
+        "C": "Es preferible que sea de Rh compatible.",
+        "D": "No están involucrada en reacciones transfusionales."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "No están involucrada en reacciones transfusionales."
+    },
+    {
+      "id": 13,
+      "question": "¿Cuánto suele aumentar la concentración de Hb con la administración de una sola unidad de sangre?:",
+      "options": {
+        "A": "3 gr.",
+        "B": "1´5 gr.",
+        "C": "0´5 gr.",
+        "D": "2 gr."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "1´5 gr."
+    },
+    {
+      "id": 14,
+      "question": "De los siguientes antígenos del sistema Rh. ¿Cuál tiene mayor poder sensibilizante?:",
+      "options": {
+        "A": "Ag E.",
+        "B": "Ag e",
+        "C": "Ag C",
+        "D": "Ag D"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Ag D"
+    },
+    {
+      "id": 15,
+      "question": "En condiciones normales, ¿Cuánto debe durar la transfusión de 1 concentrado de hematíes?:",
+      "options": {
+        "A": "De 30 a 60 min.",
+        "B": "30 min.",
+        "C": "De 60 a 120 min.",
+        "D": "De 8 a 9 horas."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "De 60 a 120 min."
+    },
+    {
+      "id": 16,
+      "question": "¿Y en caso de transfusión de una unidad de plasma fresco?:",
+      "options": {
+        "A": "2 min.",
+        "B": "5 min.",
+        "C": "De 20 a 30 min.",
+        "D": "60 min."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "De 20 a 30 min."
+    },
+    {
+      "id": 17,
+      "question": "¿Cuál es la causa más frecuente de reacción transfusional?:",
+      "options": {
+        "A": "Alergia.",
+        "B": "Reacción febril no hemolítica.",
+        "C": "Reacción febril hemolítica.",
+        "D": "Infiltrados pulmonares."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Reacción febril no hemolítica."
+    },
+    {
+      "id": 18,
+      "question": "De estas opciones, ¿cuál es la menos importante que el TEL investigue en una reacción transfusional?:",
+      "options": {
+        "A": "Comprobar con nueva muestra, grupo AB0, Rh(D), investigación de anticuerpos irregulares.",
+        "B": "Comprobar en la muestra anterior, grupo AB0, Rh (D), investigación de anticuerpos irregulares.",
+        "C": "Test de Coombs directo.",
+        "D": "No precisa estudio microbiológico."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "No precisa estudio microbiológico."
+    },
+    {
+      "id": 19,
+      "question": "De las siguientes respuestas, señala cual es la más adecuada en cuanto a tipo de muestra que debe solicitar el TEL en el estudio de una reacción transfusional:",
+      "options": {
+        "A": "Hemograma, (EDTA), orina básica, coagulación, y",
+        "B": "Coagulación, Bioquímica, y VSG.",
+        "C": "Hemograma, orina básica, bioquímica, y ANA",
+        "D": "Bioquímica, orina básica, y VSG."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Hemograma, (EDTA), orina básica, coagulación, y"
+    },
+    {
+      "id": 20,
+      "question": "¿Cuál de los siguientes productos, no es un derivado plasmático?:",
+      "options": {
+        "A": "Albúmina humana.",
+        "B": "Inmunoglobulina anti-D",
+        "C": "Suero fisiológico NaCL al 0´9 %.",
+        "D": "Factores de coagulación."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Suero fisiológico NaCL al 0´9 %."
+    },
+    {
+      "id": 21,
+      "question": "En el etiquetado de componentes sanguíneos destinados a las transfusiones, debe indicarse todo lo siguiente excepto:",
+      "options": {
+        "A": "Datos del centro de procedencia.",
+        "B": "Nombre del producto.",
+        "C": "Anticoagulante y/o conservante utilizado.",
+        "D": "Test de Coombs directo."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Test de Coombs directo."
+    },
+    {
+      "id": 22,
+      "question": "¿Qué son los anticuerpos completos?:",
+      "options": {
+        "A": "Aquellos que poseen en su totalidad reactividadfrente a antígenos.",
+        "B": "Aquellos que no han perdido parte de su estructura.",
+        "C": "Aquellos que no son capaces de aglutinar por sí solos los hematíes que contengan sus correspondientes antígenos.",
+        "D": "Aquellos capaces de aglutinar por sí solos los hematíes que contengan sus correspondientes antígenos."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Aquellos capaces de aglutinar por sí solos los hematíes que contengan sus correspondientes antígenos."
+    },
+    {
+      "id": 23,
+      "question": "Los anticuerpos incompletos, suelen ser de tipo:",
+      "options": {
+        "A": "IgM.",
+        "B": "IgE.",
+        "C": "IgG.",
+        "D": "IgD."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "IgG."
+    },
+    {
+      "id": 24,
+      "question": "La prueba de Coombs determina:",
+      "options": {
+        "A": "Presencia de anticuerpos anti-Rh.",
+        "B": "Cariotipo fetal.",
+        "C": "Hipoxia fetal.",
+        "D": "Alteraciones inmunológicas."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Presencia de anticuerpos anti-Rh."
+    },
+    {
+      "id": 25,
+      "question": "Sistema ABO (Señala la respuesta correcta):",
+      "options": {
+        "A": "Grupo A, presenta Ag. A.",
+        "B": "Grupo B, presenta Ac. B.",
+        "C": "Grupo AB, presenta Ac. A y B.",
+        "D": "Grupo O, presenta Ag A y B."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Grupo A, presenta Ag. A."
+    },
+    {
+      "id": 26,
+      "question": "En una donación, la cantidad de sangre extraída al donante es aproximadamente de:",
+      "options": {
+        "A": "450 ml.",
+        "B": "750 ml.",
+        "C": "200 ml.",
+        "D": "1000 ml."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "450 ml."
+    },
+    {
+      "id": 27,
+      "question": "Normalmente, los concentrados de plaquetas de donante único, se administran para:",
+      "options": {
+        "A": "Cualquier paciente.",
+        "B": "Pacientes de los que se desconoce el grupo.",
+        "C": "Adolescentes.",
+        "D": "Pacientes con aloinmunización."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Pacientes con aloinmunización."
+    },
+    {
+      "id": 28,
+      "question": "Las plaquetas en incubador y agitación continua, se puede utilizar para transfundir en:",
+      "options": {
+        "A": "6 horas.",
+        "B": "15 días.",
+        "C": "6 días.",
+        "D": "3 meses."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "6 días."
+    },
+    {
+      "id": 29,
+      "question": "Cuál es el significado de un Coombs directo positivo.",
+      "options": {
+        "A": "Que hay aglutinación de hematíes.",
+        "B": "Que hay anticuerpos en el suero.",
+        "C": "Que hay anticuerpos pegados a los hematíes.",
+        "D": "Que hay doble población de hematíes."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Que hay anticuerpos pegados a los hematíes."
+    },
+    {
+      "id": 30,
+      "question": "¿Qué significa que el Coombs indirecto es positivo?",
+      "options": {
+        "A": "Que hay aloanticuerpo pegados a los hematíes.",
+        "B": "Que hay autoanticuerpos pegados a los hematíes.",
+        "C": "Que hay anticuerpos en el suero.",
+        "D": "Que hay hemólisis."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Que hay anticuerpos en el suero."
+    },
+    {
+      "id": 31,
+      "question": "Si la paciente requiere transfusión dentro de 1 año, ¿qué debemos hacer?",
+      "options": {
+        "A": "No hacer reserva porque está estudiada.",
+        "B": "No hace falta prueba cruzada.",
+        "C": "Cruzar muchas unidades.",
+        "D": "Estudiar los anticuerpos de nuevo."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Estudiar los anticuerpos de nuevo."
+    },
+    {
+      "id": 32,
+      "question": "Según el sistema ABO, ¿cuál sería el receptor universal?",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "AB.",
+        "D": "O."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "AB."
+    },
+    {
+      "id": 33,
+      "question": "La incompatibilidad del sistema Rh aparece:",
+      "options": {
+        "A": "Entre un padre rh y un feto Rh.",
+        "B": "Un feto rh y una madre rh.",
+        "C": "Una madre Rh y un feto rh.",
+        "D": "Una madre rh y un feto Rh."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Una madre rh y un feto Rh."
+    },
+    {
+      "id": 34,
+      "question": "Que afirmación no es cierta sobre el test de coombs,",
+      "options": {
+        "A": "También se llama globulina-antiglobulina.",
+        "B": "El suero de Coombs es una inmunoglobulina antiglobulina IgG que aglutinara la IgG que esté ligada.",
+        "C": "Es necesario un paso previo de lavado con agua",
+        "D": "Todas son ciertas."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Es necesario un paso previo de lavado con agua"
+    },
+    {
+      "id": 35,
+      "question": "En las reacciones de inmunoaglutinación, al anticuerpo especifico se le conoce como",
+      "options": {
+        "A": "Aglutinina",
+        "B": "Aglutinógeno",
+        "C": "Hemaglutinina",
+        "D": "Ninguna es cierta"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Aglutinina"
+    },
+    {
+      "id": 36,
+      "question": "Respecto al sistema ABO ¿qué antígeno se expresa en el hematíe cuando el genotipo es “BO”?",
+      "options": {
+        "A": "O",
+        "B": "A",
+        "C": "B",
+        "D": "A y B"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "B"
+    },
+    {
+      "id": 37,
+      "question": "Respecto al sistema ABO ¿qué tipo de anticuerpos tendrá una sangre del grupo “A2 B”?",
+      "options": {
+        "A": "Anti-A1",
+        "B": "Anti-B",
+        "C": "Anti-A1 y anti-B",
+        "D": "Anti-A y anti-B"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Anti-A1"
+    },
+    {
+      "id": 38,
+      "question": "El efecto adverso post-transfusional de causa no inmunitaria más frecuente es:",
+      "options": {
+        "A": "Hemólisis no inmunitaria",
+        "B": "Sobrecarga de volumen",
+        "C": "Desequilibrio electrolítico",
+        "D": "Infección por virus Hepatitis B"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Sobrecarga de volumen"
+    },
+    {
+      "id": 39,
+      "question": "Un concentrado de hematíes fenotipo como Rh- Du+ debería considerarse:",
+      "options": {
+        "A": "Rh+",
+        "B": "Rh-",
+        "C": "Deberían realizarse más pruebas",
+        "D": "Ninguna es correcta"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Rh+"
+    },
+    {
+      "id": 40,
+      "question": "Respecto a los anticuerpos AB0 son predominantemente:",
+      "options": {
+        "A": "IgG",
+        "B": "IgM",
+        "C": "IgE",
+        "D": "IgD"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "IgM"
+    },
+    {
+      "id": 41,
+      "question": "Respecto a los Antígenos de los grupos ABO señale la respuesta verdadera:",
+      "options": {
+        "A": "Los determinantes antigénicos A, B y O son azucares terminales de cadenas de oligosacáridos anclados en glucoproteinas o glucolípidos de la membrana eritrocitaria.",
+        "B": "Los Antígenos A, B y O difieren sólo en el azúcar terminal del oligosacárido.",
+        "C": "El Antígeno B se caracteriza por un residuo terminal de galactosa.",
+        "D": "Todas son verdaderas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas son verdaderas."
+    },
+    {
+      "id": 42,
+      "question": "La prueba de Coombs indirecta:",
+      "options": {
+        "A": "Es el primer paso de las pruebas cruzadas.",
+        "B": "Se utiliza para detectar antígenos ABO.",
+        "C": "Si es positiva es necesario realizar una prueba de",
+        "D": "La prueba es positiva si no se produce aglutinación."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Si es positiva es necesario realizar una prueba de"
+    },
+    {
+      "id": 43,
+      "question": "Actualmente el anticoagulante más utilizado en las bolsas de extracción de sangre y su posterior fraccionamiento es:",
+      "options": {
+        "A": "ACD",
+        "B": "Citrato trisódico",
+        "C": "Citrato monosódico",
+        "D": "CPD- SAG- Manitol"
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "CPD- SAG- Manitol"
+    },
+    {
+      "id": 44,
+      "question": "En la determinación del grupo sanguíneo se pone de manifiesto la presencia de:",
+      "options": {
+        "A": "Aglutinógenos en suero",
+        "B": "Aglutininas en suero",
+        "C": "Aglutinógenos en la superficie del hematíe",
+        "D": "Las respuestas b y c son correctas"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas b y c son correctas"
+    },
+    {
+      "id": 45,
+      "question": "La interpretación del grupo sanguíneo en porta es:",
+      "options": {
+        "A": "Si aglutina el reactivo Anti- A y Anti-B: A negativo",
+        "B": "Si aglutina el reactivo Anti- B y Anti- D: B negativo",
+        "C": "Si solamente aglutina el reactivo D: O negativo",
+        "D": "Si aglutinan los tres reactivos Anti-A, Anti-B, Anti- D: AB positivo"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Si aglutinan los tres reactivos Anti-A, Anti-B, Anti- D: AB positivo"
+    },
+    {
+      "id": 46,
+      "question": "Se nos presenta un paciente varón de 39 años con los siguientes resultados: grupo hemático A, con discrepancia en grupo sérico presentando positividad en las células A1, Rh positivo, Coombs indirecto negativo y pruebas cruzadas con concentrados hemáticos A POS positivas, ¿cuál sería nuestro razonamiento más correcto?",
+      "options": {
+        "A": "La presencia de un anticuerpo irregular, por lo que deberíamos fenotipar al paciente",
+        "B": "La presencia de un anticuerpo de tipo frío, por lo que deberíamos montar las pruebas a 37 ºC",
+        "C": "Deberíamos montar un panel con células tratadas con enzimas",
+        "D": "Sospecharíamos de la presencia de un Anti- A1 que impide que crucen las bolsas"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Sospecharíamos de la presencia de un Anti- A1 que impide que crucen las bolsas"
+    },
+    {
+      "id": 47,
+      "question": "Nos llega petición de transfusión de 900 ce de plasma para un paciente varón de 59 años, con un Anti-JKa identificado, grupo A POS y Coombs indirecto positivo concordante con el anticuerpo ya conocido.",
+      "options": {
+        "A": "Realizaremos pruebas cruzadas con unidades que respeten fenotipo JKa negativo y de ser negativas procederemos a la transfusión",
+        "B": "Elegiremos unidades O NEG, JKa negativo para minimizar las probabilidades de reacción transfusional",
+        "C": "Elegiremos unidades AB POS",
+        "D": "Escogeremos siempre que sea posible unidades isogrupo"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Escogeremos siempre que sea posible unidades isogrupo"
+    },
+    {
+      "id": 48,
+      "question": "En relación al grupo Du, señale la RESPUESTA CORRECTA:",
+      "options": {
+        "A": "Las unidades de Sangre Du positivas se",
+        "B": "Las unidades de Sangre Du positivas se clasificarán como Rh negativos.",
+        "C": "Los individuos Du positivos deben ser transfundidos con sangre Rh positiva.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Las unidades de Sangre Du positivas se"
+    },
+    {
+      "id": 49,
+      "question": "La adición de adenina a las bolsas de sangre completa con el conservante Citrato Fosfato- Dextrosa tiene como finalidad:",
+      "options": {
+        "A": "Disminuir la hemólisis durante la conservación.",
+        "B": "Incrementar la vida útil de la bolsa hasta 1 mes.",
+        "C": "Incrementar el tiempo máximo de almacenamiento hasta 42 días.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las anteriores es correcta."
+    },
+    {
+      "id": 50,
+      "question": "¿Cómo se denomina la fracción plasmática que precipita al descongelar el plasma fresco congelado?",
+      "options": {
+        "A": "Plasma sobrenadante de crioprecipitado.",
+        "B": "Buffy- coat.",
+        "C": "Plasmaféresis.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las anteriores es correcta."
+    },
+    {
+      "id": 51,
+      "question": "Las aféresis de granulocitos:",
+      "options": {
+        "A": "Deben ser transportadas entre 2º C y 6° C sin agitación.",
+        "B": "Deben ser transportadas entre 2º C y 6° C con agitación.",
+        "C": "Deben ser transportadas entre 5° C y 15° C con agitación.",
+        "D": "Deben ser transfundidas tan pronto como sea posible tras su recolección."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Deben ser transfundidas tan pronto como sea posible tras su recolección."
+    },
+    {
+      "id": 52,
+      "question": "Al realizar la prueba sérica de determinación del Grupo Sanguíneo, si se produce aglutinación sólo con los hematíes del grupo A, ¿a qué grupo sanguíneo pertenecerá?",
+      "options": {
+        "A": "B.",
+        "B": "A.",
+        "C": "AB Débil.",
+        "D": "O"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "B."
+    },
+    {
+      "id": 53,
+      "question": "Los concentrados de plaquetas por ser un componente sanguíneo ¿Cómo deben transportarse?",
+      "options": {
+        "A": "Con hielo a una temperatura de 1º a 10ºC.",
+        "B": "Con temperaturas lo más cercanas posibles a",
+        "C": "Con temperaturas lo más cercanas posibles a 15ºC.",
+        "D": "Con hielo seco."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Con temperaturas lo más cercanas posibles a"
+    },
+    {
+      "id": 54,
+      "question": "Señala la afirmación incorrecta:",
+      "options": {
+        "A": "El test de Coombs indirecto determina el fenotipo de los grupos sanguíneos.",
+        "B": "Para realizar el test de Coombs directo necesitaremos una muestra de sangre anticoagulada con EDTA.",
+        "C": "El test de Coombs indirecto detecta la sensibilización de hematíes in vitro.",
+        "D": "El test de Coombs directo nos permite observar la presencia de anticuerpos en el plasma."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "El test de Coombs directo nos permite observar la presencia de anticuerpos en el plasma."
+    },
+    {
+      "id": 55,
+      "question": "¿Cuál de los siguientes es un fenotipo de un individuo Rh negativo?",
+      "options": {
+        "A": "Dce/dce",
+        "B": "DcE/dce",
+        "C": "dce/dce",
+        "D": "DCe/DcE"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "dce/dce"
+    },
+    {
+      "id": 56,
+      "question": "El grupo sanguíneo y el Rh son determinantes en la compatibilidad sanguínea. En el caso del donante universal se corresponde con:",
+      "options": {
+        "A": "Grupo O y Rh positivo.",
+        "B": "Grupo A y Rh negativo.",
+        "C": "Grupo O y Rh negativo.",
+        "D": "Grupo AB y Rh negativo."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Grupo O y Rh negativo."
+    },
+    {
+      "id": 57,
+      "question": "El almacenamiento del concentrado de hematíes debe realizarse teniendo en cuenta las condiciones de temperatura y el tiempo de caducidad. Señale la respuesta correcta:",
+      "options": {
+        "A": "De -2 a 6 grados, 20 días.",
+        "B": "De O a 10 grados, 30 días.",
+        "C": "De 20 a 24 grados, 5 días.",
+        "D": "De 2 a 6 grados, 42 días."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "De 2 a 6 grados, 42 días."
+    },
+    {
+      "id": 58,
+      "question": "La composición de los antígenos del sistema Rh presentes en la membrana eritrocitaria está formada por:",
+      "options": {
+        "A": "Proteínas.",
+        "B": "Lipoproteínas.",
+        "C": "Glucolípidos.",
+        "D": "Glucoesfingolípidos."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Lipoproteínas."
+    },
+    {
+      "id": 59,
+      "question": "Los Ac del sistema ABO son:",
+      "options": {
+        "A": "Regulares, no activan el complemento.",
+        "B": "lgM, naturales, aglutinantes.",
+        "C": "lgM, aglutinantes, atraviesan la placenta.",
+        "D": "lgG, temperatura óptima 37 ºC"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "lgM, naturales, aglutinantes."
+    },
+    {
+      "id": 60,
+      "question": "Para una prueba de Coombs directa se debe utilizar:",
+      "options": {
+        "A": "Hematíes del paciente.",
+        "B": "Suero del paciente.",
+        "C": "Hematíes del paciente y suero del donante.",
+        "D": "Plasma del paciente y hematíes del donante."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Hematíes del paciente."
+    },
+    {
+      "id": 61,
+      "question": "Un plasma fresco congelado es aquel que se obtiene:",
+      "options": {
+        "A": "separando y congelando el plasma antes de las 6",
+        "B": "separando y congelando el plasma antes de las 12 horas trasser extraído.",
+        "C": "separando y congelando el plasma inmediatamente después de la extracción.",
+        "D": "refrigerando la muestra inmediatamente después de la extracción, separando y congelando el plasma."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "separando y congelando el plasma antes de las 6"
+    },
+    {
+      "id": 62,
+      "question": "En un Banco de sangre, el crioprecipitado se obtiene:",
+      "options": {
+        "A": "El plasma fresco congelado, se descongela, se",
+        "B": "El plasma rico en plaquetas congelado, se descongela, se centrifuga y se recoge.",
+        "C": "El plasma fresco se centrifuga, se congela y descongela repetidas veces, se centrifuga y se recoge.",
+        "D": "El plasma que resta del concentrado de hematíes, se congela, se centrifuga y se recoge."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "El plasma fresco congelado, se descongela, se"
+    },
+    {
+      "id": 63,
+      "question": "Los anticuerpos del sistema Rh son:",
+      "options": {
+        "A": "Inmunes, generalmente IgG (Inmunoglobulinas",
+        "B": "Naturales, generalmente IgM (Inmunoglobulinas M) y aglutinantes en medio salino.",
+        "C": "Irregulares, generalmente IgG y aglutinantes en medio salino.",
+        "D": "Irregulares, reaccionan mejor a 37 ºC y pocos fijan el complemento."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Inmunes, generalmente IgG (Inmunoglobulinas"
+    },
+    {
+      "id": 64,
+      "question": "Un paciente con Coombs directa positiva tiene:",
+      "options": {
+        "A": "Ac (anticuerpos) irregulares.",
+        "B": "Autoanticuerpos.",
+        "C": "Hematíes sensibilizados.",
+        "D": "Ac (Anticuerpos) regulares."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Hematíes sensibilizados."
+    },
+    {
+      "id": 65,
+      "question": "El antígeno Cellano pertenece al sistema:",
+      "options": {
+        "A": "Duffy.",
+        "B": "Kell.",
+        "C": "P.",
+        "D": "Kidd."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Kell."
+    },
+    {
+      "id": 66,
+      "question": "Para determinar un antígeno D débil se emplea:",
+      "options": {
+        "A": "Prueba de Coombs directa",
+        "B": "Prueba de Coombs indirecta",
+        "C": "Tipado con antiD de título alto",
+        "D": "Tipado con antiD de título alto y albúmina"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Prueba de Coombs indirecta"
+    },
+    {
+      "id": 67,
+      "question": "En un Banco de sangre las plaquetas se conservan",
+      "options": {
+        "A": "A 22 ºC en movimiento",
+        "B": "A 4ºC con conservantes",
+        "C": "A – 40 ºC con crioprotectores",
+        "D": "A 37 °C en movimiento"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "A 22 ºC en movimiento"
+    },
+    {
+      "id": 68,
+      "question": "Para llegar al diagnóstico de una anemia hemolítica auto inmune, ¿Cuál de estas pruebas es imprescindible?",
+      "options": {
+        "A": "Crioglobulinas.",
+        "B": "Pruebas cruzadas.",
+        "C": "Coombs indirecto.",
+        "D": "Coombs directo."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Coombs directo."
+    },
+    {
+      "id": 69,
+      "question": "La prueba de antiglobulina directa (PAD), es de utilidad para el diagnóstico de todas las siguientes situaciones, excepto:",
+      "options": {
+        "A": "Presencia de anticuerpos libres en plasma.",
+        "B": "Enfermedad hemolítica del recién nacido.",
+        "C": "Anemia hemolítica autoinmune.",
+        "D": "Reacciones transfusionales."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Presencia de anticuerpos libres en plasma."
+    },
+    {
+      "id": 70,
+      "question": "¿Cuál de las siguientes causas pueden ocasionar resultados falsamente positivos en la PAD?:",
+      "options": {
+        "A": "Empleo de tubos sucios.",
+        "B": "Se olvida de añadir el reactivo antiglobulina.",
+        "C": "Incubación o centrifugación insuficientes.",
+        "D": "Elución insuficiente por lavados excesivos."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Empleo de tubos sucios."
+    },
+    {
+      "id": 71,
+      "question": "Realizamos PAD a la paciente viendo sus resultados positivos. ¿Cuál de los siguientes es el diagnóstico definitivo de la paciente?:",
+      "options": {
+        "A": "Anemia hemolítica por ingesta de habas.",
+        "B": "Anemia hemolítica auto inmune.",
+        "C": "Anemia regenerativa por sangrado.",
+        "D": "Beta Talasemia."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Anemia hemolítica auto inmune."
+    },
+    {
+      "id": 72,
+      "question": "¿Cuál es el anticuerpo más preferentemente implicado en las anemias hemolíticas auto inmunes por anticuerpos fríos?:",
+      "options": {
+        "A": "IgG.",
+        "B": "IgM.",
+        "C": "IgM + complemento.",
+        "D": "Complementos."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "IgM + complemento."
+    },
+    {
+      "id": 73,
+      "question": "Al realizar la prueba hemática de detección de aglutinógenos, se produce aglutinación de anti A, anti B, y anti AB. ¿A qué grupo sanguíneo pertenece?:",
+      "options": {
+        "A": "A.",
+        "B": "0.",
+        "C": "B.",
+        "D": "AB."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "AB."
+    },
+    {
+      "id": 74,
+      "question": "Al realizar la prueba sérica de detección del grupo sanguíneo, se produce aglutinación solo con los hematíes del grupo B. ¿A qué grupo sanguíneo pertenecerá?:",
+      "options": {
+        "A": "A.",
+        "B": "0.",
+        "C": "B.",
+        "D": "AB."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "A."
+    },
+    {
+      "id": 75,
+      "question": "¿Cuál de los siguientes grupos sanguíneos contiene más cantidad de sustancia H?:",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "0.",
+        "D": "AB."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "0."
+    },
+    {
+      "id": 76,
+      "question": "El sistema AB0 es el más importante cuando se va a realizar una transfusión. ¿Por quién fue descubierto?:",
+      "options": {
+        "A": "Karl Landsteiner.",
+        "B": "Groucho Marx.",
+        "C": "Fisher Rae.",
+        "D": "Wiener."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Karl Landsteiner."
+    },
+    {
+      "id": 77,
+      "question": "Siempre que haya una discrepancia entre el grupo hemático y el grupo sérico:",
+      "options": {
+        "A": "Es preponderante el resultado de la prueba hemática.",
+        "B": "Es preponderante el resultado de la prueba sérica.",
+        "C": "Hay que investigarla.",
+        "D": "Debe ser rechazada la muestra."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Hay que investigarla."
+    },
+    {
+      "id": 78,
+      "question": "¿Cuál de las siguientes respuestas no suele ser causa de la discrepancia entre la prueba hemática y sérica?:",
+      "options": {
+        "A": "Tubo sucio.",
+        "B": "Hematíes con anticuerpos adheridos.",
+        "C": "Subgrupos débiles de A, B.",
+        "D": "Centrifugación correcta."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Centrifugación correcta."
+    },
+    {
+      "id": 79,
+      "question": "En los casos donde existe discrepancia entre grupo hemático y sérico, ¿Cuál de los siguientes procedimientos no es correcto realizar?:",
+      "options": {
+        "A": "Repetir las pruebas.",
+        "B": "Lavar bien los hematíes.",
+        "C": "Tomar una nueva muestra.",
+        "D": "Ninguna"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Ninguna"
+    },
+    {
+      "id": 80,
+      "question": "¿De qué naturaleza son los anticuerpos inmunes que pueden provocar enfermedad hemolítica del recién nacido en casos de incompatibilidad feto- materna?",
+      "options": {
+        "A": "IgM",
+        "B": "IgA",
+        "C": "IgE",
+        "D": "IgG"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "IgG"
+    },
+    {
+      "id": 81,
+      "question": "Un individuo del grupo AB puede recibir sangre de:",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "AB.",
+        "D": "Todos ellos."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todos ellos."
+    },
+    {
+      "id": 82,
+      "question": "Mediante el test de Coombs directo se detectan:",
+      "options": {
+        "A": "Anticuerpos incompletos unidos a la membrana",
+        "B": "Anticuerpos frente a antígenos.",
+        "C": "Antígenos de los hematíes.",
+        "D": "Antiglobulinas humanas."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Anticuerpos incompletos unidos a la membrana"
+    },
+    {
+      "id": 83,
+      "question": "Los individuos del grupo A tienen de forma natural el anticuerpo:",
+      "options": {
+        "A": "Anti A.",
+        "B": "Anti B.",
+        "C": "Anti A y anti B.",
+        "D": "No tienen ninguno de los anteriores."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Anti B."
+    },
+    {
+      "id": 84,
+      "question": "De todos los antígenos conocidos el más inmunogénico es el:",
+      "options": {
+        "A": "E.",
+        "B": "C.",
+        "C": "D.",
+        "D": "e."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "D."
+    },
+    {
+      "id": 85,
+      "question": "¿Cuál de estos procedimientos modifica la caducidad de los hematíes?",
+      "options": {
+        "A": "Hematíes irradiados.",
+        "B": "Hematíes lavados.",
+        "C": "Sistema abierto.",
+        "D": "Todos."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todos."
+    },
+    {
+      "id": 86,
+      "question": "¿Qué producto preparamos para realizar un crioprecipitado?",
+      "options": {
+        "A": "Sangre total.",
+        "B": "Plaquetas.",
+        "C": "Hematíes.",
+        "D": "Plasma fresco congelado."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Plasma fresco congelado."
+    },
+    {
+      "id": 87,
+      "question": "La solución aditiva que permite una caducidad más larga en la conservación de los CH es:",
+      "options": {
+        "A": "ACD.",
+        "B": "CPD.",
+        "C": "CPD-Adenina.",
+        "D": "SAG-manitol."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "SAG-manitol."
+    },
+    {
+      "id": 88,
+      "question": "Las modificaciones que se producen en los CH durante su conservación son:",
+      "options": {
+        "A": "Disminuye la capacidad hemostática de las plaquetas,",
+        "B": "Disminuye la función de los granulocitos.",
+        "C": "Pérdida de los factores de coagulación.",
+        "D": "Todas son correctas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 89,
+      "question": "Al realizar una prueba sérica de detección del grupo sanguíneo, se produce aglutinación sólo conlos hematíes del grupo B. ¿A qué grupo pertenece?",
+      "options": {
+        "A": "Grupo A.",
+        "B": "Grupo B.",
+        "C": "Grupo O.",
+        "D": "Grupo AB."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Grupo A."
+    },
+    {
+      "id": 90,
+      "question": "EI grupo sanguíneo AB se denomina receptor universal porque su plasma carece de:",
+      "options": {
+        "A": "Antígeno A.",
+        "B": "Antígeno AB.",
+        "C": "Anticuerpos antiA y antiB.",
+        "D": "Antígeno B."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos antiA y antiB."
+    },
+    {
+      "id": 91,
+      "question": "¿Qué período de conservación y caducidad tiene la sangre total mantenida de 2 a 6°C en CPD-A?",
+      "options": {
+        "A": "21 días.",
+        "B": "35 días.",
+        "C": "7 días.",
+        "D": "24 horas."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "35 días."
+    },
+    {
+      "id": 92,
+      "question": "Para una prueba de Coombs directa se debe utilizar:",
+      "options": {
+        "A": "Hematíes del paciente",
+        "B": "Suero del paciente.",
+        "C": "Hematíes del paciente y suero del donante.",
+        "D": "Plasma del paciente y hematíes del donante."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Hematíes del paciente"
+    },
+    {
+      "id": 93,
+      "question": "Respecto al plasma fresco congelado, indique la opción correcta:",
+      "options": {
+        "A": "No contiene hematíes",
+        "B": "Contiene plaquetas, pero no leucocitos.",
+        "C": "Para hemoterapia debe ser compatible con el Rh del receptor, pero nocon el grupo sanguíneo.",
+        "D": "La vida media del factor Vlll es de 24 horas."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "No contiene hematíes"
+    },
+    {
+      "id": 94,
+      "question": "En la sangre humana es cierto que:",
+      "options": {
+        "A": "El aglutinógeno existe en el plasma y a él se debe, cuando existe, la aglutinación.",
+        "B": "Únicamente se podrá dar a un individuo sangre",
+        "C": "Al grupo 0+ se le llama donante universal.",
+        "D": "El grupo AB tiene las aglutininas α y β"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Únicamente se podrá dar a un individuo sangre"
+    },
+    {
+      "id": 95,
+      "question": "Los anticuerpos del sistema Lewis son:",
+      "options": {
+        "A": "lgA",
+        "B": "lgM",
+        "C": "lgG",
+        "D": "lgE"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "lgM"
+    },
+    {
+      "id": 96,
+      "question": "En el grupo sérico, la presencia de aglutinación con unos hematíes determinados indica:",
+      "options": {
+        "A": "La presencia de anticuerpos contra ellos",
+        "B": "La ausencia de anticuerpos contra ellos",
+        "C": "La negatividad para ese antígeno",
+        "D": "El grupo sérico no es una técnica de aglutinación"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "La presencia de anticuerpos contra ellos"
+    },
+    {
+      "id": 97,
+      "question": "¿Cuál de los siguientes conservantes mantendrá la sangre por más tiempo enbuen estado para su transfusión?:",
+      "options": {
+        "A": "Heparina.",
+        "B": "ACD.",
+        "C": "CPD adenina.",
+        "D": "Fluoruro sódico."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "CPD adenina."
+    },
+    {
+      "id": 98,
+      "question": "El grupo 0 presenta:",
+      "options": {
+        "A": "AntígenoA",
+        "B": "No presenta antígenos",
+        "C": "Antígenos Ay B",
+        "D": "Antígeno B"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "No presenta antígenos"
+    },
+    {
+      "id": 99,
+      "question": "El sistema AB0 fue descubierto por:",
+      "options": {
+        "A": "Mendel",
+        "B": "Kocher",
+        "C": "Landsteiner",
+        "D": "Fisher"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Landsteiner"
+    },
+    {
+      "id": 100,
+      "question": "En la prueba cruzada o prueba de compatibilidad:",
+      "options": {
+        "A": "Los hematíes del donante se mezclan con el",
+        "B": "Los hematíes del donante se mezclan con los hematíes del paciente",
+        "C": "El suero del donante se mezcla con el suero del paciente",
+        "D": "El suero del donante se mezcla con los hematíes del paciente"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Los hematíes del donante se mezclan con el"
+    },
+    {
+      "id": 101,
+      "question": "Señala la respuesta correcta referente al test de coombs directo:",
+      "options": {
+        "A": "Detecta los anticuerpos ya fijados al hematíe.",
+        "B": "Se usa para la detección de anticuerpos incompletos.",
+        "C": "Se usa para el diagnóstico de la enfermedad",
+        "D": "Las respuestas a y c son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas a y c son correctas."
+    },
+    {
+      "id": 102,
+      "question": "Con respecto a los anticuerpos del sistema Rh cuál es la respuesta correcta:",
+      "options": {
+        "A": "Son anticuerpos inmunes.",
+        "B": "El anticuerpo anti-Rh más frecuente es el anticuerpo E.",
+        "C": "No atraviesan la barrera placentaria.",
+        "D": "Todas son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Son anticuerpos inmunes."
+    },
+    {
+      "id": 103,
+      "question": "El receptor universal sería aquella persona que presenta:",
+      "options": {
+        "A": "Grupo AB y Rh negativo.",
+        "B": "Grupo A y Rh positivo.",
+        "C": "Grupo AB y Rh positivo.",
+        "D": "Grupo O y Rh negativo."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Grupo AB y Rh positivo."
+    },
+    {
+      "id": 104,
+      "question": "Los anticuerpos dirigidos contra uno de los siguientes sistemas antigénicos eritrocitarios no suelen ser peligrosos en la transfusión sanguínea por ser activos solo a 22ºC:",
+      "options": {
+        "A": "Sistema Lewis.",
+        "B": "Sistema Kell.",
+        "C": "Sistema Duffy.",
+        "D": "Sistema Kidd."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Sistema Lewis."
+    },
+    {
+      "id": 105,
+      "question": "Los concentrados de plaquetas se conservan habitualmente:",
+      "options": {
+        "A": "Congelados a -20ºC.",
+        "B": "Refrigerados a 4ºC.",
+        "C": "A 22ºC.",
+        "D": "A 22ºC en agitación continua."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "A 22ºC en agitación continua."
+    },
+    {
+      "id": 106,
+      "question": "Es falso en cuanto los concentrados de hematíes:",
+      "options": {
+        "A": "Han de tener un hematocrito de 60-80%.",
+        "B": "Tienen un volumen de 450 mL.",
+        "C": "A 4°C se conservan durante 35 ó 42 días, dependiendo de la sustancia conservadora utilizada.",
+        "D": "A -80ºC se conservan hasta 10 años."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Tienen un volumen de 450 mL."
+    },
+    {
+      "id": 107,
+      "question": "¿Cuál de las siguientes pruebas no es obligatoria para la detección de infecciones en candidatos a donar sangre?",
+      "options": {
+        "A": "VHB",
+        "B": "VHC",
+        "C": "Herpes zóster",
+        "D": "VIH"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Herpes zóster"
+    },
+    {
+      "id": 108,
+      "question": "En un banco de huesos, ¿cuál es el método más utilizado que conserva en forma viable los tejidos durante años?",
+      "options": {
+        "A": "La congelación a -20ºC",
+        "B": "La congelación a -180ºC",
+        "C": "La congelación a -80ºC",
+        "D": "Los tejidos no pueden congelarse"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "La congelación a -80ºC"
+    },
+    {
+      "id": 109,
+      "question": "La prueba de coombs es también conocida como:",
+      "options": {
+        "A": "Prueba de la aglutinina.",
+        "B": "Prueba de agregación inespecífica.",
+        "C": "Prueba de la gelatina de wharton.",
+        "D": "Prueba de la antiglobulina humana"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Prueba de la antiglobulina humana"
+    },
+    {
+      "id": 110,
+      "question": "El donante universal sería aquel individuo que presente:",
+      "options": {
+        "A": "Grupo O Rh negativo.",
+        "B": "Grupo O Rh positivo.",
+        "C": "Grupo AB Rh positivo.",
+        "D": "Grupo AB Rh negativo"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Grupo O Rh negativo."
+    },
+    {
+      "id": 111,
+      "question": "En la interpretación del grupo sanguíneo en porta:",
+      "options": {
+        "A": "Si aglutina el reactivo anti A y anti D corresponde a un individuo Anegativo.",
+        "B": "Si aglutina el reactivo anti B y anti D corresponde a un individuo Bnegativo.",
+        "C": "Si solamente aglutina el reactivo anti D corresponde a un individuo Onegativo.",
+        "D": "Si aglutina en anti A, anti B y anti D será un individuo ABpositivo."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Si aglutina en anti A, anti B y anti D será un individuo ABpositivo."
+    },
+    {
+      "id": 112,
+      "question": "¿Qué técnica tendremos que utilizar para detectar antígenos eritrocitarios?:",
+      "options": {
+        "A": "Determinar grupo ABO y Rh delpaciente.",
+        "B": "Determinación de la prueba de Coombs.",
+        "C": "Determinación de la prueba dePAS.",
+        "D": "Determinación de la prueba deSAG"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Determinar grupo ABO y Rh delpaciente."
+    },
+    {
+      "id": 113,
+      "question": "Para el fraccionamiento de la sangre, ¿cuál de las siguientes técnicasutilizaría?",
+      "options": {
+        "A": "Filtración inversa.",
+        "B": "Centrifugación diferencial",
+        "C": "Ultradiálisis iónica.",
+        "D": "Electrolisis de fases."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Centrifugación diferencial"
+    },
+    {
+      "id": 114,
+      "question": "Un paciente con Coombs indirecta positiva tiene:",
+      "options": {
+        "A": "Ac irregulares.",
+        "B": "Autoanticuerpos.",
+        "C": "Hematíes sensibilizados.",
+        "D": "Hematíes con poliaglutinabilidad."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Ac irregulares."
+    },
+    {
+      "id": 115,
+      "question": "En la prueba Cruzada Mayor detectamos:",
+      "options": {
+        "A": "Los anticuerpos del donante contra hematíes del receptor.",
+        "B": "Los anticuerpos del receptor contra hematíes del",
+        "C": "Los anticuerpos del donante y del receptor contra antígenos poco frecuentes.",
+        "D": "El grado de sensibilización de los hematíes del receptor."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Los anticuerpos del receptor contra hematíes del"
+    },
+    {
+      "id": 116,
+      "question": "¿Qué anticuerpos desarrolla la madre en la anemia hemolítica del recién nacido o eritroblastosis fetal?:",
+      "options": {
+        "A": "Anticuerpos lgM.",
+        "B": "Anticuerpos lgG.",
+        "C": "Anticuerpos lgE.",
+        "D": "Anticuerpos lgA."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos lgG."
+    },
+    {
+      "id": 117,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa, respecto a la reacción transfusional hemolítica aguda?",
+      "options": {
+        "A": "Es el efecto adverso más grave que se asocia a la transfusión sanguínea.",
+        "B": "La gravedad de la reacción no suele estar",
+        "C": "La causa más frecuente es la incompatibilidad",
+        "D": "La primera actuación del tratamiento es suspender, inmediatamente, la transfusión."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "La gravedad de la reacción no suele estar"
+    },
+    {
+      "id": 118,
+      "question": "¿Cuál de los siguientes antígenos sanguíneos son receptores del plasmodium vivax?",
+      "options": {
+        "A": "Lewis.",
+        "B": "Kidd.",
+        "C": "Kell.",
+        "D": "Duffy."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Duffy."
+    },
+    {
+      "id": 119,
+      "question": "Un paciente del grupo sanguíneo ab- necesita una transfusión de concentrado de hematíes. Señale la opción correcta, para la eleccióndel grupo del hemoderivado:",
+      "options": {
+        "A": "AB-, O-",
+        "B": "B-, O-",
+        "C": "AB-, B-, A-, O-",
+        "D": "O+, O72"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "AB-, B-, A-, O-"
+    },
+    {
+      "id": 120,
+      "question": "Si el grupo hemático de un paciente es: anti a (+), anti b (-), anti ab (+) anti d (-) y el grupo sérico es: hem. A1 (-) y hem.b (+), su grupo sanguíneo es:",
+      "options": {
+        "A": "A+",
+        "B": "A-",
+        "C": "AB+",
+        "D": "AB-"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "A-"
+    },
+    {
+      "id": 121,
+      "question": "Señale la opción cierta sobre compatibilidad transfusional (grupo AB0 referido a eritrocitos):",
+      "options": {
+        "A": "Donante AB solo puede donar a receptores 0.",
+        "B": "Receptor A puede donar a cualquiera.",
+        "C": "Donante B solo puede donar a receptores B y 0.",
+        "D": "Receptor A sólo puede recibir de donantes A y 0."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Receptor A sólo puede recibir de donantes A y 0."
+    },
+    {
+      "id": 122,
+      "question": "El grupo sanguíneo de cada individuo viene determinado por sus antígenos:",
+      "options": {
+        "A": "HLA.",
+        "B": "Eritrocitarios.",
+        "C": "Leucocitarios.",
+        "D": "Todas son ciertas."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 123,
+      "question": "El antígeno más inmunógeno del Sistema Kell, es:",
+      "options": {
+        "A": "X",
+        "B": "Jsb.",
+        "C": "Kpa.",
+        "D": "K"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "K"
+    },
+    {
+      "id": 124,
+      "question": "Si el grupo sanguíneo del padre es A y el de la madre es B, el grupo del hijo:",
+      "options": {
+        "A": "Tiene que ser AB.",
+        "B": "Sólo puede ser A.",
+        "C": "Puede ser A, B, AB ó O.",
+        "D": "Sólo puede ser B."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Puede ser A, B, AB ó O."
+    },
+    {
+      "id": 125,
+      "question": "¿A qué tipo de tejido nos referimos cuando se dice que se cultiva para el tratamiento de quemados?",
+      "options": {
+        "A": "Hueso.",
+        "B": "Vasos sanguíneos.",
+        "C": "Piel",
+        "D": "Membrana amniótica."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Piel"
+    },
+    {
+      "id": 126,
+      "question": "Si nuestro paciente tuviera una anemia hemolítica, otro parámetro que nos ayudaría a catalogarla como tal sería:",
+      "options": {
+        "A": "Test de Schiller.",
+        "B": "Coombs directo.",
+        "C": "Ácido fólico.",
+        "D": "Vitamina B12."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Coombs directo."
+    },
+    {
+      "id": 127,
+      "question": "¿Qué se investiga en el test de Coombs directo?",
+      "options": {
+        "A": "La presencia de Ac. en la superficie de los",
+        "B": "La presencia de Ag. en la superficie de los hematíes.",
+        "C": "La presencia de Ac. completos en el suero.",
+        "D": "La presencia de Ac. incompletos en el suero."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "La presencia de Ac. en la superficie de los"
+    },
+    {
+      "id": 128,
+      "question": "Los anticuerpos incompletos suelen ser del tipo:",
+      "options": {
+        "A": "IgM.",
+        "B": "IgE.",
+        "C": "IgG.",
+        "D": "IgD."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "IgG."
+    },
+    {
+      "id": 129,
+      "question": "Si se decidiera transfundir a este paciente, ¿A qué temperatura se conservan los concentrados de hematíes en banco de sangre?",
+      "options": {
+        "A": "De (-2ºC) a (-6ºC)",
+        "B": "De (0ºC) a ( -4ºC)",
+        "C": "De (+2ºC) a (+6ºC)",
+        "D": "De (-10ºC) a (-30ºC)"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "De (+2ºC) a (+6ºC)"
+    },
+    {
+      "id": 130,
+      "question": "Al realizar la prueba sérica de detección del grupo sanguíneo, aglutina solo con los hematíes del grupo B. ¿A qué grupo sanguíneo pertenece este paciente?",
+      "options": {
+        "A": "A.",
+        "B": "O.",
+        "C": "B.",
+        "D": "AB."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "A."
+    },
+    {
+      "id": 131,
+      "question": "Señala la correcta. El grupo A presenta…",
+      "options": {
+        "A": "Aglutinina antiB.",
+        "B": "Aglutinina antiA.",
+        "C": "Antígeno B.",
+        "D": "No presenta antígenos."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Aglutinina antiB."
+    },
+    {
+      "id": 132,
+      "question": "El plasma fresco congelado (señale la RESPUESTA CORRECTA):",
+      "options": {
+        "A": "Debe conservarse a una temperatura de 4ºC",
+        "B": "Se puede transfundir inmediatamente tras sacarlo del congelador",
+        "C": "Cuando se almacena a temperatura inferiores a -",
+        "D": "Se puede descongelar en un microondas en caso de extrema urgencia"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Cuando se almacena a temperatura inferiores a -"
+    },
+    {
+      "id": 133,
+      "question": "¿A qué grupo sanguíneo ABO pertenece un paciente con los siguientes resultados? GRUPO HEMATICO: Anti-A negativo, Anti- B positivo, Anti AB positivo GRUPO SERICO: con Hematíes A resultado positivo, con Hematíes B resultado negativo:",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "AB",
+        "D": "El resultado del Grupo hemático y sérico son incompatibles"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "B"
+    },
+    {
+      "id": 134,
+      "question": "¿Cuál de estos aditivos NO es apto para la conservación de los concentrados de hematíes?",
+      "options": {
+        "A": "ACD",
+        "B": "CPD",
+        "C": "PDCAT.",
+        "D": "CPDA."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "PDCAT."
+    },
+    {
+      "id": 135,
+      "question": "¿Qué prueba detecta los anticuerpos adheridos a la membrana de los hematíes?",
+      "options": {
+        "A": "Coombs directo",
+        "B": "Coombs indirecto.",
+        "C": "Coombs simple",
+        "D": "Coombs compuesto"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Coombs directo"
+    },
+    {
+      "id": 136,
+      "question": "La prueba de Coombs directa ...",
+      "options": {
+        "A": "Busca anticuerpos unidos a la membrana del",
+        "B": "Indica presencia de parásitos en la sangre",
+        "C": "Se hace siempre antes de recibir una transfusión sanguínea",
+        "D": "Es una técnica obsoleta"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Busca anticuerpos unidos a la membrana del"
+    },
+    {
+      "id": 137,
+      "question": "¿Qué es necesario que se cumpla porque se presente una incompatibilidad fetomaternal Rh?",
+      "options": {
+        "A": "Que el hijo sea Rh negativo",
+        "B": "Que la madre sea Rh positivo",
+        "C": "Que el padre sea Rh negativo homocigoto",
+        "D": "Que la madre sea Rh negativo"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Que la madre sea Rh negativo"
+    },
+    {
+      "id": 138,
+      "question": "Las personas con el grupo sanguíneo AB positivo:",
+      "options": {
+        "A": "Pueden recibir sangre de todos los grupos, tanto",
+        "B": "Pueden recibir sangre de todos los grupos, pero sólo si son Rh negativo",
+        "C": "Son los llamados donantes universales, ya que pueden dar tanto a los Rh positivo como a los Rh negativo",
+        "D": "No pueden donar sangre"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Pueden recibir sangre de todos los grupos, tanto"
+    },
+    {
+      "id": 139,
+      "question": "Indica la respuesta incorrecta respecto a la finalidad de una donación sanguínea:",
+      "options": {
+        "A": "Obtener una concentración de hormonas, sobre",
+        "B": "Obtener concentrados de eritrocitos",
+        "C": "Obtener factores de coagulación",
+        "D": "Obtener plasma sanguíneo"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Obtener una concentración de hormonas, sobre"
+    },
+    {
+      "id": 140,
+      "question": "El peso corporal del donante de sangre y componentes sanguíneos debe ser a partir de:",
+      "options": {
+        "A": "45 kg",
+        "B": "60 kg",
+        "C": "50 kg",
+        "D": "65kg"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "50 kg"
+    },
+    {
+      "id": 141,
+      "question": "Cuando hablamos de prueba cruzada mayor nos referimos a:",
+      "options": {
+        "A": "Enfrentar hematíes del receptor con su propio suero añadiendo suero de Coombs",
+        "B": "Enfrentar hematíes del receptor con suero del donante",
+        "C": "Enfrentar hematíes del donante con suero del",
+        "D": "Enfrentar hematíes del donante con su propio suero"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Enfrentar hematíes del donante con suero del"
+    },
+    {
+      "id": 142,
+      "question": "Señale cuál de las siguientes circunstancias no suele causar discrepancia serohemática de grupo:",
+      "options": {
+        "A": "Tratamiento con inmunosupresores",
+        "B": "Presencia de proteínas monoclonales en alta concentración",
+        "C": "Tratamientos con anticoagulantes",
+        "D": "Edad inferior a 6 meses"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Tratamientos con anticoagulantes"
+    },
+    {
+      "id": 143,
+      "question": "¿Qué es una aféresis?",
+      "options": {
+        "A": "Extracción de sangre para una analítica.",
+        "B": "Extracción de sangre y separación de los",
+        "C": "Extracción de sangre y separación de los",
+        "D": "Extracción de plaquetas, tratarlas y devolverlas al paciente."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Extracción de sangre y separación de los"
+    },
+    {
+      "id": 144,
+      "question": "Si a un individuo Rh negativo se le transfunde Rh positivo por primera vez:",
+      "options": {
+        "A": "Se producirá una reacción transfusional grave, porque es incompatible, aunque no morirá el paciente.",
+        "B": "No ocurrirá nada porque es compatible, lo",
+        "C": "El receptor se sensibilizará y formará anticuerpos",
+        "D": "El receptor se sensibilizará y formará anticuerpos frente al sistema Rh, lo que producirá una grave reacción transfusional."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "El receptor se sensibilizará y formará anticuerpos"
+    },
+    {
+      "id": 145,
+      "question": "¿En qué consiste fenotipar hematíes?",
+      "options": {
+        "A": "En identificar los antígenos que esos hematíes expresan en su superficie.",
+        "B": "En conocer los anticuerpos que existen en suero frente a los hematíes.",
+        "C": "En enfrentar los hematíes con antisueros frente a",
+        "D": "Las respuestas a y c son correctas."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas a y c son correctas."
+    },
+    {
+      "id": 146,
+      "question": "Mediante el test de Coombs directo se detectan:",
+      "options": {
+        "A": "Anticuerpos incompletos unidos a la membrana",
+        "B": "Anticuerpos frente a antígenos eritrocitarios presentes en el suero.",
+        "C": "Antígenos de los hematíes.",
+        "D": "Anticuerpos completos situados en la superficie del hematíe."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Anticuerpos incompletos unidos a la membrana"
+    },
+    {
+      "id": 147,
+      "question": "Para el fraccionamiento de la sangre, ¿cuál de las siguientes técnicas utilizaría?",
+      "options": {
+        "A": "Filtración inversa.",
+        "B": "Centrifugación diferencial",
+        "C": "Ultradiálisis iónica.",
+        "D": "Electrolisis de fases."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Centrifugación diferencial"
+    },
+    {
+      "id": 148,
+      "question": "¿Qué sistema de grupo sanguíneo está implicado con mayor frecuencia en los casos más graves de la enfermedad hemolítica del recién nacido?",
+      "options": {
+        "A": "ABO.",
+        "B": "Kell.",
+        "C": "Lutheran.",
+        "D": "Rh."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Rh."
+    },
+    {
+      "id": 149,
+      "question": "Con respecto al perfil analítico correspondiente al primer trimestre de gestación, señalar la respuesta falsa:",
+      "options": {
+        "A": "Debe incluir grupo sanguíneo ABO y Rh y, en todos los casos, escrutinio de anticuerpos",
+        "B": "Debe incluir grupo sanguíneo ABO, Rh, y",
+        "C": "En caso de detectarse escrutinio de anticuerpos",
+        "D": "En caso de detectar un anticuerpo irregular positivo, una vez que se conozca la especificad del anticuerpo, es conveniente estudiar el antígeno correspondiente en el padre."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Debe incluir grupo sanguíneo ABO, Rh, y"
+    },
+    {
+      "id": 150,
+      "question": "¿Cuál de estos no son antígenos eritrocitarios?",
+      "options": {
+        "A": "Kell y Duffy.",
+        "B": "Lewis y Rh.",
+        "C": "MSM y Kiddy.",
+        "D": "Todos lo son."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "MSM y Kiddy."
+    },
+    {
+      "id": 151,
+      "question": "Tenemos un paciente con grupo sanguíneo A negativo al que hay que transfundir plasma fresco congelado, ¿de qué grupo sanguíneo serían compatibles las bolsas de plasma?",
+      "options": {
+        "A": "A positivo, A negativo, O positivo, O negativo.",
+        "B": "A negativo, O negativo.",
+        "C": "A negativo, B negativo.",
+        "D": "A positivo, A negativo, AB positivo, AB negativo."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "A positivo, A negativo, AB positivo, AB negativo."
+    },
+    {
+      "id": 152,
+      "question": "Respecto a la prueba de Coombs Directo, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Pone de manifiesto la presencia de anticuerpos",
+        "B": "Está indicada cuando se sospecha de anemia hemolítica autoinmune",
+        "C": "Está indicada cuando se sospecha de anemia hemolítica del recién nacido",
+        "D": "Se realiza en el medio de Coombs con eritrocitos del individuo sensibilizado"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Pone de manifiesto la presencia de anticuerpos"
+    },
+    {
+      "id": 153,
+      "question": "¿Qué genotipo para el gen H tienen los individuos que pertenecen al grupo Bombay?",
+      "options": {
+        "A": "HH",
+        "B": "Hh",
+        "C": "hH",
+        "D": "hh"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "hh"
+    },
+    {
+      "id": 154,
+      "question": "En el Sistema ABO, indique el orden de frecuencia de los grupos en la población caucásica:",
+      "options": {
+        "A": "0, A, B, AB",
+        "B": "B, AB, 0, A",
+        "C": "AB, 0, A, B",
+        "D": "0, B, A, AB"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "0, A, B, AB"
+    },
+    {
+      "id": 155,
+      "question": "¿Cuál de los siguientes sistemas No corresponden con un grupo sanguíneo?",
+      "options": {
+        "A": "Lutheran",
+        "B": "Diego",
+        "C": "Martin",
+        "D": "Lewis"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Martin"
+    },
+    {
+      "id": 156,
+      "question": "¿Cuál de los siguientes no es un sistema de grupo sanguíneo?",
+      "options": {
+        "A": "Rh (RH)",
+        "B": "Kell (KEL)",
+        "C": "Duffy (FY)",
+        "D": "Todas las anteriores lo son"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores lo son"
+    },
+    {
+      "id": 157,
+      "question": "¿Para qué se emplea la prueba del Coombs indirecto?:",
+      "options": {
+        "A": "Determinación de presencia de anticuerpos en el plasma del paciente.",
+        "B": "Determinación del fenotipo de los grupos sanguíneos.",
+        "C": "Pruebas cruzadas.",
+        "D": "Todas las anteriores."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 158,
+      "question": "Si en la determinación en placa del grupo sanguíneo aglutina en A y en B diremos que es:",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "AB",
+        "D": "O."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "AB"
+    },
+    {
+      "id": 159,
+      "question": "¿Cuál de las siguientes afirmaciones respecto a las pruebas pre-transfusionales es FALSA?",
+      "options": {
+        "A": "Si se detectan anticuerpos irregulares deberán",
+        "B": "Se realiza el tipaje del grupo ABO y Rh del",
+        "C": "Se intentará transfundir hemocomponentes del",
+        "D": "El objetivo de la prueba cruzada es detectar posibles reacciones entre el donante y el receptor antes de la transfusión."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Si se detectan anticuerpos irregulares deberán"
+    },
+    {
+      "id": 160,
+      "question": "¿Cuál de las siguientes afirmaciones sobre el grupo Bombay NO es verdadera?",
+      "options": {
+        "A": "Son transfundidos con CHFIL del grupo 0.",
+        "B": "Es un grupo con una frecuencia muy baja en la población.",
+        "C": "El gen del grupo sanguíneo Bombay se encuentra en el cromosoma 19.",
+        "D": "Se descubrieron en la ciudad de Bombay por primera vez."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Son transfundidos con CHFIL del grupo 0."
+    },
+    {
+      "id": 161,
+      "question": "¿De qué grupo sanguíneo pueden ser los hijos de una pareja con ambos progenitores grupo A?",
+      "options": {
+        "A": "Grupo A exclusivamente",
+        "B": "Grupo A o AB",
+        "C": "Grupo A o 0",
+        "D": "Grupo B"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Grupo A o 0"
+    },
+    {
+      "id": 162,
+      "question": "¿Cuál de las siguientes afirmaciones es cierta sobre los donantes antígeno Du positivo?",
+      "options": {
+        "A": "Se comportan como donantes Rh positivo y",
+        "B": "Se comportan como donantes Rh negativo y como receptores Rh negativo.",
+        "C": "Se comportan como donantes Rh negativo y como receptores Rh positivo.",
+        "D": "Se comportan como donantes Rh positivo y como receptores Rh positivo."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Se comportan como donantes Rh positivo y"
+    },
+    {
+      "id": 163,
+      "question": "166. Según el sistema ABO, ¿Cuál sería el receptor universal?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "AB",
+        "D": "O"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "AB"
+    },
+    {
+      "id": 164,
+      "question": "Para determinar el fenotipo Rh y el genotipo más probable prepararemos una suspensión de hematíes al",
+      "options": {
+        "A": "5 %.",
+        "B": "10 %.",
+        "C": "45 %.",
+        "D": "1 %."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "5 %."
+    },
+    {
+      "id": 165,
+      "question": "¿A qué sistema sanguíneo pertenece el antígeno Cellano?",
+      "options": {
+        "A": "Duffy",
+        "B": "Kidd",
+        "C": "Kell",
+        "D": "Colton"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Kell"
+    },
+    {
+      "id": 166,
+      "question": "En el sistema sanguíneo MNS, ¿a qué genotipo corresponde el fenotipo M positivo N negativo?",
+      "options": {
+        "A": "Homocigoto M",
+        "B": "Homocigoto N",
+        "C": "Heterocigoto MN",
+        "D": "Heterocigoto NM"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Homocigoto M"
+    },
+    {
+      "id": 167,
+      "question": "Los anticuerpos del sistema ABO suelen ser en su mayoría",
+      "options": {
+        "A": "IgG.",
+        "B": "IgA.",
+        "C": "IgF.",
+        "D": "IgE."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "IgG."
+    },
+    {
+      "id": 168,
+      "question": "¿Cuál de los siguientes sistemas corresponde a los antígenos leucocitarios?",
+      "options": {
+        "A": "ABO.",
+        "B": "Rh.",
+        "C": "HLA.",
+        "D": "Fisher."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "HLA."
+    },
+    {
+      "id": 169,
+      "question": "Para una prueba de Coombs directo se debe utilizar",
+      "options": {
+        "A": "Hematíes del paciente.",
+        "B": "Suero del paciente.",
+        "C": "Hematíes del paciente y suero del donante.",
+        "D": "Plasma del paciente y hematíes del donante."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Hematíes del paciente."
+    },
+    {
+      "id": 170,
+      "question": "En la prueba cruzada mayor detectaremos",
+      "options": {
+        "A": "Los anticuerpos del donante contra hematíes del receptor.",
+        "B": "Los anticuerpos del receptor contra hematíes del",
+        "C": "Los anticuerpos del donante y del receptor contra antígenos poco frecuentes.",
+        "D": "El grado de sensibilización de los hematíes del receptor."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Los anticuerpos del receptor contra hematíes del"
+    },
+    {
+      "id": 171,
+      "question": "En un Banco de sangre las plaquetas se conservan",
+      "options": {
+        "A": "A 22º C en movimiento.",
+        "B": "A 4º C con conservantes.",
+        "C": "A -40º C con crioprotectores.",
+        "D": "A 37º C en movimiento."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "A 22º C en movimiento."
+    },
+    {
+      "id": 172,
+      "question": "Los pacientes con un Ag D parcial",
+      "options": {
+        "A": "Se les considera negativos cuando reciben",
+        "B": "Se les considera positivos cuando reciben o donan sangre.",
+        "C": "Se les considera negativos en ambos casos.",
+        "D": "Se les considera positivos cuando reciben sangre, pero negativos cuando donan."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Se les considera negativos cuando reciben"
+    },
+    {
+      "id": 173,
+      "question": "Un plasma fresco congelado es aquel que se obtiene",
+      "options": {
+        "A": "Separando y congelando el plasma antes de las 6",
+        "B": "Separando y congelando el plasma antes de las 12 horas de la extracción.",
+        "C": "Separando y congelando el plasma antes de las 24 horas de la extracción.",
+        "D": "Refrigerando la muestra inmediatamente después de la extracción."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Separando y congelando el plasma antes de las 6"
+    },
+    {
+      "id": 174,
+      "question": "Señale la respuesta correcta con respecto al plasma fresco congelado",
+      "options": {
+        "A": "Debe conservarse a una temperatura de 4ºC.",
+        "B": "Se puede transfundir inmediatamente tras sacarlo del congelador.",
+        "C": "Cuando se almacena a temperaturas inferiores a",
+        "D": "Se puede descongelar en un microondas."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Cuando se almacena a temperaturas inferiores a"
+    },
+    {
+      "id": 175,
+      "question": "Es una prueba diagnóstica básica para el estudio de los procesos hemolíticos inmunes:",
+      "options": {
+        "A": "El tiempo de hemorragia.",
+        "B": "El test de Coombs indirecto.",
+        "C": "El test de Coombs directo.",
+        "D": "El escrutinio de anticuerpos irregulares."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "El test de Coombs directo."
+    },
+    {
+      "id": 176,
+      "question": "La administración de inmunoglobulina anti D:",
+      "options": {
+        "A": "Previene la enfermedad hemolítica del recién nacido cuando existe incompatibilidad ABO.",
+        "B": "Se administra cuando la madre es Rh positivo.",
+        "C": "Se administra cuando la madre es Rh positivo y el padre es Rh negativo.",
+        "D": "Se administra a madres no sensibilizadas al Rh."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Se administra a madres no sensibilizadas al Rh."
+    },
+    {
+      "id": 177,
+      "question": "Para determinar el Rh, pondremos en contacto la sangre del paciente con:",
+      "options": {
+        "A": "Aglutinina D.",
+        "B": "Suero A.",
+        "C": "Suero anti-D.",
+        "D": "Antígenos ABO."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Suero anti-D."
+    },
+    {
+      "id": 178,
+      "question": "Es una prueba diagnóstica básica para el estudio de los procesos hemolíticos inmunes:",
+      "options": {
+        "A": "El tiempo de hemorragia.",
+        "B": "El test de Coombs indirecto.",
+        "C": "El test de Coombs directo.",
+        "D": "El escrutinio de anticuerpos irregulares."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "El test de Coombs directo."
+    },
+    {
+      "id": 179,
+      "question": "¿En cuál de las siguientes situaciones se administra inmunoglobulina anti-D para prevenir la inmunización materna frente al Rh?:",
+      "options": {
+        "A": "Madre Rh negativo – Hijo Rh negativo.",
+        "B": "Madre Rh negativo con anticuerpo irregular anti- D – Hijo Rh negativo.",
+        "C": "Madre Rh negativo con anticuerpo irregular anti- D – Hijo Rh positivo.",
+        "D": "Madre Rh negativo – Hijo Rh positivo."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Madre Rh negativo – Hijo Rh positivo."
+    },
+    {
+      "id": 180,
+      "question": "La prueba de Coombs directo se realiza para estudiar:",
+      "options": {
+        "A": "Anticuerpos libres en el plasma.",
+        "B": "Antígenos libres en el plasma.",
+        "C": "Anticuerpos pegados a los hematíes.",
+        "D": "Antígenos pegados a los hematíes."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos pegados a los hematíes."
+    },
+    {
+      "id": 181,
+      "question": "Señale de entre las siguientes la reacción transfusional que generalmente no se produce de forma aguda en las primeras 24 horas de la transfusión:",
+      "options": {
+        "A": "Reacción alérgica.",
+        "B": "Reacción anafiláctica.",
+        "C": "Sobrecarga circulatoria asociada a la transfusión.",
+        "D": "Púrpura post transfusional."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Púrpura post transfusional."
+    },
+    {
+      "id": 182,
+      "question": "Dentro de las reacciones transfusionales, señale la reacción que no se considera inmunológica:",
+      "options": {
+        "A": "Hemolítica.",
+        "B": "Alérgica.",
+        "C": "Septicémica.",
+        "D": "Anafiláctica."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Septicémica."
+    },
+    {
+      "id": 183,
+      "question": "La prueba de Coombs indirecta está basada en una reacción de:",
+      "options": {
+        "A": "Precipitación.",
+        "B": "Opsonización.",
+        "C": "Hemaglutinación.",
+        "D": "Sedimentación."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Hemaglutinación."
+    },
+    {
+      "id": 184,
+      "question": "La seguridad transfusional entendida como un proceso global comienza con:",
+      "options": {
+        "A": "Tipaje ABO.",
+        "B": "Extracción de sangre total.",
+        "C": "Obtención de aféresis.",
+        "D": "Selección del donante."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Selección del donante."
+    },
+    {
+      "id": 185,
+      "question": "Son unidades compatibles para un paciente de grupo A Rh negativo:",
+      "options": {
+        "A": "Concentrado de hematíes A Rh positivo, plaquetas O Rh negativo y plasma O Rh negativo.",
+        "B": "Concentrado de hematíes A Rh negativo, plaquetas A Rh negativo y plasma O Rh negativo.",
+        "C": "Concentrado de hematíes A Rh negativo,",
+        "D": "Concentrado de hematíes AB Rh positivo, plaquetas O Rh negativo y plasma AB Rh negativo."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Concentrado de hematíes A Rh negativo,"
+    },
+    {
+      "id": 186,
+      "question": "¿Cuál de las siguientes pruebas forma parte del estudio de compatibilidad previo a la transfusión sanguínea?:",
+      "options": {
+        "A": "Test de Coombs directo en hematíes de la bolsa.",
+        "B": "Hemograma.",
+        "C": "Test de reptilase.",
+        "D": "Escrutinio de anticuerpos irregulares."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Escrutinio de anticuerpos irregulares."
+    },
+    {
+      "id": 187,
+      "question": "La prueba de Coombs indirecta está basada en una reacción de:",
+      "options": {
+        "A": "Precipitación.",
+        "B": "Opsonización.",
+        "C": "Hemaglutinación.",
+        "D": "Sedimentación."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Hemaglutinación."
+    },
+    {
+      "id": 188,
+      "question": "Los hematíes procedentes de una única donación de sangre de la que se ha eliminado gran parte del plasma y también la capa leucocitaria y a la que se añade una solución nutritiva o conservadora, se denomina:",
+      "options": {
+        "A": "Hematíes leucodeplecionados.",
+        "B": "Hematíes obtenidos por aféresis.",
+        "C": "Hematíes sin capa leucocitaria, en solución",
+        "D": "Hematíes en solución aditiva."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Hematíes sin capa leucocitaria, en solución"
+    },
+    {
+      "id": 189,
+      "question": "Un anticuerpo producido por un individuo, que está dirigido contra un antígeno eritrocitario que el individuo no tiene, se denomina:",
+      "options": {
+        "A": "Crioaglutinina.",
+        "B": "Aloanticuerpo.",
+        "C": "Autoanticuerpo.",
+        "D": "Antiglobulina indirecta."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Aloanticuerpo."
+    },
+    {
+      "id": 190,
+      "question": "La prueba de Coombs determina:",
+      "options": {
+        "A": "Presencia de anticuerpos anti Rh.",
+        "B": "Hipoxia fetal.",
+        "C": "Alteraciones inmunológicas.",
+        "D": "Cariotipo fetal."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Presencia de anticuerpos anti Rh."
+    },
+    {
+      "id": 191,
+      "question": "¿Cuál es el orden correcto de centrifugación en la preparación de plaquetas de una unidad de sangre total?",
+      "options": {
+        "A": "Primero centrifugación rápida y después de centrifugación lenta",
+        "B": "Primero centrifugación lenta y después de centrifugación lenta",
+        "C": "Primero centrifugación lenta y después de",
+        "D": "Primero centrifugación rápida y después de centrifugación rápida."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Primero centrifugación lenta y después de"
+    },
+    {
+      "id": 192,
+      "question": "Parte del control de calidad diario del banco de sangre es testar los antisueros específicos para un determinado antígeno de grupo sanguíneo. ¿Cuál es el sentido de este procedimiento?",
+      "options": {
+        "A": "Determinar la especificidad del anticuerpo.",
+        "B": "Determinar la clase del anticuerpo.",
+        "C": "Determinar el título del anticuerpo.",
+        "D": "Testar la temperatura de reacción"
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Determinar la especificidad del anticuerpo."
+    },
+    {
+      "id": 193,
+      "question": "¿Qué información genética proporcionan los tests de hemaglutinación sobre los antígenos de los hematíes?",
+      "options": {
+        "A": "Genotipo.",
+        "B": "Polimorfismo.",
+        "C": "Cigosidad.",
+        "D": "Fenotipo."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Fenotipo."
+    },
+    {
+      "id": 194,
+      "question": "¿Hasta qué edad no se requiere prueba cruzada con muestra del niño antes de la transfusión de hematíes?",
+      "options": {
+        "A": "9 meses.",
+        "B": "4 meses.",
+        "C": "1 año.",
+        "D": "Indefinidamente hasta los 3 años."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "4 meses."
+    },
+    {
+      "id": 195,
+      "question": "De acuerdo con las reglas de Landsteiner, si un paciente carece de anticuerpos ABO en su suero, ¿qué antígenos están presentes en sus glóbulos rojos?",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "Ninguno.",
+        "D": "A y B."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "A y B."
+    },
+    {
+      "id": 196,
+      "question": "¿Qué anticuerpos están presentes en el reactivo poliespecífico de Coombs?",
+      "options": {
+        "A": "IgM-IgG",
+        "B": "C3d-IgM",
+        "C": "IgG-IgA",
+        "D": "IgG-C3d"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "IgG-C3d"
+    },
+    {
+      "id": 197,
+      "question": "¿Qué término se usa cuando los hematíes con genotipo MM reaccionan más intensamente con suero anti M que con los hematíes con genotipo MN?",
+      "options": {
+        "A": "Efecto trans.",
+        "B": "Efecto dosis.",
+        "C": "Efecto supresor.",
+        "D": "Efecto cis."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Efecto dosis."
+    },
+    {
+      "id": 198,
+      "question": "No es un sistema de grupos sanguíneos con importancia transfusional:",
+      "options": {
+        "A": "Duffy.",
+        "B": "Lewis.",
+        "C": "Kell.",
+        "D": "Duke."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Duke."
+    },
+    {
+      "id": 199,
+      "question": "Según el sistema ABO el receptor universal es:",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "AB.",
+        "D": "0."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "AB."
+    },
+    {
+      "id": 200,
+      "question": "La prueba de Coombs determina:",
+      "options": {
+        "A": "Cariotipo fetal.",
+        "B": "Alteraciones inmunológicas.",
+        "C": "Presencia de anticuerpos anti Rh.",
+        "D": "Hipoxia fetal."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Presencia de anticuerpos anti Rh."
+    },
+    {
+      "id": 201,
+      "question": "El sistema ABO se basa en:",
+      "options": {
+        "A": "400 antígenos glucolípidos presentes en los eritrocitos.",
+        "B": "2 antígenos glucogénicos presentes en los",
+        "C": "1 antígeno leucocitario.",
+        "D": "No se basa en antígenos, se basa en anticuerpos."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "2 antígenos glucogénicos presentes en los"
+    },
+    {
+      "id": 202,
+      "question": "Una persona con grupo sanguíneo A y Rh positivo puede donar sangre a personas que tengan:",
+      "options": {
+        "A": "Grupo sanguíneo AB y Rh positivo.",
+        "B": "Grupo sanguíneo A y Rh negativo.",
+        "C": "Grupo sanguíneo O y Rh positivo.",
+        "D": "Grupo sanguíneo O y Rh negativo."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Grupo sanguíneo AB y Rh positivo."
+    },
+    {
+      "id": 203,
+      "question": "Para la determinación del grupo sérico, se utiliza:",
+      "options": {
+        "A": "Suero anti-A y suero anti-B.",
+        "B": "Hematíes reactivos A y hematíes reactivos B.",
+        "C": "Suero anti-AB.",
+        "D": "Hematíes reactivos D."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Hematíes reactivos A y hematíes reactivos B."
+    },
+    {
+      "id": 204,
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?:",
+      "options": {
+        "A": "Los genes del sistema Rh se hallan en el",
+        "B": "Los anticuerpos que intervienen en la respuesta secundaria son de tipo IgM.",
+        "C": "La detección de anticuerpos irregulares no tiene gran interés en la terapia transfusional.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Los genes del sistema Rh se hallan en el"
+    },
+    {
+      "id": 205,
+      "question": "Me dispongo a realizar las pruebas pretransfusionales a un recién nacido y debo tener en cuenta que difieren de las del adulto debido a numerosos motivos. ¿Cuál de las siguientes afirmaciones en relación a la transfusión de hematíes en un neonato es FALSA?",
+      "options": {
+        "A": "El recién nacido carece de anticuerpos del",
+        "B": "Si las pruebas de compatibilidad transfusional no",
+        "C": "Las pruebas pre transfusionales deben incluir el",
+        "D": "El recién nacido carece de anticuerpos del sistema ABO y no produce aloanticuerpos."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "El recién nacido carece de anticuerpos del"
+    },
+    {
+      "id": 206,
+      "question": "Para establecer el grupo ABO de un paciente, enfrento sus hematíes con reactivos anti- A y anti- B, y el suero o plasma con eritrocitos A y B. A veces se producen discrepancias entre ambas determinaciones, por ejemplo; una aglutinación no esperada en la prueba sérica. Esto nos sucede con Jorge, paciente ya anteriormente tipificado como A positivo sin problema, que sorprendentemente hoy presenta reacción sérica tanto con eritrocitos B como A. Señale cuál de las siguientes podría ser la causa:",
+      "options": {
+        "A": "Presencia en el plasma de un aloanti- M.",
+        "B": "Que el paciente esté inmunodeprimido.",
+        "C": "Que el paciente haya sido transfundido recientemente con un concentrado de hematíes 0 positivo.",
+        "D": "Todas son correctas."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Presencia en el plasma de un aloanti- M."
+    },
+    {
+      "id": 207,
+      "question": "En el servicio de transfusión donde trabajo se han descongelado erróneamente tres unidades de plasma fresco congelado (PFC). Sabemos que no es posible su recongelación y por lo tanto: (Señale la respuesta CORRECTA)",
+      "options": {
+        "A": "Debido a que ha sido descongelado a 37ºC y",
+        "B": "Debido a que ha sido descongelado a 37ºC y",
+        "C": "Debido a que ha sido descongelado a 37ºC y",
+        "D": "Debido a que ha sido descongelado a 37ºC y almacenado a una temperatura entre 2-6ºC es viable durante 72 horas sin excepciones."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Debido a que ha sido descongelado a 37ºC y"
+    },
+    {
+      "id": 208,
+      "question": "Actualmente la transfusión de componentes sanguíneos es muy segura, aunque no está exenta de producir efectos adversos. Éstos se clasifican según la cronología de su aparición en complicaciones agudas y retardadas. Señale cuál de las siguientes sería una complicación aguda:",
+      "options": {
+        "A": "Aloinmunización frente a antígenos eritrocitarios.",
+        "B": "Púpura postransfusional.",
+        "C": "Enfermedad injerto contra el huésped postransfusional.",
+        "D": "Ninguna de las anteriores es una complicación aguda."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las anteriores es una complicación aguda."
+    },
+    {
+      "id": 209,
+      "question": "En cuál de los siguientes casos no se recomienda transfundir concentrados de hematíes irradiados:",
+      "options": {
+        "A": "Adultos y niños con linfoma de Hodgkin.",
+        "B": "Sangre destinada a transfusión intrauterina.",
+        "C": "Receptores de trasplante de progenitores hematopoyéticos alogénicos.",
+        "D": "Recién nacidos."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Recién nacidos."
+    },
+    {
+      "id": 210,
+      "question": "Si al realizar la prueba sérica para el grupo sanguíneo AB0, aglutina solo con los hematíes del grupo A. ¿Qué grupo sanguíneo tiene?",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "AB.",
+        "D": "0."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "B."
+    },
+    {
+      "id": 211,
+      "question": "La prueba que detecta los anticuerpos adheridos a la membrana de los hematíes del paciente es:",
+      "options": {
+        "A": "Coombs directo.",
+        "B": "Coombs indirecto.",
+        "C": "Prueba cruzada mayor.",
+        "D": "Prueba cruzada menor."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Coombs directo."
+    },
+    {
+      "id": 212,
+      "question": "¿Cuál de los siguientes genotipos corresponde a un individuo Rh negativo?",
+      "options": {
+        "A": "Dce/dce.",
+        "B": "Dce/dcE.",
+        "C": "dce/dce.",
+        "D": "DCe/DCe."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "dce/dce."
+    },
+    {
+      "id": 213,
+      "question": "En la prueba cruzada mayor se enfrentan:",
+      "options": {
+        "A": "El suero del donante con los hematíes del receptor.",
+        "B": "El suero del donante con los hematíes del donante.",
+        "C": "El suero del receptor con los hematíes del",
+        "D": "El suero del receptor con los hematíes del receptor."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "El suero del receptor con los hematíes del"
+    },
+    {
+      "id": 214,
+      "question": "Señale la respuesta correcta respecto al sistema AB0 y al sistema Rh:",
+      "options": {
+        "A": "Los individuos con genotipo hh pertenecen al grupo Bombay y carecen de antígenos del sistema AB0.",
+        "B": "En las personas del grupo 0 se encuentra un anti- A1B, junto con un anti-A y anti-B individualizados.",
+        "C": "El primer antígeno humano del sistema Rh que se descubrió es el D. Los individuos que poseen este antígeno son Rh +.",
+        "D": "Todas son ciertas."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 215,
+      "question": "Dentro de las reacciones transfusionales, señale la reacción que no se considera inmunológica:",
+      "options": {
+        "A": "Hemolítica.",
+        "B": "Alérgica.",
+        "C": "Septicémica.",
+        "D": "Anafiláctica."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Septicémica."
+    },
+    {
+      "id": 216,
+      "question": "Ante un resultado positivo de la prueba de Coombs directa en un recién nacido, podemos afirmar que:",
+      "options": {
+        "A": "Si el recién nacido es A positivo y la madre es O negativo con escrutinio de anticuerpos irregulares negativo, se trata de una isoinmunización anti-D.",
+        "B": "Si el recién nacido es A positivo y la madre es O",
+        "C": "Si el recién nacido es A positivo y la madre es AB",
+        "D": "negativo, se trata de una isoinmunización anti-A. negativo con escrutinio de anticuerpos irregulares negativo, se trata de una isoinmunización anti-A."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "negativo, se trata de una isoinmunización anti-A. negativo con escrutinio de anticuerpos irregulares negativo, se trata de una isoinmunización anti-A."
+    },
+    {
+      "id": 217,
+      "question": "Señala la respuesta correcta:",
+      "options": {
+        "A": "Los concentrados de hematíes se deben mantener en agitación continua para su conservación.",
+        "B": "Las plaquetas deben conservarse a 4 °C un máximo de 5 días.",
+        "C": "Los hematíes se deben conservar de 2 a 6 ºC",
+        "D": "durante 28 días."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Los hematíes se deben conservar de 2 a 6 ºC"
+    },
+    {
+      "id": 218,
+      "question": "¿Qué sistema de grupo sanguíneo está implicado con mayor frecuencia en los casos más graves de enfermedad hemolítica del recién nacido?:",
+      "options": {
+        "A": "ABO.",
+        "B": "Rh.",
+        "C": "Kell."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Rh."
+    },
+    {
+      "id": 219,
+      "question": "Al realizar el fenotipo Rh completo de un paciente:",
+      "options": {
+        "A": "Se investigan los anticuerpos de este sistema que tiene el paciente.",
+        "B": "Se determinan los antígenos de este sistema que",
+        "C": "Se enfrentan los hematíes del paciente con suero anti-AB."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Se determinan los antígenos de este sistema que"
+    },
+    {
+      "id": 220,
+      "question": "Los anticuerpos del sistema ABO son:",
+      "options": {
+        "A": "IgG, no activan el complemento y no atraviesan la placenta.",
+        "B": "IgM aglutinantes, regulares, atraviesan la placenta.",
+        "C": "Tanto las IgG como las IgM aglutinan los eritrocitos a 37ºC.",
+        "D": "IgM, naturales, aglutinantes e IgG que atraviesan la placenta."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "IgM, naturales, aglutinantes e IgG que atraviesan la placenta."
+    },
+    {
+      "id": 221,
+      "question": "El antígeno más inmunogénico del sistema Kell es:",
+      "options": {
+        "A": "Kpa.",
+        "B": "Jsb.",
+        "C": "X.",
+        "D": "K."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "K."
+    },
+    {
+      "id": 222,
+      "question": "El test de Coombs indirecto en una madre cuyo hijo presenta una anemia hemolítica se emplea para:",
+      "options": {
+        "A": "Detectar hematíes maternos recubiertos de anticuerpos.",
+        "B": "Detectar anticuerpos inmunes contra antígenos",
+        "C": "Detectar anticuerpos IgM.",
+        "D": "Detectar hematíes fetales recubiertos de anticuerpos."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Detectar anticuerpos inmunes contra antígenos"
+    },
+    {
+      "id": 223,
+      "question": "De las siguientes. ¿Cuál es la prueba diagnóstica para el estudio de los procesos hemolíticos inmunes?",
+      "options": {
+        "A": "EAI (escrutinio de anticuerpos irregulares).",
+        "B": "CI (Coombs indirecto).",
+        "C": "CD (Coombs directo).",
+        "D": "El tiempo de hemorragia."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "CD (Coombs directo)."
+    },
+    {
+      "id": 224,
+      "question": "Tras unos minutos de iniciar una transfusión sanguínea nos avisan de planta que el paciente sufre de escalofríos, ¿Cómo catalogar este tipo de reacción?",
+      "options": {
+        "A": "Reacción retardada.",
+        "B": "No existe reacción, se considera dentro de lo normal.",
+        "C": "Reacción alérgica.",
+        "D": "Reacción aguda."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Reacción aguda."
+    },
+    {
+      "id": 225,
+      "question": "Se procede al estudio de la reacción transfusional del paciente anterior. Se le detecta en la prueba de PAD (prueba antiglobulina directa) una panaglutinina a coombs. La determinación del grupo hemático es AB (aglutina A, B y AB), RH positivo. ¿Cómo se espera encontrar el resultado del autocontrol?",
+      "options": {
+        "A": "Negativo.",
+        "B": "Positivo.",
+        "C": "No está indicado realizarlo.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Positivo."
+    },
+    {
+      "id": 226,
+      "question": "¿A qué grupo sanguíneo pertenece un paciente con los siguientes resultados? 1) GRUPO HEMÁTICO: Anti A negativo, Anti B positivo, Anti AB positivo 2) GRUPO SÉRICO: Con hematíes A resultado positivo, con hematíes B resultado negativo.",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "AB.",
+        "D": "El resultado del grupo hemático y sérico es discrepante."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "B."
+    },
+    {
+      "id": 227,
+      "question": "¿Cuál es el anticoagulante de elección para las bolsas de recogida de sangre donada?",
+      "options": {
+        "A": "Citrato sódico.",
+        "B": "Ácido etilendiaminotetraacético (EDTA).",
+        "C": "Heparina.",
+        "D": "Antitrombina."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Citrato sódico."
+    },
+    {
+      "id": 228,
+      "question": "Dado que los concentrados de plaquetas son un componente sanguíneo, ¿Cómo deben transportarse?",
+      "options": {
+        "A": "Con hielo a una temperatura entre 1 y 10 °C.",
+        "B": "A una temperatura entre 20 y 24 °C.",
+        "C": "A una temperatura lo más cercana posible a 15 °C.",
+        "D": "Con hielo seco."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "A una temperatura entre 20 y 24 °C."
+    },
+    {
+      "id": 229,
+      "question": "¿En qué consiste la plasmaféresis?",
+      "options": {
+        "A": "En la obtención selectiva de solo plasma",
+        "B": "En la transfusión al receptor de solo plasma",
+        "C": "En la centrifugación del plasma a baja velocidad para la separación de sus componentes proteicos.",
+        "D": "En el mantenimiento en cuarentena del plasma hasta que se constate la ausencia de enfermedades víricas en el donante."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "En la obtención selectiva de solo plasma"
+    },
+    {
+      "id": 230,
+      "question": "Cuando se recibe una solicitud de concentrado de hematíes y no se puede comprobar el grupo sanguíneo del receptor, ¿qué grupo debe entregarse?",
+      "options": {
+        "A": "O positivo.",
+        "B": "O negativo.",
+        "C": "A negativo.",
+        "D": "AB negativo."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "O negativo."
+    },
+    {
+      "id": 231,
+      "question": "¿Cuándo fraccionamos sangre total obtenemos un producto que es el \"buffy coat\", ¿Qué composición tiene dicho producto?",
+      "options": {
+        "A": "Leucocitos y plaquetas.",
+        "B": "Hematíes y plaquetas.",
+        "C": "Plasma y Glóbulos rojos."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Leucocitos y plaquetas."
+    },
+    {
+      "id": 232,
+      "question": "Entre los principales efectos adversos de la transfusión, ¿Cuál de estos no es de origen inmunológico?",
+      "options": {
+        "A": "Reacción hemolítica aguda",
+        "B": "Lesión pulmonar asociada a transfusión",
+        "C": "Reacciones hipotensivas",
+        "D": "Reacción febril no hemolítica"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Reacciones hipotensivas"
+    },
+    {
+      "id": 233,
+      "question": "El fenotipo silencioso del sistema Duffy es:",
+      "options": {
+        "A": "Fy (a- b-)",
+        "B": "Fy (a+ b-)",
+        "C": "Fy (a+ b+)",
+        "D": "Fy (a- b+)"
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Fy (a- b-)"
+    },
+    {
+      "id": 234,
+      "question": "Los hematíes de una persona con grupo sanguíneo AB, tendrán los siguientes Anticuerpos.",
+      "options": {
+        "A": "Anti-B.",
+        "B": "Anti-A.",
+        "C": "Anti-AB.",
+        "D": "Ninguno."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Ninguno."
+    },
+    {
+      "id": 235,
+      "question": "Una persona en el grupo B+, puede donar a:",
+      "options": {
+        "A": "A+, AB+.",
+        "B": "A+, O+, B+, AB+.",
+        "C": "B+, B-, AB+, AB-",
+        "D": "B+, AB+."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "B+, AB+."
+    },
+    {
+      "id": 236,
+      "question": "Indique cuál de los siguientes anticuerpos puede producir la enfermedad hemolítica del recién nacido.",
+      "options": {
+        "A": "IgG.",
+        "B": "IgM.",
+        "C": "IgE.",
+        "D": "IgA."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "IgG."
+    },
+    {
+      "id": 237,
+      "question": "¿En cuál de las siguientes situaciones se administra inmunoglobulina anti-D para prevenir la inmunización materna frente al Rh?",
+      "options": {
+        "A": "Madre Rh negativo-Hijo Rh negativo",
+        "B": "Madre Rh negativo con anticuerpo irregular anti- D- Hijo Rh negativo",
+        "C": "Madre Rh negativo con anticuerpo irregular anti- D- Hijo Rh positivo",
+        "D": "Madre Rh negativo - Hijo Rh positivo"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Madre Rh negativo - Hijo Rh positivo"
+    },
+    {
+      "id": 238,
+      "question": "Al realizar la prueba sérica de determinación del grupo sanguíneo se produce aglutinación solo con hematíes del grupo A ¿A qué grupo sanguíneo pertenecerá?",
+      "options": {
+        "A": "Grupo B",
+        "B": "Grupo A",
+        "C": "Grupo AB",
+        "D": "Grupo O"
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Grupo B"
+    },
+    {
+      "id": 239,
+      "question": "Si tenemos un grupo sanguíneo genotipo B0 Rr, ¿cuál será su fenotipo?",
+      "options": {
+        "A": "0 Rh-.",
+        "B": "B RH+.",
+        "C": "B Rh-.",
+        "D": "0 RH+."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "B RH+."
+    },
+    {
+      "id": 240,
+      "question": "De los siguientes sistemas de antígenos eritrocitarios, ¿cuál se puede encontrar también en plasma o secreciones salivares del organismo?",
+      "options": {
+        "A": "Sistema MNS.",
+        "B": "Sistema Lewis.",
+        "C": "Sistema KIDD.",
+        "D": "Los sistemas de antígenos eritrocitarios solo están presentes en la membrana de los hematíes."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Sistema Lewis."
+    },
+    {
+      "id": 241,
+      "question": "Respecto a los componentes sanguíneos irradiados, señale la respuesta INCORRECTA:",
+      "options": {
+        "A": "Se dispondrá de un mecanismo que garantice que la irradiación se ha realizado correctamente.",
+        "B": "Deben ser transfundidos lo antes posible, pero siempre antes de los 14 días post-irradiación y no más tarde de 28 días desde la donación.",
+        "C": "El almacenamiento de los mismos podrá",
+        "D": "El proceso de irradiación debe asegurar que ninguna parte del componente sanguíneo recibe una dosis menor de 25 G."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "El almacenamiento de los mismos podrá"
+    },
+    {
+      "id": 242,
+      "question": "¿Cuál es el Real Decreto que establece los requisitos técnicos y condiciones mínimas de la hemodonación y de los centros y servicios de transfusión?",
+      "options": {
+        "A": "RO 771/2014, de 12 de septiembre.",
+        "B": "RO 1088/2005, de 15 de septiembre.",
+        "C": "RO 95/2022, de 1 de febrero.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las anteriores es correcta."
+    },
+    {
+      "id": 243,
+      "question": "Varón de 65 años diagnosticado de fibrilación auricular en tratamiento con acenocumarol. Sufre un accidente de tráfico, presentando fractura de pelvis complicada. Nos solicitan 3 concentrados de hematíes sin cruzar. ¿De qué grupo enviamos las unidades a transfundir?",
+      "options": {
+        "A": "O Positivo.",
+        "B": "O Negativo.",
+        "C": "AB Positivo.",
+        "D": "AB Negativo."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "O Negativo."
+    },
+    {
+      "id": 244,
+      "question": "Además de los concentrados de hematíes, nos solicitan con extrema urgencia 2 unidades de plasma. ¿Qué grupo deberemos transfundir?",
+      "options": {
+        "A": "B.",
+        "B": "A.",
+        "C": "O.",
+        "D": "AB."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "AB."
+    },
+    {
+      "id": 245,
+      "question": "Recibimos la muestra pretransfusional del paciente. En su historial transfusional consta que su grupo sanguíneo es O Positivo. La actitud del técnico será:",
+      "options": {
+        "A": "No realizar de nuevo el grupo ABO y Rh en muestra pretransfusional puesto que ya conocemos el grupo del paciente y, a partir de ahora, le transfundiremos hematíes O Positivo.",
+        "B": "Aunque tenemos datos históricos, debemos",
+        "C": "Dado que ya hemos transfundido hematíes O",
+        "D": "Dado que ya hemos transfundido plasma AB, debemos continuar transfundiendo AB independientemente del grupo del paciente."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Aunque tenemos datos históricos, debemos"
+    },
+    {
+      "id": 246,
+      "question": "Tras la intervención quirúrgica nos solicitan 2 unidades más de plasma. Elegir la opción correcta:",
+      "options": {
+        "A": "Dado que hemos transfundido previamente de grupo AB, debemos elegir plasma AB.",
+        "B": "Puesto que el paciente es de grupo O, podremos",
+        "C": "Puesto que el paciente es de grupo O siempre",
+        "D": "Ninguna opción es válida."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Puesto que el paciente es de grupo O, podremos"
+    },
+    {
+      "id": 247,
+      "question": "Al finalizar la intervención quirúrgica y, estando el paciente en Reanimación, nos solicitan una nueva transfusión urgente de 2 concentrados de hematíes. En este caso:",
+      "options": {
+        "A": "Puesto que el paciente se acaba de transfundir plasma AB, transfundiremos hematíes AB Positivo.",
+        "B": "Puesto que el paciente es de grupo O Positivo,",
+        "C": "Dado que la prioridad es urgente debemos elegir",
+        "D": "Ninguna de las opciones anteriores es correcta."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Puesto que el paciente es de grupo O Positivo,"
+    },
+    {
+      "id": 248,
+      "question": "Paula está embarazada de 12 semanas. En la analítica de control del primer trimestre se le pide determinación de grupo sanguíneo, Rh, y escrutinio de anticuerpos irregulares. Después de realizar las técnicas correspondientes, determinamos que Paula es del grupo O y Rh negativo. ¿Qué prueba realizaríamos para completar el estudio inmunohematológico de Paula?",
+      "options": {
+        "A": "Determinación de Rh en porta y tubo.",
+        "B": "Determinación del Ag D débil (D.U.).",
+        "C": "Pediríamos nueva muestra para confirmar.",
+        "D": "No es necesario completar el estudio."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Determinación del Ag D débil (D.U.)."
+    },
+    {
+      "id": 249,
+      "question": "En caso de tener que transfundir a esa paciente, podemos hacerlo con bolsas del grupo:",
+      "options": {
+        "A": "O positivo o O negativo.",
+        "B": "O negativo.",
+        "C": "O positivo.",
+        "D": "Cualquiera del sistema ABO siempre que sea Rh negativo."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "O negativo."
+    },
+    {
+      "id": 250,
+      "question": "A Paula se le confirma un Ac Anti-D en el primer trimestre del embarazo. ¿Cuándo recibirá Paula la vacuna Anti-D?",
+      "options": {
+        "A": "Alrededor de la semana 28 de embarazo.",
+        "B": "En la semana 36 de embarazo.",
+        "C": "Antes de las 72 horas después del parto.",
+        "D": "No será necesario si es el primer embarazo."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Alrededor de la semana 28 de embarazo."
+    },
+    {
+      "id": 251,
+      "question": "Un DU positivo o Ag D débil, ¿cómo lo trataríamos, a la hora de donar o recibir sangre respectivamente?",
+      "options": {
+        "A": "Donante Rh negativo y receptor Rh negativo.",
+        "B": "Donante Rh negativo y receptor Rh positivo.",
+        "C": "Donante Rh positivo y receptor Rh negativo.",
+        "D": "Donante Rh positivo y receptor Rh positivo."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Donante Rh positivo y receptor Rh negativo."
+    },
+    {
+      "id": 252,
+      "question": "Realizamos la prueba de Ag D débil y el resultado es DU positivo. ¿Qué significado tendría?",
+      "options": {
+        "A": "Se confirma que el Rh es negativo.",
+        "B": "Tiene Ag D débil y el Rh es positivo.",
+        "C": "Error en la lectura, el Rh negativo debe tener DU negativo.",
+        "D": "Las respuestas A) y C) son ciertas."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Tiene Ag D débil y el Rh es positivo."
+    },
+    {
+      "id": 253,
+      "question": "La hemaglutinación es una técnica de:",
+      "options": {
+        "A": "Precipitación simple.",
+        "B": "Precipitación compleja.",
+        "C": "Aglutinación directa.",
+        "D": "Aglutinación indirecta."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Aglutinación directa."
+    },
+    {
+      "id": 254,
+      "question": "Los procedimientos de aféresis consisten en:",
+      "options": {
+        "A": "La donación de un determinado componente",
+        "B": "La eliminación de gran parte de los leucocitos de una donación.",
+        "C": "La irradiación de los componentes sanguíneos previos a la transfusión.",
+        "D": "La obtención de factores de coagulación procedentes del plasma."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "La donación de un determinado componente"
+    },
+    {
+      "id": 255,
+      "question": "Se considera una reacción transfusional a largo plazo:",
+      "options": {
+        "A": "Infección por VIH.",
+        "B": "Infección por Citomegalovirus.",
+        "C": "Refractariedad plaquetaria.",
+        "D": "Infección por Hepatitis B."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Refractariedad plaquetaria."
+    },
+    {
+      "id": 256,
+      "question": "En cuanto a las afirmaciones siguientes sobre la realización de un Coombs directo, señale la correcta:",
+      "options": {
+        "A": "Descartar anemia hemolítica.",
+        "B": "Para investigar una reacción transfusional.",
+        "C": "Para diagnosticar la EHRN.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 257,
+      "question": "Al realizar la prueba hemática de detección de aglutinógenos, se produce aglutinación de anti A, anti B, y anti AB. ¿A qué grupo sanguíneo pertenece?",
+      "options": {
+        "A": "A.",
+        "B": "0.",
+        "C": "B.",
+        "D": "AB."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "AB."
+    },
+    {
+      "id": 258,
+      "question": "En relación con la práctica transfusional, ¿a qué llamamos plasma en cuarentena?",
+      "options": {
+        "A": "Componente plasmático preparado a partir de una bolsa de plasma fresco congelado.",
+        "B": "Componente plasmático preparado a partir de plasma fresco congelado mediante precipitación de las proteínas durante la congelación.",
+        "C": "Plasma en el que se efectúa el control de las",
+        "D": "Plasma sometido a la inactivación fotodinámica con azul de metileno."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Plasma en el que se efectúa el control de las"
+    },
+    {
+      "id": 259,
+      "question": "Las plaquetas se mantienen guardadas:",
+      "options": {
+        "A": "15 días.",
+        "B": "6 horas.",
+        "C": "6 días.",
+        "D": "6 meses."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "6 días."
+    },
+    {
+      "id": 260,
+      "question": "En el test de Coombs directo, se investiga:",
+      "options": {
+        "A": "Si en suero existen anticuerpos incompletos.",
+        "B": "La presencia de Ac en la superficie de los Hties.",
+        "C": "La presencia de anticuerpos completos en el suero.",
+        "D": "La incompatibilidad materno-fetal E) La presencia de antígenos en los hematíes"
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "La presencia de Ac en la superficie de los Hties."
+    },
+    {
+      "id": 261,
+      "question": "¿Qué temperatura deben mantener los frigoríficos que se utilizan en la conservación y almacenamiento de concentrados de hematíes o sangre tota?",
+      "options": {
+        "A": "-2 a -10ºC",
+        "B": "5 a 10ºC",
+        "C": "2 a 6ºC",
+        "D": "-2 a 2ºC E) 6 a 8ºC"
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "2 a 6ºC"
+    },
+    {
+      "id": 262,
+      "question": "Dada la cifra de hemoglobina, solicitan la transfusión de 2 concentrados de hematíes. En el estudio pretransfusional detectamos positividad en el escrutinio de anticuerpos irregulares y la prueba cruzada resulta positiva. El panel de identificación nos confirma que se trata de un anti-",
+      "options": {
+        "C": "Buscar hematíes C negativos, cruzarlos, y",
+        "A": "Realizar fenotipo C a la paciente y comprobar que es C negativo.",
+        "B": "Realizar fenotipo C a las bolsas que no cruzan y comprobar que son C positivo. comprobar que la prueba cruzada es negativa.",
+        "D": "Todas las respuestas anteriores son ciertas."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son ciertas."
+    },
+    {
+      "id": 263,
+      "question": "Para el diagnóstico de la Enfermedad Hemolítica del Recién Nacido (EHRN), la determinación indicada de entre las siguientes, sería:",
+      "options": {
+        "A": "Test de Coombs directo.",
+        "B": "Glucosa.",
+        "C": "Gasometría.",
+        "D": "Estudio de coagulación."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Test de Coombs directo."
+    },
+    {
+      "id": 264,
+      "question": "Si estuviese indicado transfundir una bolsa de plasma fresco congelado, sabemos que una vez descongelado, y para que los factores de coagulación más lábiles, como el factor V y el factor VIII, estén en condiciones óptimas, no debe trascurrir más de:",
+      "options": {
+        "A": "Una semana descongelado.",
+        "B": "Dos días descongelado.",
+        "C": "24 horas descongelado.",
+        "D": "Dos semanas descongelado."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "24 horas descongelado."
+    },
+    {
+      "id": 265,
+      "question": "En relación con este caso, ¿cuál de las siguientes afirmaciones es correcta, según el proceso asistencial integrado “Embarazo, parto y puerperio” de la Junta de Andalucía?",
+      "options": {
+        "A": "Se realizará toma de muestra sanguínea del cordón para determinación exclusivamente del grupo ABO y Rh del recién nacido.",
+        "B": "Se realizará toma de muestra sanguínea del",
+        "C": "Al ser la madre Rh negativo, no es preciso",
+        "D": "De conocerse que el padre es Rh positivo, no es preciso determinar el grupo ABO y Rh del recién nacido."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Se realizará toma de muestra sanguínea del"
+    },
+    {
+      "id": 266,
+      "question": "Si la ictericia del recién nacido fuera patológica, señale la respuesta correcta:",
+      "options": {
+        "A": "Afecta a solo a primogénitos.",
+        "B": "Si es por incompatibilidad ABO nunca afecta al primer embarazo.",
+        "C": "Si es por incompatibilidad Rh se produce cuando",
+        "D": "Si es por incompatibilidad Rh se produce cuando la madre es Rh negativo, independientemente del Rh del recién nacido."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Si es por incompatibilidad Rh se produce cuando"
+    },
+    {
+      "id": 267,
+      "question": "Según el Proceso Asistencial Integrado “Embarazo Parto y Puerperio” de la Junta de Andalucía, respecto al Test de Coombs Indirecto es cierto que:",
+      "options": {
+        "A": "Debe ser realizado entre la 9ª y 10ª semana de",
+        "B": "Se debe realizar al recién nacido cuya madre sea Rh negativo.",
+        "C": "Debe ser realizado entre la 9ª y 10ª semana de gestación solo a las gestantes Rh negativo.",
+        "D": "Debe ser realizado entre la 9ª y 10ª semana de gestación solo a las gestantes Rh positivo."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Debe ser realizado entre la 9ª y 10ª semana de"
+    },
+    {
+      "id": 268,
+      "question": "En la isoinmunización Rh, es cierto que:",
+      "options": {
+        "A": "Se produce debido al paso de IgM anti-D a través de la placenta.",
+        "B": "Se caracteriza por hemólisis importante, anemia",
+        "C": "Solo afecta a primogénitos.",
+        "D": "No tiene tratamiento."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Se caracteriza por hemólisis importante, anemia"
+    },
+    {
+      "id": 269,
+      "question": "¿Cuál de las siguientes pruebas forma parte del estudio de compatibilidad previo a la transfusión sanguínea?",
+      "options": {
+        "A": "Test Coombs directo en hematíes de la bolsa.",
+        "B": "Hemograma.",
+        "C": "Test de reptilase",
+        "D": "Escrutinio de anticuerpos irregulares."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Escrutinio de anticuerpos irregulares."
+    },
+    {
+      "id": 270,
+      "question": "¿Qué etapas comprende la prueba cruzada mayor?",
+      "options": {
+        "A": "Enfrentar suero del receptor y eritrocitos del",
+        "B": "Enfrentar suero del donante y eritrocitos del receptor.",
+        "C": "Escrutinio de anticuerpos irregulares.",
+        "D": "Test de Ham."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Enfrentar suero del receptor y eritrocitos del"
+    },
+    {
+      "id": 271,
+      "question": "Las muestras de sangre para pruebas de compatibilidad pretransfusional:",
+      "options": {
+        "A": "En el momento de la extracción, el receptor debe",
+        "B": "No es necesario un mecanismo para identificar y",
+        "C": "En caso de transfusión, las muestras empleadas",
+        "D": "Problemas de trazabilidad con las muestras no impiden que estas se deban considerar como válidas."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "En el momento de la extracción, el receptor debe"
+    },
+    {
+      "id": 272,
+      "question": "Las peticiones de transfusión de hemoderivados, sean en papel o en soporte informático, se acompañan de la siguiente información:",
+      "options": {
+        "A": "Componente sanguíneo solicitado y número de",
+        "B": "Grupo ABO del receptor y componente sanguíneo solicitado.",
+        "C": "Al menos Rh del donante, sexo del receptor y grado de urgencia.",
+        "D": "Rh del receptor y del donante."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Componente sanguíneo solicitado y número de"
+    },
+    {
+      "id": 273,
+      "question": "Las unidades de concentrados de hematíes para transfusión:",
+      "options": {
+        "A": "La presencia de coágulos en el componente sanguíneo no es un criterio de rechazo del componente sanguíneo.",
+        "B": "Si se retorna al servicio de transfusión alguna unidad sin transfundir no es importante conocer si se ha mantenido en el rango de temperatura adecuada para su conservación.",
+        "C": "Deben ser inspeccionadas inmediatamente antes",
+        "D": "En peticiones de transfusión de extrema urgencias los receptores con grupo ABO desconocido deben recibir concentrados de hematíes de grupo AB."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Deben ser inspeccionadas inmediatamente antes"
+    },
+    {
+      "id": 274,
+      "question": "Para determinar el Rh, pondremos en contacto la sangre del paciente con:",
+      "options": {
+        "A": "Aglutinina D.",
+        "B": "Suero A.",
+        "C": "Suero anti-D.",
+        "D": "Antígenos ABO."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Suero anti-D."
+    },
+    {
+      "id": 275,
+      "question": "El test de Coombs indirecto se utiliza para:",
+      "options": {
+        "A": "Detectar la presencia de anticuerpos en el plasma del paciente.",
+        "B": "Determinar el fenotipo de los grupos sanguíneos.",
+        "C": "Identificar la especificidad de los anticuerpos causantes de una anemia hemolítica.",
+        "D": "Todas las respuestas anteriores son ciertas."
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son ciertas."
+    },
+    {
+      "id": 276,
+      "question": "Ante una solicitud de transfusión de plasma, se realiza sobre las muestras del paciente receptor:",
+      "options": {
+        "A": "Tipificación de grupo ABO, Rh y escrutinio de anticuerpos irregulares.",
+        "B": "Tipificación de grupo ABO, Rh y Coombs Directo positivo para descartar anemia hemolítica autoinmune.",
+        "C": "Tipificación de grupo ABO y Rh, y elegiremos",
+        "D": "No es necesario hacer el grupo sanguíneo, puesto que transfundiremos siempre plasma isogrupo."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Tipificación de grupo ABO y Rh, y elegiremos"
+    },
+    {
+      "id": 277,
+      "question": "Respecto a los grupos sanguíneos, es FALSO que:",
+      "options": {
+        "A": "El grupo O con Rh- es el donante universal.",
+        "B": "",
+        "C": "El grupo AB tienen anticuerpos anti-A en el",
+        "D": "El grupo O no presenta ni antígeno A ni antígeno"
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "El grupo AB tienen anticuerpos anti-A en el"
+    },
+    {
+      "id": 278,
+      "question": "¿Cuál de los siguientes grupos sanguíneos contiene más cantidad de sustancia H?",
+      "options": {
+        "A": "A.",
+        "B": "B.",
+        "C": "0."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "0."
+    },
+    {
+      "id": 279,
+      "question": "De los siguientes antígenos del sistema Rh, ¿cuál tiene mayor poder sensibilizante?",
+      "options": {
+        "A": "Ag E.",
+        "B": "Ag D.",
+        "C": "Ag C."
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "Ag D."
+    },
+    {
+      "id": 280,
+      "question": "La prueba que detecta inmunoglobulinas y complemento sobre la membrana del eritrocito, imprescindible para el estudio de las anemias hemolíticas de mecanismo inmune se llama:",
+      "options": {
+        "A": "Test de Coombs directo.",
+        "B": "Test de Coombs indirecto.",
+        "C": "Escrutinio de anticuerpos irregulares.",
+        "D": "Adsorción diferencial."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "Test de Coombs directo."
+    },
+    {
+      "id": 281,
+      "question": "34. Durante la realización de las Pruebas Cruzadas, señale la respuesta correcta:",
+      "options": {
+        "A": "Los eritrocitos donantes se lavan dos veces para eliminar el anticoagulante.",
+        "B": "Se mezclan los hematíes donantes con hematíes del paciente.",
+        "C": "Se hace una incubación a 37ºC y posteriormente",
+        "D": "Con esta prueba se detecta el 60% de los anticuerpos corrientes."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Se hace una incubación a 37ºC y posteriormente"
+    },
+    {
+      "id": 282,
+      "question": "Señale la respuesta correcta en cuanto la compatibilidad sanguínea.",
+      "options": {
+        "A": "A+ puede donar a A – y AB+",
+        "B": "B – puede recibir de AB – y O+",
+        "C": "A – puede donar a A+ y AB+",
+        "D": "B+ puede donar a B –"
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "A – puede donar a A+ y AB+"
+    },
+    {
+      "id": 283,
+      "question": "Señale la opción no verdadera respecto a Ac frente a Ag sanguíneos.",
+      "options": {
+        "A": "Los anti-N son muy poco frecuentes y carecen de trascendencia clínica.",
+        "B": "Los anti-S y anti-s son habitualmente de clase lgG y ambos pueden ocasionar reacciones hemolíticas y enfermedad hemolítica del recién nacido (EHRN).",
+        "C": "Los anticuerpos del sistema KIDD no pueden fijar",
+        "D": "Los anticuerpos del sistema DUFFY pueden producir EHRN."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Los anticuerpos del sistema KIDD no pueden fijar"
+    },
+    {
+      "id": 284,
+      "question": "La prueba indirecta de la antiglobulina, también conocida como prueba de Coombs indirecta, se usa para:",
+      "options": {
+        "A": "Saber si los hematíes están recubiertos in vivo de anticuerpos antieritrocitarios.",
+        "B": "Estudiar la enfermedad hemolítica del recién nacido (EHRN).",
+        "C": "Detectar anticuerpos libres en el suero dirigidos",
+        "D": "Estudiar la reacción hemolítica postransfusional por aloanticuerpos contra los hematíes transfundidos."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Detectar anticuerpos libres en el suero dirigidos"
+    },
+    {
+      "id": 285,
+      "question": "Ante una situación de extrema urgencia, en banco de sangre transfundiremos de inmediato:",
+      "options": {
+        "A": "Cualquier concentrado de hematíes.",
+        "B": "Concentrados de hematíes del grupo O.",
+        "C": "Concentrados de hematíes del grupo AB.",
+        "D": "En ningún caso se transfundirá sangre sin cruzar de forma adecuada."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Concentrados de hematíes del grupo O."
+    },
+    {
+      "id": 286,
+      "question": "¿Qué prueba de laboratorio se realiza para detectar la presencia de anticuerpos irregulares libres en el plasma?",
+      "options": {
+        "A": "Test de Coombs Indirecto.",
+        "B": "Test de Coombs Directo.",
+        "C": "Test de hemólisis.",
+        "D": "Inmunodifusión radial."
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Test de Coombs Indirecto."
+    },
+    {
+      "id": 287,
+      "question": "¿Cuál es la solución conservante que permite una caducidad más larga en la conservación de concentración de hematíes?",
+      "options": {
+        "A": "ACD (ácido-citrato-dextrosa).",
+        "B": "CPD (citrato-fosfato-dextrosa).",
+        "C": "CPD- Adenina.",
+        "D": "SAG-Manitol (salino-adenina-glucosa-manitol)."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "SAG-Manitol (salino-adenina-glucosa-manitol)."
+    },
+    {
+      "id": 288,
+      "question": "¿Durante cuánto tiempo es viable un pool de plaquetas no inactivadas?",
+      "options": {
+        "A": "15 días.",
+        "B": "5 días.",
+        "C": "20 días.",
+        "D": "10 días."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "5 días."
+    },
+    {
+      "id": 289,
+      "question": "La prueba de la antiglobulina directa (Coombs directo) se utiliza en:",
+      "options": {
+        "A": "Estudio de enfermedad hemolítica en el recién nacido.",
+        "B": "Investigación de reacciones post-transfusionales.",
+        "C": "Detección de anticuerpos que se han fijado a la superficie de los glóbulos rojos.",
+        "D": "Todas las afirmaciones son correctas."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Todas las afirmaciones son correctas."
+    },
+    {
+      "id": 290,
+      "question": "Un receptor sanguíneo A; ¿Qué PFC (plasma fresco congelado) puede recibir en caso de no disponer de su mismo grupo sanguíneo?",
+      "options": {
+        "A": "PFC del grupo AB.",
+        "B": "PFC del grupo O.",
+        "C": "PFC del grupo B.",
+        "D": "Ninguno de ellos, sólo puede recibir de su mismo grupo sanguíneo."
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "PFC del grupo AB."
+    },
+    {
+      "id": 291,
+      "question": "La prueba de la antiglobulina indirecta (Coombs indirecto) se realiza para detectar en suero:",
+      "options": {
+        "A": "Antígenos.",
+        "B": "Anticuerpos.",
+        "C": "Grupo ABO.",
+        "D": "Tipificar Rh."
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos."
+    },
+    {
+      "id": 292,
+      "question": "En el estudio del Coombs directo:",
+      "options": {
+        "A": "Se buscan anticuerpos antieritrocitos irregulares presentes libres en el plasma.",
+        "B": "Se realiza para diagnosticar una reacción",
+        "C": "Se comprueba si la madre está sensibilizada frente a antígenos eritrocitarios del neonato.",
+        "D": "Son correctas A) y C)."
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "Se realiza para diagnosticar una reacción"
+    },
+    {
+      "id": 293,
+      "question": "¿En cuál de los siguientes casos está indicada la administración profiláctica de gammaglobulina anti-Rh en el posparto?:",
+      "options": {
+        "A": "Padre Rh +, madre Rh -, feto Rh + y test de Coombs directo positivo.",
+        "B": "Padre Rh +, madre Rh -, feto Rh + y test de",
+        "C": "Padre Rh -, madre Rh +, feto Rh + y test de Coombs directo negativo.",
+        "D": "Padre Rh +, madre Rh +, feto Rh + y test de Coombs directo negativo"
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "Padre Rh +, madre Rh -, feto Rh + y test de"
+    },
+    {
+      "id": 294,
+      "question": "¿Cuál de los siguientes es el anticuerpo inmune que se detecta con más frecuencia después de los de los sistemas ABO y Rh?",
+      "options": {
+        "A": "anti K",
+        "B": "anti Fy b",
+        "C": "anti Jk b",
+        "D": "anti Lu a"
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "anti K"
+    },
+    {
+      "id": 295,
+      "question": "Señale la respuesta INCORRECTA respecto al sistema Kell:",
+      "options": {
+        "A": "Los anticuerpos de este sistema no causan",
+        "B": "Son anticuerpos normalmente IgG y pueden causar reacciones transfusionales.",
+        "C": "El antígeno K tiene baja frecuencia por lo que es fácil encontrar sangre compatible para los pacientes con anticuerpos K.",
+        "D": "Se detectan en estudios básicos de laboratorio de banco de sangre."
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Los anticuerpos de este sistema no causan"
+    },
+    {
+      "id": 296,
+      "question": "Existe un gran número de variantes con una expresión anómala del antígeno D, variantes RhD, y pueden tener implicaciones postransfusionales y/o importancia en la enfermedad hemolítica del recién nacido. En relación a estas variantes, señale la respuesta correcta:",
+      "options": {
+        "A": "Las variantes DEL representan un nivel de expresión de antígeno D normal pero sumamente defectuoso, es decir, la densidad de antígeno D en la membrana eritroide es normal pero su expresión está cualitativamente muy alterada.",
+        "B": "En las variantes RhD débil no se expresan la totalidad de los epítopos. La mayoría de individuos portadores de un D débil desarrollan un aloanti D al entrar en contacto, por transfusión o gestación, con hematíes D positivo.",
+        "C": "En el caso de las variantes D parcial, la densidad de antígeno D en la membrana eritrocitaria está disminuida y la mayoría no presentan riesgo de sensibilización anti D.",
+        "D": "En la población caucásica, se estima que entre un 0,2-1% de los individuos RhD positivo presentan un fenotipo D débil."
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "En la población caucásica, se estima que entre un 0,2-1% de los individuos RhD positivo presentan un fenotipo D débil."
+    },
+    {
+      "id": 297,
+      "question": "Respecto a la TFNA (trombocitopenia fetal neonatal aloinmune), indique la respuesta falsa:",
+      "options": {
+        "A": "Se produce como consecuencia de la destrucción de las plaquetas fetales/neonatales inducida por aloanticuerpos anti-plaquetarios presentes en el suero materno y dirigidos contra algún antígeno plaquetario específico que el feto o recién nacido (RN) ha heredado del padre",
+        "B": "Se trata de una complicación de la gestación potencialmente muy grave, que en las situaciones de trombocitopenia severa puede cursar con una hemorragia intracraneal (HIC)",
+        "C": "El anticuerpo más frecuentemente detectado es",
+        "D": "Tras los anticuerpos de especificidad anti-HPA- 1a, los de especificidad anti-HPA-5b son los más frecuentemente identificados"
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "El anticuerpo más frecuentemente detectado es"
+    },
+    {
+      "id": 298,
+      "question": "La prueba de Coombs indirecta:",
+      "options": {
+        "A": "Se realiza con el plasma del paciente.",
+        "B": "Se realiza con hematíes del paciente.",
+        "C": "Determina la presencia de lgM en la muestra.",
+        "D": "Se hace tanto con el plasma como con los hematíes del sufriente."
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Se realiza con el plasma del paciente."
+    },
+    {
+      "id": 299,
+      "question": "¿Cuál es la característica que pueden presentar las personas con el fenotipo silencioso Fy(a-b-)?",
+      "options": {
+        "A": "Resistencia a la parasitación por Plasmodium",
+        "B": "Presentación de graves reacciones hemolíticas retrasadas.",
+        "C": "Riesgo de abortos precoces.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Resistencia a la parasitación por Plasmodium"
+    },
+    {
+      "id": 300,
+      "question": "¿Qué grupo sanguíneo es el receptor con la mayor compatibilidad del plasma?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "AB",
+        "D": "O"
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "O"
+    },
+    {
+      "id": 301,
+      "question": "Llega a Banco de Sangre una muestra de una mujer de 40 años que fue transfundida en el año 2018 por accidente de tráfico. Ha tenido dos embarazos y un aborto. Se recibe una petición de reserva de 2 CHFIL (concentrado de hematíes filtrados) para intervención programada 48 horas antes acompañada de su muestra correspondiente identificada con pulsera transfusional. Al revisar la ficha de la paciente vemos que es grupo A negativo. Realizamos el grupo a la muestra con resultado AB positivo. ¿A qué puede deberse la discrepancia de grupo?",
+      "options": {
+        "A": "A las transfusiones anteriores",
+        "B": "A los embarazos",
+        "C": "Al aborto",
+        "D": "A problemas con la identificación de la muestra"
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "A problemas con la identificación de la muestra"
+    },
+    {
+      "id": 302,
+      "question": "¿Qué prueba utilizaremos para el escrutinio de anticuerpos irregulares?",
+      "options": {
+        "A": "Test de Coombs Directo",
+        "B": "Test de Coombs Indirecto",
+        "C": "Inmunodifusión",
+        "D": "Inmunofijación"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "Test de Coombs Indirecto"
+    },
+    {
+      "id": 303,
+      "question": "Señale la afirmación verdadera sobre la prueba de Coombs Directo:",
+      "options": {
+        "A": "Pone de manifiesto la presencia de anticuerpos libres circulantes en el plasma",
+        "B": "Está indicada cuando se sospecha de anemia",
+        "C": "Se realiza en el medio de Coombs incubándolo a 37ºC",
+        "D": "No detecta proteínas del sistema del complemento"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "Está indicada cuando se sospecha de anemia"
+    },
+    {
+      "id": 304,
+      "question": "Tenemos una urgencia por un episodio hemorrágico que afecta a los órganos vitales en un paciente que presenta coagulopatía. ¿Qué administraríamos para una rápida corrección de dicha coagulopatía?",
+      "options": {
+        "A": "Plasma fresco congelado (PFC)",
+        "B": "Hirudina",
+        "C": "Antitrombina III",
+        "D": "Plasmina"
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Plasma fresco congelado (PFC)"
+    },
+    {
+      "id": 305,
+      "question": "¿Cuál de los siguientes componentes sanguíneos se utiliza como materia prima en la obtención de inmunoglobulinas?",
+      "options": {
+        "A": "Concentrado de hematíes",
+        "B": "Plasma",
+        "C": "Plaquetas",
+        "D": "Concentrado de granulocitos"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "Plasma"
+    },
+    {
+      "id": 306,
+      "question": "¿A qué sistema sanguíneo pertenece el antígeno JKa?",
+      "options": {
+        "A": "Duffy",
+        "B": "Kidd",
+        "C": "Kell",
+        "D": "Colton"
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Kidd"
+    },
+    {
+      "id": 307,
+      "question": "Tenemos un paciente con grupo sanguíneo A Positivo al que hay que transfundir plaquetas. ¿Las bolsas de plaquetas de qué grupo sanguíneo serían compatibles?",
+      "options": {
+        "A": "A Pos, A Neg, AB Pos, AB Neg, B Pos, B Neg,",
+        "B": "Exclusivamente A Pos, A Neg, O Pos, O Neg",
+        "C": "Exclusivamente A Pos, O Neg",
+        "D": "Exclusivamente A Pos"
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "A Pos, A Neg, AB Pos, AB Neg, B Pos, B Neg,"
+    },
+    {
+      "id": 308,
+      "question": "Los concentrados de hematíes deben ser almacenados teniendo en cuenta condiciones de temperatura y viabilidad. Indique la respuesta correcta:",
+      "options": {
+        "A": "De -3 a -5°C, 14-18 días",
+        "B": "De 2 a 6°C, 21-42 días",
+        "C": "De 8 a 10°C, 21-42 días",
+        "D": "De 20 a 25°C, 14-18 días"
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "De 2 a 6°C, 21-42 días"
+    },
+    {
+      "id": 309,
+      "question": "En el Sistema ABO, indique el orden de frecuencia de los grupos en la población caucásica:",
+      "options": {
+        "A": "0, A, B, AB",
+        "B": "B, AB, 0, A",
+        "C": "AB, 0, A, B",
+        "D": "0, B, A, AB"
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "0, A, B, AB"
+    },
+    {
+      "id": 310,
+      "question": "Respecto al almacenamiento de los pooles de plaquetas, indique la respuesta correcta:",
+      "options": {
+        "A": "Se almacenan a 22±2°C en agitación continua,",
+        "B": "Se almacenan a 10±2°C en agitación continua,",
+        "C": "Se almacenan a 10±2°C en agitación continua, con una máxima viabilidad de 30 días desde la fecha de la donación",
+        "D": "Se almacenan a 22±2°C sin necesidad de agitación continua, con una máxima viabilidad de 5 días desde la fecha de la donación"
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Se almacenan a 22±2°C en agitación continua,"
+    },
+    {
+      "id": 311,
+      "question": "Los anticuerpos del sistema Kell suelen ser:",
+      "options": {
+        "A": "IgG.",
+        "B": "IgD.",
+        "C": "IgA.",
+        "D": "IgE."
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "IgG."
+    },
+    {
+      "id": 312,
+      "question": "Los antígenos del sistema Rh son:",
+      "options": {
+        "A": "Glucolípidos.",
+        "B": "Glucoesfingolípidos.",
+        "C": "Lipoproteínas.",
+        "D": "Proteínas."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Lipoproteínas."
+    },
+    {
+      "id": 313,
+      "question": "Indica la respuesta incorrecta con relación a los antígenos del sistema ABO:",
+      "options": {
+        "A": "Los alelos A y B son codominantes, es decir, se expresan ambos en el individuo.",
+        "B": "Los fenotipos probables son: AA, AB, BB, AO, BO",
+        "C": "El gen O es amorfo y no altera la estructura de la sustancia H.",
+        "D": "Los individuos con genotipo hh, sus hematíes carecen de antígenos del sistema ABO y se dice que pertenecen al grupo Bombay."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Los fenotipos probables son: AA, AB, BB, AO, BO"
+    },
+    {
+      "id": 314,
+      "question": "¿Cuál de los siguientes no es un criterio de exclusión temporal de un donante de sangre?",
+      "options": {
+        "A": "Fiebre superior a 38°C.",
+        "B": "La vacunación con virus o bacterias atenuadas.",
+        "C": "Historia de coagulopatía hemorrágica.",
+        "D": "El embarazo."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Historia de coagulopatía hemorrágica."
+    },
+    {
+      "id": 315,
+      "question": "Los concentrados de granulocitos se deben administrar inmediatamente, pero si tienen que almacenarse se harán a una temperatura de:",
+      "options": {
+        "A": "2-6°C.",
+        "B": "-40°C.",
+        "C": "22 ± 2°C.",
+        "D": "1-10°C."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "22 ± 2°C."
+    },
+    {
+      "id": 316,
+      "question": "Un concentrado de hematíes se puede hemolizar por alguna de las siguientes causas:",
+      "options": {
+        "A": "Por una infusión simultánea con determinados medicamentos.",
+        "B": "Por adición de sustancias hipotónicas como el agua destilada.",
+        "C": "Por sobrecalentamiento a más de 50ºc.",
+        "D": "Por las tres causas anteriores."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Por las tres causas anteriores."
+    },
+    {
+      "id": 317,
+      "question": "Un concentrado de hematíes se puede hemolizar por alguna de las siguientes causas:",
+      "options": {
+        "A": "Por una infusión simultánea con determinados medicamentos.",
+        "B": "Por adición de sustancias hipotónicas como el agua destilada.",
+        "C": "Por sobrecalentamiento a más de 50ºc.",
+        "D": "Por las tres causas anteriores."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Por las tres causas anteriores."
+    }
+  ]
+}

@@ -1,0 +1,2949 @@
+{
+  "tema": 2,
+  "titulo": "Líquidos biológicos",
+  "source_file": "Test tema 2 Líquidos biológicos (respuestas)_355bce36576c1305d5d5472e7955226a.pdf",
+  "total_questions": 227,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Para obtener una muestra de líquido pleural, someteremos al paciente a una:",
+      "options": {
+        "A": "Pleurectomía.",
+        "B": "Punción medular.",
+        "C": "Punción suprapúbica",
+        "D": "Toracocentesis."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Toracocentesis."
+    },
+    {
+      "id": 2,
+      "question": "Consideramos que los niveles de glucosa en el líquido sinovial son bajos si:",
+      "options": {
+        "A": "Son similares a la glucosa del paciente.",
+        "B": "Son inferiores a 50 mg/dl.",
+        "C": "Presentan una diferencia con la glucemia del",
+        "D": "El líquido sinovial no debe de tener glucosa."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Presentan una diferencia con la glucemia del"
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de estos líquidos no es seroso?:",
+      "options": {
+        "A": "Pleural.",
+        "B": "Sinovial.",
+        "C": "Peritoneal.",
+        "D": "Pericárdico."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Sinovial."
+    },
+    {
+      "id": 4,
+      "question": "El nivel de normalidad de un líquido pleural es:",
+      "options": {
+        "A": "Inferior a 15 ml.",
+        "B": "1-5 ml.",
+        "C": "15-20 ml",
+        "D": "Superior a 20 ml."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Inferior a 15 ml."
+    },
+    {
+      "id": 5,
+      "question": "El recuento celular del LCR:",
+      "options": {
+        "A": "Se realiza en el cuadrado central.",
+        "B": "Se realiza en un porcentaje del total.",
+        "C": "Se realiza sobre las líneas externas.",
+        "D": "Deben contar todas las células porque su cantidad es muy pequeña."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Deben contar todas las células porque su cantidad es muy pequeña."
+    },
+    {
+      "id": 6,
+      "question": "¿Cómo denominamos el líquido pleural purulento?",
+      "options": {
+        "A": "Exudado.",
+        "B": "Trasudado.",
+        "C": "Quilotorax",
+        "D": "Empiema."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Empiema."
+    },
+    {
+      "id": 7,
+      "question": "Si llegara una muestra de líquido pleural que presentara una gran cantidad de leucocitos, se podría observar macroscópicamente:",
+      "options": {
+        "A": "De color amarillento.",
+        "B": "De color rojo.",
+        "C": "Lechoso.",
+        "D": "Turbio."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Turbio."
+    },
+    {
+      "id": 8,
+      "question": "La aplicación clínica más importante del fraccionamiento de las proteínas del L.C.R. es el diagnóstico de:",
+      "options": {
+        "A": "Meningitis tuberculosa.",
+        "B": "Encefalitis.",
+        "C": "Infartos craneales.",
+        "D": "Esclerosis múltiple."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Esclerosis múltiple."
+    },
+    {
+      "id": 9,
+      "question": "La glucorraquia está disminuida en:",
+      "options": {
+        "A": "Carcinomas meníngeos.",
+        "B": "Infecciones virales.",
+        "C": "Meningitis no infecciosas.",
+        "D": "Diabetes mellitus."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Carcinomas meníngeos."
+    },
+    {
+      "id": 10,
+      "question": "Si en el recuento diferencial del análisis citológico de LCR, se aprecia presencia de eosinófilos, ¿qué patología estaría asociada?",
+      "options": {
+        "A": "Meningitis de origen tuberculosa.",
+        "B": "Meningitis de origen vírica.",
+        "C": "Meningitis de origen bacteriana.",
+        "D": "Meningitis de origen parasitario."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Meningitis de origen parasitario."
+    },
+    {
+      "id": 11,
+      "question": "En el estudio microbiológico del líquido pleural, ¿que no está indicado?",
+      "options": {
+        "A": "Tinción de Gram y cultivo aerobio.",
+        "B": "Cultivo para micobacterias.",
+        "C": "Estudio de enterobacterias y anaerobios de tubo digestivo.",
+        "D": "Están indicadas todas."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Están indicadas todas."
+    },
+    {
+      "id": 12,
+      "question": "Los criterios de Light:",
+      "options": {
+        "A": "Utilizan parámetros bioquímicos LDH, proteínas",
+        "B": "Son una herramienta para descartar outliers en",
+        "C": "No se pueden utilizar en pacientes pediátricos.",
+        "D": "Utilizan, entre otros, los parámetros bioquímicos AST, Albúmina y bilirrubina para calcular el grado de gravedad de la cirrosis hepática."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Utilizan parámetros bioquímicos LDH, proteínas"
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál de los siguientes líquidos no es seroso?",
+      "options": {
+        "A": "Líquido sinovial.",
+        "B": "Líquido pleural.",
+        "C": "Líquido peritoneal.",
+        "D": "Líquido pericárdico."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Líquido sinovial."
+    },
+    {
+      "id": 14,
+      "question": "¿Qué determinación es la más indicada para diferenciar una rinorrea de una rinorraquia?:",
+      "options": {
+        "A": "Prealbúmina.",
+        "B": "BETA 2 transferrina.",
+        "C": "Glucosa.",
+        "D": "Proteínas totales"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "BETA 2 transferrina."
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál de los siguientes métodos no se emplea para la determinación de proteínas en LCR?",
+      "options": {
+        "A": "Lowry.",
+        "B": "Precipitación con ácido sulfosalicílico + sulfato",
+        "C": "Precipitación con tricloroacético.",
+        "D": "Fijación de colorantes."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Precipitación con ácido sulfosalicílico + sulfato"
+    },
+    {
+      "id": 16,
+      "question": "En relación al líquido cefalorraquídeo, señale la RESPUESTA CORRECTA:",
+      "options": {
+        "A": "Se obtiene mediante paracentesis de la cámara anterior.",
+        "B": "Las muestras no necesitan un procesamiento rápido.",
+        "C": "Puede obtenerse mediante punción cisternal.",
+        "D": "Las muestras para investigación de virus se conservarán en la estufa a 35ºC ± 2°C o a temperatura ambiente."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Puede obtenerse mediante punción cisternal."
+    },
+    {
+      "id": 17,
+      "question": "En el líquido sinovial, para la prueba del coágulo de mucina, en la que se observa la precipitación del ácido hialurónico, se emplea una dilución de:",
+      "options": {
+        "A": "Peróxido de hidrógeno.",
+        "B": "Ácido acético.",
+        "C": "HCL.",
+        "D": "Ácido ascórbico"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Ácido acético."
+    },
+    {
+      "id": 18,
+      "question": "En la diferenciación del líquido pleural, según los criterios de Light:",
+      "options": {
+        "A": "Es un exudado cuando la concentración de",
+        "B": "Es un exudado cuando la concentración de LDH del líquido esta disminuida en referencia al valor en suero.",
+        "C": "Es un trasudado cuando la concentración de proteínas del líquido esta aumentada.",
+        "D": "Es un trasudado cuando la concentración de LDH del líquido esta aumentada en referencia al valor en suero."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Es un exudado cuando la concentración de"
+    },
+    {
+      "id": 19,
+      "question": "Los niveles normales de proteínas plasmáticas en el LCR oscilan entre:",
+      "options": {
+        "A": "15 – 60 mg/dl.",
+        "B": "5 – 30 mg/dl.",
+        "C": "150 – 200 mg/dl.",
+        "D": "100 – 130 mg/dl."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "15 – 60 mg/dl."
+    },
+    {
+      "id": 20,
+      "question": "En el análisis de líquido cefalorraquídeo, el conservante más usado es:",
+      "options": {
+        "A": "EDTA",
+        "B": "Citrato",
+        "C": "Heparina",
+        "D": "No se añade conservante"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "No se añade conservante"
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál es el color y aspecto macroscópico normal del LCR?",
+      "options": {
+        "A": "Rojo",
+        "B": "Amarillo",
+        "C": "Límpido e incoloro",
+        "D": "Turbio"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Límpido e incoloro"
+    },
+    {
+      "id": 22,
+      "question": "¿Con qué término se denomina si su color fuera amarillento?",
+      "options": {
+        "A": "Hemorrágico",
+        "B": "Xantocrómico",
+        "C": "Ictérico",
+        "D": "Lipémico"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Xantocrómico"
+    },
+    {
+      "id": 23,
+      "question": "¿Qué pruebas se realizan habitualmente para hacer un buen diagnóstico en el LCR?",
+      "options": {
+        "A": "Recuento, formula y cultivo",
+        "B": "Bioquímica, Gram y cultivo",
+        "C": "Recuento y formula, bioquímica, Gram y cultivo",
+        "D": "Cultivo bacteriano en medios habituales"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Recuento y formula, bioquímica, Gram y cultivo"
+    },
+    {
+      "id": 24,
+      "question": "Para hacer recuento celular en el LCR ¿qué cámaras tradicionales se utilizan?",
+      "options": {
+        "A": "Sahli y Thoma",
+        "B": "Neubauer y Fuchs Rosenthal",
+        "C": "Giemsa y Thoma",
+        "D": "Método Sahli"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Neubauer y Fuchs Rosenthal"
+    },
+    {
+      "id": 25,
+      "question": "En el informe del recuento celular del LCR leemos pleocitosis ¿qué nos indica este término?",
+      "options": {
+        "A": "Aumento de células",
+        "B": "Disminución de células",
+        "C": "Ausencia de células",
+        "D": "Ninguna de las anteriores"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Aumento de células"
+    },
+    {
+      "id": 26,
+      "question": "¿Qué nos indica la presencia de polimorfonucleares en una fórmula leucocitaria realizada al LCR?",
+      "options": {
+        "A": "Meningitis causada por toxoplasmosis",
+        "B": "Meningitis causadas por micobacterias",
+        "C": "Meningitis causadas por virus",
+        "D": "Meningitis bacteriana"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Meningitis bacteriana"
+    },
+    {
+      "id": 27,
+      "question": "¿Cómo estará la glucosa en meningitis bacterianas y micóticas en el LCR",
+      "options": {
+        "A": "Aumentada",
+        "B": "Disminuida",
+        "C": "Dentro de los rangos normales",
+        "D": "No aparece glucosa"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Disminuida"
+    },
+    {
+      "id": 28,
+      "question": "Pruebas que se realizan en el examen químico del LCR:",
+      "options": {
+        "A": "Glucosa y proteínas",
+        "B": "Proteínas y CPK",
+        "C": "Glucosa y Na",
+        "D": "Proteínas y amilasa"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Glucosa y proteínas"
+    },
+    {
+      "id": 29,
+      "question": "En el estudio del líquido cefalorraquídeo, la presencia de xantocromía significa:",
+      "options": {
+        "A": "Viscosidad del LCR.",
+        "B": "Color amarillo LCR.",
+        "C": "Presencia de células en LCR.",
+        "D": "Color transparente del LCR."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Color amarillo LCR."
+    },
+    {
+      "id": 30,
+      "question": "El esputo herrumbroso se debe a:",
+      "options": {
+        "A": "Gran cantidad de células epiteliales.",
+        "B": "La hemoglobina descompuesta.",
+        "C": "Un golpe de tos fuerte.",
+        "D": "Hemorragia reciente"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "La hemoglobina descompuesta."
+    },
+    {
+      "id": 31,
+      "question": "Consideramos como normal un nivel de LCR en un adulto de:",
+      "options": {
+        "A": "100 ml.",
+        "B": "10 ml.",
+        "C": "50 ml.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "100 ml."
+    },
+    {
+      "id": 32,
+      "question": "Si obtenemos una muestra de líquido sinovial turbio pensaremos en:",
+      "options": {
+        "A": "Artritis por Haemophilus.",
+        "B": "Tumor articular.",
+        "C": "Artritis reumatoide crónica.",
+        "D": "Presencia de leucocitos."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Presencia de leucocitos."
+    },
+    {
+      "id": 33,
+      "question": "Si existe un derrame quiloso el líquido pericárdico presentará una tonalidad:",
+      "options": {
+        "A": "Verdosa.",
+        "B": "Lechosa.",
+        "C": "Hemorrágica.",
+        "D": "Azulada."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Lechosa."
+    },
+    {
+      "id": 34,
+      "question": "En líquido pleural señale lo falso:",
+      "options": {
+        "A": "En líquidos hemorrágicos pueden solicitar hematocrito.",
+        "B": "La medida del pH, no requiere condiciones",
+        "C": "La lactato deshidrogenasa (LDH) es muy solicitada, unida a la de sangre.",
+        "D": "En ocasiones tiene justificación solicitar bilirrubina y colesterol junto a la del suero."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "La medida del pH, no requiere condiciones"
+    },
+    {
+      "id": 35,
+      "question": "Un líquido cefalorraquídeo puede ser xantocrómico por:",
+      "options": {
+        "A": "Bilirrubina en plasma >15mg/dl.",
+        "B": "Demora de centrifugado de líquido cefalorraquídeo hemático.",
+        "C": "contaminación con desinfectante yodado de zona de punción.",
+        "D": "A, B, y C son ciertas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "A, B, y C son ciertas."
+    },
+    {
+      "id": 36,
+      "question": "De las siguientes respuestas, señale lo correcto en líquido cefalorraquídeo:",
+      "options": {
+        "A": "El retraso en el análisis no afecta a los niveles de lactato.",
+        "B": "Si hemático y el sobrenadante es xantocrómico",
+        "C": "Los valores normales de las proteínas son la mitad de las de sangre.",
+        "D": "En líquidos hemáticos es conveniente añadir heparina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Si hemático y el sobrenadante es xantocrómico"
+    },
+    {
+      "id": 37,
+      "question": "En líquido sinovial, que muestra no debe refrigerarse:",
+      "options": {
+        "A": "Muestra para medida de glucosa.",
+        "B": "Muestra para medida de ácido hialurónico.",
+        "C": "Muestras para cultivos microbiológicos.",
+        "D": "Muestra observación de cristales."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Muestras para cultivos microbiológicos."
+    },
+    {
+      "id": 38,
+      "question": "De las siguientes pruebas en líquido sinovial cual posee menor interés clínico:",
+      "options": {
+        "A": "Proteínas totales.",
+        "B": "Recuento de leucocitos.",
+        "C": "Diferenciación de leucocitos.",
+        "D": "Glucosa conjuntamente con la glucemia."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Proteínas totales."
+    },
+    {
+      "id": 39,
+      "question": "El LCR (líquido cefalorraquídeo) se encuentra entre:",
+      "options": {
+        "A": "Aracnoides y piamadre.",
+        "B": "Duramadre y piamadre.",
+        "C": "Duramadre y aracnoides.",
+        "D": "Todas son falsas."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Aracnoides y piamadre."
+    },
+    {
+      "id": 40,
+      "question": "En el estudio del líquido sinovial señale lo falso:",
+      "options": {
+        "A": "En líquidos normales la mayoría de los leucocitos",
+        "B": "En líquidos hemorrágicos, pueden lisarse los hematíes para poder contar los leucocitos.",
+        "C": "Observar cristales de urato monosódico es indicativo de artritis gotosa.",
+        "D": "La alta viscosidad es debida a la concentración relativamente alta de ácido hialurónico."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "En líquidos normales la mayoría de los leucocitos"
+    },
+    {
+      "id": 41,
+      "question": "En el estudio del líquido sinovial señale lo falso:",
+      "options": {
+        "A": "La microscopía de polarización es usada en la identificación de algunos cristales.",
+        "B": "En ayunas la glucosa en sangre es el doble que en",
+        "C": "Si usamos anticoagulantes, la heparina sódica es el anticoagulante de elección.",
+        "D": "El líquido sinovial es un ultra-filtrado del plasma, excepto el ácido hialurónico que es producido por las células sinoviales."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "En ayunas la glucosa en sangre es el doble que en"
+    },
+    {
+      "id": 42,
+      "question": "En el estudio de los derrames pleurales, señale que parámetro es de utilidad clínica:",
+      "options": {
+        "A": "LDH.",
+        "B": "Triglicéridos.",
+        "C": "Amilasa.",
+        "D": "A, B, y C son ciertos."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "A, B, y C son ciertos."
+    },
+    {
+      "id": 43,
+      "question": "En el estudio del líquido sinovial señale lo cierto:",
+      "options": {
+        "A": "Turbio y aspecto lechoso: se asocia artritis Gotosas.",
+        "B": "Coloración clara y aspecto turbio: se asocia a aumento de células.",
+        "C": "Turbio y purulento: se asocia a Artritis Sépticas Bacterianas.",
+        "D": "A, B, y C son ciertas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "A, B, y C son ciertas."
+    },
+    {
+      "id": 44,
+      "question": "Señale lo cierto de la electroforesis de proteínas en líquido cefalorraquídeo:",
+      "options": {
+        "A": "Debe hacerse en paralelo una electroforesis en suero.",
+        "B": "Se distingue del suero por la presencia de una banda de prealbúmina prominente y dos bandas de transferrina.",
+        "C": "Puede identificar la presencia de “bandas oligoclonales” de inmunoglobulinas.",
+        "D": "A, B, y C son ciertas."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "A, B, y C son ciertas."
+    },
+    {
+      "id": 45,
+      "question": "En el estudio del líquido sinovial señale lo falso:",
+      "options": {
+        "A": "Para medir el complemento la muestra debe ser centrifugada de inmediato.",
+        "B": "Si es purulento la viscosidad está aumentada.",
+        "C": "Un líquido sinovial normal no coagula espontáneamente.",
+        "D": "La turbidez suele asociarse a leucocitosis."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Si es purulento la viscosidad está aumentada."
+    },
+    {
+      "id": 46,
+      "question": "Existen casos de meningitis bacteriana el perfil analítico del LCR será:",
+      "options": {
+        "A": "Polimorfonucleares aumentados y glucosa baja",
+        "B": "Linfocitos aumentados y glucosa baja",
+        "C": "Linfocitos aumentados con glucosa normal",
+        "D": "Polimorfonucleares aumentados y glucosa normal"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Polimorfonucleares aumentados y glucosa baja"
+    },
+    {
+      "id": 47,
+      "question": "En el estudio de LCR se observan 600 leucocitos/µl (predominio mononuclear), glucosa de 22 mg/dL, xantocromía negativa y 195 mg/dL de proteínas. ¿Cuál es la opción más probable?",
+      "options": {
+        "A": "Meningitis tuberculosa",
+        "B": "Esclerosis múltiple",
+        "C": "Meningitis bacteriana",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Meningitis tuberculosa"
+    },
+    {
+      "id": 48,
+      "question": "¿Cuál de las siguientes enfermedades sugiere la presencia de bandas oligoclonales en LCR?",
+      "options": {
+        "A": "Esclerosis múltiple",
+        "B": "Miastenia gravis",
+        "C": "Alzheimer",
+        "D": "Parkinson"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Esclerosis múltiple"
+    },
+    {
+      "id": 49,
+      "question": "La aparición de un líquido cefalorraquídeo xantocrómico tras centrifugación, es característico de:",
+      "options": {
+        "A": "Traumatismo craneoencefálico.",
+        "B": "Hemorragia subaracnoidea.",
+        "C": "Meningitis bacteriana.",
+        "D": "Tumor cerebral."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Hemorragia subaracnoidea."
+    },
+    {
+      "id": 50,
+      "question": "El análisis de LCR debe ser realizado sin demora tras la punción a causa de:",
+      "options": {
+        "A": "Deterioro celular.",
+        "B": "Glucolisis.",
+        "C": "Multiplicación de bacterias.",
+        "D": "Todo lo anterior."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Todo lo anterior."
+    },
+    {
+      "id": 51,
+      "question": "Valores de referencia de leucocitos en LCR en Neonatos:",
+      "options": {
+        "A": "0-20 células/mm3",
+        "B": "0-30 células/mm3",
+        "C": "0-10células/mm3",
+        "D": "0-5células/mm3"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "0-30 células/mm3"
+    },
+    {
+      "id": 52,
+      "question": "Es característica del líquido sinovial normal:",
+      "options": {
+        "A": "Concentración de glucosa superior a la plasmática.",
+        "B": "La viscosidad elevada.",
+        "C": "A y B son correctas.",
+        "D": "A y B son falsas."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "La viscosidad elevada."
+    },
+    {
+      "id": 53,
+      "question": "¿Cuál de los siguientes líquidos biológicos no es un líquido seroso?",
+      "options": {
+        "A": "Líquido sinovial",
+        "B": "Liquido pleural",
+        "C": "Liquido, peritoneal",
+        "D": "Liquido pericárdico."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Líquido sinovial"
+    },
+    {
+      "id": 54,
+      "question": "Una de las siguientes características no corresponde a un líquido sinovial inflamatorio.",
+      "options": {
+        "A": "El número de leucocitos es mayor de 2000/μl.",
+        "B": "El porcentaje de leucocitos neutrófilos es mayor de 50%.",
+        "C": "Viscosidad elevada.",
+        "D": "Glucosa inferior a la del suero."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Viscosidad elevada."
+    },
+    {
+      "id": 55,
+      "question": "De las siguientes respuestas ¿cuáles son características físicas de un LCR normal?",
+      "options": {
+        "A": "90 Volumen - 100 ml(adultos)",
+        "B": "Turbidez.",
+        "C": "Densidad 1,005 -1,008",
+        "D": "A y C son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "A y C son correctas."
+    },
+    {
+      "id": 56,
+      "question": "El aumento de leucocitos polimorfonucleares del líquido sinovial se asocia con:",
+      "options": {
+        "A": "Gota.",
+        "B": "Artritis reumatoide.",
+        "C": "Artritis bacteriana.",
+        "D": "Todas las anteriores son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas."
+    },
+    {
+      "id": 57,
+      "question": "El examen de líquido sinovial con microscopía de luz polarizada se utiliza para:",
+      "options": {
+        "A": "Ver la morfología celular.",
+        "B": "Realizar un recuento de microorganismos.",
+        "C": "Identificar cristales.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Identificar cristales."
+    },
+    {
+      "id": 58,
+      "question": "La xantocromía en un líquido cefalorraquídeo se observa en:",
+      "options": {
+        "A": "Líquido cefalorraquídeo total.",
+        "B": "Sedimento del líquido cefalorraquídeo.",
+        "C": "El sobrenadante del líquido cefalorraquídeo",
+        "D": "Todas son falsas"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "El sobrenadante del líquido cefalorraquídeo"
+    },
+    {
+      "id": 59,
+      "question": "Con relación al ácido láctico (lactato) en líquido cefalorraquídeo (señale la respuesta INCORRECTA):",
+      "options": {
+        "A": "Está aumentado en meningitis bacteriana.",
+        "B": "Se produce por un metabolismo anaerobio del SNC.",
+        "C": "Su concentración es independiente de la sanguínea.",
+        "D": "Está disminuido en meningitis bacteriana."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Está disminuido en meningitis bacteriana."
+    },
+    {
+      "id": 60,
+      "question": "Señala la respuesta CORRECTA sobre los líquidos pleurales:",
+      "options": {
+        "A": "Un derrame pleural se diferencia entre trasudado",
+        "B": "El trasudado es un líquido con elevada concentración de proteínas.",
+        "C": "El exudado es un líquido con baja concentración de proteínas.",
+        "D": "Su color normal es verde amarillento y abundante."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Un derrame pleural se diferencia entre trasudado"
+    },
+    {
+      "id": 61,
+      "question": "La determinación de proteínas superiores a 3 g/100 ml en un líquido biológico es significativo de:",
+      "options": {
+        "A": "Exudado.",
+        "B": "Quilotórax.",
+        "C": "Trasudado.",
+        "D": "Transudorativo."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Exudado."
+    },
+    {
+      "id": 62,
+      "question": "La presencia de bandas oligoclonales en el proteinograma de un líquido cefalorraquídeo nos indica una fuerte sospecha de:",
+      "options": {
+        "A": "Mieloma múltiple",
+        "B": "Macroglobulinemia de Waldestrom",
+        "C": "Esclerosis múltiple",
+        "D": "Enfermedad de Creufteld-Jacob"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Esclerosis múltiple"
+    },
+    {
+      "id": 63,
+      "question": "En el análisis de líquido cefalorraquídeo, el conservante más usado es:",
+      "options": {
+        "A": "EDTA",
+        "B": "Citrato",
+        "C": "Heparina",
+        "D": "No se añade conservante"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "No se añade conservante"
+    },
+    {
+      "id": 64,
+      "question": "En el recuento manual de leucocitos con cámara, la solución que se usa más habitualmente para diluir la muestra de sangre es:",
+      "options": {
+        "A": "El líquido de Türk.",
+        "B": "Solución de NaCl al 0,9 %.",
+        "C": "Alcohol.",
+        "D": "El líquido de Hayem."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "El líquido de Türk."
+    },
+    {
+      "id": 65,
+      "question": "En relación al líquido sinovial es cierto que:",
+      "options": {
+        "A": "Se extrae por punción lumbar.",
+        "B": "Se extrae mediante artrocentesis.",
+        "C": "Debe obtenerse mediante jeringuilla con heparina de sodio y distribuirse en tubos estériles con o sin anticoagulante para realizar los diferentes estudios.",
+        "D": "Las respuestas b y c son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas b y c son correctas."
+    },
+    {
+      "id": 66,
+      "question": "En la valoración preanalítica de la muestra de líquido pleural:",
+      "options": {
+        "A": "Observaremos el color y si éste es lechoso sospecharemos que el paciente tiene un hemotórax.",
+        "B": "Si vemos que la muestra está transparente nos orientará hacia un derrame quiloso.",
+        "C": "Si está hemorrágico sospecharemos de un quilotórax.",
+        "D": "Si está achocolatado podría significar la presencia de un absceso amebiano."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Si está achocolatado podría significar la presencia de un absceso amebiano."
+    },
+    {
+      "id": 67,
+      "question": "Indique en qué caso se obtiene una disminución de glucosa en LCR:",
+      "options": {
+        "A": "Hipertensión endocraneal debida a tumores o abcesos cerebrales.",
+        "B": "Meningitis tuberculosa.",
+        "C": "Neurosífilis.",
+        "D": "Encefalitis epidémica, poliomelitis."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Meningitis tuberculosa."
+    },
+    {
+      "id": 68,
+      "question": "Los niveles de proteínas plasmáticas en el LCR oscilan entre:",
+      "options": {
+        "A": "15-60 mg/dl",
+        "B": "5-30 mg/dl",
+        "C": "150-200 mg/dl",
+        "D": "100-130 mg/dl"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "15-60 mg/dl"
+    },
+    {
+      "id": 69,
+      "question": "Cuando el cubreobjetos está situado sobre la plataforma de la cámara de recuento de Neubauer, el espacio entre ambas es de:",
+      "options": {
+        "A": "0,01 mm",
+        "B": "0,001 mm",
+        "C": "1 mm",
+        "D": "0,1 mm"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "0,1 mm"
+    },
+    {
+      "id": 70,
+      "question": "La glucosa del líquido sinovial es de… mg/dl más baja que la del plasma:",
+      "options": {
+        "A": "0-3",
+        "B": "0-10",
+        "C": "3-7",
+        "D": "1-5"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "0-10"
+    },
+    {
+      "id": 71,
+      "question": "La concentración total de proteínas del líquido pleural normal es de:",
+      "options": {
+        "A": "1-5 g/dl",
+        "B": "2-7 g/dl",
+        "C": "1-2 g/dl",
+        "D": "0-1 g/dl"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "1-2 g/dl"
+    },
+    {
+      "id": 72,
+      "question": "Un líquido pleural se define generalmente como exudado, cuando las proteínas totales son mayores de:",
+      "options": {
+        "A": "1 g/dl",
+        "B": "1,5 g/dl",
+        "C": "2 g/dl",
+        "D": "3 g/dl"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "3 g/dl"
+    },
+    {
+      "id": 73,
+      "question": "La reacción de Pandy:",
+      "options": {
+        "A": "Es una prueba cuantitativa",
+        "B": "Indica la presencia de proteínas en el LCR",
+        "C": "Cuando es negativo presenta turbidez",
+        "D": "Es negativo en la meningitis bacteriana."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Indica la presencia de proteínas en el LCR"
+    },
+    {
+      "id": 74,
+      "question": "¿Cómo se llaman las membranas protectoras del encéfalo?",
+      "options": {
+        "A": "Duramadre",
+        "B": "Aracnoides",
+        "C": "Piamadre",
+        "D": "Meninges"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Meninges"
+    },
+    {
+      "id": 75,
+      "question": "El transporte al laboratorio debe hacerse:",
+      "options": {
+        "A": "En un periodo de tiempo apropiado a la naturaleza de la petición.",
+        "B": "De una manera que asegure la seguridad para el personal que la transporta y para el público en general.",
+        "C": "Dentro de un rango de temperatura especificando (en el manual de toma de muestras) y con conservadores adecuados.",
+        "D": "Todas las anteriores son correctas."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas."
+    },
+    {
+      "id": 76,
+      "question": "¿Cuáles de las siguientes son características físicas de un LCR normal?",
+      "options": {
+        "A": "Volumen 90-100 ml (adultos)",
+        "B": "Turbidez",
+        "C": "Densidad 1,005-1,008",
+        "D": "A y C son correctas"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "A y C son correctas"
+    },
+    {
+      "id": 77,
+      "question": "El aumento de leucocitos polimorfonucleares del líquido sinovial se asocia con:",
+      "options": {
+        "A": "Gota",
+        "B": "Artritis reumatoide",
+        "C": "Artritis bacteriana",
+        "D": "Todas son correctas"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 78,
+      "question": "El examen del líquido sinovial con microscopía de luz polarizada se utiliza para:",
+      "options": {
+        "A": "Ver la morfología celular",
+        "B": "Realizar un recuento de microrganismos",
+        "C": "Identificar cristales",
+        "D": "Ninguna es correcta"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Identificar cristales"
+    },
+    {
+      "id": 79,
+      "question": "Para obtener una muestra de líquido pleural, someteremos al paciente a una:",
+      "options": {
+        "A": "Pleurectomía.",
+        "B": "Punción medular.",
+        "C": "Punción suprapúbica",
+        "D": "Toracocentesis."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Toracocentesis."
+    },
+    {
+      "id": 80,
+      "question": "El color del líquido pleural normal es:",
+      "options": {
+        "A": "Agua de roca",
+        "B": "Rojo",
+        "C": "Amarillo pálido y escaso, menos de 15 ml",
+        "D": "Rojo claro"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Amarillo pálido y escaso, menos de 15 ml"
+    },
+    {
+      "id": 81,
+      "question": "El color del LCR normal es:",
+      "options": {
+        "A": "Agua de roca",
+        "B": "Rojo",
+        "C": "Amarillento",
+        "D": "Blanco"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Agua de roca"
+    },
+    {
+      "id": 82,
+      "question": "Un exudado y un trasudado se diferencian en:",
+      "options": {
+        "A": "Su contenido en proteínas",
+        "B": "Su viscosidad",
+        "C": "Su pH",
+        "D": "No hay diferencia"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Su contenido en proteínas"
+    },
+    {
+      "id": 83,
+      "question": "En el laboratorio, ¿se deben revisar y calibrar periódicamente las pipetas automáticas?",
+      "options": {
+        "A": "Sí",
+        "B": "No",
+        "C": "Ya vienen calibradas de fábrica, de por vida.",
+        "D": "Solamente cuando estén estropeadas."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Sí"
+    },
+    {
+      "id": 84,
+      "question": "Mediante las diferentes pruebas que podemos realizar en LCR podríamos diagnosticar",
+      "options": {
+        "A": "Meningitis sifilítica, tuberculosa y purulenta",
+        "B": "Tumores",
+        "C": "Procesos con bloqueo espinal",
+        "D": "Todas las anteriores"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores"
+    },
+    {
+      "id": 85,
+      "question": "Un líquido pleural turbio sugiere la presencia de:",
+      "options": {
+        "A": "Leucocitos",
+        "B": "Proteínas",
+        "C": "Hematíes",
+        "D": "Cualquiera de las anteriores"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Cualquiera de las anteriores"
+    },
+    {
+      "id": 86,
+      "question": "Un quilotórax es:",
+      "options": {
+        "A": "Líquido pleural purulento",
+        "B": "Líquido pleural hemático",
+        "C": "Líquido pleural amarillo pálido",
+        "D": "Líquido pleural con presencia de linfa"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Líquido pleural con presencia de linfa"
+    },
+    {
+      "id": 87,
+      "question": "¿Dónde se forma el LCR?",
+      "options": {
+        "A": "Plexos coroideos",
+        "B": "Vellosidades aracnoideas",
+        "C": "Ventrículos cerebrales",
+        "D": "Médula espinal"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Plexos coroideos"
+    },
+    {
+      "id": 88,
+      "question": "La extracción del líquido pericárdico se realiza mediante:",
+      "options": {
+        "A": "Punción lumbar",
+        "B": "Toracocentesis",
+        "C": "Pericardiocentesis",
+        "D": "Paracentesis"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Pericardiocentesis"
+    },
+    {
+      "id": 89,
+      "question": "La extracción del líquido ascítico se realiza mediante:",
+      "options": {
+        "A": "Punción lumbar",
+        "B": "Toracocentesis",
+        "C": "Pericardiocentesis",
+        "D": "Paracentesis"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Paracentesis"
+    },
+    {
+      "id": 90,
+      "question": "Ante la sospecha de un quilotórax se debe solicitar en el líquido pleural la determinación de:",
+      "options": {
+        "A": "Glucosa",
+        "B": "Triglicéridos",
+        "C": "Proteínas",
+        "D": "Ninguna es correcta"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Triglicéridos"
+    },
+    {
+      "id": 91,
+      "question": "Ante la sospecha de un pseudoquilotórax se debe solicitar en el líquido pleural la determinación de:",
+      "options": {
+        "A": "Colesterol",
+        "B": "Triglicéridos",
+        "C": "Proteínas",
+        "D": "A y B son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "A y B son correctas"
+    },
+    {
+      "id": 92,
+      "question": "Respecto al LCR, señale la FALSA:",
+      "options": {
+        "A": "En recién nacidos hay menos proteínas que en",
+        "B": "El LCR es un ultrafiltrado del plasma.",
+        "C": "Se reabsorbe por las vellosidades aracnoideas.",
+        "D": "El LCR se produce en su mayor parte en los plexos coroideos."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "En recién nacidos hay menos proteínas que en"
+    },
+    {
+      "id": 93,
+      "question": "¿Cuál es el líquido biológico cuya glucosa más se asemeja a la del suero?",
+      "options": {
+        "A": "LCR",
+        "B": "Sinovial",
+        "C": "Ascítico",
+        "D": "Pleural"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Sinovial"
+    },
+    {
+      "id": 94,
+      "question": "Cifras elevadas de adenosina desaminasa (ADA) en los líquidos pleurales son sugerentes de un líquido de carácter:",
+      "options": {
+        "A": "Neoplásico",
+        "B": "Quiloso",
+        "C": "Tuberculoso",
+        "D": "Paraneumónico"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Tuberculoso"
+    },
+    {
+      "id": 95,
+      "question": "¿Cuál de las siguientes afirmaciones sobre la xantocromía del LCR es falsa?",
+      "options": {
+        "A": "Puede estar causado por una punción traumática",
+        "B": "Coloración de color amarillo",
+        "C": "Puede aparecer por hemorragia subaracnoidea",
+        "D": "Todas son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Puede estar causado por una punción traumática"
+    },
+    {
+      "id": 96,
+      "question": "El LCR se puede extraer por:",
+      "options": {
+        "A": "Punción lumbar",
+        "B": "Punción cisternal",
+        "C": "Punción ventricular",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 97,
+      "question": "La proteína 14-3-3 suele utilizarse en el diagnóstico de:",
+      "options": {
+        "A": "Mieloma múltiple",
+        "B": "Macroglobulinemia de Waldestrom",
+        "C": "Esclerosis múltiple",
+        "D": "Enfermedad de Creufteld-Jacob"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Enfermedad de Creufteld-Jacob"
+    },
+    {
+      "id": 98,
+      "question": "Para asegurarnos de que la muestra es de líquido ascítico y no de orina, mediremos:",
+      "options": {
+        "A": "LDH",
+        "B": "Creatinina",
+        "C": "Proteínas totales",
+        "D": "Triglicéridos"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Creatinina"
+    },
+    {
+      "id": 99,
+      "question": "Es normal encontrar en líquido sinovial leucocitos hasta un valor de:",
+      "options": {
+        "A": "500/ml3",
+        "B": "200/ml3",
+        "C": "20/ml3",
+        "D": "2200/ml3"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "200/ml3"
+    },
+    {
+      "id": 100,
+      "question": "La aparición de coágulos en LCR",
+      "options": {
+        "A": "Es común",
+        "B": "Puede aparecer en punciones traumáticas",
+        "C": "Puede aparecer en hemorragias subaracnoideas",
+        "D": "No aparece nunca"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Puede aparecer en punciones traumáticas"
+    },
+    {
+      "id": 101,
+      "question": "Las membranas meníngeas se denominan:",
+      "options": {
+        "A": "Piamadre, aracnoides, duramadre",
+        "B": "Visceral, parietal, media",
+        "C": "Central, mediana, final",
+        "D": "Ninguna es correcta"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Piamadre, aracnoides, duramadre"
+    },
+    {
+      "id": 102,
+      "question": "La muestra de LCR para estudio microbiológico recomendable suele ser:",
+      "options": {
+        "A": "Primera",
+        "B": "Segunda",
+        "C": "Tercera",
+        "D": "Cuarta"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Segunda"
+    },
+    {
+      "id": 103,
+      "question": "El responsable de lubricar la articulación es:",
+      "options": {
+        "A": "Líquido sinovial",
+        "B": "LCR",
+        "C": "Ascítico",
+        "D": "Pericárdico"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Líquido sinovial"
+    },
+    {
+      "id": 104,
+      "question": "Se recibe en el laboratorio para su análisis una muestra resultante de un quilotórax. Se trata de:",
+      "options": {
+        "A": "Un derrame pleural de origen infeccioso.",
+        "B": "Un líquido pericárdico resultante de un taponamiento cardiaco.",
+        "C": "Un derrame pleural de origen tuberculoso.",
+        "D": "Un derrame pleural con extravasación de linfa por posible obstrucción de conductos linfáticos."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Un derrame pleural con extravasación de linfa por posible obstrucción de conductos linfáticos."
+    },
+    {
+      "id": 105,
+      "question": "En la obtención de LCR, se suele enviar al laboratorio para su estudio tres tubos. Señale la opción correcta sobre el uso de cada uno de ellos:",
+      "options": {
+        "A": "El primer tubo para estudio microbiológico -el segundo para estudio bioquímico - el tercer tubo para el recuento celular.",
+        "B": "El primer tubo para el recuento celular - el segundo para estudio microbiológico - el tercer tubo para estudio bioquímico.",
+        "C": "El primer tubo para estudio bioquímico - el",
+        "D": "El primer tubo para estudio bioquímico - el segundo para el recuento celular - el tercer tubo para estudio microbiológico."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "El primer tubo para estudio bioquímico - el"
+    },
+    {
+      "id": 106,
+      "question": "Indique en qué caso se obtiene una disminución de glucosa en LCR:",
+      "options": {
+        "A": "Hipertensión endocraneal debida a tumores o abcesos cerebrales.",
+        "B": "Meningitis tuberculosa.",
+        "C": "Neurosífilis.",
+        "D": "Encefalitis epidémica, poliomelitis."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Meningitis tuberculosa."
+    },
+    {
+      "id": 107,
+      "question": "¿Cuál es la principal aplicación de la medida de la concentración del Enzima conversor de angiotensina?:",
+      "options": {
+        "A": "Diagnóstico de sarcoidosis.",
+        "B": "Seguimiento de tratamiento con antidiabéticos orales.",
+        "C": "Diagnóstico de psoriasis.",
+        "D": "Diagnóstico de tumores neuroendocrinos."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Diagnóstico de sarcoidosis."
+    },
+    {
+      "id": 108,
+      "question": "El análisis de LCR debe ser realizado sin demora tras la punción a causa de:",
+      "options": {
+        "A": "Deterioro celular.",
+        "B": "Glucolisis.",
+        "C": "Multiplicación de bacterias.",
+        "D": "Todo lo anterior"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todo lo anterior"
+    },
+    {
+      "id": 109,
+      "question": "¿Cuál de los siguientes líquidos biológicos no es un líquido seroso?",
+      "options": {
+        "A": "Líquido sinovial",
+        "B": "Liquido pleural",
+        "C": "Liquido, peritoneal",
+        "D": "Liquido pericárdico."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Líquido sinovial"
+    },
+    {
+      "id": 110,
+      "question": "Respecto al estudio bioquímico del líquido cefalorraquídeo:",
+      "options": {
+        "A": "La concentración normal de metabolitos es igual a la del plasma, por ser un ultrafiltrado.",
+        "B": "Una concentración aumentada de inmunoglobulinas es patognomónica de esclerosis múltiple.",
+        "C": "La concentración de glucosa no disminuye en una meningitis por Cryptococcus sp.",
+        "D": "La concentración de glucosa generalmente es normal en una encefalitis herpética."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "La concentración de glucosa generalmente es normal en una encefalitis herpética."
+    },
+    {
+      "id": 111,
+      "question": "Señala un marcador bioquímico en LCR para el diagnóstico de la enfermedad de Alzheimer:",
+      "options": {
+        "A": "β2-microglobulina.",
+        "B": "Péptido Aβ42 de la proteína β-amiloide.",
+        "C": "Bandas oligoclonales de inmunoglobulinas.",
+        "D": "Proteína básica de la mielina"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Péptido Aβ42 de la proteína β-amiloide."
+    },
+    {
+      "id": 112,
+      "question": "¿Qué cámara no utilizamos para el recuento de eritrocitos?",
+      "options": {
+        "A": "Neubauer.",
+        "B": "Turk.",
+        "C": "Thoma.",
+        "D": "Burker."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Turk."
+    },
+    {
+      "id": 113,
+      "question": "En la obtención y conservación del LCR, señale la RESPUESTA INCORRECTA:",
+      "options": {
+        "A": "El volumen del LCR es crítico para la detección de determinados microorganismos.",
+        "B": "Nunca debe refrigerarse cuando es destinado para cultivo bacteriológico.",
+        "C": "Para el cultivo bacteriológico, si no se procesa en el momento, deberá incubarse o dejarse a temperatura ambiente.",
+        "D": "Para estudios virales, si no se procesa en el momento, deberá dejarse incubando a 37 ºC."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Para estudios virales, si no se procesa en el momento, deberá dejarse incubando a 37 ºC."
+    },
+    {
+      "id": 114,
+      "question": "El procedimiento para obtención del líquido pleural se denomina:",
+      "options": {
+        "A": "Punción medular",
+        "B": "Pleuroctomía",
+        "C": "Toracocentesis",
+        "D": "Punción supra púbica"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Toracocentesis"
+    },
+    {
+      "id": 115,
+      "question": "¿Cuál de los siguientes colorantes se utiliza preferentemente en el recuento diferencial de leucocitos en LCR?",
+      "options": {
+        "A": "Tinción de Prince",
+        "B": "Violeta de genciana",
+        "C": "Violeta cristal",
+        "D": "Azul de metileno"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Azul de metileno"
+    },
+    {
+      "id": 116,
+      "question": "De los líquidos siguientes, sólo uno de ellos NO es considerado un líquido seroso:",
+      "options": {
+        "A": "Pleural",
+        "B": "Pericárdico",
+        "C": "Cefalorraquídeo",
+        "D": "Peritoneal"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Cefalorraquídeo"
+    },
+    {
+      "id": 117,
+      "question": "Un líquido cefalorraquídeo de apariencia turbia, nos hace sospechar de:",
+      "options": {
+        "A": "Meningitis vírica",
+        "B": "Meningitis bacteriana",
+        "C": "Ictericia o bloqueo medular",
+        "D": "Traumatismo de la punción"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Meningitis bacteriana"
+    },
+    {
+      "id": 118,
+      "question": "Es indicativo de meningitis bacteriana cuando en el análisis bioquímico y en el recuento celular del LCR obtenemos los siguientes resultados:",
+      "options": {
+        "A": "Disminución de la glucosa, aumento de las",
+        "B": "Glucosa normal, proteínas normales y, en el",
+        "C": "Aumento de la glucosa, proteínas normales y, en el",
+        "D": "Aumento de la glucosa, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de linfocitos."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Disminución de la glucosa, aumento de las"
+    },
+    {
+      "id": 119,
+      "question": "¿Cuál de los siguientes líquidos no es seroso?",
+      "options": {
+        "A": "Líquido peritoneal",
+        "B": "Líquido pericárdico",
+        "C": "Líquido pleural",
+        "D": "Líquido sinovial"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Líquido sinovial"
+    },
+    {
+      "id": 120,
+      "question": "Tenemos 3 tubos rotulados del 1 al 3 de LCR. ¿Cómo procedemos para su análisis?",
+      "options": {
+        "A": "1º pruebas microbiológicas, 2º recuento celular y diferencial, 3º pruebas bioquímicas e inmunológicas.",
+        "B": "1º recuento celular y diferencial, 2º pruebas bioquímicas e inmunológicas, 3º pruebas microbiológicas.",
+        "C": "1º pruebas bioquímicas e inmunológicas, 2º",
+        "D": "No importa el orden, el LCR se obtiene en tres tubos estériles."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "1º pruebas bioquímicas e inmunológicas, 2º"
+    },
+    {
+      "id": 121,
+      "question": "En la obtención y conservación del LCR, señale la RESPUESTA INCORRECTA:",
+      "options": {
+        "A": "El volumen del LCR es crítico para la detección de determinados microorganismos.",
+        "B": "Nunca debe refrigerarse cuando es destinado para cultivo bacteriológico.",
+        "C": "Para el cultivo bacteriológico, si no se procesa en el momento, deberá incubarse o dejarse a temperatura ambiente.",
+        "D": "Para estudios virales, si no se procesa en el momento, deberá dejarse incubando a 37 ºC."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Para estudios virales, si no se procesa en el momento, deberá dejarse incubando a 37 ºC."
+    },
+    {
+      "id": 122,
+      "question": "El procedimiento para obtención del líquido pleural se denomina:",
+      "options": {
+        "A": "Punción medular",
+        "B": "Pleuroctomía",
+        "C": "Toracocentesis",
+        "D": "Punción supra púbica"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Toracocentesis"
+    },
+    {
+      "id": 123,
+      "question": "De los líquidos siguientes, sólo uno NO es considerado un líquido seroso:",
+      "options": {
+        "A": "Pleural",
+        "B": "Pericárdico",
+        "C": "Cefalorraquídeo",
+        "D": "Peritoneal"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Cefalorraquídeo"
+    },
+    {
+      "id": 124,
+      "question": "Un líquido cefalorraquídeo de apariencia turbia, nos hace sospechar de:",
+      "options": {
+        "A": "Meningitis vírica",
+        "B": "Meningitis bacteriana",
+        "C": "Ictericia o bloqueo medular",
+        "D": "Traumatismo de la punción"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Meningitis bacteriana"
+    },
+    {
+      "id": 125,
+      "question": "Es indicativo de meningitis bacteriana cuando en el análisis bioquímico y en el recuento celular del LCR obtenemos los siguientes resultados:",
+      "options": {
+        "A": "Disminución de la glucosa, aumento de las",
+        "B": "Glucosa normal, proteínas normales y, en el",
+        "C": "Aumento de la glucosa, proteínas normales y, en el",
+        "D": "Aumento de la glucosa, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de linfocitos."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Disminución de la glucosa, aumento de las"
+    },
+    {
+      "id": 126,
+      "question": "Tenemos 3 tubos rotulados del 1 al 3 de LCR. ¿Cómo procedemos para su análisis?",
+      "options": {
+        "A": "1º pruebas microbiológicas, 2º recuento celular y diferencial, 3º pruebas bioquímicas e inmunológicas.",
+        "B": "1º recuento celular y diferencial, 2º pruebas bioquímicas e inmunológicas, 3º pruebas microbiológicas.",
+        "C": "1º pruebas bioquímicas e inmunológicas, 2º",
+        "D": "No importa el orden, el LCR se obtiene en tres tubos estériles."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "1º pruebas bioquímicas e inmunológicas, 2º"
+    },
+    {
+      "id": 127,
+      "question": "¿Cuál es la relación normal entre la concentración de glucosa LCR y la glucosa plasmática?",
+      "options": {
+        "A": "LCR es de 5-10 % del plasma.",
+        "B": "LCR es 50-80 % del plasma.",
+        "C": "LCR es igual a la del plasma.",
+        "D": "LCR es 10-20 % del plasma."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "LCR es 50-80 % del plasma."
+    },
+    {
+      "id": 128,
+      "question": "Respecto a los criterios de Light, ¿cuál de las siguientes afirmaciones es la CORRECTA?",
+      "options": {
+        "A": "Actualmente no tienen utilidad.",
+        "B": "Clasifican los derrames pleurales en exudados y",
+        "C": "Son de gran utilidad en la valoración del líquido cefalorraquídeo.",
+        "D": "Se usan en el diagnóstico de la neurosífilis."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Clasifican los derrames pleurales en exudados y"
+    },
+    {
+      "id": 129,
+      "question": "Si en un líquido cefalorraquídeo obtenemos un recuento de 10.000 leucocitos polimorfonucleares, glucosa muy baja, proteínas elevadas y aspecto turbio, debemos pensar en:",
+      "options": {
+        "A": "Hemorragia subaracnoidea.",
+        "B": "Líquido cefalorraquídeo normal.",
+        "C": "Meningitis vírica.",
+        "D": "Meningitis bacteriana."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Meningitis bacteriana."
+    },
+    {
+      "id": 130,
+      "question": "A las coloraciones amarillento-rosáceos del LCR se las conoce como:",
+      "options": {
+        "A": "Microstomías",
+        "B": "Hemocromías",
+        "C": "Xantocromías",
+        "D": "Policromías"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Xantocromías"
+    },
+    {
+      "id": 131,
+      "question": "Cuando una muestra de líquido pleural presenta aspecto achocolatado, habrá sospecha de:",
+      "options": {
+        "A": "Punción traumática",
+        "B": "Quilotórax",
+        "C": "Empiema",
+        "D": "Absceso amebiano"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Absceso amebiano"
+    },
+    {
+      "id": 132,
+      "question": "En el estudio de líquido sinovial la muestra no puede refrigerarse para",
+      "options": {
+        "A": "Estudio bioquímico (glucosa y proteínas).",
+        "B": "Observación de cristales.",
+        "C": "Cultivo microbiológico.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Cultivo microbiológico."
+    },
+    {
+      "id": 133,
+      "question": "Un líquido cefalorraquídeo puede ser xantocrómico por",
+      "options": {
+        "A": "Bilirrubina en plasma >15 mg/dL.",
+        "B": "Líquido cefalorraquídeo hemático.",
+        "C": "Contaminación con desinfectante yodado de la zona de punción.",
+        "D": "Todas son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 134,
+      "question": "Señale la respuesta FALSA con respecto al líquido pleural",
+      "options": {
+        "A": "En líquidos hemorrágicos se puede solicitar el hematocrito.",
+        "B": "La medida del pH no requiere que la muestra se",
+        "C": "La determinación de LDH y proteínas en plasma y líquido pleural ayuda en la clasificación del líquido pleural en trasudado o exudado.",
+        "D": "Si se sospecha un quilotórax, se puede solicitar el estudio de triglicéridos en la muestra de líquido pleural."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "La medida del pH no requiere que la muestra se"
+    },
+    {
+      "id": 135,
+      "question": "El procedimiento para la obtención del líquido pleural se denomina",
+      "options": {
+        "A": "Punción medular.",
+        "B": "Pleurectomía.",
+        "C": "Toracocentesis.",
+        "D": "Punción suprapúbica."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Toracocentesis."
+    },
+    {
+      "id": 136,
+      "question": "El incremento de la concentración de proteínas en el LCR puede ser consecuencia de",
+      "options": {
+        "A": "Aumento de la permeabilidad de la barrera hematoencefálica por inflamación: meningitis, etc.",
+        "B": "Obstrucción de la circulación del LCR: traumatismos, tumores, etc.",
+        "C": "Degeneración hística: esclerosis múltiple, síndrome de Guillen-Barré, etc.",
+        "D": "Todas son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 137,
+      "question": "Con respecto a los líquidos pleurales señale la respuesta correcta",
+      "options": {
+        "A": "Una concentración de alfa-amilasa en líquido pleural mayor que el límite superior del intervalo de referencia en suero sugiere enfermedad pancreática, neoplasia o rotura esofágica.",
+        "B": "La medición del pH del líquido pleural es de utilidad en el diagnóstico diferencial de exudados.",
+        "C": "La determinación de ADA es útil en el diagnóstico de la tuberculosis.",
+        "D": "Todas son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 138,
+      "question": "Con respecto al líquido ascítico, señale la respuesta correcta",
+      "options": {
+        "A": "El aspecto normal del líquido ascítico es transparente, de color amarillo claro. Un aspecto turbio o purulento indica la presencia de abundantes leucocitos.",
+        "B": "El gradiente de albúmina nos permite clasificar, con una eficacia del 95 %, la ascitis asociada o no a hipertensión portal.",
+        "C": "Una concentración de proteína superior 100 g/L orienta hacia el diagnóstico de perforación intestinal en la ascitis.",
+        "D": "Todas son correctas."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 139,
+      "question": "Señala la afirmación correcta con respecto a cómo debe ser el líquido cefalorraquídeo",
+      "options": {
+        "A": "El líquido cefalorraquídeo es de aspecto amarillento con presencia de algunos sedimentos.",
+        "B": "El líquido cefalorraquídeo es de aspecto claro,",
+        "C": "El líquido cefalorraquídeo es de aspecto claro e incoloro con presencia de pequeños sedimentos.",
+        "D": "El líquido cefalorraquídeo es de aspecto amarillento y no presentar sedimentos."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "El líquido cefalorraquídeo es de aspecto claro,"
+    },
+    {
+      "id": 140,
+      "question": "Ante un análisis de líquido cefalorraquídeo y observando su aspecto macroscópico valoraremos",
+      "options": {
+        "A": "Si su color es verdoso es debido a la liberación de bilirrubina.",
+        "B": "Con respecto a su turbidez: +++, corresponde a que la muestra es ligeramente turbia.",
+        "C": "Si aparecen coágulos en la muestra en tela de araña puede ser que el paciente tenga sífilis.",
+        "D": "Si la viscosidad del líquido cefalorraquídeo está alterada se puede destacar entre ellas: rotura o punción de un núcleo pulposo, metástasis de cierto tipo de carcinomas y meningitis criptocócica."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Si la viscosidad del líquido cefalorraquídeo está alterada se puede destacar entre ellas: rotura o punción de un núcleo pulposo, metástasis de cierto tipo de carcinomas y meningitis criptocócica."
+    },
+    {
+      "id": 141,
+      "question": "Señala la opción incorrecta al hablar de la determinación cualitativa de globulinas en una muestra de líquido cefalorraquídeo",
+      "options": {
+        "A": "Su investigación se realiza por diferentes",
+        "B": "Para su investigación la Reacción Pandy es la más",
+        "C": "Durante la técnica de Reacción Pandy en un tubo",
+        "D": "Todas son incorrectas."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Su investigación se realiza por diferentes"
+    },
+    {
+      "id": 142,
+      "question": "Una vez recogida una muestra de líquido cefalorraquídeo para su posterior análisis se tendrá que trasladar al laboratorio de la siguiente manera",
+      "options": {
+        "A": "En el caso que no se pueda enviar a laboratorio, la muestra debe refrigerarse o congelarse.",
+        "B": "Si se solicita un estudio serológico del LCR es necesario conservar la muestra en nevera a 10ºC.",
+        "C": "El transporte puede realizarse en un tubo de",
+        "D": "En el caso que no se pueda enviar a laboratorio se debe inyectar parte de la muestra del LCR en un frasco de hemocultivo y refrigerar."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "El transporte puede realizarse en un tubo de"
+    },
+    {
+      "id": 143,
+      "question": "Existen distintas cámaras de recuento celular en las que los prismas laterales se hallan sobre elevados respecto al prisma central con una altura de:",
+      "options": {
+        "A": "Cámara de Fuchs- Rosenthal: 0,3 mm.",
+        "B": "Cámara Thoma: 0,2 mm.",
+        "C": "Cámara Neubauer: 0,2 mm.",
+        "D": "Cámara Bürker: 0,1 mm."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Cámara Bürker: 0,1 mm."
+    },
+    {
+      "id": 144,
+      "question": "Cuando existe una disminución de Glucosa en el LCR (Líquido céfalo raquídeo), sospechamos:",
+      "options": {
+        "A": "Meningitis Tuberculosa.",
+        "B": "Hipertensión endocraneal debido a tumores.",
+        "C": "Meningitis Vírica.",
+        "D": "Poliomielitis."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Meningitis Tuberculosa."
+    },
+    {
+      "id": 145,
+      "question": "Recibe una muestra para análisis de proteína beta traza en el laboratorio, ¿para qué se utiliza?:",
+      "options": {
+        "A": "Para la diferenciación de LCR de otro líquido en",
+        "B": "Se relaciona con el diagnóstico de tuberculosis.",
+        "C": "Para el diagnóstico diferencial de la esclerosis múltiple.",
+        "D": "Es una parte del proteinograma."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Para la diferenciación de LCR de otro líquido en"
+    },
+    {
+      "id": 146,
+      "question": "Indique para qué se utiliza la detección de bandas oligoclonales en LCR:",
+      "options": {
+        "A": "Diagnóstico del síndrome de Bernard-Soulier.",
+        "B": "Diagnóstico de meningitis sifilítica.",
+        "C": "Diagnóstico de esclerosis múltiple.",
+        "D": "Diagnóstico de púrpura trombocitopenia."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Diagnóstico de esclerosis múltiple."
+    },
+    {
+      "id": 147,
+      "question": "¿Qué colorante se utiliza para el recuento diferencial de leucocitos en el líquido cefalorraquídeo?:",
+      "options": {
+        "A": "Violeta genciana.",
+        "B": "Violeta cristal.",
+        "C": "Azul de metileno.",
+        "D": "Wright."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Wright."
+    },
+    {
+      "id": 148,
+      "question": "En una punción lumbar en la que hemos obtenido tres tubos de LCR, ¿cuál de los tres debemos usar para el estudio citológico?",
+      "options": {
+        "A": "El primero.",
+        "B": "El segundo.",
+        "C": "El tercero",
+        "D": "Cualquiera de los tres."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "El tercero"
+    },
+    {
+      "id": 149,
+      "question": "Cifras elevadas de ADA (adenosindeaminasa) en líquidos pleurales nos sugieren un líquido de carácter:",
+      "options": {
+        "A": "Neoplásico.",
+        "B": "Quiloso.",
+        "C": "Tuberculoso.",
+        "D": "Paraneumónico"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Tuberculoso."
+    },
+    {
+      "id": 150,
+      "question": "¿Qué determinación utilizarías para identificar una muestra como orina en caso de duda?",
+      "options": {
+        "A": "Sodio y potasio.",
+        "B": "Tira reactiva.",
+        "C": "Urea y creatinina.",
+        "D": "Amilasa."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Urea y creatinina."
+    },
+    {
+      "id": 151,
+      "question": "¿En cuál de las siguientes enfermedades no se produce trasudado del líquido pleural?",
+      "options": {
+        "A": "Tuberculosis.",
+        "B": "Insuficiencia cardíaca congestiva",
+        "C": "Cirrosis",
+        "D": "Síndrome nefrótico"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Tuberculosis."
+    },
+    {
+      "id": 152,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa?",
+      "options": {
+        "A": "El volumen normal de líquido pleural en un adulto es de 1-10 ml.",
+        "B": "El volumen normal de líquido pericárdico en un adulto es de 15-50 ml.",
+        "C": "El volumen normal de LCR en un adulto es de 150 ml.",
+        "D": "El volumen normal de líquido ascítico en un adulto es de 80-100 ml."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "El volumen normal de líquido ascítico en un adulto es de 80-100 ml."
+    },
+    {
+      "id": 153,
+      "question": "¿Cómo denominamos el líquido pleural purulento?:",
+      "options": {
+        "A": "Exudado.",
+        "B": "Trasudado.",
+        "C": "Quilotórax.",
+        "D": "Empiema."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Empiema."
+    },
+    {
+      "id": 154,
+      "question": "Para hacer un recuento celular manual en cámara de Neubauer en el microscopio, ¿qué diluyente se utilizaría dependiendo del tipo de célula que se recuente?:",
+      "options": {
+        "A": "Líquido de Hayem.",
+        "B": "Líquido de Türk.",
+        "C": "Líquido de Rees Ecker.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son correctas."
+    },
+    {
+      "id": 155,
+      "question": "El llenado de una cámara de Neubauer se realiza por:",
+      "options": {
+        "A": "Capilaridad.",
+        "B": "Fraccionamiento.",
+        "C": "Reactividad.",
+        "D": "Dilución."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Capilaridad."
+    },
+    {
+      "id": 156,
+      "question": "El recuento celular del LCR en la cámara de recuento:",
+      "options": {
+        "A": "Se realiza en el cuadrado central.",
+        "B": "Se realiza en un porcentaje del total.",
+        "C": "Se realiza sobre las líneas externas.",
+        "D": "Deben contar todas las células porque su cantidad suele ser muy pequeña."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Deben contar todas las células porque su cantidad suele ser muy pequeña."
+    },
+    {
+      "id": 157,
+      "question": "Recogemos la muestra de LCR (Líquido Cefalorraquídeo) en tres tubos estériles que serán numerados. ¿Qué realizaremos con el tubo numerado con el nº 1?:",
+      "options": {
+        "A": "Pruebas microbiológicas.",
+        "B": "Recuento celular.",
+        "C": "Pruebas inmunológicas y bioquímicas.",
+        "D": "Da igual el orden de los tubos para realizar las determinaciones."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Pruebas inmunológicas y bioquímicas."
+    },
+    {
+      "id": 158,
+      "question": "¿Cuál de estos líquidos biológicos NO es un líquido seroso?:",
+      "options": {
+        "A": "Pleural.",
+        "B": "Sinovial.",
+        "C": "Ascítico.",
+        "D": "Pericárdico."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Sinovial."
+    },
+    {
+      "id": 159,
+      "question": "¿Cuál de los siguientes parámetros es el más útil para diferenciar entre trasudado y exudado en un líquido pleural?",
+      "options": {
+        "A": "LDH (Lactato deshidrogenasa).",
+        "B": "Urea.",
+        "C": "Amilasa.",
+        "D": "Bilirrubina."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "LDH (Lactato deshidrogenasa)."
+    },
+    {
+      "id": 160,
+      "question": "En el caso de no haber lesiones como es en la afectación del sistema nervioso central (SNC), la muestra recomendable sería:",
+      "options": {
+        "A": "Plasma.",
+        "B": "Sangre total.",
+        "C": "LCR."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "LCR."
+    },
+    {
+      "id": 161,
+      "question": "Con respecto a la obtención, transporte y procesamiento de una muestra de líquido cefalorraquídeo, señala la respuesta correcta:",
+      "options": {
+        "A": "Si la muestra no puede procesarse al momento, se debe refrigerar para su correcta conservación.",
+        "B": "Se debe procesar inmediatamente, a temperatura",
+        "C": "El procesamiento debe llevarse a cabo en una cabina de bioseguridad de tipo I."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Se debe procesar inmediatamente, a temperatura"
+    },
+    {
+      "id": 162,
+      "question": "En la meningitis aséptica:",
+      "options": {
+        "A": "Los valores de proteínas están disminuidos.",
+        "B": "Los valores de glucosa están en el rango de la",
+        "C": "El líquido cefalorraquídeo tiene un aspecto blanquecino."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Los valores de glucosa están en el rango de la"
+    },
+    {
+      "id": 163,
+      "question": "La xantocromía del LCR, se debe a:",
+      "options": {
+        "A": "Hemorragia subaracnoidea.",
+        "B": "Presencia de fibrinógeno.",
+        "C": "Presencia de gérmenes."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Hemorragia subaracnoidea."
+    },
+    {
+      "id": 164,
+      "question": "¿Qué tipo de tinción usaríamos para examinar el LCR en el microscopio?",
+      "options": {
+        "A": "Negro Amido.",
+        "B": "Rojo Ponceau.",
+        "C": "Giemsa."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Giemsa."
+    },
+    {
+      "id": 165,
+      "question": "De las siguientes determinaciones bioquímicas, ¿cuál NO se determina en el estudio del LCR?:",
+      "options": {
+        "A": "Glucosa.",
+        "B": "Proteínas.",
+        "C": "Ac. úrico."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Ac. úrico."
+    },
+    {
+      "id": 166,
+      "question": "Para diagnosticar la meningitis tuberculosa es muy útil la determinación en el líquido cefalorraquídeo…",
+      "options": {
+        "A": "...de la glucosa.",
+        "B": "...de proteínas.",
+        "C": "...de adenosina-desaminasa (ADA).",
+        "D": "...de lactato-deshidrogenasa (LDH)."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "...de adenosina-desaminasa (ADA)."
+    },
+    {
+      "id": 167,
+      "question": "¿Cuál de las siguientes enzimas es útil en la calificación de un líquido pleural?",
+      "options": {
+        "A": "Creatin Kinasa.",
+        "B": "Adenosin Desaminasa.",
+        "C": "Adenosin Kinasa."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Adenosin Desaminasa."
+    },
+    {
+      "id": 168,
+      "question": "¿Cuál es el valor normal de proteínas en el LCR?",
+      "options": {
+        "A": "15 a 60 mg/dl.",
+        "B": "10 a 15 mg/dl.",
+        "C": "0-15 mg/dl."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "15 a 60 mg/dl."
+    },
+    {
+      "id": 169,
+      "question": "¿Cuál de los siguientes parámetros bioquímicos se emplean para diferenciar entre exudado y trasudado en un líquido pleural?",
+      "options": {
+        "A": "Urea.",
+        "B": "Amilasa.",
+        "C": "Proteínas."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Proteínas."
+    },
+    {
+      "id": 170,
+      "question": "¿Cómo se denomina el proceso para la obtención de líquido pleural?",
+      "options": {
+        "A": "Amniocentesis.",
+        "B": "Toracocentesis.",
+        "C": "Artrocentesis."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Toracocentesis."
+    },
+    {
+      "id": 171,
+      "question": "Los líquidos biológicos pueden ser exudados o trasudados, indique la afirmación que no es correcta:",
+      "options": {
+        "A": "Los exudados son líquidos inflamatorios.",
+        "B": "Los trasudados son líquidos no inflamatorios.",
+        "C": "Se pueden diferenciar exudados y trasudados por niveles arbitrarios de magnitudes bioquímicas.",
+        "D": "Los trasudados dependen del aumento de la permeabilidad capilar, por alteraciones que implican directamente a cavidades corporales."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Los trasudados dependen del aumento de la permeabilidad capilar, por alteraciones que implican directamente a cavidades corporales."
+    },
+    {
+      "id": 172,
+      "question": "Señale la respuesta correcta respecto al diagnóstico de una meningitis vírica:",
+      "options": {
+        "A": "Recuento diferencial, Polimorfonucleares 82%, Mononucleares 18%",
+        "B": "Concentración de proteínas de 500 mg/dl",
+        "C": "Glucosa 78 mg/dl",
+        "D": "Glucosa 38 mg/dl."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Glucosa 78 mg/dl"
+    },
+    {
+      "id": 173,
+      "question": "¿Qué técnica de separación electroforética es considerada el gold standard (método de referenciA) para la detección de bandas oligoclonales en líquido cefalorraquídeo?",
+      "options": {
+        "A": "lsoelectroenfoque",
+        "B": "lnmunofijación",
+        "C": "Electroforesis capilar",
+        "D": "Todas son correctas"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "lsoelectroenfoque"
+    },
+    {
+      "id": 174,
+      "question": "Indique cómo se denomina la sustancia que tiene la función de hemolizar los hematíes en el líquido de Türk para realizar el recuento de leucocitos:",
+      "options": {
+        "A": "Ácido acético",
+        "B": "Permanganato de potasio",
+        "C": "Ácido sulfúrico al 0,01%",
+        "D": "KOH al 10%"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Ácido acético"
+    },
+    {
+      "id": 175,
+      "question": "¿Qué cristales en líquido sinovial son los causantes de la pseudogota?",
+      "options": {
+        "A": "Hidroxiapatita.",
+        "B": "Oxalato cálcico.",
+        "C": "Pirofosfato cálcico dihidratado.",
+        "D": "Urato."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Pirofosfato cálcico dihidratado."
+    },
+    {
+      "id": 176,
+      "question": "En meningitis tuberculosas y bacterianas, ¿cuál de estas enzimas se encuentra significativamente más aumentada en el LCR (Líquido cefalorraquídeo)?",
+      "options": {
+        "A": "ADA",
+        "B": "Alfa - amilasa.",
+        "C": "Creatinacinasa.",
+        "D": "NSE."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "ADA"
+    },
+    {
+      "id": 177,
+      "question": "De las siguientes afirmaciones referidas a la toma de muestras de LCR, una de ellas es cierta:",
+      "options": {
+        "A": "La punción se debe realizar en la región cervical.",
+        "B": "La muestra se debe recoger en 3 tubos, y enviar al",
+        "C": "Es imprescindibles obtener 10cc para un estudio rutinario.",
+        "D": "Todas las afirmaciones anteriores son ciertas."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "La muestra se debe recoger en 3 tubos, y enviar al"
+    },
+    {
+      "id": 178,
+      "question": "Se recibe una muestra de LCR en el laboratorio de urgencias que presenta un aspecto hemático, pero se muestra claro tras la centrifugación, ¿Qué indica este cambio de color?",
+      "options": {
+        "A": "Es compatible con un sangrado patológico, como una hemorragia subaracnoidea.",
+        "B": "Sugiere concentraciones elevadas de bilirrubina en el LCR.",
+        "C": "Sugiere concentraciones elevadas de proteínas en el LCR.",
+        "D": "Punción lumbar traumática, la extracción del líquido ha sido dificultosa. E) Error de identificación del paciente"
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Punción lumbar traumática, la extracción del líquido ha sido dificultosa. E) Error de identificación del paciente"
+    },
+    {
+      "id": 179,
+      "question": "Indique la opción correcta con respecto a los aspectos preanalíticos de una muestra de LCR:",
+      "options": {
+        "A": "El análisis celular del LCR puede demorarse hasta 48 horas si la muestra se mantiene refrigerada.",
+        "B": "Una vez extraído el LCR debe enviarse preferentemente al laboratorio por el sistema de tubo neumático para que llegue rápido y pueda analizarse cuanto antes.",
+        "C": "Los tubos de LCR deben marcarse de acuerdo a su",
+        "D": "Para que el recuento celular sea fiable son necesarios un mínimo de 10 ml de LCR E) Si la muestra está hemática, se devolverá para que extraigan nueva muestra."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Los tubos de LCR deben marcarse de acuerdo a su"
+    },
+    {
+      "id": 180,
+      "question": "¿Cuál es el tipo de tubo más adecuado para las determinaciones bioquímicas en un líquido biológico?",
+      "options": {
+        "A": "Tubo con anticoagulante",
+        "B": "Tubo sin anticoagulante",
+        "C": "No importa el tipo de tubo siempre que vengan varios.",
+        "D": "Tubo EDTA E) Todas son falsas."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Tubo sin anticoagulante"
+    },
+    {
+      "id": 181,
+      "question": "El estudio bioquímico del líquido sinovial se realizará:",
+      "options": {
+        "A": "En un tubo heparinizado.",
+        "B": "En un tubo con EDTA.",
+        "C": "En un tubo con oxalato cálcico.",
+        "D": "En un tubo sin anticoagulante."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "En un tubo sin anticoagulante."
+    },
+    {
+      "id": 182,
+      "question": "Con respecto al estudio microbiológico del líquido cefalorraquídeo (LCR), señalar la respuesta FALSA:",
+      "options": {
+        "A": "Para el estudio microbiológico del LCR, es recomendable que la muestra haya sido recolectada antes de la instauración del tratamiento antibiótico, y en máximas condiciones de asepsia para evitar la contaminación con microorganismos de la piel.",
+        "B": "El tubo para la recolección de la muestra debe ser estéril y sin anticoagulante.",
+        "C": "El procesamiento de la muestra tiene que ser",
+        "D": "La tinción de Gram permite orientar el diagnóstico en caso de meningitis bacteriana."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "El procesamiento de la muestra tiene que ser"
+    },
+    {
+      "id": 183,
+      "question": "Se recibe una muestra de LCR en el laboratorio de urgencias que presenta un aspecto hemático, pero se muestra claro tras la centrifugación. ¿Qué indica este cambio de color?",
+      "options": {
+        "A": "Es compatible con un sangrado patológico, como una hemorragia subaracnoidea.",
+        "B": "Sugiere concentraciones elevadas de bilirrubina en el LCR.",
+        "C": "Sugiere concentraciones elevadas de proteínas en el LCR.",
+        "D": "Punción lumbar traumática, la extracción del líquido ha sido dificultosa."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Punción lumbar traumática, la extracción del líquido ha sido dificultosa."
+    },
+    {
+      "id": 184,
+      "question": "Indique la opción correcta con respecto a los aspectos preanalíticos de una muestra de LCR:",
+      "options": {
+        "A": "El análisis celular del LCR puede demorarse hasta 48 horas si la muestra se mantiene refrigerada.",
+        "B": "Una vez extraído el LCR debe enviarse preferentemente al laboratorio por el sistema de tubo neumático para que llegue rápido y pueda analizarse cuanto antes.",
+        "C": "Los tubos de LCR deben marcarse de acuerdo a su",
+        "D": "Para que el recuento celular sea fiable son necesarios un mínimo de 10 ml de LCR."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Los tubos de LCR deben marcarse de acuerdo a su"
+    },
+    {
+      "id": 185,
+      "question": "Niño de 10 años de edad que llega a urgencias de nuestro hospital con fiebre de 39,8º C de pocas horas de evolución, rigidez de nuca, somnolencia y vómitos. Ante la clínica sugerente de meningitis aguda se realiza una punción lumbar, y nos envían 3 tubos con líquido cefalorraquídeo (LCR) de aspecto turbio al Laboratorio, para realizar recuento celular, estudio bioquímico y microbiológico. Con respecto al recuento celular, señalar la respuesta FALSA:",
+      "options": {
+        "A": "Se puede realizar en cámara o en un sistema automatizado validado para líquidos.",
+        "B": "Se recomienda hacer diluciones del líquido para",
+        "C": "Los analizadores pueden ocasionar recuentos diferenciales alterados ante la presencia de células atípicas.",
+        "D": "El recuento celular en líquidos biológicos es un aspecto muy importante para el diagnóstico."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Se recomienda hacer diluciones del líquido para"
+    },
+    {
+      "id": 186,
+      "question": "En meningitis de origen bacteriano, es frecuente encontrar en LCR:",
+      "options": {
+        "A": "Aumento de la concentración de proteínas y",
+        "B": "Aumento de la glucosa y disminución de la concentración de proteínas.",
+        "C": "Aumento de los leucocitos a expensas de los linfocitos.",
+        "D": "Aumento de la concentración de glucosa, disminución de la concentración de proteínas y aumento de los leucocitos polimorfonucleares."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Aumento de la concentración de proteínas y"
+    },
+    {
+      "id": 187,
+      "question": "En un líquido sinovial muy viscoso, para hacer el recuento de células, la muestra deberá pretratarse con:",
+      "options": {
+        "A": "Solución fisiológica.",
+        "B": "Hialuronidasa.",
+        "C": "Agua destilada.",
+        "D": "Solución salina hipotónica."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Hialuronidasa."
+    },
+    {
+      "id": 188,
+      "question": "En condiciones normales, el LCR es transparente, incoloro y completamente fluido. En situaciones patológicas puede presentar aspecto:",
+      "options": {
+        "A": "Hemorrágico.",
+        "B": "Amarillento.",
+        "C": "Turbio.",
+        "D": "Todas son correctas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 189,
+      "question": "Una concentración de lactato menor de 25 mg/dl en LCR nos indica:",
+      "options": {
+        "A": "Meningitis tuberculosa.",
+        "B": "Meningitis vírica.",
+        "C": "Meningitis fúngica.",
+        "D": "Meningitis bacteriana."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Meningitis vírica."
+    },
+    {
+      "id": 190,
+      "question": "¿Cuál de estas proteínas en LCR no se utiliza en el estudio de pacientes con Alzheimer?",
+      "options": {
+        "A": "Proteína tau.",
+        "B": "Proteína tau fosforilada.",
+        "C": "Proteína 14-3-3.",
+        "D": "Proteína β-amiloide."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Proteína 14-3-3."
+    },
+    {
+      "id": 191,
+      "question": "Según los criterios de Light, un derrame pericárdico se considera trasudado cuando:",
+      "options": {
+        "A": "La cantidad de proteínas sea mayor de 3 g/dL.",
+        "B": "La cantidad de LDH sea mayor de 300 UI/L.",
+        "C": "La cantidad de glucosa sea menor de 60 mg/dL.",
+        "D": "La cantidad de albúmina sea menor de 2 g/dL."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "La cantidad de albúmina sea menor de 2 g/dL."
+    },
+    {
+      "id": 192,
+      "question": "En el LCR en adultos procede sospechar enfermedad si el recuento de células está en el rango de:",
+      "options": {
+        "A": "En el rango de 1 - 5 células/μl.",
+        "B": "En el rango de 2 - 6 células/μl.",
+        "C": "En el rango de 6 - 10 células/μl.",
+        "D": "En el rango de 3 - 6 células/μl."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "En el rango de 6 - 10 células/μl."
+    },
+    {
+      "id": 193,
+      "question": "De las siguientes determinaciones bioquímicas, ¿Cuál no tiene interés investigar en una muestra de líquido sinovial?",
+      "options": {
+        "A": "Proteínas.",
+        "B": "Glucosa.",
+        "C": "LDH.",
+        "D": "GPT."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "GPT."
+    },
+    {
+      "id": 194,
+      "question": "De los siguientes colorantes ¿cuál es el que se recomienda para efectuar un recuento diferencial en el LCR?",
+      "options": {
+        "A": "Violeta de genciana.",
+        "B": "Violeta de cristal.",
+        "C": "Wright.",
+        "D": "Azul de metileno."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Wright."
+    },
+    {
+      "id": 195,
+      "question": "¿En cuál de estos líquidos biológicos, en condiciones normales, se detecta ácido hialurónico?",
+      "options": {
+        "A": "Pleural.",
+        "B": "Pericárdico.",
+        "C": "Sinovial.",
+        "D": "Peritoneal."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Sinovial."
+    },
+    {
+      "id": 196,
+      "question": "¿Cuál es la determinación analítica más útil para clasificar la ascitis?:",
+      "options": {
+        "A": "Concentración de proteínas totales en líquido ascítico.",
+        "B": "Ratio LDH líquido ascítico /suero.",
+        "C": "Gradiente de albúmina suero líquido ascítico.",
+        "D": "Recuento diferencial de leucocitos en líquido ascítico."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Gradiente de albúmina suero líquido ascítico."
+    },
+    {
+      "id": 197,
+      "question": "¿Cómo deben conservarse las muestras de líquido cefalorraquídeo (LCR) para microbiología antes de su procesamiento?:",
+      "options": {
+        "A": "Con conservantes.",
+        "B": "A temperatura ambiente.",
+        "C": "En frigorífico.",
+        "D": "En congelado"
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "A temperatura ambiente."
+    },
+    {
+      "id": 198,
+      "question": "¿Qué meningitis suele cursar con mayor proporción de leucocitos mononucleares y con niveles de glucosa disminuidos en líquido cefalorraquídeo?",
+      "options": {
+        "A": "Meningitis sifilítica aguda.",
+        "B": "Meningitis bacteriana aguda.",
+        "C": "Meningitis tuberculosa.",
+        "D": "Meningitis vírica."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Meningitis tuberculosa."
+    },
+    {
+      "id": 199,
+      "question": "Señale la afirmación cierta respecto de las bandas oligoclonales en LCR en esclerosis múltiple:",
+      "options": {
+        "A": "Existe correlación entre la presencia de bandas y el proceso desmielinizante.",
+        "B": "Las Bandas pueden estar presentes aunque el nivel",
+        "C": "Una vez que la respuesta oligoclonal está establecida se mantiene al menos 3-5 años en el paciente.",
+        "D": "Más del 50% de los pacientes con esclerosis múltiple presentan bandas oligoglonales en el líquido cefalorraquídeo indicando una síntesis intratecal de inmunoglobulinas."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Las Bandas pueden estar presentes aunque el nivel"
+    },
+    {
+      "id": 200,
+      "question": "La presencia de qué biomarcador en el líquido cefalorraquídeo se considera característica de la enfermedad de Alzheimer en etapas tempranas",
+      "options": {
+        "A": "Proteína tau.",
+        "B": "Neurofilamentos de cadena ligera (NFL).",
+        "C": "Beta-amiloide.",
+        "D": "Cisteína."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Beta-amiloide."
+    },
+    {
+      "id": 201,
+      "question": "Uno de los factores preanalíticos que en mayor medida afecta en la determinación de marcadores de la enfermedad de Alzheimer es el tipo de tubo de recogida de muestra. Para minimizar esta absorción inespecífica, en el momento de recoger el LCR, es indispensable usar:",
+      "options": {
+        "A": "Tubos de propileno.",
+        "B": "Tubos de poliestireno.",
+        "C": "Tubos de vidrio.",
+        "D": "Tubos con heparina de litio."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Tubos de propileno."
+    },
+    {
+      "id": 202,
+      "question": "Indique el patrón de proteínas en LCR encontrado con frecuencia en pacientes con Enfermedad de Alzheimer:",
+      "options": {
+        "A": "Aß-42 aumentada /Tau total y Tau fosforilada aumentadas.",
+        "B": "Aß-40 disminuida /Tau total y Tau fosforilada disminuidas.",
+        "C": "Aß-40 disminuida /Tau total y Tau fosforilada disminuidas.",
+        "D": "Aß-42 disminuida /Tau total y Tau fosforilada aumentadas"
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Aß-42 disminuida /Tau total y Tau fosforilada aumentadas"
+    },
+    {
+      "id": 203,
+      "question": "En referencia a la muestra de LCR desde el punto de vista microbiológico, ¿cuál de las siguientes opciones NO es correcta?:",
+      "options": {
+        "A": "Se obtiene por extracción aséptica tras punción lumbar.",
+        "B": "Se recoge en recipiente estéril.",
+        "C": "Se elige el tubo extraído en primer lugar o el de",
+        "D": "Se recomienda la siembra en agar sangre, agar chocolate y medios de enriquecimiento."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Se elige el tubo extraído en primer lugar o el de"
+    },
+    {
+      "id": 204,
+      "question": "Qué significado tienen las células de alta fluorescencia en el recuento celular de un LCR cuando se utiliza un contador automático hematológico:",
+      "options": {
+        "A": "Presencia de linfocitos.",
+        "B": "Presencia de células del epitelio coroideo.",
+        "C": "Presencia de células atípicas malignas.",
+        "D": "Presencia de monocitos"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Presencia de células atípicas malignas."
+    },
+    {
+      "id": 205,
+      "question": "¿Cuál de los siguientes marcadores biológicos en LCR se encuentra disminuido en pacientes con enfermedad de Alzheimer?:",
+      "options": {
+        "A": "Tau total (T- tau).",
+        "B": "Beta Amiloide (1-42).",
+        "C": "Tau fosforilada (18Ip).",
+        "D": "TNF alfa."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Beta Amiloide (1-42)."
+    },
+    {
+      "id": 206,
+      "question": "La concentración de NF‐L (neurofilamentos de cadena ligera) en LCR es muy elevada con respecto a la concentración en individuos sanos en enfermos de:",
+      "options": {
+        "A": "Alzheimer.",
+        "B": "Parkinson.",
+        "C": "Esclerosis múltiple.",
+        "D": "Esclerosis lateral amiotrófica (ELA)."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Esclerosis lateral amiotrófica (ELA)."
+    },
+    {
+      "id": 207,
+      "question": "En una rinorrea y para detectar la presencia de LCR ¿cuál de las siguientes determinaciones es de utilidad clínica?:",
+      "options": {
+        "A": "Asialotransferrina.",
+        "B": "Tetrasialotransferrina.",
+        "C": "Prostaglandina D sintasa.",
+        "D": "A y C son correctas"
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "A y C son correctas"
+    },
+    {
+      "id": 208,
+      "question": "En líquido sinovial, los cristales sin birrefringencia son de:",
+      "options": {
+        "A": "Urato monosódico.",
+        "B": "Oxalato cálcico.",
+        "C": "Pirofosfato cálcico.",
+        "D": "Hidroxiapatita."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Hidroxiapatita."
+    },
+    {
+      "id": 209,
+      "question": "En el examen de líquido sinovial, la gota se asocia con:",
+      "options": {
+        "A": "Cristales de pirofosfato cálcico.",
+        "B": "Cristales de hidroxiapatita.",
+        "C": "Cristales de urato monosódico.",
+        "D": "Cristales colesterol."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Cristales de urato monosódico."
+    },
+    {
+      "id": 210,
+      "question": "La viscosidad del líquido sinovial viene determinada por la presencia de:",
+      "options": {
+        "A": "Albumina",
+        "B": "Ácido hialurónico",
+        "C": "Fibrinógeno",
+        "D": "Ninguna es cierta"
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Ácido hialurónico"
+    },
+    {
+      "id": 211,
+      "question": "El líquido que se obtiene como resultado de la filtración del plasma se denomina:",
+      "options": {
+        "A": "Líquido sinovial.",
+        "B": "Líquido cefalorraquídeo.",
+        "C": "Líquido amniótico.",
+        "D": "Líquido seroso."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Líquido seroso."
+    },
+    {
+      "id": 212,
+      "question": "En el líquido pleural destacamos la presencia de la enzima:",
+      "options": {
+        "A": "Amilasa.",
+        "B": "Lactasa.",
+        "C": "LDH.",
+        "D": "No encontramos enzimas."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "LDH."
+    },
+    {
+      "id": 213,
+      "question": "El líquido sinovial es viscoso por la presencia de:",
+      "options": {
+        "A": "Colágeno.",
+        "B": "Proteínas.",
+        "C": "Ácido hialurónico.",
+        "D": "Ácido ascórbico."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Ácido hialurónico."
+    },
+    {
+      "id": 214,
+      "question": "En el exudado del líquido pleural la concentración de proteínas es:",
+      "options": {
+        "A": "Menor que en el trasudado.",
+        "B": "Igual que en el trasudado.",
+        "C": "No se estudia por separado el exudado del trasudado.",
+        "D": "Es mayor que en el trasudado."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Es mayor que en el trasudado."
+    },
+    {
+      "id": 215,
+      "question": "¿Qué pruebas realizaría en líquido pleural y suero para distinguir entre trasudado y exudado?",
+      "options": {
+        "A": "Glucosa, amilasa y albúmina",
+        "B": "Proteína C reactiva, ALT y LDH",
+        "C": "Proteínas, LDH y albúmina",
+        "D": "Colesterol, NT-proBNP y Proteína C reactiva"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Proteínas, LDH y albúmina"
+    },
+    {
+      "id": 216,
+      "question": "¿Cuál de los siguientes criterios confirma que es un exudado pleural?",
+      "options": {
+        "A": "El cociente proteínas del líquido / proteínas en suero es > 0.5, el cociente entre LDH del líquido / LDH en suero es < 0.6 y el LDH del líquido es > 2/3 del valor de referencia en suero.",
+        "B": "El cociente proteínas del líquido / proteínas en suero es < 0.5, el cociente entre LDH del líquido / LDH en suero es > 0.6 y el LDH del líquido es < 2/3 del valor de referencia en suero.",
+        "C": "El cociente proteínas del líquido / proteínas en suero es < 0.5, el cociente entre LDH del líquido / LDH en suero es < 0.6 y el LDH del líquido es < 2/3 del valor de referencia en suero.",
+        "D": "El cociente proteínas del líquido / proteínas en suero es > 0.5, el cociente entre LDH del líquido / LDH en suero es > 0.6 y el LDH del líquido es > 2/3 del valor de referencia en suero."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "El cociente proteínas del líquido / proteínas en suero es > 0.5, el cociente entre LDH del líquido / LDH en suero es > 0.6 y el LDH del líquido es > 2/3 del valor de referencia en suero."
+    },
+    {
+      "id": 217,
+      "question": "Cuando la muestra de líquido pleural llega al laboratorio de hematología, ¿cómo se ha de proceder?",
+      "options": {
+        "A": "Medir la concentración de leucocitos y, si es inferior a 2 x 107 leucocitos/L, realizar el recuento diferencial.",
+        "B": "Medir la concentración de leucocitos y, si es",
+        "C": "No procesarlo si hay presencia de hematíes y/o",
+        "D": "Si existen microcoágulos en la muestra, se puede procesar en los contadores automáticos."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Medir la concentración de leucocitos y, si es"
+    },
+    {
+      "id": 218,
+      "question": "La presencia de un líquido cefalorraquídeo turbio con abundantes células polimorfonucleares, baja concentración de glucosa y elevada concentración de proteínas es sospechoso de:",
+      "options": {
+        "A": "Meningitis decapitada",
+        "B": "Meningitis bacteriana",
+        "C": "Meningitis vírica",
+        "D": "Meningitis tuberculosa"
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Meningitis bacteriana"
+    },
+    {
+      "id": 219,
+      "question": "En relación con los líquidos pleurales, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "A": "Los criterios de Light sirven para diferenciar entre",
+        "B": "En condiciones normales, el espacio pleural contiene de 1 a 20 ml de fluido.",
+        "C": "Un derrame pleural es siempre un trasudado.",
+        "D": "Las respuestas b) y c) son correctas."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Los criterios de Light sirven para diferenciar entre"
+    },
+    {
+      "id": 220,
+      "question": "Si en el líquido sinovial encontramos unos cristales en forma de sobre de carta pensaremos en cristales de:",
+      "options": {
+        "A": "Esteroides",
+        "B": "Oxalato cálcico",
+        "C": "Pirofosfato cálcico",
+        "D": "Urato monosódico"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Oxalato cálcico"
+    },
+    {
+      "id": 221,
+      "question": "En el laboratorio de Urgencias se recibe una muestra de líquido pleural de aspecto purulento. ¿Qué posible patología nos indica este examen macroscópico?",
+      "options": {
+        "A": "Hemotórax",
+        "B": "Quilotórax",
+        "C": "Empiema",
+        "D": "Mesotelioma maligno"
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Empiema"
+    },
+    {
+      "id": 222,
+      "question": "En el líquido pleural destacamos la presencia de la enzima:",
+      "options": {
+        "A": "Amilasa.",
+        "B": "Lactasa.",
+        "C": "LDH.",
+        "D": "No encontramos enzimas."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "LDH."
+    },
+    {
+      "id": 223,
+      "question": "El líquido sinovial es viscoso por la presencia de:",
+      "options": {
+        "A": "Colágeno.",
+        "B": "Proteínas.",
+        "C": "Ácido hialurónico.",
+        "D": "Ácido ascórbico."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Ácido hialurónico."
+    },
+    {
+      "id": 224,
+      "question": "En el exudado del líquido pleural la concentración de proteínas es:",
+      "options": {
+        "A": "Menor que en el trasudado.",
+        "B": "Igual que en el trasudado.",
+        "C": "No se estudia por separado el exudado del trasudado.",
+        "D": "Es mayor que en el trasudado."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Es mayor que en el trasudado."
+    },
+    {
+      "id": 225,
+      "question": "¿Dónde se forma el líquido cefalorraquídeo?",
+      "options": {
+        "A": "70% en el epéndimo y 30% en los plexos coroideos",
+        "B": "70% en los plexos coroideos y 30% en el epéndimo",
+        "C": "100% en el epéndimo",
+        "D": "100% en los plexos coroideos"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "70% en los plexos coroideos y 30% en el epéndimo"
+    },
+    {
+      "id": 226,
+      "question": "¿Qué puede causar un LCR xantocrómico?",
+      "options": {
+        "A": "Meningitis tuberculosa",
+        "B": "Meningitis bacteriana",
+        "C": "Hemorragia subaracnoidea",
+        "D": "Tumor"
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Hemorragia subaracnoidea"
+    },
+    {
+      "id": 227,
+      "question": "El líquido que se obtiene como resultado de la filtración del plasma se denomina:",
+      "options": {
+        "A": "Líquido sinovial.",
+        "B": "Líquido cefalorraquídeo.",
+        "C": "Líquido amniótico.",
+        "D": "Líquido seroso."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Líquido seroso."
+    }
+  ]
+}

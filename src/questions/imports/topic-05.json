@@ -1,0 +1,4377 @@
+{
+  "tema": 5,
+  "titulo": "Función hepática y proteínas",
+  "source_file": "Test tema 5 Función hepática y proteínas (respuestas).pdf",
+  "total_questions": 337,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Entre las pruebas funcionales que se realizan en el hígado, ¿cuál de estas no es una de ellas?:",
+      "options": {
+        "A": "Prueba de Mac-Lagan.",
+        "B": "Prueba de rosa de Bengala.",
+        "C": "Prueba de Schales-Schales.",
+        "D": "Prueba de Hanger."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Prueba de Schales-Schales."
+    },
+    {
+      "id": 2,
+      "question": "En una de las peticiones, el médico solicitante, quiere que se midan los niveles de una serie de sustancias para ver el correcto funcionamiento del hígado. ¿Qué pruebas se podrían realizar?",
+      "options": {
+        "A": "AST, ALT, GGT, GOT y GPT.",
+        "B": "Marcadores virales.",
+        "C": "Reticulocitos.",
+        "D": "Vitamina B12"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "AST, ALT, GGT, GOT y GPT."
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de las siguientes enzimas es más específica del hígado?:",
+      "options": {
+        "A": "Lactato deshidrogenasa.",
+        "B": "GOT.",
+        "C": "GPT.",
+        "D": "Fosfatasa alcalina."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "GPT."
+    },
+    {
+      "id": 4,
+      "question": "En los niños sanos, ¿cuál de las siguientes actividades enzimáticas puede estar elevada?:",
+      "options": {
+        "A": "GGT.",
+        "B": "Fosfatasa alcalina.",
+        "C": "GOT.",
+        "D": "Ninguna."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Fosfatasa alcalina."
+    },
+    {
+      "id": 5,
+      "question": "En la hepatitis B el marcador de inmunización es:",
+      "options": {
+        "A": "HBsAg.",
+        "B": "Anti-HBe.",
+        "C": "HBeAg.",
+        "D": "Anti-HBs."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Anti-HBs."
+    },
+    {
+      "id": 6,
+      "question": "Las anemias hemolíticas dan lugar a una ictericia:",
+      "options": {
+        "A": "Hepática.",
+        "B": "Prehepática.",
+        "C": "No dan lugar a ictericia.",
+        "D": "Posthepática."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Prehepática."
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál de las siguientes fracciones electroforéticas no se encuentra disminuida en las hepatopatías?:",
+      "options": {
+        "A": "Alfa-1-globulinas.",
+        "B": "Albúmina.",
+        "C": "Gammaglobulinas.",
+        "D": "Betaglobulinas."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Gammaglobulinas."
+    },
+    {
+      "id": 8,
+      "question": "Con las siglas HbsAg se conoce un marcador extraordinariamente útil para el diagnóstico, control y seguimiento de un tipo de hepatitis. ¿Cuál?:",
+      "options": {
+        "A": "Hepatitis A.",
+        "B": "Hepatitis B.",
+        "C": "Hepatitis delta.",
+        "D": "Hepatitis de lupus."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Hepatitis B."
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa?",
+      "options": {
+        "A": "La",
+        "B": "La gamma-glutamil-transferasa es el indicador",
+        "C": "La 5´nucleotidasa aumenta en la ictericia",
+        "D": "El déficit de ceruloplasmina origina depósitos tóxicos de cobre."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "La"
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es un marcador sérico de obstrucción hepática?",
+      "options": {
+        "A": "GOT",
+        "B": "LDH",
+        "C": "Fosfatasa alcalina",
+        "D": "Ceruloplasmina"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Fosfatasa alcalina"
+    },
+    {
+      "id": 11,
+      "question": "¿Qué enzima es más específica del hígado?",
+      "options": {
+        "A": "GOT",
+        "B": "GPT",
+        "C": "LDH",
+        "D": "Fosfatasa alcalina"
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "GPT"
+    },
+    {
+      "id": 12,
+      "question": "Señale el principal componente de la fracción de las alfa-1-globulinas plasmáticas.",
+      "options": {
+        "A": "Alfa-1-antitripsina.",
+        "B": "Alfa-1-glicoproteína ácida.",
+        "C": "Alfa-1-lipoproteína.",
+        "D": "Alfa-1-microglobulina."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Alfa-1-antitripsina."
+    },
+    {
+      "id": 13,
+      "question": "La transferrina disminuye en:",
+      "options": {
+        "A": "Anemia ferropénica.",
+        "B": "Embarazo.",
+        "C": "Síndrome inflamatorio.",
+        "D": "Tratamiento con anticonceptivos."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Síndrome inflamatorio."
+    },
+    {
+      "id": 14,
+      "question": "Indique qué proteína de fase aguda experimenta una mayor elevación de su nivel plasmático ante un estímulo inflamatorio",
+      "options": {
+        "A": "Proteína C reactiva.",
+        "B": "Alfa-1 antitripsina.",
+        "C": "Haptoglobina.",
+        "D": "Ceruloplasmina."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Proteína C reactiva."
+    },
+    {
+      "id": 15,
+      "question": "Señale la respuesta correcta en relación a los Anticuerpos frente al antígeno de superficie (anti- HBs)",
+      "options": {
+        "A": "Estos anticuerpos se detectan en la actualidad por técnicas de EIA.",
+        "B": "La detección de este anticuerpo supone un estado inmunitario frente al HBsAg.",
+        "C": "Se detecta tras una infección pasada frente al VHB.",
+        "D": "Todas son ciertas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 16,
+      "question": "La colestasis prolongada puede producir déficit de las siguientes vitaminas, EXCEPTO:",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "D",
+        "D": "K"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "B"
+    },
+    {
+      "id": 17,
+      "question": "La transferrina deficiente en carbohidratos está aumentada en:",
+      "options": {
+        "A": "Hemocromatosis",
+        "B": "Procesos inflamatorios",
+        "C": "Bebedor habitual de alcohol",
+        "D": "Glucogenosis"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Bebedor habitual de alcohol"
+    },
+    {
+      "id": 18,
+      "question": "Señale cuál de las siguientes respuestas NO es un marcador utilizado en el diagnóstico de la Hepatitis Aguda:",
+      "options": {
+        "A": "Anti-VHD lgM.",
+        "B": "Anti-VHC y ARN-VHC.",
+        "C": "Anti-HBclgM y HBsAg.",
+        "D": "Anti-HBs."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Anti-HBs."
+    },
+    {
+      "id": 19,
+      "question": "Señale la respuesta correcta en relación al virus de la hepatitis delta:",
+      "options": {
+        "A": "Es un virus completo que se asocia al virus de la hepatitis B y provoca cuadros de hepatitis fulminante.",
+        "B": "Es un virus defectuoso que sólo puede infectar a los hepatocitos cuando esté presente el VHC.",
+        "C": "Es un virus defectuoso que se asocia al virus de la",
+        "D": "En nuestro medio la infección por VHD NO está presente en usuarios de drogas por vía parenteral."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Es un virus defectuoso que se asocia al virus de la"
+    },
+    {
+      "id": 20,
+      "question": "¿Cuál de estas enzimas es más específica del hígado?",
+      "options": {
+        "A": "Amilasa.",
+        "B": "Aspartato aminotransferasa (GOT/ ASAT)",
+        "C": "Alanina aminotransferasa (GPT / ALAD).",
+        "D": "GGT"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Alanina aminotransferasa (GPT / ALAD)."
+    },
+    {
+      "id": 21,
+      "question": "Nos encontraremos con transaminasas elevadas en:",
+      "options": {
+        "A": "Enfermedad hepática con lesión hepatocelular.",
+        "B": "Trastornos obstructivos de vía biliar.",
+        "C": "Las respuestas a y b son falsas.",
+        "D": "Las respuestas a y b son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas a y b son correctas."
+    },
+    {
+      "id": 22,
+      "question": "Ante la ausencia de enfermedad hepática. ¿En qué casos nos podemos encontrar con una fosfatasa alcalina elevada?",
+      "options": {
+        "A": "En enfermedades óseas.",
+        "B": "Durante el crecimiento.",
+        "C": "Durante el tercer trimestre del embarazo.",
+        "D": "En todos los casos anteriores."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "En todos los casos anteriores."
+    },
+    {
+      "id": 23,
+      "question": "¿Qué dos enzimas se analizan principalmente, por aumentar la especificidad de la elevación de la fosfatasa alcalina en las alteraciones hepáticas?",
+      "options": {
+        "A": "PSA y LDH.",
+        "B": "GGT y LDH.",
+        "C": "Leucin-aminopeptidasa y 5-NT.",
+        "D": "GOT y GGT."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Leucin-aminopeptidasa y 5-NT."
+    },
+    {
+      "id": 24,
+      "question": "Se define como \"patrón de colestasis\":",
+      "options": {
+        "A": "A la disminución de la fosfatasa alcalina hepática, con aumento de GGT, AST Y ALT.",
+        "B": "A la elevación de la fosfatasa alcalina, con disminución de GGLy elevación de AST Y Al T.",
+        "C": "A la elevación de la fosfatasa alcalina junto con la",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "A la elevación de la fosfatasa alcalina junto con la"
+    },
+    {
+      "id": 25,
+      "question": "El periodo de incubación de la hepatitis B oscila entre:",
+      "options": {
+        "A": "15 – 45 días.",
+        "B": "30 – 60 días.",
+        "C": "60 – 180 días.",
+        "D": "100 – 120 días."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "60 – 180 días."
+    },
+    {
+      "id": 26,
+      "question": "La técnica cinética que se usa para la determinación de AST (GOT) en sangre se basa en medir:",
+      "options": {
+        "A": "La velocidad de disminución de la concentración",
+        "B": "La velocidad de aumento de la concentración de NADH en el medio.",
+        "C": "La velocidad de disminución de la concentración de EDTA en el medio.",
+        "D": "La velocidad del aumento de la concentración de EDTA en el medio."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "La velocidad de disminución de la concentración"
+    },
+    {
+      "id": 27,
+      "question": "Cuál de las siguientes enzimas se localiza principalmente en el citoplasma de las células hepáticas:",
+      "options": {
+        "A": "GPT.",
+        "B": "GDT.",
+        "C": "ALP.",
+        "D": "GGT."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "GPT."
+    },
+    {
+      "id": 28,
+      "question": "¿Cuál de las siguientes enzimas al elevar su cantidad no indica daño hepático?",
+      "options": {
+        "A": "LDH.",
+        "B": "5-NT.",
+        "C": "LAP.",
+        "D": "CK."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "CK."
+    },
+    {
+      "id": 29,
+      "question": "El virón completo del virus de la hepatitis B se conoce como:",
+      "options": {
+        "A": "Antígeno Australia",
+        "B": "Partícula Delta",
+        "C": "Partícula de Dane",
+        "D": "Partícula de Fagot"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Partícula de Dane"
+    },
+    {
+      "id": 30,
+      "question": "Todas las afirmaciones acerca de la hepatitis A son correctas excepto:",
+      "options": {
+        "A": "Se transmiten por vía parenteral",
+        "B": "No se cronifica",
+        "C": "Está producida por un virus de la familia de los picornavirus",
+        "D": "La incidencia de infección por HVA se relaciona con malas condiciones higiénico-sanitarias"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Se transmiten por vía parenteral"
+    },
+    {
+      "id": 31,
+      "question": "Cuando son positivos los marcadores HBsAg, HBcAc-lgM y HBeAg, probablemente nos encontramos frente a:",
+      "options": {
+        "A": "Una hepatitis B crónica.",
+        "B": "Una infección por virus Delta.",
+        "C": "El periodo ventana de la hepatitis B.",
+        "D": "Una infección aguda de hepatitis B."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Una infección aguda de hepatitis B."
+    },
+    {
+      "id": 32,
+      "question": "En la enfermedad de Wilson, además de pruebas genéticas entre otras se solicita:",
+      "options": {
+        "A": "Saturación de transferrina, hierro y ferritina.",
+        "B": "Determinación de la mutación HFE.",
+        "C": "Cobre en orina de 24 horas y ceruloplasmina",
+        "D": "Anticuerpos anti - LKM."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Cobre en orina de 24 horas y ceruloplasmina"
+    },
+    {
+      "id": 33,
+      "question": "Denominamos bilirrubina directa:",
+      "options": {
+        "A": "A la bilirrubina que circula por la sangre sin estar unida a otra molécula.",
+        "B": "A la bilirrubina que circula por la sangre unida a la albúmina.",
+        "C": "A la bilirrubina que circula por la sangre unida al",
+        "D": "A la bilirrubina que circula por la sangre unida a la hemoglobina."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "A la bilirrubina que circula por la sangre unida al"
+    },
+    {
+      "id": 34,
+      "question": "La principal función de las alfa 1 antitripsina es:",
+      "options": {
+        "A": "Formación de otras proteínas.",
+        "B": "Transporte de fármacos.",
+        "C": "Agregación plaquetaria.",
+        "D": "Inhibición de la tripsina."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Inhibición de la tripsina."
+    },
+    {
+      "id": 35,
+      "question": "Señale lo correcto de la bilirrubina:",
+      "options": {
+        "A": "Su aumento fisiológico en sangre normalmente desaparece al mes de vida.",
+        "B": "En sueros hemolizados se obtienen valores inferiores a los reales.",
+        "C": "Su medida en orina (tira reactiva-reactivo diazóico) es un método poco específico.",
+        "D": "La bilirrubina directa se puede medir en la orina."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "La bilirrubina directa se puede medir en la orina."
+    },
+    {
+      "id": 36,
+      "question": "De las transaminasas (AST/ALT) señale lo correcto:",
+      "options": {
+        "A": "Son enzimas que transfieren un aminoácido a un cetoácido aceptor.",
+        "B": "Los niveles normales en suero reflejan la muerte celular de los órganos ricos en ellas.",
+        "C": "La ALT es más específica del hígado.",
+        "D": "A, B, y C son ciertas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "A, B, y C son ciertas."
+    },
+    {
+      "id": 37,
+      "question": "¿Cuál de los siguientes es útil en el seguimiento de la dependencia alcohólica?",
+      "options": {
+        "A": "Transferrina deficiente en carbohidratos (CDT).",
+        "B": "Aspartato amino transferasa (AST/GOT).",
+        "C": "Alanino amino transferasa (ALT/GPT).",
+        "D": "Lactato dehidrogenasa (LDH)."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Transferrina deficiente en carbohidratos (CDT)."
+    },
+    {
+      "id": 38,
+      "question": "¿Cuál de las siguientes no suele ocasionar aumento de amonio (amoniaco) en sangre?",
+      "options": {
+        "A": "Trastornos congénitos del metabolismo.",
+        "B": "Cirrosis hepática.",
+        "C": "Coma de origen hepático.",
+        "D": "Urea baja en sangre."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Urea baja en sangre."
+    },
+    {
+      "id": 39,
+      "question": "La ceruloplasmina es la principal proteína transportadora de cobre en sangre. Señale en que región de la electroforesis en suero “migra”:",
+      "options": {
+        "A": "Región beta.",
+        "B": "Región alfa-2.",
+        "C": "Región gamma.",
+        "D": "Región prealbumina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Región alfa-2."
+    },
+    {
+      "id": 40,
+      "question": "Qué debemos evitar en la determinación de amonio en sangre:",
+      "options": {
+        "A": "Tubo de muestra destapado.",
+        "B": "Fumar.",
+        "C": "Plasma con EDTA (etilendiaminotetracetico).",
+        "D": "A y B son ciertas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "A y B son ciertas."
+    },
+    {
+      "id": 41,
+      "question": "El reactivo de Kunkel zinc provoca la precipitación de las:",
+      "options": {
+        "A": "Albúminas.",
+        "B": "Alfa-globulinas.",
+        "C": "Beta-globulinas.",
+        "D": "GAMMA-globulinas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "GAMMA-globulinas."
+    },
+    {
+      "id": 42,
+      "question": "¿Qué proteína tiene función estructural?:",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Hemoglobina.",
+        "C": "Fibrinógeno.",
+        "D": "Fibrina."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Fibrina."
+    },
+    {
+      "id": 43,
+      "question": "En la enfermedad de Wilson:",
+      "options": {
+        "A": "La concentración sérica de cobre presenta valores muy bajos en las formas fulminantes.",
+        "B": "La excreción diaria de cobre en orina es muy baja.",
+        "C": "La concentración sérica de ceruloplasmina",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "La concentración sérica de ceruloplasmina"
+    },
+    {
+      "id": 44,
+      "question": "¿Cuál de las siguientes enfermedades hepáticas cursa generalmente con los mayores incrementos séricos de las transaminasas?",
+      "options": {
+        "A": "Hepatitis tóxica aguda",
+        "B": "Cirrosis biliar primaria",
+        "C": "Hepatitis alcohólica",
+        "D": "Coledocolitiasis"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Hepatitis tóxica aguda"
+    },
+    {
+      "id": 45,
+      "question": "En agricultores o trabajadores que utilizan compuestos organofosforados, se determina una enzima que es:",
+      "options": {
+        "A": "Lipasa",
+        "B": "Colinesterasa",
+        "C": "Creatin quinasa",
+        "D": "Garnma- glutamiltranspeptidasa"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Colinesterasa"
+    },
+    {
+      "id": 46,
+      "question": "¿En cuál de las siguientes situaciones hay un mayor descenso de la colinesterasa sérica?",
+      "options": {
+        "A": "Intoxicación por plaguicidas organofosforados",
+        "B": "Insuficiencia hepática",
+        "C": "Intoxicación por setas",
+        "D": "Cirrosis hepática descompensada"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Intoxicación por plaguicidas organofosforados"
+    },
+    {
+      "id": 47,
+      "question": "¿Cuál de las siguientes enzimas que se encuentra presente en el hígado es más específica de este órgano?",
+      "options": {
+        "A": "Aspartato aminotransferasa (ASAT).",
+        "B": "Alanina aminotransferasa (ALAT).",
+        "C": "Lactato deshidrogenasa (LDH).",
+        "D": "Fosfatasa Alcalina."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Alanina aminotransferasa (ALAT)."
+    },
+    {
+      "id": 48,
+      "question": "La transferrina deficiente en hidratos de carbono es una proteína utilizada:",
+      "options": {
+        "A": "Para poner de manifiesto la presencia de LCR en el líquido procedente de una fístula o drenaje",
+        "B": "Estudio de la anemia ferropénica",
+        "C": "Estudio del abuso de alcohol",
+        "D": "Valorar el estado nutricional"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Estudio del abuso de alcohol"
+    },
+    {
+      "id": 49,
+      "question": "¿Cuál de las siguientes proteínas migra en la posición beta en la electroforesis a pH 8.6?",
+      "options": {
+        "A": "Haptoglobina",
+        "B": "Orosomucoide",
+        "C": "Quimotripsina",
+        "D": "Transferrina"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Transferrina"
+    },
+    {
+      "id": 50,
+      "question": "En general, un nivel elevado de albúmina (>5.2 g/dL), indica:",
+      "options": {
+        "A": "Una bisalbuminemia",
+        "B": "Una concentración elevada de sustancias transportadas por la albúmina",
+        "C": "Una deshidratación",
+        "D": "Una nutrición adecuada"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Una deshidratación"
+    },
+    {
+      "id": 51,
+      "question": "En un proteinograma, el aumento de transferrina en suero se manifiesta con un incremento en la banda de:",
+      "options": {
+        "A": "Fracción Alfa 1.",
+        "B": "Fracción Alfa 2.",
+        "C": "Fracción Beta.",
+        "D": "Fracción Gamma"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Fracción Beta."
+    },
+    {
+      "id": 52,
+      "question": "Indicar cuál de estas proteínas no se sintetiza en el hígado:",
+      "options": {
+        "A": "Ceruloplasmina",
+        "B": "Fibrinógeno",
+        "C": "Inmunoglobulina M",
+        "D": "Albúmina"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Inmunoglobulina M"
+    },
+    {
+      "id": 53,
+      "question": "¿Qué fracción proteica se eluye en primer lugar cuando se separan las siguientes proteínas por cromatografía de intercambio catiónico?",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Globulinas alfa-1.",
+        "C": "Globulinas alfa-2.",
+        "D": "Beta-globulinas."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Albúmina."
+    },
+    {
+      "id": 54,
+      "question": "Señale el principal componente de la fracción de las alfa-1-globulinas plasmáticas.",
+      "options": {
+        "A": "Alfa-1-antitripsina.",
+        "B": "Alfa-1-glicoproteína ácida.",
+        "C": "Alfa-1-lipoproteína.",
+        "D": "Alfa-1-microglobulina."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Alfa-1-antitripsina."
+    },
+    {
+      "id": 55,
+      "question": "Indique qué proteína NO es reactante de fase aguda positiva y NO muestra variaciones en su nivel plasmático frente a estímulos inflamatorios.",
+      "options": {
+        "A": "Alfa-2 macroglobulina.",
+        "B": "Alfa-1 antitripsina.",
+        "C": "Alfa-1 glicoproteína ácida.",
+        "D": "Antiquimiotripsina."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Alfa-2 macroglobulina."
+    },
+    {
+      "id": 56,
+      "question": "En condiciones de pH sanguíneo normal, la albúmina presenta una carga eléctrica:",
+      "options": {
+        "A": "Negativa.",
+        "B": "Prácticamente neutra.",
+        "C": "Positiva.",
+        "D": "Totalmente neutra"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Negativa."
+    },
+    {
+      "id": 57,
+      "question": "La disciplina que se ocupa de los aspectos químicos de la vida humana en la salud y en la enfermedad, con la aplicación de los métodos químicos y bioquímicos de laboratorio para el diagnóstico, el seguimiento, el control del tratamiento, la prevención y la investigación de la enfermedad, se denomina:",
+      "options": {
+        "A": "La Fisiopatología",
+        "B": "La Patología Molecular",
+        "C": "La Bioquímica Clínica",
+        "D": "La Farmacología"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "La Bioquímica Clínica"
+    },
+    {
+      "id": 58,
+      "question": "El hígado elimina la mayor parte del amoniaco de la sangre transformándolo en:",
+      "options": {
+        "A": "Urea",
+        "B": "Creatinina",
+        "C": "Colesterol",
+        "D": "Albúmina"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Urea"
+    },
+    {
+      "id": 59,
+      "question": "¿Cuál de las siguientes funciones son realizadas por las proteínas?:",
+      "options": {
+        "A": "Función defensiva.",
+        "B": "Transporte de moléculas.",
+        "C": "Función catalizadora.",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 60,
+      "question": "¿Cuál de las siguientes proteínas no es una alfa 2 globulina?",
+      "options": {
+        "A": "Haptoglobina.",
+        "B": "Ceruloplasmina.",
+        "C": "Transferrina.",
+        "D": "Eritropoyetina."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Transferrina."
+    },
+    {
+      "id": 61,
+      "question": "Señale la respuesta CORRECTA respecto al método de Biuret para determinar proteínas plasmáticas:",
+      "options": {
+        "A": "Tiene baja especificidad.",
+        "B": "Es un método enzimático.",
+        "C": "La reacción tiene lugar en medio acido.",
+        "D": "Es un método colorimétrico."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Es un método colorimétrico."
+    },
+    {
+      "id": 62,
+      "question": "Señale lo INCORRECTO de la bilirrubina:",
+      "options": {
+        "A": "La bilirrubina es un producto del catabolismo de la hemoglobina.",
+        "B": "Se transporta por el plasma unida a la albúmina.",
+        "C": "La ictericia neonatal es un caso de hiperbilirrubinemia.",
+        "D": "No se usa en el diagnóstico de la ictericia."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "No se usa en el diagnóstico de la ictericia."
+    },
+    {
+      "id": 63,
+      "question": "En la colestasis podemos encontrar:",
+      "options": {
+        "A": "Elevación de la fosfatasa alcalina (ALP).",
+        "B": "Disminución de ácidos biliares en plasma.",
+        "C": "Disminución de las cifras de colesterol.",
+        "D": "Disminución de la fosfatasa alcalina."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Elevación de la fosfatasa alcalina (ALP)."
+    },
+    {
+      "id": 64,
+      "question": "La principal función de la haptoglobina es:",
+      "options": {
+        "A": "Unirse a la hemoglobina resultante de la lisis de",
+        "B": "Inhibición de la plasmina.",
+        "C": "Inhibición linfocítica y agregación plaquetaria.",
+        "D": "Inhibición de las proteasas leucocitarias."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Unirse a la hemoglobina resultante de la lisis de"
+    },
+    {
+      "id": 65,
+      "question": "Indica cuál de las siguientes proteínas es un reactante de fase aguda negativo:",
+      "options": {
+        "A": "Proteína C reactiva",
+        "B": "Fibrinógeno",
+        "C": "Fibronectina",
+        "D": "C3"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Fibronectina"
+    },
+    {
+      "id": 66,
+      "question": "La GPT o ALT se encuentra aumentada en todas las patologías siguientes salvo en una, ¿cuál?:",
+      "options": {
+        "A": "Estados de déficit de piridoxal",
+        "B": "Obesidad",
+        "C": "Leucemia Linfoblástica aguda",
+        "D": "Preclampsia grave"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Estados de déficit de piridoxal"
+    },
+    {
+      "id": 67,
+      "question": "¿Cuál de los siguientes autoanticuerpos tiene utilidad en el diagnóstico de las hepatitis autoinmunes?",
+      "options": {
+        "A": "Anticuerpos anti-músculo liso",
+        "B": "Anticuerpos anti-músculo estriado.",
+        "C": "Anticuerpos anti-transglutaminas",
+        "D": "Anticuerpos anti-neuronales"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Anticuerpos anti-músculo liso"
+    },
+    {
+      "id": 68,
+      "question": "La concentración de la albúmina se encuentra aumentada en una de las siguientes patologías:",
+      "options": {
+        "A": "Deshidratación",
+        "B": "Desnutrición",
+        "C": "Embarazo",
+        "D": "Síndromes de mala absorción"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Deshidratación"
+    },
+    {
+      "id": 69,
+      "question": "Las sales biliares son esenciales para la absorción de:",
+      "options": {
+        "A": "Lactosa",
+        "B": "Hierro",
+        "C": "Vitamina B12",
+        "D": "Grasas"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Grasas"
+    },
+    {
+      "id": 70,
+      "question": "¿Cuál de las siguientes proteínas están en la fracción de las alfa-1globulinas?",
+      "options": {
+        "A": "Albúmina",
+        "B": "Protrombina",
+        "C": "Haptoglobina",
+        "D": "Transferina"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Protrombina"
+    },
+    {
+      "id": 71,
+      "question": "Una enzima de importancia clínica cataliza la transferencia del grupo amino de la alanina al α- cetoglutarato. ¿De qué enzima se trata?",
+      "options": {
+        "A": "Fosfatasa alcalina",
+        "B": "GOT",
+        "C": "GPT",
+        "D": "γ-GT"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "GPT"
+    },
+    {
+      "id": 72,
+      "question": "¿Cuál de las siguientes funciones no se realizada por el hígado?",
+      "options": {
+        "A": "Metabolismo de hidratos de carbono",
+        "B": "Síntesis de inmunoglobulinas",
+        "C": "Formación de pigmentos biliares",
+        "D": "Todas son ciertas"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Síntesis de inmunoglobulinas"
+    },
+    {
+      "id": 73,
+      "question": "La bilirrubina que circula unida a la albúmina es:",
+      "options": {
+        "A": "Fundamentalmente la fracción no conjugada.",
+        "B": "Fundamentalmente la fracción conjugada.",
+        "C": "Ambas fracciones se unen totalmente a la albúmina.",
+        "D": "Ninguna de las dos fracciones se unen a la albúmina."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Fundamentalmente la fracción no conjugada."
+    },
+    {
+      "id": 74,
+      "question": "Con respecto a la albúmina señale la afirmación incorrecta:",
+      "options": {
+        "A": "Es la proteína más abundante en el plasma",
+        "B": "Su vida media es de 2 días",
+        "C": "Es una proteína transportadora",
+        "D": "Se sintetiza en el hígado"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Su vida media es de 2 días"
+    },
+    {
+      "id": 75,
+      "question": "Un aumento de los niveles de amoniaco en sangre puede deberse a:",
+      "options": {
+        "A": "Hiperuricemia",
+        "B": "Enfermedades genéticas del ciclo de la urea",
+        "C": "Enfermedad pulmonar obstructiva crónica",
+        "D": "Enfermedad de Addison"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Enfermedades genéticas del ciclo de la urea"
+    },
+    {
+      "id": 76,
+      "question": "Con respecto a la bilirrubina señale la respuesta falsa:",
+      "options": {
+        "A": "Es el metabolito más importante del grupo HEMO.",
+        "B": "La forma conjugada es insoluble en agua.",
+        "C": "Una vez que alcanza el intestino es metabolizada por las bacterias.",
+        "D": "Puede elevarse en las anemias hemolíticas."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "La forma conjugada es insoluble en agua."
+    },
+    {
+      "id": 77,
+      "question": "En caso de daño hepático, cuál de los siguientes parámetros no disminuye:",
+      "options": {
+        "A": "GOT",
+        "B": "Albúmina",
+        "C": "Factor VII",
+        "D": "Factor II"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "GOT"
+    },
+    {
+      "id": 78,
+      "question": "Señale la respuesta correcta:",
+      "options": {
+        "A": "La Transferrina es una alfa-globulina que se sintetiza en el hígado y tiene como principal función transportar hierro desde los tejidos a la médula ósea para reutilizarlo.",
+        "B": "La Haptoglobina es una beta-globulina cuya principal función es unirse a la hemoglobina resultante de la lisis de los eritrocitos.",
+        "C": "Cuando solicitan una muestra de crioglobulinas la jeringuilla debe de estar fría para evitar que se cristalicen.",
+        "D": "La alfa2 macroglobulina tiene como principal función inhibir el exceso de plasmina una vez saturada la capacidad inhibitoria de la alfa2- antiplasmina."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "La alfa2 macroglobulina tiene como principal función inhibir el exceso de plasmina una vez saturada la capacidad inhibitoria de la alfa2- antiplasmina."
+    },
+    {
+      "id": 79,
+      "question": "La fosfatasa alcalina está aumentada en:",
+      "options": {
+        "A": "Hipotiroidismo, sobre todo infantil.",
+        "B": "Enfermedad celíaca.",
+        "C": "Escorbuto.",
+        "D": "Colestasis."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Colestasis."
+    },
+    {
+      "id": 80,
+      "question": "El marcador más específico de la fase aguda de la Hepatitis B es:",
+      "options": {
+        "A": "HBs Ag.",
+        "B": "Anti-HBc IgM.",
+        "C": "Anti- HBs.",
+        "D": "HBe Ag."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Anti-HBc IgM."
+    },
+    {
+      "id": 81,
+      "question": "Pruebas de función hepática. Señale cuál de estas pruebas es excretora:",
+      "options": {
+        "A": "Prueba del rosa de Bengala.",
+        "B": "Prueba de Hanger.",
+        "C": "Prueba de Kunkel.",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Prueba del rosa de Bengala."
+    },
+    {
+      "id": 82,
+      "question": "La ictericia del recién nacido es consecuencia de:",
+      "options": {
+        "A": "Obstrucción de la vía biliar intrahepática.",
+        "B": "Inmadurez del sistema hepático de conjugación.",
+        "C": "Aumento de la producción de bilirrubina.",
+        "D": "Todas son falsas."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Inmadurez del sistema hepático de conjugación."
+    },
+    {
+      "id": 83,
+      "question": "La causa principal de una alteración de la enzima 5'-Nucleotidasa es una afectación del:",
+      "options": {
+        "A": "Páncreas.",
+        "B": "Hueso.",
+        "C": "Tracto hepatobiliar.",
+        "D": "Hígado."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Tracto hepatobiliar."
+    },
+    {
+      "id": 84,
+      "question": "¿Cuál de estas proteínas se eleva en los procesos inflamatorios?:",
+      "options": {
+        "A": "Haptoglobina",
+        "B": "Alfa-1 antitripsina",
+        "C": "Proteína C reactiva",
+        "D": "Todas ellas."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todas ellas."
+    },
+    {
+      "id": 85,
+      "question": "Las sales biliares son esenciales para la absorción de:",
+      "options": {
+        "A": "Lactosa.",
+        "B": "Hierro.",
+        "C": "Vitaminas B12",
+        "D": "Grasas."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Grasas."
+    },
+    {
+      "id": 86,
+      "question": "¿Cuál de las siguientes funciones no es realizada por el hígado?",
+      "options": {
+        "A": "Metabolismo de hidratos de carbono.",
+        "B": "Síntesis de inmunoglobulinas.",
+        "C": "Formación de pigmentos biliares.",
+        "D": "Todas son ciertas."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Síntesis de inmunoglobulinas."
+    },
+    {
+      "id": 87,
+      "question": "La bilirrubina que circula unida a la albúmina es:",
+      "options": {
+        "A": "Fundamentalmente la fracción no conjugada.",
+        "B": "Fundamentalmente la fracción conjugada.",
+        "C": "Ambas fracciones se unen totalmente a la albúmina.",
+        "D": "Ninguna de las dos fracciones se une a la albúmina."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Fundamentalmente la fracción no conjugada."
+    },
+    {
+      "id": 88,
+      "question": "¿Qué marcador de hepatitis B se hace positivo en individuos vacunados?",
+      "options": {
+        "A": "Anti-HBs",
+        "B": "HbsAg",
+        "C": "Anti-Hbc",
+        "D": "Anti-HBe"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Anti-HBs"
+    },
+    {
+      "id": 89,
+      "question": "Respecto a los marcadores serológicos de las hepatitis virales, señale la respuesta correcta:",
+      "options": {
+        "A": "El antígeno de superficie de la hepatitis B (HBsAg), también llamado antígeno de Australia, es el marcador serológico primordial para el diagnóstico de infección por virus C.",
+        "B": "El antígeno de superficie de hepatitis B (HBsAg) aparece en el suelo de los pacientes una vez que la enfermedad ha quedado resuelta.",
+        "C": "La persistencia de HBsAg durante más de 6",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "La persistencia de HBsAg durante más de 6"
+    },
+    {
+      "id": 90,
+      "question": "Además de la cifra total de proteínas es importante conocer la concentración de las distintas fracciones mediante la realización de un",
+      "options": {
+        "A": "Ionograma",
+        "B": "Gasometría",
+        "C": "Proteinograma",
+        "D": "Hemograma"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Proteinograma"
+    },
+    {
+      "id": 91,
+      "question": "En un proteinograma de ánodo a cátodo encontramos:",
+      "options": {
+        "A": "Albúmina, α1, α 2, β1, β2, γ",
+        "B": "Albúmina, α2, β1, α1, β2, γ",
+        "C": "Albúmina, α2, β1, α1, γ, β2",
+        "D": "γ, β2, β1, α2, α1, Albúmina"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Albúmina, α1, α 2, β1, β2, γ"
+    },
+    {
+      "id": 92,
+      "question": "La transferrina, y las fracciones del complemento C3 y C4, ¿en qué fracción de la electroforesis de proteínas se encuentran?",
+      "options": {
+        "A": "Fracción alfa-1",
+        "B": "Fracción alfa-2",
+        "C": "Fracción beta",
+        "D": "Fracción gamma"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Fracción beta"
+    },
+    {
+      "id": 93,
+      "question": "¿En cuál de las siguientes patologías se produce solamente un aumento de bilirrubina no conjugada y no de la bilirrubina conjugada?",
+      "options": {
+        "A": "Colestasis extrahepática.",
+        "B": "Hepatitis aguda",
+        "C": "Sd.Crigler-Najjar.",
+        "D": "Sd.Dubin-Jonson."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Sd.Crigler-Najjar."
+    },
+    {
+      "id": 94,
+      "question": "La acolia/hipocoliase observa en:",
+      "options": {
+        "A": "Ictericias por hemólisis",
+        "B": "Ictericias obstructivas",
+        "C": "Hepatitis",
+        "D": "La B y C son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "La B y C son correctas"
+    },
+    {
+      "id": 95,
+      "question": "¿En qué casos puede producirse una disminución de la fosfatasa alcalina?",
+      "options": {
+        "A": "Enfermedad celiaca",
+        "B": "Enfermedad de Paget",
+        "C": "Cirrosis biliar",
+        "D": "Hiperparatiroidismo primario"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Enfermedad celiaca"
+    },
+    {
+      "id": 96,
+      "question": "¿En cuál de las siguientes patologías nos podremos encontrar con una albúmina disminuida?",
+      "options": {
+        "A": "Enfermedad hepática.",
+        "B": "Enfermedad inflamatoria.",
+        "C": "En un síndrome nefrótico.",
+        "D": "En todas las anteriores."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "En todas las anteriores."
+    },
+    {
+      "id": 97,
+      "question": "¿Qué muestra solicitaríamos preferiblemente para la electroforesis de proteínas séricas?",
+      "options": {
+        "A": "Suero",
+        "B": "Plasma",
+        "C": "LCR",
+        "D": "Orina"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Suero"
+    },
+    {
+      "id": 98,
+      "question": "De las siguientes proteínas, señale cuál interviene en la fijación del cobre:",
+      "options": {
+        "A": "Transferrina.",
+        "B": "Hemopexina.",
+        "C": "Hemoglobina.",
+        "D": "Ceruloplasmina."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Ceruloplasmina."
+    },
+    {
+      "id": 99,
+      "question": "¿Cuál es la proteína sanguínea más abundante en el plasma normal?:",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Haptoglobina.",
+        "C": "Fibrinógeno.",
+        "D": "Alfa-1-antitripsina."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Albúmina."
+    },
+    {
+      "id": 100,
+      "question": "Señale el órgano que tiene dentro de sus funciones la síntesis de la albúmina:",
+      "options": {
+        "A": "Bazo.",
+        "B": "Hígado.",
+        "C": "Páncreas.",
+        "D": "Riñones."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Hígado."
+    },
+    {
+      "id": 101,
+      "question": "¿Qué enzima se encuentra en huesos, hígado, intestino y placenta?:",
+      "options": {
+        "A": "Lactato deshidrogenasa.",
+        "B": "Fosfatasa ácida.",
+        "C": "Gamma Glutamil Transferasa.",
+        "D": "Fosfatasa alcalina."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Fosfatasa alcalina."
+    },
+    {
+      "id": 102,
+      "question": "Señale cuál de los siguientes tipos no es una verdadera isoenzima de la fosfatasa alcalina:",
+      "options": {
+        "A": "Hepática",
+        "B": "Prostática",
+        "C": "Ósea",
+        "D": "Placentaria"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Prostática"
+    },
+    {
+      "id": 103,
+      "question": "La presión osmótica depende principalmente de la concentración de:",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Transferrina.",
+        "C": "Ferritina.",
+        "D": "Alfa -1 antitripsina."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Albúmina."
+    },
+    {
+      "id": 104,
+      "question": "¿Cuál de las siguientes proteínas se utiliza como marcador del estado nutricional?",
+      "options": {
+        "A": "Transferrina.",
+        "B": "Prealbúmina.",
+        "C": "Ceruloplasmina.",
+        "D": "Ferritina."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Prealbúmina."
+    },
+    {
+      "id": 105,
+      "question": "Señale cuál, de estas proteínas, migra en la región alfa 2 del proteinograma:",
+      "options": {
+        "A": "Transferrina.",
+        "B": "Alfa- 1 antitripsina.",
+        "C": "Ceruloplasmina.",
+        "D": "C3 y C4."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Ceruloplasmina."
+    },
+    {
+      "id": 106,
+      "question": "¿Cuál de las siguientes afirmaciones sobre el método de Kjerldahl es falsa?",
+      "options": {
+        "A": "Es el método de referencia en la actualidad.",
+        "B": "Es un método para la determinación de proteínas séricas.",
+        "C": "Determina el contenido de nitrógeno.",
+        "D": "Es poco fiable."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Es poco fiable."
+    },
+    {
+      "id": 107,
+      "question": "El virus de la hepatitis D (delta) solo puede infectar los hepatocitos cuando está presente:",
+      "options": {
+        "A": "Virus Hepatitis B (VHB).",
+        "B": "Virus Hepatitis C (VHC).",
+        "C": "Virus Hepatitis A (VHA).",
+        "D": "Virus Inmunodeficiencia Humana (VIH)."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Virus Hepatitis B (VHB)."
+    },
+    {
+      "id": 108,
+      "question": "Indicar cuál, de estos parámetros, es indicativo de colestasis hepática:",
+      "options": {
+        "A": "AST.",
+        "B": "5’ Nucleotidasa.",
+        "C": "ALT.",
+        "D": "LDH."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "5’ Nucleotidasa."
+    },
+    {
+      "id": 109,
+      "question": "Ante un paciente con sospecha de hemocromatosis, no estará indicado solicitar:",
+      "options": {
+        "A": "Anticuerpos anti-LKM.",
+        "B": "Porcentaje de saturación de Transferrina.",
+        "C": "Hierro sérico.",
+        "D": "Estudio de mutación del gen de la hemocromatosis hereditaria (HFE)."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Anticuerpos anti-LKM."
+    },
+    {
+      "id": 110,
+      "question": "En el 90% de los pacientes con cirrosis biliar primaria, se hallan aumentados los siguientes anticuerpos:",
+      "options": {
+        "A": "ANA.",
+        "B": "SMA.",
+        "C": "AMA.",
+        "D": "ANCA"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "AMA."
+    },
+    {
+      "id": 111,
+      "question": "Ante un paciente con anti HBSAg -, HBSAg +, anti HBCAg total + y anti HBCAg IgM -, lo más probable es:",
+      "options": {
+        "A": "Un error del laboratorio.",
+        "B": "Una infección resuelta por el virus de la hepatitis b.",
+        "C": "Una infección crónica por el virus de la hepatitis",
+        "D": "El paciente ha sido vacunado contra el virus de la hepatitis b."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Una infección crónica por el virus de la hepatitis"
+    },
+    {
+      "id": 112,
+      "question": "La causa más frecuente de hemocromatosis hereditaria es:",
+      "options": {
+        "A": "mutación C282Y del gen HFE.",
+        "B": "mutación H63D del gen HFE.",
+        "C": "mutación Q248H del gen HFE.",
+        "D": "mutación S65C del gen HFE."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "mutación C282Y del gen HFE."
+    },
+    {
+      "id": 113,
+      "question": "La transferrina deficiente en carbohidratos (CDT) es de utilidad:",
+      "options": {
+        "A": "En la detección de LCR en una rinorrea.",
+        "B": "En el diagnóstico de la hemocromatosis hereditaria.",
+        "C": "En la detección de consumo de alcohol.",
+        "D": "En el diagnóstico del déficit de absorción de hierro."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "En la detección de consumo de alcohol."
+    },
+    {
+      "id": 114,
+      "question": "¿Cuál de las siguientes proteínas no se eleva en los procesos Inflamatorios agudos?:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Transferrina.",
+        "C": "Amiloide A.",
+        "D": "Proteína C reactiva."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Transferrina."
+    },
+    {
+      "id": 115,
+      "question": "Respecto a la Proteína C Reactiva indicar la respuesta incorrecta:",
+      "options": {
+        "A": "En respuesta a la acción de un organismo patógeno, su elevación se produce después de la IL- 6 y la procalcitonina.",
+        "B": "Aumenta en las primeras 24-48 horas, a veces hasta 1000 veces la concentración normal.",
+        "C": "Forma parte de la inmunidad adquirida.",
+        "D": "Su síntesis está inducida por las citicinas."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Forma parte de la inmunidad adquirida."
+    },
+    {
+      "id": 116,
+      "question": "La enzima que muestra la actividad sérica más alta en la obstrucción biliar extrahepática y también está aumentada en la neoplasia primaria de hígado es:",
+      "options": {
+        "A": "Aspartato aminotransferasa (AST).",
+        "B": "Alanina aminotransferasa (ALT).",
+        "C": "Lipasa pancreática (LIP).",
+        "D": "Fosfatasa alcalina (ALP)"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Fosfatasa alcalina (ALP)"
+    },
+    {
+      "id": 117,
+      "question": "El diagnóstico de la enfermedad de Wilson puede hacerse si hay:",
+      "options": {
+        "A": "Aumento de cobre en orina y disminución de",
+        "B": "Aumento de ceruloplasmina plasmática y aumento de excreción de cobre en orina.",
+        "C": "Aumento de ceruloplasmina plasmática y disminución de excreción de cobre en orina.",
+        "D": "Disminución de ceruloplasmina plasmática y disminución de cobre en orina."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Aumento de cobre en orina y disminución de"
+    },
+    {
+      "id": 118,
+      "question": "Indique cuál de estas proteínas no se sintetiza en el hígado:",
+      "options": {
+        "A": "Ceruloplasmina.",
+        "B": "Fibrinógeno.",
+        "C": "Inmunoglobulina M.",
+        "D": "Albúmina."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Inmunoglobulina M."
+    },
+    {
+      "id": 119,
+      "question": "Ante una sospecha de encefalopatía hepática ¿qué magnitud debe ser solicitada al laboratorio?",
+      "options": {
+        "A": "Lactato.",
+        "B": "Amonio.",
+        "C": "AST y ALT.",
+        "D": "LDH."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Amonio."
+    },
+    {
+      "id": 120,
+      "question": "Un año después de padecer un episodio agudo de hepatitis B se realiza un control serológico a un paciente, con los siguientes resultados: 1) Presencia de HBsAg, HBeAg, anti-HBc y ADN del virus B; 2) Ausencia de anti-HBs y anti-HBe. Las aminotransferasas están elevadas. La interpretación más probable de estos resultados es:",
+      "options": {
+        "A": "Infección crónica por el mutante precore.",
+        "B": "Portador sano.",
+        "C": "Inmunidad tras la infección.",
+        "D": "Hepatitis B crónica."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Hepatitis B crónica."
+    },
+    {
+      "id": 121,
+      "question": "Respecto a los marcadores de la hepatitis B, señale la opción falsa:",
+      "options": {
+        "A": "HBsAg es un marcador de infección pasada.",
+        "B": "Los anticuerpos frente al HBsAg indican resolución de la infección o que el individuo ha sido vacunado.",
+        "C": "Los HBsAg y HBeAg se secretan en sangre durante la replicación vírica.",
+        "D": "La detección de IgM anti-HBc es el mejor método para diagnosticar una infección aguda reciente especialmente durante el periodo ventana."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "HBsAg es un marcador de infección pasada."
+    },
+    {
+      "id": 122,
+      "question": "En la electroforesis, una de las proteínas principales de la fracción ß-globulinas:",
+      "options": {
+        "A": "Ceruloplasmina.",
+        "B": "Transferrina.",
+        "C": "Haptoglobina.",
+        "D": "Protrombina."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Transferrina."
+    },
+    {
+      "id": 123,
+      "question": "¿Cuál de las siguientes enzimas es un marcador de obstrucción hepática?",
+      "options": {
+        "A": "ASAT.",
+        "B": "GOT.",
+        "C": "ALP.",
+        "D": "Fosfatasa ácida"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "ALP."
+    },
+    {
+      "id": 124,
+      "question": "El periodo de incubación de la hepatitis A dura aproximadamente:",
+      "options": {
+        "A": "15-45 días",
+        "B": "1-15 días",
+        "C": "14-28 días",
+        "D": "1-30 días"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "15-45 días"
+    },
+    {
+      "id": 125,
+      "question": "¿Cuál de los siguientes métodos NO se utiliza para determinar proteínas totales?",
+      "options": {
+        "A": "Refractometría",
+        "B": "Método de Lowry",
+        "C": "Método de Abell",
+        "D": "Método de Biuret"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Método de Abell"
+    },
+    {
+      "id": 126,
+      "question": "El virus de la hepatitis B y HIV se transmite (señale la RESPUESTA CORRECTA):",
+      "options": {
+        "A": "Por vía sanguínea",
+        "B": "Por vía respiratoria",
+        "C": "Por el virus de la Rubeola",
+        "D": "Ninguna es correcta."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Por vía sanguínea"
+    },
+    {
+      "id": 127,
+      "question": "¿Qué aminotransferasa se cuantifica por ser la más específica para el estudio de la lesión hepática?",
+      "options": {
+        "A": "LDH",
+        "B": "ALT/GPT",
+        "C": "AST/GOT",
+        "D": "Bilirrubina"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "ALT/GPT"
+    },
+    {
+      "id": 128,
+      "question": "El hígado es el encargado de trasformar el amoniaco (compuesto nitrogenado de carácter neurotóxico) en:",
+      "options": {
+        "A": "Glucógeno",
+        "B": "Bilirrubina",
+        "C": "Albúmina",
+        "D": "Urea"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Urea"
+    },
+    {
+      "id": 129,
+      "question": "¿Cuál de los siguientes marcadores bioquímicos NO seria de utilidad en un proceso inflamatorio o infeccioso?",
+      "options": {
+        "A": "Procalcitonina",
+        "B": "Proteína C Reactiva",
+        "C": "Colesterol",
+        "D": "Lactato"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Colesterol"
+    },
+    {
+      "id": 130,
+      "question": "En el estudio de la función hepática, ¿cuál de estas determinaciones NO se realiza para valorar el metabolismo proteico?",
+      "options": {
+        "A": "Albumina plasmática",
+        "B": "Síntesis de protrombina",
+        "C": "Colesterol esterificado",
+        "D": "Amoniemia"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Colesterol esterificado"
+    },
+    {
+      "id": 131,
+      "question": "En relación con los trastornos en la función biliar, señale la RESPUESTA INCORRECTA:",
+      "options": {
+        "A": "La cantidad de bilirrubina en sangre se conoce como bilirrubinemia",
+        "B": "En el intestino la bilirrubina conjugada se",
+        "C": "La estercobilina se elimina en las heces",
+        "D": "La bilirrubina es producto del catabolismo de la hemoglobina, de ciertas enzimas hepáticas y de la destrucción de eritrocitos inmaduros."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "En el intestino la bilirrubina conjugada se"
+    },
+    {
+      "id": 132,
+      "question": "En el test enzimático para la determinación de la ALT, la velocidad de oxidación de NADH es directamente proporcional a su actividad catalítica y se determina midiendo:",
+      "options": {
+        "A": "Un aumento de la absorbancia",
+        "B": "Una disminución de la absorbancia",
+        "C": "Una disminución de la transmitancia",
+        "D": "Se cuantifica por técnicas de turbidimetría"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Una disminución de la absorbancia"
+    },
+    {
+      "id": 133,
+      "question": "Se conoce con el nombre de transaminasa a la enzima:",
+      "options": {
+        "A": "AST",
+        "B": "GGT",
+        "C": "ALP",
+        "D": "LDH"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "AST"
+    },
+    {
+      "id": 134,
+      "question": "Indique cuál de las siguientes afirmaciones es CORRECTA",
+      "options": {
+        "A": "Las proteínas simples están compuestas por aminoácidos más un grupo prostético",
+        "B": "En la estructura primaria proteica, los aminoácidos forman una hélice a",
+        "C": "La hiperalbuminemia aparece en estados de",
+        "D": "La protrombina es una B-globulina"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "La hiperalbuminemia aparece en estados de"
+    },
+    {
+      "id": 135,
+      "question": "Sobre la transferrina, podemos afirmar que:",
+      "options": {
+        "A": "Es una beta 2 globulina",
+        "B": "Es la principal proteína de almacenamiento de hierro",
+        "C": "Es una beta1-globulina",
+        "D": "Es la principal alfa 1-globulina con función transportadora del hierro"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Es una beta1-globulina"
+    },
+    {
+      "id": 136,
+      "question": "¿Qué magnitudes reflejan un daño hepatocelular?",
+      "options": {
+        "A": "AST, AL Ti ALP",
+        "B": "LDH, GGT y TSH",
+        "C": "Bilirrubina, albumina y AST",
+        "D": "LDH, ALT y AST"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "LDH, ALT y AST"
+    },
+    {
+      "id": 137,
+      "question": "El virus de la hepatitis D se asocia a:",
+      "options": {
+        "A": "Virus de la hepatitis B",
+        "B": "Herpes genital",
+        "C": "Oncovirus",
+        "D": "Virus respiratorios"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Virus de la hepatitis B"
+    },
+    {
+      "id": 138,
+      "question": "La vida media de una molécula de albúmina es de:",
+      "options": {
+        "A": "19-21 días",
+        "B": "30-35 días",
+        "C": "45-50 días",
+        "D": "7-10 días"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "19-21 días"
+    },
+    {
+      "id": 139,
+      "question": "En un proteinograma. ¿Cuál de estas proteínas migra a la fracción alfa 1 globulina?",
+      "options": {
+        "A": "Albúmina",
+        "B": "Protrombina",
+        "C": "Transferrina",
+        "D": "Ferritina"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Protrombina"
+    },
+    {
+      "id": 140,
+      "question": "Las cinco fracciones que obtenemos en un proteinograma son:",
+      "options": {
+        "A": "Albúmina y las lipoproteínas α1, α2, β y γ.",
+        "B": "Prealbúmina, albúmina y las globulinas α, β y γ.",
+        "C": "Albúmina y las globulinas α1, α2, β y γ.",
+        "D": "Albúmina, enzimas y globulinas α1, α2, y γ"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Albúmina y las globulinas α1, α2, β y γ."
+    },
+    {
+      "id": 141,
+      "question": "En la electroforesis de proteínas, éstas se separan en fracciones o grupos de proteínas, ¿en cuál de estas fracciones se encuentra la transferrina?",
+      "options": {
+        "A": "En la fracción de globulinas α1.",
+        "B": "En la fracción de globulinas β.",
+        "C": "Junto a la albúmina.",
+        "D": "La transferrina no presenta movilidad electroforética."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "En la fracción de globulinas β."
+    },
+    {
+      "id": 142,
+      "question": "¿Cuál de las siguientes enfermedades presenta generalmente los mayores incrementos de las transaminasas?",
+      "options": {
+        "A": "Hepatitis crónica.",
+        "B": "Hepatitis vírica aguda.",
+        "C": "Ictericia obstructiva.",
+        "D": "Colestasis intrahepática."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Hepatitis vírica aguda."
+    },
+    {
+      "id": 143,
+      "question": "La Procalcitonina (PCT), su determinación en laboratorio se puede realizar:",
+      "options": {
+        "A": "En plasma EDTA.",
+        "B": "En Suero.",
+        "C": "En plasma heparina.",
+        "D": ". En cualquiera de ellas."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": ". En cualquiera de ellas."
+    },
+    {
+      "id": 144,
+      "question": "En caso de hepatitis y otras afecciones inflamatorias hepáticas, el cociente ALT/AST:",
+      "options": {
+        "A": "No es valorable.",
+        "B": "Es <1.",
+        "C": "Es >1.",
+        "D": "Es igual a 1."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Es >1."
+    },
+    {
+      "id": 145,
+      "question": "¿Cuál de los siguientes virus que provocan hepatitis no tiene como material genético ARN?",
+      "options": {
+        "A": "Hepatitis A",
+        "B": "Hepatitis B",
+        "C": "Hepatitis C",
+        "D": "Hepatitis D"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Hepatitis B"
+    },
+    {
+      "id": 146,
+      "question": "Señala la afirmación incorrecta del metabolismo de la bilirrubina:",
+      "options": {
+        "A": "La bilirrubina se forma a partir de la degradación de la hemoglobina",
+        "B": "Unida a la albúmina es transportada al hígado",
+        "C": "En el hígado se conjuga formando la bilirrubina",
+        "D": "En el hígado se conjuga formando la bilirrubina directa que es hidrosoluble"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "En el hígado se conjuga formando la bilirrubina"
+    },
+    {
+      "id": 147,
+      "question": "La fracción mayoritaria en una electroforesis normal de proteínas correspondería:",
+      "options": {
+        "A": "A las alfa-2-globulinas",
+        "B": "A la albúmina",
+        "C": "A las beta-globinas",
+        "D": "A las alfa-1-globinas"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "A la albúmina"
+    },
+    {
+      "id": 148,
+      "question": "¿Cuál de las siguientes enzimas es más hígado- específica?",
+      "options": {
+        "A": "AST",
+        "B": "ALT",
+        "C": "ALP",
+        "D": "LDH"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "ALT"
+    },
+    {
+      "id": 149,
+      "question": "Indique la respuesta correcta en el caso de un paciente con sospecha de infección:",
+      "options": {
+        "A": "Ante una concentración de procalcitonina en",
+        "B": "La interleuquina 6 puede ser utilizada como",
+        "C": "La proteína C reactiva se eleva muy rápidamente ante una infección bacteriana lo que le confiere una alta especificidad como marcador de infección",
+        "D": "La medición de procalcitonina es muy útil en el diagnóstico de estos pacientes pero nunca debe usarse como criterio para retirar un tratamiento antibiótico"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Ante una concentración de procalcitonina en"
+    },
+    {
+      "id": 150,
+      "question": "En relación a las enzimas hepáticas señale la respuesta correcta:",
+      "options": {
+        "A": "Las aminotrasferasas son un grupo de enzimas que se encargar de catalizar la interconversión de aminoácidcos a 2-oxo ácidos mediante la trasferencia de grupos carboxilo",
+        "B": "En la mayoría de enfermedades hepáticas la",
+        "C": "El pico máximo de actividad en suero puede",
+        "D": "Tras una hepatitis aguda, una elevación persistente más allá de 6 semanas es criterio de hepatitis crónica"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "En la mayoría de enfermedades hepáticas la"
+    },
+    {
+      "id": 151,
+      "question": "Es un componente de las alfa-1-globulinas:",
+      "options": {
+        "A": "La haptoglobulina",
+        "B": "La ceruloplasmina",
+        "C": "La alfa-antitripsina",
+        "D": "La alfa-macroglobulina"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "La alfa-antitripsina"
+    },
+    {
+      "id": 152,
+      "question": "Respecto al proteinograma, la haptoglobina migra en la región:",
+      "options": {
+        "A": "α 1.",
+        "B": "α 2.",
+        "C": "β 1.",
+        "D": "β 2."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "α 2."
+    },
+    {
+      "id": 153,
+      "question": "¿Cuál es el principal componente de las α-1- globulinas plasmáticas?:",
+      "options": {
+        "A": "α-1-antitripsina",
+        "B": "α-1-microglobulina",
+        "C": "α-1-lipoproteína",
+        "D": "α-1-antiquimotripsina"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "α-1-antitripsina"
+    },
+    {
+      "id": 154,
+      "question": "¿Cuál de las siguientes proteínas plasmáticas migra en el grupo gamma en la electroforesis?:",
+      "options": {
+        "A": "Ceruloplasmina",
+        "B": "Hemopexina",
+        "C": "Orosomucoide.",
+        "D": "Proteína C reactiva"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Proteína C reactiva"
+    },
+    {
+      "id": 155,
+      "question": "¿Cuál de las siguientes enzimas de interés clínico se encuentra presente en todos los tejidos humanos, pero sólo en las enfermedades hepáticas provocan una elevación significativa de sus niveles séricos, encontrándose su mayor elevación en enfermedades colestásicas?:",
+      "options": {
+        "A": "5´-nucleotidasa",
+        "B": "Leucinaminopeptidasa",
+        "C": "γ-glutamiltransferasa",
+        "D": "Pseudocolinesterasa"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "5´-nucleotidasa"
+    },
+    {
+      "id": 156,
+      "question": "La síntesis de los ácidos biliares tiene lugar a partir de:",
+      "options": {
+        "A": "Sales biliares.",
+        "B": "Bilirrubina",
+        "C": "Hormonas esteroideas.",
+        "D": "Colesterol."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Colesterol."
+    },
+    {
+      "id": 157,
+      "question": "Imagine que un individuo sufre una obstrucción crónica del conducto colédoco, ¿cuál de las siguientes respuestas es correcta con relación a la concentración de la bilirrubina plasmática?:",
+      "options": {
+        "A": "La bilirrubina plasmática no conjugada aumenta considerablemente.",
+        "B": "La bilirrubina plasmática conjugada aumenta",
+        "C": "La bilirrubina plasmática conjugada disminuye de forma evidente.",
+        "D": "La bilirrubina plasmática conjugada no experimenta cambio alguno."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "La bilirrubina plasmática conjugada aumenta"
+    },
+    {
+      "id": 158,
+      "question": "¿Cuál de las siguientes afirmaciones es incorrecta?:",
+      "options": {
+        "A": "La bilirrubinuria sólo puede detectarse cuando hay una elevación de la bilirrubina conjugada en sangre.",
+        "B": "La bilirrubinuria sólo puede detectarse cuando",
+        "C": "En los individuos sanos no debe detectarse",
+        "D": "La bilirrubinuria, en ausencia de urobilinógeno, suele indicar una obstrucción biliar."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "La bilirrubinuria sólo puede detectarse cuando"
+    },
+    {
+      "id": 159,
+      "question": "¿Cuál de los siguientes datos bioquímicos relacionados con el metabolismo fosfocálcico se presenta elevado con mayor frecuencia en la enfermedad de Paget?:",
+      "options": {
+        "A": "Calcemia",
+        "B": "Fosfatemia",
+        "C": "PTH.",
+        "D": "Fosfatasa alcalina"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Fosfatasa alcalina"
+    },
+    {
+      "id": 160,
+      "question": "¿Cuál de los siguientes enunciados corresponde a la clasificación de proteínas según sus funciones biológicas?",
+      "options": {
+        "A": "Proteínas fibrosas, proteínas globulares.",
+        "B": "Estructural, presión oncótica.",
+        "C": "Proteínas simples, proteínas conjugadas.",
+        "D": "Completas, incompletas."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Estructural, presión oncótica."
+    },
+    {
+      "id": 161,
+      "question": "Las proteínas séricas ejercen una serie de funciones dentro del plasma. Señala la incorrecta:",
+      "options": {
+        "A": "Función transporte, función nutritiva.",
+        "B": "Función tampón, protección contra las hemorragias.",
+        "C": "Función portadora inespecífica, defensa del organismo",
+        "D": "Función oxigenadora, reconstituyente."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Función oxigenadora, reconstituyente."
+    },
+    {
+      "id": 162,
+      "question": "Dentro del grupo de las betas-globulinas nos encontramos las siguientes proteínas:",
+      "options": {
+        "A": "Transferrina, proteína C reactiva.",
+        "B": "Inhibidoras de las proteasas, haptoglobulinas.",
+        "C": "Ceruloplasmina, hemopexina.",
+        "D": "Transtiretina, transcobalamina"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Transferrina, proteína C reactiva."
+    },
+    {
+      "id": 163,
+      "question": "Para la separación de las fracciones proteicas se usan las propiedades intrínsecas de las proteínas, como",
+      "options": {
+        "A": "Diferenciación proteica basada en su tamaño molecular.",
+        "B": "Todas son correctas.",
+        "C": "Diferenciación proteica basada en las diferencias de solubilidad.",
+        "D": "Separación de las proteínas basada en su carga eléctrica."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 164,
+      "question": "¿Cuál es un método de separación de proteínas basada en su carga eléctrica?",
+      "options": {
+        "A": "Diálisis y ultrafiltración.",
+        "B": "Precipitación isoeléctrica.",
+        "C": "Métodos electroforéticos.",
+        "D": "Centrifugación en gradiente de densidad."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Métodos electroforéticos."
+    },
+    {
+      "id": 165,
+      "question": "Ante una inflamación aguda que nivel proteína nos encontraremos aumentada",
+      "options": {
+        "A": "Alfa -1-globulinas.",
+        "B": "Albúmina.",
+        "C": "Gamma-globulina.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Alfa -1-globulinas."
+    },
+    {
+      "id": 166,
+      "question": "Señala lo cierto sobre la bioquímica clínica",
+      "options": {
+        "A": "Es la rama de la ciencia encargada del estudio de los aspectos bioquímicos de la vida humana.",
+        "B": "El estudio bioquímico de la sangre ofrece una visión general sobre la prevención, aparición, seguimiento o finalización de cualquier enfermedad que altere los patrones bioquímicos de normalidad",
+        "C": "El estudio de la sangre es un estudio efectivo con un mínimo de riesgo.",
+        "D": "Todas son correctas."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 167,
+      "question": "En el virus de la hepatitis B (VHB) conocer la serología de la infección es clave para seguir el curso de la enfermedad. Por lo tanto, podemos afirmar",
+      "options": {
+        "A": "La positividad en suero del AgHBe es indicador de cese de la enfermedad.",
+        "B": "La presencia en suero del AntiHBs indica empeoramiento de la enfermedad.",
+        "C": "El AgHBs se detecta en el suero en la fase aguda",
+        "D": "El AntiHBc cuando es tipo IgM denota contacto antiguo con el virus."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "El AgHBs se detecta en el suero en la fase aguda"
+    },
+    {
+      "id": 168,
+      "question": "¿Qué función tiene el hígado?",
+      "options": {
+        "A": "Filtro de toxinas",
+        "B": "Secretora de bilis",
+        "C": "Metabólica",
+        "D": "Todas son verdaderas"
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Todas son verdaderas"
+    },
+    {
+      "id": 169,
+      "question": "¿Qué tipo de bilirrubina aumenta en las anemias hemolíticas?",
+      "options": {
+        "A": "Bilirrubina directa",
+        "B": "Bilirrubina indirecta",
+        "C": "No aumenta la bilirrubina",
+        "D": "Todas son falsas"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Bilirrubina indirecta"
+    },
+    {
+      "id": 170,
+      "question": "¿Cuál no es una causa de hepatitis?",
+      "options": {
+        "A": "Bacteriana",
+        "B": "Estrés",
+        "C": "Tóxica",
+        "D": "Virus"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Estrés"
+    },
+    {
+      "id": 171,
+      "question": "La GPT, se denomina también:",
+      "options": {
+        "A": "AST",
+        "B": "Alanino Aminotransferasa",
+        "C": "Aspartato Aminotransferasa",
+        "D": "Glutamato-Oxalacetato Transaminasa"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Alanino Aminotransferasa"
+    },
+    {
+      "id": 172,
+      "question": "La cápsula fibrosa que envuelve el hígado se denomina cápsula de:",
+      "options": {
+        "A": "Santorini",
+        "B": "Glisson",
+        "C": "Kupffer",
+        "D": "Spiegel"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Glisson"
+    },
+    {
+      "id": 173,
+      "question": "La unidad estructural del hígado es:",
+      "options": {
+        "A": "El hepatocito",
+        "B": "El hilo centrolobulillar",
+        "C": "El espacio porta",
+        "D": "El lobulillo"
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "El lobulillo"
+    },
+    {
+      "id": 174,
+      "question": "¿Que existe en el centro del lobulillo hepático?:",
+      "options": {
+        "A": "El conducto biliar centrolobulillar",
+        "B": "La arteria centrolobulillar",
+        "C": "La vena centrolobulillar",
+        "D": "El espacio Disse"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "La vena centrolobulillar"
+    },
+    {
+      "id": 175,
+      "question": "¿Cuál de estas sustancias de la bilis es un pigmento biliar?",
+      "options": {
+        "A": "Bilirrubina",
+        "B": "Ácidos biliares",
+        "C": "Sales biliares",
+        "D": "Son todas las anteriores"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Bilirrubina"
+    },
+    {
+      "id": 176,
+      "question": "La bilirrubina se convierte en directa por conjugación hepática por medio de:",
+      "options": {
+        "A": "Éster de colesterol",
+        "B": "Sales y ácidos biliares",
+        "C": "Fosfolípidos",
+        "D": "Ácidos glucurónico"
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Ácidos glucurónico"
+    },
+    {
+      "id": 177,
+      "question": "Que función no realiza el hígado:",
+      "options": {
+        "A": "Glucogénesis",
+        "B": "Síntesis de aminoácidos, a partir de amoniaco",
+        "C": "Síntesis de triglicéridos",
+        "D": "Todo lo anterior se realiza"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Síntesis de aminoácidos, a partir de amoniaco"
+    },
+    {
+      "id": 178,
+      "question": "¿Cuáles de estas pruebas hepáticas miden las funciones fisiológicas?",
+      "options": {
+        "A": "Marcadores virales",
+        "B": "Bilirrubina",
+        "C": "Globulina",
+        "D": "Fosfatasas alcalinas"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Bilirrubina"
+    },
+    {
+      "id": 179,
+      "question": "¿Qué pruebas hepáticas de estas detectan daño o lesión en el hígado?",
+      "options": {
+        "A": "Bilirrubina y albúmina",
+        "B": "Marcadores vitales y hormonas",
+        "C": "Globulinas y anticuerpo tisulares",
+        "D": "GGT, GPT y GOT"
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "GGT, GPT y GOT"
+    },
+    {
+      "id": 180,
+      "question": "¿Cuál de las afirmaciones sobre marcadores serológicos de la hepatitis B enumeradas a continuación no es correcta?",
+      "options": {
+        "A": "El Antígeno Australia HBs-Ag es un marcador de infección.",
+        "B": "EL HBs-Ac o Anti-HBs confiere inmunidad.",
+        "C": "Esporádicamente podemos encontrar solo el AG",
+        "D": "La IgM HBc-Ac es el mejor marcador de la hepatitis aguda."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Esporádicamente podemos encontrar solo el AG"
+    },
+    {
+      "id": 181,
+      "question": "¿Qué fracción de proteínas recorre mayor distancia en la electroforesis a pH 8,6?",
+      "options": {
+        "A": "ɣ -globulina.",
+        "B": "β-globulina.",
+        "C": "α-globulina.",
+        "D": "Albúmina."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Albúmina."
+    },
+    {
+      "id": 182,
+      "question": "¿Cuál es el marcador sérico que proporciona más información sobre una obstrucción canalicular del hígado?",
+      "options": {
+        "A": "Gamma-glutamil-transferrasa.",
+        "B": "Ceruloplasmina.",
+        "C": "Anticuerpos de músculo liso.",
+        "D": "Todas son correctas."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Gamma-glutamil-transferrasa."
+    },
+    {
+      "id": 183,
+      "question": "¿Cuál es la fracción de bilirrubina que se excreta por orina?",
+      "options": {
+        "A": "Bilirrubina directa.",
+        "B": "Bilirrubina indirecta.",
+        "C": "Bilirrubina total.",
+        "D": "Bilirrubina no conjugada."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Bilirrubina directa."
+    },
+    {
+      "id": 184,
+      "question": "El principal marcador para el control de consumidores de cantidades de alcohol durante un largo periodo de tiempo es:",
+      "options": {
+        "A": "GGT aumentada.",
+        "B": "GOT disminuida.",
+        "C": "GPT triplica GOT.",
+        "D": "LDH aumentada."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "GGT aumentada."
+    },
+    {
+      "id": 185,
+      "question": "Señale cuál de las siguientes enzimas es más específica de daño hepático:",
+      "options": {
+        "A": "ALT.",
+        "B": "ALP.",
+        "C": "CK.",
+        "D": "LDH."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "ALT."
+    },
+    {
+      "id": 186,
+      "question": "¿Cuál de estas afirmaciones son ciertas respecto a la PCT?:",
+      "options": {
+        "A": "Su cinética en los primeros días predice supervivencia en sepsis y shock séptico.",
+        "B": "Aumenta en las primeras 3 a 6 horas.",
+        "C": "Resulta muy útil en el paciente sospechoso de padecer una infección bacteriana.",
+        "D": "Todas son ciertas."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 187,
+      "question": "¿Por qué en el proteinograma realizado en plasma aparece una pequeña fracción proteica más que en el realizado en suero?:",
+      "options": {
+        "A": "Por la presencia de ceruloplasmina en plasma.",
+        "B": "Por la presencia de eritropoyetina en suero.",
+        "C": "Por la presencia de fibrinógeno en plasma.",
+        "D": "Por la presencia de eritropoyetina en plasma."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Por la presencia de fibrinógeno en plasma."
+    },
+    {
+      "id": 188,
+      "question": "¿A qué se denomina partícula de Dane?:",
+      "options": {
+        "A": "Al virión de la Hepatitis B.",
+        "B": "Al virión del VIH.",
+        "C": "Al virión de la Rubeola.",
+        "D": "Al virión de la Gripe."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Al virión de la Hepatitis B."
+    },
+    {
+      "id": 189,
+      "question": "Señale cuál de las siguientes combinaciones serológicas corresponde a un enfermo crónico de Hepatitis B:",
+      "options": {
+        "A": "HBsAg+, IgM anti-HBc+, Anti-HBc total+, Anti- HBs+.",
+        "B": "HBsAg-, IgM anti-HBc-, Anti-HBc total-, Anti- HBs+.",
+        "C": "HBsAg+, IgM anti-HBc-, Anti-HBc total+, Anti-HBs-",
+        "D": "HBsAg+, IgM anti-HBc+, Anti-HBc total+, Anti- HBs-"
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "HBsAg+, IgM anti-HBc-, Anti-HBc total+, Anti-HBs-"
+    },
+    {
+      "id": 190,
+      "question": "¿Cuál de estos azúcares se utiliza en una prueba hepática?:",
+      "options": {
+        "A": "Maltosa.",
+        "B": "Galactosa.",
+        "C": "Lactosa.",
+        "D": "Glucosa."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Galactosa."
+    },
+    {
+      "id": 191,
+      "question": "En relación con las pruebas hepáticas, ¿cuál de estas pruebas no se realiza ante una hepatopatía?:",
+      "options": {
+        "A": "Marcadores de hepatitis.",
+        "B": "Factores de coagulación.",
+        "C": "Proteinograma.",
+        "D": "Se pueden realizar todas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Se pueden realizar todas."
+    },
+    {
+      "id": 192,
+      "question": "Ante una hepatitis D, lo primero que haremos es valorar el estado inmunitario ante la:",
+      "options": {
+        "A": "Hepatitis D.",
+        "B": "Hepatitis A.",
+        "C": "Hepatitis C.",
+        "D": "Hepatitis B."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Hepatitis B."
+    },
+    {
+      "id": 193,
+      "question": "Un paciente sano curado de una infección por virus de la hepatitis B siempre presentará como marcador serológico positivo:",
+      "options": {
+        "A": "Anti-HBs",
+        "B": "Anti-Hbe",
+        "C": "Anti-HBc",
+        "D": "HBcAg Explicación. Pregunta difícil y puñetera, ya que preguntan por un perfil atípico. En los pacientes que se curan de la hepatitis B, tienen Ac anti HBc, Anti HBe y Anti-HBs positivos (de hecho éste último es el que indica curación). Tras la curación y pasado el tiempo los Ac anti HBe y Anti Hbs pueden ir descendiendo, haciéndose incluso negativos en algunos pacientes."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Anti-HBc"
+    },
+    {
+      "id": 194,
+      "question": "El virus de la hepatitis B:",
+      "options": {
+        "A": "Es un virus RNA con envoltura",
+        "B": "Es un virus DNA con envoltura",
+        "C": "Es un virus RNA sin envoltura",
+        "D": "Es un virus DNA sin envoltura"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Es un virus DNA con envoltura"
+    },
+    {
+      "id": 195,
+      "question": "El virus de la hepatitis A:",
+      "options": {
+        "A": "Es un picornavirus encapsulado",
+        "B": "No se transmite por vía respiratoria ni oral ni fecal",
+        "C": "Se transmite por vía sanguínea",
+        "D": "Es un picornavirus no encapsulado"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Es un picornavirus no encapsulado"
+    },
+    {
+      "id": 196,
+      "question": "¿Qué proteína utilizaremos como indicador de una reacción inflamatoria sistémica inducida por bacterias?",
+      "options": {
+        "A": "PCR.",
+        "B": "PRO- BNP.",
+        "C": "Procalcitonina.",
+        "D": "Albúmina"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Procalcitonina."
+    },
+    {
+      "id": 197,
+      "question": "La proteína plasmática que más se desplaza al ánodo en una electroforesis de gel de agarosa es:",
+      "options": {
+        "A": "Inmunoglobulina M.",
+        "B": "Alfa 1 antitripsina.",
+        "C": "Albúmina.",
+        "D": "Transferrina."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Albúmina."
+    },
+    {
+      "id": 198,
+      "question": "En relación a la determinación de la ALT (alanina aminotransferasa) en suero o plasma humano, señalar la afirmación incorrecta:",
+      "options": {
+        "A": "Se encuentra especialmente en hígado, por lo que su determinación es útil en el diagnóstico de hepatopatías.",
+        "B": "La ALT es más específica del hígado que la AST y el aumento de su actividad es más persistente.",
+        "C": "Se puede determinar su concentración posteriormente a la realización de un test enzimático y midiendo la absorbancia.",
+        "D": "Una concentración sérica por debajo de los valores normales puede indicar cirrosis."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Una concentración sérica por debajo de los valores normales puede indicar cirrosis."
+    },
+    {
+      "id": 199,
+      "question": "La aspartato aminotransferasa es:",
+      "options": {
+        "A": "Enzima GOT.",
+        "B": "Enzima GPT.",
+        "C": "Enzima ALAT.",
+        "D": "Enzima ALP."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Enzima GOT."
+    },
+    {
+      "id": 200,
+      "question": "¿Qué proteína se sintetiza en el hígado?",
+      "options": {
+        "A": "Albúmina sérica.",
+        "B": "Urea.",
+        "C": "Ácido úrico.",
+        "D": "Globulina."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Albúmina sérica."
+    },
+    {
+      "id": 201,
+      "question": "Cuando son positivos los marcadores de HbsAg, HbcAg IgM y HBeAg, probablemente nos encontramos frente a:",
+      "options": {
+        "A": "Una infección aguda de Hepatitis B.",
+        "B": "Periodo ventana de la Hepatitis B.",
+        "C": "Una Hepatitis B crónica.",
+        "D": "Una Hepatitis C."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Una infección aguda de Hepatitis B."
+    },
+    {
+      "id": 202,
+      "question": "En la hepatitis B, después de haber sido vacunados, encontraremos:",
+      "options": {
+        "A": "Anticuerpos contra el antígeno de la cápside.",
+        "B": "Anticuerpos contra el antígeno de superficie.",
+        "C": "Anticuerpos contra el antígeno de envoltura.",
+        "D": "Ninguna de las anteriores es cierta."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos contra el antígeno de superficie."
+    },
+    {
+      "id": 203,
+      "question": "¿Cuál es el primer marcador serológico que aparece en la infección por el virus de la hepatitis B?:",
+      "options": {
+        "A": "HBsAg.",
+        "B": "antiHBs.",
+        "C": "HBe.",
+        "D": "antiHBe."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "HBsAg."
+    },
+    {
+      "id": 204,
+      "question": "¿Cuál de los siguientes valores es un valor plasmático normal de la GOT?",
+      "options": {
+        "A": "<4 U/L.",
+        "B": ">55 U/L.",
+        "C": "5-34 U/L.",
+        "D": "25-85 U/L."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "5-34 U/L."
+    },
+    {
+      "id": 205,
+      "question": "¿Cómo se denomina a la bilirrubina que se transporta en el plasma unida a la albúmina?:",
+      "options": {
+        "A": "Bilirrubina conjugada.",
+        "B": "Bilirrubina no conjugada.",
+        "C": "Bilirrubina directa.",
+        "D": "Bilis."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Bilirrubina no conjugada."
+    },
+    {
+      "id": 206,
+      "question": "El cociente GOT/GPT es generalmente superior a 1 en:",
+      "options": {
+        "A": "Hepatitis viral.",
+        "B": "Colestasis.",
+        "C": "Hepatitis autoinmune.",
+        "D": "Hepatitis alcohólica."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Hepatitis alcohólica."
+    },
+    {
+      "id": 207,
+      "question": "¿A qué fracción electroforética corresponde la haptoglobina?:",
+      "options": {
+        "A": "Alfa 1- globulinas.",
+        "B": "Alfa 2 - globulinas.",
+        "C": "Beta-globulinas.",
+        "D": "Gammaglobulinas."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Alfa 2 - globulinas."
+    },
+    {
+      "id": 208,
+      "question": "¿Cuál de las siguientes fracciones electroforéticas se encuentran aumentadas en las hepatopatías crónicas?:",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Alfa 1- globulinas.",
+        "C": "Alfa 2 - globulinas.",
+        "D": "Gammaglobulinas."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Gammaglobulinas."
+    },
+    {
+      "id": 209,
+      "question": "¿Cuál es el primer marcador que encontramos en suero tras la infección por el Virus de la Hepatitis B (VHB)?",
+      "options": {
+        "A": "HBs Ag.",
+        "B": "Ac HBe",
+        "C": "HBc Ag.",
+        "D": "Ag HBe."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "HBs Ag."
+    },
+    {
+      "id": 210,
+      "question": "¿Qué prueba debes emplear para valorar la función excretora del hígado?",
+      "options": {
+        "A": "Determinación de TP.",
+        "B": "Determinación de bilirrubina.",
+        "C": "Determinación de albúmina.",
+        "D": "Determinación de GPT."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Determinación de bilirrubina."
+    },
+    {
+      "id": 211,
+      "question": "Para realizar un proteinograma en orina, en general, debe concentrar esa orina:",
+      "options": {
+        "A": "Unas 100 veces.",
+        "B": "Unas 80 veces.",
+        "C": "Unas 60 veces.",
+        "D": "Unas 20 veces. Comentario. La concentración de la orina va a depender de la cantidad total de proteínas en orina. En casos con pocas proteínas, se recomienda concentrar unas 100-150 veces"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Unas 100 veces."
+    },
+    {
+      "id": 212,
+      "question": "Indica la afirmación correcta.",
+      "options": {
+        "A": "La bilirrubina indirecta se conjuga en el hígado",
+        "B": "La bilirrubina conjugada es transportada principalmente por la albúmina.",
+        "C": "La bilirrubina indirecta se forma al degradarse las cadenas de globina de la hemoglobina.",
+        "D": "Con valores de bilirrubina por encima de 1 mg/dl, se produce ictericia."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "La bilirrubina indirecta se conjuga en el hígado"
+    },
+    {
+      "id": 213,
+      "question": "La 5-nucleotidasa",
+      "options": {
+        "A": "aumenta en lesiones hepatocelulares.",
+        "B": "se eleva en enfermedad ósea.",
+        "C": "aumenta en trastornos obstructivos hepatobiliares y en lesiones hepatocelulares.",
+        "D": "aumenta en trastornos obstructivos hepatobiliares."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "aumenta en trastornos obstructivos hepatobiliares."
+    },
+    {
+      "id": 214,
+      "question": "Indique la enzima más específica de colestasis:",
+      "options": {
+        "A": "GGT.",
+        "B": "GPT.",
+        "C": "Fosfatasa Alcalina.",
+        "D": "5'- nucleotidasa."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "5'- nucleotidasa."
+    },
+    {
+      "id": 215,
+      "question": "Indica la afirmación incorrecta, con respecto al hígado.",
+      "options": {
+        "A": "Transforma el amoníaco en creatinina.",
+        "B": "Sintetiza glucosa a partir de ácido láctico.",
+        "C": "Elimina compuestos tóxicos.",
+        "D": "Almacena vitaminas. Comentario. A pillar. Transforma el AMONIO en urea"
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Transforma el amoníaco en creatinina."
+    },
+    {
+      "id": 216,
+      "question": "La enfermedad de Wilson consiste en:",
+      "options": {
+        "A": "Acumulación en exceso de cobre en el",
+        "B": "Acumulación en exceso de hierro en el organismo.",
+        "C": "Insuficiencia de cobre en el organismo.",
+        "D": "Insuficiencia de sodio en el organismo."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Acumulación en exceso de cobre en el"
+    },
+    {
+      "id": 217,
+      "question": "¿Cuál de los siguientes es un método bioquímico para la determinación de proteínas totales en sangre?",
+      "options": {
+        "A": "Biuret.",
+        "B": "Jaffe.",
+        "C": "Hexoquinasa.",
+        "D": "Berthelot-Searcy."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Biuret."
+    },
+    {
+      "id": 218,
+      "question": "¿Qué tipo de alteración de las proteínas plasmáticas se podría esperar en un paciente con deficiencias en el sistema inmunitario?",
+      "options": {
+        "A": "Hiperalbuminemia.",
+        "B": "Hipergammaglobulinemia.",
+        "C": "Hipogammaglobulinemia.",
+        "D": "Hiperalfaglobulinemia."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Hipogammaglobulinemia."
+    },
+    {
+      "id": 219,
+      "question": "¿Cuál de las siguientes funciones NO la desarrollan las proteínas plasmáticas?",
+      "options": {
+        "A": "Función de nutrición de los tejidos.",
+        "B": "Participación activa en el mantenimiento del equilibrio osmótico.",
+        "C": "Función defensiva.",
+        "D": "Fuente de energía."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Fuente de energía."
+    },
+    {
+      "id": 220,
+      "question": "¿Cuál de los siguientes parámetros bioquímicos NO es útil para determinar una enfermedad hepática?",
+      "options": {
+        "A": "GOT (Aspartatoaminotransferasa).",
+        "B": "ALP (Fosfatasa alcalina).",
+        "C": "LDH (Lactato deshidrogenasa).",
+        "D": "Creatinina."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Creatinina."
+    },
+    {
+      "id": 221,
+      "question": "La coloración de la piel y mucosas por acumulación de bilirrubina en los tejidos se denomina:",
+      "options": {
+        "A": "Colestasis.",
+        "B": "Ictericia.",
+        "C": "Amiloidosis.",
+        "D": "Cirrosis."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Ictericia."
+    },
+    {
+      "id": 222,
+      "question": "¿Cuál de las siguientes actuaciones sobre los principios inmediatos NO es hepática:",
+      "options": {
+        "A": "Movilizar ácidos grasos procedentes del tejido adiposo.",
+        "B": "Sintetizar colesterol.",
+        "C": "Utilizar la urea procedente de la degradación de",
+        "D": "Sintetizar albúmina. Comentario. Es al revés, transforma el amoniaco y amonio en urea para eliminarlo"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Utilizar la urea procedente de la degradación de"
+    },
+    {
+      "id": 223,
+      "question": "¿Cuál de estos parámetros no refleja daño hepatocelular?",
+      "options": {
+        "A": "AST.",
+        "B": "ALT.",
+        "C": "LDH.",
+        "D": "ALP."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "ALP."
+    },
+    {
+      "id": 224,
+      "question": "El virus de la hepatitis Delta (VHD) se asocia siempre a la infección por:",
+      "options": {
+        "A": "VHB.",
+        "B": "VHA.",
+        "C": "VHC.",
+        "D": "VHA y VHC."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "VHB."
+    },
+    {
+      "id": 225,
+      "question": "¿Cuál de estas afirmaciones NO es correcta respecto a la bilirrubina?",
+      "options": {
+        "A": "Es sensible a la luz y se degrada cuando se expone a ésta.",
+        "B": "La hemólisis produce un falso aumento en su concentración.",
+        "C": "Los anticonceptivos orales pueden disminuir su",
+        "D": "La lipidemia produce una falsa reducción."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Los anticonceptivos orales pueden disminuir su"
+    },
+    {
+      "id": 226,
+      "question": "¿Qué hepatitis se transmite por vía fecal-oral?",
+      "options": {
+        "A": "VHA.",
+        "B": "VHB.",
+        "C": "VHC.",
+        "D": "VHD."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "VHA."
+    },
+    {
+      "id": 227,
+      "question": "Señale la respuesta incorrecta respecto a las proteínas totales en sangre.",
+      "options": {
+        "A": "El método Kjeldahl determina el nitrógeno proteico.",
+        "B": "El método Biuret es un método colorimétrico.",
+        "C": "Los métodos refractométricos son rápidos, pero",
+        "D": "El método Lowry es de gran sensibilidad."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Los métodos refractométricos son rápidos, pero"
+    },
+    {
+      "id": 228,
+      "question": "En función de su localización, las proteínas pueden clasificarse en:",
+      "options": {
+        "A": "Simples.",
+        "B": "Conjugadas.",
+        "C": "A) y B) son correctas.",
+        "D": "Hísticas y hemáticas."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Hísticas y hemáticas."
+    },
+    {
+      "id": 229,
+      "question": "Cuando son positivos HBsAg, HBc-IgM y HBeAg, podemos decir que nos encontramos ante:",
+      "options": {
+        "A": "Una hepatitis B crónica.",
+        "B": "El período ventana de una hepatitis B.",
+        "C": "Una hepatitis B aguda."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Una hepatitis B aguda."
+    },
+    {
+      "id": 230,
+      "question": "¿Cuál de los siguientes parámetros refleja colestasis?:",
+      "options": {
+        "A": "Fosfatasa alcalina (ALP).",
+        "B": "Aspartato-aminotransferasa (AST).",
+        "C": "Alanina-aminotransferasa (ALT)."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Fosfatasa alcalina (ALP)."
+    },
+    {
+      "id": 231,
+      "question": "¿Qué son las células de Küpffer?:",
+      "options": {
+        "A": "Macrófagos tisulares en senos hepáticos.",
+        "B": "Macrófagos tisulares en alveolos pulmonares.",
+        "C": "Macrófagos tisulares en la piel."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Macrófagos tisulares en senos hepáticos."
+    },
+    {
+      "id": 232,
+      "question": "En la enfermedad de Wilson, además de pruebas genéticas, se solicita:",
+      "options": {
+        "A": "Cobre en orina de 24 horas y ceruloplasmina",
+        "B": "Determinación de la mutación HFE.",
+        "C": "Anticuerpos anti-LKM."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Cobre en orina de 24 horas y ceruloplasmina"
+    },
+    {
+      "id": 233,
+      "question": "¿En qué fracción del proteinograma migra la ceruloplasmina?:",
+      "options": {
+        "A": "Alfa1-globulinas.",
+        "B": "Alfa2-globulinas.",
+        "C": "Betaglobulinas."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Alfa2-globulinas."
+    },
+    {
+      "id": 234,
+      "question": "La aparición de una banda en la fracción gamma del proteinograma, indica la siguiente patología:",
+      "options": {
+        "A": "Mieloma múltiple.",
+        "B": "Hepatitis C.",
+        "C": "Anemia ferropénica."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Mieloma múltiple."
+    },
+    {
+      "id": 235,
+      "question": "La mínima unidad metabólica y funcional del hígado actualmente se conoce como:",
+      "options": {
+        "A": "Lobulillo hepático.",
+        "B": "Acino hepático.",
+        "C": "Sinusoide hepática."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Acino hepático."
+    },
+    {
+      "id": 236,
+      "question": "La metodología que se utiliza para la determinación de AST o GOT en sangre, se basa en medir:",
+      "options": {
+        "A": "La velocidad de aumento de la concentración de KOH en el medio.",
+        "B": "La velocidad de aumento de la concentración de NADH en el medio.",
+        "C": "La velocidad de disminución de la concentración de KOH en el medio.",
+        "D": "La velocidad de disminución de la concentración de NADH en el medio."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "La velocidad de disminución de la concentración de NADH en el medio."
+    },
+    {
+      "id": 237,
+      "question": "La alfa-1-glicoproteína ácida se conoce también como:",
+      "options": {
+        "A": "Proteína glicosilada.",
+        "B": "Orosomucoide.",
+        "C": "A1c (hemoglobina glicosilada).",
+        "D": "Pentagastrina."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Orosomucoide."
+    },
+    {
+      "id": 238,
+      "question": "¿Qué marcador de fase aguda se eleva más rápidamente y es el más específico en infecciones bacterianas?",
+      "options": {
+        "A": "La Haptoglobina.",
+        "B": "La PCR.",
+        "C": "La Procalcitonina.",
+        "D": "El fibrinógeno de una cadena."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "La Procalcitonina."
+    },
+    {
+      "id": 239,
+      "question": "El hígado elimina el amoniaco sanguíneo transformándolo en:",
+      "options": {
+        "A": "Ácidos biliares.",
+        "B": "Creatinina.",
+        "C": "Urea.",
+        "D": "Bilirrubina."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Urea."
+    },
+    {
+      "id": 240,
+      "question": "¿Cuál de los siguientes no es un elemento del espacio porta?",
+      "options": {
+        "A": "Vénulas Portales.",
+        "B": "Vena Central.",
+        "C": "Arteriolas hepáticas.",
+        "D": "Conductos Biliares. Comentario. Los espacios porta son regiones de tejido conjuntivo procedente de la cápsula de Glisson de aspecto triangular que se encuentran en la periferia de los lóbulos hepáticos"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Vena Central."
+    },
+    {
+      "id": 241,
+      "question": "Señala la respuesta correcta:",
+      "options": {
+        "A": "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los Picarnavirus.",
+        "B": "El virus de la hepatitis B es un virus ADN y",
+        "C": "El virus de la hepatitis C es un virus ARN y pertenece a la familia de los flavivilidae.",
+        "D": "Todas son correctas."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "El virus de la hepatitis B es un virus ADN y"
+    },
+    {
+      "id": 242,
+      "question": "Indica la respuesta incorrecta respecto al proteinograma.",
+      "options": {
+        "A": "La transferrina es la proteína principal de la banda de las betaglobulinas.",
+        "B": "La proteína C reactiva aparece en la banda de las inmunoglobulinas.",
+        "C": "La lipoproteína HDL aparece en la banda de las alfa-1-globulinas.",
+        "D": "La prealbúmina es la banda más ancha y grande del proteinograma. Comentario. Recuerda que la PCR puede aparecer en beta o en gamma"
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "La prealbúmina es la banda más ancha y grande del proteinograma. Comentario. Recuerda que la PCR puede aparecer en beta o en gamma"
+    },
+    {
+      "id": 243,
+      "question": "¿Cuál de las proteínas séricas siguientes se observa en la separación de un proteinograma?",
+      "options": {
+        "A": "La transferrina.",
+        "B": "La albúmina y las inmunoglobulinas.",
+        "C": "La ceruloplasmina.",
+        "D": "La ferritina."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "La albúmina y las inmunoglobulinas."
+    },
+    {
+      "id": 244,
+      "question": "El aumento de los niveles de amoniaco en sangre puede ser debido a:",
+      "options": {
+        "A": "Enfermedad pulmonar obstructiva crónica.",
+        "B": "Enfermedad de Addison.",
+        "C": "Enfermedad genética del ciclo de la urea."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Enfermedad genética del ciclo de la urea."
+    },
+    {
+      "id": 245,
+      "question": "¿En cuál de las siguientes patologías no aumenta la GGT?",
+      "options": {
+        "A": "Enfermedad hepática.",
+        "B": "Insuficiencia renal.",
+        "C": "EPOC.",
+        "D": "Patología ósea."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Patología ósea."
+    },
+    {
+      "id": 246,
+      "question": "Para poder infectar los hepatocitos, el virus de la hepatitis Delta, debe ir asociado a otro. ¿De qué virus se trata?",
+      "options": {
+        "A": "Virus de la hepatitis A",
+        "B": "Virus de la hepatitis B",
+        "C": "Virus de la hepatitis C",
+        "D": "Citomegalovirus"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Virus de la hepatitis B"
+    },
+    {
+      "id": 247,
+      "question": "Indique la respuesta incorrecta sobre el metabolismo de la bilirrubina:",
+      "options": {
+        "A": "La bilirrubina una vez formada, pasa a la circulación sanguínea y se une a la albúmina",
+        "B": "La bilirrubina cuando pasa a la circulación",
+        "C": "Parte de la bilirrubina conjugada se elimina por vía renal en forma de urobilina",
+        "D": "Parte de la bilirrubina conjugada se elimina por las heces como estercobilinógeno"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "La bilirrubina cuando pasa a la circulación"
+    },
+    {
+      "id": 248,
+      "question": "En la electroforesis de proteínas, una de las proteínas principales de la fracción alfa1 es:",
+      "options": {
+        "A": "Alfa-macroglobulina",
+        "B": "Alfa-antitripsina",
+        "C": "Transferrina",
+        "D": "Ceruloplasmina"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Alfa-antitripsina"
+    },
+    {
+      "id": 249,
+      "question": "¿Qué marcador serológico se detecta tras una infección pasada por VHB y es el único que aparece como positivo en vacunados?",
+      "options": {
+        "A": "Anti-HBs",
+        "B": "AND-VHB",
+        "C": "Anti-HBc",
+        "D": "Anti-HBe"
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Anti-HBs"
+    },
+    {
+      "id": 250,
+      "question": "Las pruebas de función hepática se utilizan para:",
+      "options": {
+        "A": "Determinar presencia o ausencia de daño hepático",
+        "B": "Determinar severidad y establecer pronósticos",
+        "C": "Monitorizar el curso de la enfermedad hepática",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 251,
+      "question": "¿Cuál de las siguientes enzimas es más específica del hígado?",
+      "options": {
+        "A": "Lactato deshidrogenasa",
+        "B": "ALT/GPT",
+        "C": "AST/GOT",
+        "D": "Fosfatasa alcalina"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "ALT/GPT"
+    },
+    {
+      "id": 252,
+      "question": "¿Cuál de las siguientes enfermedades genéticas causan enfermedad hepática?:",
+      "options": {
+        "A": "Hemocromatosis hereditaria",
+        "B": "Enfermedad de Wilson",
+        "C": "Deficiencia de alfa1-antitripsina",
+        "D": "Todas son correctas"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 253,
+      "question": "¿Cuál es la proteína plasmática más abundante y principal responsable de la presión osmótica?",
+      "options": {
+        "A": "Albumina.",
+        "B": "Haptoglobina.",
+        "C": "Transferrina.",
+        "D": "Ceruloplasmina."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Albumina."
+    },
+    {
+      "id": 254,
+      "question": "¿En qué fracción de la proteinograma se encuentra la transferrina?",
+      "options": {
+        "A": "Alfa 1 globulinas.",
+        "B": "Alfa 2 globulinas.",
+        "C": "Betaglobulinas.",
+        "D": "Gammaglobulinas."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "Betaglobulinas."
+    },
+    {
+      "id": 255,
+      "question": "¿Cuál de las siguientes definiciones corresponde con sepsis?",
+      "options": {
+        "A": "La presencia de bacterias en la sangre que se pone de manifiesto por el aislamiento de éstas en los hemocultivos.",
+        "B": "Se utiliza para designar la presencia de hongos en la sangre, generalmente levaduras del género Candida spp.",
+        "C": "Es una disfunción orgánica que amenaza la vida",
+        "D": "Todas las respuestas anteriores son ciertas."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "Es una disfunción orgánica que amenaza la vida"
+    },
+    {
+      "id": 256,
+      "question": "En la detección de alcoholismo crónico, ¿qué parámetro bioquímico resulta de mayor utilidad?",
+      "options": {
+        "A": "Determinación de niveles de Bilirrubina.",
+        "B": "Determinación de niveles de Alcoholdeshidrogenasa (ADH).",
+        "C": "Determinación de niveles de Lactatodeshidrogenasa (LDH).",
+        "D": "Determinación de niveles de Gammaglutamiltranspeptidasa (GGT)."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Determinación de niveles de Gammaglutamiltranspeptidasa (GGT)."
+    },
+    {
+      "id": 257,
+      "question": "En la determinación de la bilirrubina en suero, es cierto que:",
+      "options": {
+        "A": "La bilirrubina conjugada en el hepatocito forma la bilirrubina indirecta.",
+        "B": "La bilirrubina indirecta se determina directamente en el analizador.",
+        "C": "Los niveles de bilirrubina indirecta son un índice fiable de la función hepática.",
+        "D": "Un aumento aislado de la bilirrubina directa indica colestasis. Explicación. No siempre, pero es la menos mala de las opciones. La dieron como correcta, aunque está cogido con pinzas"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Un aumento aislado de la bilirrubina directa indica colestasis. Explicación. No siempre, pero es la menos mala de las opciones. La dieron como correcta, aunque está cogido con pinzas"
+    },
+    {
+      "id": 258,
+      "question": "¿Cuál de las siguientes enzimas presenta mayor especificidad de la lesión hepática?",
+      "options": {
+        "A": "GOT.",
+        "B": "GPT.",
+        "C": "CPK.",
+        "D": "LDH."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "GPT."
+    },
+    {
+      "id": 259,
+      "question": "¿Cuál de las siguientes enzimas presenta mayor especificidad de la lesión hepática?",
+      "options": {
+        "A": "GOT",
+        "B": "GPT",
+        "C": "GGT",
+        "D": "CPK E) LDH"
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "GPT"
+    },
+    {
+      "id": 260,
+      "question": "En la detección de alcoholismo crónico, ¿qué parámetro bioquímico resulta de mayor utilidad?",
+      "options": {
+        "A": "Determinación de Bilirrubina.",
+        "B": "Determinación de Alcoholdeshidrogenas (ADH).",
+        "C": "Determinación de Lactatodeshidrogenasa (LDH).",
+        "D": "Niveles de Gamma Glutamiltranspeptidasa (GGT)."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Niveles de Gamma Glutamiltranspeptidasa (GGT)."
+    },
+    {
+      "id": 261,
+      "question": "¿Cómo se encuentran normalmente las gammaglobulinas en la enfermedad hepática?",
+      "options": {
+        "A": "Aumentadas.",
+        "B": "Disminuidas.",
+        "C": "No se alteran."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Aumentadas."
+    },
+    {
+      "id": 262,
+      "question": "En el síndrome de Wilson, ¿cuál es el analito que se encuentra aumentado y que lo caracteriza?",
+      "options": {
+        "A": "Hierro.",
+        "B": "Bilirubina.",
+        "C": "Cobre."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Cobre."
+    },
+    {
+      "id": 263,
+      "question": "Señale cuál de las siguientes afirmaciones sobre las proteínas séricas es cierta:",
+      "options": {
+        "A": "La albúmina es la proteína de mayor peso molecular.",
+        "B": "La beta-2-microglobulina forma parte del sistema",
+        "C": "La transferrina es una alfa-globulina.",
+        "D": "La función principal de la haptoglobina consiste en combinarse con la mioglobina que se libera en el plasma durante la hemólisis intravascular."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "La beta-2-microglobulina forma parte del sistema"
+    },
+    {
+      "id": 264,
+      "question": "Señale la situación que se perfila en una Hepatitis Aguda:",
+      "options": {
+        "A": "Un aumento elevado de Aspartato aminotransferasa (AST) y Alanina aminotransferasa (ALT); y un detrimento de la actividad de la fosfatasa alcalina plasmática.",
+        "B": "Un",
+        "C": "",
+        "D": "Un aumento moderado de Aspartato aminotransferasa (ALT), que no sobrepasan las 50 U/L; y un detrimento de la actividad de la fosfatasa alcalina."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Un"
+    },
+    {
+      "id": 265,
+      "question": "Señale la respuesta incorrecta en relación a la fosfatasa alcalina:",
+      "options": {
+        "A": "Pertenece a la clase de las hidrolasas.",
+        "B": "Se fracciona en dos isoenzimas.",
+        "C": "Es un marcador sensible de la enfermedad obstructiva hepática pero no específica.",
+        "D": "Su actividad óptima es a un pH alcalino."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Se fracciona en dos isoenzimas."
+    },
+    {
+      "id": 266,
+      "question": "¿Cuál es la incorrecta?",
+      "options": {
+        "A": "La presencia de Ac anti-HBc indica contacto con el virus VHB",
+        "B": "Los Ac anti-HBs indican inmunidad por curación o vacunación.",
+        "C": "El HBsAg es el indicador de alta replicación viral.",
+        "D": "Si el HBsAg permanece detectable durante al menos 6 meses implica infección crónica."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "El HBsAg es el indicador de alta replicación viral."
+    },
+    {
+      "id": 267,
+      "question": "¿En qué órgano o tejido se encuentra más elevada la alanina-aminotrasferasa?",
+      "options": {
+        "A": "Páncreas.",
+        "B": "Intestino.",
+        "C": "Hígado.",
+        "D": "Músculo."
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Hígado."
+    },
+    {
+      "id": 268,
+      "question": "Para el diagnóstico del fallo hepático crónico podemos emplear la determinación de:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Bilirrubina.",
+        "C": "Cetonuria.",
+        "D": "Albumina."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Albumina."
+    },
+    {
+      "id": 269,
+      "question": "El indicador enzimático más sensible de enfermedad hepatobiliar es la:",
+      "options": {
+        "A": "GGT.",
+        "B": "Fosfatasa alcalina.",
+        "C": "LDH.",
+        "D": "Creatina cinasa."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "GGT."
+    },
+    {
+      "id": 270,
+      "question": "¿Qué fracción de la bilirrubina se excreta por la orina?",
+      "options": {
+        "A": "Bilirrubina total.",
+        "B": "Bilirrubina directa.",
+        "C": "Bilirrubina indirecta.",
+        "D": "Bilirrubina no conjugada."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Bilirrubina directa."
+    },
+    {
+      "id": 271,
+      "question": "¿Cuál de éstos es el primer marcador que aparece en la infección por virus de la hepatitis B?",
+      "options": {
+        "A": "HBsAg.",
+        "B": "Anti-HBc IgM.",
+        "C": "HBeAg.",
+        "D": "Anti-HBs."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "HBsAg."
+    },
+    {
+      "id": 272,
+      "question": "El cociente AST/ALT es generalmente superior a 1 en:",
+      "options": {
+        "A": "Hepatitis viral.",
+        "B": "Colestasis.",
+        "C": "Hepatitis autoinmune.",
+        "D": "Hepatitis alcohólica."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Hepatitis alcohólica."
+    },
+    {
+      "id": 273,
+      "question": "Las concentraciones más elevadas de GGT se encuentran en:",
+      "options": {
+        "A": "Hígado.",
+        "B": "Músculo esquelético.",
+        "C": "Páncreas.",
+        "D": "Eritrocitos."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Hígado."
+    },
+    {
+      "id": 274,
+      "question": "La bilirrubina que se transporta unida a la albúmina en el plasma es:",
+      "options": {
+        "A": "Bilirrubina directa.",
+        "B": "Bilirrubina conjugada.",
+        "C": "Bilirrubina no conjugada.",
+        "D": "Bilis."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "Bilirrubina no conjugada."
+    },
+    {
+      "id": 275,
+      "question": "La fracción proteica mayoritaria en el suero humano es:",
+      "options": {
+        "A": "Fibrinógeno.",
+        "B": "IgG.",
+        "C": "LDH.",
+        "D": "Albumina."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Albumina."
+    },
+    {
+      "id": 276,
+      "question": "En un proteinograma ¿Cuál es la fracción mayor de las siguientes proteínas?",
+      "options": {
+        "A": "Transferrina.",
+        "B": "Albumina.",
+        "C": "Ceruloplasmina.",
+        "D": "Ferritina."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Albumina."
+    },
+    {
+      "id": 277,
+      "question": "¿Cuál de las siguientes proteínas séricas presenta interés clínico como marcador del estado nutricional del individuo?",
+      "options": {
+        "A": "Prealbúmina.",
+        "B": "Albúmina.",
+        "C": "Transferrina.",
+        "D": "Todas las anteriores."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 278,
+      "question": "¿Cuál de las siguientes enfermedades hepáticas cursa generalmente con los mayores incrementos séricos de las transaminasas?",
+      "options": {
+        "A": "Hepatitis tóxica aguda.",
+        "B": "Cirrosis biliar.",
+        "C": "Coledocolitiasis.",
+        "D": "Hepatitis crónica autoinmune."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Hepatitis tóxica aguda."
+    },
+    {
+      "id": 279,
+      "question": "Se observa un incremento de proteínas séricas; se solicita un proteinograma. En la electroforesis en suero, las proteínas se separan en función de:",
+      "options": {
+        "A": "Tamaño y carga.",
+        "B": "Aminoácidos aromáticos de las proteínas.",
+        "C": "Solubilidad en buffer neutro."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Tamaño y carga."
+    },
+    {
+      "id": 280,
+      "question": "¿En qué fracción del proteinograma migran las inmunoglobulinas?",
+      "options": {
+        "A": "Fracción Gamma.",
+        "B": "Fracción Beta.",
+        "C": "Fracción Alfa."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Fracción Gamma."
+    },
+    {
+      "id": 281,
+      "question": "¿En cuál de los siguientes contextos clínicos puede aparecer una hiperbilirrubinemia no conjugada provocada por una alteración en la conjugación de la bilirrubina?",
+      "options": {
+        "A": "Ictericia producida por la lactancia materna.",
+        "B": "Enfermedad de Gilbert.",
+        "C": "Enfermedad de Crigler-Najjar.",
+        "D": "Todas las anteriores."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 282,
+      "question": "¿Cuál de las siguientes situaciones presenta un aumento de las concentraciones de bilirrubina total y conjugada?:",
+      "options": {
+        "A": "Síndrome de Gilbert.",
+        "B": "Síndrome de Crigler-Najjar.",
+        "C": "Colestasis.",
+        "D": "Todas las anteriores"
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Colestasis."
+    },
+    {
+      "id": 283,
+      "question": "Funciones bioquímicas del hígado. ¿Cuál de estos procesos metabólicos NO es exclusivo del hígado?:",
+      "options": {
+        "A": "Glucuronación de bilirrubina.",
+        "B": "Síntesis de sales biliares.",
+        "C": "Ciclo de la urea.",
+        "D": "Almacenamiento de glucógeno"
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Almacenamiento de glucógeno"
+    },
+    {
+      "id": 284,
+      "question": "En relación con patrones bioquímicos que se pueden presentar en las enfermedades hepáticas, NO es cierto que:",
+      "options": {
+        "A": "Ratio ALT/ AST > 2 es compatible con hepatitis",
+        "B": "Ratio AST/ALT < 1 es compatible con hepatitis viral o de causa tóxica.",
+        "C": "GGT y fosfatasa alcalina elevada, junto con una discreta elevación de las transaminasas, permiten pensar en un patrón colestásico.",
+        "D": "LDH elevada junto a una hiperbilirrubinemia indirecta es compatible con anemia hemolítica."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Ratio ALT/ AST > 2 es compatible con hepatitis"
+    },
+    {
+      "id": 285,
+      "question": "¿Cuáles son las principales enzimas que se elevan en suero de pacientes con colestasis?",
+      "options": {
+        "A": "Aspartato aminotransferasa y fosfatasa alcalina.",
+        "B": "Fosfatasa alcalina y gamma-glutamil transferasa.",
+        "C": "Aspartato aminotransferasa y alanina aminotransferasa.",
+        "D": "Aspartato aminotransferasa y gamma-glutamil transferasa"
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Fosfatasa alcalina y gamma-glutamil transferasa."
+    },
+    {
+      "id": 286,
+      "question": "¿Cuál de las siguientes proteínas no está́ indicada para evaluar el estado nutricional?",
+      "options": {
+        "A": "Prealbúmina.",
+        "B": "Alfa 1 glucoproteína ácida.",
+        "C": "Proteína fijadora del Retinol.",
+        "D": "Transferrina."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Alfa 1 glucoproteína ácida."
+    },
+    {
+      "id": 287,
+      "question": "¿Qué parámetros de laboratorio utiliza el índice CONUTS como método de cribado de la desnutrición hospitalaria?",
+      "options": {
+        "A": "Albúmina, Colesterol, linfocitos.",
+        "B": "Albúmina, Prealbúmina, Colesterol.",
+        "C": "Prealbúmina, Colesterol, linfocitos.",
+        "D": "Albúmina, Colesterol."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Albúmina, Colesterol, linfocitos."
+    },
+    {
+      "id": 288,
+      "question": "En relación a Parámetros de función inmunológica, en la evaluación nutricional se ha relacionado con malnutrición:",
+      "options": {
+        "A": "La disminución en el recuento total de linfocitos",
+        "B": "El índice de CD3/CD4 (>50).",
+        "C": "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.",
+        "D": "El aumento en el recuento total de linfocitos (>10.500)."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "La disminución en el recuento total de linfocitos"
+    },
+    {
+      "id": 289,
+      "question": "Señale la respuesta CORRECTA sobre la procalcitonina.",
+      "options": {
+        "A": "Se produce en los linfocitos helper.",
+        "B": "La inducción de procalcitonina es rápida, detectándose a las 12-24 horas tras el estímulo bacteriano.",
+        "C": "Procalcitonina se eleva exclusivamente en condiciones infecciosas.",
+        "D": "En los neonatos, se encuentran concentraciones elevadas de forma fisiológica en sus primeras 48 horas de vida."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "En los neonatos, se encuentran concentraciones elevadas de forma fisiológica en sus primeras 48 horas de vida."
+    },
+    {
+      "id": 290,
+      "question": "En la especie humana, los ácidos biliares primarios, formados en el hígado a partir del colesterol, son:",
+      "options": {
+        "A": "Los ácidos cólico y ursodeoxicólico.",
+        "B": "Ácidos quenodesoxicólico y litocólico.",
+        "C": "Ácidos cólico y quenodesoxicólico.",
+        "D": "Ácidos litocólico y desoxicólico."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Ácidos cólico y quenodesoxicólico."
+    },
+    {
+      "id": 291,
+      "question": "¿Qué indica el siguiente perfil serológico frente a hepatitis B? AgHBs (-); AntiHBc(+); IgM antiHBc (-); AntiHBs (+); AgHBe (-), Anti-HBe (+)",
+      "options": {
+        "A": "Paciente vacunado",
+        "B": "Infección aguda con bajo grado de replicación",
+        "C": "Infección crónica con alto grado de replicación",
+        "D": "Infección antigua resuelta"
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "Infección antigua resuelta"
+    },
+    {
+      "id": 292,
+      "question": "Señale la respuesta CORRECTA sobre la procalcitonina.",
+      "options": {
+        "A": "En pacientes con sospecha de infección y",
+        "B": "La procalcitonina no aumenta en las primeras 48",
+        "C": "En prematuros las concentraciones de procalcitonina están característicamente disminuidas.",
+        "D": "Las concentraciones de procalcitonina carecen de utilidad como herramienta de apoyo para acortar la duración de la terapia antimicrobiana."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "En pacientes con sospecha de infección y"
+    },
+    {
+      "id": 293,
+      "question": "Respecto a los marcadores de la hepatitis B, señale la opción falsa:",
+      "options": {
+        "A": "Los anticuerpos frente al HBsAg indican resolución de la infección o que el individuo ha sido vacunado.",
+        "B": "HBsAg es un marcador de infección pasada.",
+        "C": "Los HBsAg y HBeAg se secretan en sangre durante la replicación vírica.",
+        "D": "La detección de IgM anti-HBc es el mejor método para diagnosticar una infección aguda reciente, especialmente durante el periodo ventana."
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "HBsAg es un marcador de infección pasada."
+    },
+    {
+      "id": 294,
+      "question": "La mutación más frecuente en la hemocromatosis familiar hereditaria es:",
+      "options": {
+        "A": "Gen HJU.",
+        "B": "Gen HAMP.",
+        "C": "Gen HFE.",
+        "D": "Gen FRZ."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Gen HFE."
+    },
+    {
+      "id": 295,
+      "question": "En la enfermedad de Wilson:",
+      "options": {
+        "A": "Disminuyen",
+        "B": "Aumenta la concentración de cobre plasmático.",
+        "C": "Disminuye la concentración de cobre urinario.",
+        "D": "Todas las anteriores son correctas."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "Disminuyen"
+    },
+    {
+      "id": 296,
+      "question": "En qué región del proteinograma migra la haptoglobina:",
+      "options": {
+        "A": "Alfa-1",
+        "B": "Alfa-2",
+        "C": "Beta",
+        "D": "Gamma"
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "Alfa-2"
+    },
+    {
+      "id": 297,
+      "question": "Referido a la albúmina plasmática y sus efectos, ¿cuál de las siguientes afirmaciones es la FALSA?",
+      "options": {
+        "A": "La albúmina plasmática mantiene la presión oncótica intravascular.",
+        "B": "La albúmina plasmática aumenta con la",
+        "C": "La albuminuria es un marcador precoz de insuficiencia renal.",
+        "D": "La ascitis suele cursar con hipoalbuminemia."
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "La albúmina plasmática aumenta con la"
+    },
+    {
+      "id": 298,
+      "question": "¿Cuál de los siguientes NO es un reactante de fase aguda?",
+      "options": {
+        "A": "Fibrinógeno.",
+        "B": "Proteína C reactiva.",
+        "C": "Beta-2-microglobulina.",
+        "D": "Seroamiloide A"
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Beta-2-microglobulina."
+    },
+    {
+      "id": 299,
+      "question": "¿Cuáles de las siguientes proteínas plasmáticas se encuentran en la fracción gamma de la electroforesis?",
+      "options": {
+        "A": "Hemopexina, haptoglobina e inmunoglobulina G.",
+        "B": "Ceruloplasmina, complemento C4 e inmunoglobulina G.",
+        "C": "Transferrina, complemento C3 e inmunoglobulina G.",
+        "D": "Complemento C1q, proteína C reactiva e inmunoglobulina G"
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "Complemento C1q, proteína C reactiva e inmunoglobulina G"
+    },
+    {
+      "id": 300,
+      "question": "¿Qué células son macrófagos residentes en el hígado con una importante función defensiva?",
+      "options": {
+        "A": "El hígado no tiene células defensivas.",
+        "B": "Células de Schwann.",
+        "C": "Células de Kupffer.",
+        "D": "Células de Hanger."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Células de Kupffer."
+    },
+    {
+      "id": 301,
+      "question": "Las principales enzimas para determinar lesión celular hepática son:",
+      "options": {
+        "A": "Transaminasas.",
+        "B": "Fosfatasa alcalina.",
+        "C": "5'- nucleotidasa.",
+        "D": "Todas las respuestas anteriores son correctas"
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Transaminasas."
+    },
+    {
+      "id": 302,
+      "question": "¿Cuál de las siguientes situaciones NO cursa con la elevación de la fosfatasa alcalina sérica?",
+      "options": {
+        "A": "Niños y adolescentes.",
+        "B": "Enfermedad de Paget.",
+        "C": "Embarazo.",
+        "D": "Osteoporosis."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Osteoporosis."
+    },
+    {
+      "id": 303,
+      "question": "Recién nacido a término de 5 días de vida, alimentado con lactancia materna exclusiva, que desde el 3º día de vida presenta ictericia que ha ido en aumento, presentando en el día de hoy un valor de bilirrubina total de 13.5 mg/dL (valor normal < 12 mg/dL). La madre tiene un grupo sanguíneo A y Rh negativo, y el niño tiene un grupo O y Rh positivo. La sospecha clínica es de ictericia fisiológica. Sobre la ictericia fisiológica del recién nacido, señale la respuesta correcta:",
+      "options": {
+        "A": "Durante la primera semana de vida, un alto porcentaje de los recién nacidos a término desarrollan ictericia fisiológica por hiperbilirrubinemia conjugada o directa.",
+        "B": "La ictericia fisiológica causada por hiperbilirrubinemia conjugada o directa es incluso más frecuente en recién nacidos prematuros.",
+        "C": "Durante la primera semana de vida, un alto",
+        "D": "El kernícterus es una lesión hepática debida a la acumulación de bilirrubina en el hígado"
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Durante la primera semana de vida, un alto"
+    },
+    {
+      "id": 304,
+      "question": "La prueba más específica para indicar el grado de insuficiencia hepática aguda es la determinación de",
+      "options": {
+        "A": "fosfatasa alcalina.",
+        "B": "transaminasas.",
+        "C": "tiempo de protrombina (TP).",
+        "D": "bilirrubina."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "tiempo de protrombina (TP)."
+    },
+    {
+      "id": 305,
+      "question": "En la inflamación crónica, ¿cuál de las siguientes características es cierta?",
+      "options": {
+        "A": "Se observan de forma secuencial signos de destrucción tisular, de inflamación activa y reparación.",
+        "B": "Se observan de forma simultánea signos de",
+        "C": "Los fibroblastos liberan diferentes factores de crecimiento para favorecer la proliferación de macrófagos.",
+        "D": "Los leucocitos polimorfonucleares son el tipo celular predominante."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Se observan de forma simultánea signos de"
+    },
+    {
+      "id": 306,
+      "question": "¿Qué magnitudes son indicativas de daño hepatocelular?",
+      "options": {
+        "A": "AST, ALTO, ALP",
+        "B": "LDH, GGT, TSH",
+        "C": "Bilirrubina, albúmina, AST",
+        "D": "LDH, ALT, AST"
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "LDH, ALT, AST"
+    },
+    {
+      "id": 307,
+      "question": "En un patrón electroforético, la transferrina y el plasminógeno están en la fracción:",
+      "options": {
+        "A": "Alfa-1-qIobuIinas",
+        "B": "Betaglobulinas",
+        "C": "Alfa-2-qIobuIinas",
+        "D": "Gammaglobulinas"
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Betaglobulinas"
+    },
+    {
+      "id": 308,
+      "question": "La enfermedad de Wilson se da por un exceso en el almacenamiento de depósitos de:",
+      "options": {
+        "A": "Cobre",
+        "B": "Hierro",
+        "C": "Calcio",
+        "D": "Magnesio"
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Cobre"
+    },
+    {
+      "id": 309,
+      "question": "¿De qué proteína depende principalmente la presión osmótica?",
+      "options": {
+        "A": "Ferritina",
+        "B": "Fibrinógeno",
+        "C": "Albúmina",
+        "D": "Prealbúmina Comentario. La presión oncótica o presión coloidosmótica es una forma de presión osmótica"
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "Albúmina"
+    },
+    {
+      "id": 310,
+      "question": "¿Cuál de estos parámetros reflejan colestasis hepática?",
+      "options": {
+        "A": "LDH",
+        "B": "5’Nucleotidasa",
+        "C": "GPT",
+        "D": "AST"
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "5’Nucleotidasa"
+    },
+    {
+      "id": 311,
+      "question": "En una hepatitis B, después de la infección, el primer marcador viral en manifestarse en suero es:",
+      "options": {
+        "A": "Anti-HBs",
+        "B": "HBe Ag",
+        "C": "HBsAg",
+        "D": "Anti-HBc"
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "HBsAg"
+    },
+    {
+      "id": 312,
+      "question": "¿Qué proteína plasmática está disminuida en la Enfermedad de Wilson?",
+      "options": {
+        "A": "Proteína C reactiva",
+        "B": "Alfa-1 glucoproteína ácida",
+        "C": "Ceruloplasmina",
+        "D": "Ferritina"
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "Ceruloplasmina"
+    },
+    {
+      "id": 313,
+      "question": "La obstrucción biliar aguda por litiasis del árbol biliar provoca elevaciones de:",
+      "options": {
+        "A": "Bilirrubina directa",
+        "B": "Fosfatasa alcalina",
+        "C": "Gammaglutamiltranspeptidasa",
+        "D": "Todas las anteriores"
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores"
+    },
+    {
+      "id": 314,
+      "question": "Señale la respuesta incorrecta. Se consideran funciones del hígado",
+      "options": {
+        "A": "Síntesis de inmunoglobulinas en el adulto",
+        "B": "Síntesis de factores de coagulación",
+        "C": "Metabolismo lipídico",
+        "D": "Metabolismo de los hidratos de carbono"
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Síntesis de inmunoglobulinas en el adulto"
+    },
+    {
+      "id": 315,
+      "question": "En relación a la determinación de la enzima ALT en suero o plasma humano, señalar la afirmación incorrecta:",
+      "options": {
+        "A": "Se encuentra especialmente en hígado, por lo que su determinación es útil en el diagnóstico de hepatopatías.",
+        "B": "La ALT es más específica del hígado que la AST y el aumento de su actividad es más persistente.",
+        "C": "Se puede determinar su concentración posteriormente a la realización de un test enzimático y midiendo la absorbancia.",
+        "D": "Una concentración sérica por debajo de los valores normales puede indicar cirrosis."
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "Una concentración sérica por debajo de los valores normales puede indicar cirrosis."
+    },
+    {
+      "id": 316,
+      "question": "La haptoglobulina es una proteína presente en la electroforesis ¿en qué fracción?",
+      "options": {
+        "A": "Alfa-2",
+        "B": "Beta-2",
+        "C": "Alfa-1",
+        "D": "Gamma"
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Alfa-2"
+    },
+    {
+      "id": 317,
+      "question": "Los métodos para determinar las proteínas séricas son:",
+      "options": {
+        "A": "La refractometría.",
+        "B": "Reacción de Biuret.",
+        "C": "Método de Lowry.",
+        "D": "Todos son correctos."
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "Todos son correctos."
+    },
+    {
+      "id": 318,
+      "question": "Respecto a la AST (aspartato amino transferasa) es falso:",
+      "options": {
+        "A": "Abunda en hígado, corazón y músculo esquelético",
+        "B": "Sólo",
+        "C": "Hay una isoforma mitocondrial y otra citosólica",
+        "D": "Su peso molécula es de unos 94000 Daltons"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "Sólo"
+    },
+    {
+      "id": 319,
+      "question": "¿Qué hepatitis se transmiten par vía fecal-oral?",
+      "options": {
+        "A": "Hepatitis A y C",
+        "B": "Hepatitis B y D",
+        "C": "Hepatitis A y E",
+        "D": "Hepatitis C y D"
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Hepatitis A y E"
+    },
+    {
+      "id": 320,
+      "question": "En un proteinograma de suero, se observa en la banda alfa 2:",
+      "options": {
+        "A": "Complemento.",
+        "B": "Ceruloplasmina o ferroxidasa.",
+        "C": "Haptoglobina.",
+        "D": "Las respuestas B) y C) son correctas."
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas B) y C) son correctas."
+    },
+    {
+      "id": 321,
+      "question": "¿Qué proteína une hemo libre?:",
+      "options": {
+        "A": "Haptoglobina.",
+        "B": "Ferroxidasa.",
+        "C": "Hemopexina.",
+        "D": "2 - macroglobulina. Comentario. Haptoglobina se une a hemoglobina libre y hemopexina a hemo libre"
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Hemopexina."
+    },
+    {
+      "id": 322,
+      "question": "En un proteinograma, ¿qué fracción es la que constituye el 55% de banda, siendo la más ancha y grande?",
+      "options": {
+        "A": "Prealbúmina.",
+        "B": "Inmunoglobulinas.",
+        "C": "Proteína ligada de retinal.",
+        "D": "Albumina. Comentario. OJO, es la más grande y constituye el 55%, pero la más ancha suele ser la fracción gamma. No la anularon."
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "Albumina. Comentario. OJO, es la más grande y constituye el 55%, pero la más ancha suele ser la fracción gamma. No la anularon."
+    },
+    {
+      "id": 323,
+      "question": "El primer marcador virológico detectable en el suero de un paciente con hepatitis aguda B es:",
+      "options": {
+        "A": "HBsAg.",
+        "B": "HBcAg.",
+        "C": "HBeAg.",
+        "D": "anti-HBc IgM."
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "HBsAg."
+    },
+    {
+      "id": 324,
+      "question": "El virus de la hepatitis D (VHD), es un virus incompleto que requiere…….",
+      "options": {
+        "A": "VHC para su replicación.",
+        "B": "VHA para su replicación.",
+        "C": "VHB para su replicación.",
+        "D": "Todas son válidas."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "VHB para su replicación."
+    },
+    {
+      "id": 325,
+      "question": "En una persona vacunada de la hepatitis B, ¿qué marcador frente al virus debe detectarse?",
+      "options": {
+        "A": "HbsAg",
+        "B": "HbcAc",
+        "C": "HbsAc",
+        "D": "HbeAg"
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "HbsAc"
+    },
+    {
+      "id": 326,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa?",
+      "options": {
+        "A": "El virus de la hepatitis D (VHD) sólo se encuentra en personas portadoras del virus de la hepatitis B.",
+        "B": "Las medidas de control de la transmisión son las mismas que para la hepatitis B.",
+        "C": "No existe infección crónica por VHD.",
+        "D": "No existe una vacuna que evite la sobreinfección por hepatitis D en personas con infección crónica por VHB."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "No existe infección crónica por VHD."
+    },
+    {
+      "id": 327,
+      "question": "Señale la respuesta correcta en relación al virus de la hepatitis delta:",
+      "options": {
+        "A": "Es un virus completo que se asocia al virus de la hepatitis B y provoca cuadros de hepatitis fulminante.",
+        "B": "Es un virus defectuoso que sólo puede infectar a los hepatocitos cuando esté presente el VHC.",
+        "C": "Es un virus defectuoso que se asocia al virus de la",
+        "D": "En nuestro medio la infección por VHD NO está presente en usuarios de drogas por vía parenteral."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Es un virus defectuoso que se asocia al virus de la"
+    },
+    {
+      "id": 328,
+      "question": "Qué opción es más compatible ante un paciente con la siguiente serología frente a hepatitis B: HBsAg +/ANTI- HBs -/HBeAg -/ANTI- Hbe +/ANTI- HbcIgM -/ANTI- HbcIgG +/DNA VHB +:",
+      "options": {
+        "A": "Infección crónica",
+        "B": "Infección aguda",
+        "C": "Paciente vacunado",
+        "D": "Ninguna de las anteriores"
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Infección crónica"
+    },
+    {
+      "id": 329,
+      "question": "¿Cuál de los siguientes marcadores séricos del virus de la hepatitis B aparece después de la administración de la vacuna o gamma globulinas específicas?",
+      "options": {
+        "A": "HBsAg",
+        "B": "Anti-HBs",
+        "C": "Anti-HBc",
+        "D": "Anti-HBe."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Anti-HBs"
+    },
+    {
+      "id": 330,
+      "question": "El primer anticuerpo que aparece en una infección por el virus de la hepatitis B es:",
+      "options": {
+        "A": "Anti-HBc",
+        "B": "Anti-HBe",
+        "C": "Anti-HBs",
+        "D": "Anti-p24"
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Anti-HBc"
+    },
+    {
+      "id": 331,
+      "question": "El virón completo del virus de la hepatitis B se conoce como:",
+      "options": {
+        "A": "Antígeno Australia",
+        "B": "Partícula Delta",
+        "C": "Partícula de Dane",
+        "D": "Partícula de Fagot"
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Partícula de Dane"
+    },
+    {
+      "id": 332,
+      "question": "Todas las afirmaciones acerca de la hepatitis A son correctas excepto:",
+      "options": {
+        "A": "Se transmiten por vía parenteral.",
+        "B": "No se cronifica.",
+        "C": "Está producida por un virus de la familia de los picornavirus.",
+        "D": "La incidencia de infección por HVA se relaciona con malas condiciones higiénico-sanitarias."
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Se transmiten por vía parenteral."
+    },
+    {
+      "id": 333,
+      "question": "Señale la CORRECTA:",
+      "options": {
+        "A": "El virus de la hepatitis A es un virus ARN y",
+        "B": "El virus de la hepatitis B es un virus ARN y pertenece a la familia de los hepadnavirus.",
+        "C": "El virus de la hepatitis C es un virus ADN y pertenece a la familia de los flaviviridae.",
+        "D": "A y C son correctas."
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "El virus de la hepatitis A es un virus ARN y"
+    },
+    {
+      "id": 334,
+      "question": "¿Qué prueba se realiza en un laboratorio de urgencias para el diagnóstico precoz de la sepsis?:",
+      "options": {
+        "A": "Bilirrubina.",
+        "B": "Creatinina.",
+        "C": "Procalcitonina.",
+        "D": "APTT."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Procalcitonina."
+    },
+    {
+      "id": 335,
+      "question": "En relación a la historia natural del virus de la Hepatitis B ¿cómo interpretaría el siguiente perfil?: ADN Neg, HBsAg Pos, HBeAg Neg, HbeAC Pos, HBsAc Neg, AC core Pos",
+      "options": {
+        "A": "Fase inmunoactiva.",
+        "B": "Portador inactivo.",
+        "C": "Virus B oculto.",
+        "D": "Infección pasada."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Portador inactivo."
+    },
+    {
+      "id": 336,
+      "question": "El virus de la hepatitis Delta sólo puede replicarse en células infectadas por:",
+      "options": {
+        "A": "VHA",
+        "B": "VHC",
+        "C": "VHB",
+        "D": "VIH"
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "VHB"
+    },
+    {
+      "id": 337,
+      "question": "En relación a Parámetros de función inmunológica, en la evaluación nutricional se ha relacionado con malnutrición:",
+      "options": {
+        "A": "La disminución en el recuento total de linfocitos",
+        "B": "El índice de CD3/CD4 (>50).",
+        "C": "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.",
+        "D": "El aumento en el recuento total de linfocitos (>10.500)."
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "La disminución en el recuento total de linfocitos"
+    }
+  ]
+}

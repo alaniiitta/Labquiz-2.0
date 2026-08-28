@@ -1,0 +1,5586 @@
+{
+  "tema": 8,
+  "titulo": "Fisiología y metabolismo eritrocitario",
+  "source_file": "Test tema 8.1 Fisiología y metabolismo eritrocitario (respuestas)_652efe00ac2bfe331bbd1c9740877f68.pdf",
+  "total_questions": 430,
+  "questions": [
+    {
+      "id": 1,
+      "question": "El diagnóstico de la anemia hemolítica se realiza gracias a cinco signos biológicos característicos: elevación de los reticulocitos, hiperregeneración eritroblástica, hiperbilirrubinemia no conjugada, incremento de la láctica deshidrogenasa sérica (LDH) y descenso de la haptoglobina. ¿Cuáles de estos signos biológicos pueden observarse también en las pérdidas de sangre por hemorragia?:",
+      "options": {
+        "A": "Descenso de la haptoglobina e hiperregeneración eritroblástica",
+        "B": "Elevación de LDH y bilirrubina no conjugada",
+        "C": "Hiperregeneración eritroblástica y elevación de",
+        "D": "Elevación de la bilirrubina no conjugada y descenso de la haptoglobina"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Hiperregeneración eritroblástica y elevación de"
+    },
+    {
+      "id": 2,
+      "question": "Para la cuantificación de la hemoglobina se usa:",
+      "options": {
+        "A": "Sistema de conductividad eléctrica, en diluciones de sangre 1/50.000.",
+        "B": "Método de la cianmetahemoglobina.",
+        "C": "Método del ferricianuro potásico.",
+        "D": "Método de la metahemoglobina."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Método de la cianmetahemoglobina."
+    },
+    {
+      "id": 3,
+      "question": "De las siguientes pruebas de laboratorio, ¿Cuál no se utiliza para el diagnóstico básico de una anemia?:",
+      "options": {
+        "A": "Observación morfológica de los hematíes en un frotis teñido por método Wright.",
+        "B": "Dosificación de hemoglobina.",
+        "C": "Determinación del VCM.",
+        "D": "Tinción de PAS."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Tinción de PAS."
+    },
+    {
+      "id": 4,
+      "question": "En la anemia ferropénica, la ferritina se encuentra:",
+      "options": {
+        "A": "Muy aumentada.",
+        "B": "Dentro de los márgenes normales.",
+        "C": "Disminuida.",
+        "D": "Ligeramente aumentada"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Disminuida."
+    },
+    {
+      "id": 5,
+      "question": "La globulina es una:",
+      "options": {
+        "A": "Cromoproteína.",
+        "B": "Holoproteína.",
+        "C": "Fosfoproteína.",
+        "D": "Nucleoproteína."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Holoproteína."
+    },
+    {
+      "id": 6,
+      "question": "Al procesar la muestra en Hematimetría, en primer lugar, el técnico debe:",
+      "options": {
+        "A": "Comprobar que la muestra está correctamente",
+        "B": "Procesarla sin identificación.",
+        "C": "Procesar sin observación microscópica de la muestra.",
+        "D": "Centrifugarla."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Comprobar que la muestra está correctamente"
+    },
+    {
+      "id": 7,
+      "question": "¿Qué tipo de anemia es la más frecuente?:",
+      "options": {
+        "A": "Anemia aplásica.",
+        "B": "Anemia megaloblástica.",
+        "C": "Anemia ferropénica.",
+        "D": "Trastorno crónico."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Anemia ferropénica."
+    },
+    {
+      "id": 8,
+      "question": "¿Qué índices son derivados del cálculo de Hb, Hto, y número de glóbulos rojos?:",
+      "options": {
+        "A": "VCM, HCM, CCMH.",
+        "B": "VCM, HCM, Nº hematíes.",
+        "C": "VCM, HCM, ADE.",
+        "D": "VCM, CCMH, reticulocitos."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "VCM, HCM, CCMH."
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál de las siguientes células de la serie roja, no tiene núcleo?:",
+      "options": {
+        "A": "Eritroblastobasófilo.",
+        "B": "Policromatofilo.",
+        "C": "Proeritoblasto",
+        "D": "Eritrocitos."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Eritrocitos."
+    },
+    {
+      "id": 10,
+      "question": "En circunstancias normales, ¿Cuál es la vida media de los hematíes?:",
+      "options": {
+        "A": "200 días.",
+        "B": "7 días.",
+        "C": "120 días.",
+        "D": "140 días."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "120 días."
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál de los siguientes parámetros nos ayuda a diferenciar anemia normocítica, de una microcítica?:",
+      "options": {
+        "A": "HCM.",
+        "B": "Hematocrito.",
+        "C": "CCMH.",
+        "D": "VCM."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "VCM."
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál de los siguientes valores nos ayuda más a diferenciar una anemia regenerativa de una arregenerativa?:",
+      "options": {
+        "A": "Reticulocitos.",
+        "B": "VCM.",
+        "C": "Hto.",
+        "D": "CHCM."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Reticulocitos."
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál de las siguientes tinciones es la más adecuada para la tinción de reticulocitos?:",
+      "options": {
+        "A": "Azul toluidina.",
+        "B": "Azul cresil brillante.",
+        "C": "Colorantes vitales.",
+        "D": "Método Wright."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Azul cresil brillante."
+    },
+    {
+      "id": 14,
+      "question": "Consideramos que el frotis de sangre periférica está bien realizado, excepto cuando:",
+      "options": {
+        "A": "No cubre toda la superficie del portaobjeto.",
+        "B": "Su espesor aumenta de principio a fin.",
+        "C": "La sangre queda repartida de forma que no queden huecos en blanco.",
+        "D": "Las bandas laterales son lisas."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Su espesor aumenta de principio a fin."
+    },
+    {
+      "id": 15,
+      "question": "En una persona adulta, con una hemoglobina normal, ¿Cuál es el intervalo normal de los reticulocitos, expresados en valores absolutos? (x 10elevado a 9/L):",
+      "options": {
+        "A": "1-5.",
+        "B": "2-50",
+        "C": "35-75",
+        "D": "70-100"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "35-75"
+    },
+    {
+      "id": 16,
+      "question": "¿En cuál de las siguientes enfermedades, no se suele observar punteado basófilo en los hematíes?:",
+      "options": {
+        "A": "Hepatopatía.",
+        "B": "Beta Talasemia.",
+        "C": "Ferropénica.",
+        "D": "Esferocitosis hereditaria."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Ferropénica."
+    },
+    {
+      "id": 17,
+      "question": "De las pruebas hemáticas realizadas en nuestra paciente, tenemos los siguientes resultados: Hb: 8gr/dl; VCM:103fl; HCM:28 pg; Hto: 25 %. Según estos datos, ¿Cuál es el diagnóstico más correcto en esta paciente?:",
+      "options": {
+        "A": "No tiene anemia, precisa otros estudios.",
+        "B": "Anemia microcítica e hipocrómica.",
+        "C": "Anemia macrocítica y normocrómica.",
+        "D": "Anemia normocítica y normocrómica."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Anemia macrocítica y normocrómica."
+    },
+    {
+      "id": 18,
+      "question": "Según un VCM de 103 fL, ¿Cuál de las siguientes anemias es menos probable que padezca esta paciente?:",
+      "options": {
+        "A": "Ferropénica.",
+        "B": "Trastorno crónico.",
+        "C": "Megaloblástica.",
+        "D": "Hemolítica."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Ferropénica."
+    },
+    {
+      "id": 19,
+      "question": "Interrogamos a la paciente, y refiere orina oscura, e ictericia en los días previos. ¿Hacia qué tipo de anemia orienta esta clínica?:",
+      "options": {
+        "A": "Ferropénica",
+        "B": "Hemolítica.",
+        "C": "Sangrado ginecológico.",
+        "D": "Megaloblástica."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Hemolítica."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué parámetro bioquímico no está indicado realizar para descartar una anemia hemolítica?:",
+      "options": {
+        "A": "Haptoglobina.",
+        "B": "LDH.",
+        "C": "Bilirrubina total y directa.",
+        "D": "Ferritina."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Ferritina."
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál de los siguientes valores del hematocrito debe de tener nuestro paciente si presenta una anemia?:",
+      "options": {
+        "A": "44%.",
+        "B": "53%.",
+        "C": "33%.",
+        "D": "60%."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "33%."
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál de los siguientes valores de hemoglobina debe tener el paciente si presenta una anemia?:",
+      "options": {
+        "A": "14 g/dl.",
+        "B": "11 g/dl.",
+        "C": "17 g/dl.",
+        "D": "20 g/dl"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "11 g/dl."
+    },
+    {
+      "id": 23,
+      "question": "¿Cuál de los siguientes valores de recuento de hematíes debe tener si presenta una anemia?:",
+      "options": {
+        "A": "3.500.000/mm3.",
+        "B": "4.700.000/mm3.",
+        "C": "5.500.000/mm3.",
+        "D": "5.000.000/mm3."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "3.500.000/mm3."
+    },
+    {
+      "id": 24,
+      "question": "Se realiza un frotis de la muestra, ¿cuál de las siguientes zonas es la idónea para el recuento?:",
+      "options": {
+        "A": "Cabeza.",
+        "B": "Cuerpo.",
+        "C": "Cola.",
+        "D": "Da igual la zona."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Cuerpo."
+    },
+    {
+      "id": 25,
+      "question": "En la tinción de la muestra, ¿de qué color aparecerán los eritrocitos?:",
+      "options": {
+        "A": "Azules.",
+        "B": "Rosados.",
+        "C": "Púrpura.",
+        "D": "Naranjas."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Rosados."
+    },
+    {
+      "id": 26,
+      "question": "Para realizar el recuento de eritrocitos podemos utilizar diferentes cámaras, ¿cuál de las siguientes no es una de ellas?",
+      "options": {
+        "A": "Neubauer.",
+        "B": "Hayen.",
+        "C": "Thomas.",
+        "D": "Bürker."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Hayen."
+    },
+    {
+      "id": 27,
+      "question": "Si teñimos los eritrocitos con una tinción vital y aparecen inclusiones de color azul oscuro, estamos hablando de:",
+      "options": {
+        "A": "Anillos de Cabot.",
+        "B": "Cuerpos de Howell-Holy.",
+        "C": "Punteado basófilo.",
+        "D": "Cuerpos de Heinz."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Cuerpos de Heinz."
+    },
+    {
+      "id": 28,
+      "question": "La primera célula eritroide que puede ser identificada es:",
+      "options": {
+        "A": "Eritroblasto.",
+        "B": "Proeritroblasto.",
+        "C": "Eritroblasto policromático.",
+        "D": "Hematíe."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Proeritroblasto."
+    },
+    {
+      "id": 29,
+      "question": "De las siguientes células ¿Cuál es la más inmadura?:",
+      "options": {
+        "A": "Eritroblasto ortocromático.",
+        "B": "Reticulocito.",
+        "C": "Eritrocito.",
+        "D": "Eritroblasto basófilo."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Eritroblasto basófilo."
+    },
+    {
+      "id": 30,
+      "question": "¿Cuál de las siguientes células no presenta núcleo?:",
+      "options": {
+        "A": "Glóbulo rojo.",
+        "B": "Proeritroblasto.",
+        "C": "Eritroblasto ortocromático.",
+        "D": "Eritroblasto basófilo."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Glóbulo rojo."
+    },
+    {
+      "id": 31,
+      "question": "Entre los varones y las mujeres hay diferencia entre los valores normales de:",
+      "options": {
+        "A": "Plaquetas y granulocitos.",
+        "B": "Granulocitos y linfocitos.",
+        "C": "Hematíes y hematocrito.",
+        "D": "Hematíes y leucocitos."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Hematíes y hematocrito."
+    },
+    {
+      "id": 32,
+      "question": "El término anisocitosis nos indica presencia de:",
+      "options": {
+        "A": "Hematíes pequeños.",
+        "B": "Hematíes con forma anormal.",
+        "C": "Hematíes de diferentes tamaños.",
+        "D": "Hematíes esféricos."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Hematíes de diferentes tamaños."
+    },
+    {
+      "id": 33,
+      "question": "¿Cuál de las siguientes alteraciones eritrocitarias constituyen una anisocitosis?:",
+      "options": {
+        "A": "Leptocito.",
+        "B": "Equinocito.",
+        "C": "Microcito.",
+        "D": "Esferocito."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Microcito."
+    },
+    {
+      "id": 34,
+      "question": "¿Cuál de los siguientes eritrocitos se denomina célula diana?:",
+      "options": {
+        "A": "Codocito.",
+        "B": "Eliptocito.",
+        "C": "Esquizocito.",
+        "D": "Dacriocito."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Codocito."
+    },
+    {
+      "id": 35,
+      "question": "¿Cuál de las siguientes alteraciones de los hematíes es cierta?:",
+      "options": {
+        "A": "Poiquilocitos: hematíes ovalados.",
+        "B": "Eliptocitos: en diana.",
+        "C": "Estomatocitos: con depresión central.",
+        "D": "Esquistocitos: desiguales."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Estomatocitos: con depresión central."
+    },
+    {
+      "id": 36,
+      "question": "¿Qué significan las siglas CHCM?:",
+      "options": {
+        "A": "Concentración celular media de hematíes.",
+        "B": "Cantidad celular media de hematíes.",
+        "C": "Concentración de hemoglobina de la sangre total.",
+        "D": "Concentración corpuscular media de hemoglobina."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Concentración corpuscular media de hemoglobina."
+    },
+    {
+      "id": 37,
+      "question": "La CHCM se calcula:",
+      "options": {
+        "A": "Hematocrito/Hemoglobina.",
+        "B": "Nº de hematíes/mm3.",
+        "C": "Hemoglobina/Hematocrito.",
+        "D": "Nº de hematíes/Hemoglobina"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Hemoglobina/Hematocrito."
+    },
+    {
+      "id": 38,
+      "question": "De acuerdo con el sistema internacional de unidades, la hemoglobina corpuscular media, se expresa en:",
+      "options": {
+        "A": "Nanogramos.",
+        "B": "Miligramos.",
+        "C": "Picogramos.",
+        "D": "Picolitros."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Picogramos."
+    },
+    {
+      "id": 39,
+      "question": "La HCM se calcula:",
+      "options": {
+        "A": "Hemoglobina/Nº de hematíes.",
+        "B": "Concentración de hemoglobina/Hematocrito.",
+        "C": "Hematocrito/Hematíes.",
+        "D": "Nº de hematíes/Hemoglobina."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Hemoglobina/Nº de hematíes."
+    },
+    {
+      "id": 40,
+      "question": "¿Cómo podemos hallar la VCM?:",
+      "options": {
+        "A": "Nº de hematíes/Hemoglobina.",
+        "B": "Hematocrito/Nº de hematíes.",
+        "C": "Nº de hematíes/Hematocrito.",
+        "D": "Hematocrito/Hemoglobina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Hematocrito/Nº de hematíes."
+    },
+    {
+      "id": 41,
+      "question": "Para diferenciar una anemia normocítica de una microcítica o macrocítica, ¿cuál de los siguientes valores determinamos?:",
+      "options": {
+        "A": "VCM.",
+        "B": "HCM.",
+        "C": "Hematocrito.",
+        "D": "VSG."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "VCM."
+    },
+    {
+      "id": 42,
+      "question": "¿Y para diferenciar una anemia hipocrómica de una normocrómica o hipercrómica, ¿Cuál de los siguientes determinamos?:",
+      "options": {
+        "A": "VCM.",
+        "B": "HCM.",
+        "C": "Hematocrito.",
+        "D": "VSG."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "HCM."
+    },
+    {
+      "id": 43,
+      "question": "¿De qué es excelente indicador los reticulocitos?:",
+      "options": {
+        "A": "De la inmunidad celular.",
+        "B": "De la eritropoyetina.",
+        "C": "De la capacidad regenerativa de la médula ósea.",
+        "D": "Del porcentaje de las infecciones."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "De la capacidad regenerativa de la médula ósea."
+    },
+    {
+      "id": 44,
+      "question": "¿Cuánto tiempo debemos dejar en reposo la muestra con el tinte para poder realizar una tinción adecuada de los reticulocitos?:",
+      "options": {
+        "A": "10 minutos.",
+        "B": "15 minutos.",
+        "C": "30 minutos.",
+        "D": "2 horas."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "15 minutos."
+    },
+    {
+      "id": 45,
+      "question": "Si el hemograma de nuestro paciente presentara hipocromía y microcitosis, ¿qué tipo de anemia presentaría?:",
+      "options": {
+        "A": "Perniciosa.",
+        "B": "Ferropénica",
+        "C": "Megaloblástica.",
+        "D": "Addison-Biermer."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Ferropénica"
+    },
+    {
+      "id": 46,
+      "question": "Como se define la anemia:",
+      "options": {
+        "A": "Como una disminución del número de hematíes.",
+        "B": "Como una disminución de oxígeno.",
+        "C": "Como una disminución del hierro",
+        "D": "Como una disminución de la masa de hemoglobina circulante."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Como una disminución de la masa de hemoglobina circulante."
+    },
+    {
+      "id": 47,
+      "question": "¿Cuál de las siguientes correspondencias es cierta?:",
+      "options": {
+        "A": "Insuficiencia hepática: anemia microcítica.",
+        "B": "Alcoholismo: anemia normocítica.",
+        "C": "Talasemia: anemia microcítica.",
+        "D": "Anemia hemolítica: anemia microcítica."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Talasemia: anemia microcítica."
+    },
+    {
+      "id": 48,
+      "question": "¿Qué es la talasemia?:",
+      "options": {
+        "A": "Una alteración de la formación eritrocitaria.",
+        "B": "Un tipo de anemia megaloblástica.",
+        "C": "Una alteración en la formación de hemoglobina.",
+        "D": "Una enfermedad degenerativa."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Una alteración en la formación de hemoglobina."
+    },
+    {
+      "id": 49,
+      "question": "¿Para qué sirve el test de Schilling?:",
+      "options": {
+        "A": "Déficit de ácido fólico.",
+        "B": "Déficit de vitamina B12.",
+        "C": "Déficit de hierro.",
+        "D": "Talasemia."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Déficit de vitamina B12."
+    },
+    {
+      "id": 50,
+      "question": "¿Cuál de las siguientes no es un tipo de hemoglobina?:",
+      "options": {
+        "A": "Hemoglobina saturada",
+        "B": "Hemoglobina A2",
+        "C": "Hemoglobina Fetal",
+        "D": "Hemoglobina C"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Hemoglobina saturada"
+    },
+    {
+      "id": 51,
+      "question": "¿Dónde se encuentra la mayor parte de hierro en nuestro organismo?:",
+      "options": {
+        "A": "Mioglobina.",
+        "B": "Ferritina.",
+        "C": "Transferrina.",
+        "D": "Hemoglobina."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Hemoglobina."
+    },
+    {
+      "id": 52,
+      "question": "Para realizar un diagnóstico diferencial entre la anemia ferropénica y las anemias sideroblásticas realizaremos:",
+      "options": {
+        "A": "Estudio férrico.",
+        "B": "VCM.",
+        "C": "Recuento eritrocitario.",
+        "D": "Estudio de la hemoglobina."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Estudio férrico."
+    },
+    {
+      "id": 53,
+      "question": "Los valores normales de la VSG en la 1ª hora en los hombres oscila entre:",
+      "options": {
+        "A": "5-10 mm.",
+        "B": "12-20 mm.",
+        "C": "2-6 mm.",
+        "D": "3-8 mm."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "2-6 mm."
+    },
+    {
+      "id": 54,
+      "question": "La secuencia normal de la VSG es:",
+      "options": {
+        "A": "Agregación de los hematíes, sedimentación",
+        "B": "Sedimentación rápida, concentración y agregación.",
+        "C": "Sensibilización de los hematíes, agregación y concentración.",
+        "D": "Agregación de los hematíes, concentración y sedimentación."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Agregación de los hematíes, sedimentación"
+    },
+    {
+      "id": 55,
+      "question": "¿Cuánto tiempo dura la fase de sedimentación rápida?:",
+      "options": {
+        "A": "10 minutos.",
+        "B": "30 minutos.",
+        "C": "45 minutos.",
+        "D": "60 minutos."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "45 minutos."
+    },
+    {
+      "id": 56,
+      "question": "El anticoagulante recomendado para la determinación de la VSG es:",
+      "options": {
+        "A": "Citrato sódico.",
+        "B": "EDTA.",
+        "C": "Heparina de litio.",
+        "D": "ACD."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Citrato sódico."
+    },
+    {
+      "id": 57,
+      "question": "Los resultados de la VSG se expresan en:",
+      "options": {
+        "A": "I/h",
+        "B": "Indice de Katz.",
+        "C": "Indice de Azta.",
+        "D": "mm/sg"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Indice de Katz."
+    },
+    {
+      "id": 58,
+      "question": "Los hematíes se destruyen en:",
+      "options": {
+        "A": "Hígado y bazo.",
+        "B": "Saco vitelino",
+        "C": "Cresta ilíaca.",
+        "D": "Médula ósea."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Hígado y bazo."
+    },
+    {
+      "id": 59,
+      "question": "La aparición del proeritoblasto y su posterior maduración se realiza bajo la influencia de la hormona:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Eritropoyetina.",
+        "C": "Hormona del crecimiento.",
+        "D": "Prolactina."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Eritropoyetina."
+    },
+    {
+      "id": 60,
+      "question": "El tiempo que puede pasar desde la extracción de sangre hasta la realización de un recuento de hematíes, manteniendo la sangre a 4ºC y utilizando EDTA K3 como anticoagulante es:",
+      "options": {
+        "A": "2 horas.",
+        "B": "5 horas.",
+        "C": "48 horas.",
+        "D": "24 horas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "24 horas."
+    },
+    {
+      "id": 61,
+      "question": "Una molécula de hemoglobina puede fijar:",
+      "options": {
+        "A": "4 moléculas de oxígeno.",
+        "B": "1 molécula de oxígeno.",
+        "C": "2 moléculas de oxígeno.",
+        "D": "8 moléculas de oxígeno."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "4 moléculas de oxígeno."
+    },
+    {
+      "id": 62,
+      "question": "A las anemias que cursan con un trastorno en el uso del hierro, por parte de los eritrocitos, se les denomina:",
+      "options": {
+        "A": "Anemias hemolíticas.",
+        "B": "Anemias sideroblásticas.",
+        "C": "Anemias megaloblásticas.",
+        "D": "Anemias perniciosas."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Anemias sideroblásticas."
+    },
+    {
+      "id": 63,
+      "question": "La prueba de la fragilidad osmótica, sirve para diagnosticar:",
+      "options": {
+        "A": "Anemias hemolíticas.",
+        "B": "Anemias ferropénicas.",
+        "C": "Anemias megaloblásticas.",
+        "D": "Anemias de Addison."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Anemias hemolíticas."
+    },
+    {
+      "id": 64,
+      "question": "El sistema óptico del citómetro de flujo está compuesto por:",
+      "options": {
+        "A": "Filtros.",
+        "B": "Señales digitales.",
+        "C": "Óptica de excitación y de lectura.",
+        "D": "Fluorocromos."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Óptica de excitación y de lectura."
+    },
+    {
+      "id": 65,
+      "question": "¿Qué proteína realiza el transporte de la vitamina B12?",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Transferrina.",
+        "C": "Transcobalamina.",
+        "D": "Ceruloplasmina."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Transcobalamina."
+    },
+    {
+      "id": 66,
+      "question": "¿Cuál de los siguientes órganos presenta una función hematopoyética?",
+      "options": {
+        "A": "Bazo.",
+        "B": "Yeyuno.",
+        "C": "Páncreas.",
+        "D": "Todos los anteriores."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Bazo."
+    },
+    {
+      "id": 67,
+      "question": "La vida media del hematíe es aproximadamente de:",
+      "options": {
+        "A": "4 días.",
+        "B": "4 semanas.",
+        "C": "4 meses.",
+        "D": "4 años."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "4 meses."
+    },
+    {
+      "id": 68,
+      "question": "Una molécula de hemoglobina consta de:",
+      "options": {
+        "A": "4 cadenas peptídicas, 4 protoporfirinas y 4",
+        "B": "2 cadenas peptídicas, 2 protoporfirinas y 2 átomos de Fe.",
+        "C": "4 cadenas peptídicas, 2 protoporfirinas y 4 átomos de Fe.",
+        "D": "Depende del tipo de hemoglobina."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "4 cadenas peptídicas, 4 protoporfirinas y 4"
+    },
+    {
+      "id": 69,
+      "question": "La deficiencia de vitamina B12 (cianocobalamina) produce:",
+      "options": {
+        "A": "Pelagra.",
+        "B": "Escorbuto.",
+        "C": "Raquitismo.",
+        "D": "Anemia perniciosa."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Anemia perniciosa."
+    },
+    {
+      "id": 70,
+      "question": "La hemoglobina corpuscular media se calcula a partir de:",
+      "options": {
+        "A": "La concentración de hemoglobina y el número de",
+        "B": "El hematocrito y el número de hematíes.",
+        "C": "La concentración de hemoglobina y el hematocrito.",
+        "D": "El hematocrito y el IDH."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "La concentración de hemoglobina y el número de"
+    },
+    {
+      "id": 71,
+      "question": "Los hematíes con espículas cortas distribuidas regularmente por toda la superficie se denominan:",
+      "options": {
+        "A": "Acantocitos.",
+        "B": "Drepanocitos.",
+        "C": "Poiquilocitos.",
+        "D": "Equinocitos."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Equinocitos."
+    },
+    {
+      "id": 72,
+      "question": "Señale la respuesta correcta respecto a la velocidad de sedimentación globular",
+      "options": {
+        "A": "Es un indicador altamente específico.",
+        "B": "En las anemias disminuye.",
+        "C": "En las proliferaciones de formas anómalas de",
+        "D": "En la macrocitosis disminuye."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "En las proliferaciones de formas anómalas de"
+    },
+    {
+      "id": 73,
+      "question": "Se produce reticulocitosis en:",
+      "options": {
+        "A": "Anemias ferropénicas.",
+        "B": "Aplasia medular.",
+        "C": "Anemias hemolíticas.",
+        "D": "Anemias megaloblásticas."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Anemias hemolíticas."
+    },
+    {
+      "id": 74,
+      "question": "¿Cuál de las siguientes células de la eritropoyesis NO presenta núcleo?",
+      "options": {
+        "A": "Eritroblasto.",
+        "B": "Proeritroblasto.",
+        "C": "Reticulocito.",
+        "D": "Normoblasto."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Reticulocito."
+    },
+    {
+      "id": 75,
+      "question": "¿Cuál de los siguientes anticuerpos es el más usado para el diagnóstico de anemia perniciosa?",
+      "options": {
+        "A": "Anti células parietales.",
+        "B": "Anti peroxidasa.",
+        "C": "Antinucleares.",
+        "D": "Anti receptor TSH."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Anti células parietales."
+    },
+    {
+      "id": 76,
+      "question": "¿Qué cuerpo de inclusión NO aparece nunca en el hematíe?",
+      "options": {
+        "A": "Corpúsculo de Howwell-Jolly.",
+        "B": "Anillo de Cabot.",
+        "C": "Cuerpos de Döhle.",
+        "D": "Punteado basófilo."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Cuerpos de Döhle."
+    },
+    {
+      "id": 77,
+      "question": "¿Qué parámetro se altera primero en una deficiencia de hierro?",
+      "options": {
+        "A": "Transferrina.",
+        "B": "Ferritina.",
+        "C": "Sideremia.",
+        "D": "Capacidad total de saturación de transferrina."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Ferritina."
+    },
+    {
+      "id": 78,
+      "question": "El principio de Coulter para contaje de células está basado en:",
+      "options": {
+        "A": "Las soluciones isotónicas conducen mejor la",
+        "B": "La conductividad varía proporcionalmente al número de células",
+        "C": "Las células conducen mejor la electricidad que la solución salina",
+        "D": "Soluciones isotónicas no pueden conducir electricidad"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Las soluciones isotónicas conducen mejor la"
+    },
+    {
+      "id": 79,
+      "question": "La secuencia normal de la VSG (Velocidad de Sedimentación Globular) es:",
+      "options": {
+        "A": "Agregación de los hematíes, sedimentación",
+        "B": "Sedimentación rápida, concentración y agregación.",
+        "C": "Sensibilización de los hematíes, agregación y concentración.",
+        "D": "Agregación de los hematíes, concentración y sedimentación."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Agregación de los hematíes, sedimentación"
+    },
+    {
+      "id": 80,
+      "question": "La anemia hemolítica es:",
+      "options": {
+        "A": "Normocítica y normocrómica.",
+        "B": "Normocítica e hipercrómica.",
+        "C": "Microcítica e hipocrómica.",
+        "D": "Macrocítica y normocrómica."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Normocítica y normocrómica."
+    },
+    {
+      "id": 81,
+      "question": "¿Cuál de los siguientes parámetros nos ayudará más a diferenciar una anemia regenerativa de una arregenerativa?",
+      "options": {
+        "A": "Reticulocitos",
+        "B": "VCM.",
+        "C": "Hto.",
+        "D": "CHCM"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Reticulocitos"
+    },
+    {
+      "id": 82,
+      "question": "¿Cuál de los siguientes parámetros elegirías para diferenciar la anemia ferropénica de la beta- talasemia heterocigota?",
+      "options": {
+        "A": "CHCM.",
+        "B": "El hematocrito.",
+        "C": "La hemoglobina A2.",
+        "D": "HCM."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "La hemoglobina A2."
+    },
+    {
+      "id": 83,
+      "question": "¿Qué son los eritroblastos?",
+      "options": {
+        "A": "Hematíes nucleados que no suelen aparecer en",
+        "B": "Hematíes con forma de hoz.",
+        "C": "Hematíes con forma de pera.",
+        "D": "Hematíes de mayor tamaño del normal."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Hematíes nucleados que no suelen aparecer en"
+    },
+    {
+      "id": 84,
+      "question": "¿Qué son los cuerpos de Pappenheimer?",
+      "options": {
+        "A": "Precipitados de Hb.",
+        "B": "Residuos nucleares.",
+        "C": "Acúmulos de hemosiderina.",
+        "D": "Agregados ribosómicos."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Acúmulos de hemosiderina."
+    },
+    {
+      "id": 85,
+      "question": "¿Qué órgano es el más importante y fundamental en la hematopoyesis tras el nacimiento?",
+      "options": {
+        "A": "Bazo.",
+        "B": "Médula ósea.",
+        "C": "Hígado.",
+        "D": "Timo."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Médula ósea."
+    },
+    {
+      "id": 86,
+      "question": "El método Romanowsky ¿para qué se emplea?",
+      "options": {
+        "A": "Para el estudio de parásitos.",
+        "B": "Para",
+        "C": "Para contar plaquetas.",
+        "D": "Ninguna es verdadera."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Para"
+    },
+    {
+      "id": 87,
+      "question": "¿Cuánto tiempo puede pasar desde la extracción de sangre hasta la realización de un recuento de hematíes manteniendo la sangre a 4º C y utilizando EDTA-k3 como anticoagulante:",
+      "options": {
+        "A": "2 horas",
+        "B": "5 horas",
+        "C": "48 horas",
+        "D": "24 horas"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "24 horas"
+    },
+    {
+      "id": 88,
+      "question": "El parámetro RDW que calculan algunos contadores hematológicos:",
+      "options": {
+        "A": "Mide la distribución de hemoglobina en el hematíe",
+        "B": "Nos informa sobre la forma de los hematíes",
+        "C": "Nos informa sobre la presencia de formas inmaduras de leucocitos",
+        "D": "Mide la distribución de los hematíes en función del tamaño"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Mide la distribución de los hematíes en función del tamaño"
+    },
+    {
+      "id": 89,
+      "question": "La hemoglobina está constituida por:",
+      "options": {
+        "A": "Cuatro cadenas de globina y cuatro grupos hemo",
+        "B": "Dos cadenas de globina y cuatro grupos hemo",
+        "C": "Cuatro cadenas de globina y un grupo hemo",
+        "D": "Una cadena de globina y un grupo hemo"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Cuatro cadenas de globina y cuatro grupos hemo"
+    },
+    {
+      "id": 90,
+      "question": "El término Hipocromía está relacionado con:",
+      "options": {
+        "A": "Aumento de la fragilidad osmótica del hematíe",
+        "B": "Disminución del hematocrito",
+        "C": "Disminución de HCM y CHCM",
+        "D": "Aumento de la VCM y HCM"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Disminución de HCM y CHCM"
+    },
+    {
+      "id": 91,
+      "question": "Al analizar el tubo de sangre con EDTA en el contador hematológico, encontramos un valor hematocrito disminuido, ¿con que patología está relacionado?",
+      "options": {
+        "A": "Deshidratación primaria",
+        "B": "Quemaduras",
+        "C": "Anemia",
+        "D": "Shock"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Anemia"
+    },
+    {
+      "id": 92,
+      "question": "La OMS define la anemia como la disminución de los valores de hemoglobina por debajo de ciertos valores que se sitúan en",
+      "options": {
+        "A": "15 mg/dl en hombres y 12 mg/dl en mujeres",
+        "B": "18 mg/dl en hombres y 15 mg/dl en mujeres",
+        "C": "13 mg/dl en hombres y 12 mg/dl en mujeres",
+        "D": "15 mg/dl en hombres y 15 mg/dl en mujeres"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "13 mg/dl en hombres y 12 mg/dl en mujeres"
+    },
+    {
+      "id": 93,
+      "question": "Con un déficit de vitamina B12 podemos hablar de:",
+      "options": {
+        "A": "Anemia megaloblástica",
+        "B": "Anemia ferropénica",
+        "C": "Anemia hemolítica",
+        "D": "Ninguna de las respuestas anteriores es correcta"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Anemia megaloblástica"
+    },
+    {
+      "id": 94,
+      "question": "Señale cuál es el anticoagulante usado para la realización de los recuentos celulares hematológicos:",
+      "options": {
+        "A": "Heparina.",
+        "B": "EDTA",
+        "C": "Citrato.",
+        "D": "Oxalato."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "EDTA"
+    },
+    {
+      "id": 95,
+      "question": "La determinación del hematocrito (Hto) representa:",
+      "options": {
+        "A": "La proporción del volumen de una muestra de",
+        "B": "Una medida del peso promedio de la hemoglobina por eritrocito.",
+        "C": "La variación del tamaño de los eritrocitos en una muestra de sangre.",
+        "D": "Una medida de la concentración promedio de la hemoglobina en el eritrocito."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "La proporción del volumen de una muestra de"
+    },
+    {
+      "id": 96,
+      "question": "¿Cuál es la célula precursora del eritroblasto policromatófilo?",
+      "options": {
+        "A": "Reticulocito.",
+        "B": "Eritroblasto basófilo.",
+        "C": "Proeritroblasto.",
+        "D": "Eritroblasto ortocromático."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Eritroblasto basófilo."
+    },
+    {
+      "id": 97,
+      "question": "La proteína cuya función principal es la de transportar el hierro en el plasma se denomina:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Apoferritina",
+        "C": "Transferrina.",
+        "D": "Hemosiderina."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Transferrina."
+    },
+    {
+      "id": 98,
+      "question": "El principal tinte ácido es:",
+      "options": {
+        "A": "Azul de metileno.",
+        "B": "Verde Jano.",
+        "C": "Eosina.",
+        "D": "Sudán."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Eosina."
+    },
+    {
+      "id": 99,
+      "question": "Las células más abundantes de la sangre son:",
+      "options": {
+        "A": "Los hematíes.",
+        "B": "Los leucocitos.",
+        "C": "Los linfocitos.",
+        "D": "Las plaquetas."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Los hematíes."
+    },
+    {
+      "id": 100,
+      "question": "La anisocitosis es la aparición de:",
+      "options": {
+        "A": "Hematíes de un tamaño inferior al normal.",
+        "B": "Hematíes sin núcleo.",
+        "C": "Hematíes con citoplasma acidófilo.",
+        "D": "Hematíes de diferente tamaño en la misma muestra."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Hematíes de diferente tamaño en la misma muestra."
+    },
+    {
+      "id": 101,
+      "question": "Los esferocitos son:",
+      "options": {
+        "A": "Hematíes con forma de rueda de bicicleta.",
+        "B": "Hematíes esféricos.",
+        "C": "Leucocitos alterados genéticamente.",
+        "D": "Hematíes con forma de hoz."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Hematíes esféricos."
+    },
+    {
+      "id": 102,
+      "question": "Los Anillos de Cabot son:",
+      "options": {
+        "A": "Restos nucleares.",
+        "B": "Precipitaciones de hemoglobina.",
+        "C": "Restos de membrana nuclear.",
+        "D": "Acúmulos de hemosiderina."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Restos de membrana nuclear."
+    },
+    {
+      "id": 103,
+      "question": "Para diferenciar los capilares heparinizados de los no heparinizados en la determinación del hematocrito por el micrométodo observaremos la presencia de:",
+      "options": {
+        "A": "Heparina en su interior.",
+        "B": "Franjas azules en su extremo superior.",
+        "C": "Un centímetro amarillo en su punta.",
+        "D": "Una franja roja."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Una franja roja."
+    },
+    {
+      "id": 104,
+      "question": "Para realizar un recuento de reticulocitos con el microscopio teñiremos la muestra con azul de cresil brillante, que se fijará:",
+      "options": {
+        "A": "A la membrana del reticulocito.",
+        "B": "Al núcleo del reticulocito.",
+        "C": "Al citoplasma del reticulocito.",
+        "D": "A los restos de ARN del reticulocito."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "A los restos de ARN del reticulocito."
+    },
+    {
+      "id": 105,
+      "question": "Una de estas proteínas se combina con la hemoglobina. Señálela",
+      "options": {
+        "A": "Apoferritna.",
+        "B": "Ferritina.",
+        "C": "Haptoglobina.",
+        "D": "Transferrina."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Haptoglobina."
+    },
+    {
+      "id": 106,
+      "question": "Una prueba de Schilling positiva es característico de:",
+      "options": {
+        "A": "Anemia megaloblástica.",
+        "B": "Anemia inflamatoria.",
+        "C": "Anemia perniciosa.",
+        "D": "Anemia ferropénica."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Anemia perniciosa."
+    },
+    {
+      "id": 107,
+      "question": "Para medida de hemoglobina se usa en general:",
+      "options": {
+        "A": "Su conversión a ferrihemoglobina.",
+        "B": "Su conversión a ferrohemoglobina.",
+        "C": "Su conversión a cianhemoglobina.",
+        "D": "Su conversión a cianmetahemoglobina."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Su conversión a cianmetahemoglobina."
+    },
+    {
+      "id": 108,
+      "question": "Para hemograma el anticoagulante de elección es:",
+      "options": {
+        "A": "heparina.",
+        "B": "el citrato sódico.",
+        "C": "ácido etilendiaminotetracético sal sódica.",
+        "D": "ácido etilendiaminotetracético sal potásica."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "ácido etilendiaminotetracético sal potásica."
+    },
+    {
+      "id": 109,
+      "question": "VCM (Volumen Corpuscular Medio) bajo y RDW (Amplitud de la curva de distribución eritrocitaria) alto se asocia con:",
+      "options": {
+        "A": "Ferropenia.",
+        "B": "Talasemia.",
+        "C": "Anemia inflamatoria.",
+        "D": "Anemia sideroblástica."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Ferropenia."
+    },
+    {
+      "id": 110,
+      "question": "En una anemia sideroblástica:",
+      "options": {
+        "A": "El hierro sérico está disminuido.",
+        "B": "El hierro sérico está aumentado.",
+        "C": "Los hematíes son normocíticos.",
+        "D": "La ferritina está disminuida."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "El hierro sérico está aumentado."
+    },
+    {
+      "id": 111,
+      "question": "La hemólisis intravascular se caracteriza por:",
+      "options": {
+        "A": "Hemoglobinemia y hemosiderinuria.",
+        "B": "Bilirrubinemia no conjugada y urobilinuria.",
+        "C": "Bilirrubinemia y estercobilinógeno fecal.",
+        "D": "Aumento de urobilinógeno en heces y orina"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Hemoglobinemia y hemosiderinuria."
+    },
+    {
+      "id": 112,
+      "question": "El recuento automatizado de reticulocitos puede hacerse por:",
+      "options": {
+        "A": "Método de la impedancia.",
+        "B": "Método de la dispersión lumínica.",
+        "C": "Citometría de flujo.",
+        "D": "Todas son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Citometría de flujo."
+    },
+    {
+      "id": 113,
+      "question": "En el metabolismo del eritrocito, el glutatión es importante para:",
+      "options": {
+        "A": "Obtener energía por vía aeróbica.",
+        "B": "Obtener energía por vía anaeróbica.",
+        "C": "Mantener el hierro reducido.",
+        "D": "Facilitar la formación de triosafosfatos."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Mantener el hierro reducido."
+    },
+    {
+      "id": 114,
+      "question": "La afinidad de la Hb (Hemoglobina) por el oxígeno disminuye:",
+      "options": {
+        "A": "Al disminuir el pH.",
+        "B": "Al disminuir la temperatura.",
+        "C": "Con el descenso del CO2 (dióxido de carbono).",
+        "D": "Con el descenso de 2,3 DFG (2,3 difosfoglicerato)."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Al disminuir el pH."
+    },
+    {
+      "id": 115,
+      "question": "Los cuerpos de Howell-Jolly son:",
+      "options": {
+        "A": "Restos de membrana nuclear.",
+        "B": "Agregados ribosómicos.",
+        "C": "Precipitados de Hb (hemoglobina).",
+        "D": "Restos nucleares."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Restos nucleares."
+    },
+    {
+      "id": 116,
+      "question": "Para el estudio morfológico de las células hematopoyéticas se utiliza:",
+      "options": {
+        "A": "Aspirado medular.",
+        "B": "Biopsia ósea.",
+        "C": "Pruebas isotópicas.",
+        "D": "Citometría de flujo."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Aspirado medular."
+    },
+    {
+      "id": 117,
+      "question": "Para diferenciar una anemia ferropénica de una anemia de los procesos crónicos, es útil realizar en el aspirado medular:",
+      "options": {
+        "A": "Tinción de la mieloperoxidasa.",
+        "B": "Tinción del Negro Sudán.",
+        "C": "Tinción del azul de toluidina.",
+        "D": "Tinción de Perls."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Tinción de Perls."
+    },
+    {
+      "id": 118,
+      "question": "Para estudio de una anemia esferocitaria es útil:",
+      "options": {
+        "A": "Prueba de la fragilidad osmótica eritrocitaria (FOE).",
+        "B": "Prueba de la lisis en glicerol acidificado.",
+        "C": "Prueba de Pink (Pink-Test).",
+        "D": "Todas son ciertas."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 119,
+      "question": "La prueba de la hemólisis en medio ácido (Prueba de Ham-Dacie) se emplea para el diagnóstico de:",
+      "options": {
+        "A": "Beta talasemia.",
+        "B": "Hemoglobinuria paroxística nocturna.",
+        "C": "Anemia falciforme.",
+        "D": "Ovalocitosis del sudeste asiático (SAO)."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Hemoglobinuria paroxística nocturna."
+    },
+    {
+      "id": 120,
+      "question": "En el plasma la transferrina transporta el hierro y lo deposita mediante su receptor:",
+      "options": {
+        "A": "A los eritroblastos.",
+        "B": "Al músculo.",
+        "C": "Al hígado.",
+        "D": "Todas son ciertas."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 121,
+      "question": "En la anemia hemolítica intravascular no se suele observar:",
+      "options": {
+        "A": "Haptoglobina elevada.",
+        "B": "Lactato deshidrogenasa (LDH) elevada.",
+        "C": "Cifra de reticulocitos elevada.",
+        "D": "Bilirrubina no conjugada elevada."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Haptoglobina elevada."
+    },
+    {
+      "id": 122,
+      "question": "Los reticulocitos son:",
+      "options": {
+        "A": "Linfocitos jóvenes.",
+        "B": "Monocitos jóvenes.",
+        "C": "Hematíes jóvenes.",
+        "D": "Basófilos jóvenes."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Hematíes jóvenes."
+    },
+    {
+      "id": 123,
+      "question": "¿Cuál de los siguientes eritrocitos se denomina célula espolón?:",
+      "options": {
+        "A": "Acantocito.",
+        "B": "Eliptocito.",
+        "C": "Estomatocito.",
+        "D": "Dacriocito."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Acantocito."
+    },
+    {
+      "id": 124,
+      "question": "El volumen corpuscular medio (VCM) mide:",
+      "options": {
+        "A": "El número de hematíes.",
+        "B": "El valor de la hemoglobina.",
+        "C": "El tamaño de los hematíes.",
+        "D": "La cifra de hematocrito."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "El tamaño de los hematíes."
+    },
+    {
+      "id": 125,
+      "question": "La transferrina en sangre se encuentra elevada principalmente en:",
+      "options": {
+        "A": "Hepatopatías.",
+        "B": "Anemia ferropénica.",
+        "C": "Neoplasias.",
+        "D": "Nefrosis."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Anemia ferropénica."
+    },
+    {
+      "id": 126,
+      "question": "Señala los índices eritrocitarios que ayudan en el diagnóstico de las anemias:",
+      "options": {
+        "A": "Hemoglobina, hematocrito, número de hematíes.",
+        "B": "Hemoglobina, Hematocrito, Metabolismo del hierro.",
+        "C": "VCM, HCM, CHCM.",
+        "D": "VHCM, hemoglobina, hematocrito."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "VCM, HCM, CHCM."
+    },
+    {
+      "id": 127,
+      "question": "Un citómetro de flujo está compuesto por:",
+      "options": {
+        "A": "Sistema de pipeteo, un microscopio y un ordenador.",
+        "B": "Sistema con distintos filtros de solución fisiológica.",
+        "C": "Sistema de fluidos o de pipeteo, sistema óptico y",
+        "D": "Sistema de láminas empapadas en un tampón."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Sistema de fluidos o de pipeteo, sistema óptico y"
+    },
+    {
+      "id": 128,
+      "question": "En una muestra sanguínea, una concentración de hemoglobina corpuscular media (CHCM) >35% es:",
+      "options": {
+        "A": "Megaloblástica.",
+        "B": "Hipercrómica.",
+        "C": "Macrocítica.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Hipercrómica."
+    },
+    {
+      "id": 129,
+      "question": "Asumiendo que los índices eritrocitarios son normales, el nivel de hemoglobina estimado para pacientes cuyo hematocrito es 30% será de:",
+      "options": {
+        "A": "3 g/dl.",
+        "B": "5 g/dl.",
+        "C": "10 g/dl.",
+        "D": "15 s/dl."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "10 g/dl."
+    },
+    {
+      "id": 130,
+      "question": "¿Qué significa el término \"poiquilocitosis\"?",
+      "options": {
+        "A": "El tamaño de las células de los hematíes es variable.",
+        "B": "Los hematíes tienen un punteado oscuro debido a defectos de la síntesis de la hemoglobina.",
+        "C": "Los hematíes se agrupan unos a otros.",
+        "D": "Los hematíes tienen forma irregular"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Los hematíes tienen forma irregular"
+    },
+    {
+      "id": 131,
+      "question": "Se conoce a los corpúsculos de Heinz como:",
+      "options": {
+        "A": "Cuerpos redondos, pequeños, excéntricos y únicos de color verde oscuro que aparecen en los hematíes.",
+        "B": "Hematíes de coloración disminuida.",
+        "C": "Hematíes de coloración aumentada.",
+        "D": "Compuestos de hemoglobina desnaturalizada próximos a la membrana celular y que se suelen teñir de azul."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Compuestos de hemoglobina desnaturalizada próximos a la membrana celular y que se suelen teñir de azul."
+    },
+    {
+      "id": 132,
+      "question": "La anemia hemolítica es:",
+      "options": {
+        "A": "Normocítica y normocrómica.",
+        "B": "Normocítica e hipercrómica.",
+        "C": "Microcítica e hipocrómica.",
+        "D": "Macrocítica y normocrómica"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Normocítica y normocrómica."
+    },
+    {
+      "id": 133,
+      "question": "Con respecto a los esferocitos:",
+      "options": {
+        "A": "Presentan proyecciones cortas a lo largo de su superficie.",
+        "B": "Se presentan típicamente en la coagulación intravascular diseminada.",
+        "C": "Presentan alto contenido de hemoglobina.",
+        "D": "Se presentan característicamente en la talasemia."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Presentan alto contenido de hemoglobina."
+    },
+    {
+      "id": 134,
+      "question": "Las hepatopatías provocan habitualmente alteraciones en el tamaño de los hematíes. ¿Cuál de las siguientes?:",
+      "options": {
+        "A": "Microcitosis.",
+        "B": "Macrocitosis.",
+        "C": "Anisocitosis.",
+        "D": "Eliptocitosis."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Macrocitosis."
+    },
+    {
+      "id": 135,
+      "question": "Los eritrocitos con forma de lágrima se denominan:",
+      "options": {
+        "A": "Dacriocitos",
+        "B": "Acantocitos",
+        "C": "Equinocitos",
+        "D": "Esferocitos"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Dacriocitos"
+    },
+    {
+      "id": 136,
+      "question": "¿En qué momento del desarrollo de los eritrocitos comienza la producción de hemoglobina?",
+      "options": {
+        "A": "Eritroblasto policromatófilo",
+        "B": "Reticulocito",
+        "C": "Eritrocito",
+        "D": "Eritrocito eritroide"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Eritroblasto policromatófilo"
+    },
+    {
+      "id": 137,
+      "question": "El parámetro RDW que calculan algunos contadores hematológicos:",
+      "options": {
+        "A": "Mide la distribución de hemoglobina en el hematíe",
+        "B": "Nos informa sobre la forma de los hematíes",
+        "C": "Nos informa sobre la presencia de formas inmaduras de leucocitos",
+        "D": "Mide la distribución de los hematíes en función del tamaño"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Mide la distribución de los hematíes en función del tamaño"
+    },
+    {
+      "id": 138,
+      "question": "La hemoglobina está constituida por:",
+      "options": {
+        "A": "Cuatro cadenas de globina y cuatro grupos hemo",
+        "B": "Dos cadenas de globina y cuatro grupos hemo",
+        "C": "Cuatro cadenas de globina y un grupo hemo",
+        "D": "Una cadena de globina y un grupo hemo"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Cuatro cadenas de globina y cuatro grupos hemo"
+    },
+    {
+      "id": 139,
+      "question": "El término hipocromía está relacionado con:",
+      "options": {
+        "A": "Aumento de la fragilidad osmótica del hematíe",
+        "B": "Disminución del hematocrito",
+        "C": "Disminución de HCM y CHCM",
+        "D": "Aumento de la VCM y HCM"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Disminución de HCM y CHCM"
+    },
+    {
+      "id": 140,
+      "question": "Los anillos de Cabot son:",
+      "options": {
+        "A": "Restos de membrana nuclear",
+        "B": "Acúmulos de hemosiderina",
+        "C": "Ribosomas degradadas",
+        "D": "Ninguna de las anteriores"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Restos de membrana nuclear"
+    },
+    {
+      "id": 141,
+      "question": "Un hematíe con forma de erizo de mar se denomina:",
+      "options": {
+        "A": "Esferocito",
+        "B": "Equinocito",
+        "C": "Estomatocito",
+        "D": "Acantocito"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Equinocito"
+    },
+    {
+      "id": 142,
+      "question": "¿Cuál es el anticoagulante de elección para la realización de recuentos celulares y la preparación de extensiones de sangre?",
+      "options": {
+        "A": "EDTA",
+        "B": "Heparina",
+        "C": "Citrato",
+        "D": "Oxalato"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "EDTA"
+    },
+    {
+      "id": 143,
+      "question": "¿Cuál no es una característica de los eritrocitos?",
+      "options": {
+        "A": "Son los elementos más abundantes en la sangre periférica",
+        "B": "Poseen núcleo y organelas citoplasmáticas",
+        "C": "Se producen en la médula ósea",
+        "D": "Tiene una vida media en la circulación de 120 días"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Poseen núcleo y organelas citoplasmáticas"
+    },
+    {
+      "id": 144,
+      "question": "Hematocrito es:",
+      "options": {
+        "A": "La proporción entre leucocitos y el plasma.",
+        "B": "La proporción entre eritrocitos y el plasma.",
+        "C": "La proporción entre plaquetas y el plasma.",
+        "D": "La proporción de leucocitos, eritrocitos, plaquetas y el plasma."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "La proporción entre eritrocitos y el plasma."
+    },
+    {
+      "id": 145,
+      "question": "En qué situación la VSG se encuentra aumentada:",
+      "options": {
+        "A": "Necrosis hepática.",
+        "B": "Coagulación intravascular diseminada.",
+        "C": "Insuficiencia cardiaca congestiva.",
+        "D": "Embarazo y envejecimiento."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Embarazo y envejecimiento."
+    },
+    {
+      "id": 146,
+      "question": "¿Cuál es el primer precursor eritroide?:",
+      "options": {
+        "A": "Eritroblasto basófilo.",
+        "B": "Proeritroblasto.",
+        "C": "Eritroblasto ortocromático.",
+        "D": "Eritroblasto policromático."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Proeritroblasto."
+    },
+    {
+      "id": 147,
+      "question": "Tipos de contadores. Respecto a los contadores de cinco poblaciones, señale la respuesta incorrecta:",
+      "options": {
+        "A": "Disponen de cinco canales, cada uno con su",
+        "B": "Cuentan plaquetas y hematíes.",
+        "C": "Determinan la concentración de hemoglobina.",
+        "D": "El canal de las peroxidasas cuenta e identifica los diversos tipos de leucocitos."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Disponen de cinco canales, cada uno con su"
+    },
+    {
+      "id": 148,
+      "question": "Respecto al volumen corpuscular medio, no es cierto:",
+      "options": {
+        "A": "Es la media del volumen de los eritrocitos.",
+        "B": "Se expresa en femtolitros.",
+        "C": "Cuando el VCM es menor de 80 femtolitros hay anemia microcítica.",
+        "D": "Los valores normales están entre 110 y 130 femtolitros."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Los valores normales están entre 110 y 130 femtolitros."
+    },
+    {
+      "id": 149,
+      "question": "¿Qué tipo de Hemoglobina está aumentada en la Beta-Talasemia?:",
+      "options": {
+        "A": "Hemoglobina A.",
+        "B": "Hemoglobina F.",
+        "C": "Hemoglobina A2.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Hemoglobina A2."
+    },
+    {
+      "id": 150,
+      "question": "¿Qué son Los cuerpos de Howell-Jolly?:",
+      "options": {
+        "A": "Partículas de hemosiderina unidas a material proteico.",
+        "B": "Restos de la membrana nuclear que adoptan una forma de línea curva cerrada a modo de anillo.",
+        "C": "Precipitados de hemoglobinas inestables en el citoplasma de los hematíes.",
+        "D": "Restos nucleares que forman uno o varios corpúsculos redondos."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Restos nucleares que forman uno o varios corpúsculos redondos."
+    },
+    {
+      "id": 151,
+      "question": "¿Cuál de estas afirmaciones es correcta?:",
+      "options": {
+        "A": "La anemia es más frecuente en mujeres que en",
+        "B": "El aumento del gasto cardíaco no es un mecanismo compensador en la disminución de la hemoglobina.",
+        "C": "El aumento de hemoglobina da lugar a una hipoxia hística.",
+        "D": "La anemia es uno de los síndromes menos habituales de toda la patología humana."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "La anemia es más frecuente en mujeres que en"
+    },
+    {
+      "id": 152,
+      "question": "No es una prueba de anemias regenerativas:",
+      "options": {
+        "A": "Sideremia.",
+        "B": "Electroforesis de Hb.",
+        "C": "Análisis de ADN.",
+        "D": "Vida media eritrocitaria."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Sideremia."
+    },
+    {
+      "id": 153,
+      "question": "¿Cuál de las siguientes no es una prueba útil para el diagnóstico de la hemoglobinuria paroxística nocturna?",
+      "options": {
+        "A": "Citometría de flujo.",
+        "B": "Electroforesis de hemoglobinas.",
+        "C": "Prueba de la sacarosa.",
+        "D": "Prueba de la hemólisis en medio ácido."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Electroforesis de hemoglobinas."
+    },
+    {
+      "id": 154,
+      "question": "¿Qué magnitud no es válida cuando el hemograma se realiza con la muestra conservada a 4° Centígrados durante 24 horas?",
+      "options": {
+        "A": "Leucocitos.",
+        "B": "Hematíes.",
+        "C": "Plaquetas.",
+        "D": "Recuento diferencial leucocitario automatizado."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Recuento diferencial leucocitario automatizado."
+    },
+    {
+      "id": 155,
+      "question": "En la anemia ferropénica la transferrina está:",
+      "options": {
+        "A": "Disminuida",
+        "B": "Dentro de los valores normales",
+        "C": "Aumentada",
+        "D": "Variable"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Aumentada"
+    },
+    {
+      "id": 156,
+      "question": "Indique la respuesta falsa en las acciones más importantes de la hormona eritropoyetina (EPO):",
+      "options": {
+        "A": "Reducir el tiempo de maduración celular",
+        "B": "Estimular la proliferación de las células progenitoras",
+        "C": "Disminuir la concentración de hemoglobina",
+        "D": "Hipercelularidad eritroblástica en médula ósea (MO)"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Disminuir la concentración de hemoglobina"
+    },
+    {
+      "id": 157,
+      "question": "La tinción de Wright o Wright-Giemsa es la utilizada con más frecuencia para teñir frotis de sangre periférica. ¿Qué colorantes contiene?",
+      "options": {
+        "A": "Eosina y azul de lactofenol",
+        "B": "Eosina y azul de metileno",
+        "C": "Safranina y azul de lactofenol",
+        "D": "Safranina y azul de metileno"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Eosina y azul de metileno"
+    },
+    {
+      "id": 158,
+      "question": "¿Cuál de las siguientes respuestas en relación a los parámetros hematimétricos para la clasificación de la anemia es INCORRECTA?",
+      "options": {
+        "A": "En base al volumen corpuscular medio (VCM) se clasifican en: microcíticas, normocíticas o, macrocíticas",
+        "B": "Según la concentración de hemoglobina corpuscular media (HCM) en: hipocroma, normocroma e hipercroma",
+        "C": "Los analizadores hematológicos reportan la amplitud de distribución de los volúmenes (RDW o ADE) de la distribución eritrocitaria, calculada a partir de los histogramas de volumen celular",
+        "D": "El recuento de reticulocitos no aporta ninguna información clínica de interés para la clasificación de las anemias"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "El recuento de reticulocitos no aporta ninguna información clínica de interés para la clasificación de las anemias"
+    },
+    {
+      "id": 159,
+      "question": "La causa más frecuente de anemia en todo el mundo es la eritropoyesis con restricción del hierro que se produce como consecuencia de uno o más tipos de déficit de hierro o ferropénica. Es FALSO que:",
+      "options": {
+        "A": "En la depleción de los depósitos de hierro, el hierro sérico está disminuido, acompañándose de un descenso progresivo de la concentración de ferritina sérica.",
+        "B": "En la eritropoyesis ferropénica la eritropoyesis disminuye debido a la deficiencia de hierro de depósito",
+        "C": "En el déficit absoluto de hierro la concentración",
+        "D": "La anemia de las enfermedades crónicas es la anemia más frecuente de los pacientes hospitalizados"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "En el déficit absoluto de hierro la concentración"
+    },
+    {
+      "id": 160,
+      "question": "El hierro se absorbe y se transporta como:",
+      "options": {
+        "A": "Absorción: Fe2+; transporte: Fe2+.",
+        "B": "Absorción: Fe3+; transporte: Fe2+.",
+        "C": "Absorción: Fe2+; transporte: Fe3+.",
+        "D": "Absorción: Fe3+; transporte: Fe3+."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Absorción: Fe2+; transporte: Fe3+."
+    },
+    {
+      "id": 161,
+      "question": "¿Cuál de las siguientes afirmaciones sobre los dacriocitos es correcta?",
+      "options": {
+        "A": "Son hematíes con forma espiculada",
+        "B": "Son hematíes con forma de lágrima, frecuentes",
+        "C": "Son característicos de algunas hemoglobinopatías hereditarias",
+        "D": "Habitualmente su observación requiere someter a la sangre a hipoxia previa"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Son hematíes con forma de lágrima, frecuentes"
+    },
+    {
+      "id": 162,
+      "question": "La determinación de la concentración de una de las siguientes proteínas en suero nos puede dar información de una posible anemia hemolítica. Indique cuál:",
+      "options": {
+        "A": "Transferrina.",
+        "B": "Hemosiderina.",
+        "C": "Ferritina.",
+        "D": "Haptoglobina."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Haptoglobina."
+    },
+    {
+      "id": 163,
+      "question": "Para visualizar los reticulocitos en un microscopio, lo ideal es teñir un frotis de sangre periférica, con:",
+      "options": {
+        "A": "Azul de cresil brillante.",
+        "B": "Azul de metileno.",
+        "C": "Panóptico rápido.",
+        "D": "Violeta de genciana"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Azul de cresil brillante."
+    },
+    {
+      "id": 164,
+      "question": "Cuando aparecen células hipo y normocrómicas en mismo frotis de sangre periférica, hablamos de:",
+      "options": {
+        "A": "Hipercromía.",
+        "B": "Anisocromía.",
+        "C": "Hipocromía.",
+        "D": "Macrocromía"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Anisocromía."
+    },
+    {
+      "id": 165,
+      "question": "En la anemia ferropénica, señala la correcta:",
+      "options": {
+        "A": "Puede cursar por un trastorno en la absorción del hierro.",
+        "B": "Cursa con macrocitosis e hipercromía.",
+        "C": "El volumen corpuscular medio y la hemoglobina corpuscular media están disminuidos.",
+        "D": "A y C son correctas."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "A y C son correctas."
+    },
+    {
+      "id": 166,
+      "question": "¿Qué anticoagulante utilizaremos para el recuento hematológico?:",
+      "options": {
+        "A": "Heparina.",
+        "B": "Citrato Sódico.",
+        "C": "Fluoruro.",
+        "D": "EDTA."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "EDTA."
+    },
+    {
+      "id": 167,
+      "question": "¿Cómo se calcula el volumen corpuscular medio?:",
+      "options": {
+        "A": "Dividiendo el valor del hematocrito, en tanto por",
+        "B": "Dividiendo la hemoglobina por el hematocrito",
+        "C": "Dividiendo la hemoglobina por el número de hematíes multiplicado por10.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Dividiendo el valor del hematocrito, en tanto por"
+    },
+    {
+      "id": 168,
+      "question": "Las anemias hemolíticas pueden ser:",
+      "options": {
+        "A": "Extravasculares.",
+        "B": "Corpusculares.",
+        "C": "Diseminadas.",
+        "D": "A y B son correctas"
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "A y B son correctas"
+    },
+    {
+      "id": 169,
+      "question": "Cuando los hematíes son más delgados de lo normal, con un reborde hemoglobínico y zona central donde aparece una mancha oscura, hablamos de:",
+      "options": {
+        "A": "Esquistocitos.",
+        "B": "Acantocitos.",
+        "C": "Células en diana.",
+        "D": "Esferocitos."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Células en diana."
+    },
+    {
+      "id": 170,
+      "question": "¿Qué dato nos orienta a pensar en una anemia ferropénica diferenciándola de una talasemia?",
+      "options": {
+        "A": "Hemoglobina",
+        "B": "VCM",
+        "C": "HCM",
+        "D": "ADE"
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "ADE"
+    },
+    {
+      "id": 171,
+      "question": "En la anemia ferropénica, señale la respuesta correcta en relación al recuento de reticulocitos:",
+      "options": {
+        "A": "La cifra de reticulocitos está aumentada",
+        "B": "La cifra de reticulocitos se eleva a los pocos días",
+        "C": "Si se tratara de una anemia hemolítica la cifra de reticulocitos estaría disminuida",
+        "D": "En la anemia severa no es útil conocer la cifra de reticulocitos corregidos"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "La cifra de reticulocitos se eleva a los pocos días"
+    },
+    {
+      "id": 172,
+      "question": "¿Cuál de los siguientes patrones ferrocinéticos tendríamos que encontrar para diagnosticar de anemia ferropénica?:",
+      "options": {
+        "A": "Sideremia baja, índice de saturación de transferrina bajo, capacidad total de fijación por la transferrina (TIBC) bajo y ferritina baja",
+        "B": "Sideremia baja, índice de saturación de transferrina alto, TIBC bajo y ferritina baja",
+        "C": "Sideremia baja, índice de saturación de",
+        "D": "Sideremia baja, índice de saturación de transferrina alto, TIBC alto y ferritina baja"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Sideremia baja, índice de saturación de"
+    },
+    {
+      "id": 173,
+      "question": "Con respecto a la molécula de hemoglobina:",
+      "options": {
+        "A": "Se encuentra junto a la mioglobina en el músculo",
+        "B": "Presenta 4 grupo hemo con un átomo de Fe en cada molécula",
+        "C": "Está formada por 4 cadenas polipeptídicas iguales",
+        "D": "En su molécula presenta 4 grupos hemo con un átomo de Fe cada uno"
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "En su molécula presenta 4 grupos hemo con un átomo de Fe cada uno"
+    },
+    {
+      "id": 174,
+      "question": "En la anemia ferropénica la transferrina está:",
+      "options": {
+        "A": "Disminuida",
+        "B": "Dentro de los valores normales",
+        "C": "Aumentada",
+        "D": "Variable"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Aumentada"
+    },
+    {
+      "id": 175,
+      "question": "Indique la respuesta falsa en las acciones más importantes de la hormona eritropoyetina (EPO):",
+      "options": {
+        "A": "Reducir el tiempo de maduración celular",
+        "B": "Estimular la proliferación de las células progenitoras",
+        "C": "Disminuir la concentración de hemoglobina",
+        "D": "Hipercelularidad eritroblástica en médula ósea (MO)"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Disminuir la concentración de hemoglobina"
+    },
+    {
+      "id": 176,
+      "question": "La citometría de flujo es una técnica de análisis celular que mide:",
+      "options": {
+        "A": "Dispersión de gases.",
+        "B": "Dispersión de moléculas.",
+        "C": "Dispersión de la luz.",
+        "D": "Dispersión de células."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Dispersión de la luz."
+    },
+    {
+      "id": 177,
+      "question": "Se conoce como “potencial zeta”",
+      "options": {
+        "A": "Cuando los determinantes están ocultos o situados en una “hendidura” del antígeno.",
+        "B": "A que los hematíes, las bacterias y las partículas",
+        "C": "Cuando la reacción directa entre la aglutinación y la concentración se da a temperatura baja.",
+        "D": "Todas son ciertas."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "A que los hematíes, las bacterias y las partículas"
+    },
+    {
+      "id": 178,
+      "question": "Señala la respuesta incorrecta respecto a las crioglobulinas:",
+      "options": {
+        "A": "Son",
+        "B": "Las podemos observar en la hepatitis vírica.",
+        "C": "Es posible encontrarlas en individuos sanos.",
+        "D": "Pueden ocasionar daños locales si precipitan en el interior de los vasos."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Son"
+    },
+    {
+      "id": 179,
+      "question": "¿Cuál, de los siguientes índices eritrocitarios, es un cálculo?",
+      "options": {
+        "A": "Hemoglobina.",
+        "B": "Hematocrito.",
+        "C": "Hematíes.",
+        "D": "Ancho de distribución eritrocitaria."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Ancho de distribución eritrocitaria."
+    },
+    {
+      "id": 180,
+      "question": "Todas las siguientes afirmaciones son ciertas, respecto a los hematíes, excepto:",
+      "options": {
+        "A": "En el proceso de diferenciación celular, la célula",
+        "B": "El hematíe maduro sobrevive, en la sangre, una",
+        "C": "Los hematíes son células anucleadas con forma de disco bicóncavo.",
+        "D": "La hemoglobina es el componente fundamental del hematíe maduro."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "En el proceso de diferenciación celular, la célula"
+    },
+    {
+      "id": 181,
+      "question": "Cuando coexisten hematíes de diferente coloración, se denomina:",
+      "options": {
+        "A": "Hipocromía.",
+        "B": "Anisocromía.",
+        "C": "Policromasia.",
+        "D": "Hipercromía."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Anisocromía."
+    },
+    {
+      "id": 182,
+      "question": "¿Cuál de los siguientes datos es sugestivo de anemia hemolítica?",
+      "options": {
+        "A": "Aumento de haptoglobina.",
+        "B": "Disminución de LDH.",
+        "C": "Aumento de bilirrubina indirecta.",
+        "D": "Disminución de reticulocitos."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Aumento de bilirrubina indirecta."
+    },
+    {
+      "id": 183,
+      "question": "Ante un cuadro de anemia con un resultado disminuido de vitamina B12 y de ácido fólico, se sospechará:",
+      "options": {
+        "A": "Anemia megaloblástica.",
+        "B": "Anemia ferropénica.",
+        "C": "Anemia hemolítica autoinmune.",
+        "D": "Estomatocitosis hereditaria."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Anemia megaloblástica."
+    },
+    {
+      "id": 184,
+      "question": "El proceso de formación de las células sanguíneas se denomina:",
+      "options": {
+        "A": "Hematopoyesis.",
+        "B": "Eritropoyesis.",
+        "C": "Diferenciación celular.",
+        "D": "Proliferación celular."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Hematopoyesis."
+    },
+    {
+      "id": 185,
+      "question": "La anemia asociada a la enfermedad renal crónica habitualmente es:",
+      "options": {
+        "A": "microcítica normocrómica.",
+        "B": "normocítica hipocrómica.",
+        "C": "normocítica normocrómica.",
+        "D": "macrocítica normocrómica."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "normocítica normocrómica."
+    },
+    {
+      "id": 186,
+      "question": "En un hemograma, el RDW representa:",
+      "options": {
+        "A": "el valor medio obtenido para la población total de células rojas.",
+        "B": "la dispersión asociada al volumen de los",
+        "C": "la dispersión asociada a la hemoglobina de los hematíes.",
+        "D": "la dispersión asociada a la concentración de hemoglobina de los hematíes."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "la dispersión asociada al volumen de los"
+    },
+    {
+      "id": 187,
+      "question": "Los reticulocitos:",
+      "options": {
+        "A": "son precursores nucleados de los hematíes.",
+        "B": "se encuentran disminuidos en sangre en las anemias hemolíticas.",
+        "C": "se encuentran aumentados en sangre en las anemias carenciales.",
+        "D": "son hematíes inmaduros anucleados."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "son hematíes inmaduros anucleados."
+    },
+    {
+      "id": 188,
+      "question": "La anemia falciforme se caracteriza por hematíes de forma semilunar, llamados:",
+      "options": {
+        "A": "Drepanocitos.",
+        "B": "Acantocitos.",
+        "C": "Equinocitos.",
+        "D": "Esquistocitos."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Drepanocitos."
+    },
+    {
+      "id": 189,
+      "question": "La composición globínica de la hemoglobina de Bart es:",
+      "options": {
+        "A": "2 globinas alfa y dos beta.",
+        "B": "4 globinas beta.",
+        "C": "4 globinas gamma.",
+        "D": "2 globinas alfa y dos epsilon."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "4 globinas gamma."
+    },
+    {
+      "id": 190,
+      "question": "Las situaciones más frecuentes que causan una situación de macrocitosis, pueden ser:",
+      "options": {
+        "A": "Deficiencia de folatos y déficit de vitamina B12.",
+        "B": "Fármacos.",
+        "C": "Congénitas.",
+        "D": "Todas son frecuentes."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Todas son frecuentes."
+    },
+    {
+      "id": 191,
+      "question": "Hombre de 38 años, de origen subsahariano, que consulta a su médico de Atención Primaria por cansancio, fatiga, palidez facial, que ha aparecido en las últimas semanas. A la exploración se observa una marcada palidez de mucosas. No esplenomegalia. Hemograma: Hematíes 4.100,000/ml, Hemoglobina 8.9 g/dl Hematocrito 26.0 % VCM 65 fl HCM 22.2 pg CHCM 34.2 g/dl Leucocitos 6.300/ml Fórmula leucocitaria normal Plaquetas 533.000/uL ¿Qué tipo de anemia presenta este paciente?",
+      "options": {
+        "A": "Normocítica.",
+        "B": "Macrocítica.",
+        "C": "Microcítica.",
+        "D": "No presenta anemia porque el número de hematíes es normal."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Microcítica."
+    },
+    {
+      "id": 192,
+      "question": "¿Qué estudio de laboratorio sería más adecuado de solicitar en un paciente con Hemograma: Hematíes 4.100,000/ml, Hemoglobina 8.9 g/dl Hematocrito 26.0 % VCM 65 fl HCM 22.2 pg CHCM 34.2 g/dl Leucocitos 6.300/ml Fórmula leucocitaria normal Plaquetas 533.000/uL?",
+      "options": {
+        "A": "Grupo hemático.",
+        "B": "Reticulocitos.",
+        "C": "Estudio del metabolismo del hierro.",
+        "D": "Test de falciformación."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Estudio del metabolismo del hierro."
+    },
+    {
+      "id": 193,
+      "question": "Los reticulocitos de un paciente dan 0.8% (12 x 109/L). Estos resultados califican a la anemia de:",
+      "options": {
+        "A": "Arregenerativa.",
+        "B": "Regenerativa.",
+        "C": "Hemolítica.",
+        "D": "Megaloblástica."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Arregenerativa."
+    },
+    {
+      "id": 194,
+      "question": "Si se da el caso de tener que hacer un recuento de reticulocitos manual, la muestra se teñiría con:",
+      "options": {
+        "A": "Sudán II",
+        "B": "Azul cresil brillante.",
+        "C": "Gota gruesa.",
+        "D": "Verde jano."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Azul cresil brillante."
+    },
+    {
+      "id": 195,
+      "question": "En el metabolismo del hierro, la sideremia es de 12 ug/dL, el índice de saturación de 2%, la ferritina de 3 ug/L. El diagnostico sería:",
+      "options": {
+        "A": "Anemia ferropénica.",
+        "B": "Anemia de Addison.",
+        "C": "Anemia aguda posthemorrágica.",
+        "D": "Anemia por sobrecarga férrica."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Anemia ferropénica."
+    },
+    {
+      "id": 196,
+      "question": "A las anemias que cursan con un trastorno en el uso del hierro, por parte de los eritrocitos, se les denomina:",
+      "options": {
+        "A": "Anemias hemolíticas.",
+        "B": "Anemias sideroblásticas.",
+        "C": "Anemias megaloblásticas.",
+        "D": "Anemias perniciosas."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Anemias sideroblásticas."
+    },
+    {
+      "id": 197,
+      "question": "El receptor soluble de la transferrina es de 20 mg/L (2.2-5 mg/L). Este hallazgo:",
+      "options": {
+        "A": "Confirma el diagnóstico de anemia ferropénica.",
+        "B": "Confirma el diagnóstico de anemia hemolítica.",
+        "C": "Confirma el diagnóstico de anemia posthemorrágica.",
+        "D": "Confirma el diagnóstico de anemia por sobrecarga férrica."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Confirma el diagnóstico de anemia ferropénica."
+    },
+    {
+      "id": 198,
+      "question": "El receptor soluble de la transferrina en la anemia ferropénica, bien establecida, esta:",
+      "options": {
+        "A": "Elevado.",
+        "B": "Normal.",
+        "C": "Bajo.",
+        "D": "El RST no se encuentra normalmente en el suero."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Elevado."
+    },
+    {
+      "id": 199,
+      "question": "La prueba de laboratorio más adecuada para descartar la posibilidad de hemoglobinopatía es:",
+      "options": {
+        "A": "HPLC de hemoglobinas.",
+        "B": "Electroforesis de hemoglobinas.",
+        "C": "Electroforesis capilar.",
+        "D": "Cualquiera de las anteriores."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Cualquiera de las anteriores."
+    },
+    {
+      "id": 200,
+      "question": "¿Cuál de las siguientes determinaciones, NO es necesario realizar a un paciente con anemia?",
+      "options": {
+        "A": "VSG.",
+        "B": "Hematocrito.",
+        "C": "Hemoglobina.",
+        "D": "Recuento eritrocitario."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "VSG."
+    },
+    {
+      "id": 201,
+      "question": "Según la clasificación morfológica de las anemias, podemos encontrarnos:",
+      "options": {
+        "A": "Normocrómicas.",
+        "B": "Arregenerativas.",
+        "C": "Regenerativas.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Ninguna es correcta."
+    },
+    {
+      "id": 202,
+      "question": "Para diferenciar una anemia normocítica de una microcítica o macrocítica, ¿Cuál de los siguientes valores tendríamos que tener en cuenta?:",
+      "options": {
+        "A": "Hematocrito.",
+        "B": "Hemoglobina.",
+        "C": "VCM.",
+        "D": "HCM."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "VCM."
+    },
+    {
+      "id": 203,
+      "question": "La causa más frecuente de las anemias ferropénicas es:",
+      "options": {
+        "A": "Hemorragia crónica mantenida.",
+        "B": "Nutricional.",
+        "C": "Donaciones repetidas de sangre.",
+        "D": "Trastornos de la absorción del hierro."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Hemorragia crónica mantenida."
+    },
+    {
+      "id": 204,
+      "question": "¿Qué es una talasemia?",
+      "options": {
+        "A": "Una alteración de la formación eritrocitaria.",
+        "B": "Un tipo de anemia megaloblástica.",
+        "C": "Una alteración en la formación de hemoglobina.",
+        "D": "Todas son correctas."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Una alteración en la formación de hemoglobina."
+    },
+    {
+      "id": 205,
+      "question": "¿Cómo realizamos un diagnóstico diferencial entre la anemia ferropénica y la talasemia?",
+      "options": {
+        "A": "Recuento eritrocitario.",
+        "B": "VCM.",
+        "C": "HCM.",
+        "D": "Estudio del hierro."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Recuento eritrocitario."
+    },
+    {
+      "id": 206,
+      "question": "En la diferenciación al microscopio, ¿Cuál de las siguientes células, no presenta núcleo?",
+      "options": {
+        "A": "Glóbulos rojos.",
+        "B": "Proeritroblasto.",
+        "C": "Eritroblasto basófilo.",
+        "D": "Eritroblasto ortocromático."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Glóbulos rojos."
+    },
+    {
+      "id": 207,
+      "question": "La anemia de Cooley se conoce también como:",
+      "options": {
+        "A": "Alfa-talasemia silente.",
+        "B": "Beta-talasemia mayor.",
+        "C": "Talasemia híbrida.",
+        "D": "Talasemia menor."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Beta-talasemia mayor."
+    },
+    {
+      "id": 208,
+      "question": "¿Qué se necesita para calcular la Concentración de la Hemoglobina Corpuscular Media (CHCM)?",
+      "options": {
+        "A": "La Hb y el HCT",
+        "B": "La Hb y el RBC",
+        "C": "El HCT y el RBC",
+        "D": "La Hb y el VCM"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "La Hb y el HCT"
+    },
+    {
+      "id": 209,
+      "question": "¿Cuál NO es un dato de laboratorio propio de las anemias ferropénicas?",
+      "options": {
+        "A": "VCM alto",
+        "B": "HCM baja",
+        "C": "Hierro sérico disminuido",
+        "D": "Ferritina sérica disminuida"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "VCM alto"
+    },
+    {
+      "id": 210,
+      "question": "¿Cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "El laboratorio de Urgencias está al servicio de las situaciones de urgencia y emergencia dentro de un hospital, en un contexto de calidad y tiempos de respuesta mínimos.",
+        "B": "El panel de pruebas urgentes, encontramos determinaciones que pueden condicionar o modificar de forma inmediata la actitud terapéutica.",
+        "C": "La heparina de litio es el aditivo de preferencia para la realización de gasometrías en el estudio de la función respiratoria y del equilibrio ácido-base en sangre total.",
+        "D": "Las sales del ácido etílendiaminotetraacético no son las apropiadas para la realización del hemograma."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Las sales del ácido etílendiaminotetraacético no son las apropiadas para la realización del hemograma."
+    },
+    {
+      "id": 211,
+      "question": "¿En qué unidades se mide, generalmente, el volumen plaquetario medio?",
+      "options": {
+        "A": "En gramos",
+        "B": "En centímetros cúbicos",
+        "C": "En femtolitros",
+        "D": "En porcentaje"
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "En femtolitros"
+    },
+    {
+      "id": 212,
+      "question": "¿Cuál es la zona ideal para el recuento diferencial leucocitario en una extensión de sangre periférica?",
+      "options": {
+        "A": "La cabeza, porque es la zona inicial de la extensión y la más gruesa",
+        "B": "El cuerpo, porque es la zona intermedia del frotis",
+        "C": "La cola, porque es la zona final de la extensión y la más fina",
+        "D": "Cualquier zona es correcta para su recuento"
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "El cuerpo, porque es la zona intermedia del frotis"
+    },
+    {
+      "id": 213,
+      "question": "¿Qué tipo de elementos se dan en la composición de la sangre?",
+      "options": {
+        "A": "Elementos solubles y elementos formas",
+        "B": "Elementos series y elementos formas",
+        "C": "Hematíes, plasma y elementos solubles",
+        "D": "Glóbulos rojos, hematíes y eritrocitos"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Elementos solubles y elementos formas"
+    },
+    {
+      "id": 214,
+      "question": "¿Cuál de los siguientes valores nos ayuda a diferenciar una anemia regenerativa de una arregenerativa?",
+      "options": {
+        "A": "Recuento de reticulocitos",
+        "B": "Número total de eritrocitos",
+        "C": "Volumen corpuscular media (VCM)",
+        "D": "Amplitud de distribución eritrocitaria (ADE o RDW)"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Recuento de reticulocitos"
+    },
+    {
+      "id": 215,
+      "question": "¿Cuál de las siguientes magnitudes nos ayuda a clasificar la anemia microcítica de la anemia macrocítica?",
+      "options": {
+        "A": "Hemoglobina corpuscular media (HCM)",
+        "B": "Hematocrito",
+        "C": "Hemoglobina",
+        "D": "Volumen corpuscular media (VCM)"
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Volumen corpuscular media (VCM)"
+    },
+    {
+      "id": 216,
+      "question": "Cuando encontramos hematíes falciformes en un frotis de sangre periférica, es debido a una alteración de la Hemoglobina como:",
+      "options": {
+        "A": "Hemoglobinopatías S",
+        "B": "Hemoglobinopatías C",
+        "C": "Déficit de G6PDH",
+        "D": "Toles son incorrectos"
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Hemoglobinopatías S"
+    },
+    {
+      "id": 217,
+      "question": "¿Cómo se denominan los eritrocitos fragmentados?",
+      "options": {
+        "A": "Dacriocitos",
+        "B": "Equinocitos",
+        "C": "Esquistocitos",
+        "D": "Estomatocitos"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Esquistocitos"
+    },
+    {
+      "id": 218,
+      "question": "¿En qué momento del desarrollo de los eritrocitos comienza la producción de hemoglobina?",
+      "options": {
+        "A": "Eritroblasto policromatófilo",
+        "B": "Reticulocito",
+        "C": "Eritroblasto basófilo",
+        "D": "Eritrocito eritroide"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Eritroblasto basófilo"
+    },
+    {
+      "id": 219,
+      "question": "Para teñir el frotis sanguíneo con la técnica de panóptico rápido, usaremos:",
+      "options": {
+        "A": "Líquido fijador, violeta de genciana, azul de metileno",
+        "B": "Líquido fijador, eosina, lugol",
+        "C": "Líquido fijador, colorante ácido/eosina, colorante",
+        "D": "Líquido fijador, colorante ácido/eosina, safranina"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Líquido fijador, colorante ácido/eosina, colorante"
+    },
+    {
+      "id": 220,
+      "question": "Una molécula de hemoglobina puede fijar:",
+      "options": {
+        "A": "Cuatro moléculas de oxígeno",
+        "B": "Una molécula de oxígeno",
+        "C": "Dos moléculas de oxígeno",
+        "D": "Ocho moléculas de oxígeno"
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Cuatro moléculas de oxígeno"
+    },
+    {
+      "id": 221,
+      "question": "El término anisocitosis nos indica presencia de:",
+      "options": {
+        "A": "Hematíes pequeños",
+        "B": "Hematíes de forma anormal",
+        "C": "Hematíes de diferentes tamaños",
+        "D": "Hematíes esféricos"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Hematíes de diferentes tamaños"
+    },
+    {
+      "id": 222,
+      "question": "¿Cuál de las siguientes células no presenta núcleo?",
+      "options": {
+        "A": "Glóbulo rojo",
+        "B": "Proeritroblasto",
+        "C": "Eritroblasto ortocromático",
+        "D": "Eritroblasto basófilo"
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Glóbulo rojo"
+    },
+    {
+      "id": 223,
+      "question": "Se conoce a los corpúsculos de Heinz como:",
+      "options": {
+        "A": "Cuerpos redondos, pequeños, excéntricos y cónicos de color verde oscuro que aparecen en los hematíes",
+        "B": "Hematíes de coloración disminuida",
+        "C": "Hematíes de coloración aumentada",
+        "D": "Compuestos de hemoglobina desnaturalizada próximos a la membrana celular que se sueñen teñir de color púrpura"
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Compuestos de hemoglobina desnaturalizada próximos a la membrana celular que se sueñen teñir de color púrpura"
+    },
+    {
+      "id": 224,
+      "question": "De las siguientes células, ¿cuál es la más inmadura?",
+      "options": {
+        "A": "Eritroblasto ortocromático",
+        "B": "Eritroblasto basófilo.",
+        "C": "Reticulocito.",
+        "D": "Eritroblasto policromatófilo"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Eritroblasto basófilo."
+    },
+    {
+      "id": 225,
+      "question": "Las anemias sideroblásticas cursan con:",
+      "options": {
+        "A": "VCM y HCM aumentados.",
+        "B": "VCM y HCM disminuidos.",
+        "C": "VCM y HCM normales.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "VCM y HCM disminuidos."
+    },
+    {
+      "id": 226,
+      "question": "¿En cuál de las siguientes enfermedades aparece el codocito o célula Diana?",
+      "options": {
+        "A": "Talasemias.",
+        "B": "Hidrocitosis.",
+        "C": "Uremias.",
+        "D": "Cirrosis Hepáticas"
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Talasemias."
+    },
+    {
+      "id": 227,
+      "question": "¿En cuál de las siguientes enfermedades no está aumentada la VSG?",
+      "options": {
+        "A": "Neoplasias malignas.",
+        "B": "Insuficiencia renal.",
+        "C": "Insuficiencia cardiaca congestiva.",
+        "D": "Infarto de miocardio."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Insuficiencia cardiaca congestiva."
+    },
+    {
+      "id": 228,
+      "question": "¿Cuál de los siguientes es un producto del metabolismo del hematíe?",
+      "options": {
+        "A": "Glucosa.",
+        "B": "Potasio.",
+        "C": "Fosfatos.",
+        "D": "2,3 difosfoglicerato."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "2,3 difosfoglicerato."
+    },
+    {
+      "id": 229,
+      "question": "Es falso respecto a la citometría de flujo",
+      "options": {
+        "A": "Clasifica células en función de su tamaño y complejidad celular.",
+        "B": "No es posible la determinación del antígeno HLA",
+        "C": "Es utilizado para determinación de subpoblaciones leucocitarias.",
+        "D": "Se puede utilizar para determinación de subpoblaciones eritrocitarias"
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "No es posible la determinación del antígeno HLA"
+    },
+    {
+      "id": 230,
+      "question": "En una microangiopatía trombótica es más común observar en un frotis de sangre periférica",
+      "options": {
+        "A": "Dacriocitos.",
+        "B": "Esferocitos.",
+        "C": "Equinocitos.",
+        "D": "Esquistocitos."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Esquistocitos."
+    },
+    {
+      "id": 231,
+      "question": "¿Qué afirmación considera falsa en relación a la anemia ferropénica?",
+      "options": {
+        "A": "La anemia ferropénica es la causa de patología más frecuente en los seres humanos.",
+        "B": "Presenta sideremia baja, Transferrina elevada, índice de saturación de transferrina bajo y Ferritina sérica baja.",
+        "C": "En el patrón de trastorno crónico la ferritina esta elevada.",
+        "D": "El patrón típico incluye ferritina elevada."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "El patrón típico incluye ferritina elevada."
+    },
+    {
+      "id": 232,
+      "question": "¿Cuál de estas situaciones puede falsear el valor de la concentración de hemoglobina por aumento del volumen plásmatico?",
+      "options": {
+        "A": "Embarazo.",
+        "B": "Diarrea.",
+        "C": "Hemorragia aguda.",
+        "D": "Acidosis diabética"
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Embarazo."
+    },
+    {
+      "id": 233,
+      "question": "La hemoglobina corpuscular media:",
+      "options": {
+        "A": "Es el cociente entre la concentración de",
+        "B": "Se mide en gramos.",
+        "C": "Es el cociente entre la concentración de hemoglobina y el hematocrito.",
+        "D": "Tiene escasa utilidad en la práctica clínica."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Es el cociente entre la concentración de"
+    },
+    {
+      "id": 234,
+      "question": "¿A qué se refiere el término PIOQUILOCITOSIS en los hematíes?",
+      "options": {
+        "A": "Alteración de la cantidad de Hb.",
+        "B": "Alteración del número presente por μl",
+        "C": "Alteración en la forma.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Ninguna es correcta."
+    },
+    {
+      "id": 235,
+      "question": "En lo referente a la Hb como fijador de O2, ¿cuántas moléculas se fija por unidad de Hb?",
+      "options": {
+        "A": "3, una por cada grupo hemo que la conforma.",
+        "B": "4, ya que sólo 2 grupos hemo tendrán sitios activos.",
+        "C": "1, cada grupo hemo.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Ninguna es correcta."
+    },
+    {
+      "id": 236,
+      "question": "Hombre de 63 años en estudio por cuadro de astenia. En el hemograma se evidencia una hemoglobina de 9 g/dL, con un volumen corpuscular medio de 102 fL. ¿Cuál de los siguientes diagnósticos le parece MENOS probable?",
+      "options": {
+        "A": "Intoxicación por plomo.",
+        "B": "Alcoholismo.",
+        "C": "Síndrome mielodisplástico.",
+        "D": "Déficit de vitamina B12."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Intoxicación por plomo."
+    },
+    {
+      "id": 237,
+      "question": "¿Cuál de los siguientes hallazgos en el hemograma sugieren la presencia de aglutininas?",
+      "options": {
+        "A": "Marcada elevación de la concentración de",
+        "B": "Aumento en el número de hematíes.",
+        "C": "Disminución del volumen corpuscular medio.",
+        "D": "Disminución de la hemoglobina corpuscular media."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Marcada elevación de la concentración de"
+    },
+    {
+      "id": 238,
+      "question": "¿Cómo se denomina la hemoglobina que contiene hierro férrico?",
+      "options": {
+        "A": "Carbaminohemoglobina",
+        "B": "Metahemoglobina",
+        "C": "Carboxihemoglobina",
+        "D": "Desoxihemoglobina"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Metahemoglobina"
+    },
+    {
+      "id": 239,
+      "question": "¿Cuál de las siguientes afirmaciones sobre la eritropoyetina es FALSA?",
+      "options": {
+        "A": "Disminuye el tiempo de maduración celular.",
+        "B": "Se genera a partir de una glicoproteína hepática",
+        "C": "Coordina las cantidades producidas de hem y de globina.",
+        "D": "Facilita la liberación de reticulocitos a la sangre."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Se genera a partir de una glicoproteína hepática"
+    },
+    {
+      "id": 240,
+      "question": "¿Qué inclusión intraeritrocitaria se produce en las intoxicaciones por plomo, en talasemias y leucemias?",
+      "options": {
+        "A": "Punteado basófilo.",
+        "B": "Anillos de Cabot.",
+        "C": "Cuerpos de Howell-Jolly.",
+        "D": "Cuerpos de Pappenheimer."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Punteado basófilo."
+    },
+    {
+      "id": 241,
+      "question": "¿Qué tipo de anticuerpos se buscan en la detección de crioaglutininas?",
+      "options": {
+        "A": "IgM",
+        "B": "IgG",
+        "C": "IgE",
+        "D": "IgA"
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "IgM"
+    },
+    {
+      "id": 242,
+      "question": "De entre los siguientes, ¿en cuál se utiliza con mayor frecuencia el agitador de rodillo?",
+      "options": {
+        "A": "Estudios de bioquímica",
+        "B": "Estudios de hematología",
+        "C": "Estudios de coagulación",
+        "D": "Agitaciones rápidas y breves, fundamentalmente para resuspender partículas en un líquido"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Estudios de hematología"
+    },
+    {
+      "id": 243,
+      "question": "¿Qué factor puede disminuir la afinidad de la hemoglobina por el oxígeno?",
+      "options": {
+        "A": "La elevación de la temperatura",
+        "B": "El aumento de pH del medio",
+        "C": "El descenso de la concentración de CO2 en el medio",
+        "D": "La disminución del metabolito 2,3 bifosfoglicerato"
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "La elevación de la temperatura"
+    },
+    {
+      "id": 244,
+      "question": "De entre las siguientes, ¿qué parámetro nos ayuda a diferenciar la anemia ferropénica de la anemia de las afecciones crónicas?",
+      "options": {
+        "A": "Capacidad total de fijación del hierro",
+        "B": "Sideremia",
+        "C": "VCM",
+        "D": "Cuantificación de HbA2 y HbF Comentario. El hierro comentamos que es mal marcador de ferropenia. Suele estar disminuido en ambos procesos. La capacidad total de fijación del hierro está alta en la ferropenia (al bajar hierro y subir transferrina) y baja en la anemia de afecciones crónicas (al disminuir tanto hierro como transferrina)."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Capacidad total de fijación del hierro"
+    },
+    {
+      "id": 245,
+      "question": "¿Cuál de estos colorantes no es de naturaleza alcalina?",
+      "options": {
+        "A": "Eosina",
+        "B": "Azul de metileno",
+        "C": "Azur A",
+        "D": "Tiacinas"
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Eosina"
+    },
+    {
+      "id": 246,
+      "question": "¿Qué fracción de hemoglobina se forma cuando el ión ferroso del grupo hemo se oxida a férrico y es incapaz de combinarse con el oxígeno?",
+      "options": {
+        "A": "Metahemoglobina",
+        "B": "Carboxihemoglobina",
+        "C": "Desoxihemoglobina",
+        "D": "Oxihemoglobina"
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Metahemoglobina"
+    },
+    {
+      "id": 247,
+      "question": "¿Cuál es la composición de cada una de las ferroporfirinas del grupo HEMO de la hemoglobina?",
+      "options": {
+        "A": "Cuatro átomos de hierro en estado ferroso.",
+        "B": "Cuatro átomos de hierro en estado férrico.",
+        "C": "Un átomo de hierro en estado ferroso.",
+        "D": "Un átomo de hierro en estado férrico."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Un átomo de hierro en estado ferroso."
+    },
+    {
+      "id": 248,
+      "question": "¿Cuál de las siguientes afirmaciones es FALSA con respecto a la hidropesía fetal?",
+      "options": {
+        "A": "El feto afectado sólo presenta Hemoglobina Barts",
+        "B": "Es un tipo de alfa talasemia",
+        "C": "Es un tipo de beta talasemia",
+        "D": "Es un trastorno incompatible con la vida"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Es un tipo de beta talasemia"
+    },
+    {
+      "id": 249,
+      "question": "La hemoglobina corpuscular media se calcula a partir de:",
+      "options": {
+        "A": "La concentración de hemoglobina y el número de",
+        "B": "El hematocrito y el número de hematíes",
+        "C": "La concentración de hemoglobina y el hematocrito",
+        "D": "El hematocrito y el IDH"
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "La concentración de hemoglobina y el número de"
+    },
+    {
+      "id": 250,
+      "question": "La eritrocitosis secundaria puede deberse a:",
+      "options": {
+        "A": "Enfermedad pulmonar hipoxémica",
+        "B": "Cardiopatías congénitas cianosantes",
+        "C": "Síndrome de Gaisböck",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 251,
+      "question": "Indique cuál de los siguientes datos no esperaríamos encontrar en una anemia ferropénica:",
+      "options": {
+        "A": "HCM baja",
+        "B": "Ferritina sérica disminuida",
+        "C": "VCM elevado",
+        "D": "CHCM baja"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "VCM elevado"
+    },
+    {
+      "id": 252,
+      "question": "En el síndrome drepanocítico:",
+      "options": {
+        "A": "Los eritrocitos tienen mucha flexibilidad",
+        "B": "El cribado se realiza mediante determinación de hemoglobina A",
+        "C": "Existe",
+        "D": "Los hematíes tienen forma de diana"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Existe"
+    },
+    {
+      "id": 253,
+      "question": "Para la realización de una extensión sanguínea, que no podamos realizar en el acto, preferiblemente emplearemos sangre periférica extraída por punción venosa con:",
+      "options": {
+        "A": "Citrato sódico.",
+        "B": "EDTA",
+        "C": "Heparina",
+        "D": "Sin anticoagulante."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "EDTA"
+    },
+    {
+      "id": 254,
+      "question": "De entre las siguientes, ¿cuál de las siguientes tinciones es la más adecuada para la tinción de reticulocitos?",
+      "options": {
+        "A": "Azul de metileno",
+        "B": "Azul de toluidina",
+        "C": "Azul de bromotimol",
+        "D": "Azul de cresil brillante"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Azul de cresil brillante"
+    },
+    {
+      "id": 255,
+      "question": "¿Qué son los cuerpos de Heinz?",
+      "options": {
+        "A": "Un pequeño residuo nuclear",
+        "B": "Restos de la membrana nuclear o microtúbulos",
+        "C": "Cúmulos de hemosiderina unida a proteínas",
+        "D": "Precipitados de hemoglobina"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Precipitados de hemoglobina"
+    },
+    {
+      "id": 256,
+      "question": "¿Qué hemoglobina es aquella que consta de dos cadenas globínicas alfa y dos gamma?",
+      "options": {
+        "A": "Hemoglobina A",
+        "B": "Hemoglobina A2",
+        "C": "Hemoglobina Fetal",
+        "D": "Hemoglobina Portland"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Hemoglobina Fetal"
+    },
+    {
+      "id": 257,
+      "question": "¿En cuáles de las siguientes patologías no cabría esperar un VCM mayor de 100 fl?",
+      "options": {
+        "A": "Talasemia",
+        "B": "Hepatopatía crónica",
+        "C": "Carencia de vitamina B12",
+        "D": "Carencia de ácido fólico"
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Talasemia"
+    },
+    {
+      "id": 258,
+      "question": "¿Para qué se utiliza el test de Kleihauer-Betke?",
+      "options": {
+        "A": "Es un test que cuantifica la hemoglobina fetal en",
+        "B": "Es un test que detecta la hemoglobina S de la anemia falciforme",
+        "C": "Es un test que detecta la hemoglobina C en la anemia hemolítica",
+        "D": "Es un test que detecta la hemoglobina A2 en las talasemias"
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Es un test que cuantifica la hemoglobina fetal en"
+    },
+    {
+      "id": 259,
+      "question": "Señale la respuesta correcta, la hemoglobina A esta formada por:",
+      "options": {
+        "A": "Un grupo hemo más un grupo amino.",
+        "B": "Un grupo hemo más un grupo lipídico.",
+        "C": "Un grupo hemo más un grupo proteico formado por cuatro cadenas α.",
+        "D": "Un grupo hemo más un grupo proteico formado por dos cadenas α y dos cadenas β."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Un grupo hemo más un grupo proteico formado por dos cadenas α y dos cadenas β."
+    },
+    {
+      "id": 260,
+      "question": "¿Dónde finaliza su maduración el reticulocito?:",
+      "options": {
+        "A": "Bazo.",
+        "B": "Timo.",
+        "C": "Medula óseA)",
+        "D": "Sistema circulatorio."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Sistema circulatorio."
+    },
+    {
+      "id": 261,
+      "question": "¿Cuál de las siguientes afirmaciones sobre las CFC- LM es falsa?:",
+      "options": {
+        "A": "También se conoce como Células Formadoras de",
+        "B": "De ellas derivan el resto de células sanguíneas.",
+        "C": "Es también conocida como Stem-Cell.",
+        "D": "Es precursor de las CFU-L Comentario. Pregunta difícil porque puede identificarse con varios nombres. La CFC-LM se denomina también Stem Cell, hematopoietic stem cells (HSC) o Célula madre hematopoyética pluripotencial."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "También se conoce como Células Formadoras de"
+    },
+    {
+      "id": 262,
+      "question": "Señale la afirmación verdadera",
+      "options": {
+        "A": "La hemoglobina es una proteína tetramérica: consta de dos subunidades alfa y dos beta, con notable homología entre ellas. Cada subunidad contiene un grupo hemo.",
+        "B": "La mioglobina es similar a la hemoglobina salvo que se trata de una proteína monomérica y, en consecuencia, solo tiene un grupo hemo.",
+        "C": "Las funciones de la hemoglobina y mioglobina es el transporte de oxígeno (O2): la hemoglobina en la sangre y la mioglobina en el músculo.",
+        "D": "Todas las respuestas son verdaderas."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son verdaderas."
+    },
+    {
+      "id": 263,
+      "question": "¿Qué parámetros del hemograma se necesitan para calcular la concentración de hemoglobina corpuscular media (CHCM)?",
+      "options": {
+        "A": "La hemoglobina y el hematocrito.",
+        "B": "La hemoglobina y el RBC.",
+        "C": "El hematocrito y el RBC.",
+        "D": "La hemoglobina y el VCM."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "La hemoglobina y el hematocrito."
+    },
+    {
+      "id": 264,
+      "question": "En una anemia ferropénica, ¿qué parámetros del hemograma podemos encontrar disminuidos?",
+      "options": {
+        "A": "Hemoglobina",
+        "B": "VCM",
+        "C": "Hematocrito",
+        "D": "Todas son ciertas."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 265,
+      "question": "Señale la afirmación correcta",
+      "options": {
+        "A": "En la anemia macrocítica la hemoglobina se encuentra dentro de los valores de referencia para la edad y sexo del paciente.",
+        "B": "En la anemia macrocítica el VCM se encuentra",
+        "C": "En la anemia macrocítica el VCM se encuentra disminuido (menor de 80 fL).",
+        "D": "La causa más frecuente de anemia macrocítica es un déficit de hierro."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "En la anemia macrocítica el VCM se encuentra"
+    },
+    {
+      "id": 266,
+      "question": "Son alteraciones de la forma de los hematíes los siguientes, excepto",
+      "options": {
+        "A": "Esferocitos.",
+        "B": "Eliptocitos.",
+        "C": "Dacriocitos.",
+        "D": "Trombocitos."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Trombocitos."
+    },
+    {
+      "id": 267,
+      "question": "Entre las causas de las anemias hemolíticas se encuentran las siguientes",
+      "options": {
+        "A": "Déficit de glucosa -6- fosfato deshidrogenasa.",
+        "B": "Esferocitosis hereditaria.",
+        "C": "Anemia hemolítica autoinmune.",
+        "D": "Todas las respuestas son verdaderas."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son verdaderas."
+    },
+    {
+      "id": 268,
+      "question": "En relación a los reticulocitos, señale la afirmación verdadera",
+      "options": {
+        "A": "Son los precursores inmediatos de los hematíes maduros, que conservan capacidad de síntesis de proteínas gracias a la persistencia de restos de retículo endoplásmico en el citoplasma.",
+        "B": "El aumento en sangre periférica desde la médula ósea es un mecanismo compensatorio en anemias regenerativas.",
+        "C": "Nos permiten determinar el carácter regenerativo o arregenerativo de la anemia.",
+        "D": "Todas son verdaderas."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Todas son verdaderas."
+    },
+    {
+      "id": 269,
+      "question": "Señale la opción verdadera con respecto a las talasemias",
+      "options": {
+        "A": "Las talasemias son un grupo heterogéneo de alteraciones congénitas, cuya característica común es un defecto en la síntesis de una o varias de las cadenas de globina.",
+        "B": "Cada talasemia recibe el nombre de la cadena que deja de sintetizarse. Las más comunes son la betatalasemia y alfa-talasemia.",
+        "C": "Son trastornos hereditarios con un patrón de herencia autosómica.",
+        "D": "Todas son verdaderas."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Todas son verdaderas."
+    },
+    {
+      "id": 270,
+      "question": "El hierro es transportado en el organismo unido a:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Transferrina.",
+        "C": "Ceruloplasmina.",
+        "D": "Transcobalamina."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Transferrina."
+    },
+    {
+      "id": 271,
+      "question": "El método Coulter es utilizado para contar y medir el tamaño de partículas, consiste en:",
+      "options": {
+        "A": "La representación del coeficiente de extinción molar en función de la longitud de onda de la luz incidente de una partícula.",
+        "B": "Detectar y medir cambios en la resistencia",
+        "C": "Medir la actividad enzimática de la peroxidasa.",
+        "D": "Detectar estructuras diferentes por densitometría."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Detectar y medir cambios en la resistencia"
+    },
+    {
+      "id": 272,
+      "question": "La hemoglobina es una glicoproteína compleja y componente más importante del hematíe cuya concentración se mide en un autoanalizador hematológico mediante la técnica de:",
+      "options": {
+        "A": "Espectrofotometría.",
+        "B": "Densitometría.",
+        "C": "Medición directa.",
+        "D": "Cromatografía en placa."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Espectrofotometría."
+    },
+    {
+      "id": 273,
+      "question": "¿Qué nombre reciben los gránulos intraeritrocitarios resultantes de la precipitación de cadenas de hemoglobina?",
+      "options": {
+        "A": "Anillos de Cabot.",
+        "B": "Cuerpos de Harrison.",
+        "C": "Cuerpos de Hunts.",
+        "D": "Cuerpos de Heinz."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Cuerpos de Heinz."
+    },
+    {
+      "id": 274,
+      "question": "¿Qué es un reticulocito?",
+      "options": {
+        "A": "Una célula que contiene ARN y ribosomas,",
+        "B": "Una célula del retículo endotelial.",
+        "C": "Una célula precursora del eritroblasto basófilo.",
+        "D": "Una célula inmadura de la serie blanca."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Una célula que contiene ARN y ribosomas,"
+    },
+    {
+      "id": 275,
+      "question": "La vida media de los eritrocitos es de:",
+      "options": {
+        "A": "30 días.",
+        "B": "45 días.",
+        "C": "90 días.",
+        "D": "120 días."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "120 días."
+    },
+    {
+      "id": 276,
+      "question": "La hemoglobina A está formada por:",
+      "options": {
+        "A": "Dos cadenas α y dos cadenas β.",
+        "B": "Dos cadenas ɣ y dos cadenas α.",
+        "C": "Dos cadenas β y dos cadenas ɣ.",
+        "D": "Cuatro cadenas α."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Dos cadenas α y dos cadenas β."
+    },
+    {
+      "id": 277,
+      "question": "Se habla de anemia normocítica cuando el VCM tiene un valor de:",
+      "options": {
+        "A": "66-76 fL.",
+        "B": "100- 110 fL.",
+        "C": "81- 99 fL.",
+        "D": ">110 fL."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "81- 99 fL."
+    },
+    {
+      "id": 278,
+      "question": "Los corpúsculos de Howell - Jolly:",
+      "options": {
+        "A": "Se corresponden con depósitos de hierro.",
+        "B": "Son ribosomas.",
+        "C": "Se corresponden con restos nucleares.",
+        "D": "Se corresponden con acúmulos de hemosiderina."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "Se corresponden con restos nucleares."
+    },
+    {
+      "id": 279,
+      "question": "La transferrina es:",
+      "options": {
+        "A": "La proteína más abundante en el plasma, hasta 2/3 de las proteínas totales.",
+        "B": "Es el componente principal de las α-1 globulina.",
+        "C": "Es la principal β globulina.",
+        "D": "Se conoce como orosomucoide. Explicación: α-1-glicoproteína ácida es la proteína que se conoce como orosomucoide"
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "Es la principal β globulina."
+    },
+    {
+      "id": 280,
+      "question": "Indique cuál es la vida media de un eritrocito:",
+      "options": {
+        "A": "30 días.",
+        "B": "60 días.",
+        "C": "90 días.",
+        "D": "120 días."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "120 días."
+    },
+    {
+      "id": 281,
+      "question": "Para el diagnóstico de las talasemias puede ayudar el hemograma. Habitualmente, ¿qué será común?:",
+      "options": {
+        "A": "Poliglobulia.",
+        "B": "Anemia microcítica.",
+        "C": "Neutropenia.",
+        "D": "Aumento de la metahemoglobina."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Anemia microcítica."
+    },
+    {
+      "id": 282,
+      "question": "El mejor parámetro para valorar la anemia ferropénica es:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Hierro.",
+        "C": "Índice de saturación de transferrina.",
+        "D": "Hepcidina."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Ferritina."
+    },
+    {
+      "id": 283,
+      "question": "La tinción azul cresil brillante permite diferenciar los hematíes de:",
+      "options": {
+        "A": "Los reticulocitos.",
+        "B": "Los neutrófilos.",
+        "C": "Los cayados.",
+        "D": "Los basófilos."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Los reticulocitos."
+    },
+    {
+      "id": 284,
+      "question": "¿Cuál es el derivado de la hemoglobina que se caracteriza por el estado oxidado de sus átomos de hierro y que es incapaz de unir oxígeno?",
+      "options": {
+        "A": "Carboxihemoglobina",
+        "B": "Metahemoglobina",
+        "C": "Oxihemoglobina",
+        "D": "Sulfohemoglobina"
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Metahemoglobina"
+    },
+    {
+      "id": 285,
+      "question": "¿Dónde se produce la eritropoyetina en el adulto para la estimulación de la proliferación de eritrocitos?",
+      "options": {
+        "A": "En el riñón.",
+        "B": "En la médula ósea.",
+        "C": "En el hígado.",
+        "D": "En el bazo."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "En el riñón."
+    },
+    {
+      "id": 286,
+      "question": "En referencia a la morfología eritrocitaria, hablamos de Dacriocitosis cuando los eritrocitos tienen forma de:",
+      "options": {
+        "A": "Diana.",
+        "B": "Lágrima o pera.",
+        "C": "Hoz o semiluna.",
+        "D": "Son desiguales entre ellos."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Lágrima o pera."
+    },
+    {
+      "id": 287,
+      "question": "La alfa-talasemia silente se caracteriza por la deleción de:",
+      "options": {
+        "A": "Un gen.",
+        "B": "Dos genes.",
+        "C": "Tres genes.",
+        "D": "Cuatro genes."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Un gen."
+    },
+    {
+      "id": 288,
+      "question": "¿Cuál es el principal órgano hematopoyético en la etapa infantil?",
+      "options": {
+        "A": "Hígado.",
+        "B": "Páncreas.",
+        "C": "Médula ósea de todo el esqueleto.",
+        "D": "Timo."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Médula ósea de todo el esqueleto."
+    },
+    {
+      "id": 289,
+      "question": "¿Qué provoca el déficit de hemoglobina?:",
+      "options": {
+        "A": "Leucocitosis.",
+        "B": "Anemia.",
+        "C": "Problemas hepáticos.",
+        "D": "Disminución del recuento plaquetario."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Anemia."
+    },
+    {
+      "id": 290,
+      "question": "La policitemia secundaria (aumento de la masa eritrocitaria) se debe a:",
+      "options": {
+        "A": "Un déficit de factor de crecimiento.",
+        "B": "Un aumento de la hemoglobina A2.",
+        "C": "Al fenómeno de rouleaux.",
+        "D": "Una sobreproducción de eritropoyetina."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Una sobreproducción de eritropoyetina."
+    },
+    {
+      "id": 291,
+      "question": "En un examen microscópico a 10x de una extensión de sangre periférica, es importante valorar:",
+      "options": {
+        "A": "La calidad general del frotis.",
+        "B": "Presencia de células grandes anormales.",
+        "C": "Presencia de parásitos.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son correctas."
+    },
+    {
+      "id": 292,
+      "question": "En anemias sideroblásticas, en las tinciones de “perls” o azul de prusia se observa:",
+      "options": {
+        "A": "Sideroblastos con forma de L.",
+        "B": "Los sideroblastos son más luminiscentes.",
+        "C": "Distintas formas de sideroblastos en anillo.",
+        "D": "Lo que caracteriza a esta anemia es que no se ven sideroblastos."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Distintas formas de sideroblastos en anillo."
+    },
+    {
+      "id": 293,
+      "question": "¿Qué es la esferocitosis?:",
+      "options": {
+        "A": "Visualización de esferas en una extensión de hematíes.",
+        "B": "Un tipo de anemia hemolítica congénita.",
+        "C": "Una prueba de luminiscencia.",
+        "D": "Déficit de hierro."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Un tipo de anemia hemolítica congénita."
+    },
+    {
+      "id": 294,
+      "question": "¿Cuál de las siguientes anemias se debe a fallos en la síntesis de globina?:",
+      "options": {
+        "A": "Talasemias.",
+        "B": "Anemia de los procesos crónicos.",
+        "C": "Anemias sideroblásticas.",
+        "D": "Anemias no megaloblásticas."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Talasemias."
+    },
+    {
+      "id": 295,
+      "question": "Con respecto a la hemoglobina señale la respuesta incorrecta:",
+      "options": {
+        "A": "La hemoglobina constituye el 95% del peso seco eritrocitario.",
+        "B": "El oxígeno se fija a la hemoglobina para formar oxihemoglobina.",
+        "C": "Cada molécula de Hemoglobina puede fijar un",
+        "D": "La unión entre el oxígeno y la hemoglobina es de tipo coordinado."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Cada molécula de Hemoglobina puede fijar un"
+    },
+    {
+      "id": 296,
+      "question": "Señale la respuesta incorrecta respecto a la determinación de las crioglobulinas:",
+      "options": {
+        "A": "El laboratorio debe estar avisado de la extracción para estar preparado.",
+        "B": "La jeringuilla con la que se hace la extracción debe estar a 37ºC, para evitar que las crioglobulinas precipiten.",
+        "C": "No debe usarse plasma.",
+        "D": "Incubar durante 2 horas."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Incubar durante 2 horas."
+    },
+    {
+      "id": 297,
+      "question": "El potencial Zeta es:",
+      "options": {
+        "A": "El grado de hidratación que posibilita una mayor adhesión entre los hematíes.",
+        "B": "La capacidad de deformación de los hematíes.",
+        "C": "La fuerza de repulsión de los hematíes entre sí.",
+        "D": "El conjunto de receptores antigénicos de los grupos sanguíneos."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "La fuerza de repulsión de los hematíes entre sí."
+    },
+    {
+      "id": 298,
+      "question": "¿Cuál de los siguientes índices eritrocitarios se expresa en picogramos?:",
+      "options": {
+        "A": "Volumen corpuscular medio (VCM).",
+        "B": "Hemoglobina corpuscular media (HCM).",
+        "C": "Concentración corpuscular media de Hemoglobina (CCMH).",
+        "D": "Ninguno de ellos."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Hemoglobina corpuscular media (HCM)."
+    },
+    {
+      "id": 299,
+      "question": "¿En cuál de las siguientes anemias suelen observarse esquistocitos?:",
+      "options": {
+        "A": "Hemoglobinopatía S.",
+        "B": "Talasemia.",
+        "C": "Insuficiencia renal.",
+        "D": "Anemia hemolítica microangiopática."
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "Anemia hemolítica microangiopática."
+    },
+    {
+      "id": 300,
+      "question": "¿Cuál de las siguientes anemias es macrocítica?:",
+      "options": {
+        "A": "Anemia ferropénica.",
+        "B": "Talasemia.",
+        "C": "Anemia megaloblástica.",
+        "D": "Anemia de los procesos crónicos."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Anemia megaloblástica."
+    },
+    {
+      "id": 301,
+      "question": "¿Qué célula se transforma directamente en reticulocito?:",
+      "options": {
+        "A": "Proeritroblasto.",
+        "B": "Eritroblasto ortocromático.",
+        "C": "Eritroblasto basófilo.",
+        "D": "Eritroblasto policromatófilo."
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "Eritroblasto ortocromático."
+    },
+    {
+      "id": 302,
+      "question": "La curva de disociación de la hemoglobina se desplaza hacia la derecha cuando:",
+      "options": {
+        "A": "Disminuye la concentración del 2,3-DFG.",
+        "B": "Aumenta el pH.",
+        "C": "Aumenta la concentración de CO2.",
+        "D": "Disminuye la temperatura."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Aumenta la concentración de CO2."
+    },
+    {
+      "id": 303,
+      "question": "¿Qué provoca en un frotis sanguíneo la presencia del fenómeno de Rouleaux o hematíes en pilas de monedas?",
+      "options": {
+        "A": "Una deficiente homogeneización de la muestra, previa a la realización del frotis.",
+        "B": "Una excesiva inclinación del portaobjetos al realizar el frotis.",
+        "C": "La muestra presenta hipercoagulabilidad.",
+        "D": "La presencia de una paraproteína."
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "La presencia de una paraproteína."
+    },
+    {
+      "id": 304,
+      "question": "Al realizar un recuento de reticulocitos en un frotis, se realiza una tinción supravital. ¿Qué estructuras, que indentifican al reticulocito, se ponen de manifiesto con esta tinción?",
+      "options": {
+        "A": "Los restos del huso mitótico.",
+        "B": "Hemoglobinas inestables.",
+        "C": "Restos de RNA.",
+        "D": "Restos de DNA."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Restos de RNA."
+    },
+    {
+      "id": 305,
+      "question": "El analizador hematológico con el que trabajo proporciona un resultado alarmante en un hemograma, reflejando una neutropenia severa y un porcentaje de células grandes no teñidas alto en una mujer de 32 años sin patologías conocidas. Tras descartar error técnico se realiza un frotis de sangre periférica que resulta ser totalmente normal. Cuál de las siguientes afirmaciones nos podría explicar lo sucedido:",
+      "options": {
+        "A": "El autoanalizador con el que trabajamos hace",
+        "B": "El autoanalizador con el que trabajamos hace",
+        "C": "El autoanalizador con el que trabajamos hace",
+        "D": "Ninguna de las respuestas anteriores es correcta ya que un déficit de mieloperoxidasa sería incompatible con la vida."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "El autoanalizador con el que trabajamos hace"
+    },
+    {
+      "id": 306,
+      "question": "Sobre la anemia hemolítica, ¿cuál es FALSA?",
+      "options": {
+        "A": "Es una anemia arregenerativa, con una cifra de",
+        "B": "Uno de los mecanismos es una alteración en la membrana eritrocitaria.",
+        "C": "La haptoglobina se encuentra disminuida.",
+        "D": "La LDH se encuentra elevada."
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Es una anemia arregenerativa, con una cifra de"
+    },
+    {
+      "id": 307,
+      "question": "Cuando un hematíe sufre una polimerización de la hemoglobina, ¿se denomina?",
+      "options": {
+        "A": "Esquistocito.",
+        "B": "Estomatocito.",
+        "C": "Drepanocito.",
+        "D": "Dacriocito."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Drepanocito."
+    },
+    {
+      "id": 308,
+      "question": "A la hora de realizar un recuento de hematíes (RBC), ¿cuál de los siguientes diluyentes sería el más apropiado para realizar un recuento manual en cámara?",
+      "options": {
+        "A": "Turck.",
+        "B": "Hayem.",
+        "C": "Lugol.",
+        "D": "Líquido de Coulter."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Hayem."
+    },
+    {
+      "id": 309,
+      "question": "La viscosidad sanguínea:",
+      "options": {
+        "A": "Depende del HCT (hematocrito) y de la concentración de O2 (oxígeno) en la sangre.",
+        "B": "Es una característica físico-química de la sangre",
+        "C": "Es una característica físico-química de la sangre",
+        "D": "Ninguna de las anteriores es cierta."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Es una característica físico-química de la sangre"
+    },
+    {
+      "id": 310,
+      "question": "Los excentrocitos son:",
+      "options": {
+        "A": "Hematíes",
+        "B": "Hematíes con forma de hoz.",
+        "C": "Hematíes con espículas cortas y distribuidas",
+        "D": "Hematíes con espículas de longitud y posición irregular."
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Hematíes"
+    },
+    {
+      "id": 311,
+      "question": "La hemocromatosis:",
+      "options": {
+        "A": "Puede producirse por una absorción intestinal de hierro excesiva.",
+        "B": "Puede darse en anemias hemolíticas.",
+        "C": "Puede aparecer por transfusiones sanguíneas múltiples.",
+        "D": "Todas son ciertas."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 312,
+      "question": "Señala la afirmación verdadera acerca de las anemias megaloblásticas:",
+      "options": {
+        "A": "Se caracterizan por una síntesis anómala de algunas cadenas de Hb (hemoglobina).",
+        "B": "Presentan reticulocitosis intensa.",
+        "C": "Se deben a una carencia de vitamina B12 o ácido",
+        "D": "Son enfermedades autoinmunes."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Se deben a una carencia de vitamina B12 o ácido"
+    },
+    {
+      "id": 313,
+      "question": "Indica a qué tipo de anemia corresponde la siguiente definición: “Anemia que se produce por defectos genéticos que originan una dificultad en la síntesis de algunas cadenas de globina. Esto suele conducir a una alteración en las proporciones en las que se encuentran, habitualmente, los tres tipos de hemoglobinas normales”:",
+      "options": {
+        "A": "Anemia aplásica o pancitopenia.",
+        "B": "Anemia ferropénica.",
+        "C": "Policitemia Vera (PV).",
+        "D": "Talasemia."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Talasemia."
+    },
+    {
+      "id": 314,
+      "question": "Las inclusiones intraeritrocitarias que consisten en acúmulos de hemosiderina unida a proteínas, se denominan:",
+      "options": {
+        "A": "Anillos de Cabot.",
+        "B": "Cuerpos de Heinz.",
+        "C": "Cuerpo de Howell-Jolly.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Ninguna es correcta."
+    },
+    {
+      "id": 315,
+      "question": "¿Qué factor/es influyen fundamentalmente en la viscosidad de la sangre?",
+      "options": {
+        "A": "Hemoglobina.",
+        "B": "Hematocrito.",
+        "C": "Concentración de proteínas en el plasma.",
+        "D": "B) y c) son correctas."
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "B) y c) son correctas."
+    },
+    {
+      "id": 316,
+      "question": "En una extensión sanguínea, señale la respuesta correcta.",
+      "options": {
+        "A": "En el “cuerpo” se encuentra una mayor proporción de linfocitos.",
+        "B": "En la “cola” hay una mayor proporción de",
+        "C": "En la “cabeza” se encuentra una menor proporción de linfocitos.",
+        "D": "En los “bordes”, si están deshilachados, las células son fáciles de reconocer."
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "En la “cola” hay una mayor proporción de"
+    },
+    {
+      "id": 317,
+      "question": "Respecto a las estructuras celulares coloreadas en una tinción hematológica, señale la respuesta correcta.",
+      "options": {
+        "A": "Las estructuras acidófilas adquieren un color azulado con las tinciones tradicionales.",
+        "B": "Las estructuras basófilas adquieren un color rosado con las tinciones tradicionales.",
+        "C": "Las estructuras acidófilas adquieren un color",
+        "D": "Las estructuras basófilas son aquellas que no fijan colorantes de naturaleza alcalina."
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "Las estructuras acidófilas adquieren un color"
+    },
+    {
+      "id": 318,
+      "question": "Todas las siguientes afirmaciones sobre las alteraciones de la forma de los hematíes son ciertas, excepto:",
+      "options": {
+        "A": "Los estomatocitos tienen una invaginación central en forma de boca.",
+        "B": "Los drepanocitos tienen forma de hoz.",
+        "C": "Los keratocitos tienen una prolongación alargada",
+        "D": "Los dianocitos tienen forma de sombrero mejicano (visto frontalmente: reborde coloreado, zona anular pálida y centro coloreado)."
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "Los keratocitos tienen una prolongación alargada"
+    },
+    {
+      "id": 319,
+      "question": "Respecto a las anemias, señale la respuesta INCORRECTA.",
+      "options": {
+        "A": "Las anemias por déficit de ácido fólico y déficit de vitamina B12 son anemias macrocíticas.",
+        "B": "Las",
+        "C": "Las anemias hemolíticas autoinmunes son",
+        "D": "Las anemias sideroacrésticas son anemias microcíticas."
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "Las"
+    },
+    {
+      "id": 320,
+      "question": "De todo lo siguiente, ¿qué NO es característico de la anemia ferropénica?:",
+      "options": {
+        "A": "Microcitosis e hipercromía.",
+        "B": "Índice de saturación de transferrina (IST) disminuido.",
+        "C": "Ferritina baja si no existen procesos inflamatorios o infecciosos asociados."
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Microcitosis e hipercromía."
+    },
+    {
+      "id": 321,
+      "question": "¿Cuál de las siguientes afirmaciones es la correcta en el estudio de la anemia?:",
+      "options": {
+        "A": "Una concentración de hemoglobina corpuscular media (CHCM) baja es característica de esferocitosis, hemoglobinopatía C, hiperlipidemia o aglutinación eritrocitaria.",
+        "B": "El metabolismo férrico es fundamental en la evaluación de una hemólisis.",
+        "C": "Si hay sospecha de hemólisis hay que realizar una",
+        "D": "prueba de Coombs directa para descartar anemia hemolítica autoinmune (AHAI)."
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "prueba de Coombs directa para descartar anemia hemolítica autoinmune (AHAI)."
+    },
+    {
+      "id": 322,
+      "question": "¿En qué unidad se mide el volumen plaquetario medio (VPM)?:",
+      "options": {
+        "A": "miles por mm³.",
+        "B": "μl.",
+        "C": "femtolitros (fl)."
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "femtolitros (fl)."
+    },
+    {
+      "id": 323,
+      "question": "Con respecto a las anemias hemolíticas congénitas, señala la respuesta correcta:",
+      "options": {
+        "A": "Se acepta que ejercen un efecto protector frente",
+        "B": "El déficit de piruvatocinasa provoca crisis hemolíticas agudas, a veces por la ingesta de habas.",
+        "C": "La estomatocitosis cursa con ferropenia."
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Se acepta que ejercen un efecto protector frente"
+    },
+    {
+      "id": 324,
+      "question": "De los siguientes parámetros y sus respectivas unidades; ¿Cuál es la pareja incorrecta?",
+      "options": {
+        "A": "VCM-fl.",
+        "B": "HCM-pg.",
+        "C": "HCM-pg/ml.",
+        "D": "CHCM-g/dl."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "HCM-pg/ml."
+    },
+    {
+      "id": 325,
+      "question": "La anemia de Cooley se conoce también como:",
+      "options": {
+        "A": "Alfa-talasemia silente.",
+        "B": "Beta-talasemia mayor.",
+        "C": "Talasemia híbrida.",
+        "D": "Talasemia menor"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "Beta-talasemia mayor."
+    },
+    {
+      "id": 326,
+      "question": "Los hematíes característicos de la mielofibrosis que presentan forma de lágrima se denominan:",
+      "options": {
+        "A": "Esferocito.",
+        "B": "Eliptocito.",
+        "C": "Equinocito.",
+        "D": "Dacriocito."
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "Dacriocito."
+    },
+    {
+      "id": 327,
+      "question": "VCM (volumen corpuscular medio) bajo y RDW (amplitud de la curva de distribución eritrocitaria) alto, se asocia con:",
+      "options": {
+        "A": "Ferropenia.",
+        "B": "Talasemia.",
+        "C": "Anemia inflamatoria.",
+        "D": "Anemia sideroblástica."
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Ferropenia."
+    },
+    {
+      "id": 328,
+      "question": "¿Qué tipo de colorante es el eosinato azul de metileno utilizado en las tinciones hematológicas habituales?",
+      "options": {
+        "A": "Ácido.",
+        "B": "Básico.",
+        "C": "Neutro.",
+        "D": "Indiferente."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Neutro."
+    },
+    {
+      "id": 329,
+      "question": "¿En qué se diferencia la hemoglobina fetal de la hemoglobina del adulto?",
+      "options": {
+        "A": "En el estado de oxidación del ion hierro.",
+        "B": "En el número de cadenas polipeptídicas de globina.",
+        "C": "En el tipo de cadenas polipeptídicas de globina.",
+        "D": "En todo lo indicado."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "En el tipo de cadenas polipeptídicas de globina."
+    },
+    {
+      "id": 330,
+      "question": "¿Dónde se destruyen las plaquetas?",
+      "options": {
+        "A": "En el hígado y el bazo.",
+        "B": "En la médula ósea.",
+        "C": "En los pulmones.",
+        "D": "En el aparato digestivo."
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "En el hígado y el bazo."
+    },
+    {
+      "id": 331,
+      "question": "¿Cuál es la proteína que transporta el hierro en el plasma?",
+      "options": {
+        "A": "La ferritina.",
+        "B": "La hemosiderina.",
+        "C": "La transferrina.",
+        "D": "La apoferritina"
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "La transferrina."
+    },
+    {
+      "id": 332,
+      "question": "¿En qué zona geográfica es especialmente frecuente la talasemia?",
+      "options": {
+        "A": "En el norte de Europa.",
+        "B": "En Sudamérica.",
+        "C": "En el África central.",
+        "D": "En el Mediterráneo."
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "En el Mediterráneo."
+    },
+    {
+      "id": 333,
+      "question": "¿Qué se utiliza como fijador en la tinción de Giemsa",
+      "options": {
+        "A": "Lugol.",
+        "B": "Alcohol diluido.",
+        "C": "Metanol.",
+        "D": "No se usa fijador."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Metanol."
+    },
+    {
+      "id": 334,
+      "question": "¿Cómo se denomina un hematíe con forma de erizo de mar?",
+      "options": {
+        "A": "Esferocito.",
+        "B": "Acantocito.",
+        "C": "Equinocito."
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Equinocito."
+    },
+    {
+      "id": 335,
+      "question": "Una anemia hemolítica es:",
+      "options": {
+        "A": "Normocítica y normocrómica.",
+        "B": "Normocítica e hipecrómica.",
+        "C": "Microcítica e hipocrómica."
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Normocítica y normocrómica."
+    },
+    {
+      "id": 336,
+      "question": "La anemia megaloblástica se produce por deficiencia de:",
+      "options": {
+        "A": "Cianocobalamina.",
+        "B": "Vitamina D.",
+        "C": "Vitamina C."
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Cianocobalamina."
+    },
+    {
+      "id": 337,
+      "question": "La Citometría de flujo es una técnica de análisis celular que mide:",
+      "options": {
+        "A": "Dispersión de células.",
+        "B": "Dispersión de gases.",
+        "C": "Dispersión de la luz."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Dispersión de la luz."
+    },
+    {
+      "id": 338,
+      "question": "¿En qué unidades se mide normalmente el volumen plaquetario medio?",
+      "options": {
+        "A": "En gramos.",
+        "B": "En centímetros cúbicos.",
+        "C": "En femtolitros.",
+        "D": "En porcentaje."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "En femtolitros."
+    },
+    {
+      "id": 339,
+      "question": "Entre las causas de las anemias hemolíticas. ¿Cuál de ellas no es debida a una anemia hemolítica adquirida?",
+      "options": {
+        "A": "Hemoglobinuria paroxística nocturna.",
+        "B": "Enfermedad hemolítica del recién nacido.",
+        "C": "Talasemias.",
+        "D": "Síndrome de Zieve."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Talasemias."
+    },
+    {
+      "id": 340,
+      "question": "¿Qué porcentaje corresponde normalmente al plasma con respecto al total de la sangre?",
+      "options": {
+        "A": "25%",
+        "B": "35%",
+        "C": "55%",
+        "D": "45%"
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "55%"
+    },
+    {
+      "id": 341,
+      "question": "¿Qué hemoglobina consta de dos cadenas globilínicas α (alfa) y dos δ (delta)?",
+      "options": {
+        "A": "Hb A2.",
+        "B": "Hb A.",
+        "C": "Hb F.",
+        "D": "Hb Gower I."
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Hb A2."
+    },
+    {
+      "id": 342,
+      "question": "¿Cuál es la primera célula precursora de la serie roja?",
+      "options": {
+        "A": "Eritroblasto.",
+        "B": "Normoblasto basófilo.",
+        "C": "Proeritrocito.",
+        "D": "Proeritroblasto."
+      },
+      "page": 33,
+      "correctAnswer": "D",
+      "correctText": "Proeritroblasto."
+    },
+    {
+      "id": 343,
+      "question": "De los siguientes, ¿Cuál es un índice eritrocitario primario?",
+      "options": {
+        "A": "Volumen Corpuscular medio.",
+        "B": "Concentración de Hemoglobina corpuscular media.",
+        "C": "Hematocrito.",
+        "D": "Hemoglobina corpuscular media. Comentario. Primario es de los que se valen para calcular los secundarios, como son los restantes"
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Hematocrito."
+    },
+    {
+      "id": 344,
+      "question": "El término anisocitosis nos indica la presencia de:",
+      "options": {
+        "A": "Hematíes pequeños con un diámetro inferior a 6 micras",
+        "B": "Eritrocitos de diferente tamaño",
+        "C": "Hematíes con forma y contorno anormal",
+        "D": "Eritrocitos esféricos y no bicóncavos"
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Eritrocitos de diferente tamaño"
+    },
+    {
+      "id": 345,
+      "question": "La anomalía que se caracteriza por circular plaquetas de diferentes tamaños por el torrente sanguíneo se conoce como:",
+      "options": {
+        "A": "Politrombia",
+        "B": "Trombocitosis",
+        "C": "Trombocitopenia",
+        "D": "Anisocitosis o anisotrombia"
+      },
+      "page": 33,
+      "correctAnswer": "D",
+      "correctText": "Anisocitosis o anisotrombia"
+    },
+    {
+      "id": 346,
+      "question": "¿Cuál de las siguientes tinciones es también conocida como tinción panóptica?",
+      "options": {
+        "A": "Tinción de Gram.",
+        "B": "Tinción de Ziehl-Neelsen.",
+        "C": "Tinción de May-Grünwald Giemsa.",
+        "D": "Ninguna de las anteriores correcta."
+      },
+      "page": 33,
+      "correctAnswer": "C",
+      "correctText": "Tinción de May-Grünwald Giemsa."
+    },
+    {
+      "id": 347,
+      "question": "¿A qué hematíe se le denomina también \"codocito\"?",
+      "options": {
+        "A": "Equinocito.",
+        "B": "Eliptocito.",
+        "C": "Acantocito.",
+        "D": "Dianocito."
+      },
+      "page": 33,
+      "correctAnswer": "D",
+      "correctText": "Dianocito."
+    },
+    {
+      "id": 348,
+      "question": "La señal de dispersión SSC (Side Scatter) en citometría de flujo, nos da información sobre:",
+      "options": {
+        "A": "La complejidad/granularidad de la célula.",
+        "B": "El tamaño y volumen celular.",
+        "C": "La cantidad de ADN y ARN presente en la célula.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "La complejidad/granularidad de la célula."
+    },
+    {
+      "id": 349,
+      "question": "Señale la respuesta INCORRECTA:",
+      "options": {
+        "A": "La principal función de la Hemoglobina (Hb) es la oxigenación de los tejidos.",
+        "B": "Los reticulocitos son hematíes jóvenes",
+        "C": "A la alteración en la forma de los eritrocitos se le denomina poiquilocitosis.",
+        "D": "En las anemias ferropénicas los valores de Hb están disminuidos."
+      },
+      "page": 34,
+      "correctAnswer": "B",
+      "correctText": "Los reticulocitos son hematíes jóvenes"
+    },
+    {
+      "id": 350,
+      "question": "Para realizar la fijación de una extensión en un frotis para citoquímica, ¿qué fijador NO se utilizaría?",
+      "options": {
+        "A": "Etanol.",
+        "B": "Acetona.",
+        "C": "Formaldehído.",
+        "D": "Esterálico."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Esterálico."
+    },
+    {
+      "id": 351,
+      "question": "Respecto a los eritrocitos o glóbulos rojos señale la respuesta correcta:",
+      "options": {
+        "A": "Producen la hormona eritropoyetina.",
+        "B": "Son las células menos abundantes de la sangre.",
+        "C": "Pueden ser granulosos o no granulosos.",
+        "D": "Son células anucleadas."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Son células anucleadas."
+    },
+    {
+      "id": 352,
+      "question": "¿Qué significado tiene que el hematocrito tenga un valor de 42%?",
+      "options": {
+        "A": "Que el 42% de la sangre es hemoglobina.",
+        "B": "Que el 42% de la hemoglobina está en los eritrocitos.",
+        "C": "Nuestro paciente tiene anemia.",
+        "D": "Que el 42% del volumen sanguíneo está formado por células."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Que el 42% del volumen sanguíneo está formado por células."
+    },
+    {
+      "id": 353,
+      "question": "Los métodos de recuento celular de un contador hematológico se basan en la medición de distintas propiedades, tales como:",
+      "options": {
+        "A": "Impedancia eléctrica y dispersión luminosa.",
+        "B": "Electroforesis.",
+        "C": "Colorimetría.",
+        "D": "Nefelometría."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "Impedancia eléctrica y dispersión luminosa."
+    },
+    {
+      "id": 354,
+      "question": "¿Cuál de las siguientes alteraciones de los hematíes es correcta?",
+      "options": {
+        "A": "Poiquilocitos: hematíes ovalados.",
+        "B": "Eliptocitos: hematíes en diana.",
+        "C": "Estomatocitos: hematíes con depresión central.",
+        "D": "Esquistocitos: hematíes desiguales."
+      },
+      "page": 34,
+      "correctAnswer": "C",
+      "correctText": "Estomatocitos: hematíes con depresión central."
+    },
+    {
+      "id": 355,
+      "question": "En relación con los tipos de hemoglobinas normales en adultos y recién nacidos, señale la afirmación correcta:",
+      "options": {
+        "A": "La hemoglobina A constituye aproximadamente",
+        "B": "La hemoglobina A2 constituye aproximadamente el 97% de toda la hemoglobina de adulto.",
+        "C": "La cuantía de hemoglobina A del recién nacido es superior al 90%.",
+        "D": "En el neonato, la hemoglobina A2 representa más del 50% de toda la hemoglobina."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "La hemoglobina A constituye aproximadamente"
+    },
+    {
+      "id": 356,
+      "question": "En el diagnóstico de la anemia ferropénica encontramos:",
+      "options": {
+        "A": "Valores de HCM inferiores a 27 pg.",
+        "B": "Valores de HCM superiores a 72 pg.",
+        "C": "Valores de VCM superiores a 97 pg.",
+        "D": "Valores de hemoglobina superiores a 13 mg/dl."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "Valores de HCM inferiores a 27 pg."
+    },
+    {
+      "id": 357,
+      "question": "Cuando hablamos de hipocromía nos referimos a:",
+      "options": {
+        "A": "Variación del tamaño del eritrocito.",
+        "B": "Disminución en el contenido de hemoglobina del",
+        "C": "Cambio en la morfología del eritrocito.",
+        "D": "Eritrocito en forma de diana."
+      },
+      "page": 34,
+      "correctAnswer": "B",
+      "correctText": "Disminución en el contenido de hemoglobina del"
+    },
+    {
+      "id": 358,
+      "question": "En relación con el metabolismo de los hematíes, señale la afirmación correcta:",
+      "options": {
+        "A": "Los hematíes maduros no tienen núcleo.",
+        "B": "Los hematíes maduros no tienen mitocondrias.",
+        "C": "Las respuestas A) y B) son verdaderas.",
+        "D": "Las respuestas A) y B) son falsas."
+      },
+      "page": 35,
+      "correctAnswer": "C",
+      "correctText": "Las respuestas A) y B) son verdaderas."
+    },
+    {
+      "id": 359,
+      "question": "El orden de las fases de la VSG es:",
+      "options": {
+        "A": "Concentración, agregación y sedimentación.",
+        "B": "Agregación, concentración y sedimentación.",
+        "C": "Sedimentación, agregación y concentración.",
+        "D": "Agregación, sedimentación y concentración."
+      },
+      "page": 35,
+      "correctAnswer": "D",
+      "correctText": "Agregación, sedimentación y concentración."
+    },
+    {
+      "id": 360,
+      "question": "¿Cuál de las siguientes alteraciones de los hematíes es cierta?:",
+      "options": {
+        "A": "Poiquilocitos: hematíes ovalados.",
+        "B": "Eliptocitos: en diana.",
+        "C": "Estomatocitos: con depresión central.",
+        "D": "Esquistocitos: desiguales. E) Todas son correctas"
+      },
+      "page": 35,
+      "correctAnswer": "C",
+      "correctText": "Estomatocitos: con depresión central."
+    },
+    {
+      "id": 361,
+      "question": "Para llegar al diagnóstico de una anemia hemolítica auto inmune, ¿Cuál de estas pruebas es imprescindible?",
+      "options": {
+        "A": "Crioglobulinas.",
+        "B": "Pruebas cruzadas.",
+        "C": "Coombs indirecto.",
+        "D": "Coombs directo. E) Fenotipado"
+      },
+      "page": 35,
+      "correctAnswer": "D",
+      "correctText": "Coombs directo. E) Fenotipado"
+    },
+    {
+      "id": 362,
+      "question": "La hemólisis de eritrocitos se puede clasificar en extrínseca o intrínseca. Entre las causas extrínsecas de la hemólisis de los eritrocitos, se incluyen:",
+      "options": {
+        "A": "Anemia hemolítica autoinmune.",
+        "B": "Púrpura trombocitopénica trombótica.",
+        "C": "Infecciones.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 35,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 363,
+      "question": "En relación con las talasemias, señale la respuesta correcta:",
+      "options": {
+        "A": "Son un tipo de anemias hemolíticas.",
+        "B": "Son un tipo de anemias microcíticas.",
+        "C": "Se caracterizan por una síntesis defectuosa de la hemoglobina.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 35,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 364,
+      "question": "Mujer de 35 años, natural de Senegal, que hace una semana llegó a nuestro país. Acude a Urgencias por presentar cuadro de mareo y malestar general. Solicitan hemograma y se detecta hemoglobina 7 g/dL, con un volumen corpuscular medio 105 fL. Ante estos datos se solicita un estudio de anemia completo, presentando elevación de bilirrubina indirecta, elevación de LDH y disminución de haptoglobina. La principal sospecha es de un cuadro de:",
+      "options": {
+        "A": "Ferropenia.",
+        "B": "Hipoglucemia.",
+        "C": "Hemólisis.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 35,
+      "correctAnswer": "C",
+      "correctText": "Hemólisis."
+    },
+    {
+      "id": 365,
+      "question": "¿Qué parámetro sería más adecuado para el diagnóstico de anemia hemolítica que se sospecha?",
+      "options": {
+        "A": "Coombs Directo.",
+        "B": "Frotis sanguíneo.",
+        "C": "Reticulocitos.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 35,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son correctas."
+    },
+    {
+      "id": 366,
+      "question": "Dado que la paciente es de origen africano, podemos sospechar que pudiera ser portadora de una hemoglobinopatía estructural tipo hemoglobinopatía S. Para su estudio, ¿qué técnica es la más recomendable?",
+      "options": {
+        "A": "Estudio colorimétrico.",
+        "B": "Técnica de inmunofluorescencia o ELISA.",
+        "C": "Citometría de flujo.",
+        "D": "Cromatografía líquida de alta resolución o HPLC."
+      },
+      "page": 35,
+      "correctAnswer": "D",
+      "correctText": "Cromatografía líquida de alta resolución o HPLC."
+    },
+    {
+      "id": 367,
+      "question": "¿Cuál de las siguientes determinaciones NO es útil en el diagnóstico de una anemia hemolítica?",
+      "options": {
+        "A": "CPK.",
+        "B": "LDH.",
+        "C": "Bilirrubina.",
+        "D": "Haptoglobina."
+      },
+      "page": 36,
+      "correctAnswer": "A",
+      "correctText": "CPK."
+    },
+    {
+      "id": 368,
+      "question": "Dada la anemia severa de la paciente se solicita para su clasificación un nuevo hemograma de confirmación con determinación de reticulocitos, y un frotis de sangre periférica. En relación con los reticulocitos, señale la afirmación correcta:",
+      "options": {
+        "A": "Tienen un único núcleo, que es muy grande.",
+        "B": "Es una célula anucleda.",
+        "C": "Poseen varios núcleos.",
+        "D": "Es la primera célula que se identifica como parte del proceso de la eritropoyesis."
+      },
+      "page": 36,
+      "correctAnswer": "B",
+      "correctText": "Es una célula anucleda."
+    },
+    {
+      "id": 369,
+      "question": "En una muestra de médula ósea, obtenida por aspirado medular esternal para el diagnóstico de una enfermedad hematológica, ¿qué técnica se puede realizar?",
+      "options": {
+        "A": "Tinción de May-Grünwald-Giemsa.",
+        "B": "Tinción de lugol.",
+        "C": "Tinción de Ziehl-Neelsen.",
+        "D": "Todas las respuestas anteriores son ciertas."
+      },
+      "page": 36,
+      "correctAnswer": "A",
+      "correctText": "Tinción de May-Grünwald-Giemsa."
+    },
+    {
+      "id": 370,
+      "question": "Cuando hablamos de hipocromía, nos referimos a:",
+      "options": {
+        "A": "Variación del tamaño del eritrocito.",
+        "B": "Disminución en el contenido de hemoglobina del",
+        "C": "Cambio en la morfología del eritrocito.",
+        "D": "Eritrocito en forma de diana."
+      },
+      "page": 36,
+      "correctAnswer": "B",
+      "correctText": "Disminución en el contenido de hemoglobina del"
+    },
+    {
+      "id": 371,
+      "question": "En la anemia megaloblástica por déficit vitamínico, hay déficit de:",
+      "options": {
+        "A": "Vitamina B12 y/o Folato.",
+        "B": "Vitamina D.",
+        "C": "Vitamina E.",
+        "D": "Vitamina A."
+      },
+      "page": 36,
+      "correctAnswer": "A",
+      "correctText": "Vitamina B12 y/o Folato."
+    },
+    {
+      "id": 372,
+      "question": "En relación con la Fase Preanalítica del estudio de Crioglobulinas, ¿qué requisito se debe cumplir, tras extracción de la muestra?",
+      "options": {
+        "A": "Es preciso centrifugar rápidamente.",
+        "B": "La muestra se conservará a 37º C.",
+        "C": "Se necesita un mínimo de dos tubos con EDTA- K3.",
+        "D": "Se conservarán a 4º C."
+      },
+      "page": 36,
+      "correctAnswer": "B",
+      "correctText": "La muestra se conservará a 37º C."
+    },
+    {
+      "id": 373,
+      "question": "¿Cuál de las siguientes tinciones es la más adecuada para la tinción de reticulocitos?",
+      "options": {
+        "A": "Azul de toluidina.",
+        "B": "Azul cresil brillante.",
+        "C": "Método Wright."
+      },
+      "page": 36,
+      "correctAnswer": "B",
+      "correctText": "Azul cresil brillante."
+    },
+    {
+      "id": 374,
+      "question": "En una anemia hemolítica, ¿Qué es lo que NO encontramos en los analitos siguientes?",
+      "options": {
+        "A": "Aumento de haptoglobina sérica.",
+        "B": "Aumento bilirrubina sérica.",
+        "C": "Aumento en urobilinógeno urinario."
+      },
+      "page": 36,
+      "correctAnswer": "A",
+      "correctText": "Aumento de haptoglobina sérica."
+    },
+    {
+      "id": 375,
+      "question": "¿Para qué se utiliza la prueba de HAM?",
+      "options": {
+        "A": "Como prueba diagnóstica para la hemoglobinuria",
+        "B": "Para detección de hemólisis intravascular crónica.",
+        "C": "Para diagnóstico de talasemias. Nota. Prueba de la hemólisis en medio ácido (Prueba de Ham-Dacie) para la hemoglobinuria paroxística nocturna."
+      },
+      "page": 36,
+      "correctAnswer": "A",
+      "correctText": "Como prueba diagnóstica para la hemoglobinuria"
+    },
+    {
+      "id": 376,
+      "question": "¿Qué son los acantocitos?",
+      "options": {
+        "A": "Células diana.",
+        "B": "Eritrocitos elípticos.",
+        "C": "Eritrocitos espiculados."
+      },
+      "page": 36,
+      "correctAnswer": "C",
+      "correctText": "Eritrocitos espiculados."
+    },
+    {
+      "id": 377,
+      "question": "¿Cuál es el primer precursor eritroide reconocible?",
+      "options": {
+        "A": "Normoblasto basófilo.",
+        "B": "Pronormoblasto.",
+        "C": "Reticulocito."
+      },
+      "page": 36,
+      "correctAnswer": "B",
+      "correctText": "Pronormoblasto."
+    },
+    {
+      "id": 378,
+      "question": "Los hematíes rotos o fragmentados se denominan:",
+      "options": {
+        "A": "Esquistocitos.",
+        "B": "Acantocitos.",
+        "C": "Dacriocitos.",
+        "D": "Drepanocitos."
+      },
+      "page": 36,
+      "correctAnswer": "A",
+      "correctText": "Esquistocitos."
+    },
+    {
+      "id": 379,
+      "question": "En la tinción de Giemsa utilizamos como fijador:",
+      "options": {
+        "A": "Metanol.",
+        "B": "Lugol.",
+        "C": "No empleamos fijador.",
+        "D": "Etanol."
+      },
+      "page": 37,
+      "correctAnswer": "A",
+      "correctText": "Metanol."
+    },
+    {
+      "id": 380,
+      "question": "Señale el orden correcto de maduración en la línea eritroblástica:",
+      "options": {
+        "A": "Mieloeritroblasto – proeritroblasto – eritroblasto basófilo – reticulocito.",
+        "B": "Proeritroblasto – eritroblasto ortocromático – eritroblasto policromático.",
+        "C": "Eritroblasto ortocromático – eritroblasto policromático – reticulocito – eritrocito.",
+        "D": "Proeritroblasto – eritroblasto basófilo – eritroblasto policromático – reticulocito."
+      },
+      "page": 37,
+      "correctAnswer": "D",
+      "correctText": "Proeritroblasto – eritroblasto basófilo – eritroblasto policromático – reticulocito."
+    },
+    {
+      "id": 381,
+      "question": "Los hematíes fragmentados que provienen de la estrangulación de los filamentos de fibrina o fragmentación mecánica se denominan:",
+      "options": {
+        "A": "Anisocitos.",
+        "B": "Esquistocitos.",
+        "C": "Dacriocitos.",
+        "D": "Drepanocitos."
+      },
+      "page": 37,
+      "correctAnswer": "B",
+      "correctText": "Esquistocitos."
+    },
+    {
+      "id": 382,
+      "question": "Los hematíes que se presentan con espículas cortas repartidas por la superficie se denominan:",
+      "options": {
+        "A": "Equinocitos.",
+        "B": "Acantocitos.",
+        "C": "Drepanocitos.",
+        "D": "Esquistocitos."
+      },
+      "page": 37,
+      "correctAnswer": "A",
+      "correctText": "Equinocitos."
+    },
+    {
+      "id": 383,
+      "question": "La vida media de los hematíes es de aproximadamente:",
+      "options": {
+        "A": "48 horas.",
+        "B": "72 horas.",
+        "C": "120 días.",
+        "D": "60 días."
+      },
+      "page": 37,
+      "correctAnswer": "C",
+      "correctText": "120 días."
+    },
+    {
+      "id": 384,
+      "question": "Señale la respuesta que se corresponde con las características de los acantocitos:",
+      "options": {
+        "A": "Hematíes rotos o fragmentos de hematíes de formas diversas.",
+        "B": "Eritrocitos en forma ovalada o elíptica.",
+        "C": "Eritrocitos con prolongaciones espiculares de",
+        "D": "Eritrocitos en los que la hemoglobina está desplazada y el aspecto es de célula “mordida”."
+      },
+      "page": 37,
+      "correctAnswer": "C",
+      "correctText": "Eritrocitos con prolongaciones espiculares de"
+    },
+    {
+      "id": 385,
+      "question": "La principal característica que permite diferenciar a los leucocitos de las otras células presentes en la sangre circulante es:",
+      "options": {
+        "A": "Presentan núcleo.",
+        "B": "Se tiñen para ver al microscopio con May Grunwald Giemsa.",
+        "C": "Poseen hemoglobina en su interior.",
+        "D": "Ninguna de las respuestas es correcta."
+      },
+      "page": 37,
+      "correctAnswer": "A",
+      "correctText": "Presentan núcleo."
+    },
+    {
+      "id": 386,
+      "question": "¿Qué anticoagulante respeta la morfología de las células hemáticas, permitiendo una demora de dos horas en la realización del frotis?",
+      "options": {
+        "A": "Heparina.",
+        "B": "Citrato sódico.",
+        "C": "EDTA (etilenodiaminatetraacético).",
+        "D": "ACD (dextrosa de citrato ácido)."
+      },
+      "page": 37,
+      "correctAnswer": "C",
+      "correctText": "EDTA (etilenodiaminatetraacético)."
+    },
+    {
+      "id": 387,
+      "question": "Señale la respuesta correcta: ¿Cuál de los siguientes parámetros no es un índice eritrocitario?",
+      "options": {
+        "A": "Volumen Corpuscular Medio.",
+        "B": "Hemoglobina Corpuscular Media.",
+        "C": "Concentración Corpuscular Media de Hemoglobina.",
+        "D": "Hematocrito."
+      },
+      "page": 37,
+      "correctAnswer": "D",
+      "correctText": "Hematocrito."
+    },
+    {
+      "id": 388,
+      "question": "La eritropoyesis ¿es el proceso de formación de?:",
+      "options": {
+        "A": "Eritropoyetina.",
+        "B": "Trombocitos.",
+        "C": "Eritrocitos.",
+        "D": "Todas las células sanguíneas."
+      },
+      "page": 37,
+      "correctAnswer": "C",
+      "correctText": "Eritrocitos."
+    },
+    {
+      "id": 389,
+      "question": "Mujer de 86 años con una Hemoglobina de 9,5 g/dl, Hematocrito 29,6%, VCM (Volumen Corpuscular Medio) 86,8 fl y HCM (Hemoglobina Corpuscular Media) 27,9 pg. ¿Qué tipo de anemia sugiere?",
+      "options": {
+        "A": "Anemia normocítica – hipocrómica.",
+        "B": "Anemia microcítica – hipercrómica.",
+        "C": "Anemia normocítica – normocrómica.",
+        "D": "Anemia microcítica – hipocrómica."
+      },
+      "page": 38,
+      "correctAnswer": "C",
+      "correctText": "Anemia normocítica – normocrómica."
+    },
+    {
+      "id": 390,
+      "question": "Para valorar la producción efectiva de hematíes. ¿Qué parámetro precisamos?",
+      "options": {
+        "A": "Número de eritrocitos.",
+        "B": "Hemoglobina.",
+        "C": "Reticulocitos.",
+        "D": "Volumen corpuscular medio. Explicación: dicho de una forma algo más liosa está preguntando la capacidad de regeneración"
+      },
+      "page": 38,
+      "correctAnswer": "C",
+      "correctText": "Reticulocitos."
+    },
+    {
+      "id": 391,
+      "question": "¿Qué situaciones patológicas pueden causar trombopenia:",
+      "options": {
+        "A": "Infecciones agudas.",
+        "B": "Neoplasias.",
+        "C": "Hemorragias.",
+        "D": "Todas ellas."
+      },
+      "page": 38,
+      "correctAnswer": "D",
+      "correctText": "Todas ellas."
+    },
+    {
+      "id": 392,
+      "question": "¿Cuánto tiempo puede pasar desde la extracción de sangre hasta la realización de un hemograma, manteniendo la muestra refrigerada y utilizando EDTA como anticoagulante?",
+      "options": {
+        "A": "2 horas.",
+        "B": "5 horas.",
+        "C": "48 horas.",
+        "D": "24 horas."
+      },
+      "page": 38,
+      "correctAnswer": "D",
+      "correctText": "24 horas."
+    },
+    {
+      "id": 393,
+      "question": "¿En qué tipo de anemia encontramos la hemoglobina de Bart?",
+      "options": {
+        "A": "Beta talasemia.",
+        "B": "Alfa talasemia.",
+        "C": "Anemia de Cooley.",
+        "D": "Talasemia mayor."
+      },
+      "page": 38,
+      "correctAnswer": "B",
+      "correctText": "Alfa talasemia."
+    },
+    {
+      "id": 394,
+      "question": "El desplazamiento a la derecha de la curva de disociación del oxígeno puede encontrarse en:",
+      "options": {
+        "A": "Fiebre.",
+        "B": "Alcalosis.",
+        "C": "Disminución de la glucolisis anaerobia de los hematíes con aumento de las concentraciones de 2,3 – difosfoglicerato.",
+        "D": "Aumento de los niveles de carboxihemoglobina."
+      },
+      "page": 38,
+      "correctAnswer": "A",
+      "correctText": "Fiebre."
+    },
+    {
+      "id": 395,
+      "question": "¿Qué tipo de patología suele asociarse con la presencia de una microcitosis?:",
+      "options": {
+        "A": "Síndromes talasémicos.",
+        "B": "Síndrome mielodisplásico",
+        "C": "Enfermedades hepáticas.",
+        "D": "Anemia megaloblástica."
+      },
+      "page": 38,
+      "correctAnswer": "A",
+      "correctText": "Síndromes talasémicos."
+    },
+    {
+      "id": 396,
+      "question": "¿Qué prueba de laboratorio nos permite diferenciar entre una anemia hemolítica autoinmune de una anemia hemolítica de origen no inmune?:",
+      "options": {
+        "A": "Prueba de resistencia a la proteína C.",
+        "B": "Test de Coombs.",
+        "C": "Lactato deshidrogenasa.",
+        "D": "Haptoglobina."
+      },
+      "page": 38,
+      "correctAnswer": "B",
+      "correctText": "Test de Coombs."
+    },
+    {
+      "id": 397,
+      "question": "¿Cuál de los siguientes parámetros NO disminuye en la anemia ferropénica?:",
+      "options": {
+        "A": "Hemoglobina.",
+        "B": "Sideremia.",
+        "C": "Ferritina.",
+        "D": "Transferrina."
+      },
+      "page": 38,
+      "correctAnswer": "D",
+      "correctText": "Transferrina."
+    },
+    {
+      "id": 398,
+      "question": "¿Cuál de las siguientes proteínas es el mejor indicador de hemólisis?:",
+      "options": {
+        "A": "Ferritina.",
+        "B": "Hemosiderina.",
+        "C": "Transferrina.",
+        "D": "Haptoglobina."
+      },
+      "page": 38,
+      "correctAnswer": "D",
+      "correctText": "Haptoglobina."
+    },
+    {
+      "id": 399,
+      "question": "Ante una anemia con datos de hemólisis está indicado realizar como primera prueba:",
+      "options": {
+        "A": "Test de Coombs.",
+        "B": "Enzimas eritrocitarias.",
+        "C": "Autoanticuerpos.",
+        "D": "Pruebas de fragilidad osmótica"
+      },
+      "page": 39,
+      "correctAnswer": "A",
+      "correctText": "Test de Coombs."
+    },
+    {
+      "id": 400,
+      "question": "El nivel plasmático del receptor soluble de transferrina:",
+      "options": {
+        "A": "No se modifica por los procesos inflamatorios.",
+        "B": "Desciende en la ferropenia.",
+        "C": "No se altera en la ferropenia.",
+        "D": "Aumenta en la anemia de los trastornos crónicos"
+      },
+      "page": 39,
+      "correctAnswer": "A",
+      "correctText": "No se modifica por los procesos inflamatorios."
+    },
+    {
+      "id": 401,
+      "question": "Dentro de las alteraciones morfológicas de los eritrocitos, el punteado basófilo puede aparecer en:",
+      "options": {
+        "A": "Intoxicación por plomo.",
+        "B": "Síndromes mielodisplásicos.",
+        "C": "Talasemias.",
+        "D": "Todas son correctas"
+      },
+      "page": 39,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 402,
+      "question": "De las siguientes magnitudes ¿cuál presenta una mayor sensibilidad diagnóstica en el cribado poblacional de la hemocromatosis hereditaria?:",
+      "options": {
+        "A": "Sideremia.",
+        "B": "Indice de saturación de transferrina.",
+        "C": "Ferritina sérica.",
+        "D": "Capacidad total de fijación de hierro."
+      },
+      "page": 39,
+      "correctAnswer": "B",
+      "correctText": "Indice de saturación de transferrina."
+    },
+    {
+      "id": 403,
+      "question": "En cuanto al El K3-EDTA como anticoagulante, señale la FALSA:",
+      "options": {
+        "A": "Puede disminuir el valor del volumen corpuscular medio (VCM) de los hematíes.",
+        "B": "Puede",
+        "C": "Puede causar agregados plaquetarios in vitro.",
+        "D": "Es uno de los anticoagulantes menos solubles."
+      },
+      "page": 39,
+      "correctAnswer": "B",
+      "correctText": "Puede"
+    },
+    {
+      "id": 404,
+      "question": "¿Qué tipo de hemoglobina puede interferir con la medida de la carboxihemoglobina?:",
+      "options": {
+        "A": "Hb fetal.",
+        "B": "OxiHB.",
+        "C": "MetHB.",
+        "D": "DeoxiHB."
+      },
+      "page": 39,
+      "correctAnswer": "A",
+      "correctText": "Hb fetal."
+    },
+    {
+      "id": 405,
+      "question": "Señale la respuesta CORRECTA en relación con las interferencias en la medida de hemogramas:",
+      "options": {
+        "A": "La agregación plaquetaria de EDTA no se produce en pacientes sanos.",
+        "B": "Las crioaglutininas producen una falsa disminución en el recuento de eritrocitos que puede corregirse tras enfriar la muestra a 4ºC.",
+        "C": "En ocasiones el anticoagulante de la muestra produce agregación de las plaquetas que origina falsas trombocitosis.",
+        "D": "Una muestra hiperlipémica interfiere en la determinación de la hemoglobina por métodos fotométricos, dando valores falsamente aumentados"
+      },
+      "page": 39,
+      "correctAnswer": "D",
+      "correctText": "Una muestra hiperlipémica interfiere en la determinación de la hemoglobina por métodos fotométricos, dando valores falsamente aumentados"
+    },
+    {
+      "id": 406,
+      "question": "Señale la respuesta CORRECTA en relación con las interferencias en la medida de hemogramas:",
+      "options": {
+        "A": "La agregación plaquetaria de EDTA no se produce en pacientes sanos.",
+        "B": "Las crioaglutininas producen una falsa disminución en el recuento de eritrocitos que puede corregirse tras enfriar la muestra a 4ºC.",
+        "C": "En ocasiones el anticoagulante de la muestra produce agregación de las plaquetas que origina falsas trombocitosis.",
+        "D": "Una muestra hiperlipémica interfiere en la determinación de la hemoglobina por métodos fotométricos, dando valores falsamente aumentados"
+      },
+      "page": 39,
+      "correctAnswer": "D",
+      "correctText": "Una muestra hiperlipémica interfiere en la determinación de la hemoglobina por métodos fotométricos, dando valores falsamente aumentados"
+    },
+    {
+      "id": 407,
+      "question": "El anticoagulante de elección según el Consejo de Normalización en hematología es el.",
+      "options": {
+        "A": "EDTA tripotásico",
+        "B": "EDTA dipotásico",
+        "C": "Citrato sódico 3,8%",
+        "D": "EDTA potásico"
+      },
+      "page": 39,
+      "correctAnswer": "B",
+      "correctText": "EDTA dipotásico"
+    },
+    {
+      "id": 408,
+      "question": "La ferritina plasmática aumenta en:",
+      "options": {
+        "A": "Procesos inflamatorios agudos.",
+        "B": "Hemocromatosis.",
+        "C": "Talasemia mayor.",
+        "D": "Todos los anteriores."
+      },
+      "page": 39,
+      "correctAnswer": "D",
+      "correctText": "Todos los anteriores."
+    },
+    {
+      "id": 409,
+      "question": "¿Cuál de los siguientes fenómenos NO está asociado a un desplazamiento hacia la derecha de la curva de disociación de oxígenohemoglobina?",
+      "options": {
+        "A": "Aumento del 2,3-DPG.",
+        "B": "Disminución de la temperatura.",
+        "C": "Aumento de la pCO2.",
+        "D": "Disminución del pH"
+      },
+      "page": 40,
+      "correctAnswer": "B",
+      "correctText": "Disminución de la temperatura."
+    },
+    {
+      "id": 410,
+      "question": "La prueba de laboratorio más adecuada para descartar la posibilidad de hemoglobinopatía a un paciente:",
+      "options": {
+        "A": "HPLC (cromatografía líquida de alta resolución).",
+        "B": "Electroforesis de hemoglobina.",
+        "C": "Electroforesis capilar.",
+        "D": "Cualquiera de las anteriores."
+      },
+      "page": 40,
+      "correctAnswer": "D",
+      "correctText": "Cualquiera de las anteriores."
+    },
+    {
+      "id": 411,
+      "question": "Cuando el técnico se dispone a observar al microscopio el frotis sanguíneo, deberá:",
+      "options": {
+        "A": "Poner el objetivo de 100x y observar la preparación.",
+        "B": "Poner el objetivo de 40x y observar la preparación una vez que se haya puesto aceite de inmersión.",
+        "C": "Limpiar el aceite siempre después de utilizar el",
+        "D": "objetivo de inmersión con un paño seco o papel óptico, sin disolvente."
+      },
+      "page": 40,
+      "correctAnswer": "D",
+      "correctText": "objetivo de inmersión con un paño seco o papel óptico, sin disolvente."
+    },
+    {
+      "id": 412,
+      "question": "¿Qué parámetros bioquímicos ayudan a diagnosticar una anemia hemolítica?",
+      "options": {
+        "A": "Aumento de bilirrubina indirecta y LDH, y",
+        "B": "Aumento de bilirrubina indirecta, y disminución de LDH y haptoglobina",
+        "C": "Disminución de bilirrubina indirecta y LDH, y aumento de haptoglobina",
+        "D": "Aumento de hierro, ferritina y transferrina"
+      },
+      "page": 40,
+      "correctAnswer": "A",
+      "correctText": "Aumento de bilirrubina indirecta y LDH, y"
+    },
+    {
+      "id": 413,
+      "question": "¿Qué nos puede indicar un aumento del volumen corpuscular medio (VCM)?",
+      "options": {
+        "A": "Una posible talasemia",
+        "B": "Una anemia ferropénica",
+        "C": "Una anemia megaloblástica",
+        "D": "Una anemia falciforme"
+      },
+      "page": 40,
+      "correctAnswer": "C",
+      "correctText": "Una anemia megaloblástica"
+    },
+    {
+      "id": 414,
+      "question": "¿Dónde se produce principalmente la eritropoyetina?",
+      "options": {
+        "A": "Médula ósea",
+        "B": "Eritrocitos",
+        "C": "Bazo",
+        "D": "Riñón"
+      },
+      "page": 40,
+      "correctAnswer": "D",
+      "correctText": "Riñón"
+    },
+    {
+      "id": 415,
+      "question": "El hematíe carece de:",
+      "options": {
+        "A": "Membrana.",
+        "B": "Ácidos nucleicos.",
+        "C": "Citoplasma.",
+        "D": "Enzimas."
+      },
+      "page": 40,
+      "correctAnswer": "B",
+      "correctText": "Ácidos nucleicos."
+    },
+    {
+      "id": 416,
+      "question": "Los cuerpos tactoides (estructuras cilíndricas, rígidas e insolubles) se forman en:",
+      "options": {
+        "A": "Déficit de piruvatocinasa",
+        "B": "Hemoglobinuria paroxística a frigore",
+        "C": "Esferocitosis hereditaria",
+        "D": "Hemoglobinopatía S"
+      },
+      "page": 40,
+      "correctAnswer": "D",
+      "correctText": "Hemoglobinopatía S"
+    },
+    {
+      "id": 417,
+      "question": "Señale la respuesta correcta respecto a la velocidad de sedimentación globular",
+      "options": {
+        "A": "Es un indicador altamente específico",
+        "B": "En las anemias disminuye",
+        "C": "En las proliferaciones de formas anómalas de",
+        "D": "En la macrocitosis disminuye"
+      },
+      "page": 40,
+      "correctAnswer": "C",
+      "correctText": "En las proliferaciones de formas anómalas de"
+    },
+    {
+      "id": 418,
+      "question": "¿Qué tipo de hematíes son típicos en el déficit de glucosa-6-fosfato-deshidrogenasa?",
+      "options": {
+        "A": "Equinocitos",
+        "B": "Estomatocitos",
+        "C": "Excentrocitos",
+        "D": "Esquistocitos / ."
+      },
+      "page": 40,
+      "correctAnswer": "C",
+      "correctText": "Excentrocitos"
+    },
+    {
+      "id": 419,
+      "question": "¿Cómo se calcula el volumen corpuscular medio?",
+      "options": {
+        "A": "Dividiendo el valor del hematocrito en tanto por",
+        "B": "Dividiendo la hemoglobina por el hematocrito y",
+        "C": "Dividiendo la hemoglobina por el número de hematíes y multiplicándolo por 10",
+        "D": "Dividiendo la hemoglobina por el hematocrito y multiplicándolo por 10"
+      },
+      "page": 41,
+      "correctAnswer": "A",
+      "correctText": "Dividiendo el valor del hematocrito en tanto por"
+    },
+    {
+      "id": 420,
+      "question": "En un paciente con anemia ferropénica encontraremos (IST = índice de saturación de transferrina; TrF = transferrina; RST = receptor soluble de transferrina):",
+      "options": {
+        "A": "↓IST, ↑Trf, ↑RST, ↓ferritina",
+        "B": "↓IST, ↓Trf, ↓RST, ↓ferritina",
+        "C": "↑IST, ↓Trf, ↓RST, ↓ferritina",
+        "D": "↑IST, ↑Trf, ↓RST, ↑ferritina"
+      },
+      "page": 41,
+      "correctAnswer": "A",
+      "correctText": "↓IST, ↑Trf, ↑RST, ↓ferritina"
+    },
+    {
+      "id": 421,
+      "question": "Señale cuál de las siguientes causas se asocia a VCM elevado:",
+      "options": {
+        "A": "Alcoholismo",
+        "B": "Talasemia",
+        "C": "Síndrome mielodisplásico",
+        "D": "A y C son correctas"
+      },
+      "page": 41,
+      "correctAnswer": "D",
+      "correctText": "A y C son correctas"
+    },
+    {
+      "id": 422,
+      "question": "Señale cuál de las siguientes no es causa de anemia microcítica:",
+      "options": {
+        "A": "Talasemia",
+        "B": "Anemia ferropénica",
+        "C": "Anemia megaloblástica",
+        "D": "Algunos casos de anemia sideroblástica"
+      },
+      "page": 41,
+      "correctAnswer": "C",
+      "correctText": "Anemia megaloblástica"
+    },
+    {
+      "id": 423,
+      "question": "La saturación de oxígeno de la hemoglobina (P 50) se desplaza a la derecha con el descenso del:",
+      "options": {
+        "A": "pH.",
+        "B": "2,3 difosfoglicerato.",
+        "C": "Temperatura.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 41,
+      "correctAnswer": "A",
+      "correctText": "pH."
+    },
+    {
+      "id": 424,
+      "question": "¿A qué se le denomina también codocito?",
+      "options": {
+        "A": "Equinocito.",
+        "B": "Eliptocito.",
+        "C": "Acantocito.",
+        "D": "Dianocito."
+      },
+      "page": 41,
+      "correctAnswer": "D",
+      "correctText": "Dianocito."
+    },
+    {
+      "id": 425,
+      "question": "Señala la respuesta correcta en relación a los reticulocitos:",
+      "options": {
+        "A": "Su tamaño oscila entre 7 y 9 μm (micras).",
+        "B": "Es una célula anucleada.",
+        "C": "Cuando madura se transforma en un eritrocito maduro.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 41,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son correctas."
+    },
+    {
+      "id": 426,
+      "question": "¿En qué tipo de anemia encontramos la hemoglobina de Bart?:",
+      "options": {
+        "A": "Beta-talasemia.",
+        "B": "Alfa-talasemia.",
+        "C": "Anemia de Cookey.",
+        "D": "Talasemia mayor."
+      },
+      "page": 41,
+      "correctAnswer": "B",
+      "correctText": "Alfa-talasemia."
+    },
+    {
+      "id": 427,
+      "question": "Para visualizar los depósitos de hierro en extensiones de medula ósea emplearemos:",
+      "options": {
+        "A": "Sudan III.",
+        "B": "Tinción Perls.",
+        "C": "Tinción PAS.",
+        "D": "May-Grünwald Giemsa"
+      },
+      "page": 41,
+      "correctAnswer": "B",
+      "correctText": "Tinción Perls."
+    },
+    {
+      "id": 428,
+      "question": "Una paciente mujer de 35 años acude al Servicio de Urgencias por astenia de dos semanas de evolución, y en las últimas 24 horas fiebre con aparición de adenopatías cervicales. Se le realizan pruebas analíticas que muestran los siguientes resultados: HEMOGRAMA: Leucocitos 16.0 x 103/mm3; Hemoglobina 6.7 g/dl; VCM 63.5 fl; HCM 16.5 pg; ADE 20.3%; plaquetas 524 x 103 mm3. FÓRMULA MANUAL: Cayados 10%; Neutrófilos 50%; Monocitos 8%; Eosinófilos2%; Linfocitos 15%; Linfocitos de aspecto reactivo: 15%. Según estos resultados la paciente no presenta:",
+      "options": {
+        "A": "Leucocitosis . /",
+        "B": "Trombocitosis",
+        "C": "Anemia microcítica",
+        "D": "Anemia hipercrómica"
+      },
+      "page": 41,
+      "correctAnswer": "D",
+      "correctText": "Anemia hipercrómica"
+    },
+    {
+      "id": 429,
+      "question": "La tinción de giemsa utiliza los siguientes colorantes:",
+      "options": {
+        "A": "Lugol y cristal violeta.",
+        "B": "Azul de toluidina y eosina.",
+        "C": "Azul de metileno y eosina.",
+        "D": "Lugol y carbofucsina."
+      },
+      "page": 42,
+      "correctAnswer": "C",
+      "correctText": "Azul de metileno y eosina."
+    },
+    {
+      "id": 430,
+      "question": "Una paciente mujer de 35 años acude al Servicio de Urgencias por astenia de dos semanas de evolución, y en las últimas 24 horas fiebre con aparición de adenopatías cervicales. Se le realizan pruebas analíticas que muestran los siguientes resultados: HEMOGRAMA: Leucocitos 16.0 x 103/mm3; Hemoglobina 6.7 g/dl; VCM 63.5 fl; HCM16.5 pg; ADE 20.3%; plaquetas 524 x 103 mm3FÓRMULA MANUAL: Cayados 10%; Neutrófilos 50%; Monocitos 8%; Eosinófilos2%; Linfocitos 15%; Linfocitos de aspecto reactivo: 15%. Según estos resultados la paciente no presenta:",
+      "options": {
+        "A": "Leucocitosis",
+        "B": "Trombocitosis",
+        "C": "Anemia microcítica",
+        "D": "Anemia hipercrómica"
+      },
+      "page": 42,
+      "correctAnswer": "D",
+      "correctText": "Anemia hipercrómica"
+    }
+  ]
+}

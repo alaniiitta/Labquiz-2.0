@@ -1,0 +1,2862 @@
+{
+  "tema": 6,
+  "titulo": "Enzimas",
+  "source_file": "Test tema 6 Enzimas (respuestas).pdf",
+  "total_questions": 220,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Lactato-deshidrogenasa cataliza la reacción reversible de lactato a:",
+      "options": {
+        "A": "Ácido láctico.",
+        "B": "Piruvato.",
+        "C": "No cataliza ninguna reacción.",
+        "D": "Fosfato."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Piruvato."
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es la isoenzima de la CPK más específica del miocardio?:",
+      "options": {
+        "A": "CPK-MM.",
+        "B": "CPK-MB.",
+        "C": "CPK-BB.",
+        "D": "CPK-MD."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "CPK-MB."
+    },
+    {
+      "id": 3,
+      "question": "¿Qué marcador se utiliza para el diagnóstico precoz del infarto dada su gran sensibilidad durante la fase inicial?:",
+      "options": {
+        "A": "Troponina.",
+        "B": "Hidroxiprolina.",
+        "C": "Mioglobina.",
+        "D": "CPK.MB."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 4,
+      "question": "Las transaminasas son:",
+      "options": {
+        "A": "Proteínas.",
+        "B": "Enzimas.",
+        "C": "Hormonas.",
+        "D": "Aminoácidos"
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Enzimas."
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es de las siguientes afirmaciones es falsa?",
+      "options": {
+        "A": "El marcador de preferencia del IAM es la Troponina.",
+        "B": "El IAM refleja la pérdida de células cardiacas (necrosis).",
+        "C": "La troponina es cardioespecífica y detectable en",
+        "D": "Ante la ausencia de medición de troponina, la CK-MB masa es el mejor indicador."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "La troponina es cardioespecífica y detectable en"
+    },
+    {
+      "id": 6,
+      "question": "¿Qué isoforma de la troponina es más cardioespecífica?",
+      "options": {
+        "A": "Troponina C.",
+        "B": "Troponina I.",
+        "C": "Troponina K.",
+        "D": "Troponina T."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Troponina I."
+    },
+    {
+      "id": 7,
+      "question": "La constante de disociación para alcanzar el punto de equilibrio es:",
+      "options": {
+        "A": "S",
+        "B": "K",
+        "C": "P",
+        "D": "T"
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "K"
+    },
+    {
+      "id": 8,
+      "question": "El ejercicio aumenta en los niveles de las siguientes enzimas, excepto una:",
+      "options": {
+        "A": "Creatina kinasa.",
+        "B": "Lactato deshidrogenasa.",
+        "C": "Piruvato kinasa.",
+        "D": "Aldolasa."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Piruvato kinasa."
+    },
+    {
+      "id": 9,
+      "question": "En relación a la cinética enzimática, señale la respuesta FALSA:",
+      "options": {
+        "A": "La velocidad de trasformación del substrato en producto depende de la afinidad de la enzima por el substrato.",
+        "B": "La velocidad de trasformación depende de la cantidad de enzima presente.",
+        "C": "La velocidad de trasformación también depende de la cantidad de substrato presente.",
+        "D": "Cuanto menor es la Km (constante de Michaelis- Menten) menor es la velocidad de acción de una enzima."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Cuanto menor es la Km (constante de Michaelis- Menten) menor es la velocidad de acción de una enzima."
+    },
+    {
+      "id": 10,
+      "question": "Con relación a los inhibidores enzimáticos señale la respuesta FALSA:",
+      "options": {
+        "A": "Habitualmente la inhibición es irreversible.",
+        "B": "Hay tres patrones de inhibición: competitivo, no competitivo, acompetitivo.",
+        "C": "Los inhibidores no competitivos se unen a un sitio de la enzima diferente del sitio catalítico.",
+        "D": "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el sustrato en producto."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Habitualmente la inhibición es irreversible."
+    },
+    {
+      "id": 11,
+      "question": "Señale la FALSA:",
+      "options": {
+        "A": "Son catalizadores con alta especificidad por su substrato.",
+        "B": "Como catalizadores están presentes en cantidad mínima y pueden saturarse",
+        "C": "La mayoría de las enzimas se encuentran en",
+        "D": "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el substrato en producto."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "La mayoría de las enzimas se encuentran en"
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál es la isoenzima de la CPK (Creatinquinasa) más específica para conocer el daño cerebral?",
+      "options": {
+        "A": "CK-MM.",
+        "B": "CK- MB.",
+        "C": "CK-BB.",
+        "D": "CK-SS."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "CK-BB."
+    },
+    {
+      "id": 13,
+      "question": "Señale la RESPUESTA INCORRECTA:",
+      "options": {
+        "A": "El BNP es una molécula más estable que el NT-",
+        "B": "Los péptidos natriuréticos actúan sobre el glomérulo renal.",
+        "C": "En circulación se detectan fragmentos de BNP y de NT- proBNP.",
+        "D": "Existe un péptido natriurético de tipo D, llamado DNP."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "El BNP es una molécula más estable que el NT-"
+    },
+    {
+      "id": 14,
+      "question": "La desnaturalización de una enzima supone:",
+      "options": {
+        "A": "Su recuperación modificando su estado.",
+        "B": "Pérdida o disminución de su actividad como",
+        "C": "La recuperación de su actividad.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Pérdida o disminución de su actividad como"
+    },
+    {
+      "id": 15,
+      "question": "Señale cuál de los siguientes marcadores es un biomarcador cardíaco:",
+      "options": {
+        "A": "Ácido valproico.",
+        "B": "Péptido natriurético cerebral.",
+        "C": "Micofenolato.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Péptido natriurético cerebral."
+    },
+    {
+      "id": 16,
+      "question": "De los siguientes biomarcadores, ¿cuál fue el primero en tener utilidad en el infarto de miocardio?",
+      "options": {
+        "A": "CK- MB.",
+        "B": "CK.",
+        "C": "AST.",
+        "D": "Troponina."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "AST."
+    },
+    {
+      "id": 17,
+      "question": "La definición de la unidad internacional de actividad enzimática es:",
+      "options": {
+        "A": "La cantidad de enzima que cataliza la conversión de 1 µmol de sustrato en producto por segundo.",
+        "B": "La cantidad de enzima que cataliza la conversión de 1 mol de sustrato en producto por minuto.",
+        "C": "La cantidad de enzima que cataliza la conversión de 1 mol de sustrato en producto por segundo.",
+        "D": "La cantidad de enzima que cataliza la conversión de 1 µmol de sustrato en producto por minuto."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "La cantidad de enzima que cataliza la conversión de 1 µmol de sustrato en producto por minuto."
+    },
+    {
+      "id": 18,
+      "question": "El Mg interviene como cofactor junto a la enzima:",
+      "options": {
+        "A": "LDH",
+        "B": "Amilasa",
+        "C": "Fosfatasa alcalina",
+        "D": "GPT"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Fosfatasa alcalina"
+    },
+    {
+      "id": 19,
+      "question": "Tanto la técnica de RIA como la de ELISA se basan en un análisis inmunológico, pero así como en la técnica de RIA se utiliza un isótopo marcado radiactivamente, en la técnica de ELISA se utiliza otro marcador. ¿Cuál?",
+      "options": {
+        "A": "Un isótopo aglutinante",
+        "B": "Una enzima",
+        "C": "Un isótopo de la fracción del complemento",
+        "D": "Una hemaglutinina"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Una enzima"
+    },
+    {
+      "id": 20,
+      "question": "Para el estudio de una posible insuficiencia cardiaca ¿cuál de las siguientes pruebas elegiría?",
+      "options": {
+        "A": "Mioglobina",
+        "B": "Proteína C reactiva",
+        "C": "Péptido natriurético cerebral (BNP)",
+        "D": "Creatín Kinasa (CK)"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Péptido natriurético cerebral (BNP)"
+    },
+    {
+      "id": 21,
+      "question": "Las isoenzimas son:",
+      "options": {
+        "A": "Enzimas iguales que catalizan distintas reacciones.",
+        "B": "Modificaciones postraduccionales de las enzimas.",
+        "C": "La misma molécula de enzima que se expresa en distintos tejidos.",
+        "D": "Proteínas codificadas por genes distintos pero que catalizan la misma reacción."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Proteínas codificadas por genes distintos pero que catalizan la misma reacción."
+    },
+    {
+      "id": 22,
+      "question": "Cuando la velocidad de la reacción enzimática no depende de la concentración de sustrato, se dice que es:",
+      "options": {
+        "A": "Una cinética de orden cero.",
+        "B": "Una cinética de primer orden.",
+        "C": "Baja la afinidad de la enzima con el sustrato.",
+        "D": "Lenta la velocidad de reacción."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Una cinética de orden cero."
+    },
+    {
+      "id": 23,
+      "question": "Señale cuál de las siguientes enzimas se usa como marcador bioquímico de lesión miocárdica:",
+      "options": {
+        "A": "CK-BB",
+        "B": "CK-MB",
+        "C": "CK-MM",
+        "D": "CK-BN"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "CK-MB"
+    },
+    {
+      "id": 24,
+      "question": "¿En qué órgano se sintetiza principalmente el proBNP?:",
+      "options": {
+        "A": "Bazo.",
+        "B": "Corazón.",
+        "C": "Hígado.",
+        "D": "Riñón."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Corazón."
+    },
+    {
+      "id": 25,
+      "question": "Para el cálculo de la actividad enzimática, y una vez obtenida la variación de absorbancia por minuto, se pueden emplear diferentes métodos:",
+      "options": {
+        "A": "Mediante la aplicación de una variante de la ley de Lambert-Beer.",
+        "B": "Mediante la construcción de una recta de calibrado.",
+        "C": "Con medidas indirectas de la concentración de sustrato.",
+        "D": "Todas son correctas."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 26,
+      "question": "La LDH (láctico deshidrogenasa):",
+      "options": {
+        "A": "Transforma la fosfocreatinina a creatinina.",
+        "B": "Transforma lactato a piruvato y viceversa.",
+        "C": "Cataliza la hidrólisis de triglicéridos.",
+        "D": "Descompone ésteres fosfatos."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Transforma lactato a piruvato y viceversa."
+    },
+    {
+      "id": 27,
+      "question": "Las transaminasas:",
+      "options": {
+        "A": "Presentan como cofactor el piridoxal fosfato.",
+        "B": "No necesita cofactor.",
+        "C": "Presentan como cofactor el calcio.",
+        "D": "Presentan como cofactor el Mg (magnesio)."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Presentan como cofactor el piridoxal fosfato."
+    },
+    {
+      "id": 28,
+      "question": "Las izoenzimas son:",
+      "options": {
+        "A": "Proteínas biológicas especializadas en la catálisis de reacciones orgánicas.",
+        "B": "Formas múltiples de una determinada enzima y",
+        "C": "Son asociaciones de enzimas que catalizan reacciones consecutivas.",
+        "D": "Son formas precursoras inactivas de las enzimas."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Formas múltiples de una determinada enzima y"
+    },
+    {
+      "id": 29,
+      "question": "Los factores que influyen en la actividad enzimática son:",
+      "options": {
+        "A": "Concentración de sustrato.",
+        "B": "Temperatura.",
+        "C": "Ph.",
+        "D": "Todas son correctas."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 30,
+      "question": "A las enzimas que precisan de cofactor se denominan:",
+      "options": {
+        "A": "Holoenzimas.",
+        "B": "Apoenzimas.",
+        "C": "Cofactor.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Holoenzimas."
+    },
+    {
+      "id": 31,
+      "question": "En las determinaciones analíticas de actividad enzimática se trabaja en la zona en la que la actividad:",
+      "options": {
+        "A": "Es independiente de la concentración de",
+        "B": "Es dependiente de la concentración de sustrato.",
+        "C": "Las dos anteriores son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Es independiente de la concentración de"
+    },
+    {
+      "id": 32,
+      "question": "Los activadores son:",
+      "options": {
+        "A": "Sustancias que aumentan la velocidad de la",
+        "B": "Formas precursoras inactivas de las enzimas.",
+        "C": "Sustancias que disminuyen la velocidad de la reacción al disminuir aún más la energía de activación.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Sustancias que aumentan la velocidad de la"
+    },
+    {
+      "id": 33,
+      "question": "Las enzimas son:",
+      "options": {
+        "A": "Membranas serosas transparentes.",
+        "B": "Es toda sustancia química que, aplicada en pequeñas cantidades, es capaz de interactuar con un organismo vivo.",
+        "C": "Son proteínas biológicas especializadas en la",
+        "D": "Son soluciones acuosas de concentración que se analizan en los especímenes biológicos."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Son proteínas biológicas especializadas en la"
+    },
+    {
+      "id": 34,
+      "question": "En el mecanismo de acción enzimática, la energía que alcanzan los reactivos para llegar al estado de transición se denomina:",
+      "options": {
+        "A": "De transición.",
+        "B": "De reacción.",
+        "C": "De activación.",
+        "D": "De canalización."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "De activación."
+    },
+    {
+      "id": 35,
+      "question": "Las isoenzimas o isozimas son:",
+      "options": {
+        "A": "Formas simples de una determinada enzima.",
+        "B": "Formas cilíndricas de una determinada enzima.",
+        "C": "Formas esféricas de una determinada enzima.",
+        "D": "Formas múltiples de una determinada enzima y catalizan la misma reacción."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Formas múltiples de una determinada enzima y catalizan la misma reacción."
+    },
+    {
+      "id": 36,
+      "question": "Las proenzimas son formas precursoras inactivas de las enzimas. A este grupo pertenecen las enzimas:",
+      "options": {
+        "A": "Proteolíticas.",
+        "B": "Almidón.",
+        "C": "Bacterias.",
+        "D": "Levaduras."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Proteolíticas."
+    },
+    {
+      "id": 37,
+      "question": "Los factores que influyen en la actividad enzimática son:",
+      "options": {
+        "A": "Concentración de sustrato.",
+        "B": "PH y temperatura.",
+        "C": "Presencia de inhibidores/ activadores.",
+        "D": "Todas son correctas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 38,
+      "question": "Los cofactores se dividen en los siguientes grupos:",
+      "options": {
+        "A": "Iones metálicos- moléculas orgánicas.",
+        "B": "Iones orgánicos- moléculas metálicas.",
+        "C": "Iones metálicos- moléculas glucolíticas",
+        "D": "Iones glucolíticos- moléculas metálicas."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Iones metálicos- moléculas orgánicas."
+    },
+    {
+      "id": 39,
+      "question": "Los métodos analíticos de determinación de la actividad enzimática son:",
+      "options": {
+        "A": "Método a punto final y métodos cinéticos.",
+        "B": "Pruebas radiológicas.",
+        "C": "Cámara de Makler.",
+        "D": "Fermentación."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Método a punto final y métodos cinéticos."
+    },
+    {
+      "id": 40,
+      "question": "El tejido con mayor cantidad de CK-MM es el:",
+      "options": {
+        "A": "Corazón",
+        "B": "Músculo",
+        "C": "Intestino",
+        "D": "Páncreas"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Músculo"
+    },
+    {
+      "id": 41,
+      "question": "Se puede considerar una enzima de la siguiente manera:",
+      "options": {
+        "A": "Holoenzima = apoenzima + isoenzima",
+        "B": "Holoenzima = coenzima + isoenzima",
+        "C": "Holoenzima = apoenzima + coenzima",
+        "D": "Holoenzima = enzima + isoenzima"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Holoenzima = apoenzima + coenzima"
+    },
+    {
+      "id": 42,
+      "question": "¿Cuál de los siguientes parámetros bioquímicas presenta utilidad como marcador de actividad de la sarcoidosis?",
+      "options": {
+        "A": "Enzima convertidora de la angiotensina sérica",
+        "B": "PCR.",
+        "C": "Gammaglobulinas.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Enzima convertidora de la angiotensina sérica"
+    },
+    {
+      "id": 43,
+      "question": "En relación a la cinética enzimática, señale la respuesta FALSA:",
+      "options": {
+        "A": "La velocidad de trasformación de substrato en producto depende de la afinidad de la enzima por el substrato.",
+        "B": "La velocidad de trasformación depende de la cantidad de enzima presente.",
+        "C": "La velocidad de trasformación también depende de la cantidad de sustrato presente.",
+        "D": "Cuanto menor es la Km (constante de Michae1is- Menten) menor es fa velocidad de acción de una enzima."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Cuanto menor es la Km (constante de Michae1is- Menten) menor es fa velocidad de acción de una enzima."
+    },
+    {
+      "id": 44,
+      "question": "En relación a los inhibidores relación a los inhibidores enzimáticos señale la respuesta FALSA:",
+      "options": {
+        "A": "Habitualmente la inhibición es irreversible",
+        "B": "Hay tres patrones de inhibición: competitivo, no competitivo y acompetitivo.",
+        "C": "Los inhibidores no competitivos se unen a un sitio de la enzima diferente del sitio catalítico.",
+        "D": "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el substrato en producto."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Habitualmente la inhibición es irreversible"
+    },
+    {
+      "id": 45,
+      "question": "¿Cuál es la isoenzima de la CPK más específica del miocardio?",
+      "options": {
+        "A": "CPK-MM",
+        "B": "CPK-MB",
+        "C": "CPK-BB",
+        "D": "CPK-MC"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "CPK-MB"
+    },
+    {
+      "id": 46,
+      "question": "De los siguientes parámetros ¿Cuál no es un marcador cardiaco?",
+      "options": {
+        "A": "Troponina",
+        "B": "Tiroxina",
+        "C": "Mioglobina",
+        "D": "CPK"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Tiroxina"
+    },
+    {
+      "id": 47,
+      "question": "¿Qué marcador se utiliza para el diagnóstico precoz del infarto, dada su gran sensibilidad durante la fase inicial?",
+      "options": {
+        "A": "Troponina",
+        "B": "Hidroxiprolina",
+        "C": "Mioglobina",
+        "D": "CPK-MB"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Mioglobina"
+    },
+    {
+      "id": 48,
+      "question": "La hemólisis de una muestra afecta:",
+      "options": {
+        "A": "Potasio",
+        "B": "Bilirrubinas",
+        "C": "CPK-MB",
+        "D": "Todas son correctas"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 49,
+      "question": "Señale lo CORRECTO sobre la CPK-MB en el infarto de miocardio:",
+      "options": {
+        "A": "Tiene valor predictivo negativo.",
+        "B": "Es la isoenzima menos cardioespecífica de la CPK total.",
+        "C": "Alcanza su máximo en sangre a las 30-40 horas del inicio del infarto.",
+        "D": "Lo más frecuente es determinarla en sangre total"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Tiene valor predictivo negativo."
+    },
+    {
+      "id": 50,
+      "question": "EI NT-proBNP (péptido natriurético) se utiliza en el diagnóstico de:",
+      "options": {
+        "A": "Anemia.",
+        "B": "Proteinuria.",
+        "C": "Glucosuria.",
+        "D": "Insuficiencia cardiaca."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Insuficiencia cardiaca."
+    },
+    {
+      "id": 51,
+      "question": "¿Cuál de las siguientes es el indicador más precoz de infarto de miocardio?",
+      "options": {
+        "A": "Troponina T.",
+        "B": "CPK.",
+        "C": "LDH.",
+        "D": "Mioglobina."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 52,
+      "question": "La actividad enzimática se expresa habitualmente en:",
+      "options": {
+        "A": "mg/100 ml.",
+        "B": "Mol/L.",
+        "C": "UI/L",
+        "D": "Unidades convencionales."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "UI/L"
+    },
+    {
+      "id": 53,
+      "question": "¿Cómo se conoce a una vitamina que unida a la parte proteica de la enzima constituyen la forma catalíticamente activa de la enzima (holoenzima)?:",
+      "options": {
+        "A": "Factor",
+        "B": "Activador",
+        "C": "Coenzima",
+        "D": "Apoenzima"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Coenzima"
+    },
+    {
+      "id": 54,
+      "question": "El Mg interviene como cofactor junto a la enzima:",
+      "options": {
+        "A": "LDH",
+        "B": "Amilasa",
+        "C": "Fosfatasa alcalina",
+        "D": "GPT"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Fosfatasa alcalina"
+    },
+    {
+      "id": 55,
+      "question": "La enzima CK no se encuentra en:",
+      "options": {
+        "A": "Miocardio",
+        "B": "Músculo esquelético",
+        "C": "Cerebro",
+        "D": "Hígado"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Hígado"
+    },
+    {
+      "id": 56,
+      "question": "¿Cuál de estas enzimas puede estar falsamente elevada por hemólisis?",
+      "options": {
+        "A": "LDH",
+        "B": "GOT",
+        "C": "GPT",
+        "D": "Todas son ciertas"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas"
+    },
+    {
+      "id": 57,
+      "question": "La enzima Lactato-deshidrogenasa (LDH) es una:",
+      "options": {
+        "A": "Hidrolasa",
+        "B": "Oxidorreductasa",
+        "C": "Liasa",
+        "D": "Transferasa"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Oxidorreductasa"
+    },
+    {
+      "id": 58,
+      "question": "Señale la respuesta incorrecta en relación a las enzimas:",
+      "options": {
+        "A": "La aldolasa muscular está aumentada en la distrofia muscular de Duchenne.",
+        "B": "En clínica sólo tiene importancia el aumento de la aldolasa muscular.",
+        "C": "El aumento de la GGT es un indicador sensible de alcoholismo oculto.",
+        "D": "La CK es una hidrolasa que necesita cofactores, especialmente el Mg."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "La CK es una hidrolasa que necesita cofactores, especialmente el Mg."
+    },
+    {
+      "id": 59,
+      "question": "Respecto al marcador LDH, señale la respuesta incorrecta:",
+      "options": {
+        "A": "Tiene un peso molecular de 140.000 daltons.",
+        "B": "Los valores normales en adultos van de 230 a 460 U/L.",
+        "C": "Alcanza su máximo valor a las 12-20 horas del",
+        "D": "Permanece elevada durante 10- 12 días."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Alcanza su máximo valor a las 12-20 horas del"
+    },
+    {
+      "id": 60,
+      "question": "Señale la respuesta correcta:",
+      "options": {
+        "A": "En clínica sólo tiene importancia el aumento de los niveles de troponinas.",
+        "B": "El Pro- BNP puede servir como marcador de sobrecarga de cavidades cardíacas y en la práctica diaria para el diagnóstico diferencial de la disnea de origen cardíaco frente a la disnea de origen respiratorio.",
+        "C": "La Troponina I es algo menos específica de la lesión miocárdica que la Troponina T.",
+        "D": "a y b son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "a y b son correctas."
+    },
+    {
+      "id": 61,
+      "question": "Cuando el cofactor de una enzima es un compuesto orgánico se denomina:",
+      "options": {
+        "A": "Apoenzima",
+        "B": "Coenzima",
+        "C": "Activador",
+        "D": "Grupo prostético."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Coenzima"
+    },
+    {
+      "id": 62,
+      "question": "Qué factor no influye en la actividad enzimática:",
+      "options": {
+        "A": "Temperatura",
+        "B": "pH",
+        "C": "Concentración del sustrato",
+        "D": "Tiempo de reacción"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Tiempo de reacción"
+    },
+    {
+      "id": 63,
+      "question": "La agregación de una sustancia a una enzima produce una inhibición de la misma, que se corrige totalmente con la adición de más sustrato. El fenómeno se denomina:",
+      "options": {
+        "A": "Inhibición irreversible.",
+        "B": "Inhibición reversible competitiva.",
+        "C": "Inhibición reversible acompetitiva.",
+        "D": "Retroinhibición."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Inhibición reversible competitiva."
+    },
+    {
+      "id": 64,
+      "question": "¿Qué marcador cardíaco podemos usar en el diagnóstico de laboratorio?",
+      "options": {
+        "A": "Troponina",
+        "B": "Procalcitonina",
+        "C": "GGT",
+        "D": "HLA-B27"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Troponina"
+    },
+    {
+      "id": 65,
+      "question": "¿Cuál es la isoenzima CPK más específica del miocardio?",
+      "options": {
+        "A": "CPK-MM",
+        "B": "CPK-MB",
+        "C": "CPK-BB",
+        "D": "CPK-MC"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "CPK-MB"
+    },
+    {
+      "id": 66,
+      "question": "¿Qué se entiende por enzimas plasma-específicas?",
+      "options": {
+        "A": "Enzimas que se sintetizan en el plasma.",
+        "B": "Enzimas que desarrollan su propia función en el",
+        "C": "Enzimas que se sintetizan en los hematíes.",
+        "D": "Enzimas que se sintetizan en los leucocitos."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Enzimas que desarrollan su propia función en el"
+    },
+    {
+      "id": 67,
+      "question": "Indique cuál de los siguientes marcadores de diferenciación no es un marcador sérico:",
+      "options": {
+        "A": "Fosfatasa ácida prostática",
+        "B": "Calcitonina",
+        "C": "Gonadotropina coriónica humana",
+        "D": "Citoqueratina"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Citoqueratina"
+    },
+    {
+      "id": 68,
+      "question": "No es una enzima cardiaca:",
+      "options": {
+        "A": "Troponina",
+        "B": "Mioglobina",
+        "C": "Aldolasa",
+        "D": "PCR"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "PCR"
+    },
+    {
+      "id": 69,
+      "question": "Señale el marcador precoz de necrosis miocárdica:",
+      "options": {
+        "A": "Mioglobina",
+        "B": "Creatinfosfocinasa",
+        "C": "Aldolasa",
+        "D": "Amilasa"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Mioglobina"
+    },
+    {
+      "id": 70,
+      "question": "Para determinar la actividad de la creatina quinasa- MB en suero, se utilizan:",
+      "options": {
+        "A": "Métodos de inmunoinhibición.",
+        "B": "Ensayos cromogénicos cualitativos.",
+        "C": "Técnicas de microscopía.",
+        "D": "Técnicas de química seca"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Métodos de inmunoinhibición."
+    },
+    {
+      "id": 71,
+      "question": "La creatina quinasa-BB se localiza predominantemente en:",
+      "options": {
+        "A": "El miocardio.",
+        "B": "El músculo esquelético.",
+        "C": "El cerebro.",
+        "D": "El hueso."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "El cerebro."
+    },
+    {
+      "id": 72,
+      "question": "¿Cuál es la isoenzima de la CPK más específica del miocardio?:",
+      "options": {
+        "A": "CK-MM.",
+        "B": "CK-MB.",
+        "C": "CK-BB.",
+        "D": "CK-SS."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "CK-MB."
+    },
+    {
+      "id": 73,
+      "question": "En el infarto agudo de miocardio, se puede ver afectada la concentración de la enzima:",
+      "options": {
+        "A": "Lipasa.",
+        "B": "Creatina quinasa total.",
+        "C": "Alfa-amilasa.",
+        "D": "Fosfatasa alcalina"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Creatina quinasa total."
+    },
+    {
+      "id": 74,
+      "question": "¿Cuál es la función de las enzimas?:",
+      "options": {
+        "A": "Catalizadores.",
+        "B": "Transmisores.",
+        "C": "Fuente de energía.",
+        "D": "Neurotransmisores."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Catalizadores."
+    },
+    {
+      "id": 75,
+      "question": "Es una isoenzima de la creatina quinasa:",
+      "options": {
+        "A": "Creatina quinasa -MM.",
+        "B": "Creatina quinasa -MB.",
+        "C": "Creatina quinasa -BB.",
+        "D": "Hay más de una respuesta correcta"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta"
+    },
+    {
+      "id": 76,
+      "question": "Señale la respuesta correcta:",
+      "options": {
+        "A": "La vida media del Nt-ProBNP es inferior a la del BNP.",
+        "B": "En Atención Primaria la determinación de Nt-",
+        "C": "Es un péptido de actividad hormonal.",
+        "D": "El sobrepeso influye aumentando las concentraciones de Nt-ProBNP."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "En Atención Primaria la determinación de Nt-"
+    },
+    {
+      "id": 77,
+      "question": "Señale la opción falsa:",
+      "options": {
+        "A": "La troponina es un parámetro de elevada sensibilidad y especificidad en el diagnóstico del Infarto Agudo de Miocardio.",
+        "B": "Se eleva de forma temprana en un infarto de miocardio, pudiendo detectarse hacia las 2- 6 horas del inicio del cuadro.",
+        "C": "Se detecta su pico en sangre tras 10-24horas.",
+        "D": "Se normalizan sus niveles en sangre tras 3-6 días del inicio."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Se normalizan sus niveles en sangre tras 3-6 días del inicio."
+    },
+    {
+      "id": 78,
+      "question": "En lo referente a la determinación del péptido natriurético ventricular (BNP), señale la respuesta falsa:",
+      "options": {
+        "A": "Produce un aumento de la diuresis.",
+        "B": "La elevación de su valor en plasma o suero es indicativa de insuficiencia cardíaca congestiva.",
+        "C": "Es una prueba poco específica por lo que se",
+        "D": "El BNP es una hormona con función autocrina, paracrina, endocrina"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Es una prueba poco específica por lo que se"
+    },
+    {
+      "id": 79,
+      "question": "De los siguientes factores señale el que no influye en la actividad enzimática:",
+      "options": {
+        "A": "Temperatura",
+        "B": "Concentración de sustrato",
+        "C": "pH",
+        "D": "Concentración de conjugado"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Concentración de conjugado"
+    },
+    {
+      "id": 80,
+      "question": "De una de las siguientes enzimas no existen isoenzimas. Señálela:",
+      "options": {
+        "A": "Lactato dehidrogenasa (LDH).",
+        "B": "Creatinfosfokinasa (CPK).",
+        "C": "Fosfatasa alcalina.",
+        "D": "Gamma glutamiltranspeptidasa (GGT)."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Gamma glutamiltranspeptidasa (GGT)."
+    },
+    {
+      "id": 81,
+      "question": "Señale la correcta sobre las enzimas:",
+      "options": {
+        "A": "Aumentan la energía de activación",
+        "B": "Al final de las reacciones permanecen inalteradas",
+        "C": "Se requieren cantidades muy altas para catalizar la reacción",
+        "D": "Disminuyen la velocidad de reacción"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Al final de las reacciones permanecen inalteradas"
+    },
+    {
+      "id": 82,
+      "question": "La función de las enzimas es:",
+      "options": {
+        "A": "Catalizar reacciones químicas específicas.",
+        "B": "Se relacionan con numerosos estados clínicos.",
+        "C": "Permiten que reaccionen que tienen lugar a velocidades muy bajas se realicen a mayor velocidad.",
+        "D": "Todas."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todas."
+    },
+    {
+      "id": 83,
+      "question": "Señala la falsa:",
+      "options": {
+        "A": "La velocidad de formación del producto aumenta conforme aumenta la velocidad de sustrato hasta llegar a la Vmáx.",
+        "B": "Cuanto mayor es la Km, mayor será la afinidad de",
+        "C": "La gráfica que representa la cinética enzimática es la de Michaelis-Menten.",
+        "D": "Al aumentar la temperatura se eleva la velocidad de reacción hasta un punto máximo."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Cuanto mayor es la Km, mayor será la afinidad de"
+    },
+    {
+      "id": 84,
+      "question": "Una enzima oxidorreductasa:",
+      "options": {
+        "A": "Cataliza",
+        "B": "Cataliza reacciones de transferencia de grupos",
+        "C": "Catalizan la ruptura con adición de agua.",
+        "D": "Todas son falsas."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Cataliza"
+    },
+    {
+      "id": 85,
+      "question": "Una enzima isomerasa:",
+      "options": {
+        "A": "Eliminan enlaces y forman dobles enlaces",
+        "B": "Catalizan la interconversión de isómeros",
+        "C": "Catalizan la unión de dos sustratos utilizando energía",
+        "D": "Todas son correctas"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Catalizan la interconversión de isómeros"
+    },
+    {
+      "id": 86,
+      "question": "¿Qué puede causar un inhibidor competitivo en una enzima?",
+      "options": {
+        "A": "Aumento de la Km pero sin alteración de la Vmáx",
+        "B": "Aumento de la Vmáx pero sin alteración de la Km",
+        "C": "Aumento tanto de la Km como de la Vmáx",
+        "D": "Disminución de la Vmáx pero sin alterar la Km"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Aumento de la Km pero sin alteración de la Vmáx"
+    },
+    {
+      "id": 87,
+      "question": "La constante Km:",
+      "options": {
+        "A": "Es la concentración de sustrato a la que la",
+        "B": "Es la velocidad referida de una concentración.",
+        "C": "No mide nada.",
+        "D": "Es la concentración de un sustrato referida al tiempo."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Es la concentración de sustrato a la que la"
+    },
+    {
+      "id": 88,
+      "question": "Señala la incorrecta. Las reacciones enzimáticas:",
+      "options": {
+        "A": "Pueden inhibirse competitivamente",
+        "B": "Pueden inhibirse no competitivamente",
+        "C": "Pueden inhibirse acompetitivamente",
+        "D": "No pueden inhibirse"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "No pueden inhibirse"
+    },
+    {
+      "id": 89,
+      "question": "¿Cómo se evalúa la actividad enzimática?",
+      "options": {
+        "A": "Mediante inmunoensayo",
+        "B": "Nefelometría",
+        "C": "Técnicas espectrofotométricas",
+        "D": "Técnicas de osmometría"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Técnicas espectrofotométricas"
+    },
+    {
+      "id": 90,
+      "question": "Uno de los siguientes enunciados es correcto, en relación a la evaluación de las enzimas mediante técnicas basadas en absorción de la luz:",
+      "options": {
+        "A": "Si el producto absorbe luz a una longitud de onda determinada podemos evaluar la evaluación del producto analizando el incremento de absorbancia a dicha longitud de onda.",
+        "B": "Si el sustrato absorbe luz a una longitud de onda determinada podemos evaluar la aparición del producto analizando la disminución de la absorbancia a dicha longitud de onda.",
+        "C": "Se puede analizar la variación de un cofactor o de algún componente de la reacción. Aparición o desaparición del NADH o NADPH.",
+        "D": "Todos los enunciados son correctos."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todos los enunciados son correctos."
+    },
+    {
+      "id": 91,
+      "question": "¿En qué método para determinar las enzimas se añade sustrato en exceso y se incuba con la muestra que contiene la enzima a determinar durante un tiempo determinado?",
+      "options": {
+        "A": "Método cinético",
+        "B": "Método a punto inicial",
+        "C": "Método a punto final",
+        "D": "Método a punto intermedio"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Método a punto final"
+    },
+    {
+      "id": 92,
+      "question": "Para determinar la actividad enzimática, se analiza:",
+      "options": {
+        "A": "Aparición de algún producto",
+        "B": "Desaparición del sustrato",
+        "C": "Variación de un cofactor o de algún componente de la reacción.",
+        "D": "Todas son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 93,
+      "question": "Doce días después de un infarto, ¿qué marcador de los siguientes puede aún encontrarse elevado en la circulación?:",
+      "options": {
+        "A": "CKMB.",
+        "B": "Troponina T.",
+        "C": "Mioglobina.",
+        "D": "CK total"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Troponina T."
+    },
+    {
+      "id": 94,
+      "question": "¿En cuál de las siguientes situaciones NO se eleva la concentración de NT-proBNP?:",
+      "options": {
+        "A": "Enfermedad pulmonar obstructiva crónica.",
+        "B": "Insuficiencia renal severa.",
+        "C": "Obesidad.",
+        "D": "Hiperaldosteronismo."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Obesidad."
+    },
+    {
+      "id": 95,
+      "question": "Con respecto a la concentración catalítica de una enzima, señale la afirmación FALSA:",
+      "options": {
+        "A": "Se expresa en kat/L.",
+        "B": "Para su determinación es necesario tener en cuenta el requerimiento de cofactores.",
+        "C": "La velocidad de reacción frente a la concentración de sustrato suele tener forma sigmoidea.",
+        "D": "No es necesario tener en cuenta el pH y la temperatura"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "No es necesario tener en cuenta el pH y la temperatura"
+    },
+    {
+      "id": 96,
+      "question": "El complejo enzima-cofactor catalíticamente activo recibe el nombre de:",
+      "options": {
+        "A": "Apoenzima.",
+        "B": "Holoenzima.",
+        "C": "Coenzima.",
+        "D": "Metaloenzima"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Holoenzima."
+    },
+    {
+      "id": 97,
+      "question": "Un valor bajo de Km (constante de Michaelis- Menten) indica:",
+      "options": {
+        "A": "Poca afinidad de la enzima por la coenzima.",
+        "B": "Gran afinidad de la enzima por el sustrato.",
+        "C": "Poca afinidad de la enzima por el sustrato.",
+        "D": "No relaciona la afinidad de la enzima por el sustrato."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Gran afinidad de la enzima por el sustrato."
+    },
+    {
+      "id": 98,
+      "question": "De los siguientes marcadores bioquímicos, ¿cuál muestra una elevación más precoz en la necrosis cardiaca?:",
+      "options": {
+        "A": "Mioglobina.",
+        "B": "Isoformas MB1 y MB2 de CK-MB.",
+        "C": "Troponinas I y T.",
+        "D": "AST"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 99,
+      "question": "¿Cuál es la concentración de corte para Troponina cardíaca en el diagnóstico de IAM?:",
+      "options": {
+        "A": "Percentil 95 de la población sana.",
+        "B": "Percentil 99 de la población sana.",
+        "C": "La concentración de Troponina que represente una imprecisión inferior al 20%.",
+        "D": "Un límite basado en curvas ROC de estudio en pacientes con y sin IAM."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Percentil 99 de la población sana."
+    },
+    {
+      "id": 100,
+      "question": "La CK-MB tiene el pico más alto en su concentración:",
+      "options": {
+        "A": "A las 24 horas del inicio.",
+        "B": "Entre las 48-72 horas del inicio.",
+        "C": "A las 12 horas del inicio.",
+        "D": "A las 6 horas del inicio."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "A las 24 horas del inicio."
+    },
+    {
+      "id": 101,
+      "question": "¿Cuál de las siguientes izoenzimas predomina en el músculo esquelético?",
+      "options": {
+        "A": "CK-MB.",
+        "B": "CK-MM.",
+        "C": "CK-BB.",
+        "D": "CK-MM3."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "CK-MM."
+    },
+    {
+      "id": 102,
+      "question": "Los siguientes marcadores bioquímicos se elevan tras sufrir un infarto de miocardio, ¿cuál de ellos se considera el método de elección para el diagnóstico de necrosis miocárdica?",
+      "options": {
+        "A": "LDH",
+        "B": "CPK-MB",
+        "C": "GOT",
+        "D": "Troponinas cardíacas"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Troponinas cardíacas"
+    },
+    {
+      "id": 103,
+      "question": "La enzima lactato deshidrogenasa cataliza una reacción reversible involucrada en la oxidación de lactato a:",
+      "options": {
+        "A": "Piruvato",
+        "B": "Ácido láctico",
+        "C": "Citrato",
+        "D": "Oxalacetato"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Piruvato"
+    },
+    {
+      "id": 104,
+      "question": "Para determinar la enzima Lactato Deshidrogenasa (LDH), empleamos un método:",
+      "options": {
+        "A": "Que cataliza la hidrólisis de lactato y mide así la cantidad de este a 340nm.",
+        "B": "Que añade sustratos de piruvato y mide la aparición o desaparición del compuesto formado a 340 nm, según el pH con el que trabajemos.",
+        "C": "Que mide la aparición o desaparición de NADH a",
+        "D": "Que añade nicotina adenina dinucleótidohidrogenasa (NADH) en un medio ácido hasta la desaparición de LDH y medido a 340nm."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Que mide la aparición o desaparición de NADH a"
+    },
+    {
+      "id": 105,
+      "question": "Los cofactores son sustancias no proteicas asociadas a los enzimas y pueden ser:",
+      "options": {
+        "A": "Compuestos orgánicos.",
+        "B": "Compuestos inorgánicos.",
+        "C": "Iones metálicos denominados activadores.",
+        "D": "Todas son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 106,
+      "question": "El cofactor que necesita la Fosfatasa Alcalina para su actividad es:",
+      "options": {
+        "A": "Calcio.",
+        "B": "Magnesio.",
+        "C": "Piridoxil fosfato.",
+        "D": "No necesita cofactor."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Magnesio."
+    },
+    {
+      "id": 107,
+      "question": "El papel catalizador de una enzima en una reacción se basa en:",
+      "options": {
+        "A": "Modificar la constante de equilibrio de la reacción.",
+        "B": "Conseguir un pH óptimo.",
+        "C": "Mantener una cinética de primer orden.",
+        "D": "Disminuir la energía de activación de la reacción."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Disminuir la energía de activación de la reacción."
+    },
+    {
+      "id": 108,
+      "question": "¿Qué parámetro se emplea en laboratorio para discernir entre una disnea de origen cardíaco de las disneas ocasionadas por otros motivos:",
+      "options": {
+        "A": "NT-proBNP.",
+        "B": "Procalcitonina.",
+        "C": "Troponina de alta sensibilidad.",
+        "D": "Pueden emplearse las tres en combinación."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "NT-proBNP."
+    },
+    {
+      "id": 109,
+      "question": "¿Qué isoforma de la troponina es más cardio- específica?",
+      "options": {
+        "A": "Troponina T",
+        "B": "Troponina I",
+        "C": "Troponina C",
+        "D": "Troponina K"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Troponina I"
+    },
+    {
+      "id": 110,
+      "question": "Las enzimas se comportan como catalizadores, esto quiere decir:",
+      "options": {
+        "A": "Modifican el equilibrio, formando más producto",
+        "B": "Solo aceleran la velocidad de reacción",
+        "C": "Aceleran la velocidad de reacción y aumentan la cantidad de producto",
+        "D": "Ninguna es correcta"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Solo aceleran la velocidad de reacción"
+    },
+    {
+      "id": 111,
+      "question": "¿Qué es la constante Km en una reacción enzimática?",
+      "options": {
+        "A": "Es la concentración de sustrato a la que la",
+        "B": "Es la concentración de sustrato a la que la",
+        "C": "Es la concentración de sustrato a la que la reacción transcurre a un tercio de la velocidad máxima.",
+        "D": "Es la concentración de sustrato necesaria para que se produzca la reacción."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Es la concentración de sustrato a la que la"
+    },
+    {
+      "id": 112,
+      "question": "Una proteína miofibrilar que regula la contracción del músculo en relación con el ión calcio, es:",
+      "options": {
+        "A": "La troponina",
+        "B": "La LDH",
+        "C": "La mioglobina",
+        "D": "El péptido natriurético de tipo B"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "La troponina"
+    },
+    {
+      "id": 113,
+      "question": "Respecto a las isoenzimas, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": {
+        "A": "Son enzimas iguales que catalizan distintas reacciones.",
+        "B": "Son modificaciones postraduccionales de las enzimas.",
+        "C": "Es la misma molécula de enzima que se expresa en distintos tejidos.",
+        "D": "Son proteínas codificadas por genes distintos pero que codifican la misma reacción."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Son proteínas codificadas por genes distintos pero que codifican la misma reacción."
+    },
+    {
+      "id": 114,
+      "question": "Señale la respuesta Incorrecta en relación a las isoenzimas:",
+      "options": {
+        "A": "Son distintas estructuras de la misma enzima del organismo en distintos tejidos",
+        "B": "Catalizan la misma reacción",
+        "C": "Cuando sufren alteraciones, si sabemos de donde proceden, sabremos el tejido afectado",
+        "D": "Tienen la misma movilidad electroforética"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Tienen la misma movilidad electroforética"
+    },
+    {
+      "id": 115,
+      "question": "¿Qué isoforma de la troponina es la más cardioespecífica?",
+      "options": {
+        "A": "Troponina K",
+        "B": "Troponina B",
+        "C": "Troponina I",
+        "D": "Troponina C"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Troponina I"
+    },
+    {
+      "id": 116,
+      "question": "¿En qué situación está elevada la actividad de la CK?",
+      "options": {
+        "A": "Necrosis o atrofia aguda del músculo estriado",
+        "B": "Enfermedades del corazón",
+        "C": "Ultimas semanas del embarazo e hipotiroidsimo",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 117,
+      "question": "Cuál de los siguientes aspectos no influye en una reacción enzimática:",
+      "options": {
+        "A": "Cantidad de substrato",
+        "B": "pH de la reacción",
+        "C": "El método de detección",
+        "D": "Temperatura de la reacción"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "El método de detección"
+    },
+    {
+      "id": 118,
+      "question": "A saturación de sustrato y temperatura constante, la velocidad de una reacción enzimática es dependiente de la concentración de:",
+      "options": {
+        "A": "Sustrato.",
+        "B": "Producto.",
+        "C": "Enzima",
+        "D": "Enzima y producto."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Enzima"
+    },
+    {
+      "id": 119,
+      "question": "¿Cuál es la causa que justifica la mayoría de las elevaciones de las enzimas séricas?:",
+      "options": {
+        "A": "Alteración de la permeabilidad de la membrana",
+        "B": "Invasión de virus.",
+        "C": "Ausencia de glucosa",
+        "D": "Hipoxia celular."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Alteración de la permeabilidad de la membrana"
+    },
+    {
+      "id": 120,
+      "question": "La prueba “NT-proBNP” es un biomarcador para monitorización de:",
+      "options": {
+        "A": "Pacientes con insuficiencia cardíaca",
+        "B": "Control de drogas de abuso.",
+        "C": "Pacientes con diabetes tipo II.",
+        "D": "Presencia de autoanticuerpos."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Pacientes con insuficiencia cardíaca"
+    },
+    {
+      "id": 121,
+      "question": "Las enzimas son:",
+      "options": {
+        "A": "Lípidos especializados en la catálisis de reacciones orgánicas",
+        "B": "Azúcares especializadas en la catálisis de reacciones orgánicas",
+        "C": "Proteínas especializadas en la catálisis de",
+        "D": "Ácidos nucleicos especializados en la catálisis de reacciones orgánicas"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Proteínas especializadas en la catálisis de"
+    },
+    {
+      "id": 122,
+      "question": "¿Qué cofactor requiere la amilasa pancreática?",
+      "options": {
+        "A": "Piridoxal fosfato (PP)",
+        "B": "Magnesio",
+        "C": "Calcio",
+        "D": "Heces"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Calcio"
+    },
+    {
+      "id": 123,
+      "question": "¿Qué estructura pueden presentar las enzimas?",
+      "options": {
+        "A": "Primaria",
+        "B": "Primaria y secundaria",
+        "C": "Primaria, secundaria y terciaria",
+        "D": "Primaria, secundaria, terciaria e incluso hasta cuaternaria"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Primaria, secundaria, terciaria e incluso hasta cuaternaria"
+    },
+    {
+      "id": 124,
+      "question": "¿Qué enzima se determina para el IAM?",
+      "options": {
+        "A": "TnT",
+        "B": "HDL",
+        "C": "Amilasa",
+        "D": "Todas"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "TnT"
+    },
+    {
+      "id": 125,
+      "question": "La unión de un cofactor unido a la enzima se llama:",
+      "options": {
+        "A": "Holoenzima",
+        "B": "Proenzima",
+        "C": "Apoenzima",
+        "D": "Coenzima"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Holoenzima"
+    },
+    {
+      "id": 126,
+      "question": "¿Qué enzima no es Transaminasa?",
+      "options": {
+        "A": "GOT",
+        "B": "GPT",
+        "C": "GGT o GT",
+        "D": "Son todas transaminasas"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "GGT o GT"
+    },
+    {
+      "id": 127,
+      "question": "¿Cuántas isoenzimas tiene la Creatin-kinasa (CK)?",
+      "options": {
+        "A": "3",
+        "B": "8",
+        "C": "4",
+        "D": "6"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "3"
+    },
+    {
+      "id": 128,
+      "question": "¿Con qué sustancia se asocian las coenzimas?",
+      "options": {
+        "A": "Colesterol",
+        "B": "Hormonas",
+        "C": "Ácidos esenciales",
+        "D": "Vitaminas"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Vitaminas"
+    },
+    {
+      "id": 129,
+      "question": "¿Cómo se determinan las distintas formas moleculares de una enzima?",
+      "options": {
+        "A": "Isoenzimas",
+        "B": "Coenzimas",
+        "C": "Apoenzimas",
+        "D": "Holoenzima"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Isoenzimas"
+    },
+    {
+      "id": 130,
+      "question": "La mioglobina es:",
+      "options": {
+        "A": "Una molécula con un grupo hemo.",
+        "B": "Una molécula con dos grupos hemo.",
+        "C": "Una molécula con tres grupos hemo.",
+        "D": "Una molécula con cuatro grupos hemo."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Una molécula con un grupo hemo."
+    },
+    {
+      "id": 131,
+      "question": "La creatinquinasa es un dímero compuesto por dos subunidades y forma diferentes isoenzimas, ¿cuál es la subunidad presente fundamentalmente en la lesión miocárdica?",
+      "options": {
+        "A": "CK₁.",
+        "B": "CK₂.",
+        "C": "CKз.",
+        "D": "CK₄."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "CK₂."
+    },
+    {
+      "id": 132,
+      "question": "Las condiciones generales que deben cumplir las enzimas como reactivos analíticos son:",
+      "options": {
+        "A": "Hidratación, idoneidad y conductividad.",
+        "B": "Concentración, temperatura y pH.",
+        "C": "Temperatura, pH e hidratación.",
+        "D": "Conductividad, temperatura y adherencia."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Concentración, temperatura y pH."
+    },
+    {
+      "id": 133,
+      "question": "En el infarto agudo de miocardio:",
+      "options": {
+        "A": "Disminuye la LDH.",
+        "B": "El cociente CPK/LDH es superior a 3.",
+        "C": "Aumenta la CPK.",
+        "D": "Aumenta la fosfatasa ácida."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Aumenta la CPK."
+    },
+    {
+      "id": 134,
+      "question": "¿Cuál es la isoenzima de la CPK que está más elevada después de hacer un ejercicio intenso?:",
+      "options": {
+        "A": "CPK-MM.",
+        "B": "CPK-MB.",
+        "C": "CPK-BB.",
+        "D": "CPK-MD."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "CPK-MM."
+    },
+    {
+      "id": 135,
+      "question": "Indique a qué tipo de enzima pertenece la fosfatasa ácida:",
+      "options": {
+        "A": "Transferasa.",
+        "B": "Hidrolasa.",
+        "C": "Oxidoreductasa.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Hidrolasa."
+    },
+    {
+      "id": 136,
+      "question": "¿En qué órgano se sintetiza principalmente el ProBnp?:",
+      "options": {
+        "A": "Bazo.",
+        "B": "Corazón.",
+        "C": "Hígado.",
+        "D": "Riñón."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Corazón."
+    },
+    {
+      "id": 137,
+      "question": "¿Qué cofactor se une a la fosfatasa alcalina para poder realizar su actividad?:",
+      "options": {
+        "A": "Magnesio.",
+        "B": "Potasio.",
+        "C": "Bicarbonato.",
+        "D": "Cobre."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Magnesio."
+    },
+    {
+      "id": 138,
+      "question": "En relación con las determinaciones enzimáticas: ¿cuál de estas afirmaciones es cierta?:",
+      "options": {
+        "A": "Ninguna soporta temperaturas superiores a 70ºC.",
+        "B": "Se valoran en razón de su concentración.",
+        "C": "La gran mayoría se inactivan a 6ºC.",
+        "D": "Todas las anteriores son falsas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son falsas."
+    },
+    {
+      "id": 139,
+      "question": "En relación con los isoenzimas: ¿cuál de estas enzimas presenta un isoenzima que se altera en una patología placentaria?:",
+      "options": {
+        "A": "GPT.",
+        "B": "ALP.",
+        "C": "CK.",
+        "D": "GOT."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "ALP."
+    },
+    {
+      "id": 140,
+      "question": "En el Infarto Agudo de Miocardio, ¿cuándo empiezan a elevarse las troponinas?:",
+      "options": {
+        "A": "A las 12 horas.",
+        "B": "A las 36 horas.",
+        "C": "A las 48 horas.",
+        "D": "A las 4-6 horas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "A las 4-6 horas."
+    },
+    {
+      "id": 141,
+      "question": "De los siguientes marcadores bioquímicos, ¿cuál muestra una elevación más precoz en la necrosis cardiaca?:",
+      "options": {
+        "A": "Mioglobina.",
+        "B": "Isoformas MB1 y MB2 de CK-MB.",
+        "C": "Troponinas I y T.",
+        "D": "AST."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 142,
+      "question": "¿Qué membrana serosa recubre el corazón con una doble capa?:",
+      "options": {
+        "A": "Peritoneo.",
+        "B": "Pericardio.",
+        "C": "Pleura.",
+        "D": "Todas son falsas."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Pericardio."
+    },
+    {
+      "id": 143,
+      "question": "¿Cuál de las siguientes enzimas es muy útil para el diagnóstico tardío de infarto agudo de miocardio:",
+      "options": {
+        "A": "CK total.",
+        "B": "AST.",
+        "C": "GOT.",
+        "D": "LDH."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "LDH."
+    },
+    {
+      "id": 144,
+      "question": "El dolor de infarto de miocardio se caracteriza por:",
+      "options": {
+        "A": "Ceder con vasodilatadores.",
+        "B": "Ceder con el reposo.",
+        "C": "No ceder con el reposo.",
+        "D": "Tener las mismas características que la angina de pecho."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "No ceder con el reposo."
+    },
+    {
+      "id": 145,
+      "question": "¿Cómo se llama la válvula que separa el ventrículo derecho de la aurícula derecha?",
+      "options": {
+        "A": "Tricúspide.",
+        "B": "Pulmonar.",
+        "C": "Aórtica.",
+        "D": "Mitral."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Tricúspide."
+    },
+    {
+      "id": 146,
+      "question": "La causa más frecuente de paro cardiaco es:",
+      "options": {
+        "A": "Valvulopatía.",
+        "B": "Enfermedad coronaria.",
+        "C": "Insuficiencia cardiaca.",
+        "D": "Arritmias."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Enfermedad coronaria."
+    },
+    {
+      "id": 147,
+      "question": "Respecto a la determinación de la enzima LDH, que afirmación NO es correcta:",
+      "options": {
+        "A": "Es una enzima de escasa distribución y altamente",
+        "B": "Es una enzima que se haya ampliamente distribuida en distintos tejidos.",
+        "C": "Sus valores aparecen elevados en diversos cuadros patológicos.",
+        "D": "Aparece elevada en pacientes con anemia megaloblástica y carcinoma diseminado."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Es una enzima de escasa distribución y altamente"
+    },
+    {
+      "id": 148,
+      "question": "Respecto a la determinación de distintos analitos en suero, señalar que afirmación NO es correcta:",
+      "options": {
+        "A": "Valores elevados de la CK junto con la determinación de la CK-MB es útil para identificar patologías cardiacas.",
+        "B": "La determinación de la creatinina es la prueba más común para evaluar la función renal.",
+        "C": "La determinación de LDH la prueba más común",
+        "D": "La medición de la concentración de beta HCG permite diagnosticar el embarazo en suero y en orina."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "La determinación de LDH la prueba más común"
+    },
+    {
+      "id": 149,
+      "question": "Ante la sospecha de un infarto de miocardio la proteína más específica es:",
+      "options": {
+        "A": "Miosina.",
+        "B": "LDH.",
+        "C": "Troponina.",
+        "D": "CK."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Troponina."
+    },
+    {
+      "id": 150,
+      "question": "La fosfatasa alcalina cataliza una reacción de:",
+      "options": {
+        "A": "Hidrólisis.",
+        "B": "Eliminación o adición de alguna molécula.",
+        "C": "Transferencia de grupos funcionales.",
+        "D": "Oxidación-reducción."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Hidrólisis."
+    },
+    {
+      "id": 151,
+      "question": "Cuando la velocidad de reacción enzimática NO depende de la concentración del sustrato, se dice que es:",
+      "options": {
+        "A": "Una cinética de orden cero.",
+        "B": "Una cinética de primer orden.",
+        "C": "Una cinética de segundo orden.",
+        "D": "Una cinética de orden inespecífico."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Una cinética de orden cero."
+    },
+    {
+      "id": 152,
+      "question": "La enzima que NO está unida a un cofactor se denomina:",
+      "options": {
+        "A": "Apoenzima.",
+        "B": "Coenzima.",
+        "C": "Isoenzima.",
+        "D": "Holoenzima."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Apoenzima."
+    },
+    {
+      "id": 153,
+      "question": "Señale la respuesta incorrecta:",
+      "options": {
+        "A": "Tras un episodio de necrosis miocárdica la troponina T puede permanecer elevada de 10 a 14 días.",
+        "B": "El péptido natriurético se sintetiza en el corazón.",
+        "C": "La CK-MB es el marcador cardiaco de elección en",
+        "D": "La mioglobina es un marcador no cardioespecífico cuya concentración está afectada en patologías musculares."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "La CK-MB es el marcador cardiaco de elección en"
+    },
+    {
+      "id": 154,
+      "question": "Señala el marcador liberado más precozmente en el infarto agudo de miocardio:",
+      "options": {
+        "A": "CK- MB.",
+        "B": "Troponina T.",
+        "C": "Troponina l.",
+        "D": "Mioglobina."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 155,
+      "question": "¿Qué es una apoenzima?",
+      "options": {
+        "A": "La estructura no proteica de una haloenzima.",
+        "B": "El complejo formado por una haloenzima y un cofactor.",
+        "C": "La estructura proteica de una haloenzima.",
+        "D": "Un ión metálico necesario para activar ciertas enzimas."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "La estructura proteica de una haloenzima."
+    },
+    {
+      "id": 156,
+      "question": "¿Qué marcador cardiaco es más recomendable solicitar ante sospecha de infarto agudo de miocardio?:",
+      "options": {
+        "A": "CK.",
+        "B": "Troponina.",
+        "C": "LDH."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Troponina."
+    },
+    {
+      "id": 157,
+      "question": "Un indicador sensible de infarto de miocardio es:",
+      "options": {
+        "A": "LDH (Lactato deshidrogenasa).",
+        "B": "CPK total.",
+        "C": "CPK-MB."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "CPK-MB."
+    },
+    {
+      "id": 158,
+      "question": "Con respecto a la troponina:",
+      "options": {
+        "A": "Tiene una vida media muy corta.",
+        "B": "No es marcador de elección de daño miocárdico.",
+        "C": "Su elevación tiene una sensibilidad del 100% en",
+        "D": "el diagnóstico de infarto."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Su elevación tiene una sensibilidad del 100% en"
+    },
+    {
+      "id": 159,
+      "question": "Respecto a la enzima Lactato Deshidrogenasa (LDH):",
+      "options": {
+        "A": "Se encuentra en el citoplasma de los glóbulos rojos por lo que su elevación es específica de patologías de la serie roja hematológica.",
+        "B": "Cataliza la oxidación reversible de L-lactato a",
+        "C": "Presenta seis isoenzimas cuya identificación se realiza mediante inmunoensayo."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Cataliza la oxidación reversible de L-lactato a"
+    },
+    {
+      "id": 160,
+      "question": "¿Cuál de las siguientes enzimas se encuentra elevada en la rabdomiólisis?:",
+      "options": {
+        "A": "ECA (Enzima convertidora de angiotensina).",
+        "B": "CK (Creatin Kinasa).",
+        "C": "Amilasa."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "CK (Creatin Kinasa)."
+    },
+    {
+      "id": 161,
+      "question": "En una reacción enzimática de orden 0:",
+      "options": {
+        "A": "La velocidad de reacción es independiente de la",
+        "B": "La velocidad de reacción es dependiente de la",
+        "C": "La velocidad de reacción es independiente de la concentración de sustratos y es inversamente proporcional a la concentración de la enzima.",
+        "D": "La velocidad de reacción es dependiente de la concentración de sustratos y es inversamente proporcional a la concentración de la enzima."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "La velocidad de reacción es independiente de la"
+    },
+    {
+      "id": 162,
+      "question": "Con respecto a la concentración catalítica de una enzima, señale la afirmación FALSA:",
+      "options": {
+        "A": "Se expresa en kat/L.",
+        "B": "Para su determinación es necesario tener en cuenta el requerimiento de cofactores.",
+        "C": "La velocidad de reacción frente a la concentración de sustrato suele tener forma sigmoidea.",
+        "D": "No es necesario tener en cuenta el pH y la temperatura."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "No es necesario tener en cuenta el pH y la temperatura."
+    },
+    {
+      "id": 163,
+      "question": "¿Qué enzima no tiene isoenzimas?",
+      "options": {
+        "A": "Gammaglutamil transpeptidasa (GGT).",
+        "B": "Creatinfosfoquinasa (CPK).",
+        "C": "Lactato deshidrogenasa (LDH).",
+        "D": "Todas tienen isoenzimas."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Gammaglutamil transpeptidasa (GGT)."
+    },
+    {
+      "id": 164,
+      "question": "¿Cuál de los siguientes factores no influye en la actividad enzimática?",
+      "options": {
+        "A": "Temperatura.",
+        "B": "Concentración de conjugado.",
+        "C": "pH."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Concentración de conjugado."
+    },
+    {
+      "id": 165,
+      "question": "¿Cuál de las respuestas siguientes no es una función de las enzimas?",
+      "options": {
+        "A": "Acelerar la velocidad de las reacciones.",
+        "B": "Disminuir la energía de activación.",
+        "C": "Obtener más rápidamente los productos.",
+        "D": "Aumentar la energía de activación."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Aumentar la energía de activación."
+    },
+    {
+      "id": 166,
+      "question": "¿Qué prueba solicitaría para el estudio de una insuficiencia cardiaca?",
+      "options": {
+        "A": "CK-MB.",
+        "B": "Mioglobina.",
+        "C": "AST.",
+        "D": "NT-proBNP."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "NT-proBNP."
+    },
+    {
+      "id": 167,
+      "question": "¿Cuál de los siguientes parámetros no se eleva en el infarto de miocardio?",
+      "options": {
+        "A": "Troponina.",
+        "B": "Prolactina.",
+        "C": "PCR.",
+        "D": "Procalcitonina. Comentario. Se pasan de rebuscados. PCR y procalcitonina se podrían elevar ligeramente"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Prolactina."
+    },
+    {
+      "id": 168,
+      "question": "En relación al uso como marcador bioquímico de la troponina, señale la afirmación incorrecta:",
+      "options": {
+        "A": "El conocimiento de falsos positivos y negativos en el análisis de la troponina es imprescindible para evitar un error diagnóstico en síndrome coronario agudo",
+        "B": "Se puede determinar por técnicas de inmunoanálisis",
+        "C": "Es una de las proteínas miofibrilares del músculo esquelético y se compone de tres péptidos.",
+        "D": "Regula la contracción muscular independientemente de ion calcio"
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Regula la contracción muscular independientemente de ion calcio"
+    },
+    {
+      "id": 169,
+      "question": "Señale la respuesta correcta sobre la válvula tricúspide.",
+      "options": {
+        "A": "Controla la comunicación entre el ventrículo derecho y la arteria pulmonar",
+        "B": "Se encuentra entre la aurícula derecha y el",
+        "C": "Se encuentra entre la aurícula izquierda y el ventrículo izquierdo",
+        "D": "Se conoce también como válvula mitral"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Se encuentra entre la aurícula derecha y el"
+    },
+    {
+      "id": 170,
+      "question": "¿Cuál es la isoenzima de la creatinquinasa CK con un 90% de presencia en el cerebro?",
+      "options": {
+        "A": "CK1.",
+        "B": "CK2.",
+        "C": "CK3.",
+        "D": "CK4."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "CK1."
+    },
+    {
+      "id": 171,
+      "question": "¿Qué parámetro utilizado para detectar daño miocárdico mínimo permanece elevado durante más tiempo?",
+      "options": {
+        "A": "Mioglobina",
+        "B": "CK-MB",
+        "C": "Troponina",
+        "D": "CK total"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Troponina"
+    },
+    {
+      "id": 172,
+      "question": "Indique cuál de las siguientes afirmaciones es falsa:",
+      "options": {
+        "A": "Las troponinas más importantes son la I y la T, específicas del corazón",
+        "B": "La troponina es de mayor sensibilidad y especificidad que la CK-MB",
+        "C": "La CK total alcanza un valor máximo entre las 3 y",
+        "D": "La troponina puede permanecer elevada entre 10 y 14 días"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "La CK total alcanza un valor máximo entre las 3 y"
+    },
+    {
+      "id": 173,
+      "question": "¿Cuál de los siguientes marcadores está relacionado con la funcionalidad del ventrículo izquierdo?",
+      "options": {
+        "A": "Troponina",
+        "B": "Mioglobina",
+        "C": "Péptido natriurético tipo B (BNP)",
+        "D": "Creatina Kinasa-MB"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Péptido natriurético tipo B (BNP)"
+    },
+    {
+      "id": 174,
+      "question": "¿Con qué enzimas se asocia la LDH para la valoración del infarto de miocardio?",
+      "options": {
+        "A": "ALT y AST.",
+        "B": "AST y CK.",
+        "C": "ALT y GGT.",
+        "D": "GGT y CK."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "AST y CK."
+    },
+    {
+      "id": 175,
+      "question": "¿Qué biomarcador es el más precoz en la lesión cardiaca?",
+      "options": {
+        "A": "AST.",
+        "B": "Troponina.",
+        "C": "Mioglobina.",
+        "D": "CK-MB."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 176,
+      "question": "¿Dónde se sintetiza el Péptido Natriurético (BNP)?",
+      "options": {
+        "A": "Páncreas.",
+        "B": "Hígado.",
+        "C": "Encéfalo.",
+        "D": "Corazón."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Corazón."
+    },
+    {
+      "id": 177,
+      "question": "Paciente de 52 años que acude a urgencias por dolor en el pecho con 3 horas de evolución y que no cede en reposo. ¿Cuál de las siguientes determinaciones sería la indicada?",
+      "options": {
+        "A": "CK.",
+        "B": "LDH.",
+        "C": "GOT.",
+        "D": "Troponina."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Troponina."
+    },
+    {
+      "id": 178,
+      "question": "Si se sospecha de un posible infarto de miocardio, ¿qué marcador de los siguientes es el más precoz?",
+      "options": {
+        "A": "Tropo I.",
+        "B": "CK-MB.",
+        "C": "Mioglobina.",
+        "D": "Tropo T."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 179,
+      "question": "¿Qué marcador permanece en suero durante más tiempo después de sufrir una lesión cardiaca?",
+      "options": {
+        "A": "LDH.",
+        "B": "GOT.",
+        "C": "Tropo T.",
+        "D": "CK-MB."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Tropo T."
+    },
+    {
+      "id": 180,
+      "question": "¿Cuál de los siguientes es el de mayor elección para diagnosticar el IAM?",
+      "options": {
+        "A": "CK.",
+        "B": "LDH.",
+        "C": "Tropo I.",
+        "D": "Tropo T. Comentario. Puede ser discutible, ya que ambas troponinas tienen valores de sensibilidad y especificidad similares"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Tropo I."
+    },
+    {
+      "id": 181,
+      "question": "El paciente es ingresado, y se encuentra estable del IAM. Durante las siguientes horas, ¿qué marcador utilizaríamos para monitorizar la evolución de la lesión cardíaca o detectar una recidiva del infarto?",
+      "options": {
+        "A": "Mioglobina.",
+        "B": "LDH.",
+        "C": "Tropo T.",
+        "D": "CK-MB."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Mioglobina."
+    },
+    {
+      "id": 182,
+      "question": "Si se realiza en un autoanalizador una determinación de gamma-glutamil transpeptidasa en suero, ¿en qué fase de la reacción se mide la actividad enzimática?",
+      "options": {
+        "A": "La fase lineal.",
+        "B": "La fase de agotamiento de sustrato.",
+        "C": "La fase de retardo.",
+        "D": "La fase de dilución."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "La fase lineal."
+    },
+    {
+      "id": 183,
+      "question": "En relación con los Péptidos Natriuréticos, señale la afirmación correcta:",
+      "options": {
+        "A": "No son específico del tejido cardíaco.",
+        "B": "Este marcador ayuda a valorar el tratamiento en pacientes diabéticos.",
+        "C": "Está indicado para controlar el tratamiento de",
+        "D": "Se elevan debido a una interrupción total del flujo coronario."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Está indicado para controlar el tratamiento de"
+    },
+    {
+      "id": 184,
+      "question": "En relación a la estabilidad de las magnitudes bioquímicas señale la respuesta correcta:",
+      "options": {
+        "A": "La estabilidad de una magnitud bioquímica es independiente del método de medida.",
+        "B": "La estabilidad de una magnitud bioquímica es independiente de las condiciones de conservación.",
+        "C": "Puede haber tiempos de estabilidad distintos",
+        "D": "No influye en la calidad de los resultados de esa magnitud. Comentario. En algunos analitos el tiempo de estabilidad es método dependiente"
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Puede haber tiempos de estabilidad distintos"
+    },
+    {
+      "id": 185,
+      "question": "¿Cuál de las siguientes afirmaciones NO es correcta?",
+      "options": {
+        "A": "Los Péptidos Natriuréticos son hormonas.",
+        "B": "La Lactatodeshidrogenasa es una enzima.",
+        "C": "La Mioglobina es una proteína.",
+        "D": "La Proteína C Reactiva (PCR) es una enzima."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "La Proteína C Reactiva (PCR) es una enzima."
+    },
+    {
+      "id": 186,
+      "question": "En relación con la determinación de las troponinas, señale la respuesta FALSA:",
+      "options": {
+        "A": "Es detectable en plasma a partir de la 48 h del",
+        "B": "Es indicador de necrosis cardiaca",
+        "C": "La troponina I y la troponina T son marcadores específicos de infarto de miocardio.",
+        "D": "Las formas cardíacas son extremadamente específicas del tejido del corazón y, por lo tanto, se usan cada vez más como marcadores específicos de daño en el músculo cardíaco."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Es detectable en plasma a partir de la 48 h del"
+    },
+    {
+      "id": 187,
+      "question": "Cuál de estos parámetros bioquímicos NO aumenta en la rabdomiolisis:",
+      "options": {
+        "A": "CK",
+        "B": "Hematocrito",
+        "C": "LDH",
+        "D": "GOT E) Creatinina"
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Hematocrito"
+    },
+    {
+      "id": 188,
+      "question": "Es un biomarcador de Insuficiencia cardíaca: Respuesta",
+      "options": {
+        "A": "Mioglobina.",
+        "B": "Troponina cardiaca (Tnc).",
+        "C": "CK-MB.",
+        "D": "NT-ProBNP E) PCR ultrasensible (PCRus)"
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "NT-ProBNP E) PCR ultrasensible (PCRus)"
+    },
+    {
+      "id": 189,
+      "question": "¿Cuál es la isoenzima de la CPK que está más elevada después de hacer un ejercicio intenso?",
+      "options": {
+        "A": "CPK-MM.",
+        "B": "CPK-MB.",
+        "C": "CPK-BB.",
+        "D": "CPK-MD."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "CPK-MM."
+    },
+    {
+      "id": 190,
+      "question": "La unidad de actividad enzimática katal es la que corresponde a:",
+      "options": {
+        "A": "Transformación de 1 μmol de sustrato en 1 minuto.",
+        "B": "Transformación de 1 mol de sustrato en un",
+        "C": "Transformación de 1gr de sustrato en 1 minuto."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Transformación de 1 mol de sustrato en un"
+    },
+    {
+      "id": 191,
+      "question": "Dentro de las características del centro activo de una enzima, señale la respuesta correcta:",
+      "options": {
+        "A": "Tienen una estructura bidimensional.",
+        "B": "Formados por aminoácidos.",
+        "C": "Constituyen la mayor parte del volumen total de la enzima.",
+        "D": "Formados por estructuras lipídicas."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Formados por aminoácidos."
+    },
+    {
+      "id": 192,
+      "question": "Respecto a la constante de Michaelis-Mentel, señale la respuesta correcta:",
+      "options": {
+        "A": "Es la concentración del sustrato a la cual la",
+        "B": "Es la concentración del sustrato a la cual la",
+        "C": "Es la concentración del sustrato a la cual la velocidad de reacción es el doble de la velocidad máxima.",
+        "D": "La concentración del sustrato no varía dependiendo de la velocidad."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Es la concentración del sustrato a la cual la"
+    },
+    {
+      "id": 193,
+      "question": "Respecto de las enzimas:",
+      "options": {
+        "A": "Las enzimas son proteínas que catalizan reacciones químicas.",
+        "B": "La concentración catalítica depende de las condiciones de ensayo.",
+        "C": "Cada método tiene sus propios valores de referencia.",
+        "D": "Todas son correctas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 194,
+      "question": "¿Cuál es la actividad catalítica de las enzimas?",
+      "options": {
+        "A": "Es la cantidad de enzima que transforma 1µmol",
+        "B": "Es la cantidad de enzima que transforma 1µmol de sustrato por segundo.",
+        "C": "Es la cantidad de enzima que transforma 1µmol durante la duración de la reacción.",
+        "D": "Todas son falsas."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Es la cantidad de enzima que transforma 1µmol"
+    },
+    {
+      "id": 195,
+      "question": "La unidad de medida de actividad enzimática en el sistema internacional es:",
+      "options": {
+        "A": "UI/ml.",
+        "B": "UI/L.",
+        "C": "UI/mg de proteínas.",
+        "D": "Katal."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Katal."
+    },
+    {
+      "id": 196,
+      "question": "Según el Consenso sobre la cuarta definición universal del infarto de miocardio de 2018. ¿Cuál de los siguientes enunciados sobre los ensayos de troponina es cierto?",
+      "options": {
+        "A": "La precisión óptima del test (coeficiente de variación al percentil 99 del límite superior de referencia) debe definirse como 10 %.",
+        "B": "Los test con precisión no óptima (CV > 10% al percentil 99 del límite superior de referencia) hacen más difícil determinar cambios significativos, pero no producen falsos negativos.",
+        "C": "No se deben utilizar test con CV > 20% al percentil 99 del límite superior de referencia.",
+        "D": "Todas son ciertas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 197,
+      "question": "¿Cuál de los siguientes marcadores biológicos tardan más tiempo en regresar a los valores normales en un proceso de IAM?",
+      "options": {
+        "A": "LDH 1 y Troponina.",
+        "B": "CK-MB y LDH1.",
+        "C": "Troponina y mioglobina.",
+        "D": "Troponina y BNP."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "LDH 1 y Troponina."
+    },
+    {
+      "id": 198,
+      "question": "El marcador cardiaco que permanece más tiempo en sangre tras un infarto agudo de miocardio es:",
+      "options": {
+        "A": "Troponina cardiaca.",
+        "B": "Lactato deshidrogenasa.",
+        "C": "Creatina quinasa.",
+        "D": "Aspartato aminotransferasa"
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Troponina cardiaca."
+    },
+    {
+      "id": 199,
+      "question": "¿Cuál es la concentración de corte para troponina cardiaca en el diagnóstico del IAM?",
+      "options": {
+        "A": "Percentil 95 de la población sana.",
+        "B": "Percentil 99 de la población sana.",
+        "C": "La concentración de troponina que presente una imprecisión inferior al 20%.",
+        "D": "Un límite basado en curvas ROC de estudio en pacientes con y sin IAM."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Percentil 99 de la población sana."
+    },
+    {
+      "id": 200,
+      "question": "En relación al Péptido Natriurético Cerebral (BNP) y su prohormona NTpro-BNP se ha demostrado principalmente su utilidad analítica en el despistaje de:",
+      "options": {
+        "A": "Accidentes cerebro vasculares (ACV).",
+        "B": "Insuficiencia cardíaca por disfunción ventricular",
+        "C": "Enfermedad de Alzheimer.",
+        "D": "Hemorragia subaracnoidea."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Insuficiencia cardíaca por disfunción ventricular"
+    },
+    {
+      "id": 201,
+      "question": "Cuál de las siguientes enzimas pertenece al grupo de las hidrolasas:",
+      "options": {
+        "A": "GOT.",
+        "B": "Fosfatasa ácida.",
+        "C": "LDH.",
+        "D": "Ninguna de ellas."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Fosfatasa ácida."
+    },
+    {
+      "id": 202,
+      "question": "La unidad de medida de actividad enzimática en el sistema internacional es:",
+      "options": {
+        "A": "UI/mL.",
+        "B": "UI/L.",
+        "C": "UI/μg de proteínas.",
+        "D": "Katal."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Katal."
+    },
+    {
+      "id": 203,
+      "question": "¿Cuál es la principal utilidad de los péptidos natriuréticos para el diagnóstico de la insuficiencia cardiaca en un contexto de urgencia médica?",
+      "options": {
+        "A": "Monitorización de tratamiento.",
+        "B": "Valor pronóstico.",
+        "C": "Valor predictivo negativo (VPN).",
+        "D": "Estratificación del riesgo."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Valor predictivo negativo (VPN)."
+    },
+    {
+      "id": 204,
+      "question": "La LDH se eleva en patologías:",
+      "options": {
+        "A": "Cardiovasculares.",
+        "B": "Pulmonares.",
+        "C": "Hematológicas.",
+        "D": "En todas las anteriores."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "En todas las anteriores."
+    },
+    {
+      "id": 205,
+      "question": "La utilización de plasma, ya sea utilizando EDTA o heparina como anticoagulantes, en la determinación de TnI produce valores:",
+      "options": {
+        "A": "Más elevados que en el suero.",
+        "B": "Menos elevados que en el suero.",
+        "C": "Similares valores que en suero.",
+        "D": "Es imposible técnicamente la determinación en plasma"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Más elevados que en el suero."
+    },
+    {
+      "id": 206,
+      "question": "La fosfatasa alcalina (ALP) y la lipasa son enzimas que pertenecen a la clase o grupo:",
+      "options": {
+        "A": "Liasa.",
+        "B": "Oxidorreductasa.",
+        "C": "Hidrolasa.",
+        "D": "Transferasa."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Hidrolasa."
+    },
+    {
+      "id": 207,
+      "question": "En relación con la AST, cuál de las siguientes afirmaciones es cierta:",
+      "options": {
+        "A": "Su concentración disminuye en cualquier alteración del sistema hepatobiliar.",
+        "B": "Su concentración aumenta después de un infarto",
+        "C": "Su concentración aumenta en una insuficiencia renal.",
+        "D": "Su concentración disminuye en una insuficiencia respiratoria."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Su concentración aumenta después de un infarto"
+    },
+    {
+      "id": 208,
+      "question": "Un aneurisma es:",
+      "options": {
+        "A": "Disminución en el diámetro de las arterias que irrigan las extremidades inferiores produciendo un aporte insuficiente de sangre a los tejidos",
+        "B": "Engrosamiento y pérdida de flexibilidad de las paredes vasculares",
+        "C": "Dilatación irreversible de la pared de una arteria",
+        "D": "Reducción brusca de la irrigación de una extremidad por una obstrucción arterial"
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Dilatación irreversible de la pared de una arteria"
+    },
+    {
+      "id": 209,
+      "question": "¿Qué vaso arterial lleva sangre desoxigenada?",
+      "options": {
+        "A": "Arteria aorta",
+        "B": "Arteria pulmonar",
+        "C": "Arteria hepática",
+        "D": "Arteria subclavia"
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Arteria pulmonar"
+    },
+    {
+      "id": 210,
+      "question": "¿Cuál de las siguientes moléculas tiene como función principal actuar de catalizadores de las reacciones químicas en nuestro organismo?",
+      "options": {
+        "A": "Hidratos de carbono.",
+        "B": "Proteínas.",
+        "C": "Enzimas.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Enzimas."
+    },
+    {
+      "id": 211,
+      "question": "La enzima creatinquinasa (CK) se encuentra elevada en:",
+      "options": {
+        "A": "Infarto agudo de miocardio.",
+        "B": "Necrosis.",
+        "C": "Afectación del músculo esquelético.",
+        "D": "Todas son correctas."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 212,
+      "question": "La medida de la actividad enzimática puede realizarse mediante:",
+      "options": {
+        "A": "Métodos de tiempo fijo",
+        "B": "Métodos de velocidad de reacción",
+        "C": "A y B son correctas",
+        "D": "No se mide la actividad enzimática, sino la concentración de la enzima"
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "A y B son correctas"
+    },
+    {
+      "id": 213,
+      "question": "Señale la respuesta incorrecta. La enzima Lactato deshidrogenasa (LDH) ...",
+      "options": {
+        "A": "Presenta niveles elevados en la cirrosis",
+        "B": "No tiene isoenzimas",
+        "C": "La hemolisis interfiere en su medición",
+        "D": "Cataliza la reacción en la que el piruvato pasa a lactato"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "No tiene isoenzimas"
+    },
+    {
+      "id": 214,
+      "question": "En cuál de las siguientes enfermedades es poco probable que aumente la Troponina:",
+      "options": {
+        "A": "Síndrome Coronario Agudo",
+        "B": "Insuficiencia cardiaca grave",
+        "C": "Neumonía",
+        "D": "Miocarditis"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Neumonía"
+    },
+    {
+      "id": 215,
+      "question": "¿Cuál de las siguientes patologías relacionadas con alteraciones del flujo sanguíneo no es congénita?",
+      "options": {
+        "A": "Miocardiopatía por enfermedad metabólica",
+        "B": "Tetralogía de Fallot.",
+        "C": "Comunicación interventricular (CIV).",
+        "D": "Comunicación interauricular."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Miocardiopatía por enfermedad metabólica"
+    },
+    {
+      "id": 216,
+      "question": "La secuencia de elevación de las enzimas séricas en el infarto es:",
+      "options": {
+        "A": "CK, AST y LDH.",
+        "B": "CK, LDH y AST.",
+        "C": "AST, CK y LDH.",
+        "D": "AST, LDH y CK."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "CK, AST y LDH."
+    },
+    {
+      "id": 217,
+      "question": "Tras un infarto de miocardio la CK:",
+      "options": {
+        "A": "Alcanza su pico a las 24-48 horas.",
+        "B": "Retorna a la normalidad a los 12 días.",
+        "C": "Se comienza a elevar a la media hora.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Alcanza su pico a las 24-48 horas."
+    },
+    {
+      "id": 218,
+      "question": "Para explicar la cinética de las reacciones enzimáticas, en el modelo de Michaelis-Menten, la KM:",
+      "options": {
+        "A": "Es la constante de reacción.",
+        "B": "Es la velocidad máxima.",
+        "C": "Es la pendiente de la recta.",
+        "D": "Es la mitad de la velocidad máxima."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Es la constante de reacción."
+    },
+    {
+      "id": 219,
+      "question": "¿Qué técnica se puede utilizar para el estudio de isoenzimas?",
+      "options": {
+        "A": "Cromatografía.",
+        "B": "Electroforesis.",
+        "C": "Métodos inmunoquímicos.",
+        "D": "Todas son correctas."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 220,
+      "question": "Un aneurisma es:",
+      "options": {
+        "A": "Disminución en el diámetro de las arterias que irrigan las extremidades inferiores produciendo un aporte insuficiente de sangre a los tejidos",
+        "B": "Engrosamiento y pérdida de flexibilidad de las paredes vasculares",
+        "C": "Dilatación irreversible de la pared de una arteria",
+        "D": "Reducción brusca de la irrigación de una extremidad por una obstrucción arterial"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Dilatación irreversible de la pared de una arteria"
+    }
+  ]
+}

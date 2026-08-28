@@ -1,0 +1,2814 @@
+{
+  "tema": 4,
+  "titulo": "Función digestiva",
+  "source_file": "Test tema 4 Funcion digestiva (respuestas).pdf",
+  "total_questions": 216,
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué",
+      "options": {
+        "A": "Tinción con Sudán III",
+        "B": "Método titulométrico de Van de Kamer",
+        "C": "Métodos gravimétricos",
+        "D": "Prueba de la trioleína-14C"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Tinción con Sudán III"
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál de los siguientes autoanticuerpos se usa",
+      "options": {
+        "A": "Anti-células parietales",
+        "B": "Anti-peroxidasa tiroidea",
+        "C": "Anti receptor de TSH",
+        "D": "Anti IgGFc"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Anti-células parietales"
+    },
+    {
+      "id": 3,
+      "question": "La tinción de sudan III es útil para identificar en",
+      "options": {
+        "A": "Sangre oculta.",
+        "B": "Almidón.",
+        "C": "Grasas neutras.",
+        "D": "Proteínas."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Grasas neutras."
+    },
+    {
+      "id": 4,
+      "question": "La presencia de grasas en heces se denomina:",
+      "options": {
+        "A": "Creatorrea.",
+        "B": "Diarrea.",
+        "C": "Esteatorrea.",
+        "D": "Amilorrea."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Esteatorrea."
+    },
+    {
+      "id": 5,
+      "question": "Unas heces inoloras se deben en muchos casos a:",
+      "options": {
+        "A": "Neoplasias.",
+        "B": "Fístulas anales.",
+        "C": "Tratamientos antibióticos.",
+        "D": "Diarreas de fermentación."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Tratamientos antibióticos."
+    },
+    {
+      "id": 6,
+      "question": "En el estudio de las heces, ¿qué reactivo se utiliza",
+      "options": {
+        "A": "Azul de metileno.",
+        "B": "Sudán.",
+        "C": "Azul de Prusia.",
+        "D": "Lugol."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Azul de metileno."
+    },
+    {
+      "id": 7,
+      "question": "Cuál de las siguientes no es una prueba química",
+      "options": {
+        "A": "Primaquina.",
+        "B": "Bencidina.",
+        "C": "Guayacon.",
+        "D": "Piramidón."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Primaquina."
+    },
+    {
+      "id": 8,
+      "question": "La calprotectina y la lactoferrina en heces tienen",
+      "options": {
+        "A": "Son proteínas derivadas de los neutrófilos.",
+        "B": "Se emplean en el diagnóstico de enterocolitis necrotizante del lactante.",
+        "C": "Su estabilidad en heces es baja.",
+        "D": "Deben determinarse en heces de 24 horas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Son proteínas derivadas de los neutrófilos."
+    },
+    {
+      "id": 9,
+      "question": "El método de Van de Kramer sirve para determinar",
+      "options": {
+        "A": "Sangre oculta.",
+        "B": "Creatorrea.",
+        "C": "Esteatorrea.",
+        "D": "Leucocitos."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Esteatorrea."
+    },
+    {
+      "id": 10,
+      "question": "Para la determinación de leucocitos en heces,",
+      "options": {
+        "A": "Wright.",
+        "B": "Sudán III.",
+        "C": "Verde malaquita.",
+        "D": "Naranja de acridina."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Wright."
+    },
+    {
+      "id": 11,
+      "question": "En la determinación de sangre oculta en heces,",
+      "options": {
+        "A": "Las pruebas inmunoquímicas tienen numerosas interferencias.",
+        "B": "Las pruebas de detección de hemoglobina pueden ser químicas e inmunoquímicas.",
+        "C": "Las pruebas químicas suelen ser cualitativas.",
+        "D": "Las pruebas inmunoquímicas pueden ser cualitativas y cuantitativas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Las pruebas inmunoquímicas tienen numerosas interferencias."
+    },
+    {
+      "id": 12,
+      "question": "Las sales biliares son esenciales para la absorción",
+      "options": {
+        "A": "Lactosa",
+        "B": "Hierro",
+        "C": "Vitamina B12",
+        "D": "Grasas"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Grasas"
+    },
+    {
+      "id": 13,
+      "question": "Para la investigación de la digestión de principios",
+      "options": {
+        "A": "Una dieta especial en la que se hayan restringidas las grasas",
+        "B": "Una dieta especial a base exclusivamente de proteínas",
+        "C": "Una dieta especial a base de almidones y fibras vegetales",
+        "D": "La alimentación habitual siempre que contenga grasas, proteínas y almidones"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "La alimentación habitual siempre que contenga grasas, proteínas y almidones"
+    },
+    {
+      "id": 14,
+      "question": "El método de Van Kamer determina:",
+      "options": {
+        "A": "Lípidos fecales totales.",
+        "B": "Cuantificación de grasas totales.",
+        "C": "Malabsorción de grasas.",
+        "D": "Titulación de ácidos grasos."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Cuantificación de grasas totales."
+    },
+    {
+      "id": 15,
+      "question": "¿Cómo se denomina la presencia de grasa en las",
+      "options": {
+        "A": "Melenas.",
+        "B": "Lipidosis.",
+        "C": "Esteatorrea.",
+        "D": "Grasorrea."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Esteatorrea."
+    },
+    {
+      "id": 16,
+      "question": "La prueba de la sangre oculta en heces será",
+      "options": {
+        "A": "Burbujas.",
+        "B": "Una línea rosada.",
+        "C": "Un halo azulado.",
+        "D": "Un punto rojo."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Un halo azulado."
+    },
+    {
+      "id": 17,
+      "question": "Señale “lo falso” en relación al test de tolerancia a",
+      "options": {
+        "A": "Se ingiere una cantidad conocida de lactosa disuelta.",
+        "B": "Se mide la lactosa en sangre en diferentes tiempos después de la ingesta.",
+        "C": "Se busca la deficiencia de lactasa.",
+        "D": "El paciente debe estar en ayunas."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Se mide la lactosa en sangre en diferentes tiempos después de la ingesta."
+    },
+    {
+      "id": 18,
+      "question": "Señale la respuesta correcta:",
+      "options": {
+        "A": "La calprotectina fecal no es útil como indicador de actividad en la enfermedad intestinal inflamatoria.",
+        "B": "La elastasa fecal se utiliza en el diagnóstico de enfermedades pancreáticas.",
+        "C": "La tripsina en heces es útil para el seguimiento de la fibrosis quística del páncreas.",
+        "D": "B y C son ciertos."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "B y C son ciertos."
+    },
+    {
+      "id": 19,
+      "question": "La determinación de calprotectina fecal es útil",
+      "options": {
+        "A": "Insuficiencia pancreática",
+        "B": "Malabsorción intestinal.",
+        "C": "Insuficiencia hepática",
+        "D": "Inflamación intestinal"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Inflamación intestinal"
+    },
+    {
+      "id": 20,
+      "question": "Para la cuantificación de nutrientes en heces ¿cuál",
+      "options": {
+        "A": "Espectroscopia de Absorción atómica",
+        "B": "Espectroscopia de reflectancia en el infrarrojo cercano",
+        "C": "Método basado en la absorción de las moléculas entre 1400 y 2600nm",
+        "D": "B y C"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "B y C"
+    },
+    {
+      "id": 21,
+      "question": "La alta fiabilidad de la prueba ha hecho que la",
+      "options": {
+        "A": "Enfermedad celíaca",
+        "B": "El tratamiento sustitutivo con enzimas pancreáticas orales",
+        "C": "Los niños con fibrosis quística",
+        "D": "Insuficiencia pancreática exocrina leve- moderada"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Los niños con fibrosis quística"
+    },
+    {
+      "id": 22,
+      "question": "¿Qué",
+      "options": {
+        "A": "Tinción con Sudán III",
+        "B": "Método título métrico de Van de Kamer",
+        "C": "Métodos gravimétricos",
+        "D": "Prueba de la trioleína-14C"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Tinción con Sudán III"
+    },
+    {
+      "id": 23,
+      "question": "La sacarosa es un disacárido formado por:",
+      "options": {
+        "A": "Dos moléculas de glucosa",
+        "B": "Una molécula de glucosa y una de galactosa",
+        "C": "Una molécula de glucosa y una de fructosa",
+        "D": "Una molécula de galactosa y una de fructosa"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Una molécula de glucosa y una de fructosa"
+    },
+    {
+      "id": 24,
+      "question": "¿Cuál de los siguientes datos clínico-analíticos es",
+      "options": {
+        "A": "Diarrea.",
+        "B": "pH ácido de las heces.",
+        "C": "Hipoglucemia.",
+        "D": "Vómitos"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "pH ácido de las heces."
+    },
+    {
+      "id": 25,
+      "question": "¿Cuál de las siguientes vitaminas se afectaría",
+      "options": {
+        "A": "Vitamina A",
+        "B": "Vitamina C",
+        "C": "Vitamina D",
+        "D": "Vitamina E"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Vitamina C"
+    },
+    {
+      "id": 26,
+      "question": "La colestasis prolongada puede provocar déficit de",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "D",
+        "D": "K"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "B"
+    },
+    {
+      "id": 27,
+      "question": "Cuando hablamos de esteatorrea, nos referimos a:",
+      "options": {
+        "A": "Heces blanquecinas",
+        "B": "De olor pétrido",
+        "C": "Contenido en grasas aumentado",
+        "D": "Poca cantidad"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Contenido en grasas aumentado"
+    },
+    {
+      "id": 28,
+      "question": "El método Van de Kamer es el de referencia para",
+      "options": {
+        "A": "Grasas fecales.",
+        "B": "Proteínas fecales.",
+        "C": "Proteínas en orina.",
+        "D": "Hidratos de carbono fecales."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Grasas fecales."
+    },
+    {
+      "id": 29,
+      "question": "Indica la técnica que se emplea para la detección",
+      "options": {
+        "A": "Lugol",
+        "B": "Sudán III",
+        "C": "Azul de toluidina",
+        "D": "Giemsa"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Sudán III"
+    },
+    {
+      "id": 30,
+      "question": "Para la investigación de sangre en heces, ¿cuál de",
+      "options": {
+        "A": "Método del piramidón",
+        "B": "Reacción de bencidina",
+        "C": "Tabletas reactivas con guayaco",
+        "D": "Técnica basada en anticuerpos monoclonales"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Técnica basada en anticuerpos monoclonales"
+    },
+    {
+      "id": 31,
+      "question": "Al realizar un estudio de digestión de principios",
+      "options": {
+        "A": "Grasas neutras",
+        "B": "Ácidos grasos",
+        "C": "Proteínas en forma de tejido muscular",
+        "D": "Hidratos de carbono"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Hidratos de carbono"
+    },
+    {
+      "id": 32,
+      "question": "Para la investigación de la digestión de principios",
+      "options": {
+        "A": "Una dieta especial en la que se hayan restringidas las grasas",
+        "B": "Una dieta especial a base exclusivamente de proteínas",
+        "C": "Una dieta especial a base de almidones y fibras vegetales",
+        "D": "La alimentación habitual siempre que contenga grasas, proteínas y almidones"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "La alimentación habitual siempre que contenga grasas, proteínas y almidones"
+    },
+    {
+      "id": 33,
+      "question": "¿Cuál es el principal biomarcador fecal para",
+      "options": {
+        "A": "Sangre oculta en heces",
+        "B": "Cuerpos reductores",
+        "C": "Calprotectina",
+        "D": "Determinación de leucocitos en heces"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Calprotectina"
+    },
+    {
+      "id": 34,
+      "question": "¿Qué nombre reciben las heces pastosas de color",
+      "options": {
+        "A": "Esteatorrea",
+        "B": "Melenas",
+        "C": "Amilorrea",
+        "D": "Creatorrea"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Melenas"
+    },
+    {
+      "id": 35,
+      "question": "En relación a la tinción de Sudán es cierto que:",
+      "options": {
+        "A": "Los glóbulos de grasa de las heces, al microscopio simple, aparecen de color rojo.",
+        "B": "Se emplea en el test del aliento y se puede cuantificar el CO2 espirado tras ingerir una comida prueba marcada con el colorante Sudán.",
+        "C": "Se emplea en el análisis de reflectancia con infrarrojos para ver la malabsorción de grasas.",
+        "D": "Se emplea, junto con trioleína marcada, en el test del aliento."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Los glóbulos de grasa de las heces, al microscopio simple, aparecen de color rojo."
+    },
+    {
+      "id": 36,
+      "question": "La determinación cuantitativa de la excreción de",
+      "options": {
+        "A": "Van de Kamer",
+        "B": "Sudán III",
+        "C": "Lugol",
+        "D": "Azul de Nilo."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Van de Kamer"
+    },
+    {
+      "id": 37,
+      "question": "Es un marcador en heces de enfermedad",
+      "options": {
+        "A": "Osmolaridad.",
+        "B": "Calprotectina",
+        "C": "Grasa",
+        "D": "Quimotripsina"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Calprotectina"
+    },
+    {
+      "id": 38,
+      "question": "En el estudio de heces, la presencia de fibras",
+      "options": {
+        "A": "Insuficiencia gástrica con aquilia.",
+        "B": "Insuficiencia pancreática crónica",
+        "C": "Tránsito intestinal rápido",
+        "D": "Parasitosis."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Insuficiencia gástrica con aquilia."
+    },
+    {
+      "id": 39,
+      "question": "¿Cómo se llama la presencia de grasa en heces?",
+      "options": {
+        "A": "Grasorrea",
+        "B": "Lipidosis",
+        "C": "Esteatorrea",
+        "D": "Melenas"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Esteatorrea"
+    },
+    {
+      "id": 40,
+      "question": "¿Para qué sirve el test de Van de Kramer?",
+      "options": {
+        "A": "Medir nivel de glucosa",
+        "B": "Cuantificar la grasa fecal",
+        "C": "Detecta la anemia ferropénica",
+        "D": "Detecta déficits vitamínicos"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Cuantificar la grasa fecal"
+    },
+    {
+      "id": 41,
+      "question": "¿Cómo se llama la presencia de almidón en heces?",
+      "options": {
+        "A": "Creatorrea",
+        "B": "Amilorrea",
+        "C": "Esteatorrea",
+        "D": "Melenas"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Amilorrea"
+    },
+    {
+      "id": 42,
+      "question": "La pérdida intestinal de proteínas se valora con:",
+      "options": {
+        "A": "Van de Kramer",
+        "B": "Calprotectina",
+        "C": "Alfa 1 antitripsina",
+        "D": "Prueba D xilosa"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Alfa 1 antitripsina"
+    },
+    {
+      "id": 43,
+      "question": "¿Cuál de estas afirmaciones es verdadera, en el",
+      "options": {
+        "A": "Debe tomarse abundante cantidad de vitamina C en los días previos a la prueba",
+        "B": "Debe tomarse abundante cantidad de carne en los días previos a la prueba",
+        "C": "No debe tomarse ninguna cantidad de vitamina C",
+        "D": "Ninguna de las anteriores"
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las anteriores"
+    },
+    {
+      "id": 44,
+      "question": "En condiciones normales, la cantidad de agua",
+      "options": {
+        "A": "250 ml",
+        "B": "200 ml",
+        "C": "150 ml",
+        "D": "100 ml"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "150 ml"
+    },
+    {
+      "id": 45,
+      "question": "Una disminución, o ausencia de bilis en las heces,",
+      "options": {
+        "A": "Ladrillo",
+        "B": "Oro",
+        "C": "Cemento",
+        "D": "Yeso"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Yeso"
+    },
+    {
+      "id": 46,
+      "question": "La",
+      "options": {
+        "A": "Refrigeración de la muestra en hielo",
+        "B": "Calentamiento en estufa a 40ºC",
+        "C": "Mantener la muestra a temperatura ambiente",
+        "D": "Congelación, en nitrógeno líquido"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Refrigeración de la muestra en hielo"
+    },
+    {
+      "id": 47,
+      "question": "En una muestra fecal, en presencia de peroxidasa",
+      "options": {
+        "A": "Verde",
+        "B": "Rojo",
+        "C": "Amarillo",
+        "D": "Azul"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Azul"
+    },
+    {
+      "id": 48,
+      "question": "Las sales biliares son esenciales para la absorción",
+      "options": {
+        "A": "Lactosa",
+        "B": "Hierro",
+        "C": "Vitaminas B12",
+        "D": "Grasas"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Grasas"
+    },
+    {
+      "id": 49,
+      "question": "El reactivo para la determinación de la presencia",
+      "options": {
+        "A": "Sudán III",
+        "B": "Lugol",
+        "C": "Ácido acético",
+        "D": "Bencidina"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Lugol"
+    },
+    {
+      "id": 50,
+      "question": "Para la determinación de sustancias reductoras en",
+      "options": {
+        "A": "Debe recogerse en medio de conservación",
+        "B": "Debe ser una muestra fresca",
+        "C": "Puede guardarse en nevera hasta el siguiente día",
+        "D": "Puede analizarse al día siguiente pero nunca refrigerarse"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Debe ser una muestra fresca"
+    },
+    {
+      "id": 51,
+      "question": "¿Qué enzima está elevado en la pancreatitis aguda",
+      "options": {
+        "A": "Lipasa",
+        "B": "Amilasa",
+        "C": "A y B son ciertas",
+        "D": "Sólo se elevan en la sangre, no el líquido ascítico"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "A y B son ciertas"
+    },
+    {
+      "id": 52,
+      "question": "Para la investigación de sangre en heces, ¿cuál de",
+      "options": {
+        "A": "Método del piramidón",
+        "B": "Reacción de bencidina",
+        "C": "Tabletas reactivas con guayaco",
+        "D": "Técnicas basadas en anticuerpos monoclonales"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Técnicas basadas en anticuerpos monoclonales"
+    },
+    {
+      "id": 53,
+      "question": "¿Cuál de las siguientes determinaciones ha",
+      "options": {
+        "A": "CA19.9",
+        "B": "CEA",
+        "C": "Sangre oculta en heces",
+        "D": "CYFRA 21"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Sangre oculta en heces"
+    },
+    {
+      "id": 54,
+      "question": "La amilasa aumenta en:",
+      "options": {
+        "A": "Pancreatitis",
+        "B": "Parotiditis",
+        "C": "Embarazo ectópico",
+        "D": "todos ellos"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "todos ellos"
+    },
+    {
+      "id": 55,
+      "question": "En cuanto a la lipasa, es cierto que:",
+      "options": {
+        "A": "Su determinación no tiene ventajas sobre la amilasa",
+        "B": "Es menos específica del páncreas que la amilasa",
+        "C": "También se eleva en la hepatitis y la parotiditis",
+        "D": "Todas las respuestas son falsas"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son falsas"
+    },
+    {
+      "id": 56,
+      "question": "Las proteínas en el estómago:",
+      "options": {
+        "A": "Se absorben en la sangre y van al músculo a dar energía",
+        "B": "Se hidrolizan en sus aminoácidos correspondientes",
+        "C": "No se hidrolizan en sus aminoácidos correspondientes",
+        "D": "Ninguna respuesta es correcta"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Se hidrolizan en sus aminoácidos correspondientes"
+    },
+    {
+      "id": 57,
+      "question": "¿Qué se entiende por macroamilasemia?",
+      "options": {
+        "A": "Hiperamilasemia acompañada de hiperamilasuria",
+        "B": "Hiperamilasemia acompañada de hiperlipasemia",
+        "C": "Corresponde a la actividad de la amilasa detectada en el jugo pancreático",
+        "D": "Unión de la amilasa a una globulina sérica formando un complejo macromolecular"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Unión de la amilasa a una globulina sérica formando un complejo macromolecular"
+    },
+    {
+      "id": 58,
+      "question": "En ausencia de pancreatitis, es posible encontrar",
+      "options": {
+        "A": "Cólico hepático",
+        "B": "Parotiditis",
+        "C": "Insuficiencia renal",
+        "D": "Amigdalitis"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Parotiditis"
+    },
+    {
+      "id": 59,
+      "question": "En una pancreatitis aguda, la hiperamilasemia",
+      "options": {
+        "A": "Un mes",
+        "B": "24-28 h",
+        "C": "Una semana",
+        "D": "5 días"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "24-28 h"
+    },
+    {
+      "id": 60,
+      "question": "La amilasa sérica procede del páncreas exocrino y:",
+      "options": {
+        "A": "Glándulas sudoríparas",
+        "B": "Glándulas salivares",
+        "C": "Páncreas exocrino",
+        "D": "Metabolismo hepático"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Glándulas salivares"
+    },
+    {
+      "id": 61,
+      "question": "El hierro se absorbe por:",
+      "options": {
+        "A": "Acción del pH ácido del estómago y del ácido ascórbico",
+        "B": "Se absorbe como Fe++",
+        "C": "Al aumentar la ferritina sérica aumenta la absorción de hierro",
+        "D": "A y B son ciertas"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "A y B son ciertas"
+    },
+    {
+      "id": 62,
+      "question": "El hierro se absorbe en forma de:",
+      "options": {
+        "A": "Fe++ en el hígado",
+        "B": "Fe++ en duodeno",
+        "C": "Fe+++ en duodeno",
+        "D": "Fe++ en íleon"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Fe++ en duodeno"
+    },
+    {
+      "id": 63,
+      "question": "Son vitaminas liposolubles:",
+      "options": {
+        "A": "B12 y ácido fólico",
+        "B": "Vit C y vit B12",
+        "C": "A, E, D, K",
+        "D": "Ácido ascórbico"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "A, E, D, K"
+    },
+    {
+      "id": 64,
+      "question": "Observaciones del paciente para recoger muestra",
+      "options": {
+        "A": "Hacer la recogida en recipientes perfectamente limpios",
+        "B": "Mezclar heces y orinas",
+        "C": "Llenar el recipiente hasta el borde",
+        "D": "A y B son correctas"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Hacer la recogida en recipientes perfectamente limpios"
+    },
+    {
+      "id": 65,
+      "question": "La absorción de la vitB12 depende de:",
+      "options": {
+        "A": "Factor V",
+        "B": "Factor X",
+        "C": "Factor intrínseco",
+        "D": "Factor extrínseco"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Factor intrínseco"
+    },
+    {
+      "id": 66,
+      "question": "En la enfermedad celíaca hay una sensibilización a:",
+      "options": {
+        "A": "Glucosa",
+        "B": "Insulina",
+        "C": "Gliadina",
+        "D": "Ninguna es correcta"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Gliadina"
+    },
+    {
+      "id": 67,
+      "question": "Una característica de las fibras musculares",
+      "options": {
+        "A": "Aparición de estrías",
+        "B": "Extremos cuadrados",
+        "C": "Extremos redondeados",
+        "D": "Todas las anteriores son ciertas"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Extremos redondeados"
+    },
+    {
+      "id": 68,
+      "question": "La aparición de almidón en heces sin digerir se",
+      "options": {
+        "A": "Creatorrea",
+        "B": "Amilorrea",
+        "C": "Esteatorrea",
+        "D": "Melenas"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Amilorrea"
+    },
+    {
+      "id": 69,
+      "question": "La aparición de fibras de carne en heces sin digerir",
+      "options": {
+        "A": "Creatorrea",
+        "B": "Amilorrea",
+        "C": "Esteatorrea",
+        "D": "Melenas"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Creatorrea"
+    },
+    {
+      "id": 70,
+      "question": "La prueba del sudor se emplea en el diagnóstico",
+      "options": {
+        "A": "Enfermedad celíaca",
+        "B": "Enfermedades metabólicas",
+        "C": "Intolerancia al ejercicio",
+        "D": "Fibrosis quística"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Fibrosis quística"
+    },
+    {
+      "id": 71,
+      "question": "¿Qué se determina en el sudor para el diagnóstico",
+      "options": {
+        "A": "Cl",
+        "B": "K",
+        "C": "Sales biliares",
+        "D": "Mg"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Cl"
+    },
+    {
+      "id": 72,
+      "question": "Es una enzima no digestiva del jugo gástrico",
+      "options": {
+        "A": "Pepsina",
+        "B": "Lipasa gástrica",
+        "C": "Fosfatasa alcalina",
+        "D": "Todas son ciertas"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Fosfatasa alcalina"
+    },
+    {
+      "id": 73,
+      "question": "Para obtener una muestra de sudor usaremos",
+      "options": {
+        "A": "Pilocarpina",
+        "B": "Esfingomielina",
+        "C": "Cefalosporina",
+        "D": "Glicerina"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Pilocarpina"
+    },
+    {
+      "id": 74,
+      "question": "La prueba de Van de Kamer en una muestra de",
+      "options": {
+        "A": "La determinación de proteínas.",
+        "B": "Determinar la cantidad de grasas.",
+        "C": "Detectar la presencia o ausencia de enzimas pancreáticos.",
+        "D": "Realizar el recuento de leucocitos"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Determinar la cantidad de grasas."
+    },
+    {
+      "id": 75,
+      "question": "Para detectar alteraciones relacionadas con la",
+      "options": {
+        "A": "La determinación de calprotectina.",
+        "B": "El estudio de la sangre oculta.",
+        "C": "La determinación de quimotrípsina.",
+        "D": "Hay más de una respuesta correcta."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta."
+    },
+    {
+      "id": 76,
+      "question": "Para el diagnóstico de la enfermedad celiaca se",
+      "options": {
+        "A": "Gastrina.",
+        "B": "Antitransglutaminasa.",
+        "C": "Cobalofilinas.",
+        "D": "Albúmina."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Antitransglutaminasa."
+    },
+    {
+      "id": 77,
+      "question": "La calprotectina fecal:",
+      "options": {
+        "A": "Está disminuida en pacientes con enfermedad inflamatoria intestinal.",
+        "B": "Es una hormona antidiurética.",
+        "C": "Es una proteína procedente de los neutrófilos.",
+        "D": "Es una enzima proteolítica liberada por el páncreas"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Es una proteína procedente de los neutrófilos."
+    },
+    {
+      "id": 78,
+      "question": "¿Cuál de las siguientes vitaminas es hidrosoluble?:",
+      "options": {
+        "A": "Vitamina A.",
+        "B": "Vitamina C.",
+        "C": "Vitamina D.",
+        "D": "Vitamina E."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Vitamina C."
+    },
+    {
+      "id": 79,
+      "question": "La esteatorrea es la presencia anormal en heces",
+      "options": {
+        "A": "Hidratos de carbono.",
+        "B": "Proteínas.",
+        "C": "Grasa.",
+        "D": "Creatinina."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Grasa."
+    },
+    {
+      "id": 80,
+      "question": "La prueba de Apt - Downey se utiliza:",
+      "options": {
+        "A": "Ante la presencia de sangre en el tracto gastrointestinal o en las heces de los neonatos.",
+        "B": "Para detectar la presencia de amilasa en heces.",
+        "C": "Para determinar si el color negro de las heces es debido al consumo de hierro.",
+        "D": "Para detectar la presencia de principios inmediatos no digeridos en heces."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Ante la presencia de sangre en el tracto gastrointestinal o en las heces de los neonatos."
+    },
+    {
+      "id": 81,
+      "question": "El análisis de Guayacol en heces se utiliza para:",
+      "options": {
+        "A": "Detectar la presencia de sangre oculta.",
+        "B": "Determinar la concentración de urobilinógeno.",
+        "C": "Determinar la presencia de hidratos de carbono.",
+        "D": "Cuantificar los nutrientes en heces."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Detectar la presencia de sangre oculta."
+    },
+    {
+      "id": 82,
+      "question": "En jóvenes y adultos ¿con qué prueba/s se debe",
+      "options": {
+        "A": "Anticuerpo anti-transglutaminasa lgG",
+        "B": "Anticuerpos anti-transglutaminasa lgA",
+        "C": "Anticuerpos anti-péptidos deaminados de gliadina",
+        "D": "Inmunoglobulina A y anticuerpos anti- transglutaminasa lg A"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Inmunoglobulina A y anticuerpos anti- transglutaminasa lg A"
+    },
+    {
+      "id": 83,
+      "question": "Para la detección precoz del cáncer de colon, la",
+      "options": {
+        "A": "Alfafetoproteína (AFP)",
+        "B": "Mutaciones de K-RAS",
+        "C": "Sangre oculta en heces",
+        "D": "Antígeno carcinoembrionario (CEA)"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Sangre oculta en heces"
+    },
+    {
+      "id": 84,
+      "question": "La determinación de calprotectina fecal es útil",
+      "options": {
+        "A": "Insuficiencia pancreática",
+        "B": "Malabsorción intestinal",
+        "C": "Insuficiencia hepática",
+        "D": "Enfermedad inflamatoria intestinal"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Enfermedad inflamatoria intestinal"
+    },
+    {
+      "id": 85,
+      "question": "La tinción de Sudán III es útil para identificar en",
+      "options": {
+        "A": "Sangre oculta",
+        "B": "Grasas neutras",
+        "C": "Almidón",
+        "D": "Proteínas"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Grasas neutras"
+    },
+    {
+      "id": 86,
+      "question": "Los anticuerpos contra la transglutaminasa tisular",
+      "options": {
+        "A": "Artritis reumatoide",
+        "B": "Enfermedad celiaca",
+        "C": "Diabetes tipo I",
+        "D": "Tiroiditis de Hashimoto"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Enfermedad celiaca"
+    },
+    {
+      "id": 87,
+      "question": "Una alteración de las heces hipocólicas puede",
+      "options": {
+        "A": "Hemorragias.",
+        "B": "Ingesta de verduras.",
+        "C": "Ausencia de bilis en el intestino.",
+        "D": "Melenas."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Ausencia de bilis en el intestino."
+    },
+    {
+      "id": 88,
+      "question": "La cadena lineal de aminoácidos se considera",
+      "options": {
+        "A": "Primaria de las proteínas.",
+        "B": "Secundaria de las proteínas.",
+        "C": "Terciaria de las proteínas.",
+        "D": "Las proteínas no se componen de aminoácidos."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Primaria de las proteínas."
+    },
+    {
+      "id": 89,
+      "question": "De la medida de la Quimotripsina en heces señale",
+      "options": {
+        "A": "Se usa únicamente heces de 24 horas.",
+        "B": "El método de elección es el RIA (radioinmunoanálisis).",
+        "C": "Valores inferiores a la normalidad indican insuficiencia pancreática exocrina.",
+        "D": "Se usa en el control diabético."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Valores inferiores a la normalidad indican insuficiencia pancreática exocrina."
+    },
+    {
+      "id": 90,
+      "question": "Señale lo correcto de la Elastasa pancreática:",
+      "options": {
+        "A": "Se mide habitualmente en muestra aislada de heces.",
+        "B": "Es muy usada en el control de la malabsorción de la fibrosis quística del páncreas.",
+        "C": "Habitualmente se mide por enzimoinmunoanálisis.",
+        "D": "A, B, y C son ciertas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "A, B, y C son ciertas."
+    },
+    {
+      "id": 91,
+      "question": "De la Calprotectina en heces es cierto que:",
+      "options": {
+        "A": "Es una proteína muy estable y refrigerada permite demorar su análisis.",
+        "B": "Es usada para detectar déficit de lactasa.",
+        "C": "Es usada para detectar inflamación intestinal.",
+        "D": "A, y C son ciertas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "A, y C son ciertas."
+    },
+    {
+      "id": 92,
+      "question": "La observación al microscopio de la digestión de",
+      "options": {
+        "A": "Sudan III.",
+        "B": "Eosina.",
+        "C": "Solución yodo/yodurada.",
+        "D": "Tinta china."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Eosina."
+    },
+    {
+      "id": 93,
+      "question": "Señale lo correcto de los análisis cuantitativos de",
+      "options": {
+        "A": "Es útil la espectroscopia de reflectancia en el infrarrojo cercano.",
+        "B": "La medición de nitrógeno no tiene utilidad.",
+        "C": "Un fecalograma es la cuantificación de nutrientes en heces.",
+        "D": "A, y C son ciertas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "A, y C son ciertas."
+    },
+    {
+      "id": 94,
+      "question": "La Lipoproteinlipasa o Lipasa es una enzima",
+      "options": {
+        "A": "Esterifica el colesterol libre de la dieta.",
+        "B": "Hidroliza triglicéridos ingeridos de la dieta y los convierte en ácidos grasos y glicerol.",
+        "C": "Esterifica el colesterol endógeno.",
+        "D": "Ninguna de las funciones anteriores."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Hidroliza triglicéridos ingeridos de la dieta y los convierte en ácidos grasos y glicerol."
+    },
+    {
+      "id": 95,
+      "question": "¿Cuál de las siguientes afirmaciones es verdad,",
+      "options": {
+        "A": "La amilasa se libera significativamente antes que la lipasa",
+        "B": "La lipasa se libera significativamente antes que la amilasa.",
+        "C": "La amilasa es más específica que la lipasa",
+        "D": "La lipasa es más específica que la amilasa"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "La lipasa es más específica que la amilasa"
+    },
+    {
+      "id": 96,
+      "question": "¿Cuál de los siguientes haplotipos HLA constituye",
+      "options": {
+        "A": "HLA DR 1",
+        "B": "HLA Aw68",
+        "C": "HLA DQ2",
+        "D": "HLA B27"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "HLA DQ2"
+    },
+    {
+      "id": 97,
+      "question": "La determinación de enzimas pancreáticas en",
+      "options": {
+        "A": "El diagnóstico de pancreatitis aguda.",
+        "B": "El diagnóstico de pancreatitis crónica.",
+        "C": "El diagnóstico de ambas pancreatitis.",
+        "D": "No tiene una importancia real."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "El diagnóstico de pancreatitis aguda."
+    },
+    {
+      "id": 98,
+      "question": "La localización de la lipasa como enzima más usual",
+      "options": {
+        "A": "En las células hepáticas.",
+        "B": "En el tejido cardíaco.",
+        "C": "En el páncreas.",
+        "D": "En el tejido muscular."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "En el páncreas."
+    },
+    {
+      "id": 99,
+      "question": "Los anticuerpos contra la transglutaminasa tisular",
+      "options": {
+        "A": "Artritis reumatoide",
+        "B": "Enfermedad celiaca",
+        "C": "Diabetes tipo I",
+        "D": "Tiroiditis de Hashimoto"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Enfermedad celiaca"
+    },
+    {
+      "id": 100,
+      "question": "Si observamos una muestra de heces con",
+      "options": {
+        "A": "Que el paciente está tomando hierro.",
+        "B": "Que el paciente es vegetariano.",
+        "C": "Que el paciente presenta una infección bacteriana.",
+        "D": "No se pueden encontrar heces de esta tonalidad."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Que el paciente está tomando hierro."
+    },
+    {
+      "id": 101,
+      "question": "¿Qué hormona regula la secreción pancreática?",
+      "options": {
+        "A": "Secretina.",
+        "B": "Angiotensina.",
+        "C": "Eritropoyetina.",
+        "D": "Vasopresina."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Secretina."
+    },
+    {
+      "id": 102,
+      "question": "¿Cuál es la prueba inicial de elección para la",
+      "options": {
+        "A": "Anticuerpos antiendomisio IgA.",
+        "B": "Anticuerpos antigliadina IgA.",
+        "C": "Anticuerpos antitransglutaminasa IgA.",
+        "D": "HLA DQ2/DQ8."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos antitransglutaminasa IgA."
+    },
+    {
+      "id": 103,
+      "question": "La mutación en el gen CFTR es responsable de:",
+      "options": {
+        "A": "El hipotiroidismo congénito.",
+        "B": "La fenilcetonuria.",
+        "C": "La tirosinemia tipo I.",
+        "D": "La fibrosis quística"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "La fibrosis quística"
+    },
+    {
+      "id": 104,
+      "question": "La principal fuente de energía para el organismo",
+      "options": {
+        "A": "Proteínas",
+        "B": "Lípidos",
+        "C": "Hidratos de carbono",
+        "D": "Vitaminas"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Hidratos de carbono"
+    },
+    {
+      "id": 105,
+      "question": "Los estados de oxidación del hierro son:",
+      "options": {
+        "A": "Se absorbe como Fe 2+ y se transporta como Fe 2+.",
+        "B": "Se absorbe como Fe 2+ y se transporta como Fe 3+.",
+        "C": "Se absorbe como Fe 3+ y se transporta como Fe 2+.",
+        "D": "Se absorbe como Fe 3+ y se transporta como Fe"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Se absorbe como Fe 2+ y se transporta como Fe 3+."
+    },
+    {
+      "id": 106,
+      "question": "¿Qué",
+      "options": {
+        "A": "HLA DQ1 y DQ2.",
+        "B": "HLA DR2 y DR3.",
+        "C": "HLA DR3 y DR4.",
+        "D": "HLA DQ2 y DQ8"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "HLA DQ2 y DQ8"
+    },
+    {
+      "id": 107,
+      "question": "Para la cuantificación de nutrientes en heces, ¿qué",
+      "options": {
+        "A": "Espectroscopía de absorción atómica.",
+        "B": "Espectroscopía de reflectancia en el infrarrojo cercano.",
+        "C": "Método basado en la absorción de las moléculas entre 1400nm y 2600nm.",
+        "D": "B y C"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "B y C"
+    },
+    {
+      "id": 108,
+      "question": "¿Cuál de los siguientes hidratos de carbono se",
+      "options": {
+        "A": "Almidón.",
+        "B": "Lactosa.",
+        "C": "Glucógeno.",
+        "D": "Heparina."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Lactosa."
+    },
+    {
+      "id": 109,
+      "question": "La gastrina está elevada en:",
+      "options": {
+        "A": "Síndrome de Zollinger-Ellisón.",
+        "B": "Acromegalia.",
+        "C": "Waldenstrom.",
+        "D": "Tumor de Wilms."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Síndrome de Zollinger-Ellisón."
+    },
+    {
+      "id": 110,
+      "question": "Denominamos hematoquecia a:",
+      "options": {
+        "A": "Aparición de vómitos sanguíneos.",
+        "B": "Aparición de heces negras",
+        "C": "Aparición de sangre roja brillante en heces.",
+        "D": "Hemorroides."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Aparición de sangre roja brillante en heces."
+    },
+    {
+      "id": 111,
+      "question": "El pH de las heces normales tiene valores",
+      "options": {
+        "A": "5,5 y 6,2.",
+        "B": "6,8 y 7,2.",
+        "C": "7,9 y 8,4.",
+        "D": "8,5 y 9,5."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "6,8 y 7,2."
+    },
+    {
+      "id": 112,
+      "question": "Una muestra de heces teñida con SUDAN III, es",
+      "options": {
+        "A": "Leucocitos",
+        "B": "Cuerpos reductores",
+        "C": "Grasas",
+        "D": "Almidón"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Grasas"
+    },
+    {
+      "id": 113,
+      "question": "¿Qué tipo de anticuerpos son específicos para",
+      "options": {
+        "A": "Anti-DNA",
+        "B": "Anti-SPM",
+        "C": "Antitransglutaminasa IgA",
+        "D": "Ninguna es correcta"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Antitransglutaminasa IgA"
+    },
+    {
+      "id": 114,
+      "question": "Para eliminar los efectos de una galactosemia",
+      "options": {
+        "A": "Grasas",
+        "B": "Azúcares",
+        "C": "Leche y productos lácteos",
+        "D": "Aminoácidos"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Leche y productos lácteos"
+    },
+    {
+      "id": 115,
+      "question": "La acolia se caracteriza por:",
+      "options": {
+        "A": "Ausencia de urobilinógeno en heces",
+        "B": "Ausencia de bilirrubina heces",
+        "C": "Ausencia de estercobilinógeno en heces",
+        "D": "Ausencia de biliverdina en heces"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Ausencia de estercobilinógeno en heces"
+    },
+    {
+      "id": 116,
+      "question": "La determinación de alfa-1-antitripsina en heces se",
+      "options": {
+        "A": "Es un importante marcador de .la pérdida de proteínas plasmáticas por alteraciones de la permeabilidad intestinal",
+        "B": "Es un marcador de cáncer de esófago",
+        "C": "Es un importante marcador del metabolismo de los lípidos",
+        "D": "Es un importante marcador de la enfermedad celiaca"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Es un importante marcador de .la pérdida de proteínas plasmáticas por alteraciones de la permeabilidad intestinal"
+    },
+    {
+      "id": 117,
+      "question": "Indique cuál de las siguientes afirmaciones es",
+      "options": {
+        "A": "La elastasa fecal sirve para determinar la existencia de posibles alteraciones pancreáticas",
+        "B": "La determinación de calprotectina en heces indica el grado de inflamación intestinal",
+        "C": "El método del guayaco determina la existencia de sangre oculta en heces",
+        "D": "El test de Van de Kamer es un método cualitativo"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "El test de Van de Kamer es un método cualitativo"
+    },
+    {
+      "id": 118,
+      "question": "La principal aplicación de la alfa-amilasa es",
+      "options": {
+        "A": "El diagnóstico y evolución de los infartos de miocardio",
+        "B": "El diagnóstico de las pancreatitis agudas",
+        "C": "La actividad osteoblástica del hueso",
+        "D": "El diagnóstico de las enfermedades hepatobiliares"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "El diagnóstico de las pancreatitis agudas"
+    },
+    {
+      "id": 119,
+      "question": "El test de Schilling es un análisis que se utiliza para",
+      "options": {
+        "A": "Déficit de ácido fólico",
+        "B": "Déficit de vitamina B12",
+        "C": "Déficit de hierro",
+        "D": "Talasemia"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Déficit de vitamina B12"
+    },
+    {
+      "id": 120,
+      "question": "Para la prueba de sangre oculta en heces, ¿cuál",
+      "options": {
+        "A": "Tableta reactivas con guayacol",
+        "B": "Tabletas reactivas con ortotolidín",
+        "C": "Reacción del perclorato de hierro",
+        "D": "Métodos inmunoquímicos"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Métodos inmunoquímicos"
+    },
+    {
+      "id": 121,
+      "question": "El método de guayaco:",
+      "options": {
+        "A": "Se basa en la capacidad de la hemoglobina para actuar como peroxidasas y catalizar una reacción entre el peróxido de hidrógeno y un compuesto orgánico cromogénico.",
+        "B": "Detecta las hemorragias digestivas debido a la acción del grupo hemo de las hemoglobinas en contacto con las heces.",
+        "C": "Es un método cuantitativo para la determinación de sangre en heces.",
+        "D": "A y C son correctas."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Se basa en la capacidad de la hemoglobina para actuar como peroxidasas y catalizar una reacción entre el peróxido de hidrógeno y un compuesto orgánico cromogénico."
+    },
+    {
+      "id": 122,
+      "question": "¿Cuál de los siguientes parámetros es útil como",
+      "options": {
+        "A": "Quimiotripsina",
+        "B": "Elastasa",
+        "C": "Alfa-1-antritipsina",
+        "D": "Calprotectina"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Calprotectina"
+    },
+    {
+      "id": 123,
+      "question": "¿Qué test puede ayudar a diferenciar entre un",
+      "options": {
+        "A": "Test de Shutton",
+        "B": "Test de Standford",
+        "C": "Test de Schilling",
+        "D": "Test de Smillie"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Test de Schilling"
+    },
+    {
+      "id": 124,
+      "question": "Respecto al síndrome de Zollinger-Ellison, ¿cuál de",
+      "options": {
+        "A": "El pH del jugo gástrico es elevado.",
+        "B": "La concentración de gastrina en plasma es elevada.",
+        "C": "Se detecta infección por Helicobacter pylori.",
+        "D": "No se detecta factor intrínseco."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "La concentración de gastrina en plasma es elevada."
+    },
+    {
+      "id": 125,
+      "question": "El guayacol es un indicador cromogénico, ¿para",
+      "options": {
+        "A": "Detectar la presencia de sangre oculta en heces.",
+        "B": "Cuantificar los nutrientes en las heces.",
+        "C": "Determinar la presencia de amilasa en heces.",
+        "D": "Determinar la presencia de hidratos de carbono en heces."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Detectar la presencia de sangre oculta en heces."
+    },
+    {
+      "id": 126,
+      "question": "¿Para qué se utiliza el test de Kleihauer-Betke?",
+      "options": {
+        "A": "Es un test que cuantifica la hemoglobina fetal en el torrente sanguíneo materno.",
+        "B": "Es un test que detecta la hemoglobina S de la anemia falciforme.",
+        "C": "Es un test que detecta la hemoglobina C en la anemia hemolítica.",
+        "D": "Es un test que detecta la hemoglobina A2 en las talasemias."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Es un test que cuantifica la hemoglobina fetal en el torrente sanguíneo materno."
+    },
+    {
+      "id": 127,
+      "question": "Señale la respuesta correcta, el test de Schilling",
+      "options": {
+        "A": "El porcentaje de transferrina sanguínea",
+        "B": "La saturación de la hemoglobina",
+        "C": "El tamaño medio de los eritrocitos presentes en sangre.",
+        "D": "La absorción de Vit.B12."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "La absorción de Vit.B12."
+    },
+    {
+      "id": 128,
+      "question": "¿Cuál es la enzima pancreática que se aclara más",
+      "options": {
+        "A": "Amilasa",
+        "B": "Lipasa",
+        "C": "Tripsina",
+        "D": "Elastasa"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Amilasa"
+    },
+    {
+      "id": 129,
+      "question": "¿Cuál es la causa más común de las hemorragias",
+      "options": {
+        "A": "Diverticulitis crónicas.",
+        "B": "Úlceras de estómago.",
+        "C": "Angiodisplasia.",
+        "D": "Neoplasia de colon."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Diverticulitis crónicas."
+    },
+    {
+      "id": 130,
+      "question": "Para obtener una muestra de jugo gástrico",
+      "options": {
+        "A": "Provocaremos el vómito del paciente.",
+        "B": "Pediremos al paciente que escupa en un tarro.",
+        "C": "Colocaremos una sonda nasogástrica.",
+        "D": "Todas son falsas."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Colocaremos una sonda nasogástrica."
+    },
+    {
+      "id": 131,
+      "question": "Las heces hipocólicas aparecen por",
+      "options": {
+        "A": "Melenas.",
+        "B": "Hemorragias.",
+        "C": "Ingestión de verduras",
+        "D": "Ausencia de bilis en el intestino."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Ausencia de bilis en el intestino."
+    },
+    {
+      "id": 132,
+      "question": "El método de Van de Kamer nos sirve para",
+      "options": {
+        "A": "Leucocitos",
+        "B": "Esteatorrea",
+        "C": "Sangre oculta",
+        "D": "Creatorrea"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Esteatorrea"
+    },
+    {
+      "id": 133,
+      "question": "Unas heces inodoras se deben en muchos casos a",
+      "options": {
+        "A": "Diarreas de fermentación.",
+        "B": "Fístulas anales.",
+        "C": "Tratamientos antibióticos.",
+        "D": "Neoplasias."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Tratamientos antibióticos."
+    },
+    {
+      "id": 134,
+      "question": "De las siguientes opciones. ¿Cuál es un valor",
+      "options": {
+        "A": "Estudio de amilasa en plasma 150-160 U/L.",
+        "B": "Estudio de amilasa en suero 145-155 U/L.",
+        "C": "Estudio de amilasa en suero 0-130 U/L.",
+        "D": "Estudio de amilasa en plasma 140-150 U/L."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Estudio de amilasa en suero 0-130 U/L."
+    },
+    {
+      "id": 135,
+      "question": "¿Qué es falso sobre la fibrosis quística?",
+      "options": {
+        "A": "Origina una proteína defectuosa, la CFTR que provoca alteraciones en la sínfisis de los canales de cloro",
+        "B": "Defecto cromosoma 9",
+        "C": "Enfermedad congénita",
+        "D": "Test del sudor: estimulación con pilocarpina para su diagnóstico"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Defecto cromosoma 9"
+    },
+    {
+      "id": 136,
+      "question": "¿Dónde se encuentra la amilasa?",
+      "options": {
+        "A": "Riñón",
+        "B": "Hígado",
+        "C": "Páncreas",
+        "D": "Corazón"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Páncreas"
+    },
+    {
+      "id": 137,
+      "question": "¿Cuál es la causa más común de pancreatitis?",
+      "options": {
+        "A": "Anemia",
+        "B": "Cáncer",
+        "C": "Alcohol",
+        "D": "Grasas"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Alcohol"
+    },
+    {
+      "id": 138,
+      "question": "¿Qué enzima permanece más tiempo elevada en",
+      "options": {
+        "A": "Amilasa.",
+        "B": "Lipasa.",
+        "C": "Insulina.",
+        "D": "Glucagón."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Lipasa."
+    },
+    {
+      "id": 139,
+      "question": "¿Cuál de las siguientes determinaciones se utiliza",
+      "options": {
+        "A": "IgD.",
+        "B": "La concentración de neutrófilos.",
+        "C": "Estudio de poblaciones por citometría de flujo.",
+        "D": "La antitransglutaminasa."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "La antitransglutaminasa."
+    },
+    {
+      "id": 140,
+      "question": "En la observación y búsqueda de leucocitos en",
+      "options": {
+        "A": "Se necesitan tres muestras secuenciales.",
+        "B": "La presencia de leucocitos en heces en la evaluación microscópica puede ser la única \"pista\" acerca de la existencia de inflamación.",
+        "C": "El microscopio debe ser de luz polarizada.",
+        "D": "No añade información al clínico."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "La presencia de leucocitos en heces en la evaluación microscópica puede ser la única \"pista\" acerca de la existencia de inflamación."
+    },
+    {
+      "id": 141,
+      "question": "La determinación de calprotectina fecal es útil",
+      "options": {
+        "A": "Insuficiencia pancreática.",
+        "B": "Malabsorción intestinal.",
+        "C": "Insuficiencia hepática.",
+        "D": "Inflamación intestinal."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Inflamación intestinal."
+    },
+    {
+      "id": 142,
+      "question": "En un examen macroscópico de las heces podemos",
+      "options": {
+        "A": "Grasas.",
+        "B": "Cristales.",
+        "C": "Trozos de mucosa epitelial.",
+        "D": "A y C son ciertas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "A y C son ciertas."
+    },
+    {
+      "id": 143,
+      "question": "La determinación de la homocisteína y ácido",
+      "options": {
+        "A": "Vitamina B12.",
+        "B": "Vitamina K.",
+        "C": "Vitamina D.",
+        "D": "Hierro."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Vitamina B12."
+    },
+    {
+      "id": 144,
+      "question": "Una alteración de las heces hipocólicas puede",
+      "options": {
+        "A": "Hemorragias.",
+        "B": "Ingesta de verduras.",
+        "C": "Ausencia de bilis en el intestino.",
+        "D": "Melenas."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Ausencia de bilis en el intestino."
+    },
+    {
+      "id": 145,
+      "question": "No es una prueba química para la detección de",
+      "options": {
+        "A": "Primaquina.",
+        "B": "Bencidima.",
+        "C": "Guayacon.",
+        "D": "Piramidón."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Primaquina."
+    },
+    {
+      "id": 146,
+      "question": "¿Cómo se denomina la presencia de grasa en las",
+      "options": {
+        "A": "Grasorrea.",
+        "B": "Esteatorrea.",
+        "C": "Lipidosis.",
+        "D": "Melenas."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Esteatorrea."
+    },
+    {
+      "id": 147,
+      "question": "La pérdida de proteínas en heces se denomina:",
+      "options": {
+        "A": "Acolia.",
+        "B": "Esteatorrea.",
+        "C": "Creatorrea.",
+        "D": "A, B y C son correctas."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Creatorrea."
+    },
+    {
+      "id": 148,
+      "question": "Las heces de color negro se deben a:",
+      "options": {
+        "A": "Dieta vegetariana.",
+        "B": "Hemorragias digestivas bajas.",
+        "C": "Estreñimiento.",
+        "D": "Hemorragias digestivas altas."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Hemorragias digestivas altas."
+    },
+    {
+      "id": 149,
+      "question": "¿Cuál es la función de la lipasa pancreática?:",
+      "options": {
+        "A": "Emulsionar las grasas en presencia de sales biliares.",
+        "B": "Hidrolizar los ésteres de glicerol de los ácidos grasos de cadena larga.",
+        "C": "Catalizar la hidrólisis de los polisacáridos.",
+        "D": "Degradar las proteínas."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Hidrolizar los ésteres de glicerol de los ácidos grasos de cadena larga."
+    },
+    {
+      "id": 150,
+      "question": "Señale la respuesta incorrecta en referencia a la",
+      "options": {
+        "A": "El paciente ingiere 100 gramos de D-xilosa.",
+        "B": "Se obtendrán muestras de orina por un período de 5 horas tras la toma de la D-xilosa.",
+        "C": "El paciente tiene que estar en ayunas.",
+        "D": "Mide la capacidad de absorción del intestino delgado proximal."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "El paciente ingiere 100 gramos de D-xilosa."
+    },
+    {
+      "id": 151,
+      "question": "La colonoscopia es la prueba diagnóstica más",
+      "options": {
+        "A": "Para todas las personas comprendidas entre 50 y 69 años.",
+        "B": "Habitualmente en los casos en los que la prueba de sangre oculta en heces sea positiva.",
+        "C": "No es la prueba diagnóstica más utilizada.",
+        "D": "Solo en los casos en los que la prueba de sangre oculta en heces sea negativa."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Habitualmente en los casos en los que la prueba de sangre oculta en heces sea positiva."
+    },
+    {
+      "id": 152,
+      "question": "¿La determinación de cuál de las siguientes",
+      "options": {
+        "A": "ALP.",
+        "B": "Lipasa.",
+        "C": "CPK.",
+        "D": "ALT."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Lipasa."
+    },
+    {
+      "id": 153,
+      "question": "¿Cuál de las siguientes determinaciones ha",
+      "options": {
+        "A": "Ca 19,9.",
+        "B": "CEA.",
+        "C": "Sangre oculta en heces.",
+        "D": "CYFRA 21."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Sangre oculta en heces."
+    },
+    {
+      "id": 154,
+      "question": "El olor de las heces proviene fundamentalmente",
+      "options": {
+        "A": "La estercobilina.",
+        "B": "La urobilina.",
+        "C": "Los procesos microbianos.",
+        "D": "El hierro."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Los procesos microbianos."
+    },
+    {
+      "id": 155,
+      "question": "El reactivo para detectar presencia de almidón en",
+      "options": {
+        "A": "Sudán III.",
+        "B": "Lugol.",
+        "C": "Ácido acético."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Lugol."
+    },
+    {
+      "id": 156,
+      "question": "¿Qué queremos valorar con una tinción de Sudán",
+      "options": {
+        "A": "Grasas.",
+        "B": "Almidón.",
+        "C": "Leucocitos."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Grasas."
+    },
+    {
+      "id": 157,
+      "question": "Los métodos inmunoquímicos para la detección de",
+      "options": {
+        "A": "La capacidad de inmunofluorescencia de la hemoglobina debido a su unión con las porfirinas originadas en el colon.",
+        "B": "Anticuerpos monoclonales o policlonales específicos para la fracción globina de la hemoglobina humana.",
+        "C": "Biomarcadores enzimáticos que producen glucólisis a nivel intestinal.",
+        "D": "Isótopos generados por la actividad peroxidasa de la hemoglobina en reacción con la bencidina."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos monoclonales o policlonales específicos para la fracción globina de la hemoglobina humana."
+    },
+    {
+      "id": 158,
+      "question": "Señala la respuesta incorrecta respecto a las",
+      "options": {
+        "A": "Una función endocrina consiste en producir insulina.",
+        "B": "Una función endocrina consiste en producir glucagón.",
+        "C": "El Glucagón se produce en las células alfa de los islotes de Langerhans.",
+        "D": "La función endocrina consiste en segregar encimas digestivas."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "La función endocrina consiste en segregar encimas digestivas."
+    },
+    {
+      "id": 159,
+      "question": "¿Cuál de los siguientes glúcidos es un disacárido?",
+      "options": {
+        "A": "Fructosa.",
+        "B": "Maltosa.",
+        "C": "Galactosa.",
+        "D": "Glucosa."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Maltosa."
+    },
+    {
+      "id": 160,
+      "question": "¿Para qué se utiliza el test de Van der Kamer en el",
+      "options": {
+        "A": "Determinar la presencia de parásitos intestinales.",
+        "B": "Cuantificar las grasas eliminadas por las heces.",
+        "C": "Diagnosticar la enfermedad celíaca.",
+        "D": "Analizar la presencia de glúcidos en las heces."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Cuantificar las grasas eliminadas por las heces."
+    },
+    {
+      "id": 161,
+      "question": "¿Qué vitamina no es liposoluble?",
+      "options": {
+        "A": "La vitamina A.",
+        "B": "La vitamina D.",
+        "C": "La vitamina K.",
+        "D": "La vitamina C."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "La vitamina C."
+    },
+    {
+      "id": 162,
+      "question": "¿Cuál es la prueba más importante para el cribado",
+      "options": {
+        "A": "La prueba de grasas en las heces.",
+        "B": "La prueba de sangre oculta en las heces.",
+        "C": "La determinación de la calprotectina.",
+        "D": "La determinación de la elastasa fecal"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "La prueba de sangre oculta en las heces."
+    },
+    {
+      "id": 163,
+      "question": "El método Van de Kamer es de referencia para",
+      "options": {
+        "A": "Proteínas fecales.",
+        "B": "Grasas fecales.",
+        "C": "Hidratos de carbono fecales."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Grasas fecales."
+    },
+    {
+      "id": 164,
+      "question": "En pacientes con colitis ulcerosa crónica, las heces",
+      "options": {
+        "A": "Pus, moco y sangre",
+        "B": "Restos de simientes y piel de vegetales",
+        "C": "Parásitos",
+        "D": "Bilis y sulfato de bario"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Pus, moco y sangre"
+    },
+    {
+      "id": 165,
+      "question": "Señale la respuesta falsa.",
+      "options": {
+        "A": "La cantidad normal de heces secretadas diariamente oscila entre 100-200 gramos al día",
+        "B": "Con la técnica de Sudán III, las grasas oscuras aparecen como grandes gotas de color verdoso",
+        "C": "El color pardo de las heces se debe a la estercobilina y la urobilina",
+        "D": "El color verde de las heces se debe a la presencia de biliverdina"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Con la técnica de Sudán III, las grasas oscuras aparecen como grandes gotas de color verdoso"
+    },
+    {
+      "id": 166,
+      "question": "Respecto al ácido fólico, indique la afirmación",
+      "options": {
+        "A": "Es el nombre para una familia de derivados denominados comúnmente como vitamina B12",
+        "B": "Se unen dos proteínas para su transporte plasmático, trascobalamina y haptocorrina.",
+        "C": "La absorción tiene lugar casi exclusivamente en íleon mediante dos mecanismos.",
+        "D": "Se puede denominar folato, posee una estructura común de ácido pteroilglutámico."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Se puede denominar folato, posee una estructura común de ácido pteroilglutámico."
+    },
+    {
+      "id": 167,
+      "question": "Una de las patologías más frecuentemente",
+      "options": {
+        "A": "Cirrosis.",
+        "B": "Cáncer de colon.",
+        "C": "Pancreatitis",
+        "D": "Litiasis Renal."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Cáncer de colon."
+    },
+    {
+      "id": 168,
+      "question": "Respecto a la aparición de moco en heces, señale",
+      "options": {
+        "A": "En pequeña cantidad es normal",
+        "B": "El moco sanguinolento puede indicar neoplasia o proceso inflamatorio del canal rectal",
+        "C": "El moco asociado con pus y sangre se encuentra en colitis ulcerosa y disentería bacilar",
+        "D": "En heces normales el moco es inexistente"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "En pequeña cantidad es normal"
+    },
+    {
+      "id": 169,
+      "question": "El empleo de lugol en el estudio microscópico para",
+      "options": {
+        "A": "Es útil para determinar restos de grasa",
+        "B": "Se utiliza para ver restos de almidón y fibra muscular",
+        "C": "Se mezcla con Sudan III para ver restos de grasa",
+        "D": "La observación de restos de almidón indica una correcta digestión de hidratos de carbono"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Se utiliza para ver restos de almidón y fibra muscular"
+    },
+    {
+      "id": 170,
+      "question": "La presencia de Almidón sin digerir en las heces se",
+      "options": {
+        "A": "Calprotectina.",
+        "B": "Bilirrubina.",
+        "C": "Amilorrea.",
+        "D": "Esteatorrea."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Amilorrea."
+    },
+    {
+      "id": 171,
+      "question": "Dependiendo de la dieta, ¿cuál es la cantidad",
+      "options": {
+        "A": "< 50 g.",
+        "B": "Entre 150 - 250 g.",
+        "C": "1000 g.",
+        "D": "> 31."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Entre 150 - 250 g."
+    },
+    {
+      "id": 172,
+      "question": "¿Qué magnitud bioquímica es esencial para el",
+      "options": {
+        "A": "Amonio.",
+        "B": "Amilasa.",
+        "C": "Creatinina.",
+        "D": "AST."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Amilasa."
+    },
+    {
+      "id": 173,
+      "question": "La determinación de Calprotectina en heces es un",
+      "options": {
+        "A": "Enfermedad inflamatoria intestinal.",
+        "B": "Alteración de la absorción de alimentos.",
+        "C": "Pancreatitis.",
+        "D": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Enfermedad inflamatoria intestinal."
+    },
+    {
+      "id": 174,
+      "question": "Para la realización del test de la D-xilosa se",
+      "options": {
+        "A": "Muestra de sangre basal y orina elemental.",
+        "B": "Muestra de sangre a los 60 minutos, tras la ingesta de D-xilosa y orina de 24 h.",
+        "C": "Muestra de sangre a los 60 minutos, tras la ingesta de D-xilosa. No hace falta la orina.",
+        "D": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las respuestas anteriores es correcta."
+    },
+    {
+      "id": 175,
+      "question": "¿Qué prueba se emplea para el cribado del cáncer",
+      "options": {
+        "A": "Sangre oculta en heces.",
+        "B": "Cuerpos reductores.",
+        "C": "Determinación de leucocitos en sangre.",
+        "D": "Calprotectina."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Sangre oculta en heces."
+    },
+    {
+      "id": 176,
+      "question": "Entre otras causas, el déficit de Vitamina B12",
+      "options": {
+        "A": "Disminución de la Proteína Reguladora de Retinol (RBP).",
+        "B": "Disminución de la Transcobalamina.",
+        "C": "Disminución de la Proteína C Reactiva.",
+        "D": "Disminución de la Crioglobulinas."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Disminución de la Transcobalamina."
+    },
+    {
+      "id": 177,
+      "question": "Indique la variante genética del HLA que expresa el",
+      "options": {
+        "A": "DQ8",
+        "B": "DQ2",
+        "C": "B57",
+        "D": "B27",
+        "E": "B12"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "DQ2"
+    },
+    {
+      "id": 178,
+      "question": "La prueba de sangre oculta en heces:",
+      "options": {
+        "A": "Actualmente es la única prueba recomendada para el cribado de cáncer colorrectal en población general.",
+        "B": "Es muy específica de enfermedad inflamatoria intestinal.",
+        "C": "La sensibilidad analítica de los métodos químicos suele ser superior a la de los métodos inmunológicos.",
+        "D": "Se usa para el diagnóstico de Colitis ulcerosa",
+        "E": "Los métodos químicos presentan la desventaja de requerir restricción dietética en los 3 días previos al análisis."
+      },
+      "page": 17,
+      "correctAnswer": "E",
+      "correctText": "Los métodos químicos presentan la desventaja de requerir restricción dietética en los 3 días previos al análisis."
+    },
+    {
+      "id": 179,
+      "question": "Para el diagnóstico bioquímico de la Pancreatitis",
+      "options": {
+        "A": "Amilasa y Lipasa son dos enzimas igual de específicas para su diagnóstico.",
+        "B": "Existen casos de PA donde se puede elevar la lipasa y no la Amilasa.",
+        "C": "Las transaminasas son los parámetros bioquímicos más adecuados para el diagnóstico de PA",
+        "D": "La Amilasa y la TBil son fundamentales en el diagnóstico.",
+        "E": "Todas son falsas."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Existen casos de PA donde se puede elevar la lipasa y no la Amilasa."
+    },
+    {
+      "id": 180,
+      "question": "Para la determinación de leucocitos en heces,",
+      "options": {
+        "A": "Eosina.",
+        "B": "Azul de metileno de Loeffler.",
+        "C": "Verde Jano.",
+        "D": "Nigrosina."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Azul de metileno de Loeffler."
+    },
+    {
+      "id": 181,
+      "question": "La prueba de sangre oculta en heces, como prueba",
+      "options": {
+        "A": "Actualmente la colonoscopia es la prueba recomendada para el cribado de cáncer colorrectal en población general.",
+        "B": "Es muy específica de enfermedad inflamatoria intestinal.",
+        "C": "La sensibilidad analítica de los métodos químicos suele ser superior a la de los métodos inmunológicos.",
+        "D": "Los métodos químicos presentan la desventaja de requerir restricción dietética en los 3 días previos al análisis."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Los métodos químicos presentan la desventaja de requerir restricción dietética en los 3 días previos al análisis."
+    },
+    {
+      "id": 182,
+      "question": "Cite cuál es la principal función de la bilis:",
+      "options": {
+        "A": "Intervenir en la digestión de las proteínas.",
+        "B": "Intervenir en la digestión de los hidratos de carbono.",
+        "C": "Intervenir en la digestión de las grasas.",
+        "D": "Intervenir en todo lo citado en las respuestas anteriores."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Intervenir en la digestión de las grasas."
+    },
+    {
+      "id": 183,
+      "question": "El resultado de amilasa obtenido en el analizador,",
+      "options": {
+        "A": "Revisar la curva de reacción de la amilasa en el analizador y alarmas.",
+        "B": "Pedir que extraigan un nuevo espécimen.",
+        "C": "Informar como resultado < 1 UI/L.",
+        "D": "Calibrar y pasar controles a la amilasa."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Revisar la curva de reacción de la amilasa en el analizador y alarmas."
+    },
+    {
+      "id": 184,
+      "question": "La calprotectina:",
+      "options": {
+        "A": "Es una proteína que sintetizan los leucocitos, con actividad bacteriostática y fungistática, que se encuentra en concentraciones elevadas en las heces.",
+        "B": "Es una proteína que se sintetiza en el hígado y que se elimina, en parte, con las heces.",
+        "C": "Es una enzima que se encuentra en el jugo pancreático. Concentraciones disminuidas en heces alertarían de una posible alteración pancreática."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Es una proteína que sintetizan los leucocitos, con actividad bacteriostática y fungistática, que se encuentra en concentraciones elevadas en las heces."
+    },
+    {
+      "id": 185,
+      "question": "Sobre la amilasa, indique la respuesta correcta:",
+      "options": {
+        "A": "Se fracciona en ocho isoenzimas.",
+        "B": "Hidroliza los triglicéridos.",
+        "C": "Degrada carbohidratos, complejos como el almidón.",
+        "D": "Se emplea en el diagnóstico de la diabetes mellitus."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Degrada carbohidratos, complejos como el almidón."
+    },
+    {
+      "id": 186,
+      "question": "Indique la opción incorrecta en relación con la",
+      "options": {
+        "A": "Su presencia indica trastornos de malabsorción.",
+        "B": "La tinción de Sudán III tiñe de azul los lípidos.",
+        "C": "Las muestras de casos sospechosos pueden evaluarse microscópicamente.",
+        "D": "Se muestra en el tránsito intestinal acelerado."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "La tinción de Sudán III tiñe de azul los lípidos."
+    },
+    {
+      "id": 187,
+      "question": "Señale la opción correcta sobre la calprotectina:",
+      "options": {
+        "A": "Es un glucolípido que sintetizan los leucocitos.",
+        "B": "La disminución de su concentración en heces indica inflamación intestinal.",
+        "C": "Tiene su actividad bacteriostática y fungistática.",
+        "D": "Su aumento es indicador de alteraciones pancreáticas."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Tiene su actividad bacteriostática y fungistática."
+    },
+    {
+      "id": 188,
+      "question": "Sobre la elastasa I, es incorrecto que:",
+      "options": {
+        "A": "Se determina en heces mediante la titulación de Van de Kamer.",
+        "B": "La prueba es específica para diferenciar las causas pancreáticas de las no pancreáticas en pacientes con esteatorrea.",
+        "C": "Es una enzima producida por el páncreas.",
+        "D": "Es un indicador muy sensible de la insuficiencia pancreática exocrina."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Se determina en heces mediante la titulación de Van de Kamer."
+    },
+    {
+      "id": 189,
+      "question": "El método Van de Kamer -en heces- nos sirve para",
+      "options": {
+        "A": "Leucocitos.",
+        "B": "Esteatorrea.",
+        "C": "Creatorrea.",
+        "D": "Sangre oculta."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Esteatorrea."
+    },
+    {
+      "id": 190,
+      "question": "Sobre la muestra de heces, señale la afirmación",
+      "options": {
+        "A": "El sangrado del tracto gastrointestinal superior origina heces de color rojo.",
+        "B": "El color verde de las heces puede deberse a la ingesta de carbón vegetal.",
+        "C": "Un color arcilloso indica una disminución o ausencia de bilis.",
+        "D": "El color pardo de las heces se debe a la biliverdina."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Un color arcilloso indica una disminución o ausencia de bilis."
+    },
+    {
+      "id": 191,
+      "question": "La tinción usada para observar la presencia de",
+      "options": {
+        "A": "Sudán III.",
+        "B": "Azul de metileno.",
+        "C": "Lugol.",
+        "D": "Wright."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Sudán III."
+    },
+    {
+      "id": 192,
+      "question": "¿Qué",
+      "options": {
+        "A": "Amilasa.",
+        "B": "Alanina-aminotrasferasa.",
+        "C": "Aspartato-aminotrasferasa.",
+        "D": "Creatinacinasa."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Amilasa."
+    },
+    {
+      "id": 193,
+      "question": "En la prueba de la D-xilosa, tras el ayuno y",
+      "options": {
+        "A": "1 hora.",
+        "B": "5 horas.",
+        "C": "12 horas.",
+        "D": "24 horas."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "5 horas."
+    },
+    {
+      "id": 194,
+      "question": "Para realizar un examen microscópico de grasas en",
+      "options": {
+        "A": "Lugol.",
+        "B": "Bencidina.",
+        "C": "Sudán III.",
+        "D": "Alcohol etílico."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Sudán III."
+    },
+    {
+      "id": 195,
+      "question": "¿Cuál de las siguientes es la causa más frecuente",
+      "options": {
+        "A": "Traumatismo abdominal.",
+        "B": "Ingesta aguda de alcohol.",
+        "C": "Abuso crónico del alcohol y enfermedad del tracto biliar.",
+        "D": "Hipertrigliceridemia."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Abuso crónico del alcohol y enfermedad del tracto biliar."
+    },
+    {
+      "id": 196,
+      "question": "La prueba de elección para valorar la integridad de",
+      "options": {
+        "A": "Prueba de la D-Xilosa.",
+        "B": "Prueba de la trioleína.",
+        "C": "Prueba del aliento para lactosa.",
+        "D": "Prueba de Schilling."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Prueba de la D-Xilosa."
+    },
+    {
+      "id": 197,
+      "question": "La fibrosis quística es una enfermedad de origen",
+      "options": {
+        "A": "Mendeliana autosómica recesiva.",
+        "B": "Mendeliana ligada al sexo.",
+        "C": "No es una enfermedad genética.",
+        "D": "Mendeliana autosómica dominante."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Mendeliana autosómica recesiva."
+    },
+    {
+      "id": 198,
+      "question": "La mutación en el gen CFTR es responsable de:",
+      "options": {
+        "A": "El hipotiroidismo congénito.",
+        "B": "La fenilcetonuria.",
+        "C": "La tirosinemia tipo I.",
+        "D": "La fibrosis quística"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "La fibrosis quística"
+    },
+    {
+      "id": 199,
+      "question": "NO se recomienda actualmente, en el estudio de",
+      "options": {
+        "A": "Los anticuerpos antitransglutaminasa IgA.",
+        "B": "Los anticuerpos antigliadina nativa.",
+        "C": "Los anticuerpos antiendomisio.",
+        "D": "La IgA total."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Los anticuerpos antigliadina nativa."
+    },
+    {
+      "id": 200,
+      "question": "En un paciente que presenta enfermedad celíaca,",
+      "options": {
+        "A": "HLA B27.",
+        "B": "HLA DR1.",
+        "C": "HLA Aw68.",
+        "D": "HLA DQ2"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "HLA DQ2"
+    },
+    {
+      "id": 201,
+      "question": "¿Cuál de los siguientes procedimientos para",
+      "options": {
+        "A": "Enzimoinmunoanalisis.",
+        "B": "Método tradicional.",
+        "C": "Técnicas inmunoquímicas.",
+        "D": "Técnicas de inmunoluminescencia."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Técnicas de inmunoluminescencia."
+    },
+    {
+      "id": 202,
+      "question": "La galactosa es:",
+      "options": {
+        "A": "Una pentosa.",
+        "B": "Una hexosa.",
+        "C": "Una triosa.",
+        "D": "Un disacárido"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Una hexosa."
+    },
+    {
+      "id": 203,
+      "question": "El diagnóstico de pancreatitis aguda se basa en un",
+      "options": {
+        "A": "Mayor o igual a 2 veces el límite superior de lo normal.",
+        "B": "Mayor o igual a 3 veces el límite superior de lo normal.",
+        "C": "Mayor o igual a 4 veces el límite superior de lo normal.",
+        "D": "Mayor o igual a 10 veces el límite superior de lo normal."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Mayor o igual a 3 veces el límite superior de lo normal."
+    },
+    {
+      "id": 204,
+      "question": "El marcador serológico más sensible y específico",
+      "options": {
+        "A": "Anticuerpos antigliadina (AGA) de isotipos IgA.",
+        "B": "Anticuerpos antigliadina (AGA) de isotipos IgG.",
+        "C": "Anticuerpos transglutaminasa Ig A tisular.",
+        "D": "Anticuerpos antiendomisio (EMA) IgA."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos transglutaminasa Ig A tisular."
+    },
+    {
+      "id": 205,
+      "question": "Para formar las proteínas, los aminoácidos se unen",
+      "options": {
+        "A": "Hidrófilos.",
+        "B": "Peptídicos.",
+        "C": "Hidrofóbicos.",
+        "D": "Básicos."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Peptídicos."
+    },
+    {
+      "id": 206,
+      "question": "La fibrosis quística es debida a una mutación en el",
+      "options": {
+        "A": "La enzima 21-hidroxilasa implicada en la función respiratoria.",
+        "B": "La distrofina ligada al cromosoma X.",
+        "C": "El canal de conductancia transmembrana de cloruro, CFTR.",
+        "D": "El canal de conductancia transmembrana de fluoruro, RFTK."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "El canal de conductancia transmembrana de cloruro, CFTR."
+    },
+    {
+      "id": 207,
+      "question": "Si se sospecha de una pancreatitis aguda el",
+      "options": {
+        "A": "Determinación en suero de amilasa/lipasa.",
+        "B": "Determinación en sangre de glucógeno y colesterol.",
+        "C": "Determinación de fosfatasa alcalina. D Ninguna es correcta."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Determinación en suero de amilasa/lipasa."
+    },
+    {
+      "id": 208,
+      "question": "¿Cuál de los siguientes enunciados corresponde a",
+      "options": {
+        "A": "Proteínas de membrana, proteínas globulares.",
+        "B": "Transporte, protección.",
+        "C": "Hélice alfa, hélice plegada beta.",
+        "D": "Energética, hormonal."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Hélice alfa, hélice plegada beta."
+    },
+    {
+      "id": 209,
+      "question": "Según su morfología y solubilidad las proteínas",
+      "options": {
+        "A": "Solubles en agua.",
+        "B": "Insolubles en agua.",
+        "C": "Están plegadas en forma más o menos esféricas.",
+        "D": "Su estructura es compacta casi esférica."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Insolubles en agua."
+    },
+    {
+      "id": 210,
+      "question": "¿Cuál de los siguientes enunciados corresponde a",
+      "options": {
+        "A": "Proteínas de membrana, proteínas globulares.",
+        "B": "Transporte, protección.",
+        "C": "Hélice alfa, hélice plegada beta.",
+        "D": "Energética, hormonal."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Hélice alfa, hélice plegada beta."
+    },
+    {
+      "id": 211,
+      "question": "Respecto a la calprotectina, ¿cuál de las siguientes",
+      "options": {
+        "A": "Es una proteína que se sintetiza en los hematíes.",
+        "B": "Un aumento de su concentración indica el grado de infamación intestinal.",
+        "C": "Se encuentra elevada en el sedimento urinario.",
+        "D": "Una disminución de su concentración indica un aumento del grado de infamación intestinal."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Un aumento de su concentración indica el grado de infamación intestinal."
+    },
+    {
+      "id": 212,
+      "question": "¿Cuál es la proteína sintetizada por los leucocitos",
+      "options": {
+        "A": "Elastasa",
+        "B": "Calprotectina",
+        "C": "Quimiotripsina",
+        "D": "Alfa-1-antitripsina"
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Calprotectina"
+    },
+    {
+      "id": 213,
+      "question": "El diagnóstico de pancreatitis aguda se basa en un",
+      "options": {
+        "A": "Mayor o igual a 2 veces el límite superior de lo normal.",
+        "B": "Mayor o igual a 3 veces el límite superior de lo normal.",
+        "C": "Mayor o igual a 4 veces el límite superior de lo normal.",
+        "D": "Mayor o igual a 10 veces el límite superior de lo normal."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Mayor o igual a 3 veces el límite superior de lo normal."
+    },
+    {
+      "id": 214,
+      "question": "El marcador serológico más sensible y específico",
+      "options": {
+        "A": "Anticuerpos antigliadina (AGA) de isotipos IgA.",
+        "B": "Anticuerpos antigliadina (AGA) de isotipos IgG.",
+        "C": "Anticuerpos transglutaminasa Ig A tisular.",
+        "D": "Anticuerpos antiendomisio (EMA) IgA."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos transglutaminasa Ig A tisular."
+    },
+    {
+      "id": 215,
+      "question": "La galactosa es:",
+      "options": {
+        "A": "Una pentosa.",
+        "B": "Una hexosa.",
+        "C": "Una triosa.",
+        "D": "Un disacárido."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Una hexosa."
+    },
+    {
+      "id": 216,
+      "question": "La alfa-amilasa se encuentra en concentraciones",
+      "options": {
+        "A": "Hígado",
+        "B": "Páncreas",
+        "C": "Músculo",
+        "D": "Hueso"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Páncreas"
+    }
+  ]
+}
