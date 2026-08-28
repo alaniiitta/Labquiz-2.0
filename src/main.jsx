@@ -46,7 +46,7 @@ function App(){
    ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
-  <main><header><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div><div className="avatar">A</div></header>
+  <main><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
    {page==="home"&&<HomePage go={go} openTopic={t=>{setSelected(t);go("topic")}}/>}
    {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
    {page==="topic"&&selected&&<TopicPage topic={selected} go={go}/>}
