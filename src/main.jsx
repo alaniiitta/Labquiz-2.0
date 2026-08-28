@@ -5,6 +5,7 @@ import "./styles.css";
 
 import questionBank from "./questions";
 import {parsePdfQuestions} from "./pdfPipeline.js";
+import {getQuestionIdForProgress,recordQuestionAnswer,selectSmartQuestions} from "./smartQuestionSelector.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 
@@ -25,12 +26,16 @@ const topics=[
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
 const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
+const STORAGE_KEY="labquiz.learning.v2";
+const EMPTY_USER_DATA={tests:0,answered:0,correct:0,incorrect:0,favorites:[],history:[],progress:{},streak:0};
+const loadUserData=()=>{try{return {...EMPTY_USER_DATA,...JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}")}}catch{return EMPTY_USER_DATA}};
 const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${String(id).padStart(2,"0")}(?:\\D|$)` ,"i").test(path))?.[1]
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
 
 function App(){
  const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false);
- const [userData,setUserData]=useState({tests:0,answered:0,correct:0,incorrect:0,favorites:[],history:[],progress:{},streak:0});
+ const [userData,setUserData]=useState(loadUserData);
+ useEffect(()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(userData)),[userData]);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
@@ -44,7 +49,7 @@ function App(){
     {page==="home"&&<HomePage go={go} data={userData} openTopic={t=>{setSelected(t);go("topic")}}/>}
    {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
    {page==="topic"&&selected&&<TopicPage topic={selected} go={go}/>}
-    {page==="test"&&<TestPage go={go} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
+    {page==="test"&&<TestPage go={go} questionProgress={userData.progress} onQuestionAnswered={next=>setUserData(prev=>({...prev,progress:next}))} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
    {page==="review"&&<ReviewPage go={go}/>}
     {page==="progress"&&<ProgressPage data={userData}/>}
     {page==="wrong"&&<EmptyDataPage title="Preguntas falladas" message="Aquí aparecerán las preguntas que respondas incorrectamente." go={go}/>}
@@ -89,7 +94,7 @@ function TopicPage({topic,go}){return <div>
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
-function TestPage({go,onSessionComplete}){
+function TestPage({go,questionProgress,onQuestionAnswered,onSessionComplete}){
  const [selectedTopicId,setSelectedTopicId]=useState(null);
  const [i,setI]=useState(0);
  const [score,setScore]=useState(0);
@@ -98,22 +103,26 @@ function TestPage({go,onSessionComplete}){
  const [done,setDone]=useState(false);
  const [loadedQuestions,setLoadedQuestions]=useState({});
  const [loading,setLoading]=useState(false);
-
- const currentTopic=selectedTopicId ? topics.find(t=>t.id===selectedTopicId) : null;
- const questionBankForTopic=selectedTopicId ? (loadedQuestions[selectedTopicId] ?? getQuestionBank(selectedTopicId)) : [];
- const totalQuestions=questionBankForTopic.length;
- const q=questionBankForTopic[i] ?? null;
-
+ const [testQuestions,setTestQuestions]=useState([]);
+ const currentTopic=selectedTopicId===0?{id:0,title:"Todos los temas"}:selectedTopicId?topics.find(t=>t.id===selectedTopicId):null;
+  const totalQuestions=testQuestions.length;
+  const q=testQuestions[i] ?? null;
  useEffect(()=>{
-    if(!selectedTopicId || loadedQuestions[selectedTopicId] || getQuestionBank(selectedTopicId).length) return;
-    const pdfUrl=getPdfUrl(selectedTopicId);
-    if(!pdfUrl) return;
+    if(!selectedTopicId) return;
+    const topicIds=selectedTopicId===0?topics.map(topic=>topic.id):[selectedTopicId];
+    const missing=topicIds.filter(topicId=>!loadedQuestions[topicId]&&!getQuestionBank(topicId).length&&getPdfUrl(topicId));
+    if(!missing.length){
+      const available=topicIds.flatMap(topicId=>(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId,id:question.id??`${topicId}-${question.number}`})));
+      setTestQuestions(selectSmartQuestions(available,questionProgress,30,selectedTopicId===0?null:selectedTopicId));
+      setLoading(false);
+      return;
+    }
     setLoading(true);
-    parsePdfQuestions(pdfUrl)
-     .then(questions=>setLoadedQuestions(prev=>({...prev,[selectedTopicId]:questions})))
-     .catch(error=>console.error("No se pudo cargar el PDF del tema",selectedTopicId,error))
+    Promise.all(missing.map(topicId=>parsePdfQuestions(getPdfUrl(topicId)).then(questions=>[topicId,questions.map(question=>({...question,topicId,id:question.id??`${topicId}-${question.number}`}))])))
+    .then(entries=>setLoadedQuestions(prev=>({...prev,...Object.fromEntries(entries)})))
+     .catch(error=>console.error("No se pudo cargar el PDF del tema",error))
      .finally(()=>setLoading(false));
- },[selectedTopicId,loadedQuestions]);
+   },[selectedTopicId,loadedQuestions]);
 
  const resetSelection=()=>{
   setSelectedTopicId(null);
@@ -122,19 +131,22 @@ function TestPage({go,onSessionComplete}){
   setSelectedAnswer(null);
   setShowResult(false);
   setDone(false);
+    setTestQuestions([]);
  };
 
  const handleAnswer=(answerIndex)=>{
   if(!q || showResult) return;
   setSelectedAnswer(answerIndex);
   setShowResult(true);
+    onQuestionAnswered?.(recordQuestionAnswer(q,questionProgress,answerIndex===q.correctAnswer));
   if(answerIndex===q.correctAnswer) setScore(prev=>prev+1);
  };
 
  const handleNext=()=>{
   if(!q) return;
   if(i>=totalQuestions-1){
-    onSessionComplete?.({topicId:selectedTopicId,answered:totalQuestions,correct:score,incorrect:totalQuestions-score,completedAt:new Date().toISOString()});
+    const finalCorrect=score+(selectedAnswer===q.correctAnswer?1:0);
+    onSessionComplete?.({topicId:selectedTopicId,topicIds:[...new Set(testQuestions.map(question=>question.topicId))],answered:totalQuestions,correct:finalCorrect,incorrect:totalQuestions-finalCorrect,percentage:Math.round(finalCorrect/totalQuestions*100),questionIds:testQuestions.map(question=>getQuestionIdForProgress(question,0)),completedAt:new Date().toISOString()});
    setDone(true);
    setSelectedAnswer(null);
    setShowResult(false);
@@ -146,7 +158,7 @@ function TestPage({go,onSessionComplete}){
  };
 
  if(!selectedTopicId){
-    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid">{topics.map(topic=><button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{getPdfUrl(topic.id)?"PDF disponible":"Sin preguntas cargadas"}</small></button>)}</div></div>;
+    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small></button>{topics.map(topic=><button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{getQuestionBank(topic.id).length||getPdfUrl(topic.id)?"Preguntas disponibles":"Próximamente"}</small></button>)}</div></div>;
  }
 
  if(loading){
@@ -170,7 +182,7 @@ function ProgressPage({data}){const accuracy=data.answered?Math.round(data.corre
 
 function EmptyDataPage({title,message,go}){return <div className="emptyPage"><div className="emptyIcon"><History/></div><h2>{title}</h2><p>{message}</p><button className="primary" onClick={()=>go("test")}><Play/> Empezar test</button></div>}
 
-function HistoryPage({data,go}){if(!data.history.length)return <EmptyDataPage title="Historial" message="Todavía no has realizado ningún test." go={go}/>;return <div><div className="pageIntro"><div><span className="eyebrow">HISTORIAL</span><h2>Tests realizados</h2></div></div><div className="historyList">{data.history.map((session,index)=><article className="historyItem" key={`${session.completedAt}-${index}`}><div><b>Tema {String(session.topicId).padStart(2,"0")}</b><small>{new Date(session.completedAt).toLocaleString("es-ES")}</small></div><strong>{session.correct}/{session.answered}</strong></article>)}</div><button className="primary" onClick={()=>go("test")}><Play/> Hacer otro test</button></div>}
+function HistoryPage({data,go}){if(!data.history.length)return <EmptyDataPage title="Historial" message="Todavía no has realizado ningún test." go={go}/>;return <div><div className="pageIntro"><div><span className="eyebrow">HISTORIAL</span><h2>Tests realizados</h2></div></div><div className="historyList">{data.history.map((session,index)=><article className="historyItem" key={`${session.completedAt}-${index}`}><div><b>{session.topicIds?.length>1?"Todos los temas":`Tema ${String(session.topicId).padStart(2,"0")}`}</b><small>{new Date(session.completedAt).toLocaleString("es-ES")}</small></div><strong>{session.correct}/{session.answered}</strong></article>)}</div><button className="primary" onClick={()=>go("test")}><Play/> Hacer otro test</button></div>}
 
 function SimulacrumPage({go}){return <div><section className="simHero"><Trophy/><h2>Simulacro de oposición</h2><p>El simulacro estará disponible cuando haya preguntas cargadas.</p><button className="secondary" onClick={()=>go("test")}>Ver temas disponibles</button></section></div>}
 
