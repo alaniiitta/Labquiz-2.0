@@ -36,7 +36,7 @@ const getAnswerExplanation=question=>{const explanation=String(question.explanat
 
 function App(){
  const [page,setPage]=useState("home"),[mobile,setMobile]=useState(false);
- const [testConfig,setTestConfig]=useState({count:30,mode:"smart"});
+ const [testConfig,setTestConfig]=useState({count:30,mode:"smart",topicId:0});
  const [userData,setUserData]=useState(loadUserData);
  useEffect(()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(userData)),[userData]);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
@@ -69,10 +69,10 @@ const testModes=[
  ["review","Repaso","Practica lo pendiente",RotateCcw]
 ];
 
-function HomePage({data,onStart}){const [count,setCount]=useState(30);const [mode,setMode]=useState("smart");return <div className="testHome">
+function HomePage({data,onStart}){const [count,setCount]=useState(30);const [mode,setMode]=useState("smart");const [topicId,setTopicId]=useState(0);return <div className="testHome">
  <section className="testLaunch"><span className="eyebrow">LABQUIZ</span><h2>Practica. Aprende. <em>Repite.</em></h2><p>Tests rápidos y enfocados para preparar tus oposiciones.</p><button className="launchButton" onClick={()=>onStart({count,mode})}><Play/> Hacer test</button></section>
- <section className="testSetup"><div className="setupGroup"><span>Número de preguntas</span><div className="choiceRow">{[10,20,30,50].map(value=><button className={count===value?"selected":""} key={value} onClick={()=>setCount(value)}>{value}</button>)}</div></div><div className="setupGroup"><span>Tipo de test</span><div className="modeGrid">{testModes.map(([id,label,description,Icon])=><button className={mode===id?"selected":""} key={id} onClick={()=>setMode(id)}><Icon/><span><b>{label}</b><small>{description}</small></span></button>)}</div></div></section>
- <section className="testHomeFooter"><span>{data.tests} tests realizados</span><button className="textBtn" onClick={()=>onStart({count,mode:"smart"})}>Empezar con test inteligente <ChevronRight/></button></section>
+ <section className="testSetup"><div className="setupGroup"><span>Número de preguntas</span><div className="choiceRow">{[10,20,30,50].map(value=><button className={count===value?"selected":""} key={value} onClick={()=>setCount(value)}>{value}</button>)}</div></div><div className="setupGroup"><span>Tipo de test</span><div className="modeGrid">{testModes.map(([id,label,description,Icon])=><button className={mode===id?"selected":""} key={id} onClick={()=>setMode(id)}><Icon/><span><b>{label}</b><small>{description}</small></span></button>)}</div></div><div className="setupGroup topicSetup"><label htmlFor="test-topic">Tema del test</label><select id="test-topic" value={topicId} onChange={event=>setTopicId(Number(event.target.value))}><option value={0}>Todos los temas</option>{topics.map(topic=><option value={topic.id} key={topic.id}>Tema {String(topic.id).padStart(2,"0")} · {topic.title}</option>)}</select></div></section>
+ <section className="testHomeFooter"><span>{data.tests} tests realizados</span><button className="textBtn" onClick={()=>onStart({count,mode,topicId})}>Empezar con esta configuración <ChevronRight/></button></section>
  </div>}
 
 function Stat({icon,value,label}){return <div className="stat"><span>{icon}</span><strong>{value}</strong><small>{label}</small></div>}
@@ -92,8 +92,8 @@ function TopicPage({topic,go}){return <div>
  </div>}
 
 function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessionComplete}){
- const [selectedTopicId,setSelectedTopicId]=useState(initialConfig?0:null);
- const [testConfig,setTestConfig]=useState(initialConfig||{count:30,mode:"smart"});
+ const [selectedTopicId,setSelectedTopicId]=useState(initialConfig?.topicId??null);
+ const [testConfig,setTestConfig]=useState(initialConfig||{count:30,mode:"smart",topicId:0});
  const [i,setI]=useState(0);
  const [score,setScore]=useState(0);
  const [selectedAnswer,setSelectedAnswer]=useState(null);
