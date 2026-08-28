@@ -33,6 +33,7 @@ const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
 
 const getAnswerExplanation=question=>{const explanation=String(question.explanation||"").trim();if(explanation&&!explanation.includes("automáticamente por el resaltado"))return explanation;const correct=question.answers?.[question.correctAnswer]??"la opción marcada";return `La respuesta correcta es «${correct}», porque es la opción que corresponde al enunciado y al contenido evaluado en esta pregunta.`};
+const getTopicMastery=(topicId,progress)=>{const bank=getQuestionBank(topicId);if(!bank.length)return 0;const total=bank.reduce((sum,question,index)=>sum+(progress[getQuestionIdForProgress(question,index)]?.nivelDominio??0),0);return Math.round(total/(bank.length*5)*100)};
 
 function App(){
  const [page,setPage]=useState("home"),[mobile,setMobile]=useState(false);
@@ -158,7 +159,7 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
  };
 
  if(selectedTopicId===null){
-    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small></button>{topics.map(topic=><button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{getQuestionBank(topic.id).length||getPdfUrl(topic.id)?"Preguntas disponibles":"Próximamente"}</small></button>)}</div></div>;
+    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small><div className="topicMastery"><div><span>Dominio global</span><b>0%</b></div><i><em style={{width:"0%"}}/></i></div></button>{topics.map(topic=>{const questionCount=getQuestionBank(topic.id).length;const available=questionCount||getPdfUrl(topic.id);const mastery=getTopicMastery(topic.id,questionProgress);return <button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{available?(questionCount?`${questionCount} preguntas`:"Preguntas disponibles"):"Próximamente"}</small>{available&&<div className="topicMastery"><div><span>Dominio</span><b>{mastery}%</b></div><i><em style={{width:`${mastery}%`}}/></i></div>}</button>})}</div></div>;
  }
 
  if(loading){
