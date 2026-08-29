@@ -37,4 +37,4 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 .historyItem b,.historyItem small{display:block}
 .historyItem small{margin-top:4px;color:var(--muted)}
 .historyItem strong{color:var(--primary);white-space:nowrap}
-@media(max-width:700px){.testHomeActions{width:100%;justify-content:stretch}.testHomeActions .secondary,.testHomeActions .textBtn{width:100%;justify-content:center}.historyItem{align-items:flex-start;flex-direction:column}.historyItem strong{font-size:18px}}
+@media(max-width:700px){.testHomeActions{width:100%;justify-content:stretch}.testHomeActions .secondary,.testHomeActions .textBtn{width:100%;justify-content:center}.historyItem{align-items:flex-start;flex-direction:column}.historyItem strong{font-size:18px}}.explanationBlock{margin-top:18px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#f9f7f3}.explanationWhy,.explanationWarning,.explanationKey{margin:10px 0 0;line-height:1.5}.explanationIcon{margin-right:4px}.explanationOthers{margin-top:10px}.explanationOthers ul{margin:6px 0 0 12px;padding:0;list-style:disc}.explanationOthers li{margin-bottom:4px}
