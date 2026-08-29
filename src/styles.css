@@ -38,3 +38,116 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 .historyItem small{margin-top:4px;color:var(--muted)}
 .historyItem strong{color:var(--primary);white-space:nowrap}
 @media(max-width:700px){.testHomeActions{width:100%;justify-content:stretch}.testHomeActions .secondary,.testHomeActions .textBtn{width:100%;justify-content:center}.historyItem{align-items:flex-start;flex-direction:column}.historyItem strong{font-size:18px}}.explanationBlock{margin-top:18px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#f9f7f3}.explanationWhy,.explanationWarning,.explanationKey{margin:10px 0 0;line-height:1.5}.explanationIcon{margin-right:4px}.explanationOthers{margin-top:10px}.explanationOthers ul{margin:6px 0 0 12px;padding:0;list-style:disc}.explanationOthers li{margin-bottom:4px}
+
+/* ===== PROFESSIONAL UPGRADE - PRIORITY 1 ===== */
+
+/* 1. TestPage - bigger buttons, better feedback, improved progress bar */
+.progressLine{height:10px!important;margin:14px 0 22px!important}
+.answers button{min-height:56px!important;padding:14px 16px!important;font-size:14px!important;transition:background .15s,border-color .15s,transform .1s}
+@media(max-width:600px){.answers button{min-height:52px!important;padding:12px 14px!important;font-size:14px!important}}
+.answers button:hover:not(:disabled){transform:translateX(3px)}
+.answers button.correct{background:#d4f5e4!important;border-color:#27a869!important;border-width:2px!important;color:#125f38!important}
+.answers button.correct span{background:#27a869!important;color:#fff!important}
+.answers button.incorrect{background:#fde8e6!important;border-color:#c94040!important;border-width:2px!important;color:#7a1f1f!important}
+.answers button.incorrect span{background:#c94040!important;color:#fff!important}
+.answers button.selected{border-color:var(--primary)!important;background:var(--soft)!important;border-width:2px!important}
+.testCard h2{font-size:20px!important;line-height:1.4!important}
+@media(max-width:600px){.testCard h2{font-size:18px!important}}
+.testMeta{font-size:13px!important;margin-bottom:8px}
+.testMeta b{font-size:15px;color:var(--primary)}
+
+/* 2. Results screen - detailed score */
+.resultScreen{max-width:620px;margin:40px auto}
+.resultScreen .resultIcon{font-size:60px;text-align:center;display:block;margin-bottom:12px}
+.resultTitle{text-align:center;font-size:26px;margin:0 0 6px;letter-spacing:-.4px}
+.resultScore{display:flex;justify-content:center;align-items:baseline;gap:8px;margin:16px 0}
+.resultScore strong{font-size:56px;color:var(--primary);line-height:1}
+.resultScore span{font-size:18px;color:var(--muted)}
+.resultBadge{display:inline-block;margin:0 auto 18px;padding:7px 18px;border-radius:99px;font-weight:800;font-size:14px;letter-spacing:.3px}
+.resultBadge.excellent{background:#d4f5e4;color:#125f38}
+.resultBadge.good{background:#e0f2e9;color:#196b42}
+.resultBadge.regular{background:#fff3cd;color:#8a6000}
+.resultBadge.needsWork{background:#fde8e6;color:#7a1f1f}
+.resultStats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:20px 0}
+.resultStat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:center}
+.resultStat strong{display:block;font-size:28px;margin:6px 0 4px}
+.resultStat small{color:var(--muted);font-size:12px}
+.resultStat.correct-stat strong{color:#27a869}
+.resultStat.incorrect-stat strong{color:#c94040}
+.resultStat.skipped-stat strong{color:var(--muted)}
+.resultCompare{text-align:center;margin:8px 0 20px;color:var(--muted);font-size:13px}
+.resultCompare b{color:var(--text)}
+.resultCompare.up b{color:#27a869}
+.resultCompare.down b{color:#c94040}
+.resultActions{display:grid;gap:10px;margin-top:20px}
+.resultActions .primary{width:100%;justify-content:center;min-height:52px;font-size:16px}
+.resultActions .secondary{width:100%;justify-content:center;min-height:48px}
+.resultTime{text-align:center;color:var(--muted);font-size:12px;margin-top:14px}
+
+/* 3. WrongPage - list of failed questions */
+.wrongHero{background:linear-gradient(135deg,#fde8e6,#f9f7f3);border:1px solid #f0c8c4;border-radius:22px;padding:28px;margin-bottom:20px}
+.wrongHero h2{margin:0 0 8px;font-size:26px}
+.wrongHero p{color:#7a4040;margin:0 0 18px}
+.wrongStats{display:flex;gap:20px;margin-bottom:18px;flex-wrap:wrap}
+.wrongStat{background:white;border:1px solid #f0c8c4;border-radius:12px;padding:12px 18px;text-align:center}
+.wrongStat strong{display:block;font-size:24px;color:#c94040}
+.wrongStat small{color:var(--muted);font-size:12px}
+.wrongList{display:grid;gap:14px;margin-top:4px}
+.wrongItem{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;text-align:left}
+.wrongItem .wrongQ{font-weight:700;font-size:15px;margin:0 0 14px;line-height:1.4;color:var(--text)}
+.wrongAnswers{display:grid;gap:6px;margin-bottom:10px}
+.wrongAnswer{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border-radius:10px;font-size:13px;border:1px solid transparent}
+.wrongAnswer.correct-ans{background:#d4f5e4;border-color:#27a869;color:#125f38;font-weight:700}
+.wrongAnswer.wrong-ans{background:#fde8e6;border-color:#e8b0ae;color:#7a1f1f}
+.wrongAnswer .ansLetter{width:22px;height:22px;flex:0 0 22px;border-radius:6px;display:grid;place-items:center;font-weight:800;font-size:11px}
+.wrongAnswer.correct-ans .ansLetter{background:#27a869;color:white}
+.wrongAnswer.wrong-ans .ansLetter{background:#c94040;color:white}
+.wrongAnswer.other-ans{background:none;border-color:transparent;color:var(--muted)}
+.wrongAnswer.other-ans .ansLetter{background:var(--soft);color:var(--primary)}
+.wrongMeta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.wrongMeta span{font-size:11px;background:var(--soft);color:var(--primary);border-radius:8px;padding:4px 10px;font-weight:700}
+.wrongMeta span.failTag{background:#fde8e6;color:#c94040}
+
+/* 4. ProgressPage - per-topic table */
+.progressHero{background:linear-gradient(135deg,#e1edef,#f1e9df);border-radius:22px;padding:28px;margin-bottom:24px}
+.progressHero h2{margin:0 0 6px;font-size:26px}
+.progressHero p{color:#5d6e74;margin:0}
+.globalStats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+@media(max-width:600px){.globalStats{grid-template-columns:repeat(2,1fr)}}
+.globalStat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;text-align:center}
+.globalStat strong{display:block;font-size:26px;color:var(--primary);margin:6px 0 4px}
+.globalStat small{color:var(--muted);font-size:12px}
+.topicsProgressSection h3{margin:0 0 14px;font-size:18px}
+.topicsProgressTable{display:grid;gap:10px}
+.topicProgressRow{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.topicProgressHeader{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:12px;flex-wrap:wrap}
+.topicProgressName{font-weight:700;font-size:14px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.topicProgressPct{font-size:18px;font-weight:800;flex:0 0 auto}
+.topicProgressPct.pct-red{color:#c94040}
+.topicProgressPct.pct-yellow{color:#b37800}
+.topicProgressPct.pct-green{color:#27a869}
+.topicProgressBar{height:9px;background:#e8e4dc;border-radius:99px;overflow:hidden;margin-bottom:8px}
+.topicProgressBar i{display:block;height:100%;border-radius:99px;transition:width .3s ease}
+.topicProgressBar i.bar-red{background:#c94040}
+.topicProgressBar i.bar-yellow{background:#e4a800}
+.topicProgressBar i.bar-green{background:#27a869}
+.topicProgressDetails{display:flex;gap:14px;flex-wrap:wrap}
+.topicProgressDetails span{font-size:11px;color:var(--muted);font-weight:600}
+.topicProgressDetails span b{color:var(--text)}
+.domainLegend{display:flex;gap:14px;flex-wrap:wrap;margin:16px 0 20px;padding:12px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.domainLegend span{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:700}
+.domainLegend .dot{width:10px;height:10px;border-radius:50%;flex:0 0 10px}
+.domainLegend .dot.red{background:#c94040}
+.domainLegend .dot.yellow{background:#e4a800}
+.domainLegend .dot.green{background:#27a869}
+
+/* 5. Bottom navigation for mobile */
+.bottomNav{display:none}
+@media(max-width:700px){
+  .bottomNav{display:flex;position:fixed;bottom:0;left:0;right:0;height:64px;background:var(--nav);border-top:1px solid #2b5963;z-index:30;padding:0 4px}
+  .bottomNav button{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;border:0;background:none;color:#9bbfc5;padding:8px 4px;min-height:0;font-size:9px;font-weight:700;letter-spacing:.3px;position:relative;transition:color .15s}
+  .bottomNav button.active{color:var(--gold)}
+  .bottomNav button svg{width:20px;height:20px}
+  .bottomNav .bnBadge{position:absolute;top:6px;right:calc(50% - 18px);background:#c94040;color:white;font-size:9px;font-weight:900;border-radius:99px;min-width:16px;height:16px;display:grid;place-items:center;padding:0 4px;line-height:1}
+  main{padding-bottom:80px!important}
+}
