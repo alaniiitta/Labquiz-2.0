@@ -25,7 +25,8 @@ const topics=[
 ];
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
-const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
+// distintos temas reutilizan los mismos ids numéricos; etiquetar con topicId evita que se mezclen
+const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []).map(question=>question.topicId!=null?question:{...question,topicId:id});
 const STORAGE_KEY="labquiz.learning.v2";
 const EMPTY_USER_DATA={tests:0,answered:0,correct:0,incorrect:0,favorites:[],history:[],progress:{},streak:0};
 const loadUserData=()=>{try{return {...EMPTY_USER_DATA,...JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}")}}catch{return EMPTY_USER_DATA}};
@@ -33,25 +34,30 @@ const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
 
 const getAnswerExplanation=question=>{const explanation=String(question.explanation||"").trim();if(explanation&&!explanation.includes("automáticamente por el resaltado"))return explanation;const correct=question.answers?.[question.correctAnswer]??"la opción marcada";return `La respuesta correcta es «${correct}», porque es la opción que corresponde al enunciado y al contenido evaluado en esta pregunta.`};
-const getTopicMastery=(topicId,progress)=>{const bank=getQuestionBank(topicId);if(!bank.length)return 0;const total=bank.reduce((sum,question,index)=>sum+(progress[getQuestionIdForProgress(question,index)]?.nivelDominio??0),0);return Math.round(total/(bank.length*5)*100)};
+// una cifra decimal evita que unas pocas respuestas queden ocultas por el redondeo en bancos grandes
+const computeMastery=(bank,progress)=>{if(!bank.length)return 0;const total=bank.reduce((sum,question,index)=>sum+(progress[getQuestionIdForProgress(question,index)]?.nivelDominio??0),0);return Math.round((total/(bank.length*5))*1000)/10};
+const getTopicMastery=(topicId,progress)=>computeMastery(getQuestionBank(topicId),progress);
+const getGlobalMastery=progress=>computeMastery(topics.flatMap(topic=>getQuestionBank(topic.id)),progress);
 
 function App(){
  const [page,setPage]=useState("home"),[mobile,setMobile]=useState(false);
  const [testConfig,setTestConfig]=useState({count:30,mode:"smart",topicId:0});
+ const [testEntry,setTestEntry]=useState(0);
  const [userData,setUserData]=useState(loadUserData);
  useEffect(()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(userData)),[userData]);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
+ const openTopicPicker=()=>{setTestConfig(prev=>({...prev,topicId:null}));setTestEntry(entry=>entry+1);go("test");};
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
    <button className="close" onClick={()=>setMobile(false)}><X/></button>
     <nav className="nav">{[
     ["home","Inicio",Home],["test","Hacer test",Brain],["wrong","Falladas",CircleX],["review","Repaso",RotateCcw],["progress","Mi progreso",BarChart3]
-   ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}</nav>
+   ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}<button onClick={openTopicPicker}><LayoutGrid/><span>Test por tema</span></button></nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
   <main><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
     {page==="home"&&<HomePage data={userData} onStart={config=>{setTestConfig(config);go("test")}}/>}
-    {page==="test"&&<TestPage go={go} initialConfig={testConfig} questionProgress={userData.progress} onQuestionAnswered={next=>setUserData(prev=>({...prev,progress:next}))} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
+    {page==="test"&&<TestPage key={testEntry} go={go} initialConfig={testConfig} questionProgress={userData.progress} onQuestionAnswered={next=>setUserData(prev=>({...prev,progress:next}))} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
    {page==="review"&&<ReviewPage go={go}/>}
     {page==="progress"&&<ProgressPage data={userData}/>}
     {page==="wrong"&&<EmptyDataPage title="Preguntas falladas" message="Aquí aparecerán las preguntas que respondas incorrectamente." go={go}/>}
@@ -159,7 +165,8 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
  };
 
  if(selectedTopicId===null){
-    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small><div className="topicMastery"><div><span>Dominio global</span><b>0%</b></div><i><em style={{width:"0%"}}/></i></div></button>{topics.map(topic=>{const questionCount=getQuestionBank(topic.id).length;const available=questionCount||getPdfUrl(topic.id);const mastery=getTopicMastery(topic.id,questionProgress);return <button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{available?(questionCount?`${questionCount} preguntas`:"Preguntas disponibles"):"Próximamente"}</small>{available&&<div className="topicMastery"><div><span>Dominio</span><b>{mastery}%</b></div><i><em style={{width:`${mastery}%`}}/></i></div>}</button>})}</div></div>;
+    const globalMastery=getGlobalMastery(questionProgress);
+    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small><div className="topicMastery"><div><span>Dominio global</span><b>{globalMastery}%</b></div><i><em style={{width:`${globalMastery}%`}}/></i></div></button>{topics.map(topic=>{const questionCount=getQuestionBank(topic.id).length;const available=questionCount||getPdfUrl(topic.id);const mastery=getTopicMastery(topic.id,questionProgress);return <button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{available?(questionCount?`${questionCount} preguntas`:"Preguntas disponibles"):"Próximamente"}</small>{available&&<div className="topicMastery"><div><span>Dominio</span><b>{mastery}%</b></div><i><em style={{width:`${mastery}%`}}/></i></div>}</button>})}</div></div>;
  }
 
  if(loading){

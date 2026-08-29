@@ -23,7 +23,10 @@ export const createInitialQuestionProgress = () => ({
 });
 
 export function getQuestionId(question, index = 0) {
-  return String(question.id ?? question.number ?? `${question.tema ?? question.topicId ?? "pregunta"}-${index}`);
+  const topic = question.topicId ?? question.tema ?? question.topic;
+  const base = question.id ?? question.number ?? index;
+  // el tema forma parte de la clave: temas distintos reutilizan los mismos ids numéricos
+  return topic == null ? String(base) : `${topic}-${base}`;
 }
 
 export function getQuestionTopic(question) {
