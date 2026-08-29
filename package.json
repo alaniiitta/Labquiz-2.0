@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "lucide-react": "latest",
+    "@vitejs/plugin-react": "6.1.1",
+    "lucide-react": "1.35.0",
     "pdfjs-dist": "^6.2.108",
-    "react": "latest",
-    "react-dom": "latest",
-    "vite": "latest"
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "vite": "8.2.2"
   }
 }
