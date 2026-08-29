@@ -5,7 +5,7 @@ import "./styles.css";
 
 import questionBank from "./questions";
 import {parsePdfQuestions} from "./pdfPipeline.js";
-import {getQuestionIdForProgress,recordQuestionAnswer,selectQuestionsByMode,shuffleQuestionOptions} from "./smartQuestionSelector.js";
+import {getQuestionIdForProgress,isQuestionCurrentlyFailed,recordQuestionAnswer,selectQuestionsByMode,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 
@@ -192,8 +192,8 @@ function ProgressPage({data}){const accuracy=data.answered?Math.round(data.corre
 function EmptyDataPage({title,message,go}){return <div className="emptyPage"><div className="emptyIcon"><History/></div><h2>{title}</h2><p>{message}</p><button className="primary" onClick={()=>go("test")}><Play/> Empezar test</button></div>}
 
 function WrongPage({data,onStart,go}){
- // una pregunta cuenta como fallada mientras vecesFallada>0, igual que el modo "Preguntas falladas" del test
- const failedCount=topics.reduce((sum,topic)=>sum+getQuestionBank(topic.id).filter(question=>data.progress[getQuestionIdForProgress(question)]?.vecesFallada>0).length,0);
+ // sigue "fallada" mientras el último intento haya sido incorrecto; se corrige al acertarla de nuevo
+ const failedCount=topics.reduce((sum,topic)=>sum+getQuestionBank(topic.id).filter(question=>isQuestionCurrentlyFailed(data.progress[getQuestionIdForProgress(question)])).length,0);
  if(!failedCount) return <EmptyDataPage title="Preguntas falladas" message="Aquí aparecerán las preguntas que respondas incorrectamente." go={go}/>;
  return <div><div className="reviewHero"><h2>Preguntas falladas</h2><p>Tienes {failedCount} preguntas falladas pendientes de reforzar.</p><button className="primary" onClick={()=>onStart({count:30,mode:"failed",topicId:0})}><Play/> Hacer test de falladas</button></div></div>;
 }

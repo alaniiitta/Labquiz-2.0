@@ -126,10 +126,15 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
   return shuffle(selected.map((item) => item.question), random);
 }
 
+// sigue "fallada" mientras el último intento haya sido incorrecto; se corrige al acertarla de nuevo
+export function isQuestionCurrentlyFailed(state = createInitialQuestionProgress()) {
+  return state.vecesFallada > 0 && (!state.ultimaVezAcertada || state.ultimaVezFallada > state.ultimaVezAcertada);
+}
+
 export function selectQuestionsByMode(allQuestions = [], userProgress = {}, count = 30, mode = "smart", topicFilter = null, random = Math.random, now = Date.now()) {
   const eligible = allQuestions.filter((question, index) => {
     const state = userProgress[getQuestionId(question, index)] ?? createInitialQuestionProgress();
-    if (mode === "failed") return state.vecesFallada > 0;
+    if (mode === "failed") return isQuestionCurrentlyFailed(state);
     if (mode === "new") return state.vecesVista === 0;
     if (mode === "review") return state.vecesVista > 0 && (!state.fechaProximoRepaso || state.fechaProximoRepaso <= now);
     return true;
