@@ -1,0 +1,4309 @@
+{
+  "tema": "19",
+  "titulo": "Genética",
+  "source_file": "Test tema 19 genética (respuestas).pdf",
+  "total_questions": 331,
+  "questions": [
+    {
+      "id": 1,
+      "question": "En la mitosis, ¿en qué fase el centrómero se separa en dos y cada cromática hermana se dirige a un polo opuesto?:",
+      "options": {
+        "A": "Telofase.",
+        "B": "Anafase.",
+        "C": "Profase.",
+        "D": "Metafase."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Anafase."
+    },
+    {
+      "id": 2,
+      "question": "¿En qué fase se produce la replicación del ADN?:",
+      "options": {
+        "A": "Fase G2.",
+        "B": "Fase G1.",
+        "C": "Fase M.",
+        "D": "Fase S."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Fase S."
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de las siguientes bases nucleótidas no forma parte del ADN?:",
+      "options": {
+        "A": "Adenina.",
+        "B": "Uracilo.",
+        "C": "Guanina.",
+        "D": "Timina."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Uracilo."
+    },
+    {
+      "id": 4,
+      "question": "Se denominan intrones a:",
+      "options": {
+        "A": "Secuencia de tres nucleótidos en la cadena de ARNm.",
+        "B": "Triplete del ARNt.",
+        "C": "Secuencias sin codificar de una secuencia de nucleótidos.",
+        "D": "Regiones de un gen que no son separadas del ARN maduro."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Secuencias sin codificar de una secuencia de nucleótidos."
+    },
+    {
+      "id": 5,
+      "question": "La técnica de la PCR se basa en:",
+      "options": {
+        "A": "Replicación in situ del ARN.",
+        "B": "Multiplicación in vitro de ADN mediante replicación bacteriana.",
+        "C": "Replicación in vitro del ADN, sin vectores ni replicación bacteriana.",
+        "D": "Multiplicación de fragmento de ADN a través de vectores."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Replicación in vitro del ADN, sin vectores ni replicación bacteriana."
+    },
+    {
+      "id": 6,
+      "question": "Cuando el producto de la amplificación es usado como molde para una segunda amplificación, se conoce como técnica:",
+      "options": {
+        "A": "PCR in situ.",
+        "B": "PCR multiplex.",
+        "C": "PCR anidada.",
+        "D": "RT-PCR."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "PCR anidada."
+    },
+    {
+      "id": 7,
+      "question": "Entre los estudios de fertilidad, se quiere estudiar si el hombre tiene espermatocitos que no llegan a ser espermatozoides, por lo que es estéril (XXY). Esto se conoce como:",
+      "options": {
+        "A": "Síndrome de Klinefelter.",
+        "B": "Alteraciones morfológicas.",
+        "C": "Alteraciones en la cantidad de ADN.",
+        "D": "Alteración química."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Síndrome de Klinefelter."
+    },
+    {
+      "id": 8,
+      "question": "Los espermatozoides son considerados como célula:",
+      "options": {
+        "A": "Diploide.",
+        "B": "Haploide.",
+        "C": "Cigota.",
+        "D": "Células con 46 cromosomas."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Haploide."
+    },
+    {
+      "id": 9,
+      "question": "Durante la formación de las células sexuales, el periodo entre la primera y la segunda división de la meiosis se denomina:",
+      "options": {
+        "A": "Profase II.",
+        "B": "Intercinesis.",
+        "C": "Metafase II.",
+        "D": "Anafase II."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Intercinesis."
+    },
+    {
+      "id": 10,
+      "question": "¿En qué fase de la división meiótica se produce la división de las dos células en cuatro?:",
+      "options": {
+        "A": "Anafase II.",
+        "B": "Profase II.",
+        "C": "Telofase II.",
+        "D": "Metafase II."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Telofase II."
+    },
+    {
+      "id": 11,
+      "question": "¿Cómo se denominan los cromosomas que llevan el mismo tipo de genes?:",
+      "options": {
+        "A": "Cromosomas heterólogos.",
+        "B": "Cromosomas homólogos.",
+        "C": "Diploides.",
+        "D": "Haploides."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Cromosomas homólogos."
+    },
+    {
+      "id": 12,
+      "question": "La definición de Individuo Homocigótico es:",
+      "options": {
+        "A": "Individuo que tiene dos alelos iguales, cada uno localizado en uno de los dos cromosomas homólogos.",
+        "B": "Individuo que tiene un alelo igual, cada uno localizado en uno de los dos cromosomas homólogos.",
+        "C": "A y B son correctas.",
+        "D": "Individuo que tiene los dos alelos distintos en los respectivos cromosomas homólogos."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Individuo que tiene dos alelos iguales, cada uno localizado en uno de los dos cromosomas homólogos."
+    },
+    {
+      "id": 13,
+      "question": "¿Para qué se utiliza la técnica de Southern Blot?:",
+      "options": {
+        "A": "Se utiliza para la desnaturalización de DNA.",
+        "B": "Se utiliza para marcar las sondas del DNA.",
+        "C": "Se utiliza para fijar el DNA.",
+        "D": "Se utiliza para la localizar determinadas secuencias en el DNA génomico."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Se utiliza para la localizar determinadas secuencias en el DNA génomico."
+    },
+    {
+      "id": 14,
+      "question": "En el análisis de la expresión génica, ¿quién hace de intermediario entre un gen y una proteína?:",
+      "options": {
+        "A": "El DNA.",
+        "B": "El RNA.",
+        "C": "El RNA mensajero (mRNA).",
+        "D": "Todas son falsas."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "El RNA mensajero (mRNA)."
+    },
+    {
+      "id": 15,
+      "question": "Al exceso o pérdida de uno o más cromosomas, se denomina:",
+      "options": {
+        "A": "Deleciones.",
+        "B": "Aneuplodías.",
+        "C": "Translocaciones.",
+        "D": "Transposición robertsoniana."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Aneuplodías."
+    },
+    {
+      "id": 16,
+      "question": "El Síndrome de Down:",
+      "options": {
+        "A": "Se denomina también “Trisomía 21”.",
+        "B": "Su cromosoma extra es el más pequeño de los cromosomas autosómicos.",
+        "C": "Se pueden deber a translocaciones robertsonianas y mosaicismo.",
+        "D": "Todas son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 17,
+      "question": "Para el estudio del cariotipo, se realiza la determinación en sangre total, utilizando como anticoagulante:",
+      "options": {
+        "A": "EDTA.",
+        "B": "Heparina de Litio.",
+        "C": "Citrato sódico.",
+        "D": "Oxalato potásico"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Heparina de Litio."
+    },
+    {
+      "id": 18,
+      "question": "El aparato que mantiene la temperatura necesaria en cada etapa del ciclo de la PCR se llama:",
+      "options": {
+        "A": "Densitómetro.",
+        "B": "Gasometría.",
+        "C": "Termociclador.",
+        "D": "Tensiómetro."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Termociclador."
+    },
+    {
+      "id": 19,
+      "question": "¿Cómo se llama, cuando la mutación afecta a un solo gen?:",
+      "options": {
+        "A": "Mutación génica.",
+        "B": "Mutación cromosómica.",
+        "C": "Mutación genómicas.",
+        "D": "Todas son falsas."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Mutación génica."
+    },
+    {
+      "id": 20,
+      "question": "La técnica de reacción en cadena de la Polimerasa tiene por objetivo:",
+      "options": {
+        "A": "Encadenar entre sí diferentes fragmentos de DNA.",
+        "B": "Amplificar una secuencia específica de DNA.",
+        "C": "Eliminar determinadas secuencias del RNA.",
+        "D": "Facilitar la acción de enzimas de restricción."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Amplificar una secuencia específica de DNA."
+    },
+    {
+      "id": 21,
+      "question": "Para realizar la extracción del ácido nucleico (purificación de ácidos nucleicos), hay que seguir un orden:",
+      "options": {
+        "A": "1º desproteinizar, 2º lisar la célula y 3º comprobar la efectividad de la desproteinización.",
+        "B": "1º lisar la célula, 2º desproteinizar y 3º comprobar la efectividad de la desproteinización.",
+        "C": "1º desproteinizar, 2º comprobar la efectividad de la desproteinización y lisar la célula.",
+        "D": "El orden es indistinto."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "1º lisar la célula, 2º desproteinizar y 3º comprobar la efectividad de la desproteinización."
+    },
+    {
+      "id": 22,
+      "question": "En biología molecular, se conoce como astringencia:",
+      "options": {
+        "A": "Al grado de interés o afinidad del ácido nucleico diana por sus cebadores.",
+        "B": "Al grado de interés o afinidad de la sonda por su ácido nucleico diana.",
+        "C": "Al grado de radioactividad no fijada mediante solución de lavado.",
+        "D": "Al grado de hibridación a través de las diferentes fuerzas iónicas."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Al grado de interés o afinidad de la sonda por su ácido nucleico diana."
+    },
+    {
+      "id": 23,
+      "question": "En biología molecular, los cebadores:",
+      "options": {
+        "A": "Son oligonucleótidos que hibridan con el ADN desnaturalizado.",
+        "B": "Son necesarios 2 por PCR, cada uno complementario a una cadena.",
+        "C": "Siempre se encuentran en exceso de concentración para favorecer el proceso.",
+        "D": "Todas son ciertas."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 24,
+      "question": "El cromosoma 16 es:",
+      "options": {
+        "A": "Acrocéntrico.",
+        "B": "Metacéntrico.",
+        "C": "Submetacéntrico.",
+        "D": "Telomérico."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Submetacéntrico."
+    },
+    {
+      "id": 25,
+      "question": "En los cultivos celulares, la adición de colchicina a las células tiene como finalidad:",
+      "options": {
+        "A": "Eliminar los hematíes.",
+        "B": "Inducir la división celular.",
+        "C": "Actuar como agente microbiano.",
+        "D": "Detener el proceso de división celular en metafase."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Detener el proceso de división celular en metafase."
+    },
+    {
+      "id": 26,
+      "question": "El uso de una solución hipotónica en la preparación de las muestras citogenética es necesario para:",
+      "options": {
+        "A": "Producir el hinchamiento de las células en metafase y dispersar los cromosomas.",
+        "B": "Liberar los cromosomas de las células.",
+        "C": "Actuar como inhibidor mitótico.",
+        "D": "Acelerar el proceso mitótico."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Producir el hinchamiento de las células en metafase y dispersar los cromosomas."
+    },
+    {
+      "id": 27,
+      "question": "La fase S del ciclo celular se completa por los siguientes sucesos EXCEPTO:",
+      "options": {
+        "A": "El contenido en histonas por célula, es el doble al de la célula en fase G1.",
+        "B": "Cada cromosoma replicado tiene cuatro telómeros.",
+        "C": "Las cromátidas hermanas se separan.",
+        "D": "El contenido de ADN es el equivalente al doble de la fase G1."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Las cromátidas hermanas se separan."
+    },
+    {
+      "id": 28,
+      "question": "Qué es falso sobre el array CGH:",
+      "options": {
+        "A": "Tiene una resolución muchísimo mayor que la de un cariotipo de alta resolución por bandeo G.",
+        "B": "La mayoría de las plataformas de arrays se diseñan para detectar aneuploidías, síndromes de microdelección y microduplicación así como rearreglos subteloméricos desbalanceados.",
+        "C": "También se le ha llamado cariotipo molecular.",
+        "D": "Son necesarios cromosomas metafásicos para su realización."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Son necesarios cromosomas metafásicos para su realización."
+    },
+    {
+      "id": 29,
+      "question": "En la amplificación del ADN por la reacción en cadena de la polimerasa (PCR) los cebadores (primers) sirven:",
+      "options": {
+        "A": "Para definir la secuencia que queremos amplificar.",
+        "B": "Para determinar el tamaño del fragmento a amplificar.",
+        "C": "Como cebo para que comience la extensión la ADN polimerasa.",
+        "D": "Todas las anteriores."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 30,
+      "question": "Si un cigoto es resultado de la unión de un gameto normal con un gameto anómalo, en el que durante la meiosis II no se ha separado un cromosoma. ¿Qué término describiría mejor a dicho cigoto?:",
+      "options": {
+        "A": "Diploide.",
+        "B": "Haploide.",
+        "C": "Aneuploide.",
+        "D": "Poliploide"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Aneuploide."
+    },
+    {
+      "id": 31,
+      "question": "Francisco es un niño afecto de fenilcetonuria, enfermedad autosómico recesiva debida a mutaciones del gen de la fenilalanina hidroxilasa. ¿Qué posibilidades tienen sus padres de tener otro hijo afecto de dicha enfermedad?:",
+      "options": {
+        "A": "Un 50% independientemente del sexo de los hijos.",
+        "B": "Un 25% independientemente del sexo de los hijos.",
+        "C": "Un 50% de los niños y un 25% de las niñas.",
+        "D": "Un 50% de las niñas y un 25% de los niños."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Un 25% independientemente del sexo de los hijos."
+    },
+    {
+      "id": 32,
+      "question": "En una mutación, las delecciones suponen:",
+      "options": {
+        "A": "Mecanismos genéticos aberrantes que implican a varias secuencias de ADN (de naturaleza alélica o no).",
+        "B": "La eliminación en una secuencia de uno o más nucleótidos.",
+        "C": "Que uno o más nucleótidos son insertados dentro de una secuencia.",
+        "D": "Que una pirimidina es sustituida por una purina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "La eliminación en una secuencia de uno o más nucleótidos."
+    },
+    {
+      "id": 33,
+      "question": "Señale la RESPUESTA CORRECTA:",
+      "options": {
+        "A": "Las células germinales se dividen por meiosis seguida de mitosis.",
+        "B": "Las células somáticas se dividen por meiosis.",
+        "C": "En la meiosis I se reduce a la mitad el número de cromosomas.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "En la meiosis I se reduce a la mitad el número de cromosomas."
+    },
+    {
+      "id": 34,
+      "question": "¿Qué es un cariotipo?:",
+      "options": {
+        "A": "Es el cromosoma X.",
+        "B": "Es lo mismo que un nucleosoma.",
+        "C": "Es la constitución cromosómica de un individuo.",
+        "D": "Es la región más estrecha de un cromosoma."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Es la constitución cromosómica de un individuo."
+    },
+    {
+      "id": 35,
+      "question": "¿Qué es un alelo?:",
+      "options": {
+        "A": "Es una secuencia de ADN situada en un locus.",
+        "B": "Es lo mismo que un cromosoma homólogo.",
+        "C": "Es una célula poliploide.",
+        "D": "Es la posición definida ocupada por un gen en ambos cromosomas homólogos."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Es una secuencia de ADN situada en un locus."
+    },
+    {
+      "id": 36,
+      "question": "¿Qué secuencia es la CORRECTA respecto a la extracción directa de ADN?:",
+      "options": {
+        "A": "Lisis de células, lavado y elución.",
+        "B": "Lavado, lisis de células y elución.",
+        "C": "Elución, lisis de células y lavado.",
+        "D": "Elución, lisis, evaporación y lavado."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Lisis de células, lavado y elución."
+    },
+    {
+      "id": 37,
+      "question": "En la electroforesis tipo Southern se separan fragmentos de:",
+      "options": {
+        "A": "ARN.",
+        "B": "ADN.",
+        "C": "Sondas.",
+        "D": "Virus."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "ADN."
+    },
+    {
+      "id": 38,
+      "question": "¿Cuál es un método de tinción de cromosomas?:",
+      "options": {
+        "A": "Bandeo A.",
+        "B": "Tinción NUR.",
+        "C": "Hibridación in situ fluorescente.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Hibridación in situ fluorescente."
+    },
+    {
+      "id": 39,
+      "question": "¿Cuál de las siguientes opciones se corresponde con una euploidía?:",
+      "options": {
+        "A": "46, XY.",
+        "B": "45, XO.",
+        "C": "69, XO.",
+        "D": "47, XXY."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "46, XY."
+    },
+    {
+      "id": 40,
+      "question": "Estudiando un cariotipo con bandas G, observamos que uno de los cromosomas 22 tiene unos satélites de tamaño inusual. Para poder estudiar esta región, la mejor tinción sería:",
+      "options": {
+        "A": "Bandas Q.",
+        "B": "Bandas de replicación.",
+        "C": "Bandas NOR.",
+        "D": "Bandas R."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Bandas NOR."
+    },
+    {
+      "id": 41,
+      "question": "Señale de entre las siguientes fórmulas, la que se corresponde con la fórmula cromosómica del Síndrome de Klinefelter:",
+      "options": {
+        "A": "47, XXY",
+        "B": "47, XYY",
+        "C": "45, XO",
+        "D": "47, XXX"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "47, XXY"
+    },
+    {
+      "id": 42,
+      "question": "Señale la técnica que tiñe específicamente las regiones centroméricas de cada cromosoma y otras regiones que contienen heterocromatina constitutiva:",
+      "options": {
+        "A": "Bandas C",
+        "B": "Bandas G",
+        "C": "Bandas R",
+        "D": "Bandas Q"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Bandas C"
+    },
+    {
+      "id": 43,
+      "question": "¿Cuál sería la secuencia correcta del ciclo de ampliación de una P.C.R?:",
+      "options": {
+        "A": "Hibridación, desnaturalización y extensión.",
+        "B": "Extensión, hibridación y desnaturalización.",
+        "C": "Desnaturalización, hibridación y extensión.",
+        "D": "Extensión, desnaturalización e hibridación."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Desnaturalización, hibridación y extensión."
+    },
+    {
+      "id": 44,
+      "question": "La hibridación es una característica fundamental de la tecnología del ADN, y se utiliza para identificar una fracción o segmento de ADN. Se basa en:",
+      "options": {
+        "A": "Las propiedades de apareamiento del ADN.",
+        "B": "La diferenciación de genes entre sí.",
+        "C": "La detección y localización de la radioactividad.",
+        "D": "La transferencia de un gel semisólido a una membrana de nitrocelulosa."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Las propiedades de apareamiento del ADN."
+    },
+    {
+      "id": 45,
+      "question": "¿Cuál es la enzima encargada de catalizar la incorporación de dNTP a la cadena de DNA que se va sintetizando en la PCR?:",
+      "options": {
+        "A": "ECA.",
+        "B": "Catalasa.",
+        "C": "Polimerasa DNA.",
+        "D": "Taq DNA polimerasa."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Taq DNA polimerasa."
+    },
+    {
+      "id": 46,
+      "question": "La reacción en cadena de la polimerasa permite:",
+      "options": {
+        "A": "Obtener muchas réplicas de un segmento de ARN seleccionado.",
+        "B": "Obtener muchas réplicas de un segmento de ADN seleccionado.",
+        "C": "Diferenciar los genes entre sí.",
+        "D": "El análisis de grandes cantidades de genes."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Obtener muchas réplicas de un segmento de ADN seleccionado."
+    },
+    {
+      "id": 47,
+      "question": "El cambio en la secuencia del ADN, puede deberse por el proceso propio de replicación o por la presencia de agentes mutágenos. A este cambio en la secuencia del ADN se le conoce como:",
+      "options": {
+        "A": "Mutación.",
+        "B": "Lesión.",
+        "C": "Degeneración.",
+        "D": "Traducción"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Mutación."
+    },
+    {
+      "id": 48,
+      "question": "El síndrome de cromosoma X Frágil se produce por un aumento del número de copias del triplete:",
+      "options": {
+        "A": "CTG",
+        "B": "CGG",
+        "C": "CAG",
+        "D": "GAA"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "CGG"
+    },
+    {
+      "id": 49,
+      "question": "Un cigoto es resultado de la unión de un gameto normal con un gameto anómalo, en el que durante la meiosis II no se ha separado un cromosoma. ¿Qué término describiría mejor a dicho cigoto?:",
+      "options": {
+        "A": "Diploide",
+        "B": "Haploide",
+        "C": "Aneuploide",
+        "D": "Poliploide."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Aneuploide"
+    },
+    {
+      "id": 50,
+      "question": "Las estructuras especializadas localizadas al final de los cromosomas se conocen como:",
+      "options": {
+        "A": "Telómero",
+        "B": "Centrómero",
+        "C": "Kinetocoro",
+        "D": "Acrosoma"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Telómero"
+    },
+    {
+      "id": 51,
+      "question": "¿Cuál de las siguientes técnicas es adecuada para el estudio de trisomías en líquido amniótico?:",
+      "options": {
+        "A": "FISH",
+        "B": "Cariotipo",
+        "C": "QF-PCR",
+        "D": "Todas son ciertas"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas"
+    },
+    {
+      "id": 52,
+      "question": "Hablamos de hemicigosis cuando:",
+      "options": {
+        "A": "Hay dos copias de cada cromosoma único por cada célula.",
+        "B": "Presencia de un cromosoma solamente o de un segmento de cromosoma en vez de los dos normales.",
+        "C": "Los dos alelos en un locus son diferentes.",
+        "D": "Los dos alelos están en un locus al mismo tiempo."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Presencia de un cromosoma solamente o de un segmento de cromosoma en vez de los dos normales."
+    },
+    {
+      "id": 53,
+      "question": "La anomalía cromosómica estructural denominada isocromosoma se describe como:",
+      "options": {
+        "A": "Pequeños elementos supernumerarios.",
+        "B": "Transferencia de un segmento delecionado de un cromosoma a otro.",
+        "C": "Translocación donde se produce la fusión de dos cromosomas acrocéntricos.",
+        "D": "Pérdida completa de un brazo de un cromosoma y duplicación del otro brazo."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Pérdida completa de un brazo de un cromosoma y duplicación del otro brazo."
+    },
+    {
+      "id": 54,
+      "question": "Indique la fórmula cromosómica del síndrome Klinefelter:",
+      "options": {
+        "A": "47,XYY.",
+        "B": "47,XXY.",
+        "C": "69,XXY",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "47,XXY."
+    },
+    {
+      "id": 55,
+      "question": "¿Cuál es la definición correcta de la penetrancia de un genotipo?:",
+      "options": {
+        "A": "Es la probabilidad de que se presente un determinado fenotipo.",
+        "B": "Es el grado de manifestación fenotípico o expresividad.",
+        "C": "Es la proporción del genotipo que se transmite a lo largo de Ias generaciones.",
+        "D": "Es la manifestación temprana de una enfermedad congénita"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Es la probabilidad de que se presente un determinado fenotipo."
+    },
+    {
+      "id": 56,
+      "question": "La PCR anidada:",
+      "options": {
+        "A": "No aumenta la sensibilidad pero sí la especificidad de la PCR.",
+        "B": "Presenta un bajo índice de contaminación.",
+        "C": "Se suele confirmar la identidad del producto amplificado hibridándolo con una sonda de ácido nucleico.",
+        "D": "Emplea tres pares de cebadores y tres rondas de PCR."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Presenta un bajo índice de contaminación."
+    },
+    {
+      "id": 57,
+      "question": "¿Cuál de los siguientes tipos de tubos no deben utilizarse para pruebas de PCR (reacción en cadena de la polimerasa)?:",
+      "options": {
+        "A": "EDTA",
+        "B": "Citrato sódico",
+        "C": "Heparina de litio",
+        "D": "Tubo con gel separador"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Heparina de litio"
+    },
+    {
+      "id": 58,
+      "question": "La transferencia de moléculas de ADN separadas mediante electroforesis desde un gel a una membrana de material absorbente, que luego serán puestas en contacto con una sonda marcada, se conoce como:",
+      "options": {
+        "A": "Técnica de Southern",
+        "B": "Técnica de Northern",
+        "C": "Técnica de Western",
+        "D": "Técnica de Eastern"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Técnica de Southern"
+    },
+    {
+      "id": 59,
+      "question": "El concepto de PCR anidada (nested PCR) se refiere a:",
+      "options": {
+        "A": "Amplificar un fragmento de DNA que se encuentra entre dos exones",
+        "B": "Amplificar un fragmento de DNA que se encuentra entre un exón y un intrón",
+        "C": "Reamplificar un fragmento de DNA que se ha obtenido por una PCR previa",
+        "D": "Amplificar un fragmento de DNA que se encuentra dentro de un mismo exón"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Reamplificar un fragmento de DNA que se ha obtenido por una PCR previa"
+    },
+    {
+      "id": 60,
+      "question": "El término PCR múltiple (multiplex PCR) se refiere a:",
+      "options": {
+        "A": "Ampliación simultánea de distintos fragmentos de ADN en distintos tubos al mismo tiempo.",
+        "B": "Ampliación simultánea de distintos fragmentos de ADN de distintos pacientes en un mismo tubo.",
+        "C": "Ampliación simultánea de distintos fragmentos de ADN de distintos pacientes en distintos tubos.",
+        "D": "Ampliación simultánea de distintos fragmentos de un mismo ADN con distintos cebadores en un mismo tubo."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Ampliación simultánea de distintos fragmentos de un mismo ADN con distintos cebadores en un mismo tubo."
+    },
+    {
+      "id": 61,
+      "question": "El mecanismo de acción de la transcriptasa inversa es:",
+      "options": {
+        "A": "Sintetiza DNA a partir de RNA.",
+        "B": "Sintetiza DNA de doble hebra a partir de DNA de hebra sencilla.",
+        "C": "Sintetiza RNA a partir de DNA.",
+        "D": "Sintetiza la hebra retrasada mediante los denominados fragmentos de Okazaki."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Sintetiza DNA a partir de RNA."
+    },
+    {
+      "id": 62,
+      "question": "¿Cuál de las siguientes técnicas usaría, preferentemente, para separar fragmentos de DNA?",
+      "options": {
+        "A": "Cromatografía",
+        "B": "Espectrofotometría",
+        "C": "Nefelometría",
+        "D": "Electroforesis"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Electroforesis"
+    },
+    {
+      "id": 63,
+      "question": "En la amplificación de ADN por la reacción en cadena de la polimerasa (PCR) los cebadores (primers) sirven:",
+      "options": {
+        "A": "Para definir la secuencia que querernos amplificar.",
+        "B": "Para determinar el tamaño del fragmento a amplificar.",
+        "C": "Como cebo para que comience la extensión la ADN polimerasa.",
+        "D": "Todas las anteriores."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 64,
+      "question": "Respecto a la estructura molecular del ADN humano:",
+      "options": {
+        "A": "Son moléculas poco estables en condiciones extremas",
+        "B": "Las bases pirimidínicas que lo forman son la citosina y el uracilo",
+        "C": "El azúcar predominante es la ribosa",
+        "D": "La base complementaria a la citosina es la guanina"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "La base complementaria a la citosina es la guanina"
+    },
+    {
+      "id": 65,
+      "question": "Un nucleótido está formado por:",
+      "options": {
+        "A": "Un grupo fosfato-hidrogeno-base nitrogenada",
+        "B": "Base nitrogenada-pentosa",
+        "C": "Cadena lineal de ADN",
+        "D": "Un grupo fosfato-desoxirribosa-base nitrogenada"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Un grupo fosfato-desoxirribosa-base nitrogenada"
+    },
+    {
+      "id": 66,
+      "question": "Cuando el ribosoma pasa a lo largo de toda molécula de ARNm y lee el código, está realizando:",
+      "options": {
+        "A": "Traducción",
+        "B": "Replicación",
+        "C": "Transcripción",
+        "D": "Lectura"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Traducción"
+    },
+    {
+      "id": 67,
+      "question": "La posición especifica de un gen en un cromosoma se denomina:",
+      "options": {
+        "A": "Intrón",
+        "B": "Locus genético",
+        "C": "Codón",
+        "D": "Zona génica"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Locus genético"
+    },
+    {
+      "id": 68,
+      "question": "La unión de gametos que portan alelos idénticos producen genotipos:",
+      "options": {
+        "A": "Heterólogos",
+        "B": "Heterocigotos",
+        "C": "Homólogos",
+        "D": "Homocigotos"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Homocigotos"
+    },
+    {
+      "id": 69,
+      "question": "Las alteraciones en el número de cromosomas son:",
+      "options": {
+        "A": "Mutaciones génicas",
+        "B": "Mutaciones numéricas",
+        "C": "Mutaciones genómicas",
+        "D": "Mutaciones cromosómicas"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Mutaciones genómicas"
+    },
+    {
+      "id": 70,
+      "question": "El desplazamiento de un segmento de un cromosoma a un nuevo lugar en el genoma se denomina:",
+      "options": {
+        "A": "Sitio frágil",
+        "B": "Traslocación",
+        "C": "Delección",
+        "D": "Deyección"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Traslocación"
+    },
+    {
+      "id": 71,
+      "question": "Defina cariotipo:",
+      "options": {
+        "A": "Distribución ordenada de los cromosomas en anafase.",
+        "B": "Distribución ordenada de los cromosomas en profase.",
+        "C": "Distribución ordenada de los cromosomas en telofase.",
+        "D": "Distribución ordenada de los cromosomas en metafase."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Distribución ordenada de los cromosomas en metafase."
+    },
+    {
+      "id": 72,
+      "question": "Qué Iey dice: todos los descendientes resultantes del cruce de dos razas puras tienen el mismo fenotipo:",
+      "options": {
+        "A": "Primera Ley de Mendel",
+        "B": "Segunda Ley de Mendel",
+        "C": "Tercera Ley de Mendel",
+        "D": "No es una Ley de Mendel"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Primera Ley de Mendel"
+    },
+    {
+      "id": 73,
+      "question": "La trisomía del par 18 se conoce como Síndrome de:",
+      "options": {
+        "A": "Turner",
+        "B": "Edwars",
+        "C": "Klinefelter",
+        "D": "Patau"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Edwars"
+    },
+    {
+      "id": 74,
+      "question": "Que sustancia es utilizada en la visualización de ADN, en gel de agarosa:",
+      "options": {
+        "A": "Bromuro de Etidio",
+        "B": "Hidruro de Mercurio",
+        "C": "Hidruro de Etidio",
+        "D": "Bromuro de Mercurio"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Bromuro de Etidio"
+    },
+    {
+      "id": 75,
+      "question": "La PCR (reacción en cadena de la polimerasa) tiene como fin:",
+      "options": {
+        "A": "Encadenar fragmentos específicos de ADN",
+        "B": "Eliminar alguna secuencia de ARN",
+        "C": "Encadenar fragmentos específicos de ARN",
+        "D": "Amplificar una secuencia específica de ADN"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Amplificar una secuencia específica de ADN"
+    },
+    {
+      "id": 76,
+      "question": "Cuál de las siguientes bases es pirimidínica:",
+      "options": {
+        "A": "Citosina",
+        "B": "Guanina",
+        "C": "Adenina",
+        "D": "Todas son pirimidinicas"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Citosina"
+    },
+    {
+      "id": 77,
+      "question": "El síndrome de cromosoma X Frágil es debido a:",
+      "options": {
+        "A": "Una deleción intersticial.",
+        "B": "Alteración en el cromosoma Y.",
+        "C": "Translocación robertsoniana.",
+        "D": "Una mutación dinámica, expansión del triplete citosina-guanina-guanina (CGG)."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Una mutación dinámica, expansión del triplete citosina-guanina-guanina (CGG)."
+    },
+    {
+      "id": 78,
+      "question": "EI objetivo de la PCR (reacción en cadena de la polimerasa) es:",
+      "options": {
+        "A": "Encadenar fragmentos específicos de ADN.",
+        "B": "Eliminar alguna secuencia de ARN.",
+        "C": "Encadenar fragmentos específicos de ARN.",
+        "D": "Amplificar una secuencia específica de ADN."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Amplificar una secuencia específica de ADN."
+    },
+    {
+      "id": 79,
+      "question": "Cuando visualizamos un cariograma en el laboratorio con fórmula 47, XXY indica que se trata de:",
+      "options": {
+        "A": "Un varón con Síndrome de Down.",
+        "B": "Un Síndrome de Edwards.",
+        "C": "Un Síndrome de Klinefelter.",
+        "D": "Un Síndrome de Turner."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Un Síndrome de Klinefelter."
+    },
+    {
+      "id": 80,
+      "question": "En la técnica de obtención de ADN \"Fenol/cloroformo/isoamilalcohol\" los ácidos nucleicos NO se disuelven en:",
+      "options": {
+        "A": "Etanol.",
+        "B": "Fenol.",
+        "C": "Propanol.",
+        "D": "Benceno."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Fenol."
+    },
+    {
+      "id": 81,
+      "question": "La técnica de la reacción en cadena de la polimerasa tiene como fin:",
+      "options": {
+        "A": "Encadenar fragmentos de ADN.",
+        "B": "Amplificar una secuencia específica de ADN.",
+        "C": "Eliminar alguna secuencia de RNA.",
+        "D": "Encadenar fragmentos de ARN."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Amplificar una secuencia específica de ADN."
+    },
+    {
+      "id": 82,
+      "question": "La mitosis se divide en varias etapas, dentro de ellas, la fase en la que se pueden identificar y diferenciar, mediante tinción, los cromosomas se llama:",
+      "options": {
+        "A": "Profase.",
+        "B": "Telofase.",
+        "C": "Metafase.",
+        "D": "Anafase."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Metafase."
+    },
+    {
+      "id": 83,
+      "question": "El Southern blot es una técnica que:",
+      "options": {
+        "A": "Permite identificar secuencias específicas de ARN.",
+        "B": "Permite identificar secuencias específicas de ADN.",
+        "C": "Permite identificar proteínas específicas.",
+        "D": "Permite identificar enzimas específicas."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Permite identificar secuencias específicas de ADN."
+    },
+    {
+      "id": 84,
+      "question": "¿Cuál de las siguientes bases es púrica?:",
+      "options": {
+        "A": "Adenina.",
+        "B": "Citosina.",
+        "C": "Timina.",
+        "D": "Guaramina."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Adenina."
+    },
+    {
+      "id": 85,
+      "question": "Las secuencias de nucleótidos que codifican proteínas se conocen como:",
+      "options": {
+        "A": "Codones.",
+        "B": "Intrones.",
+        "C": "Exones.",
+        "D": "Anticodones."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Exones."
+    },
+    {
+      "id": 86,
+      "question": "Señale cuál de los siguientes enunciados NO es cierto:",
+      "options": {
+        "A": "La QF-PCR es una PCR cuantitativa fluorescente.",
+        "B": "Las anomalías cromosómicas son responsables del 75% de muertes embrionarias.",
+        "C": "La técnica QF-PCR permite un diagnóstico rápido de aneuploidias utilizando la amplificación de secuencias de ADN altamente polimórficos, conocido como microsatélites.",
+        "D": "Las trisomías se producen como resultado de un fenómeno de no-disyunción en la meiosis I o II."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Las anomalías cromosómicas son responsables del 75% de muertes embrionarias."
+    },
+    {
+      "id": 87,
+      "question": "En la fase de desnaturalización en la reacción en cadena de la polimerasa, es cierto que:",
+      "options": {
+        "A": "La energía térmica rompe los puentes de hidrógeno que mantienen las dos hebras de DNA juntas a temperaturas inferiores a 93-97ºC.",
+        "B": "Se produce la unión de los cebadores oligonucleótidos a las hebras simples de la molécula de DNA molde.",
+        "C": "Se produce elevando la temperatura de la mezcla de reacción hasta aproximadamente 85ºC.",
+        "D": "Ninguna de las respuestas anteriores es cierta."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "La energía térmica rompe los puentes de hidrógeno que mantienen las dos hebras de DNA juntas a temperaturas inferiores a 93-97ºC."
+    },
+    {
+      "id": 88,
+      "question": "La técnica de la reacción en cadena de la polimerasa tiene como fin:",
+      "options": {
+        "A": "Encadenar fragmentos de ADN",
+        "B": "Eliminar algunas secuencias de RNA",
+        "C": "Amplificar una secuencia específica de ADN",
+        "D": "Encadenar fragmentos de ARN"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Amplificar una secuencia específica de ADN"
+    },
+    {
+      "id": 89,
+      "question": "De los siguientes componentes presentes en los medios de cultivos celulares para estudios citogenéticos, ¿cuál es un agente mitógeno?:",
+      "options": {
+        "A": "Solución salina",
+        "B": "Suero bovino",
+        "C": "L-glutamina",
+        "D": "Fitohematoglutinina"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Fitohematoglutinina"
+    },
+    {
+      "id": 90,
+      "question": "Para el estudio de cromosomas mediante técnicas de citogenética convencional se requiere la presencia de células en división. ¿En qué fase los cromosomas suelen ser identificados individualmente al microscopio?:",
+      "options": {
+        "A": "Anafase",
+        "B": "Telofase",
+        "C": "Metafase",
+        "D": "Prefase"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Metafase"
+    },
+    {
+      "id": 91,
+      "question": "La Hibridación Fluorescente in situ (FISH) es una técnica citogenética de marcaje de cromosomas por hibridación con sondas fluorescentes y es útil para detectar:",
+      "options": {
+        "A": "Traslocaciones",
+        "B": "Poliploidias",
+        "C": "Aneuploidias",
+        "D": "Todas las anteriores son ciertas"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son ciertas"
+    },
+    {
+      "id": 92,
+      "question": "Con respecto a la técnica de PCR en tiempo real señale la afirmación correcta:",
+      "options": {
+        "A": "La detección y amplificación de la diana se producen simultáneamente",
+        "B": "Utiliza colorantes fluorescentes que se unen preferentemente al ADN de doble hebra",
+        "C": "El producto específico amplificado tiene un pico de separación característico en su temperatura de separación prevista",
+        "D": "Todas las respuestas son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "El producto específico amplificado tiene un pico de separación característico en su temperatura de separación prevista"
+    },
+    {
+      "id": 93,
+      "question": "Cuando los dos genes del locus de cromosomas homólogos son idénticos carácter se dice que el individuo es:",
+      "options": {
+        "A": "Homocigoto",
+        "B": "Heterocigoto",
+        "C": "Hemicigoto",
+        "D": "Haploide"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Homocigoto"
+    },
+    {
+      "id": 94,
+      "question": "Sobre los cromosomas es falso que:",
+      "options": {
+        "A": "Solamente son visibles con microscopio óptico durante la meiosis.",
+        "B": "Son los encargados de la transmisión de los caracteres hereditarios.",
+        "C": "Son cada uno de los corpúsculos que existen en el núcleo de las células.",
+        "D": "Están compuestas por dos cromátidas."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Solamente son visibles con microscopio óptico durante la meiosis."
+    },
+    {
+      "id": 95,
+      "question": "¿Cuál de las siguientes alteraciones cromosómicas no es numérica?:",
+      "options": {
+        "A": "Monoploidía.",
+        "B": "Monosomía del par 18.",
+        "C": "Síndrome del maullido de gato.",
+        "D": "Síndrome XYY."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Síndrome del maullido de gato."
+    },
+    {
+      "id": 96,
+      "question": "El síndrome de Turner:",
+      "options": {
+        "A": "Es una trisomía.",
+        "B": "Los pacientes tienen fenotipo femenino y son de pequeña estatura.",
+        "C": "Su fórmula genómica es: 2 n – 1.",
+        "D": "b y c son ciertas."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "b y c son ciertas."
+    },
+    {
+      "id": 97,
+      "question": "En un ciclo de PCR, la desnaturalización tiene como finalidad:",
+      "options": {
+        "A": "Separación de la doble cadena de DNA.",
+        "B": "Alineación de los cebadores.",
+        "C": "Comenzar la síntesis de la nueva cadena.",
+        "D": "Ninguna de ellas."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Separación de la doble cadena de DNA."
+    },
+    {
+      "id": 98,
+      "question": "¿Cuál es el parámetro más importante para controlar la hibridación entre dos ácidos nucleicos?:",
+      "options": {
+        "A": "Temperatura.",
+        "B": "Concentración de formamida.",
+        "C": "Fuerza iónica.",
+        "D": "Todas son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 99,
+      "question": "Sobre el método de Northen es cierto que:",
+      "options": {
+        "A": "Permite detectar proteínas.",
+        "B": "Se utiliza para caracterizar la organización del DNA.",
+        "C": "Se utiliza para detectar moléculas de RNA mensajero y su tamaño.",
+        "D": "No existe el método de Northen."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Se utiliza para detectar moléculas de RNA mensajero y su tamaño."
+    },
+    {
+      "id": 100,
+      "question": "La técnica de la reacción en cadena de la polimerasa tiene como fin:",
+      "options": {
+        "A": "Encadenar fragmentos de ADN",
+        "B": "Eliminar algunas secuencias de RNA",
+        "C": "Amplificar una secuencia específica de ADN",
+        "D": "Encadenar fragmentos de ARN"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Amplificar una secuencia específica de ADN"
+    },
+    {
+      "id": 101,
+      "question": "El proceso mediante el cual una célula eucariota separa los cromosomas en su núcleo dando como resultado dos juegos idénticos se denomina:",
+      "options": {
+        "A": "Mitosis",
+        "B": "Meiosis",
+        "C": "Micosis",
+        "D": "Motosis"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Mitosis"
+    },
+    {
+      "id": 102,
+      "question": "La elaboración de un cariotipo humano requiere un tratamiento proteolítico de la célula a analizar y posterior tinción de la preparación, que permite la visualización de los cromosomas con su característico patrón de bandas. ¿A qué tinción nos referimos?:",
+      "options": {
+        "A": "Gram",
+        "B": "Tricrómica",
+        "C": "Giemsa",
+        "D": "Ácido-alcohol resistente"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Giemsa"
+    },
+    {
+      "id": 103,
+      "question": "Es una técnica de bandeo cromosómico fluorescente en la que se utiliza quinacrina para teñir cromosomas:",
+      "options": {
+        "A": "Bandeo Q.",
+        "B": "Bandeo R.",
+        "C": "Bandeo C.",
+        "D": "Bandeo G."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Bandeo Q."
+    },
+    {
+      "id": 104,
+      "question": "El cariotipo fetal:",
+      "options": {
+        "A": "Es una técnica incluida en el diagnóstico prenatal.",
+        "B": "Se puede realizar a partir de muestras de líquido amniótico.",
+        "C": "Estaría indicado cuando se observan anomalías ecográficas en el feto.",
+        "D": "Hay más de una respuesta correcta."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta."
+    },
+    {
+      "id": 105,
+      "question": "En el cultivo de linfocitos para la realización de un cariotipo estándar de sangre periférica, el compuesto que detiene la mitosis en metafase por destrucción de los microtúbulos del huso acromático, se denomina:",
+      "options": {
+        "A": "Cloruro magnésico.",
+        "B": "Colchicina.",
+        "C": "Cloruro potásico 0,075M.",
+        "D": "Fijador de Carnoy."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Colchicina."
+    },
+    {
+      "id": 106,
+      "question": "La relación entre la longitud del brazo corto y la longitud total del cromosoma metafásico, se denomina:",
+      "options": {
+        "A": "Índice centromérico.",
+        "B": "Índice genético.",
+        "C": "Formula cromosómica.",
+        "D": "Acrocéntrico."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Índice centromérico."
+    },
+    {
+      "id": 107,
+      "question": "En la interfase del ciclo celular, el periodo en que se replica todo el ADN celular, se denomina:",
+      "options": {
+        "A": "G1.",
+        "B": "G2.",
+        "C": "S.",
+        "D": "M."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "S."
+    },
+    {
+      "id": 108,
+      "question": "Una anomalía cromosómica estructural consistente en la pérdida de un fragmento de cromosoma y, en consecuencia, de la información genética que contenía, se denomina:",
+      "options": {
+        "A": "Translocación.",
+        "B": "Deleción.",
+        "C": "Inversión.",
+        "D": "Inserción."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Deleción."
+    },
+    {
+      "id": 109,
+      "question": "El aparato en el que se lleva a cabo la reacción en cadena de la polimerasa (PCR) se denomina:",
+      "options": {
+        "A": "Termociclador.",
+        "B": "Cromatógrafo.",
+        "C": "Polarímetro.",
+        "D": "Espectrofotómetro."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Termociclador."
+    },
+    {
+      "id": 110,
+      "question": "Señale la opción incorrecta en relación al Consejo Genético:",
+      "options": {
+        "A": "Incluye el asesoramiento en relación a las posibles alternativas derivadas del análisis o cribado genético.",
+        "B": "Procedimiento destinado a informar a una persona sobre las posibles consecuencias sobre él o ella o su descendencia de los resultados del análisis genético.",
+        "C": "Sólo tiene sentido cuando se realiza antes de la realización de una prueba o cribado genético.",
+        "D": "Puede tener cabida después de la realización de una prueba genética o incluso en ausencia de ella."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Sólo tiene sentido cuando se realiza antes de la realización de una prueba o cribado genético."
+    },
+    {
+      "id": 111,
+      "question": "La hibridación es una característica fundamental de la tecnología del ADN, y se utiliza para identificar una fracción o segmento de ADN. Se basa en:",
+      "options": {
+        "A": "Las propiedades de apareamiento del ADN.",
+        "B": "La diferenciación de genes entre sí.",
+        "C": "La detección y localización de la radioactividad.",
+        "D": "La transferencia de un gel semisólido a una membrana de nitrocelulosa."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Las propiedades de apareamiento del ADN."
+    },
+    {
+      "id": 112,
+      "question": "De entre las anomalías cromosómicas estructurales, existe una en la que se produce un intercambio de material genético entre dos fragmentos de dos cromosomas no homólogos. ¿De cuál de las siguientes se trata?:",
+      "options": {
+        "A": "Duplicación",
+        "B": "Translocación",
+        "C": "Deleción",
+        "D": "Inversión"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Translocación"
+    },
+    {
+      "id": 113,
+      "question": "La elaboración de un cariotipo humano requiere un tratamiento proteolítico de la célula a analizar y posterior tinción de la preparación, que permite la visualización de los cromosomas con su característico patrón de bandas. ¿A qué tinción nos referimos?:",
+      "options": {
+        "A": "Gram",
+        "B": "Tricrómica",
+        "C": "Giemsa",
+        "D": "Ácido-alcohol resistente"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Giemsa"
+    },
+    {
+      "id": 114,
+      "question": "El proceso mediante el cual una célula eucariota separa los cromosomas en su núcleo dando como resultado dos juegos idénticos se denomina:",
+      "options": {
+        "A": "Mitosis",
+        "B": "Meiosis",
+        "C": "Micosis",
+        "D": "Motosis"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Mitosis"
+    },
+    {
+      "id": 115,
+      "question": "¿Cómo se denomina la técnica de detección de Ag en la que las proteínas de una suspensión complejas son separadas por electroforesis, utilizando una técnica que las dispone en un gel separadas en función de su peso molecular?:",
+      "options": {
+        "A": "Reacción enzimática cromogénica",
+        "B": "Reacción complejo Ag-Ac",
+        "C": "Western Blot o inmunoblot",
+        "D": "Proteinograma"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Western Blot o inmunoblot"
+    },
+    {
+      "id": 116,
+      "question": "¿Qué es un microarray?:",
+      "options": {
+        "A": "Un ensayo de hibridación en soporte sólido.",
+        "B": "Un ensayo de hibridación en soporte líquido.",
+        "C": "Un ensayo de hibridación Nothern.",
+        "D": "Un ensayo de hibridación sin soporte específico."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Un ensayo de hibridación en soporte sólido."
+    },
+    {
+      "id": 117,
+      "question": "La alteración en el número de copias de un cromosoma, respecto al par normal, se denomina:",
+      "options": {
+        "A": "Alteración estructural.",
+        "B": "Aneuploidía.",
+        "C": "Delección.",
+        "D": "Traslocación."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Aneuploidía."
+    },
+    {
+      "id": 118,
+      "question": "Entre las aplicaciones de la técnica de PCR (polymerase chain reaction) no está:",
+      "options": {
+        "A": "Detectar alteraciones cromosómicas",
+        "B": "Detectar mutaciones genéticas.",
+        "C": "Detectar oncogenes.",
+        "D": "Detectar patógenos."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Detectar alteraciones cromosómicas"
+    },
+    {
+      "id": 119,
+      "question": "Respecto a la fluorescencia de hibridación in situ (FISH), una de las siguientes afirmaciones es incorrecta. Señálela:",
+      "options": {
+        "A": "Es una técnica citogenética de marcado de cromosomas.",
+        "B": "Los cromosomas se hibridan con sondas.",
+        "C": "Detecta variaciones en el número de copias de los genes.",
+        "D": "Permite detectar anomalías en los cromosomas."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Detecta variaciones en el número de copias de los genes."
+    },
+    {
+      "id": 120,
+      "question": "¿Cuál de los siguientes nucleótidos no forma parte del RNA?:",
+      "options": {
+        "A": "Timina.",
+        "B": "Adenina.",
+        "C": "Citosina.",
+        "D": "Guanina."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Timina."
+    },
+    {
+      "id": 121,
+      "question": "Las técnicas FISH sirven para:",
+      "options": {
+        "A": "localizar anticuerpos pegados a la membrana celular.",
+        "B": "detectar anticuerpos específicos mediante el marcaje de anticuerpos con moléculas Fluorescentes.",
+        "C": "detectar alteraciones en el DNA mediante sondas marcadas con moléculas fluorescentes.",
+        "D": "amplificación de secuencias específicas y visualización fluorescente."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "detectar alteraciones en el DNA mediante sondas marcadas con moléculas fluorescentes."
+    },
+    {
+      "id": 122,
+      "question": "La técnica conocida como western blot se usa para detectar:",
+      "options": {
+        "A": "MRNA.",
+        "B": "proteínas.",
+        "C": "DNA.",
+        "D": "metales pesados."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "proteínas."
+    },
+    {
+      "id": 123,
+      "question": "La trisomía del cromosoma 18 causa el:",
+      "options": {
+        "A": "Síndrome de Patau.",
+        "B": "Síndrome de Edwards.",
+        "C": "Síndrome de Turner.",
+        "D": "Síndrome de Klinefelter."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Síndrome de Edwards."
+    },
+    {
+      "id": 124,
+      "question": "En una paciente con cáncer de mama de inicio precoz (30 años), que tiene 2 hermanas, un hermano y una hija, se indica un estudio genético y se identifica una mutación deletérea. El estudio familiar de la madre y de la hija resulta negativo. ¿Cuál debe ser el siguiente familiar a estudiar?:",
+      "options": {
+        "A": "La hermana más joven.",
+        "B": "La hermana mayor.",
+        "C": "El padre.",
+        "D": "No es necesario seguir el estudio"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "El padre."
+    },
+    {
+      "id": 125,
+      "question": "Los microarrays cromosómicos de hibridación genómica comparada (aCGH):",
+      "options": {
+        "A": "No permiten aumentar significativamente la resolución correspondiente a un cariotipo convencional.",
+        "B": "Los diseños más utilizados en diagnóstico clínico son de 30K y de 90K.",
+        "C": "La resolución mínima recomendada es que sea capaz de detectar alteraciones de 1000Kb.",
+        "D": "Se basan en una hibridación competitiva equimolar entre el ADN de un paciente y un ADN control."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Se basan en una hibridación competitiva equimolar entre el ADN de un paciente y un ADN control."
+    },
+    {
+      "id": 126,
+      "question": "En el cultivo de células de líquido amniótico al hacer el subcultivo, para romper las uniones intercelulares y poder seleccionar un solo tipo celular, la sustancia que se añade es:",
+      "options": {
+        "A": "Colchicina.",
+        "B": "Tripsina.",
+        "C": "Quimotripsina.",
+        "D": "Proteinasa K"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Tripsina."
+    },
+    {
+      "id": 127,
+      "question": "Un asesoramiento genético correcto debe incluir:",
+      "options": {
+        "A": "Anamnesis, evaluación clínica y patológica, y árbol genealógico de al menos tres generaciones.",
+        "B": "Conocer los factores que pueden modificar la expresión clínica de las enfermedades genéticas y dificultar su reconocimiento.",
+        "C": "Estrategia racional para la confirmación molecular de la enfermedad o la detección de portadores.",
+        "D": "A, B y C son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "A, B y C son correctas."
+    },
+    {
+      "id": 128,
+      "question": "La técnica de biología molecular MLPA NO es útil para:",
+      "options": {
+        "A": "Detectar deleciones o duplicaciones de regiones genómicas determinadas.",
+        "B": "Identificar alteraciones epigenéticas.",
+        "C": "Detectar translocaciones o inversiones equilibradas.",
+        "D": "Identificar alteraciones en genes con imprinting."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Detectar translocaciones o inversiones equilibradas."
+    },
+    {
+      "id": 129,
+      "question": "El término para describir la anomalía cromosómica estructural donde existe duplicación de un brazo entero de un cromosoma con pérdida del otro brazo se denomina:",
+      "options": {
+        "A": "Inversión.",
+        "B": "Translocación.",
+        "C": "Isocromosoma.",
+        "D": "Cromosoma dicéntrico"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Isocromosoma."
+    },
+    {
+      "id": 130,
+      "question": "¿Cuál es las siguientes sustancias es una pentosa?:",
+      "options": {
+        "A": "Ribosa.",
+        "B": "Glucosa.",
+        "C": "Galactosa.",
+        "D": "Todas son ciertas."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Ribosa."
+    },
+    {
+      "id": 131,
+      "question": "Las mutaciones pueden ser:",
+      "options": {
+        "A": "Mutaciones genómicas",
+        "B": "Mutaciones cromosómicas",
+        "C": "Mutaciones génicas",
+        "D": "Todas son ciertas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 132,
+      "question": "La técnica de la PCR se utiliza para:",
+      "options": {
+        "A": "Identificar hematíes",
+        "B": "Obtener copias de un fragmento de ADN",
+        "C": "Diagnosticar anemias",
+        "D": "Todas son falsas"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Obtener copias de un fragmento de ADN"
+    },
+    {
+      "id": 133,
+      "question": "Dentro de las mutaciones cromosómicas ¿cómo se llama el aumento o disminución en el número de cromosomas?:",
+      "options": {
+        "A": "Aneuplodía",
+        "B": "Poliploidía",
+        "C": "Traslocación",
+        "D": "Deleción"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Aneuplodía"
+    },
+    {
+      "id": 134,
+      "question": "El Síndrome de Turner es una anomalía numérica de los cromosomas. Señale su fórmula cromosómica:",
+      "options": {
+        "A": "47, XXY",
+        "B": "45, X",
+        "C": "47, XY, +18",
+        "D": "47, XY, +21"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "45, X"
+    },
+    {
+      "id": 135,
+      "question": "De las técnicas de bandeo cromosómico, ¿cuál se utiliza para la identificación específica del cromosoma Y?",
+      "options": {
+        "A": "Bandeo R.",
+        "B": "Bandeo G.",
+        "C": "Bandeo Q.",
+        "D": "Bandeo A"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Bandeo Q."
+    },
+    {
+      "id": 136,
+      "question": "En una Reacción en Cadena de la Polimerasa (PCR) un factor importante para la optimización de la reacción es:",
+      "options": {
+        "A": "Cloruro de Calcio.",
+        "B": "Cloruro de Sodio.",
+        "C": "Cloruro de Magnesio.",
+        "D": "Cloruro de potasio."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Cloruro de Magnesio."
+    },
+    {
+      "id": 137,
+      "question": "Las secuencias de nucleótidos que codifican para proteínas se denominan:",
+      "options": {
+        "A": "Codones.",
+        "B": "lntrones.",
+        "C": "Exones.",
+        "D": "Anticodones"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Exones."
+    },
+    {
+      "id": 138,
+      "question": "A partir de un cultivo de linfocitos podemos obtener extensiones sobre portaobjetos de metafases. Indica las etapas correctas del proceso:",
+      "options": {
+        "A": "Sacrificio, choque hipotónico, fijación y extensión.",
+        "B": "Sacrificio, choque hipotónico, extensión y fijación.",
+        "C": "Choque hipotónico, extensión, sacrificio y fijación.",
+        "D": "Fijación, extensión, choque hipotónico y sacrificio."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Sacrificio, choque hipotónico, fijación y extensión."
+    },
+    {
+      "id": 139,
+      "question": "Con respecto a las técnicas de hibridación de Ácidos Nucleicos en soporte sólido, señale la RESPUESTA CORRECTA:",
+      "options": {
+        "A": "En la técnica basada en microchips o microarrays, lo que está unido al soporte es la sonda, no la muestra.",
+        "B": "La técnica de Southern Blot se utiliza para análisis de ARN.",
+        "C": "La técnica de Northern Blot utiliza un soporte de vidrio.",
+        "D": "En La técnica de Southern Blot lo que se marca es el ADN de la muestra y no la sonda."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "En la técnica basada en microchips o microarrays, lo que está unido al soporte es la sonda, no la muestra."
+    },
+    {
+      "id": 140,
+      "question": "Los Ácidos Nucleicos presentan un máximo de absorbancia a:",
+      "options": {
+        "A": "280 nm.",
+        "B": "260 nm",
+        "C": "340 nm.",
+        "D": "520 nm"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "260 nm"
+    },
+    {
+      "id": 141,
+      "question": "La muestra más adecuada para el cultivo de linfocitos, es sangre periférica anticoagulada con:",
+      "options": {
+        "A": "Heparina",
+        "B": "EDTA",
+        "C": "Citrato",
+        "D": "Fluoruro de Bario"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Heparina"
+    },
+    {
+      "id": 142,
+      "question": "Si un bebé nace con un cromosoma 21 de más, ¿a qué síndrome nos referimos?:",
+      "options": {
+        "A": "Síndrome de Klinefelter",
+        "B": "Síndrome de Turner",
+        "C": "Síndrome de Angelman",
+        "D": "Síndrome de Down"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Síndrome de Down"
+    },
+    {
+      "id": 143,
+      "question": "¿Qué significa la nomenclatura del cariotipo 46, XX?:",
+      "options": {
+        "A": "Es la nomenclatura de un feto normal masculino.",
+        "B": "Es la nomenclatura de un feto normal femenino.",
+        "C": "Es la nomenclatura de una translocación de un feto normal masculino.",
+        "D": "Es la nomenclatura de una translocación equilibrada de un feto femenino."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Es la nomenclatura de un feto normal femenino."
+    },
+    {
+      "id": 144,
+      "question": "Todas las fases de la reacción en cadena de la polimerasa (PCR) se llevan a cabo con un aparato que se llama:",
+      "options": {
+        "A": "Secuenciador de ADN",
+        "B": "termorregulador de cadenas de ADN",
+        "C": "Termociclador",
+        "D": "Termoreductor"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Termociclador"
+    },
+    {
+      "id": 145,
+      "question": "La reacción en cadena de la polimerasa (PCR):",
+      "options": {
+        "A": "Es una técnica que amplifica copias complejas de múltiples hebras de ARN.",
+        "B": "Requiere una temperatura constante durante todo el proceso de amplificación.",
+        "C": "Necesita cebadores (primeros), Taq polimerasa, nucleótidos y tampones.",
+        "D": "Es una técnica complementaria y confirmatoria de la proteína C reactiva."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Necesita cebadores (primeros), Taq polimerasa, nucleótidos y tampones."
+    },
+    {
+      "id": 146,
+      "question": "¿Cuál es la muestra de elección para la obtención de ADN en la mayoría de los estudios genéticos moleculares?:",
+      "options": {
+        "A": "Sangre periférica con heparina",
+        "B": "Sangre periférica con EDTA",
+        "C": "Sangre periférica con citrato",
+        "D": "Sangre periférica con heparina + Trasylol"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Sangre periférica con EDTA"
+    },
+    {
+      "id": 147,
+      "question": "Cuando realizamos un estudio de los cromosomas en un cariotipo, la célula se encuentra en un estado de:",
+      "options": {
+        "A": "telofase",
+        "B": "anafase",
+        "C": "prometafase",
+        "D": "metafase"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "metafase"
+    },
+    {
+      "id": 148,
+      "question": "El análisis por hibridación fluorescente in situ (FISH):",
+      "options": {
+        "A": "Mapea el material genético presente en las células de una persona, mediante sondas que emiten fluorescencia.",
+        "B": "Es una técnica utilizada para marcar micobacterias y visualizarlas en un microscopio de fluorescencia",
+        "C": "Se utiliza para la determinación de hemoglobina glicosilada",
+        "D": "Se utiliza para visualización de líquidos estériles"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Mapea el material genético presente en las células de una persona, mediante sondas que emiten fluorescencia."
+    },
+    {
+      "id": 149,
+      "question": "La prueba de Western-blot se usa para:",
+      "options": {
+        "A": "La detección de antígenos del VHC",
+        "B": "La detección de anticuerpos del VHD",
+        "C": "La confirmación del VIH",
+        "D": "La confirmación de VHC"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "La confirmación del VIH"
+    },
+    {
+      "id": 150,
+      "question": "En la tecnología de secuenciación masiva NGS, se denomina profundidad de cobertura (“depth of coverage”):",
+      "options": {
+        "A": "A la lectura generada a partir de cada uno de los extremos de un fragmento de ADN (el inserto).",
+        "B": "El número de veces que cada base del genoma está presente en los “reads” de secuenciación producidos.",
+        "C": "A las secuencias cortas producidas por el instrumento a partir de los extremos del ADN con los adaptadores.",
+        "D": "Ninguna de las anteriores es cierta."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "El número de veces que cada base del genoma está presente en los “reads” de secuenciación producidos."
+    },
+    {
+      "id": 151,
+      "question": "La expansión de repeticiones de tres nucleótidos es la causa de:",
+      "options": {
+        "A": "La anemia falciforme.",
+        "B": "La enfermedad de Tay-Sachs.",
+        "C": "La enfermedad de Huntington.",
+        "D": "El escorbuto."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "La enfermedad de Huntington."
+    },
+    {
+      "id": 152,
+      "question": "¿Cuál de las siguientes afirmaciones es correcta?:",
+      "options": {
+        "A": "Los ácidos nucleicos están formados por cadenas de nucleótidos unidos por enlaces covalentes.",
+        "B": "El ADN es responsable de la transmisión de la información nuclear al citoplasma.",
+        "C": "Al ARN es portador de la carga hereditaria de un individuo.",
+        "D": "La timina es una pentosa que entra en la composición del ADN."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Los ácidos nucleicos están formados por cadenas de nucleótidos unidos por enlaces covalentes."
+    },
+    {
+      "id": 153,
+      "question": "Cual no es una característica de la molécula de ARN:",
+      "options": {
+        "A": "Formado por una doble cadena.",
+        "B": "Formado por una ribosa.",
+        "C": "Las bases nitrogenadas son ADENINA, GUANINA, CITOSINA Y URACILO.",
+        "D": "Es poco estable."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Formado por una doble cadena."
+    },
+    {
+      "id": 154,
+      "question": "¿Dónde se localiza el ARNm en los organismos eucariotas?:",
+      "options": {
+        "A": "En el núcleo.",
+        "B": "En el citoplasma.",
+        "C": "En las mitocondrias.",
+        "D": "En los cloroplastos."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "En el citoplasma."
+    },
+    {
+      "id": 155,
+      "question": "En cuanto a las diferencias entre el ADN y el ARN, ¿qué afirmación es FALSA?:",
+      "options": {
+        "A": "Que el ADN es de simple cadena y el ARN de doble cadena.",
+        "B": "Las bases púricas comunes entre ADN y ARN son adenina y guanina.",
+        "C": "Sólo el ADN es un ácido nucleico.",
+        "D": "La base pirimidínica común es la citosina."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Sólo el ADN es un ácido nucleico."
+    },
+    {
+      "id": 156,
+      "question": "Mediante la secuenciación del genoma se obtiene una secuencia de:",
+      "options": {
+        "A": "Nucleótidos.",
+        "B": "Telómeros.",
+        "C": "Centrómeros.",
+        "D": "Ribosomas."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Nucleótidos."
+    },
+    {
+      "id": 157,
+      "question": "En relación con el uracilo y la timina, que afirmación es VERDADERA:",
+      "options": {
+        "A": "No aparecen juntas en el mismo ácido nucleico.",
+        "B": "Se aparean entre sí.",
+        "C": "Pueden estar en el ADN pero nunca en el ARN.",
+        "D": "Son aminoácidos que forman parte de las proteínas."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "No aparecen juntas en el mismo ácido nucleico."
+    },
+    {
+      "id": 158,
+      "question": "¿Cuál de las siguientes NO es una enfermedad por expansión de tripletes?:",
+      "options": {
+        "A": "Enfermedad de Wilson",
+        "B": "Enfermedad de Huntington",
+        "C": "Distrofia miotónica de Steinert",
+        "D": "Temblor/ataxia asociado a X frágil"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Enfermedad de Wilson"
+    },
+    {
+      "id": 159,
+      "question": "¿Qué tiñen las bandas C?",
+      "options": {
+        "A": "La heterocromatina constitutiva",
+        "B": "La eucromatina constitutiva",
+        "C": "Los centriolos",
+        "D": "Los telómeros"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "La heterocromatina constitutiva"
+    },
+    {
+      "id": 160,
+      "question": "¿En qué fase deben encontrarse las células para realizar un análisis cromosómico?",
+      "options": {
+        "A": "Profase",
+        "B": "Metafase",
+        "C": "Anafase",
+        "D": "Telofase"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Metafase"
+    },
+    {
+      "id": 161,
+      "question": "De los siguientes, ¿con qué otro nombre se conoce a la trisomía del par 18?",
+      "options": {
+        "A": "Síndrome de Edwards",
+        "B": "Síndrome de Patau",
+        "C": "Síndrome de Klinefelter",
+        "D": "Síndrome de Turner"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Síndrome de Edwards"
+    },
+    {
+      "id": 162,
+      "question": "Si en una secuencia de nucleótidos del DNA se produce una mutación, la proteína que se va a sintetizar:",
+      "options": {
+        "A": "No sufre modificación alguna",
+        "B": "Puede ser distinta y producir graves daños en personas",
+        "C": "Es siempre más corta en cuanto al número de aminoácidos",
+        "D": "La proteína es siempre funcional"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Puede ser distinta y producir graves daños en personas"
+    },
+    {
+      "id": 163,
+      "question": "¿Cuál de las siguientes afirmaciones sobre los microarrays de SNPs/CNVs (Single Nucleotide Polymorphism/Copy Number Variation) es falsa?",
+      "options": {
+        "A": "Son útiles para detectar disomías uniparentales",
+        "B": "Son útiles para detectar deleciones y duplicaciones",
+        "C": "Son útiles para caracterizar reordenamientos equilibrados",
+        "D": "Son útiles para detectar pérdidas de heterocigosidad Explicación. El array CGH sirve para ver deleciones y duplicaciones pero NO para reordenamientos equilibrados o balanceados. A este array se le puede añadir sondas de SNPs para detectar las disomías uniparentales y pérdidas de heterocigosidad"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Son útiles para caracterizar reordenamientos equilibrados"
+    },
+    {
+      "id": 164,
+      "question": "La fibrosis quística, señale la respuesta correcta:",
+      "options": {
+        "A": "Es una enfermedad autosómica recesiva",
+        "B": "Es una enfermedad autosómica dominante",
+        "C": "Es una enfermedad ligada al cromosoma X",
+        "D": "Es un mosaicismo germinal"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Es una enfermedad autosómica recesiva"
+    },
+    {
+      "id": 165,
+      "question": "La técnica de hibridación de Souther blotting:",
+      "options": {
+        "A": "Permite asignar genes a cromosomas concretos",
+        "B": "Sirve para aislar vectores",
+        "C": "Sirve para determinar si un gen se está expresando",
+        "D": "Permite localizar un gen en un fragmento de DNA"
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Permite localizar un gen en un fragmento de DNA"
+    },
+    {
+      "id": 166,
+      "question": "En relación con las enfermedades mitocondriales indique la respuesta correcta:",
+      "options": {
+        "A": "La principal función de la mitocondria es sintetizar proteínas de membrana",
+        "B": "Las enfermedades mitocondriales pueden heredarse ligadas al cromosoma X",
+        "C": "El diagnóstico bioquímico habitualmente se realiza mediante análisis de metabolitos y análisis citológico",
+        "D": "Se considera una enfermedad mitocondrial cualquier defecto enzimático implicado en el metabolismo energético mitocondrial, pero no de las proteínas de ensamblaje de éstos y/o sus cofactores"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Las enfermedades mitocondriales pueden heredarse ligadas al cromosoma X"
+    },
+    {
+      "id": 167,
+      "question": "El símbolo utilizado en el árbol genealógico para determinar que el individuo es un varón es:",
+      "options": {
+        "A": "Un círculo",
+        "B": "Un cuadrado",
+        "C": "Un triángulo",
+        "D": "Un rombo"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Un cuadrado"
+    },
+    {
+      "id": 168,
+      "question": "En la técnica de secuenciación masiva, (NGS), de los siguientes factores, señala el que no influye en la calidad de los resultados:",
+      "options": {
+        "A": "Conservación de la muestra",
+        "B": "Pureza de la muestra",
+        "C": "El tiempo empleado en realizar el análisis de secuenciación",
+        "D": "Cobertura de secuenciación"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "El tiempo empleado en realizar el análisis de secuenciación"
+    },
+    {
+      "id": 169,
+      "question": "La técnica de Northern Blotting es de utilidad en genética esencialmente para uno de los siguientes análisis, señálelo:",
+      "options": {
+        "A": "Expresión génica",
+        "B": "Clonaje molecular",
+        "C": "Secuenciación de nucleótidos",
+        "D": "Amplificación del DNA"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Expresión génica"
+    },
+    {
+      "id": 170,
+      "question": "El efecto de las mutaciones se caracteriza porque:",
+      "options": {
+        "A": "La mayoría de las mutaciones son recesivas",
+        "B": "La mayoría de las mutaciones son deletéreas",
+        "C": "Las mutaciones son básicas para la evolución",
+        "D": "Todas son correctas"
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 171,
+      "question": "Señale la respuesta correcta, la interfase del ciclo celular tiene varias etapas, que ocurre en la fase S:",
+      "options": {
+        "A": "Es en la que tiene lugar la mitosis.",
+        "B": "Es previa a la síntesis del ADN.",
+        "C": "Es en la que tiene lugar la síntesis del ADN.",
+        "D": "Es posterior a la síntesis del ADN."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Es en la que tiene lugar la síntesis del ADN."
+    },
+    {
+      "id": 172,
+      "question": "Señale la respuesta correcta, en la Meiosis:",
+      "options": {
+        "A": "La célula haploide da lugar a cuatro células hijas diploides.",
+        "B": "La célula diploide da lugar a cuatro células hijas haploides.",
+        "C": "La célula diploide da lugar a dos células diploides.",
+        "D": "La célula haploide da lugar a dos células haploides."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "La célula diploide da lugar a cuatro células hijas haploides."
+    },
+    {
+      "id": 173,
+      "question": "La técnica más utilizada para el bandeo de cromosomas en citogenética es:",
+      "options": {
+        "A": "Bandeo Q.",
+        "B": "Bandeo R.",
+        "C": "Bandeo C)",
+        "D": "Bandeo G."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Bandeo G."
+    },
+    {
+      "id": 174,
+      "question": "La reacción en cadena de la polimerasa (PCR) implica tres pasos cuyo orden es:",
+      "options": {
+        "A": "Desnaturalización, extensión o elongación y anillamiento o templado.",
+        "B": "Desnaturalización, anillamiento o templado y extensión o elongación.",
+        "C": "Anillamiento o templado, desnaturalización y extensión o elongación.",
+        "D": "Extensión o elongación, anillamiento o templado, desnaturalización. Comentario. Anillamiento o templado es una forma rara de expresar la fase de hibridación"
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Desnaturalización, anillamiento o templado y extensión o elongación."
+    },
+    {
+      "id": 175,
+      "question": "¿Qué comparten todas las técnicas NGS?",
+      "options": {
+        "A": "La capacidad de usar fluorocromos para la detección de los nucleótidos a la hora de secuenciar.",
+        "B": "La amplificación de los fragmentos de ADN utilizando la técnica de PCR de emulsión.",
+        "C": "La capacidad de secuenciar una gran cantidad de fragmentos de ADN de forma paralela en un corto lapso.",
+        "D": "La amplificación de los fragmentos de ADN para la generación del cluster mediante el método de PCR en puente."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "La capacidad de secuenciar una gran cantidad de fragmentos de ADN de forma paralela en un corto lapso."
+    },
+    {
+      "id": 176,
+      "question": "¿A que nos referimos cuando hablamos del Ct en la PCR a tiempo real?",
+      "options": {
+        "A": "A la enzima que se usa en la técnica de PCR a tiempo real.",
+        "B": "Al umbral de ciclos en el que la señal fluorescente cruza este umbral.",
+        "C": "Al umbral de ciclos en el que la señal fluorescente desaparece.",
+        "D": "A una técnica para detectar el Sars Cov-2"
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Al umbral de ciclos en el que la señal fluorescente cruza este umbral."
+    },
+    {
+      "id": 177,
+      "question": "Cuando un organismo gana o pierde uno o más cromosomas, pero no una dotación completa estamos hablando de una:",
+      "options": {
+        "A": "Euploidia",
+        "B": "Poliploidia",
+        "C": "Autopoliplidia",
+        "D": "Aneuploidia Comentario. Traduzco. Dice que no pierde juegos completos (N) sino que pierde cromosomas sueltos. Eso es una aneuploidía."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Aneuploidia Comentario. Traduzco. Dice que no pierde juegos completos (N) sino que pierde cromosomas sueltos. Eso es una aneuploidía."
+    },
+    {
+      "id": 178,
+      "question": "Los cromosomas se clasifican atendiendo a la posición del centrómero y, por tanto, según el tamaño relativo de los brazos. Según esta clasificación, son acrocéntricos los cromosomas:",
+      "options": {
+        "A": "13, 14, 15, 21, 22, Y.",
+        "B": "1, 3.",
+        "C": "2, 4, 5, 6, 7, 8, 9, 10, 11, 12, X.",
+        "D": "16, 17, 18, 19, 20."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "13, 14, 15, 21, 22, Y."
+    },
+    {
+      "id": 179,
+      "question": "Señala la respuesta correcta en lo que se refiere a los métodos de diagnóstico genético molecular",
+      "options": {
+        "A": "El método de Southern blot se caracteriza por la transferencia de tales moléculas de ADN obtenidas por restricción desde el gel a una membrana.",
+        "B": "El método Northern blot y el método Western blot es lo mismo.",
+        "C": "La técnica de Southern y de Northern blot son las más que se usan hoy en día utilizándose en mayor medida que las técnicas derivadas de la PCR.",
+        "D": "Todas son correctas."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "El método de Southern blot se caracteriza por la transferencia de tales moléculas de ADN obtenidas por restricción desde el gel a una membrana."
+    },
+    {
+      "id": 180,
+      "question": "Señala la opción NO correcta con respecto a la extracción de ácidos nucleicos ADN",
+      "options": {
+        "A": "Para la extracción de ácido nucleico se lisa la célula, se desproteiniza y se comprueba la efectividad de la desproteinización.",
+        "B": "El método clásico más conocido es la extracción con fenol-cloroformo.",
+        "C": "No se pueden extraer los ácidos nucleicos en muestras como células epiteliales de saliva y pelos.",
+        "D": "La etapa de lisis se suele realizar a temperaturas elevadas alrededor de 50ºC, pero nunca mayor de 80ºC."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "No se pueden extraer los ácidos nucleicos en muestras como células epiteliales de saliva y pelos."
+    },
+    {
+      "id": 181,
+      "question": "La PCR como técnica de laboratorio presenta inconvenientes. ¿Cuáles?",
+      "options": {
+        "A": "Se trata de una técnica muy sensible, necesitándose para su realización personal especializado.",
+        "B": "Se pueden producir falsos positivos como que se secuencien ADN incompletos o metagénicos que tengan reacción cruzada, pero sin causar la enfermedad.",
+        "C": "Se pueden producir falsos negativos debido a concentraciones inadecuadas de cebadores, magnesio, etc.",
+        "D": "Todos son inconvenientes de la PCR como técnica de laboratorio."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Todos son inconvenientes de la PCR como técnica de laboratorio."
+    },
+    {
+      "id": 182,
+      "question": "En la PCR (reacción en cadena de la polimerasa) es cierto qué",
+      "options": {
+        "A": "Utiliza isotopos radioactivos.",
+        "B": "Es una reacción de precipitación.",
+        "C": "Se detecta la presencia de antígenos.",
+        "D": "Se amplifica una secuencia de ADN."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Se amplifica una secuencia de ADN."
+    },
+    {
+      "id": 183,
+      "question": "Las etapas de la reacción en cadena de la polimerasa son:",
+      "options": {
+        "A": "Fijación, elongación y transcripción.",
+        "B": "Desnaturalización, transcripción y codificación.",
+        "C": "Desnaturalización, elongación y codificación.",
+        "D": "Desnaturalización, hibridación y elongación."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Desnaturalización, hibridación y elongación."
+    },
+    {
+      "id": 184,
+      "question": "Es falso que:",
+      "options": {
+        "A": "El ADN es una molécula más estable que el ARN.",
+        "B": "Un codón puede significar más de un aminoácido.",
+        "C": "Un codón es la combinación de tres nucleótidos.",
+        "D": "Las mitocondrias contienen ADN Explicación. Cada codón codifica para un solo aminoácido. Pero varios codones pueden codificar un mismo aminoácido."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Un codón puede significar más de un aminoácido."
+    },
+    {
+      "id": 185,
+      "question": "La nueva tecnología de secuenciación, más conocida como secuenciación masiva o NGS nos permite:",
+      "options": {
+        "A": "Discriminar fácilmente la información clínicamente útil entre millones de secuencias obtenidas de información genómica.",
+        "B": "Tener una gran certeza diagnóstica derivada de la gran cantidad de variantes de significado incierto detectado.",
+        "C": "No utilizar complejos algoritmos informáticos para alinear las secuencias.",
+        "D": "Obtener millones de secuencias de ADN en un único ensayo."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Obtener millones de secuencias de ADN en un único ensayo."
+    },
+    {
+      "id": 186,
+      "question": "La RT-PCR ó PCR con transcriptasa inversa se trata de:",
+      "options": {
+        "A": "Una amplificación del RNA a través de la síntesis previa de su cDNA.",
+        "B": "Una amplificación del DNA con regiones desconocidas.",
+        "C": "Una amplificación para generar copias de hebra sencilla de DNA.",
+        "D": "Una amplificación del DNA que supera los límites de la PCR convencional."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Una amplificación del RNA a través de la síntesis previa de su cDNA."
+    },
+    {
+      "id": 187,
+      "question": "La Mitosis o fase M es:",
+      "options": {
+        "A": "El periodo más largo del ciclo celular.",
+        "B": "El periodo más corto del ciclo celular, durante el que tiene lugar la replicación del DNA.",
+        "C": "El periodo más corto del ciclo celular, durante el que tiene lugar la división de la célula, que ya ha duplicado su material genético y citoplasmático en dos hijos idénticos.",
+        "D": "El periodo más largo del ciclo celular, durante el que tiene lugar la replicación del DNA."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "El periodo más corto del ciclo celular, durante el que tiene lugar la división de la célula, que ya ha duplicado su material genético y citoplasmático en dos hijos idénticos."
+    },
+    {
+      "id": 188,
+      "question": "En la metafase los 2n cromosomas se encuentran:",
+      "options": {
+        "A": "Totalmente condensados y aparecen alineados en el plano ecuatorial, independientes unos de otros.",
+        "B": "Parcialmente condensados y aparecen alineados en el plano ecuatorial, independientes unos de otros.",
+        "C": "Totalmente condensados y aparecen sueltos lejos del plano ecuatorial, dependientes unos de otros.",
+        "D": "Parcialmente condensados y aparecen sueltos lejos del plano ecuatorial, dependientes unos de otros."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Totalmente condensados y aparecen alineados en el plano ecuatorial, independientes unos de otros."
+    },
+    {
+      "id": 189,
+      "question": "En la situación conocida como aneuploidía podemos afirmar que:",
+      "options": {
+        "A": "Un organismo gana o pierde una dotación completa de cromosomas.",
+        "B": "Están presentes dotaciones haploides completas de cromosomas.",
+        "C": "Hay más de dos dotaciones haploides.",
+        "D": "Un organismo gana o pierde uno o más cromosomas pero no una dotación completa. Explicación. Recordar que dotaciones completas son poliploidías"
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Un organismo gana o pierde uno o más cromosomas pero no una dotación completa. Explicación. Recordar que dotaciones completas son poliploidías"
+    },
+    {
+      "id": 190,
+      "question": "En citogenética el bandeo G se basa en:",
+      "options": {
+        "A": "Una tinción con un compuesto fluorescente que se intercala en el DNA doble.",
+        "B": "Una desnaturalización controlada de las proteínas (generalmente por digestión con tripsina), seguida de una tinción con giemsa de donde viene el nombre de bandeo G.",
+        "C": "Un tratamiento de los cromosomas con calor para desnaturalizar el DNA rico en antitripsina, antes de la tinción de giemsa.",
+        "D": "Un tratamiento térmico particularmente severo antes de teñir los cromosomas con giemsa."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Una desnaturalización controlada de las proteínas (generalmente por digestión con tripsina), seguida de una tinción con giemsa de donde viene el nombre de bandeo G."
+    },
+    {
+      "id": 191,
+      "question": "Cuando los dos genes (alelos) del locus de cromosomas homólogos son idénticos se dice que el individuo es:",
+      "options": {
+        "A": "Homocigoto.",
+        "B": "Heterocigoto.",
+        "C": "Hemicigoto.",
+        "D": "Haploide."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Homocigoto."
+    },
+    {
+      "id": 192,
+      "question": "Según la clasificación de los cromosomas en grupos según el tamaño y la posición del centrómero, ¿a qué grupo pertenece el cromosoma 15?:",
+      "options": {
+        "A": "G.",
+        "B": "H.",
+        "C": "D.",
+        "D": "A."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "D."
+    },
+    {
+      "id": 193,
+      "question": "¿Cuál es la técnica de bandeo cromosómico más común en los laboratorios clínicos?:",
+      "options": {
+        "A": "Bandas G.",
+        "B": "Bandas C.",
+        "C": "Bandas NOR.",
+        "D": "Bandas DAPI."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Bandas G."
+    },
+    {
+      "id": 194,
+      "question": "La secuencia codificante del ADN se llama:",
+      "options": {
+        "A": "Exón.",
+        "B": "Intrón.",
+        "C": "Codón.",
+        "D": "Cistrón."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Exón."
+    },
+    {
+      "id": 195,
+      "question": "Dentro de las mutaciones cromosómicas, ¿cómo se llama el aumento o disminución del número de cromosomas?:",
+      "options": {
+        "A": "Aneuploidía.",
+        "B": "Poliploidía.",
+        "C": "Traslocación.",
+        "D": "Deleción. Explicación: ojo, dice nº de cromosomas, no dice juego completo de cromosomas"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Aneuploidía."
+    },
+    {
+      "id": 196,
+      "question": "¿Cuál es la función de los dideoxinucleótidos en la secuenciación Sanger?",
+      "options": {
+        "A": "Permiten la amplificación enzimática de un fragmento de ADN",
+        "B": "Favorecen la incorporación de los cebadores a una cadena de ADN",
+        "C": "Inhiben la acción de la ADN polimerasa interrumpiendo la cadena de ADN en formación",
+        "D": "Inhiben la acción de la retrotranscriptasa evitando la síntesis de ADN a partir de ARN"
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Inhiben la acción de la ADN polimerasa interrumpiendo la cadena de ADN en formación"
+    },
+    {
+      "id": 197,
+      "question": "Señale la afirmación correcta acerca del ADN mitocondrial:",
+      "options": {
+        "A": "Es una molécula monocatenaria, circular y de herencia materna.",
+        "B": "Es una molécula bicatenaria, circular y de herencia materna.",
+        "C": "Es una molécula monocatenaria, circular y de herencia paterna.",
+        "D": "Es una molécula bicatenaria, circular y de herencia paterna."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Es una molécula bicatenaria, circular y de herencia materna."
+    },
+    {
+      "id": 198,
+      "question": "Si utilizamos fitohemaglutinina en un cultivo de citogenética, ¿qué tipo celular estaremos estimulando?",
+      "options": {
+        "A": "Plaquetas.",
+        "B": "Linfocitos B.",
+        "C": "Hematíes.",
+        "D": "Linfocitos T."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Linfocitos T."
+    },
+    {
+      "id": 199,
+      "question": "Con respecto a los cromosomas submetacéntricos, elige la respuesta correcta:",
+      "options": {
+        "A": "El brazo p es siempre más pequeño que el brazo q",
+        "B": "El brazo q es siempre más pequeño que el brazo p.",
+        "C": "El centrómero separa dos brazos de igual tamaño.",
+        "D": "El brazo p es muy corto, casi irreconocible"
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "El brazo p es siempre más pequeño que el brazo q"
+    },
+    {
+      "id": 200,
+      "question": "En el método de bandeo cromosómico que produce bandas G en los cromosomas se utiliza:",
+      "options": {
+        "A": "Una mezcla de ácido glacial y metanol.",
+        "B": "Tripsina y Giemsa.",
+        "C": "Colmecid.",
+        "D": "Una mezcla de quinacrina y fluoresceína."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Tripsina y Giemsa."
+    },
+    {
+      "id": 201,
+      "question": "En el cultivo de células de líquido amniótico, al hacer el subcultivo, la sustancia que se añade para romper las uniones intercelulares y poder seleccionar un solo tipo celular, es:",
+      "options": {
+        "A": "Colchicina.",
+        "B": "Tripsina.",
+        "C": "Quimotripsina.",
+        "D": "Proteinasa K."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Tripsina."
+    },
+    {
+      "id": 202,
+      "question": "En la mayoría de los estudios citogénicos se utilizan cromosomas en qué fase:",
+      "options": {
+        "A": "Anafase.",
+        "B": "Metafase.",
+        "C": "Profase.",
+        "D": "Telofase."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Metafase."
+    },
+    {
+      "id": 203,
+      "question": "¿Cómo se denomina la primera etapa fundamental en la reacción de la cadena de la polimerasa (PCR)?:",
+      "options": {
+        "A": "Hibridación o Anneling (45ºC-60°C).",
+        "B": "Extensión (72ºC).",
+        "C": "Desnaturalización (94ºC).",
+        "D": "Polimerización (99ºC)."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Desnaturalización (94ºC)."
+    },
+    {
+      "id": 204,
+      "question": "El método de secuenciación genómica de Sanger se basa en:",
+      "options": {
+        "A": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleósido.",
+        "B": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por una base nitrogenada.",
+        "C": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por una pentosa.",
+        "D": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleótido. Comentario: recordar que luego por electroforesis se separan, y como el nucleótido terminal está marcado, podemos saber qué base nitrogenada está en cada posición"
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleótido. Comentario: recordar que luego por electroforesis se separan, y como el nucleótido terminal está marcado, podemos saber qué base nitrogenada está en cada posición"
+    },
+    {
+      "id": 205,
+      "question": "Es falso en la técnica para la realización de un cariotipo:",
+      "options": {
+        "A": "Hay que cultivar la muestra.",
+        "B": "Para la obtención de los cromosomas hay que detener la mitosis en estado de metafase.",
+        "C": "En el armado del cariotipo se hacen fotografías y se amplían para obtener una imagen nítida de los cromosomas.",
+        "D": "Actualmente todo el procedimiento es manual, ya que no existe automatización."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Actualmente todo el procedimiento es manual, ya que no existe automatización."
+    },
+    {
+      "id": 206,
+      "question": "La reacción en cadena de la polimerasa (PCR) permite:",
+      "options": {
+        "A": "El análisis de grandes cantidades de genes.",
+        "B": "Diferenciar los genes entre sí.",
+        "C": "Obtener muchas réplicas de un segmento de ARN seleccionado.",
+        "D": "Obtener muchas réplicas de un segmento de ADN seleccionado."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Obtener muchas réplicas de un segmento de ADN seleccionado."
+    },
+    {
+      "id": 207,
+      "question": "La técnica de PCR: (señalar respuesta incorrecta)",
+      "options": {
+        "A": "Consiste en la extracción del ácido nucleico, amplificación de un fragmento del ácido nucleico y visualización del producto.",
+        "B": "Utiliza el Cloruro de Magnesio para estabilizar el ADN de una sola cadena, y aumentando su concentración aumenta la especificidad.",
+        "C": "En la hibridación los primers se unen de forma específica a su cadena complementaria.",
+        "D": "Para la amplificación del fragmento necesitamos, además de unos determinados reactivos, someterlo a ciclos repetitivos a unas temperaturas determinadas durante un tiempo determinado. Comentario: el ClMg2 es un cofactor necesario para la actividad de la ADN polimerasa. Tiene que ajustarse su concentración en función de la polimerasa, primers y secuencia a amplificar (generalmente de 1 a 5 mM). Si se coge poca concentración puede reducir la eficiencia de la amplificación y un exceso puede generar productos inespecíicos"
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Utiliza el Cloruro de Magnesio para estabilizar el ADN de una sola cadena, y aumentando su concentración aumenta la especificidad."
+    },
+    {
+      "id": 208,
+      "question": "Para hacer un diagnóstico mediante La técnica de PCR, necesitaremos tener:",
+      "options": {
+        "A": "Un secuenciador.",
+        "B": "Un amplificador.",
+        "C": "Un hibridador.",
+        "D": "Un termociclador."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Un termociclador."
+    },
+    {
+      "id": 209,
+      "question": "En un cultivo celular, las células de tipo linfoide pueden crecer y mantenerse:",
+      "options": {
+        "A": "En un medio de cultivo celular de composición conocida suplementado con eritropoyetina.",
+        "B": "En suspensión.",
+        "C": "Únicamente sobre un vidrio o plástico tratado al que se puedan adherir mediante componentes de la matriz extracelular.",
+        "D": "Son células que no pueden mantenerse in vitro."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "En suspensión."
+    },
+    {
+      "id": 210,
+      "question": "Un gen es definido como: (señalar la incorrecta)",
+      "options": {
+        "A": "Unidad física y funcional de herencia que trasporta información de una generación a la siguiente.",
+        "B": "En términos moleculares, los cromosomas codificantes.",
+        "C": "La consecuencia completa de ADN incluyendo la región amplificadora, necesaria para la síntesis de un producto génico funcional de tipo polipéptido o ARN.",
+        "D": "La secuencia completa de ADN, la cual incluye las regiones no codificantes de control de la transcripción, necesaria para la producción de una proteína funcional o ARN. Comentario: OJO con la redacción. Recordar que los genes tienen también zonas no codificantes (intrones), y que cromosoma hace referencia a una estructura organizada mucho más amplia."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "En términos moleculares, los cromosomas codificantes."
+    },
+    {
+      "id": 211,
+      "question": "¿Cuál de las siguientes bases nucleótidas no forma parte del ADN?:",
+      "options": {
+        "A": "Adenina.",
+        "B": "Uracilo.",
+        "C": "Guanina.",
+        "D": "Timina."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Uracilo."
+    },
+    {
+      "id": 212,
+      "question": "Sobre el método Northen, es cierto que:",
+      "options": {
+        "A": "Se utiliza para detectar DNA.",
+        "B": "Se utiliza para detectar RNA.",
+        "C": "Permite detectar proteínas.",
+        "D": "No existe el método Northen."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Se utiliza para detectar RNA."
+    },
+    {
+      "id": 213,
+      "question": "¿Cuál de las siguientes técnicas NO se utiliza para la extracción del ADN?",
+      "options": {
+        "A": "Salting-out.",
+        "B": "Extracción fenol-cloroformo-isoamílico.",
+        "C": "Extracción mediante columna de gel de sílice.",
+        "D": "Extracción acético-metanol."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Extracción acético-metanol."
+    },
+    {
+      "id": 214,
+      "question": "¿Cuál de los siguientes componentes NO es necesario para la realización de la PCR?",
+      "options": {
+        "A": "DNA polimerasa.",
+        "B": "Primer o cebadores.",
+        "C": "Desoxinucleótidos trifosfato.",
+        "D": "Cloruro de zinc."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Cloruro de zinc."
+    },
+    {
+      "id": 215,
+      "question": "La enzima DNA polimerasa utilizada en las PCR presenta la siguiente característica principal:",
+      "options": {
+        "A": "Resistencia a altas temperaturas.",
+        "B": "Baja tolerancia al calor.",
+        "C": "Velocidad de síntesis elevada.",
+        "D": "Todas son correctas."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Resistencia a altas temperaturas."
+    },
+    {
+      "id": 216,
+      "question": "¿Cuál de las siguientes técnicas NO es una técnica de hibridación?",
+      "options": {
+        "A": "Northern blot.",
+        "B": "Microarray de ADN.",
+        "C": "Hibridación in situ fluorescente (FISH).",
+        "D": "Hibridación picnométrica."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Hibridación picnométrica."
+    },
+    {
+      "id": 217,
+      "question": "¿En qué fase de la división del núcleo de la célula sería el momento más apropiado para estudiar la morfología de los cromosomas?",
+      "options": {
+        "A": "Profase.",
+        "B": "Metafase.",
+        "C": "Anafase.",
+        "D": "Ninguna de ellas."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Metafase."
+    },
+    {
+      "id": 218,
+      "question": "Las alteraciones cromosómicas pueden ser:",
+      "options": {
+        "A": "Numéricas.",
+        "B": "Estructurales.",
+        "C": "ISCN.",
+        "D": "A) y B) son ciertas."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "A) y B) son ciertas."
+    },
+    {
+      "id": 219,
+      "question": "¿Cuál de las siguientes muestras sería la adecuada para cultivo celular en citogenética?",
+      "options": {
+        "A": "Líquido amniótico.",
+        "B": "Vellosidades coriónicas.",
+        "C": "Sangre periférica.",
+        "D": "Todas son ciertas."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 220,
+      "question": "La reacción en cadena de la polimerasa (PCR):",
+      "options": {
+        "A": "Es un método muy sensible, pero poco específico.",
+        "B": "Es un método de amplificación de ácidos nucleicos.",
+        "C": "Es un método muy específico, pero poco sensible."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Es un método de amplificación de ácidos nucleicos."
+    },
+    {
+      "id": 221,
+      "question": "La degeneración del código genético consiste en que:",
+      "options": {
+        "A": "Cada triplete puede codificar más de un aminoácido.",
+        "B": "Varios tripletes no corresponden a ningún aminoácido.",
+        "C": "Cada aminoácido puede estar codificado por varios tripletes diferentes.",
+        "D": "Ausencia de codones o tripletes sin sentido."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Cada aminoácido puede estar codificado por varios tripletes diferentes."
+    },
+    {
+      "id": 222,
+      "question": "Son enfermedades recesivas ligadas al cromosoma X:",
+      "options": {
+        "A": "Daltonismo.",
+        "B": "Hemofilia A.",
+        "C": "Fibrosis quística.",
+        "D": "A) y B) son correctas."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "A) y B) son correctas."
+    },
+    {
+      "id": 223,
+      "question": "Tenemos que el padre y la madre son portadores sanos de fibrosis quística, ¿qué porcentaje de hijas desarrollaran la enfermedad?",
+      "options": {
+        "A": "25%.",
+        "B": "50%.",
+        "C": "100%.",
+        "D": "33%."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "25%."
+    },
+    {
+      "id": 224,
+      "question": "Señala la respuesta incorrecta respecto a las técnicas de hibridación con sonda.",
+      "options": {
+        "A": "La hibridación tipo Southern Blot es un método desarrollado para el análisis de ADN en soporte sólido.",
+        "B": "La hibridación tipo Northern Blot es una técnica utilizada para identificar ARN en soporte sólido.",
+        "C": "En las técnicas de hibridación in situ no es necesario realizar una extracción de ácidos nucleicos.",
+        "D": "Las técnicas FISH (hibridación fluorescente in situ) pueden utilizarse únicamente en cromosomas."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Las técnicas FISH (hibridación fluorescente in situ) pueden utilizarse únicamente en cromosomas."
+    },
+    {
+      "id": 225,
+      "question": "¿Cuál de las siguientes bases nitrogenadas no está presente en el ADN?",
+      "options": {
+        "A": "La adenina.",
+        "B": "La timina.",
+        "C": "El uracilo.",
+        "D": "La citosina."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "El uracilo."
+    },
+    {
+      "id": 226,
+      "question": "¿En qué fase de la mitosis se forma el huso de división?",
+      "options": {
+        "A": "En la metafase.",
+        "B": "En la profase.",
+        "C": "En la telofase.",
+        "D": "En la anafase."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "En la profase."
+    },
+    {
+      "id": 227,
+      "question": "¿Cuál de las siguientes opciones no son alteraciones estructurales de los cromosomas?",
+      "options": {
+        "A": "Traslocaciones.",
+        "B": "Aneuploidías y poliploidías.",
+        "C": "Deleciones.",
+        "D": "Inversiones."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Aneuploidías y poliploidías."
+    },
+    {
+      "id": 228,
+      "question": "Señala la respuesta correcta en relación al trabajo en el laboratorio de biología molecular.",
+      "options": {
+        "A": "No es necesario emplear zonas de trabajo separadas para la preparación de material, extracción de ácidos nucleicos, amplificación y electroforesis.",
+        "B": "La realización de controles positivos y negativos en cada técnica son necesarios para asegurar la veracidad del resultado.",
+        "C": "El cambio frecuente de guantes no está recomendado porque puede producir contaminaciones cruzadas.",
+        "D": "No es necesario separar las cargas de la autoclave cuando se vaya a esterilizar material contaminado para desechar y material que necesita esterilizarse antes de trabajar."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "La realización de controles positivos y negativos en cada técnica son necesarios para asegurar la veracidad del resultado."
+    },
+    {
+      "id": 229,
+      "question": "¿Cuál es la muestra más empleada en la extracción de ADN?",
+      "options": {
+        "A": "Sangre total con EDTA.",
+        "B": "Suero.",
+        "C": "Plasma.",
+        "D": "Sangre total con heparina."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Sangre total con EDTA."
+    },
+    {
+      "id": 230,
+      "question": "Respecto a la técnica de Southern blot, Señale la afirmación falsa:",
+      "options": {
+        "A": "Es una técnica de transferencia de ácidos nucleicos en soporte sólido.",
+        "B": "Es necesaria una separación electroforética previa.",
+        "C": "La detección del ARN se realiza visualizándolo mediante la exposición a rayos X o con la película sensible a la luz.",
+        "D": "Tras la electroforesis, los fragmentos de ADN se desnaturalizan con una base fuerte para permitir la transferencia."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "La detección del ARN se realiza visualizándolo mediante la exposición a rayos X o con la película sensible a la luz."
+    },
+    {
+      "id": 231,
+      "question": "La enzima que une el extremo 3’ de un fragmento de DNA con el extremo 5’ de otro fragmento de DNA y forma una hebra continua se llama:",
+      "options": {
+        "A": "Polimerasa.",
+        "B": "Transcriptasa.",
+        "C": "Ligasa.",
+        "D": "Cromátida."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Ligasa."
+    },
+    {
+      "id": 232,
+      "question": "De las siguientes técnicas con ácidos nucleicos, ¿cuál no es una técnica con amplificación de la diana?",
+      "options": {
+        "A": "PCR múltiple.",
+        "B": "PCR a tiempo real.",
+        "C": "Técnicas de amplificación por desplazamiento de hebra.",
+        "D": "Análisis con ADN ramificado."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Análisis con ADN ramificado."
+    },
+    {
+      "id": 233,
+      "question": "En relación a los cultivos celulares, señale la respuesta falsa:",
+      "options": {
+        "A": "Pueden incluir antibióticos de amplio espectro",
+        "B": "Los medios de cultivo pueden incluir suero bovino fetal para las líneas celulares de amplio espectro",
+        "C": "Los linfocitos crecen en suspensión en un medio líquido",
+        "D": "La temperatura de inacción es necesaria controlarla ya que influye en el crecimiento, pero no en el pH del medio"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "La temperatura de inacción es necesaria controlarla ya que influye en el crecimiento, pero no en el pH del medio"
+    },
+    {
+      "id": 234,
+      "question": "En la técnica de secuenciación del ADN, señale afirmación incorrecta:",
+      "options": {
+        "A": "El método de Sanger y Coulson se basa en la síntesis enzimática de una copia complementaria a la molécula cuya secuencia se quiere conocer.",
+        "B": "El método de Maxam y Gilber utiliza un marcador radiactivo de uno de los extremos de ADN",
+        "C": "En el método de Sanger y Coulson la separación de los fragmentos se realiza por electroforesis y se utiliza un marcador radiactivo.",
+        "D": "En la secuenciación de última generación, a partir del fragmento de ADN, se obtiene ARN y se le añaden unas secuencias adaptadoras en sus extremos mediante ligación. Comentario: la C generalmente se utilizan marcadores fluorescentes más que radioactivos. Pero no es incorrecta"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "En la secuenciación de última generación, a partir del fragmento de ADN, se obtiene ARN y se le añaden unas secuencias adaptadoras en sus extremos mediante ligación. Comentario: la C generalmente se utilizan marcadores fluorescentes más que radioactivos. Pero no es incorrecta"
+    },
+    {
+      "id": 235,
+      "question": "Para realizar una reacción de PCR (reacción en cadena de la polimerasa) son necesarios los siguientes componentes: ADN molde, Primers, dNTP, Agua, Buffer, ADN polimerasa y:",
+      "options": {
+        "A": "Cloruro de Magnesio (MgCl2).",
+        "B": "Yoduro de Plata (AgI).",
+        "C": "Permanganato Potásico (KMNO4).",
+        "D": "Sulfato de Cobre (CuSO4)."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Cloruro de Magnesio (MgCl2)."
+    },
+    {
+      "id": 236,
+      "question": "Tras la extracción de ADN, para comprobar la integridad de la muestra y su posible degradación podemos utilizar:",
+      "options": {
+        "A": "Un gel de poliacrilamida al 20 %.",
+        "B": "Un gel de acrilamida/bisacriamida al 40 %.",
+        "C": "Un gel de sílice al 15 %.",
+        "D": "Un gel de agarosa al 0.8 %."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Un gel de agarosa al 0.8 %."
+    },
+    {
+      "id": 237,
+      "question": "Cada molécula de ADN está formada por la combinación específica de una molécula de monosacárido (desoxirribosa) y cuatro bases nitrogenadas: Adenina, Guanina, Citosina y:",
+      "options": {
+        "A": "Timidina.",
+        "B": "Timina.",
+        "C": "Tiamina.",
+        "D": "Tirosina."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Timina."
+    },
+    {
+      "id": 238,
+      "question": "Para la extracción de ARN todavía hoy se utilizan técnicas basadas en el uso de:",
+      "options": {
+        "A": "Fenol y Cloroformo.",
+        "B": "Diclorometano y H2O2.",
+        "C": "Metanol y Dietileter.",
+        "D": "SDS-PAGE."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Fenol y Cloroformo."
+    },
+    {
+      "id": 239,
+      "question": "Cuando el organismo tiene uno o más cromosomas de más, en uno de los pares cromosómicos, se denomina:",
+      "options": {
+        "A": "Poliploidía.",
+        "B": "Haploidía.",
+        "C": "Aneuploidía.",
+        "D": "Traslocación."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "Aneuploidía."
+    },
+    {
+      "id": 240,
+      "question": "En las técnicas de extensión cromosómicas, señale la respuesta falsa:",
+      "options": {
+        "A": "El momento más apropiado para estudiar la morfología de los cromosomas es durante la división del núcleo celular en la metafase.",
+        "B": "Es necesario inhibir la polimerización de los microtúbulos para destruir el huso mitótico y detener las células en metafase.",
+        "C": "La morfología cromosómica se determina por microscopía electrónica de contraste de fases.",
+        "D": "La densidad celular y la dispersión de las células en el portaobjetos influyen en la calidad de extensión."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "La morfología cromosómica se determina por microscopía electrónica de contraste de fases."
+    },
+    {
+      "id": 241,
+      "question": "Dentro de las mutaciones cromosómicas, ¿cómo se llama el aumento o disminución del número de cromosomas?",
+      "options": {
+        "A": "Aneuploidía",
+        "B": "Poliploidía",
+        "C": "Traslocación",
+        "D": "Deleción"
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Aneuploidía"
+    },
+    {
+      "id": 242,
+      "question": "La técnica de reacción en cadena de la Polimerasa tiene por objetivo:",
+      "options": {
+        "A": "Encadenar entre sí diferentes fragmentos de DNA",
+        "B": "Amplificar una secuencia específica de DNA",
+        "C": "Eliminar determinadas secuencias del RNA",
+        "D": "Facilitar la acción de enzimas de restricción"
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Amplificar una secuencia específica de DNA"
+    },
+    {
+      "id": 243,
+      "question": "Respecto a los métodos de secuenciación, señale la respuesta INCORRECTA:",
+      "options": {
+        "A": "El método Sanger se basa en la síntesis enzimática de una copa complementaria.",
+        "B": "El método de Maxam y Gilbert se basa en la rotura física del ADN.",
+        "C": "La secuenciación de Sanger está muy automatizada en la actualidad.",
+        "D": "En los secuenciadores automáticos y actuales se ha sustituido el marcador radiactivo por el fluorescente."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "El método de Maxam y Gilbert se basa en la rotura física del ADN."
+    },
+    {
+      "id": 244,
+      "question": "Todas las fases de la PCR tienen lugar en un:",
+      "options": {
+        "A": "HPLC.",
+        "B": "Termociclador.",
+        "C": "Secuenciador.",
+        "D": "Acelerador de masas"
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Termociclador."
+    },
+    {
+      "id": 245,
+      "question": "¿Qué bandeo tiñe selectivamente la heterocromatina constitutiva?",
+      "options": {
+        "A": "Bandas C.",
+        "B": "Bandas NOR.",
+        "C": "Bandas R.",
+        "D": "Bandas Q"
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Bandas C."
+    },
+    {
+      "id": 246,
+      "question": "La secuencia codificante de ADN se llama:",
+      "options": {
+        "A": "Exón.",
+        "B": "lntrón.",
+        "C": "Codón.",
+        "D": "Cistrón."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Exón."
+    },
+    {
+      "id": 247,
+      "question": "¿Qué Ley de Mendel explica que todos los descendientes resultantes del cruce de dos razas puras tienen el mismo fenotipo?",
+      "options": {
+        "A": "Ley de segregación de caracteres.",
+        "B": "Ley de segregación independiente de los caracteres.",
+        "C": "3 ley de Mendel.",
+        "D": "Ley de la uniformidad."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Ley de la uniformidad."
+    },
+    {
+      "id": 248,
+      "question": "¿En qué variante de PCR se amplifican varios fragmentos simultáneamente en la misma reacción?",
+      "options": {
+        "A": "PCR anidada.",
+        "B": "PCR touchdown.",
+        "C": "PCR asimétrica.",
+        "D": "PCR multiplex."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "PCR multiplex."
+    },
+    {
+      "id": 249,
+      "question": "En biología molecular, se entiende por sonda:",
+      "options": {
+        "A": "Un fragmento de ADN cuya secuencia de nucleótidos se desconoce",
+        "B": "Una población homogénea de moléculas identificadas.",
+        "C": "Un ADN mitocondrial.",
+        "D": "Una endonucleasa de restricción que va a romper enlaces entre nucleótidos. Comentario. Redactada un poco rara porque queda incompleta la definición, pero es correcta. Una sonda es una secuencia de ácidos nucleicos complementaria a la secuencia de ácidos nucleicos que se pretende buscar en la muestra. Es cierto, que es una población homogénea de moléculas que previamente sabemos qué secuencia tienen, es decir, están identificadas"
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Una población homogénea de moléculas identificadas."
+    },
+    {
+      "id": 250,
+      "question": "Según la clasificación de los cromosomas en grupos según el tamaño y la posición del centrómero, ¿a qué grupo pertenece el cromosoma 15?",
+      "options": {
+        "A": "G.",
+        "B": "H.",
+        "C": "D.",
+        "D": "A."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "D."
+    },
+    {
+      "id": 251,
+      "question": "¿Cuál es la técnica de bandeo cromosómico más común en los laboratorios clínicos?",
+      "options": {
+        "A": "Bandas G.",
+        "B": "Bandas C.",
+        "C": "Bandas NOR.",
+        "D": "Bandas DAPI."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Bandas G."
+    },
+    {
+      "id": 252,
+      "question": "¿Cuál es el objetivo de la reacción en cadena de la polimerasa?",
+      "options": {
+        "A": "Encadenar entre sí diferentes fragmentos de ADN.",
+        "B": "Eliminar determinadas secuencias de ARN.",
+        "C": "Facilitar la acción de las enzimas de restricción.",
+        "D": "Amplificar una secuencia específica de ADN."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Amplificar una secuencia específica de ADN."
+    },
+    {
+      "id": 253,
+      "question": "¿Qué es necesario en una prueba de PCR?",
+      "options": {
+        "A": "Una temperatura de más de 100ºC.",
+        "B": "Que se realicen de 20-40 ciclos.",
+        "C": "Entre 24 y 48 horas de proceso.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Que se realicen de 20-40 ciclos."
+    },
+    {
+      "id": 254,
+      "question": "¿Cuáles son los tres pasos fundamentales de la reacción en cadena de la polimerasa (PCR)? Indicar cuál es su orden correcto. Seleccione una respuesta.",
+      "options": {
+        "A": "Desnaturalización-Hibridación-Extensión",
+        "B": "Hibridación- Desnaturalización- Extensión",
+        "C": "Hibridación- Extensión-Digestión",
+        "D": "Desnaturalización – Hibridación – Digestión E) Desnaturalización – Digestión – Hibridación"
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Desnaturalización-Hibridación-Extensión"
+    },
+    {
+      "id": 255,
+      "question": "Referente al RNA. ¿Qué respuesta es la verdadera?",
+      "options": {
+        "A": "Se generada en el citoplasma.",
+        "B": "Corresponde a proteínas que dan estructura al núcleo celular.",
+        "C": "Se genera a partir de la transcripción del DNA.",
+        "D": "Todas son falsas. E) Todas son verdaderas. Comentario: el RNA se genera en el núcleo"
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "Se genera a partir de la transcripción del DNA."
+    },
+    {
+      "id": 256,
+      "question": "¿Cuál de los siguientes no es un reactivo necesario para una reacción en cadena de la polimerasa?",
+      "options": {
+        "A": "Desoxinucleótidos trifosfato",
+        "B": "Cloruro de magnesio",
+        "C": "Solución tampón que mantiene el pH",
+        "D": "ADN polimerasa E) Todas son necesarias"
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "ADN polimerasa E) Todas son necesarias"
+    },
+    {
+      "id": 257,
+      "question": "En el análisis de la expresión génica, ¿quién hace de intermediario entre un gen y una proteína?",
+      "options": {
+        "A": "El DNA.",
+        "B": "El RNA.",
+        "C": "El RNA mensajero (mRNA).",
+        "D": "Todas son falsas."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "El RNA mensajero (mRNA)."
+    },
+    {
+      "id": 258,
+      "question": "Respecto al síndrome de Edwards, indica la respuesta incorrecta:",
+      "options": {
+        "A": "Los niños que la padecen presentan malformaciones en órganos vitales que provocan su muerte al poco tiempo de nacer.",
+        "B": "Es una trisomía 18.",
+        "C": "Es una mutación cromosómica numérica.",
+        "D": "Aneuploidia que afecta a los cromosomas sexuales."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Aneuploidia que afecta a los cromosomas sexuales."
+    },
+    {
+      "id": 259,
+      "question": "Al exceso o pérdida de uno o más cromosomas, se denomina:",
+      "options": {
+        "A": "Delecciones.",
+        "B": "Aneuplodías.",
+        "C": "Translocaciones.",
+        "D": "Transposición robertsoniana."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Aneuplodías."
+    },
+    {
+      "id": 260,
+      "question": "¿Cuál de las siguientes bases nucleótidas no forma parte del ADN?",
+      "options": {
+        "A": "Adenina.",
+        "B": "Uracilo.",
+        "C": "Guanina.",
+        "D": "Timina."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Uracilo."
+    },
+    {
+      "id": 261,
+      "question": "En el análisis de la expresión génica, ¿quién hace de intermediario entre un gen y una proteína?",
+      "options": {
+        "A": "El DNA.",
+        "B": "El RNA.",
+        "C": "El RNA mensajero (mRNA).",
+        "D": "Todas las respuestas anteriores son falsas."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "El RNA mensajero (mRNA)."
+    },
+    {
+      "id": 262,
+      "question": "La técnica de reacción en cadena de la polimerasa (PCR) tiene por objetivo:",
+      "options": {
+        "A": "Encadenar entre si diferentes fragmentos de ADN.",
+        "B": "Amplificar una secuencia especifica de ADN.",
+        "C": "Eliminar determinadas secuencias de ARN.",
+        "D": "Facilitar la acción de las enzimas de restricción."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Amplificar una secuencia especifica de ADN."
+    },
+    {
+      "id": 263,
+      "question": "Respecto a la translocación (alteración cromosómica estructural), señale la respuesta correcta:",
+      "options": {
+        "A": "Es una pérdida de un fragmento cromosómico.",
+        "B": "Es una repetición de un fragmento cromosómico.",
+        "C": "Es una reubicación de un fragmento de un cromosoma en otro lugar del genoma.",
+        "D": "Es un cambio en la orientación de un fragmento cromosómico."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Es una reubicación de un fragmento de un cromosoma en otro lugar del genoma."
+    },
+    {
+      "id": 264,
+      "question": "Al realizar el cariotipo de una persona con el síndrome de Klinefelter, veremos:",
+      "options": {
+        "A": "Un cromosoma X adicional: 47,XXY.",
+        "B": "La presencia de un solo cromosoma X: 45,X.",
+        "C": "La presencia de un cromosoma extra en el cromosoma 9: 47,XY.",
+        "D": "Un cromosoma Y adicional: 47,XYY."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Un cromosoma X adicional: 47,XXY."
+    },
+    {
+      "id": 265,
+      "question": "Queremos preparar a los cromosomas para un estudio cromosómico ¿Qué sustancia añadimos a la muestra para que inhiba el huso mitótico de las células?",
+      "options": {
+        "A": "Fitohemaglutinina.",
+        "B": "Solución hipotónica.",
+        "C": "Ácido periódico.",
+        "D": "Colchicina."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Colchicina."
+    },
+    {
+      "id": 266,
+      "question": "¿Cuál es la trisomía más frecuente en los nacidos vivos?",
+      "options": {
+        "A": "Trisomía del cromosoma 13 o síndrome de Patau.",
+        "B": "Trisomía del cromosoma 18 o síndrome de Edwards.",
+        "C": "Trisomía del cromosoma 21 o síndrome de Down.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Trisomía del cromosoma 21 o síndrome de Down."
+    },
+    {
+      "id": 267,
+      "question": "La dotación cromosómica normal de un varón es de 46 cromosomas. La fórmula cromosómica correcta correspondiente es:",
+      "options": {
+        "A": "46XX.",
+        "B": "46XY.",
+        "C": "46,XY.",
+        "D": "46,XX."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "46,XY."
+    },
+    {
+      "id": 268,
+      "question": "¿Qué es el ADN-polimerasa?",
+      "options": {
+        "A": "Un oligonucleótido.",
+        "B": "Una enzima.",
+        "C": "Un cebador.",
+        "D": "Un primer."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Una enzima."
+    },
+    {
+      "id": 269,
+      "question": "El cromosoma Filadelfia, ¿de qué cromosoma es una anomalía?:",
+      "options": {
+        "A": "22.",
+        "B": "6.",
+        "C": "14.",
+        "D": "2."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "22."
+    },
+    {
+      "id": 270,
+      "question": "En la etapa de desnaturalización del proceso de PCR ¿Qué ocurre?",
+      "options": {
+        "A": "Se separan las dos hebras del ADN.",
+        "B": "Se realizan copias de un fragmento de ADN.",
+        "C": "El cebador se une a su secuencia complementaria en el ADN molde.",
+        "D": "La síntesis de una cadena sencilla mediante DNA polimerasa."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Se separan las dos hebras del ADN."
+    },
+    {
+      "id": 271,
+      "question": "¿Cuál de las siguientes muestras no se utiliza para la realización de cariotipos?",
+      "options": {
+        "A": "Sangre periférica.",
+        "B": "Vellosidades coriónicas.",
+        "C": "Suero.",
+        "D": "Médula ósea."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Suero."
+    },
+    {
+      "id": 272,
+      "question": "De las siguientes respuestas sobre los test moleculares en el diagnóstico genético ¿Cuál es la CORRECTA?",
+      "options": {
+        "A": "Se pueden aplicar desde la fase prenatal hasta en los adultos, pero no en la preimplantación del embrión en una fertilización in vitro.",
+        "B": "Sirven para diagnosticar una enfermedad, predecir el riesgo de la enfermedad, pero no determinar el estado de portador.",
+        "C": "En general, una vez que se ha identificado una anomalía en la línea germinal no es necesario repetir el análisis.",
+        "D": "La validez clínica de un test genético sólo depende de la penetrancia y no de la expresividad del fenotipo."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "En general, una vez que se ha identificado una anomalía en la línea germinal no es necesario repetir el análisis."
+    },
+    {
+      "id": 273,
+      "question": "En relación a la meiosis, ¿Cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Es un tipo de división celular.",
+        "B": "Sólo afecta a las células somáticas.",
+        "C": "Tiene importancia en los organismos con reproducción sexual.",
+        "D": "Se reduce de número diploide a número haploide."
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "Sólo afecta a las células somáticas."
+    },
+    {
+      "id": 274,
+      "question": "¿Cuál de los siguientes síndromes se debe una alteración cromosómica estructural?",
+      "options": {
+        "A": "Síndrome de Klinefelter.",
+        "B": "Síndrome de Edwards.",
+        "C": "Síndrome de Patau.",
+        "D": "Síndrome de Prader-Willi."
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "Síndrome de Prader-Willi."
+    },
+    {
+      "id": 275,
+      "question": "¿Qué síndrome se corresponde con la siguiente fórmula cromosómica: 47 XY,+21?",
+      "options": {
+        "A": "Síndrome de Patau.",
+        "B": "Síndrome de Turner.",
+        "C": "Síndrome de Down.",
+        "D": "Síndrome de Klinefelter."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Síndrome de Down."
+    },
+    {
+      "id": 276,
+      "question": "Se denominan alelos:",
+      "options": {
+        "A": "A las distintas alternativas que puede presentar un gen.",
+        "B": "A los cromosomas iguales.",
+        "C": "A los caracteres adquiridos.",
+        "D": "A los caracteres que se heredan de generación en generación"
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "A las distintas alternativas que puede presentar un gen."
+    },
+    {
+      "id": 277,
+      "question": "Fenotipo es:",
+      "options": {
+        "A": "La relación que existe entre los genes y los cromosomas.",
+        "B": "El conjunto de genes presentes en un organismo.",
+        "C": "La ciencia que estudia las leyes de la herencia.",
+        "D": "La manifestación externa del genotipo en un ambiente determinado."
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "La manifestación externa del genotipo en un ambiente determinado."
+    },
+    {
+      "id": 278,
+      "question": "El mecanismo de acción de la transcriptasa inversa es:",
+      "options": {
+        "A": "Sintetiza DNA a partir de RNA.",
+        "B": "Sintetiza DNA de doble hebra a partir de DNA de hebra sencilla",
+        "C": "Sintetiza RNA a partir de DNA.",
+        "D": "Sintetiza la hebra retrasada mediante los denominados fragmentos de Okazaki"
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "Sintetiza DNA a partir de RNA."
+    },
+    {
+      "id": 279,
+      "question": "¿Por qué habitualmente se extrae sangre sobre EDTA para la realización de técnicas de biología molecular?",
+      "options": {
+        "A": "Para facilitar la extracción de DNA.",
+        "B": "Para evitar la hemólisis.",
+        "C": "Para inhibir las enzimas intracelulares.",
+        "D": "Para potenciar las enzimas intracelulares"
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Para inhibir las enzimas intracelulares."
+    },
+    {
+      "id": 280,
+      "question": "El segundo hijo de una pareja normal padece fibrosis quística. ¿Cuál es la probabilidad de que el siguiente hijo tenga la misma enfermedad?:",
+      "options": {
+        "A": "25%.",
+        "B": "50%.",
+        "C": "75%.",
+        "D": "100%."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "25%."
+    },
+    {
+      "id": 281,
+      "question": "¿Cuál es el modo de herencia más frecuente en los Errores Innatos del Metabolismo?",
+      "options": {
+        "A": "Ligada al sexo.",
+        "B": "Autosómica recesiva.",
+        "C": "Autonómica dominante.",
+        "D": "No existe un patrón de herencia"
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Autosómica recesiva."
+    },
+    {
+      "id": 282,
+      "question": "De las siguientes técnicas, ¿cuál es la que se utiliza para el estudio de enfermedades causadas por expansiones dinámicas de trinucleótidos?",
+      "options": {
+        "A": "Secuenciación masiva.",
+        "B": "Secuenciación sanger.",
+        "C": "TP-PCR.",
+        "D": "Array-CGH."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "TP-PCR."
+    },
+    {
+      "id": 283,
+      "question": "En un laboratorio se utiliza la medición de absorbancia por espectrofotometría para determinar la cantidad de ADN en una muestra. El ratio Abs260/Abs280 fue de 1,3 ¿Cuál de las siguientes afirmaciones es la más adecuada?",
+      "options": {
+        "A": "Este ratio indica contaminación proteica no aceptable",
+        "B": "Este ratio indica contaminación por ARN no aceptable",
+        "C": "Este ratio indica contaminación por compuestos aromáticos no aceptable",
+        "D": "Es un ratio apropiado para trabajar con la muestra de ADN extraída"
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Este ratio indica contaminación proteica no aceptable"
+    },
+    {
+      "id": 284,
+      "question": "La reacción en Cadena de la Polimerasa se basa en la repetición de un ciclo formado por tres etapas. Señale la que NO es:",
+      "options": {
+        "A": "Desnaturalización del ADN doble cadena.",
+        "B": "Hibridación de los iniciadores a la zona 3 ́ especifica de cada una de las hebras.",
+        "C": "Extensión del cebador por actuación de la DNA polimerasa.",
+        "D": "Hibridación de los iniciadores a la zona 5 ́ especifica de cada una de las hebras."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Hibridación de los iniciadores a la zona 5 ́ especifica de cada una de las hebras."
+    },
+    {
+      "id": 285,
+      "question": "La técnica Hibridación Genómica Comparada CGH array, es similar a la CGH, pero la hibridación se realiza en una matriz inmovilizada llamados arrays. Respecto a ella, es FALSO:",
+      "options": {
+        "A": "Tiene una resolución rnuchísirno mayor que la de un cariotipo de alta resolución por bandeo G.",
+        "B": "La mayoría de las plataformas de arrays se diseñan para detectar aneuploidías, síndromes de microdelección y mícrodupllcación así como rearreglos subteloméricos desbalanceados.",
+        "C": "También se le ha llamado cariotipo molecular.",
+        "D": "Son necesarios cromosomas en metafase para su realización."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Son necesarios cromosomas en metafase para su realización."
+    },
+    {
+      "id": 286,
+      "question": "Respecto a la temperatura óptima de hidratación o “melting temperatura” (Tm) en una reacción en cadena de la polimerasa (PCR) no es cierto:",
+      "options": {
+        "A": "Es la temperatura en la cual la mitad de las moléculas de los cebadores se encuentran unidas a sus cadenas complementarias de ADN.",
+        "B": "Es la temperatura a la cual se va a realizar la desnaturalización del ADN.",
+        "C": "Esta temperatura es relativamente específica de cada “primer” o cebador y depende de varios factores.",
+        "D": "Todas las anteriores son falsas."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Es la temperatura a la cual se va a realizar la desnaturalización del ADN."
+    },
+    {
+      "id": 287,
+      "question": "¿Cuál de estas afirmaciones es FALSA con respecto a la técnica CGH-array?:",
+      "options": {
+        "A": "Permite detectar duplicaciones y deleciones de regiones diana dentro del genoma.",
+        "B": "Detecta alteraciones cromosómicas balanceadas.",
+        "C": "La resolución de la técnica es dependiente del número de sondas utilizadas en la misma.",
+        "D": "No detecta translocaciones recíprocas."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Detecta alteraciones cromosómicas balanceadas."
+    },
+    {
+      "id": 288,
+      "question": "Con respecto a los CGH Arrays, indique la respuesta FALSA:",
+      "options": {
+        "A": "Son capaces de detectar trisomías totales de un solo cromosoma.",
+        "B": "Son capaces de detectar monosomías parciales de un solo cromosoma.",
+        "C": "Son capaces de detectar triploidías (todos los cromosomas).",
+        "D": "Son capaces de detectar, o al menos de hacer sospechar, traslocaciones no balanceadas"
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Son capaces de detectar triploidías (todos los cromosomas)."
+    },
+    {
+      "id": 289,
+      "question": "Una pareja tiene un hijo diagnosticado de fibrosis quística homocigoto para la mutación delF508 del gen CFTR. Al estudiar al padre y la madre, ambos son portadores de la mutación en heterocitosis. ¿Qué riesgo de recurrencia tienen de tener otro hijo afecto?",
+      "options": {
+        "A": "25%",
+        "B": "50%",
+        "C": "75%",
+        "D": "100%"
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "25%"
+    },
+    {
+      "id": 290,
+      "question": "¿Qué patología corresponde a la siguiente fórmula cromosómica: 45,X?",
+      "options": {
+        "A": "Síndrome de Klinefelter.",
+        "B": "Síndrome triple X.",
+        "C": "Síndrome de Ovario Poliquístico.",
+        "D": "Síndrome de Turner"
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "Síndrome de Turner"
+    },
+    {
+      "id": 291,
+      "question": "En las plataformas de secuenciación masiva actuales, Next Generation Sequencing (NGS), ¿de qué forma se encuentran marcados los nucleótidos incorporados a la reacción?",
+      "options": {
+        "A": "Enzimática",
+        "B": "Fluorescente",
+        "C": "Radioactiva",
+        "D": "Fosforescente"
+      },
+      "page": 31,
+      "correctAnswer": "B",
+      "correctText": "Fluorescente"
+    },
+    {
+      "id": 292,
+      "question": "El método de secuenciación de Sanger y Coulson:",
+      "options": {
+        "A": "Se basa en la síntesis enzimática de una cadena complementaria.",
+        "B": "Se basa en la ruptura química del ADN.",
+        "C": "Únicamente es necesaria la adición de nucleótidos trifosfatos.",
+        "D": "No requiere el uso de cebadores o números."
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Se basa en la síntesis enzimática de una cadena complementaria."
+    },
+    {
+      "id": 293,
+      "question": "¿Cuál es el factor que estabiliza el ADN de una sola cadena para la optimización de la reacción en cadena de la polimerasa (PCR)?",
+      "options": {
+        "A": "El cloruro de calcio (CaCI2)",
+        "B": "El cloruro de manganeso (MnCI2)",
+        "C": "El cloruro de magnesio (MgCl2)",
+        "D": "El cloruro de sodio (NaCl)"
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "El cloruro de magnesio (MgCl2)"
+    },
+    {
+      "id": 294,
+      "question": "El laboratorio de biología molecular debe constar, como mínimo, de:",
+      "options": {
+        "A": "Una sala pre PCR y una de post PCR, con flujo unidireccional del trabajo de la segunda en la primera",
+        "B": "Una sala pre PCR y una de post PCR, con flujo direccional de trabajo bidireccional",
+        "C": "Cuatro salas: preparación de reactivos, preparación de muestras, amplificación y análisis",
+        "D": "Una sala de pre PCR y una sala post PCR, con flujo unidireccional de trabajo de la primera a la segunda"
+      },
+      "page": 31,
+      "correctAnswer": "D",
+      "correctText": "Una sala de pre PCR y una sala post PCR, con flujo unidireccional de trabajo de la primera a la segunda"
+    },
+    {
+      "id": 295,
+      "question": "En relación con la reacción en cadena de la polimerasa en tiempo real (RT-PCR), ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "A": "Permite amplificar distintos fragmentos simultáneamente.",
+        "B": "Permite amplificar todos los fragmentos con igual eficacia.",
+        "C": "Sólo permite añadir un cebador o \"primer”.",
+        "D": "No permite la cuantificación."
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Permite amplificar distintos fragmentos simultáneamente."
+    },
+    {
+      "id": 296,
+      "question": "La transcripción es la formación del ARNm y consta de las tres fases siguientes:",
+      "options": {
+        "A": "Iniciación, elongación y terminación",
+        "B": "Desnaturalización, hibridación y elongación",
+        "C": "Iniciación, desnaturalización y terminación",
+        "D": "Iniciación, elongación y desnaturalización"
+      },
+      "page": 31,
+      "correctAnswer": "A",
+      "correctText": "Iniciación, elongación y terminación"
+    },
+    {
+      "id": 297,
+      "question": "Para qué se utiliza la solución de Carnoy:",
+      "options": {
+        "A": "Para la inhibición de la polimerización de microtúbulos y destrucción del huso mitótico, deteniendo todas las células en metafase.",
+        "B": "Para que las células absorban agua a través de la membrana y romperla sin lisar el núcleo.",
+        "C": "Para realizar lavados para la fijación cromosómica.",
+        "D": "Para la extensión del pellet cromosómico."
+      },
+      "page": 31,
+      "correctAnswer": "C",
+      "correctText": "Para realizar lavados para la fijación cromosómica."
+    },
+    {
+      "id": 298,
+      "question": "¿Qué inhibe el crecimiento celular en los estudios citogenéticos?",
+      "options": {
+        "A": "El suero vacuno fetal",
+        "B": "Los antibióticos G) La fitohemaglutinina al 4%",
+        "D": "Los fungicidas"
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "Los fungicidas"
+    },
+    {
+      "id": 299,
+      "question": "¿Cuál es el cariotipo de una persona con síndrome de Klinefelter?",
+      "options": {
+        "A": "47,XXX",
+        "B": "47,XX+X",
+        "C": "47, XX+Y",
+        "D": "47, XXY"
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "47, XXY"
+    },
+    {
+      "id": 300,
+      "question": "Indique cuál de las siguientes afirmaciones es correcta:",
+      "options": {
+        "A": "La traslocación recíproca es la que se da entre dos cromosomas acrocéntricos que se unen por el centrómero con pérdida de sus brazos cortos",
+        "B": "La traslocación robertsoniana se produce por rotura en cromosomas no homólogos e intercambio de los segmentos cromosómicos entre ellos",
+        "C": "En una translocación equilibrada si hay pérdida y ganancia de material cromosómico",
+        "D": "Las alteraciones estructurales (reordenamientos) se producen como consecuencia de roturas cromosómicas seguidas de la reconstitución de una combinación anómala"
+      },
+      "page": 32,
+      "correctAnswer": "D",
+      "correctText": "Las alteraciones estructurales (reordenamientos) se producen como consecuencia de roturas cromosómicas seguidas de la reconstitución de una combinación anómala"
+    },
+    {
+      "id": 301,
+      "question": "¿Cómo se llama la variante de la técnica de PCR que en la misma reacción de PCR se amplifican varios fragmentos simultáneamente?",
+      "options": {
+        "A": "PCR asimétrica",
+        "B": "PCR multiplex",
+        "C": "RT-PCR",
+        "D": "PCR animada"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "PCR multiplex"
+    },
+    {
+      "id": 302,
+      "question": "En los cultivos celulares de sangre periférica, ¿cuál es la lecitina mitógena que se une a la membrana plasmática de los linfocitos y estimula la proliferación específica de linfocitos T?",
+      "options": {
+        "A": "Colchicina",
+        "B": "Fitohematoglutinina",
+        "C": "L-glutamina",
+        "D": "Formamida"
+      },
+      "page": 32,
+      "correctAnswer": "B",
+      "correctText": "Fitohematoglutinina"
+    },
+    {
+      "id": 303,
+      "question": "Respecto a las características físicas y estructurales de los ácidos nucleicos, señalar la afirmación falsa:",
+      "options": {
+        "A": "Un polímero de nucleótidos (una hebra de ADN) tiene siempre un extremo 3’-fosfato y un extremo 5’-hidroxilo",
+        "B": "El ADN es bicatenario y el ARN es monocatenario",
+        "C": "La viscosidad es mayor en el ADN que en el ARN y la densidad es mayor en el ARN que en el ADN",
+        "D": "En el ADN bicatenario las proporciones A:T y G:C son siempre igual a 1. La suma de purinas (A + G] es igual a la suma de pirimidinas (C+ T)"
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Un polímero de nucleótidos (una hebra de ADN) tiene siempre un extremo 3’-fosfato y un extremo 5’-hidroxilo"
+    },
+    {
+      "id": 304,
+      "question": "¿Cómo se llama la fase en la que tiene lugar la unión de los primers o cebadores a sus secuencias complementarias de la muestra de ADN?",
+      "options": {
+        "A": "Fase de hibridación",
+        "B": "Fase de elongación",
+        "C": "Fase de desnaturalización",
+        "D": "Fase de extensión"
+      },
+      "page": 32,
+      "correctAnswer": "A",
+      "correctText": "Fase de hibridación"
+    },
+    {
+      "id": 305,
+      "question": "Los cromosomas 19 y 20 según el tamaño y la posición del centrómero se describen como:",
+      "options": {
+        "A": "Cromosomas acrocéntricos de tamaño medio satelizados",
+        "B": "Grandes cromosomas submetacéntricos",
+        "C": "Cromosomas metacéntricos pequeños",
+        "D": "Grandes cromosomas metacéntricos que se distinguen entre sí por la posición del centrómero"
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Cromosomas metacéntricos pequeños"
+    },
+    {
+      "id": 306,
+      "question": "Según la nomenclatura internacional, ¿cuál es el significado de la fórmula cromosómica 46,XX,r(22)?",
+      "options": {
+        "A": "Mujer con translocación robertsoniana en uno de los pares del cromosoma 22",
+        "B": "Mujer con inversión pericéntrica en el par del cromosoma 22",
+        "C": "Mujer con cromosoma 22 en anillo",
+        "D": "Mujer con cromosoma normal y un isocromosoma en el cromosoma 22"
+      },
+      "page": 32,
+      "correctAnswer": "C",
+      "correctText": "Mujer con cromosoma 22 en anillo"
+    },
+    {
+      "id": 307,
+      "question": "Los nucleótidos están compuestos por:",
+      "options": {
+        "A": "Bases nitrogenadas",
+        "B": "Azúcares de 5 átomos de C",
+        "C": "Ácido fosfórico",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 33,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 308,
+      "question": "Una sonda de ADN se utiliza en la técnica de:",
+      "options": {
+        "A": "PCR",
+        "B": "Southern Blot",
+        "C": "Western Blot",
+        "D": "Electroforesis"
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Southern Blot"
+    },
+    {
+      "id": 309,
+      "question": "¿Cuál de las siguientes PCRs se emplea para pasar mRNA a DNA?",
+      "options": {
+        "A": "Q-PCR",
+        "B": "RT-PCR.",
+        "C": "PCR inversa.",
+        "D": "SSP-PCR."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "RT-PCR."
+    },
+    {
+      "id": 310,
+      "question": "De las siguientes opciones indique de forma ordenada, cuáles son los ciclos de una PCR:",
+      "options": {
+        "A": "Extensión-Hibridación-Desnaturalización.",
+        "B": "Desnaturalización-Hibridación-Elongación.",
+        "C": "Elongación-Extensión-Polimerización.",
+        "D": "Hibridación-Desnaturalización-Elongación."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Desnaturalización-Hibridación-Elongación."
+    },
+    {
+      "id": 311,
+      "question": "La técnica de reacción en cadena de la polimerasa (PCR) es un método de identificación:",
+      "options": {
+        "A": "Fenotípico.",
+        "B": "Genotípico.",
+        "C": "Cultivo celular.",
+        "D": "Microscópico."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Genotípico."
+    },
+    {
+      "id": 312,
+      "question": "En las técnicas con ácidos nucleicos se puede amplificar: (señale la respuesta incorrecta)",
+      "options": {
+        "A": "La señal.",
+        "B": "La sonda.",
+        "C": "La diana.",
+        "D": "La sensibilidad a los antibióticos."
+      },
+      "page": 33,
+      "correctAnswer": "D",
+      "correctText": "La sensibilidad a los antibióticos."
+    },
+    {
+      "id": 313,
+      "question": "Señale el tipo de cromosoma en las que el centrómero se encuentra en el punto medio:",
+      "options": {
+        "A": "Metacéntrico",
+        "B": "Telocéntrico",
+        "C": "Acrocéntrico",
+        "D": "Submetacéntrico"
+      },
+      "page": 33,
+      "correctAnswer": "A",
+      "correctText": "Metacéntrico"
+    },
+    {
+      "id": 314,
+      "question": "En el proceso de síntesis proteica, la traducción consiste en:",
+      "options": {
+        "A": "Sintetizar ARN tomando como molde el AON nuclear.",
+        "B": "Traducir en proteínas el mensaje genético transcrito en el ARNm.",
+        "C": "Sintetizar los ribosomas.",
+        "D": "Reparar los cambios moleculares producidos por las mutaciones."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Traducir en proteínas el mensaje genético transcrito en el ARNm."
+    },
+    {
+      "id": 315,
+      "question": "Cómo se denomina a los cambios en el número de cromosomas:",
+      "options": {
+        "A": "Deleciones",
+        "B": "Aneuploidías y poliploidías",
+        "C": "Duplicaciones",
+        "D": "Translocaciones robertsonianas"
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Aneuploidías y poliploidías"
+    },
+    {
+      "id": 316,
+      "question": "Entre las siguientes anomalías cromosómicas, cual no altera el numero normal de los cromosomas:",
+      "options": {
+        "A": "Triploidía",
+        "B": "Trisomía",
+        "C": "Aneuploidía",
+        "D": "Translocación Robertsoniana"
+      },
+      "page": 33,
+      "correctAnswer": "D",
+      "correctText": "Translocación Robertsoniana"
+    },
+    {
+      "id": 317,
+      "question": "Señala la respuesta incorrecta en relación a los cultivos celulares formados por vellosidades coriales.",
+      "options": {
+        "A": "Las vellosidades coriales se obtienen a través de una biopsia del corión de la placenta materna.",
+        "B": "Son cultivos indirectos por la necesidad de utilizar un agente mitógeno para provocar la división celular.",
+        "C": "Un medio de cultivo utilizado es el Amniopan.",
+        "D": "La finalidad de este cultivo es el estudio prenatal de ciertas anomalías cromosómicas del feto en edad temprana de gestación."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Son cultivos indirectos por la necesidad de utilizar un agente mitógeno para provocar la división celular."
+    },
+    {
+      "id": 318,
+      "question": "Cuando en estudios de investigación se trabaja con organismos modificados genéticamente (OMG), donde la primera generación se ha obtenido de tos cruces de dos líneas consanguíneas, hablamos de:",
+      "options": {
+        "A": "Línea consanguínea.",
+        "B": "Híbridos F1.",
+        "C": "Líneas congénitas.",
+        "D": "Líneas cromosómicas."
+      },
+      "page": 33,
+      "correctAnswer": "B",
+      "correctText": "Híbridos F1."
+    },
+    {
+      "id": 319,
+      "question": "¿Cuál de las siguientes opciones es un tipo de bandeo cromosómico?",
+      "options": {
+        "A": "NOR.",
+        "B": "SUR.",
+        "C": "0",
+        "D": "A y B son correctas."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "NOR."
+    },
+    {
+      "id": 320,
+      "question": "Señala la respuesta falsa en relación con las bases nitrogenadas:",
+      "options": {
+        "A": "Las bases púricas son la adenina y la guanina.",
+        "B": "Las bases pirimidínicas son la timina, citosina y uracilo.",
+        "C": "Las cadenas de ácidos nucleicos que contienen más de 10 nucleótidos se denominan polinucleótidos.",
+        "D": "Los desoxirribonucleótidos están formados por ribosas y se encuentran en el ARN."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Los desoxirribonucleótidos están formados por ribosas y se encuentran en el ARN."
+    },
+    {
+      "id": 321,
+      "question": "Señala cuál de las siguientes opciones no es un componente de la PCR.",
+      "options": {
+        "A": "Desoxirribonucleótidos trifosfatados.",
+        "B": "ADN polimerasa termoestable.",
+        "C": "Cloruro de sodio.",
+        "D": "ADN molde."
+      },
+      "page": 34,
+      "correctAnswer": "C",
+      "correctText": "Cloruro de sodio."
+    },
+    {
+      "id": 322,
+      "question": "Dentro de las mutaciones cromosómicas, ¿cómo se llama el aumento o disminución del número de cromosomas?:",
+      "options": {
+        "A": "Aneuploidía.",
+        "B": "Poliploidia.",
+        "C": "Traslocación.",
+        "D": "Delección."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "Aneuploidía."
+    },
+    {
+      "id": 323,
+      "question": "¿Cuál es la técnica de bandeo cromosómico más común en los laboratorios clínicos?:",
+      "options": {
+        "A": "Bandas G.",
+        "B": "Bandas C.",
+        "C": "Bandas NOR.",
+        "D": "Bandas DAPI."
+      },
+      "page": 34,
+      "correctAnswer": "A",
+      "correctText": "Bandas G."
+    },
+    {
+      "id": 324,
+      "question": "¿En qué variante de PCR se amplifican varios fragmentos simultáneamente en la misma reacción?:",
+      "options": {
+        "A": "PCR anidada.",
+        "B": "PCR touchdown.",
+        "C": "PCR asimétrica.",
+        "D": "PCR multiplex."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "PCR multiplex."
+    },
+    {
+      "id": 325,
+      "question": "Según la clasificación de los cromosomas en grupos por el tamaño y la posición de centrómero, ¿a qué grupo pertenece el cromosoma 15?:",
+      "options": {
+        "A": "G.",
+        "B": "H.",
+        "C": "D.",
+        "D": "A."
+      },
+      "page": 34,
+      "correctAnswer": "C",
+      "correctText": "D."
+    },
+    {
+      "id": 326,
+      "question": "Queremos preparar a los cromosomas para un estudio cromosómico. ¿Qué sustancia añadimos a la muestra para que inhiba el huso mitótico de las células?:",
+      "options": {
+        "A": "Fitohemaglutinina.",
+        "B": "Solución hipotónica.",
+        "C": "Ácido periódico.",
+        "D": "Colchicina."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Colchicina."
+    },
+    {
+      "id": 327,
+      "question": "Con objeto de disminuir los riesgos materno fetales y evitar el estrés de los padres, se da la posibilidad de realizar el diagnóstico prenatal a la mayor brevedad que sería:",
+      "options": {
+        "A": "Cordocentesis.",
+        "B": "Fetoscopia.",
+        "C": "Amniocentesis.",
+        "D": "Biopsia corial."
+      },
+      "page": 34,
+      "correctAnswer": "D",
+      "correctText": "Biopsia corial."
+    },
+    {
+      "id": 328,
+      "question": "Durante la formación de las células sexuales, el periodo entre la primera y la segunda división de la meiosis se denomina:",
+      "options": {
+        "A": "Profase II.",
+        "B": "Intercinesis.",
+        "C": "Metafase II.",
+        "D": "Anafase II."
+      },
+      "page": 34,
+      "correctAnswer": "B",
+      "correctText": "Intercinesis."
+    },
+    {
+      "id": 329,
+      "question": "Las Triploidías son anomalías numéricas en las que se observan tres juegos cromosómicos. Pueden ser el resultado de una fecundación con dos espermatozoides denominada:",
+      "options": {
+        "A": "Piospermia",
+        "B": "Síndrome de disgenesia gonodal (SDG)",
+        "C": "Dispermia",
+        "D": "Hiperespermia"
+      },
+      "page": 35,
+      "correctAnswer": "C",
+      "correctText": "Dispermia"
+    },
+    {
+      "id": 330,
+      "question": "La identificación fenotípica de un microorganismo no se basa en:",
+      "options": {
+        "A": "Caracteres morfológicos",
+        "B": "Detección de ácidos nucleicos específicos de un agente infeccioso en una muestra clínica",
+        "C": "Propiedades fisiológicas",
+        "D": "Composición química"
+      },
+      "page": 35,
+      "correctAnswer": "B",
+      "correctText": "Detección de ácidos nucleicos específicos de un agente infeccioso en una muestra clínica"
+    },
+    {
+      "id": 331,
+      "question": "La temperatura ideal del cultivo para la obtención del cariotipo es de:",
+      "options": {
+        "A": "4ac",
+        "B": "25°C",
+        "C": "37°C",
+        "D": "65°C"
+      },
+      "page": 35,
+      "correctAnswer": "C",
+      "correctText": "37°C"
+    }
+  ]
+}

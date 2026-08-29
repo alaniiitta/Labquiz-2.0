@@ -1,0 +1,2895 @@
+{
+  "tema": "15",
+  "titulo": "Gases e iones",
+  "source_file": "Test tema 15 gases e iones (respuestas) (1).pdf",
+  "total_questions": 223,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Con respecto a las condiciones necesarias para el análisis de Lactato en sangre señale la afirmación incorrecta:",
+      "options": {
+        "A": "Se recomienda en sangre arterial, aunque también se puede realizar en sangre venosa.",
+        "B": "Se utilizará un torniquete para la extracción de la muestra.",
+        "C": "Es necesario que el paciente se encuentre en reposo previamente a la extracción de la muestra.",
+        "D": "La muestra se conservará en frío y se analizará lo antes posible."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Se utilizará un torniquete para la extracción de la muestra."
+    },
+    {
+      "id": 2,
+      "question": "Indica el valor normal de PH en sangre arterial",
+      "options": {
+        "A": "7.45 a 7.55",
+        "B": "7.25 a 7.35",
+        "C": "7.35 a 7.45",
+        "D": "7.15 a 7.25"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "7.35 a 7.45"
+    },
+    {
+      "id": 3,
+      "question": "La arteria donde habitualmente se suele realizar la gasometría es:",
+      "options": {
+        "A": "La femoral.",
+        "B": "La axila.",
+        "C": "La radial.",
+        "D": "La carótida."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "La radial."
+    },
+    {
+      "id": 4,
+      "question": "Hablamos de alcalosis cuando el PH arterial supera un valor de:",
+      "options": {
+        "A": "6,8.",
+        "B": "7,45.",
+        "C": "7,65.",
+        "D": "7,77."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "7,45."
+    },
+    {
+      "id": 5,
+      "question": "Es falso que la acidosis metabólica:",
+      "options": {
+        "A": "Se genere por un exceso de ácidos.",
+        "B": "Se puede producir por una pérdida de bicarbonato.",
+        "C": "Produzca debilidad.",
+        "D": "No puede aparecer con un GAP normal."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "No puede aparecer con un GAP normal."
+    },
+    {
+      "id": 6,
+      "question": "Un anión es:",
+      "options": {
+        "A": "Una sustancia que es atraída por el polo negativo.",
+        "B": "Una sustancia que es atraído por el polo positivo.",
+        "C": "Una sustancia que es atraída por el cátodo.",
+        "D": "Una sustancia neutra."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Una sustancia que es atraído por el polo positivo."
+    },
+    {
+      "id": 7,
+      "question": "No es un sistema regulador del PH:",
+      "options": {
+        "A": "Pulmón.",
+        "B": "Hígado.",
+        "C": "Médula ósea.",
+        "D": "Riñón."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Médula ósea."
+    },
+    {
+      "id": 8,
+      "question": "Un aumento de la concentración de hidrogeniones y una PCO2 inicialmente elevada corresponde a:",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis respiratoria.",
+        "D": "Alcalosis metabólica."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 9,
+      "question": "En el laboratorio la expresión anión gap (vacío aniónico) hace referencia a:",
+      "options": {
+        "A": "Una hipocloremia severa.",
+        "B": "Una incapacidad de la mucosa gástrica para producir clorhídrico.",
+        "C": "Una pérdida severa de bicarbonato.",
+        "D": "El conjunto de aniones no medido habitualmente en el laboratorio clínico (sulfatos, fosfatos, etc)."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "El conjunto de aniones no medido habitualmente en el laboratorio clínico (sulfatos, fosfatos, etc)."
+    },
+    {
+      "id": 10,
+      "question": "Para el mantenimiento del pH fisiológico en el plasma (7,35 – 7,45), el organismo dispone de una serie de sistemas tampón o amortiguadores. ¿Cuál de ellos presenta una mayor capacidad amortiguadora?:",
+      "options": {
+        "A": "Tampón bicarbonato-ácido carbónico.",
+        "B": "Hemoglobina.",
+        "C": "Proteínas del plasma.",
+        "D": "Tampón fosfato."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Tampón bicarbonato-ácido carbónico."
+    },
+    {
+      "id": 11,
+      "question": "En la alcalosis metabólica hay:",
+      "options": {
+        "A": "Una carencia primaria de bicarbonato.",
+        "B": "Un exceso primario de bicarbonato.",
+        "C": "Una carencia primaria de ácido carbónico.",
+        "D": "Un exceso primario de ácido carbónico."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Un exceso primario de bicarbonato."
+    },
+    {
+      "id": 12,
+      "question": "La capacidad de la hemoglobina para enlazar O2 depende de:",
+      "options": {
+        "A": "pCO2 y pH.",
+        "B": "pO2 y pCO2.",
+        "C": "pH y PO2.",
+        "D": "pO2, pCO2 y pH."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "pO2, pCO2 y pH."
+    },
+    {
+      "id": 13,
+      "question": "El pH de una muestra se ve afectado por:",
+      "options": {
+        "A": "El tiempo transcurrido hasta que se realiza.",
+        "B": "El anticoagulante empleado.",
+        "C": "La manera en que ha sido transportada la muestra.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 14,
+      "question": "Para la determinación de gases en sangre, la muestra de elección será:",
+      "options": {
+        "A": "Sangre venosa",
+        "B": "Sangre arterial",
+        "C": "Sangre capilar",
+        "D": "Es indiferente"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Sangre arterial"
+    },
+    {
+      "id": 15,
+      "question": "La acidosis respiratoria en un paciente de 80 años con bronconeumonía refleja:",
+      "options": {
+        "A": "Un pH elevado.",
+        "B": "Una PCO2 elevada.",
+        "C": "Un bicarbonato disminuido.",
+        "D": "Las respuestas a y c son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Una PCO2 elevada."
+    },
+    {
+      "id": 16,
+      "question": "Si se reduce la capacidad de los pulmones de eliminar CO2, se producirá:",
+      "options": {
+        "A": "Acidosis respiratoria.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis metabólica.",
+        "D": "Alcalosis metabólica."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 17,
+      "question": "¿Cuál de las siguientes NO es una causa de acidosis metabólica, con anión GAP aumentado?",
+      "options": {
+        "A": "Rabdomiólisis.",
+        "B": "Acidosis láctica.",
+        "C": "Ingestión de tolueno.",
+        "D": "Perfusión renal reducida."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Perfusión renal reducida."
+    },
+    {
+      "id": 18,
+      "question": "¿Cuál de las interpretaciones siguientes sobre el equilibrio ácido-base de la gasometría en sangre es correcta?",
+      "options": {
+        "A": "Un pH superior a 7’45 indica alcalosis.",
+        "B": "Un pH inferior a 7’35 indica acidosis.",
+        "C": "Hay que tener presente que puede haber un desequilibrio ácido-base aún con un pH plasmático dentro de lo normal.",
+        "D": "Las tres respuestas anteriores son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Las tres respuestas anteriores son correctas."
+    },
+    {
+      "id": 19,
+      "question": "¿Cuál de los siguientes elementos no forman parte del electrodo de oxígeno de CLARK para determinar los valores de la presión parcial de oxígeno?",
+      "options": {
+        "A": "Cátodo de platino.",
+        "B": "Electrodo de referencia (ánodo).",
+        "C": "Solución de bicarbonato.",
+        "D": "Membrana de separación."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Solución de bicarbonato."
+    },
+    {
+      "id": 20,
+      "question": "El pH de la muestra se ve afectado por:",
+      "options": {
+        "A": "El tiempo transcurrido hasta que se analiza",
+        "B": "La actividad anhidrasa carbónica de los glóbulos rojos",
+        "C": "El anticoagulante empleado",
+        "D": "Todas son correctas"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 21,
+      "question": "En el laboratorio la expresión anión gap (vacío aniónico) hace referencia a:",
+      "options": {
+        "A": "Una hipocloremia severa",
+        "B": "Conjunto de aniones no medidos habitualmente en el laboratorio clínico",
+        "C": "Una pérdida severa de bicarbonato",
+        "D": "Los aniones del ácido clorhídrico gástrico"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Conjunto de aniones no medidos habitualmente en el laboratorio clínico"
+    },
+    {
+      "id": 22,
+      "question": "Un aumento de la concentración de hidrogeniones y una PCO2 inicialmente elevada corresponde a:",
+      "options": {
+        "A": "Acidosis metabólica",
+        "B": "Alcalosis respiratoria",
+        "C": "Acidosis respiratoria",
+        "D": "Alcalosis metabólica"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria"
+    },
+    {
+      "id": 23,
+      "question": "Se reciben en el laboratorio las muestras que a continuación se relacionan, ¿cuál de ellas es la que debemos procesar en primer lugar?",
+      "options": {
+        "A": "Orina",
+        "B": "Sangre en jeringa para gasometría",
+        "C": "Sangre en tubo con gelosa",
+        "D": "Sangre en tubo con EDTA 3K"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Sangre en jeringa para gasometría"
+    },
+    {
+      "id": 24,
+      "question": "Después de centrifugar la sangre en el tubo con gelosa, observamos que el suero está hemolizado. ¿Con cuáles de las siguientes pruebas puede interferir este hecho?",
+      "options": {
+        "A": "Potasio y Sodio",
+        "B": "Urea y Creatinina",
+        "C": "Potasio y LDH",
+        "D": "Glucosa y LDH"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Potasio y LDH"
+    },
+    {
+      "id": 25,
+      "question": "Los resultados normales de pH en una gasometría oscilan entre:",
+      "options": {
+        "A": "7.1 – 7.25",
+        "B": "7.35 – 7.45",
+        "C": "7.25 – 7.31",
+        "D": "7.55 – 7.65"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "7.35 – 7.45"
+    },
+    {
+      "id": 26,
+      "question": "Un pH neutro será un pH igual a:",
+      "options": {
+        "A": "6.",
+        "B": "7.",
+        "C": "8.",
+        "D": "5,3."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "7."
+    },
+    {
+      "id": 27,
+      "question": "Podemos considerar la acidosis como:",
+      "options": {
+        "A": "Un exceso de hidrogeniones.",
+        "B": "Un déficit de hidrogeniones.",
+        "C": "La compensación de una acidosis.",
+        "D": "La aparición de bases negativas."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Un exceso de hidrogeniones."
+    },
+    {
+      "id": 28,
+      "question": "Para compensar una acidosis metabólica se produce una:",
+      "options": {
+        "A": "Hiperventilación pulmonar.",
+        "B": "Hipoventilación pulmonar.",
+        "C": "Aumento en la eliminación de bases.",
+        "D": "Aumento en la retención de ácidos."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Hiperventilación pulmonar."
+    },
+    {
+      "id": 29,
+      "question": "El método del fosfomolibdato se basa en técnicas:",
+      "options": {
+        "A": "De contraste.",
+        "B": "De recuento celular.",
+        "C": "De control iónico.",
+        "D": "De espectrofotometría directa."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "De espectrofotometría directa."
+    },
+    {
+      "id": 30,
+      "question": "De los siguientes señale cuál es cuantitativamente el cuarto catión del organismo y el segundo intracelular:",
+      "options": {
+        "A": "(Cinc) Zn.",
+        "B": "Potasio.",
+        "C": "Magnesio.",
+        "D": "Litio."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Magnesio."
+    },
+    {
+      "id": 31,
+      "question": "Dentro del equilibrio ácido-básico los valores normales en sangre arterial de pH son:",
+      "options": {
+        "A": "7,35 - 7,40.",
+        "B": "7,31 - 7,41.",
+        "C": "7,31 - 7,45.",
+        "D": "7,35 - 7,45."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "7,35 - 7,45."
+    },
+    {
+      "id": 32,
+      "question": "Ante la proximidad del parto, Lola pasa a realizarse el preoperatorio en una de sus últimas revisiones, no debiendo realizarse la extracción de sangre con citrato sódico para:",
+      "options": {
+        "A": "Estudio de la coagulación.",
+        "B": "Estudio de la VSG.",
+        "C": "Estudio de la función plaquetaria.",
+        "D": "Determinación de sodio y potasio."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Determinación de sodio y potasio."
+    },
+    {
+      "id": 33,
+      "question": "Los niveles plasmáticos normales de sodio son de:",
+      "options": {
+        "A": "74 mEq/Kg",
+        "B": "274 mEq/Kg",
+        "C": "4 mEq/Kg",
+        "D": "140 mEq/Kg"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "140 mEq/Kg"
+    },
+    {
+      "id": 34,
+      "question": "¿Qué factores pueden causar una interferencia en la medición de fosfato dando lugar a una pseudohiperfosfatemia?",
+      "options": {
+        "A": "Índices séricos alterados",
+        "B": "Algunos fármacos",
+        "C": "Paraproteínas",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 35,
+      "question": "El rango normal en una determinación de sodio en suero es:",
+      "options": {
+        "A": "De 3 a 6.5 mmol/dl",
+        "B": "De 135 a 145 Eq/L",
+        "C": "De 135 a 145 mEq/L",
+        "D": "De 135 a 145 mEq/dL"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "De 135 a 145 mEq/L"
+    },
+    {
+      "id": 36,
+      "question": "La hipocalciuria en la orina puede originarse por:",
+      "options": {
+        "A": "Raquitismo.",
+        "B": "Hiperparatiroidismo.",
+        "C": "Hipertiroidismo.",
+        "D": "Mieloma múltiple."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Raquitismo."
+    },
+    {
+      "id": 37,
+      "question": "En general, la determinación de gases en sangre, puede ser:",
+      "options": {
+        "A": "De tipo basal (en reposo).",
+        "B": "De esfuerzo (tras realizar un esfuerzo físico).",
+        "C": "Respirando mezcla de gases, ricos en oxígeno.",
+        "D": "Todas son correctas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 38,
+      "question": "Para la investigación precisa del equilibrio ácido- base será necesario determinar al menos, los siguientes parámetros:",
+      "options": {
+        "A": "La concentración de hidrogeniones.",
+        "B": "La concentración de bicarbonato.",
+        "C": "La presión parcial de dióxido de carbono.",
+        "D": "Todas son correctas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 39,
+      "question": "¿Cuál de los siguientes iones es el más abundante del organismo?",
+      "options": {
+        "A": "Magnesio.",
+        "B": "Potasio.",
+        "C": "Cloro.",
+        "D": "Calcio."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Calcio."
+    },
+    {
+      "id": 40,
+      "question": "La Hipernatremia es:",
+      "options": {
+        "A": "Aumento del calcio sérico",
+        "B": "Aumento del sodio sérico",
+        "C": "Aumento del potasio sérico",
+        "D": "Aumento del hierro sérico"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Aumento del sodio sérico"
+    },
+    {
+      "id": 41,
+      "question": "Para regular fisiológicamente el pH se utilizan sistemas amortiguadores denominados tampones. ¿Cuál no es un tampón?:",
+      "options": {
+        "A": "Tampón Bicarbonato",
+        "B": "Tampón Fosfato",
+        "C": "Tampón Hemoglobina",
+        "D": "Tampón Hemoxiglobina"
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Tampón Hemoxiglobina"
+    },
+    {
+      "id": 42,
+      "question": "Los valores normales de pH en sangre arterial son:",
+      "options": {
+        "A": "7'22- 7'45",
+        "B": "7'35- 7'45",
+        "C": "7'55- 7'65",
+        "D": "7'25 - 7'35"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "7'35- 7'45"
+    },
+    {
+      "id": 43,
+      "question": "Ácidos son sustancias que en disolución aportan al medio:",
+      "options": {
+        "A": "Hidroxilos",
+        "B": "Hidrogeniones",
+        "C": "Oxigeno",
+        "D": "Nitrógeno"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Hidrogeniones"
+    },
+    {
+      "id": 44,
+      "question": "Señale lo CORRECTO sobre la determinación de gases en sangre mediante el electrodo de Clark:",
+      "options": {
+        "A": "La membrana es permeable a las moléculas de oxígeno y los iones.",
+        "B": "Se trata de un método potencio métrico.",
+        "C": "Su cátodo y ánodo no están sumergidos en solución electrolítica.",
+        "D": "En el electrodo tiene lugar una reducción del oxígeno."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "En el electrodo tiene lugar una reducción del oxígeno."
+    },
+    {
+      "id": 45,
+      "question": "Señale lo correcto respecto a los sistemas tampón de pH y su acción en el organismo:",
+      "options": {
+        "A": "Son una mezcla de un ácido aceptor de protones y su base conjugada.",
+        "B": "El mayor efecto amortiguador corresponde a las proteínas.",
+        "C": "No actúan en el líquido intracelular.",
+        "D": "El ácido carbónico se convierte en dióxido de carbono y agua mediante una reacción enzimática."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "El ácido carbónico se convierte en dióxido de carbono y agua mediante una reacción enzimática."
+    },
+    {
+      "id": 46,
+      "question": "Un anión gap bajo puede ser causado por:",
+      "options": {
+        "A": "Aumento de proteínas plasmáticas.",
+        "B": "Hiponatremia.",
+        "C": "Disminución de los cationes no medidos.",
+        "D": "Todas las anteriores son falsas."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Hiponatremia."
+    },
+    {
+      "id": 47,
+      "question": "Señale cuál de los siguientes no es un amortiguador fisiológico:",
+      "options": {
+        "A": "Potasio",
+        "B": "Bicarbonato",
+        "C": "Fosfato",
+        "D": "Hemoglobina"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Potasio"
+    },
+    {
+      "id": 48,
+      "question": "Ante una situación de acidosis metabólica, el pulmón responderá iniciando una:",
+      "options": {
+        "A": "Hiponatremia",
+        "B": "Hipoventilación",
+        "C": "Hiperventilación",
+        "D": "Hipercapnia"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Hiperventilación"
+    },
+    {
+      "id": 49,
+      "question": "Un aumento de la concentración de hidrogeniones y una PCO2inicialmente elevada corresponde a:",
+      "options": {
+        "A": "Acidosis metabólica",
+        "B": "Alcalosis respiratoria",
+        "C": "Acidosis respiratoria",
+        "D": "Alcalosis metabólica"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria"
+    },
+    {
+      "id": 50,
+      "question": "Los siguientes resultados de una gasometría: pH por debajo del valor de referencia, un bicarbonato también por debajo del valor de referencia, unas presiones parciales de oxígeno y dióxido de carbono dentro de los valores de referencia, nos indican la presencia de:",
+      "options": {
+        "A": "Alcalosis metabólica",
+        "B": "Acidosis metabólica",
+        "C": "Alcalosis respiratoria",
+        "D": "Acidosis respiratoria"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Acidosis metabólica"
+    },
+    {
+      "id": 51,
+      "question": "¿Cuál es la fracción de oxígeno inspirado del aire a una presión atmosférica de 760mm Hg?",
+      "options": {
+        "A": "21%",
+        "B": "28%",
+        "C": "31%",
+        "D": "50%"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "21%"
+    },
+    {
+      "id": 52,
+      "question": "Todos son componentes habituales de un analizador de gases, excepto:",
+      "options": {
+        "A": "Sistema de aspiración de muestra",
+        "B": "Electrodo de medida de pCO2",
+        "C": "Electrodo de medida de exceso de base",
+        "D": "Electrodo de medida de pO2"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Electrodo de medida de exceso de base"
+    },
+    {
+      "id": 53,
+      "question": "No es un síntoma de la Acidosis Metabólica:",
+      "options": {
+        "A": "Aliento con olor a frutas.",
+        "B": "Cansancio.",
+        "C": "Cefalea.",
+        "D": "Respiración lenta y superficial."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Respiración lenta y superficial."
+    },
+    {
+      "id": 54,
+      "question": "Las soluciones que contienen una elevada concentración de hidrogeniones:",
+      "options": {
+        "A": "Son ácidas y su pH es mayor de 7.",
+        "B": "Son básicas y su pH es inferior a 7.",
+        "C": "Son básicas y su pH es superior a 7.",
+        "D": "Son ácidas y su pH es inferior a 7."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Son ácidas y su pH es inferior a 7."
+    },
+    {
+      "id": 55,
+      "question": "La hipernatremia es un aumento de:",
+      "options": {
+        "A": "La concentración de calcio sérico",
+        "B": "La concentración de sodio sérico",
+        "C": "La concentración de potasio sérico",
+        "D": "La concentración de hierro sérico"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "La concentración de sodio sérico"
+    },
+    {
+      "id": 56,
+      "question": "En una gasometría arterial, obtenemos los siguientes valores: pH aumentado y HCO3 aumentado, ¿de qué trastorno se trata?",
+      "options": {
+        "A": "Acidosis respiratoria",
+        "B": "Acidosis metabólica",
+        "C": "Alcalosis metabólica",
+        "D": "Alcalosis respiratoria"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Alcalosis metabólica"
+    },
+    {
+      "id": 57,
+      "question": "En una muestra de sangre hemolizada, ¿cuál de los iones se eleva?:",
+      "options": {
+        "A": "Sodio.",
+        "B": "Potasio.",
+        "C": "Cloro.",
+        "D": "Todos."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Potasio."
+    },
+    {
+      "id": 58,
+      "question": "Para la determinación de gases en sangre se utiliza:",
+      "options": {
+        "A": "Plasma.",
+        "B": "Suero.",
+        "C": "Sangre total heparinizada.",
+        "D": "Sangre total citratada."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Sangre total heparinizada."
+    },
+    {
+      "id": 59,
+      "question": "¿Cuál de las interpretaciones siguientes sobre el equilibrio ácido-base de la gasometría en sangre es correcta?:",
+      "options": {
+        "A": "Un pH superior a 7,45 indica alcalosis.",
+        "B": "Un pH inferior a 7,35 indica acidosis.",
+        "C": "Hay que tener presente que puede haber un desequilibrio ácido-base aun con un pH plasmático dentro de lo normal.",
+        "D": "Las tres respuestas anteriores son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Las tres respuestas anteriores son correctas."
+    },
+    {
+      "id": 60,
+      "question": "En la acidosis metabólica los valores del pH sanguíneo y del bicarbonato se encuentran:",
+      "options": {
+        "A": "pH aumentado y C03H- aumentado",
+        "B": "pH disminuido y C03H- aumentado",
+        "C": "pH aumentado y C03H- disminuido",
+        "D": "pH disminuido y C03H- disminuido"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "pH disminuido y C03H- disminuido"
+    },
+    {
+      "id": 61,
+      "question": "El electrodo de Severinghaus se usa para:",
+      "options": {
+        "A": "Medida de pCO2",
+        "B": "Medida de pO2",
+        "C": "Medida de pH",
+        "D": "Medida de H+"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Medida de pCO2"
+    },
+    {
+      "id": 62,
+      "question": "Todos los siguientes parámetros del equilibrio ácido-base se miden directamente con electrodos excepto:",
+      "options": {
+        "A": "pH",
+        "B": "Bicarbonato",
+        "C": "pCO2",
+        "D": "pO2"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Bicarbonato"
+    },
+    {
+      "id": 63,
+      "question": "En lo que respecta al pH, señale la respuesta correcta:",
+      "options": {
+        "A": "Las disoluciones con pH mayor a 7 son ácidas.",
+        "B": "Las disoluciones con pH menor a 7 son alcalinas.",
+        "C": "pH= log [H+].",
+        "D": "A elevado pH, baja concentración de protones."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "A elevado pH, baja concentración de protones."
+    },
+    {
+      "id": 64,
+      "question": "¿Cuál de las siguientes muestras puede utilizarse para medir el pH en sangre?",
+      "options": {
+        "A": "Plasma.",
+        "B": "Sangre venosa.",
+        "C": "Sangre arterial.",
+        "D": "Todas las anteriores son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas."
+    },
+    {
+      "id": 65,
+      "question": "En relación al fósforo, señale la respuesta incorrecta:",
+      "options": {
+        "A": "Los niños en período de desarrollo tienen niveles de P más bajos.",
+        "B": "Su absorción está favorecida por la acción de la vitamina D y la hormona del crecimiento.",
+        "C": "En la homeostasia del P intervienen tres órganos: intestino delgado, riñones y esqueleto.",
+        "D": "Sus valores son más bajos de lo normal durante la menstruación."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Los niños en período de desarrollo tienen niveles de P más bajos."
+    },
+    {
+      "id": 66,
+      "question": "La vitamina D es activa en su forma 1,25 dihidroxicolecalciferol. ¿En qué órgano se produce la segunda hidroxilación?",
+      "options": {
+        "A": "Médula ósea",
+        "B": "Hueso",
+        "C": "Paratiroides",
+        "D": "Riñón"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Riñón"
+    },
+    {
+      "id": 67,
+      "question": "¿Cuál de los siguientes iones contribuye de manera más importante a la osmolalidad?",
+      "options": {
+        "A": "Sodio.",
+        "B": "Potasio.",
+        "C": "Cloruro.",
+        "D": "Calcio."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Sodio."
+    },
+    {
+      "id": 68,
+      "question": "¿Cuál de estas opciones es correcta, en una alcalosis metabólica?",
+      "options": {
+        "A": "pH alto y cHCO3- bajo.",
+        "B": "pH alto y cHCO3- alto.",
+        "C": "pH alto y pCO2 bajo.",
+        "D": "pH bajo y pCO2 alto."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "pH alto y cHCO3- alto."
+    },
+    {
+      "id": 69,
+      "question": "El anión gap es útil para el diagnóstico diferencial de:",
+      "options": {
+        "A": "Alcalosis metabólica.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis metabólica.",
+        "D": "Acidosis respiratoria."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Acidosis metabólica."
+    },
+    {
+      "id": 70,
+      "question": "Señale la afirmación correcta, respecto a los niveles de calcio plasmático:",
+      "options": {
+        "A": "El calcio total debe valorarse conjuntamente con la concentración de proteínas.",
+        "B": "El hipoparatiroidismo es causa de hipercalcemia.",
+        "C": "En situación de acidosis, disminuye el calcio iónico.",
+        "D": "La calcitonina produce elevación de los niveles de calcio."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "El calcio total debe valorarse conjuntamente con la concentración de proteínas."
+    },
+    {
+      "id": 71,
+      "question": "La acidosis respiratoria:",
+      "options": {
+        "A": "Se produce cuando la pO2 es baja.",
+        "B": "Se produce cuando la pCO2 es elevada.",
+        "C": "Se produce cuando el bicarbonato es bajo.",
+        "D": "Se produce cuando el pH es mayor de 7,45"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Se produce cuando la pCO2 es elevada."
+    },
+    {
+      "id": 72,
+      "question": "La concentración de potasio en suero se ve falsamente elevada:",
+      "options": {
+        "A": "por retraso en su medición, siendo más acusado cuando la muestra se conserva a 25 grados que cuando se conserva a 4 grados de temperatura.",
+        "B": "por retraso en su medición, siendo más acusado cuando la muestra se conserva a 4 grados que cuando se conserva a 25 grados de temperatura.",
+        "C": "en pacientes con enfermedad renal crónica avanzada.",
+        "D": "cuando el contenedor no se llena lo suficiente"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "por retraso en su medición, siendo más acusado cuando la muestra se conserva a 4 grados que cuando se conserva a 25 grados de temperatura."
+    },
+    {
+      "id": 73,
+      "question": "Cuando la hemoglobina va cargada de monóxido de carbono (CO) se denomina:",
+      "options": {
+        "A": "Desoxihemoglobina.",
+        "B": "Carboxihemoglobina.",
+        "C": "Metahemoglobina.",
+        "D": "Carbaminohemoglobina."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Carboxihemoglobina."
+    },
+    {
+      "id": 74,
+      "question": "¿Cuál es el catión más importante del líquido intracelular?",
+      "options": {
+        "A": "Sodio.",
+        "B": "Cloro.",
+        "C": "Potasio.",
+        "D": "Magnesio."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Potasio."
+    },
+    {
+      "id": 75,
+      "question": "Valores normales de pCO2",
+      "options": {
+        "A": "15-25mmHg",
+        "B": "23-35mmHg",
+        "C": "35-45mmHg",
+        "D": "45-55mmHg"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "35-45mmHg"
+    },
+    {
+      "id": 76,
+      "question": "En acidosis respiratorio",
+      "options": {
+        "A": "PCO2 disminuye.",
+        "B": "PH aumenta",
+        "C": "Hay hipoventilación alveolar.",
+        "D": "Todas son falsas"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Hay hipoventilación alveolar."
+    },
+    {
+      "id": 77,
+      "question": "Para regular el pH del medio, el riñón:",
+      "options": {
+        "A": "Acidifica las sales de fosfato.",
+        "B": "Segrega amonio.",
+        "C": "Reabsorbe bicarbonato.",
+        "D": "Todas son ciertas."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 78,
+      "question": "¿Con qué tipo de electrodos se mide el pH?",
+      "options": {
+        "A": "Con el electrodo de Severinghaus",
+        "B": "Con el electrodo de vidrio",
+        "C": "Con el electrodo de Clark",
+        "D": "Con el electrodo selectivo"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Con el electrodo de vidrio"
+    },
+    {
+      "id": 79,
+      "question": "¿Cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "El procesamiento de una jeringa venosa/arterial ha de realizarse antes de los 30 minutos posteriores a su extracción.",
+        "B": "Se recomienda despreciar la primera parte la muestra de una jeringa antes de su análisis, para evidenciar la presencia de coágulos en la misma.",
+        "C": "El anión gap es la diferencia entre las concentraciones de cationes y los aniones medidos en una muestra.",
+        "D": "Como causa de una hiperventilación profunda, suele aparecer acidosis respiratoria."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Como causa de una hiperventilación profunda, suele aparecer acidosis respiratoria."
+    },
+    {
+      "id": 80,
+      "question": "¿Por qué se caracteriza la alcalosis respiratoria?",
+      "options": {
+        "A": "pH disminuido, pCO2 aumentado, HCO3- aumentado.",
+        "B": "pH aumentado, pCO2 aumentado, HCO3- aumentado.",
+        "C": "pH aumentado, pCO2 disminuido, HCO3- disminuido.",
+        "D": "pH disminuido, pCO2 disminuido, HCO3- aumentado"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "pH aumentado, pCO2 disminuido, HCO3- disminuido."
+    },
+    {
+      "id": 81,
+      "question": "¿Cuál es el principal catión intracelular-celular?",
+      "options": {
+        "A": "Na +",
+        "B": "Mg2 +",
+        "C": "K +",
+        "D": "H +"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "K +"
+    },
+    {
+      "id": 82,
+      "question": "Si un aumento del pH de la sangre va acompañado de un aumento de la concentración de HCO3 y una pCO2 normal, se trata de ...",
+      "options": {
+        "A": "Acidosis metabólica",
+        "B": "Acidosis respiratoria",
+        "C": "Alcalosis metabólica",
+        "D": "Alcalosis respiratoria"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Alcalosis metabólica"
+    },
+    {
+      "id": 83,
+      "question": "Indique cuál es el principal catión extracelular:",
+      "options": {
+        "A": "Cl-",
+        "B": "Na+",
+        "C": "K+",
+        "D": "HCO3"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Na+"
+    },
+    {
+      "id": 84,
+      "question": "Indique una causa de hipopotasemia:",
+      "options": {
+        "A": "alcalosis metabólica",
+        "B": "insuficiencia renal",
+        "C": "hemólisis",
+        "D": "déficit de insulina"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "alcalosis metabólica"
+    },
+    {
+      "id": 85,
+      "question": "¿Qué es el anión gap?",
+      "options": {
+        "A": "Es un ácido orgánico capaz de regular el pH.",
+        "B": "Es un tampón que convierte bases fuertes en sales neutras y agua, manteniendo alteraciones mínimas de los niveles, actuando de igual forma con los ácidos.",
+        "C": "Es la cantidad que representa a la suma de los iones que no se suelen determinar por ser múltiples y encontrarse en proporciones muy bajas.",
+        "D": "Es la suma de todos los aniones del plasma."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Es la cantidad que representa a la suma de los iones que no se suelen determinar por ser múltiples y encontrarse en proporciones muy bajas."
+    },
+    {
+      "id": 86,
+      "question": "El tampón bicarbonato actúa:",
+      "options": {
+        "A": "En el exterior de la célula.",
+        "B": "En el sistema amortiguador pulmonar.",
+        "C": "A nivel de la membrana celular.",
+        "D": "Dentro de la célula."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "En el exterior de la célula."
+    },
+    {
+      "id": 87,
+      "question": "En gasometrías, las muestras de sangre venosa se recomiendan para:",
+      "options": {
+        "A": "Conocer el estado de oxigenación del paciente.",
+        "B": "Evaluar la efectividad de la oxigenoterapia.",
+        "C": "Valorar el estado del equilibrio ácido-base.",
+        "D": "Medir la cooximetría."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Valorar el estado del equilibrio ácido-base."
+    },
+    {
+      "id": 88,
+      "question": "¿Qué es la saturación de oxígeno en sangre?",
+      "options": {
+        "A": "Es la cantidad total de oxígeno: el unido a la hemoglobina más el disuelto en el plasma.",
+        "B": "Es la relación entre la cantidad de oxígeno combinado con la hemoglobina presente en el medio y la cantidad máxima de dióxido de carbono que podría estar combinado con la hemoglobina en ese mismo medio.",
+        "C": "Es la relación entre la cantidad de oxígeno combinado con la hemoglobina presente en el medio y la cantidad máxima de oxígeno que podría estar combinado con la hemoglobina en ese mismo medio.",
+        "D": "Es la relación entre la cantidad de oxígeno combinado con la hemoglobina presente en el medio y la cantidad mínima de oxígeno que podría estar combinado con la hemoglobina en ese mismo medio."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Es la relación entre la cantidad de oxígeno combinado con la hemoglobina presente en el medio y la cantidad máxima de oxígeno que podría estar combinado con la hemoglobina en ese mismo medio."
+    },
+    {
+      "id": 89,
+      "question": "Si nos encontramos un aumento de dióxido de carbono y un pH de 7.1, estamos hablando de:",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis respiratoria.",
+        "D": "Alcalosis metabólica."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 90,
+      "question": "Las sustancias que al disociarse aportan al medio hidrogeniones, se denominan:",
+      "options": {
+        "A": "Bases.",
+        "B": "Grupos hidroxilos.",
+        "C": "Ácidos.",
+        "D": "Protones."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Ácidos."
+    },
+    {
+      "id": 91,
+      "question": "La constante de disociación se denomina:",
+      "options": {
+        "A": "K.",
+        "B": "l.",
+        "C": "p.",
+        "D": "r."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "K."
+    },
+    {
+      "id": 92,
+      "question": "El agua se comporta como una sustancia:",
+      "options": {
+        "A": "Anfolita.",
+        "B": "Básica.",
+        "C": "Ácida.",
+        "D": "Todas son ciertas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 93,
+      "question": "Es falso que el tampón bicarbonato:",
+      "options": {
+        "A": "Es un tampón extracelular cuya principal función se realiza en la sangre.",
+        "B": "Es un tampón con una elevada concentración.",
+        "C": "Actúa como sal neutra.",
+        "D": "Cuando interaccione con una base el bicarbonato neutralizará a la misma impidiendo el cambio de pH."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Actúa como sal neutra."
+    },
+    {
+      "id": 94,
+      "question": "Para realizar el hueco aniónico medimos de los aniones el:",
+      "options": {
+        "A": "Sulfato.",
+        "B": "Sodio.",
+        "C": "Bicarbonato.",
+        "D": "Ácidos orgánicos."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Bicarbonato."
+    },
+    {
+      "id": 95,
+      "question": "El anión gap suele oscilar entre:",
+      "options": {
+        "A": "0-0.5.",
+        "B": "5-7.",
+        "C": "10-12.",
+        "D": "15-17."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "10-12."
+    },
+    {
+      "id": 96,
+      "question": "El primer tampón que se va a activar en una acidosis metabólica, es:",
+      "options": {
+        "A": "El riñón.",
+        "B": "El bicarbonato.",
+        "C": "La alteración de la respiración.",
+        "D": "La frecuencia cardiaca."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "El bicarbonato."
+    },
+    {
+      "id": 97,
+      "question": "El principal amortiguador de una acidosis respiratoria lo constituyen los tampones:",
+      "options": {
+        "A": "Tisulares.",
+        "B": "Sanguíneos.",
+        "C": "Celulares.",
+        "D": "Renales."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Celulares."
+    },
+    {
+      "id": 98,
+      "question": "Para determinar el pH de una muestra sanguínea, buscamos:",
+      "options": {
+        "A": "La saturación de oxígeno.",
+        "B": "La diferencia de potencial entre dos electrodos.",
+        "C": "La saturación de la hemoglobina.",
+        "D": "Cualquiera de los anteriores."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "La diferencia de potencial entre dos electrodos."
+    },
+    {
+      "id": 99,
+      "question": "Las tiras reactivas para la determinación de pH en orina presentan como indicador:",
+      "options": {
+        "A": "Azul B.",
+        "B": "Verde jano.",
+        "C": "Ocre pouch.",
+        "D": "Rojo metilo."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Rojo metilo."
+    },
+    {
+      "id": 100,
+      "question": "En un estudio de gases no es necesario buscar:",
+      "options": {
+        "A": "ph.",
+        "B": "PCO2",
+        "C": "PO2",
+        "D": "Saturación de la transferrina."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Saturación de la transferrina."
+    },
+    {
+      "id": 101,
+      "question": "El test de Allen nos informa sobre:",
+      "options": {
+        "A": "La saturación de oxígeno.",
+        "B": "El pulso del paciente.",
+        "C": "La correcta circulación de ambas arterias de la muñeca.",
+        "D": "El correcto estado de la circulación del paciente."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "La correcta circulación de ambas arterias de la muñeca."
+    },
+    {
+      "id": 102,
+      "question": "Los valores normales de PO2 en sangre es:",
+      "options": {
+        "A": "90.",
+        "B": "60.",
+        "C": "50.",
+        "D": "40."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "90."
+    },
+    {
+      "id": 103,
+      "question": "Consideraremos normales unos valores de PCO2 en sangre de:",
+      "options": {
+        "A": "100.",
+        "B": "70.",
+        "C": "50.",
+        "D": "40."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "40."
+    },
+    {
+      "id": 104,
+      "question": "Las características bioquímicas que no son compatibles con los estadios clínicos de acidosis metabólica son",
+      "options": {
+        "A": "Disminución del pH.",
+        "B": "Descenso del bicarbonato plasmático.",
+        "C": "Reducción compensadora de la pCO2.",
+        "D": "Hipopotasemia."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Hipopotasemia."
+    },
+    {
+      "id": 105,
+      "question": "¿Cuál es la causa por la que el dióxido de carbono difunde a través de la membrana respiratoria 20 veces más rápido que el oxígeno?",
+      "options": {
+        "A": "El peso molecular del dióxido de carbono es mayor que el del oxígeno.",
+        "B": "El gradiente de presión parcial para el dióxido de carbono a través de la membrana respiratoria es mucho mayor que para el oxígeno.",
+        "C": "La permeabilidad del endotelio de los capilares pulmonares para el dióxido de carbono es mucho mayor que para el oxígeno.",
+        "D": "La solubilidad del dióxido de carbono es mucho mayor que la del oxígeno."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "La solubilidad del dióxido de carbono es mucho mayor que la del oxígeno."
+    },
+    {
+      "id": 106,
+      "question": "Para preparar una disolución tampón de la máxima capacidad amortiguadora:",
+      "options": {
+        "A": "El pH de la disolución debe ser igual que el pKa.",
+        "B": "El pH de la disolución debe ser igual que el pKb.",
+        "C": "El pH de la disolución debe ser igual que el pKa +2.",
+        "D": "El pH de la disolución debe ser igual que pKb +2."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "El pH de la disolución debe ser igual que el pKa."
+    },
+    {
+      "id": 107,
+      "question": "De las siguientes, ¿a qué corresponde un aumento de la concentración de hidrogeniones y una PCO2 inicialmente elevada?",
+      "options": {
+        "A": "Acidosis metabólica",
+        "B": "Alcalosis respiratoria",
+        "C": "Acidosis respiratoria",
+        "D": "Alcalosis metabólica"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria"
+    },
+    {
+      "id": 108,
+      "question": "¿Cuál de las siguientes sustancias contribuye más significativamente en la determinación de la osmolalidad plasmática?",
+      "options": {
+        "A": "Glucosa",
+        "B": "Proteínas",
+        "C": "Sodio",
+        "D": "Urea"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Sodio"
+    },
+    {
+      "id": 109,
+      "question": "Desde el punto de vista fisiológico, ¿cuál de los siguientes No es un buffer importante para mantener el pH sanguíneo?",
+      "options": {
+        "A": "Bicarbonato",
+        "B": "Proteínas",
+        "C": "Lactato",
+        "D": "Fosfato"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Lactato"
+    },
+    {
+      "id": 110,
+      "question": "¿Qué fracción de hemoglobina se forma cuando el ion ferroso del grupo hemo se oxida a férrico y es incapaz de combinarse con el oxígeno?",
+      "options": {
+        "A": "Metahemoglobina",
+        "B": "Carboxihemoglobina",
+        "C": "Desoxihemoglobina",
+        "D": "Oxihemoglobina"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Metahemoglobina"
+    },
+    {
+      "id": 111,
+      "question": "¿Cuál es el principal catión extracelular?",
+      "options": {
+        "A": "Cloro",
+        "B": "Sodio",
+        "C": "Magnesio",
+        "D": "Potasio"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Sodio"
+    },
+    {
+      "id": 112,
+      "question": "Si una partícula está cargada positivamente:",
+      "options": {
+        "A": "Se denomina anión",
+        "B": "Se denomina ánodo",
+        "C": "Se denomina catión",
+        "D": "Se denomina cátodo"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Se denomina catión"
+    },
+    {
+      "id": 113,
+      "question": "En una gasometría arterial, obtenemos los siguientes valores: pH aumentado y HCO3 aumentado, ¿de qué trastorno se trata?:",
+      "options": {
+        "A": "Acidosis respiratoria",
+        "B": "Acidosis metabólica",
+        "C": "Alcalosis metabólica",
+        "D": "Alcalosis respiratoria"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Alcalosis metabólica"
+    },
+    {
+      "id": 114,
+      "question": "¿La determinación de qué electrolito debe valorarse conjuntamente con la concentración de proteínas plasmáticas?",
+      "options": {
+        "A": "Cloro",
+        "B": "Calcio",
+        "C": "Potasio",
+        "D": "Sodio"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Calcio"
+    },
+    {
+      "id": 115,
+      "question": "Respecto a la utilización de un pH-metro, ¿cuál es la respuesta incorrecta?",
+      "options": {
+        "A": "Se ha de calibrar con disoluciones patrón antes de medir",
+        "B": "Entre cada medida hay que lavar el electrodo con agua destilada",
+        "C": "No es necesario tener en cuenta la temperatura",
+        "D": "El electrodo se guarda en una solución conservadora de KCI"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "No es necesario tener en cuenta la temperatura"
+    },
+    {
+      "id": 116,
+      "question": "Es un mecanismo compensatorio ante la presencia de una acidosis metabólica:",
+      "options": {
+        "A": "Hipeventilacion pulmonar",
+        "B": "Aumento de la excreción renal de bicarbonato",
+        "C": "Hipoventilacion pulmonar",
+        "D": "Retención de ácidos a nivel del tubulo renal"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Hipeventilacion pulmonar"
+    },
+    {
+      "id": 117,
+      "question": "Respecto al análisis de gasometrías en el laboratorio:",
+      "options": {
+        "A": "Deben implantarse los medios precisos para que sean analizadas antes de 90 minutos",
+        "B": "Las muestras con grandes burbujas de aire o con muchas pequeñas no deben ser analizadas ya que pH, pO2 y pCO2 no serán valorables por la contaminación con aire",
+        "C": "No hay valores críticos que deban ser notificados inmediatamente",
+        "D": "La fracción de inspiración de oxígeno no es necesario ponerla ya que no afecta a ningún cálculo. Lo mismo ocurre con la temperatura en pacientes con fiebre"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Las muestras con grandes burbujas de aire o con muchas pequeñas no deben ser analizadas ya que pH, pO2 y pCO2 no serán valorables por la contaminación con aire"
+    },
+    {
+      "id": 118,
+      "question": "¿Cuál de las siguientes determinaciones es más útil en el diagnóstico de la intoxicación por monóxido de carbono?:",
+      "options": {
+        "A": "Determinación pCO2.",
+        "B": "Determinación de la pO2.",
+        "C": "Determinación de la carboxihemoglobina",
+        "D": "Determinación de la saturación de oxígeno."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Determinación de la carboxihemoglobina"
+    },
+    {
+      "id": 119,
+      "question": "De las siguientes respuestas, señale cuál no está entre los principales mecanismos amortiguadores del pH que posee el organismo:",
+      "options": {
+        "A": "Sistema amortiguador del fosfato.",
+        "B": "Sistema amortiguador del carbonato.",
+        "C": "Sistema amortiguador de la amilasa",
+        "D": "Sistema amortiguador de las proteínas."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Sistema amortiguador de la amilasa"
+    },
+    {
+      "id": 120,
+      "question": "Una de las siguientes respuestas es verdadera, indíquela:",
+      "options": {
+        "A": "Acidosis metabólica: el pH aumenta como consecuencia de un descenso de la concentración de bicarbonato.",
+        "B": "Alcalosis metabólica: el pH disminuye como consecuencia de un incremento de los niveles de bicarbonato.",
+        "C": "Acidosis respiratoria: el pH disminuye como consecuencia de un incremento en los niveles de la pCO2.",
+        "D": "Alcalosis respiratoria: el pH disminuye como consecuencia de un descenso en los niveles de pCO2."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria: el pH disminuye como consecuencia de un incremento en los niveles de la pCO2."
+    },
+    {
+      "id": 121,
+      "question": "¿Qué es el hiato aniónico?:",
+      "options": {
+        "A": "Concentración de cationes no medidos.",
+        "B": "Concentración de aniones no medidos.",
+        "C": "Aproximación matemática de la diferencia existente entre aniones y cationes determinados sistemáticamente en suero.",
+        "D": "Es el anión principal extracelular."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Aproximación matemática de la diferencia existente entre aniones y cationes determinados sistemáticamente en suero."
+    },
+    {
+      "id": 122,
+      "question": "Con respecto a la definición de Ph señala la correcta",
+      "options": {
+        "A": "Ácidos: sustancias que en disolución aportan al medio grupos hidroxilos.",
+        "B": "Bases: sustancias que al disociarse aportan al medio grupos hidronoines o captan hidroxilos.",
+        "C": "Bases: sustancias que al disociarse aportan al medio grupos hidroxilos o que captan hidrogeniones.",
+        "D": "Las diferentes moléculas serán disociadas formando iones. Si estos iones son atraídos por un polo negativo (ánodo) se denomina catión."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Bases: sustancias que al disociarse aportan al medio grupos hidroxilos o que captan hidrogeniones."
+    },
+    {
+      "id": 123,
+      "question": "Señala la afirmación incorrecta en referencia a la regulación fisiológica del pH",
+      "options": {
+        "A": "El equilibrio ácido-básico es aquella situación en la que se establece un equilibrio en el balance entre sustancias de carácter ácido y de carácter básico en el torrente sanguíneo.",
+        "B": "Las alteraciones del equilibrio ácido-básico pueden ser de dos tipos: metabólicas y respiratorias.",
+        "C": "La alteración metabólica es causada principalmente por una alteración en la concentración de dióxido de carbono en la sangre.",
+        "D": "La alteración respiratoria es causada por una alteración en la concentración de dióxido de carbono en la sangre."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "La alteración metabólica es causada principalmente por una alteración en la concentración de dióxido de carbono en la sangre."
+    },
+    {
+      "id": 124,
+      "question": "Para determinar el pH de una muestra sanguínea buscamos la diferencia de potencial entre dos electrodos denominados electrodo de referencia y electrodo indicador. El electrodo de referencia puede ser",
+      "options": {
+        "A": "Electrodo de cobre.",
+        "B": "Electrodo de magnesio.",
+        "C": "Electrodo de hidrógeno.",
+        "D": "Electrodo de calomel saturado"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Electrodo de calomel saturado"
+    },
+    {
+      "id": 125,
+      "question": "Los parámetros que buscamos en unos gases sanguíneos son",
+      "options": {
+        "A": "pH, PCO2, PO2.",
+        "B": "Amilasa y O2 calculado l/100l.",
+        "C": "Proteínas y HCO3 calculado en mol/l.",
+        "D": "Grasas totales, PO2 calculado en mm de Hg."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "pH, PCO2, PO2."
+    },
+    {
+      "id": 126,
+      "question": "El plasma está formado por",
+      "options": {
+        "A": "Agua en su 90% y otras sustancias como nutrientes, sales, azúcares, minerales hormonas, proteínas.",
+        "B": "Suero con altas cantidades de fibrinógeno.",
+        "C": "Suero anaranjado, viscoso, pobre en cloruro de sodio.",
+        "D": "Un 20% de proteínas y un 10% de sales."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Agua en su 90% y otras sustancias como nutrientes, sales, azúcares, minerales hormonas, proteínas."
+    },
+    {
+      "id": 127,
+      "question": "Señale la opción verdadera con respecto a las muestras sanguíneas arteriales",
+      "options": {
+        "A": "Los sitios más comunes de punción arterial son las arterias femoral, braquial o radial.",
+        "B": "La punción arterial es necesaria fundamentalmente para la realización de gasometrías.",
+        "C": "La sangre obtenida por punción arterial debería procesarse inmediatamente después de extraída, por lo que, lo ideal, es contar con equipos de gasometría en la propia sala donde se realiza la extracción.",
+        "D": "Todas las opciones son verdaderas."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Todas las opciones son verdaderas."
+    },
+    {
+      "id": 128,
+      "question": "¿Cuál de las siguientes afirmaciones es incorrecta?",
+      "options": {
+        "A": "El procesamiento de una jeringa venosa/arterial ha de realizarse antes de los 30 minutos posteriores a su extracción.",
+        "B": "Se recomienda despreciar la primera parte de la muestra de una jeringa antes del análisis, para evidenciar la presencia de coágulos.",
+        "C": "El anión gap es la diferencia entre las concentraciones de cationes y los aniones medidos en una muestra.",
+        "D": "Como causa de una hiperventilación profunda suele aparecer acidosis respiratoria."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Como causa de una hiperventilación profunda suele aparecer acidosis respiratoria."
+    },
+    {
+      "id": 129,
+      "question": "Una gasometría con un descenso de PH y un aumento de PCO2 sugiere:",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Alcalosis metabólica.",
+        "C": "Acidosis respiratoria.",
+        "D": "Alcalosis respiratoria."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 130,
+      "question": "Con respecto a la compensación del equilibrio ácido-base de tipo pulmonar:",
+      "options": {
+        "A": "Es rápida, comienza en minutos y se estabiliza en 24 horas.",
+        "B": "Ante un aumento de pH (alcalosis), se tiende a hipoventilar para elevar la pCO2.",
+        "C": "Ante un descenso de pH (acidosis), se tiende a hiperventilar para disminuir la pCO2.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 131,
+      "question": "¿Cuál de los siguientes parámetros muestra mayores diferencias entre sangre venosa y arterial?:",
+      "options": {
+        "A": "CO2 total.",
+        "B": "pO2.",
+        "C": "pCO2.",
+        "D": "pH."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "pO2."
+    },
+    {
+      "id": 132,
+      "question": "El valor normal de pH en sangre arterial es:",
+      "options": {
+        "A": "7,45 a 7,55.",
+        "B": "7,25 a 7,35.",
+        "C": "7,35 a 7,45.",
+        "D": "7,15 a 7,25."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "7,35 a 7,45."
+    },
+    {
+      "id": 133,
+      "question": "El vaso arterial que lleva sangre desoxigenada es:",
+      "options": {
+        "A": "Arteria hepática.",
+        "B": "Arteria pedia.",
+        "C": "Arteria pulmonar.",
+        "D": "Aorta."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Arteria pulmonar."
+    },
+    {
+      "id": 134,
+      "question": "Solicitan iones de un suero. ¿Cuál de estos iones es un anión?:",
+      "options": {
+        "A": "Cloro.",
+        "B": "Potasio.",
+        "C": "Sodio.",
+        "D": "Calcio."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Cloro."
+    },
+    {
+      "id": 135,
+      "question": "¿En cuál de las siguientes NO está indicada la medida de la concentración de magnesio?",
+      "options": {
+        "A": "Arritmias cardíacas refractarias",
+        "B": "Diarreas prolongadas o graves",
+        "C": "Hiperpotasemia",
+        "D": "Alcoholismo. Pregunta difícil. Explicación: A) sí ya que el déficit de magnesio causa alteraciones musculares (igual que el déficit de calcio). B) y D) situaciones en las que puede haber déficit de calcio por mala absorción."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Hiperpotasemia"
+    },
+    {
+      "id": 136,
+      "question": "¿Cuál de las siguientes enfermedades no produce hipercalcemia?",
+      "options": {
+        "A": "Hiperparatiroidismo primario.",
+        "B": "Hiperfosfatemia.",
+        "C": "Mieloma múltiple.",
+        "D": "Cáncer de mama y de pulmón. Truco. Calcio y fósforo van al revés. Cuando uno sube, el otro baja. Algo similar ocurre con el cloro y el bicarbonato"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Hiperfosfatemia."
+    },
+    {
+      "id": 137,
+      "question": "¿Cuál de las siguientes enfermedades no produce hipocalcemia?",
+      "options": {
+        "A": "Insuficiencia renal.",
+        "B": "Pancreatitis aguda.",
+        "C": "Hipoparatiroidismo.",
+        "D": "Cáncer de mama."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Cáncer de mama."
+    },
+    {
+      "id": 138,
+      "question": "¿Cuál de las siguientes moléculas contribuye en mayor medida al hiato aniónico o anión GAP?:",
+      "options": {
+        "A": "Albúmina.",
+        "B": "Anión lactato.",
+        "C": "Anión fosfato.",
+        "D": "Anión sulfato."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Albúmina."
+    },
+    {
+      "id": 139,
+      "question": "Una vez obtenidos los valores observamos: sodio de 135 mEq/L; potasio de 3 mEq/L, calcio 9,5 mg/dL y cloro 100 mEq/L. ¿Cuál está alterado?:",
+      "options": {
+        "A": "Sodio.",
+        "B": "Potasio.",
+        "C": "Cloro.",
+        "D": "Calcio."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Potasio."
+    },
+    {
+      "id": 140,
+      "question": "Señale la sentencia correcta en relación a la medida de lactato en sangre:",
+      "options": {
+        "A": "Un nivel de lactato inferior a 5 mmol/L es indicador de mal pronóstico.",
+        "B": "Se encuentra como resultado de la glucólisis aeróbica durante el ejercicio intenso.",
+        "C": "No es necesario su análisis urgente.",
+        "D": "Ha demostrado ser un predictor de la gravedad de la enfermedad."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Ha demostrado ser un predictor de la gravedad de la enfermedad."
+    },
+    {
+      "id": 141,
+      "question": "La muestra de líquido pleural para la determinación de pH debe:",
+      "options": {
+        "A": "Ser transportada en frío.",
+        "B": "Ser atemperada antes de la toma de muestra.",
+        "C": "Ser transportada protegida de la luz.",
+        "D": "No se determina pH en el líquido pleural."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Ser transportada en frío."
+    },
+    {
+      "id": 142,
+      "question": "Para realizar una gasometría en la arteria radial debemos hacer antes el test:",
+      "options": {
+        "A": "Benedit.",
+        "B": "Allen.",
+        "C": "Crussó.",
+        "D": "Mario."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Allen."
+    },
+    {
+      "id": 143,
+      "question": "La recogida de sangre de una gasometría se realiza:",
+      "options": {
+        "A": "En jeringa especial sin anticoagulante.",
+        "B": "En jeringa con EDTA.",
+        "C": "En jeringa con heparina.",
+        "D": "En jeringa con citrato."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "En jeringa con heparina."
+    },
+    {
+      "id": 144,
+      "question": "La alcalosis respiratoria se caracteriza inicialmente por:",
+      "options": {
+        "A": "Disminución del pH, disminución del bicarbonato, aumento de pCO2.",
+        "B": "Aumento del pH, bicarbonato normal, disminución de pCO2.",
+        "C": "Aumento del pH, disminución de bicarbonato, pCO2 normal.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Aumento del pH, bicarbonato normal, disminución de pCO2."
+    },
+    {
+      "id": 145,
+      "question": "Entre los resultados de una gasometría arterial podemos observar: PH=7,6 HCO-3 = 30mEq/L pCO2= 50 mmHg. Dichos resultados nos indicarán:",
+      "options": {
+        "A": "Acidosis respiratoria.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis metabólica.",
+        "D": "Alcalosis metabólica."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Alcalosis metabólica."
+    },
+    {
+      "id": 146,
+      "question": "¿Cuál de los siguientes electrodos se utiliza para medir PO2?:",
+      "options": {
+        "A": "Electrodo de vidrio.",
+        "B": "Electrodo Clark.",
+        "C": "Electrodo selectivo.",
+        "D": "Electrodo Stow-Severinghaus"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Electrodo Clark."
+    },
+    {
+      "id": 147,
+      "question": "¿Cuándo puede estar disminuida la osmolalidad plasmática?",
+      "options": {
+        "A": "Con hiperglucemia.",
+        "B": "Con hipernatremia.",
+        "C": "Con hiponatremia.",
+        "D": "En la Diabetes mellitus."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Con hiponatremia."
+    },
+    {
+      "id": 148,
+      "question": "Todos son componentes habituales de un analizador de gases, excepto:",
+      "options": {
+        "A": "Electrodo de medida de p02.",
+        "B": "Electrodo de medida de Exceso de Base.",
+        "C": "Electrodo de medida de pC02.",
+        "D": "Sistema de aspiración de muestra."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Electrodo de medida de Exceso de Base."
+    },
+    {
+      "id": 149,
+      "question": "¿Cuál es un mecanismo compensador en una alcalosis metabólica?:",
+      "options": {
+        "A": "Eliminación de CO2 (hiperventilando).",
+        "B": "Retención de CO2 (hipoventilando).",
+        "C": "Eliminación CO2 (hipoventilando).",
+        "D": "Retención de Bicarbonato."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Retención de CO2 (hipoventilando)."
+    },
+    {
+      "id": 150,
+      "question": "¿Qué tampón químico sanguíneo resulta de especial interés a nivel tisular?",
+      "options": {
+        "A": "Tampón de Hemoglobina.",
+        "B": "Tampón fosfato.",
+        "C": "Tampón Bicarbonato.",
+        "D": "Tampón de las proteínas plasmáticas. Comentario: tampón intracelular"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Tampón de las proteínas plasmáticas. Comentario: tampón intracelular"
+    },
+    {
+      "id": 151,
+      "question": "¿Qué porcentaje del calcio presente en nuestro organismo se encuentra en los huesos?",
+      "options": {
+        "A": "Menos del 75 %.",
+        "B": "Entre 75 % - 85 %.",
+        "C": "Entre 85 % - 95%.",
+        "D": "Más del 95 %."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Más del 95 %."
+    },
+    {
+      "id": 152,
+      "question": "¿Qué magnitud bioquímica se puede encontrar disminuida por debajo de los valores normales en caso de acidosis respiratoria?",
+      "options": {
+        "A": "pH en orina.",
+        "B": "pH sanguíneo.",
+        "C": "Presión parcial de dióxido de carbono en sangre.",
+        "D": "Concentración de ácido carbónico en sangre."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "pH sanguíneo."
+    },
+    {
+      "id": 153,
+      "question": "¿Cuáles son los valores normales en sangre arterial de pO2 en un adulto?",
+      "options": {
+        "A": "80-100 mmHg.",
+        "B": "35-45 mmHg.",
+        "C": "50-70 mmHg.",
+        "D": "7,35-7,45."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "80-100 mmHg."
+    },
+    {
+      "id": 154,
+      "question": "Hay hiperkalemia en:",
+      "options": {
+        "A": "Una concentración de sodio en sangre por encima de 150 mEq/L.",
+        "B": "Una concentración de sodio en sangre por debajo de 130 mEq/L.",
+        "C": "Una concentración de potasio en sangre de 6,5 mEq/L.",
+        "D": "Una concentración de calcio en sangre por encima de 10,5 mg/dL."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Una concentración de potasio en sangre de 6,5 mEq/L."
+    },
+    {
+      "id": 155,
+      "question": "Principal catión intracelular.",
+      "options": {
+        "A": "Na+.",
+        "B": "K+.",
+        "C": "Ca2+.",
+        "D": "Mg2+."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "K+."
+    },
+    {
+      "id": 156,
+      "question": "La fuerza de un ácido o una base vendrá definida por su constante de disociación. Señale la respuesta correcta.",
+      "options": {
+        "A": "Cuanto mayor sea el valor de Ka, más débil es el ácido.",
+        "B": "Cuanto mayor sea el valor de Kb, la base será más débil.",
+        "C": "Cuanto menor sea el valor de Ka, más débil es el ácido.",
+        "D": "Cuanto menor sea el valor de Kb, la base será más fuerte."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Cuanto menor sea el valor de Ka, más débil es el ácido."
+    },
+    {
+      "id": 157,
+      "question": "En la determinación de gases sanguíneos, la Pco2 informa acerca del:",
+      "options": {
+        "A": "Estado de ventilación.",
+        "B": "Estado de oxigenación.",
+        "C": "Grado de compensación renal.",
+        "D": "Grado de compensación para contrarrestar un aumento de la Pco2. Comentario. Da una idea de la capacidad para expulsar el CO2 (ventilación)"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Estado de ventilación."
+    },
+    {
+      "id": 158,
+      "question": "¿Cuál de estas opciones es correcta en una alcalosis respiratoria?",
+      "options": {
+        "A": "pH alto y pCO2 baja.",
+        "B": "pH alto y pCO2 alta.",
+        "C": "pH alto y cHCO3ˉ alto.",
+        "D": "pH bajo y cHCO3ˉ bajo."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "pH alto y pCO2 baja."
+    },
+    {
+      "id": 159,
+      "question": "¿Cuál es el principal ion intracelular?:",
+      "options": {
+        "A": "Magnesio.",
+        "B": "Sodio.",
+        "C": "Potasio."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Potasio."
+    },
+    {
+      "id": 160,
+      "question": "¿Cuál es el mecanismo compensatorio ante la presencia de una acidosis metabólica?:",
+      "options": {
+        "A": "Aumento de la excreción renal de bicarbonato.",
+        "B": "Hiperventilación pulmonar.",
+        "C": "Hipoventilación pulmonar."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Hiperventilación pulmonar."
+    },
+    {
+      "id": 161,
+      "question": "La determinación fundamental para estudiar el equilibrio ácido-base, de un paciente, desde el laboratorio es:",
+      "options": {
+        "A": "Medida de la osmolaridad.",
+        "B": "Una gasometría.",
+        "C": "Recuento de basófilos."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Una gasometría."
+    },
+    {
+      "id": 162,
+      "question": "¿Qué muestra no debe emplearse para determinar el calcio?",
+      "options": {
+        "A": "Suero (con gel).",
+        "B": "Suero (sin gel).",
+        "C": "Plasma (EDTA).",
+        "D": "Plasma (heparina)."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Plasma (EDTA)."
+    },
+    {
+      "id": 163,
+      "question": "A un paciente que ha sufrido un accidente de automóvil y que se le está administrando oxígeno a través de una cánula nasal, se le determinan los gases sanguíneos arteriales, y se obtienen los siguientes resultados: pH = 7.29, pO2 =90, pCO2= 55, HCO3¯= 27.5, % Saturación Hb= 95%. ¿Cuál es el diagnóstico más probable?:",
+      "options": {
+        "A": "Acidosis respiratoria.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis metabólica.",
+        "D": "Alcalosis metabólica."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 164,
+      "question": "¿Qué aditivo es el más específico para la determinación de una gasometría?",
+      "options": {
+        "A": "Heparina de litio-Ca2+.",
+        "B": "Fluoruro de oxalato.",
+        "C": "Citrato sódico.",
+        "D": "Depende si es venosa o arterial."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Heparina de litio-Ca2+."
+    },
+    {
+      "id": 165,
+      "question": "La gasometría es una técnica que no solo proporciona el pH y las presiones de oxígeno y dióxido de carbono en sangre, sino también la concentración de bicarbonato, pero ¿de qué forma es posible obtener dicha concentración?",
+      "options": {
+        "A": "Mediante un electrodo de calomelanos.",
+        "B": "Mediante un electrodo de platino y cloruro de plata.",
+        "C": "Mediante un detector fotoeléctrico específico.",
+        "D": "Se obtiene indirectamente a partir de otras medidas proporcionadas por la gasometría."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Se obtiene indirectamente a partir de otras medidas proporcionadas por la gasometría."
+    },
+    {
+      "id": 166,
+      "question": "La anhidrasa carbónica (AC) o carbonato deshidratasa es una metaloenzima implicada ¿en qué importante función orgánica?",
+      "options": {
+        "A": "Antioxidante.",
+        "B": "Degradación intracelular de carbohidratos.",
+        "C": "Regulación del balance osmótico en sangre y orina.",
+        "D": "Mantenimiento del equilibrio ácido-base."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Mantenimiento del equilibrio ácido-base."
+    },
+    {
+      "id": 167,
+      "question": "¿Cuál es el intervalo de normalidad del pH en la gasometría arterial?",
+      "options": {
+        "A": "7,35-7,45.",
+        "B": "7,46-7,90.",
+        "C": "7,25-7,34.",
+        "D": "7,60-7,90."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "7,35-7,45."
+    },
+    {
+      "id": 168,
+      "question": "¿Cuál de las siguientes técnicas analíticas se emplea para la determinación de los niveles de manganeso en sangre?",
+      "options": {
+        "A": "Cromatografía Líquida - Espectrometría de Masas.",
+        "B": "Espectrofotometría de absorción atómica con atomización electrotérmica.",
+        "C": "Cromatografía de Gases - Espectrometría de Masas."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Espectrofotometría de absorción atómica con atomización electrotérmica."
+    },
+    {
+      "id": 169,
+      "question": "Un anión GAP bajo puede ser causado por:",
+      "options": {
+        "A": "Disminución de los cationes no medidos.",
+        "B": "Hiponatremia.",
+        "C": "Aumento de las proteínas plasmáticas."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Hiponatremia."
+    },
+    {
+      "id": 170,
+      "question": "¿Qué trastorno del equilibrio ácido-base cursa con un aumento en la concentración de bicarbonato?",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Acidosis respiratoria compensada.",
+        "C": "Alcalosis metabólica."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Alcalosis metabólica."
+    },
+    {
+      "id": 171,
+      "question": "¿Entre qué límites se encuentran los valores de pH de la sangre?",
+      "options": {
+        "A": "7.25 a 7.45.",
+        "B": "7.35 a 7.45.",
+        "C": "7.35 a 7.55."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "7.35 a 7.45."
+    },
+    {
+      "id": 172,
+      "question": "Con los valores de una gasometría arterial, marque la opción verdadera:",
+      "options": {
+        "A": "Un valor de pH de 6,9 determina directamente que existe acidosis metabólica.",
+        "B": "La relación de las bases 1:1 indica una insuficiencia respiratoria.",
+        "C": "Un aumento de PaCO₂ por encima de los límites normales indica hipoxemia.",
+        "D": "Si el valor de PaO₂ está por encima de 60 mmHg, la saturación arterial de la hemoglobina será superior al 90%. Comentario: hipoxemia es una disminución anormal de la presión parcial de oxígeno en la sangre arterial por debajo de 60 mmHg. También se puede definir como una saturación de oxígeno menor de 90,7 %"
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Si el valor de PaO₂ está por encima de 60 mmHg, la saturación arterial de la hemoglobina será superior al 90%. Comentario: hipoxemia es una disminución anormal de la presión parcial de oxígeno en la sangre arterial por debajo de 60 mmHg. También se puede definir como una saturación de oxígeno menor de 90,7 %"
+    },
+    {
+      "id": 173,
+      "question": "Señale la respuesta correcta para un pH de 7,33 con PCO2 y bicarbonatos disminuidos.",
+      "options": {
+        "A": "Acidosis respiratoria.",
+        "B": "Acidosis metabólica.",
+        "C": "Alcalosis respiratoria.",
+        "D": "Alcalosis metabólica."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Acidosis metabólica."
+    },
+    {
+      "id": 174,
+      "question": "Respecto a una solución amortiguadora o tampón, señale la opción falsa:",
+      "options": {
+        "A": "Es una solución que puede absorber cantidades moderadas de ácidos o bases sin que se produzca un cambio significativo en su pH.",
+        "B": "La ecuación pH = pKa + log [sal/ácido] es muy útil para la preparación de las soluciones tampón porque permite calcular el pH de la solución resultante.",
+        "C": "El pH más adecuado para el correcto funcionamiento de una solución tampón es cuando se encuentra en un rango de pH igual a su pKa ± 10.",
+        "D": "Las soluciones tampón pueden estar formadas por un ácido débil y su base conjugada. Comentario: Las soluciones tampón funcionan mejor cuando su pH se asemeja al del sistema o la solución que se está investigando y lo suelen hacer a rangos de pH estrechos. El rango dado es muy amplio"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "El pH más adecuado para el correcto funcionamiento de una solución tampón es cuando se encuentra en un rango de pH igual a su pKa ± 10."
+    },
+    {
+      "id": 175,
+      "question": "Indique en cuál de los siguientes desequilibrios ácido-base se produce disminución de la ventilación alveolar, aumento de CO2 y disminución del PH de la sangre:",
+      "options": {
+        "A": "Alcalosis metabólica.",
+        "B": "Alcalosis respiratoria.",
+        "C": "Acidosis respiratoria.",
+        "D": "Acidosis metabólica."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 176,
+      "question": "Respecto al análisis de gasometrías en el laboratorio:",
+      "options": {
+        "A": "Las muestras que presenten burbujas de aire no deben procesarse puesto que los valores de pH, pCO2 y pO2 obtenidos no serán valorables",
+        "B": "Una vez recibidas en el laboratorio pueden procesarse durante las 24 horas siguientes",
+        "C": "Se recomienda que las jeringas de plástico se conserven en frío hasta su procesamiento",
+        "D": "La hemólisis no es un problema preanalítico en las muestras de gasometría"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Las muestras que presenten burbujas de aire no deben procesarse puesto que los valores de pH, pCO2 y pO2 obtenidos no serán valorables"
+    },
+    {
+      "id": 177,
+      "question": "En la acidosis respiratoria no compensada:",
+      "options": {
+        "A": "El pH disminuye con aumento en los niveles de pCO2",
+        "B": "El pH disminuye con reducción en los niveles de bicarbonato (HCO3-)",
+        "C": "El pH disminuye con reducción en los niveles de pCO2",
+        "D": "El pH aumenta con aumento en los niveles de pCO2"
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "El pH disminuye con aumento en los niveles de pCO2"
+    },
+    {
+      "id": 178,
+      "question": "El anión GAP:",
+      "options": {
+        "A": "Su rango de normalidad es inferior a 10 mEq/L",
+        "B": "Su resultado es más bajo cuando existe acúmulo de hidrogeniones que desplazan el bicarbonato",
+        "C": "Representa el valor de los aniones que no son habitualmente determinados (proteínas plasmáticas, fosfatos, sulfatos y lactatos)",
+        "D": "Es la diferencia entre la suma la concentración de aniones, representada por el cloro y el bicarbonato, menos la suma de la concentración de los cationes sodio y potasio"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Representa el valor de los aniones que no son habitualmente determinados (proteínas plasmáticas, fosfatos, sulfatos y lactatos)"
+    },
+    {
+      "id": 179,
+      "question": "Los valores de referencia del pH en una muestra de sangre arterial oscilan entre:",
+      "options": {
+        "A": "7.35 - 7.45.",
+        "B": "9-9.1.",
+        "C": "1 - 2.",
+        "D": "4.5 - 5.5."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "7.35 - 7.45."
+    },
+    {
+      "id": 180,
+      "question": "Para la determinación de pH, se utiliza el:",
+      "options": {
+        "A": "Electrodo de vidrio.",
+        "B": "Electrodo de membrana.",
+        "C": "Electrodo de Clark.",
+        "D": "Electrodo de potasio."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Electrodo de vidrio."
+    },
+    {
+      "id": 181,
+      "question": "Se produce alcalosis metabólica cuando:",
+      "options": {
+        "A": "Aumenta pH, aumenta HCOˉ₃ y normal o aumenta pCO₂.",
+        "B": "Disminuye pH, disminuye HCOˉ₃ y normal o disminuye pCO₂.",
+        "C": "Disminuye pH, aumenta HCOˉ₃ y normal o disminuye pCO₂.",
+        "D": "Aumenta pH normal o disminuye HCOˉ₃ y disminuye pCO₂."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Aumenta pH, aumenta HCOˉ₃ y normal o aumenta pCO₂."
+    },
+    {
+      "id": 182,
+      "question": "El parámetro denominado presión parcial de oxígeno se obtiene de la muestra:",
+      "options": {
+        "A": "Sangre arterial.",
+        "B": "Orina.",
+        "C": "Heces.",
+        "D": "Líquido cefalorraquídeo."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Sangre arterial."
+    },
+    {
+      "id": 183,
+      "question": "En la alcalosis respiratoria nos encontramos con:",
+      "options": {
+        "A": "CO2 disminuido y pH aumentado.",
+        "B": "CO2 aumentado y pH disminuido.",
+        "C": "CO2 aumentado y pH aumentado.",
+        "D": "CO2 disminuido y pH disminuido."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "CO2 disminuido y pH aumentado."
+    },
+    {
+      "id": 184,
+      "question": "Los resultados de una gasometría de un EPOC se caracterizan por:",
+      "options": {
+        "A": "La PO2 arterial se encuentra alrededor de 70 mmHg y la PCO2 suele ser elevada, la CPT y el VR se encuentran aumentados, la CV y el FEV están disminuidos.",
+        "B": "La PO2 arterial se encuentra alrededor de 70 mmHg y la PCO2 suele ser baja o normal, la CPT y el VR se encuentran aumentados, la CV y el FEV están disminuidos.",
+        "C": "La PO2 arterial se encuentra inferior de 70 mmHg y la PCO2 suele ser elevada, la CPT y el VR se encuentran aumentados, la CV y el FEV están disminuidos.",
+        "D": "La PO2 arterial se encuentra alrededor de 70 mmHg y la PCO2 suele ser elevada, la CPT y el VR se encuentran aumentados, la CV y el FEV están aumentados E) Ninguna es correcta. Comentario: pregunta difícil. En el examen hay muchas siglas. Generalmente deben poner las palabras completas. FEV es volumen espiratorio forzado, es una medida obtenida por espirometría que equivale al volumen de aire exhalado del pulmón de manera forzada durante un segundo después de haber tomado aire al máximo. VR es volumen respiratorio, generalmente por minuto. Es el volumen de gas inhalado o exhalado desde los pulmones de una persona, por minuto CV capacidad vital. Es la cantidad de aire que es posible expulsar de los pulmones después de haber inspirado completamente CPT Capacidad pulmonar total (CPT). Es el volumen de aire que hay en el aparato respiratorio, después de una inhalación máxima voluntaria. La EPOC se caracteriza por una obstrucción al flujo aéreo que no es totalmente reversible. Esta obstrucción es generalmente progresiva y se asocia con una respuesta inflamatoria anormal del pulmón a partículas o gases nocivos (ej; tabaco) que hace que se presente tos crónica, expectoración crónica, disnea progresiva y/o historia de exposición a los factores de riesgo (sobre todo, tabaco). Para la confirmación de la enfermedad es imprescindible la espirometría, que demostrará obstrucción en las vías aéreas no reversible (con disminución del FEV y de la VC) En la gasometría se presenta hipoxia moderada (disminución pO2 sobre 70 mmHg). De forma paulatina se da el aumento del volumen residual (VR), la concavidad en la rama espiratoria de la curva flujo-volumen y el alargamiento de la misma en la curva volumen-tiempo. A nivel del parénquima pulmonar, la destrucción del tejido y la disminución de las fibras elásticas dan lugar a la aparición del enfisema. Se produce entonces un aumento de la distensibilidad pulmonar y un incremento de la capacidad residual funcional (CRF)."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "La PO2 arterial se encuentra alrededor de 70 mmHg y la PCO2 suele ser baja o normal, la CPT y el VR se encuentran aumentados, la CV y el FEV están disminuidos."
+    },
+    {
+      "id": 185,
+      "question": "Para realizar una determinación de calcio en qué contenedor NO se debe extraer la muestra:",
+      "options": {
+        "A": "Tubo EDTA.",
+        "B": "Tubo seco.",
+        "C": "Tubo heparina de litio."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Tubo EDTA."
+    },
+    {
+      "id": 186,
+      "question": "En la acidosis metabólica los niveles de bicarbonato y ácido carbónico están:",
+      "options": {
+        "A": "Aumentado únicamente el bicarbonato.",
+        "B": "Aumentados ambos.",
+        "C": "Disminuidos ambos."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Disminuidos ambos."
+    },
+    {
+      "id": 187,
+      "question": "Entre las siguientes opciones, señale cuál no es una de las principales causas de hipocalcemia.",
+      "options": {
+        "A": "Hipofunción de la glándula pineal.",
+        "B": "Formación deficiente de Vitamina D.",
+        "C": "Hipofunción o ausencia de la glándula paratiroides.",
+        "D": "Malabsorción intestinal."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Hipofunción de la glándula pineal."
+    },
+    {
+      "id": 188,
+      "question": "La alteración de los parámetros del equilibrio ácido-básico que encontramos en la alcalosis respiratoria no compensada, serán:",
+      "options": {
+        "A": "pH disminuido, HCO₃ aumentado y pCO₂ aumentado.",
+        "B": "pH aumentado, HCO₃ aumentado y pCO₂ aumentado.",
+        "C": "pH aumentado, HCO₃ disminuido y pCO₂ disminuido.",
+        "D": "pH disminuido, HCO₃ disminuido y pCO₂ disminuido."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "pH aumentado, HCO₃ disminuido y pCO₂ disminuido."
+    },
+    {
+      "id": 189,
+      "question": "Para mantener el pH constante se utilizan los amortiguadores ¿Qué otro nombre recibe?",
+      "options": {
+        "A": "Acido débil.",
+        "B": "Buffers.",
+        "C": "Master-mix.",
+        "D": "Todas son correctas."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Buffers."
+    },
+    {
+      "id": 190,
+      "question": "¿Cuál de las siguientes situaciones puede provocar resultados erróneos en una gasometría?",
+      "options": {
+        "A": "Homogenización de la muestra previa a su procesamiento.",
+        "B": "Presencia de burbujas de aire en la muestra.",
+        "C": "Procesamiento de la muestra en equipos a la cabecera del paciente."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Presencia de burbujas de aire en la muestra."
+    },
+    {
+      "id": 191,
+      "question": "¿En qué contenedor se deben extraer las muestras para la determinación de gases en sangre?",
+      "options": {
+        "A": "Jeringa heparinizada.",
+        "B": "Tubo de EDTA hielo.",
+        "C": "Tubo heparina de litio"
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Jeringa heparinizada."
+    },
+    {
+      "id": 192,
+      "question": "Se solicita al paciente una gasometría arterial, pero, cuando se realiza la extracción, llaman al enfermero urgentemente para atender a otro paciente que ha sufrido un paro respiratorio y la muestra se queda en la mesa de nuestro paciente durante al menos dos horas, tras las cuales un auxiliar la ve y la lleva al laboratorio. ¿Qué se observa en los resultados de la gasometría, puesto que la muestra ha estado mucho tiempo sin la necesaria conservación en hielo?",
+      "options": {
+        "A": "Una disminución de la pCO2.",
+        "B": "Un gran aumento del pH.",
+        "C": "Un incremento de la pCO2. NOTA: si se deja mucho tiempo esperar se produciría ↓pH, ↓pO2, ↑pCO2, ↓glucosa, ↑lactato"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Un incremento de la pCO2. NOTA: si se deja mucho tiempo esperar se produciría ↓pH, ↓pO2, ↑pCO2, ↓glucosa, ↑lactato"
+    },
+    {
+      "id": 193,
+      "question": "Una gasometría con un descenso de pH y un aumento de la PCO2, sugeriría:",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Alcalosis metabólica.",
+        "C": "Acidosis respiratoria.",
+        "D": "Alcalosis respiratoria."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Acidosis respiratoria."
+    },
+    {
+      "id": 194,
+      "question": "¿Cuál de los siguientes parámetros NO se incluye en una gasometría?",
+      "options": {
+        "A": "PCO2.",
+        "B": "PO2.",
+        "C": "HCO3.",
+        "D": "Calcio."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Calcio."
+    },
+    {
+      "id": 195,
+      "question": "Un potasio normal o alto en un sujeto con bicarbonato plasmático alto, sugiere compensación de:",
+      "options": {
+        "A": "Una acidosis respiratoria.",
+        "B": "Una acidosis metabólica.",
+        "C": "Una alcalosis respiratoria.",
+        "D": "Una alcalosis metabólica."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Una acidosis respiratoria."
+    },
+    {
+      "id": 196,
+      "question": "La alcalosis respiratoria se da la siguiente situación:",
+      "options": {
+        "A": "pH plasma menor de 7,35 y disminución de la pCO2.",
+        "B": "pH plasma menor de 7,35 y aumento de la pCO2.",
+        "C": "pH plasma mayor de 7,45 y disminución de la pCO2.",
+        "D": "pH plasma mayor de 7,45 y aumento de la pCO2"
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "pH plasma mayor de 7,45 y disminución de la pCO2."
+    },
+    {
+      "id": 197,
+      "question": "Un descenso de pH:",
+      "options": {
+        "A": "Aumenta la afinidad del oxígeno por la hemoglobina.",
+        "B": "Disminuye la afinidad del oxígeno por la hemoglobina.",
+        "C": "Aumenta, al menos, el 30% del porcentaje total de saturación de la hemoglobina.",
+        "D": "No tiene efecto en la saturación de oxígeno por la hemoglobina."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Disminuye la afinidad del oxígeno por la hemoglobina."
+    },
+    {
+      "id": 198,
+      "question": "La intoxicación por salicilatos, etanol, metanol o etilenglicol da lugar a una:",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Alcalosis metabólica.",
+        "C": "Acidosis respiratoria.",
+        "D": "Alcalosis respiratoria."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Acidosis metabólica."
+    },
+    {
+      "id": 199,
+      "question": "La acidosis respiratoria:",
+      "options": {
+        "A": "Se produce cuando la PO2 es baja.",
+        "B": "Se produce cuando la PCO2 es elevada.",
+        "C": "Se produce cuando el bicarbonato es bajo.",
+        "D": "Se produce cuando el pH es mayor de 7,45."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Se produce cuando la PCO2 es elevada."
+    },
+    {
+      "id": 200,
+      "question": "Para el mantenimiento del pH fisiológico en el plasma, el organismo dispone de sistemas tampón o amortiguadores. ¿Cuál de ellos presenta mayor capacidad amortiguadora?",
+      "options": {
+        "A": "Tampón fosfato",
+        "B": "Tampón bicarbonato-ácido carbónico",
+        "C": "Hemoglobina.",
+        "D": "Proteínas del plasma"
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Tampón bicarbonato-ácido carbónico"
+    },
+    {
+      "id": 201,
+      "question": "¿Qué situación, de entre las siguientes, NO produce hipercalcemia?:",
+      "options": {
+        "A": "Mieloma múltiple.",
+        "B": "Tratamiento con diuréticos del asa.",
+        "C": "Metástasis óseas de tumores sólidos.",
+        "D": "Hiperparatiroidismo."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Tratamiento con diuréticos del asa."
+    },
+    {
+      "id": 202,
+      "question": "¿Qué grupo de resultados es consistente con acidosis metabólica descompensada?:",
+      "options": {
+        "A": "pH 7.34, HCO3 18 mmol/L, pCO2 40 mm Hg.",
+        "B": "pH 7.25, HCO3 15 mmol/L, pCO2 35 mm Hg .",
+        "C": "pH 7.30, HCO3 16 mmol/L, pCO2 28 mm Hg.",
+        "D": "pH 7.45, HCO3 22 mmol/L, pCO2 40 mm Hg."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "pH 7.25, HCO3 15 mmol/L, pCO2 35 mm Hg ."
+    },
+    {
+      "id": 203,
+      "question": "¿Cuál es el mejor método para la determinación de la concentración de sodio sérico en un paciente con hipoproteinemia o hiperlipidemia?",
+      "options": {
+        "A": "La potenciometría directa.",
+        "B": "La potenciometría indirecta.",
+        "C": "La fotometría de llama.",
+        "D": "Cualquiera de los anteriores."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "La potenciometría directa."
+    },
+    {
+      "id": 204,
+      "question": "La gasometría arterial de un paciente con acidosis metabólica compensada se caracteriza por:",
+      "options": {
+        "A": "Aumento del pH, de la pCO2 y del bicarbonato.",
+        "B": "Disminución del pH y del bicarbonato y aumento de la pCO2.",
+        "C": "Disminución del pH, de la pCO2 y del bicarbonato.",
+        "D": "Disminución del pH y de la pCO2 y aumento del bicarbonato."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Disminución del pH, de la pCO2 y del bicarbonato."
+    },
+    {
+      "id": 205,
+      "question": "En una segunda petición, llega al laboratorio la jeringa de gases arteriales con la sangre sedimentada y se confirma que la extracción se ha hecho una hora antes. ¿Cómo debemos proceder?",
+      "options": {
+        "A": "Homogeneizamos y procesas la muestra.",
+        "B": "No homogeneizamos y procesamos la muestra.",
+        "C": "Rechazamos la muestra por falta de estabilidad.",
+        "D": "Procesamos la muestra y añadimos un comentario."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Rechazamos la muestra por falta de estabilidad."
+    },
+    {
+      "id": 206,
+      "question": "Cuál de las siguientes condiciones de transporte debe cumplir un espécimen para la determinación de lactato y piruvato",
+      "options": {
+        "A": "Se debe mantener a temperatura ambiente.",
+        "B": "Se debe mantener refrigerado en hielo.",
+        "C": "Debe mantenerse a 37 °C.",
+        "D": "Se debe mantener congelado."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Se debe mantener refrigerado en hielo."
+    },
+    {
+      "id": 207,
+      "question": "Ante una situación de acidosis metabólica, el pulmón responde iniciando una:",
+      "options": {
+        "A": "Hiponatremia",
+        "B": "Hipoventilación",
+        "C": "Hiperventilación",
+        "D": "Hipercapnia"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Hiperventilación"
+    },
+    {
+      "id": 208,
+      "question": "Los analizadores automáticos de pH y gases sanguíneos miden mediante electrodos específicos los siguientes parámetros:",
+      "options": {
+        "A": "pH, saturación de O2, concentración de hidrogenocarbanato plasmático",
+        "B": "pH, pCO2, pO2",
+        "C": "pH, HCO3, CO total",
+        "D": "pH, HCO3, pCO2, pO2, exceso de base"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "pH, pCO2, pO2"
+    },
+    {
+      "id": 209,
+      "question": "El pH se mide con el electrodo de:",
+      "options": {
+        "A": "Severignhaus.",
+        "B": "Clark.",
+        "C": "Vidrio.",
+        "D": "Selectivo."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Vidrio."
+    },
+    {
+      "id": 210,
+      "question": "Señala a qué caso se refiere. Antonio se encuentra desorientado y con visión borrosa. Acude a urgencias, donde se le realiza una analítica, con los siguientes resultados: pH: 7,3, pCO2: 30 mm Hg, [HCO3 ¯]: 15 mmol/L",
+      "options": {
+        "A": "Acidosis metabólica.",
+        "B": "Alcalosis metabólica.",
+        "C": "Acidosis respiratoria.",
+        "D": "Alcalosis respiratoria."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Acidosis metabólica."
+    },
+    {
+      "id": 211,
+      "question": "¿Qué indica la concentración de lactato?",
+      "options": {
+        "A": "Las concentraciones de la hemoglobina no unida al oxígeno",
+        "B": "La capacidad potencial de transporte de oxígeno",
+        "C": "La disponibilidad de oxígeno por los tejidos",
+        "D": "La afinidad de la hemoglobina por el oxígeno (cesión de oxígeno a los tejidos)"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "La disponibilidad de oxígeno por los tejidos"
+    },
+    {
+      "id": 212,
+      "question": "Señala a qué caso se refiere. Juan ha sufrido una bronquitis agravada por su hábito tabáquico. Al efectuar un análisis de gases en sangre se observan los siguientes resultados: pH: 7,36, pCO2: 70 mm Hg, [HCO3 ¯]: 39 mmol/L",
+      "options": {
+        "A": "Acidosis metabólica parcialmente compensada.",
+        "B": "Acidosis respiratoria compensada.",
+        "C": "Alcalosis metabólica compensada.",
+        "D": "Se necesitan más datos."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Acidosis respiratoria compensada."
+    },
+    {
+      "id": 213,
+      "question": "En la alcalosis metabólica observaremos:",
+      "options": {
+        "A": "Ventilación alveolar aumentada.",
+        "B": "Hiperventilación.",
+        "C": "Disminución de la presión de CO2.",
+        "D": "pH en sangre elevado."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "pH en sangre elevado."
+    },
+    {
+      "id": 214,
+      "question": "¿Cuándo se dice que una molécula es anfótera?",
+      "options": {
+        "A": "Cuando su pH es superior a 7.",
+        "B": "Cuando su pH es inferior a 7.",
+        "C": "Cuando su pH es igual a 7.",
+        "D": "Cuando pueden actuar como ácidos o como bases en una disolución."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Cuando pueden actuar como ácidos o como bases en una disolución."
+    },
+    {
+      "id": 215,
+      "question": "Para mantener constante el pH, el ion bicarbonato y la pCO2, en el medio interno, el organismo emplea varios mecanismos",
+      "options": {
+        "A": "Solo emplea buffers para mantener constante pH, pCO2 e ion bicarbonato",
+        "B": "Emplea buffers y se ayuda con la ventilación alveolar, solo para mantener constante el pH",
+        "C": "Emplea buffers, se ayuda de la ventilación alveolar y del riñón para mantener constante pH, pCO2 e ion bicarbonato",
+        "D": "Emplea mecanismos de osmosis para intercambiar los H+ y así mantener constante el pH"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Emplea buffers, se ayuda de la ventilación alveolar y del riñón para mantener constante pH, pCO2 e ion bicarbonato"
+    },
+    {
+      "id": 216,
+      "question": "¿Qué electrolitos son los más importantes en el equilibrio hidroeléctrico de nuestro organismo?",
+      "options": {
+        "A": "Na+, Ca+ y Mg",
+        "B": "Mg, Cl-, P",
+        "C": "Na+, Cl-, Ca+",
+        "D": "Na+, Cl-, K+"
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Na+, Cl-, K+"
+    },
+    {
+      "id": 217,
+      "question": "Incluimos como mecanismos de regulación del equilibrio hidroelectrolítico en los líquidos corporales",
+      "options": {
+        "A": "El aparato respiratorio, el aparato renal y el aparato circulatorio",
+        "B": "El único mecanismo regulador, es el aparato renal",
+        "C": "La permeabilidad selectiva de membranas",
+        "D": "El único mecanismo regulador es el aparato respiratorio"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "La permeabilidad selectiva de membranas"
+    },
+    {
+      "id": 218,
+      "question": "Con respecto a las condiciones necesarias para el análisis de Lactato en sangre señale la afirmación incorrecta:",
+      "options": {
+        "A": "Se recomienda en sangre arterial, aunque también se puede realizar en sangre venosa.",
+        "B": "Se utilizará un torniquete para la extracción de la muestra.",
+        "C": "Es necesario que el paciente se encuentre en reposo previamente a la extracción de la muestra.",
+        "D": "La muestra se conservará en frío y se analizará lo antes posible."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Se utilizará un torniquete para la extracción de la muestra."
+    },
+    {
+      "id": 219,
+      "question": "¿Cómo definimos una solución tampón?:",
+      "options": {
+        "A": "Un ácido fuerte con una base débil.",
+        "B": "Un ácido débil en solución con su base conjugada en forma de sal.",
+        "C": "Una sal de ácido fuerte con una sal de ácido débil.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Un ácido débil en solución con su base conjugada en forma de sal."
+    },
+    {
+      "id": 220,
+      "question": "Las sustancias que se comportan como ácido y como base indistintamente se denominan:",
+      "options": {
+        "A": "Sustancias conjugadas.",
+        "B": "Sustancias neutras.",
+        "C": "Sustancias anfitrópicas.",
+        "D": "No existen estas sustancias"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Sustancias anfitrópicas."
+    },
+    {
+      "id": 221,
+      "question": "Señale la respuesta correcta respecto al lactato:",
+      "options": {
+        "A": "Se produce en condiciones aeróbicas.",
+        "B": "La acidosis láctica tipo A es una manifestación de neoplasias hematológicas, particularmente los linfomas.",
+        "C": "La acidosis tipo B es causada por la hipoxia de los tejidos.",
+        "D": "Es un buen indicador pronóstico en pacientes con sepsis y shock séptico."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Es un buen indicador pronóstico en pacientes con sepsis y shock séptico."
+    },
+    {
+      "id": 222,
+      "question": "El organismo en condiciones normales produce una determinada cantidad de ácidos fijos:",
+      "options": {
+        "A": "Son consecuencia de la actividad metabólica",
+        "B": "Provienen del metabolismo de proteínas",
+        "C": "Provienen de la oxidación incompleta de grasas e hidratos de carbono",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 223,
+      "question": "Señale la respuesta correcta respecto al lactato:",
+      "options": {
+        "A": "Se produce en condiciones aeróbicas.",
+        "B": "La acidosis láctica tipo A es una manifestación de neoplasias hematológicas, particularmente los linfomas.",
+        "C": "La acidosis tipo B es causada por la hipoxia de los tejidos.",
+        "D": "Es un buen indicador pronóstico en pacientes con sepsis y shock séptico."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Es un buen indicador pronóstico en pacientes con sepsis y shock séptico."
+    }
+  ]
+}

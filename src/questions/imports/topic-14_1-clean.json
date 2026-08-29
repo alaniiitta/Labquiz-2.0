@@ -1,0 +1,1806 @@
+{
+  "tema": "14_1",
+  "titulo": "Parásitos",
+  "source_file": "Test tema 14.1 Parasitología (respuestas) (1).pdf",
+  "total_questions": 139,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Cuál de estos cestodos tiene como hospedador intermedio el cerdo:",
+      "options": {
+        "A": "Taenia saginata.",
+        "B": "Diphyllobothrium latum.",
+        "C": "Taenia solium.",
+        "D": "Echinoccus granulosis."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Taenia solium."
+    },
+    {
+      "id": 2,
+      "question": "Las muestras de heces para estudio de parásitos:",
+      "options": {
+        "A": "Deben recogerse en contenedor limpio de boca ancha y cierre hermético.",
+        "B": "La entrega en laboratorio puede demorarse.",
+        "C": "Es importante congelar la muestra si hay que demorar la entrega de la muestra en el laboratorio.",
+        "D": "Se recomienda estudiar una serie de tres muestras recogidas en el menor tiempo posible."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Deben recogerse en contenedor limpio de boca ancha y cierre hermético."
+    },
+    {
+      "id": 3,
+      "question": "Señalar que filaria no encontramos en sangre",
+      "options": {
+        "A": "Wuchereria bancrofti",
+        "B": "Onchocerca volvulus",
+        "C": "Brugia Malawi",
+        "D": "Loa loa"
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Onchocerca volvulus"
+    },
+    {
+      "id": 4,
+      "question": "Para el estudio de parásitos intestinales, se utilizaría, como conservante:",
+      "options": {
+        "A": "Formol 40%.",
+        "B": "Alcohol 96º.",
+        "C": "Alcohol polivinílico.",
+        "D": "Tampón fosfato."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Alcohol polivinílico."
+    },
+    {
+      "id": 5,
+      "question": "Echinococcus granuloso produce:",
+      "options": {
+        "A": "La cisticercosis.",
+        "B": "El quiste hidatídico.",
+        "C": "La toxocariosis.",
+        "D": "Una pandemia."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "El quiste hidatídico."
+    },
+    {
+      "id": 6,
+      "question": "El Enterobius vermicularis, parásito investigado en heces es:",
+      "options": {
+        "A": "Un gusano perteneciente a la clase nematodes.",
+        "B": "Un gusano perteneciente a la clase cestodes.",
+        "C": "Un gusano perteneciente a la clase trematodes.",
+        "D": "Una ameba."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Un gusano perteneciente a la clase nematodes."
+    },
+    {
+      "id": 7,
+      "question": "El agente causal de la enfermedad del sueño es...",
+      "options": {
+        "A": "Trypanosoma brucei.",
+        "B": "Leishmania trópica.",
+        "C": "Pneumocystis carinii.",
+        "D": "Trichiella espiralis."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Trypanosoma brucei."
+    },
+    {
+      "id": 8,
+      "question": "Invade los hematíes viejos",
+      "options": {
+        "A": "Plasmodium vivax.",
+        "B": "P. malariae.",
+        "C": "P. ovale.",
+        "D": "P. falciparum."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "P. malariae."
+    },
+    {
+      "id": 9,
+      "question": "En relación a las enfermedades infecciosas importadas es falso que:",
+      "options": {
+        "A": "Una de las enfermedades infecciosas importadas más importantes, tanto por frecuencia como por gravedad, es la malaria.",
+        "B": "Cualquier proceso febril en un paciente que proviene de una zona endémica de malaria febril ha de ser evaluado como si se tratase de una posible infección por el género Plasmodium.",
+        "C": "Deberá realizarse una gota gruesa, sobre todo en los primeros seis meses desde su llegada, cuando el riesgo de una infección por Plasmodium falciparum, potencialmente mortal, es mayor.",
+        "D": "Las otras especies Plasmodium vivax y Plasmodium malariae suelen dar cuadros menos graves y no hay que tenerlas en cuenta."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Las otras especies Plasmodium vivax y Plasmodium malariae suelen dar cuadros menos graves y no hay que tenerlas en cuenta."
+    },
+    {
+      "id": 10,
+      "question": "La técnica de Graham consiste en:",
+      "options": {
+        "A": "El cultivo de heces para la búsqueda de parásitos.",
+        "B": "La elaboración de medios de cultivo.",
+        "C": "La visualización de una cinta transparente en porta para la búsqueda de huevos de oxiuros.",
+        "D": "El diagnóstico de parásitos hemáticos."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "La visualización de una cinta transparente en porta para la búsqueda de huevos de oxiuros."
+    },
+    {
+      "id": 11,
+      "question": "El edema de Calabar aparece en infecciones producidas por",
+      "options": {
+        "A": "Loa loa",
+        "B": "Trichinella spiralis",
+        "C": "Brugia malayi",
+        "D": "Onchocerca volvulus"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Loa loa"
+    },
+    {
+      "id": 12,
+      "question": "El parásito causante de Larva migrans visceral es:",
+      "options": {
+        "A": "Toxocara canis",
+        "B": "Echinococcus granulosus",
+        "C": "Wucheria bancrofti",
+        "D": "Schistosoma mansoni"
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Toxocara canis"
+    },
+    {
+      "id": 13,
+      "question": "Dentro de los parásitos, un ejemplo de protozoo y otro de metazoo son:",
+      "options": {
+        "A": "Giardia lamblia y Enterobius vermicularis",
+        "B": "Trichomonas vaginalis y Cryptosporidium parvum",
+        "C": "Ascarislum bricoides y Taenia saginata",
+        "D": "Pneumocystis carinii y Toxoplasma gondii"
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Giardia lamblia y Enterobius vermicularis"
+    },
+    {
+      "id": 14,
+      "question": "¿Cómo evitan los parásitos helmintos la respuesta inmunitaria del organismo anfitrión?",
+      "options": {
+        "A": "Convirtiéndose en una forma quística de menor actividad metabólica.",
+        "B": "Modificando las propiedades antigénicas de sus superficies externas.",
+        "C": "Secretando enzimas que destruyen las células del organismo anfitrión y neutralizan los mecanismos de defensa inmunológica.",
+        "D": "B y C son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "B y C son correctas."
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál de estos parásitos no es habitual su presencia en sangre?",
+      "options": {
+        "A": "Plasmodium.",
+        "B": "Leishmania.",
+        "C": "Entamoeba Hystolytica.",
+        "D": "Tripanosoma."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Entamoeba Hystolytica."
+    },
+    {
+      "id": 16,
+      "question": "De las siguientes afirmaciones sobre el Trichuris Trichiuria, ¿Cuál es la falsa?",
+      "options": {
+        "A": "Sus huevos liberan larvas al ciego.",
+        "B": "Sus huevos tienen forma de limón.",
+        "C": "Tienen forma de látigo.",
+        "D": "Es un gusano."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Sus huevos liberan larvas al ciego."
+    },
+    {
+      "id": 17,
+      "question": "¿Cuál de los siguientes no es un trematodo?",
+      "options": {
+        "A": "Fasciola hepática.",
+        "B": "Echinococcus granuloso.",
+        "C": "Shistosoma.",
+        "D": "Todos los anteriores son trematodos."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Echinococcus granuloso."
+    },
+    {
+      "id": 18,
+      "question": "Los métodos de enriquecimiento coproparasitario están basados en:",
+      "options": {
+        "A": "Técnicas de sedimentación",
+        "B": "Técnicas de flotación",
+        "C": "Técnicas de impregnación",
+        "D": "Todas son correctas"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 19,
+      "question": "El diagnóstico de casi todas las parasitosis intestinales producidas por nematodos depende de:",
+      "options": {
+        "A": "El cultivo de las heces",
+        "B": "El aspecto líquido de las heces",
+        "C": "El hallazgo de los huevos en las heces",
+        "D": "La presencia de sangre en las heces"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "El hallazgo de los huevos en las heces"
+    },
+    {
+      "id": 20,
+      "question": "El Enterobius vermicularis, parásito investigado en heces es:",
+      "options": {
+        "A": "Un gusano perteneciente a la clase cestodes",
+        "B": "Un gusano perteneciente a la clase trematodes",
+        "C": "Un gusano perteneciente a la clase nematodos",
+        "D": "Un gusano perteneciente a la clase estrongilidos"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Un gusano perteneciente a la clase nematodos"
+    },
+    {
+      "id": 21,
+      "question": "Indique cuál de las siguientes aseveraciones es cierta, en relación con la interacción agente- huésped:",
+      "options": {
+        "A": "La simbiosis es la asociación que presenta beneficios tanto para el agente como para el huésped.",
+        "B": "El comensalismo se produce cuando la asociación es perjudicial para el huésped.",
+        "C": "El parasitismo se produce cuando la asociación es perjudicial tanto para el agente como para el huésped.",
+        "D": "La simbiosis es la asociación que presenta perjuicios tanto para el agente como para el huésped."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "La simbiosis es la asociación que presenta beneficios tanto para el agente como para el huésped."
+    },
+    {
+      "id": 22,
+      "question": "Para la observación de Trichomonas vaginalis \"en vivo\" al microscopio, se debe realizar:",
+      "options": {
+        "A": "Una tinción simple.",
+        "B": "Una tinción diferencial.",
+        "C": "Un examen en fresco.",
+        "D": "Una preparación seca."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Un examen en fresco."
+    },
+    {
+      "id": 23,
+      "question": "¿Qué protozoo intestinal es el responsable de la disentería amebiana?",
+      "options": {
+        "A": "Shigella.",
+        "B": "Entomaeba hystolitica.",
+        "C": "Naegleria fowlery.",
+        "D": "Giardia lamblia."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Entomaeba hystolitica."
+    },
+    {
+      "id": 24,
+      "question": "El Plasmodium vivax, produce en la célula huésped una granulación discreta y roja denominada:",
+      "options": {
+        "A": "Cuerpos de Papenheinm.",
+        "B": "Bastones de Auer.",
+        "C": "Punteado de Schüffner.",
+        "D": "Anillos de Cabot."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Punteado de Schüffner."
+    },
+    {
+      "id": 25,
+      "question": "¿A qué clase pertenecen los gusanos planos, carnosos y con forma de hoja, a veces provistos de dos ventosas musculares: una oral (sistema digestivo incompleto) y otra ventral (órgano de fijación)?",
+      "options": {
+        "A": "Cestodos.",
+        "B": "Protozoos.",
+        "C": "Ciliados.",
+        "D": "Trematodos"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Trematodos"
+    },
+    {
+      "id": 26,
+      "question": "La tinción de la gota gruesa se usa principalmente para:",
+      "options": {
+        "A": "Visualizar la membrana del leucocito.",
+        "B": "Visualizar las plaquetas más perfiladas.",
+        "C": "Visualizar los cuerpos de Holly.",
+        "D": "Visualizar los parásitos del paludismo."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Visualizar los parásitos del paludismo."
+    },
+    {
+      "id": 27,
+      "question": "Naegleria fowleri produce la meningoencefalitis amebiana primaria, y los trofozoitos se detectan en:",
+      "options": {
+        "A": "Sangre.",
+        "B": "Heces.",
+        "C": "LCR.",
+        "D": "Médula ósea."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "LCR."
+    },
+    {
+      "id": 28,
+      "question": "En el campo de las infecciones, se denomina huésped a:",
+      "options": {
+        "A": "El microorganismo responsable de la infección.",
+        "B": "La persona en que se aloja un microorganismo patógeno o un parásito.",
+        "C": "El ser vivo que transporta un microorganismo desde el reservorio al sujeto susceptible.",
+        "D": "El parásito que vive a expensas de un ser vivo."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "La persona en que se aloja un microorganismo patógeno o un parásito."
+    },
+    {
+      "id": 29,
+      "question": "Dentro de los protozoos intestinales y urogenitales no se encuentra:",
+      "options": {
+        "A": "Tenias.",
+        "B": "Amebas.",
+        "C": "Flagelados.",
+        "D": "Ciliados."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Tenias."
+    },
+    {
+      "id": 30,
+      "question": "Trichomonas vaginalis es:",
+      "options": {
+        "A": "Una bacteria.",
+        "B": "Un virus.",
+        "C": "Un hongo.",
+        "D": "Un parásito."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Un parásito."
+    },
+    {
+      "id": 31,
+      "question": "En la cadena epidemiológica, cuando una de las especies se beneficia, pero sin perjudicar a la otra se conoce como:",
+      "options": {
+        "A": "Parásito.",
+        "B": "Simbiótico.",
+        "C": "Saprófito.",
+        "D": "Comensal."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Comensal."
+    },
+    {
+      "id": 32,
+      "question": "Una de las siguientes afirmaciones sobre la toxoplasmosis no es correcta:",
+      "options": {
+        "A": "Se puede transmitir por comer carne insuficientemente cocinada.",
+        "B": "El diagnóstico más frecuente es de tipo serológico (detección de IgG e IgM específicas).",
+        "C": "Los gatos son parte importante de su ciclo de vida (huésped definitivo).",
+        "D": "La produce un protozoo (coccidio) que se transmite a través de un determinado tipo de mosquitos"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "La produce un protozoo (coccidio) que se transmite a través de un determinado tipo de mosquitos"
+    },
+    {
+      "id": 33,
+      "question": "Las muestras de heces para estudio de parásitos:",
+      "options": {
+        "A": "Deben recogerse en contenedor limpio de boca ancha y cierre hermético.",
+        "B": "La entrega en laboratorio puede demorarse.",
+        "C": "Es importante congelar la muestra si hay que demorar la entrega de la muestra en el laboratorio.",
+        "D": "Se recomienda estudiar una serie de tres muestras recogidas en el menor tiempo posible."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Deben recogerse en contenedor limpio de boca ancha y cierre hermético."
+    },
+    {
+      "id": 34,
+      "question": "El Strongyloides estercolaris infecta al hombre al:",
+      "options": {
+        "A": "Atravesar sus larvas la piel",
+        "B": "Ser ingeridos los huevos en los alimentos",
+        "C": "Ser ingeridos los huevos en el agua",
+        "D": "Tener contacto sexual"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Atravesar sus larvas la piel"
+    },
+    {
+      "id": 35,
+      "question": "Señale la CORRECTA. El método más sensible y específico para el diagnóstico de Esquistosomiasis activa es:",
+      "options": {
+        "A": "Tinción de gram",
+        "B": "Visualización de huevos en la orina.",
+        "C": "EIA.",
+        "D": "ELlSA."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Visualización de huevos en la orina."
+    },
+    {
+      "id": 36,
+      "question": "¿Cuál de los siguientes no es un protozoo intestinal?",
+      "options": {
+        "A": "Cryptosporidium parvum.",
+        "B": "Plasmodium.",
+        "C": "Giardia lamblia.",
+        "D": "Entamoeba histolytica."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Plasmodium."
+    },
+    {
+      "id": 37,
+      "question": "El test de Graham se utiliza para la investigación de:",
+      "options": {
+        "A": "Quistes de Giardia lamblia.",
+        "B": "Huevos de Enterobius vermicularis",
+        "C": "Huevos de Ascaris lumbricoides.",
+        "D": "Quistes de Taenia saginata."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Huevos de Enterobius vermicularis"
+    },
+    {
+      "id": 38,
+      "question": "Fasciola hepática:",
+      "options": {
+        "A": "Es un Nematodo.",
+        "B": "Es un Trematodo, parásito hemático.",
+        "C": "Es un Trematodo hepático.",
+        "D": "Es un Cestodo hepático."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Es un Trematodo hepático."
+    },
+    {
+      "id": 39,
+      "question": "El gametocito de forma elíptica, semilunar o “de banana” es típico de la infección por:",
+      "options": {
+        "A": "Babesia.",
+        "B": "Plasmodium ovale.",
+        "C": "Plasmodium falciparum.",
+        "D": "Tripanosoma."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Plasmodium falciparum."
+    },
+    {
+      "id": 40,
+      "question": "El parasitismo es:",
+      "options": {
+        "A": "Una forma de comensalismo.",
+        "B": "Una forma de mutualismo con asociación útil para uno de ellos.",
+        "C": "Una relación íntima e ineludible en la que los dos tienen ventajas.",
+        "D": "Una relación íntima e ineludible en la que uno de ellos se nutre a costa de otro y éste carga con las desventajas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Una relación íntima e ineludible en la que uno de ellos se nutre a costa de otro y éste carga con las desventajas."
+    },
+    {
+      "id": 41,
+      "question": "Señale la afirmación correcta en relación a las parasitosis por helmintos intestinales:",
+      "options": {
+        "A": "La diferente morfología de sus huevos permite diferenciar mediante observación microscópica entre la parasitación por Taenia saginata y Taenia solium.",
+        "B": "Los huevos de Trichuris trichura se caracterizan por su forma de limón, con un tapón refringente y saliente en cada polo.",
+        "C": "Los huevos de oxiuro (Enterobius vermicularis) recogidos mediante la técnica de Graham nunca se encuentran embrionados, ya que no maduran fuera del intestino.",
+        "D": "Los huevos de Hymenolepis diminuta miden aproximadamente la mitad que los de Hymenolepis nana."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Los huevos de Trichuris trichura se caracterizan por su forma de limón, con un tapón refringente y saliente en cada polo."
+    },
+    {
+      "id": 42,
+      "question": "La técnica de Graham se utiliza para visualizar:",
+      "options": {
+        "A": "Oxiuros",
+        "B": "Cryptosporidium",
+        "C": "E. histolytica",
+        "D": "Áscaris"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Oxiuros"
+    },
+    {
+      "id": 43,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa respecto a las técnicas de concentración de heces para el estudio de parásitos intestinales?",
+      "options": {
+        "A": "Las dos técnicas utilizadas son la de flotación y la de sedimentación.",
+        "B": "Tanto en la técnica de sedimentación como en la de flotación la suspensión de heces se filtra a través de gasas.",
+        "C": "En la técnica de sedimentación se utiliza sulfato de zinc (ZnSO4)",
+        "D": "En la técnica de sedimentación es en el sedimento final donde se busca los parásitos intestinales."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "En la técnica de sedimentación se utiliza sulfato de zinc (ZnSO4)"
+    },
+    {
+      "id": 44,
+      "question": "Las muestras de heces recogidas para estudio de parásitos, deben contener como conservante:",
+      "options": {
+        "A": "Solución de Formol",
+        "B": "Alcohol polivinílico",
+        "C": "Acetato de sodio-formol",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 45,
+      "question": "Indique cuál de los siguientes parásitos se puede encontrar en una muestra de heces:",
+      "options": {
+        "A": "Giardia lamblia.",
+        "B": "Trypanosoma cruzi.",
+        "C": "Toxoplasma gondii.",
+        "D": "Trichomonas vaginalis."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Giardia lamblia."
+    },
+    {
+      "id": 46,
+      "question": "Para la observación de tricomona vaginalis utilizamos:",
+      "options": {
+        "A": "Tinción simple con azul de metileno.",
+        "B": "Preparación en fresco.",
+        "C": "Campo oscuro.",
+        "D": "Tinción con violeta de genciana."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Preparación en fresco."
+    },
+    {
+      "id": 47,
+      "question": "Todos los siguientes son protozoos excepto:",
+      "options": {
+        "A": "Entamoeba histolytica",
+        "B": "Trichomonas vaginalis",
+        "C": "Giardia lamblia",
+        "D": "Enterobius vermicularis"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Enterobius vermicularis"
+    },
+    {
+      "id": 48,
+      "question": "El cuerpo de los cestodos se encuentra dividido en segmentos llamados:",
+      "options": {
+        "A": "Escólex",
+        "B": "Proglótides",
+        "C": "Estrábilos",
+        "D": "Cercarias"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Proglótides"
+    },
+    {
+      "id": 49,
+      "question": "Indica cuál de los siguientes parásitos no es un nematodo intestinal:",
+      "options": {
+        "A": "Ascaris lumbricoides",
+        "B": "Enterobius vermiculares",
+        "C": "Taenia solium",
+        "D": "Trichuris trichiura"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Taenia solium"
+    },
+    {
+      "id": 50,
+      "question": "Para realizar el diagnóstico clínico de paludismo, ¿de qué muestra partiría?:",
+      "options": {
+        "A": "Saliva y esputo.",
+        "B": "Líquido sinovial.",
+        "C": "Sangre.",
+        "D": "Heces."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Sangre."
+    },
+    {
+      "id": 51,
+      "question": "Indique cuál de los siguientes microorganismos es un protozoo intestinal:",
+      "options": {
+        "A": "Enterobius vermicularis.",
+        "B": "Entamoeba histolytica.",
+        "C": "Trichuris trichiura.",
+        "D": "Hymenolepys nana."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Entamoeba histolytica."
+    },
+    {
+      "id": 52,
+      "question": "El agente causal de la enfermedad de Chagas es:",
+      "options": {
+        "A": "Trypanosoma cruzi.",
+        "B": "Trypanosoma brucei.",
+        "C": "Leishmania donovani.",
+        "D": "Wuchereria bancrofti"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Trypanosoma cruzi."
+    },
+    {
+      "id": 53,
+      "question": "Un paciente procedente de Nigeria presenta un cuadro febril de varios días de evolución, con accesos febriles que se repiten cada 72 horas. La tinción de Giemsa de un frotis sanguíneo muestra hematíes de forma y tamaño normales, sin gránulos de pigmento, con presencia de escasos trofozoitos jóvenes (nunca más de uno por hematíe) y más abundantes trofozoitos maduros y esquizontes. La causa más probable es:",
+      "options": {
+        "A": "Plasmodium falciparum.",
+        "B": "Plasmodium ovale.",
+        "C": "Plasmodium malariae.",
+        "D": "Plasmodium vivax."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Plasmodium malariae."
+    },
+    {
+      "id": 54,
+      "question": "¿Qué parásito se puede encontrar en orina?",
+      "options": {
+        "A": "Enterobius vermicularis",
+        "B": "Schistosoma haematobium",
+        "C": "Plasmodium spp.",
+        "D": "Escherichia coli"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Schistosoma haematobium"
+    },
+    {
+      "id": 55,
+      "question": "Es necesario un agente vector para contraer:",
+      "options": {
+        "A": "Neumonía",
+        "B": "Aftas bucales",
+        "C": "Paludismo",
+        "D": "Septicemia"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Paludismo"
+    },
+    {
+      "id": 56,
+      "question": "Los helmintos son:",
+      "options": {
+        "A": "Gusanos",
+        "B": "Protozoos",
+        "C": "Bacterias",
+        "D": "Virus"
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Gusanos"
+    },
+    {
+      "id": 57,
+      "question": "La tinción de Giemsa se usa para ver entre otros:",
+      "options": {
+        "A": "El bacilo de Koch en sangre",
+        "B": "E. coli en orina",
+        "C": "Parásitos hemotisulares",
+        "D": "Parásitos en heces"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Parásitos hemotisulares"
+    },
+    {
+      "id": 58,
+      "question": "¿Cuál de estos parásitos no es un protozoo?",
+      "options": {
+        "A": "Trichomonas vaginalis",
+        "B": "Giardia lamblia",
+        "C": "Oxiuros",
+        "D": "Toxoplasma gondii"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Oxiuros"
+    },
+    {
+      "id": 59,
+      "question": "Para investigación de Schistosoma haematobium ¿qué tipo de muestra es la indicada?",
+      "options": {
+        "A": "Muestra de orina tomada preferentemente de 10 a 14 horas habiendo realizado previamente un ejercicio ligero.",
+        "B": "Muestra de orina de primera hora de la mañana sin realizar esfuerzos.",
+        "C": "Muestra de heces en contendor con medio de transporte.",
+        "D": "Muestra de orina tomada en cualquier momento del día."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Muestra de orina tomada preferentemente de 10 a 14 horas habiendo realizado previamente un ejercicio ligero."
+    },
+    {
+      "id": 60,
+      "question": "Indique la respuesta falsa sobre el test rápido de Malaria",
+      "options": {
+        "A": "Alta sensibilidad y especificidad.",
+        "B": "No se utiliza para seguir la respuesta al tratamiento, dado que persiste la positividad durante días.",
+        "C": "Permite cuantificar del grado de parasitemia.",
+        "D": "Debido al fenómeno “prozona” existen falsos negativos en las altas parasitemias."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Permite cuantificar del grado de parasitemia."
+    },
+    {
+      "id": 61,
+      "question": "Para descartar o confirmar paludismo en el laboratorio de urgencias, ¿Qué pasos están indicados según la OMS? (DR (Test de diagnóstico rápido) para Plasmodium (Malaria AgP.f/Pan.Alere®):Ag.Plasmodium Falciparum:Positivo/Ag.panmalárico) (p.falciparum / p.vivax/p.malariae/p.ovale).",
+      "options": {
+        "A": "Test de Diagnóstico Rápido para Malaria exclusivamente.",
+        "B": "Gota gruesa/frotis de sangre periférica.",
+        "C": "Biología molecular.",
+        "D": "A y B son ciertas y complementarias."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "A y B son ciertas y complementarias."
+    },
+    {
+      "id": 62,
+      "question": "¿Qué parásito es el causante de la Enfermedad de Chagas?",
+      "options": {
+        "A": "Toxoplasma gondii",
+        "B": "Treponena pallidum",
+        "C": "Trypanosoma cruzi",
+        "D": "Plasmodium vivax"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Trypanosoma cruzi"
+    },
+    {
+      "id": 63,
+      "question": "Señale la respuesta correcta:",
+      "options": {
+        "A": "La infección por Toxoplasma no tiene importancia en una mujer embarazada",
+        "B": "Trypanosoma cruzi es el agente productor de la enfermedad de Chagas o tripanosomiasis africana y no se diagnostica en España",
+        "C": "La infección por Leishmania se adquiere por la ingesta de alimentos contaminados",
+        "D": "El paludismo se transmite por la picadura de la hembra del mosquito Anopheles"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "El paludismo se transmite por la picadura de la hembra del mosquito Anopheles"
+    },
+    {
+      "id": 64,
+      "question": "Señale la respuesta correcta, las Tenias son:",
+      "options": {
+        "A": "Trematodos.",
+        "B": "Cestodos.",
+        "C": "Nematodos",
+        "D": "Ninguna es correcta"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Cestodos."
+    },
+    {
+      "id": 65,
+      "question": "¿A qué orden pertenece el parásito Fasciola hepática?",
+      "options": {
+        "A": "Nematodos",
+        "B": "Cestodos",
+        "C": "Trematodos",
+        "D": "Cistercodos"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Trematodos"
+    },
+    {
+      "id": 66,
+      "question": "¿Cuál de los siguientes parásitos se considera un flagelado de hábitat intestinal?:",
+      "options": {
+        "A": "Trichomonas vaginalis.",
+        "B": "Giardia lambia",
+        "C": "Trypanosomacruzii.",
+        "D": "Entamoeba hystolítica"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Giardia lambia"
+    },
+    {
+      "id": 67,
+      "question": "¿Cómo se denomina la fase en la que el parásito desarrolla su metabolismo nutritivo?:",
+      "options": {
+        "A": "Quiste.",
+        "B": "Esquizonte.",
+        "C": "Trofozoito.",
+        "D": "Espora"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Trofozoito."
+    },
+    {
+      "id": 68,
+      "question": "Cuál es el procedimiento más empleado para el diagnóstico de Enterobius Vermicularis:",
+      "options": {
+        "A": "Búsqueda de huevos en heces con método de concentración.",
+        "B": "Título de prueba de fijación del complemento.",
+        "C": "Método de Graham.",
+        "D": "Tinción de una muestra de heces."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Método de Graham."
+    },
+    {
+      "id": 69,
+      "question": "¿Dónde se deben conservar las muestras de identificación de parásitos?",
+      "options": {
+        "A": "Solución de formol al 5-10%",
+        "B": "Alcohol polivinílico",
+        "C": "Acetato de sodio formol",
+        "D": "Todas son correctas"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 70,
+      "question": "La Leishmaniasis es una enfermedad parasitaria que se transmite",
+      "options": {
+        "A": "De adulto a niño.",
+        "B": "Por picadura de mosquitos.",
+        "C": "Por ácaros.",
+        "D": "Por contacto sexual."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Por picadura de mosquitos."
+    },
+    {
+      "id": 71,
+      "question": "El paludismo es una enfermedad producida por",
+      "options": {
+        "A": "Bacteria.",
+        "B": "Hongo.",
+        "C": "Protozoo.",
+        "D": "Virus."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Protozoo."
+    },
+    {
+      "id": 72,
+      "question": "Una de las tinciones más utilizadas en la observación de parásitos es",
+      "options": {
+        "A": "Ziehl.",
+        "B": "Giemsa.",
+        "C": "Gram.",
+        "D": "Wright."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Giemsa."
+    },
+    {
+      "id": 73,
+      "question": "¿Qué buscamos en el test del celo?",
+      "options": {
+        "A": "Trichomonas vaginalis.",
+        "B": "Cryptosporidiun parvun.",
+        "C": "Helmintos.",
+        "D": "Artropodos."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Helmintos."
+    },
+    {
+      "id": 74,
+      "question": "La enfermedad del sueño está causada por:",
+      "options": {
+        "A": "Pneumocystis carinii.",
+        "B": "Trypanosoma brucei.",
+        "C": "Leishmania tropica plasmodium.",
+        "D": "Plasmodium falciparum."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Trypanosoma brucei."
+    },
+    {
+      "id": 75,
+      "question": "Para la observación de trichomonas vaginalis “en vivo” al microscopio se debe realizar:",
+      "options": {
+        "A": "Una tinción simple.",
+        "B": "Una tinción diferencial.",
+        "C": "Un examen en fresco.",
+        "D": "Una preparación seca."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Un examen en fresco."
+    },
+    {
+      "id": 76,
+      "question": "El método de Graham se utiliza para el diagnóstico de:",
+      "options": {
+        "A": "Trichomonas vaginalis.",
+        "B": "Enterobius vermicularis.",
+        "C": "Ascaris lumbricoides.",
+        "D": "Fasciola hepática."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Enterobius vermicularis."
+    },
+    {
+      "id": 77,
+      "question": "La leishmania:",
+      "options": {
+        "A": "Es una bacteria que se transmite por picadura de moscas de flebótomos machos infectadas",
+        "B": "Es un parásito intracelular obligado que se transmite por picadura de moscas de flebótomos machos infectadas",
+        "C": "Es un parásito intracelular obligado que se transmite por picadura de moscas de flebótomos hembras infectadas",
+        "D": "Es una bacteria intracelular obligada que se transmite por picadura de moscas de flebótomos hembras infectadas Se acepta pulpo como animal de compañía: los flebótomos son mosquitos, más que moscas."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Es un parásito intracelular obligado que se transmite por picadura de moscas de flebótomos hembras infectadas"
+    },
+    {
+      "id": 78,
+      "question": "El ser humano no se infecta por Toxoplasma",
+      "options": {
+        "A": "Consumo de carne poco hecha de animales que actúan como anfitriones intermediarios o por ingestión de ovoquistes infecciosos procedentes de gatos contaminados",
+        "B": "Por ingestión de agua contaminadas.",
+        "C": "Por consumo de alimento contaminados.",
+        "D": "Por inhalación de partículas en suspensión contaminadas."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Por inhalación de partículas en suspensión contaminadas."
+    },
+    {
+      "id": 79,
+      "question": "Para la observación de Trichomonas vaginalis “en vivo” al microscopio, se debe realizar:",
+      "options": {
+        "A": "Una preparación seca.",
+        "B": "Una tinción simple.",
+        "C": "Un examen en fresco.",
+        "D": "Una tinción diferencial"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Un examen en fresco."
+    },
+    {
+      "id": 80,
+      "question": "Las técnicas de concentración por sedimentación o flotación, según los casos útiles en estudios:",
+      "options": {
+        "A": "De micología dérmica.",
+        "B": "De parasitología intestinal.",
+        "C": "De bacteriología intestinal.",
+        "D": "De virología."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "De parasitología intestinal."
+    },
+    {
+      "id": 81,
+      "question": "El Ascaris lumbricoides es un:",
+      "options": {
+        "A": "Nematodo.",
+        "B": "Protozoo.",
+        "C": "Cestodo.",
+        "D": "Trematodo."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Nematodo."
+    },
+    {
+      "id": 82,
+      "question": "¿Cuál de los siguientes es un helminto tipo nematodo?:",
+      "options": {
+        "A": "Taenia saginata.",
+        "B": "Fasciola hepática.",
+        "C": "Ascaris lumbricoides.",
+        "D": "Echinococcus granulosus."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Ascaris lumbricoides."
+    },
+    {
+      "id": 83,
+      "question": "El test de Graham se utiliza para el diagnóstico de:",
+      "options": {
+        "A": "Enterobius vermicularis.",
+        "B": "Taenia solium.",
+        "C": "Giardia lamblia.",
+        "D": "Schistosoma spp."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Enterobius vermicularis."
+    },
+    {
+      "id": 84,
+      "question": "¿Cómo se llama el pigmento que aparece en el interior de algunos neutrófilos y monocitos en una infección por Plasmodium falciparum?:",
+      "options": {
+        "A": "Gránulos de Schuffner.",
+        "B": "Bastones de Auer.",
+        "C": "Pigmento de Maurer.",
+        "D": "Esquizonte."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Pigmento de Maurer."
+    },
+    {
+      "id": 85,
+      "question": "Para el diagnóstico clínico de paludismo, se usa como muestra:",
+      "options": {
+        "A": "Heces.",
+        "B": "Saliva.",
+        "C": "Sangre.",
+        "D": "Orina."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Sangre."
+    },
+    {
+      "id": 86,
+      "question": "Señale el microorganismo pluricelular.",
+      "options": {
+        "A": "Plasmodium malariae.",
+        "B": "Bacteroides fragilis.",
+        "C": "Fasciola hepatica.",
+        "D": "Cryptococcus neoformans."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Fasciola hepatica."
+    },
+    {
+      "id": 87,
+      "question": "El Enterobius vermicularis, parásito investigado en heces, es:",
+      "options": {
+        "A": "Un gusano perteneciente a la clase de nematodos.",
+        "B": "Un gusano perteneciente a la clase de cestodos.",
+        "C": "Un gusano perteneciente a la clase de trematodos.",
+        "D": "Un gusano perteneciente a la clase de estrongiloides."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Un gusano perteneciente a la clase de nematodos."
+    },
+    {
+      "id": 88,
+      "question": "En el examen de sangre para análisis parasitológico:",
+      "options": {
+        "A": "Primero es necesario diluir la muestra.",
+        "B": "Es necesario realizar una concentración por sedimentación.",
+        "C": "Lo habitual es hacer un frotis sanguíneo y teñirlo mediante una tinción de Giemsa.",
+        "D": "Lo habitual es realizar una tinción Gram."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Lo habitual es hacer un frotis sanguíneo y teñirlo mediante una tinción de Giemsa."
+    },
+    {
+      "id": 89,
+      "question": "Organismos unicelulares o pluricelulares, algunos de ellos de vida libre, que de manera temporal o permanente viven a expensas de otro organismo denominado huésped:",
+      "options": {
+        "A": "Parásitos.",
+        "B": "Bacterias.",
+        "C": "Virus.",
+        "D": "Priones."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Parásitos."
+    },
+    {
+      "id": 90,
+      "question": "¿Cuál de los siguientes grupos pertenece a la clasificación elemental de los parásitos diagnosticados en laboratorio?",
+      "options": {
+        "A": "Ciliados.",
+        "B": "Cestodos.",
+        "C": "Amebas.",
+        "D": "Todas son ciertas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 91,
+      "question": "El agente causal de la pneumonia plasmocelular intersticial es:",
+      "options": {
+        "A": "Trypanosoma brucei.",
+        "B": "Balantidium coli.",
+        "C": "Pneumocystis carinni.",
+        "D": "Trypanosoma cruzi."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Pneumocystis carinni."
+    },
+    {
+      "id": 92,
+      "question": "Para el estudio y diagnóstico de Trichomona vaginalis, utilizaremos diferentes métodos como pueden ser:",
+      "options": {
+        "A": "Tinción con Lugol.",
+        "B": "Examen en fresco de exudado vaginal.",
+        "C": "Cultivo en medio de Roiron o Diamond.",
+        "D": "B y C son correctas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "B y C son correctas."
+    },
+    {
+      "id": 93,
+      "question": "¿Cuál sería el medio de elección para crecimiento de trichomonas?:",
+      "options": {
+        "A": "Roiron.",
+        "B": "Agar chocolate.",
+        "C": "Mueller - Hinton."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Roiron."
+    },
+    {
+      "id": 94,
+      "question": "El método de Graham se utiliza para el diagnóstico de:",
+      "options": {
+        "A": "Trichomonas vaginalis.",
+        "B": "Ascaris lumbricoides.",
+        "C": "Enterobius vermicularis."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Enterobius vermicularis."
+    },
+    {
+      "id": 95,
+      "question": "¿Cuál de los siguientes parásitos se cultiva sobre células HEL o Vero?:",
+      "options": {
+        "A": "Toxoplasma Gondii.",
+        "B": "Strongyloides Stercolaris.",
+        "C": "Trichostrongylus."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Toxoplasma Gondii."
+    },
+    {
+      "id": 96,
+      "question": "Para la identificación de qué parasito necesitamos examinar las proglótides, además de observar los huevos:",
+      "options": {
+        "A": "Trematodos.",
+        "B": "Cestodos.",
+        "C": "Nematodos.",
+        "D": "Ciliados."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Cestodos."
+    },
+    {
+      "id": 97,
+      "question": "El test de GRAHAM se utiliza:",
+      "options": {
+        "A": "Para la detección de oxiuros.",
+        "B": "Para detección de enfermedades congénitas.",
+        "C": "Para cribado de infecciones de transmisión sexual.",
+        "D": "Para estudio rápido de enfermedades infecciosas. Comentario. La D no encajaría mucho porque no es que sea una técnica muy rápida. Hay que ver minuciosamente todos los portaobjetos con el papel celo adherido en busca de huevos"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Para la detección de oxiuros."
+    },
+    {
+      "id": 98,
+      "question": "¿Para qué se utiliza el test de Graham?",
+      "options": {
+        "A": "Para aislar Staphylococcus aureus (SARM),",
+        "B": "Para diferenciar si la infección es del tracto urinario o del riñón.",
+        "C": "Para observar bacilos grampositivos.",
+        "D": "Para detectar si hay oxiuros."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Para detectar si hay oxiuros."
+    },
+    {
+      "id": 99,
+      "question": "¿Qué tipo de parásito se puede visualizar con la técnica de la gota gruesa?",
+      "options": {
+        "A": "Schistosoma haematobium.",
+        "B": "Trichurus trichuria",
+        "C": "Trypanosoma cruzi",
+        "D": "Leishmania tropica"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Trypanosoma cruzi"
+    },
+    {
+      "id": 100,
+      "question": "¿Para qué se utiliza la técnica de Baerman en parasitología?",
+      "options": {
+        "A": "Diagnóstico de Trypanosoma brucei en la enfermedad del sueño.",
+        "B": "Diagnóstico de Leishmania en médula ósea.",
+        "C": "Diagnóstico de Strongyloides spp en heces.",
+        "D": "Visualización de ooquistes de Cryposporidium parvum."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Diagnóstico de Strongyloides spp en heces."
+    },
+    {
+      "id": 101,
+      "question": "¿Para qué se utiliza la tinción Gomori-Grocott modificada?:",
+      "options": {
+        "A": "Para visualizar estructuras víricas.",
+        "B": "Para la detección de la cápsula criptococcus neoformans.",
+        "C": "Para la detección de anticuerpos específicos.",
+        "D": "Para la detección de Pneumocystis jiroveci"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Para la detección de Pneumocystis jiroveci"
+    },
+    {
+      "id": 102,
+      "question": "Los parásitos según la fuente de nutrición se clasifican en:",
+      "options": {
+        "A": "Ectoparásitos y endoparásitos",
+        "B": "Facultativos u obligados",
+        "C": "Holoparasitos y hemiparasitos",
+        "D": "Monoxenos y heteroxenos"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Holoparasitos y hemiparasitos"
+    },
+    {
+      "id": 103,
+      "question": "¿Qué hay que utilizar para una tinción de Plasmodium?",
+      "options": {
+        "A": "Una extensión de heces.",
+        "B": "Sedimento de orina.",
+        "C": "Tinción de Giemsa.",
+        "D": "Tinción de Gram."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Tinción de Giemsa."
+    },
+    {
+      "id": 104,
+      "question": "¿A cuál de las siguientes especies, pertenece el parásito sanguíneo Plasmodium?",
+      "options": {
+        "A": "Falciparum.",
+        "B": "Cruzi.",
+        "C": "Gondii.",
+        "D": "Donovani."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Falciparum."
+    },
+    {
+      "id": 105,
+      "question": "La vida vegetativa de los protozoos recibe el nombre de:",
+      "options": {
+        "A": "Larva",
+        "B": "Quiste",
+        "C": "Trofozoíto",
+        "D": "Protozoíto"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Trofozoíto"
+    },
+    {
+      "id": 106,
+      "question": "Giardia Lamblia es un protozoo:",
+      "options": {
+        "A": "Ameba",
+        "B": "Ciliada",
+        "C": "Esporulado",
+        "D": "Flagelado"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Flagelado"
+    },
+    {
+      "id": 107,
+      "question": "Para la observación de Plasmodium en sangre utilizamos la tinción de:",
+      "options": {
+        "A": "Giemsa",
+        "B": "Gram",
+        "C": "KOH al10%",
+        "D": "Tinta China"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Giemsa"
+    },
+    {
+      "id": 108,
+      "question": "Respecto al Pneumocystis jirovecci, indique la respuesta INCORRECTA:",
+      "options": {
+        "A": "La muestra de elección para su detección es el esputo inducido.",
+        "B": "Es un hongo.",
+        "C": "Produce endocarditis.",
+        "D": "Es una bacteria. Comentario. Está mal escrita. Es Pneumocystis jiroveccii. La opción A es discutible, ya que hay diferentes documentos de la SEIMC en los que en algunos describen el lavado broncoalveolar como muestra de elección, aunque en otros está descrito el esputo inducido"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Es una bacteria. Comentario. Está mal escrita. Es Pneumocystis jiroveccii. La opción A es discutible, ya que hay diferentes documentos de la SEIMC en los que en algunos describen el lavado broncoalveolar como muestra de elección, aunque en otros está descrito el esputo inducido"
+    },
+    {
+      "id": 109,
+      "question": "Cuando el hematólogo visualiza el frotis de sangre periférica nos comenta que ha observado formas anilladas intraeritrocitarias, en algunos casos con dobles puntos de cromatina y dobles o triples formas en un único hematíe, lo que sugiere:",
+      "options": {
+        "A": "Artefactos de la tinción.",
+        "B": "Tricomoniasis.",
+        "C": "Parasitación por Plasmodium falciparum.",
+        "D": "Mononucleosis."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Parasitación por Plasmodium falciparum."
+    },
+    {
+      "id": 110,
+      "question": "¿Qué soporte recomendaremos usar, desde el laboratorio, para una adecuada obtención de una muestra para el Test de Graham?",
+      "options": {
+        "A": "Cinta aislante negra adhesiva.",
+        "B": "Cinta adhesiva trasparente.",
+        "C": "Papel celofán trasparente no adhesivo."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Cinta adhesiva trasparente."
+    },
+    {
+      "id": 111,
+      "question": "¿Cuál de los siguientes parásitos es un platelminto?",
+      "options": {
+        "A": "Taenia Saginata.",
+        "B": "Ascaris lumbricoides.",
+        "C": "Toxocara canis."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Taenia Saginata."
+    },
+    {
+      "id": 112,
+      "question": "La Giardia Lamblia es:",
+      "options": {
+        "A": "Un endoparásito con forma de cinta en el tubo digestivo de vertebrados.",
+        "B": "Un protozoo flagelado del tracto digestivo de humanos y otros mamíferos.",
+        "C": "Una clase de gusano platelminto que infecta al humano."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Un protozoo flagelado del tracto digestivo de humanos y otros mamíferos."
+    },
+    {
+      "id": 113,
+      "question": "Indique la afirmación correcta sobre Pneumocystis jiroveci:",
+      "options": {
+        "A": "El esputo de 24 horas es una muestra muy útil para su diagnóstico.",
+        "B": "Se clasifica como una micosis sistémica primaria.",
+        "C": "En pacientes con VIH se observa un recuento de linfocitos T CD4 <200 células/mm³.",
+        "D": "El medio empleado para su cultivo es agar Sabouraud con cicloheximida."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "En pacientes con VIH se observa un recuento de linfocitos T CD4 <200 células/mm³."
+    },
+    {
+      "id": 114,
+      "question": "Clasifique el agente etiológico de la hidatidosis:",
+      "options": {
+        "A": "Helminto - Platelminto - Trematodo - Transmisión oral.",
+        "B": "Protozoo - Ameba - Transmisión feco-oral.",
+        "C": "Helminto - Platelminto - Cestodo - Transmisión feco-oral.",
+        "D": "Metazoo - Nematodo - Flagelado - Transmisión cutánea."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Helminto - Platelminto - Cestodo - Transmisión feco-oral."
+    },
+    {
+      "id": 115,
+      "question": "Acanthamoeba spp. es un patógeno oportunista para el ser humano, ¿qué infección produce?:",
+      "options": {
+        "A": "Infecciones oculares.",
+        "B": "Infecciones vaginales.",
+        "C": "Infecciones respiratorias.",
+        "D": "Infecciones gastrointestinales."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Infecciones oculares."
+    },
+    {
+      "id": 116,
+      "question": "Para la observación de parásitos en sangre (protozoos), ¿qué tinción utilizamos?:",
+      "options": {
+        "A": "Tinción de Giemsa.",
+        "B": "Tinción de Gram.",
+        "C": "Examen en fresco,",
+        "D": "Tinción de Ziehl Neelsen."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Tinción de Giemsa."
+    },
+    {
+      "id": 117,
+      "question": "La paciente refiere que ha regresado de un viaje por Nigeria hace una semana. ¿Cuál es la prueba de laboratorio más rápida para el diagnóstico de malaria?",
+      "options": {
+        "A": "Concentración de heces.",
+        "B": "Inmunocromatografía (ICT) en sangre.",
+        "C": "Examen en fresco de la sangre."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Inmunocromatografía (ICT) en sangre."
+    },
+    {
+      "id": 118,
+      "question": "Cuando hablamos de Malaria nos referimos a:",
+      "options": {
+        "A": "Un virus.",
+        "B": "Un protozoo.",
+        "C": "Un hongo."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Un protozoo."
+    },
+    {
+      "id": 119,
+      "question": "Ante la sospecha de Enterobius Vermicolaris, qué muestra y petición más idónea es adecuado realizar:",
+      "options": {
+        "A": "Heces y detección de virus gastrointestinales.",
+        "B": "Tres muestras de heces en diferentes días y detección de parásitos.",
+        "C": "Portaobjetos impregnado con celo transparente para realizar el test de Graham.",
+        "D": "Biopsia de intestino delgado y detección de parásitos."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Portaobjetos impregnado con celo transparente para realizar el test de Graham."
+    },
+    {
+      "id": 120,
+      "question": "En un estudio de paludismo, ¿qué tipo de tubo es el más indicado para la extracción?",
+      "options": {
+        "A": "En un tubo EDTA.",
+        "B": "En un tubo con gelosa.",
+        "C": "En un tubo con heparina de litio.",
+        "D": "En un tubo con citrato sódico."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "En un tubo EDTA."
+    },
+    {
+      "id": 121,
+      "question": "El huésped intermediario, en el que se produce el desarrollo asexual de cualquier especie de la malaria es:",
+      "options": {
+        "A": "El mosquito anófeles.",
+        "B": "La garrapata.",
+        "C": "El hombre."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "El hombre."
+    },
+    {
+      "id": 122,
+      "question": "Un protozoo flagelado, hemático y tisular que provoca una enfermedad parasitaria sistémica, corresponde a:",
+      "options": {
+        "A": "Trypanosoma brucei.",
+        "B": "Schistosoma mansoni.",
+        "C": "Fasciola hepática.",
+        "D": "Cyptosporidium hominis."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Trypanosoma brucei."
+    },
+    {
+      "id": 123,
+      "question": "El quiste hidatídico ¿qué germen lo produce?",
+      "options": {
+        "A": "Toxoplasma gondii.",
+        "B": "Echinococcus granulosus.",
+        "C": "Rickettsia connorii.",
+        "D": "Mycoplasma spp."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Echinococcus granulosus."
+    },
+    {
+      "id": 124,
+      "question": "En una infección por parásitos, cuál de las siguientes alteraciones es más frecuente encontrar:",
+      "options": {
+        "A": "Elevación de reactantes de fase aguda.",
+        "B": "Déficit de alfa1 (α1) antitripsina.",
+        "C": "Eosinofilia.",
+        "D": "Anemia ferropénica."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Eosinofilia."
+    },
+    {
+      "id": 125,
+      "question": "Señale la respuesta CORRECTA sobre microorganismo y las localizaciones corporales para su diagnóstico:",
+      "options": {
+        "A": "Trichomonas vaginalis – hígado.",
+        "B": "Género Plasmodium – sangre.",
+        "C": "Entamoeba histolytica – secreciones prostáticas.",
+        "D": "Trichinella spiralis – médula ósea."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Género Plasmodium – sangre."
+    },
+    {
+      "id": 126,
+      "question": "¿En qué se basa el diagnóstico microbiológico de sospecha de amebiasis intestinal?",
+      "options": {
+        "A": "Observación de trofozoítos en heces diarreicas.",
+        "B": "Observación de quistes en heces diarreicas.",
+        "C": "Observación de leucocitos en heces diarreicas.",
+        "D": "Son correctas a y b."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Son correctas a y b."
+    },
+    {
+      "id": 127,
+      "question": "El examen microscópico para la identificación de parásitos en heces se caracteriza por:",
+      "options": {
+        "A": "Alta sensibilidad.",
+        "B": "Permite la detección de más de una especie.",
+        "C": "No requiere especialización del analista.",
+        "D": "No es muy laborioso."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Permite la detección de más de una especie."
+    },
+    {
+      "id": 128,
+      "question": "El agente causal de la filariasis de Brancofti es:",
+      "options": {
+        "A": "Un helminto.",
+        "B": "Un protozoo.",
+        "C": "Un virus.",
+        "D": "Una bacteria."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Un helminto."
+    },
+    {
+      "id": 129,
+      "question": "Sarcoptes scablei es el agente causal de:",
+      "options": {
+        "A": "Sarcoidosis",
+        "B": "Sarna",
+        "C": "Pediculosis",
+        "D": "Dermatitis"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Sarna"
+    },
+    {
+      "id": 130,
+      "question": "El enterobius vermicularis es:",
+      "options": {
+        "A": "Un virus perteneciente a la clase de los nematodos.",
+        "B": "Un gusano perteneciente a la clase de los nematodos.",
+        "C": "Un gusano perteneciente a la clase de los cestodos.",
+        "D": "Un gusano perteneciente a la clase de los trematodos."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Un gusano perteneciente a la clase de los nematodos."
+    },
+    {
+      "id": 131,
+      "question": "Para la detección de antígenos parasitarios de leishmania en orina, ¿qué técnica inmunológica utilizaremos?",
+      "options": {
+        "A": "ELISA.",
+        "B": "Inmunocromatografia.",
+        "C": "Aglutinación por partículas de látex.",
+        "D": "Inmunoflorescencia directa."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Aglutinación por partículas de látex."
+    },
+    {
+      "id": 132,
+      "question": "Disponemos de la siguiente fórmula: Cromotropo 2R 0,6 g, Verde claro SF 0,3 g, Ácido fosfotúngstico 0,7 g, Ácido acético glacial 1 mL, Agua destilada 100 mL. ¿Qué tinción prepararemos?",
+      "options": {
+        "A": "Tinción Giemsa",
+        "B": "Tinción con formol-éter",
+        "C": "Tinción tricrómica",
+        "D": "Tinción de Gram"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Tinción tricrómica"
+    },
+    {
+      "id": 133,
+      "question": "La tinción tricrómica:",
+      "options": {
+        "A": "Se usa principalmente para la detección de Pneumocystis jiroveci en muestras respiratorias.",
+        "B": "Se utiliza para detectar parásitos sanguíneos y cuerpos de inclusión de virus y clamidias.",
+        "C": "Es una tinción histológica para detectar hongos en los tejidos.",
+        "D": "Es una alternativa a la hematoxilina férrica para la tinción de protozoos intestinales."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Es una alternativa a la hematoxilina férrica para la tinción de protozoos intestinales."
+    },
+    {
+      "id": 134,
+      "question": "Qué parásito se puede encontrar en el examen derecho de orina:",
+      "options": {
+        "A": "Schistosoma haematobium",
+        "B": "Trypanosoma cruzi",
+        "C": "Wuchereria bancrofti",
+        "D": "Schistosoma japonicum"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Schistosoma haematobium"
+    },
+    {
+      "id": 135,
+      "question": "¿Qué enfermedad produce el trypanosoma cruzi?:",
+      "options": {
+        "A": "Vaginitis",
+        "B": "Fiebres amarilla",
+        "C": "Enfermedad de Chagas",
+        "D": "Enfermedad del sueño"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Enfermedad de Chagas"
+    },
+    {
+      "id": 136,
+      "question": "¿Qué patología produce la Tenia solium cuando son ingeridos sus huevos por el hombre?:",
+      "options": {
+        "A": "Anemia",
+        "B": "Diarrea",
+        "C": "Cisticercosis",
+        "D": "Los huevos no afectan al hombre"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Cisticercosis"
+    },
+    {
+      "id": 137,
+      "question": "Para la observación de Trichomonas vaginalis “en vivo“ al microscopio, se debe realizar:",
+      "options": {
+        "A": "Una preparación seca.",
+        "B": "Una tinción simple.",
+        "C": "Un examen en fresco.",
+        "D": "Una tinción diferencial."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Un examen en fresco."
+    },
+    {
+      "id": 138,
+      "question": "A diferencia de Plasmodium vivax y Plasmodium ovale, Plasmodium malariae solamente es capaz de infectar:",
+      "options": {
+        "A": "Hematíes en todos sus estadíos.",
+        "B": "Eritrocitos maduros.",
+        "C": "Reticulocitos.",
+        "D": "Eosinófilos."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Eritrocitos maduros."
+    },
+    {
+      "id": 139,
+      "question": "El examen de heces es el método diagnóstico inicial en todos los siguientes organismos, con excepción de:",
+      "options": {
+        "A": "Enterobius vermicularis.",
+        "B": "Trichuris trichiura.",
+        "C": "Ascaris lumbricoides.",
+        "D": "Necator americanus."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Enterobius vermicularis."
+    }
+  ]
+}

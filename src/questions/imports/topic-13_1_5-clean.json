@@ -1,0 +1,5613 @@
+{
+  "tema": "13_1_5",
+  "titulo": "Microbiología patógenos (13.1 y 13.5)",
+  "source_file": "TEST tema 13.1 y 13.5 Microbiología patógenos (respuestas) v2.pdf",
+  "total_questions": 297,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Cuál de las siguientes especies de Staphylococcus, además del S. Aureus, produce coagulasa:",
+      "options": {
+        "A": "S. intermedius.",
+        "B": "S. saprophyticus.",
+        "C": "S. hominis.",
+        "D": "Todas ellas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "S. intermedius.",
+      "_yellow_scores": {
+        "A": 0.6454901960784314,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el agente etiológico del Chancro Blando?:",
+      "options": {
+        "A": "Treponema pallidum.",
+        "B": "Haemophylus ducreyi",
+        "C": "Gardnerella vaginalis.",
+        "D": "Ureaplasma urealyticum."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Haemophylus ducreyi",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6347826086956522,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 3,
+      "question": "¿Qué característica cualitativa de las que se enuncian a continuación, no la reúnen las enterobacterias?",
+      "options": {
+        "A": "Son bacilos gram-, producen endotoxinas, son anaerobios facultativos, oxidasa negativos y fermentadores de glucosa",
+        "B": "Forman parte de la flora intestinal normal del hombre",
+        "C": "En cualquier localización extaintestinal son patógenas",
+        "D": "Son cocos gram-"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Son cocos gram-",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6413043478260869
+      }
+    },
+    {
+      "id": 4,
+      "question": "Una de las siguientes afirmaciones sobre pseudomonas es falsa:",
+      "options": {
+        "A": "Bacilos Gram negativos inmóviles.",
+        "B": "Bacilos Gram negativos móviles.",
+        "C": "Crecen con facilidad en los medios de cultivo ordinarios.",
+        "D": "No fermentan la lactosa."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Bacilos Gram negativos inmóviles.",
+      "_yellow_scores": {
+        "A": 0.6529411764705882,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 5,
+      "question": "La tos ferina está producida por:",
+      "options": {
+        "A": "Brucella.",
+        "B": "Bordetella.",
+        "C": "Pseudomonas.",
+        "D": "Todas son falsas."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Bordetella.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6019900497512438,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 6,
+      "question": "El agente causal de la sífilis es:",
+      "options": {
+        "A": "Una micobacteria.",
+        "B": "Bordetella.",
+        "C": "Legionella.",
+        "D": "Treponema."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Treponema.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6383561643835617
+      }
+    },
+    {
+      "id": 7,
+      "question": "El carbunco es producido por:",
+      "options": {
+        "A": "Haemophilus influenzae.",
+        "B": "Clostridium perfringes.",
+        "C": "Fusobacterium.",
+        "D": "Bacillus anthracis."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Bacillus anthracis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7144781144781145
+      }
+    },
+    {
+      "id": 8,
+      "question": "Un título de ASLO alto es indicativo de:",
+      "options": {
+        "A": "",
+        "B": "Artrosis.",
+        "C": "Artritis reumatoide.",
+        "D": "Infección estreptocócica beta hemolítica del grupo"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Infección estreptocócica beta hemolítica del grupo",
+      "_yellow_scores": {
+        "A": 0.35,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6227226720647774
+      }
+    },
+    {
+      "id": 9,
+      "question": "La enfermedad de Lyme la producen:",
+      "options": {
+        "A": "Leptospiras.",
+        "B": "Borrelias.",
+        "C": "Treponemas saprofitas en huéspedes inmunodeprimidos.",
+        "D": "Legionellas."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Borrelias.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6459016393442623,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 10,
+      "question": "La Chlamydia Trachomatis:",
+      "options": {
+        "A": "Es una bacteria intracelular del hombre que puede provocar conjuntivitis.",
+        "B": "Es una bacteria extracelular del hombre que provoca tracoma.",
+        "C": "Es un virus intracelular que produce linfogranuloma venéreo, tracoma y conjuntivitis.",
+        "D": "Puede producir Ornitosis por inhalación de heces de pájaros infectados."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Es una bacteria intracelular del hombre que puede provocar conjuntivitis.",
+      "_yellow_scores": {
+        "A": 0.446258325715032,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál de los siguientes géneros pertenece a la familia enterobacteriaceae?",
+      "options": {
+        "A": "Proteus.",
+        "B": "Pseudomonas.",
+        "C": "Streptococcus.",
+        "D": "Vibrio."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Proteus.",
+      "_yellow_scores": {
+        "A": 0.5535714285714286,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 12,
+      "question": "Los microorganismos del género corinebacterium son:",
+      "options": {
+        "A": "Bacilos Gram- que forman tétradas.",
+        "B": "Bacilos Gran- que se asocian de forma irregular y se tiñen con facilidad.",
+        "C": "Bacilos Gram+ que se tiñen con dificultad y son pleomorfos. TEST 13.1 y 13.5 Microbiología patógenos",
+        "D": "Bacilos Gram+ que se tiñen con facilidad."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Bacilos Gram+ que se tiñen con dificultad y son pleomorfos. TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.4174089068825911,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 13,
+      "question": "En las brucellas:",
+      "options": {
+        "A": "La catalasa y la oxidasa resultarán positivas.",
+        "B": "Indol, gelatina, Voges-Proskawer y rojo de metilo serán negativos en todos los casos.",
+        "C": "La opción b es falsa.",
+        "D": "A y B son verdaderas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "A y B son verdaderas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6666666666666666
+      }
+    },
+    {
+      "id": 14,
+      "question": "¿Qué factores regulan las poblaciones microbianas de los microorganismos que colonizan al ser humano?",
+      "options": {
+        "A": "Estado de salud.",
+        "B": "Estado hormonal.",
+        "C": "Dieta.",
+        "D": "Todas son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7163636363636363
+      }
+    },
+    {
+      "id": 15,
+      "question": "Un paciente que es pastor de cabras presenta un cuadro de fiebre de origen desconocido. La causa más probable sería debida a ¿cuál de los siguientes microorganismos?",
+      "options": {
+        "A": "Mycobacterium tuberculosis.",
+        "B": "Brucella melitensis.",
+        "C": "Histoplasma capsulatum.",
+        "D": "Clostridium novyi."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Brucella melitensis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5714285714285714,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 16,
+      "question": "¿Cuál de las siguientes características no es propia de Staphylocccus aureus?",
+      "options": {
+        "A": "Formar parte de la flora de la piel.",
+        "B": "Ser muy ubicuo",
+        "C": "Tener prevalencia estacional",
+        "D": "Trasmitirse de persona a persona"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Tener prevalencia estacional",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6574712643678161,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 17,
+      "question": "¿Qué es la toxina Panton-Valentine?",
+      "options": {
+        "A": "Una toxina presente en cepas comunitarias de E coli",
+        "B": "Una toxina presente en cepas comunitarias de S.aureus resistente a cloxacilina",
+        "C": "Una toxina presente en cepas hospitalarias de E coli",
+        "D": "Una toxina presente en cepas hospitalarias de S aureus resistente a cloxacilina"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Una toxina presente en cepas comunitarias de S.aureus resistente a cloxacilina",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5634146341463414,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 18,
+      "question": "El periodo de incubación de la sífilis es:",
+      "options": {
+        "A": "Una semana",
+        "B": "Tres semanas",
+        "C": "7 a 10 días",
+        "D": "2 meses"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Tres semanas",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6495726495726496,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 19,
+      "question": "Respecto a Francisella tularensis que no es verdad:",
+      "options": {
+        "A": "Normalmente no se diagnostica por serología.",
+        "B": "Es una zoonosis.",
+        "C": "Requiere medios suplementados para crecer.",
+        "D": "Se transmite por contacto directo con el animal."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Normalmente no se diagnostica por serología.",
+      "_yellow_scores": {
+        "A": 0.6577777777777778,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 20,
+      "question": "El germen causal de la enfermedad por arañazo de gato es:",
+      "options": {
+        "A": "Bartonella baciliformis",
+        "B": "B.quintana",
+        "C": "B.conorii",
+        "D": "Bartonella henselae"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Bartonella henselae",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6327160493827161
+      }
+    },
+    {
+      "id": 21,
+      "question": "Sobre el Streptococcus pneumoniae, ¿qué afirmación es correcta?",
+      "options": {
+        "A": "La optoquina inhibe su crecimiento.",
+        "B": "Son cocos gram positivos alargados o en forma de \"lanceta\".",
+        "C": "Presentan en su pared celular una enzima autolítica (amidasa).",
+        "D": "Todas son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6456456456456456
+      }
+    },
+    {
+      "id": 22,
+      "question": "Respecto a las endosporas, es cierto que es:",
+      "options": {
+        "A": "Característica diferencial de los hongos",
+        "B": "Elemento de fijación utilizado por los virus",
+        "C": "Estrategia extrema de supervivencia de ciertas bacterias Gram positivas",
+        "D": "Acúmulos de materiales de reserva de las células procariotas"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Estrategia extrema de supervivencia de ciertas bacterias Gram positivas",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.47629619955596186,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 23,
+      "question": "Si se sospecha que el germen aislado es un Staphylococcus. ¿Qué prueba se realizaría para diferenciar al S. aureus de otras especies?",
+      "options": {
+        "A": "Prueba de la Catalasa.",
+        "B": "Prueba de la Oxidasa.",
+        "C": "Prueba de la Coagulasa.",
+        "D": "Prueba de la Urea."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Prueba de la Coagulasa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.7045333333333333,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 24,
+      "question": "De las siguientes bacterias, ¿cuál es gram positiva?",
+      "options": {
+        "A": "Escherichia",
+        "B": "Proteus TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Pseudomonas",
+        "D": "Staphylococcus"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Staphylococcus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5747126436781609
+      }
+    },
+    {
+      "id": 25,
+      "question": "¿Cuál de los siguientes es un Bacilo gram positivo aerobio y posee Ácidos Micólicos en su pared celular?",
+      "options": {
+        "A": "Staphylococcus.",
+        "B": "Klebsiella.",
+        "C": "Nocardia.",
+        "D": "Prevotella."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Nocardia.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.594535519125683,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 26,
+      "question": "Con respecto a la Pseudomona aeruginosa es cierto:",
+      "options": {
+        "A": "Es una Bacteria Gram negativa, aerobia, oxidasa positiva.",
+        "B": "Secreta variedad de pigmentos como la Piocianina, Fluoresceína y Piorrubina.",
+        "C": "Produce un olor dulce característico semejante al de las uvas.",
+        "D": "Todas son correctas."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6533333333333333
+      }
+    },
+    {
+      "id": 27,
+      "question": "Es característico de Listeria monocytogenes (señale la RESPUESTA CORRECTA):",
+      "options": {
+        "A": "Cocos gran positivos en racimos; colonias grandes beta-hemolíticas; catalasa-positivo, coagulasa- positivo.",
+        "B": "Bacilos gran positivos pequeños; colonias pequeñas débilmente beta-hemolíticas; motilidad característica (volteo).",
+        "C": "Cocos gran positivos en parejas y cadenas cortas; colonias pequeñas alfa-hemolíticas; catalasa- negativo.",
+        "D": "Bacilos gran positivos, pleomórficos (longitudes diversas), que se tiñen débilmente; anaerobio estricto."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Bacilos gran positivos pequeños; colonias pequeñas débilmente beta-hemolíticas; motilidad característica (volteo).",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.4848618201020947,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 28,
+      "question": "¿Cuál de estos microorganismos no es una bacteria?",
+      "options": {
+        "A": "Staphylococcus aureus.",
+        "B": "Mycobacterium leprae.",
+        "C": "Chlamydia trachomatis.",
+        "D": "Candida albicans."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Candida albicans.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7020833333333333
+      }
+    },
+    {
+      "id": 29,
+      "question": "Para realizar el diagnóstico de la existencia de Rickettsias. ¿Qué prueba serológica no debe utilizarse por su falta de especificidad y sensibilidad?",
+      "options": {
+        "A": "Aglutinación con látex.",
+        "B": "Inmunofluorescencia directa.",
+        "C": "Microinmunofluorescencia.",
+        "D": "Prueba de Weil-Félix."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Prueba de Weil-Félix.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5736842105263158
+      }
+    },
+    {
+      "id": 30,
+      "question": "En una placa de agar sangre sembrada para aislar Streptococcus pneumoniae ¿Cuál de estas colonias identificaría este germen?",
+      "options": {
+        "A": "Gamma – Hemolíticas.",
+        "B": "Alfa – Hemolíticas.",
+        "C": "Beta – Hemolíticas.",
+        "D": "Ninguna respuesta de las anteriores es correcta."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Alfa – Hemolíticas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6379084967320261,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 31,
+      "question": "Los factores V y X son utilizados para caracterizar bacterias de género:",
+      "options": {
+        "A": "Legionella",
+        "B": "Staphylococcus",
+        "C": "Haemophilus",
+        "D": "Actinobacillus"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Haemophilus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6796536796536796,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 32,
+      "question": "Identificada una bacteria que es un bacilo, gram positivo, anaerobio estricto, esporulado y catalasa negativa diremos que pertenece al género:",
+      "options": {
+        "A": "Clostridium",
+        "B": "Listeria",
+        "C": "Legionella",
+        "D": "Pseudomona"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Clostridium",
+      "_yellow_scores": {
+        "A": 0.5757042253521126,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 33,
+      "question": "Los Micoplasmas se caracterizan por:",
+      "options": {
+        "A": "Poseer ácidos micólicos en su pared",
+        "B": "No poseer pared celular",
+        "C": "Teñirse con tinción diferencia de Gram",
+        "D": "Ser parásitos intracelulares"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "No poseer pared celular",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6391534391534391,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 34,
+      "question": "¿Cuál de las siguientes pruebas permitiría distinguir el género STREPTOCOCCUS del género STAPHYLOCOCCUS?:",
+      "options": {
+        "A": "Tinción de Gram",
+        "B": "Prueba de la catalasa",
+        "C": "Prueba de la coagulasa",
+        "D": "Prueba de la estreptoquinasa"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Prueba de la catalasa",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6967551622418879,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 35,
+      "question": "Una de las siguientes afirmaciones de la pseudomona es falsa:",
+      "options": {
+        "A": "Bacilos gram negativos móviles",
+        "B": "Bacilos gram negativos inmóviles TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Crecen con facilidad en medios de cultivo ordinarios",
+        "D": "No fermentan la lactosa"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Bacilos gram negativos inmóviles TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5931726907630522,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 36,
+      "question": "¿Cuál de estas bacterias es un coco gram negativo?:",
+      "options": {
+        "A": "Staphylococcus.",
+        "B": "Neisseria.",
+        "C": "Streptococcus.",
+        "D": "Listeria."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Neisseria.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6808743169398908,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 37,
+      "question": "¿Cuál es la reacción serológica para el diagnóstico de sífilis que pertenece a las pruebas treponémicas?:",
+      "options": {
+        "A": "USR",
+        "B": "VDRL",
+        "C": "FTA-ABS",
+        "D": "RPR"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "FTA-ABS",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5556818181818182,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 38,
+      "question": "¿Cuál de los siguientes Streptococcus es beta- hemolítico y habitual del tracto respiratorio?",
+      "options": {
+        "A": "S. agalactiae.",
+        "B": "S. faecalis.",
+        "C": "S. pneumoniae.",
+        "D": "S. pyogenes."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "S. pyogenes.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6013513513513513
+      }
+    },
+    {
+      "id": 39,
+      "question": "¿Qué estreptococo beta hemolítico se localiza habitualmente en el tracto genitourinario y está asociado a sepsis en el neonato?",
+      "options": {
+        "A": "S. pyogenes.",
+        "B": "S. viridans.",
+        "C": "S. pneumoniae.",
+        "D": "S. agalactiae."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "S. agalactiae.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6207792207792208
+      }
+    },
+    {
+      "id": 40,
+      "question": "¿Qué morfología presentan las enterobacterias?",
+      "options": {
+        "A": "Cocos.",
+        "B": "Bacilos.",
+        "C": "Espiroquetas.",
+        "D": "Espirilos."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Bacilos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5192307692307693,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 41,
+      "question": "¿Qué microorganismo es el responsable de la enfermedad de transmisión sexual denominada chancro blando?",
+      "options": {
+        "A": "Neisseria gonorrhoea.",
+        "B": "Bordetella pertusis.",
+        "C": "Haemophilus ducreyi.",
+        "D": "Aeromonas."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Haemophilus ducreyi.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6463768115942029,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 42,
+      "question": "Las espiroquetas son bacilos con forma helicoidal, todas son móviles; señala cuál de las siguientes no es una espiroqueta:",
+      "options": {
+        "A": "Clostridium.",
+        "B": "Leptospira.",
+        "C": "Borrelia.",
+        "D": "Treponema."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Clostridium.",
+      "_yellow_scores": {
+        "A": 0.6191780821917808,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 43,
+      "question": "La pared celular de las bacterias es un elemento constante en todas, excepto en:",
+      "options": {
+        "A": "Mycoplasmas.",
+        "B": "Aeromonas.",
+        "C": "Chlamydias.",
+        "D": "Micobacterias."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Mycoplasmas.",
+      "_yellow_scores": {
+        "A": 0.5737951807228916,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 44,
+      "question": "Uno de los siguientes microorganismos no es una enterobacteria:",
+      "options": {
+        "A": "Citrobacter.",
+        "B": "Escherichia.",
+        "C": "Haemophilus.",
+        "D": "Serratia."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Haemophilus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6158333333333333,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 45,
+      "question": "La Legionella pneumophila es:",
+      "options": {
+        "A": "Un coco Gram (+).",
+        "B": "Un coco Gram (-).",
+        "C": "Un bacilo Gram (+).",
+        "D": "Un bacilo Gram (-)."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Un bacilo Gram (-).",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6532051282051282
+      }
+    },
+    {
+      "id": 46,
+      "question": "Los estreptococos viridians:",
+      "options": {
+        "A": "Son beta hemolíticos.",
+        "B": "Son causa frecuente de endocarditis.",
+        "C": "Son anaerobios estrictos.",
+        "D": "Son sensibles a optoquina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Son causa frecuente de endocarditis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6536231884057971,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 47,
+      "question": "La Neisseria meningitidis es un:",
+      "options": {
+        "A": "Bacilo Gram positivo.",
+        "B": "Bacilo Gram negativo.",
+        "C": "Diplococo Gram positivo.",
+        "D": "Diplococo Gram negativo."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Diplococo Gram negativo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7096296296296296
+      }
+    },
+    {
+      "id": 48,
+      "question": "Uno de los siguientes géneros de bacterias es catalasa negativa:",
+      "options": {
+        "A": "Staphylococcus spp.",
+        "B": "Neisserias spp. TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Streptococcus spp.",
+        "D": "Listeria spp."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Streptococcus spp.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6392156862745098,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 49,
+      "question": "Los Estafilococos son:",
+      "options": {
+        "A": "Catalasa negativo.",
+        "B": "Catalasa positivo.",
+        "C": "lndol positivo.",
+        "D": "lndol negativo."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Catalasa positivo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6979166666666666,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 50,
+      "question": "¿Qué test nos permita diferenciar el Staphyloccus aureus de otras especies?",
+      "options": {
+        "A": "Test de la Catalasa.",
+        "B": "Test de la Oxidasa.",
+        "C": "Test de la Coagulasa.",
+        "D": "Tinción de Gram."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Test de la Coagulasa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6069819819819819,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 51,
+      "question": "Es un Anaerobio estricto:",
+      "options": {
+        "A": "Bacillus anthracis.",
+        "B": "Clostridium perfringens.",
+        "C": "Enterococus faecalis.",
+        "D": "Bacillus cereus."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Clostridium perfringens.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6444444444444445,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 52,
+      "question": "Según los requerimientos nutritivos de los factores V y X, podemos identificar:",
+      "options": {
+        "A": "Especies de Haemofilus.",
+        "B": "Especies de Neisseria.",
+        "C": "Especies de Salmonella.",
+        "D": "Especies de Escherichia."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Especies de Haemofilus.",
+      "_yellow_scores": {
+        "A": 0.6534391534391535,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 53,
+      "question": "La fiebre tifoidea está producida por:",
+      "options": {
+        "A": "Rickettsia tiphy.",
+        "B": "Salmonella thypi.",
+        "C": "E. coli enterohemorrágico",
+        "D": "Yersinia pseudotuberculosa"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Salmonella thypi.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6259649122807017,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 54,
+      "question": "Carecen de pared celular:",
+      "options": {
+        "A": "Las micobacterias.",
+        "B": "Los micoplasmas.",
+        "C": "Las ricketsias.",
+        "D": "Legionella sp."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Los micoplasmas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5618055555555556,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 55,
+      "question": "Los ácidos micólicos:",
+      "options": {
+        "A": "Son componentes de la pared celular bacteriana.",
+        "B": "Son componentes de la pared de las micobacterias.",
+        "C": "Son componentes exclusivos de la pared celular de los gram positivos.",
+        "D": "Son un componente alternativo de los medios de cultivo."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Son componentes de la pared de las micobacterias.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6709851551956815,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 56,
+      "question": "Señala la opción falsa. La pared de las bacterias es:",
+      "options": {
+        "A": "Elemento constante de todas las bacterias incluso los mycoplasmas.",
+        "B": "Estructura fuerte y rígida.",
+        "C": "Compuesto fundamentalmente por peptidoglicano.",
+        "D": "Las gram+ poseen mayor proporción de peptidoglicano."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Elemento constante de todas las bacterias incluso los mycoplasmas.",
+      "_yellow_scores": {
+        "A": 0.4403813503983283,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 57,
+      "question": "¿Cuál de las siguientes pruebas es más útil para distinguir Staphylococcus sp? de Streptococcus sp.?",
+      "options": {
+        "A": "Tinción de Gram",
+        "B": "Hemólisis de las colonias",
+        "C": "Prueba de la catalasa",
+        "D": "Crecimiento en atmósfera de CO2 al 3-5%"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Prueba de la catalasa",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.7002949852507374,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 58,
+      "question": "Una diferencia entre el género Vibrio y las enterobacterias es ser:",
+      "options": {
+        "A": "Anaerobio estricto.",
+        "B": "Halófilo.",
+        "C": "Oxidasa negativo.",
+        "D": "No fermentador de glucosa."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Halófilo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6321428571428571,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 59,
+      "question": "La observación de diplococos gram positivos de forma lanceolada en un frotis sugiere:",
+      "options": {
+        "A": "Klebsiella pneumoniae",
+        "B": "Streptococcus pyogenes",
+        "C": "Neisseria gonorrhoeae",
+        "D": "Streptococcus pneumonia"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Streptococcus pneumonia",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.65
+      }
+    },
+    {
+      "id": 60,
+      "question": "La fiebre botonosa mediterránea es frecuente en los países mediterráneos y del mar Negro, está producida por:",
+      "options": {
+        "A": "Rickettsia conorii.",
+        "B": "Rickettsia typhi.",
+        "C": "Coxiella burnetii.",
+        "D": "Rochalimaea quintana"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Rickettsia conorii.",
+      "_yellow_scores": {
+        "A": 0.6319727891156462,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 61,
+      "question": "¿Cuál es el agente etiológico de la fiebre Q?: TEST 13.1 y 13.5 Microbiología patógenos",
+      "options": {
+        "A": "Ricketisia conorii.",
+        "B": "Ricketisia typhi.",
+        "C": "Coxiella burnetii.",
+        "D": "Borrelia."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Coxiella burnetii.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6329749103942652,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 62,
+      "question": "El tracoma es producido por:",
+      "options": {
+        "A": "Trichomonas.",
+        "B": "Bacterias.",
+        "C": "Virus.",
+        "D": "Clamidias."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Clamidias.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6208333333333333
+      }
+    },
+    {
+      "id": 63,
+      "question": "Al poco tiempo de nacer, un bebé presenta síntomas de meningitis. Se le aísla cocos gram positivos, beta hemolíticos, resistentes a la bacitracina. El microorganismo más probable es:",
+      "options": {
+        "A": "Streptococo del grupo A",
+        "B": "Un micrococo",
+        "C": "Staphylococcussp",
+        "D": "Streptococo del grupo B"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Streptococo del grupo B",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7074074074074074
+      }
+    },
+    {
+      "id": 64,
+      "question": "Las bacterias del género Vibrio NO presentan una de las siguientes características:",
+      "options": {
+        "A": "Son oxidasa positivos y fermentadores de glucosa",
+        "B": "Son móviles, con flagelos polares",
+        "C": "Son bacilos curvos aerobios, pero pueden comportarse como anaerobios facultativos",
+        "D": "Para su aislamiento selectivo se usa el medio de Mac Conkey, donde crece en colonias lactosa Positivas"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Para su aislamiento selectivo se usa el medio de Mac Conkey, donde crece en colonias lactosa Positivas",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6711201079622132
+      }
+    },
+    {
+      "id": 65,
+      "question": "¿Cuál de los siguientes géneros bacterianos se caracteriza por su movilidad y producción de ureasa?:",
+      "options": {
+        "A": "Salmonella.",
+        "B": "Proteus.",
+        "C": "Citrobacter.",
+        "D": "Shigella."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Proteus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6593939393939394,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 66,
+      "question": "Un coco gram positivo, oxidasa negativa y catalasa positiva que da negativa la prueba de la coagulasa y es resistente a la prueba de la novobiocina, se trata probablemente:",
+      "options": {
+        "A": "Staphylococcus aureus",
+        "B": "Staphylococcus epiderrnidis",
+        "C": "Staphylococcus saprophyticus",
+        "D": "Staphylococcus lugdunensis"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Staphylococcus saprophyticus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5776315789473684,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 67,
+      "question": "La presencia de títulos elevados de ASLO se da en:",
+      "options": {
+        "A": "Fiebre reumática",
+        "B": "Lupus eritematoso sistémico (LES).",
+        "C": "Artritis reumatoide.",
+        "D": "Artrosis."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Fiebre reumática",
+      "_yellow_scores": {
+        "A": 0.6989473684210527,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 68,
+      "question": "El Haemophilus inftuenzae es:",
+      "options": {
+        "A": "Una bacteria gramnegativa, aerobia y móvil.",
+        "B": "Un cocobacilo grampositivo.",
+        "C": "Un cocobacilo gram negativo, pleomórfico.",
+        "D": "Un hongo."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Un cocobacilo gram negativo, pleomórfico.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6193452380952381,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 69,
+      "question": "Cuál de las siguientes afirmaciones de las Pseudomonas es falsa:",
+      "options": {
+        "A": "Son bacilos Gram negativos móviles.",
+        "B": "Son bacilos Gram negativos inmóviles.",
+        "C": "Crecen con facilidad en medios de cultivo ordinarios.",
+        "D": "No fermentan la lactosa."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Son bacilos Gram negativos inmóviles.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.7266313932980599,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 70,
+      "question": "Los Mycoplasmas se diferencian de otras bacterias por carecer de:",
+      "options": {
+        "A": "Núcleo.",
+        "B": "Flagelos.",
+        "C": "Pared celular.",
+        "D": "ADN."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Pared celular.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6225,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 71,
+      "question": "La Tosferina es producida por:",
+      "options": {
+        "A": "Moraxella Catarralis.",
+        "B": "Haemophilus Influenzae.",
+        "C": "Streptococcus Pyogenes.",
+        "D": "Bordetella Pertussis."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Bordetella Pertussis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6348348348348348
+      }
+    },
+    {
+      "id": 72,
+      "question": "El género Clostridium:",
+      "options": {
+        "A": "Son bacilos gram positivos, anaerobios estrictos.",
+        "B": "Son esporulados y casi todos móviles.",
+        "C": "Son catalasa negativa.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6693333333333333
+      }
+    },
+    {
+      "id": 73,
+      "question": "¿Cuál de estos microorganismos no es una bacteria? TEST 13.1 y 13.5 Microbiología patógenos",
+      "options": {
+        "A": "Staphylococcus aureus.",
+        "B": "Criptococcus neoformans.",
+        "C": "Mycobacterium leprae.",
+        "D": "Chlamydia trachomatis"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Criptococcus neoformans.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.585679012345679,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 74,
+      "question": "Los gonococos se caracterizan por:",
+      "options": {
+        "A": "Ser microorganismos gram negativos.",
+        "B": "Ser oxidasa positivos.",
+        "C": "Ser lactosa negativos.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6758928571428572
+      }
+    },
+    {
+      "id": 75,
+      "question": "Las enterobacterias:",
+      "options": {
+        "A": "Son siempre móviles.",
+        "B": "No reducen los nitratos.",
+        "C": "Forman esporas y son siempre inmóviles.",
+        "D": "Son bacterias gram negativas y anaerobias facultativas"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Son bacterias gram negativas y anaerobias facultativas",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.4348282192499344
+      }
+    },
+    {
+      "id": 76,
+      "question": "Señale la asociación falsa en relación con la prueba de la oxidasa:",
+      "options": {
+        "A": "Pseudomonas, oxidasa +",
+        "B": "Enterobacterias, oxidasa -",
+        "C": "Neisseria, oxidasa +",
+        "D": "Escherichia coli, oxidasa +"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Escherichia coli, oxidasa +",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6512437810945274
+      }
+    },
+    {
+      "id": 77,
+      "question": "De las siguientes especies de Staphilococcus. ¿Cuál es resistente a la Novobiocina?:",
+      "options": {
+        "A": "S. aureus",
+        "B": "S. epidermidis",
+        "C": "S. saprophyticus",
+        "D": "S. lugdunensis"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "S. saprophyticus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.642962962962963,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 78,
+      "question": "¿Cuál de las siguientes pruebas para la detección de sífilis se considera no treponémica?:",
+      "options": {
+        "A": "RPR",
+        "B": "FTA-Abs",
+        "C": "TPHA",
+        "D": "Gota gruesa en sangre periférica"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "RPR",
+      "_yellow_scores": {
+        "A": 0.5388888888888889,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 79,
+      "question": "Identificada una bacteria que es un bacilo, gram positivo, anaerobio estricto, esporulado y catalasa negativa diremos que pertenece al género:",
+      "options": {
+        "A": "Clostridium",
+        "B": "Listeria",
+        "C": "Legionella",
+        "D": "Pseudomona"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Clostridium",
+      "_yellow_scores": {
+        "A": 0.6114285714285714,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 80,
+      "question": "Una de las siguientes afirmaciones de las pseudomonas es falsa:",
+      "options": {
+        "A": "Bacilos gram negativos móviles",
+        "B": "Bacilos gram negativos inmóviles",
+        "C": "Crecen con facilidad en medios de cultivo ordinarios",
+        "D": "No fermentan la lactosa"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Bacilos gram negativos inmóviles",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6409638554216868,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 81,
+      "question": "Con respecto al género Mycoplasma señale la correcta:",
+      "options": {
+        "A": "Carecen de pared celular",
+        "B": "Se tiñen como Gram positivos",
+        "C": "Son muy sensibles a betalactámicos",
+        "D": "Siempre presenta forma bacilar"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Carecen de pared celular",
+      "_yellow_scores": {
+        "A": 0.5902564102564103,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 82,
+      "question": "Señale la afirmación incorrecta sobre bacterias del género Staphylococcus:",
+      "options": {
+        "A": "Cocos Gram positivos",
+        "B": "Aerobios o anaerobios facultativos",
+        "C": "Catalasa negativo",
+        "D": "Se agrupan de forma irregular y en racimos"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Catalasa negativo",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5805412371134021,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 83,
+      "question": "Con respecto a Streptococcus pyogenes cuál es la afirmación falsa:",
+      "options": {
+        "A": "Coco Gram negativo",
+        "B": "Beta-hemolítico",
+        "C": "Catalasa negativo",
+        "D": "Tiene capacidad de producir diferentes toxinas"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Coco Gram negativo",
+      "_yellow_scores": {
+        "A": 0.6890909090909091,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 84,
+      "question": "Con respecto a Clostridium difficile señale la afirmación falsa:",
+      "options": {
+        "A": "Es responsable de la colitis pseudomembranosa",
+        "B": "Produce dos toxinas A y B, la A sobre todo relacionada con la actividad enterotóxica",
+        "C": "El porcentaje de portadores en neonatos es elevado",
+        "D": "Es un bacilo aerobio Gram positivo"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Es un bacilo aerobio Gram positivo",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6609195402298851
+      }
+    },
+    {
+      "id": 85,
+      "question": "Con respecto a la prueba VDRL para el diagnóstico de sífilis señale la respuesta incorrecta:",
+      "options": {
+        "A": "Se trata de una técnica de aglutinación",
+        "B": "Es una prueba treponémica TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Se emplea como indicador de infección en fase aguda",
+        "D": "Es útil para control de respuesta al tratamiento"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Es una prueba treponémica TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6427230046948357,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 86,
+      "question": "Respecto al Staphylococcus aureus señale la respuesta incorrecta:",
+      "options": {
+        "A": "Es hemolítico.",
+        "B": "Es catalasa positivo.",
+        "C": "Se agrupa en racimos.",
+        "D": "Es coagulasa negativo."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Es coagulasa negativo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6397759103641456
+      }
+    },
+    {
+      "id": 87,
+      "question": "Respecto al Streptococcus pyogenes, señale la respuesta correcta:",
+      "options": {
+        "A": "Es un estreptococo del grupo B.",
+        "B": "Es habitual del tracto digestivo.",
+        "C": "Son cocos catalasa positivos.",
+        "D": "Algunas cepas producen toxinas eritrogénicas."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Algunas cepas producen toxinas eritrogénicas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.658962962962963
+      }
+    },
+    {
+      "id": 88,
+      "question": "Las Micobacterias no presentan una de estas características:",
+      "options": {
+        "A": "Bacilos ácido alcohol resistentes.",
+        "B": "No esporulados e inmóviles.",
+        "C": "Anaerobios.",
+        "D": "Con tinción Gram no se tiñen o lo hacen de forma escasa."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Anaerobios.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5755868544600939,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 89,
+      "question": "¿Cuál de estos microorganismos no es una enterobacteria?:",
+      "options": {
+        "A": "E.coli.",
+        "B": "Klebsiella pneumoniae.",
+        "C": "Enterococcus.",
+        "D": "Proteus mirabilis."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Enterococcus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.635,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 90,
+      "question": "¿Cuál de estos gérmenes es el causante de la blenorragia?",
+      "options": {
+        "A": "Neisseria meningitidis",
+        "B": "Neisseria sicca",
+        "C": "Neisseria gonorrhoeae",
+        "D": "Moraxella"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Neisseria gonorrhoeae",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6364145658263305,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 91,
+      "question": "Señale la respuesta falsa en relación con las Rickettsias:",
+      "options": {
+        "A": "Son cocobacilos Gram positivos",
+        "B": "Se transmiten por la picadura de artrópodos vectores",
+        "C": "Se multiplican dentro de la célula porque son patógenos intracelulares obligados",
+        "D": "La serología ayuda al diagnóstico"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Son cocobacilos Gram positivos",
+      "_yellow_scores": {
+        "A": 0.6570230607966457,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 92,
+      "question": "La prueba de la optoquina se realiza para detectar infecciones por:",
+      "options": {
+        "A": "S.aureus",
+        "B": "S.agalactiae",
+        "C": "S.pyogenes",
+        "D": "S.pneumoniae"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "S.pneumoniae",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5626984126984127
+      }
+    },
+    {
+      "id": 93,
+      "question": "Una de las pruebas citadas a continuación es usada, para el diagnóstico de la sífilis. Señala cual:",
+      "options": {
+        "A": "Prueba de Waler-Rose.",
+        "B": "Prueba de Ham.",
+        "C": "FTA-ABS.",
+        "D": "Prueba de Reptilase."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "FTA-ABS.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5977401129943503,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 94,
+      "question": "¿Cuál es la reacción serológica para el diagnóstico de sífilis que pertenece a las pruebas treponémicas?:",
+      "options": {
+        "A": "USR",
+        "B": "VDRL",
+        "C": "FTA-ABS",
+        "D": "RPR"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "FTA-ABS",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5857142857142857,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 95,
+      "question": "Señalar que microorganismos NO son Ziehl-Nielsen positivo",
+      "options": {
+        "A": "Mycobacterium",
+        "B": "Cryptosporidium",
+        "C": "Corynebacterium",
+        "D": "Nocardia"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Corynebacterium",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6333333333333333,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 96,
+      "question": "La prueba de la tuberculina:",
+      "options": {
+        "A": "La lectura se hace a las 48 horas de la inyección intradérmica.",
+        "B": "Se considera resultado positivo cuando el diámetro de la induración producida es > de 15 mm en personas no vacunadas.",
+        "C": "Puede dar falsos negativos en recién nacidos y pacientes ancianos.",
+        "D": "Puede dar falsos positivos por corticoterapia. TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Puede dar falsos negativos en recién nacidos y pacientes ancianos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.45135170432284183,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 97,
+      "question": "La recogida de muestras de orina para estudio de Micobacterias debe realizarse:",
+      "options": {
+        "A": "Preferentemente por punción suprapúbica.",
+        "B": "Se aconseja recoger tres muestras aisladas de tres días consecutivos.",
+        "C": "Es de elección la segunda orina de la mañana.",
+        "D": "Se recogerá siempre con conservantes."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Se aconseja recoger tres muestras aisladas de tres días consecutivos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.46016260162601624,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 98,
+      "question": "¿Qué características generales presenta el género Mycobacterium?",
+      "options": {
+        "A": "Morfología bacilar y a veces coco- bacilar.",
+        "B": "Ácido-alcohol resistentes.",
+        "C": "No esporulados, inmóviles y no capsulados.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6758928571428572
+      }
+    },
+    {
+      "id": 99,
+      "question": "El Mycobacterium tuberculosis (señale la RESPUESTA INCORRECTA):",
+      "options": {
+        "A": "Da positivo en la prueba del Mantoux.",
+        "B": "Es anaerobio facultativo.",
+        "C": "Presenta en su pared celular ácidos micólicos y en general componentes céreos.",
+        "D": "Es ácido alcohol resistente positivo."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Es anaerobio facultativo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.7125,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 100,
+      "question": "Ante un resultado positivo en la prueba de la tuberculina, ¿Cuál sería su interpretación?:",
+      "options": {
+        "A": "Haber padecido tuberculosis.",
+        "B": "La actividad de los linfocitos A.",
+        "C": "No haber padecido tuberculosis.",
+        "D": "Presencia de anticuerpos lgM específicos contra el coco tuberculoso"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Haber padecido tuberculosis.",
+      "_yellow_scores": {
+        "A": 0.7131991051454138,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 101,
+      "question": "La respuesta inmunitaria en la infección por Mycobacterium tuberculosis:",
+      "options": {
+        "A": "Es específica de M. tuberculosis.",
+        "B": "Se considera negativa si la prueba de Mantoux tiene un diámetro menor de 15 mm.",
+        "C": "Se detecta mediante la intradermorreacción de Mantoux.",
+        "D": "Ninguna de las anteriores es cierta"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Se detecta mediante la intradermorreacción de Mantoux.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.40487804878048783,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 102,
+      "question": "De las siguientes muestras biológicas cuál no necesita descontaminación previa al cultivo para micobacterias:",
+      "options": {
+        "A": "Esputo",
+        "B": "Líquido cefalorraquídeo",
+        "C": "Aspirado gástrico",
+        "D": "Orina"
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Líquido cefalorraquídeo",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6309333333333333,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 103,
+      "question": "Respecto a la recogida de muestras para el diagnóstico de infecciones por micobacterias, es cierto que:",
+      "options": {
+        "A": "Para la búsqueda de micobacterias en sospecha de enfermedad tuberculosa renal es necesario obtener la orina por sondaje.",
+        "B": "Las muestras de lavado gástrico deben ser procesadas de inmediato porque las micobacterias son rápidamente destruidas con la acidez del jugo gástrico.",
+        "C": "La muestra más adecuada para hacer el diagnóstico de enfermedad pulmonar por micobacterias es el esputo inducido, ya que recoge material de vías bajas.",
+        "D": "Para el diagnóstico de enfermedad meníngea la siembra debe ser inmediata, pues la formación de retículo dificulta la observación de BAAR."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Las muestras de lavado gástrico deben ser procesadas de inmediato porque las micobacterias son rápidamente destruidas con la acidez del jugo gástrico.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5041138827216926,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 104,
+      "question": "En relación a la identificación de las micobacterias y su sensibilidad a los fármacos antituberculosos, señale la respuesta correcta:",
+      "options": {
+        "A": "El test de niacina es útil para diferenciar Mycobacterium tuberculosis de Mycobacterium bovis.",
+        "B": "El antibiograma de micobacterias no está indicado si, tras la negativización del esputo, el paciente comienza a tener de nuevo muestras positivas.",
+        "C": "La aparición de cepas resistentes es espontánea y no se relaciona con el contacto previo con el antibiótico.",
+        "D": "De los métodos válidos para antibiograma en tuberculosis el de las concentraciones críticas es el que menos falsos resultados proporciona, ya que soslaya las variaciones en el inóculo."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "El test de niacina es útil para diferenciar Mycobacterium tuberculosis de Mycobacterium bovis.",
+      "_yellow_scores": {
+        "A": 0.4954233409610984,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 105,
+      "question": "La enfermedad de Hansen es producida por:",
+      "options": {
+        "A": "Mycobacterium kansasii",
+        "B": "Mycobacterium bovis",
+        "C": "Mycobacterium avium-intracellulare",
+        "D": "Mycobacterium leprae TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Mycobacterium leprae TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.631404958677686
+      }
+    },
+    {
+      "id": 106,
+      "question": "La tinción de GRAM de un LCR de un niño de 2 años reveló bacilos gram negativos cortos. Creció en la placa de agar chocolate pero no en la placa de agar sangre, excepto alrededor de unas colonias de estafilococos. ¿Cuál de los siguientes microorganismos es el más probable?",
+      "options": {
+        "A": "Haemophilus influenzae.",
+        "B": "Listeria monocytogenes.",
+        "C": "N.meningitidis.",
+        "D": "S.pneumoniae"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Haemophilus influenzae.",
+      "_yellow_scores": {
+        "A": 0.6501291989664083,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 107,
+      "question": "¿Qué parásito intracelular es el causante del tracoma?",
+      "options": {
+        "A": "Mycoplasma trachomatis.",
+        "B": "Micobacterium trachomatis.",
+        "C": "Chlamydia trachomatis.",
+        "D": "Borrelia trachomatis."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Chlamydia trachomatis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6482384823848238,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 108,
+      "question": "Todas las siguientes afirmaciones, respecto al estudio microbiológico de las micobacterias, son ciertas, excepto:",
+      "options": {
+        "A": "Son microorganismos aerobios estrictos.",
+        "B": "El medio de cultivo de Lowenstein-Jensen es el que ofrece mejores resultados.",
+        "C": "La tinción de elección es el azul de metileno.",
+        "D": "Su temperatura óptima de crecimiento es de alrededor de 37ªC."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "La tinción de elección es el azul de metileno.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.7351851851851852,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 109,
+      "question": "Indique cuál de los siguientes microorganismos es un bacilo gram negativo:",
+      "options": {
+        "A": "Listeria.",
+        "B": "Legionella.",
+        "C": "Neisseria.",
+        "D": "Nocardia"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Legionella.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5393939393939394,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 110,
+      "question": "Sobre las especies de interés clínico del género Staphylococcus:",
+      "options": {
+        "A": "S.auricularis resistente a metilglicina (SARM) es causa importante de infección nosocomial.",
+        "B": "El calor neutraliza la enterotoxina producida por S. aureus",
+        "C": "De este género, la principal causa de infección de piel en humanos es una especie coagulasa (+).",
+        "D": "La coagulasa distingue a S. epidermidis de S. saprophyticus."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "De este género, la principal causa de infección de piel en humanos es una especie coagulasa (+).",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.620460704607046,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 111,
+      "question": "¿Qué prueba diagnóstica es más recomendable para determinar lo antes posible la sensibilidad de Staphilococcus aureus a oxacilina o meticilina?",
+      "options": {
+        "A": "Antibiograma en medio de Mueller Hinton hipersalino con oxacilina.",
+        "B": "Cuantificación del crecimiento en caldo de peptona con el antibiótico.",
+        "C": "Detección mediante PCR a tiempo real del gen mecA de S. aureus.",
+        "D": "Prueba Epsilón E-test con tiras de oxacilina."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Detección mediante PCR a tiempo real del gen mecA de S. aureus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.43750816246571766,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 112,
+      "question": "El propósito de los reactivos de N--L-cisteína y de hidróxido de sodio en el cultivo de micobacterias es:",
+      "options": {
+        "A": "Promover el crecimiento de M. haemophilum.",
+        "B": "Inhibir el crecimiento de cualquier hongo presente.",
+        "C": "Licuar cualquier moco en las muestras respiratorias y reducir el crecimiento excesivo de otras bacterias y hongos.",
+        "D": "Inhibir el crecimiento de micobacterias de crecimiento rápido para que el M. tuberculosis de crecimiento más lento pueda ser recuperado."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Licuar cualquier moco en las muestras respiratorias y reducir el crecimiento excesivo de otras bacterias y hongos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.49445520154902306,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 113,
+      "question": "La leucocidina de Panton Valentine es un factor de virulencia presente en algunas cepas de:",
+      "options": {
+        "A": "Streptococcus pyogenes.",
+        "B": "Listeria monocitogenes.",
+        "C": "Corynebacterium minutissimun.",
+        "D": "Staphylococcus aureus."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Staphylococcus aureus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.646236559139785
+      }
+    },
+    {
+      "id": 114,
+      "question": "¿A qué se debe la resistencia de Staphylococcus aureus a la meticilina?:",
+      "options": {
+        "A": "A la presencia de penicilinasa.",
+        "B": "A la presencia del gen mecA.",
+        "C": "A cambios en la síntesis de la pared celular.",
+        "D": "A la presencia del gen vanA"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "A la presencia del gen mecA.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.7034013605442176,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 115,
+      "question": "¿Cuáles de las siguientes micobacterias pertenecen al grupo Mycobacterium tuberculosis complex o MTB?",
+      "options": {
+        "A": "M. bovis",
+        "B": "M. tuberculosis",
+        "C": "M. africanum TEST 13.1 y 13.5 Microbiología patógenos",
+        "D": "Todas son correctas"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6438271604938272
+      }
+    },
+    {
+      "id": 116,
+      "question": "¿Qué prueba bioquímica debemos hacer para diferenciar un Staphylococcus Epidermis de un Staphylococcus Aureus?",
+      "options": {
+        "A": "Catalasa",
+        "B": "Coagulasa",
+        "C": "Hidrolasa",
+        "D": "Optoquina"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Coagulasa",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5925925925925926,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 117,
+      "question": "¿Cuál de las siguientes afirmaciones sobre Streptococcus Pyogenes es INCORRECTA?",
+      "options": {
+        "A": "Es sensible a la Bacitracina",
+        "B": "Produce la estreptolisina S",
+        "C": "Es beta hemolítico",
+        "D": "Pertenece al grupo D"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Pertenece al grupo D",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.696165191740413
+      }
+    },
+    {
+      "id": 118,
+      "question": "Bacteroides fragilis y Fusobacterium son un ejemplo de bacterias:",
+      "options": {
+        "A": "Oxido-reductores con un gran impacto medioambiental",
+        "B": "Aerobios facultativos de poca relevancia clínica",
+        "C": "Bacilos gram positivos anaerobios",
+        "D": "Gram negativos anaerobios"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Gram negativos anaerobios",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7111111111111111
+      }
+    },
+    {
+      "id": 119,
+      "question": "Se puede aislar Campylobacter jejuni en cultivos de:",
+      "options": {
+        "A": "Exudado ótico",
+        "B": "Exudado axilar",
+        "C": "Escamas de piel",
+        "D": "Sangre"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Sangre",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5891156462585034
+      }
+    },
+    {
+      "id": 120,
+      "question": "Las bacterias del género Clostridium aparecen en:",
+      "options": {
+        "A": "lepra",
+        "B": "gangrena gaseosa",
+        "C": "brucelosis",
+        "D": "tuberculosis"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "gangrena gaseosa",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6122448979591837,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 121,
+      "question": "En los test rápidos de detección de antígeno de Streptococcus pneumoniae en orina:",
+      "options": {
+        "A": "Los tiempos son orientativos",
+        "B": "El volumen de orina es orientativo",
+        "C": "Hay que seguir las instrucciones del documento “insert” de la técnica",
+        "D": "Cada laboratorio ajusta parámetros según el diagnóstico"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Hay que seguir las instrucciones del documento “insert” de la técnica",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.46072874493927124,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 122,
+      "question": "¿Cuál de las siguientes pruebas NO se utiliza para la identificación de Micobacterium tuberculosis?",
+      "options": {
+        "A": "Hidrólisis del Tween 80",
+        "B": "Precipitación de Lancefield",
+        "C": "Reducción de nitratos",
+        "D": "Producción de pigmentos"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Precipitación de Lancefield",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.702158273381295,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 123,
+      "question": "Para la identificación de Streptococcus nos basamos en:",
+      "options": {
+        "A": "El carácter hemolítico.",
+        "B": "La reacción de Nagler.",
+        "C": "La prueba de la camp inversa.",
+        "D": "Todas son pruebas de identificación del Streptococcus."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "El carácter hemolítico.",
+      "_yellow_scores": {
+        "A": 0.6459383753501401,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 124,
+      "question": "¿Qué toxina causa el exantema de la escarlatina?",
+      "options": {
+        "A": "Hialuronidasa.",
+        "B": "Eritrogénica.",
+        "C": "Estreptolisina.",
+        "D": "Hemolisina."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Eritrogénica.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6142222222222222,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 125,
+      "question": "E. coli produce patología gastrointestinal provocando diarreas. Cita cuál no es una característica bioquímica de dicha bacteria:",
+      "options": {
+        "A": "Indol +.",
+        "B": "Lactosa +.",
+        "C": "Glucosa -.",
+        "D": "Ureasa -."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Glucosa -.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6419354838709678,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 126,
+      "question": "La escarlatina la produce:",
+      "options": {
+        "A": "Staphilococcus pyogenes.",
+        "B": "Streptococcus pyogenes.",
+        "C": "Staphilococcus aureus.",
+        "D": "Streptococcus aureus."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Streptococcus pyogenes.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.7035897435897436,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 127,
+      "question": "Clostridium perfringens puede formar cinco clases de toxinas, ¿qué tipo de toxina es la que causa la mayoría de las enfermedades en el hombre? TEST 13.1 y 13.5 Microbiología patógenos",
+      "options": {
+        "A": "A.",
+        "B": "C.",
+        "C": "B.",
+        "D": "D."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "A.",
+      "_yellow_scores": {
+        "A": 0.562962962962963,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 128,
+      "question": "Las micobacterias son:",
+      "options": {
+        "A": "Aerobias, Gram + y ácido alcohol resistente.",
+        "B": "Anaerobias, Gram + y ácido alcohol resistente.",
+        "C": "Aerobios, Gram – y ácido alcohol resistente.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Aerobias, Gram + y ácido alcohol resistente.",
+      "_yellow_scores": {
+        "A": 0.6654205607476635,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 129,
+      "question": "¿Qué cepas de C. botulinum producen el botulismo en humanos?",
+      "options": {
+        "A": "A, B, E y F.",
+        "B": "A, C, E y F.",
+        "C": "A, B, E y G.",
+        "D": "A, G, E y F."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "A, B, E y F.",
+      "_yellow_scores": {
+        "A": 0.646875,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 130,
+      "question": "Una mujer de 79 años ingresa en el hospital por sufrir una neumonía grave. Tras cinco días de tratamiento antibiótico, inicia un cuadro de diarrea. ¿Cuál sería el microorganismo más probablemente relacionado con este cuadro?",
+      "options": {
+        "A": "Clostridium perfringens.",
+        "B": "Clostridium botulinum.",
+        "C": "E. coli enteroagregativa.",
+        "D": "Clostridium difficile."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Clostridium difficile.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5728395061728395
+      }
+    },
+    {
+      "id": 131,
+      "question": "¿Qué prueba se utiliza para controlar la eficacia del tratamiento de la sífilis?",
+      "options": {
+        "A": "Inmunofluorescencia de Treponema pallidum con suero absorbido (FTA-ABS).",
+        "B": "Hemaglutinación de Treponema pallidum (MHA- TP).",
+        "C": "Rapid plasma reagin (RPR) y Venereal Disease Research Laboratory (VDRL).",
+        "D": "Western Blot."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Rapid plasma reagin (RPR) y Venereal Disease Research Laboratory (VDRL).",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.495279307631786,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 132,
+      "question": "A las 24 h se revisaron las placas cultivadas y se observó el crecimiento tanto en condiciones aeróbicas como anaeróbicas de una colonia grande y con textura mate. Gram: BGP esporulado. Catalasa: Positivo. Movilidad: móvil. Pase a agar sangre incubado a 50ºC: No creció.",
+      "options": {
+        "A": "Clostidiun sp.",
+        "B": "Bacillus cereus.",
+        "C": "E. coli.",
+        "D": "Listeria sp"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Bacillus cereus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6206896551724138,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 133,
+      "question": "¿Cuál de los siguientes agentes infecciosos NO se asocia a ningún vector para su transmisión?",
+      "options": {
+        "A": "Coxiella burnetii.",
+        "B": "Rickettsía conorii.",
+        "C": "Borrelia burgdorferi.",
+        "D": "Yersinia pestis."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Coxiella burnetii.",
+      "_yellow_scores": {
+        "A": 0.6144329896907217,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 134,
+      "question": "En lo referente a Campylobacter, ¿en qué condiciones tienen su crecimiento óptimo?",
+      "options": {
+        "A": "24-48 horas a 42ºc en atmósfera anaerobia.",
+        "B": "24-48 horas a 42ºc en atmósfera microaerobia.",
+        "C": "72 horas a 42 ªc en atmósfera microaerobia.",
+        "D": "24-48 horas a 37ºc en atmósfera aerobia."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "72 horas a 42 ªc en atmósfera microaerobia.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.7370199692780338,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 135,
+      "question": "¿Cuál de las siguientes especies no se asocia a infecciones gastrointestinales?",
+      "options": {
+        "A": "E. Coli.",
+        "B": "Salmonella typhi.",
+        "C": "Yersinia enterocolítica.",
+        "D": "Klebsiella pneumoniae."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Klebsiella pneumoniae.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6417344173441735
+      }
+    },
+    {
+      "id": 136,
+      "question": "¿Cuál de los siguientes géneros de microorganismos es Gram negativo?",
+      "options": {
+        "A": "Streptococcus",
+        "B": "Staphylococcus",
+        "C": "Enterococcus",
+        "D": "Neisseria"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Neisseria",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5877777777777777
+      }
+    },
+    {
+      "id": 137,
+      "question": "¿Qué microorganismo es el causante de la colitis pseudomembranosa?",
+      "options": {
+        "A": "Campylobacter jejuni",
+        "B": "Clostridium difficile",
+        "C": "Enterococcus faecalis",
+        "D": "Enterobacter cloacae"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Clostridium difficile",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6749206349206349,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 138,
+      "question": "Según la clasificación de Lacefield, ¿a qué grupo pertenece el Streptococcus agalactiae? TEST 13.1 y 13.5 Microbiología patógenos",
+      "options": {
+        "A": "Grupo A",
+        "B": "Grupo B",
+        "C": "Grupo C",
+        "D": "Grupo D"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Grupo B",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5358024691358024,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 139,
+      "question": "¿Cuál de las siguientes toxinas es la causante del exantema en la escarlatina?",
+      "options": {
+        "A": "Estreptolisina O",
+        "B": "Estreptolisina S",
+        "C": "Estreptoquinasa",
+        "D": "Toxina eritrogénica"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Toxina eritrogénica"
+    },
+    {
+      "id": 140,
+      "question": "¿Cuál de los siguientes microorganismos es catalasa negativo?",
+      "options": {
+        "A": "Micrococcus spp",
+        "B": "Streptococcus spp",
+        "C": "Staphylococcus spp",
+        "D": "Bacillus spp"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Streptococcus spp",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6437710437710438,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 141,
+      "question": "¿Cuál de las siguientes características es propia de los micoplasmas?",
+      "options": {
+        "A": "Se comportan con especial adherencia en los epitelio respiratorio y urogenital",
+        "B": "Son sensibles a la penicilina y otros antibióticos betalactámicos",
+        "C": "Poseen pared celular gruesa",
+        "D": "Son ácido – alcohol resistentes"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Se comportan con especial adherencia en los epitelio respiratorio y urogenital",
+      "_yellow_scores": {
+        "A": 0.48997289972899727,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 142,
+      "question": "Streptococcus pneumoniae es:",
+      "options": {
+        "A": "Coco grampositivo, catalasa negativo, sensible a optoquina",
+        "B": "Coco grampositivo, catalasa negativo, sensible a bacitracina",
+        "C": "Coco gramnegativo, catalasa negativo, resistente a optoquina",
+        "D": "Coco grampositivo, catalasa positivo, sensible a bacitracina"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Coco grampositivo, catalasa negativo, sensible a optoquina",
+      "_yellow_scores": {
+        "A": 0.3930894308943089,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 143,
+      "question": "¿Qué microorganismo es un gram negativo?",
+      "options": {
+        "A": "Corynebacterium",
+        "B": "Lactobacillus",
+        "C": "Listeria",
+        "D": "Haemophilus"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Haemophilus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6085470085470085
+      }
+    },
+    {
+      "id": 144,
+      "question": "¿Cuál de las siguientes características definen al Streptococcus pyogenes?:",
+      "options": {
+        "A": "Es sensible a la bacitracina",
+        "B": "Es un beta-hemolítico.",
+        "C": "Pertenece al grupo A de Lancefield)",
+        "D": "Todas son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6456456456456456
+      }
+    },
+    {
+      "id": 145,
+      "question": "¿Que son las Borrelias?:",
+      "options": {
+        "A": "Son cocobacilos Gram positivos.",
+        "B": "Son espiroquetas.",
+        "C": "Son bacilos curvos.",
+        "D": "Son cocobacilos Gram negativos."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Son espiroquetas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5602693602693603,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 146,
+      "question": "De las siguientes, ¿cuál es la afirmación verdadera en el protocolo para la demostración de antígenos Legionella en orina?",
+      "options": {
+        "A": "Para la concentración de la muestra hay que hervirla durante 5 minutos.",
+        "B": "El proceso de concentración de la muestra puede hacerse de dos maneras: concentración tubular o concentración por ultrasonido.",
+        "C": "En la detección de antígeno Legionella, si la muestra se mantuvo en nevera nunca debe dejarse a temperatura ambiente.",
+        "D": "En la técnica de proceso de concentración de la muestra hay que centrifugar a 5000 rpm durante 20 minutos."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Para la concentración de la muestra hay que hervirla durante 5 minutos.",
+      "_yellow_scores": {
+        "A": 0.5499325236167342,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 147,
+      "question": "¿Para qué bacterias en general se utilizan las técnicas de análisis mediante perfiles metabólicos con el procedimiento del sistema de tiras?",
+      "options": {
+        "A": "Bacilos gram positivos.",
+        "B": "Enterobacterias.",
+        "C": "Neisserias.",
+        "D": "Todas son ciertas."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Enterobacterias.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6826086956521739,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 148,
+      "question": "¿Cuál de los siguientes géneros de microorganismos es Gram positivo?",
+      "options": {
+        "A": "Pseudomonas",
+        "B": "Clostridium",
+        "C": "Klebsiella TEST 13.1 y 13.5 Microbiología patógenos",
+        "D": "Enterobacter"
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Clostridium",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5914285714285714,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 149,
+      "question": "¿Cuál es el único coco gram positivo que aparece como racimos?",
+      "options": {
+        "A": "Streptococcus pyogenes.",
+        "B": "Staphylococcus aureus.",
+        "C": "Escherichia coli.",
+        "D": "Neisseria meningitidis."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Staphylococcus aureus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.646448087431694,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 150,
+      "question": "¿Qué morfología presentan las enterobacterias?",
+      "options": {
+        "A": "Cocos.",
+        "B": "Bacilos.",
+        "C": "Espiroquetas.",
+        "D": "Espirilos."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Bacilos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.573076923076923,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 151,
+      "question": "¿Qué enterobacteria se asocia frecuentemente a infecciones nosocomiales y especialmente a neumonías?",
+      "options": {
+        "A": "Klebsiella.",
+        "B": "Citrobacter.",
+        "C": "Proteae.",
+        "D": "Enterobacter."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Klebsiella.",
+      "_yellow_scores": {
+        "A": 0.564484126984127,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 152,
+      "question": "El género de Staphylococcus comprende varias especies patógenas que se clasifican según la prueba de la:",
+      "options": {
+        "A": "Coagulasa.",
+        "B": "Catalasa.",
+        "C": "Oxidasa.",
+        "D": "Todas son correctas."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Coagulasa.",
+      "_yellow_scores": {
+        "A": 0.6070707070707071,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 153,
+      "question": "Si en una tinción de una muestra de líquido cefalorraquídeo se observasen diplococos Gram-, ¿de qué microorganismo podría tratarse?",
+      "options": {
+        "A": "Brucella metitensis.",
+        "B": "Neisseria meningitidis.",
+        "C": "Streptococcus neumoniae.",
+        "D": "Micrococcus sp."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Neisseria meningitidis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6369747899159663,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 154,
+      "question": "Dentro de las características de Salmonella encontramos",
+      "options": {
+        "A": "Casi todas son móviles.",
+        "B": "Fermentan el manitol y sorbitol.",
+        "C": "Ureasas -, Indol -",
+        "D": "Todas son características."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Todas son características.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6447761194029851
+      }
+    },
+    {
+      "id": 155,
+      "question": "La infección piógena más común que produce E. Coli es",
+      "options": {
+        "A": "Infección vías respiratorias.",
+        "B": "Infección aparato genital.",
+        "C": "Infección vías urinarias.",
+        "D": "Infección cutánea."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Infección vías urinarias.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6439024390243903,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 156,
+      "question": "El Staphylococcus no se caracteriza por:",
+      "options": {
+        "A": "Ser catalasa negativa.",
+        "B": "Ser aerobios y anaerobios facultativos.",
+        "C": "Ser cocos gram positivos.",
+        "D": "Poder producir hemólisis en cultivos con agar sangre."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Ser catalasa negativa.",
+      "_yellow_scores": {
+        "A": 0.6339080459770114,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 157,
+      "question": "La sensibilidad a la Optoquina la usamos para diferenciar:",
+      "options": {
+        "A": "Streptococcus pneumoniae.",
+        "B": "Streptococcus viridans.",
+        "C": "Streptococcus agalactiae.",
+        "D": "Streptococcus pyogenes."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Streptococcus pneumoniae.",
+      "_yellow_scores": {
+        "A": 0.6509259259259259,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 158,
+      "question": "La prueba rápida de la reaginina se utiliza en el diagnóstico de:",
+      "options": {
+        "A": "Hepatitis.",
+        "B": "Toxoplasmosis.",
+        "C": "Rubeola.",
+        "D": "Sífilis."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Sífilis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5688888888888889
+      }
+    },
+    {
+      "id": 159,
+      "question": "Streptococcus agalactiae dependiendo de la hemólisis que produce alrededor de la colonia que forma en el medio recibe la denominación de:",
+      "options": {
+        "A": "α-Hemolítico.",
+        "B": "β-Hemolítico.",
+        "C": "ɣ-Hemolítico.",
+        "D": "No es una característica del Streptococcus agalactiae. TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "β-Hemolítico.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.619409282700422,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 160,
+      "question": "Para el estudio de micobacterias, ¿cuál de estas muestras biológicas no necesitan descontaminación previa al cultivo?:",
+      "options": {
+        "A": "Esputo.",
+        "B": "Aspirado gástrico.",
+        "C": "Líquido cefalorraquídeo.",
+        "D": "Ninguna muestra necesita descontaminación previa."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Líquido cefalorraquídeo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6430446194225722,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 161,
+      "question": "Indique cuál de los siguientes microorganismos es un bacilo gram negativo:",
+      "options": {
+        "A": "Streptococcus aureus.",
+        "B": "Lactobacillus.",
+        "C": "Corynebacterium diptheriae.",
+        "D": "Pseudomona aeruginosa."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Pseudomona aeruginosa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.645959595959596
+      }
+    },
+    {
+      "id": 162,
+      "question": "Streptococcus pneumoniae es:",
+      "options": {
+        "A": "Alfa hemolítico.",
+        "B": "Beta hemolítico.",
+        "C": "No hemolítico.",
+        "D": "Gamma hemolítico."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Alfa hemolítico.",
+      "_yellow_scores": {
+        "A": 0.6194756554307116,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 163,
+      "question": "La prueba del Mantoux se utiliza para el diagnóstico de:",
+      "options": {
+        "A": "Mycobacterium tuberculosis.",
+        "B": "Salmonella.",
+        "C": "Legionella pneumophila.",
+        "D": "Bacillus cereus."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Mycobacterium tuberculosis.",
+      "_yellow_scores": {
+        "A": 0.6635135135135135,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 164,
+      "question": "Las endotoxinas son fabricadas por:",
+      "options": {
+        "A": "Únicamente por bacterias gram positivas",
+        "B": "Indistintamente por bacterias gram positiva y gram negativas",
+        "C": "Las bacterias no producen endotoxinas",
+        "D": "Únicamente por bacterias gram negativas"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Únicamente por bacterias gram negativas",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6640650406504065
+      }
+    },
+    {
+      "id": 165,
+      "question": "Los enterococos son bacterias entéricas que:",
+      "options": {
+        "A": "Es frecuente aislarlos en el tracto respiratorio",
+        "B": "No se encuentran en el intestino grueso",
+        "C": "Se aíslan normalmente a partir de las heces del ser humano y diversos animales",
+        "D": "Se presentan en cadenas largas y nunca en parejas o cadenas cortas"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Se aíslan normalmente a partir de las heces del ser humano y diversos animales",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5327913279132791,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 166,
+      "question": "La Neisseria gonorrhoeae meningitidis se disponen en:",
+      "options": {
+        "A": "Cadenas largas de cocos gran positivos",
+        "B": "Diplococos gran negativos",
+        "C": "Diplococos gran positivos",
+        "D": "Bacilos gran negativos"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Diplococos gran negativos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6325925925925926,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 167,
+      "question": "La Bordetella pertussis produce en el ser humano:",
+      "options": {
+        "A": "La tos ferina.",
+        "B": "La varicela.",
+        "C": "El sarampión.",
+        "D": "La gripe."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "La tos ferina.",
+      "_yellow_scores": {
+        "A": 0.6210970464135022,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 168,
+      "question": "La Coxiella burnetii es responsable de:",
+      "options": {
+        "A": "Las paperas.",
+        "B": "La brucelosis.",
+        "C": "Las llamadas infecciones por Chlamydophilae.",
+        "D": "La fiebre Q."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "La fiebre Q.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6178403755868545
+      }
+    },
+    {
+      "id": 169,
+      "question": "Es falso que el Clostridium botulinum es un bacilo gran positivo que produce:",
+      "options": {
+        "A": "Una enfermedad que se presenta con debilidad y mareo.",
+        "B": "Una neurotoxina que se une a las neuronas motoras inhibiendo la neurotransmisión.",
+        "C": "Una enfermedad caracterizada por espasmos musculares.",
+        "D": "Una enfermedad llamada botulismo."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Una enfermedad caracterizada por espasmos musculares.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.38677462887989206,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 170,
+      "question": "¿Cuál de estas bacterias es un coco gram negativo?",
+      "options": {
+        "A": "Staphylococcus.",
+        "B": "Neisserias.",
+        "C": "Listeria.",
+        "D": "Streptococcus."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Neisserias.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5880597014925373,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 171,
+      "question": "¿Cuál es la reacción serológica para el diagnóstico de sífilis, que pertenece a las pruebas treponémicas?",
+      "options": {
+        "A": "RPR.",
+        "B": "EBV. TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "VDRL.",
+        "D": "FTA-ABS."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "FTA-ABS.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5491525423728814
+      }
+    },
+    {
+      "id": 172,
+      "question": "Las características en la identificación de los Estreptococos son:",
+      "options": {
+        "A": "Oxidasa negativo, gram negativos, esféricos.",
+        "B": "Catalasa positivo, gram negativos, esféricos.",
+        "C": "Catalasa negativo, gram positivos, esféricos.",
+        "D": "Catalasa negativo, gram negativos, esféricos."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Catalasa negativo, gram positivos, esféricos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.7255813953488373,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 173,
+      "question": "El Streptococcus pneumoniae es:",
+      "options": {
+        "A": "Optoquina sensible.",
+        "B": "Optoquina resistente.",
+        "C": "Bacitracina sensible.",
+        "D": "Bacitracina resistente."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Optoquina sensible.",
+      "_yellow_scores": {
+        "A": 0.6361370716510903,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 174,
+      "question": "El Staphylococcus aureus es (señale la incorrecta):",
+      "options": {
+        "A": "Coagulasa negativo.",
+        "B": "Se agrupa en racimos.",
+        "C": "Catalasa positivo.",
+        "D": "Hemolítico."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Coagulasa negativo.",
+      "_yellow_scores": {
+        "A": 0.6429906542056075,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 175,
+      "question": "Las micobacterias no presentan una de estas características:",
+      "options": {
+        "A": "Bacilos ácido-alcohol resistentes.",
+        "B": "No esporulados e inmóviles.",
+        "C": "Con tinción de gram no se tiñen, o lo hacen de forma escasa.",
+        "D": "Anaerobios."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Anaerobios.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5805555555555556
+      }
+    },
+    {
+      "id": 176,
+      "question": "Son bacilos gram positivos y esporulados:",
+      "options": {
+        "A": "Clostridium botulinum.",
+        "B": "Campylobacter jejuni.",
+        "C": "Neisseria meningitidis.",
+        "D": "Klebsiella pneumoniae."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Clostridium botulinum.",
+      "_yellow_scores": {
+        "A": 0.7129476584022039,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 177,
+      "question": "Los estafilococos son bacterias:",
+      "options": {
+        "A": "Catalasa positivos.",
+        "B": "Catalasa negativos.",
+        "C": "Oxidasa positivos.",
+        "D": "Oxidasa negativos."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Catalasa positivos.",
+      "_yellow_scores": {
+        "A": 0.634983498349835,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 178,
+      "question": "¿Cuál de estas bacterias es un bacilo grampositivo?:",
+      "options": {
+        "A": "Listeria.",
+        "B": "Pseudomonas",
+        "C": "Brucella.",
+        "D": "Bordetella."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Listeria.",
+      "_yellow_scores": {
+        "A": 0.5370370370370371,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 179,
+      "question": "Señale la respuesta correcta respecto a las enterobacterias:",
+      "options": {
+        "A": "Son bacilos gram positivos.",
+        "B": "Son anaerobios estrictos.",
+        "C": "Son oxidasa positivos.",
+        "D": "Son fermentadoras de glucosa."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Son fermentadoras de glucosa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6531645569620254
+      }
+    },
+    {
+      "id": 180,
+      "question": "¿Qué bacteria causa el tifus exantémico?",
+      "options": {
+        "A": "Salmonella typhimurium.",
+        "B": "Salmonella typhi.",
+        "C": "Neisseria paratyphi.",
+        "D": "Rickettsia prowazecki."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Rickettsia prowazecki.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6423728813559322
+      }
+    },
+    {
+      "id": 181,
+      "question": "Género de enterobacterias que fermenta glucosa pero no lactosa, y produce gas y ácido sulfhídrico:",
+      "options": {
+        "A": "Escherichia.",
+        "B": "Salmonella.",
+        "C": "Shigella.",
+        "D": "Klebsiella."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Salmonella.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6685446009389672,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 182,
+      "question": "¿Cuál de las siguientes características NO corresponde a la familia Mycobacteriaceae?",
+      "options": {
+        "A": "No forman esporas.",
+        "B": "Son móviles.",
+        "C": "Son bacilos.",
+        "D": "Se tiñen difícilmente con la tinción Gram."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Son móviles.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6168888888888889,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 183,
+      "question": "Son capaces de formar una toxina eritrogénica responsable del exantema de la escarlatina:",
+      "options": {
+        "A": "Streptococcus del grupo A.",
+        "B": "Streptococcus del grupo B.",
+        "C": "Streptococcus del grupo C.",
+        "D": "Streptococcus del grupo D."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Streptococcus del grupo A.",
+      "_yellow_scores": {
+        "A": 0.6508393285371703,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 184,
+      "question": "Bacteria gram negativa, aerobia y móvil, causante de gran parte de las infecciones nosocomiales: TEST 13.1 y 13.5 Microbiología patógenos",
+      "options": {
+        "A": "Pseudomonas aeruginosa.",
+        "B": "Neisseria gonorrhoeae.",
+        "C": "Mycobacterium tuberculosis.",
+        "D": "Rickettsia prowazekii."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Pseudomonas aeruginosa.",
+      "_yellow_scores": {
+        "A": 0.6548148148148148,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 185,
+      "question": "Agente etiológico de la sífilis:",
+      "options": {
+        "A": "Treponema pallidum.",
+        "B": "Treponema pertenue.",
+        "C": "Borrelia recurrentis.",
+        "D": "Leptospira biflexa."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Treponema pallidum.",
+      "_yellow_scores": {
+        "A": 0.6409356725146199,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 186,
+      "question": "Si nos referimos a las micobacterias, diremos que son:",
+      "options": {
+        "A": "Bacilos Gram positivos.",
+        "B": "Cocos Gram positivos.",
+        "C": "Bacilos Gram negativos.",
+        "D": "Cocos Gram negativos."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Bacilos Gram positivos.",
+      "_yellow_scores": {
+        "A": 0.7021857923497268,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 187,
+      "question": "La Legionella es un bacilo Gram negativo que provoca:",
+      "options": {
+        "A": "Bronquitis crónica.",
+        "B": "Tuberculosis.",
+        "C": "Neumonía.",
+        "D": "Gastroenteritis."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Neumonía.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6786069651741293,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 188,
+      "question": "¿Cuál de los siguientes géneros pertenece a la familia Vibrionaceae?",
+      "options": {
+        "A": "Shigella.",
+        "B": "Criptobacter.",
+        "C": "Proteus.",
+        "D": "Pleisomonas."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Pleisomonas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6188034188034188
+      }
+    },
+    {
+      "id": 189,
+      "question": "Las enterobacterias se caracterizan por:",
+      "options": {
+        "A": "Ser bacterias Gram negativas.",
+        "B": "Ser oxidasa negativas.",
+        "C": "No fermentar la glucosa.",
+        "D": "a) y b) son correctas."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "a) y b) son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6666666666666666
+      }
+    },
+    {
+      "id": 190,
+      "question": "Los microorganismos del género Corinebacterium son:",
+      "options": {
+        "A": "Bacilos Gram positivo que se tiñen de forma irregular.",
+        "B": "Bacilos Gram positivo en acúmulos que no se tiñen.",
+        "C": "Bacilos Gram negativo que forman tétradas.",
+        "D": "Cocos Gram negativo que se tiñen con dificultad."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Bacilos Gram positivo que se tiñen de forma irregular.",
+      "_yellow_scores": {
+        "A": 0.4232887490165224,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 191,
+      "question": "Ante un coco Gram positivo, beta-hemolítico, perteneciente al grupo A de Lancefield y que no presenta crecimiento en bilis-esculina, diremos que es:",
+      "options": {
+        "A": "Staphilococcus aureus.",
+        "B": "Streptococcus viridans.",
+        "C": "Streptococcus pneumoniae.",
+        "D": "Streptococcus pyogenes."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Streptococcus pyogenes.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6305343511450382
+      }
+    },
+    {
+      "id": 192,
+      "question": "¿Qué tipo de hemólisis produce Streptococcus pneumoniae, en una placa de agar sangre?:",
+      "options": {
+        "A": "α-hemolítica.",
+        "B": "β-hemolítica.",
+        "C": "No produce hemólisis."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "α-hemolítica.",
+      "_yellow_scores": {
+        "A": 0.6160337552742616,
+        "B": 0.0,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 193,
+      "question": "¿Cuál de las siguientes especies NO es una Enterobacteria?:",
+      "options": {
+        "A": "Pseudomonas aeruginosa.",
+        "B": "Escherichia coli.",
+        "C": "Salmonella typhy."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Pseudomonas aeruginosa.",
+      "_yellow_scores": {
+        "A": 0.6465686274509804,
+        "B": 0.0,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 194,
+      "question": "Una micobacteria que no desarrolla coloración cuando se la incuba en oscuridad, pero que tras ser expuesta a la luz aparece como pigmentada se dice que es:",
+      "options": {
+        "A": "Fotocromógena.",
+        "B": "Escotocromógena.",
+        "C": "No cromógena."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Fotocromógena.",
+      "_yellow_scores": {
+        "A": 0.6301075268817204,
+        "B": 0.0,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 195,
+      "question": "Para diferenciar Staphilococcus aureus de otras especies de Staphilococcus, haremos la prueba de:",
+      "options": {
+        "A": "Indol.",
+        "B": "Catalasa.",
+        "C": "Coagulasa."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Coagulasa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5970149253731343
+      }
+    },
+    {
+      "id": 196,
+      "question": "¿Cuál de los siguientes microorganismos es un Bacilo Gram positivo?:",
+      "options": {
+        "A": "Yersinia pestis. TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Listeria monocytogenes.",
+        "C": "Helycobacter pylori"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Listeria monocytogenes.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6404199475065617,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 197,
+      "question": "¿Cuál de las siguientes micobacterias NO se aislará en un esputo?:",
+      "options": {
+        "A": "M. bovis.",
+        "B": "M. kansasii.",
+        "C": "M. ulcerans."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "M. ulcerans.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6858447488584475
+      }
+    },
+    {
+      "id": 198,
+      "question": "Qué asociación de las siguientes es falsa:",
+      "options": {
+        "A": "Beta hemolisis- Streptococcus agalactiae.",
+        "B": "Bacitracina sensible- Streptococcus pyogenes.",
+        "C": "Coagulasa positiva- Stafilococcus aureus.",
+        "D": "Anaerobio facultativo-clostridium difficile."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Anaerobio facultativo-clostridium difficile.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7330112721417069
+      }
+    },
+    {
+      "id": 199,
+      "question": "¿Cuál las siguientes muestras para micobacterias necesita descontaminación?",
+      "options": {
+        "A": "Liquido pleural.",
+        "B": "Biopsia Medula Ósea.",
+        "C": "Liquido cefalorraquídeo.",
+        "D": "Orina."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Orina.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5985507246376811
+      }
+    },
+    {
+      "id": 200,
+      "question": "La cepa BCG (bacilo de calmette-guerin), que son bacilos vivos atenuados empleado en la vacuna, pertenece a la familia de:",
+      "options": {
+        "A": "Mycobacterium tuberculosis.",
+        "B": "Mycobacterium avium.",
+        "C": "Mycobacterium bovis.",
+        "D": "Mycobacterium africanum."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Mycobacterium bovis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6461538461538462,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 201,
+      "question": "En las pruebas bioquímicas de la micobacteria tuberculosis no tenemos:",
+      "options": {
+        "A": "Prueba de niacina +.",
+        "B": "Reducción de nitratos a nitritos -.",
+        "C": "Prueba de la catalasa +.",
+        "D": "Prueba de la pirazinamidasa sensible, con cepas resistentes."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Reducción de nitratos a nitritos -.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.7397590361445783,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 202,
+      "question": "Cuando en una tinción de Gram se observan agrupaciones de cocos gram positivos en forma de racimo, podría tratarse de un microorganismo del género:",
+      "options": {
+        "A": "Enterococcus.",
+        "B": "Streptococcus.",
+        "C": "Staphylococcus.",
+        "D": "Bacillus."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Staphylococcus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6244444444444445,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 203,
+      "question": "¿A qué agentes ligeramente licuefactantes se puede recurrir cuando la muestra de esputo es demasiado viscosa para un procesado adecuado?",
+      "options": {
+        "A": "Ácido cítrico o ácido etilendiaminotetraacético (EDTA).",
+        "B": "Ditioeritritol o N-acetil cisteína.",
+        "C": "Dimetilsulfóxido {DMSO) o hidróxido potásico (KOH).",
+        "D": "Fluoruro de sodio u oxalato de potasio."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Ditioeritritol o N-acetil cisteína.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5946169772256729,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 204,
+      "question": "Los microorganismos que son capaces de crecer entre 20-40ºC son conocidos como:",
+      "options": {
+        "A": "Patógenos mesófilos.",
+        "B": "Patógenos oportunistas.",
+        "C": "Patógenos termosensibles.",
+        "D": "Patógenos multirresistentes."
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Patógenos mesófilos.",
+      "_yellow_scores": {
+        "A": 0.6274853801169591,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 205,
+      "question": "¿Cómo se denominan las bacterias flageladas que poseen un penacho de flagelos en uno o en los dos polos?",
+      "options": {
+        "A": "Atricas.",
+        "B": "Lofotricas.",
+        "C": "Anfitricas.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Lofotricas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.602051282051282,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 206,
+      "question": "¿Qué tienen en común Salmonela sp y Shigella sp?",
+      "options": {
+        "A": "Son patógenos respiratorios.",
+        "B": "Son cocos gramnegativos.",
+        "C": "Son bacilos gram positivos.",
+        "D": "No fermentan la lactosa."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "No fermentan la lactosa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6537467700258398
+      }
+    },
+    {
+      "id": 207,
+      "question": "¿Cuál es el vector de las fiebres botonosas?",
+      "options": {
+        "A": "Las mordeduras de perro.",
+        "B": "Los arañazos de gato.",
+        "C": "Las pulgas y los piojos.",
+        "D": "Las garrapatas. TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Las garrapatas. TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.675095785440613
+      }
+    },
+    {
+      "id": 208,
+      "question": "De las respuestas siguientes, señale la que no es una prueba de detección de Helicobacter pylori:",
+      "options": {
+        "A": "Tinción o cultivo de biopsia gástrica.",
+        "B": "Prueba inmunoquímica específica para antígenos del microorganismo.",
+        "C": "Prueba del aliento con urea.",
+        "D": "Prueba de acidez gástrica y gastrina en el plasma."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Prueba de acidez gástrica y gastrina en el plasma.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6663877266387727
+      }
+    },
+    {
+      "id": 209,
+      "question": "Las micobacterias...",
+      "options": {
+        "A": "...son microorganismos aerobios estrictos",
+        "B": "...no forman esporas.",
+        "C": "...se pueden identificar por medio de la tinción de Ziehl-Neelsen.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7392857142857143
+      }
+    },
+    {
+      "id": 210,
+      "question": "¿Cuál de las siguientes aseveraciones es incorrecta respecto a las Micobacterias?",
+      "options": {
+        "A": "No producen endosporas ni cápsulas.",
+        "B": "Resisten a la coloración de fucsina.",
+        "C": "Son bacilos anaerobios."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Son bacilos anaerobios.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5875338753387533
+      }
+    },
+    {
+      "id": 211,
+      "question": "¿Para el diagnóstico de borreliosis en el laboratorio, qué técnicas se utilizan principalmente?",
+      "options": {
+        "A": "Prueba bioquímicas.",
+        "B": "Técnicas serológicas.",
+        "C": "Tinción de Zielh-Nielsen.",
+        "D": "Pruebas enzimáticas."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Técnicas serológicas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.648048048048048,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 212,
+      "question": "¿Cuál de todos es un coco gram negativo?",
+      "options": {
+        "A": "Moraxella catarrhalis.",
+        "B": "Gardenerella vaginalis.",
+        "D": "Treponema pallidum."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Moraxella catarrhalis.",
+      "_yellow_scores": {
+        "A": 0.6419540229885058,
+        "B": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 213,
+      "question": "¿Qué característica de las siguientes no tiene la Nocardia spp?",
+      "options": {
+        "A": "Se muestra ramificada en la tinción.",
+        "B": "Es parcialmente ácido-alcohol resistente.",
+        "C": "Es un bacilo gram positivo anaerobio.",
+        "D": "Es un bacilo gram positivo aerobio"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Es un bacilo gram positivo anaerobio.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6569369369369369,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 214,
+      "question": "¿Qué bacteria produce la enfermedad de Lyme?",
+      "options": {
+        "A": "Rickettsia spp",
+        "B": "Treponema pallidum",
+        "C": "Borrelia burgdorferi",
+        "D": "Bartonella henselae"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Borrelia burgdorferi",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6361370716510903,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 215,
+      "question": "Señale la respuesta correcta respecto a los ácidos micólicos:",
+      "options": {
+        "A": "Son componentes de la pared celular bacteriana.",
+        "B": "Son componentes de la pared de las micobacterias",
+        "C": "Son componentes exclusivos de la pared celular de los gran-positivos",
+        "D": "Son un componente alternativo de los medios de cultivo"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Son componentes de la pared de las micobacterias",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6628571428571428,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 216,
+      "question": "Los factores sanguíneos NAD y X son útiles para diferenciar las distintas especies de:",
+      "options": {
+        "A": "Haemophilus spp.",
+        "B": "Legionella spp.",
+        "C": "Staphylococcus spp.",
+        "D": "Actinobacillus spp."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Haemophilus spp.",
+      "_yellow_scores": {
+        "A": 0.6862745098039216,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 217,
+      "question": "Respecto al estudio de Mycobacterium tuberculosis, indique la respuesta INCORRECTA:",
+      "options": {
+        "A": "Son bacilos ácido alcohol resistente.",
+        "B": "La tinción de elección es la de azul de metileno.",
+        "C": "El cultivo se realiza en Lowenstein y/o Coletsos.",
+        "D": "El reservorio habitual es el ser humano."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "La tinción de elección es la de azul de metileno.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6632331902718169,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 218,
+      "question": "La pared celular de las bacterias es un elemento constante para todos EXCEPTO para:",
+      "options": {
+        "A": "Mycoplasma pneumoniae.",
+        "B": "Proteus mirabilis.",
+        "C": "Escherichia coli.",
+        "D": "Mycobacterium tuberculosis."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Mycoplasma pneumoniae.",
+      "_yellow_scores": {
+        "A": 0.6495238095238095,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 219,
+      "question": "¿Qué bacteria provoca fa Tosferina?",
+      "options": {
+        "A": "Streptococcus pneumoniae.",
+        "B": "Morganella morganii.",
+        "C": "Bordetella pertussis.",
+        "D": "Moraxella catarrhalis. TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Bordetella pertussis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6312684365781711,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 220,
+      "question": "Si la causa de infección es un microorganismo perteneciente a la propia flora comensal de un individuo, hablamos de:",
+      "options": {
+        "A": "Infección primaria.",
+        "B": "Infección secundaria.",
+        "C": "Infección exógena.",
+        "D": "Infección endógena."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Infección endógena.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6440476190476191
+      }
+    },
+    {
+      "id": 221,
+      "question": "Para la recogida de una muestra de esputo, informaremos al paciente que:",
+      "options": {
+        "A": "Es preferible la recogida de tres muestras de esputos, una cada día, y preferentemente por la mañana en ayunas.",
+        "B": "Debe recoger una sola muestra de esputo.",
+        "C": "Debe recoger dos muestras de esputo, obtenidas el mismo día.",
+        "D": "Debe de recogerse en un recipiente no estéril."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Es preferible la recogida de tres muestras de esputos, una cada día, y preferentemente por la mañana en ayunas.",
+      "_yellow_scores": {
+        "A": 0.5075998586072817,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 222,
+      "question": "¿Qué pruebas son utilizadas actualmente en el laboratorio de Microbiología Clínica para facilitar el diagnóstico de infección por Bordetella pertussis?",
+      "options": {
+        "A": "Aislamiento en cultivo.",
+        "B": "PCR.",
+        "C": "Demostración de seroconversión de la IgG frente a la toxina pertúsica.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6758928571428572
+      }
+    },
+    {
+      "id": 223,
+      "question": "¿Qué prueba de laboratorio es la más rápida para el diagnóstico de neumonía por Legionella?",
+      "options": {
+        "A": "Cultivo de esputo en BCYE agar.",
+        "B": "Detección de antígeno de Legionella en orina.",
+        "C": "Inmunofluorescencia indirecta.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Detección de antígeno de Legionella en orina.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6594594594594595,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 224,
+      "question": "El estreptococo pyogenes es un:",
+      "options": {
+        "A": "Coco catalasa positivo.",
+        "B": "Bacilo catalasa negativo.",
+        "C": "Alfa-hemolitico.",
+        "D": "Beta-hemolitico."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Beta-hemolitico.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6315412186379928
+      }
+    },
+    {
+      "id": 225,
+      "question": "La tosferina está producida por:",
+      "options": {
+        "A": "Brucella.",
+        "B": "Bordetella.",
+        "C": "Pseudomona.",
+        "D": "Todas las respuestas anteriores son falsas."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Bordetella.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5833333333333334,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 226,
+      "question": "Si en una placa de Agar Sangre observamos colonias pequeñas de 1 a 1.5 mm de diámetro, rodeadas de un halo de hemólisis completa, y que al realizarles un Gram se tiñen de azul y están dispuestas en cadenas, nos encontramos ante:",
+      "options": {
+        "A": "Neisseria.",
+        "B": "Staphilococcus.",
+        "C": "Streptococcus.",
+        "D": "Candida."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Streptococcus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6164705882352941,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 227,
+      "question": "Las enterobacterias se caracterizan por:",
+      "options": {
+        "A": "Ser Gram positivo y fermentar azucares.",
+        "B": "Ser Gram negativo anaerobios facultativos y fermentar azucares.",
+        "C": "Ser Gram negativo y no fermentar azucares.",
+        "D": "Ser Gram negativo y aerobios estrictos."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Ser Gram negativo anaerobios facultativos y fermentar azucares.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5016194331983805,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 228,
+      "question": "Si en una placa de Agar Sangre observamos colonias pequeñas, de 1 a 1.5 mm de diámetro, rodeadas de un halo de hemólisis completa, y que al realizarles un Gram se tiñen de azul y están dispuestas en cadenas, nos encontramos ante ¿qué microorganismo de los siguientes?",
+      "options": {
+        "A": "Neisseria.",
+        "B": "Staphylococcus.",
+        "C": "Streptococcus.",
+        "D": "Candida."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Streptococcus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6164705882352941,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 229,
+      "question": "¿Cuál de estas es una prueba no treponémica para el diagnóstico serológico de la sífilis?:",
+      "options": {
+        "A": "TPHA.",
+        "B": "FTA-Abs.",
+        "C": "VDRL.",
+        "D": "lnmunoblot."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "VDRL.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5659259259259259,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 230,
+      "question": "Son bacilos gram positivos:",
+      "options": {
+        "A": "Género Gardnerella.",
+        "B": "Género Listeria. TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Género Bordetella."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Género Listeria. TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.69812734082397,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 231,
+      "question": "¿Qué tinción se usa para el estudio de las micobacterias ácido-alcohol resistentes?",
+      "options": {
+        "A": "Tinción de Giemsa.",
+        "B": "Tinción de Gram.",
+        "C": "Tinción de Ziehl- Neelsen."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Tinción de Ziehl- Neelsen.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6606060606060606
+      }
+    },
+    {
+      "id": 232,
+      "question": "Respecto del Streptococcus pyogenes, señale la respuesta correcta:",
+      "options": {
+        "A": "También se denomina Estreptococo alfa hemolítico del grupo B.",
+        "B": "Es un Estreptococo beta hemolítico del grupo A.",
+        "C": "Sus colonias en Agar sangre no producen hemólisis.",
+        "D": "Su halo de hemólisis es verdoso."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Es un Estreptococo beta hemolítico del grupo A.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6706896551724137,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 233,
+      "question": "¿Cuál de estos microorganismos es del género Streptococcus spp.?",
+      "options": {
+        "A": "S. Aureus.",
+        "B": "S. saprofiticus.",
+        "C": "S. epidermidis.",
+        "D": "S. Pneumoniae."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "S. Pneumoniae.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6484848484848484
+      }
+    },
+    {
+      "id": 234,
+      "question": "¿Cuál de estas microbacterias de crecimiento lento pertenece al grupo de las No Cromógenas?:",
+      "options": {
+        "A": "M. marinum.",
+        "B": "M. kansasii.",
+        "C": "M. asiaticum.",
+        "D": "M. bovis."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "M. bovis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5717514124293785
+      }
+    },
+    {
+      "id": 235,
+      "question": "Con respecto a la Micobacterium tuberculosis, señale la respuesta correcta:",
+      "options": {
+        "A": "La prueba de niacina es positiva en un cultivo de M. tuberculosis.",
+        "B": "El diagnóstico de M. tuberculosis respiratoria, es la tinción de gram positiva en muestras clínicas.",
+        "C": "Ante la sospecha de M. tuberculosis respiratoria, la muestra de elección será exudado faríngeo,",
+        "D": "M. tuberculosis no resiste la decoloración con ácido- alcohol."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "La prueba de niacina es positiva en un cultivo de M. tuberculosis.",
+      "_yellow_scores": {
+        "A": 0.4573170731707317,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 236,
+      "question": "En qué medio de cultivo sembraremos una muestra en la que queremos descartar una bacteria del grupo Bacteroides:",
+      "options": {
+        "A": "Medio BBE en anaerobiosis.",
+        "B": "Agar Sabouraud en anaerobiosis.",
+        "C": "Agar Sabouraud en aerobiosis."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Medio BBE en anaerobiosis.",
+      "_yellow_scores": {
+        "A": 0.6370370370370371,
+        "B": 0.0,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 237,
+      "question": "¿Qué componente de las micobacterias dificulta su tinción con los colorantes básicos habituales?",
+      "options": {
+        "A": "Proteínas de elevado peso molecular.",
+        "B": "Ácidos grasos de cadena larga.",
+        "C": "Proteínas de bajo peso molecular"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Ácidos grasos de cadena larga.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5793548387096774,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 238,
+      "question": "En la muestra de heces que llega al laboratorio de microbiología se solicita cultivo y una prueba rápida para la detección de la toxina de Clostridium difficile. Del género Clostridium podemos decir que:",
+      "options": {
+        "A": "Son bacilos grandes, anaerobios, catalasa positivos.",
+        "B": "La infección por C. difficile suele asociarse con el medio hospitalario y el uso reciente de antibióticos.",
+        "C": "Infecta por igual a personas jóvenes y de edad avanzada"
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "La infección por C. difficile suele asociarse con el medio hospitalario y el uso reciente de antibióticos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6088546428105002,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 239,
+      "question": "De las siguientes micobacterias cuál puede causar tuberculosis:",
+      "options": {
+        "A": "M. Abcessus.",
+        "B": "M. Bovis.",
+        "C": "M. Ulcerans."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "M. Bovis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5844444444444444,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 240,
+      "question": "De las siguientes pruebas serológicas, para el diagnóstico de la sífilis, ¿cuál es una prueba treponémica específica?:",
+      "options": {
+        "A": "Venereal Disease Research Laboratory (VDRL).",
+        "B": "Venereal Reagina plasmática rápida (RPR).",
+        "C": "Prueba de la reagina sérica no calentada (USR).",
+        "D": "Enzimoinmunoanálisis (EIA)."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Enzimoinmunoanálisis (EIA).",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6410958904109589
+      }
+    },
+    {
+      "id": 241,
+      "question": "Cuando hablamos de Clostridium difficile, nos referimos a:",
+      "options": {
+        "A": "Bacilo Gram positivo, anaerobio estricto.",
+        "B": "Coco gram positivo, anaerobio estricto.",
+        "C": "Bacilo gram positivo aerobio estricto. TEST 13.1 y 13.5 Microbiología patógenos",
+        "D": "Coco gram positivo aerobio estricto."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Bacilo Gram positivo, anaerobio estricto.",
+      "_yellow_scores": {
+        "A": 0.6580431177446103,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 242,
+      "question": "Seleccione la respuesta verdadera del Género Campylobacter:",
+      "options": {
+        "A": "Son microorganismos Gram negativos inmóviles, pequeños, con forma de coma.",
+        "B": "Son microorganismos móviles, Gram positivos, con forma de letras chinas.",
+        "C": "Son microorganismos inmóviles, Gram negativos. El microorganismo Campylobacter Ducrey es el responsable de la mayoría de las infecciones.",
+        "D": "Ninguna de las respuestas anteriores es verdadera."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Ninguna de las respuestas anteriores es verdadera.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6623481781376518
+      }
+    },
+    {
+      "id": 243,
+      "question": "¿Qué características fenotípicas corresponden a Mycobacterium tuberculosis?:",
+      "options": {
+        "A": "Crecimiento lento - Fotocromógena - Niacina negativa - Reducción de Nitratos positiva.",
+        "B": "Crecimiento lento - No cromógena - Niacina negativa - Reducción de Nitratos negativa.",
+        "C": "Crecimiento rápido - Escotocromógena - Niacina positiva - Reducción de Nitratos positiva.",
+        "D": "Crecimiento lento - No cromógena - Niacina positiva - Reducción de Nitratos positiva."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Crecimiento lento - No cromógena - Niacina positiva - Reducción de Nitratos positiva.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6106830351312524
+      }
+    },
+    {
+      "id": 244,
+      "question": "Ante la sospecha de una infección diseminada por micobacterias, la mejor muestra para su detección es:",
+      "options": {
+        "A": "Esputo.",
+        "B": "Médula ósea.",
+        "C": "Sangre.",
+        "D": "Lavado broncoalveolar."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Sangre.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 245,
+      "question": "¿Cuál de las siguientes bacterias es un bacilo gramnegativo, catalasa positiva, oxidasa positiva y no fermenta la lactosa?",
+      "options": {
+        "A": "Shigella sonnei.",
+        "B": "Burkholderia cepacia.",
+        "C": "Proteus vulgaris.",
+        "D": "Salmonella thypi."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Burkholderia cepacia.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6350877192982456,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 246,
+      "question": "En el pretratamiento de muestras clínicas para la detección de micobacterias, la sustancia N-acetil-L- cisteína se utiliza en el procedimiento de:",
+      "options": {
+        "A": "Neutralización.",
+        "B": "Homogeneización.",
+        "C": "Centrifugación.",
+        "D": "Descontaminación."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Homogeneización.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6745098039215687,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 247,
+      "question": "La prueba rápida de la reaginina se utiliza en el diagnóstico de:",
+      "options": {
+        "A": "Toxoplasmosis.",
+        "B": "Rubeola.",
+        "C": "Sífilis.",
+        "D": "Hepatitis."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Sífilis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.5575757575757576,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 248,
+      "question": "Para un estudio en esputo de micobacterias, ¿Qué número de muestras se debe recomendar que se envíen al laboratorio de Microbiología?",
+      "options": {
+        "A": "Una muestra.",
+        "B": "Dos muestras en días alternos.",
+        "C": "Tres muestras en días consecutivos.",
+        "D": "Tres muestras en días alternos."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Tres muestras en días consecutivos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6655493482309125,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 249,
+      "question": "La infección por Bordetella pertussis ¿Qué enfermedad produce?",
+      "options": {
+        "A": "Escarlatina.",
+        "B": "Difteria.",
+        "C": "Tosferina.",
+        "D": "Tétanos."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Tosferina.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6063492063492063,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 250,
+      "question": "De los siguientes gérmenes ¿Cuál es sensible a la optoquina?",
+      "options": {
+        "A": "Streptococcus pneumoniae.",
+        "B": "Streptococcus pyogenes.",
+        "C": "Streptococcus agalactiae.",
+        "D": "Streptococcus oralis."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Streptococcus pneumoniae.",
+      "_yellow_scores": {
+        "A": 0.7143518518518519,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 251,
+      "question": "¿Cuál es la propiedad característica de la pared micobacteriana que es usada como estrategia en la tinción de Ziehl-Neelsen?",
+      "options": {
+        "A": "Termorresistencia.",
+        "B": "Ácido alcohol resistencia. TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Termosensibilidad."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Ácido alcohol resistencia. TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6989898989898989,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 252,
+      "question": "¿Qué bacteria anaerobia puede producir toxiinfección?",
+      "options": {
+        "A": "Clostridium perfringens.",
+        "B": "Bacteroides fragilis.",
+        "C": "Eubacterium lentum.",
+        "D": "Peptostreptococcus anaerobius."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Clostridium perfringens.",
+      "_yellow_scores": {
+        "A": 0.7153439153439154,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 253,
+      "question": "¿Qué técnica diagnóstica de laboratorio se utiliza para el control del tratamiento de la sífilis?:",
+      "options": {
+        "A": "Pruebas no treponémicas (VDRL/RPR).",
+        "B": "FTA-ABS (absorción anticuerpos treponémicos fluorescentes).",
+        "C": "Inmunoensayo enzimático específico (EIA).",
+        "D": "Aglutinación de partículas sensibilizadas con antígeno de Treponema pallidum."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Pruebas no treponémicas (VDRL/RPR).",
+      "_yellow_scores": {
+        "A": 0.6493055555555556,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 254,
+      "question": "Señale la opción CORRECTA sobre los estreptococos:",
+      "options": {
+        "A": "Son cocos gram negativos y agrupados en racimos.",
+        "B": "Estreptococo agalactiae es alfa hemolítico con hemólisis parcial.",
+        "C": "Estreptococo rara vez se aíslan en la cavidad oral.",
+        "D": "Son cocos gram positivos, catalasa negativa y agrupados en cadenas o parejas."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Son cocos gram positivos, catalasa negativa y agrupados en cadenas o parejas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5513550135501355
+      }
+    },
+    {
+      "id": 255,
+      "question": "¿Cuál de los siguientes microorganismos es el responsable de la fiebre exantemática de las Montañas Rocosas?:",
+      "options": {
+        "A": "Coxiella burnetti.",
+        "B": "Rickettsia rickettsii.",
+        "C": "Ehrlichia chaffeensis.",
+        "D": "Borrelia burgdorferi"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Rickettsia rickettsii.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6199376947040498,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 256,
+      "question": "¿Cuál de las siguientes características del Mycoplasma pneumoniae es ERRÓNEA?:",
+      "options": {
+        "A": "Carece de pared celular.",
+        "B": "No se tiñe con tinción de Gram.",
+        "C": "Sensible a antibióticos betalactámicos.",
+        "D": "Es responsable del 15-20% de las neumonías adquiridas en la comunidad."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Sensible a antibióticos betalactámicos.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6473229706390328,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 257,
+      "question": "¿Qué afirmación es CIERTA acerca de Neisseria meningitidis?",
+      "options": {
+        "A": "Solo fermenta la glucosa.",
+        "B": "Fermenta la glucosa y la maltosa.",
+        "C": "Reduce los nitratos.",
+        "D": "Fermenta la glucosa, la maltosa y la lactosa."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Fermenta la glucosa y la maltosa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.636078431372549,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 258,
+      "question": "La causa más frecuente de diarrea del viajero es:",
+      "options": {
+        "A": "Escherichiae coli enterotoxigénico (ETEC).",
+        "B": "Salmonella.",
+        "C": "Giardia lamblia.",
+        "D": "Campilobacter jejuni."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Escherichiae coli enterotoxigénico (ETEC).",
+      "_yellow_scores": {
+        "A": 0.6471153846153846,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 259,
+      "question": "Respecto a Listeria monocytogenes, indique la respuesta correcta:",
+      "options": {
+        "A": "Es un bacilo grampositivo esporulado.",
+        "B": "Son móviles y presentan una débil β-hemólisis.",
+        "C": "Produce una toxina no hemolítica (listeriolisina).",
+        "D": "La prueba de la catalasa es negativa."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Son móviles y presentan una débil β-hemólisis.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6902777777777778,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 260,
+      "question": "Señale la afirmación FALSA con respecto a la infección por Clostridioides difficile:",
+      "options": {
+        "A": "La enfermedad es frecuente en pacientes inmunodeprimidos con hospitalizaciones prolongadas.",
+        "B": "Las recidivas son excepcionales.",
+        "C": "La infección por Clostridioides difficile es una importante causa de diarrea nosocomial.",
+        "D": "Un elevado porcentaje de niños de corta edad son portadores asintomáticos."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Las recidivas son excepcionales.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6538302277432713,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 261,
+      "question": "Son bacilos gram positivos:",
+      "options": {
+        "A": "Género Gardnerella.",
+        "B": "Género Listeria.",
+        "C": "Género Bordetella."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Género Listeria.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.69812734082397,
+        "C": 0.0
+      }
+    },
+    {
+      "id": 262,
+      "question": "¿A qué grupo pertenecen las Mycobacterias de crecimiento rápido?",
+      "options": {
+        "A": "Grupo I.",
+        "B": "Grupo II.",
+        "C": "Grupo III.",
+        "D": "Grupo IV. TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Grupo IV. TEST 13.1 y 13.5 Microbiología patógenos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6688172043010753
+      }
+    },
+    {
+      "id": 263,
+      "question": "¿Qué tipo de microscopio es el de elección para observar una preparación para la identificación de Treponema pallidum?",
+      "options": {
+        "A": "Microscopio de campo oscuro.",
+        "B": "Microscopio de contraste de fases.",
+        "C": "Microscopio de luz polarizada.",
+        "D": "Microscopio de fluorescencia."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Microscopio de campo oscuro.",
+      "_yellow_scores": {
+        "A": 0.6584946236559139,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 264,
+      "question": "¿Cuál de los siguientes métodos presenta mayor dificultad para diagnosticar sífilis?",
+      "options": {
+        "A": "VDRL",
+        "B": "RPR",
+        "C": "FTA-ABS",
+        "D": "Cultivo de una muestra del exudado de la lesión"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Cultivo de una muestra del exudado de la lesión",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7387696709585122
+      }
+    },
+    {
+      "id": 265,
+      "question": "En la tinción de auramina-rodamina, la solución de contraste más utilizada es:",
+      "options": {
+        "A": "Fucsina.",
+        "B": "Permanganato potásico.",
+        "C": "Rodamina.",
+        "D": "Naranja de acridina."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Permanganato potásico.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6023622047244095,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 266,
+      "question": "¿Cuál de estas afirmaciones es FALSA respecto a los Micoplasmas?:",
+      "options": {
+        "A": "Carecen de pared celular.",
+        "B": "Poseen escasa dotación enzimática.",
+        "C": "Tienen especial adherencia por los epitelios respiratorios y urogenital.",
+        "D": "Se colorean con la tinción de Gram."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Se colorean con la tinción de Gram.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6120527306967984
+      }
+    },
+    {
+      "id": 267,
+      "question": "Señale la clasificación microbiana ERRÓNEA de los siguientes gérmenes aerobios:",
+      "options": {
+        "A": "Estafilococo aureus – coco gram positivo, coagulasa positiva.",
+        "B": "Listeria monocytogenes – bacilo gram positivo.",
+        "C": "Neisseria – coco gram negativo.",
+        "D": "Estreptococo – coco gram positivo, catalasa positiva."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Estreptococo – coco gram positivo, catalasa positiva.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.39959349593495935
+      }
+    },
+    {
+      "id": 268,
+      "question": "Señale la prueba en heces de utilidad diagnóstica en la infección por Helicobacter pylori:",
+      "options": {
+        "A": "Cultivo microbiológico.",
+        "B": "análisis de anticuerpos anti Helicobacter pylori.",
+        "C": "análisis de antígenos de Helicobacter pylori.",
+        "D": "ninguna de las anteriores"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "análisis de antígenos de Helicobacter pylori.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.06028985507246377,
+        "C": 0.5913178294573643,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 269,
+      "question": "El aislamiento en una muestra de orina de una mujer joven de un coco gram positivo, catalasa (+) y resistente a novobiocina nos sugiere:",
+      "options": {
+        "A": "Micrococcus spp",
+        "B": "Staphylococcus saprophyticus",
+        "C": "Staphylococcus epidermidis",
+        "D": "Staphylococcus aureus"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Staphylococcus saprophyticus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6963440860215053,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 270,
+      "question": "De las siguientes vacunas, indica una que no esté elaborada con cepas avirulentas o atenuadas de especies patógenas:",
+      "options": {
+        "A": "Vacuna contra la fiebre tifoidea",
+        "B": "Vacuna contra difteria",
+        "C": "Vacuna contra la tuberculosis",
+        "D": "Vacuna contra la rubeola"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Vacuna contra difteria",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6983050847457627,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 271,
+      "question": "La shigelosis es una de las causas bacterianas de diarrea. ¿Cuál es la especie más frecuente en países desarrollados?",
+      "options": {
+        "A": "Shigella dysenteriae.",
+        "B": "Shigella flexneri.",
+        "C": "Shigella boydii.",
+        "D": "Shigella sonnei."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Shigella sonnei.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.06279069767441861,
+        "D": 0.6756554307116105
+      }
+    },
+    {
+      "id": 272,
+      "question": "La enfermedad de Hansen es producida por:",
+      "options": {
+        "A": "Mycobacterium kansasii",
+        "B": "Mycobacterium bovis",
+        "C": "Mycobacterium avium-intracellulare",
+        "D": "Mycobacterium leprae"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Mycobacterium leprae",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.631404958677686
+      }
+    },
+    {
+      "id": 273,
+      "question": "Una diferencia entre el género Vibrio y las enterobacterias es ser:",
+      "options": {
+        "A": "Anaerobio estricto.",
+        "B": "Halófilo.",
+        "C": "Oxidasa negativo.",
+        "D": "No fermentador de glucosa."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Halófilo.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.5738095238095238,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 274,
+      "question": "En el cultivo en agar sangre de una muestra de esputo de un paciente alcohólico con fiebre, escalofríos, tos y dolor pleurítico, crecieron colonias de cocos gram TEST 13.1 y 13.5 Microbiología patógenos positivos alfa hemolíticos con prueba de la optoquina positiva. ¿De qué microorganismo se trata?:",
+      "options": {
+        "A": "Enterococcus faecalis.",
+        "B": "Staphilococcus aureus.",
+        "C": "Steptococcus pneumoniae.",
+        "D": "Steptococcus pyogenes"
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Steptococcus pneumoniae.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.7146282973621103,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 275,
+      "question": "¿Cuál de las siguientes afirmaciones sobre el género Neisseria es falsa?:",
+      "options": {
+        "A": "Todas las neisserias son oxidasas positivas",
+        "B": "Todas las neisserias son catalasas positivas",
+        "C": "No resisten exposición prolongada a la luz",
+        "D": "La tinción de Gram muestras diplococos gram positivos"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "La tinción de Gram muestras diplococos gram positivos",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.3849986886965644
+      }
+    },
+    {
+      "id": 276,
+      "question": "Indica la respuesta correcta acerca del género Brucella:",
+      "options": {
+        "A": "Son cocobacilos gran negativos",
+        "B": "Son catalasa negativos",
+        "C": "Crecen en anaerobiosis estricta",
+        "D": "Los huéspedes preferenciales para Brucella melitensis son las vacas"
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Son cocobacilos gran negativos",
+      "_yellow_scores": {
+        "A": 0.6547770700636942,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 277,
+      "question": "¿Qué microorganismo obtenido de un frasco de hemocultivo incubado en presencia de C02, es el que mejor se corresponde con los siguientes datos?: Cocobacilo Gram negativo pequeño y pleomórfico; crece bien en agar chocolate, es oxidasa +, presenta satelitismo con Staph. Aureus?",
+      "options": {
+        "A": "Brucella.",
+        "B": "Francisella.",
+        "C": "Acinetobacter.",
+        "D": "Haemophillus."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Haemophillus.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6248995983935743
+      }
+    },
+    {
+      "id": 278,
+      "question": "En un cultivo de un exudado de herida por quemadura crecieron unos bacilos gram negativos, oxidasa positivos y productores de un pigmento verdoso. Estos bacilos presentaron relativa resistencia a antibióticos, pero fueron sensibles a ticarcilina y tobramicina. ¿De cuál de las siguientes bacterias se trata?:",
+      "options": {
+        "A": "Klebsiella pneumoniae.",
+        "B": "Proteus mirabilis.",
+        "C": "Pseudomonas aeruginosa.",
+        "D": "Serratia marcescens."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "Pseudomonas aeruginosa.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6376811594202898,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 279,
+      "question": "¿Cuál de estos géneros de microorganismos con interés clínico no es de crecimiento intracelular obligado?",
+      "options": {
+        "A": "Mycoplasma.",
+        "B": "Campylobacter.",
+        "C": "Coxiella.",
+        "D": "Chlamydia."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Campylobacter.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6801498127340824,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 280,
+      "question": "Para controlar portadores de SARM hospitalizados:",
+      "options": {
+        "A": "Se solicitan hemocultivos cada 2 días",
+        "B": "Se les pone en aislamiento de contacto",
+        "C": "Se les pone en aislamiento respiratorio",
+        "D": "Se solicitan cultivos de orina diarios hasta el tercer cultivo negativo"
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Se les pone en aislamiento de contacto",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6583765112262522,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 281,
+      "question": "De los siguientes antibióticos, ¿cuál se emplea de manera eficaz ante la rickettsias?",
+      "options": {
+        "A": "Estreptomicina",
+        "B": "Vancomicina",
+        "C": "Eritromicina",
+        "D": "Cloranfenicol"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Cloranfenicol",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6683544303797468
+      }
+    },
+    {
+      "id": 282,
+      "question": "¿Cuál de las siguientes técnicas no se utilizan para el diagnóstico de sífilis?:",
+      "options": {
+        "A": "RPR/VDRL",
+        "B": "Cultivo de Treponema pallidum",
+        "C": "TPHA",
+        "D": "FTA-ABS"
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Cultivo de Treponema pallidum",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6555555555555556,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 283,
+      "question": "Los Staphylococcus al microscopio se observan formando:",
+      "options": {
+        "A": "Cadenas cortas",
+        "B": "En parejas",
+        "C": "Formando racimos",
+        "D": "Todas las anteriores son correctas Comentario. OJO, aunque la forma más característica es en racimos, se pueden observar de las tres formas."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas Comentario. OJO, aunque la forma más característica es en racimos, se pueden observar de las tres formas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.15303643724696356
+      }
+    },
+    {
+      "id": 284,
+      "question": "¿Qué micobacteria no puede ser aislada en el laboratorio?: TEST 13.1 y 13.5 Microbiología patógenos",
+      "options": {
+        "A": "M. marinum",
+        "B": "M. avium",
+        "C": "M. bovis",
+        "D": "M. leprae"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "M. leprae",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6043010752688172
+      }
+    },
+    {
+      "id": 285,
+      "question": "En cuanto a la resistencia a meticilina en Staphylococcus aureus indique la afirmación correcta:",
+      "options": {
+        "A": "Es producida por el gen mecA.",
+        "B": "Es producida por el gen vanA.",
+        "C": "Es producida por una betalactamasa.",
+        "D": "Es producida por una carbapenemasa."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Es producida por el gen mecA.",
+      "_yellow_scores": {
+        "A": 0.6631808278867103,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 286,
+      "question": "La colitis pseudomembranosa por Clostridium difficile está asociada con:",
+      "options": {
+        "A": "El uso inadecuado de antibióticos.",
+        "B": "La coexistencia de amibiasis intestinal.",
+        "C": "Epidemias de cólera.",
+        "D": "Bloquear la cadena respiratoria"
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "El uso inadecuado de antibióticos.",
+      "_yellow_scores": {
+        "A": 0.6615686274509804,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 287,
+      "question": "Con relación a Listeria monocytogenes, indique la respuesta correcta:",
+      "options": {
+        "A": "La conservación de los alimentos a 4ºC evitará la infección por este germen.",
+        "B": "Patógeno intracelular causante de meningitis bacteriana.",
+        "C": "Cocobacilo gramnegativo.",
+        "D": "No es capaz de transmitirse a través de la placenta, pero si a través del canal del parto."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Patógeno intracelular causante de meningitis bacteriana.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.3977183320220299,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 288,
+      "question": "La Neisseria gonorrhoeae es una bacteria que:",
+      "options": {
+        "A": "No se puede cultivar.",
+        "B": "Con morfología bacilar.",
+        "C": "Es flora normal de la vagina.",
+        "D": "Tiene fimbrias como factores de adherencia a la mucosa de las vías urogenitales."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Tiene fimbrias como factores de adherencia a la mucosa de las vías urogenitales.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.5711382113821138
+      }
+    },
+    {
+      "id": 289,
+      "question": "Salmonella y Shigella pueden diferenciarse mediante una prueba de:",
+      "options": {
+        "A": "Movilidad.",
+        "B": "Rojo de Metilo.",
+        "C": "Oxidasa.",
+        "D": "Fermentación de lactosa."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Movilidad.",
+      "_yellow_scores": {
+        "A": 0.601010101010101,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 290,
+      "question": "Se dice que un estreptococo es alfa-hemolítico cuando:",
+      "options": {
+        "A": "Clostridium.",
+        "B": "Listeria.",
+        "C": "Staphylococcus.",
+        "D": "Bacteroides."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Bacteroides.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.608
+      }
+    },
+    {
+      "id": 291,
+      "question": "18. El Staphylococcus resistente a Novobiocina es:",
+      "options": {
+        "A": "Staphylococcus aureus",
+        "B": "Staphylococcus epidermidis",
+        "C": "Staphylococcus lugdunensis",
+        "D": "Staphylococcus saprophyticus"
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Staphylococcus saprophyticus",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.6431372549019608
+      }
+    },
+    {
+      "id": 292,
+      "question": "Cuál de estas técnicas es una prueba no treponémica:",
+      "options": {
+        "A": "EIA",
+        "B": "TPHA (hemaglutinación pasiva con eritrocitos)",
+        "C": "VDRL",
+        "D": "Ninguna de ellas"
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "VDRL",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.546031746031746,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 293,
+      "question": "Es un bacilo grampositivo anaerobio:",
+      "options": {
+        "A": "Bordetella",
+        "B": "Proteus",
+        "C": "Clostridium",
+        "D": "Prevotella"
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Clostridium",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.6657142857142857,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 294,
+      "question": "El Mycoplasma spp. tiene tres características principales. ¿Cuál de las siguientes NO lo es?",
+      "options": {
+        "A": "No son sensibles a los antibióticos que bloquean la síntesis de la pared bacteriana.",
+        "B": "Tienen pared celular.",
+        "C": "Poseen poca acción enzimática.",
+        "D": "Poseen especial adherencia al epitelio respiratorio y urogenitales. TEST 13.1 y 13.5 Microbiología patógenos"
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Tienen pared celular.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.6436578171091445,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 295,
+      "question": "¿Cuál de estos géneros tienen una tinción de Gram positiva?",
+      "options": {
+        "A": "Neisseria spp.",
+        "B": "Corynebaclerium spp.",
+        "C": "Haemophilus spp.",
+        "D": "Bacteroides spp."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Corynebaclerium spp.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.7060869565217391,
+        "C": 0.0,
+        "D": 0.0
+      }
+    },
+    {
+      "id": 296,
+      "question": "En referencia a la toxicidad de las bacterias, podemos afirmar que:",
+      "options": {
+        "A": "Las endotoxinas son unos polipéptidos, principalmente de las bacterias grampositivas.",
+        "B": "Las exotoxinas son lipopolisacáridos que se presentan principalmente en las superficies celulares de determinadas bacterias gramnegativas.",
+        "C": "Clostridium difficile puede presentar endotoxinas.",
+        "D": "Salmonella spp. puede presentar endotoxinas."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Salmonella spp. puede presentar endotoxinas.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.7292035398230089
+      }
+    },
+    {
+      "id": 297,
+      "question": "En el esputo del paciente se aíslan colonias de S. pneumoniae. Estas bacterias tienen las siguientes características:",
+      "options": {
+        "A": "Son aerobios facultativos, alfa-hemolíticos y resistentes a la bacitracina.",
+        "B": "Son anaerobios facultativos, alfa-hemolíticos y resistentes a la optoquina.",
+        "C": "Son anaerobios facultativos, catalasa negativa y no disponen de cápsula.",
+        "D": "Son anaerobios facultativos, alfa-hemolíticos y sensibles a la optoquina."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Son anaerobios facultativos, alfa-hemolíticos y sensibles a la optoquina.",
+      "_yellow_scores": {
+        "A": 0.0,
+        "B": 0.0,
+        "C": 0.0,
+        "D": 0.47530364372469636
+      }
+    }
+  ]
+}

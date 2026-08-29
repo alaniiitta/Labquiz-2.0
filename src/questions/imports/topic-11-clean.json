@@ -1,0 +1,4090 @@
+{
+  "tema": "11",
+  "titulo": "Inmunología",
+  "source_file": "TEST tema 11 Inmunología (respuestas).pdf",
+  "total_questions": 315,
+  "questions": [
+    {
+      "id": 1,
+      "question": "La respuesta de hipersensibilidad tipo 1 del sistema inmune se acompaña de eosinofilia. ¿Contra cuál de las siguientes estructuras podría ir dirigida una respuesta tipo 1 adecuada y efectiva?",
+      "options": {
+        "A": "Proteína amiloide",
+        "B": "Espiroquetas",
+        "C": "Inhalación de polvo",
+        "D": "Nematodos"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Nematodos"
+    },
+    {
+      "id": 2,
+      "question": "Un trasplante entre individuos de la misma especie es un:",
+      "options": {
+        "A": "Autotrasplante",
+        "B": "Isotrasplante",
+        "C": "Xenotrasplante",
+        "D": "Alotrasplante"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Alotrasplante"
+    },
+    {
+      "id": 3,
+      "question": "Las células infectadas por virus pueden ser directamente matadas por:",
+      "options": {
+        "A": "C5a",
+        "B": "Interferón",
+        "C": "Células NK",
+        "D": "Eosinófilos"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Células NK"
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál de las siguientes no es una célula del sistema inmune?:",
+      "options": {
+        "A": "Linfocitos.",
+        "B": "Monocitos.",
+        "C": "Hematíes.",
+        "D": "Neutrófilos."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Hematíes."
+    },
+    {
+      "id": 5,
+      "question": "El lugar donde maduran y se diferencian los precursores de los linfocitos B en los mamíferos es:",
+      "options": {
+        "A": "Timo.",
+        "B": "Médula ósea.",
+        "C": "Bazo.",
+        "D": "Riñón."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Médula ósea."
+    },
+    {
+      "id": 6,
+      "question": "Las inmunoglobulinas están constituidas por cadenas ligeras y pesadas. De las siguientes opciones, indicar cuál es una cadena ligera:",
+      "options": {
+        "A": "Alfa.",
+        "B": "Delta.",
+        "C": "Mu.",
+        "D": "Kappa."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Kappa."
+    },
+    {
+      "id": 7,
+      "question": "¿Qué célula fagocítica desempeña un papel de primer orden en la respuesta inmunitaria?",
+      "options": {
+        "A": "Eosinófilos.",
+        "B": "Macrófagos.",
+        "C": "Polimorfonuclear basófilo.",
+        "D": "Mastocitos."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Macrófagos."
+    },
+    {
+      "id": 8,
+      "question": "Se considera como evidencia de infección activa la detección de:",
+      "options": {
+        "A": "IgG",
+        "B": "IGA",
+        "C": "IgM",
+        "D": "IgD"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "IgM"
+    },
+    {
+      "id": 9,
+      "question": "Dentro del grupo linfoide, son denominados linfocitos helper o colaboradores:",
+      "options": {
+        "A": "Linfocitos B.",
+        "B": "Linfocitos T8.",
+        "C": "Linfocitos T4.",
+        "D": "Células NK."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Linfocitos T4."
+    },
+    {
+      "id": 10,
+      "question": "El linfocito T:",
+      "options": {
+        "A": "Se forma principalmente en la respuesta primaria.",
+        "B": "Es casi exclusiva de la respuesta secundaria.",
+        "C": "Es el productor de los anticuerpos.",
+        "D": "Su receptor tiene como función principal reconocer al antígeno."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Su receptor tiene como función principal reconocer al antígeno."
+    },
+    {
+      "id": 11,
+      "question": "En la citometría de Flujo, para cuantificar los linfocitos B totales se utiliza como marcador:",
+      "options": {
+        "A": "CD23.",
+        "B": "CD19.",
+        "C": "HLA-DR.",
+        "D": "CD3."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "CD19."
+    },
+    {
+      "id": 12,
+      "question": "¿Qué autoanticuerpo es específico del Lupus eritematoso sistémico (LES)?",
+      "options": {
+        "A": "Anti-ENA.",
+        "B": "Anti-DNA.",
+        "C": "Anti-Scl70.",
+        "D": "Anti-Histona."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Anti-DNA."
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál es la Inmunoglobulina más abundante en el suero humano?",
+      "options": {
+        "A": "IgM.",
+        "B": "IgD.",
+        "C": "IgA.",
+        "D": "IgG"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "IgG"
+    },
+    {
+      "id": 14,
+      "question": "En las infestaciones por parásitos es característica:",
+      "options": {
+        "A": "Eosinofilia.",
+        "B": "Basopenia.",
+        "C": "Neutropenia.",
+        "D": "Eosinopenia."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Eosinofilia."
+    },
+    {
+      "id": 15,
+      "question": "¿Qué es el sistema HLA?",
+      "options": {
+        "A": "Un grupo de moléculas que permite diferenciar unos linfocitos de otros.",
+        "B": "Un grupo de antígenos que proporcionan a las células de un individuo su propia especificidad dentro de la especie.",
+        "C": "Un grupo de antígenos que el sistema inmune reconoce en los microorganismos invasores y frente a los cuales desarrolla una respuesta inmune.",
+        "D": "Un grupo de genes que determina la diferenciación funcional de los linfocitos."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Un grupo de antígenos que proporcionan a las células de un individuo su propia especificidad dentro de la especie."
+    },
+    {
+      "id": 16,
+      "question": "La prueba de Waaler-Rose se aplica para la detección de:",
+      "options": {
+        "A": "Salmonelosis.",
+        "B": "Factores reumatoides.",
+        "C": "Proteína C reactiva.",
+        "D": "Brucelosis."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Factores reumatoides."
+    },
+    {
+      "id": 17,
+      "question": "Un antígeno es:",
+      "options": {
+        "A": "Molécula de bajo peso molecular capaz de reaccionar con un Ac determinado.",
+        "B": "Molécula capaz de generar una respuesta del sistema inmunológico cuando penetra en el organismo.",
+        "C": "Conformación molecular de la superficie del Ag capaz de combinarse específicamente con una zona complementaria que existe en el Ac.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Molécula capaz de generar una respuesta del sistema inmunológico cuando penetra en el organismo."
+    },
+    {
+      "id": 18,
+      "question": "¿Cuál de las siguientes no es una célula del sistema inmune?",
+      "options": {
+        "A": "Linfocitos.",
+        "B": "Monolitos.",
+        "C": "Hematíes.",
+        "D": "Neutrófilos."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Hematíes."
+    },
+    {
+      "id": 19,
+      "question": "En los procesos alérgicos encontramos inmunoglobulinas del tipo:",
+      "options": {
+        "A": "IgA.",
+        "B": "IgE.",
+        "C": "IgD.",
+        "D": "IgM."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "IgE."
+    },
+    {
+      "id": 20,
+      "question": "La defensa principal contra los organismos intracelulares la constituye:",
+      "options": {
+        "A": "La inmunidad humoral.",
+        "B": "La respuesta inmune celular.",
+        "C": "Las células nulas.",
+        "D": "La opsonización."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "La respuesta inmune celular."
+    },
+    {
+      "id": 21,
+      "question": "Como ayuda en el diagnóstico de la espondiloartritis anquilosante está indicado el estudio de la presencia de:",
+      "options": {
+        "A": "Marcadores de superficie.",
+        "B": "HLA B8.",
+        "C": "HLA B27.",
+        "D": "Complejo mayor de histocompatibilidad."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "HLA B27."
+    },
+    {
+      "id": 22,
+      "question": "La protección contra los microorganismos intracelulares es proporcionada por:",
+      "options": {
+        "A": "Linfocitos T.",
+        "B": "Anticuerpos.",
+        "C": "C3b.",
+        "D": "C1q."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Linfocitos T."
+    },
+    {
+      "id": 23,
+      "question": "Paciente varón de 50 años de edad, presenta anticuerpos antimitocondriales (AMA) con un título 1/ 160:",
+      "options": {
+        "A": "Nos sugieren infección crónica como mononucleosis.",
+        "B": "Nos pueden ayudar en el diagnóstico diferencial de la cirrosis biliar primaria.",
+        "C": "Nos sugiere cirrosis antigua de carácter grave.",
+        "D": "Todo dependerá de si el patrón es moteado o periférico."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Nos pueden ayudar en el diagnóstico diferencial de la cirrosis biliar primaria."
+    },
+    {
+      "id": 24,
+      "question": "En la defensa inmune contra virus se implican varios mecanismos, indica cuál de los siguientes no se produce al inicio de la infección sino de forma más tardía:",
+      "options": {
+        "A": "Inmunidad celular específica con multiplicación de los linfocitos T citotóxicos.",
+        "B": "Producción de interferón.",
+        "C": "Inmunidad humoral con aparición de anticuerpos locales (lgA).",
+        "D": "Respuesta inflamatoria inespecífica."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Inmunidad humoral con aparición de anticuerpos locales (lgA)."
+    },
+    {
+      "id": 25,
+      "question": "Tras un resultado de anticuerpos antinucleares (ANA) positivo, con un título superior a l /160, en paciente mujer de 82 años, ¿qué valoración sería la más correcta?",
+      "options": {
+        "A": "Son indicativos inequívocos de LES",
+        "B": "Dada la avanzada edad de la paciente deberíamos repetir la prueba, ya que es muy infrecuente que presente títulos detectables",
+        "C": "Deberíamos considerarlo significativo, a pesar de ser mujer de edad avanzada",
+        "D": "Descarta en cualquier caso tanto enfermedades autoinmunes sistémicas como limitadas a órganos específicos"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Deberíamos considerarlo significativo, a pesar de ser mujer de edad avanzada"
+    },
+    {
+      "id": 26,
+      "question": "Señale cuál de estas enfermedades autoinmunes, NO es órgano-especifica:",
+      "options": {
+        "A": "Anemia hemolítica.",
+        "B": "Hemoglobinuria paroxística nocturna.",
+        "C": "Lupus Eritematoso sistémico.",
+        "D": "Diabetes tipo 1."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Lupus Eritematoso sistémico."
+    },
+    {
+      "id": 27,
+      "question": "La inmunidad adaptativa humoral está secretada por:",
+      "options": {
+        "A": "Células diana.",
+        "B": "Toxinas.",
+        "C": "Células plasmáticas derivadas de los linfocitos B.",
+        "D": "Corpúsculos."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Células plasmáticas derivadas de los linfocitos B."
+    },
+    {
+      "id": 28,
+      "question": "Respecto a las enfermedades reumáticas autoinmunes, señale la RESPUESTA CORRECTA:",
+      "options": {
+        "A": "Tienen relación con el complejo mayor de histocompatibilidad.",
+        "B": "Afectan solo al aparato locomotor.",
+        "C": "En ellas detectamos antígenos que atacan a antígenos propios.",
+        "D": "La espondilitis anquilosante no pertenece a este grupo de enfermedades"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Tienen relación con el complejo mayor de histocompatibilidad."
+    },
+    {
+      "id": 29,
+      "question": "¿Cuál de estos anticuerpos NO es un anticuerpo antinuclear?",
+      "options": {
+        "A": "Anti SCL70.",
+        "B": "Anti SM.",
+        "C": "ANCA.",
+        "D": "Anti RO/SSA."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "ANCA."
+    },
+    {
+      "id": 30,
+      "question": "¿Cuál de las siguientes células sanguíneas se encargan de la inmunidad?",
+      "options": {
+        "A": "Leucocitos.",
+        "B": "Plaquetas.",
+        "C": "Eritrocitos.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Leucocitos."
+    },
+    {
+      "id": 31,
+      "question": "Las inmunoglobulinas son:",
+      "options": {
+        "A": "Glucoproteínas.",
+        "B": "Lipoproteínas.",
+        "C": "Fosfoproteínas.",
+        "D": "Hidratos de Carbono."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Glucoproteínas."
+    },
+    {
+      "id": 32,
+      "question": "Son funciones de los anticuerpos:",
+      "options": {
+        "A": "Aglutinar bacterias.",
+        "B": "Neutralizar toxinas.",
+        "C": "Favorecer la fagocitosis de las bacterias.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 33,
+      "question": "La histamina es una sustancia que se libera tras la reacción del Ag-Ac y su función es:",
+      "options": {
+        "A": "Anticoagulante",
+        "B": "Inhibir el complemento",
+        "C": "Vasodilatación y aumento de la permeabilidad vascular",
+        "D": "Inhibir a los eosinófilos"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Vasodilatación y aumento de la permeabilidad vascular"
+    },
+    {
+      "id": 34,
+      "question": "Los leucocitos responsables de la inmunidad humoral son:",
+      "options": {
+        "A": "Linfocitos B",
+        "B": "Linfocitos T",
+        "C": "Neutrófilos",
+        "D": "Monolitos"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Linfocitos B"
+    },
+    {
+      "id": 35,
+      "question": "¿Cuál de las siguientes definiciones corresponde a lo que es un epítopo?",
+      "options": {
+        "A": "Una sustancia que incrementa la respuesta inmune a un antígeno",
+        "B": "La zona del anticuerpo a la que se une un antígeno",
+        "C": "La parte del antígeno que es reconocida por su anticuerpo específico",
+        "D": "Una molécula de gran tamaño que puede actuar como antígeno"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "La parte del antígeno que es reconocida por su anticuerpo específico"
+    },
+    {
+      "id": 36,
+      "question": "Los anticuerpos anti–Scl 70 son frecuentes en pacientes con:",
+      "options": {
+        "A": "Artritis reumatoide",
+        "B": "Lupus eritematoso sistémico",
+        "C": "Esclerodermia",
+        "D": "Anemia perniciosa"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Esclerodermia"
+    },
+    {
+      "id": 37,
+      "question": "¿Dónde radican los lugares de reconocimiento de las inmunoglobulinas?",
+      "options": {
+        "A": "Las cadenas ligeras",
+        "B": "Las cadenas pesadas",
+        "C": "Fragmento Fab",
+        "D": "Fragmento Fac"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Fragmento Fab"
+    },
+    {
+      "id": 38,
+      "question": "En la vía alternativa del complemento ¿con que factor se une el C3b?",
+      "options": {
+        "A": "C6",
+        "B": "C8",
+        "C": "Factor B",
+        "D": "Factor C"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Factor B"
+    },
+    {
+      "id": 39,
+      "question": "¿Cuál de las siguientes afirmaciones crees que es cierta sobre el Lupus eritematoso sistémico?",
+      "options": {
+        "A": "Es un desorden de carácter contagioso",
+        "B": "Es un desorden del sistema inmunológico",
+        "C": "Es un desorden del sistema epidérmico",
+        "D": "Es un desorden del sistema nervioso"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Es un desorden del sistema inmunológico"
+    },
+    {
+      "id": 40,
+      "question": "¿De cuál de los siguientes anticuerpos es característica su presencia en el Lupus eritematoso sistémico?",
+      "options": {
+        "A": "Anticuerpos anti Fosfolípidos",
+        "B": "Anticuerpos anti Gliadina",
+        "C": "Anticuerpos anti Nucleares",
+        "D": "Anticuerpos anti TPO"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos anti Nucleares"
+    },
+    {
+      "id": 41,
+      "question": "El resultado final de los ANA ha sido expresado como positivo 1/160 patrón homogéneo. ¿Cuál ha sido la técnica utilizada para obtenerlo?",
+      "options": {
+        "A": "ELISA",
+        "B": "RIA",
+        "C": "IFI",
+        "D": "MEIA"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "IFI"
+    },
+    {
+      "id": 42,
+      "question": "Los interferones:",
+      "options": {
+        "A": "Son un grupo de proteínas importantes en la inflamación.",
+        "B": "Son un grupo de sustancias que intervienen en la infección por hongos.",
+        "C": "Son bactericidas.",
+        "D": "Son proteínas que intervienen en la infección por virus."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Son proteínas que intervienen en la infección por virus."
+    },
+    {
+      "id": 43,
+      "question": "Señala el enunciado incorrecto:",
+      "options": {
+        "A": "Los Ac son específicos para un Ag.",
+        "B": "Un Ag puede tener varios Ac específicos.",
+        "C": "Cada Ac se acopla a una zona del Ag llamada determinante antigénico.",
+        "D": "Cada Ac se acopla a una zona del antígeno denominada idiotipo."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Cada Ac se acopla a una zona del antígeno denominada idiotipo."
+    },
+    {
+      "id": 44,
+      "question": "Los anticuerpos:",
+      "options": {
+        "A": "Son fosfolípidos presentes en el suero.",
+        "B": "Son producidos en grandes cantidades por las células plasmáticas.",
+        "C": "Son proteínas exclusivas de la membrana de los linfocitos T.",
+        "D": "No se encuentran en los líquidos orgánicos."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Son producidos en grandes cantidades por las células plasmáticas."
+    },
+    {
+      "id": 45,
+      "question": "¿Qué inmunoglobulina atraviesa la placenta y da protección al feto?",
+      "options": {
+        "A": "IgA.",
+        "B": "IgG.",
+        "C": "IgM.",
+        "D": "IgE."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "IgG."
+    },
+    {
+      "id": 46,
+      "question": "El 80% de las inmunoglobulinas corresponde al tipo:",
+      "options": {
+        "A": "IgG.",
+        "B": "IgA.",
+        "C": "IgM.",
+        "D": "IgD."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "IgG."
+    },
+    {
+      "id": 47,
+      "question": "Señala cuál es una cadena ligera de las inmunoglobulinas:",
+      "options": {
+        "A": "Alfa.",
+        "B": "Lambda.",
+        "C": "Delta.",
+        "D": "Epsilon."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Lambda."
+    },
+    {
+      "id": 48,
+      "question": "¿Cuál de las siguientes afirmaciones sobre los linfocitos T es correcta?",
+      "options": {
+        "A": "Maduran en el Bazo.",
+        "B": "Los linfocitos B controlan su producción.",
+        "C": "No forman parte de la inmunidad celular.",
+        "D": "Los linfocitos T no reconocen al Ag cuando está libre, sino cuando éste viene presentado por un macrófago."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Los linfocitos T no reconocen al Ag cuando está libre, sino cuando éste viene presentado por un macrófago."
+    },
+    {
+      "id": 49,
+      "question": "¿Qué son los inmunocomplejos?",
+      "options": {
+        "A": "Respuestas inmunes complejas.",
+        "B": "Complejos formados por la unión antígeno- anticuerpo.",
+        "C": "Complejos formados tras la fagocitosis de microorganismos.",
+        "D": "El sistema del complemento."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Complejos formados por la unión antígeno- anticuerpo."
+    },
+    {
+      "id": 50,
+      "question": "¿Cuál de las células sanguíneas presenta una función inmunitaria?",
+      "options": {
+        "A": "Eritrocitos.",
+        "B": "Leucocitos.",
+        "C": "Plaquetas.",
+        "D": "Todas son ciertas."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Leucocitos."
+    },
+    {
+      "id": 51,
+      "question": "¿Cuál de las siguientes inmunoglobulinas se sintetiza de forma rápida y masiva en la respuesta inmune secundaria?",
+      "options": {
+        "A": "IgG.",
+        "B": "IgD.",
+        "C": "IgA.",
+        "D": "IgM."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "IgG."
+    },
+    {
+      "id": 52,
+      "question": "En las infecciones crónicas se detectan inmunoglobulinas del tipo:",
+      "options": {
+        "A": "lgG.",
+        "B": "lgM.",
+        "C": "lgE.",
+        "D": "Todas son correctas"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "lgG."
+    },
+    {
+      "id": 53,
+      "question": "El Factor Reumatoide consiste en anticuerpos dirigidos contra la lgG del propio paciente y son anticuerpos de tipo:",
+      "options": {
+        "A": "lgD.",
+        "B": "lgE.",
+        "C": "lgG, lgM o lgA.",
+        "D": "Ninguno de los anteriores."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "lgG, lgM o lgA."
+    },
+    {
+      "id": 54,
+      "question": "Los linfocitos CD4+ (Th) reconocen:",
+      "options": {
+        "A": "Ag (antígenos) unidos a MHC (complejo mayor de histocompatibilidad) clase III.",
+        "B": "Ag unidos a MHC clase II.",
+        "C": "Ag unidos a MHC clase l.",
+        "D": "Ag mediante sus lg de superficie."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Ag unidos a MHC clase II."
+    },
+    {
+      "id": 55,
+      "question": "En el complemento, el MAC (Complejo de Ataque a Membrana) está formado por:",
+      "options": {
+        "A": "Los componentes de la membrana y el 9.",
+        "B": "Los componentes 5b al 9.",
+        "C": "Los componentes 1 al 9.",
+        "D": "Los componentes 5 al 9."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Los componentes 5b al 9."
+    },
+    {
+      "id": 56,
+      "question": "Los Ag (antígenos) endógenos son procesados y presentados al TCR del CD8 por:",
+      "options": {
+        "A": "MHC (Complejo Mayor de Histocompatibilidad) de clase I.",
+        "B": "MHC de clase II.",
+        "C": "MHC de clase III.",
+        "D": "Ig (inmunoglobulinas) de superficie."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "MHC (Complejo Mayor de Histocompatibilidad) de clase I."
+    },
+    {
+      "id": 57,
+      "question": "En relación a los Ac (anticuerpos), las variaciones en las regiones constantes, de las cadenas pesadas y ligeras, presentes en todos los individuos sanos de la especie se denominan:",
+      "options": {
+        "A": "Idiotipos.",
+        "B": "Alotipos.",
+        "C": "Isotipos.",
+        "D": "Idiotipos públicos."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Isotipos."
+    },
+    {
+      "id": 58,
+      "question": "Un componente del complemento con función de opsonización es el fragmento:",
+      "options": {
+        "A": "C3a.",
+        "B": "C3b.",
+        "C": "C4b.",
+        "D": "C4b2."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "C3b."
+    },
+    {
+      "id": 59,
+      "question": "La positividad de algunos de los siguientes anticuerpos por su especificidad, es de utilidad para el diagnóstico de la Artritis Reumatoide. Señálelo:",
+      "options": {
+        "A": "Anticuerpos Anti Acido Desoxirribonucleíco (ADN).",
+        "B": "Anticuerpos antinucleares (ANA).",
+        "C": "Anticuerpos anti-péptidos cíclicos citrulinados (anti-CCP).",
+        "D": "Anticuerpos antihistonas (proteínas básicas del núcleo celular)."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos anti-péptidos cíclicos citrulinados (anti-CCP)."
+    },
+    {
+      "id": 60,
+      "question": "¿Cuál de las siguientes células participa tanto en la respuesta celular como humoral?",
+      "options": {
+        "A": "Células B",
+        "B": "Células T",
+        "C": "Células NK",
+        "D": "IgG"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Células T"
+    },
+    {
+      "id": 61,
+      "question": "De los siguientes tipos de células que intervienen en la respuesta inmune, indique el que NO SE ENCUENTRA habitualmente en sangre:",
+      "options": {
+        "A": "Linfocitos B y T.",
+        "B": "Células NK.",
+        "C": "Granulocitos.",
+        "D": "Mastocitos."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Mastocitos."
+    },
+    {
+      "id": 62,
+      "question": "¿Con cuál de los siguientes autoanticuerpos iniciarías el cribado de enfermedad autoinmune sistémica?:",
+      "options": {
+        "A": "Anti ENA",
+        "B": "Anti IgM",
+        "C": "Anti nuclear",
+        "D": "Anti IgG"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Anti nuclear"
+    },
+    {
+      "id": 63,
+      "question": "Las inmunoglobulinas más frecuentemente encontradas en la superficie de los linfocitos B como inmunoglobulinas de membrana son:",
+      "options": {
+        "A": "IgG e IgE",
+        "B": "IgA e IgM",
+        "C": "IgM e IgD",
+        "D": "IgM e IgE"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "IgM e IgD"
+    },
+    {
+      "id": 64,
+      "question": "¿Cuál de los siguientes autoanticuerpos se usa para el diagnóstico de la anemia perniciosa?:",
+      "options": {
+        "A": "Anti células parietales",
+        "B": "Anti peroxidasa tiroidea",
+        "C": "Anti receptor de TSH",
+        "D": "Anti IgG Fc"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Anti células parietales"
+    },
+    {
+      "id": 65,
+      "question": "Los anticuerpos anti-peptido citrulinado cíclico son característicos y ayudan en el diagnóstico de:",
+      "options": {
+        "A": "Lupus eritematoso sistémico",
+        "B": "Artritis Reumatoide",
+        "C": "Diabetes Mellitus insulino dependiente",
+        "D": "Hepatitis autoinmune"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Artritis Reumatoide"
+    },
+    {
+      "id": 66,
+      "question": "¿Cuál de los siguientes hallazgos serológicos aparece con mayor frecuencia en los pacientes con lupus eritematoso sistémico?:",
+      "options": {
+        "A": "Anticuerpos anti DNAn",
+        "B": "Anticuerpos anti-Ro/SS-A",
+        "C": "Anticuerpos anti-La/SS-B",
+        "D": "Anticuerpos anti RNP"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Anticuerpos anti DNAn"
+    },
+    {
+      "id": 67,
+      "question": "¿Cuál de las siguientes enfermedades no se clasifica como autoinmune?:",
+      "options": {
+        "A": "Anemia perniciosa",
+        "B": "Lupus eritematoso generalizado",
+        "C": "Hipersensibilidad por contacto",
+        "D": "Artritis reumatoide"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Hipersensibilidad por contacto"
+    },
+    {
+      "id": 68,
+      "question": "La detección de anticuerpos antinucleares es una técnica de:",
+      "options": {
+        "A": "Inmunofluorescencia indirecta",
+        "B": "Técnica de detección de anticuerpos por precipitación en gel",
+        "C": "Detección de anticuerpos por Elisa",
+        "D": "Detección por Inmunoblotting"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Inmunofluorescencia indirecta"
+    },
+    {
+      "id": 69,
+      "question": "¿Cuál de las inmunoglobulinas es secretora?",
+      "options": {
+        "A": "IgG",
+        "B": "IgE",
+        "C": "IgD",
+        "D": "IgA"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "IgA"
+    },
+    {
+      "id": 70,
+      "question": "Señale Ia respuesta correcta:",
+      "options": {
+        "A": "Los linfocitos B son los responsables de la inmunidad celular.",
+        "B": "Los linfocitos T son los responsables de la inmunidad humoral.",
+        "C": "Los anticuerpos producidos contra los antígenos “propios” se llaman autoanticuerpos.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Los anticuerpos producidos contra los antígenos “propios” se llaman autoanticuerpos."
+    },
+    {
+      "id": 71,
+      "question": "De las siguientes inmunoglobulinas, ¿cuál corresponde a una estructura pentamérica?:",
+      "options": {
+        "A": "lg A.",
+        "B": "lg E",
+        "C": "lg M",
+        "D": "lg D"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "lg M"
+    },
+    {
+      "id": 72,
+      "question": "Una de las siguientes sustancias no interviene en la hipersensibilidad tipo l. ¿Cuál?",
+      "options": {
+        "A": "Histamina.",
+        "B": "Heparina.",
+        "C": "Serotonina",
+        "D": "C3a"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "C3a"
+    },
+    {
+      "id": 73,
+      "question": "En la respuesta inmune humoral, señala la frase correcta:",
+      "options": {
+        "A": "Las lgA se pueden encontrar en mayor proporción en secreciones como la saliva.",
+        "B": "Las inmunoglobulinas tipo lgD son las de mayor tamaño.",
+        "C": "La tipo lgG son las de mayor tamaño.",
+        "D": "Las lgE suelen aparecen en enfermedades autoinmunes."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Las lgA se pueden encontrar en mayor proporción en secreciones como la saliva."
+    },
+    {
+      "id": 74,
+      "question": "De los componentes del sistema del complemento, el más abundante es el:",
+      "options": {
+        "A": "C3.",
+        "B": "C4.",
+        "C": "C5.",
+        "D": "C6."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "C3."
+    },
+    {
+      "id": 75,
+      "question": "En las reacciones de aglutinación directa intentáremos utilizar como anticuerpos:",
+      "options": {
+        "A": "lg A",
+        "B": "lg G",
+        "C": "lg M",
+        "D": "lg E"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "lg M"
+    },
+    {
+      "id": 76,
+      "question": "La capacidad de una sustancia de inducir una respuesta inmune se denomina propiamente:",
+      "options": {
+        "A": "lnmunogenicidad.",
+        "B": "Afinidad",
+        "C": "Antigenidad.",
+        "D": "lnmunotolerancia"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "lnmunogenicidad."
+    },
+    {
+      "id": 77,
+      "question": "¿Qué es un isoantígeno?",
+      "options": {
+        "A": "Es un Ag extraño a la especie a la que pertenece el organismo",
+        "B": "Es un Ag propio de la especie, pero extraño al individuo",
+        "C": "Es un Ag que pertenece al propio individuo",
+        "D": "Ninguna es correcta"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Es un Ag propio de la especie, pero extraño al individuo"
+    },
+    {
+      "id": 78,
+      "question": "Los anticuerpos:",
+      "options": {
+        "A": "Son glicoproteínas presentes en el suero y líquidos del organismo.",
+        "B": "Son producidos por las células plasmáticas procedentes de los linfocitos T.",
+        "C": "Son producidos por las células plasmáticas procedentes de los linfocitos B.",
+        "D": "Son correctas las respuestas a y c."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Son correctas las respuestas a y c."
+    },
+    {
+      "id": 79,
+      "question": "La lisis de las inmunoglobulinas con papaína origina:",
+      "options": {
+        "A": "Dos fragmentos idénticos llamados Fab.",
+        "B": "Tres fragmentos, dos idénticos Fab y un tercero Fc.",
+        "C": "Tres fragmentos, dos idénticos Fc y un tercero Fab.",
+        "D": "Cuatro fragmentos iguales dos a dos, Fab y Fc."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Tres fragmentos, dos idénticos Fab y un tercero Fc."
+    },
+    {
+      "id": 80,
+      "question": "En cuanto al sistema del complemento es falso que:",
+      "options": {
+        "A": "La vía clásica se activa por microorganismos o células tumorales.",
+        "B": "Facilita la eliminación de microbios y células dañadas.",
+        "C": "Es un importante componente soluble del sistema inmunitario.",
+        "D": "Todas son ciertas."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "La vía clásica se activa por microorganismos o células tumorales."
+    },
+    {
+      "id": 81,
+      "question": "¿Cuál de las siguientes frases es falsa en cuanto al complejo mayor de histocompatibilidad?",
+      "options": {
+        "A": "Está situado en el cromosoma 6.",
+        "B": "Su función principal es unirse a antígenos con el fin de presentar el antígeno a una célula T apropiada.",
+        "C": "Los más conocidos son los antígenos eritrocitarios del sistema ABO (HLA de clase II).",
+        "D": "Los HLA de clase I (A, B y C) se expresan en todas las células nucleadas."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Los más conocidos son los antígenos eritrocitarios del sistema ABO (HLA de clase II)."
+    },
+    {
+      "id": 82,
+      "question": "En la vía alternativa del complemento ¿con qué factor se une el C3b?:",
+      "options": {
+        "A": "C6",
+        "B": "C8",
+        "C": "Factor B",
+        "D": "Factor C"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Factor B"
+    },
+    {
+      "id": 83,
+      "question": "Generalmente, en un paciente que se sospecha síndrome de Sjögren, ¿cuál de los siguientes anticuerpos será más determinante en el diagnóstico?",
+      "options": {
+        "A": "Anti- Sm.",
+        "B": "Anti- SS-B/LA.",
+        "C": "Anti-centrómeros.",
+        "D": "Anti-Jo-1."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Anti- SS-B/LA."
+    },
+    {
+      "id": 84,
+      "question": "El fragmento C1s actúa sobre el componente:",
+      "options": {
+        "A": "C4.",
+        "B": "C3.",
+        "C": "C5.",
+        "D": "C6"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "C4."
+    },
+    {
+      "id": 85,
+      "question": "La detección de los anticuerpos anti-Jo-1, ¿para cuál de estos síndromes es más específico?",
+      "options": {
+        "A": "Esclerodermia.",
+        "B": "Síndrome de CREST.",
+        "C": "Polimiositis.",
+        "D": "Lupus."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Polimiositis."
+    },
+    {
+      "id": 86,
+      "question": "¿Cuál de las siguientes respuestas es incorrecta?:",
+      "options": {
+        "A": "La IgG no puede traspasar la placenta.",
+        "B": "La IgE se encuentra en la primera línea de actuación frente a los helmintos.",
+        "C": "La IgA es específica de las zonas mucosas.",
+        "D": "La IgD es una inmunoglobulina con una vida media corta."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "La IgG no puede traspasar la placenta."
+    },
+    {
+      "id": 87,
+      "question": "Con respecto a la respuesta inmune celular señala la respuesta correcta:",
+      "options": {
+        "A": "Está mediada por anticuerpos.",
+        "B": "Está mediada por los linfocitos T citotóxicos.",
+        "C": "Es una inmunidad inespecífica.",
+        "D": "Todas son correctas."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Está mediada por los linfocitos T citotóxicos."
+    },
+    {
+      "id": 88,
+      "question": "Los anticuerpos protegen al organismo mediante mecanismos de:",
+      "options": {
+        "A": "Neutralización de toxinas.",
+        "B": "Opsonización.",
+        "C": "Activación del sistema complemento.",
+        "D": "Todas son ciertas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 89,
+      "question": "¿Cómo se denomina la hipersensibilidad de respuesta inmediata en la que intervienen alergenos, reagininas, basófilos, mastocitos y eosinófilos?:",
+      "options": {
+        "A": "Tipo I o anafiláctica.",
+        "B": "Tipo II o citotóxica.",
+        "C": "Tipo IV o celular.",
+        "D": "Tipo V."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Tipo I o anafiláctica."
+    },
+    {
+      "id": 90,
+      "question": "Señale la afirmación verdadera respecto a los mastocitos:",
+      "options": {
+        "A": "Se forman en el bazo.",
+        "B": "Abundan en sangre periférica.",
+        "C": "Poseen receptores de superficie para IgE.",
+        "D": "No se encuentran en piel y mucosas."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Poseen receptores de superficie para IgE."
+    },
+    {
+      "id": 91,
+      "question": "¿Qué tipo de hipersensibilidad puede darse en las reacciones transfusionales?:",
+      "options": {
+        "A": "Anafilaxia.",
+        "B": "Citotóxica.",
+        "C": "Mediada por inmunocomplejos.",
+        "D": "Celular o retardada."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Citotóxica."
+    },
+    {
+      "id": 92,
+      "question": "Señala la correcta:",
+      "options": {
+        "A": "Las células T helper o CD4 ayudan a los linfocitos B en la producción de anticuerpo.",
+        "B": "Las células T supresoras o CD8 regulan de forma positiva la respuesta inmune.",
+        "C": "El fragmento Fc de las inmunoglobulinas es común en todas ellas.",
+        "D": "El fragmento Fab de las inmunoglobulinas es variable en todas las inmunoglobulinas."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Las células T helper o CD4 ayudan a los linfocitos B en la producción de anticuerpo."
+    },
+    {
+      "id": 93,
+      "question": "¿Qué tipo de linfocitos T son los encargados de localizar las células diana?:",
+      "options": {
+        "A": "Linfocitos Tm.",
+        "B": "Linfocitos Tc.",
+        "C": "Linfocitos Ts.",
+        "D": "Linfocitos Th."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Linfocitos Tc."
+    },
+    {
+      "id": 94,
+      "question": "En las enfermedades autoinmunes, señala la correcta:",
+      "options": {
+        "A": "La respuesta inmune está dirigida a células del propio organismo.",
+        "B": "La miastenia gravis es una enfermedad autoinmune.",
+        "C": "Pueden ser generadas por determinados medicamentos.",
+        "D": "Todas correctas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas correctas."
+    },
+    {
+      "id": 95,
+      "question": "Señala la afirmación correcta con respecto al sistema del complemento:",
+      "options": {
+        "A": "Es un conjunto de proteínas que intervienen en la defensa inespecífica del organismo.",
+        "B": "Participan en los procesos inflamatorios y alérgicos.",
+        "C": "Destruye el antígeno por fagocitosis.",
+        "D": "Todas correctas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas correctas."
+    },
+    {
+      "id": 96,
+      "question": "¿Cuál de estas enfermedades no es autoinmune?:",
+      "options": {
+        "A": "Dermatosis.",
+        "B": "Miastenia gravis.",
+        "C": "Lupus eritematoso diseminado.",
+        "D": "Anafilaxia"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Anafilaxia"
+    },
+    {
+      "id": 97,
+      "question": "Una técnica muy adecuada para la determinación de los anticuerpos antinucleares es:",
+      "options": {
+        "A": "Reacción enzimática directa.",
+        "B": "Inmunofluorescencia.",
+        "C": "Nefelometría.",
+        "D": "Hemaglutinación."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Inmunofluorescencia."
+    },
+    {
+      "id": 98,
+      "question": "Un hapteno es:",
+      "options": {
+        "A": "Molécula de bajo peso molecular capaz de reaccionar con un Ac determinado",
+        "B": "Molécula capaz de generar una respuesta del sistema inmunológico cuando penetra en el organismo",
+        "C": "Conformación molecular de la superficie del Ag capaz de combinarse específicamente con una zona complementaria que existe en el Ac",
+        "D": "Ninguna es cierta"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Molécula de bajo peso molecular capaz de reaccionar con un Ac determinado"
+    },
+    {
+      "id": 99,
+      "question": "Epítopo es:",
+      "options": {
+        "A": "Molécula de bajo peso molecular capaz de reaccionar con un Ac determinado",
+        "B": "Molécula capaz de generar una respuesta del sistema inmunológico cuando penetra en el organismo",
+        "C": "Conformación molecular de la superficie del Ag capaz de combinarse específicamente con una zona complementaria que existe en el Ac",
+        "D": "Ninguna es cierta"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Conformación molecular de la superficie del Ag capaz de combinarse específicamente con una zona complementaria que existe en el Ac"
+    },
+    {
+      "id": 100,
+      "question": "La inmunidad innata",
+      "options": {
+        "A": "Se posee desde el momento del nacimiento",
+        "B": "La transmite la madre al feto en el primer mes de vida intrauterina",
+        "C": "Dura solamente unos meses en el recién nacido",
+        "D": "Actúa a través de los Ac monoclonales"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Se posee desde el momento del nacimiento"
+    },
+    {
+      "id": 101,
+      "question": "Respecto al sistema inmunitario innato o inespecífico se puede decir que:",
+      "options": {
+        "A": "Está mediado por Ac y células",
+        "B": "Es la primera barrera de defensa tanto física como bioquímica",
+        "C": "Las células más importantes de este sistema son los glóbulos blancos",
+        "D": "Las opciones b y c son correctas"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Las opciones b y c son correctas"
+    },
+    {
+      "id": 102,
+      "question": "El sistema inmunitario de adaptación o adquirido:",
+      "options": {
+        "A": "Se posee desde el nacimiento",
+        "B": "Es específico",
+        "C": "Es inespecífico",
+        "D": "Opciones b y c son correctas"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Es específico"
+    },
+    {
+      "id": 103,
+      "question": "El idiotipo de un Ac está determinado por:",
+      "options": {
+        "A": "La región constante de la cadena ligera",
+        "B": "La región variable de la cadena ligera y pesada",
+        "C": "La región constante de la cadena ligera y pesada",
+        "D": "La región variable de la cadena ligera"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "La región variable de la cadena ligera y pesada"
+    },
+    {
+      "id": 104,
+      "question": "La IgA:",
+      "options": {
+        "A": "Activa el complemento por la vía clásica",
+        "B": "Activa mastocitos",
+        "C": "Es neutralizante en las mucosas",
+        "D": "Atraviesa la placenta"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Es neutralizante en las mucosas"
+    },
+    {
+      "id": 105,
+      "question": "Señalar la respuesta incorrecta:",
+      "options": {
+        "A": "Las moléculas de inmunoglobulinas están constituidas por dos cadenas polipeptídicas unidas por puentes de hidrógeno",
+        "B": "Estas cadenas son de dos tipos: ligeras (L) y pesadas (H)",
+        "C": "Tanto las cadenas L como H poseen un sector invariable, característico de la inmunoglobulina y un sector variable específico de cada Ac",
+        "D": "Existen cinco tipos de inmunoglobulinas"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Las moléculas de inmunoglobulinas están constituidas por dos cadenas polipeptídicas unidas por puentes de hidrógeno"
+    },
+    {
+      "id": 106,
+      "question": "La principal inmunoglobulina secretada por el sistema linfoide mucoso es:",
+      "options": {
+        "A": "IgA",
+        "B": "IgE",
+        "C": "IgM",
+        "D": "IgD"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "IgA"
+    },
+    {
+      "id": 107,
+      "question": "¿Cuál corresponde a una estructura pentamérica?",
+      "options": {
+        "A": "IgA",
+        "B": "IgE",
+        "C": "IgM",
+        "D": "IgD"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "IgM"
+    },
+    {
+      "id": 108,
+      "question": "¿Qué inmunoglobulina puede transportarse a través de las barreras mucosas del organismo?",
+      "options": {
+        "A": "IgA",
+        "B": "IgG",
+        "C": "IgM",
+        "D": "IgE"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "IgA"
+    },
+    {
+      "id": 109,
+      "question": "¿Qué inmunoglobulina encontramos en la leche materna?",
+      "options": {
+        "A": "IgM",
+        "B": "IgA",
+        "C": "IgE",
+        "D": "IgD"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "IgA"
+    },
+    {
+      "id": 110,
+      "question": "En los procesos alérgicos encontramos inmunoglobulina del tipo:",
+      "options": {
+        "A": "IgA",
+        "B": "IgE",
+        "C": "IgD",
+        "D": "IgM"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "IgE"
+    },
+    {
+      "id": 111,
+      "question": "La sustancia con capacidad de reaccionar con su Ac específico, pero no de inducir su síntesis es:",
+      "options": {
+        "A": "Ag conjugado",
+        "B": "Inmunógeno",
+        "C": "Hapteno",
+        "D": "Adyuvante"
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Hapteno"
+    },
+    {
+      "id": 112,
+      "question": "El fragmento variable de las inmunoglobulinas se denomina:",
+      "options": {
+        "A": "Fab",
+        "B": "Fa",
+        "C": "Fac",
+        "D": "Fc"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Fab"
+    },
+    {
+      "id": 113,
+      "question": "Los Ac pueden inactivar los Ag por diversas formas:",
+      "options": {
+        "A": "Por aglutinación",
+        "B": "Por precipitación",
+        "C": "Por neutralización",
+        "D": "Todas son correctas"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 114,
+      "question": "Las Ig están constituidas por cadenas ligeras y pesadas. De las siguientes opciones, indicar cuál es una cadena ligera:",
+      "options": {
+        "A": "Alfa",
+        "B": "Delta",
+        "C": "Mu",
+        "D": "Lambda"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Lambda"
+    },
+    {
+      "id": 115,
+      "question": "Señala cuál es una cadena pesada de las Ig",
+      "options": {
+        "A": "Alfa",
+        "B": "Delta",
+        "C": "Mu",
+        "D": "Todas son cadenas pesadas"
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Todas son cadenas pesadas"
+    },
+    {
+      "id": 116,
+      "question": "En qué lugar se sintetizan la mayor parte de los componentes del complemento:",
+      "options": {
+        "A": "Sangre",
+        "B": "Hígado",
+        "C": "Bazo",
+        "D": "Páncreas"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Hígado"
+    },
+    {
+      "id": 117,
+      "question": "La combinación Ag-Ac es capaz de activar el Sistema del complemento:",
+      "options": {
+        "A": "A través de la vía clásica",
+        "B": "A través de la vía alternativa",
+        "C": "Ninguna es verdadera",
+        "D": "Las respuestas a y b son correctas"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "A través de la vía clásica"
+    },
+    {
+      "id": 118,
+      "question": "Las alergias se caracterizan:",
+      "options": {
+        "A": "Porque en un primer contacto con el alérgeno no se produce ningún síntoma.",
+        "B": "En un primer contacto se origina una activación de los linfocitos B.",
+        "C": "Porque en un primer contacto se produce la reacción alérgica.",
+        "D": "Todas son correctas."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Porque en un primer contacto con el alérgeno no se produce ningún síntoma."
+    },
+    {
+      "id": 119,
+      "question": "La hipersensibilidad tipo II esta mediada por:",
+      "options": {
+        "A": "lgE y mastocitos.",
+        "B": "lgG y respuestas citolítitas.",
+        "C": "lnmunocomplejos.",
+        "D": "Linfocitos T."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "lgG y respuestas citolítitas."
+    },
+    {
+      "id": 120,
+      "question": "La hipersensibilidad tipo IV esta mediada por:",
+      "options": {
+        "A": "lgE y mastocitos.",
+        "B": "lnmunocomplejos.",
+        "C": "Linfocitos T.",
+        "D": "Linfocitos B."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Linfocitos T."
+    },
+    {
+      "id": 121,
+      "question": "El tratamiento de una hipersensibilidad anafiláctica local consiste en:",
+      "options": {
+        "A": "Evitar el contacto.",
+        "B": "Hiposensibilización (vacunación).",
+        "C": "Antihistamínicos.",
+        "D": "Todas son correctas."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 122,
+      "question": "¿Dónde se encuentran los mastocitos?",
+      "options": {
+        "A": "Tejido conectivo del tracto respiratorio y digestivo.",
+        "B": "Piel y mucosas.",
+        "C": "Órganos linfoides.",
+        "D": "Las respuestas a, b y c son correctas."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Las respuestas a, b y c son correctas."
+    },
+    {
+      "id": 123,
+      "question": "No es una función de la heparina:",
+      "options": {
+        "A": "Formación de prurito.",
+        "B": "Anticoagulante.",
+        "C": "Estimulación de la fagocitosis.",
+        "D": "Inhibir al complemento"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Formación de prurito."
+    },
+    {
+      "id": 124,
+      "question": "Cuál es el primer mediador de anafilaxia:",
+      "options": {
+        "A": "Heparina.",
+        "B": "Dopamina.",
+        "C": "Serotonina.",
+        "D": "Histamina"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Histamina"
+    },
+    {
+      "id": 125,
+      "question": "La reacción del Manteaux (Mycobacterium TBC) es un ejemplo de:",
+      "options": {
+        "A": "Hipersensibilidad tipo I o anafiláctica.",
+        "B": "Hipersensibilidad tipo II o citotóxica.",
+        "C": "Hipersensibilidad tipo III o mediada por inmunocomplejos.",
+        "D": "Hipersensibilidad tipo IV, celular o retardada."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Hipersensibilidad tipo IV, celular o retardada."
+    },
+    {
+      "id": 126,
+      "question": "Uno de los siguientes efectos es producido por la histamina:",
+      "options": {
+        "A": "Inflamación.",
+        "B": "Activación del complemento.",
+        "C": "Vasoconstricción.",
+        "D": "Coagulación."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Inflamación."
+    },
+    {
+      "id": 127,
+      "question": "Los leucocitos responsables de la inmunidad humoral son:",
+      "options": {
+        "A": "Linfocitos B",
+        "B": "Linfocitos T",
+        "C": "Neutrófilos",
+        "D": "Monocitos"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Linfocitos B"
+    },
+    {
+      "id": 128,
+      "question": "¿Cuál de las subpoblaciones de linfocitos T proporciona la ayuda necesaria a las células B para que éstas proliferen y se diferencien hacia células productoras de anticuerpos?:",
+      "options": {
+        "A": "T5",
+        "B": "T8",
+        "C": "T4",
+        "D": "T10"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "T4"
+    },
+    {
+      "id": 129,
+      "question": "En los anticuerpos, las propiedades biológicas (pasaje placentario, fijación de complemento...) dependen de:",
+      "options": {
+        "A": "regiones N y e terminales.",
+        "B": "fracción Fab.",
+        "C": "Peso molecular.",
+        "D": "fracción Fc."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "fracción Fc."
+    },
+    {
+      "id": 130,
+      "question": "Ante una reacción alérgica grave, se debe realizar la determinación de triptasa en suero. Los niveles máximos se alcanzarán:",
+      "options": {
+        "A": "Entre 15 y 30 minutos del inicio de los síntomas.",
+        "B": "Entre 60 y 120 minutos del inicio de los síntomas.",
+        "C": "A las 12 horas del inicio de los síntomas.",
+        "D": "A las 24 horas del inicio de los síntomas."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Entre 60 y 120 minutos del inicio de los síntomas."
+    },
+    {
+      "id": 131,
+      "question": "¿Cuál de los siguientes, es un anticuerpo ANTI- ENA?",
+      "options": {
+        "A": "ANCA.",
+        "B": "LKM.",
+        "C": "RNP.",
+        "D": "ASMA."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "RNP."
+    },
+    {
+      "id": 132,
+      "question": "¿Cuál es la inmunoglobulina que se encuentra en mayor concentración en la saliva?:",
+      "options": {
+        "A": "IgA.",
+        "B": "IgE.",
+        "C": "IgG.",
+        "D": "IgM"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "IgA."
+    },
+    {
+      "id": 133,
+      "question": "¿Con cuál de los siguientes autoanticuerpos iniciaría el cribado de enfermedad autoinmune sistémica?:",
+      "options": {
+        "A": "Anti ENA.",
+        "B": "Anti IgM.",
+        "C": "Anti nuclear.",
+        "D": "Anti IgG."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Anti nuclear."
+    },
+    {
+      "id": 134,
+      "question": "¿Qué tipo de molécula HLA de las siguientes no es de clase I?:",
+      "options": {
+        "A": "HLA-A.",
+        "B": "HLA-C.",
+        "C": "HLA-DR.",
+        "D": "HLA-B"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "HLA-DR."
+    },
+    {
+      "id": 135,
+      "question": "¿Cuál de las siguientes inmunoglobulinas es la que se sintetiza de manera más precoz?",
+      "options": {
+        "A": "IgM.",
+        "B": "IgG.",
+        "C": "IgA.",
+        "D": "IgE."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "IgM."
+    },
+    {
+      "id": 136,
+      "question": "La enfermedad autoinmune que se manifiesta como una afectación inflamatoria crónica de las glándulas salivales y lagrimales se conoce como:",
+      "options": {
+        "A": "Fenómeno de Raynaud.",
+        "B": "Síndrome de Sjögren.",
+        "C": "Enfermedad de Basedow.",
+        "D": "Enfermedad de Crohn."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Síndrome de Sjögren."
+    },
+    {
+      "id": 137,
+      "question": "Las sustancias de bajo peso molecular que no son capaces, por sí mismas, de inducir una respuesta inmune, pero que cuando se unen a moléculas de peso molecular alto forman conjugados capaces de inducir una respuesta inmune, se denominan:",
+      "options": {
+        "A": "Portadores.",
+        "B": "Anticuerpos.",
+        "C": "Antígenos.",
+        "D": "Haptenos."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Haptenos."
+    },
+    {
+      "id": 138,
+      "question": "Los Anticuerpos podemos dividirlos en:",
+      "options": {
+        "A": "Naturales.",
+        "B": "Inmunes.",
+        "C": "A y B son correctas.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "A y B son correctas."
+    },
+    {
+      "id": 139,
+      "question": "¿Cuál de las siguientes enfermedades es una Enfermedad Autoinmune Sistémica?:",
+      "options": {
+        "A": "Enfermedad de Graves.",
+        "B": "Diabetes Mellitus tipo 1.",
+        "C": "Anemia Perniciosa.",
+        "D": "Síndrome Antifosfolípido."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Síndrome Antifosfolípido."
+    },
+    {
+      "id": 140,
+      "question": "De los parámetros de laboratorio siguientes, cuál NO es característico del Lupus Eritematoso Sistémico (LES):",
+      "options": {
+        "A": "Hipocomplementemia (C3, C4 o CH50).",
+        "B": "Leucopenia y linfopenia.",
+        "C": "Anticuerpos anti-ADN nativo-positivos.",
+        "D": "Leucocitosis."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Leucocitosis."
+    },
+    {
+      "id": 141,
+      "question": "Respecto al Factor Reumatoide, señale la RESPUESTA CORRECTA:",
+      "options": {
+        "A": "Es un anticuerpo de tipo IgM principalmente, que se detecta por nefelometría o ELISA",
+        "B": "Se detecta en todos los pacientes con Artritis reumatoide",
+        "C": "Es un lípido perjudicial para la salud",
+        "D": "Reconoce epítopos localizados en el fragmento Fab de la IgG"
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Es un anticuerpo de tipo IgM principalmente, que se detecta por nefelometría o ELISA"
+    },
+    {
+      "id": 142,
+      "question": "Señale cuál de las siguientes, NO es una de las principales funciones de los anticuerpos.",
+      "options": {
+        "A": "Neutralización de microorganismos y toxinas",
+        "B": "Opsonización y fagocitosis de microorganismos",
+        "C": "Activación del complemento",
+        "D": "Activación de la cascada de coagulación"
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Activación de la cascada de coagulación"
+    },
+    {
+      "id": 143,
+      "question": "¿Qué tipo de inmunoglobulina aparece primero en la hipersensibilidad inmediata?",
+      "options": {
+        "A": "lgA",
+        "B": "lgD",
+        "C": "lgM",
+        "D": "lgE"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "lgE"
+    },
+    {
+      "id": 144,
+      "question": "Un paciente con presencia de Anticuerpos Antipéptidos Citrulinados es susceptible de padecer:",
+      "options": {
+        "A": "Síndrome de Sjögren.",
+        "B": "Artritis Reumatoide (AR).",
+        "C": "Esclerosis sistémica.",
+        "D": "Lupus eritematoso sistémico."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Artritis Reumatoide (AR)."
+    },
+    {
+      "id": 145,
+      "question": "¿Cuáles son las principales células que participan en la respuesta inmune adquirida?",
+      "options": {
+        "A": "Macrófago",
+        "B": "Linfocitos",
+        "C": "Neutrófilos segmentados",
+        "D": "Plaquetas"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Linfocitos"
+    },
+    {
+      "id": 146,
+      "question": "¿Cuál de estas magnitudes no está relacionada con el diagnóstico del lupus eritematoso?",
+      "options": {
+        "A": "ANAS",
+        "B": "ADN",
+        "C": "Anticuerpos antifosfolípido",
+        "D": "Renina"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Renina"
+    },
+    {
+      "id": 147,
+      "question": "¿Cuál de las inmunoglobulinas séricas siguientes es la más abundante y, además, puede traspasar la barrera placentaria?",
+      "options": {
+        "A": "IgM",
+        "B": "IgG",
+        "C": "IgA",
+        "D": "IgE"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "IgG"
+    },
+    {
+      "id": 148,
+      "question": "¿Qué anticuerpo se produce ante la primera exposición a un antígeno?",
+      "options": {
+        "A": "IgA",
+        "B": "IgD",
+        "C": "IgM",
+        "D": "IgG"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "IgM"
+    },
+    {
+      "id": 149,
+      "question": "Señale cuál de estas inmunoglobulinas atraviesa la placenta:",
+      "options": {
+        "A": "IgG",
+        "B": "IgM",
+        "C": "IgE",
+        "D": "IgA"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "IgG"
+    },
+    {
+      "id": 150,
+      "question": "En una hepatitis por VHA, los primeros anticuerpos específicos que aparecen son de tipo:",
+      "options": {
+        "A": "IgM",
+        "B": "IgG",
+        "C": "IgE",
+        "D": "IgA"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "IgM"
+    },
+    {
+      "id": 151,
+      "question": "En la Cirrosis biliar primaria es característica la presencia de:",
+      "options": {
+        "A": "Anticuerpos antinucleares (ANA).",
+        "B": "Anticuerpos antimitocondriales (AMA).",
+        "C": "Anticuerpos antimúsculo liso (AML).",
+        "D": "Anticuerpos antiparietales (APA)."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos antimitocondriales (AMA)."
+    },
+    {
+      "id": 152,
+      "question": "¿Cómo se denominan los linfocitos encargados de inhibir la respuesta inmunitaria?",
+      "options": {
+        "A": "Células T efectoras.",
+        "B": "Células T supresoras.",
+        "C": "Células T citotóxicas.",
+        "D": "Células T enzimáticas"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Células T supresoras."
+    },
+    {
+      "id": 153,
+      "question": "¿Cómo se denomina la Hipersensibilidad de respuesta inmediata en la que intervienen antígeno, anticuerpo IgE, basófilos, mastocitos y eosinófilos?",
+      "options": {
+        "A": "Hipersensibilidad tipo III o Anafiláctica.",
+        "B": "Hipersensibilidad tipo IV o Retardada.",
+        "C": "Hipersensibilidad tipo II o Citotóxica.",
+        "D": "Hipersensibilidad tipo I o Anafiláctica."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Hipersensibilidad tipo I o Anafiláctica."
+    },
+    {
+      "id": 154,
+      "question": "¿Qué son los Interferones?",
+      "options": {
+        "A": "Son un grupo de proteínas importantes en la infección bacteriana, aumentando la expresión de moléculas HLA I y II.",
+        "B": "Son una clase de leucocitos que pueden reconocer los cambios de la superficie que se producen en algunas células infectadas por virus.",
+        "C": "Son un grupo de proteínas importantes en la infección vírica, activando células con capacidad para destruir las células diana infectadas.",
+        "D": "Son un grupo de veinte proteínas séricas que controlan la inflamación."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Son un grupo de proteínas importantes en la infección vírica, activando células con capacidad para destruir las células diana infectadas."
+    },
+    {
+      "id": 155,
+      "question": "El virus del SIDA se encuentra intracelularmente en:",
+      "options": {
+        "A": "Linfocitos T4.",
+        "B": "Células de glía.",
+        "C": "Macrófagos.",
+        "D": "Todas son correctas."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 156,
+      "question": "Las IgE intervienen en:",
+      "options": {
+        "A": "Inmunidad fetal.",
+        "B": "Inmunidad neonatal.",
+        "C": "Hipersensibilidad inmediata.",
+        "D": "Hipersensibilidad tardía."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Hipersensibilidad inmediata."
+    },
+    {
+      "id": 157,
+      "question": "¿Qué tipo de lnmunoglobulina se produce con mayor actividad en mucosas?",
+      "options": {
+        "A": "lgE",
+        "B": "lgA",
+        "C": "lgM",
+        "D": "lgG"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "lgA"
+    },
+    {
+      "id": 158,
+      "question": "¿Qué tipo de anticuerpo es el único que puede atravesar la placenta?",
+      "options": {
+        "A": "IgG",
+        "B": "IgM",
+        "C": "IgE",
+        "D": "IgD"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "IgG"
+    },
+    {
+      "id": 159,
+      "question": "Señales los principales fagocitos:",
+      "options": {
+        "A": "Macrófagos",
+        "B": "Granulocitos neutrófilos",
+        "C": "Monocitos",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 160,
+      "question": "Respecto al sistema mayor de histocompatibilidad, ¿cuál de las siguientes afirmaciones es CORRECTA?",
+      "options": {
+        "A": "Las moléculas HLA clase I forman parte del sistema del complemento.",
+        "B": "Las moléculas HLA clase II se expresan en todas las células nucleadas del organismo.",
+        "C": "Los genes del sistema HLA están ubicados en el cromosoma 9.",
+        "D": "El antígeno HLA-DR2 está relacionado con la esclerosis múltiple."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "El antígeno HLA-DR2 está relacionado con la esclerosis múltiple."
+    },
+    {
+      "id": 161,
+      "question": "La lgA se produce sobretodo en:",
+      "options": {
+        "A": "La médula ósea",
+        "B": "El bazo",
+        "C": "La piel",
+        "D": "El MALT"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "El MALT"
+    },
+    {
+      "id": 162,
+      "question": "En la médula de los ganglios linfáticos encontraremos:",
+      "options": {
+        "A": "Linfocitos T exclusivamente",
+        "B": "Linfocitos T, B y macrófagos",
+        "C": "Solamente linfocitos NK",
+        "D": "Células T y macrófagos exclusivamente"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Linfocitos T, B y macrófagos"
+    },
+    {
+      "id": 163,
+      "question": "Señale las principales regiones de una cadena de un anticuerpo:",
+      "options": {
+        "A": "Constante y variable",
+        "B": "Ligera y pesada",
+        "C": "Flexible e hipervariable",
+        "D": "Ligera y flexible"
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Constante y variable"
+    },
+    {
+      "id": 164,
+      "question": "¿Cuál de las siguientes subclases de IgG tiene mayor capacidad de activación del Complemento?:",
+      "options": {
+        "A": "IgG 1.",
+        "B": "IgG 2.",
+        "C": "IgG 3.",
+        "D": "IgG 4."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "IgG 3."
+    },
+    {
+      "id": 165,
+      "question": "¿Qué es el sistema HLA?:",
+      "options": {
+        "A": "Conjunto de células que permite diferenciar unos leucocitos de otros.",
+        "B": "Sistema de marcadores tumorales.",
+        "C": "Sistema de antígenos leucocitarios humanos.",
+        "D": "Sistema de genes diferenciador de linfocitos."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Sistema de antígenos leucocitarios humanos."
+    },
+    {
+      "id": 166,
+      "question": "¿Qué inmunoglobulina es el principal anticuerpo que se secreta hacia la sangre en las primeras fases de la respuesta inmune primaria?:",
+      "options": {
+        "A": "IgM.",
+        "B": "IgG.",
+        "C": "IgA",
+        "D": "IgD"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "IgM."
+    },
+    {
+      "id": 167,
+      "question": "¿Qué célula posee el receptor de IgE de alta afinidad?:",
+      "options": {
+        "A": "Linfocitos T.",
+        "B": "Linfocitos B",
+        "C": "Eosinofilos.",
+        "D": "Basófilos."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Basófilos."
+    },
+    {
+      "id": 168,
+      "question": "¿Qué componente del complemento ejerce una función de opsonización?",
+      "options": {
+        "A": "C3a",
+        "B": "C3b",
+        "C": "C5a",
+        "D": "C5b o"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "C3b"
+    },
+    {
+      "id": 169,
+      "question": "¿Qué tipo de hipersensibilidad que se da en las reacciones transfusionales?",
+      "options": {
+        "A": "Tipo I",
+        "B": "Tipo II",
+        "C": "Tipo III",
+        "D": "Tipo IV"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Tipo II"
+    },
+    {
+      "id": 170,
+      "question": "Cuando un individuo se pone en contacto con un antígeno va a ocurrir lo siguiente:",
+      "options": {
+        "A": "Aparición precoz de anticuerpo específico IgM, cuya concentración es alta y su permanencia corta.",
+        "B": "Aparición más tardía de inmunoglobulina IgG.",
+        "C": "Aparición más tardía de inmunoglobulina IgG y su concentración va disminuyendo.",
+        "D": "Aparición tardía de anticuerpo específico IgM"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Aparición más tardía de inmunoglobulina IgG."
+    },
+    {
+      "id": 171,
+      "question": "La anafilaxia se caracteriza por",
+      "options": {
+        "A": "Presentarse de forma aguda y general.",
+        "B": "Se manifiesta por prurito y eritema generalizado.",
+        "C": "Puede llegar al colapso.",
+        "D": "Todas las respuestas son ciertas."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son ciertas."
+    },
+    {
+      "id": 172,
+      "question": "¿Qué inmunoglobulina puede transportarse a través de las barreras mucosas del organismo?",
+      "options": {
+        "A": "IgA",
+        "B": "IgG",
+        "C": "IgM",
+        "D": "IgE"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "IgA"
+    },
+    {
+      "id": 173,
+      "question": "Son antígenos del complejo mayor de histocompatibilidad de clase II:",
+      "options": {
+        "A": "HLA-B27, HLA-A, HLA-C.",
+        "B": "HLA-DR, HLA-DQ, HLA DP.",
+        "C": "HLA-B27, HLA-Bw4, HLA-Bw6.",
+        "D": "HLA-E, HLA-F, HLA-G."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "HLA-DR, HLA-DQ, HLA DP."
+    },
+    {
+      "id": 174,
+      "question": "Las determinaciones de laboratorio más solicitadas desde una consulta de alergología son:",
+      "options": {
+        "A": "Determinación de IgA, test de activación de basófilos y determinación de IgM específica.",
+        "B": "ECP, determinación de IgM, determinación de IgE total.",
+        "C": "Determinación de IgE total, determinación de IgE específica y test de activación de basófilos.",
+        "D": "Determinación de IgA, determinación de IgM y ECP."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Determinación de IgE total, determinación de IgE específica y test de activación de basófilos."
+    },
+    {
+      "id": 175,
+      "question": "Sobre las inmunoglobulinas IgG podemos afirmar que:",
+      "options": {
+        "A": "Se segregan en el sudor y la saliva.",
+        "B": "Se segregan en fases tempranas de la respuesta inmunitaria primaria.",
+        "C": "Se asocian con enfermedades por hipersensibilidad inmediata como el asma.",
+        "D": "Representan el anticuerpo principal de la respuesta inmunitaria secundaria."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Representan el anticuerpo principal de la respuesta inmunitaria secundaria."
+    },
+    {
+      "id": 176,
+      "question": "¿Cómo se denomina el complejo que expresan los linfocitos B en su membrana capaz de reconocer al antígeno?:",
+      "options": {
+        "A": "TCR.",
+        "B": "BCR.",
+        "C": "Sistema complemento.",
+        "D": "HLA."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "BCR."
+    },
+    {
+      "id": 177,
+      "question": "Señale cuál de las relaciones enfermedad / alelo que predispone a padecerla es correcta:",
+      "options": {
+        "A": "Enfermedad celiaca / HLA-A1.",
+        "B": "Espondilitis anquilosante / HLA-B27.",
+        "C": "Miastenia gravis / HLA-A5.",
+        "D": "Diabetes mellitus / HLA-B3."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Espondilitis anquilosante / HLA-B27."
+    },
+    {
+      "id": 178,
+      "question": "La principal función de los eosinófilos es:",
+      "options": {
+        "A": "Fagocitar bacterias.",
+        "B": "Intervenir en la inmunidad antitumoral.",
+        "C": "Pasar a los tejidos y transformarse en macrófagos.",
+        "D": "Intervenir en reacciones alérgicas y antiparasitarias."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Intervenir en reacciones alérgicas y antiparasitarias."
+    },
+    {
+      "id": 179,
+      "question": "La inmunoglobulina M:",
+      "options": {
+        "A": "Suele aparecer en momentos precoces de la infección.",
+        "B": "Es el anticuerpo que se produce en reacciones alérgicas agudas.",
+        "C": "Solo indica que ha habido una infección pasada o crónica.",
+        "D": "No se encuentra en la sangre."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Suele aparecer en momentos precoces de la infección."
+    },
+    {
+      "id": 180,
+      "question": "Las células que atacan la membrana plasmática de células del propio organismo infectadas o que puedan ser cancerígenas, se denominan:",
+      "options": {
+        "A": "Células NK (Natural Killer).",
+        "B": "Plaquetas.",
+        "C": "Basófilos.",
+        "D": "Eosinófilos."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Células NK (Natural Killer)."
+    },
+    {
+      "id": 181,
+      "question": "Para realizar estudios de histocompatibilidad, se puede utilizar:",
+      "options": {
+        "A": "La técnica de microlinfocitotoxicidad.",
+        "B": "La prueba cruzada o cross-match.",
+        "C": "La detección de anticuerpos anti-HLA.",
+        "D": "Hay más de una respuesta correcta."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta."
+    },
+    {
+      "id": 182,
+      "question": "¿Qué célula puede producir anticuerpos?",
+      "options": {
+        "A": "Células NK",
+        "B": "Células T",
+        "C": "Macrófagos",
+        "D": "Células plasmáticas"
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Células plasmáticas"
+    },
+    {
+      "id": 183,
+      "question": "No se considera una vía de activación del sistema del complemento:",
+      "options": {
+        "A": "Vía clásica.",
+        "B": "Vía linfocítica.",
+        "C": "Vía alternativa.",
+        "D": "Vía de las lectinas."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Vía linfocítica."
+    },
+    {
+      "id": 184,
+      "question": "El antígeno es:",
+      "options": {
+        "A": "Un anticuerpo.",
+        "B": "Una sustancia producida por los linfocitos.",
+        "C": "Una sustancia extraña al organismo.",
+        "D": "Un complejo antígeno-anticuerpo."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Una sustancia extraña al organismo."
+    },
+    {
+      "id": 185,
+      "question": "¿Qué inmunoglobulina tiene la capacidad de traspasar la placenta humana?:",
+      "options": {
+        "A": "IgA.",
+        "B": "IgD.",
+        "C": "IgM.",
+        "D": "IgG."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "IgG."
+    },
+    {
+      "id": 186,
+      "question": "¿Cuál de las siguientes afirmaciones NO es correcta respecto a la Hipersensibilidad Tipo II?:",
+      "options": {
+        "A": "Aparece cuando un Ac (IgG, IgM) se enfrenta a sus Ag correspondientes situados en la membrana de una célula provocando su destrucción.",
+        "B": "Son reacciones que aparecen en minutos u horas.",
+        "C": "Puede darse en trasplantes de órganos.",
+        "D": "Se libera histamina y heparina."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Se libera histamina y heparina."
+    },
+    {
+      "id": 187,
+      "question": "¿Con qué componente se activa la vía alternativa del sistema complemento?:",
+      "options": {
+        "A": "C1.",
+        "B": "C2.",
+        "C": "C3.",
+        "D": "C4."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "C3."
+    },
+    {
+      "id": 188,
+      "question": "Pedro, paciente de 52 años ingresado con Covid- 19, ha participado en un estudio en el que se le administraba interferón beta (IFN-beta) como parte del tratamiento. El IFN-beta pertenece a un tipo de interferones ampliamente estudiados y que en la actualidad se utilizan como agentes terapéuticos para diversas enfermedades. Señale la respuesta correcta en relación al IFN- beta:",
+      "options": {
+        "A": "El IFN - beta es un interferón de tipo II que se usa para tratar la hepatitis C.",
+        "B": "El IFN-beta es un interferón de tipo 1 que se usa para tratar la esclerosis múltiple.",
+        "C": "EI IFN- beta es un interferón de tipo II y el que se usa con más frecuencia en el tratamiento del cáncer.",
+        "D": "El IFN- beta es un interferón de tipo I que j unto con el IFN- gamma es una de las citoquinas más importantes de la inmunidad en la tuberculosis pulmonar."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "El IFN-beta es un interferón de tipo 1 que se usa para tratar la esclerosis múltiple."
+    },
+    {
+      "id": 189,
+      "question": "Recientemente he sido diagnosticada de una deficiencia selectiva de inmunoglobulina A. Ha sido un hallazgo casual y afortunadamente soy asintomática. En relación a la lgA soy conocedora de que:",
+      "options": {
+        "A": "Esta inmunoglobulina atraviesa la placenta.",
+        "B": "La deficiencia selectiva de lgA es la inmunodeficiencia primaria más común.",
+        "C": "De las 5 inmunoglobulinas principales, es la que presenta menor concentración sérica.",
+        "D": "Se encuentra principalmente en las secreciones, en este caso en forma de monómero."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "La deficiencia selectiva de lgA es la inmunodeficiencia primaria más común."
+    },
+    {
+      "id": 190,
+      "question": "Señale la opción correcta en relación a la estructura de las inmunoglobulinas en una persona sana:",
+      "options": {
+        "A": "Existen 5 tipos diferentes de cadenas ligeras: alfa, mu, delta, gamma y épsilon.",
+        "B": "Existen 2 tipos de cadenas pesadas: kappa y lambda.",
+        "C": "En una misma molécula de inmunoglobulina las cadenas ligeras son del mismo tipo.",
+        "D": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "En una misma molécula de inmunoglobulina las cadenas ligeras son del mismo tipo."
+    },
+    {
+      "id": 191,
+      "question": "Señale la respuesta FALSA en relación al Sistema del Complemento:",
+      "options": {
+        "A": "Existen tres vías de actuación: la clásica, la alternativa y la de las lectinas.",
+        "B": "Es un sistema termolábil.",
+        "C": "Una característica de la vía clásica es su capacidad de perpetuar la producción de C3b.",
+        "D": "Una vez que se forma C3b por cualquiera de las vías, la vía alternativa actúa como un bucle de amplificación, incrementando la producción de C3b rápidamente."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Una característica de la vía clásica es su capacidad de perpetuar la producción de C3b."
+    },
+    {
+      "id": 192,
+      "question": "Sobre el complejo mayor de histocompatibilidad (MHC) NO es cierto que:",
+      "options": {
+        "A": "Los genes que lo determinan se encuentran en el brazo corto del cromosoma 6.",
+        "B": "Los linfocitos T CD8+ reconocen antígenos en el contexto de las moléculas de clase I del MHC.",
+        "C": "Los linfocitos T CD4+ reconocen antígenos en el contexto de las moléculas de clase II del MHC.",
+        "D": "Las moléculas de clase II se localizan en la membrana de, prácticamente, todas las células nucleadas."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Las moléculas de clase II se localizan en la membrana de, prácticamente, todas las células nucleadas."
+    },
+    {
+      "id": 193,
+      "question": "Todas EXCEPTO una son vías de activación del complemento:",
+      "options": {
+        "A": "Ruta de las lectinas.",
+        "B": "Vía clásica.",
+        "C": "Vía alternativa.",
+        "D": "Ruta opsonizante."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Ruta opsonizante."
+    },
+    {
+      "id": 194,
+      "question": "La inmunoglobulina característica de las reacciones alérgicas es:",
+      "options": {
+        "A": "IgG.",
+        "B": "IgE.",
+        "C": "IgM.",
+        "D": "IgA."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "IgE."
+    },
+    {
+      "id": 195,
+      "question": "Un paciente que presenta Anticuerpos Antipéptidos Citrulinados Cíclicos (anti-CCP) es susceptible de padecer:",
+      "options": {
+        "A": "Artritis Reumatoide.",
+        "B": "Lupus eritematoso sistémico.",
+        "C": "Miastenia gravis.",
+        "D": "Enfermedad de Graves."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Artritis Reumatoide."
+    },
+    {
+      "id": 196,
+      "question": "De las reacciones de hipersensibilidad, ¿cuál está mediada por la IgE?",
+      "options": {
+        "A": "Hipersensibilidad tipo I.",
+        "B": "Hipersensibilidad tipo II.",
+        "C": "Hipersensibilidad tipo III.",
+        "D": "Hipersensibilidad tipo IV."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Hipersensibilidad tipo I."
+    },
+    {
+      "id": 197,
+      "question": "¿Cuál NO es una vía de activación del complemento?",
+      "options": {
+        "A": "Vías de las lectinas.",
+        "B": "Vía alternativa.",
+        "C": "Vía común.",
+        "D": "Vía clásica."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Vía común."
+    },
+    {
+      "id": 198,
+      "question": "En una infección vírica aguda, en sangre predominan:",
+      "options": {
+        "A": "Basófilos.",
+        "B": "Neutrófilos.",
+        "C": "Linfocitos."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Linfocitos."
+    },
+    {
+      "id": 199,
+      "question": "¿Cuál es la primera inmunoglobulina sintetizada implicada en la respuesta humoral primaria?:",
+      "options": {
+        "A": "IgD.",
+        "B": "IgG.",
+        "C": "IgM."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "IgM."
+    },
+    {
+      "id": 200,
+      "question": "La acción de las inmunoglobulinas como anticuerpo es reconocer un determinado antígeno y combinarse con él. Esto depende de:",
+      "options": {
+        "A": "La región constante de la inmunoglobulina.",
+        "B": "La región variable de la inmunoglobulina.",
+        "C": "Las cadenas pesadas de la inmunoglobulina."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "La región variable de la inmunoglobulina."
+    },
+    {
+      "id": 201,
+      "question": "¿Cuáles son las tres vías fundamentales de activación del complemento?:",
+      "options": {
+        "A": "Vía de las convertasas, vía adaptativa, vía innata.",
+        "B": "Vía de las lecitinas, vía clásica, vía alternativa.",
+        "C": "Vía multiproteica, vía enzimática, vía lítica."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Vía de las lecitinas, vía clásica, vía alternativa."
+    },
+    {
+      "id": 202,
+      "question": "Cuando hablamos de hipersensibilidad de tipo Celular o retardada nos referimos a:",
+      "options": {
+        "A": "Hipersensibilidad de grado II.",
+        "B": "Hipersensibilidad de grado III.",
+        "C": "Hipersensibilidad de grado IV.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Hipersensibilidad de grado IV."
+    },
+    {
+      "id": 203,
+      "question": "¿Cuál es la función principal de las células T citotóxicas?",
+      "options": {
+        "A": "Producción de anticuerpos.",
+        "B": "Actuar como células presentadoras de antígenos.",
+        "C": "Activar a los linfocitos B.",
+        "D": "Destruir las células infectadas."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Destruir las células infectadas."
+    },
+    {
+      "id": 204,
+      "question": "Las inmunoglobulinas están formadas por:",
+      "options": {
+        "A": "Cuatro cadenas polipeptídicas: Dos pesadas y dos ligeras.",
+        "B": "Dos cadenas polipeptídicas: Una pesada y otra ligera.",
+        "C": "Tres cadenas polipeptídicas: Dos pesadas y una ligera.",
+        "D": "Cuatro cadenas polipeptídicas: Una pesada y tres ligeras."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Cuatro cadenas polipeptídicas: Dos pesadas y dos ligeras."
+    },
+    {
+      "id": 205,
+      "question": "¿Cuál es la principal función de los neutrófilos?",
+      "options": {
+        "A": "Controla las infecciones parasitarias.",
+        "B": "Vigilancia inmunitaria.",
+        "C": "La fagocitosis.",
+        "D": "Controla las reacciones anafilácticas."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "La fagocitosis."
+    },
+    {
+      "id": 206,
+      "question": "¿Qué sistema de grupo sanguíneo es el responsable de la enfermedad del injerto contra el huésped?",
+      "options": {
+        "A": "ABO.",
+        "B": "Rh.",
+        "C": "HLA.",
+        "D": "HPA."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "HLA."
+    },
+    {
+      "id": 207,
+      "question": "Algunos trastornos del sistema inmunitario se deben a una mala regulación de las interacciones entre las células del sistema inmune mediadas por citoquinas. ¿Cuál de las siguientes moléculas se incluye entre ellas?",
+      "options": {
+        "A": "lnterleukinas.",
+        "B": "Factores de necrosis tumoral.",
+        "C": "lnterferones.",
+        "D": "Todas las anteriores."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 208,
+      "question": "Las enfermedades autoinmunes se caracterizan por:",
+      "options": {
+        "A": "Producción de Ac o linfocitos T autorreactivos.",
+        "B": "Producción de Ac o linfocitos T hiperreactivos.",
+        "C": "Producción de Ac o linfocitos T hiporreactivos.",
+        "D": "Producción de Ag o linfocitos B autorreactivos."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Producción de Ac o linfocitos T autorreactivos."
+    },
+    {
+      "id": 209,
+      "question": "¿Qué son las opsoninas?",
+      "options": {
+        "A": "Reguladores del desarrollo hematopoyético de la serie linfoide.",
+        "B": "Factores de la vía extrínseca de la coagulación.",
+        "C": "Antígenos de superficie de parásitos intracelulares.",
+        "D": "Moléculas que facilitan la unión del fagocito al microorganismo."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Moléculas que facilitan la unión del fagocito al microorganismo."
+    },
+    {
+      "id": 210,
+      "question": "En el sistema inmunitario ¿cómo son conocidos los ganglios linfáticos, bazo y amígdalas?",
+      "options": {
+        "A": "Órganos linfáticos primarios.",
+        "B": "Órganos linfáticos secundarios.",
+        "C": "Órganos linfáticos terciarios.",
+        "D": "Órganos linfáticos básicos."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Órganos linfáticos secundarios."
+    },
+    {
+      "id": 211,
+      "question": "¿Qué tipo de linfocito se ve implicado en la respuesta inmunitaria innata?",
+      "options": {
+        "A": "Linfocito B.",
+        "B": "Linfocito T.",
+        "C": "Linfocito NK.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Linfocito NK."
+    },
+    {
+      "id": 212,
+      "question": "¿Qué técnica se utiliza para determinar la tipificación del HLA?",
+      "options": {
+        "A": "Aglutinación.",
+        "B": "Inmunodifusión.",
+        "C": "Precipitación.",
+        "D": "Microlinfocitotoxicidad."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Microlinfocitotoxicidad."
+    },
+    {
+      "id": 213,
+      "question": "Los anticuerpos son...",
+      "options": {
+        "A": "...lípidos.",
+        "B": "…glúcidos.",
+        "C": "...glucoproteínas.",
+        "D": "...lipoproteínas."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "...glucoproteínas."
+    },
+    {
+      "id": 214,
+      "question": "¿Cuál es la primera barrera contra las agresiones externas?",
+      "options": {
+        "A": "El macrófago.",
+        "B": "La célula estrellada.",
+        "C": "Los anticuerpos monoclonales.",
+        "D": "La piel."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "La piel."
+    },
+    {
+      "id": 215,
+      "question": "¿Cómo se encuentra la cifra de inmunoglobulinas en los enfermos con Lupus eritematoso sistémico?",
+      "options": {
+        "A": "Aumentada.",
+        "B": "Disminuida.",
+        "C": "No experimenta variación."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Aumentada."
+    },
+    {
+      "id": 216,
+      "question": "¿Cómo se denomina la máxima dilución de un Ac que da una reacción medible con un Ag?",
+      "options": {
+        "A": "Afinidad.",
+        "B": "Especificidad.",
+        "C": "Título."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Título."
+    },
+    {
+      "id": 217,
+      "question": "Una técnica adecuada para la determinación de los anticuerpos antinucleares es:",
+      "options": {
+        "A": "Inmunodifusión radial.",
+        "B": "Inmunofluorescencia indirecta.",
+        "C": "Nefelometría.",
+        "D": "Hemaglutinación."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Inmunofluorescencia indirecta."
+    },
+    {
+      "id": 218,
+      "question": "Señale la falsa:",
+      "options": {
+        "A": "En los órganos linfoides primarios se originan los linfocitos B y T.",
+        "B": "Los linfocitos B maduran en la médula ósea.",
+        "C": "Los linfocitos T maduran en el timo.",
+        "D": "Los linfocitos T son células que se ocupan de la formación de anticuerpos."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Los linfocitos T son células que se ocupan de la formación de anticuerpos."
+    },
+    {
+      "id": 219,
+      "question": "¿Cuál de las siguientes inmunoglobulinas es una proteína pentamérica?",
+      "options": {
+        "A": "lgA",
+        "B": "lgG",
+        "C": "lgM",
+        "D": "lgE"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "lgM"
+    },
+    {
+      "id": 220,
+      "question": "La inmunidad natural, también es conocida como:",
+      "options": {
+        "A": "Inmunidad innata.",
+        "B": "Inmunidad específica.",
+        "C": "Inmunidad adquirida.",
+        "D": "Inmunidad adaptativa."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Inmunidad innata."
+    },
+    {
+      "id": 221,
+      "question": "Los anticuerpos antitopoisomerasa I, son prácticamente específicos de la ES (Esclerosis Sistémica) también conocidos como:",
+      "options": {
+        "A": "Scl-70.",
+        "B": "ICA.",
+        "C": "IAA.",
+        "D": "GADA."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Scl-70."
+    },
+    {
+      "id": 222,
+      "question": "¿Cuál de los siguientes es un órgano linfoide primario?",
+      "options": {
+        "A": "Timo.",
+        "B": "Bazo.",
+        "C": "Ganglios linfáticos.",
+        "D": "Amígdalas."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Timo."
+    },
+    {
+      "id": 223,
+      "question": "En la respuesta inmunitaria humoral primaria, al tiempo que tarda el organismo en seleccionar un clon específico de LB y producir células plasmáticas secretoras de anticuerpos se denomina:",
+      "options": {
+        "A": "Periodo ventana.",
+        "B": "Seroconversión.",
+        "C": "Seroincremento.",
+        "D": "Fase de retardo."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Fase de retardo."
+    },
+    {
+      "id": 224,
+      "question": "¿En qué células son producidas las inmunoglobulinas?",
+      "options": {
+        "A": "Linfocitos NK",
+        "B": "Macrófagos",
+        "C": "Linfocitos T",
+        "D": "Linfocitos B"
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Linfocitos B"
+    },
+    {
+      "id": 225,
+      "question": "La enfermedad autoinmune caracterizada por cursar con debilidad muscular episódica, ptosis palpebral, diplopía y gran fatiga de los músculos tras realizar ejercicio, se denomina:",
+      "options": {
+        "A": "Anemia perniciosa autoinmune.",
+        "B": "Miastenia gravis.",
+        "C": "Tiroiditis de Hashimoto.",
+        "D": "Síndrome de Goodpasture."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Miastenia gravis."
+    },
+    {
+      "id": 226,
+      "question": "La hipersensibilidad de Tipo 1 está mediada por:",
+      "options": {
+        "A": "lgG",
+        "B": "lgM",
+        "C": "lgA",
+        "D": "lgE"
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "lgE"
+    },
+    {
+      "id": 227,
+      "question": "En cuál de las siguientes enfermedades están significativamente elevados los anticuerpos antinucleares (ANA):",
+      "options": {
+        "A": "Leucemia mieloblástica aguda",
+        "B": "Enfermedad de Van Willebrand",
+        "C": "Lupus eritematoso sistémico",
+        "D": "VIH"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Lupus eritematoso sistémico"
+    },
+    {
+      "id": 228,
+      "question": "¿Qué tipo de microscopio usaría para el estudio de enfermedades autoinmunes a través de la visualización de anticuerpos antinucleares (ANA) en portas con células Hep-2?",
+      "options": {
+        "A": "Microscopio óptico",
+        "B": "Microscopio de luz polarizada",
+        "C": "Microscopio de fluorescencia",
+        "D": "Microscopio de contraste de fases"
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Microscopio de fluorescencia"
+    },
+    {
+      "id": 229,
+      "question": "El eritema malar en \"alas de mariposa\" es una lesión característica de:",
+      "options": {
+        "A": "Artritis Juvenil.",
+        "B": "Lupus Eritematoso Sistémico.",
+        "C": "Síndrome de Sjögren.",
+        "D": "Enfermedad de Still del adulto."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Lupus Eritematoso Sistémico."
+    },
+    {
+      "id": 230,
+      "question": "Con respecto a la inmunidad innata, señale la respuesta correcta:",
+      "options": {
+        "A": "Integra a células fagocíticas y natural killer.",
+        "B": "Sus principales células son los linfocitos T y B.",
+        "C": "Da lugar a respuestas en las que produce la formación de anticuerpos.",
+        "D": "La vía del complemento no es uno de sus mecanismos efectores."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Integra a células fagocíticas y natural killer."
+    },
+    {
+      "id": 231,
+      "question": "Las principales células presentadoras de antígeno son:",
+      "options": {
+        "A": "Linfocitos B y neutrófilos.",
+        "B": "Linfocitos B, macrófagos y células dendríticas.",
+        "C": "Células de Langerhans, linfocitos B y macrófagos.",
+        "D": "Mastocitos y células dendríticas."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Linfocitos B, macrófagos y células dendríticas."
+    },
+    {
+      "id": 232,
+      "question": "Los principales linfocitos T que interaccionan con los linfocitos B son:",
+      "options": {
+        "A": "Linfocitos T citotóxicos.",
+        "B": "Linfocitos T supresores.",
+        "C": "Linfocitos T cooperadores.",
+        "D": "Linfocitos T de memoria."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Linfocitos T cooperadores."
+    },
+    {
+      "id": 233,
+      "question": "¿Cuál de las siguientes células inmunes NO suele circular en sangre?",
+      "options": {
+        "A": "Monocito.",
+        "B": "Eosinófilo.",
+        "C": "Macrófago.",
+        "D": "Neutrófilo."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Macrófago."
+    },
+    {
+      "id": 234,
+      "question": "La maduración de los linfocitos T tiene lugar:",
+      "options": {
+        "A": "En el timo.",
+        "B": "En la médula ósea.",
+        "C": "En el bazo.",
+        "D": "En los ganglios linfáticos."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "En el timo."
+    },
+    {
+      "id": 235,
+      "question": "Es la principal inmunoglobulina en el suero del adulto:",
+      "options": {
+        "A": "IgM.",
+        "B": "IgG.",
+        "C": "IgA.",
+        "D": "IgE."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "IgG."
+    },
+    {
+      "id": 236,
+      "question": "La enfermedad crónica e inflamatoria del músculo esquelético se denomina:",
+      "options": {
+        "A": "Polimiositis.",
+        "B": "Poliartritis.",
+        "C": "Poliartrosis.",
+        "D": "Artritis reumatoide."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Polimiositis."
+    },
+    {
+      "id": 237,
+      "question": "Tienen gran capacidad para fijar el complemento por la vía clásica:",
+      "options": {
+        "A": "IgE e IgA.",
+        "B": "IgM e IgE.",
+        "C": "IgM e IgG.",
+        "D": "IgG e IgA."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "IgM e IgG."
+    },
+    {
+      "id": 238,
+      "question": "Es la principal inmunoglobulina secretada durante los fenómenos de hipersensibilidad:",
+      "options": {
+        "A": "IgG.",
+        "B": "IgM.",
+        "C": "IgA.",
+        "D": "IgE."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "IgE."
+    },
+    {
+      "id": 239,
+      "question": "NO es una función propia de las inmunoglobulinas:",
+      "options": {
+        "A": "Neutralización de microorganismos patógenos.",
+        "B": "Activación de la vía del complemento.",
+        "C": "Opsonización.",
+        "D": "Mediadores de la inflamación."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Mediadores de la inflamación."
+    },
+    {
+      "id": 240,
+      "question": "Las células naturales killer:",
+      "options": {
+        "A": "No se consideran linfocitos.",
+        "B": "Son fundamentales en la respuesta inmune adaptativa.",
+        "C": "Ejercen su función por medio de la fagocitosis.",
+        "D": "Reconocen y destruyen células infectadas y tumorales."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Reconocen y destruyen células infectadas y tumorales."
+    },
+    {
+      "id": 241,
+      "question": "¿Cuál de los siguientes órganos se considera linfoide primario?",
+      "options": {
+        "A": "Bazo.",
+        "B": "Ganglios linfáticos.",
+        "C": "Tejido linfoide.",
+        "D": "Timo."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Timo."
+    },
+    {
+      "id": 242,
+      "question": "La hipersensibilidad de tipo I -ó anafiláctica- está mediada por:",
+      "options": {
+        "A": "IgG y respuestas citolíticas.",
+        "B": "Por linfocitos T.",
+        "C": "Por IgE y mastocitos.",
+        "D": "Por inmunocomplementos."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Por IgE y mastocitos."
+    },
+    {
+      "id": 243,
+      "question": "La primera línea de defensa frente a agentes infecciosos esta mediada por:",
+      "options": {
+        "A": "Inmunidad adaptativa.",
+        "B": "Inmunidad humoral.",
+        "C": "Inmunidad innata.",
+        "D": "Inmunidad celular."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Inmunidad innata."
+    },
+    {
+      "id": 244,
+      "question": "Cuando hablamos de un trasplante o injerto entre individuos de diferentes especies, nos referimos a:",
+      "options": {
+        "A": "Trasplante entre mellizos.",
+        "B": "Trasplante del mismo individuo.",
+        "C": "Trasplante alogénico.",
+        "D": "Trasplante xenogénico."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Trasplante xenogénico."
+    },
+    {
+      "id": 245,
+      "question": "La hipersensibilidad de tipo I ó anafiláctica está mediada:",
+      "options": {
+        "A": "Por IgG y respuestas citolíticas.",
+        "B": "Por linfocitos T.",
+        "C": "Por IgE y mastocitos.",
+        "D": "Por inmunocomplementos."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Por IgE y mastocitos."
+    },
+    {
+      "id": 246,
+      "question": "La inmunoglobulina más abundante en el suero humano es:",
+      "options": {
+        "A": "IgM.",
+        "B": "IgG.",
+        "C": "IgE.",
+        "D": "IgA."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "IgG."
+    },
+    {
+      "id": 247,
+      "question": "Señale las inmunoglobulinas que activan la vía clásica del complemento:",
+      "options": {
+        "A": "IgG e IgA.",
+        "B": "IgM e IgG.",
+        "C": "IgM e IgE."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "IgM e IgG."
+    },
+    {
+      "id": 248,
+      "question": "¿Cuál de las subpoblaciones de linfocitos T proporciona la ayuda necesaria a las células B para que estas proliferen y se diferencien hacia células productoras de anticuerpos?",
+      "options": {
+        "A": "T4.",
+        "B": "T5.",
+        "C": "T8."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "T4."
+    },
+    {
+      "id": 249,
+      "question": "La inmunidad celular depende de los:",
+      "options": {
+        "A": "Neutrófilos.",
+        "B": "Linfocitos T.",
+        "C": "Linfocitos B."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Linfocitos T."
+    },
+    {
+      "id": 250,
+      "question": "El sistema mononuclear fagocitario hepático está compuesto por:",
+      "options": {
+        "A": "Las células de Langerhans.",
+        "B": "Las células de Kupffer.",
+        "C": "Los histiocitos.",
+        "D": "Las células dendríticas."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Las células de Kupffer."
+    },
+    {
+      "id": 251,
+      "question": "Señale la opción correcta en cuanto a las diferencias entre la respuesta inmune primaria y la respuesta inmune secundaria:",
+      "options": {
+        "A": "La respuesta inmune primaria es de mayor intensidad que la secundaria.",
+        "B": "En la respuesta primaria predomina la IgM mientras que en la secundaria predomina la IgG.",
+        "C": "En la respuesta primaria predomina la IgG mientras que en la secundaria predomina la IgM.",
+        "D": "La respuesta primaria es cuantitativa y cualitativa, y la respuesta secundaria solamente cualitativa."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "En la respuesta primaria predomina la IgM mientras que en la secundaria predomina la IgG."
+    },
+    {
+      "id": 252,
+      "question": "Las moléculas del Complejo Mayor de Histocompatibilidad (MHC) clase I y II son reconocidas respectivamente por:",
+      "options": {
+        "A": "El receptor de linfocitos Th1 y Th2.",
+        "B": "El receptor de linfocitos CD8+ y CD4+.",
+        "C": "El receptor de los linfocitos B y receptor de los linfocitos T.",
+        "D": "El receptor de linfocitos CD4+ y CD8+."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "El receptor de linfocitos CD8+ y CD4+."
+    },
+    {
+      "id": 253,
+      "question": "¿Qué células del sistema leucocitario poseen el fenómeno de la fagocitosis?",
+      "options": {
+        "A": "Basófilos.",
+        "B": "Neutrófilos.",
+        "C": "Eosinófilos."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Neutrófilos."
+    },
+    {
+      "id": 254,
+      "question": "Son órganos linfoides secundarios:",
+      "options": {
+        "A": "Ganglios linfáticos, timo, bazo.",
+        "B": "Ganglios linfáticos, medula ósea, bazo.",
+        "C": "Médula ósea, timo y tejidos linfoides asociados a mucosas.",
+        "D": "Ganglios linfáticos, bazo, tejidos linfoides asociados a mucosas."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Ganglios linfáticos, bazo, tejidos linfoides asociados a mucosas."
+    },
+    {
+      "id": 255,
+      "question": "Las células dendríticas son células presentadoras de antígenos. ¿A qué células presentan los antígenos?",
+      "options": {
+        "A": "A los linfocitos T CD4 y T CD8.",
+        "B": "A los linfocitos T efectores.",
+        "C": "A los linfocitos B.",
+        "D": "A los macrófagos."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "A los linfocitos T CD4 y T CD8."
+    },
+    {
+      "id": 256,
+      "question": "¿Qué prueba farmacogenética se usa para el seguimiento del HIV?",
+      "options": {
+        "A": "HLA B27.",
+        "B": "HLA DQ 2.",
+        "C": "HLA B5701."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "HLA B5701."
+    },
+    {
+      "id": 257,
+      "question": "¿Qué son las células de Kupffer?",
+      "options": {
+        "A": "Células perisinusoidales.",
+        "B": "Células epiteliales de los conductos biliares.",
+        "C": "Células fagocíticas del sistema reticuloendoplásmico."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Células fagocíticas del sistema reticuloendoplásmico."
+    },
+    {
+      "id": 258,
+      "question": "La activación del complemento por la vía de las lectinas se inicia con:",
+      "options": {
+        "A": "La unión de la proteína MBL a azúcares de la superficie de las bacterias.",
+        "B": "La escisión espontánea de C3 en C3a y C3b.",
+        "C": "La unión de C1q a anticuerpos.",
+        "D": "La escisión del factor B en Ba y Bb por parte del factor D."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "La unión de la proteína MBL a azúcares de la superficie de las bacterias."
+    },
+    {
+      "id": 259,
+      "question": "En el tratamiento de la infección por VIH con antivirales se realizará la determinación previa del antígeno HLA B*5701 para prevenir reacciones de hipersensibilidad graves de que fármaco?",
+      "options": {
+        "A": "Lopinavir.",
+        "B": "Lamiduvina.",
+        "C": "Ritonavir.",
+        "D": "Abcavir"
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "Abcavir"
+    },
+    {
+      "id": 260,
+      "question": "La enfermedad mixta del tejido conectivo se caracteriza por la presencia de los siguientes anticuerpos:",
+      "options": {
+        "A": "títulos elevados de anti-RNP.",
+        "B": "títulos elevados de anti-sm.",
+        "C": "títulos elevados de anti-ssb.",
+        "D": "títulos elevados de anticuerpos antimitocondriales."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "títulos elevados de anti-RNP."
+    },
+    {
+      "id": 261,
+      "question": "¿Cuál de los siguientes autoanticuerpos se usa para el diagnóstico de la anemia perniciosa?:",
+      "options": {
+        "A": "Anti células parietales.",
+        "B": "Anti peroxidasa tiroidea.",
+        "C": "Anti receptor de TSH.",
+        "D": "Anti IgG Fc."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Anti células parietales."
+    },
+    {
+      "id": 262,
+      "question": "El HLA-B*27 positivo está altamente asociado a pacientes con:",
+      "options": {
+        "A": "Enfermedad inflamatoria intestinal con espondilitis.",
+        "B": "Espondilitis anquilosante.",
+        "C": "Uveítis anterior aguda.",
+        "D": "En todas las anteriores"
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "En todas las anteriores"
+    },
+    {
+      "id": 263,
+      "question": "El antígeno HLA fuertemente asociado a la espondilitis anquilosante es:",
+      "options": {
+        "A": "HLA-B27",
+        "B": "HLA-DR4",
+        "C": "HLA-B5",
+        "D": "HLA-B57"
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "HLA-B27"
+    },
+    {
+      "id": 264,
+      "question": "Respecto a la citometría de flujo, es FALSO:",
+      "options": {
+        "A": "Clasifica células en función de su tamaño y complejidad celular.",
+        "B": "Es utilizado para la determinación de subpoblaciones leucocitarias.",
+        "C": "Se puede utilizar para la determinación de subpoblaciones eritrocitarias.",
+        "D": "No es posible la determinación del antígeno HLA B27 por citometría de flujo."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "No es posible la determinación del antígeno HLA B27 por citometría de flujo."
+    },
+    {
+      "id": 265,
+      "question": "Qué parámetro sería la prueba más útil y sencilla en el diagnóstico de la anafilaxia desde el punto de vista del laboratorio:",
+      "options": {
+        "A": "Histamina.",
+        "B": "IgE específica.",
+        "C": "Triptasa.",
+        "D": "Test de activación de basófilos."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "Triptasa."
+    },
+    {
+      "id": 266,
+      "question": "En la actualidad se disponen de distintas pruebas in vitro para detectar una reacción de hipersensibilidad de tipo I o inmediata. De las pruebas que se detallan a continuación son todas válidas, excepto:",
+      "options": {
+        "A": "Triptasa.",
+        "B": "Test de transformación linfoblástica (TTL).",
+        "C": "Determinación de IgE específica.",
+        "D": "Test de activación de Basófilos."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Test de transformación linfoblástica (TTL)."
+    },
+    {
+      "id": 267,
+      "question": "¿Cuál de los siguientes anticuerpos son los más específicos de la esclerodermia sistémica progresiva?:",
+      "options": {
+        "A": "Anticentrómero.",
+        "B": "Anti-Scl 70.",
+        "C": "Anti-Sm.",
+        "D": "Anticentriolo."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Anti-Scl 70."
+    },
+    {
+      "id": 268,
+      "question": "La vía clásica de activación del complemento se inicia mediante la interacción del antígeno con el anticuerpo fijador de C1, esta reacción activa otra fracción del complemento. ¿Cuál es esta fracción?:",
+      "options": {
+        "A": "C2",
+        "B": "C3a",
+        "C": "C4",
+        "D": "C3b"
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "C4"
+    },
+    {
+      "id": 269,
+      "question": "Las técnicas que se basan en la detección del interferón gamma (IGRA):",
+      "options": {
+        "A": "No son fáciles de estandarizar ni de aplicar en el laboratorio.",
+        "B": "No evita la subjetividad de la interpretación en la lectura del resultado.",
+        "C": "No incorpora controles positivos, por lo que evitamos errores de lectura.",
+        "D": "Permiten discriminar a los individuos infectados por Mycobacterium tuberculosis de los vacunados por BCG y de los infectados por la mayoría de otras especies de micobacterias."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Permiten discriminar a los individuos infectados por Mycobacterium tuberculosis de los vacunados por BCG y de los infectados por la mayoría de otras especies de micobacterias."
+    },
+    {
+      "id": 270,
+      "question": "La primera línea celular inmunológica de defensa es constituida por:",
+      "options": {
+        "A": "Linfocitos B",
+        "B": "Linfocitos T",
+        "C": "Linfocitos NK",
+        "D": "Macrófagos"
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Macrófagos"
+    },
+    {
+      "id": 271,
+      "question": "¿Cuántas cadenas tiene un anticuerpo?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "4"
+    },
+    {
+      "id": 272,
+      "question": "La inmunidad celular está mediada por:",
+      "options": {
+        "A": "Los linfocitos T.",
+        "B": "Los linfocitos B.",
+        "C": "Los eosinófilos.",
+        "D": "Los mielocitos."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Los linfocitos T."
+    },
+    {
+      "id": 273,
+      "question": "Sobre qué tipo de célula se hace el estudio microscópico de una inmunofluorescencia indirecta de anticuerpos antinucleares:",
+      "options": {
+        "A": "MRC-5",
+        "B": "HeLa",
+        "C": "HEp2",
+        "D": "A549"
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "HEp2"
+    },
+    {
+      "id": 274,
+      "question": "En referencia a las hipersensibilidades inmunológicas, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "A": "El tipo I da reacciones en las que los Ag son neutralizados por lgG.",
+        "B": "El tipo III da reacciones Ag-Ac y produce inmunocomplejos circulantes.",
+        "C": "El tipo IV da reacciones de anticuerpos tipo IgM e IgE.",
+        "D": "El tipo IV da reacciones en las que los Ag se neutralizan específicamente con las IgA."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "El tipo III da reacciones Ag-Ac y produce inmunocomplejos circulantes."
+    },
+    {
+      "id": 275,
+      "question": "Muchas enfermedades autoinmunes se asocian a la presencia de moléculas de antígeno leucocitario humano (HLA). ¿Cuál de estas asociaciones es la correcta?",
+      "options": {
+        "A": "HLA DR4 se relaciona con la esclerosis múltiple.",
+        "B": "HLA DR2 se relaciona con la artritis reumatoide.",
+        "C": "HLA DR4 se relaciona con el síndrome de Reteiter.",
+        "D": "HLA DR3 se relaciona con la enfermedad de Graves."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "HLA DR3 se relaciona con la enfermedad de Graves."
+    },
+    {
+      "id": 276,
+      "question": "En referencia a los tipos de inmunidades, ¿cuál de las siguientes afirmaciones es la correcta?",
+      "options": {
+        "A": "La innata es específica y mediada por anticuerpos.",
+        "B": "La celular es adaptativa y mediada por linfocitos T.",
+        "C": "La humoral es inmediata y está mediada por células fagocíticas.",
+        "D": "La adquirida no es antígeno especifica humoral, es inmediata y está células fagocíticas."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "La celular es adaptativa y mediada por linfocitos T."
+    },
+    {
+      "id": 277,
+      "question": "Estudiando la funcionalidad de los linfocitos T, podemos asegurar que:",
+      "options": {
+        "A": "Los “natural killers’ no expresan TCR en su membrana.",
+        "B": "Los citotóxicos inician la cascada de la respuesta celular.",
+        "C": "Los “helper” activan la apoptosis de la célula diana.",
+        "D": "Los reguladores/supresores regulan el final la inmunidad humoral."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Los “natural killers’ no expresan TCR en su membrana."
+    },
+    {
+      "id": 278,
+      "question": "Respecto a los trasplantes, ¿cuál de las siguientes afirmaciones es correcta?",
+      "options": {
+        "A": "Los trasplantes en un mismo individuo se llaman xenogénicos.",
+        "B": "Los trasplantes entre individuos de la misma especie se llaman autógenos.",
+        "C": "Los trasplantes entre individuos de diferentes especies se llaman xenogénicos.",
+        "D": "Los trasplantes en un mismo individuo se llaman alogénicos."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "Los trasplantes entre individuos de diferentes especies se llaman xenogénicos."
+    },
+    {
+      "id": 279,
+      "question": "En el estudio de la funcionalidad de los linfocitos B, podemos afirmar que:",
+      "options": {
+        "A": "Derivan de células madre hematopoyéticas de la médula ósea y maduran en el timo.",
+        "B": "Maduran en el bazo y otros tejidos linfoides secundarios.",
+        "C": "El linfocito B citotóxico activa la apoptosis de la célula diana.",
+        "D": "El linfocito B NK “natural killer” no expresa TCR a su membrana."
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Maduran en el bazo y otros tejidos linfoides secundarios."
+    },
+    {
+      "id": 280,
+      "question": "¿Cuál de estos anticuerpos NO organoespecíficos van dirigidos contra el nucleosoma?",
+      "options": {
+        "A": "Ac anti histonas",
+        "B": "Ac anti ScI70",
+        "C": "Ac anti Ro/SSA",
+        "D": "Ac anti La/SSB"
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Ac anti histonas"
+    },
+    {
+      "id": 281,
+      "question": "Respecto a la actividad funcional de las citocinas, cuál de las siguientes afirmaciones es FALSA:",
+      "options": {
+        "A": "Actúan como señales de comunicación entre diferentes tipos de leucocitos.",
+        "B": "Participan en procesos relacionados con la respuesta inmunitaria.",
+        "C": "Sólo ejercen efectos biológicos en las células del sistema inmunitario.",
+        "D": "La redundancia es una característica funcional."
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "Sólo ejercen efectos biológicos en las células del sistema inmunitario."
+    },
+    {
+      "id": 282,
+      "question": "Los antígenos de clase I se localizan:",
+      "options": {
+        "A": "En las células detríticas",
+        "B": "En las células epiteliales y linfocitos T activados",
+        "C": "En las células nucleadas y plaquetas",
+        "D": "En los linfocitos B"
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "En las células nucleadas y plaquetas"
+    },
+    {
+      "id": 283,
+      "question": "La vía clásica de activación del complemento:",
+      "options": {
+        "A": "No requiere formación de complejos antígeno- anticuerpo",
+        "B": "Se activa por formación de complejos antígeno- anticuerpo",
+        "C": "Se activa por los componentes bacterianos del tipo polisacáridos",
+        "D": "Es activada por todas las inmunoglobulinas"
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Se activa por formación de complejos antígeno- anticuerpo"
+    },
+    {
+      "id": 284,
+      "question": "Los antígenos de sustancias químicas como lanolina, metales que producen dermatitis de contacto, medicamentos tópicos y microorganismos intracelulares (protozoos, Mycobacterium TBC, hongos…) desencadenan reacciones del tipo:",
+      "options": {
+        "A": "Hipersensibilidad tipo II",
+        "B": "Hipersensibilidad tipo III",
+        "C": "Hipersensibilidad I",
+        "D": "Hipersensibilidad tipo IV"
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Hipersensibilidad tipo IV"
+    },
+    {
+      "id": 285,
+      "question": "¿Cuál es la célula con mayor capacidad fagocitaria?",
+      "options": {
+        "A": "Mastocitos",
+        "B": "Neutrófilos",
+        "C": "Eosinófilos",
+        "D": "Basófilos"
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Neutrófilos"
+    },
+    {
+      "id": 286,
+      "question": "Se conoce como factor estimulador de células B a:",
+      "options": {
+        "A": "IL2",
+        "B": "IL7",
+        "C": "IL4",
+        "D": "IL12"
+      },
+      "page": 27,
+      "correctAnswer": "C",
+      "correctText": "IL4"
+    },
+    {
+      "id": 287,
+      "question": "¿Por qué componentes del sistema del Complemento está formada la unidad de ataque a la membrana que lleva a la lisis de la célula diana?",
+      "options": {
+        "A": "Por todos",
+        "B": "Por C1, C2, C3, C4",
+        "C": "Por C5, C6, C7, C8 y C9",
+        "D": "Por C1, C4, C2"
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Por C5, C6, C7, C8 y C9"
+    },
+    {
+      "id": 288,
+      "question": "Los órganos linfoides primarias son:",
+      "options": {
+        "A": "Bazo y ganglios linfáticas",
+        "B": "Placas de Peyer y amígdalas",
+        "C": "El hígado y el bazo",
+        "D": "El timo, medula ósea y el hígado fetal"
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "El timo, medula ósea y el hígado fetal"
+    },
+    {
+      "id": 289,
+      "question": "¿Cuál de los siguientes autoanticuerpos es muy característico de la artritis reumatoide?",
+      "options": {
+        "A": "Anticuerpos anti-tiroglobulina",
+        "B": "ANCA (anticuerpos contra el citoplasma del neutrófilo)",
+        "C": "Anticuerpos anti-péptidos cíclicos citrulinados",
+        "D": "Anticuerpos anti-AON de doble cadena"
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos anti-péptidos cíclicos citrulinados"
+    },
+    {
+      "id": 290,
+      "question": "¿Qué tipo de inmunoglobulina se produce de forma preferente contra los helmintos?",
+      "options": {
+        "A": "lgE",
+        "B": "IgA",
+        "C": "lgM",
+        "D": "IgG"
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "lgE"
+    },
+    {
+      "id": 291,
+      "question": "¿Qué órgano o tejido linfoide drena los antígenos de la sangre?",
+      "options": {
+        "A": "Medula ósea",
+        "B": "Bazo",
+        "C": "Ganglio zonal",
+        "D": "MALT"
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Bazo"
+    },
+    {
+      "id": 292,
+      "question": "¿Cómo se llama el proceso por el que la fagocitación de los gérmenes es facilitada por la unión a estos de sustancias como la lgG o fragmentos del complemento? A Diapédesis.",
+      "options": {
+        "B": "Quimiotactismo.",
+        "C": "Opsonización.",
+        "D": "Marginación."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Opsonización."
+    },
+    {
+      "id": 293,
+      "question": "¿Qué tipo de reacción de hipersensibilidad se produce en el test de la tuberculina o Mantoux?",
+      "options": {
+        "A": "Tipo I.",
+        "B": "Tipo II.",
+        "C": "Tipo III.",
+        "D": "Tipo IV."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Tipo IV."
+    },
+    {
+      "id": 294,
+      "question": "¿Qué anticuerpos circulantes son los que activan la aparición de los inmunocomplejos?:",
+      "options": {
+        "A": "IgD.",
+        "B": "IgM ó IgG.",
+        "C": "IgE.",
+        "D": "IgA."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "IgM ó IgG."
+    },
+    {
+      "id": 295,
+      "question": "¿Qué tipo de alteración inmunitaria se produce en la enfermedad granulomatosa crónica?",
+      "options": {
+        "A": "Deficiencia de la función fagocítica.",
+        "B": "Deficiencia en el sistema del complemento.",
+        "C": "Deficiencia de anticuerpos.",
+        "D": "Deficiencias combinadas."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Deficiencia de la función fagocítica."
+    },
+    {
+      "id": 296,
+      "question": "¿Cuál de las siguientes opciones no es un tipo de linfocito?",
+      "options": {
+        "A": "Células dendríticas.",
+        "B": "Células NK.",
+        "C": "Linfocitos B.",
+        "D": "Linfocitos T."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Células dendríticas."
+    },
+    {
+      "id": 297,
+      "question": "Los linfoticos T colaboradores helper presentan en su superficie el marcador:",
+      "options": {
+        "A": "CD4 (T4).",
+        "B": "CD8 (T8).",
+        "C": "Ninguno.",
+        "D": "Ambos."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "CD4 (T4)."
+    },
+    {
+      "id": 298,
+      "question": "La hipersensibilidad de tipo I esta mediada por:",
+      "options": {
+        "A": "Ig G.",
+        "B": "Ig M.",
+        "C": "Ig A.",
+        "D": "Ig E."
+      },
+      "page": 29,
+      "correctAnswer": "D",
+      "correctText": "Ig E."
+    },
+    {
+      "id": 299,
+      "question": "¿En cuál de las siguientes enfermedades están significativamente elevados los anticuerpos antinucleares (ANA)?:",
+      "options": {
+        "A": "Leucemia mieloblástica aguda.",
+        "B": "Enfermedad de Von Willebrand.",
+        "C": "Lupus eritematoso sistémico.",
+        "D": "VIH."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Lupus eritematoso sistémico."
+    },
+    {
+      "id": 300,
+      "question": "Al realizar la toma de muestra para la determinación del test IGRA (Interferón Gamma o quantiferon), en paciente con sospecha de infección por M. tuberculosis, nos llegará a recepción:",
+      "options": {
+        "A": "Cuatro tubos que se habrán extraído en el siguiente orden: Gris, amarillo, verde y morado, llevándolos inmediatamente al laboratorio de microbiología ya que requiere una incubación a 37ºC entre 18 y 24 horas.",
+        "B": "Cuatro tubos que se habrán extraído en el siguiente orden: Gris, amarillo, azul y verde a temperatura ambiente.",
+        "C": "Cuatro tubos que se habrán extraído en el siguiente orden: Amarillo, gris, verde y morado, llevándolos inmediatamente al laboratorio de microbiología en un recipiente con hielo, ya que necesita una temperatura no superior a 2ºC.",
+        "D": "Tres tubos que se habrán extraído con el siguiente orden: Gris, verde y morado, no requiere una temperatura específica, pero sí hacer lo antes posible su análisis."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "Cuatro tubos que se habrán extraído en el siguiente orden: Gris, amarillo, verde y morado, llevándolos inmediatamente al laboratorio de microbiología ya que requiere una incubación a 37ºC entre 18 y 24 horas."
+    },
+    {
+      "id": 301,
+      "question": "El trasplante entre individuos de la misma especie se denomina:",
+      "options": {
+        "A": "Autólogo.",
+        "B": "Singénico o isólogo.",
+        "C": "Alogénico.",
+        "D": "Xenogénico"
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Alogénico."
+    },
+    {
+      "id": 302,
+      "question": "De los siguientes, señala cuál no es un órgano linfoide secundario:",
+      "options": {
+        "A": "Médula ósea.",
+        "B": "Ganglios linfáticos.",
+        "C": "Apéndice vermiforme.",
+        "D": "Adenoides."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "Médula ósea."
+    },
+    {
+      "id": 303,
+      "question": "El complejo molecular CD3",
+      "options": {
+        "A": "Es un conjunto de proteínas que interaccionan entre sí y tienen el papel de destruir enzimáticamente las dianas.",
+        "B": "Llega a las regiones de inflamación por la acción de quicio-atrayentes.",
+        "C": "Es un marcador de las células T que asiste en la traducción de la señal al interior de la célula, cuando un antígeno se une al TCR en la superficie linfocitaria",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 29,
+      "correctAnswer": "C",
+      "correctText": "Es un marcador de las células T que asiste en la traducción de la señal al interior de la célula, cuando un antígeno se une al TCR en la superficie linfocitaria"
+    },
+    {
+      "id": 304,
+      "question": "¿Dónde se produce la activación de los linfocitos T específica para un antígeno?",
+      "options": {
+        "A": "En los ganglios linfáticos a través del contacto con las células dendríticas.",
+        "B": "En cualquier sitio donde se encuentren con el antígeno.",
+        "C": "En cualquier sitio que encuentren una célula dendrítica inmadura.",
+        "D": "En el sitio de infección al entrar en contacto con el patógeno."
+      },
+      "page": 29,
+      "correctAnswer": "A",
+      "correctText": "En los ganglios linfáticos a través del contacto con las células dendríticas."
+    },
+    {
+      "id": 305,
+      "question": "¿Cuál es la función principal del timo?",
+      "options": {
+        "A": "Es el órgano donde los linfocitos T senescentes van a morir.",
+        "B": "Es el órgano donde se produce la maduración de los linfocitos T.",
+        "C": "Es el órgano linfoide donde maduran las células linfoides.",
+        "D": "Es el órgano donde residen los linfocitos de memoria hasta la senescencia."
+      },
+      "page": 29,
+      "correctAnswer": "B",
+      "correctText": "Es el órgano donde se produce la maduración de los linfocitos T."
+    },
+    {
+      "id": 306,
+      "question": "¿Cómo se llama los linfocitos CD8+?",
+      "options": {
+        "A": "Linfocitos T supresores",
+        "B": "Natural Killer",
+        "C": "Linfocitos T cooperadores",
+        "D": "Linfocitos B"
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Linfocitos T supresores"
+    },
+    {
+      "id": 307,
+      "question": "Respecto al sistema inmunitario, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Las plaquetas desempeñan un papel en la respuesta inmune",
+        "B": "Los linfocitos B son los responsables de la respuesta inmune celular",
+        "C": "Los eosinófilos son muy efectivos contra los helmintos",
+        "D": "Las células Nk lisan células tumorales"
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Los linfocitos B son los responsables de la respuesta inmune celular"
+    },
+    {
+      "id": 308,
+      "question": "Linfocitos T:",
+      "options": {
+        "A": "Son los responsables de la inmunidad humoral.",
+        "B": "Son los responsables de la inmunidad celular.",
+        "C": "Intervienen en el marcaje de células para que sean atacadas por otros leucocitos.",
+        "D": "Intervienen en la defensa contra gérmenes extracelulares."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Son los responsables de la inmunidad celular."
+    },
+    {
+      "id": 309,
+      "question": "Célula del sistema inmunitario que contiene granzimas en sus gránulos:",
+      "options": {
+        "A": "Células NK.",
+        "B": "Células plasmáticas.",
+        "C": "Linfocitos B.",
+        "D": "Macrófagos."
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Células NK."
+    },
+    {
+      "id": 310,
+      "question": "Son zonas de un ganglio linfático:",
+      "options": {
+        "A": "Pulpa roja y pulpa blanca.",
+        "B": "Seno subcapsular, corteza, paracorteza y médula.",
+        "C": "Corteza y medula ósea.",
+        "D": "Cuerpo y cola."
+      },
+      "page": 30,
+      "correctAnswer": "B",
+      "correctText": "Seno subcapsular, corteza, paracorteza y médula."
+    },
+    {
+      "id": 311,
+      "question": "¿Cuál de las siguientes células intervienen en la maduración de los linfocitos B?",
+      "options": {
+        "A": "Las células basales.",
+        "B": "Las células pro – T.",
+        "C": "Las células Bo.",
+        "D": "Las células estromales."
+      },
+      "page": 30,
+      "correctAnswer": "D",
+      "correctText": "Las células estromales."
+    },
+    {
+      "id": 312,
+      "question": "El lugar dónde se destruyen los linfocitos B es",
+      "options": {
+        "A": "Riñón.",
+        "B": "Médula ósea.",
+        "C": "Bazo.",
+        "D": "Timo."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Bazo."
+    },
+    {
+      "id": 313,
+      "question": "¿Cuál de los siguientes órganos linfoides es a la vez órgano linfoide primario y órgano linfoide secundario?",
+      "options": {
+        "A": "Timo.",
+        "B": "Bazo.",
+        "C": "Médula ósea.",
+        "D": "Ganglios linfáticos."
+      },
+      "page": 30,
+      "correctAnswer": "C",
+      "correctText": "Médula ósea."
+    },
+    {
+      "id": 314,
+      "question": "¿Cuál de las siguientes opciones no es correcta respecto a las técnicas inmunológicas para determinar la producción de citoquinas?",
+      "options": {
+        "A": "Los ensayos ELISA son más sensibles que los ELISPOT.",
+        "B": "La prueba del interferón gamma se basa en la detección mediante ELISA tipo sandwich del interferón gamma producido por linfocitos Th1 tras su estimulación con el antígeno.",
+        "C": "El ELISPOT es el ensayo por inmunoadsorción ligado a enzimas de puntos.",
+        "D": "Se puede emplear la citometría de flujo para la detección de citoquinas intracelulares."
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Los ensayos ELISA son más sensibles que los ELISPOT."
+    },
+    {
+      "id": 315,
+      "question": "Los linfocitos B:",
+      "options": {
+        "A": "Maduran en la medula ósea y complementan este proceso en el bazo.",
+        "B": "Maduran en el timo.",
+        "C": "Maduran en el torrente circulatorio",
+        "D": "Maduran en el hígado"
+      },
+      "page": 30,
+      "correctAnswer": "A",
+      "correctText": "Maduran en la medula ósea y complementan este proceso en el bazo."
+    }
+  ]
+}

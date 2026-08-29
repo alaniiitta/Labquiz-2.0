@@ -1,0 +1,3765 @@
+{
+  "tema": "14_2_3",
+  "titulo": "Virus y hongos (14.2 y 14.3)",
+  "source_file": "Test tema 14.2 virus y hongos (respuestas) (1).pdf",
+  "total_questions": 290,
+  "questions": [
+    {
+      "id": 1,
+      "question": "El virus de la gripe es:",
+      "options": {
+        "A": "Virus ADN envuelto con estructura compleja y multiplicación citoplasmática.",
+        "B": "Virus ARN desnudo con estructura icosaédrica y multiplicación citoplasmática.",
+        "C": "Virus ARN envuelto con estructura helicoidal y multiplicación nuclear.",
+        "D": "Virus ADN desnudo con estructura icosaédrica y multiplicación nuclear."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Virus ARN envuelto con estructura helicoidal y multiplicación nuclear."
+    },
+    {
+      "id": 2,
+      "question": "El primer marcador virológico detectable en el suero de un paciente con hepatitis aguda B es:",
+      "options": {
+        "A": "HBsAg.",
+        "B": "HBcAg.",
+        "C": "HBeAg.",
+        "D": "anti-HBc IgM."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "HBsAg."
+    },
+    {
+      "id": 3,
+      "question": "La reacción de Paul-Bunnel es positiva en la:",
+      "options": {
+        "A": "Leucemia mieloide crónica.",
+        "B": "Mononucleosis infecciosa.",
+        "C": "Anemia hemolítica enzimopática.",
+        "D": "Anemia ferropénica."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Mononucleosis infecciosa."
+    },
+    {
+      "id": 4,
+      "question": "Los picornavirus producen:",
+      "options": {
+        "A": "Cáncer.",
+        "B": "Polio.",
+        "C": "Sarampión.",
+        "D": "Varicela."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Polio."
+    },
+    {
+      "id": 5,
+      "question": "Cuando un virus se transmite de la madre al feto durante el embarazo, se habla de:",
+      "options": {
+        "A": "Transmisión vertical.",
+        "B": "Transmisión horizontal.",
+        "C": "Transmisión oblicua.",
+        "D": "Todas son falsas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Transmisión vertical."
+    },
+    {
+      "id": 6,
+      "question": "La mononucleosis infecciosa está producida por:",
+      "options": {
+        "A": "Citomegalovirus.",
+        "B": "Epstein-Barr.",
+        "C": "Togavirus.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Epstein-Barr."
+    },
+    {
+      "id": 7,
+      "question": "Se pueden identificar, interpretar y determinar los resultados de un cultivo celular de virus en tubo de una de estas formas:",
+      "options": {
+        "A": "Por aglutinación.",
+        "B": "Por sedimentación.",
+        "C": "Por efecto citopático.",
+        "D": "Por efecto antibiótico."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Por efecto citopático."
+    },
+    {
+      "id": 8,
+      "question": "La familia herpesviridae está compuesta por una serie de virus de gran importancia, los principales son:",
+      "options": {
+        "A": "Herpes simple, Varicela-Zoster, Citomegalovirus y Epstein-Barr.",
+        "B": "Herpes simple, Varicela-Zoster, Citomegalovirus y Parotiditis.",
+        "C": "Herpes simple, Varicela-Zoster, Parvovirus y Epstein-Barr.",
+        "D": "Herpes simple, Varicela-Zoster, Adenovirus y Parotiditis."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Herpes simple, Varicela-Zoster, Citomegalovirus y Epstein-Barr."
+    },
+    {
+      "id": 9,
+      "question": "El virus de la hepatitis d (VHD), es un virus incompleto que requiere…….",
+      "options": {
+        "A": "VHC para su replicación.",
+        "B": "VHA para su replicación.",
+        "C": "VHB para su replicación.",
+        "D": "Todas son válidas."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "VHB para su replicación."
+    },
+    {
+      "id": 10,
+      "question": "En una persona vacunada de la hepatitis b, ¿qué marcador frente al virus debe detectarse?",
+      "options": {
+        "A": "HbsAg",
+        "B": "HbcAc",
+        "C": "HbsAc",
+        "D": "HbeAg"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "HbsAc"
+    },
+    {
+      "id": 11,
+      "question": "En la preparación de medios de cultivo para virus, ¿que se añadirá antes de utilizarlo?",
+      "options": {
+        "A": "Indicadores, iones y factores de crecimiento.",
+        "B": "L-Glutamina, antibióticos y suero bovino fetal",
+        "C": "MEM, PBS y FICOLL.",
+        "D": "VERO y unas gotas de MRC-5."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "L-Glutamina, antibióticos y suero bovino fetal"
+    },
+    {
+      "id": 12,
+      "question": "En relación a las infecciones por virus respiratorios indique cuál de las siguientes afirmaciones es falsa:",
+      "options": {
+        "A": "Los rinovirus son la causa más frecuente de catarro común en los adultos.",
+        "B": "El virus parainfluenza tipo 1 es el agente responsable del mayor número de casos de laringo- traqueobronquitis aguda.",
+        "C": "Los virus parainfluenza suelen aparecer de forma epidémica, habitualmente en verano",
+        "D": "Los brotes de gripe, se suelen producir en invierno y al comienzo de la primavera."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Los virus parainfluenza suelen aparecer de forma epidémica, habitualmente en verano"
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál de las siguientes características describe mejor al Papilomavirus Humano?",
+      "options": {
+        "A": "Un virus envuelto, con ADN lineal bicatenario.",
+        "B": "Un virus desnudo, con ADN circular bicatenario.",
+        "C": "Un virus envuelto, con ARN monocatenario (de sentido negativo).",
+        "D": "Un virus desnudo, con ADN lineal bicatenario."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Un virus desnudo, con ADN circular bicatenario."
+    },
+    {
+      "id": 14,
+      "question": "La roséola o exantema súbito es producido por el virus",
+      "options": {
+        "A": "Herpes tipo 8",
+        "B": "Parvovirus B19",
+        "C": "De la rubéola",
+        "D": "Herpes tipo 6"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Herpes tipo 6"
+    },
+    {
+      "id": 15,
+      "question": "Ante la sospecha de encefalitis por Herpes simple 1 (VHS-1) ¿qué método diagnóstico considera de elección?:",
+      "options": {
+        "A": "Cultivo de líquido cefalorraquídeo (LCR).",
+        "B": "PCR de LCR.",
+        "C": "Detección de anticuerpos de la clase IgM en suero.",
+        "D": "Antigenemia cuantitativa."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "PCR de LCR."
+    },
+    {
+      "id": 16,
+      "question": "Un brote diarreico en una residencia de ancianos en el cual los cultivos bacterianos son negativos hace sospechar como causa principal",
+      "options": {
+        "A": "Rotavirus",
+        "B": "Adenovirus",
+        "C": "Norovirus",
+        "D": "Astrovirus"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Norovirus"
+    },
+    {
+      "id": 17,
+      "question": "Los virus de interés en patología humana se clasifican en la actualidad por las siguientes características",
+      "options": {
+        "A": "Tipo, estructura y estrategia de replicación del ácido nucleico.",
+        "B": "Simetría de la cápside.",
+        "C": "Presencia o ausencia de envoltura.",
+        "D": "Todas las respuestas anteriores son ciertas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son ciertas."
+    },
+    {
+      "id": 18,
+      "question": "La causa más frecuente de gastroenteritis aguda nosocomial en la infancia en países del primer mundo es:",
+      "options": {
+        "A": "Astrovirus",
+        "B": "Adenovirus",
+        "C": "Rotavirus",
+        "D": "Calicivirus"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Rotavirus"
+    },
+    {
+      "id": 19,
+      "question": "Señale la respuesta correcta en relación al diagnóstico mediante Métodos moleculares de la enfermedad por Citomegalovirus:",
+      "options": {
+        "A": "Las técnicas moleculares, especialmente las de amplificación, se han aplicado profusamente al diagnóstico del CMV.",
+        "B": "La principal ventaja de estos métodos es su gran sensibilidad.",
+        "C": "La especificidad es superior al 98%.",
+        "D": "Todas son ciertas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 20,
+      "question": "Las glucoproteínas de codificación viral.",
+      "options": {
+        "A": "Se hallan presentes en los virus con envoltura.",
+        "B": "Participan en la fijación del virión a la superficie de la célula diana.",
+        "C": "Son expresadas en la superficie de la célula infectada durante el ciclo de replicación del virus.",
+        "D": "Todas las afirmaciones son ciertas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas las afirmaciones son ciertas."
+    },
+    {
+      "id": 21,
+      "question": "La prueba rápida para la mononucleosis infecciosa detecta en sangre total un tipo de proteínas sanguíneas conocidas como Anticuerpos Heterófilos, producidos por el sistema inmune en respuesta a la infección por:",
+      "options": {
+        "A": "Parvovirus B 9.",
+        "B": "Virus de Epstein - Barr.",
+        "C": "Adenovirus.",
+        "D": "Parainfluenza virus"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Virus de Epstein - Barr."
+    },
+    {
+      "id": 22,
+      "question": "Según su género, ¿en qué grupo clasificarías el virus del Ébola?",
+      "options": {
+        "A": "Pneumo- virus.",
+        "B": "Entero - virus.",
+        "C": "Filo - virus.",
+        "D": "Flavi - virus."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Filo - virus."
+    },
+    {
+      "id": 23,
+      "question": "¿Qué glicoproteína presenta en su cubierta el virus de Influenza (Gripe)?:",
+      "options": {
+        "A": "Neuraminidasa.",
+        "B": "Polimerasa.",
+        "C": "Hemaglutinina.",
+        "D": "A y C son correctas."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "A y C son correctas."
+    },
+    {
+      "id": 24,
+      "question": "¿Qué microscopio utilizaríamos para visualizar un virus?",
+      "options": {
+        "A": "Microscopio óptico.",
+        "B": "Microscopio de contrate de fases.",
+        "C": "Microscopio de campo oscuro.",
+        "D": "Microscopio electrónico."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Microscopio electrónico."
+    },
+    {
+      "id": 25,
+      "question": "En un paciente VIH positivo, ¿qué marcadores de linfocitos T deberíamos tener en cuenta?",
+      "options": {
+        "A": "CD4 y CD8",
+        "B": "CD5 y CD3",
+        "C": "CD20",
+        "D": "CD69 y CD25"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "CD4 y CD8"
+    },
+    {
+      "id": 26,
+      "question": "El virus de la rubéola pertenece a la familia de los:",
+      "options": {
+        "A": "Rhabdovirus.",
+        "B": "Togavirus.",
+        "C": "Ortomixovirus.",
+        "D": "Paramixovirus."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Togavirus."
+    },
+    {
+      "id": 27,
+      "question": "La secuencia de la replicación en un virus es:",
+      "options": {
+        "A": "Penetración – Adhesión – Replicación – Liberación – Recombinación.",
+        "B": "Adhesión – Penetración – Replicación – Recombinación – Liberación.",
+        "C": "Replicación – Adhesión – Recombinación – Liberación – Penetración.",
+        "D": "Penetración – Liberación – Adhesión – Recombinación – Replicación."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Adhesión – Penetración – Replicación – Recombinación – Liberación."
+    },
+    {
+      "id": 28,
+      "question": "La simetría estructural de la cápside del virus de la Inmunodeficiencia Humana (VIH) es:",
+      "options": {
+        "A": "lcosaédrica.",
+        "B": "Cilíndrica.",
+        "C": "Helicoidal.",
+        "D": "Esférica."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "lcosaédrica."
+    },
+    {
+      "id": 29,
+      "question": "Los métodos serológicos para la detección de virus se basan en:",
+      "options": {
+        "A": "Detectar el genoma viral mediante sondas genéticas marcadas.",
+        "B": "Detectar la presencia de anticuerpos específicos en el suero del paciente.",
+        "C": "Utilización de colorantes como la hematoxilina para detección de cuerpos de inclusión.",
+        "D": "Inoculación de la muestra en cultivos celulares."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Detectar la presencia de anticuerpos específicos en el suero del paciente."
+    },
+    {
+      "id": 30,
+      "question": "En los virus, el soporte de la información genética de la capacidad de replicación y de su potencial infeccioso reside en:",
+      "options": {
+        "A": "El ácido nucleico.",
+        "B": "La cápside.",
+        "C": "Las enzimas.",
+        "D": "La envoltura."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "El ácido nucleico."
+    },
+    {
+      "id": 31,
+      "question": "La mononucleosis infecciosa es una enfermedad que puede ser causada por:",
+      "options": {
+        "A": "Virus de Epstein-Barr.",
+        "B": "Papilomavirus humano.",
+        "C": "Rotavirus.",
+        "D": "Giardia lamblia."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 32,
+      "question": "¿Cuál es el virus causante de la mononucleosis infecciosa?",
+      "options": {
+        "A": "Citomegalovirus.",
+        "B": "Varicela Zoster.",
+        "C": "Epstein-Barr.",
+        "D": "Rinovirus."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Epstein-Barr."
+    },
+    {
+      "id": 33,
+      "question": "¿Qué técnica de confirmación no se puede emplear para el diagnóstico del SIDA?",
+      "options": {
+        "A": "Inmunoelectrotransferencia o Western Blot.",
+        "B": "Inmunofluorescencia indirecta.",
+        "C": "Radioinmunoprecipitación.",
+        "D": "Tiras reactivas de Ag."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Tiras reactivas de Ag."
+    },
+    {
+      "id": 34,
+      "question": "¿Cuáles de las siguientes condiciones son necesarias para la toma y transporte de muestras para el estudio de virus?",
+      "options": {
+        "A": "La sangre total no se debe congelar.",
+        "B": "La muestra debe mantenerse refrigerada desde el momento de su obtención.",
+        "C": "La temperatura influye en la viabilidad de los virus durante el transporte.",
+        "D": "Todas son correctas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 35,
+      "question": "¿Cuál de las siguientes afirmaciones es falsa?",
+      "options": {
+        "A": "El virus de la hepatitis D (VHD) sólo se encuentra en personas portadoras del virus de la hepatitis B.",
+        "B": "Las medidas de control de la transmisión son las mismas que para la hepatitis B.",
+        "C": "No existe infección crónica por VHD.",
+        "D": "No existe una vacuna que evite la sobreinfección por hepatitis D en personas con infección crónica por VHB."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "No existe infección crónica por VHD."
+    },
+    {
+      "id": 36,
+      "question": "Las pruebas de la confirmación del HIV se realizan:",
+      "options": {
+        "A": "Con un screening con un ELISA (enzimoinmunoensayo).",
+        "B": "Detectando el antígeno p24 en sangre.",
+        "C": "Con un Western Blot.",
+        "D": "Detectando ADN proviral."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Con un Western Blot."
+    },
+    {
+      "id": 37,
+      "question": "No es un herpesvirus:",
+      "options": {
+        "A": "Virus de la Varicela - Zóster.",
+        "B": "Virus de la Parotiditis.",
+        "C": "Citomegalovirus.",
+        "D": "Virus de Epstein – Barr."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Virus de la Parotiditis."
+    },
+    {
+      "id": 38,
+      "question": "Los microorganismos de pequeño tamaño que no poseen actividad metabólica fuera de las células susceptibles, es decir, que necesitan servirse de organismos vivos para poder vivir son:",
+      "options": {
+        "A": "Bacterias.",
+        "B": "Virus.",
+        "C": "Hongos.",
+        "D": "Protozoos."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Virus."
+    },
+    {
+      "id": 39,
+      "question": "¿Cómo se denomina el proceso por el que el ADN libre se inserta en una célula receptora competente?",
+      "options": {
+        "A": "Conjugación.",
+        "B": "Transformación.",
+        "C": "Transducción",
+        "D": "Recombinación"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Transformación."
+    },
+    {
+      "id": 40,
+      "question": "¿Qué es un micelio?:",
+      "options": {
+        "A": "El conjunto de varias levaduras.",
+        "B": "Un sinónimo de espora.",
+        "C": "Un tipo de hongos.",
+        "D": "El conjunto de hifas con sus ramificaciones."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "El conjunto de hifas con sus ramificaciones."
+    },
+    {
+      "id": 41,
+      "question": "¿Qué tipo de microorganismo es Criptococcus neoformans?:",
+      "options": {
+        "A": "Una levadura.",
+        "B": "Una espiroqueta.",
+        "C": "Un coco.",
+        "D": "Un bacilo."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Una levadura."
+    },
+    {
+      "id": 42,
+      "question": "Para la identificación de cándida albicans, se utiliza",
+      "options": {
+        "A": "Prueba de oxidasa.",
+        "B": "Test de Graham.",
+        "C": "La gota gruesa.",
+        "D": "Prueba de la filamentación."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Prueba de la filamentación."
+    },
+    {
+      "id": 43,
+      "question": "La criptococosis es una enfermedad humana causada por el Criptococcus neoformans y se adquiere por:",
+      "options": {
+        "A": "Inhalación de esporas.",
+        "B": "Ingestión de alimentos contaminados.",
+        "C": "Picadura de insectos.",
+        "D": "Contacto directo de la piel de los animales."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Inhalación de esporas."
+    },
+    {
+      "id": 44,
+      "question": "Con relación al examen directo de muestras para la detección de hongos patógenos. Señale la respuesta FALSA:",
+      "options": {
+        "A": "Raspados, curetajes y pelos pueden observarse directamente suspendida la muestra en solución salina.",
+        "B": "Las cápsulas polisacáridas de Criptococcus neoformans se ven como una tinción negativa de las partículas con tinta china.",
+        "C": "La tinción de Gram es útil para ver levaduras que se tiñen de Gram negativas.",
+        "D": "La tinción de Giemsa o Wright es útil si se sospecha histoplasmosis, pues se aprecian las células de las levaduras en el interior de los macrófagos."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "La tinción de Gram es útil para ver levaduras que se tiñen de Gram negativas."
+    },
+    {
+      "id": 45,
+      "question": "Los dermatofitos más frecuentemente aislados en el ser humano se agrupan en los géneros, señalar el falso:",
+      "options": {
+        "A": "Microsporum",
+        "B": "Candida",
+        "C": "Epidermophyton",
+        "D": "Trichophyton"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Candida"
+    },
+    {
+      "id": 46,
+      "question": "¿Para qué realizarías un zimograma?",
+      "options": {
+        "A": "Estudio de características morfológicas de crecimiento de los hongos.",
+        "B": "Estudio de la fermentación de azúcares para identificación de hongos.",
+        "C": "Pruebas de sensibilidad de los hongosa antifúngicos.",
+        "D": "Estudio de las formas de reproducción de los hongos."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Estudio de la fermentación de azúcares para identificación de hongos."
+    },
+    {
+      "id": 47,
+      "question": "¿Para qué se utiliza la cicloheximida en el agar Saboraud?",
+      "options": {
+        "A": "Para evitar el crecimiento de bacterias contaminantes.",
+        "B": "Para evitar el crecimiento de hongos contaminantes.",
+        "C": "Para la nutrición del hongo a estudiar.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Para evitar el crecimiento de hongos contaminantes."
+    },
+    {
+      "id": 48,
+      "question": "Señale cuál de los siguientes cultivos se utiliza para la siembra de hongos:",
+      "options": {
+        "A": "Mac Conkey.",
+        "B": "Sabouraud.",
+        "C": "Cleb.",
+        "D": "Agar chocolate."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Sabouraud."
+    },
+    {
+      "id": 49,
+      "question": "De las siguientes patologías producidas por hongos, ¿cuál se desarrolla preferentemente en los pulmones?:",
+      "options": {
+        "A": "Micetoma.",
+        "B": "Cromoblastomicosis.",
+        "C": "Tiña negra palmar.",
+        "D": "Aspergilosis."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Aspergilosis."
+    },
+    {
+      "id": 50,
+      "question": "¿Cuál de los siguientes agentes infecciosos es de origen micótico?:",
+      "options": {
+        "A": "Cryptococcus.",
+        "B": "Taenia saginatum",
+        "C": "Entamoeba hystolytica.",
+        "D": "Haemophilus."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Cryptococcus."
+    },
+    {
+      "id": 51,
+      "question": "Cuando observamos una microconidia al microscopio, ¿a qué microorganismos se hace referencia?",
+      "options": {
+        "A": "Virus.",
+        "B": "Hongos.",
+        "C": "Bacterias.",
+        "D": "Parásitos."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Hongos."
+    },
+    {
+      "id": 52,
+      "question": "¿Qué agente etiológico produce la tiña versicolor o la pitiriasis versicolor?",
+      "options": {
+        "A": "Micetoma.",
+        "B": "Malasezzia furfur.",
+        "C": "Exopholia werneckii.",
+        "D": "C. neoformans."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Malasezzia furfur."
+    },
+    {
+      "id": 53,
+      "question": "¿Qué tipo de muestra es la más adecuada, para el diagnóstico de laboratorio de P. carinii?",
+      "options": {
+        "A": "Esputo.",
+        "B": "Exudado bronquial obtenido por lavado bronquial.",
+        "C": "Sangre.",
+        "D": "Orina."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Exudado bronquial obtenido por lavado bronquial."
+    },
+    {
+      "id": 54,
+      "question": "No es una bacteria patógena del tracto genital:",
+      "options": {
+        "A": "N. gonorrhoeae.",
+        "B": "Candida albicans.",
+        "C": "C. trachomatis.",
+        "D": "Gardnerella vaginalis."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Candida albicans."
+    },
+    {
+      "id": 55,
+      "question": "Los hongos pueden ser:",
+      "options": {
+        "A": "Unicelulares.",
+        "B": "Pluricelulares.",
+        "C": "Dimórficos.",
+        "D": "Todas son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 56,
+      "question": "¿Cuál de los siguientes parámetros biológicos es un marcador inmunológico específico con interés pronóstico en la infección por VIH·1, presentando una mayor eficacia en la progresión de la infección y que, además, indica el momento adecuado de iniciar la terapia antiviral?:",
+      "options": {
+        "A": "Linfocitos CD4.",
+        "B": "β2- microglobulina.",
+        "C": "Neopterina.",
+        "D": "IgA."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Linfocitos CD4."
+    },
+    {
+      "id": 57,
+      "question": "¿Cuál de los siguientes marcadores séricos del virus de la hepatitis B aparece después de la administración de la vacuna o gamma globulinas específicas?",
+      "options": {
+        "A": "HBsAg",
+        "B": "Anti-HBs",
+        "C": "Anti-HBc",
+        "D": "Anti-HBe."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Anti-HBs"
+    },
+    {
+      "id": 58,
+      "question": "Señale la respuesta correcta en relación al virus de la hepatitis delta:",
+      "options": {
+        "A": "Es un virus completo que se asocia al virus de la hepatitis B y provoca cuadros de hepatitis fulminante.",
+        "B": "Es un virus defectuoso que sólo puede infectar a los hepatocitos cuando esté presente el VHC.",
+        "C": "Es un virus defectuoso que se asocia al virus de la hepatitis B (confección) en cuadros de hepatitis aguda fulminante.",
+        "D": "En nuestro medio la infección por VHD NO está presente en usuarios de drogas por vía parenteral."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Es un virus defectuoso que se asocia al virus de la hepatitis B (confección) en cuadros de hepatitis aguda fulminante."
+    },
+    {
+      "id": 59,
+      "question": "Señale la respuesta FALSA en cuanto a las condiciones de incubación:",
+      "options": {
+        "A": "La mayoría de los cultivos bacterianos se incuban a 35-37°C.",
+        "B": "La mayoría de los cultivos de hongos lo hacen a 25°C.",
+        "C": "Para Campylobacter, la atmósfera microaerófila tiene la siguiente composición:5% de O2, 10% de CO2. 85% de N2.",
+        "D": "Para aislar Campylobacter spp, procedente de heces, se requiere una incubación a 42ºC."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "La mayoría de los cultivos de hongos lo hacen a 25°C."
+    },
+    {
+      "id": 60,
+      "question": "¿Cuál es el virus más resistente a los agentes externos?",
+      "options": {
+        "A": "Rinovirus.",
+        "B": "Coranovirus.",
+        "C": "Adenovirus.",
+        "D": "Virus Sinticial Respiratorio."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Adenovirus."
+    },
+    {
+      "id": 61,
+      "question": "La Tiña negra es producida por:",
+      "options": {
+        "A": "Malasezzia furfur",
+        "B": "Tinea cruris",
+        "C": "Exophiala Werneckii",
+        "D": "Tinea capitis"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Exophiala Werneckii"
+    },
+    {
+      "id": 62,
+      "question": "Que opción es más compatible ante un paciente con la siguiente serología frente a hepatitis B: HBsAg +/ANTI- HBs -/HBeAg -/ANTI- Hbe +/ANTI- HbcIgM -/ANTI- HbcIgG +/DNA VHB +:",
+      "options": {
+        "A": "Infección crónica",
+        "B": "Infección aguda",
+        "C": "Paciente vacunado",
+        "D": "Ninguna de las anteriore."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Infección crónica"
+    },
+    {
+      "id": 63,
+      "question": "En un estudio de inmunidad celular a un paciente con síndrome de inmunodeficiencia adquirida (SIDA). ¿Qué tipo de Linfocitos T están aumentados?:",
+      "options": {
+        "A": "CD4",
+        "B": "CD8",
+        "C": "CD9",
+        "D": "CD40"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "CD8"
+    },
+    {
+      "id": 64,
+      "question": "En la tinción de tinta china ¿de qué color vemos la cápsula del Criptococo neoformans?:",
+      "options": {
+        "A": "Rojo.",
+        "B": "No se tiñe.",
+        "C": "Negro.",
+        "D": "Azul."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "No se tiñe."
+    },
+    {
+      "id": 65,
+      "question": "La muestra más adecuada para el diagnóstico del Pneumocystis Jiroveci es:",
+      "options": {
+        "A": "Exudado oral.",
+        "B": "Sangre total.",
+        "C": "Esputo Inducido.",
+        "D": "Orina."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Esputo Inducido."
+    },
+    {
+      "id": 66,
+      "question": "¿Qué línea celular se utiliza para el cultivo del virus de la Gripe?",
+      "options": {
+        "A": "MRC5.",
+        "B": "HEP-2.",
+        "C": "MDCK.",
+        "D": "RD."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "MDCK."
+    },
+    {
+      "id": 67,
+      "question": "La muestra que tiene mayor rendimiento para detectar virus respiratorios es el:",
+      "options": {
+        "A": "Exudado faríngeo.",
+        "B": "Aspirado nasofaríngeo.",
+        "C": "Lavado bronquial.",
+        "D": "Lavado nasal."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Aspirado nasofaríngeo."
+    },
+    {
+      "id": 68,
+      "question": "¿Cuál de los siguientes virus es ARN, con simetría icosaédrica y sin envoltura?",
+      "options": {
+        "A": "Flaviviridae.",
+        "B": "Paramixoviridae.",
+        "C": "Caliciviridae.",
+        "D": "Arenaviridae."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Caliciviridae."
+    },
+    {
+      "id": 69,
+      "question": "Indica cuál de los siguientes microorganismos no es un hongo propiamente dicho (Reino Myceteae):",
+      "options": {
+        "A": "Candida",
+        "B": "Cryptococcus",
+        "C": "Actinomyces",
+        "D": "Aspergillus"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Actinomyces"
+    },
+    {
+      "id": 70,
+      "question": "Cuál de las siguientes metodologías se emplea en la técnica de cribado de la infección por VIH:",
+      "options": {
+        "A": "Cultivo vírico.",
+        "B": "Reacción de amplificación genómica por PCR.",
+        "C": "Enzimoinmunoanálisis.",
+        "D": "Western blot."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Enzimoinmunoanálisis."
+    },
+    {
+      "id": 71,
+      "question": "De los siguientes tipos de muestra, ¿cuál de ellas tiene mayor rendimiento diagnóstico para la detección del virus de la gripe A/H1 N1?:",
+      "options": {
+        "A": "Aspirado nasofaríngeo",
+        "B": "Frotis nasal",
+        "C": "Frotis faríngeo",
+        "D": "Saliva"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Aspirado nasofaríngeo"
+    },
+    {
+      "id": 72,
+      "question": "El primer anticuerpo que aparece en una infección por el virus de la hepatitis B es:",
+      "options": {
+        "A": "Anti-HBc",
+        "B": "Anti-HBe",
+        "C": "Anti-HBs",
+        "D": "Anti-p24"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Anti-HBc"
+    },
+    {
+      "id": 73,
+      "question": "El virón completo del virus de la hepatitis B se conoce como:",
+      "options": {
+        "A": "Antígeno Australia",
+        "B": "Partícula Delta",
+        "C": "Partícula de Dane",
+        "D": "Partícula de Fagot"
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Partícula de Dane"
+    },
+    {
+      "id": 74,
+      "question": "Todas las afirmaciones acerca de la hepatitis A son correctas excepto:",
+      "options": {
+        "A": "Se transmiten por vía parenteral.",
+        "B": "No se cronifica.",
+        "C": "Está producida por un virus de la familia de los picornavirus.",
+        "D": "La incidencia de infección por HVA se relaciona con malas condiciones higiénico-sanitarias."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Se transmiten por vía parenteral."
+    },
+    {
+      "id": 75,
+      "question": "De las siguientes características señale la falsa en la relación a los virus:",
+      "options": {
+        "A": "Contienen material genético",
+        "B": "Tienen cubierta proteica",
+        "C": "Necesitan de una célula hospedadora",
+        "D": "Tienen metabolismo propio"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Tienen metabolismo propio"
+    },
+    {
+      "id": 76,
+      "question": "Con respecto al test de filamentación o del tubo germinal, señale la respuesta correcta:",
+      "options": {
+        "A": "Es útil para diferenciar Candida albicans del resto de especies de Candida.",
+        "B": "Consiste en inocular varias colonias de levaduras en suero.",
+        "C": "Se incuba el suero a 37ºC durante 2-4 horas.",
+        "D": "Todas son correctas."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 77,
+      "question": "Con respecto a la determinación de carga viral de virus VIH, señale la afirmación incorrecta:",
+      "options": {
+        "A": "Se trata de una amplificación del ADN del virus de la inmunodeficiencia humana.",
+        "B": "La muestra debe ser recogida en tubo estéril con EDTA como anticoagulante.",
+        "C": "Es útil para la monitorización del tratamiento con antirretrovirales.",
+        "D": "Incluye una reacción de transcripción reversa."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Se trata de una amplificación del ADN del virus de la inmunodeficiencia humana."
+    },
+    {
+      "id": 78,
+      "question": "De las siguientes técnicas, cuál puede ser utilizada en el diagnóstico de infección por virus:",
+      "options": {
+        "A": "Inmunofluorescencia directa",
+        "B": "Enzimoinmunoensayo",
+        "C": "Amplificación por PCR (reacción en cadena de la polimerasa)",
+        "D": "Todas son ciertas"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas"
+    },
+    {
+      "id": 79,
+      "question": "Para el cultivo de virus se emplean:",
+      "options": {
+        "A": "Medios de enriquecimiento.",
+        "B": "Medios sintéticos.",
+        "C": "Medios diferenciales.",
+        "D": "Ninguno de ellos."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Ninguno de ellos."
+    },
+    {
+      "id": 80,
+      "question": "Si hablamos de un cimograma nos referimos a:",
+      "options": {
+        "A": "Estudios de fermentación de azúcares para identificar hongos.",
+        "B": "Estudios de características morfológicas de crecimiento de los hongos.",
+        "C": "Pruebas de sensibilidad de los hongos a antifúngicos.",
+        "D": "Estudios de las formas de reproducción de los hongos."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Estudios de fermentación de azúcares para identificar hongos."
+    },
+    {
+      "id": 81,
+      "question": "¿Cuál de las siguientes características macroscópicas corresponde a Candida albicans?:",
+      "options": {
+        "A": "Colonias lisas de color rosado y aspecto mucoso.",
+        "B": "Colonias mates, blancas y cremosas.",
+        "C": "Colonias blancas, lisas y brillantes.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "Colonias blancas, lisas y brillantes."
+    },
+    {
+      "id": 82,
+      "question": "La temperatura óptima de crecimiento de la mayoría de los hongos de interés médico oscila entre:",
+      "options": {
+        "A": "15 a 20ºC",
+        "B": "25 a 30ºC",
+        "C": "35 a 40ºC",
+        "D": "10 a 20ºC"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "25 a 30ºC"
+    },
+    {
+      "id": 83,
+      "question": "Ante la sospecha de infección por virus Zika, se recomienda descartar al menos:",
+      "options": {
+        "A": "Malaria y Babesiosis.",
+        "B": "Dengue y Chikungunya.",
+        "C": "Dengue y Ebola.",
+        "D": "Todas las anteriores."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Dengue y Chikungunya."
+    },
+    {
+      "id": 84,
+      "question": "¿Cuál de los siguientes virus es RNA?:",
+      "options": {
+        "A": "Virus de la Hepatitis C.",
+        "B": "Virus de la Hepatitis B.",
+        "C": "Citomegalovirus.",
+        "D": "Virus Herpes simple."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Virus de la Hepatitis C."
+    },
+    {
+      "id": 85,
+      "question": "El ciclo biológico de un virus sigue las etapas:",
+      "options": {
+        "A": "Absorción- penetración- liberación y expresión del genoma viral.",
+        "B": "Absorción- liberación- penetración y expresión del genoma viral.",
+        "C": "Liberación-absorción-penetración y expresión del genoma viral.",
+        "D": "Adsorción- penetración – liberación y expresión del genoma viral."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Adsorción- penetración – liberación y expresión del genoma viral."
+    },
+    {
+      "id": 86,
+      "question": "En relación a la determinación de la infección por VIH-2 señalar la respuesta correcta:",
+      "options": {
+        "A": "Actualmente la mayoría de los EIA pueden determinar anticuerpos frente a VIH-2.",
+        "B": "Los Western Blot actuales suelen llevar alguna banda con antígenos frente a VIH-2.",
+        "C": "No se puede determinar anticuerpos frente a VIH-2 por métodos EIA.",
+        "D": "A y B son correctas."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "A y B son correctas."
+    },
+    {
+      "id": 87,
+      "question": "Cuando debe de utilizarse la PCR en el diagnóstico de VIH:",
+      "options": {
+        "A": "Actualmente se emplea como primera prueba diagnóstica de la infección.",
+        "B": "Para la confirmación de algunos Western Blot indeterminados.",
+        "C": "Solo se emplea en laboratorios muy especializados.",
+        "D": "Solo se emplea en el seguimiento de la infección."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Para la confirmación de algunos Western Blot indeterminados."
+    },
+    {
+      "id": 88,
+      "question": "Los métodos combinados en la primera prueba diagnóstica de detección de VIH, en los que se determinan tanto antígeno como anticuerpos al mismo tiempo tienen como objetivo:",
+      "options": {
+        "A": "No tener que realizar pruebas de confirmación.",
+        "B": "Disminuir el periodo ventana en los nuevos contagiados.",
+        "C": "Confirmar resultados positivos.",
+        "D": "Determinar el genoma del virus presente en el líquido cefalorraquídeo."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Disminuir el periodo ventana en los nuevos contagiados."
+    },
+    {
+      "id": 89,
+      "question": "En relación a los métodos de identificación de hongos, señale la afirmación correcta:",
+      "options": {
+        "A": "Los medios cromogénicos habituales permiten la identificación definitiva de Gandida albicans, Gandida tropicalis y Gandida krusei.",
+        "B": "El medio de Sabouraud, muy rico en glucosa y con pH bajo, permite el crecimiento de las bacterias, por lo que su uso con frotis vaginales requiere la adición de antibióticos como el cloranfenicol o la gentamicina.",
+        "C": "Los dermatofitos son sensibles a la cicloheximida (Actidiona®), al contrario que muchos hongos saprofitos, por lo que este antifúngico puede añadirse al medio de Sabouraud para diferenciarlos.",
+        "D": "Cuando se sospecha la implicación de levaduras lipofílicas, como las del género Malassezia, debe emplearse el medio de Sabouraud enriquecido con ácidos grasos de cadena corta (omega-6)."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "El medio de Sabouraud, muy rico en glucosa y con pH bajo, permite el crecimiento de las bacterias, por lo que su uso con frotis vaginales requiere la adición de antibióticos como el cloranfenicol o la gentamicina."
+    },
+    {
+      "id": 90,
+      "question": "Respecto a los principales tipos de micosis, señale la sentencia verdadera:",
+      "options": {
+        "A": "La mayoría de micosis superficiales, limitadas al estrato queratinizado de la piel, están producidas por levaduras del género Gandida.",
+        "B": "La especie más frecuentemente aislada en las candidiasis vaginales es Gandida glabrata.",
+        "C": "Los hongos dermatofitos antropofilicos suelen producir lesiones inflamatorias más floridas que aquellos cuyo hábitat natural son los animales o el suelo (zoofílicos o geofílicos).",
+        "D": "Las micosis sistémicas oportunistas están producidas por hongos no patógenos, cuyo hábitat puede ser el medio ambiente, como Aspergillus o Fusarium."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Las micosis sistémicas oportunistas están producidas por hongos no patógenos, cuyo hábitat puede ser el medio ambiente, como Aspergillus o Fusarium."
+    },
+    {
+      "id": 91,
+      "question": "Por lo general se considera que el método diagnóstico dotado de la mayor sensibilidad frente a las micosis es:",
+      "options": {
+        "A": "Asilamiento del hongo mediante cultivo.",
+        "B": "La tinción de calcofluor.",
+        "C": "El estudio del metabolismo respiratorio del hongo.",
+        "D": "La inmunodifusión radial."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Asilamiento del hongo mediante cultivo."
+    },
+    {
+      "id": 92,
+      "question": "¿Qué son los viriones?",
+      "options": {
+        "A": "Proteínas víricas",
+        "B": "Virus maduros liberados al exterior de la célula",
+        "C": "Virus helicoidales",
+        "D": "Virus causantes de encefalitis"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Virus maduros liberados al exterior de la célula"
+    },
+    {
+      "id": 93,
+      "question": "¿Cuál de estos medios permite evaluar la capacidad de algunos hongos para hidrolizar la urea, siendo de gran utilidad en su identificación?",
+      "options": {
+        "A": "Agar urea-arginina",
+        "B": "Agar Sabouraud",
+        "C": "Agar urea de Ferguson",
+        "D": "Medio de Czapek"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Agar urea de Ferguson"
+    },
+    {
+      "id": 94,
+      "question": "El virus que produce la gripe estacional es:",
+      "options": {
+        "A": "Virus influenza.",
+        "B": "Rubivirus.",
+        "C": "Poliovirus.",
+        "D": "Herpesvirus."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Virus influenza."
+    },
+    {
+      "id": 95,
+      "question": "Los hongos son:",
+      "options": {
+        "A": "Organismos eucariotas.",
+        "B": "Parásitos celulares estrictos.",
+        "C": "Organismos procariotas.",
+        "D": "Organismos que no se pueden aislar en medios de cultivo in vitro."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Organismos eucariotas."
+    },
+    {
+      "id": 96,
+      "question": "La prueba del tubo germinal se utiliza para la identificación de:",
+      "options": {
+        "A": "Hongos dermatofitos.",
+        "B": "Micobacterias.",
+        "C": "Enterobacterias.",
+        "D": "Candida albicans."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Candida albicans."
+    },
+    {
+      "id": 97,
+      "question": "El virus de la rubeola pertenece a la familia de los:",
+      "options": {
+        "A": "Rhabdovirus.",
+        "B": "Togavirus.",
+        "C": "Ortomixovirus.",
+        "D": "Paromixovirus."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Togavirus."
+    },
+    {
+      "id": 98,
+      "question": "La carga viral del virus de la hepatitis C se determina mediante:",
+      "options": {
+        "A": "Reacción en cadena de la polimerasa (PCR).",
+        "B": "Espectrofotometría.",
+        "C": "Nefelometría.",
+        "D": "Aglutinación."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Reacción en cadena de la polimerasa (PCR)."
+    },
+    {
+      "id": 99,
+      "question": "¿Cuál de los siguientes microorganismos es más probable su aparición en pacientes inmunodeprimidos?:",
+      "options": {
+        "A": "Escherichia coli.",
+        "B": "Candida albicans.",
+        "C": "Staphylococcus aureus.",
+        "D": "Citomegalovirus."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Candida albicans."
+    },
+    {
+      "id": 100,
+      "question": "Es falso que los virus:",
+      "options": {
+        "A": "Están formados por ácido nucleico, cápside y en algunos casos envoltura externa.",
+        "B": "Su ácido nucleico puede ser ADN o ARN.",
+        "C": "Se multiplican fuera de la célula.",
+        "D": "Pueden infectar animales, plantas y bacterias."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Se multiplican fuera de la célula."
+    },
+    {
+      "id": 101,
+      "question": "Es un método de identificación de virus:",
+      "options": {
+        "A": "Microscopía electrónica.",
+        "B": "Radioinmunoanálisis.",
+        "C": "Sondas de hibridación.",
+        "D": "Hay más de una respuesta correcta."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta."
+    },
+    {
+      "id": 102,
+      "question": "Un resultado positivo en la detección de anticuerpos específicos frente al VIH mediante una técnica de EIA:",
+      "options": {
+        "A": "Es diagnóstico de infección por VIH.",
+        "B": "Debe confirmarse por western-blot.",
+        "C": "Debe confirmarse mediante cuantificación del ARN-VIH-1 en plasma.",
+        "D": "Si el ARN-VIH-1 en plasma es negativo, el paciente no es transmisor de la infección."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Debe confirmarse por western-blot."
+    },
+    {
+      "id": 103,
+      "question": "La fase de la infección aguda por VIH inicia en el momento de la infección, el virus se propaga por el cuerpo de la persona infectada a través de sus fluidos corporales, en un plazo de días, el VIH infecta no sólo las células expuestas inicialmente sino también a los ganglios linfáticos. El tejido linfoide constituye uno de los principales espacios del cuerpo humano donde tiene lugar la reproducción inicial del VIH por su alto porcentaje de linfocitos T ...",
+      "options": {
+        "A": "CD4",
+        "B": "CD8",
+        "C": "CD9",
+        "D": "CD40"
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "CD4"
+    },
+    {
+      "id": 104,
+      "question": "¿Qué prueba realizaría para el diagnóstico de aspergilosis invasiva?",
+      "options": {
+        "A": "Detección del antígeno manano.",
+        "B": "Detección del antígeno galactomanano.",
+        "C": "Detección de anticuerpos antimanano.",
+        "D": "Detección de anticuerpos antimicelio."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Detección del antígeno galactomanano."
+    },
+    {
+      "id": 105,
+      "question": "¿Cuál de las siguientes tinciones no se utiliza para el examen microscópico de hongos?",
+      "options": {
+        "A": "KOH.",
+        "B": "Blanco de calcoflúor.",
+        "C": "Azul de lactofenol.",
+        "D": "Azul de metileno."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Azul de metileno."
+    },
+    {
+      "id": 106,
+      "question": "Los medios de transporte de muestras para estudio de virus deben tener todas las siguientes características, excepto:",
+      "options": {
+        "A": "Contener un tampón para estabilizar el pH.",
+        "B": "Contener un antimicrobiano para inhibir el crecimiento de bacterias y hongos.",
+        "C": "Deben ser medios semisólidos.",
+        "D": "Contener proteínas para estabilizar los virus."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Deben ser medios semisólidos."
+    },
+    {
+      "id": 107,
+      "question": "Indique cuál, de los siguientes, no se utiliza como método de estudio de los virus:",
+      "options": {
+        "A": "Crecimiento en cultivos celulares.",
+        "B": "Microscopía óptica.",
+        "C": "Detección de antígeno mediante IFD (Inmunofluorescencia Directa).",
+        "D": "Detección del genoma vírico."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Microscopía óptica."
+    },
+    {
+      "id": 108,
+      "question": "La mayoría de los casos de mononucleosis infecciosa está producida por:",
+      "options": {
+        "A": "Citomegalovirus.",
+        "B": "Adenovirus.",
+        "C": "Virus de Epstein-Barr.",
+        "D": "Parvovirus."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 109,
+      "question": "Señale cuál, de estas técnicas de identificación genotípica de microorganismos, consiste en detección de ácidos nucleicos con amplificación de la diana:",
+      "options": {
+        "A": "PCR (Reacción en Cadena de la Polimerasa.)",
+        "B": "Hibridación con sondas.",
+        "C": "Arrays.",
+        "D": "LiPA (Hibridación Inversa)."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "PCR (Reacción en Cadena de la Polimerasa.)"
+    },
+    {
+      "id": 110,
+      "question": "La mayoría de cultivos para hongos se deben incubar a:",
+      "options": {
+        "A": "25ºC.",
+        "B": "30ºC.",
+        "C": "37ºC.",
+        "D": "40ºC"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "30ºC."
+    },
+    {
+      "id": 111,
+      "question": "El agente causal de la tiña negra es:",
+      "options": {
+        "A": "Trichosporon inkin.",
+        "B": "Malassezia furfur.",
+        "C": "Hortaea wernecki (anteriormente: Exophiala wernecki).",
+        "D": "Trichosporon mucoides."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Hortaea wernecki (anteriormente: Exophiala wernecki)."
+    },
+    {
+      "id": 112,
+      "question": "¿Cuál de los siguientes virus es causante de un síndrome mononucleósico sin presencia de anticuerpos heterófilos?:",
+      "options": {
+        "A": "Virus de Epstein Barr.",
+        "B": "Citomegalovirus.",
+        "C": "Virus del herpes simple.",
+        "D": "Herpesvirus humano tipo 8."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Citomegalovirus."
+    },
+    {
+      "id": 113,
+      "question": "El micelio es típico de:",
+      "options": {
+        "A": "Artrópodos",
+        "B": "Parásitos",
+        "C": "Hongos",
+        "D": "Todas son ciertas."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Hongos"
+    },
+    {
+      "id": 114,
+      "question": "El virus de la inmunodeficiencia humana VIH pertenece:",
+      "options": {
+        "A": "Adenovirus",
+        "B": "Retrovirus",
+        "C": "Parvovirus",
+        "D": "Rotavirus"
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Retrovirus"
+    },
+    {
+      "id": 115,
+      "question": "Método utilizado para carga viral en VHB y VHC.",
+      "options": {
+        "A": "PCR competitiva.",
+        "B": "PCR a tiempo real.",
+        "C": "bDNA.",
+        "D": "Todas son ciertas."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 116,
+      "question": "¿Cuál de los siguientes medios NO se utiliza para aislamiento de hongos?",
+      "options": {
+        "A": "Agar Sabouraud",
+        "B": "Agar extracto de malta",
+        "C": "Agar DTM",
+        "D": "Agar Levine"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Agar Levine"
+    },
+    {
+      "id": 117,
+      "question": "¿Cuál de estos microorganismos NO es una bacteria?",
+      "options": {
+        "A": "Staphylococcus aureus.",
+        "B": "Mycobacterium leprae.",
+        "C": "Chlamydia trachomatis.",
+        "D": "Candida albicans."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Candida albicans."
+    },
+    {
+      "id": 118,
+      "question": "¿Por qué tipo de ácido nucleico pueden estar compuestos los virus?",
+      "options": {
+        "A": "Únicamente ARN",
+        "B": "Únicamente ADN",
+        "C": "ARN o ADN",
+        "D": "ARN y ADN"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "ARN o ADN"
+    },
+    {
+      "id": 119,
+      "question": "La temperatura óptima de crecimiento para la mayoría de los hongos patógenos es de ...",
+      "options": {
+        "A": "36,5 ºC",
+        "B": "37 ºC",
+        "C": "Temperatura ambiente",
+        "D": "30 ºC"
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "30 ºC"
+    },
+    {
+      "id": 120,
+      "question": "La varicela está producida por:",
+      "options": {
+        "A": "Streptococcus pyogenes",
+        "B": "Sreptococcus grupo A",
+        "C": "Herpesvirus",
+        "D": "Streptococcus viridans"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Herpesvirus"
+    },
+    {
+      "id": 121,
+      "question": "La carga viral del VIH se realiza principalmente en:",
+      "options": {
+        "A": "Plasma EDTA",
+        "B": "Plasma citratado",
+        "C": "Plasma aprotinina",
+        "D": "Suero"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Plasma EDTA"
+    },
+    {
+      "id": 122,
+      "question": "El Cryptococcus neoformans:",
+      "options": {
+        "A": "Es un hongo",
+        "B": "Carece de cápsula",
+        "C": "No crece en agar sabouraud",
+        "D": "Tiene tres flagelos distales"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Es un hongo"
+    },
+    {
+      "id": 123,
+      "question": "La prueba de Western-blot se usa para:",
+      "options": {
+        "A": "La detección de antígenos del VHC",
+        "B": "La detección de anticuerpos del VHD",
+        "C": "La confirmación del VIH",
+        "D": "La confirmación de VHC"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "La confirmación del VIH"
+    },
+    {
+      "id": 124,
+      "question": "El núcleo de los virus es redondo:",
+      "options": {
+        "A": "Falso, es helicoidal",
+        "B": "Falso, es de forma variable",
+        "C": "Falso, carecen de núcleo",
+        "D": "Verdadero"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Falso, carecen de núcleo"
+    },
+    {
+      "id": 125,
+      "question": "De los virus, es una característica:",
+      "options": {
+        "A": "Presentar pared celular.",
+        "B": "No tener síntesis proteica.",
+        "C": "Tener capacidad de generar energía.",
+        "D": "Crecer en medios artificiales."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "No tener síntesis proteica."
+    },
+    {
+      "id": 126,
+      "question": "Si se sospecha de la presencia de Criptococcus neoformans ¿qué tipo de tinción utilizarías para evidenciarla?",
+      "options": {
+        "A": "Tinción con azul de metileno.",
+        "B": "Tinción con verde de malaquita.",
+        "C": "Tinción con tinta china.",
+        "D": "Tinción de Gram."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Tinción con tinta china."
+    },
+    {
+      "id": 127,
+      "question": "Señale la CORRECTA:",
+      "options": {
+        "A": "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los picornavirus.",
+        "B": "El virus de la hepatitis B es un virus ARN y pertenece a la familia de los hepadnavirus.",
+        "C": "El virus de la hepatitis C es un virus ADN y pertenece a la familia de los flaviviridae.",
+        "D": "A y C son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los picornavirus."
+    },
+    {
+      "id": 128,
+      "question": "La carga viral es:",
+      "options": {
+        "A": "Cuantificación en suero del ARN viral en pacientes infectados por VIH.",
+        "B": "Cuantificación en suero del ADN viral en pacientes infectados por VIH.",
+        "C": "Cuantificación en plasma del ARN viral en pacientes infectados por VIH.",
+        "D": "Cuantificación en plasma del ADN viral en pacientes infectados por VIH."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Cuantificación en plasma del ARN viral en pacientes infectados por VIH."
+    },
+    {
+      "id": 129,
+      "question": "Existen varios tipos de esporas sexuales. Cita cuál NO es una espora sexual:",
+      "options": {
+        "A": "Zigospora.",
+        "B": "Artrospora.",
+        "C": "Oospora.",
+        "D": "Ascospora."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Artrospora."
+    },
+    {
+      "id": 130,
+      "question": "Según la clasificación de los hongos, los filamentosos y no tabicados pertenecen al grupo de:",
+      "options": {
+        "A": "Dicaryomicotina.",
+        "B": "Zygomycotina.",
+        "C": "Deuteromycotina.",
+        "D": "Esporomycotica."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Zygomycotina."
+    },
+    {
+      "id": 131,
+      "question": "¿Qué secuencia del virus VIH amplifica el método RT- PCR?",
+      "options": {
+        "A": "El gen pang.",
+        "B": "El gen 18.",
+        "C": "El gen gag.",
+        "D": "El gen SK."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "El gen gag."
+    },
+    {
+      "id": 132,
+      "question": "La reproducción asexuada de hongos se produce por:",
+      "options": {
+        "A": "La fusión de dos núcleos haploides sexualmente diferentes.",
+        "B": "La fusión de dos núcleos diploides diferentes.",
+        "C": "Fragmentación.",
+        "D": "No existe reproducción sexual en hongos."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Fragmentación."
+    },
+    {
+      "id": 133,
+      "question": "El virus del SIDA se encuentra intracelularmente en:",
+      "options": {
+        "A": "Linfocitos T4.",
+        "B": "Células de glía.",
+        "C": "Macrófagos.",
+        "D": "Todas son correctas."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 134,
+      "question": "La Pitiriasis versicolor está producida por:",
+      "options": {
+        "A": "Ácaro.",
+        "B": "Hongo.",
+        "C": "Parásito.",
+        "D": "Protozoo."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Hongo."
+    },
+    {
+      "id": 135,
+      "question": "¿Cuál de los siguientes métodos diagnósticos considera más adecuado para el diagnóstico de la gripe?",
+      "options": {
+        "A": "Cultivo en medios celulares.",
+        "B": "Detección de antígenos mediante ELISA.",
+        "C": "Reacción en cadena de la polimerasa (PCR).",
+        "D": "Detección antígenos mediante Inmunofluorescencia indirecta."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Reacción en cadena de la polimerasa (PCR)."
+    },
+    {
+      "id": 136,
+      "question": "La técnica de laboratorio fundamental para el diagnóstico de una fiebre hemorrágica viral en la práctica clínica es",
+      "options": {
+        "A": "Cultivo viral.",
+        "B": "Serología.",
+        "C": "PCR.",
+        "D": "Detección de antígeno en orina"
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "PCR."
+    },
+    {
+      "id": 137,
+      "question": "¿Cuál es el patógeno productor de diarrea más frecuente en niños menores de 2 años?",
+      "options": {
+        "A": "Giardia lamblia.",
+        "B": "Rotavirus.",
+        "C": "Helicobacter pylori.",
+        "D": "Campylobacter jejuni"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Rotavirus."
+    },
+    {
+      "id": 138,
+      "question": "La reacción de Paul-Bunnel es positiva en la:",
+      "options": {
+        "A": "Tuberculosis",
+        "B": "Hepatitis A",
+        "C": "Brucelosis",
+        "D": "Mononucleosis infecciosa"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Mononucleosis infecciosa"
+    },
+    {
+      "id": 139,
+      "question": "¿Cuál es el análisis de confirmación que más se usa para el diagnóstico del síndrome de inmunodeficiencia adquirida?",
+      "options": {
+        "A": "ELISA",
+        "B": "IRMA",
+        "C": "RIA",
+        "D": "Western blot"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Western blot"
+    },
+    {
+      "id": 140,
+      "question": "¿Cómo se llama la infección micótica superficial que produce la Malassezzia furfur?",
+      "options": {
+        "A": "Tiña versicolor",
+        "B": "Tiña negra",
+        "C": "Piedra negra",
+        "D": "Piedra blanca"
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Tiña versicolor"
+    },
+    {
+      "id": 141,
+      "question": "¿A qué familia pertenece el virus Influenza A o Alphainfluenzavirus?",
+      "options": {
+        "A": "Paramixoviridae",
+        "B": "Orthomyxoviridae",
+        "C": "Picornaviridae",
+        "D": "Parvoviridae"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Orthomyxoviridae"
+    },
+    {
+      "id": 142,
+      "question": "¿Cuál de estos hongos es una levadura?:",
+      "options": {
+        "A": "Aspergilus spp.",
+        "B": "Dermatofitos.",
+        "C": "Pennicilium spp.",
+        "D": "Candida spp."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Candida spp."
+    },
+    {
+      "id": 143,
+      "question": "Señale la respuesta correcta, los hongos son microorganismos:",
+      "options": {
+        "A": "Eucariotas.",
+        "B": "Procariotas.",
+        "C": "Polimórficos.",
+        "D": "Autótrofos."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Eucariotas."
+    },
+    {
+      "id": 144,
+      "question": "El virus de la inmunodeficiencia humana VIH infecta a las células que tienen en su superficie la molécula CD4. ¿A través de qué proteína se une específicamente?",
+      "options": {
+        "A": "gp41",
+        "B": "gp120",
+        "C": "p17",
+        "D": "p24"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "gp120"
+    },
+    {
+      "id": 145,
+      "question": "El agar Sabouraud es adecuado para el crecimiento de:",
+      "options": {
+        "A": "Cocobacilos Gram positivo.",
+        "B": "Parásitos intracelulares.",
+        "C": "Enterobacterias.",
+        "D": "Levaduras."
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Levaduras."
+    },
+    {
+      "id": 146,
+      "question": "La transmisión del virus VIH de la madre al feto durante el embarazo, se denomina:",
+      "options": {
+        "A": "Transmisión horizontal.",
+        "B": "Transmisión oblicua",
+        "C": "Transmisión vertical.",
+        "D": "Transmisión vectorial."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Transmisión vertical."
+    },
+    {
+      "id": 147,
+      "question": "De entre las siguientes ¿cuál es la causa más frecuente de infección fúngica del sistema nervioso central?",
+      "options": {
+        "A": "Haemophilus influenzae",
+        "B": "Neisseria meningitidis",
+        "C": "Listeria monocytogenes",
+        "D": "Crytococcus neoformans"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Crytococcus neoformans"
+    },
+    {
+      "id": 148,
+      "question": "¿De qué tipo es el material genético del virus varicela-herpes zoster?",
+      "options": {
+        "A": "ADN monocatenario",
+        "B": "ADN bicatenario",
+        "C": "ARN monocatenario",
+        "D": "ARN bicatenario"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "ADN bicatenario"
+    },
+    {
+      "id": 149,
+      "question": "El virus Epstein-Barr (VEB) es un virus DNA que se relaciona con:",
+      "options": {
+        "A": "Infecciones urinarias.",
+        "B": "Mononucleosis infecciosa.",
+        "C": "Cistitis hemorrágicas en inmunodeprimidos.",
+        "D": "Gastroenteritis aguda en lactantes."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Mononucleosis infecciosa."
+    },
+    {
+      "id": 150,
+      "question": "En cuanto a los perfiles serológicos para bacterias, virus, parásitos y hongos, señala la correcta:",
+      "options": {
+        "A": "Para medir la IgG una muestra extraída en la fase aguda es necesaria.",
+        "B": "Para medir la IgM una muestra extraída en la fase aguda es necesaria.",
+        "C": "Para medir la IgG o IgM e IgG se necesita 1 suero seriado en la fase aguda y convalecencia.",
+        "D": "Todas son correctas."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Para medir la IgM una muestra extraída en la fase aguda es necesaria."
+    },
+    {
+      "id": 151,
+      "question": "A continuación, señala la opción que no corresponde con una espora sexual",
+      "options": {
+        "A": "Zigospora",
+        "B": "Oospora",
+        "C": "Arcosporas",
+        "D": "Artrosporas"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Artrosporas"
+    },
+    {
+      "id": 152,
+      "question": "De los siguientes enunciados cuales corresponden a técnicas moleculares de amplificación utilizadas para la detección y cuantificación de VIH-1",
+      "options": {
+        "A": "Amplicor HIV-1 monitor (retrotranscripción y amplificación o RT-PCR).",
+        "B": "RT-PCR en tiempo real (cobas Taqman, Roche. Abbott real time. Abbot)",
+        "C": "Método del ADN ramificado (bADN)",
+        "D": "Todas son correctas"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 153,
+      "question": "En la infección por VIH se pude diagnosticar en el laboratorio mediante la determinación del antígeno viral. Señala la respuesta incorrecta",
+      "options": {
+        "A": "La detección del antígeno viral P24 es un marcador de pronóstico favorable.",
+        "B": "La detección del antígeno viral P24 se puede realizar en los linfocitos de los pacientes afectados.",
+        "C": "La detección del antígeno viral P24 indica replicación activa.",
+        "D": "La determinación del antígeno viral P24 se detecta durante la infección aguda por el virus."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "La detección del antígeno viral P24 es un marcador de pronóstico favorable."
+    },
+    {
+      "id": 154,
+      "question": "La identificación del ácido nucleico viral es una de las técnicas para el diagnóstico de infección por VIH. Una de sus características es",
+      "options": {
+        "A": "No nos permite detectar la infección en los estadios iniciales.",
+        "B": "Es una técnica muy sensible que permite detectar la infección en los casos que los anticuerpos aún no están presentes.",
+        "C": "La técnica se basa en el aislamiento de células mononucleadas de sangre periférica del paciente.",
+        "D": "La identificación del ácido nucleico viral es un método indirecto de diagnóstico de laboratorio en la infección por VIH,"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Es una técnica muy sensible que permite detectar la infección en los casos que los anticuerpos aún no están presentes."
+    },
+    {
+      "id": 155,
+      "question": "¿Cuál de las siguientes técnicas para la detección del Sars-Cov2 es cualitativa?",
+      "options": {
+        "A": "Prueba de reacción en cadena de la polimerasa con trascripción inversa (RT-PCR).",
+        "B": "Pruebas de antígenos.",
+        "C": "Prueba de reacción en cadena de la polimerasa (PCR).",
+        "D": "Todas son ciertas."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 156,
+      "question": "En el agar Sabouraud, ¿para qué se utiliza la cicloheximida?",
+      "options": {
+        "A": "Para evitar el crecimiento de virus que contaminen",
+        "B": "Para evitar el crecimiento de hongos contaminantes.",
+        "C": "Para saber cómo se nutre el hongo que vamos a estudiar",
+        "D": "Todas son falsas"
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Para evitar el crecimiento de hongos contaminantes."
+    },
+    {
+      "id": 157,
+      "question": "La muestra correspondiente, ante una sospecha de onicomicosis, se incuba en",
+      "options": {
+        "A": "Agar Mycosel",
+        "B": "Medio Simmons",
+        "C": "Citrato",
+        "D": "Mueller-Hinton"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Agar Mycosel"
+    },
+    {
+      "id": 158,
+      "question": "La enfermedad de \"los cuidadores de los rosales\" es producida por:",
+      "options": {
+        "A": "Sporothrix schenckii.",
+        "B": "Malasea furfur.",
+        "C": "Exophia werneck.",
+        "D": "Criptococcus neoformans."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Sporothrix schenckii."
+    },
+    {
+      "id": 159,
+      "question": "Señala la correcta si hablamos del mecanismo de reproducción de los hongos",
+      "options": {
+        "A": "Todas son correctas",
+        "B": "Reproducción sexuada",
+        "C": "Reproducción asexuada",
+        "D": "Reproducción parasexuada"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Todas son correctas"
+    },
+    {
+      "id": 160,
+      "question": "Los hongos que tienen una reproducción asexuada, los denominamos",
+      "options": {
+        "A": "Hongos semiperfectos.",
+        "B": "Hongos imperfectos.",
+        "C": "Hongos con filamentos.",
+        "D": "Hongos Zygomycóticos."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Hongos imperfectos."
+    },
+    {
+      "id": 161,
+      "question": "Un estudio de diagnóstico viral es el cultivo de virus. ¿Qué técnica de las siguientes se emplea para dicho cultivo?",
+      "options": {
+        "A": "Cultivo en tejido muerto.",
+        "B": "Estudios membranosos.",
+        "C": "Cultivos celulares.",
+        "D": "Aislamiento restringido."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Cultivos celulares."
+    },
+    {
+      "id": 162,
+      "question": "Señala la afirmación correcta cuando hablamos de serología viral",
+      "options": {
+        "A": "Para la serología la muestra de sangre se recoge en tubos con anticoagulantes.",
+        "B": "Uno de los test empleados en el estudio de serología viral es la desnaturalización.",
+        "C": "A través de la serología viral no se puede identificar si una infección está en proceso agudo o crónico",
+        "D": "Dos de los test que se pueden emplear en el estudio de serología viral son: fijación del complemento e inhibición de la hematoglutina."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Dos de los test que se pueden emplear en el estudio de serología viral son: fijación del complemento e inhibición de la hematoglutina."
+    },
+    {
+      "id": 163,
+      "question": "Ante el diagnóstico de laboratorio sobre el virus de la rabia",
+      "options": {
+        "A": "El diagnóstico de laboratorio se puede realizar mediante identificación de los corpúsculos de Negri.",
+        "B": "Los cuerpos de Negri son diagnósticos de la rabia y siempre se detectan en tejidos cerebrales infectados.",
+        "C": "Una de las técnicas utilizadas para el diagnóstico de laboratorio de la rabia es el aislamiento del virus y se realiza inoculando una muestra de sangre.",
+        "D": "Todas son correctas."
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "El diagnóstico de laboratorio se puede realizar mediante identificación de los corpúsculos de Negri."
+    },
+    {
+      "id": 164,
+      "question": "Ante el diagnóstico de laboratorio del virus de la varicela Zóster",
+      "options": {
+        "A": "La determinación de anticuerpos contra el virus de la varicela zóster nos permite saber si el paciente ha pasado la enfermedad, pero no conoceremos la inmunidad frente al virus.",
+        "B": "En su cultivo se toman muestras de vesículas recientes.",
+        "C": "A través de su estudio citológico se pueden detectar las células enanas típicas",
+        "D": "En su estudio citológico el frotis se tiñe con el método Gemma."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "En su cultivo se toman muestras de vesículas recientes."
+    },
+    {
+      "id": 165,
+      "question": "¿Cuál de las siguientes tinciones es utilizada para la identificación de hongos?",
+      "options": {
+        "A": "Eosina.",
+        "B": "KOH (Hidróxido de potasio) al 10 %.",
+        "C": "Romanovsky.",
+        "D": "Azul de calco flúor."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "KOH (Hidróxido de potasio) al 10 %."
+    },
+    {
+      "id": 166,
+      "question": "Señale la respuesta correcta en relación a los hongos:",
+      "options": {
+        "A": "Son microorganismos procariotas.",
+        "B": "Pueden crecer de forma levaduriforme o micelial.",
+        "C": "Realizan la fotosíntesis.",
+        "D": "Se reproducen exclusivamente de forma asexual."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Pueden crecer de forma levaduriforme o micelial."
+    },
+    {
+      "id": 167,
+      "question": "Identifica que enfermedad no corresponde con micosis:",
+      "options": {
+        "A": "Candidiasis.",
+        "B": "Histoplasmosis.",
+        "C": "Echinococosis.",
+        "D": "Criptococosis."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Echinococosis."
+    },
+    {
+      "id": 168,
+      "question": "En relación al envío de muestras clínicas de pacientes que cumplen la definición de caso de gripe, señale la respuesta incorrecta:",
+      "options": {
+        "A": "Según las recomendaciones de la OMS, el envase exterior para envío de muestras clínicas o microorganismos vivos de la categoría B, a los laboratorios de virología asociados a la red centinela, deberán contener en su etiquetado el número UN3375.",
+        "B": "Se deberá utilizar el sistema de triple embalaje básico para su transporte, compuesto por los tres niveles de contención recomendados por la OMS.",
+        "C": "El recipiente primario contiene el virus aislado o muestra clínica. Debe ser estanco, a prueba de filtraciones y estar etiquetado. Debe envolverse en material absorbente suficiente para retener todo el fluido en caso de ruptura",
+        "D": "El recipiente secundario encierra y protege al primario. Debe ser estanco, a prueba de filtraciones, irrompible, con tapa de cierre hermético o una bolsa hermética."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Según las recomendaciones de la OMS, el envase exterior para envío de muestras clínicas o microorganismos vivos de la categoría B, a los laboratorios de virología asociados a la red centinela, deberán contener en su etiquetado el número UN3375."
+    },
+    {
+      "id": 169,
+      "question": "La determinación positiva de Paul Bunnell en una muestra, indica presencia de:",
+      "options": {
+        "A": "Salmonelosis.",
+        "B": "Rubeola.",
+        "C": "Varicela.",
+        "D": "Virus de Epstein-Barr."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 170,
+      "question": "¿Qué característica no corresponde al virus del VIH?",
+      "options": {
+        "A": "Es un virus ADN.",
+        "B": "Ataca fundamentalmente los linfocitos T4.",
+        "C": "Tiene una transcriptasa inversa.",
+        "D": "Consta de nucleocápside y envoltura."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Es un virus ADN."
+    },
+    {
+      "id": 171,
+      "question": "El virus de la rubeola pertenece a la familia de los:",
+      "options": {
+        "A": "Rhabdovirus.",
+        "B": "Togavirus.",
+        "C": "Ortomixovirus.",
+        "D": "Paramixovirus."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Togavirus."
+    },
+    {
+      "id": 172,
+      "question": "Indique cuál de los siguientes virus es DNA:",
+      "options": {
+        "A": "Virus de la hepatitis C.",
+        "B": "Virus respiratorio sincitial.",
+        "C": "Virus del herpes simple.",
+        "D": "Rotavirus."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Virus del herpes simple."
+    },
+    {
+      "id": 173,
+      "question": "El enterobius vermicularis es:",
+      "options": {
+        "A": "Un virus perteneciente a la clase de los nematodos.",
+        "B": "Un gusano perteneciente a la clase de los nematodos.",
+        "C": "Un gusano perteneciente a la clase de los cestodos.",
+        "D": "Un gusano perteneciente a la clase de los trematodos."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Un gusano perteneciente a la clase de los nematodos."
+    },
+    {
+      "id": 174,
+      "question": "De los siguientes virus, indique cuál no es un herpesvirus:",
+      "options": {
+        "A": "Virus del Sarampión.",
+        "B": "Virus Epstein-Barr.",
+        "C": "Citomegalovirus.",
+        "D": "Virus de la varicela zoster."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Virus del Sarampión."
+    },
+    {
+      "id": 175,
+      "question": "Indique cómo se denomina el ciclo reproductivo de un virus en el que se produce la muerte del huésped:",
+      "options": {
+        "A": "Ciclo lisogénico.",
+        "B": "Ciclo lítico.",
+        "C": "Ciclo replicativo.",
+        "D": "Ciclo de Adsorción."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Ciclo lítico."
+    },
+    {
+      "id": 176,
+      "question": "Es un método indirecto para la identificación de virus:",
+      "options": {
+        "A": "Sondas de hibridación.",
+        "B": "Inmunofluorescencia directa.",
+        "C": "Reacción en Cadena de la Polimerasa (PCR).",
+        "D": "Inhibición de la hemoaglutinación."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Inhibición de la hemoaglutinación."
+    },
+    {
+      "id": 177,
+      "question": "Es cierto que el VIH1:",
+      "options": {
+        "A": "Es un virus RNA.",
+        "B": "Es un virus DNA.",
+        "C": "Es un virus RNA que no necesita transcripción inversa para formar DNA",
+        "D": "Es un virus DNA que necesita retrotranscribirse en su ciclo replicativo"
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Es un virus RNA."
+    },
+    {
+      "id": 178,
+      "question": "Los virus:",
+      "options": {
+        "A": "Pueden crecer en medios de cultivo convencional en condiciones especiales de humedad.",
+        "B": "Crecen siempre, aunque lentamente",
+        "C": "Pueden crecer en cultivos tisulares, huevos embrionados o animales experimentales.",
+        "D": "No se pueden cultivar."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Pueden crecer en cultivos tisulares, huevos embrionados o animales experimentales."
+    },
+    {
+      "id": 179,
+      "question": "Por lo general, se considera que el método diagnóstico de mayor sensibilidad frente a las micosis es:",
+      "options": {
+        "A": "El aislamiento del hongo en un cultivo en atmósfera aeróbica incubado durante 24-48 h.",
+        "B": "El aislamiento del hongo en un cultivo en atmósfera anaeróbica incubado durante 24-48 h.",
+        "C": "El aislamiento del hongo en un cultivo en atmósfera aeróbica incubado durante 2 semanas.",
+        "D": "El aislamiento del hongo en un cultivo en atmósfera anaeróbica incubado durante 2 semanas."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "El aislamiento del hongo en un cultivo en atmósfera aeróbica incubado durante 2 semanas."
+    },
+    {
+      "id": 180,
+      "question": "Son hongos miceliares cuyas hifas no tienen septos:",
+      "options": {
+        "A": "Hifomicetos.",
+        "B": "Basidiomicetos.",
+        "C": "Zigomicetos.",
+        "D": "Ascomicetos."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Zigomicetos."
+    },
+    {
+      "id": 181,
+      "question": "Se considera una micosis profunda la infección fúngica siguiente:",
+      "options": {
+        "A": "Candidiasis cutánea.",
+        "B": "Histoplasmosis.",
+        "C": "Micetomas.",
+        "D": "Dermatofitosis."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Histoplasmosis."
+    },
+    {
+      "id": 182,
+      "question": "¿Cuál de estos virus es RNA?",
+      "options": {
+        "A": "Virus de la Hepatitis B.",
+        "B": "Virus del Herpes simple.",
+        "C": "Citomegalovirus.",
+        "D": "Virus de la Hepatitis C."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Virus de la Hepatitis C."
+    },
+    {
+      "id": 183,
+      "question": "De las siguientes patologías producidas por hongos. ¿Cuál se desarrolla preferentemente en los pulmones?",
+      "options": {
+        "A": "Cromoblastomicosis.",
+        "B": "Tiña negra palmar.",
+        "C": "Micetoma.",
+        "D": "Aspergilosis."
+      },
+      "page": 18,
+      "correctAnswer": "D",
+      "correctText": "Aspergilosis."
+    },
+    {
+      "id": 184,
+      "question": "¿Qué es un efecto citopático observable en un cultivo celular inoculado con virus?",
+      "options": {
+        "A": "La capacidad que tienen los virus para unirse con los anticuerpos a través de su citoplasma.",
+        "B": "La unión morfológica de un virus y un anticuerpo.",
+        "C": "El cambio morfológico en las células resultante de una infección vírica.",
+        "D": "Si las células se mantienen en cultivo no pueden ser infectadas por virus."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "El cambio morfológico en las células resultante de una infección vírica."
+    },
+    {
+      "id": 185,
+      "question": "El medio de cultivo Sabouraud, se utiliza para aislamiento de:",
+      "options": {
+        "A": "Staphylococcus.",
+        "B": "Listerias.",
+        "C": "Levaduras.",
+        "D": "Enterobacterias."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Levaduras."
+    },
+    {
+      "id": 186,
+      "question": "Cuando observamos una microconidia al microscopio. ¿A qué microorganismos se hace referencia?",
+      "options": {
+        "A": "Parásitos",
+        "B": "Virus",
+        "C": "Hongos",
+        "D": "Bacterias"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Hongos"
+    },
+    {
+      "id": 187,
+      "question": "Para el cultivo de virus se emplean:",
+      "options": {
+        "A": "Medios de enriquecimiento.",
+        "B": "Medios selectivos.",
+        "C": "Medios diferenciales.",
+        "D": "Cultivos celulares."
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Cultivos celulares."
+    },
+    {
+      "id": 188,
+      "question": "En micología, la tinción específica para polisacáridos y glucógeno es:",
+      "options": {
+        "A": "Tinción de Giemsa.",
+        "B": "Tinción de Pas.",
+        "C": "Tinción argéntica.",
+        "D": "Tinción de Panóptico."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Tinción de Pas."
+    },
+    {
+      "id": 189,
+      "question": "La prueba microbiológica que permite determinar la capacidad de una levadura para asimilar diferentes nutrientes presentes en un medio de cultivo se denomina:",
+      "options": {
+        "A": "Auxonograma.",
+        "B": "Microdilución.",
+        "C": "Antifungigrama.",
+        "D": "Microcultivos."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Auxonograma."
+    },
+    {
+      "id": 190,
+      "question": "La tinción de azul de lactofenol se utiliza principalmente para:",
+      "options": {
+        "A": "Visualización de la cápsula bacteriana.",
+        "B": "El examen de hongos.",
+        "C": "Identificación de protozoos fecales.",
+        "D": "Observación de helmintos en heces."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "El examen de hongos."
+    },
+    {
+      "id": 191,
+      "question": "La muestra más adecuada para el diagnóstico de una enfermedad producida por un rotavirus es:",
+      "options": {
+        "A": "Exudado faríngeo.",
+        "B": "Líquido cefalorraquídeo.",
+        "C": "Heces.",
+        "D": "Raspado corneal."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Heces."
+    },
+    {
+      "id": 192,
+      "question": "¿Durante cuánto tiempo deben incubarse los cultivos de hongos antes de proceder a desecharlos?:",
+      "options": {
+        "A": "Durante 1 semana.",
+        "B": "Durante 3-4 semanas.",
+        "C": "Durante 3-4 meses.",
+        "D": "No es necesaria la incubación. Explicación. Pego tal cual lo que dice la SEIMC al respecto: “Los cultivos de hongos deben incubarse durante 3-4 semanas antes de ser desechados, y no deben desecharse cuando se aísla un hongo, sino que debe completarse el periodo de incubación. Sin embargo, hay muestras que se pueden eliminar antes (por ejemplo, exudado vaginal), a los 7 días, cuando se realizan cultivos habituales”"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Durante 3-4 semanas."
+    },
+    {
+      "id": 193,
+      "question": "La detección del antígeno galactomanano es útil para el diagnóstico de:",
+      "options": {
+        "A": "Criptococosis.",
+        "B": "Candidiasis.",
+        "C": "Aspergilosis invasiva.",
+        "D": "Histoplamosis."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Aspergilosis invasiva."
+    },
+    {
+      "id": 194,
+      "question": "¿Cuál de estas asociaciones NO es correcta?:",
+      "options": {
+        "A": "Parotiditis - Virus DNA.",
+        "B": "Sarampión - Virus RNA.",
+        "C": "VIH - Virus RNA.",
+        "D": "Hepatitis B - Virus DNA."
+      },
+      "page": 19,
+      "correctAnswer": "A",
+      "correctText": "Parotiditis - Virus DNA."
+    },
+    {
+      "id": 195,
+      "question": "¿Cuál de los siguientes virus producen anticuerpos heterófilos?:",
+      "options": {
+        "A": "Virus de la Hepatitis B.",
+        "B": "Citomegalovirus.",
+        "C": "Virus de Epstein-Barr.",
+        "D": "Virus de varicela Zóster."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 196,
+      "question": "Tras leer un artículo sobre la variante Delta del SARS- COV-2 y su comportamiento epidemiológico, he entendido perfectamente la definición de virulencia que aporta la OMS, que es la siguiente:",
+      "options": {
+        "A": "El grado de agresividad de un virus, indicado por las tasas de incidencia y por su capacidad para invadir y lesionar los tejidos del huésped, o ambos parámetros.",
+        "B": "El grado de toxicidad de un virus, indicado por las tasas de incidencia y por su capacidad para invadir y lesionar los tejidos del huésped, o ambos parámetros.",
+        "C": "El grado de patogenicidad de un agente infeccioso, indicado por las tasas de letalidad y por su capacidad para invadir y lesionar los tejidos del huésped, o ambos parámetros.",
+        "D": "El grado de agresividad de un agente infeccioso, indicado por las tasas de incidencia acumulada y por su capacidad para invadir y lesionar los tejidos del huésped, o ambos."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "El grado de patogenicidad de un agente infeccioso, indicado por las tasas de letalidad y por su capacidad para invadir y lesionar los tejidos del huésped, o ambos parámetros."
+    },
+    {
+      "id": 197,
+      "question": "Se llaman virus desnudos a aquellos que:",
+      "options": {
+        "A": "Carecen de envoltura.",
+        "B": "Carecen de nucleoide.",
+        "C": "Carecen de cápside.",
+        "D": "Carecen de ADN o ARN."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Carecen de envoltura."
+    },
+    {
+      "id": 198,
+      "question": "El virus de la rubeola:",
+      "options": {
+        "A": "Es un virus AON que pertenece a la familia Rhabdoviridae.",
+        "B": "Es un virus ARN que pertenece a la familia Filoviridae.",
+        "C": "Es un virus ARN que pertenece a la familia Poxviridae.",
+        "D": "Es un virus ARN que pertenece a la familia Togaviridae."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Es un virus ARN que pertenece a la familia Togaviridae."
+    },
+    {
+      "id": 199,
+      "question": "En cuanto a los medios de cultivo de virus, para mantener las mismas condiciones fisiológicas in vitro como in vivo, se utiliza:",
+      "options": {
+        "A": "Caldo infusión cerebro corazón (BHI).",
+        "B": "Caldo de triptona de soja (TSB).",
+        "C": "Solución de sales equilibrada (BSS).",
+        "D": "Solución de Lugol."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Solución de sales equilibrada (BSS)."
+    },
+    {
+      "id": 200,
+      "question": "¿Cuál de las siguientes NO es una función de la pared celular bacteriana?",
+      "options": {
+        "A": "Ayuda a mantener la morfología de la célula.",
+        "B": "Está implicada en la patogenicidad de la bacteria.",
+        "C": "Determina su movilidad.",
+        "D": "Permite el paso selectivo de algunas sustancias."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Determina su movilidad."
+    },
+    {
+      "id": 201,
+      "question": "La amplificación del genoma vírico mediante PCR:",
+      "options": {
+        "A": "Requiere la presencia de células vivas para su realización.",
+        "B": "Solo se realiza con muestras bacterianas.",
+        "C": "Requiere previamente la extracción del ácido nucleico.",
+        "D": "Todas son ciertas."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Requiere previamente la extracción del ácido nucleico."
+    },
+    {
+      "id": 202,
+      "question": "Los virus del género Enterovirus y Rhinovirus pertenecen a la familia:",
+      "options": {
+        "A": "Reoviridae.",
+        "B": "Togaviridae.",
+        "C": "Arenaviridae.",
+        "D": "Picornaviridae."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Picornaviridae."
+    },
+    {
+      "id": 203,
+      "question": "Un auxonograma de levaduras consiste en:",
+      "options": {
+        "A": "Una batería de pruebas bioquímicas.",
+        "B": "La determinación del antimicótico más efectivo.",
+        "C": "Un pre-enriquecimiento.",
+        "D": "Un tipo de siembra."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Una batería de pruebas bioquímicas."
+    },
+    {
+      "id": 204,
+      "question": "¿Qué característica corresponde a los virus?",
+      "options": {
+        "A": "Son parásitos obligados.",
+        "B": "Su material genético puede ser ADN o ARN.",
+        "C": "El material genético está encerrado en una cubierta proteica.",
+        "D": "Todas son ciertas."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Todas son ciertas."
+    },
+    {
+      "id": 205,
+      "question": "Los hongos son organismos:",
+      "options": {
+        "A": "Heterótrofos.",
+        "B": "Autótrofos.",
+        "C": "Quimioautótrofos.",
+        "D": "Mixótrofos."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Heterótrofos."
+    },
+    {
+      "id": 206,
+      "question": "Si buscamos una técnica de cultivo y aislamiento de virus, ¿cuál de las siguientes utilizaríamos?",
+      "options": {
+        "A": "Método RIA.",
+        "B": "Método ELISA.",
+        "C": "Técnica de inoculación en embrión de pollo.",
+        "D": "Determinación de inmuoglobulinas M."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Técnica de inoculación en embrión de pollo."
+    },
+    {
+      "id": 207,
+      "question": "Según su genoma, los virus se pueden clasificar en:",
+      "options": {
+        "A": "Helicoidales.",
+        "B": "Ribovirus.",
+        "C": "Desoxirribovirus.",
+        "D": "B y C son correctas."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "B y C son correctas."
+    },
+    {
+      "id": 208,
+      "question": "Los virus:",
+      "options": {
+        "A": "Son sensibles a los antibióticos.",
+        "B": "Tienen un tamaño superior a 500 nm.",
+        "C": "Son parásitos intracelulares obligados.",
+        "D": "Carecen de nucleocápside."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Son parásitos intracelulares obligados."
+    },
+    {
+      "id": 209,
+      "question": "¿Cuál de estas técnicas es la que más se emplea para el análisis de confirmación del diagnóstico del síndrome de inmunodeficiencia adquirida?",
+      "options": {
+        "A": "Técnica de inmunofluorescencia directa.",
+        "B": "Inmunocromatografía.",
+        "C": "Técnica de Western-Blot.",
+        "D": "Técnica de inmunofluorescencia indirecta."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Técnica de Western-Blot."
+    },
+    {
+      "id": 210,
+      "question": "La técnica de elección para el diagnóstico de herpes virus en la afectación del Sistema Nervioso Central, será:",
+      "options": {
+        "A": "Anticuerpos IgM.",
+        "B": "PCR a tiempo real.",
+        "C": "Anticuerpos IgG."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "PCR a tiempo real."
+    },
+    {
+      "id": 211,
+      "question": "¿Cuál de estos virus NO pertenece a la familia herpes virus?:",
+      "options": {
+        "A": "Adenovirus.",
+        "B": "Citomegalovirus.",
+        "C": "Varicela Zoster."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Adenovirus."
+    },
+    {
+      "id": 212,
+      "question": "Para investigar el posible agente etiológico de una meningitis aséptica en esta paciente de 2 años de edad ¿Qué técnica diagnóstica de las que siguen es la indicada?",
+      "options": {
+        "A": "Detección de anticuerpos IgG e IgM.",
+        "B": "Detección de ARN vírico mediante técnicas moleculares.",
+        "C": "Realización de antigenemia."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Detección de ARN vírico mediante técnicas moleculares."
+    },
+    {
+      "id": 213,
+      "question": "¿Cuál de estas técnicas NO es adecuada como método confirmatorio de diagnóstico del VIH?:",
+      "options": {
+        "A": "Wester-blot.",
+        "B": "Inmunofluorescencia indirecta (IFI).",
+        "C": "Inmunoensayo lineal (LIA)."
+      },
+      "page": 21,
+      "correctAnswer": "B",
+      "correctText": "Inmunofluorescencia indirecta (IFI)."
+    },
+    {
+      "id": 214,
+      "question": "¿Cuál es el método más empleado en las pruebas de cribado de VIH?:",
+      "options": {
+        "A": "Enzimoinmunoensayo (EIA).",
+        "B": "PCR.",
+        "C": "Cultivos celulares."
+      },
+      "page": 21,
+      "correctAnswer": "A",
+      "correctText": "Enzimoinmunoensayo (EIA)."
+    },
+    {
+      "id": 215,
+      "question": "Para el cribado de anticuerpos VIH, deben utilizarse reactivos que detecten:",
+      "options": {
+        "A": "Únicamente Anticuerpos VIH-1.",
+        "B": "Únicamente Anticuerpos VIH-2.",
+        "C": "Anticuerpos VIH-1 y VIH-2."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Anticuerpos VIH-1 y VIH-2."
+    },
+    {
+      "id": 216,
+      "question": "Un hongo dimórfico es aquel que:",
+      "options": {
+        "A": "Forma protoplastos.",
+        "B": "Produce artrosporas y clamidosporas.",
+        "C": "Puede crecer como levadura o como moho.",
+        "D": "Se reproduce sexual y asexualmente."
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "Puede crecer como levadura o como moho."
+    },
+    {
+      "id": 217,
+      "question": "Para la identificación al microscopio de los hongos se utilizan distintos métodos, señala cuál es el más empleado para una detección rápida:",
+      "options": {
+        "A": "Tinta china.",
+        "B": "Tinción Giemsa.",
+        "C": "KOH (Hidróxido de potasio).",
+        "D": "PAS (Ácido peryódico de Schiff)"
+      },
+      "page": 21,
+      "correctAnswer": "C",
+      "correctText": "KOH (Hidróxido de potasio)."
+    },
+    {
+      "id": 218,
+      "question": "Para el cultivo de virus necesitamos cultivos celulares y estos pueden ser, dependiendo de las células que los constituyen:",
+      "options": {
+        "A": "Primarios.",
+        "B": "Diploides.",
+        "C": "Aneuploides o continuos.",
+        "D": "Todas son correctas."
+      },
+      "page": 21,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 219,
+      "question": "¿Cuál de las técnicas siguientes para la detección de Sars-Cov2 es cualitativa?",
+      "options": {
+        "A": "Prueba de reacción en cadena de la polimerasa con transcripción inversa (RTPCR).",
+        "B": "Prueba de antígenos.",
+        "C": "Prueba de reacción en cadena de la polimerasa (PCR, por sus siglas en inglés).",
+        "D": "Todas son correctas. Comentario. Aunque muchas PCR son cuantitativas, algunas no lo son. Y dentro de las que son cuantitativas también se puede expresar su resultado de forma cualitativa (negativo/positivo)."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas. Comentario. Aunque muchas PCR son cuantitativas, algunas no lo son. Y dentro de las que son cuantitativas también se puede expresar su resultado de forma cualitativa (negativo/positivo)."
+    },
+    {
+      "id": 220,
+      "question": "Las micosis que se desarrollan con lesiones no dolorosas en pelo, piel o uñas se denominan:",
+      "options": {
+        "A": "Superficial o cutáneas.",
+        "B": "Subcutáneas.",
+        "C": "Sistémicas.",
+        "D": "Oportunistas."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Superficial o cutáneas."
+    },
+    {
+      "id": 221,
+      "question": "Tenemos un paciente del que se sospecha micosis invasiva, que pruebas serológicas de las siguientes realizaremos:",
+      "options": {
+        "A": "Detección de (1-3) β-D-glucano.",
+        "B": "Detección del antígeno galactomanano.",
+        "C": "Ninguna de las anteriores.",
+        "D": "A) y b) son correctas."
+      },
+      "page": 22,
+      "correctAnswer": "D",
+      "correctText": "A) y b) son correctas."
+    },
+    {
+      "id": 222,
+      "question": "Respecto a la pregunta anterior, obtenemos como resultado que hay detección del antígeno galactomanano, esto nos indicará que estamos ante una micosis invasiva por:",
+      "options": {
+        "A": "Cándidas.",
+        "B": "Aspergillus.",
+        "C": "Cryptococcus.",
+        "D": "Pneumocysti sjiroveci."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Aspergillus."
+    },
+    {
+      "id": 223,
+      "question": "Un hongo dimórfico es aquel que:",
+      "options": {
+        "A": "No le afecta la temperatura de incubación.",
+        "B": "Crece a 37ºC en forma de levadura y entre 25- 30ºC formando colonias filamentosas.",
+        "C": "Crece solo a 37ºC de incubación.",
+        "D": "Crece solo entre 25-30ºC de incubación."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Crece a 37ºC en forma de levadura y entre 25- 30ºC formando colonias filamentosas."
+    },
+    {
+      "id": 224,
+      "question": "¿Cuál es la población de linfocitos que ataca específicamente el virus de la inmunodeficiencia humana adquirida (VIH o SIDA)?",
+      "options": {
+        "A": "Linfocitos CD3 + del timo.",
+        "B": "Linfocitos TH auxiliares, cooperadores, CD4 +o T4 .",
+        "C": "Linfocitos Ts supresores y Te citotóxicos, CD8 +o Ts.",
+        "D": "Células NK agresoras naturales (natural killer) CD16 +y CD56 +."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Linfocitos TH auxiliares, cooperadores, CD4 +o T4 ."
+    },
+    {
+      "id": 225,
+      "question": "El virus de Epstein-Barr es...",
+      "options": {
+        "A": "...neurotrópico.",
+        "B": "...linfotrópico.",
+        "C": "...dermatrópico.",
+        "D": "...miotrópico."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "...linfotrópico."
+    },
+    {
+      "id": 226,
+      "question": "Los coronavirus están formados por…",
+      "options": {
+        "A": "…cadenas de ADN con simetría helicoidal.",
+        "B": "… cadenas de ADN con simetría icosaédrica.",
+        "C": "… cadenas de ARN con envoltura.",
+        "D": "… cadenas de ARN sin envoltura."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "… cadenas de ARN con envoltura."
+    },
+    {
+      "id": 227,
+      "question": "¿Qué son las hifas?",
+      "options": {
+        "A": "Virus.",
+        "B": "Bacterias aerobias.",
+        "C": "Hongos.",
+        "D": "Bacterias anaerobias."
+      },
+      "page": 22,
+      "correctAnswer": "C",
+      "correctText": "Hongos."
+    },
+    {
+      "id": 228,
+      "question": "¿Cuál de los siguientes virus es ARN?",
+      "options": {
+        "A": "Citomegalovirus.",
+        "B": "Virus Zika.",
+        "C": "Virus de la Hepatitis B."
+      },
+      "page": 22,
+      "correctAnswer": "B",
+      "correctText": "Virus Zika."
+    },
+    {
+      "id": 229,
+      "question": "¿Qué método utilizaría para diagnosticar en el laboratorio una aspergilosis invasiva?",
+      "options": {
+        "A": "Detección del antígeno galactomanano.",
+        "B": "Detección del antígeno manano.",
+        "C": "Detección de ureasa.",
+        "D": "Prueba de la fenol-oxidasa."
+      },
+      "page": 22,
+      "correctAnswer": "A",
+      "correctText": "Detección del antígeno galactomanano."
+    },
+    {
+      "id": 230,
+      "question": "¿Cuál de los siguientes virus pertenece a la familia Retroviridae?:",
+      "options": {
+        "A": "Virus hepatitis B (VHB)",
+        "B": "Virus herpes simple (VHS)",
+        "C": "Virus inmunodeficiencia humana (VIH)",
+        "D": "Adenovirus (ADS)"
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Virus inmunodeficiencia humana (VIH)"
+    },
+    {
+      "id": 231,
+      "question": "Indique cuál de los siguientes medios de cultivo es un medio cromogénico para la identificación presuntiva de Cándidas:",
+      "options": {
+        "A": "Sabouraud",
+        "B": "Sabouraud con clorafenicol",
+        "C": "Sabouraud con gentamincina",
+        "D": "CHROMagarTM Cándida"
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "CHROMagarTM Cándida"
+    },
+    {
+      "id": 232,
+      "question": "¿Cuál de estas enfermedades es producida por un virus?",
+      "options": {
+        "A": "El Tracoma",
+        "B": "La Tosferina",
+        "C": "Fiebre hemorrágica",
+        "D": "Cólera"
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Fiebre hemorrágica"
+    },
+    {
+      "id": 233,
+      "question": "El citomegalovirus humano (CMV), ¿a qué especie pertenece?",
+      "options": {
+        "A": "Alphaherpesvirus",
+        "B": "Betaherpesvirus",
+        "C": "Gammaherpesvirus",
+        "D": "Deltaherpesvirus"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Betaherpesvirus"
+    },
+    {
+      "id": 234,
+      "question": "Según el método Baltimore, divide a los virus en diferentes categorías, según el ácido nucleico que poseen. ¿Cuál de estas afirmaciones es correcta?",
+      "options": {
+        "A": "El grupo de los viroides, son agentes subvirales formados por hebras de ADN circular desnudas",
+        "B": "El grupo VI, son virus con ARN de transcripción reversa (ssRNA-RT)",
+        "C": "El grupo de los priones, éstos pueden transmitirse de forma vertical, pero de forma horizontal porque poseen ADN bicatenario",
+        "D": "El grupo IV, son virus con ARN de transcripción inversa, de sentido negativo"
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "El grupo VI, son virus con ARN de transcripción reversa (ssRNA-RT)"
+    },
+    {
+      "id": 235,
+      "question": "Respecto al virus del VIH, la penetración del VIH en su célula hospedadora tiene lugar por:",
+      "options": {
+        "A": "Fagocitosis.",
+        "B": "Pinocitosis.",
+        "C": "Fusión de membrana.",
+        "D": "Transporte activo."
+      },
+      "page": 23,
+      "correctAnswer": "C",
+      "correctText": "Fusión de membrana."
+    },
+    {
+      "id": 236,
+      "question": "Un resultado positivo mediante la técnica de Paul- Bunnell-Davidsohn en una muestra, indica presencia de:",
+      "options": {
+        "A": "Campylobacter.",
+        "B": "Rubeola.",
+        "C": "Varicela.",
+        "D": "Virus de Epstein-Barr."
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 237,
+      "question": "¿Cuál es la muestra más adecuada para la determinación de carga viral de VIH-1?",
+      "options": {
+        "A": "Plasma.",
+        "B": "Sudor.",
+        "C": "Heces.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "Plasma."
+    },
+    {
+      "id": 238,
+      "question": "El Agar Sabouraud es adecuado para el crecimiento de:",
+      "options": {
+        "A": "Cocos Gram Positivos.",
+        "B": "Enterobacterias.",
+        "C": "Parásitos intracelulares.",
+        "D": "Levaduras. E) Cocos Gram Negativos"
+      },
+      "page": 23,
+      "correctAnswer": "D",
+      "correctText": "Levaduras. E) Cocos Gram Negativos"
+    },
+    {
+      "id": 239,
+      "question": "La carga viral de un paciente con HIV, ¿en qué unidades se mide?",
+      "options": {
+        "A": "copias/mL.",
+        "B": "mg/dl.",
+        "C": "copias/mmol."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "copias/mL."
+    },
+    {
+      "id": 240,
+      "question": "El método de Galactomanano se utiliza para la detección de:",
+      "options": {
+        "A": "Cándida Albicans.",
+        "B": "Aspergillus.",
+        "C": "Criptococos."
+      },
+      "page": 23,
+      "correctAnswer": "B",
+      "correctText": "Aspergillus."
+    },
+    {
+      "id": 241,
+      "question": "¿Qué es un micelo?",
+      "options": {
+        "A": "El conjunto de hifas con sus ramificaciones.",
+        "B": "Es sinónimo de espora.",
+        "C": "Un tipo de hongo."
+      },
+      "page": 23,
+      "correctAnswer": "A",
+      "correctText": "El conjunto de hifas con sus ramificaciones."
+    },
+    {
+      "id": 242,
+      "question": "Según criterios de clasificación de microorganismos por tamaño, ¿Cuál de los siguientes microorganismos es el más pequeño?",
+      "options": {
+        "A": "Virus.",
+        "B": "Bacterias.",
+        "C": "Hongos."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Virus."
+    },
+    {
+      "id": 243,
+      "question": "El medio selectivo para el cultivo de hongos es:",
+      "options": {
+        "A": "Agar sangre.",
+        "B": "Cled.",
+        "C": "Sabouraud."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Sabouraud."
+    },
+    {
+      "id": 244,
+      "question": "Dentro de los requisitos de aceptación de muestras microbiológicas, una de las siguientes respuestas es FALSA:",
+      "options": {
+        "A": "La muestra debe de estar perfectamente identificada.",
+        "B": "El tipo de muestra debe ser adecuada al estudio solicitado.",
+        "C": "La conservación depende del tipo de muestra y de microorganismos.",
+        "D": "El transporte de las muestras siempre debe de ser en condiciones refrigeradas."
+      },
+      "page": 24,
+      "correctAnswer": "D",
+      "correctText": "El transporte de las muestras siempre debe de ser en condiciones refrigeradas."
+    },
+    {
+      "id": 245,
+      "question": "¿Qué método indirecto se utiliza como método diagnóstico en la detección de HIV?",
+      "options": {
+        "A": "P.C.R.",
+        "B": "Cultivo viral.",
+        "C": "Prueba de confirmación: Western Blot."
+      },
+      "page": 24,
+      "correctAnswer": "C",
+      "correctText": "Prueba de confirmación: Western Blot."
+    },
+    {
+      "id": 246,
+      "question": "Dentro de la familia de virus retroviridae, ¿a qué género pertenece el VIH?:",
+      "options": {
+        "A": "Lentivirus.",
+        "B": "Lyssavirus.",
+        "C": "Orthopoxvirus.",
+        "D": "Morbillivirus."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Lentivirus."
+    },
+    {
+      "id": 247,
+      "question": "¿En el VIH, después de un periodo de incubación de varias semanas o meses que anticuerpo específico es el primero en aparecer?:",
+      "options": {
+        "A": "Anti-gp 160",
+        "B": "Anti P24",
+        "C": "Anti-gp 120",
+        "D": "Gp 41"
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Anti P24"
+    },
+    {
+      "id": 248,
+      "question": "Respecto a las técnicas inmunológicas de diagnóstico de las micosis invasivas, señala la relación incorrecta:",
+      "options": {
+        "A": "Aspergillus – Suero – ELISA.",
+        "B": "Pneumocystis jirovenci – Suero – ELISA.",
+        "C": "Cryptococcus – Suero, líquido cefaloraquídeo – ELISA.",
+        "D": "Cándida – Suero – ELISA."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Pneumocystis jirovenci – Suero – ELISA."
+    },
+    {
+      "id": 249,
+      "question": "El virus del sarampión pertenece a la familia:",
+      "options": {
+        "A": "Picornaviridae.",
+        "B": "Paramyxoviridae.",
+        "C": "Rhabdoviridae.",
+        "D": "Togaviridae."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Paramyxoviridae."
+    },
+    {
+      "id": 250,
+      "question": "El orden de las etapas de la replicación viral cuando un virus invade una célula es:",
+      "options": {
+        "A": "Adsorción - Penetración - Decapsidación - Replicación - Ensamblaje - Liberación.",
+        "B": "Penetración - Adsorción - Replicación - Decapsidación - Ensamblaje - Liberación.",
+        "C": "Adsorción - Penetración - Decapsidación - Ensamblaje - Replicación - Liberación.",
+        "D": "Penetración - Adsorción - Decapsidación - Ensamblaje - Replicación - Liberación."
+      },
+      "page": 24,
+      "correctAnswer": "A",
+      "correctText": "Adsorción - Penetración - Decapsidación - Replicación - Ensamblaje - Liberación."
+    },
+    {
+      "id": 251,
+      "question": "¿Cuál de los siguientes microorganismos es un patógeno intracelular estricto?",
+      "options": {
+        "A": "Streptococcus pneumoniae.",
+        "B": "Virus de Epstein-Barr.",
+        "C": "Candida albicans.",
+        "D": "Trypanosoma brucei."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 252,
+      "question": "¿Cuál de los siguientes virus producen anticuerpos heterófilos?",
+      "options": {
+        "A": "Virus de la Hepatitis B.",
+        "B": "Virus de Epstein-Barr.",
+        "C": "Virus de Varicela Zóster.",
+        "D": "Citomegalovirus."
+      },
+      "page": 24,
+      "correctAnswer": "B",
+      "correctText": "Virus de Epstein-Barr."
+    },
+    {
+      "id": 253,
+      "question": "¿Cuál de estos géneros no es desoxirribovirus?",
+      "options": {
+        "A": "Papilomavirus.",
+        "B": "Hepadnavirus.",
+        "C": "Parvovirus.",
+        "D": "Hepatovirus."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Hepatovirus."
+    },
+    {
+      "id": 254,
+      "question": "Señale la respuesta incorrecta. Una vez producida la infección por VIH tiene lugar la invasión de las llamadas “células diana”, que son:",
+      "options": {
+        "A": "Monocitos.",
+        "B": "Macrófagos.",
+        "C": "Linfocitos T CD4.",
+        "D": "Linfocitos T CD8."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Linfocitos T CD8."
+    },
+    {
+      "id": 255,
+      "question": "¿Cuál de las siguientes técnicas es útil para diferenciar Candida albicans de otras especies de Candida?",
+      "options": {
+        "A": "Siembra en agar Sabouraud con cicloheximida y cloranfenicol.",
+        "B": "Observación microscópica con azul de lactofenol.",
+        "C": "Prueba del tubo germinal o filamentación precoz.",
+        "D": "Todas son correctas."
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "Prueba del tubo germinal o filamentación precoz."
+    },
+    {
+      "id": 256,
+      "question": "Los hongos dermatofitos pueden infectar:",
+      "options": {
+        "A": "Piel.",
+        "B": "Uñas.",
+        "C": "Pelo.",
+        "D": "Todas son correctas."
+      },
+      "page": 25,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 257,
+      "question": "¿Cuál es el patógeno productor de diarrea más frecuente en niños menores de 2 años?:",
+      "options": {
+        "A": "Rotavirus.",
+        "B": "Giardia Lamblia.",
+        "C": "Campylobacter jejuni.",
+        "D": "Escherichia coli"
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Rotavirus."
+    },
+    {
+      "id": 258,
+      "question": "¿Cuál de las siguientes pruebas serológicas es específica para el diagnóstico de aspergilosis invasora?:",
+      "options": {
+        "A": "Anti-micelio.",
+        "B": "Galactomanano.",
+        "C": "Anti-manano.",
+        "D": "Beta-1,3- D-glucano."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Galactomanano."
+    },
+    {
+      "id": 259,
+      "question": "Con cuál de las siguientes metodologías NO es posible diagnosticar en el laboratorio una infección vírica:",
+      "options": {
+        "A": "Microscopía de contraste de fases.",
+        "B": "Cultivos celulares.",
+        "C": "Amplificación de material genético vírico.",
+        "D": "Métodos de diagnóstico serológicos."
+      },
+      "page": 25,
+      "correctAnswer": "A",
+      "correctText": "Microscopía de contraste de fases."
+    },
+    {
+      "id": 260,
+      "question": "Las mutaciones del genoma del SARS-CoV-2 han dado lugar a una serie de variantes en las proteínas codificadas por ellos, denominadas por letras griegas (alfa, delta, beta, gamma y epsilon). La mayoría de estas variantes del SARS-CoV-2 detectadas hasta agosto de 2021 afectan a la proteína:",
+      "options": {
+        "A": "N",
+        "B": "T",
+        "C": "S",
+        "D": "O"
+      },
+      "page": 25,
+      "correctAnswer": "C",
+      "correctText": "S"
+    },
+    {
+      "id": 261,
+      "question": "¿Qué proteínas constituyen las dianas habituales de las pruebas de reacción en cadena de polimerasa (PCR) para el SARS-CoV-2?",
+      "options": {
+        "A": "N, P, O y RdRp",
+        "B": "N, E, S y RdRp",
+        "C": "P, E, T y O",
+        "D": "E, S, T y N"
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "N, E, S y RdRp"
+    },
+    {
+      "id": 262,
+      "question": "Un resultado positivo en la detección de anticuerpos específicos frente al VIH mediante una técnica de EIA:",
+      "options": {
+        "A": "Es diagnóstico de infección por VIH.",
+        "B": "Debe confirmarse por western-blot.",
+        "C": "Debe confirmarse mediante cuantificación del ARN-VIH-1 en plasma.",
+        "D": "Si el ARN-VIH-1 en plasma es negativo, el paciente no es transmisor de la infección."
+      },
+      "page": 25,
+      "correctAnswer": "B",
+      "correctText": "Debe confirmarse por western-blot."
+    },
+    {
+      "id": 263,
+      "question": "La detección de anticuerpos heterófilos (prueba de Paul Bunnell) resulta muy poco sensible en el diagnóstico de la mononucleosis infecciosa en",
+      "options": {
+        "A": "Niños menores de 2 años",
+        "B": "Adolescentes",
+        "C": "Mayores de 50 años",
+        "D": "Mayores de 60 años"
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Niños menores de 2 años"
+    },
+    {
+      "id": 264,
+      "question": "Los métodos combinados (detección de Ag y Ac) para el diagnóstico de VIH tienen como objetivo:",
+      "options": {
+        "A": "Confirmar la infección por VIH",
+        "B": "No se suelen utilizar",
+        "C": "Salvar el periodo ventana",
+        "D": "Valorar el riesgo de transmisión"
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Salvar el periodo ventana"
+    },
+    {
+      "id": 265,
+      "question": "¿A qué llamamos carga viral de VIH?:",
+      "options": {
+        "A": "Cuantificación de RNA en plasma en paciente infectados por VIH.",
+        "B": "Cuantificación de ADN en suero en pacientes con VIH.",
+        "C": "Cuantificación de RNA en suero en pacientes con VIH.",
+        "D": "Todas son falsas"
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Cuantificación de RNA en plasma en paciente infectados por VIH."
+    },
+    {
+      "id": 266,
+      "question": "¿Cuáles son los principales problemas que se generan en la manipulación de células en los cultivos celulares?",
+      "options": {
+        "A": "La acumulación de células apoptóticas.",
+        "B": "El agotamiento de los nutrientes.",
+        "C": "La inhibición de la división celular por contacto.",
+        "D": "Todas son correctas."
+      },
+      "page": 26,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 267,
+      "question": "Un cultivo celular establecido a partir de un tejido u órgano, en muchos casos de un tumor y que se mantiene en cultivo un tiempo ilimitado, se denomina:",
+      "options": {
+        "A": "Línea primaria.",
+        "B": "Cultivo primario.",
+        "C": "Línea celular continua.",
+        "D": "Cultivo inicia"
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Línea celular continua."
+    },
+    {
+      "id": 268,
+      "question": "¿Cómo se llama la técnica utilizada para la observación microscópica de hongos filamentosos?",
+      "options": {
+        "A": "Técnica de gota pendiente.",
+        "B": "Cinta adhesiva.",
+        "C": "Tinción de Gram.",
+        "D": "Tinción de Ziehi-Nielsen."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Cinta adhesiva."
+    },
+    {
+      "id": 269,
+      "question": "En relación con las gastroenteritis infecciosas, una de las siguientes afirmaciones es falsa:",
+      "options": {
+        "A": "Norovirus se reconoce cada vez con mayor frecuencia como causa de diarrea infecciosa.",
+        "B": "En el botulismo, al estar originado por una enterotoxina elaborada fuera del hospedador el periodo de incubación es inferior a doce horas.",
+        "C": "Una posible complicación de la gastroenteritis por Shigella es el síndrome hemolítico-urémico.",
+        "D": "Los lactantes y niños pequeños son más proclives a sufrir infección por rotavirus, mientras que los niños mayores se infectan con más frecuencia por virus tipo Norwalk."
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "En el botulismo, al estar originado por una enterotoxina elaborada fuera del hospedador el periodo de incubación es inferior a doce horas."
+    },
+    {
+      "id": 270,
+      "question": "¿Cuál es la principal enfermedad causada por el virus de Crimea-Congo?",
+      "options": {
+        "A": "Condilomas acuminados.",
+        "B": "Fiebre hemorrágica.",
+        "C": "Parotiditis.",
+        "D": "Meningoencefalitis"
+      },
+      "page": 26,
+      "correctAnswer": "B",
+      "correctText": "Fiebre hemorrágica."
+    },
+    {
+      "id": 271,
+      "question": "El medio de cultivo Mycosel(r) para hongos:",
+      "options": {
+        "A": "Se utiliza para la siembra de muestras superficiales.",
+        "B": "Se utiliza para el aislamiento de hongos en patología respiratorias.",
+        "C": "Las colonias de levaduras adquieren un color diferente según la especie.",
+        "D": "Es específico para el aislamiento de hongos del género Aspergillus."
+      },
+      "page": 26,
+      "correctAnswer": "A",
+      "correctText": "Se utiliza para la siembra de muestras superficiales."
+    },
+    {
+      "id": 272,
+      "question": "Las colonias de levadura de color rojo-anaranjado de aspecto cremoso o rugoso son características de:",
+      "options": {
+        "A": "Cryptococcus neoformans",
+        "B": "Candida albicans",
+        "C": "Rhodotorula",
+        "D": "Aspergillus"
+      },
+      "page": 26,
+      "correctAnswer": "C",
+      "correctText": "Rhodotorula"
+    },
+    {
+      "id": 273,
+      "question": "Se recibe en el laboratorio una muestra de plasma para cuantificar la carga viral de hepatitis C. Teniendo en cuenta que el genoma de este virus es el ácido ribonucleico (ARN) y que en este momento no se puede realizar la técnica, ¿cómo se debe conservar la muestra?",
+      "options": {
+        "A": "Si se tarda más de 72 horas en realizar la técnica, conviene congelar como mínimo a -70 °C.",
+        "B": "Refrigerar la muestra de plasma a 5 °C hasta su procesamiento, dado que no se puede congelar.",
+        "C": "Congelar la muestra de sangre total a un mínimo de -20 °C, sin ningún tipo de tratamiento.",
+        "D": "La muestra de plasma para la detección de VHC debe separarse en menos de 4-6 horas y analizar de inmediato, ya que no se puede conservar la muestra."
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Si se tarda más de 72 horas en realizar la técnica, conviene congelar como mínimo a -70 °C."
+    },
+    {
+      "id": 274,
+      "question": "¿Cuál de estos virus causa lesiones vesiculares?",
+      "options": {
+        "A": "Sarampión",
+        "B": "Virus del Herpes Simple",
+        "C": "Adenovirus",
+        "D": "Parvovirus B19"
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Virus del Herpes Simple"
+    },
+    {
+      "id": 275,
+      "question": "Para la detección en suero del antígeno galactomanano, la técnica empleada es:",
+      "options": {
+        "A": "Enzimoinmunoanálisis (ELISA)",
+        "B": "Inmunofluorescencia directa",
+        "C": "Inmunofluorescencia indirecta",
+        "D": "Aglutinación por partículas en látex"
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Enzimoinmunoanálisis (ELISA)"
+    },
+    {
+      "id": 276,
+      "question": "La prueba de cribado para el VIH más utilizada es:",
+      "options": {
+        "A": "ELISA",
+        "B": "LIA",
+        "C": "PCR",
+        "D": "Western Blot"
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "ELISA"
+    },
+    {
+      "id": 277,
+      "question": "¿Cuál de las siguientes características de los virus es falsa?:",
+      "options": {
+        "A": "Son parásitos intracelulares",
+        "B": "Pueden presentar ciclo de vida libre",
+        "C": "Contienen un solo ácido nucleico",
+        "D": "Parasitan animales, vegetales y bacterias"
+      },
+      "page": 27,
+      "correctAnswer": "B",
+      "correctText": "Pueden presentar ciclo de vida libre"
+    },
+    {
+      "id": 278,
+      "question": "¿Qué muestra se puede utilizar para en aislamientos de virus?:",
+      "options": {
+        "A": "Secreciones nasales",
+        "B": "Heces",
+        "C": "Liquide cefalorraquídeo",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 279,
+      "question": "¿Cuál es la respuesta incorrecta?:",
+      "options": {
+        "A": "El cultivo celular es el método de elección para el diagnóstico de infecciones víricas",
+        "B": "Los virus no crecen en medios artificiales pues son intracelulares estrictos",
+        "C": "La detección de Ac tipo lgG e lgM es muy útil en algunas infecciones víricas",
+        "D": "Las técnicas de amplificación genómica son muy útiles para el diagnóstico de algunas infecciones víricas"
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "El cultivo celular es el método de elección para el diagnóstico de infecciones víricas"
+    },
+    {
+      "id": 280,
+      "question": "¿Cuál de las siguientes relaciones es falsa?:",
+      "options": {
+        "A": "Tinción de Gram en sangre----diagnóstico de paludismo (malaria)",
+        "B": "Azul de lactofenol---hongo filamentoso",
+        "C": "Metenamina de plata----Pneumocystis jirovecii",
+        "D": "Examen en fresco---- Trichomonas vaginalis en exudado vaginal"
+      },
+      "page": 27,
+      "correctAnswer": "A",
+      "correctText": "Tinción de Gram en sangre----diagnóstico de paludismo (malaria)"
+    },
+    {
+      "id": 281,
+      "question": "Indica la respuesta correcta en relación a la contaminación de los cultivos celulares.",
+      "options": {
+        "A": "El área de trabajo para la realización de cultivos celulares no necesariamente tiene que estar aislada del resto de laboratorio.",
+        "B": "Las micobacterias suelen infectar las líneas celulares continuas.",
+        "C": "Una solución a largo plazo para evitar la contaminación bacteriana es la adición de antibióticos, ya que no provoca problemas de viabilidad celular.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 27,
+      "correctAnswer": "D",
+      "correctText": "Ninguna es correcta."
+    },
+    {
+      "id": 282,
+      "question": "¿Cuáles son los principales virus de relevancia clínica de la familia Herpesviridae que podemos determinar en el laboratorio de Microbiología?",
+      "options": {
+        "A": "Herpes simple, varicela - zóster, citomegalovirus y Epstein - Barr.",
+        "B": "Herpes simple, papiloma humano, parvovirus y Epstein - Barr.",
+        "C": "Herpes simple, viruela, citomegalovirus y hepatitis B.",
+        "D": "Herpes simple, herpesvirus humano, rotavirus y coronavirus."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Herpes simple, varicela - zóster, citomegalovirus y Epstein - Barr."
+    },
+    {
+      "id": 283,
+      "question": "¿Qué tinción se emplea para la detección de la cápsula de Cryptococcus neoformans en líquido cefalorraquídeo (LCR)?",
+      "options": {
+        "A": "Blanco de calcoflúor.",
+        "B": "Azul algodón de lactofenol.",
+        "C": "Tinta china.",
+        "D": "Gomori - Grocott modificada."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Tinta china."
+    },
+    {
+      "id": 284,
+      "question": "El agente etiológico de la tiña negra es:",
+      "options": {
+        "A": "Sporothrix schenckii.",
+        "B": "Madurella mycetomatis.",
+        "C": "Hortaea werneckii.",
+        "D": "Rhizopus."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Hortaea werneckii."
+    },
+    {
+      "id": 285,
+      "question": "La piedra blanca es una micosis superficial causada por diversos hongos levaduriformes del género:",
+      "options": {
+        "A": "Trichosporon.",
+        "B": "Candida.",
+        "C": "Lichtheimia.",
+        "D": "Fusarium."
+      },
+      "page": 28,
+      "correctAnswer": "A",
+      "correctText": "Trichosporon."
+    },
+    {
+      "id": 286,
+      "question": "¿Qué micosis superficial es la que está causada por diversos hongos levaduriformes como por ejemplo Malassezia furfur?:",
+      "options": {
+        "A": "Tiña de la barba.",
+        "B": "Piedra negra.",
+        "C": "Feohifomicosis.",
+        "D": "Pitiriasis versicolor."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Pitiriasis versicolor."
+    },
+    {
+      "id": 287,
+      "question": "Los virus de familia Picornaviridae son virus ARN. Esta familia está formada por los siguientes géneros excepto:",
+      "options": {
+        "A": "Rinovirus.",
+        "B": "Poliomavirus.",
+        "C": "Hepatovirus.",
+        "D": "Enterovirus."
+      },
+      "page": 28,
+      "correctAnswer": "B",
+      "correctText": "Poliomavirus."
+    },
+    {
+      "id": 288,
+      "question": "¿Cuál de los siguientes virus no es diarreico o gastrointestinal?:",
+      "options": {
+        "A": "Calicivirus.",
+        "B": "Astrovirus.",
+        "C": "Virus JC.",
+        "D": "Rotavirus."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "Virus JC."
+    },
+    {
+      "id": 289,
+      "question": "Los retrovirus comprenden una gran variedad de virus que inducen habitualmente neoplasias en sus huéspedes naturales. El material genético de estos virus está compuesto por:",
+      "options": {
+        "A": "ARN sin envoltura.",
+        "B": "ADN y ARN.",
+        "C": "ARN con envoltura.",
+        "D": "ADN circular."
+      },
+      "page": 28,
+      "correctAnswer": "C",
+      "correctText": "ARN con envoltura."
+    },
+    {
+      "id": 290,
+      "question": "Los virus de las familias Ortomixoviridae y Paramixoviridae se distinguen de otros virus por presentar las glucoproteínas de membrana:",
+      "options": {
+        "A": "Fosfatasas y nucleasas.",
+        "B": "Elastasa y transcriptasa.",
+        "C": "Nucleasa y transcriptasa.",
+        "D": "Neuraminidasa y hemaglutinina."
+      },
+      "page": 28,
+      "correctAnswer": "D",
+      "correctText": "Neuraminidasa y hemaglutinina."
+    }
+  ]
+}

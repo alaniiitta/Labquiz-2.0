@@ -1,0 +1,2817 @@
+{
+  "tema": "13_2",
+  "titulo": "Tinciones, bioquímica y morfología bacteriana (13.2)",
+  "source_file": "TEST tema 13.2 Tinciones, bioquímica, morfología (respuestas).pdf",
+  "total_questions": 217,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Señalar que microorganismos NO son Ziehl-Neelsen positivo:",
+      "options": {
+        "A": "Mycobacterium",
+        "B": "Cryptosporidium",
+        "C": "Corynebacterium",
+        "D": "Nocardia"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Corynebacterium"
+    },
+    {
+      "id": 2,
+      "question": "La tinción de Ziehl-Neelsen se utiliza para identificar:",
+      "options": {
+        "A": "Enterobacteria.",
+        "B": "Mycobacteria.",
+        "C": "Estreptococo.",
+        "D": "Candida."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Mycobacteria."
+    },
+    {
+      "id": 3,
+      "question": "La tinción de naranja de acridina permite.",
+      "options": {
+        "A": "Visualización de los glóbulos rojos.",
+        "B": "Visualización de bacterias mediante microscopio de fluorescente.",
+        "C": "Visualización de todas las células formes mediante microscopio óptico.",
+        "D": "Visualización de leucocitos."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Visualización de bacterias mediante microscopio de fluorescente."
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es el método de tinción más común para la visualización al microscopio de bacterias?:",
+      "options": {
+        "A": "Gram.",
+        "B": "Tinción de barrido.",
+        "C": "Giemsa.",
+        "D": "Azul de metileno."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Gram."
+    },
+    {
+      "id": 5,
+      "question": "Para observar Mycobacterium tuberculosis, además de la coloración de Ziehl-Neelsen, se utiliza la tinción de:",
+      "options": {
+        "A": "Gram.",
+        "B": "Giemsa.",
+        "C": "Auramina.",
+        "D": "Fontana."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Auramina."
+    },
+    {
+      "id": 6,
+      "question": "Los corpúsculos metacromáticos:",
+      "options": {
+        "A": "Son gránulos de fosfato que se pueden visualizar con tinciones como la de Neisser, Loefler o Albert.",
+        "B": "Se visualizan con la tinción de Wirtz o verde malaquita.",
+        "C": "Se visualizan con la tinción de tinta china.",
+        "D": "Se puede teñir con Auramina-rodamina."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Son gránulos de fosfato que se pueden visualizar con tinciones como la de Neisser, Loefler o Albert."
+    },
+    {
+      "id": 7,
+      "question": "La tinción ácido-alcohol resistencia se utiliza para ayuda a la identificación de:",
+      "options": {
+        "A": "Bacterias fermentadoras.",
+        "B": "Bacterias esporuladas.",
+        "C": "Organismos que poseen ácidos micólicos.",
+        "D": "Levaduras."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Organismos que poseen ácidos micólicos."
+    },
+    {
+      "id": 8,
+      "question": "Una de las siguientes no es una tinción diferencial:",
+      "options": {
+        "A": "Tinción AAR (Ácido Alcohol Resistente). B Tinción de esporas.",
+        "C": "Tinción de Gram.",
+        "D": "Tinción con Fuchsina."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Tinción con Fuchsina."
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál de las siguientes es una técnica de tinción de cápsulas?:",
+      "options": {
+        "A": "Método de Neisser.",
+        "B": "Método de Burri.",
+        "C": "Método de Loeffler.",
+        "D": "Método de Albert."
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Método de Burri."
+    },
+    {
+      "id": 10,
+      "question": "La secuencia correcta en la Tinción de Gram es:",
+      "options": {
+        "A": "Violeta de genciana – Lugol – Decolorante – Fucsina o safranina",
+        "B": "Violeta de genciana – Decolorante – Lugol – Fucsina o safranina",
+        "C": "Violeta de genciana – Lugol – Fucsina o safranina – Decolorante",
+        "D": "Violeta de genciana – Fucsina o safranina – Decolorante – Lugol"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Violeta de genciana – Lugol – Decolorante – Fucsina o safranina"
+    },
+    {
+      "id": 11,
+      "question": "El método de la tinta china se utiliza como tinción para ver:",
+      "options": {
+        "A": "Flagelos",
+        "B": "Cápsulas",
+        "C": "Cepillos",
+        "D": "Esporas"
+      },
+      "page": 1,
+      "correctAnswer": "B",
+      "correctText": "Cápsulas"
+    },
+    {
+      "id": 12,
+      "question": "¿Cuál es la tinción de elección para el estudio de meningitis bacteriana en el LCR?",
+      "options": {
+        "A": "Tinción de rodamina",
+        "B": "Tinción de Giemsa Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Tinción de Gram",
+        "D": "Tinción de safranina"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Tinción de Gram"
+    },
+    {
+      "id": 13,
+      "question": "En la tinción de Ziehl-Neelsen, la composición de solución decolorante es:",
+      "options": {
+        "A": "Alcohol-acetona.",
+        "B": "Acetona-clorhídrico.",
+        "C": "Alcohol-sulfhídrico.",
+        "D": "Alcohol-clorhídrico."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Alcohol-clorhídrico."
+    },
+    {
+      "id": 14,
+      "question": "En la tinción de Gram, de qué color aparecen las bacterias Gram-:",
+      "options": {
+        "A": "Violeta.",
+        "B": "Azul.",
+        "C": "Marrón.",
+        "D": "Rojo."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Rojo."
+    },
+    {
+      "id": 15,
+      "question": "El método de Anthony se utiliza para la tinción de:",
+      "options": {
+        "A": "Espiroquetas.",
+        "B": "Micoplasmas.",
+        "C": "Flagelos.",
+        "D": "Cápsulas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Cápsulas."
+    },
+    {
+      "id": 16,
+      "question": "Uno de los siguientes reactivos no es utilizado en la Tinción de Gram:",
+      "options": {
+        "A": "Alcohol-acetona.",
+        "B": "Azul de metileno.",
+        "C": "Lugol.",
+        "D": "Safranina."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Azul de metileno."
+    },
+    {
+      "id": 17,
+      "question": "La tinción de Gram probablemente sea el método más usado en bacteriología. ¿Cuál es el orden de reactivos con que se lleva a cabo la tinción?",
+      "options": {
+        "A": "Violeta de genciana, Alcohol, Yodo, Safranina",
+        "B": "Alcohol, Yodo, Safranina, Violeta de genciana",
+        "C": "Violeta de genciana, yodo, Alcohol, Safranina",
+        "D": "Violeta de genciana, Safranina, Alcohol, Yodo"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Violeta de genciana, yodo, Alcohol, Safranina"
+    },
+    {
+      "id": 18,
+      "question": "El método de Moeller se utiliza para la tinción de:",
+      "options": {
+        "A": "Cápsulas.",
+        "B": "Corpúsculos metacromáticos.",
+        "C": "Esporas.",
+        "D": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Esporas."
+    },
+    {
+      "id": 19,
+      "question": "El mordiente en la tinción de gram es:",
+      "options": {
+        "A": "Cristal violeta.",
+        "B": "Lugol",
+        "C": "Alcohol-acetona.",
+        "D": "Safranina"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Lugol"
+    },
+    {
+      "id": 20,
+      "question": "¿Cómo actúa un mordiente en una tinción?",
+      "options": {
+        "A": "Como un colorante.",
+        "B": "Como un fijador de un colorante",
+        "C": "Como un decolorante.",
+        "D": "Como un disolvente de un colorante."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Como un fijador de un colorante"
+    },
+    {
+      "id": 21,
+      "question": "¿A qué tipo de tinción aplicaría azul de metileno?",
+      "options": {
+        "A": "A la tinción de esporas",
+        "B": "A la tinción de Gram",
+        "C": "A la tinción de Ziehl-Nielsen",
+        "D": "A la tinción negativa"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "A la tinción de Ziehl-Nielsen"
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál es la secuencia correcta para una tinción de Gram?",
+      "options": {
+        "A": "Cristal violeta - Alcohol acetona - Solución de Iodo - Safranina",
+        "B": "Safranina - Solución de Iodo -Alcohol acetona – Cristal violeta",
+        "C": "Cristal violeta – Solución de Iodo – Alcohol acetona – Safranina",
+        "D": "Cristal violeta – Solución de Iodo – Safranina – Alcohol acetona"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Cristal violeta – Solución de Iodo – Alcohol acetona – Safranina"
+    },
+    {
+      "id": 23,
+      "question": "¿Cuál es el orden de los siguientes colorantes en la tinción de Gram?:",
+      "options": {
+        "A": "Violeta de genciana, lugol, safranina, alcohol- acetona",
+        "B": "Violeta de genciana, alcohol-acetona, lugol, safranina",
+        "C": "Violeta de genciana, lugol, alcohol-acetona, safranina",
+        "D": "Safranina, lugol, violeta de genciana, alcohol- acetona Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Violeta de genciana, lugol, alcohol-acetona, safranina"
+    },
+    {
+      "id": 24,
+      "question": "El método utilizado para la tinción de esporas es:",
+      "options": {
+        "A": "Método de Wirtz.",
+        "B": "Método de Loffler.",
+        "C": "Método de Albert.",
+        "D": "Método de Jafe."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Método de Wirtz."
+    },
+    {
+      "id": 25,
+      "question": "No es un método de tinción de cápsulas:",
+      "options": {
+        "A": "Método de Antony.",
+        "B": "Método de Burri.",
+        "C": "Método de Albert.",
+        "D": "Tinta china."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Método de Albert."
+    },
+    {
+      "id": 26,
+      "question": "En la tinción ácido alcohol resistente (AAR) los microorganismos que no son AAR quedarán teñidas de color:",
+      "options": {
+        "A": "Rojo.",
+        "B": "Azul.",
+        "C": "Violeta.",
+        "D": "No se tiñen."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Azul."
+    },
+    {
+      "id": 27,
+      "question": "Una vez realizada la tinción de Gram, las bacterias gram negativas se tiñen de color:",
+      "options": {
+        "A": "Rosado rojizo.",
+        "B": "Verde.",
+        "C": "Violeta.",
+        "D": "Negro."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Rosado rojizo."
+    },
+    {
+      "id": 28,
+      "question": "La tinción de Ziehl-Neelsen, se utiliza para identificar:",
+      "options": {
+        "A": "Enterobacterias.",
+        "B": "Mycobacterium.",
+        "C": "Estreptococos.",
+        "D": "Cándidas"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Mycobacterium."
+    },
+    {
+      "id": 29,
+      "question": "Ordene las fases de la tinción de Ziehl-Neelsen:",
+      "options": {
+        "A": "Fucsina-tinción de fondo azul de metileno- decolorar con ácido-alcohol.",
+        "B": "Coloración fucsina-decolorar con ácido-alcohol- tinción de fondo con azul de metileno.",
+        "C": "Tinción de fondo con azul de metileno-decolorar con ácido-alcohol-coloración con fucsina.",
+        "D": "Tinción de fondo con azul de metileno-coloración fucsina-decolorar con ácido-alcohol."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Coloración fucsina-decolorar con ácido-alcohol- tinción de fondo con azul de metileno."
+    },
+    {
+      "id": 30,
+      "question": "En una tinción simple negativa, se utiliza el colorante:",
+      "options": {
+        "A": "Nigrosina.",
+        "B": "Azul de metileno.",
+        "C": "Violeta de genciana.",
+        "D": "Lugol"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Nigrosina."
+    },
+    {
+      "id": 31,
+      "question": "El método de la tinta china se utiliza como tinción para ver:",
+      "options": {
+        "A": "Flagelos",
+        "B": "Cápsulas",
+        "C": "Cepillos",
+        "D": "Esporas"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Cápsulas"
+    },
+    {
+      "id": 32,
+      "question": "La tinción de gram de un LCR de un niño de 2 años reveló bacilos gram negativos cortos. Creció en la placa de agar chocolate, pero no en la placa de agar sangre, excepto alrededor de unas colonias de estafilococos. ¿Cuál de los siguientes microorganismos es el más probable?",
+      "options": {
+        "A": "Haemophilus influenzae.",
+        "B": "Listeria monocytogenes.",
+        "C": "N.meningitidis.",
+        "D": "S.pneumoniae."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Haemophilus influenzae."
+    },
+    {
+      "id": 33,
+      "question": "Tras la decoloración, los gérmenes gram negativos quedan de color:",
+      "options": {
+        "A": "Violeta.",
+        "B": "Rojo.",
+        "C": "Azul.",
+        "D": "Sin color."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Sin color."
+    },
+    {
+      "id": 34,
+      "question": "Señale de entre las siguientes respuestas la que se considera una de las principales diferencias estructurales entre las bacterias gram-positivas y gram-negativas:",
+      "options": {
+        "A": "Las bacterias gram-negativas carecen de membrana lipídica.",
+        "B": "Las bacterias gram- positivas tienen una única membrana lipídica y las gram-negativas tiene dos.",
+        "C": "Las bacterias gram- positivas carecen de pared celular. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "D": "La pared celular de las bacterias gram-positivas es mucho más delgada que la de las gram- negativas."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Las bacterias gram- positivas tienen una única membrana lipídica y las gram-negativas tiene dos."
+    },
+    {
+      "id": 35,
+      "question": "Las bacterias gran positivas son las que se caracterizan por:",
+      "options": {
+        "A": "Se decoloran con alcohol-clorhídrico.",
+        "B": "El cristal violeta se elimina con alcohol-acetona.",
+        "C": "Retienen el cristal-violeta al finalizar la técnica.",
+        "D": "Se tiñen con el colorante de contraste al finalizar la técnica."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Retienen el cristal-violeta al finalizar la técnica."
+    },
+    {
+      "id": 36,
+      "question": "La mureína es el componente común de las bacterias GRAM + y GRAM -, aunque presenta algunas diferencias; la mureína está formada por el N- acetilglucosamina y N-acetilmurámico unido mediante enlace:",
+      "options": {
+        "A": "β-1,4.",
+        "B": "Disulfuro.",
+        "C": "Puentes de Hidrógeno.",
+        "D": "Teicoicos."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "β-1,4."
+    },
+    {
+      "id": 37,
+      "question": "Si un microorganismo es teñido con Ziehl-Nieelsen es debido a la presencia en su pared de:",
+      "options": {
+        "A": "Ácidos teicóicos.",
+        "B": "Ácidos micólicos.",
+        "C": "Mureína.",
+        "D": "Histidina."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Ácidos micólicos."
+    },
+    {
+      "id": 38,
+      "question": "El método más sensible para el diagnóstico de la tos ferina es:",
+      "options": {
+        "A": "Métodos de amplificación de ácidos nucleicos a partir de torundas de dacron.",
+        "B": "Cultivos a partir de torundas de algodón",
+        "C": "Métodos de amplificación de ácidos nucleicos a partir de torundas de algodón.",
+        "D": "Cultivos de saliva en agar sangre a partir de torundas de algodón"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Métodos de amplificación de ácidos nucleicos a partir de torundas de dacron."
+    },
+    {
+      "id": 39,
+      "question": "La diferencia entre las bacterias Gram positivas y Gram negativas reside en:",
+      "options": {
+        "A": "Cápsula o glucocálix.",
+        "B": "Membrana nuclear.",
+        "C": "Pared celular.",
+        "D": "Plásmidos."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Pared celular."
+    },
+    {
+      "id": 40,
+      "question": "La Coloración de Ziehl-Neelsen se emplea para detectar la presencia de:",
+      "options": {
+        "A": "BAAR (bacilo ácido alcohol resistente).",
+        "B": "Parásitos.",
+        "C": "Hongos.",
+        "D": "Ninguna es correcta."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "BAAR (bacilo ácido alcohol resistente)."
+    },
+    {
+      "id": 41,
+      "question": "Los estafilococos son Gram+ y se suelen observan al microscopio como:",
+      "options": {
+        "A": "Bastones cortos formando cadenas",
+        "B": "Cocos individuales",
+        "C": "Cocos formando racimos",
+        "D": "Cocos formando cadenas"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Cocos formando racimos"
+    },
+    {
+      "id": 42,
+      "question": "Los ácidos teicoicos están presentes en:",
+      "options": {
+        "A": "La pared celular de las bacterias Gram negativas.",
+        "B": "La membrana externa de las bacterias Gram negativas.",
+        "C": "La pared celular de las bacterias Gram positivas.",
+        "D": "Los ribosomas de las bacterias Gram positivas."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "La pared celular de las bacterias Gram positivas."
+    },
+    {
+      "id": 43,
+      "question": "Los estafilococos son Gram+ y se suelen observan al microscopio como:",
+      "options": {
+        "A": "Bastones cortos formando cadenas",
+        "B": "Cocos individuales",
+        "C": "Cocos formando racimos",
+        "D": "Cocos formando cadenas"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Cocos formando racimos"
+    },
+    {
+      "id": 44,
+      "question": "¿A qué se debe que las micobacterias sean bacilos ácido-alcohol resistentes?",
+      "options": {
+        "A": "A la composición de su pared celular",
+        "B": "A la composición de su membrana celular",
+        "C": "A la composición de su ADN",
+        "D": "A la composición de su membrana nuclear"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "A la composición de su pared celular"
+    },
+    {
+      "id": 45,
+      "question": "La capacidad de resistir la decoloración ácida-alcohol de las micobacterias radica en:",
+      "options": {
+        "A": "La presencia de cápsulas",
+        "B": "Los ácidos micólicos de la pared celular Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Los ácidos teicoicos de la pared celular",
+        "D": "La unión del colorante a los ácidos nucleicos"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Los ácidos micólicos de la pared celular Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+    },
+    {
+      "id": 46,
+      "question": "¿Cuál de los siguientes es un Bacilo gram positivo aerobio y posee Ácidos Micólicos en su pared celular?",
+      "options": {
+        "A": "Staphylococcus.",
+        "B": "Klebsiella.",
+        "C": "Nocardia.",
+        "D": "Prevotella."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Nocardia."
+    },
+    {
+      "id": 47,
+      "question": "¿Cuál es la enzima que cataliza la conversión de peróxido de hidrogeno en agua y oxigeno?",
+      "options": {
+        "A": "Catalasa.",
+        "B": "Coagulasa.",
+        "C": "Hexoquinasa.",
+        "D": "Lipasa."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Catalasa."
+    },
+    {
+      "id": 48,
+      "question": "Se denomina bacteria lofótrica a la que tiene:",
+      "options": {
+        "A": "Un solo flagelo.",
+        "B": "Es inmóvil.",
+        "C": "Tiene varios flagelos polares.",
+        "D": "Tiene fimbrias."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Tiene varios flagelos polares."
+    },
+    {
+      "id": 49,
+      "question": "Una de estas técnicas es falsa como examen en fresco en microbiología:",
+      "options": {
+        "A": "Procedimiento de gota colgante",
+        "B": "Preparación de tinta china",
+        "C": "Rodamina - auramina",
+        "D": "Reacción de Neufeld Quellung"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Rodamina - auramina"
+    },
+    {
+      "id": 50,
+      "question": "La prueba de Elek sirve para determinar la toxigenicidad de:",
+      "options": {
+        "A": "Corynebacterium diphtheriae.",
+        "B": "Enterococcus faecium.",
+        "C": "Klebsiella pneumoniae.",
+        "D": "Ninguna de las anteriores es correcta"
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Corynebacterium diphtheriae."
+    },
+    {
+      "id": 51,
+      "question": "La estructura responsable de la movilidad bacteriana se denomina:",
+      "options": {
+        "A": "Pili.",
+        "B": "Sarcina.",
+        "C": "Cápsula.",
+        "D": "Flagelo."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Flagelo."
+    },
+    {
+      "id": 52,
+      "question": "Una sarcina es:",
+      "options": {
+        "A": "Una agrupación de cocos con morfología cuboidea a modo de rectángulos.",
+        "B": "Una sustancia de carácter pegajoso.",
+        "C": "Una agrupación de cocos de dos en dos.",
+        "D": "Ninguna es cierta."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Una agrupación de cocos con morfología cuboidea a modo de rectángulos."
+    },
+    {
+      "id": 53,
+      "question": "¿Qué morfología presentan las enterobacterias?",
+      "options": {
+        "A": "Cocos.",
+        "B": "Bacilos.",
+        "C": "Espiroquetas.",
+        "D": "Espirilos."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Bacilos."
+    },
+    {
+      "id": 54,
+      "question": "La estructura responsable de la movilidad bacteriana se denomina:",
+      "options": {
+        "A": "Pili.",
+        "B": "Sarcina.",
+        "C": "Cápsula.",
+        "D": "Flagelo."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Flagelo."
+    },
+    {
+      "id": 55,
+      "question": "Para identificar a las bacterias:",
+      "options": {
+        "A": "Se utilizan pruebas bioquímicas.",
+        "B": "Se utilizan pruebas serológicas.",
+        "C": "Se utilizan pruebas moleculares.",
+        "D": "Todas son correctas."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 56,
+      "question": "Señala la incorrecta:",
+      "options": {
+        "A": "La prueba del indol determina el uso del triptófano por parte de la bacteria",
+        "B": "La prueba del sulfhídrico positiva se visualiza con un precipitado negro",
+        "C": "Las pruebas de las descarboxilasas se utilizan para identificación de enterobacterias",
+        "D": "La prueba de la ureasa se visualiza con burbujas en el agar."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "La prueba de la ureasa se visualiza con burbujas en el agar."
+    },
+    {
+      "id": 57,
+      "question": "Antes del descubrimiento de los microorganismos, los seres vivos se clasificaban en dos reinos: el reino animal y el vegetal; a partir de dicho descubrimiento Tema 13.2 Tinciones, bioquímica y morfología bacteriana se realiza una nueva clasificación que incluye un nuevo reino; este reino es el de:",
+      "options": {
+        "A": "Arqueas.",
+        "B": "Eucariotas.",
+        "C": "Protistas.",
+        "D": "Animáculos."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Protistas."
+    },
+    {
+      "id": 58,
+      "question": "El genoma bacteriano lo componen:",
+      "options": {
+        "A": "ADN + ribosomas-.",
+        "B": "Genóforo + plásmidos.",
+        "C": "Núcleo + nucléolo.",
+        "D": "Cromatina + núcleo."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Genóforo + plásmidos."
+    },
+    {
+      "id": 59,
+      "question": "Algunas bacterias se caracterizan por tener ADN extracromosómico, al cual se le denomina:",
+      "options": {
+        "A": "Genoma.",
+        "B": "Cromóforo.",
+        "C": "Plásmido.",
+        "D": "Todas son correctas."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Plásmido."
+    },
+    {
+      "id": 60,
+      "question": "En aquellas bacterias que presentan citocromos, la prueba de la catalasa será:",
+      "options": {
+        "A": "Siempre negativa.",
+        "B": "Siempre positiva.",
+        "C": "Unas veces negativa y otras positiva.",
+        "D": "Casi siempre negativa."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Siempre positiva."
+    },
+    {
+      "id": 61,
+      "question": "Que se entiende por bacteria perítrica:",
+      "options": {
+        "A": "Tiene un penacho de flagelos",
+        "B": "Tiene flagelos en los 2 polos",
+        "C": "La que no tiene flagelos en su perímetro",
+        "D": "La que está rodeada de flagelos"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "La que está rodeada de flagelos"
+    },
+    {
+      "id": 62,
+      "question": "¿Cuál de estas afirmaciones es cierta respecto a las bacterias?",
+      "options": {
+        "A": "Son células eucariotas.",
+        "B": "Su citoplasma contiene ribosomas.",
+        "C": "Tienen un tamaño medio entre 5 y 30μm.",
+        "D": "Todas tienen flagelos."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Su citoplasma contiene ribosomas."
+    },
+    {
+      "id": 63,
+      "question": "Entre las funciones del metabolismo bacteriano están:",
+      "options": {
+        "A": "Generación de ADP por fosforilación a nivel de sustrato.",
+        "B": "Generación de ATP para proporcionar a la célula la energía de enlace mediante fosforilación a nivel de sustrato o por fosforilación oxidativa.",
+        "C": "Reacciones de mantenimiento catabólicas.",
+        "D": "Reacciones de biosíntesis anabólicas."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Generación de ATP para proporcionar a la célula la energía de enlace mediante fosforilación a nivel de sustrato o por fosforilación oxidativa."
+    },
+    {
+      "id": 64,
+      "question": "La enzima catalasa se encuentra en la mayoría de las bacterias aerobias y anaerobias facultativas que contienen citocromo, a excepción de los:",
+      "options": {
+        "A": "Estafilococos.",
+        "B": "Estreptococos.",
+        "C": "Micrococos.",
+        "D": "Bacilos."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Estreptococos."
+    },
+    {
+      "id": 65,
+      "question": "¿En la actualidad se sabe que existen miles de diferentes tipos de microorganismos que viven en el interior, la superficie o alrededor del ser humano y, asimismo, pueden contarse por centenares los que son capaces de provocar en él enfermedades graves, uno de ellos son las bacterias, que afirmación es correcta respecto de estas:",
+      "options": {
+        "A": "Son microorganismos Eucariotas.",
+        "B": "Son microorganismos Procariotas.",
+        "C": "Poseen núcleo bien definido, aparato de Golgi y retículo endoplásmico.",
+        "D": "No pueden visualizarse mediante el microscopio óptico."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Son microorganismos Procariotas."
+    },
+    {
+      "id": 66,
+      "question": "¿Qué medio aquí citado no utilizarías en las pruebas de IMVIC?",
+      "options": {
+        "A": "Agua peptonada",
+        "B": "Medio de Clarbs y Lubs",
+        "C": "Caldo nitratado",
+        "D": "Medio citrato"
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Caldo nitratado"
+    },
+    {
+      "id": 67,
+      "question": "¿Cuál es la enzima que desdobla el peróxido de hidrógeno, formándose agua y oxígeno?",
+      "options": {
+        "A": "Ureasa",
+        "B": "Fosfatasa",
+        "C": "Lipasa Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "D": "Catalasa"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Catalasa"
+    },
+    {
+      "id": 68,
+      "question": "¿Cuál de las siguientes pruebas permitiría distinguir el género STREPTOCOCCUS del género STAPHYLOCOCCUS?:",
+      "options": {
+        "A": "Tinción de Gram",
+        "B": "Prueba de la catalasa",
+        "C": "Prueba de la coagulasa",
+        "D": "Prueba de la estreptoquinasa"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Prueba de la catalasa"
+    },
+    {
+      "id": 69,
+      "question": "La enzima catalasa se encuentra en la mayoría de las bacterias aerobias y anaerobias facultativas que contienen citocromo, a excepción de:",
+      "options": {
+        "A": "Staphylococcus epidermidis",
+        "B": "Streptococcus",
+        "C": "Micrococcus",
+        "D": "Staphylococcus aureus"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Streptococcus"
+    },
+    {
+      "id": 70,
+      "question": "¿Qué medio de cultivo utilizaremos para la prueba de Voges-Proskauer?",
+      "options": {
+        "A": "Mueller-Hintons.",
+        "B": "Simmons.",
+        "C": "Clark-Lubs.",
+        "D": "KIA."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Clark-Lubs."
+    },
+    {
+      "id": 71,
+      "question": "Indique cuál de las siguientes afirmaciones es falsa, respecto a los cocos gram positivos:",
+      "options": {
+        "A": "Los estafilococos son aerobios y anaerobios facultativos.",
+        "B": "Los enterococos habitan en el tracto intestinal humano.",
+        "C": "Todos los estreptococos son catalasa positivos.",
+        "D": "El S. aureus es productor de coagulasa."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Todos los estreptococos son catalasa positivos."
+    },
+    {
+      "id": 72,
+      "question": "Respecto a la tinción de gram, la respuesta correcta es:",
+      "options": {
+        "A": "Es una tinción vital.",
+        "B": "Tiñe el ácido teicoico de la pared celular.",
+        "C": "Las bacterias gram positivas retienen el colorante violeta de genciana.",
+        "D": "Es una tinción ácido-alcohol resistente."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Las bacterias gram positivas retienen el colorante violeta de genciana."
+    },
+    {
+      "id": 73,
+      "question": "Para el estudio de Micobacterium tuberculosis, además de la tinción de Ziehl-neelsen, se utiliza la tinción de:",
+      "options": {
+        "A": "Giemsa.",
+        "B": "Azul de metileno.",
+        "C": "Auramina.",
+        "D": "Nigrosina."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Auramina."
+    },
+    {
+      "id": 74,
+      "question": "Qué prueba se utiliza para diferenciar una colonia de estreptococo de estafilococo:",
+      "options": {
+        "A": "Coagulasa.",
+        "B": "Catalasa.",
+        "C": "Lactosa.",
+        "D": "Indol"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Catalasa."
+    },
+    {
+      "id": 75,
+      "question": "La tinción de Albert se utiliza para visualizar:",
+      "options": {
+        "A": "Gránulos metacromáticos de Corynebacterium diphteriae.",
+        "B": "Endosporas de Clostridium tetani.",
+        "C": "Cápsulas de Streptococcus pneumoniae.",
+        "D": "Ooquistes de Cryptosporidium"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Gránulos metacromáticos de Corynebacterium diphteriae."
+    },
+    {
+      "id": 76,
+      "question": "La espectrometría de masas (MALDI-TOF MS):",
+      "options": {
+        "A": "Es la técnica microbiana de identificación por excelencia excelencia",
+        "B": "Permite la identificación microbiana a partir de la ionización de componentes microbianos",
+        "C": "Genera un espectro donde, cada pico corresponde a un microorganismo según la altura de cada pico",
+        "D": "Permite afinar más la sensibilidad microbiana a los antibióticos"
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Permite la identificación microbiana a partir de la ionización de componentes microbianos"
+    },
+    {
+      "id": 77,
+      "question": "Al estar provocada la infección de nuestro caso por Staphylococcus Epidermis, ¿qué tipos de microorganismos observaremos en el examen microscópico?",
+      "options": {
+        "A": "Cocos gram positivos en racimos",
+        "B": "Cocobacilos gram negativos",
+        "C": "Bacilos gram positivos",
+        "D": "Levaduras"
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Cocos gram positivos en racimos"
+    },
+    {
+      "id": 78,
+      "question": "En el estudio morfológico las bacterias se pueden diferenciar los cocos según si se agrupan por pares, Tema 13.2 Tinciones, bioquímica y morfología bacteriana en racimos, en tétradas o en cadenas. Entonces, los agrupamos respectivamente en:",
+      "options": {
+        "A": "Estafilococos, vibriones, campilobacterias y estreptococos",
+        "B": "Estafilococos, estreptococos, micrococos y espirilos",
+        "C": "Diplococos, estreptococos, tetracocos y estafilocos",
+        "D": "diplococos, estafilococos, micrococos y estreptococos"
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "diplococos, estafilococos, micrococos y estreptococos"
+    },
+    {
+      "id": 79,
+      "question": "Se dice que el Bacilo de Koch es ácido-alcohol resistente porque en la tinción no pierde el color:",
+      "options": {
+        "A": "azul, en la tinción de Ziehl-Neelsen",
+        "B": "fucsia en la tinción de Ziehl-Neelsen",
+        "C": "azul en la tinción de Gram",
+        "D": "rojo en la tinción de Gram"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "fucsia en la tinción de Ziehl-Neelsen"
+    },
+    {
+      "id": 80,
+      "question": "Todas las bacterias tienen:",
+      "options": {
+        "A": "cápsula",
+        "B": "flagelos",
+        "C": "ribosomas",
+        "D": "membrana nuclear"
+      },
+      "page": 8,
+      "correctAnswer": "C",
+      "correctText": "ribosomas"
+    },
+    {
+      "id": 81,
+      "question": "Es verdad que:",
+      "options": {
+        "A": "Las bacterias son unicelulares",
+        "B": "Los virus son unicelulares",
+        "C": "Los parásitos intestinales son unicelulares",
+        "D": "Los priones son unicelulares"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Las bacterias son unicelulares"
+    },
+    {
+      "id": 82,
+      "question": "Si las esporas se observan verdes y las formas vegetativas de color rojo, el método empleado es:",
+      "options": {
+        "A": "Método de Moeller.",
+        "B": "Método de Wirtz.",
+        "C": "Método Albert.",
+        "D": "Método de Loeffler."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Método de Wirtz."
+    },
+    {
+      "id": 83,
+      "question": "El genoma bacteriano lo componen:",
+      "options": {
+        "A": "ADN y Ribosomas.",
+        "B": "Genóforo y plásmidos.",
+        "C": "Núcleo y nucleolo.",
+        "D": "Cromatina y núcleo."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Genóforo y plásmidos."
+    },
+    {
+      "id": 84,
+      "question": "¿Cuál de estas se emplea como tinción de BAAR?",
+      "options": {
+        "A": "Zielh_nielsen",
+        "B": "Wirtz-conklin",
+        "C": "Moeller",
+        "D": "A y b son ciertas."
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Zielh_nielsen"
+    },
+    {
+      "id": 85,
+      "question": "¿Cuál es el principal mecanismo de transferencia de plásmidos de una bacteria a otra?",
+      "options": {
+        "A": "Transposición.",
+        "B": "Clonación.",
+        "C": "Transducción.",
+        "D": "Conjugación."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Conjugación."
+    },
+    {
+      "id": 86,
+      "question": "¿Dónde están presentes los ácidos teicoicos?",
+      "options": {
+        "A": "En las bacterias Gram negativas",
+        "B": "En las bacterias Gram positivas",
+        "C": "Tanto en bacterias Gram positivas como Gram negativas",
+        "D": "En la pared de organismos eucariotas"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "En las bacterias Gram positivas"
+    },
+    {
+      "id": 87,
+      "question": "Respecto a la prueba de Indol, ¿qué información es INCORRECTA?",
+      "options": {
+        "A": "Se añade naftol",
+        "B": "Se añade xilol",
+        "C": "Se añade reactivo de Kovacks",
+        "D": "El caldo de cultivo es rico en triptófano"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Se añade naftol"
+    },
+    {
+      "id": 88,
+      "question": "De entre los siguientes, ¿qué géneros de microorganismos no se tiñen con la tinción de Kinyoun?",
+      "options": {
+        "A": "Campylobacter ssp",
+        "B": "Cyclospora spp",
+        "C": "Mycobacterium spp",
+        "D": "Cryptosporidium spp"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Campylobacter ssp"
+    },
+    {
+      "id": 89,
+      "question": "De la siguiente lista de géneros bacterianos, ¿cuál es móvil?",
+      "options": {
+        "A": "Haemophilus",
+        "B": "Micrococcus",
+        "C": "Mycobaterium",
+        "D": "Proteus"
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "Proteus"
+    },
+    {
+      "id": 90,
+      "question": "¿Cuál de los siguientes microorganismos no presenta cápsula polisacarídica?",
+      "options": {
+        "A": "Clostridium perfringens Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Bacillus anthracis",
+        "C": "Klebsiella pneumoniae",
+        "D": "Streptococcus pyogenes"
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Bacillus anthracis"
+    },
+    {
+      "id": 91,
+      "question": "En la prueba IMViC, el resultado ++-- ¿a qué bacteria pertenece?",
+      "options": {
+        "A": "Salmonella",
+        "B": "Enterobacter",
+        "C": "E. coli",
+        "D": "Klebsiella"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "E. coli"
+    },
+    {
+      "id": 92,
+      "question": "¿Cuál de los siguientes métodos no corresponde a técnicas de tinción de corpúsculos meta-cromáticos?",
+      "options": {
+        "A": "Método de Neisser",
+        "B": "Método de Albert",
+        "C": "Método de Anthony",
+        "D": "Método de Loeffler"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Método de Anthony"
+    },
+    {
+      "id": 93,
+      "question": "¿Cuál de las siguientes estructuras no forma parte del polisacárido de las bacterias Gram negativas?",
+      "options": {
+        "A": "Lípido A",
+        "B": "Antígeno O",
+        "C": "Proteína M",
+        "D": "Polisacárido central"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Proteína M"
+    },
+    {
+      "id": 94,
+      "question": "Respecto a la técnica de Kinyoun, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Utiliza safranina durante 5 minutos",
+        "B": "Es una modificación de la tinción de Ziehl-Neelsen",
+        "C": "Evita la emisión de vapores altamente tóxicos",
+        "D": "Tiñe bacterias y parásitos ácido alcohol resistentes"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Utiliza safranina durante 5 minutos"
+    },
+    {
+      "id": 95,
+      "question": "¿Cómo se llaman las formas que se obtienen al tratar la pared bacteriana con lisozimas de las bacterias Gram positivas?",
+      "options": {
+        "A": "Protoplastos",
+        "B": "Esferoplastos",
+        "C": "Leucoplastos",
+        "D": "Lisoplastos"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Protoplastos"
+    },
+    {
+      "id": 96,
+      "question": "El lugol actúa como:",
+      "options": {
+        "A": "Mordiente en la tinción de Gram",
+        "B": "Colorante en la tinción de Ziehl-Neelsen",
+        "C": "Decolorante en la tinción de Kinyoun",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Mordiente en la tinción de Gram"
+    },
+    {
+      "id": 97,
+      "question": "Señale la respuesta incorrecta:",
+      "options": {
+        "A": "Hay bacterias que no crecen en medios de cultivo habituales",
+        "B": "Hay bacterias inmóviles",
+        "C": "Hay bacterias que raramente son patógenas",
+        "D": "Todas las bacterias tienen pared celular"
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Todas las bacterias tienen pared celular"
+    },
+    {
+      "id": 98,
+      "question": "Respecto a la tinción de Gram, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Las bacterias Gram positivas tienen mayor cantidad de peptidoglicanos en su pared",
+        "B": "Las bacterias Gram negativas se decoloran fácilmente",
+        "C": "Las bacterias Gram positivas adquieren la tonalidad rosa del último colorante",
+        "D": "La mezcla alcohol-acetona tiene como misión la decoloración"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Las bacterias Gram positivas adquieren la tonalidad rosa del último colorante"
+    },
+    {
+      "id": 99,
+      "question": "¿Cuál de los siguientes microorganismos es oxidasa positivo?",
+      "options": {
+        "A": "Helicobacter spp",
+        "B": "Streptococcus spp",
+        "C": "Staphylococcus spp",
+        "D": "Bacillus spp"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Helicobacter spp"
+    },
+    {
+      "id": 100,
+      "question": "MALDI_ TOF es una técnica que, de momento, no se utiliza en los laboratorios de Microbiología Clínica para la identificación de:",
+      "options": {
+        "A": "Parásitos",
+        "B": "Levaduras",
+        "C": "Bacterias",
+        "D": "Hongos filamentosos"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Parásitos"
+    },
+    {
+      "id": 101,
+      "question": "El diagnóstico serológico no es útil en el diagnóstico de las infecciones producidas · por:",
+      "options": {
+        "A": "Brucella",
+        "B": "Virus Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Anaerobios",
+        "D": "Sífilis"
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Anaerobios"
+    },
+    {
+      "id": 102,
+      "question": "Con la tinción de Kinyoun o Ziehi-Neelsen modificado podremos observar:",
+      "options": {
+        "A": "Enterobacterias",
+        "B": "Cryptosporidium",
+        "C": "Plasmodium",
+        "D": "Neisserias"
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Cryptosporidium"
+    },
+    {
+      "id": 103,
+      "question": "En el primer paso del esquema a seguir en la identificación bacteriana se emplea la tinción",
+      "options": {
+        "A": "Gram.",
+        "B": "Ziehl-Neelsen.",
+        "C": "Giemsa.",
+        "D": "Azul de metileno."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Gram."
+    },
+    {
+      "id": 104,
+      "question": "¿Cómo se denomina el método de observación \"in vivo\" de microorganismos, que es un proceso intermedio entre el examen en fresco y las técnicas de coloración después de fijación?",
+      "options": {
+        "A": "De gota suspendida.",
+        "B": "De la cámara húmeda.",
+        "C": "De coloración vital.",
+        "D": "Todas son ciertas."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "De coloración vital."
+    },
+    {
+      "id": 105,
+      "question": "¿A qué se debe que las micobacterias sean ácido- alcohol resistentes?",
+      "options": {
+        "A": "A la composición de la membrana nuclear.",
+        "B": "A la composición de la pared celular.",
+        "C": "A la composición del RNA.",
+        "D": "A la composición del DNA."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "A la composición de la pared celular."
+    },
+    {
+      "id": 106,
+      "question": "El genoma bacteriano lo compone",
+      "options": {
+        "A": "El cromosoma bacteriano.",
+        "B": "Los plásmidos.",
+        "C": "El cromosoma bacteriano y los plásmidos.",
+        "D": "El cromosoma bacteriano, los plásmidos y el ADN mitocondrial."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "El cromosoma bacteriano y los plásmidos."
+    },
+    {
+      "id": 107,
+      "question": "En la tinción de Gram, los microorganismos Gram +",
+      "options": {
+        "A": "Resisten a la decoloración del disolvente alcohol- acetona, tras tratamiento con un colorante básico y Lugol.",
+        "B": "Los Gram + aparecen de color rojo.",
+        "C": "Los Gram - aparecen de color violeta.",
+        "D": "Todas son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Resisten a la decoloración del disolvente alcohol- acetona, tras tratamiento con un colorante básico y Lugol."
+    },
+    {
+      "id": 108,
+      "question": "¿Cómo se observan los BAAR en la tinción de Ziehl- Neelsen?",
+      "options": {
+        "A": "Los BAAR se observan de color rojo sobre fondo azul.",
+        "B": "Los BAAR se observan de color azul sobre fondo rojo.",
+        "C": "Los BAAR se observan de color rojo sobre fondo verde.",
+        "D": "No se observan con esta tinción."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Los BAAR se observan de color rojo sobre fondo azul."
+    },
+    {
+      "id": 109,
+      "question": "En una placa de agar sangre observamos colonias de bacterias catalasa negativas y además son betahemolíticas. Podemos sospechar de…:",
+      "options": {
+        "A": "Streptococcus pneumoniae.",
+        "B": "Streptococcus viridans.",
+        "C": "Streptococcus pyogenes.",
+        "D": "Staphylococcus aureus."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Streptococcus pyogenes."
+    },
+    {
+      "id": 110,
+      "question": "El Microbiólogo le pide que realice una tinción de Gram a una muestra de un hemocultivo (frasco aerobio) que ha dado positivo. Indique el orden correcto de los siguientes colorantes:",
+      "options": {
+        "A": "Violeta de genciana, lugol, safranina, alcohol- acetona.",
+        "B": "Violeta de genciana, lugol, alcohol-acetona, safranina.",
+        "C": "Violeta de genciana, alcohol-acetona, lugol, safranina.",
+        "D": "Safranina, lugol, violeta de genciana, alcohol- acetona."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Violeta de genciana, lugol, alcohol-acetona, safranina."
+    },
+    {
+      "id": 111,
+      "question": "Indique cuál sería la tinción más correcta para visualizar Cryptococcus neoformans:",
+      "options": {
+        "A": "Tinción de Gram.",
+        "B": "Tinción de tinta china. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Tinción de Giemsa.",
+        "D": "Tinción de Ziehl-Neelsen."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "Tinción de tinta china. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+    },
+    {
+      "id": 112,
+      "question": "En bacteriología, el antígeno O se localiza en:",
+      "options": {
+        "A": "Las fimbrias.",
+        "B": "Los flagelos.",
+        "C": "La pared celular.",
+        "D": "La cápsula."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "La pared celular."
+    },
+    {
+      "id": 113,
+      "question": "Para la visualización de la cápsula en las bacterias, se utiliza:",
+      "options": {
+        "A": "Tinción de Gram.",
+        "B": "Tinción simple con azul de metileno diluido.",
+        "C": "Tinción con verde de malaquita.",
+        "D": "Tinción negativa."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Tinción negativa."
+    },
+    {
+      "id": 114,
+      "question": "El reactivo de Kovacs se utiliza en la prueba de:",
+      "options": {
+        "A": "Nitratos.",
+        "B": "Voges-prokauer.",
+        "C": "Indol.",
+        "D": "PDA."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Indol."
+    },
+    {
+      "id": 115,
+      "question": "Para detectar si una bacteria es capaz de degradar el triptófano, se utiliza la prueba de:",
+      "options": {
+        "A": "Indol.",
+        "B": "Ureasa.",
+        "C": "Nitratasa.",
+        "D": "Oxidasa."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Indol."
+    },
+    {
+      "id": 116,
+      "question": "En la tinción de gram, las bacterias gram negativas aparecen teñidas de:",
+      "options": {
+        "A": "Verde.",
+        "B": "Rojo.",
+        "C": "Amarillo.",
+        "D": "Azul."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Rojo."
+    },
+    {
+      "id": 117,
+      "question": "En la tinción de Zieth Neelsen, la composición de la solución decolorante es:",
+      "options": {
+        "A": "Alcohol-clorhídrico.",
+        "B": "Alcohol-acetona.",
+        "C": "Acetona-clorhídrico.",
+        "D": "Alcohol-sulfhídrico."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Alcohol-clorhídrico."
+    },
+    {
+      "id": 118,
+      "question": "Para diferenciar Enterobacterias de pseudomonas, ¿Qué prueba se utiliza?",
+      "options": {
+        "A": "Prueba de la coagulasa.",
+        "B": "Prueba de la oxidasa.",
+        "C": "Prueba de la catalasa.",
+        "D": "Disco de Optoquina."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Prueba de la oxidasa."
+    },
+    {
+      "id": 119,
+      "question": "¿Qué tipo de microscopio se utiliza para observar una preparación teñida auramina?:",
+      "options": {
+        "A": "Microscopio de campo oscuro.",
+        "B": "Microscopio de contraste de fases.",
+        "C": "Microscopio de campo claro.",
+        "D": "Microscopio de fluorescencia."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Microscopio de fluorescencia."
+    },
+    {
+      "id": 120,
+      "question": "¿Qué tipo de microscopio se utilizaría para observar una preparación de Auramina?:",
+      "options": {
+        "A": "De campo claro.",
+        "B": "De contraste de fases.",
+        "C": "De fluorescencia.",
+        "D": "De luz ultravioleta."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "De fluorescencia."
+    },
+    {
+      "id": 121,
+      "question": "¿Cuál de estos NO es un elemento estructural constante de las células bacterianas?:",
+      "options": {
+        "A": "Pared celular.",
+        "B": "Citoplasma.",
+        "C": "Flagelo.",
+        "D": "Material nuclear."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Flagelo."
+    },
+    {
+      "id": 122,
+      "question": "El MALDI-TOF es una técnica que sirve para:",
+      "options": {
+        "A": "Realizar antibiogramas cuantitativos de forma totalmente automatizada mediante espectrometría de masas.",
+        "B": "Realizar la identificación de forma rápida y fiable de un amplio abanico de microorganismos mediante espectrometría de masas.",
+        "C": "Identificar microorganismos mediante la amplificación y secuenciación de ácidos nucleicos.",
+        "D": "Todas son correctas. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Realizar la identificación de forma rápida y fiable de un amplio abanico de microorganismos mediante espectrometría de masas."
+    },
+    {
+      "id": 123,
+      "question": "En la tinción de Ziehl-Neelsen, la composición de la solución decolorante es:",
+      "options": {
+        "A": "Alcohol-acetona.",
+        "B": "Acetona-clorhídrico.",
+        "C": "Alcohol-sulfhídrico.",
+        "D": "Alcohol-clorhídrico."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Alcohol-clorhídrico."
+    },
+    {
+      "id": 124,
+      "question": "Elige el método de tinción adecuado para visualizar las esporas del Bacillus cereus.",
+      "options": {
+        "A": "Método de Moeller.",
+        "B": "Método de Leiffson.",
+        "C": "Método de Hiss.",
+        "D": "Método de Neisser."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Método de Moeller."
+    },
+    {
+      "id": 125,
+      "question": "Los antígenos O (somáticos) de las bacterias se localizan",
+      "options": {
+        "A": "en la pared celular",
+        "B": "en los flagelos",
+        "C": "en los ribosomas",
+        "D": "en la cápsula"
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "en la pared celular"
+    },
+    {
+      "id": 126,
+      "question": "Son microorganismos unicelulares que se caracterizan porque están rodeados por una pared celular, tienen ribosomas del tipo 70S y carecen de verdadero núcleo:",
+      "options": {
+        "A": "Virus.",
+        "B": "Parásitos.",
+        "C": "Hongos.",
+        "D": "Bacterias."
+      },
+      "page": 12,
+      "correctAnswer": "D",
+      "correctText": "Bacterias."
+    },
+    {
+      "id": 127,
+      "question": "¿Cuál de las siguientes NO es una función de la pared celular bacteriana?",
+      "options": {
+        "A": "Ayuda a mantener la morfología de la célula.",
+        "B": "Está implicada en la patogenicidad de la bacteria.",
+        "C": "Determina su movilidad.",
+        "D": "Permite el paso selectivo de algunas sustancias."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Determina su movilidad."
+    },
+    {
+      "id": 128,
+      "question": "¿Cuál es la enzima que cataliza la conversión de peróxido de hidrógeno en agua más oxígeno?",
+      "options": {
+        "A": "Lipasa.",
+        "B": "Coagulasa.",
+        "C": "Catalasa.",
+        "D": "Hexoquinasa."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Catalasa."
+    },
+    {
+      "id": 129,
+      "question": "La tinción de Ziehl-Neelsen utiliza como colorante principal:",
+      "options": {
+        "A": "Fucsina fenicada.",
+        "B": "Violeta de genciana.",
+        "C": "Azul de metileno.",
+        "D": "Safranina."
+      },
+      "page": 12,
+      "correctAnswer": "A",
+      "correctText": "Fucsina fenicada."
+    },
+    {
+      "id": 130,
+      "question": "La tinción de Wirtz o verde de malaquita es:",
+      "options": {
+        "A": "Específica para flagelos.",
+        "B": "Específica para espiroquetas.",
+        "C": "Específica para estructuras de resistencia (Esporas).",
+        "D": "No es una tinción."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Específica para estructuras de resistencia (Esporas)."
+    },
+    {
+      "id": 131,
+      "question": "Para la prueba de Voges-Proskauer el medio de cultivo utilizado es:",
+      "options": {
+        "A": "Citrato.",
+        "B": "Agua de peptona.",
+        "C": "Medio de Clarbs y Lubs.",
+        "D": "Caldo glucosado."
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Medio de Clarbs y Lubs."
+    },
+    {
+      "id": 132,
+      "question": "¿Qué prueba bioquímica utilizaremos para la diferenciación de enterobacterias?",
+      "options": {
+        "A": "Hidrolisis de gelatina.",
+        "B": "Prueba de la B-D galactosidasa (ONPG).",
+        "C": "Prueba de Kohn.",
+        "D": "Prueba de Frazzier."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Prueba de la B-D galactosidasa (ONPG)."
+    },
+    {
+      "id": 133,
+      "question": "¿Cuál de las siguientes características NO corresponde a las bacterias?",
+      "options": {
+        "A": "Pared celular.",
+        "B": "Verdadero núcleo.",
+        "C": "Membrana citoplasmática.",
+        "D": "Ribosomas."
+      },
+      "page": 12,
+      "correctAnswer": "B",
+      "correctText": "Verdadero núcleo."
+    },
+    {
+      "id": 134,
+      "question": "¿Cuál de los siguientes microorganismos es oxidasa negativa?",
+      "options": {
+        "A": "Pseudomonas.",
+        "B": "Neisseria.",
+        "C": "Acinectobacter.",
+        "D": "Moraxella. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      },
+      "page": 12,
+      "correctAnswer": "C",
+      "correctText": "Acinectobacter."
+    },
+    {
+      "id": 135,
+      "question": "El elemento intracelular bacteriano, formado por moléculas circulares de ADN extracromosómico bicatenario, se denomina:",
+      "options": {
+        "A": "Pared celular.",
+        "B": "ARN mitocondrial.",
+        "C": "Lisosoma.",
+        "D": "Plásmido."
+      },
+      "page": 13,
+      "correctAnswer": "D",
+      "correctText": "Plásmido."
+    },
+    {
+      "id": 136,
+      "question": "¿Cuál de las siguientes tinciones es conocida también como tinción negativa?:",
+      "options": {
+        "A": "Tinción de Gram.",
+        "B": "Tinción de esporas.",
+        "C": "Tinción de cápsulas."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Tinción de cápsulas."
+    },
+    {
+      "id": 137,
+      "question": "¿Cuál de las siguientes afirmaciones es correcta sobre la tinción de Zhiel-Neelsen?:",
+      "options": {
+        "A": "El colorante es la fucsina fenicada y el contracolorante el azul de metileno.",
+        "B": "El colorante es el azul de metileno y el contracolorante la fucsina fenicada.",
+        "C": "El colorante es la fucsina fenicada y el contracolorante la safranina."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "El colorante es la fucsina fenicada y el contracolorante el azul de metileno."
+    },
+    {
+      "id": 138,
+      "question": "¿En una identificación de Pseudomonas aeruginosa, cuál de estas reacciones es la correcta?:",
+      "options": {
+        "A": "Oxidasa positivo.",
+        "B": "Lactosa positivo.",
+        "C": "Oxidasa negativo."
+      },
+      "page": 13,
+      "correctAnswer": "A",
+      "correctText": "Oxidasa positivo."
+    },
+    {
+      "id": 139,
+      "question": "El ácido diaminopimético es un elemento único en las paredes celulares de:",
+      "options": {
+        "A": "Virus.",
+        "B": "Hongos.",
+        "C": "Bacterias. Comentario. Pregunta difícil. El peptidoglicano consiste de: un esqueleto de glicano (polisacárido) que está compuesto de ácido N-acetil murámico y N-acetil glucosamina, cadenas laterales de péptidos conteniendo D- y L- aminoácidos y algunas veces ácido diaminopimélico (especialmente en Gram negativas)"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Bacterias. Comentario. Pregunta difícil. El peptidoglicano consiste de: un esqueleto de glicano (polisacárido) que está compuesto de ácido N-acetil murámico y N-acetil glucosamina, cadenas laterales de péptidos conteniendo D- y L- aminoácidos y algunas veces ácido diaminopimélico (especialmente en Gram negativas)"
+    },
+    {
+      "id": 140,
+      "question": "Tenemos un vial de hemocultivo que ha dado positivo, en la tinción de gram observamos bacilos gram negativos, ¿qué procedimiento utilizaremos para identificar el microorganismo en 1 ó 2 horas?",
+      "options": {
+        "A": "Sembraremos la muestra en las placas de agar correspondientes.",
+        "B": "Realizaremos un MALDI-TOF.",
+        "C": "Realizaremos un panel de identificación mediante pruebas bioquímicas.",
+        "D": "Ninguno de los anteriores."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Realizaremos un MALDI-TOF."
+    },
+    {
+      "id": 141,
+      "question": "Para observar los corpúsculos metacromáticos, que tinción debemos utilizar::",
+      "options": {
+        "A": "Método de Moeller.",
+        "B": "Método de Antony.",
+        "C": "Método de Neisser.",
+        "D": "Método de Wirtz-conklin."
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Método de Neisser."
+    },
+    {
+      "id": 142,
+      "question": "De los siguientes, ¿cuál es un bacilo gran (-) fermentador?:",
+      "options": {
+        "A": "Nocardia spp.",
+        "B": "Vibrio cholerae.",
+        "C": "Bacillus subtilis.",
+        "D": "Legionella spp."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Vibrio cholerae."
+    },
+    {
+      "id": 143,
+      "question": "¿cuál es el orden correcto de los reactivos empleados en la tinción de Ziehi-Neelsen?",
+      "options": {
+        "A": "Carbolfucsina- azul de metileno- ácido clorhídrico/alcohol.",
+        "B": "Carbolfucsina- ácido clorhídrico/alcohol- azul de metileno.",
+        "C": "Azul de metileno- carbolfucsina- ácido clorhídrico/alcohol.",
+        "D": "Azul de metileno- ácido clorhídrico/alcohol- carbolfucsina."
+      },
+      "page": 13,
+      "correctAnswer": "B",
+      "correctText": "Carbolfucsina- ácido clorhídrico/alcohol- azul de metileno."
+    },
+    {
+      "id": 144,
+      "question": "¿Cuál de las siguientes opciones es una tinción directa con fluorocromos?",
+      "options": {
+        "A": "Tinción de Ziehi-Neelsen.",
+        "B": "Tinción de Wirtz-Conklin.",
+        "C": "Tinción de naranja de acridina.",
+        "D": "Tinción de Gram. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      },
+      "page": 13,
+      "correctAnswer": "C",
+      "correctText": "Tinción de naranja de acridina."
+    },
+    {
+      "id": 145,
+      "question": "La tinción de Gram afecta…",
+      "options": {
+        "A": "…al citoplasma.",
+        "B": "…a los ribosomas.",
+        "C": "…a la pared celular.",
+        "D": "…a la membrana citoplasmática."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "…a la pared celular."
+    },
+    {
+      "id": 146,
+      "question": "En la tinción fluorescente con naranja de acridina, ¿de qué color emite la fluorescencia el ADN de las células vivas?",
+      "options": {
+        "A": "Rojo.",
+        "B": "Verde amarillento.",
+        "C": "Anaranjado.",
+        "D": "Azulado."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Verde amarillento."
+    },
+    {
+      "id": 147,
+      "question": "¿Para qué se utiliza la prueba de la oxidasa?",
+      "options": {
+        "A": "Para diferenciar Staphylococcus aureus de Staphylococcus epidermidis.",
+        "B": "Para diferenciar Campylobacter jejuni de Pseudomona aeruginosa.",
+        "C": "Para identificar Pseudomona aeruginosa.",
+        "D": "Para identificar Escherichia coli."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Para identificar Pseudomona aeruginosa."
+    },
+    {
+      "id": 148,
+      "question": "Ante un coco grampositivo, catalasa positivo, coagulasa positivo, aerobio-anaerobio facultativo, podemos afirmar que se trata de:",
+      "options": {
+        "A": "Staphylococcus aureus.",
+        "B": "Staphylococcus spp.",
+        "C": "Streptococcus pyogenes."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Staphylococcus aureus."
+    },
+    {
+      "id": 149,
+      "question": "¿Qué tipo de colorantes es la nigrosina?",
+      "options": {
+        "A": "Colorante ácido.",
+        "B": "Colorante neutro.",
+        "C": "Colorante básico."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Colorante ácido."
+    },
+    {
+      "id": 150,
+      "question": "¿Qué tipo de colorantes es el cristal violeta?",
+      "options": {
+        "A": "Colorante básico.",
+        "B": "Colorante ácido.",
+        "C": "Colorante neutro."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Colorante básico."
+    },
+    {
+      "id": 151,
+      "question": "¿Qué bacterias de las siguientes no es ácido-alcohol resistente?",
+      "options": {
+        "A": "Nocardia asteroides.",
+        "B": "Mycobacterium smegmatis.",
+        "C": "Bordetella holmesii."
+      },
+      "page": 14,
+      "correctAnswer": "C",
+      "correctText": "Bordetella holmesii."
+    },
+    {
+      "id": 152,
+      "question": "¿Qué test nos permite diferenciar Staphilococos aureus de otras especies?",
+      "options": {
+        "A": "Test de la coagulasa.",
+        "B": "Test de la oxidasa.",
+        "C": "Test de la catalasa."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Test de la coagulasa."
+    },
+    {
+      "id": 153,
+      "question": "¿Qué prueba de laboratorio, de entre las siguientes, es la más rápida para el diagnóstico de neumonías por Legionella?",
+      "options": {
+        "A": "Cultivo de esputo en BCYE agar.",
+        "B": "Detección de antígeno de Legionellla en orina.",
+        "C": "Inmunofluorescencia indirecta."
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Detección de antígeno de Legionellla en orina."
+    },
+    {
+      "id": 154,
+      "question": "¿Cuál de estas bacterias no se tiñen con la tinción de gram?",
+      "options": {
+        "A": "Serratia marcescens.",
+        "B": "Haemophilus ducrey.",
+        "C": "Bordetella pertussis.",
+        "D": "Legionella pneumophila. Comentario: de todas ellas es la que peor se tiñe. Legionella es un bacilo gramnegativo que se tiñe débilmente con la coloración de contraste característica de la tinción de Gram, por lo que es recomendable la utilización de fuchsina básica al 0,1% en vez de safranina en esta tinción"
+      },
+      "page": 14,
+      "correctAnswer": "D",
+      "correctText": "Legionella pneumophila. Comentario: de todas ellas es la que peor se tiñe. Legionella es un bacilo gramnegativo que se tiñe débilmente con la coloración de contraste característica de la tinción de Gram, por lo que es recomendable la utilización de fuchsina básica al 0,1% en vez de safranina en esta tinción"
+    },
+    {
+      "id": 155,
+      "question": "¿Qué tinción utilizarías preferentemente para detectar una meningitis por Cryptococcus neoformans?",
+      "options": {
+        "A": "Tinta china.",
+        "B": "Tinción de gram.",
+        "C": "Tinción de Zielh-Nielsen.",
+        "D": "Tinción de Giemsa."
+      },
+      "page": 14,
+      "correctAnswer": "A",
+      "correctText": "Tinta china."
+    },
+    {
+      "id": 156,
+      "question": "Sobre la tinción de gram, señale la respuesta correcta",
+      "options": {
+        "A": "Es una tinción simple Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Diferencia las bacterias en gram positivas y gram negativas",
+        "C": "Permite ver la morfología y movilidad de las bacterias",
+        "D": "Se utiliza para ver parásitos en heces"
+      },
+      "page": 14,
+      "correctAnswer": "B",
+      "correctText": "Diferencia las bacterias en gram positivas y gram negativas"
+    },
+    {
+      "id": 157,
+      "question": "El género Rickettsia está constituido por cocobacilos gramnegativos pequeños ¿En qué tipo de tinción se ven débilmente?:",
+      "options": {
+        "A": "Azul metileno",
+        "B": "Tinción Giemsa",
+        "C": "Tinción de Leifson",
+        "D": "Tinción de Gram"
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Tinción de Gram"
+    },
+    {
+      "id": 158,
+      "question": "Respecto a la tinción de Kinyoun, señale la respuesta INCORRECTA:",
+      "options": {
+        "A": "Es una variante de la tinción de Ziehl-Neelsen.",
+        "B": "La tinción se hace en caliente.",
+        "C": "La tinción se hace en frio.",
+        "D": "Se utiliza para la detección de Cryptosporidium."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "La tinción se hace en caliente."
+    },
+    {
+      "id": 159,
+      "question": "La tinción de Ziehl-Neelsen se utiliza para identificar:",
+      "options": {
+        "A": "Enterobacterias.",
+        "B": "Micobacterias.",
+        "C": "Estreptococos.",
+        "D": "Cándida."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Micobacterias."
+    },
+    {
+      "id": 160,
+      "question": "¿En qué tipo de tinción se utiliza el lugol?",
+      "options": {
+        "A": "Tinción de Gram.",
+        "B": "Tinción de Nigrosina.",
+        "C": "Tinción de Ziehl-Neelsen o AAR.",
+        "D": "Tinción de Wirtz."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Tinción de Gram."
+    },
+    {
+      "id": 161,
+      "question": "¿Qué reactivo no se utiliza en la tinción de GRAM?:",
+      "options": {
+        "A": "cristal violeta",
+        "B": "azul de metileno",
+        "C": "alcohol-acetona",
+        "D": "safranina"
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "azul de metileno"
+    },
+    {
+      "id": 162,
+      "question": "¿Qué tinción no usaría para identificar la cápsula bacteriana?",
+      "options": {
+        "A": "Tinción de tinta china",
+        "B": "Tinción de Hiss",
+        "C": "Tinción de Rhodes",
+        "D": "Tinción de nigrosina"
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Tinción de Rhodes"
+    },
+    {
+      "id": 163,
+      "question": "Si realiza una tinción de Gram, una Enterobacteria, ¿de qué color se verá?",
+      "options": {
+        "A": "Violeta.",
+        "B": "Azul.",
+        "C": "Verde.",
+        "D": "Rojo."
+      },
+      "page": 15,
+      "correctAnswer": "D",
+      "correctText": "Rojo."
+    },
+    {
+      "id": 164,
+      "question": "¿Cuál es el colorante de contraste en la tinción de Ziehl- Neelsen?",
+      "options": {
+        "A": "Fucsina Fenicada.",
+        "B": "Azul de Metileno.",
+        "C": "Azul Cresil.",
+        "D": "Lugol."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Azul de Metileno."
+    },
+    {
+      "id": 165,
+      "question": "¿Cuál es la tinción de referencia en el estudio de bacterias ácido-alcohol resistentes, como las micobacterias?",
+      "options": {
+        "A": "Tinción de May-Grünwald-Giemsa.",
+        "B": "Tinción de Gram.",
+        "C": "Tinción de Ziehl-Neelsen.",
+        "D": "Tinción de Perls."
+      },
+      "page": 15,
+      "correctAnswer": "C",
+      "correctText": "Tinción de Ziehl-Neelsen."
+    },
+    {
+      "id": 166,
+      "question": "¿Cuándo NO se debe realizar una tinción de Gram en muestra directa?",
+      "options": {
+        "A": "Muestras respiratorias.",
+        "B": "Puntas de catéteres.",
+        "C": "Líquidos de origen estéril normalmente.",
+        "D": "Exudados de heridas."
+      },
+      "page": 15,
+      "correctAnswer": "B",
+      "correctText": "Puntas de catéteres."
+    },
+    {
+      "id": 167,
+      "question": "Señale cuál de las siguientes afirmaciones es correcta:",
+      "options": {
+        "A": "Todas las células bacterianas tienen pared celular, membrana citoplasmática, citoplasma y material nuclear.",
+        "B": "Todas las células bacterianas tienen cápsula, membrana citoplasmática, citoplasma y material nuclear. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Todas las células bacterianas tienen pared celular, membrana citoplasmática y núcleo."
+      },
+      "page": 15,
+      "correctAnswer": "A",
+      "correctText": "Todas las células bacterianas tienen pared celular, membrana citoplasmática, citoplasma y material nuclear."
+    },
+    {
+      "id": 168,
+      "question": "¿Cuál de estas bacterias no se tiñe con la tinción de Gram?:",
+      "options": {
+        "A": "Micoplasma.",
+        "B": "Gardnerella vaginalis.",
+        "C": "Salmonella spp.",
+        "D": "Pseudomona spp. Comentario: debido a que no tiene pared celular"
+      },
+      "page": 16,
+      "correctAnswer": "A",
+      "correctText": "Micoplasma."
+    },
+    {
+      "id": 169,
+      "question": "Indique la asociación correcta respecto a la identificación de enterobacterias:",
+      "options": {
+        "A": "Escherichia coli: No fermentadora lactosa, producción H₂S positiva.",
+        "B": "Enterobacter cloacae: No fermentadora lactosa, producción H₂S negativa.",
+        "C": "Shigella: Fermentadora lactosa, producción H₂S positiva.",
+        "D": "Salmonella entérica: No fermentadora lactosa, producción H₂S positiva."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "Salmonella entérica: No fermentadora lactosa, producción H₂S positiva."
+    },
+    {
+      "id": 170,
+      "question": "¿Qué prueba bioquímica detecta la producción de acetoína, a partir del ácido pirúvico, en la degradación de la glucosa?",
+      "options": {
+        "A": "Beta glucuronidasa.",
+        "B": "Vogues-Proskauer.",
+        "C": "fenilalanina desaminasa.",
+        "D": "Rojo de metilo."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Vogues-Proskauer."
+    },
+    {
+      "id": 171,
+      "question": "¿De qué color vemos los microorganismos BAAR - sobre una muestra de esputo en la que hemos realizado la tinción Ziehl-Neelsen?",
+      "options": {
+        "A": "Rojo.",
+        "B": "Azul.",
+        "C": "Violeta.",
+        "D": "Sólo se verían de color los BAAR +."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Azul."
+    },
+    {
+      "id": 172,
+      "question": "Indique el orden correcto de las fases de la Tinción de Ziehi-Neelsen:",
+      "options": {
+        "A": "Carbolfucsina- azul de metileno- ácido clorhídrico/alcohol",
+        "B": "Azul de metileno- ácido clorhídrico/alcohol- carbolfucsina",
+        "C": "Carbolfucsina- ácido clorhídrio/alcohol- azul de metileno",
+        "D": "Azul de metileno- carbolfucsina- ácido clorhídrico/alcohol"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Carbolfucsina- ácido clorhídrio/alcohol- azul de metileno"
+    },
+    {
+      "id": 173,
+      "question": "Para ver microorganismos al microscopio, la mayoría de las veces usamos tinciones. ¿De qué otra manera se denomina también el método de Burri?",
+      "options": {
+        "A": "Método de Moeller.",
+        "B": "Método de la tinta china.",
+        "C": "Método de Loeffler.",
+        "D": "Método de Wirtz."
+      },
+      "page": 16,
+      "correctAnswer": "B",
+      "correctText": "Método de la tinta china."
+    },
+    {
+      "id": 174,
+      "question": "Ante un microorganismo causante del Síndrome del Shock tóxico estafilocócico, ¿Qué resultados se obtendrán en las pruebas de laboratorio coagulasa y catalasa?",
+      "options": {
+        "A": "Coagulasa positivo-catalasa negativo.",
+        "B": "Catalasa positivo-coagulasa negativo.",
+        "C": "Coagulasa positivo- catalasa positivo.",
+        "D": "Coagulasa negativo-catalasa negativo."
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Coagulasa positivo- catalasa positivo."
+    },
+    {
+      "id": 175,
+      "question": "Sobre la espectrometría de masas MALDI-TOF señala la respuesta incorrecta:",
+      "options": {
+        "A": "Es un método proteómico de identificación bacteriana.",
+        "B": "Identifica las proteínas ribosómicas dando información sobre el género y especie bacteriano.",
+        "C": "Permite el análisis de muestras clínicas sin cultivo previo que ya han sido identificadas como positivas.",
+        "D": "La identificación depende de que los medios de cultivo sean o no selectivos."
+      },
+      "page": 16,
+      "correctAnswer": "D",
+      "correctText": "La identificación depende de que los medios de cultivo sean o no selectivos."
+    },
+    {
+      "id": 176,
+      "question": "¿Cuál de las siguientes tinciones no se utiliza para la identificación de microorganismos de tipo BAAR?",
+      "options": {
+        "A": "Tinción de Kinyoun.",
+        "B": "Tinción de Ziehl-Neelsen.",
+        "C": "Tinción de Giemsa.",
+        "D": "Tinción auramina-rodamina. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      },
+      "page": 16,
+      "correctAnswer": "C",
+      "correctText": "Tinción de Giemsa."
+    },
+    {
+      "id": 177,
+      "question": "La tinción de Schaeffer-Fulton es utilizada para la identificación de bacterias esporuladas en la que:",
+      "options": {
+        "A": "Las células vegetativas se tiñen de color azul y las endosporas de color verde.",
+        "B": "Las células vegetativas se tiñen de color rosa y las endosporas de color verde.",
+        "C": "Las células vegetativas se tiñen de color azul y las endosporas de color gris.",
+        "D": "Las células vegetativas se tiñen de color rosa y las endosporas de color gris."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Las células vegetativas se tiñen de color rosa y las endosporas de color verde."
+    },
+    {
+      "id": 178,
+      "question": "El Estreptococo β- hemolítico del grupo A (S. pyogenes) se caracteriza por:",
+      "options": {
+        "A": "Ser PYR positivo y ser sensible al disco de bacitracina.",
+        "B": "Hidrolizar el hipurato.",
+        "C": "Ser catalasa positiva.",
+        "D": "En la observación microscópica forman agrupaciones similares a racimos."
+      },
+      "page": 17,
+      "correctAnswer": "A",
+      "correctText": "Ser PYR positivo y ser sensible al disco de bacitracina."
+    },
+    {
+      "id": 179,
+      "question": "¿Qué bacteria es un bacilo ramificado parcialmente ácido alcohol resistente?",
+      "options": {
+        "A": "Staphylococcus aureus.",
+        "B": "Candida albicans.",
+        "C": "Nocardia asteroides.",
+        "D": "Mycobacterium tuberculosis."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Nocardia asteroides."
+    },
+    {
+      "id": 180,
+      "question": "La tinción ácido-alcohol resistente es positiva en:",
+      "options": {
+        "A": "Micobacterium avium.",
+        "B": "Nocardia spp.",
+        "C": "Rhodococcus equi.",
+        "D": "Todas las anteriores."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores."
+    },
+    {
+      "id": 181,
+      "question": "¿En qué se basa la técnica de identificación microbiológica MALDI-TOF?:",
+      "options": {
+        "A": "En la actividad metabólica de los microorganismos.",
+        "B": "En el espectro proteico generado por los microorganismos.",
+        "C": "En el reconocimiento de la secuencia de los ácidos nucleicos.",
+        "D": "Detección inmunológica de antígeno"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "En el espectro proteico generado por los microorganismos."
+    },
+    {
+      "id": 182,
+      "question": "¿En qué situación las preparaciones deben llevar un cubreobjetos sobre la muestra para ser observada al microscopio?",
+      "options": {
+        "A": "En el procedimiento de la tinción de Gram.",
+        "B": "En la observación con el objetivo de inmersión.",
+        "C": "En la realización de exámenes en fresco.",
+        "D": "Siempre deben llevar cubreobjetos."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "En la realización de exámenes en fresco."
+    },
+    {
+      "id": 183,
+      "question": "El naranja de acridina y la rodamina son compuestos utilizados en la fijación de la muestra para la observación a través de:",
+      "options": {
+        "A": "Microscopía de luz polarizada.",
+        "B": "Microscopía de fluorescencia.",
+        "C": "Microscopía de campo oscuro.",
+        "D": "Microscopía de campo luminoso"
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Microscopía de fluorescencia."
+    },
+    {
+      "id": 184,
+      "question": "¿Por qué se decoloran las bacterias gram negativas?",
+      "options": {
+        "A": "Por su gruesa pared de peptidoglucano",
+        "B": "Por la bicapa lipídica de su pared",
+        "C": "Por la menor cantidad de peptidoglucano de su pared",
+        "D": "Porque poseen mayor cantidad de flagelos"
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Por la menor cantidad de peptidoglucano de su pared"
+    },
+    {
+      "id": 185,
+      "question": "Los bacilos pueden agruparse en:",
+      "options": {
+        "A": "Sarcinas.",
+        "B": "Estreptobacilos.",
+        "C": "Estreptococos.",
+        "D": "Tetracocos."
+      },
+      "page": 17,
+      "correctAnswer": "B",
+      "correctText": "Estreptobacilos."
+    },
+    {
+      "id": 186,
+      "question": "¿Cuál es el orden de los siguientes colorantes en la tinción de gram?",
+      "options": {
+        "A": "Violeta de genciana, lugol, safranina, alcohol- acetona.",
+        "B": "Violeta de genciana, alcohol-acetona, lugol, safranina.",
+        "C": "Violeta de genciana, lugol, alcohol-acetona, safranina.",
+        "D": "Safranina, lugol, violeta de genciana, alcohol- acetona."
+      },
+      "page": 17,
+      "correctAnswer": "C",
+      "correctText": "Violeta de genciana, lugol, alcohol-acetona, safranina."
+    },
+    {
+      "id": 187,
+      "question": "Indique la respuesta correcta:",
+      "options": {
+        "A": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan de color violeta. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram positivos quedan de color rojo.",
+        "C": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan de color azul.",
+        "D": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan sin color."
+      },
+      "page": 17,
+      "correctAnswer": "D",
+      "correctText": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan sin color."
+    },
+    {
+      "id": 188,
+      "question": "¿Qué enunciado describe con mayor precisión el uso primario de MALDI-TOF-MS en el laboratorio de microbiología clínica?:",
+      "options": {
+        "A": "Identificación de microorganismos directamente de muestras de pacientes.",
+        "B": "Susceptibilidad antimicrobiana.",
+        "C": "Identificación de microorganismos cultivados en medios sólidos.",
+        "D": "Identificación de especies de Mycobacterium directamente del medio líquido."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Identificación de microorganismos cultivados en medios sólidos."
+    },
+    {
+      "id": 189,
+      "question": "En el diagnóstico microbiológico, indique cuál de las siguientes técnicas utiliza la proteómica para la identificación bacteriana:",
+      "options": {
+        "A": "Reacción en cadena de la polimerasa (PCR).",
+        "B": "Índice analítico de perfil (API).",
+        "C": "Espectrometría de masas MALDI-TOF.",
+        "D": "Sistemas automatizados de pruebas bioquímicas"
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Espectrometría de masas MALDI-TOF."
+    },
+    {
+      "id": 190,
+      "question": "El fenómeno de unión que se establece entre los microorganismos y los tejidos del hospedador, lo que permite la colonización de estos últimos, se denomina:",
+      "options": {
+        "A": "Adhesión",
+        "B": "Agregación",
+        "C": "Coagregación",
+        "D": "Acumulación"
+      },
+      "page": 18,
+      "correctAnswer": "A",
+      "correctText": "Adhesión"
+    },
+    {
+      "id": 191,
+      "question": "¿Cómo se denomina el proceso por el que el ADN libre se inserta en una célula receptora competente?",
+      "options": {
+        "A": "Conjugación.",
+        "B": "Transformación.",
+        "C": "Transducción",
+        "D": "Recombinación"
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Transformación."
+    },
+    {
+      "id": 192,
+      "question": "¿Cuál de las siguientes NO es una función de la pared celular bacteriana?",
+      "options": {
+        "A": "Ayuda a mantener la morfología de la célula.",
+        "B": "Está implicada en la patogenicidad de la bacteria.",
+        "C": "Determina su movilidad.",
+        "D": "Permite el paso selectivo de algunas sustancias"
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Determina su movilidad."
+    },
+    {
+      "id": 193,
+      "question": "La enzima catalasa se encuentra en la mayoría de las bacterias aerobias y anaerobias facultativas que contienen citocromo, a excepción de los:",
+      "options": {
+        "A": "Estafilococos.",
+        "B": "Estreptococos.",
+        "C": "Micrococos.",
+        "D": "Bacilos."
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Estreptococos."
+    },
+    {
+      "id": 194,
+      "question": "Entre los postulados de Koch, no figura:",
+      "options": {
+        "A": "El patógeno del cultivo puro debe causar la enfermedad cuando seinocula en un animal de laboratorio susceptible sano.",
+        "B": "El patógeno debe ser aislado del huésped enfermo y cultivado como cultivo puro.",
+        "C": "En ocasiones, un huésped humano exhibe ciertos signos y síntomas que solo se asocian con un patógeno determinado y su enfermedad.",
+        "D": "El mismo patógeno debe estar presente en todos los casos de la enfermedad."
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "En ocasiones, un huésped humano exhibe ciertos signos y síntomas que solo se asocian con un patógeno determinado y su enfermedad."
+    },
+    {
+      "id": 195,
+      "question": "¿Qué medio aquí citado no utilizarías en las pruebas de IMVIC?",
+      "options": {
+        "A": "Agua peptonada",
+        "B": "Medio de Clarbs y Lubs",
+        "C": "Caldo nitratado",
+        "D": "Medio citrato"
+      },
+      "page": 18,
+      "correctAnswer": "C",
+      "correctText": "Caldo nitratado"
+    },
+    {
+      "id": 196,
+      "question": "La enzima catalasa se encuentra en la mayoría de las bacterias aerobias y anaerobias facultativas que contienen citocromo, a excepción de:",
+      "options": {
+        "A": "Staphylococcus epidermidis",
+        "B": "Streptococcus",
+        "C": "Micrococcus",
+        "D": "Staphylococcus aureus"
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Streptococcus"
+    },
+    {
+      "id": 197,
+      "question": "La capacidad de resistir la decoloración ácida-alcohol de las micobacterias radica en: Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+      "options": {
+        "A": "La presencia de cápsulas",
+        "B": "Los ácidos micólicos de la pared celular",
+        "C": "Los ácidos teicoicos de la pared celular",
+        "D": "La unión del colorante a los ácidos nucleicos"
+      },
+      "page": 18,
+      "correctAnswer": "B",
+      "correctText": "Los ácidos micólicos de la pared celular"
+    },
+    {
+      "id": 198,
+      "question": "La prueba de la bilis esculina se utiliza para diferenciar:",
+      "options": {
+        "A": "Neisseria gonorrhoeae de Neisseria meningitidis",
+        "B": "Streptococcus pyogenes de Enterococos",
+        "C": "Salmonella de Shigella",
+        "D": "Todas son correctas"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Streptococcus pyogenes de Enterococos"
+    },
+    {
+      "id": 199,
+      "question": "Que se entiende por bacteria perítrica:",
+      "options": {
+        "A": "Tiene un penacho de flagelos",
+        "B": "Tiene flagelos en los 2 polos",
+        "C": "La que no tiene flagelos en su perímetro",
+        "D": "La que está rodeada de flagelos"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "La que está rodeada de flagelos"
+    },
+    {
+      "id": 200,
+      "question": "¿En qué tinción se utiliza verde malaquita?",
+      "options": {
+        "A": "Tinción de cápsulas.",
+        "B": "Tinción de corpúsculos metacromáticos.",
+        "C": "Tinción de flagelos.",
+        "D": "Tinción de esporas. Comentario: por ejemplo en la T. Wirtz Cortitlin"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Tinción de esporas. Comentario: por ejemplo en la T. Wirtz Cortitlin"
+    },
+    {
+      "id": 201,
+      "question": "¿Cuál es la secuencia correcta para realizar una tinción Gram?",
+      "options": {
+        "A": "Safranina - solución de yodo - alcohol acetona - cristal violeta.",
+        "B": "Cristal violeta - solución de yodo - alcohol acetona - safranina.",
+        "C": "Cristal violeta - alcohol acetona - solución de yodo - safranina.",
+        "D": "Cristal violeta - solución de yodo - safranina - alcohol acetona."
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "Cristal violeta - solución de yodo - alcohol acetona - safranina."
+    },
+    {
+      "id": 202,
+      "question": "Para el examen microscópico microbiológico del líquido pleural, ¿cuál de las siguientes tinciones hay que hacer?",
+      "options": {
+        "A": "Se hará una tinción de Gram para comprobar la presencia de micobacterias y la tinción de Ziehl- Neelsen para comprobar la presencia de otras bacterias.",
+        "B": "Se realizará una tinción de Giemsa para comprobar la presencia de micobacterias y la tinción de auramina para comprobar la presencia de otras bacterias.",
+        "C": "Se realizará una tinción de Kinyoun para comprobar la presencia de micobacterias y la tinción de Gram para comprobar la presencia de otras bacterias.",
+        "D": "Se realizará una tinción de hematoxilina para comprobar la presencia de micobacterias y la tinción de ácido-resistente modificada para comprobar la presencia de otras bacterias."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Se realizará una tinción de Kinyoun para comprobar la presencia de micobacterias y la tinción de Gram para comprobar la presencia de otras bacterias."
+    },
+    {
+      "id": 203,
+      "question": "¿Cuál de las siguientes pruebas rápidas sirve para identificar Campylobacter jejuni?",
+      "options": {
+        "A": "Oxidasa",
+        "B": "Catalasa",
+        "C": "Hidrólisis de hipurato",
+        "D": "Indol"
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Hidrólisis de hipurato"
+    },
+    {
+      "id": 204,
+      "question": "¿En qué tipo de atmósfera crecen los microorganismos capnófilos?",
+      "options": {
+        "A": "Aerobia",
+        "B": "Anaerobia",
+        "C": "Microaerófilo",
+        "D": "Rica en CO2"
+      },
+      "page": 19,
+      "correctAnswer": "D",
+      "correctText": "Rica en CO2"
+    },
+    {
+      "id": 205,
+      "question": "Señale el orden correcto de los colorantes para realizar una tinción de Gram",
+      "options": {
+        "A": "Cristal violeta, lugol, safranina, alcohol-acetona.",
+        "B": "Cristal violeta, alcohol-acetona, lugol, safranina.",
+        "C": "Cristal violeta, lugol, alcohol-acetona, safranina.",
+        "D": "Safranina, lugol, cristal violeta, alcohol-acetona."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Cristal violeta, lugol, alcohol-acetona, safranina."
+    },
+    {
+      "id": 206,
+      "question": "De las siguientes, ¿cuál es una tinción fluorescente?",
+      "options": {
+        "A": "Tinción de Giemsa.",
+        "B": "Tinción de Gram.",
+        "C": "Tinción de auramina-rodamina.",
+        "D": "Tinción de verde malaquita."
+      },
+      "page": 19,
+      "correctAnswer": "C",
+      "correctText": "Tinción de auramina-rodamina."
+    },
+    {
+      "id": 207,
+      "question": "El tamaño de los ribosomas de las bacterias procariotas es de:",
+      "options": {
+        "A": "50S",
+        "B": "70S",
+        "C": "80S",
+        "D": "60S Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      },
+      "page": 19,
+      "correctAnswer": "B",
+      "correctText": "70S"
+    },
+    {
+      "id": 208,
+      "question": "Sobre la tinción de Gram, elige la respuesta correcta:",
+      "options": {
+        "A": "Es una tinción simple.",
+        "B": "Tiñe el ácido teicoico de la pared celular.",
+        "C": "Las bacterias Gram positivas retienen el colorante cristal violeta.",
+        "D": "Las bacterias Gram negativas retienen el colorante cristal violeta."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Las bacterias Gram positivas retienen el colorante cristal violeta."
+    },
+    {
+      "id": 209,
+      "question": "De los siguientes, señala el microorganismo que es catalasa positivo:",
+      "options": {
+        "A": "Staphylococcus aureus.",
+        "B": "Enterococcus faecalis.",
+        "C": "Streptococcus viridans.",
+        "D": "Streptococcus pneumoniae."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Staphylococcus aureus."
+    },
+    {
+      "id": 210,
+      "question": "Al preparar la muestra para el MALDI-TOF, señale la respuesta correcta:",
+      "options": {
+        "A": "Hacer una extensión lo más gruesa posible en el pocillo",
+        "B": "La matriz es necesaria en casos excepcionales",
+        "C": "Una vez preparada la matriz, se conserva durante 3 meses",
+        "D": "Extender la muestra en el pocillo, añadir la matriz y dejar secar"
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "Extender la muestra en el pocillo, añadir la matriz y dejar secar"
+    },
+    {
+      "id": 211,
+      "question": "Tenemos que realizar una tinción en busca de flagelos, ¿qué tipo de tinción tenemos que realizar?",
+      "options": {
+        "A": "Tinción de Leifson.",
+        "B": "Tinción de Hiss.",
+        "C": "Tinción con tinta china.",
+        "D": "Tinción de Wirtz-Conklin."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Tinción de Leifson."
+    },
+    {
+      "id": 212,
+      "question": "¿Qué mecanismo de transferencia genética utiliza los bacteriófagos como donadores de ADN para el intercambio de material genético?:",
+      "options": {
+        "A": "Transformación.",
+        "B": "Conjugación.",
+        "C": "Transducción.",
+        "D": "Todas las respuestas son incorrectas."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Transducción."
+    },
+    {
+      "id": 213,
+      "question": "¿Qué tipo de estructura interna bacteriana se considera extracromosómica?:",
+      "options": {
+        "A": "Nucleoide.",
+        "B": "Cuerpos de inclusión.",
+        "C": "Plásmido.",
+        "D": "Genóforo."
+      },
+      "page": 20,
+      "correctAnswer": "C",
+      "correctText": "Plásmido."
+    },
+    {
+      "id": 214,
+      "question": "¿Cuál de las siguientes pruebas de identificación bioquímica es una prueba de lectura lenta?:",
+      "options": {
+        "A": "La beta-galactosidasa (ONPG).",
+        "B": "La leucina aminopeptidasa (LAP).",
+        "C": "La hidrólisis del hipurato.",
+        "D": "La DNasa."
+      },
+      "page": 20,
+      "correctAnswer": "D",
+      "correctText": "La DNasa."
+    },
+    {
+      "id": 215,
+      "question": "¿Dentro de la familia de los Staphilococcus, ¿cual nos daría un resultado positivo en DNasa?",
+      "options": {
+        "A": "Staphylococcus epidermidis.",
+        "B": "Staphylococcus aureus.",
+        "C": "Staphylococcus saprophyticus.",
+        "D": "Todas son ciertas."
+      },
+      "page": 20,
+      "correctAnswer": "B",
+      "correctText": "Staphylococcus aureus."
+    },
+    {
+      "id": 216,
+      "question": "¿Cómo se llama la técnica de observación microscópica de bacterias en la que éstas se extienden entre el portaobjetos y el cubreobjetos emulsionado en una gota de agua o suero fisiológico?",
+      "options": {
+        "A": "Examen en fresco.",
+        "B": "Tinción de Gram.",
+        "C": "Tinción de Ziehl-Neelsen.",
+        "D": "Tinción de Giemsa."
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Examen en fresco."
+    },
+    {
+      "id": 217,
+      "question": "Observando una tinción vemos formas que podríamos decir que son vibrios, ¿realmente qué forma estamos observando?",
+      "options": {
+        "A": "Células con forma de coma.",
+        "B": "Células con forma de serpiente.",
+        "C": "Células con forma redondeada.",
+        "D": "Células con forma de bastón"
+      },
+      "page": 20,
+      "correctAnswer": "A",
+      "correctText": "Células con forma de coma."
+    }
+  ]
+}

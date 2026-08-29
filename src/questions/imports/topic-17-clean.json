@@ -1,0 +1,656 @@
+{
+  "tema": "17",
+  "titulo": "Metabolismo de los hidratos de carbono",
+  "source_file": "Test tema 17 hidratos de carbono (respuestas).pdf",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Cuál de los siguientes tipos de muestras, considera el más indicado para determinación de la glucosa en cualquier circunstancia:",
+      "options": {
+        "A": "Plasma con heparina de litio",
+        "B": "Suero en tubo con gel separador",
+        "C": "Plasma con EDTA",
+        "D": "Plasma con oxalato-fluoruro"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Plasma con oxalato-fluoruro"
+    },
+    {
+      "id": 2,
+      "question": "¿La principal fuente de energía para el organismo es?:",
+      "options": {
+        "A": "Proteínas",
+        "B": "Lípidos",
+        "C": "Hidratos de carbono",
+        "D": "Vitaminas"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Hidratos de carbono"
+    },
+    {
+      "id": 3,
+      "question": "La síntesis de glucosa a partir de precursores no glucídicos, como aminoácidos, se denomina:",
+      "options": {
+        "A": "Glucogénesis.",
+        "B": "Glucogenólisis.",
+        "C": "Glicolisis.",
+        "D": "Gluconeogénesis"
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Gluconeogénesis"
+    },
+    {
+      "id": 4,
+      "question": "Indica la respuesta correcta respecto a la determinación de glucosa:",
+      "options": {
+        "A": "El método más empleado es la fotometría de llama.",
+        "B": "Los métodos enzimáticos son menos específicos que los químicos.",
+        "C": "No necesita realizarse en ayunas.",
+        "D": "Los valores de glucosa arterial son ligeramente más elevados que los venosos."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Los valores de glucosa arterial son ligeramente más elevados que los venosos."
+    },
+    {
+      "id": 5,
+      "question": "El péptido C está íntimamente relacionado con la hormona:",
+      "options": {
+        "A": "Insulina",
+        "B": "Glucagón",
+        "C": "ACTH",
+        "D": "Cortisona"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Insulina"
+    },
+    {
+      "id": 6,
+      "question": "La Gluconeogénesis:",
+      "options": {
+        "A": "Es el proceso metabólico que tiene como objetivo la conversión de glucosa en glucógeno.",
+        "B": "Es el proceso metabólico que tiene como objetivo la escisión o rotura del glucógeno para liberar glucosa a la sangre.",
+        "C": "Es el proceso metabólico que tiene como objetivo la formación de Hidratos de Carbono o partir de proteínas o de lípidos.",
+        "D": "Es el proceso metabólico que tiene como objetivo la producción de cuerpos cetónicos a partir de glucosa."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Es el proceso metabólico que tiene como objetivo la formación de Hidratos de Carbono o partir de proteínas o de lípidos."
+    },
+    {
+      "id": 7,
+      "question": "Las pruebas de sobrecarga oral de glucosa sirven:",
+      "options": {
+        "A": "Para establecer el diagnóstico en casos de personas que tienen glucosuria pero no manifiestan síntomas clínicos de diabetes y que además tienen niveles de glucosa normales tanto en ayunas como postprandial.",
+        "B": "Para aquellas personas que tienen síntomas de diabetes pero no presentan glucosuria y además tienen los niveles de glucosa en ayunas normales.",
+        "C": "Para mujeres que han dado a luz niños con peso excesivo (4- 5 Kg).",
+        "D": "Todas las respuestas son correctas."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son correctas."
+    },
+    {
+      "id": 8,
+      "question": "¿Cuál de las siguientes no es un método enzimático para determinar la glucosa?:",
+      "options": {
+        "A": "Glucosa-deshidrogenasa",
+        "B": "Hexocinasa",
+        "C": "Método de la o-toluidina",
+        "D": "Todos son métodos enzimáticos"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Método de la o-toluidina"
+    },
+    {
+      "id": 9,
+      "question": "Para el control de pacientes diabéticos se emplea:",
+      "options": {
+        "A": "Hemoglobina Glicada.",
+        "B": "Test de tolerancia oral a la glucosa.",
+        "C": "Test de O´sullivan.",
+        "D": "Todas son correctas"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Hemoglobina Glicada."
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es la principal utilidad de la hemoglobina glicosilada?:",
+      "options": {
+        "A": "El aumento de hematíes",
+        "B": "La disminución de hematíes",
+        "C": "Contribuye a monitorizar la glucemia en el paciente diabético",
+        "D": "Determina la hipoglucemia postprandial"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Contribuye a monitorizar la glucemia en el paciente diabético"
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál de las siguientes alteraciones bioquímicas no suele encontrarse en la cetoacidosis diabética?:",
+      "options": {
+        "A": "Hipercetonemia",
+        "B": "Disminución del bicarbonato plasmático",
+        "C": "Disminución de los ácidos grasos libres",
+        "D": "Hiperglucemia"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Disminución de los ácidos grasos libres"
+    },
+    {
+      "id": 12,
+      "question": "El proceso por el cual el glucógeno se transforma en glucosa se denomina:",
+      "options": {
+        "A": "Glicólisis",
+        "B": "Glucogénesis",
+        "C": "Gluconeogénesis",
+        "D": "Glucógenolisis"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Glucógenolisis"
+    },
+    {
+      "id": 13,
+      "question": "¿Qué resultado hemos de obtener a las 2 horas en una curva de glucemia para diagnosticar a un paciente de diabético?:",
+      "options": {
+        "A": "Más de 140 mg/dl.",
+        "B": "Igual o más de 200 mg/dl.",
+        "C": "Más de 150 mg/dl o igual.",
+        "D": "No se tiene en cuenta este dato para el diagnóstico de diabetes mellitus"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Igual o más de 200 mg/dl."
+    },
+    {
+      "id": 14,
+      "question": "¿Qué son los ICA?:",
+      "options": {
+        "A": "Anticuerpos contra el factor intrínseco.",
+        "B": "Anticuerpos contra células de los islotes pancreáticos.",
+        "C": "Anticuerpos inhibidores de células tiroideas.",
+        "D": "Anticuerpos estimuladores de células tiroideas."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos contra células de los islotes pancreáticos."
+    },
+    {
+      "id": 15,
+      "question": "El test de O´Sullivan se realiza de la siguiente manera:",
+      "options": {
+        "A": "Administración de sobrecarga oral con 75g de glucosa y determinación de glucemia tras 60`.",
+        "B": "Administración de sobrecarga oral con 50g de glucosa y determinación de glucemia tras 60`.",
+        "C": "Administración de sobrecarga oral con 50g de glucosa y determinación de glucemia tras 90`.",
+        "D": "Administración de sobrecarga oral con 100g de glucosa y determinación de glucemia tras 60`."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Administración de sobrecarga oral con 50g de glucosa y determinación de glucemia tras 60`."
+    },
+    {
+      "id": 16,
+      "question": "En la medición de glucosa en sangre capilar mediante glucómetros, el Hematocrito:",
+      "options": {
+        "A": "No afecta a la exactitud de la medida, pero sí a la imprecisión.",
+        "B": "Es una fuente de error debido a que su aumento provoca resultados falsamente elevados.",
+        "C": "Es una fuente de error debido a que su aumento provoca resultados falsamente disminuidos.",
+        "D": "No afecta a los resultados obtenidos"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Es una fuente de error debido a que su aumento provoca resultados falsamente disminuidos."
+    },
+    {
+      "id": 17,
+      "question": "Hablamos de hipoglucemia cuando los niveles plasmáticos de glucosa son inferiores a:",
+      "options": {
+        "A": "60 mg/dl",
+        "B": "35 mg/dl",
+        "C": "45 mg/dl",
+        "D": "25 mg/dl"
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "45 mg/dl"
+    },
+    {
+      "id": 18,
+      "question": "El método de referencia recomendado por las organizaciones internacionales para la determinación de glucosa es:",
+      "options": {
+        "A": "Método de la o-toluidina",
+        "B": "Método de hexoquinasa",
+        "C": "Método de la glucosa oxidasa y peroxidasa",
+        "D": "Método químico reductimétrico"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Método de hexoquinasa"
+    },
+    {
+      "id": 19,
+      "question": "Suele aparecer en pacientes con diabetes mellitus Tipo II:",
+      "options": {
+        "A": "Edades >40 años.",
+        "B": "Cursa con cetosis.",
+        "C": "Disminuye el peso corporal.",
+        "D": "Desaparición células β de los islotes de Langerhans."
+      },
+      "page": 2,
+      "correctAnswer": "A",
+      "correctText": "Edades >40 años."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué hormonas inducen, en ambos casos, la degradación del glucógeno?:",
+      "options": {
+        "A": "Insulina y adrenalina.",
+        "B": "Glucagón y adrenalina.",
+        "C": "Glucagón e insulina.",
+        "D": "Calcitonina y adrenalina"
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "Glucagón y adrenalina."
+    },
+    {
+      "id": 21,
+      "question": "¿Cuál de los siguientes compuestos se sintetiza de forma equimolecular con la insulina y NO está influido por la administración de insulina exógena?:",
+      "options": {
+        "A": "Péptido C.",
+        "B": "Preproinsulina.",
+        "C": "Cistatina C.",
+        "D": "Hemoglobina glicada."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Péptido C."
+    },
+    {
+      "id": 22,
+      "question": "El cociente de secreción del péptido C/insulina es:",
+      "options": {
+        "A": "1:2.",
+        "B": "2:1.",
+        "C": "1:1.",
+        "D": "1:3."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "1:1."
+    },
+    {
+      "id": 23,
+      "question": "¿Qué hormona no sintetiza el páncreas?",
+      "options": {
+        "A": "Somatomedinas",
+        "B": "Insulina",
+        "C": "Glucagón",
+        "D": "Polipéptidos-pancreáticos"
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Somatomedinas"
+    },
+    {
+      "id": 24,
+      "question": "La glucólisis se produce en diez reacciones químicas sucesivas cuyo producto final es:",
+      "options": {
+        "A": "Fructosa.",
+        "B": "Dihidroxiacetona fosfato.",
+        "C": "Ácido pirúvico.",
+        "D": "Fructosa-6-fosfato"
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Ácido pirúvico."
+    },
+    {
+      "id": 25,
+      "question": "Las células pancreáticas encargadas de secretar glucagón son:",
+      "options": {
+        "A": "Las células α.",
+        "B": "Las células β.",
+        "C": "Las células ƌ.",
+        "D": "Las células PP."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Las células α."
+    },
+    {
+      "id": 26,
+      "question": "El valor de referencia para la hemoglobina glicosilada se sitúa en torno a:",
+      "options": {
+        "A": "10-25%.",
+        "B": ">15%.",
+        "C": "3-6%.",
+        "D": "8-10%."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "3-6%."
+    },
+    {
+      "id": 27,
+      "question": "La determinación de la hemoglobina glicada:",
+      "options": {
+        "A": "Determina el nivel de oxigenación en sangre del paciente.",
+        "B": "Informa de los valores medios de glucemia plasmáticos durante tres meses previos al análisis.",
+        "C": "Determina el nivel de dióxido de carbono en sangre.",
+        "D": "No aporta ningún dato."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Informa de los valores medios de glucemia plasmáticos durante tres meses previos al análisis."
+    },
+    {
+      "id": 28,
+      "question": "La glucogenolisis, es un proceso que consiste en:",
+      "options": {
+        "A": "Degradación de la glucosa para obtener energía.",
+        "B": "Degradación de glucógeno para obtener glucosa.",
+        "C": "Formación de glucógeno, molécula que constituye el almacén de glucosa en hígado y músculo.",
+        "D": "Formación de glucosa a partir de moléculas que no son hidratos de carbono."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Degradación de glucógeno para obtener glucosa."
+    },
+    {
+      "id": 29,
+      "question": "El glucagón:",
+      "options": {
+        "A": "Eleva los niveles de glucosa en sangre.",
+        "B": "Facilita la captación de glucosa por la célula.",
+        "C": "Es estimulado por un aumento de la glucemia.",
+        "D": "Es sintetizado por el páncreas exocrino."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Eleva los niveles de glucosa en sangre."
+    },
+    {
+      "id": 30,
+      "question": "¿Cuál es el proceso catabólico por el cual se forma la glucosa a partir de la degradación del glucógeno?:",
+      "options": {
+        "A": "Glucogénesis.",
+        "B": "Glucólisis.",
+        "C": "Glucogenólisis.",
+        "D": "Gluconeogénesis."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Glucogenólisis."
+    },
+    {
+      "id": 31,
+      "question": "Señale la respuesta FALSA sobre la hemoglobina glucosilada (HbA1c).",
+      "options": {
+        "A": "Mide la cantidad de glucosa adherida a los glóbulos rojos.",
+        "B": "El resultado se expresa en %.",
+        "C": "La persona requiere estar en ayunas.",
+        "D": "Refleja la concentración promedio de glucosa en sangre durante 2-3 meses anteriores al análisis."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "La persona requiere estar en ayunas."
+    },
+    {
+      "id": 32,
+      "question": "El glucagón se segrega cuando el nivel de glucosa está:",
+      "options": {
+        "A": "Elevado.",
+        "B": "Normal.",
+        "C": "Disminuido."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Disminuido."
+    },
+    {
+      "id": 33,
+      "question": "¿Con qué hormona está íntimamente relacionado el péptido C?",
+      "options": {
+        "A": "Cortisona.",
+        "B": "Glucagón.",
+        "C": "Insulina."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Insulina."
+    },
+    {
+      "id": 34,
+      "question": "Señale la afirmación correcta sobre la hemoglobina glicosilada:",
+      "options": {
+        "A": "Refleja la concentración promedio de la glucosa en la sangre durante los 2-3 meses anteriores al análisis.",
+        "B": "Para hacer la determinación, el paciente debe estar necesariamente en ayunas.",
+        "C": "No se usa para evaluar el control de la diabetes.",
+        "D": "Debe utilizarse un tubo de suero para hacer la determinación."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Refleja la concentración promedio de la glucosa en la sangre durante los 2-3 meses anteriores al análisis."
+    },
+    {
+      "id": 35,
+      "question": "¿Cómo se denomina el ciclo, donde los principios activos, después de sufrir un proceso de degradación y convertirse en moléculas más sencillas hasta llegar a acetil-CoA, van a parar a la cadena de respiración electrónica?:",
+      "options": {
+        "A": "Ciclo de Krebs.",
+        "B": "Vía de las pentosas fosfato.",
+        "C": "Gluconeogénesis y ciclo de cori.",
+        "D": "Glucólisis."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Ciclo de Krebs."
+    },
+    {
+      "id": 36,
+      "question": "Indique que prueba nos permite diferenciar entre una hiperinsulinemia de origen endógeno o exógeno:",
+      "options": {
+        "A": "Determinación de péptido C",
+        "B": "Determinación de insulina",
+        "C": "Determinación de hemoglobina glicosilada",
+        "D": "Detección de cuerpos reductores en orina"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Determinación de péptido C"
+    },
+    {
+      "id": 37,
+      "question": "¿Cuál es el método de referencia para la determinación de glucemia?",
+      "options": {
+        "A": "Glucosa oxidasa",
+        "B": "Hexoquinasa",
+        "C": "Método de Benedict",
+        "D": "O-toluidina"
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Hexoquinasa"
+    },
+    {
+      "id": 38,
+      "question": "De acuerdo con las Guías Clínicas de aplicación (ADA 2022), ¿cuál de los siguientes se considera un criterio diagnóstico de Diabetes Mellitus?",
+      "options": {
+        "A": "HbA1c > 6,5%.",
+        "B": "Glucemia plasmática en ayunas > 126 mg/dL.",
+        "C": "Glucemia plasmática a las dos horas > 200 mg/dL durante el test de tolerancia oral a la glucosa (75g de Glucosa).",
+        "D": "Todos se consideran criterios diagnósticos de Diabetes Mellitus."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todos se consideran criterios diagnósticos de Diabetes Mellitus."
+    },
+    {
+      "id": 39,
+      "question": "El valor de la hemoglobina A1c (HbA1c) es normal siempre que sea:",
+      "options": {
+        "A": "<5",
+        "B": ">5",
+        "C": "<6",
+        "D": ">6"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "<5"
+    },
+    {
+      "id": 40,
+      "question": "¿Qué autoanticuerpo está asociado a un alto riesgo de desarrollo de diabetes mellitus tipo I?:",
+      "options": {
+        "A": "Anti-fifisina.",
+        "B": "Anti-Yo.",
+        "C": "Anti-CV2.",
+        "D": "Anti-GAD."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Anti-GAD."
+    },
+    {
+      "id": 41,
+      "question": "¿Cuál de los siguientes autoanticuerpos se usan en el diagnóstico precoz de Diabetes Mellitus?",
+      "options": {
+        "A": "Anticuerpos antitransglutaminasa.",
+        "B": "Anticuerpos anti GAD 65.",
+        "C": "Anticuerpos anti Prn-Scl.",
+        "D": "Anticuerpos anti Ku."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Anticuerpos anti GAD 65."
+    },
+    {
+      "id": 42,
+      "question": "¿Cuál es un método enzimático para diagnosticar alteraciones en el metabolismo de los hidratos de carbono?",
+      "options": {
+        "A": "Método de reducción de cobre.",
+        "B": "Método de hexoquinasa",
+        "C": "Método de la o-toluidina",
+        "D": "Todos son correctos."
+      },
+      "page": 4,
+      "correctAnswer": "B",
+      "correctText": "Método de hexoquinasa"
+    },
+    {
+      "id": 43,
+      "question": "El método para la determinación de hemoglobina glicosilada basado en la diferencia de carga entre hemoglobina glicada y no glicada se denomina:",
+      "options": {
+        "A": "Inmunoquímica",
+        "B": "Cromatografía de Afinidad",
+        "C": "High-performance liquid chromatography (HPLC)",
+        "D": "Espectrometría de masas"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "High-performance liquid chromatography (HPLC)"
+    },
+    {
+      "id": 44,
+      "question": "¿Durante qué período de tiempo el HbA1c refleja la concentración de glucosa en sangre para el control de la diabetes mellitus?",
+      "options": {
+        "A": "1-3 días",
+        "B": "1-2 semanas",
+        "C": "2-3 meses",
+        "D": "Más de un año"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "2-3 meses"
+    },
+    {
+      "id": 45,
+      "question": "En una muestra recolectada para análisis de glucosa en plasma el fluoruro de sodio:",
+      "options": {
+        "A": "Sirve como una coenzima de hexoquinasa",
+        "B": "Previene la reactividad de sustancias que no reducen la glucosa",
+        "C": "Precipita las proteínas.",
+        "D": "Inhibe la glucólisis."
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Inhibe la glucólisis."
+    },
+    {
+      "id": 46,
+      "question": "La diabetes que cursa con una incapacidad total en la producción de insulina es:",
+      "options": {
+        "A": "La diabetes insípida",
+        "B": "La diabetes tipo 1.",
+        "C": "La diabetes tipo 2.",
+        "D": "Ninguna es correcta"
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "La diabetes tipo 1."
+    },
+    {
+      "id": 47,
+      "question": "La glucogenólisis consiste en:",
+      "options": {
+        "A": "La degradación de la glucosa para obtener energía",
+        "B": "La degradación del glucógeno para obtener glucosa",
+        "C": "La formación de glucógeno a partir de glucosa",
+        "D": "La obtención de moléculas de ATP a partir de piruvato."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "La degradación del glucógeno para obtener glucosa"
+    },
+    {
+      "id": 48,
+      "question": "Queremos realizar una determinación de glucosa. Después de la extracción de una muestra de sangre en un tubo de bioquímica, con gel separador sin centrifugar:",
+      "options": {
+        "A": "Se podrá almacenar el tubo el tiempo que queramos, para luego realizar las pruebas que sean necesarias",
+        "B": "Mantendremos el tubo dos horas a temperatura ambiente antes de centrifugarlo",
+        "C": "Centrifugaremos lo antes posible después de que se forme el coágulo",
+        "D": "Congelaremos la muestra antes de centrifugarla"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Centrifugaremos lo antes posible después de que se forme el coágulo"
+    },
+    {
+      "id": 49,
+      "question": "Para la cuantificación de la hemoglobina glicosilada se usa:",
+      "options": {
+        "A": "Nefelometría.",
+        "B": "Método de la metahemoglobina.",
+        "C": "Cromatografía líquida de alta resolución.",
+        "D": "Sistema de conductividad eléctrica, en diluciones de sangre 1/50.000."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Cromatografía líquida de alta resolución."
+    },
+    {
+      "id": 50,
+      "question": "Señale cuál de estas hormonas en concentraciones elevadas no produce hiperglucemia:",
+      "options": {
+        "A": "Cortisol.",
+        "B": "Hormona de crecimiento (GH).",
+        "C": "Prolactina.",
+        "D": "Adrenalina."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Prolactina."
+    }
+  ]
+}

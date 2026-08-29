@@ -1,0 +1,1361 @@
+{
+  "tema": "12",
+  "titulo": "Serología",
+  "source_file": "TEST tema 12 serología (respuestas).pdf",
+  "total_questions": 105,
+  "questions": [
+    {
+      "id": 1,
+      "question": "En la prueba del Látex del Factor reumatoide, ¿qué se suele emplear?:",
+      "options": {
+        "A": "Hematíes de carnero recubiertos con partículas de látex.",
+        "B": "Hematíes humanos recubiertos con partículas de látex.",
+        "C": "Partículas de látex recubiertas con IgG.",
+        "D": "Partículas de látex sin recubrir."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Partículas de látex recubiertas con IgG."
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál de los siguientes no es un método para la determinación cuantitativa de PCR?:",
+      "options": {
+        "A": "Aglutinación de látex.",
+        "B": "Inmunonefelometría.",
+        "C": "RIA.",
+        "D": "Enzimoinmunoensayo."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Aglutinación de látex."
+    },
+    {
+      "id": 3,
+      "question": "La muestra más utilizada para la detección de anticuerpos es:",
+      "options": {
+        "A": "Suero",
+        "B": "Plasma",
+        "C": "LCR",
+        "D": "Saliva"
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Suero"
+    },
+    {
+      "id": 4,
+      "question": "¿Qué se entiende por seroconversión?",
+      "options": {
+        "A": "La aparición de anticuerpos en sangre.",
+        "B": "El aumento del título de anticuerpos al menos 4 veces por encima de lo normal.",
+        "C": "La sustitución de anticuerpos IgM por IgG.",
+        "D": "Todas las respuestas son ciertas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "La aparición de anticuerpos en sangre."
+    },
+    {
+      "id": 5,
+      "question": "Con respecto a los anticuerpos monoclonales es cierto:",
+      "options": {
+        "A": "Son más sensibles que los policlonales",
+        "B": "Son más baratos que los policlonales",
+        "C": "Evitan reacciones cruzadas",
+        "D": "Proceden de un único clon de linfocitos T"
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Evitan reacciones cruzadas"
+    },
+    {
+      "id": 6,
+      "question": "No es un inmunoensayo marcado:",
+      "options": {
+        "A": "Radioinmunoanálisis.",
+        "B": "Enzimoinmunoanálisis heterogéneo.",
+        "C": "Reacción de fijación del complemento.",
+        "D": "Enzimoinmunoanálisis homogéneo."
+      },
+      "page": 1,
+      "correctAnswer": "C",
+      "correctText": "Reacción de fijación del complemento."
+    },
+    {
+      "id": 7,
+      "question": "Los inmunoensayos por precipitación se basan en la insolubilidad del complejo Ag-Ac. ¿cuál de estos ensayos es cuantitativo?",
+      "options": {
+        "A": "Inmunodifusión radial.",
+        "B": "Inmunoelectroforesis.",
+        "C": "Inmunofijación.",
+        "D": "Contrainmunoelectroforesis."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Inmunodifusión radial."
+    },
+    {
+      "id": 8,
+      "question": "¿Cuál de estas técnicas de marcaje de un antígeno o un anticuerpo permite su localización o detecta su presencia en cantidades mínimas?",
+      "options": {
+        "A": "Compuesto fluorescente o inmunofluorescencia.",
+        "B": "Isotopo radiactivo o RIA.",
+        "C": "Enzima o ELISA.",
+        "D": "Todas las respuestas son verdaderas."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son verdaderas."
+    },
+    {
+      "id": 9,
+      "question": "La tripsina se emplea para favorecer las reacciones de inmunoaglutinación con anticuerpos incompletos. actúa:",
+      "options": {
+        "A": "Eliminando los residuos de ácido siálico de la membrana celular.",
+        "B": "Disminuyendo la fuerza iónica del medio de reacción.",
+        "C": "Aumentando la viscosidad del medio de reacción.",
+        "D": "Todas las respuestas son ciertas."
+      },
+      "page": 1,
+      "correctAnswer": "A",
+      "correctText": "Eliminando los residuos de ácido siálico de la membrana celular."
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál de los siguientes, es un inmunoensayo sin molécula marcada?",
+      "options": {
+        "A": "RIA.",
+        "B": "EIA.",
+        "C": "Fluroinmunoensayo.",
+        "D": "Aglutinación."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Aglutinación."
+    },
+    {
+      "id": 11,
+      "question": "¿Qué fuerzas están implicadas en la unión no covalente Ag-Ac?",
+      "options": {
+        "A": "La atracción electrostática.",
+        "B": "Las fuerzas de Van der Waals.",
+        "C": "Los puentes de hidrogeno.",
+        "D": "Todas son correctas."
+      },
+      "page": 1,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 12,
+      "question": "En la reacción de fijación del complemento, la no hemolisis de los glóbulos rojos sensibilizados indica:",
+      "options": {
+        "A": "Ausencia de anticuerpos.",
+        "B": "Ausencia de haptenos.",
+        "C": "Falta de inactivación del suero.",
+        "D": "Presencia de anticuerpos."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Presencia de anticuerpos."
+    },
+    {
+      "id": 13,
+      "question": "La serología sirve para:",
+      "options": {
+        "A": "Diagnosticar enfermedades",
+        "B": "Diagnosticar infecciones",
+        "C": "Saber la prevalencia de determinadas infecciones",
+        "D": "Para todo lo anterior"
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Para todo lo anterior"
+    },
+    {
+      "id": 14,
+      "question": "Señale de las siguientes afirmaciones cual no es correcta.",
+      "options": {
+        "A": "Los antígenos son elementos de alto peso molecular.",
+        "B": "Los antígenos son elementos extraños al organismo.",
+        "C": "Los antígenos son elementos capaces de desencadenar una respuesta específica.",
+        "D": "Los antígenos son elementos de bajo peso molecular."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Los antígenos son elementos de bajo peso molecular."
+    },
+    {
+      "id": 15,
+      "question": "¿Qué reacciones antígeno-anticuerpo se utilizan en el laboratorio?",
+      "options": {
+        "A": "Reacciones de precipitación.",
+        "B": "Reacciones de aglutinación.",
+        "C": "Reacciones de fijación del complemento.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 16,
+      "question": "Existen en la actualidad múltiples técnicas rápidas que se utilizan en Microbiología para la detección de gérmenes de interés clínico, en orina (pneumococo, legionella, etc), en sangre (plasmodium) o en muestras respiratorias (VRS), como apoyo al diagnóstico, ¿cuál es el método utilizado principalmente en estas técnicas?",
+      "options": {
+        "A": "lnmunofluorescencia.",
+        "B": "lnmunocromatografía.",
+        "C": "lnmunoensayo.",
+        "D": "Ninguna de las anteriores."
+      },
+      "page": 2,
+      "correctAnswer": "B",
+      "correctText": "lnmunocromatografía."
+    },
+    {
+      "id": 17,
+      "question": "En relación a la técnica de enzimoinmunoanálisis (E.LA.), señale la RESPUESTA INCORRECTA:",
+      "options": {
+        "A": "Es un ensayo inmunoabsorbente ligado a una enzima.",
+        "B": "Es utilizado en técnicas de reacciones.",
+        "C": "Si hay una activación enzimática desarrolla color.",
+        "D": "Se cuantifica en miliequivalentes/litro."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Se cuantifica en miliequivalentes/litro."
+    },
+    {
+      "id": 18,
+      "question": "El fenómeno de prozona se observa cuando:",
+      "options": {
+        "A": "El Ac (anticuerpo) es incompleto.",
+        "B": "Hay exceso de Ac.",
+        "C": "Hay exceso de Ag (antígeno).",
+        "D": "El Ag es divalente."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Hay exceso de Ag (antígeno)."
+    },
+    {
+      "id": 19,
+      "question": "Para detectar un Ag soluble por aglutinación se puede hacer por:",
+      "options": {
+        "A": "Aglutinación en medioalbuminoso.",
+        "B": "Coombs directa.",
+        "C": "Aglutinación directa y centrifugación.",
+        "D": "Inhibición de la aglutinación."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Inhibición de la aglutinación."
+    },
+    {
+      "id": 20,
+      "question": "En la precipitación:",
+      "options": {
+        "A": "Los Ac (Anticuerpos) son IgM (Inmunoglobulinas M).",
+        "B": "Los Ac son IgG (Inmunoglobulinas G).",
+        "C": "Los Ag (Antígenos) son divalentes.",
+        "D": "Los Ag son solubles."
+      },
+      "page": 2,
+      "correctAnswer": "D",
+      "correctText": "Los Ag son solubles."
+    },
+    {
+      "id": 21,
+      "question": "La fuerza con la que un Ac (anticuerpo) multivalente se une a un Ag (antígeno) multivalente se conoce como:",
+      "options": {
+        "A": "Complementariedad.",
+        "B": "Afinidad.",
+        "C": "Avidez.",
+        "D": "Especificidad."
+      },
+      "page": 2,
+      "correctAnswer": "C",
+      "correctText": "Avidez."
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál de los siguientes reactivos se utiliza en las técnicas de Elisa?:",
+      "options": {
+        "A": "Conjugado",
+        "B": "Cromógeno",
+        "C": "Solución de parada o ácido sulfúrico",
+        "D": "Todas las anteriores son correctas"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 23,
+      "question": "Cuál de estos ensayos es un Enzimoinmunoanálisis heterogéneo",
+      "options": {
+        "A": "DELFIA",
+        "B": "EMIT",
+        "C": "IRMA",
+        "D": "ELISA"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "ELISA"
+    },
+    {
+      "id": 24,
+      "question": "Tanto la técnica de RIA como la de ELISA se basan en un análisis inmunológico, pero, así como en la técnica de RIA se utiliza un isótopo marcado radiactivamente, en la técnica de ELISA se utiliza otro marcador. ¿Cuál?",
+      "options": {
+        "A": "Un isótopo aglutinante",
+        "B": "Una enzima",
+        "C": "Un isótopo de la fracción del complemento",
+        "D": "Una hemaglutinina"
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Una enzima"
+    },
+    {
+      "id": 25,
+      "question": "De las siguientes técnicas cuál no se utiliza para diagnostico serológico:",
+      "options": {
+        "A": "Enzimoinmunoanálisis",
+        "B": "Quimioluminiscencia",
+        "C": "Inmunofluorescencia indirecta",
+        "D": "Fotometría de llama"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Fotometría de llama"
+    },
+    {
+      "id": 26,
+      "question": "¿Cuál es la radiación ionizante utilizada en el laboratorio de RIA?:",
+      "options": {
+        "A": "Radiación UV.",
+        "B": "Rayos X.",
+        "C": "Rayos Gamma.",
+        "D": "Radiación láser."
+      },
+      "page": 3,
+      "correctAnswer": "C",
+      "correctText": "Rayos Gamma."
+    },
+    {
+      "id": 27,
+      "question": "En un RIA, los isótopos reactivos con los que habitualmente se trabaja son del tipo:",
+      "options": {
+        "A": "Gamma y alfa.",
+        "B": "Alfa.",
+        "C": "Beta.",
+        "D": "Gamma y beta."
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Gamma y beta."
+    },
+    {
+      "id": 28,
+      "question": "Las moléculas usadas en hibridación se marcan con isótopos radioactivos. ¿Qué isótopo se utiliza normalmente para esta técnica?",
+      "options": {
+        "A": "Fósforo 32.",
+        "B": "Yodo 121.",
+        "C": "Uracilo 40.",
+        "D": "No se utilizan isótopos radiactivos en estas técnicas."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "Fósforo 32."
+    },
+    {
+      "id": 29,
+      "question": "Tanto en la técnica de RIA como de ELISA se basan en un análisis inmunológico, pero así como el RIA emplea un isótopo marcado radiactivamente, en la técnica de ELISA este isótopo es sustituido por otro marcador. ¿Cuál?:",
+      "options": {
+        "A": "Un agente aglutinante.",
+        "B": "Una enzima.",
+        "C": "Una hemaglutinina.",
+        "D": "Una fracción del complemento."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "Una enzima."
+    },
+    {
+      "id": 30,
+      "question": "En la técnica de radioinmunoanálisis (RIA), los emisores utilizados habitualmente son del tipo:",
+      "options": {
+        "A": "Gamma y alfa",
+        "B": "Alfa",
+        "C": "Beta",
+        "D": "Gamma y beta"
+      },
+      "page": 3,
+      "correctAnswer": "D",
+      "correctText": "Gamma y beta"
+    },
+    {
+      "id": 31,
+      "question": "La Imnunofijación de proteínas es de utilidaden:",
+      "options": {
+        "A": "La identificación de proteínas específicas.",
+        "B": "Sólo en la electroforesis de proteínas del líquido cefalorraquídeo.",
+        "C": "Sólo en proteínas de bajo peso molecular.",
+        "D": "En todos los anteriores."
+      },
+      "page": 3,
+      "correctAnswer": "A",
+      "correctText": "La identificación de proteínas específicas."
+    },
+    {
+      "id": 32,
+      "question": "La llamada prueba de la avidez (indica la fuerza o afinidad del anticuerpo por el antígeno). Señale lo falso:",
+      "options": {
+        "A": "Ayuda a diferenciar si la infección es aguda o crónica.",
+        "B": "La avidez de la lgG por el antígeno, disminuye a medida que envejece la infección.",
+        "C": "Se usa en serología positiva a toxoplasma,",
+        "D": "Usa un reactivo disociante para \"despegar\" el Anticuerpo lgG del Antígeno."
+      },
+      "page": 3,
+      "correctAnswer": "B",
+      "correctText": "La avidez de la lgG por el antígeno, disminuye a medida que envejece la infección."
+    },
+    {
+      "id": 33,
+      "question": "En las reacciones de aglutinación directa intentáremos utilizar como anticuerpos:",
+      "options": {
+        "A": "lgA",
+        "B": "lgG",
+        "C": "lgM",
+        "D": "lgE"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "lgM"
+    },
+    {
+      "id": 34,
+      "question": "¿Cuál de estas infecciones víricas se diagnostica por serología?:",
+      "options": {
+        "A": "Virus del sarampión.",
+        "B": "Virus de la rubeola.",
+        "C": "Virus de la hepatitis E.",
+        "D": "Todas ellas."
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Todas ellas."
+    },
+    {
+      "id": 35,
+      "question": "La reacción Ag-Ac no se puede detectar directamente en el laboratorio, por ello se deben utilizar pruebas indirectas que pongan de manifiesto esta reacción, señala la respuesta incorrecta:",
+      "options": {
+        "A": "Inmunoensayo por decantación.",
+        "B": "Reacción de fijación del complemento.",
+        "C": "Enzimoinmunoensayo.",
+        "D": "Reacciones de inmunofluorescencia."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Inmunoensayo por decantación."
+    },
+    {
+      "id": 36,
+      "question": "¿En qué tipo de enzimoinmunoanálisis no es necesario la etapa de separación del antígeno unido del libre?:",
+      "options": {
+        "A": "Heterogéneo",
+        "B": "Competitivo",
+        "C": "Homogéneo",
+        "D": "No competitivo"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Homogéneo"
+    },
+    {
+      "id": 37,
+      "question": "En la reacción de fijación del complemento, la no hemolisis de los glóbulos rojos sensibilizados indica:",
+      "options": {
+        "A": "Ausencia de anticuerpos.",
+        "B": "Ausencia de haptenos.",
+        "C": "Falta de inactivación del suero.",
+        "D": "Presencia de anticuerpos"
+      },
+      "page": 4,
+      "correctAnswer": "D",
+      "correctText": "Presencia de anticuerpos"
+    },
+    {
+      "id": 38,
+      "question": "¿Cuál es el nombre que recibe, dentro de los inmunoanálisis, el detector físico/químico empleado para poner de manifiesto la reacción antígeno-anticuerpo?",
+      "options": {
+        "A": "Trazador o marca.",
+        "B": "Idiotipo.",
+        "C": "Isotipo.",
+        "D": "Fase sólida."
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "Trazador o marca."
+    },
+    {
+      "id": 39,
+      "question": "¿En qué tipo de enzimoinmunoanálisis no es necesario la etapa de separación del antígeno unido del libre?:",
+      "options": {
+        "A": "Heterogéneo",
+        "B": "Competitivo",
+        "C": "Homogéneo",
+        "D": "No competitivo."
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Homogéneo"
+    },
+    {
+      "id": 40,
+      "question": "En el laboratorio de urgencias, ¿qué método emplearíapara el diagnóstico rápido de la gripe?:",
+      "options": {
+        "A": "Detección de anticuerpos víricos mediante fijación del complemento.",
+        "B": "Detección de antígenos víricos por inmunofluorescencia.",
+        "C": "Detección de antígenos víricos por inmunocromatografía.",
+        "D": "Aislamiento del virus mediante cultivo celular"
+      },
+      "page": 4,
+      "correctAnswer": "C",
+      "correctText": "Detección de antígenos víricos por inmunocromatografía."
+    },
+    {
+      "id": 41,
+      "question": "La diferencia fundamental entre las técnicas de precipitación y aglutinación es:",
+      "options": {
+        "A": "El tamaño del antígeno",
+        "B": "La relación antígeno/anticuerpo",
+        "C": "El tipo de anticuerpo",
+        "D": "Todas las anteriores"
+      },
+      "page": 4,
+      "correctAnswer": "A",
+      "correctText": "El tamaño del antígeno"
+    },
+    {
+      "id": 42,
+      "question": "En las técnicas de enzimoinmunoensayo el marcador es:",
+      "options": {
+        "A": "Un hongo",
+        "B": "El Fluorocromo",
+        "C": "Una Enzima",
+        "D": "Todas son ciertas."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Una Enzima"
+    },
+    {
+      "id": 43,
+      "question": "Los complejos que se forman de la unión antígeno- anticuerpo son demasiado pequeños para formar precipitado, pero dispersan la luz que se hace pasar a través de ellos. ¿De qué método se trata?",
+      "options": {
+        "A": "Inmunofluorescencia",
+        "B": "Quimioluminiscencia",
+        "C": "Enzimoinmunoanálisis",
+        "D": "Inmunonefelometría"
+      },
+      "page": 5,
+      "correctAnswer": "D",
+      "correctText": "Inmunonefelometría"
+    },
+    {
+      "id": 44,
+      "question": "En la técnica de enzimoinmunoanálisis denominada ELISA sándwich:",
+      "options": {
+        "A": "La actividad enzimática es inversamente proporcional a la concentración de la sustancia que se cuantifica.",
+        "B": "Los compuestos fluorescentes más utilizados son los derivados de la rodamina.",
+        "C": "La actividad enzimática unida en el complejo antígeno-anticuerpo es directamente proporcional a la concentración de la sustancia que se cuantifica.",
+        "D": "Se emplea fundamentalmente para la determinación de proteínas específicas, como las inmunoglobulinas, apolipoproteínas y proteínas del complemento."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "La actividad enzimática unida en el complejo antígeno-anticuerpo es directamente proporcional a la concentración de la sustancia que se cuantifica."
+    },
+    {
+      "id": 45,
+      "question": "En relación al concepto en serología de “índice”, es falso que",
+      "options": {
+        "A": "Es la última dilución del suero que da una reacción positiva.",
+        "B": "Es la relación entre el valor de la muestra problema y el del calibrador.",
+        "C": "Toda muestra con índice superior a 1 será clasificada como positiva.",
+        "D": "El diagnóstico indirecto de certeza se basa en la demostración de la seroconversión mediante el estudio de dos muestras seriadas (obtención de un aumento entre las dos muestras de al menos un índice entre 1,4 y 2."
+      },
+      "page": 5,
+      "correctAnswer": "A",
+      "correctText": "Es la última dilución del suero que da una reacción positiva."
+    },
+    {
+      "id": 46,
+      "question": "¿Cuál es la técnica más habitual para la determinación de marcadores serológicos tumorales en los laboratorios de análisis clínicos?:",
+      "options": {
+        "A": "Espectrometría de masas.",
+        "B": "Espectroscopía de absorción atómica.",
+        "C": "Técnicas inmunoquímicas o de inmunoensayo.",
+        "D": "Potenciometría indirecta."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Técnicas inmunoquímicas o de inmunoensayo."
+    },
+    {
+      "id": 47,
+      "question": "Un antígeno se hace reaccionar con un anticuerpo marcado con fluoresceína y se visualiza con un microscopio de fluorescencia) Esta técnica se denomina:",
+      "options": {
+        "A": "Inmunofluorescencia indirecta",
+        "B": "Inmunofluorescencia directa",
+        "C": "Inmunodifusión.",
+        "D": "Fluoroinmunoensayo."
+      },
+      "page": 5,
+      "correctAnswer": "B",
+      "correctText": "Inmunofluorescencia directa"
+    },
+    {
+      "id": 48,
+      "question": "¿Cuáles son las características de la reacción antígeno-anticuerpo?:",
+      "options": {
+        "A": "Especificidad",
+        "B": "Afinidad",
+        "C": "a y b son correctas.",
+        "D": "Ninguna es correcta"
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "a y b son correctas."
+    },
+    {
+      "id": 49,
+      "question": "RIA o radioinmunoanálisis es",
+      "options": {
+        "A": "Un estudio de la unión antígeno-anticuerpo que utiliza un método enzimático unido a un inmunoabsorbente.",
+        "B": "Un estudio de la unión antígeno-anticuerpo que se basa en la capacidad del complemento para unirse a los complejos antígeno-anticuerpo.",
+        "C": "Un estudio de la unión antígeno-anticuerpo que consiste en un ensayo inmunológico y necesita de la síntesis de un antígeno marcado radiactivamente con algún elemento isotópico.",
+        "D": "Un estudio de la unión antígeno-anticuerpo que se basa en la unión de antígenos particulados a los anticuerpos."
+      },
+      "page": 5,
+      "correctAnswer": "C",
+      "correctText": "Un estudio de la unión antígeno-anticuerpo que consiste en un ensayo inmunológico y necesita de la síntesis de un antígeno marcado radiactivamente con algún elemento isotópico."
+    },
+    {
+      "id": 50,
+      "question": "Señala la correcta:",
+      "options": {
+        "A": "Los anticuerpos IgM solo se cuantifican mediante la técnica Elisa.",
+        "B": "Los anticuerpos IgG se miden solo con la técnica de inmunofluorescencia.",
+        "C": "Los anticuerpos totales se miden realizando técnicas de aglutinación o fijación del complemento.",
+        "D": "Los anticuerpos IgG se cuantifican solo con la técnica Elisa."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Los anticuerpos totales se miden realizando técnicas de aglutinación o fijación del complemento."
+    },
+    {
+      "id": 51,
+      "question": "Cuando los Ag son de gran tamaño, ¿cómo se llama la reacción que se produce cuando se une al Ac?",
+      "options": {
+        "A": "Precipitación.",
+        "B": "Neutralización.",
+        "C": "Opsonización.",
+        "D": "Aglutinación."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "Precipitación."
+    },
+    {
+      "id": 52,
+      "question": "¿Cuál de las siguientes no es una característica de la reacción antígeno anticuerpo?",
+      "options": {
+        "A": "Avidez.",
+        "B": "Afinidad.",
+        "C": "Inmunofluorescencia.",
+        "D": "Especificidad."
+      },
+      "page": 6,
+      "correctAnswer": "C",
+      "correctText": "Inmunofluorescencia."
+    },
+    {
+      "id": 53,
+      "question": "La técnica más utilizada para la cuantificación en suero de IgE total e IgE específica es:",
+      "options": {
+        "A": "Electroforesis.",
+        "B": "Inmunoanálisis.",
+        "C": "Cromatografía.",
+        "D": "Osmometría."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Inmunoanálisis."
+    },
+    {
+      "id": 54,
+      "question": "No es un método de análisis serológico utilizado en virología para estudiar seroconversión:",
+      "options": {
+        "A": "Fluorescencia indirecta de anticuerpos",
+        "B": "Inmunoanálisis en fase sólida",
+        "C": "Análisis de transferencia de Western",
+        "D": "Sondas de ADN con secuencias complementarias"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Sondas de ADN con secuencias complementarias"
+    },
+    {
+      "id": 55,
+      "question": "Seleccione el término que describe la parte del antígeno que es reconocida por su correspondiente anticuerpo",
+      "options": {
+        "A": "Clon",
+        "B": "Epítopo",
+        "C": "Alelo",
+        "D": "Inmunógeno"
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Epítopo"
+    },
+    {
+      "id": 56,
+      "question": "¿Dónde se localiza el antígeno en los test de hemaglutinación?",
+      "options": {
+        "A": "En la membrana del glóbulo rojo.",
+        "B": "En el núcleo del glóbulo rojo.",
+        "C": "En el suero.",
+        "D": "Son secretados por el glóbulo."
+      },
+      "page": 6,
+      "correctAnswer": "A",
+      "correctText": "En la membrana del glóbulo rojo."
+    },
+    {
+      "id": 57,
+      "question": "La confirmación diagnóstica de una anemia hemolítica autoinmune (AHAI) es la demostración serológica de la existencia de anticuerpos fijados en la membrana de los hematíes y se realiza mediante:",
+      "options": {
+        "A": "Test de Coombs indirecto",
+        "B": "Escrutinio de anticuerpos Irregulares.",
+        "C": "Determinación de anticuerpos antimembrana basal glomerular.",
+        "D": "Prueba de antiglobulina directa"
+      },
+      "page": 6,
+      "correctAnswer": "D",
+      "correctText": "Prueba de antiglobulina directa"
+    },
+    {
+      "id": 58,
+      "question": "La solubilidad de un precipitado:",
+      "options": {
+        "A": "Aumenta por adicción de un ligero exceso de reactivo precipitante.",
+        "B": "Disminuye por adicción de un ligero exceso de reactivo precipitante.",
+        "C": "Se equilibra por adicción de un ligero exceso de reactivo precipitante.",
+        "D": "Al precipitado no le afecta la concentración del mismo."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Disminuye por adicción de un ligero exceso de reactivo precipitante."
+    },
+    {
+      "id": 59,
+      "question": "En la técnica de ELISA la molécula de marcaje es:",
+      "options": {
+        "A": "Sustancia reveladora.",
+        "B": "Enzima.",
+        "C": "Isótopo radiactivo.",
+        "D": "Compuesto fluorescente."
+      },
+      "page": 6,
+      "correctAnswer": "B",
+      "correctText": "Enzima."
+    },
+    {
+      "id": 60,
+      "question": "En la unión antígeno-anticuerpo, se puede producir una reacción de:",
+      "options": {
+        "A": "Precipitación.",
+        "B": "Aglutinación.",
+        "C": "Neutralización.",
+        "D": "Hay más de una respuesta correcta."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta."
+    },
+    {
+      "id": 61,
+      "question": "¿Cuál de los siguientes reactivos se utiliza en las técnicas de enzimoinmunoensayo (ELISA)?:",
+      "options": {
+        "A": "Radioisótopo.",
+        "B": "Molécula de fluorescencia.",
+        "C": "Conjugado.",
+        "D": "Todas las anteriores."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Conjugado."
+    },
+    {
+      "id": 62,
+      "question": "Un tipo de método enzimático con reacciones inmunoquímicas es el de competición, en él:",
+      "options": {
+        "A": "Se producen uniones de alta afinidad entre los antígenos y anticuerpos.",
+        "B": "Se pueden mezclar el anticuerpo con una enzima y la muestra que contiene el analito.",
+        "C": "El analito y la enzima competirán por los sitios de unión al anticuerpo.",
+        "D": "Todas son correctas."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 63,
+      "question": "En una curva de precipitación de reacciones antígeno-anticuerpo, la zona óptima de reacción se denomina:",
+      "options": {
+        "A": "Fenómeno zona.",
+        "B": "Fenómeno prozona.",
+        "C": "Zona de equivalencia.",
+        "D": "Aglutinación."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Zona de equivalencia."
+    },
+    {
+      "id": 64,
+      "question": "En un inmunoensayo cromatográfico rápido cualitativo no competitivo, la aparición de únicamente una línea coloreada en la región de la prueba, indica:",
+      "options": {
+        "A": "Test positivo.",
+        "B": "Test negativo.",
+        "C": "Test no válido.",
+        "D": "Test débilmente positivo."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Test no válido."
+    },
+    {
+      "id": 65,
+      "question": "¿Cuál de las siguientes determinaciones bioquímicas NO se basa en una técnica inmunoquímica?",
+      "options": {
+        "A": "Determinación de la insulina mediante RIA.",
+        "B": "Determinación de la T3 mediante el método de ELISA competición.",
+        "C": "Determinación de anfetaminas mediante FPIA.",
+        "D": "Determinación de la glucosa mediante el método glucosa-oxidasa."
+      },
+      "page": 7,
+      "correctAnswer": "D",
+      "correctText": "Determinación de la glucosa mediante el método glucosa-oxidasa."
+    },
+    {
+      "id": 66,
+      "question": "¿Qué tipo de técnica de laboratorio se usa normalmente para determinar enzimas cardiacas?:",
+      "options": {
+        "A": "Cromatografía.",
+        "B": "Enzimoinmunoanálisis.",
+        "C": "Fluorescencia indirecta."
+      },
+      "page": 7,
+      "correctAnswer": "B",
+      "correctText": "Enzimoinmunoanálisis."
+    },
+    {
+      "id": 67,
+      "question": "El lector de placas microtiter es un:",
+      "options": {
+        "A": "Espectrofotómetro.",
+        "B": "Fotómetro de llama.",
+        "C": "Nefelómetro."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Espectrofotómetro."
+    },
+    {
+      "id": 68,
+      "question": "La técnica de inmunofluorescencia directa consiste en:",
+      "options": {
+        "A": "Unión antígeno–anticuerpo marcado con fluorocromo.",
+        "B": "Unión de un antígeno a un fluorocromo.",
+        "C": "Unión antígeno–anticuerpo del suero y adición de anticuerpo antiglobulina humana marcado con fluorocromo."
+      },
+      "page": 7,
+      "correctAnswer": "A",
+      "correctText": "Unión antígeno–anticuerpo marcado con fluorocromo."
+    },
+    {
+      "id": 69,
+      "question": "¿Cuáles de los siguientes inmunoensayos son homogéneos?:",
+      "options": {
+        "A": "ELISA.",
+        "B": "RIA.",
+        "C": "EMIT."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "EMIT."
+    },
+    {
+      "id": 70,
+      "question": "La quimioluminiscencia se produce cuando:",
+      "options": {
+        "A": "Se mide la luz fluorescente emitida por quimiomoléculas que poseen dobles enlaces conjugados.",
+        "B": "Se mide la luz fluorescente emitida por sustancias químicas generadas en una reacción de moléculas excitadas que emiten luz.",
+        "C": "Una reacción química genera una molécula excitada electrónicamente, la cual emite luz al volver a un estado de menor energía.",
+        "D": "Todas son falsas."
+      },
+      "page": 7,
+      "correctAnswer": "C",
+      "correctText": "Una reacción química genera una molécula excitada electrónicamente, la cual emite luz al volver a un estado de menor energía."
+    },
+    {
+      "id": 71,
+      "question": "Señale la afirmación incorrecta:",
+      "options": {
+        "A": "La reacción antígeno-anticuerpo desencadena una reacción primaria y una secundaria.",
+        "B": "La unión antígeno-anticuerpo está medida por la afinidad y la avidez.",
+        "C": "La aglutinación es una reacción inmunoquímica.",
+        "D": "En la aglutinación indirecta no es necesaria la participación de un transportador pasivo."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "En la aglutinación indirecta no es necesaria la participación de un transportador pasivo."
+    },
+    {
+      "id": 72,
+      "question": "Las pruebas de inmunodifusión son pruebas de:",
+      "options": {
+        "A": "Aglutinación.",
+        "B": "Precipitación.",
+        "C": "Floculación."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Precipitación."
+    },
+    {
+      "id": 73,
+      "question": "¿Cuál de las siguientes técnicas analíticas no es un inmunoensayo marcado?:",
+      "options": {
+        "A": "Fluoroinmunoanálisis.",
+        "B": "Reacción de Fijación del Complemento.",
+        "C": "Radioinmunoanálisis."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Reacción de Fijación del Complemento."
+    },
+    {
+      "id": 74,
+      "question": "La técnica en la que se marca el anticuerpo o el antígeno con un enzima se denomina:",
+      "options": {
+        "A": "RIA.",
+        "B": "TIA.",
+        "C": "FIA.",
+        "D": "EIA."
+      },
+      "page": 8,
+      "correctAnswer": "D",
+      "correctText": "EIA."
+    },
+    {
+      "id": 75,
+      "question": "La técnica que permite la detección del complejo antígeno viral-anticuerpo, sobre una membrana de nitrocelulosa incluida en una cámara de reacción portátil gracias a la aparición de una línea coloreada. Se denomina:",
+      "options": {
+        "A": "lnmunocromatografía",
+        "B": "Enzimoinmunoanálisis",
+        "C": "lnmunoelectrotransferencia",
+        "D": "Reacción de fijación del complemento antígeno- anticuerpo"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "lnmunocromatografía"
+    },
+    {
+      "id": 76,
+      "question": "¿Cuál es la muestra más frecuente en el diagnóstico serológico?",
+      "options": {
+        "A": "Sangre",
+        "B": "Líquido cefalorraquídeo",
+        "C": "Líquido pleural",
+        "D": "Exudado nasofaríngeo"
+      },
+      "page": 8,
+      "correctAnswer": "A",
+      "correctText": "Sangre"
+    },
+    {
+      "id": 77,
+      "question": "NO es una técnica de Precipitación en gel:",
+      "options": {
+        "A": "Electroinmunodifusión.",
+        "B": "Inmunonefelometría.",
+        "C": "lnmunoelectroforesis.",
+        "D": "lnmunodifusión radial."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Inmunonefelometría."
+    },
+    {
+      "id": 78,
+      "question": "¿Qué se entiende por seroconversión?",
+      "options": {
+        "A": "La no presencia de anticuerpos específicos para un antígeno concreto en el suero de un individuo.",
+        "B": "Demostración de la presencia de anticuerpos específicos para un antígeno concreto en el suero de un individuo, previamente negativo para dicha especificidad antigénica.",
+        "C": "Cuando se intercambian dos sueros diferentes.",
+        "D": "Cualquier cambio del estado físico del individuo."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Demostración de la presencia de anticuerpos específicos para un antígeno concreto en el suero de un individuo, previamente negativo para dicha especificidad antigénica."
+    },
+    {
+      "id": 79,
+      "question": "¿Cuál es la estrategia a seguir para mejorar la sensibilidad del Enzimoinmunoanálisis y facilitar su automatización frente al Radioinmunoanálisis? (Señale la respuesta INCORRECTA)",
+      "options": {
+        "A": "Amplificando la reacción inmunológica desencadenada por una misma concentración de componente, Antígeno o Anticuerpo.",
+        "B": "Amplificando la reacción inmunológica desencadenada con una mezcla de concentraciones de Antígeno y de Anticuerpo.",
+        "C": "La mejora de los Sistemas de Detección.",
+        "D": "Disminución del ruido de fondo."
+      },
+      "page": 8,
+      "correctAnswer": "B",
+      "correctText": "Amplificando la reacción inmunológica desencadenada con una mezcla de concentraciones de Antígeno y de Anticuerpo."
+    },
+    {
+      "id": 80,
+      "question": "Las pruebas de antígeno que utilizan el método del flujo lateral:",
+      "options": {
+        "A": "Solo se pueden utilizar con suero.",
+        "B": "Solo se pueden utilizar con sangre total.",
+        "C": "Permiten detectar la presencia de anticuerpos frente a un agente infeccioso específico.",
+        "D": "Permiten detectar la presencia de proteínas de un agente infeccioso específico."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Permiten detectar la presencia de proteínas de un agente infeccioso específico."
+    },
+    {
+      "id": 81,
+      "question": "Sobre la Biotina, señale la respuesta correcta:",
+      "options": {
+        "A": "Su ingesta puede interferir significativamente con ciertos métodos analíticos que utilizan anticuerpos biotinados para unirse a la fase sólida y provocar resultados incorrectos.",
+        "B": "Todos los analizadores de coagulación del mercado utilizan métodos que experimentan interferencias de la biotina.",
+        "C": "Todos los analizadores de bioquímica del mercado utilizan métodos que experimentan interferencias de la biotina.",
+        "D": "Todos los contadores hematológicos del mercado utilizan métodos que experimentan interferencias de la biotina."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Su ingesta puede interferir significativamente con ciertos métodos analíticos que utilizan anticuerpos biotinados para unirse a la fase sólida y provocar resultados incorrectos."
+    },
+    {
+      "id": 82,
+      "question": "La interacción entre un anticuerpo y una partícula antigénica que se visualiza por la formación de agregados o grumos macroscópicos se denomina:",
+      "options": {
+        "A": "Agregación.",
+        "B": "Aglutinación.",
+        "C": "Precipitación."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Aglutinación."
+    },
+    {
+      "id": 83,
+      "question": "La técnica ELISA (indique la INCORRECTA):",
+      "options": {
+        "A": "Utiliza una enzima como marcador para mediar la formación de complejos antígeno-anticuerpo.",
+        "B": "Puede ser competitiva o no competitiva.",
+        "C": "Utiliza un colorante como marcador para mediar la formación de complejos antígeno-anticuerpo."
+      },
+      "page": 9,
+      "correctAnswer": "C",
+      "correctText": "Utiliza un colorante como marcador para mediar la formación de complejos antígeno-anticuerpo."
+    },
+    {
+      "id": 84,
+      "question": "Un antígeno es:",
+      "options": {
+        "A": "Una proteína producida por el sistema inmunitario como respuesta específica a un agente extraño.",
+        "B": "Una sustancia que es reconocida como extraña por las células del sistema inmunitario.",
+        "C": "La primera respuesta del sistema inmunitario."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Una sustancia que es reconocida como extraña por las células del sistema inmunitario."
+    },
+    {
+      "id": 85,
+      "question": "Un resultado de alta avidez de los anticuerpos IgG ¿Qué significado clínico tiene?",
+      "options": {
+        "A": "Periodo ventana de la infección.",
+        "B": "Infección antigua.",
+        "C": "Infección reciente.",
+        "D": "Recidiva de la infección."
+      },
+      "page": 9,
+      "correctAnswer": "B",
+      "correctText": "Infección antigua."
+    },
+    {
+      "id": 86,
+      "question": "El efecto prozona es una de las principales interferencias que ocurren en la determinación de magnitudes biológicas con métodos inmunoenzimáticos. ¿Cómo se resuelve?",
+      "options": {
+        "A": "Con diluciones seriadas.",
+        "B": "Solicitando nueva muestra.",
+        "C": "Calibrando la técnica."
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Con diluciones seriadas."
+    },
+    {
+      "id": 87,
+      "question": "Respecto a las técnicas de Aglutinación Ag-Ac, indique la respuesta CORRECTA:",
+      "options": {
+        "A": "Son más específicas que las de precipitación.",
+        "B": "La no agitación del medio favorece la formación de la aglutinación.",
+        "C": "La prueba de la sífilis (RPR) es una técnica de aglutinación directa.",
+        "D": "Son más sensibles que las técnicas de precipitación."
+      },
+      "page": 9,
+      "correctAnswer": "D",
+      "correctText": "Son más sensibles que las técnicas de precipitación."
+    },
+    {
+      "id": 88,
+      "question": "Señale la respuesta correcta. En el diagnóstico serológico indirecto la lgM ...",
+      "options": {
+        "A": "Se produce en la fase aguda de la infección y puede persistir hasta 4-6 meses",
+        "B": "Se produce en la fase aguda de la infección y nunca persiste más de 3-5 días",
+        "C": "Se puede detectar durante toda la vida",
+        "D": "No se determina en el diagnóstico serológico indirecto"
+      },
+      "page": 9,
+      "correctAnswer": "A",
+      "correctText": "Se produce en la fase aguda de la infección y puede persistir hasta 4-6 meses"
+    },
+    {
+      "id": 89,
+      "question": "¿Cuál de los siguientes es el mecanismo de interferencia de la biotina?:",
+      "options": {
+        "A": "La biotina endógena y la procedente de suplementos vitamínicos se une directamente a las partículas en fase sólida.",
+        "B": "La biotina se une tanto a los anticuerpos de captura como a los de señal, produciendo señal en ausencia del analito.",
+        "C": "La biotina se une a partículas en fase sólida unidas a la estreptavidina, lo que interfiere con los anticuerpos vinculados a la biotina.",
+        "D": "La biotina inhibe las señales de fluorescencia y quimioluminiscencia."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "La biotina se une a partículas en fase sólida unidas a la estreptavidina, lo que interfiere con los anticuerpos vinculados a la biotina."
+    },
+    {
+      "id": 90,
+      "question": "En un enzimoinmunoanalisis (EIA) la formación del inmunocomplejo antígeno-anticuerpo se mide por:",
+      "options": {
+        "A": "Aglutinación.",
+        "B": "Precipitación.",
+        "C": "Fotometría.",
+        "D": "Electroforesis."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Fotometría."
+    },
+    {
+      "id": 91,
+      "question": "¿Cuál es la causa más frecuente de falta de especificidad en los métodos de inmunoanálisis?",
+      "options": {
+        "A": "Presencia de macroenzimas.",
+        "B": "Presencia de autoanticuerpos.",
+        "C": "Presencia de anticuerpos heterófilos.",
+        "D": "Son correctas B y C."
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Son correctas B y C."
+    },
+    {
+      "id": 92,
+      "question": "Señale las técnicas más utilizadas para la cuantificación de inmunoglobulinas y complemento:",
+      "options": {
+        "A": "lnmunoelectroforesis",
+        "B": "Citotoxicidad e inmunofijación",
+        "C": "Nefelometría e inmunodifusión radial",
+        "D": "lnmunofluorescencia directa e indirecta"
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Nefelometría e inmunodifusión radial"
+    },
+    {
+      "id": 93,
+      "question": "¿En qué técnica los antígenos se depositan en perforaciones practicadas en el extremo catiónico de un gel de agarosa, en el que previamente se han incluido los anticuerpos correspondientes?",
+      "options": {
+        "A": "Electroinmunodifusión",
+        "B": "Precipitación en soportes sólidos",
+        "C": "Precipitación en soportes semisólidos",
+        "D": "Inmunoelectroforesis"
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "Electroinmunodifusión"
+    },
+    {
+      "id": 94,
+      "question": "El orden en cuanto a la capacidad de penetración de las radiaciones que se emiten en las reacciones nucleares es:",
+      "options": {
+        "A": "α < β < γ.",
+        "B": "γ < β < α.",
+        "C": "β < γ < α.",
+        "D": "α < β = γ."
+      },
+      "page": 10,
+      "correctAnswer": "A",
+      "correctText": "α < β < γ."
+    },
+    {
+      "id": 95,
+      "question": "Respecto a las reacciones antígeno-anticuerpo, señale la respuesta incorrecta:",
+      "options": {
+        "A": "En la reacción primaria se forma el complejo antígeno-anticuerpo, que se puede identificar a simple vista.",
+        "B": "En la reacción secundaria se disuelven de nuevo los complejos ya formados.",
+        "C": "En la reacción secundaria aparecen fenómenos visibles, como la aglutinación y la precipitación.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "page": 10,
+      "correctAnswer": "B",
+      "correctText": "En la reacción secundaria se disuelven de nuevo los complejos ya formados."
+    },
+    {
+      "id": 96,
+      "question": "La técnica utilizada para la determinación de hormonas en la que se mide la reacción por colorimetría es conocida como:",
+      "options": {
+        "A": "Radioinmunoanalisis (RIA).",
+        "B": "Fluoroinmunoanalisis (FIA).",
+        "C": "Enzimoinmunoanalisis (EIA).",
+        "D": "Todas son correctas."
+      },
+      "page": 10,
+      "correctAnswer": "C",
+      "correctText": "Enzimoinmunoanalisis (EIA)."
+    },
+    {
+      "id": 97,
+      "question": "En relación con la prueba de avidez, señale la respuesta incorrecta:",
+      "options": {
+        "A": "Existen reactivos comerciales para Toxoplasma y CMV",
+        "B": "Se utiliza un reactivo disociante para separar las lgG del antígeno específico",
+        "C": "Diferencia infecciones agudas de crónicas",
+        "D": "Cuanto más antigua es la infección, la avidez es menor"
+      },
+      "page": 10,
+      "correctAnswer": "D",
+      "correctText": "Cuanto más antigua es la infección, la avidez es menor"
+    },
+    {
+      "id": 98,
+      "question": "¿Cuál de las siguientes opciones no es correcta respecto a las técnicas inmunológicas para determinar la producción de citoquinas?",
+      "options": {
+        "A": "Los ensayos ELISA son más sensibles que los ELISPOT.",
+        "B": "La prueba del interferón gamma se basa en la detección mediante ELISA tipo sandwich del interferón gamma producido por linfocitos Th1 tras su estimulación con el antígeno.",
+        "C": "El ELISPOT es el ensayo por inmunoadsorción ligado a enzimas de puntos.",
+        "D": "Se puede emplear la citometría de flujo para la detección de citoquinas intracelulares."
+      },
+      "page": 11,
+      "correctAnswer": "A",
+      "correctText": "Los ensayos ELISA son más sensibles que los ELISPOT."
+    },
+    {
+      "id": 99,
+      "question": "En referencia al efecto prozona en la reacción antígeno-anticuerpo:",
+      "options": {
+        "A": "Se produce cuando no hay antígeno suficiente para saturar el anticuerpo correspondiente.",
+        "B": "Se produce cuando existen concentraciones elevadas de antígeno.",
+        "C": "Da un resultado falsamente elevado.",
+        "D": "Se evita concentrando la muestra."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Se produce cuando existen concentraciones elevadas de antígeno."
+    },
+    {
+      "id": 100,
+      "question": "La técnica ELISA es un inmunoensayo:",
+      "options": {
+        "A": "Quimioluminiscente.",
+        "B": "Fluorescente.",
+        "C": "Enzimático."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Enzimático."
+    },
+    {
+      "id": 101,
+      "question": "Señale el proceso correcto de la técnica de Elisa para determinación de la hormona T3:",
+      "options": {
+        "A": "Separación – Reacción indicadora – Inmunorreacción.",
+        "B": "Inmunorreacción – Separación – Reacción indicadora.",
+        "C": "Separación – Inmunorreacción – Reacción indicadora.",
+        "D": "Inmunorreacción – Reacción indicadora – Separación."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Inmunorreacción – Separación – Reacción indicadora."
+    },
+    {
+      "id": 102,
+      "question": "Los métodos serológicos para la detección de virus se basan en:",
+      "options": {
+        "A": "Detectar el genoma viral mediante sondas genéticas marcadas.",
+        "B": "Detectar la presencia de anticuerpos específicos en el suero del paciente.",
+        "C": "Utilización de colorantes como la hematoxilina para detección de cuerpos de inclusión.",
+        "D": "Inoculación de la muestra en cultivos celulares."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Detectar la presencia de anticuerpos específicos en el suero del paciente."
+    },
+    {
+      "id": 103,
+      "question": "Señala la afirmación correcta cuando hablamos de serología viral",
+      "options": {
+        "A": "Para la serología la muestra de sangre se recoge en tubos con anticoagulantes.",
+        "B": "Uno de los test empleados en el estudio de serología viral es la desnaturalización.",
+        "C": "A través de la serología viral no se puede identificar si una infección está en proceso agudo o crónico",
+        "D": "Dos de los test que se pueden emplear en el estudio de serología viral son: fijación del complemento e inhibición de la hematoglutina."
+      },
+      "page": 11,
+      "correctAnswer": "D",
+      "correctText": "Dos de los test que se pueden emplear en el estudio de serología viral son: fijación del complemento e inhibición de la hematoglutina."
+    },
+    {
+      "id": 104,
+      "question": "En cuanto a los perfiles serológicos para bacterias, virus, parásitos y hongos, señala la correcta:",
+      "options": {
+        "A": "Para medir la IgG una muestra extraída en la fase aguda es necesaria.",
+        "B": "Para medir la IgM una muestra extraída en la fase aguda es necesaria.",
+        "C": "Para medir la IgG o IgM e IgG se necesita 1 suero seriado en la fase aguda y convalecencia.",
+        "D": "Todas son correctas."
+      },
+      "page": 11,
+      "correctAnswer": "B",
+      "correctText": "Para medir la IgM una muestra extraída en la fase aguda es necesaria."
+    },
+    {
+      "id": 105,
+      "question": "¿Cómo se denomina la máxima dilución de un Ac que da una reacción medible con un Ag?",
+      "options": {
+        "A": "Afinidad.",
+        "B": "Especificidad.",
+        "C": "Título."
+      },
+      "page": 11,
+      "correctAnswer": "C",
+      "correctText": "Título."
+    }
+  ]
+}
