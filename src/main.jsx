@@ -109,6 +109,7 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
  const [testConfig,setTestConfig]=useState(savedSession?.testConfig ?? (initialConfig||{count:30,mode:"smart",topicId:0}));
  const [i,setI]=useState(savedSession?.i ?? 0);
  const [score,setScore]=useState(savedSession?.score ?? 0);
+ const [skippedCount,setSkippedCount]=useState(savedSession?.skippedCount ?? 0);
  const [selectedAnswer,setSelectedAnswer]=useState(savedSession?.selectedAnswer ?? null);
  const [showResult,setShowResult]=useState(Boolean(savedSession?.showResult));
  const [done,setDone]=useState(Boolean(savedSession?.done));
@@ -120,9 +121,18 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
  const currentTopic=selectedTopicId===0?{id:0,title:"Todos los temas"}:selectedTopicId?topics.find(t=>t.id===selectedTopicId):null;
   const totalQuestions=testQuestions.length;
   const q=testQuestions[i] ?? null;
+ const finishTest=(nextSkippedCount=skippedCount)=>{
+   const answeredCount=Math.max(totalQuestions-nextSkippedCount,0);
+   const finalCorrect=score;
+   clearTestSession();
+   onSessionComplete?.({topicId:selectedTopicId,topicIds:[...new Set(testQuestions.map(question=>question.topicId))],answered:answeredCount,correct:finalCorrect,incorrect:Math.max(answeredCount-finalCorrect,0),skipped:nextSkippedCount,percentage:answeredCount?Math.round(finalCorrect/answeredCount*100):0,questionIds:testQuestions.map(question=>getQuestionIdForProgress(question,0)),completedAt:new Date().toISOString()});
+   setDone(true);
+   setSelectedAnswer(null);
+   setShowResult(false);
+ };
  useEffect(()=>{
     if(testQuestions.length){
-      saveTestSession({selectedTopicId,testConfig,i,score,selectedAnswer,showResult,done,testQuestions,failedQuestions});
+      saveTestSession({selectedTopicId,testConfig,i,score,skippedCount,selectedAnswer,showResult,done,testQuestions,failedQuestions});
       return;
     }
     if(selectedTopicId===null) return;
@@ -139,7 +149,7 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
     .then(entries=>setLoadedQuestions(prev=>({...prev,...Object.fromEntries(entries)})))
      .catch(error=>console.error("No se pudo cargar el PDF del tema",error))
      .finally(()=>setLoading(false));
- },[selectedTopicId,loadedQuestions,testConfig,testQuestions,i,score,selectedAnswer,showResult,done,failedQuestions]);
+ },[selectedTopicId,loadedQuestions,testConfig,testQuestions,i,score,skippedCount,selectedAnswer,showResult,done,failedQuestions]);
 
  const resetSelection=()=>{
   clearTestSession();
@@ -147,6 +157,7 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
   setSelectedTopicId(null);
   setI(0);
   setScore(0);
+  setSkippedCount(0);
   setSelectedAnswer(null);
   setShowResult(false);
   setDone(false);
@@ -165,22 +176,28 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
 
  const handleNext=()=>{
   if(i>=totalQuestions-1){
-    const finalCorrect=score+(selectedAnswer===q.correctAnswer?1:0);
-    clearTestSession();
-    onSessionComplete?.({topicId:selectedTopicId,topicIds:[...new Set(testQuestions.map(question=>question.topicId))],answered:totalQuestions,correct:finalCorrect,incorrect:totalQuestions-finalCorrect,percentage:Math.round(finalCorrect/totalQuestions*100),questionIds:testQuestions.map(question=>getQuestionIdForProgress(question,0)),completedAt:new Date().toISOString()});
-   setDone(true);
-   setSelectedAnswer(null);
-   setShowResult(false);
+   finishTest();
    return;
   }
   setI(prev=>prev+1);
-  setSelectedAnswer(null);
-  setShowResult(false);
+   setSelectedAnswer(null);
+   setShowResult(false);
+ };
+
+ const handleSkip=()=>{
+  if(!q || showResult) return;
+  const nextSkippedCount=skippedCount+1;
+  setSkippedCount(nextSkippedCount);
+  if(i>=totalQuestions-1){
+   finishTest(nextSkippedCount);
+   return;
+  }
+  setI(prev=>prev+1);
  };
 
  if(selectedTopicId===null){
     const globalMastery=getGlobalMastery(questionProgress);
-    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small><div className="topicMastery"><div><span>Dominio global</span><b>{globalMastery}%</b></div><i><em style={{width:`${globalMastery}%`}}/></i></div></button>{topics.map(topic=>{const questionCount=getQuestionBank(topic.id).length;const available=questionCount||getPdfUrl(topic.id);const mastery=getTopicMastery(topic.id,questionProgress);return <button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{available?(questionCount?`${questionCount} preguntas`:"Preguntas disponibles"):"Próximamente"}</small>{available&&<div className="topicMastery"><div><span>Dominio</span><b>{mastery}%</b></div><i><em style={{width:`${mastery}%`}}/></i></div>}</button>})}</div></div>;
+   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testTopicsGrid"><button className="topicSelectCard" onClick={()=>{setSelectedTopicId(0);setI(0);setScore(0);setSkippedCount(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">TEST GLOBAL</span><h3>Todos los temas</h3><small>Todos los bancos disponibles</small><div className="topicMastery"><div><span>Dominio global</span><b>{globalMastery}%</b></div><i><em style={{width:`${globalMastery}%`}}/></i></div></button>{topics.map(topic=>{const questionCount=getQuestionBank(topic.id).length;const available=questionCount||getPdfUrl(topic.id);const mastery=getTopicMastery(topic.id,questionProgress);return <button key={topic.id} className="topicSelectCard" onClick={()=>{setSelectedTopicId(topic.id);setI(0);setScore(0);setSkippedCount(0);setSelectedAnswer(null);setShowResult(false);setDone(false);}}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{available?(questionCount?`${questionCount} preguntas`:"Preguntas disponibles"):"Próximamente"}</small>{available&&<div className="topicMastery"><div><span>Dominio</span><b>{mastery}%</b></div><i><em style={{width:`${mastery}%`}}/></i></div>}</button>})}</div></div>;
  }
 
  if(loading){
@@ -192,10 +209,12 @@ function TestPage({go,initialConfig,questionProgress,onQuestionAnswered,onSessio
  }
 
  if(done){
-  return <div className="result card"><div className="resultIcon">🏆</div><h2>Test completado</h2><strong>{score}/{totalQuestions}</strong><p>{Math.round(score/totalQuestions*100)} %</p><p>✅ {score} aciertos · ❌ {totalQuestions-score} fallos</p>{failedQuestions.length>0&&<button className="primary" onClick={()=>{setTestQuestions(failedQuestions);setI(0);setScore(0);setFailedQuestions([]);setDone(false)}}>Repasar fallos</button>}<button className="secondary" onClick={()=>{setI(0);setScore(0);setSelectedAnswer(null);setShowResult(false);setDone(false)}}>Repetir test</button><button className="secondary" onClick={resetSelection}>Cambiar test</button></div>;
+  const answeredCount=Math.max(totalQuestions-skippedCount,0);
+  const accuracy=answeredCount?Math.round(score/answeredCount*100):0;
+  return <div className="result card"><div className="resultIcon">🏆</div><h2>Test completado</h2><strong>{score}/{answeredCount||totalQuestions}</strong><p>{accuracy} %</p><p>✅ {score} aciertos · ❌ {Math.max(answeredCount-score,0)} fallos{skippedCount>0?` · ⏭ ${skippedCount} omitidas`:""}</p>{failedQuestions.length>0&&<button className="primary" onClick={()=>{setTestQuestions(failedQuestions);setI(0);setScore(0);setSkippedCount(0);setFailedQuestions([]);setDone(false)}}>Repasar fallos</button>}<button className="secondary" onClick={()=>{setI(0);setScore(0);setSkippedCount(0);setSelectedAnswer(null);setShowResult(false);setDone(false)}}>Repetir test</button><button className="secondary" onClick={resetSelection}>Cambiar test</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">Tema {String(currentTopic.id).padStart(2,"0")}</span>{restoredSession&&<p className="testResumeHint">Has retomado tu test guardado.</p>}<h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : (selectedAnswer===index ? "selected" : "")}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><p className={selectedAnswer===q.correctAnswer?"testStatus success":"testStatus error"}>{selectedAnswer===q.correctAnswer?"✅ Correcto":"❌ Incorrecto"}</p><p><strong>Respuesta correcta:</strong> {q.answers[q.correctAnswer]}</p><p><strong>Explicación:</strong> {getAnswerExplanation(q)}</p></div>}<div className="testActions">{showResult&&<button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Ver resultado":"Siguiente"}</button>}<button className="secondary" onClick={resetSelection}>Cambiar test</button></div></div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">Tema {String(currentTopic.id).padStart(2,"0")}</span>{restoredSession&&<p className="testResumeHint">Has retomado tu test guardado.</p>}<h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : (selectedAnswer===index ? "selected" : "")}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><p className={selectedAnswer===q.correctAnswer?"testStatus success":"testStatus error"}>{selectedAnswer===q.correctAnswer?"✅ Correcto":"❌ Incorrecto"}</p><p><strong>Respuesta correcta:</strong> {q.answers[q.correctAnswer]}</p><p><strong>Explicación:</strong> {getAnswerExplanation(q)}</p></div>}<div className="testActions">{showResult?<button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Ver resultado":"Siguiente"}</button>:<button className="secondary" onClick={handleSkip}>{i===totalQuestions-1?"Terminar sin responder":"Siguiente sin responder"}</button>}<button className="secondary" onClick={resetSelection}>Cambiar test</button></div></div></div>;
 }
 
 function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando respondas tus primeras preguntas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>}
