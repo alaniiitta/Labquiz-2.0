@@ -128,6 +128,7 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
 
 // sigue "fallada" mientras el último intento haya sido incorrecto; se corrige al acertarla de nuevo
 export function isQuestionCurrentlyFailed(state = createInitialQuestionProgress()) {
+  if (typeof state.pendienteRecuperacion === "boolean") return state.pendienteRecuperacion;
   return state.vecesFallada > 0 && (!state.ultimaVezAcertada || state.ultimaVezFallada > state.ultimaVezAcertada);
 }
 
@@ -142,7 +143,7 @@ export function selectQuestionsByMode(allQuestions = [], userProgress = {}, coun
   return selectSmartQuestions(eligible, userProgress, count, topicFilter, random, now);
 }
 
-export function recordQuestionAnswer(question, userProgress = {}, isCorrect, now = Date.now()) {
+export function recordQuestionAnswer(question, userProgress = {}, isCorrect, now = Date.now(), selectedAnswer = null) {
   const id = getQuestionId(question);
   const current = { ...createInitialQuestionProgress(), ...(userProgress[id] || {}) };
   const nextCorrect = current.vecesAcertada + (isCorrect ? 1 : 0);
@@ -155,6 +156,11 @@ export function recordQuestionAnswer(question, userProgress = {}, isCorrect, now
     vecesVista: current.vecesVista + 1,
     vecesAcertada: nextCorrect,
     vecesFallada: nextFailed,
+    tema: getQuestionTopic(question),
+    numeroPregunta: question.number ?? question.id,
+    respuestaElegida: selectedAnswer,
+    respuestaCorrecta: question.correctAnswer,
+    pendienteRecuperacion: !isCorrect,
     ultimaVezVista: now,
     ultimaVezAcertada: isCorrect ? now : current.ultimaVezAcertada,
     ultimaVezFallada: isCorrect ? current.ultimaVezFallada : now,
