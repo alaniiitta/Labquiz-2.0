@@ -29,3 +29,12 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 
 .testThemeSelector{max-width:920px;margin:0 auto}.testTopicsGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.topicSelectCard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;text-align:left;display:flex;flex-direction:column;gap:10px;cursor:pointer;min-height:130px}.topicSelectCard h3{margin:0;font-size:18px}.topicSelectCard small{color:var(--muted)}.testResumeHint{margin:14px 0 0;padding:10px 12px;border-radius:12px;background:var(--soft);color:var(--primary);font-size:12px;font-weight:700}.testFeedback{margin-top:18px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#f9f7f3}.testStatus{margin:0 0 8px;font-weight:800}.testStatus.success{color:#1d7a57}.testStatus.error{color:#b94d4d}.testActions{display:flex;gap:10px;justify-content:flex-end;margin-top:18px}.answers button.correct{background:#eafaf1;border-color:#3ea46f}.answers button.incorrect{background:#fdeceb;border-color:#d2746a}.answers button:disabled{cursor:default}.answers button.correct span,.answers button.incorrect span{font-weight:900}
 @media(max-width:390px){.testTopicsGrid{grid-template-columns:1fr}.testCard{padding:18px}.testActions{flex-direction:column}.testActions button{width:100%}.answers button{padding:12px}.answers span{width:24px;height:24px}}
+
+.testHomeActions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.historyList{display:grid;gap:10px;margin:16px 0 20px}
+.historyItem{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.historyItem div{min-width:0}
+.historyItem b,.historyItem small{display:block}
+.historyItem small{margin-top:4px;color:var(--muted)}
+.historyItem strong{color:var(--primary);white-space:nowrap}
+@media(max-width:700px){.testHomeActions{width:100%;justify-content:stretch}.testHomeActions .secondary,.testHomeActions .textBtn{width:100%;justify-content:center}.historyItem{align-items:flex-start;flex-direction:column}.historyItem strong{font-size:18px}}
