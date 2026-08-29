@@ -19,6 +19,8 @@ import {
 import "./styles.css";
 
 import { parsePdfQuestions } from "./pdfPipeline.js";
+import { explainQuestion } from "./lib/explainQuestion.js";
+import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {
   getQuestionIdForProgress,
   recordQuestionAnswer,
@@ -59,8 +61,7 @@ const getPdfUrl = (id) =>
 const getAnswerExplanation = (question) => {
   const explanation = String(question.explanation || "").trim();
   if (explanation && !explanation.includes("automáticamente por el resaltado")) return explanation;
-  const correct = question.answers?.[question.correctAnswer] ?? "la opción marcada";
-  return `La respuesta correcta es «${correct}», porque es la opción que corresponde al enunciado y al contenido evaluado en esta pregunta.`;
+  return null;
 };
 
 const computeMastery = (bank, progress) => {
@@ -684,17 +685,12 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
         </div>
 
         {showResult && (
-          <div className="testFeedback">
-            <p className={selectedAnswer === q.correctAnswer ? "testStatus success" : "testStatus error"}>
-              {selectedAnswer === q.correctAnswer ? "✅ Correcto" : "❌ Incorrecto"}
-            </p>
-            <p>
-              <strong>Respuesta correcta:</strong> {q.answers[q.correctAnswer]}
-            </p>
-            <p>
-              <strong>Explicación:</strong> {getAnswerExplanation(q)}
-            </p>
-          </div>
+          <ExplanationDisplay
+            structured={explainQuestion(q, q.topicId)}
+            fallback={getAnswerExplanation(q)}
+            correctAnswerText={q.answers[q.correctAnswer]}
+            isCorrect={selectedAnswer === q.correctAnswer}
+          />
         )}
 
         <div className="testActions">
