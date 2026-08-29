@@ -47,6 +47,7 @@ function App(){
  useEffect(()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(userData)),[userData]);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  const openTopicPicker=()=>{setTestConfig(prev=>({...prev,topicId:null}));setTestEntry(entry=>entry+1);go("test");};
+ const startTest=config=>{setTestConfig(config);go("test");};
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
    <button className="close" onClick={()=>setMobile(false)}><X/></button>
@@ -56,11 +57,11 @@ function App(){
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
   <main><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
-    {page==="home"&&<HomePage data={userData} onStart={config=>{setTestConfig(config);go("test")}}/>}
+    {page==="home"&&<HomePage data={userData} onStart={startTest}/>}
     {page==="test"&&<TestPage key={testEntry} go={go} initialConfig={testConfig} questionProgress={userData.progress} onQuestionAnswered={next=>setUserData(prev=>({...prev,progress:next}))} onSessionComplete={result=>setUserData(prev=>({...prev,tests:prev.tests+1,answered:prev.answered+result.answered,correct:prev.correct+result.correct,incorrect:prev.incorrect+result.incorrect,history:[...prev.history,result]}))} />}
    {page==="review"&&<ReviewPage go={go}/>}
     {page==="progress"&&<ProgressPage data={userData}/>}
-    {page==="wrong"&&<EmptyDataPage title="Preguntas falladas" message="Aquí aparecerán las preguntas que respondas incorrectamente." go={go}/>}
+    {page==="wrong"&&<WrongPage data={userData} onStart={startTest} go={go}/>}
     {page==="favorites"&&<EmptyDataPage title="Favoritas" message="Aquí aparecerán las preguntas que marques como favoritas." go={go}/>}
     {page==="history"&&<HistoryPage data={userData} go={go}/>}
    {page==="simulacrum"&&<SimulacrumPage go={go}/>}
@@ -189,6 +190,13 @@ function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de
 function ProgressPage({data}){const accuracy=data.answered?Math.round(data.correct/data.answered*100):0;return <div><div className="stats"><Stat icon="🎯" value={`${accuracy}%`} label="Aciertos"/><Stat icon="🧠" value={data.answered} label="Preguntas respondidas"/><Stat icon="✅" value={data.correct} label="Aciertos"/><Stat icon="❌" value={data.incorrect} label="Fallos"/></div><section className="section card"><h3>{data.tests?"Progreso por tema":"Sin datos de progreso"}</h3><p>{data.tests?"Tus estadísticas se actualizan al completar cada test.":"El progreso aparecerá cuando completes tus primeros tests."}</p></section></div>}
 
 function EmptyDataPage({title,message,go}){return <div className="emptyPage"><div className="emptyIcon"><History/></div><h2>{title}</h2><p>{message}</p><button className="primary" onClick={()=>go("test")}><Play/> Empezar test</button></div>}
+
+function WrongPage({data,onStart,go}){
+ // una pregunta cuenta como fallada mientras vecesFallada>0, igual que el modo "Preguntas falladas" del test
+ const failedCount=topics.reduce((sum,topic)=>sum+getQuestionBank(topic.id).filter(question=>data.progress[getQuestionIdForProgress(question)]?.vecesFallada>0).length,0);
+ if(!failedCount) return <EmptyDataPage title="Preguntas falladas" message="Aquí aparecerán las preguntas que respondas incorrectamente." go={go}/>;
+ return <div><div className="reviewHero"><h2>Preguntas falladas</h2><p>Tienes {failedCount} preguntas falladas pendientes de reforzar.</p><button className="primary" onClick={()=>onStart({count:30,mode:"failed",topicId:0})}><Play/> Hacer test de falladas</button></div></div>;
+}
 
 function HistoryPage({data,go}){if(!data.history.length)return <EmptyDataPage title="Historial" message="Todavía no has realizado ningún test." go={go}/>;return <div><div className="pageIntro"><div><span className="eyebrow">HISTORIAL</span><h2>Tests realizados</h2></div></div><div className="historyList">{data.history.map((session,index)=><article className="historyItem" key={`${session.completedAt}-${index}`}><div><b>{session.topicIds?.length>1?"Todos los temas":`Tema ${String(session.topicId).padStart(2,"0")}`}</b><small>{new Date(session.completedAt).toLocaleString("es-ES")}</small></div><strong>{session.correct}/{session.answered}</strong></article>)}</div><button className="primary" onClick={()=>go("test")}><Play/> Hacer otro test</button></div>}
 
