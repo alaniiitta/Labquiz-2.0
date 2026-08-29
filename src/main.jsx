@@ -23,6 +23,7 @@ import { explainQuestion } from "./lib/explainQuestion.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {
   getQuestionIdForProgress,
+  isQuestionCurrentlyFailed,
   recordQuestionAnswer,
   selectQuestionsByMode,
   shuffleQuestionOptions,
@@ -83,6 +84,29 @@ const testModes = [
   ["review", "Repaso", "Practica lo pendiente", RotateCcw],
 ];
 
+function BottomNav({ page, go, failedCount }) {
+  const items = [
+    ["home", "Inicio", Home],
+    ["test", "Test", Brain],
+    ["wrong", "Falladas", CircleX],
+    ["progress", "Progreso", BarChart3],
+    ["history", "Historial", History],
+  ];
+  return (
+    <nav className="bottomNav">
+      {items.map(([id, label, Icon]) => (
+        <button key={id} className={page === id ? "active" : ""} onClick={() => go(id)}>
+          <Icon />
+          {id === "wrong" && failedCount > 0 && (
+            <span className="bnBadge">{failedCount > 99 ? "99+" : failedCount}</span>
+          )}
+          {label}
+        </button>
+      ))}
+    </nav>
+  );
+}
+
 function App() {
   const [page, setPage] = useState("home");
   const [mobile, setMobile] = useState(false);
@@ -95,6 +119,19 @@ function App() {
   }, [userData]);
 
   const savedTestAvailable = Boolean(loadSavedTest()?.testQuestions?.length);
+
+  const failedCount = useMemo(
+    () =>
+      topics.reduce(
+        (sum, topic) =>
+          sum +
+          getQuestionBank(topic.id).filter((q) =>
+            isQuestionCurrentlyFailed(userData.progress[getQuestionIdForProgress(q)])
+          ).length,
+        0
+      ),
+    [userData.progress]
+  );
 
   const go = (nextPage) => {
     setPage(nextPage);
@@ -186,6 +223,7 @@ function App() {
             go={go}
             initialConfig={testConfig}
             questionProgress={userData.progress}
+            lastTestResult={userData.history[userData.history.length - 1] ?? null}
             onQuestionAnswered={(next) => setUserData((prev) => ({ ...prev, progress: next }))}
             onSessionComplete={(result) =>
               setUserData((prev) => ({
@@ -213,6 +251,7 @@ function App() {
         {page === "history" && <HistoryPage data={userData} go={go} />}
         {page === "simulacrum" && <SimulacrumPage go={go} />}
       </main>
+      <BottomNav page={page} go={go} failedCount={failedCount} />
     </div>
   );
 }
@@ -302,8 +341,9 @@ function HomePage({ data, onStart, savedTestAvailable, onResumeSavedTest }) {
   );
 }
 
-function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onSessionComplete }) {
+function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onSessionComplete, lastTestResult }) {
   const [savedSession] = useState(loadSavedTest);
+  const [startTime] = useState(() => Date.now());
   const [selectedTopicId, setSelectedTopicId] = useState(savedSession?.selectedTopicId ?? initialConfig?.topicId ?? null);
   const [testConfig, setTestConfig] = useState(savedSession?.testConfig ?? (initialConfig || { count: 30, mode: "smart", topicId: 0 }));
   const [i, setI] = useState(savedSession?.i ?? 0);
@@ -456,7 +496,7 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
     if (!q || showResult) return;
     setSelectedAnswer(answerIndex);
     setShowResult(true);
-    onQuestionAnswered?.(recordQuestionAnswer(q, questionProgress, answerIndex === q.correctAnswer));
+    onQuestionAnswered?.(recordQuestionAnswer(q, questionProgress, answerIndex === q.correctAnswer, Date.now(), answerIndex));
     if (answerIndex === q.correctAnswer) setScore((prev) => prev + 1);
     else setFailedQuestions((prev) => [...prev, q]);
   };
@@ -594,53 +634,88 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
   if (done) {
     const answeredCount = Math.max(totalQuestions - skippedCount, 0);
     const accuracy = answeredCount ? Math.round((score / answeredCount) * 100) : 0;
+    const incorrectCount = Math.max(answeredCount - score, 0);
+    const elapsedSec = Math.round((Date.now() - startTime) / 1000);
+    const mins = Math.floor(elapsedSec / 60);
+    const secs = elapsedSec % 60;
+    const timeStr = mins > 0 ? `${mins}m ${secs}s` : `${secs}s`;
+
+    const prevAccuracy = lastTestResult?.percentage ?? null;
+    const diff = prevAccuracy !== null ? accuracy - prevAccuracy : null;
+
+    const grade =
+      accuracy >= 85 ? { label: "¡Excelente! 🎉", cls: "excellent" } :
+      accuracy >= 70 ? { label: "Muy bien 👍", cls: "good" } :
+      accuracy >= 50 ? { label: "Regular", cls: "regular" } :
+      { label: "Necesitas practicar más", cls: "needsWork" };
 
     return (
-      <div className="result card">
-        <div className="resultIcon">🏆</div>
-        <h2>Test completado</h2>
-        <strong>
-          {score}/{answeredCount || totalQuestions}
-        </strong>
-        <p>{accuracy} %</p>
-        <p>
-          ✅ {score} aciertos · ❌ {Math.max(answeredCount - score, 0)} fallos
-          {skippedCount > 0 ? ` · ⏭ ${skippedCount} omitidas` : ""}
-        </p>
-
-        {failedQuestions.length > 0 && (
+      <div className="resultScreen">
+        <span className="resultIcon">🏆</span>
+        <h2 className="resultTitle">Test completado</h2>
+        <div className="resultScore">
+          <strong>{score}</strong>
+          <span>/ {answeredCount || totalQuestions}</span>
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <span className={`resultBadge ${grade.cls}`}>{grade.label}</span>
+        </div>
+        {diff !== null && (
+          <p className={`resultCompare ${diff > 0 ? "up" : diff < 0 ? "down" : ""}`}>
+            Comparado con tu último test: <b>{diff > 0 ? `↑ +${diff}%` : diff < 0 ? `↓ ${diff}%` : "= igual"}</b>
+          </p>
+        )}
+        <div className="resultStats">
+          <div className="resultStat correct-stat">
+            <small>Aciertos</small>
+            <strong>{score}</strong>
+            <small>{accuracy}%</small>
+          </div>
+          <div className="resultStat incorrect-stat">
+            <small>Fallos</small>
+            <strong>{incorrectCount}</strong>
+            <small>{answeredCount ? Math.round((incorrectCount / answeredCount) * 100) : 0}%</small>
+          </div>
+          <div className="resultStat skipped-stat">
+            <small>Omitidas</small>
+            <strong>{skippedCount}</strong>
+            <small>sin responder</small>
+          </div>
+        </div>
+        <p className="resultTime">⏱ Tiempo dedicado: {timeStr}</p>
+        <div className="resultActions">
+          {failedQuestions.length > 0 && (
+            <button
+              className="primary"
+              onClick={() => {
+                setTestQuestions(failedQuestions);
+                setI(0);
+                setScore(0);
+                setSkippedCount(0);
+                setFailedQuestions([]);
+                setDone(false);
+              }}
+            >
+              🔁 Repasar {failedQuestions.length} fallos
+            </button>
+          )}
           <button
-            className="primary"
+            className="secondary"
             onClick={() => {
-              setTestQuestions(failedQuestions);
               setI(0);
               setScore(0);
               setSkippedCount(0);
-              setFailedQuestions([]);
+              setSelectedAnswer(null);
+              setShowResult(false);
               setDone(false);
             }}
           >
-            Repasar fallos
+            Repetir test
           </button>
-        )}
-
-        <button
-          className="secondary"
-          onClick={() => {
-            setI(0);
-            setScore(0);
-            setSkippedCount(0);
-            setSelectedAnswer(null);
-            setShowResult(false);
-            setDone(false);
-          }}
-        >
-          Repetir test
-        </button>
-
-        <button className="secondary" onClick={resetSelection}>
-          Cambiar test
-        </button>
+          <button className="secondary" onClick={resetSelection}>
+            Cambiar test
+          </button>
+        </div>
       </div>
     );
   }
