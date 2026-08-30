@@ -16,6 +16,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 6 Enzimas (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-06.json",
 	},
+	7: {
+		pdfPath: "pdfs/Test tema 7 tecnicas instrumentales (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-07.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -68,7 +72,7 @@ function findOptionMarkers(items) {
 		const next = items[index + 1]?.str.trim() ?? "";
 		const expectedKey = optionKeys[markers.length];
 		const combined = `${current}${next}`;
-		const standardMatch = combined.match(/^([A-E])\s*[).]/);
+		const standardMatch = combined.match(/^([A-E])\s*[).]/i);
 		const unpunctuatedMatch = combined.match(/^([D])\s+[A-ZÁÉÍÓÚÑ]/);
 		const inferredKey =
 			topic === 4 &&
@@ -77,7 +81,11 @@ function findOptionMarkers(items) {
 			current === "El"
 				? "D"
 				: undefined;
-		const key = standardMatch?.[1] ?? unpunctuatedMatch?.[1] ?? inferredKey;
+		const key = (
+			standardMatch?.[1] ??
+			unpunctuatedMatch?.[1] ??
+			inferredKey
+		)?.toUpperCase();
 
 		if (key && key === expectedKey) {
 			markers.push({ key, index, inferred: Boolean(inferredKey) });
@@ -164,7 +172,9 @@ for (const question of questions) {
 		const optionText = joinItems(question.items.slice(marker.index, end));
 		const cleanedOptionText = marker.inferred
 			? optionText
-			: optionText.replace(/^[A-E](?:\s*[).]|\s+(?=[A-ZÁÉÍÓÚÑ]))\s*/, "").trim();
+			: optionText
+					.replace(/^[A-E](?:\s*[).]|\s+(?=[A-ZÁÉÍÓÚÑ]))\s*/i, "")
+					.trim();
 		options[marker.key] = cleanedOptionText
 			.replace(/\s+(?:NOTA|COMENTARIO|EXPLICACIÓN)\s*[.:]\s.*$/i, "")
 			.trim();
