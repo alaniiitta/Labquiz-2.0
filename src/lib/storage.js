@@ -31,6 +31,30 @@ export const saveUserData = (userData) => {
   }
 };
 
+export const createBackup = (userData, exportedAt = new Date().toISOString()) => ({
+  app: "LabQuiz 2.0",
+  version: 1,
+  exportedAt,
+  data: userData,
+});
+
+export const parseBackup = (content) => {
+  const parsed = JSON.parse(content);
+  const data = parsed?.data ?? parsed;
+
+  if (!data || typeof data !== "object" || Array.isArray(data)
+    || !data.progress || typeof data.progress !== "object" || Array.isArray(data.progress)) {
+    throw new Error("El archivo no contiene una copia válida de LabQuiz.");
+  }
+
+  return {
+    ...EMPTY_USER_DATA,
+    ...data,
+    progress: data.progress,
+    favorites: Array.isArray(data.favorites) ? data.favorites : [],
+  };
+};
+
 export const loadSavedTest = () => {
   try {
     return JSON.parse(localStorage.getItem(TEST_SESSION_KEY) || "null");

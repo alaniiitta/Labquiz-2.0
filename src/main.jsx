@@ -1,11 +1,12 @@
-import React,{useEffect,useState} from "react";
+import React,{useEffect,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck} from "lucide-react";
 import "./styles.css";
 
 import questionBank from "./questions";
 import {parsePdfQuestions} from "./pdfPipeline.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
+import {createBackup,loadUserData,parseBackup,saveUserData} from "./lib/storage.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 
@@ -28,8 +29,6 @@ const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
 const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
 const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${String(id).padStart(2,"0")}(?:\\D|$)` ,"i").test(path))?.[1]
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
-const STORAGE_KEY="labquiz.learning.v2";
-const loadUserData=()=>{try{const stored=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return {...stored,progress:stored.progress??{},favorites:Array.isArray(stored.favorites)?stored.favorites:[]}}catch{return {progress:{},favorites:[]}}};
 const getFailedQuestions=progress=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
 const getFavoriteQuestions=favorites=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>favorites.includes(getQuestionIdForProgress(question)));
 
@@ -38,12 +37,12 @@ function App(){
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  const openTest=(topicId,mode="topic")=>{setTestConfig(config=>({topicId,mode,sessionId:config.sessionId+1}));go("test")};
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
- useEffect(()=>localStorage.setItem(STORAGE_KEY,JSON.stringify(userData)),[userData]);
+ useEffect(()=>saveUserData(userData),[userData]);
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
   <button className="close" type="button" onClick={()=>setMobile(false)} aria-label="Cerrar menú"><X/></button>
     <nav className="nav">{[
-    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["review","Repaso",RotateCcw],["progress","Progreso",BarChart3],["simulacrum","Simulacro",Trophy]
+    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["review","Repaso",RotateCcw],["progress","Progreso",BarChart3],["simulacrum","Simulacro",Trophy],["settings","Configuración",Settings]
    ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
@@ -56,11 +55,12 @@ function App(){
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={()=>openTest(null,"failed")} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
-   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
+  {page==="simulacrum"&&<SimulacrumPage go={go}/>}
+  {page==="settings"&&<SettingsPage userData={userData} onRestore={setUserData}/>}
   </main>
  </div>
 }
-const pageTitle=p=>({summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro"}[p]);
+const pageTitle=p=>({summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
 
 function HomePage({go,openTest,progress}){
  const availableTopics=topics.filter(topic=>getQuestionBank(topic.id).length||getPdfUrl(topic.id));
@@ -221,6 +221,48 @@ function ProgressPage({progress,onStart}){
  return <div className="progressPage">
   <section className="progressOverview"><div><span className="eyebrow">DOMINIO GLOBAL</span><strong>{globalMastery}%</strong><p>Tu dominio aumenta al consolidar preguntas de cada tema.</p></div><div className="progressSummary"><div><b>{answered.toLocaleString("es-ES")}</b><small>Preguntas practicadas</small></div><div><b>{accuracy}%</b><small>Aciertos totales</small></div><div><b>{available.filter(topic=>topic.mastery>0).length}</b><small>Temas iniciados</small></div></div></section>
   <section className="progressTopics" aria-labelledby="topic-progress-title"><div className="progressSectionTitle"><div><span className="eyebrow">POR TEMA</span><h2 id="topic-progress-title">Tu avance</h2></div><small>{answered} de {totalQuestions.toLocaleString("es-ES")} preguntas practicadas</small></div><div className="progressTopicList">{topicProgress.map(topic=><article className="progressTopic" key={topic.id}><span className="progressTopicNumber">{String(topic.id).padStart(2,"0")}</span><div className="progressTopicBody"><div className="progressTopicHeading"><div><h3>{topic.title}</h3><small>{topic.total?`${topic.answered} de ${topic.total.toLocaleString("es-ES")} preguntas · ${topic.attempts?Math.round(topic.correct/topic.attempts*100):0}% aciertos`:"Banco pendiente"}</small></div><strong>{topic.mastery}%</strong></div><div className="progressTrack" role="progressbar" aria-label={`Dominio de ${topic.title}`} aria-valuemin="0" aria-valuemax="100" aria-valuenow={topic.mastery}><i style={{width:`${topic.mastery}%`}}/></div></div>{topic.total>0&&<button className="progressPractice" onClick={()=>onStart(topic.id)} title={`Practicar ${topic.title}`}><ChevronRight/></button>}</article>)}</div></section>
+ </div>
+}
+
+function SettingsPage({userData,onRestore}){
+ const importInput=useRef(null);
+ const [message,setMessage]=useState(null);
+ const progressCount=Object.keys(userData.progress??{}).length;
+ const favoritesCount=userData.favorites?.length??0;
+
+ const exportBackup=()=>{
+  const content=JSON.stringify(createBackup(userData),null,2);
+  const url=URL.createObjectURL(new Blob([content],{type:"application/json"}));
+  const link=document.createElement("a");
+  link.href=url;
+  link.download=`labquiz-copia-${new Date().toISOString().slice(0,10)}.json`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+  setMessage({type:"success",text:"Copia creada. Guárdala en Archivos, iCloud Drive o en otro lugar seguro."});
+ };
+
+ const importBackup=async event=>{
+  const file=event.target.files?.[0];
+  event.target.value="";
+  if(!file)return;
+  try{
+   const restored=parseBackup(await file.text());
+   const confirmed=window.confirm("Esta copia sustituirá el progreso y los favoritos guardados en este navegador. ¿Quieres continuar?");
+   if(!confirmed)return;
+   onRestore(restored);
+   setMessage({type:"success",text:"Copia restaurada correctamente. Tu progreso ya está actualizado."});
+  }catch(error){
+   setMessage({type:"error",text:error instanceof Error?error.message:"No se pudo leer la copia de seguridad."});
+  }
+ };
+
+ return <div className="settingsPage">
+  <section className="settingsIntro"><span className="settingsIcon"><ShieldCheck/></span><div><span className="eyebrow">DATOS Y SEGURIDAD</span><h2>Protege tu progreso</h2><p>Descarga una copia para recuperar tus datos si cambias de móvil, navegador o borras los datos del sitio.</p></div></section>
+  <section className="settingsCard"><div className="settingsCardText"><h3>Copia de seguridad</h3><p>Incluye tu dominio por tema, respuestas, preguntas falladas y favoritas.</p><div className="backupSummary"><span><b>{progressCount}</b> preguntas con actividad</span><span><b>{favoritesCount}</b> favoritas</span></div></div><div className="settingsActions"><button className="primary" onClick={exportBackup}><Download/> Descargar copia</button><button className="secondary" onClick={()=>importInput.current?.click()}><Upload/> Restaurar copia</button><input ref={importInput} className="backupFileInput" type="file" accept="application/json,.json" onChange={importBackup}/></div></section>
+  {message&&<div className={`backupMessage ${message.type}`} role="status">{message.text}</div>}
+  <section className="settingsNotice"><h3>Dónde guardarla</h3><p>En iPhone, elige <b>Guardar en Archivos</b> y selecciona iCloud Drive. La copia contiene datos de estudio, pero no contraseñas ni información bancaria.</p></section>
  </div>
 }
 
