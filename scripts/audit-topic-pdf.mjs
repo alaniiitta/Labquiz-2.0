@@ -38,6 +38,10 @@ const topicFiles = {
 		pdfPath: "pdfs/TEST tema 10 Banco de sangre (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-10.json",
 	},
+	11: {
+		pdfPath: "pdfs/TEST tema 11 Inmunología (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-11-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -138,21 +142,20 @@ function yellowPixelCount(context, viewport, item) {
 }
 
 function normalizeOptionLabels(question) {
-	if (topic !== "9") return question.items;
-
 	return question.items.map((item, index) => {
 		let text = item.str;
 
-		if (question.id === 96 && text.startsWith("E)")) {
+		if (topic === "9" && question.id === 96 && text.startsWith("E)")) {
 			text = text.replace(/^E\)/, "C)");
 		}
 		if (
-			(question.id === 118 && index === 14) ||
-			(question.id === 228 && index === 9)
+			topic === "9" &&
+			((question.id === 118 && index === 14) ||
+				(question.id === 228 && index === 9))
 		) {
 			text = text.replace(/^D\)/, "C)");
 		}
-		if (question.id === 124) {
+		if (topic === "9" && question.id === 124) {
 			const keyByIndex = new Map([
 				[5, "A"],
 				[7, "B"],
@@ -161,6 +164,9 @@ function normalizeOptionLabels(question) {
 			]);
 			const key = keyByIndex.get(index);
 			if (key) text = `${key}) ${text}`;
+		}
+		if (topic === "11" && question.id === 292 && index === 39) {
+			text = text.replace(/^A\s+/, "A) ");
 		}
 
 		return text === item.str ? item : { ...item, str: text };
