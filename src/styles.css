@@ -141,6 +141,113 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 .domainLegend .dot.yellow{background:#e4a800}
 .domainLegend .dot.green{background:#27a869}
 
+/* ── P2: Dashboard quick stats ── */
+.dashQuickStats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
+.dashStat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 8px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:3px}
+.dashStatEmoji{font-size:20px;line-height:1}
+.dashStat strong{font-size:22px;font-weight:900;color:var(--text);line-height:1.1}
+.dashStat small{font-size:10px;color:var(--muted);font-weight:600;letter-spacing:.3px;text-transform:uppercase}
+@media(max-width:480px){.dashQuickStats{grid-template-columns:repeat(2,1fr)}}
+
+/* ── P2: Resume card ── */
+.dashResumeCard{display:flex;align-items:center;justify-content:space-between;gap:12px;background:linear-gradient(135deg,#0d4f3c,#1a6b50);border-radius:14px;padding:14px 16px;margin-bottom:14px}
+.dashResumeInfo{display:flex;flex-direction:column;gap:3px}
+.dashResumeBadge{display:inline-block;background:#27a869;color:#fff;font-size:10px;font-weight:800;letter-spacing:.5px;border-radius:99px;padding:2px 8px;text-transform:uppercase}
+.dashResumeInfo strong{color:#fff;font-size:15px;font-weight:700}
+.dashResumeInfo small{color:#9bbfc5;font-size:12px}
+.dashResumeBtn{white-space:nowrap;flex-shrink:0;display:flex;align-items:center;gap:6px}
+@media(max-width:480px){.dashResumeCard{flex-direction:column;align-items:stretch}.dashResumeBtn{justify-content:center}}
+
+/* ── P2: Recommended topic ── */
+.dashRecommend{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px;margin-bottom:14px;flex-wrap:wrap}
+.dashRecommend>svg{color:var(--gold);flex-shrink:0}
+.dashRecommend>span{flex:1;font-size:13px;color:var(--text)}
+.dashRecommend>span b{color:var(--primary)}
+.dashRecommend>span small{color:var(--muted)}
+.dashRecommendBtn{white-space:nowrap;flex-shrink:0;font-size:12px;padding:6px 12px}
+@media(max-width:480px){.dashRecommend{flex-direction:column;align-items:flex-start}}
+
+/* ── P2: Weekly mini-chart ── */
+.dashWeekly{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 16px;margin-bottom:20px}
+.dashWeeklyTitle{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;display:block;margin-bottom:10px}
+.dashBars{display:flex;align-items:flex-end;gap:8px;height:64px}
+.dashBarCol{display:flex;flex-direction:column;align-items:center;gap:4px;flex:1}
+.dashBarTrack{display:flex;flex-direction:column-reverse;align-items:center;width:100%;flex:1;gap:2px}
+.dashBarCorrect{width:100%;background:#27a869;border-radius:4px 4px 0 0;transition:height .4s ease;min-height:0}
+.dashBarIncorrect{width:100%;background:#c94040;border-radius:4px 4px 0 0;transition:height .4s ease;min-height:0}
+.dashBarLabel{font-size:9px;color:var(--muted);font-weight:600;text-transform:capitalize}
+.dashBarLegend{display:flex;gap:12px;margin-top:8px;font-size:11px;color:var(--muted);flex-wrap:wrap}
+.dashBarLegend span{display:flex;align-items:center;gap:4px}
+.legendDot{display:inline-block;width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.legendGreen{background:#27a869}
+.legendRed{background:#c94040}
+
+/* ── P2: Topic selector domain colors ── */
+.topicCardHeader{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.topicMasteryEmoji{font-size:14px;line-height:1}
+.topicFailedBadge{background:#c94040;color:#fff;font-size:10px;font-weight:800;border-radius:99px;min-width:18px;height:18px;display:grid;place-items:center;padding:0 4px;line-height:1}
+.topicSelectCard.mastery-green{border-color:#27a86944}
+.topicSelectCard.mastery-yellow{border-color:#e4a80044}
+.topicSelectCard.mastery-red{border-color:#c9404044}
+
+/* ── P2: Answer feedback animations ── */
+@keyframes fadeInSlide{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shakeAnim{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+@keyframes popIn{0%{transform:scale(.5);opacity:0}60%{transform:scale(1.2)}100%{transform:scale(1);opacity:1}}
+@keyframes pulseBg{0%,100%{box-shadow:0 0 0 0 rgba(39,168,105,.25)}50%{box-shadow:0 0 0 10px rgba(39,168,105,0)}}
+
+.testCard{transition:background .25s ease}
+.testCard.answerFeedback-correct{background:#1a3a28}
+.testCard.answerFeedback-incorrect{background:#3a1a1a}
+.questionFade{animation:fadeInSlide .3s ease}
+
+.answers button.correct{background:rgba(39,168,105,.18);border-color:#27a869;color:#fff;animation:pulseBg .6s ease}
+.answers button.incorrect{background:rgba(201,64,64,.18);border-color:#c94040;color:#fff}
+.answers button.incorrect.shake{animation:shakeAnim .35s ease}
+
+.answerFeedbackIcon{text-align:center;font-size:36px;font-weight:900;animation:popIn .3s ease;line-height:1;margin:8px 0 4px}
+.answerFeedbackIcon.correct{color:#27a869}
+.answerFeedbackIcon.incorrect{color:#c94040}
+
+/* ── P2: Result screen donut ── */
+.resultDonut{display:flex;align-items:center;gap:16px;justify-content:center;margin:16px 0;flex-wrap:wrap}
+.resultDonut svg{flex-shrink:0}
+.donutLegend{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--text)}
+.donutLegend span{display:flex;align-items:center;gap:6px}
+.donutLegend i{display:inline-block;width:12px;height:12px;border-radius:50%;flex-shrink:0}
+
+/* ── P2: Failed preview & recommendation ── */
+.resultFailedPreview{background:rgba(201,64,64,.08);border:1px solid #c9404040;border-radius:12px;padding:14px;margin:14px 0;width:100%;box-sizing:border-box}
+.resultFailedPreview h3{font-size:13px;font-weight:700;color:#c94040;margin:0 0 8px}
+.resultFailedPreview ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.resultFailedPreview li{font-size:12px;color:var(--muted);padding-left:12px;position:relative}
+.resultFailedPreview li::before{content:"·";position:absolute;left:2px;color:#c94040}
+.resultFailedPreview li.muted{color:var(--muted);font-style:italic}
+.resultRecommendation{background:rgba(39,168,105,.08);border:1px solid #27a86940;border-radius:12px;padding:12px 16px;margin:10px 0 0;width:100%;box-sizing:border-box;text-align:center}
+.resultRecommendation p{margin:0;font-size:13px;color:var(--primary);font-weight:600}
+
+/* ── P2: Progress page charts ── */
+.progressSection{margin:0 0 24px;padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:14px}
+.progressSection h3{font-size:14px;font-weight:700;color:var(--text);margin:0 0 12px}
+.progressWeeklyChart{display:flex;align-items:flex-end;gap:8px;height:80px;margin-bottom:8px}
+.pwcCol{display:flex;flex-direction:column;align-items:center;gap:4px;flex:1}
+.pwcTrack{display:flex;flex-direction:column-reverse;align-items:center;width:100%;flex:1;gap:2px}
+.pwcCorrect{width:100%;background:#27a869;border-radius:4px 4px 0 0;transition:height .4s ease}
+.pwcIncorrect{width:100%;background:#c94040;border-radius:4px 4px 0 0;transition:height .4s ease}
+.pwcLabel{font-size:9px;color:var(--muted);font-weight:600;text-transform:capitalize}
+.accuracyLineChart{overflow-x:auto;padding-bottom:4px}
+.lineChartSvg{min-width:100%;display:block}
+.lineChartLabels{display:flex;gap:0;justify-content:space-between;margin-top:4px;font-size:10px;color:var(--muted)}
+.lineChartLabels span{text-align:center;flex:1}
+
+/* ── P2: Hard questions ── */
+.hardQuestionsList{display:flex;flex-direction:column;gap:10px}
+.hardQuestionItem{background:rgba(201,64,64,.06);border:1px solid #c9404028;border-radius:10px;padding:10px 12px}
+.hardQMeta{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+.hardQTopic{font-size:10px;font-weight:700;color:var(--muted);letter-spacing:.3px;text-transform:uppercase}
+.hardQFails{font-size:11px;font-weight:700;color:#c94040;background:rgba(201,64,64,.12);border-radius:99px;padding:2px 8px}
+.hardQText{font-size:12px;color:var(--text);margin:0;line-height:1.5}
+
 /* 5. Bottom navigation for mobile */
 .bottomNav{display:none}
 @media(max-width:700px){
