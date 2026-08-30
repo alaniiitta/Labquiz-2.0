@@ -5,6 +5,11 @@ import {
   getQuestionIdForProgress,
   isQuestionCurrentlyFailed,
 } from "../smartQuestionSelector";
+import {
+  getWeeklyStats,
+  getHardQuestions,
+  getAccuracyTrend,
+} from "../lib/analytics";
 
 function Stat({ icon, value, label }) {
   return (
@@ -38,6 +43,13 @@ function getMasteryColor(pct) {
 
 export function ProgressPage({ data }) {
   const accuracy = data.answered ? Math.round((data.correct / data.answered) * 100) : 0;
+  const accuracyLabel =
+    accuracy >= 85 ? "Excelente 🎉" :
+    accuracy >= 70 ? "Muy bien 👍" :
+    accuracy >= 50 ? "Regular" :
+    "Necesitas practicar";
+
+  const streak = data.streak ?? 0;
 
   const topicStats = topics.map((topic) => {
     const bank = getQuestionBank(topic.id);
@@ -60,8 +72,26 @@ export function ProgressPage({ data }) {
     return { topic, bank, answered, correct, failed, mastery, color };
   }).filter(Boolean);
 
+  // Weekly chart
+  const weeklyStats = getWeeklyStats(data.history);
+  const maxWeekTotal = Math.max(...weeklyStats.map((d) => d.total), 1);
+
+  // Last 10 tests accuracy trend
+  const last10 = data.history.slice(-10);
+
+  // Hard questions
+  const hardQuestions = getHardQuestions(data.progress, 5);
+
+  // Accuracy trend
+  const { trend, week: trendWeek } = getAccuracyTrend(data.history);
+  const trendLabel =
+    trend === "up" ? "📈 Mejorando esta semana" :
+    trend === "down" ? "📉 Bajando esta semana" :
+    "➡️ Estable esta semana";
+
   return (
     <div>
+      {/* ── S1: Resumen Global ── */}
       <div className="progressHero">
         <h2>Mi progreso</h2>
         <p>{data.tests} tests realizados · {data.answered} preguntas respondidas</p>
@@ -69,27 +99,97 @@ export function ProgressPage({ data }) {
 
       <div className="globalStats">
         <div className="globalStat">
-          <small>Aciertos</small>
+          <small>Precisión</small>
           <strong style={{ color: "#27a869" }}>{accuracy}%</strong>
-          <small>{data.correct} correctas</small>
+          <small>{accuracyLabel}</small>
+        </div>
+        <div className="globalStat">
+          <small>Racha</small>
+          <strong>{streak} 🔥</strong>
+          <small>tests seguidos</small>
         </div>
         <div className="globalStat">
           <small>Respondidas</small>
           <strong>{data.answered}</strong>
-          <small>de todas</small>
-        </div>
-        <div className="globalStat">
-          <small>Fallos</small>
-          <strong style={{ color: "#c94040" }}>{data.incorrect}</strong>
-          <small>incorrectas</small>
+          <small>{data.correct} correctas</small>
         </div>
         <div className="globalStat">
           <small>Tests</small>
           <strong>{data.tests}</strong>
-          <small>completados</small>
+          <small>{trendLabel}</small>
         </div>
       </div>
 
+      {/* ── S2: Gráfica semanal ── */}
+      {data.history.length > 0 && (
+        <div className="progressSection">
+          <h3>Actividad semanal</h3>
+          <div className="progressWeeklyChart">
+            {weeklyStats.map((day) => (
+              <div className="pwcCol" key={day.dateStr}>
+                <div className="pwcTrack">
+                  <div
+                    className="pwcCorrect"
+                    style={{ height: `${(day.correct / maxWeekTotal) * 100}%` }}
+                    title={`${day.correct} aciertos`}
+                  />
+                  <div
+                    className="pwcIncorrect"
+                    style={{ height: `${(day.incorrect / maxWeekTotal) * 100}%` }}
+                    title={`${day.incorrect} fallos`}
+                  />
+                </div>
+                <span className="pwcLabel">{day.label}</span>
+              </div>
+            ))}
+          </div>
+          <div className="dashBarLegend">
+            <span><i className="legendDot legendGreen" />Aciertos</span>
+            <span><i className="legendDot legendRed" />Fallos</span>
+          </div>
+        </div>
+      )}
+
+      {/* Accuracy of last 10 tests */}
+      {last10.length >= 2 && (
+        <div className="progressSection">
+          <h3>Precisión últimos {last10.length} tests</h3>
+          <div className="accuracyLineChart">
+            <svg viewBox={`0 0 ${last10.length * 40 - 10} 60`} className="lineChartSvg">
+              <polyline
+                fill="none"
+                stroke="var(--primary)"
+                strokeWidth="2"
+                strokeLinejoin="round"
+                points={last10.map((s, i) => {
+                  const pct = s.answered ? (s.correct / s.answered) * 100 : 0;
+                  return `${i * 40},${60 - (pct / 100) * 55}`;
+                }).join(" ")}
+              />
+              {last10.map((s, i) => {
+                const pct = s.answered ? Math.round((s.correct / s.answered) * 100) : 0;
+                return (
+                  <circle
+                    key={i}
+                    cx={i * 40}
+                    cy={60 - (pct / 100) * 55}
+                    r="4"
+                    fill="var(--primary)"
+                  />
+                );
+              })}
+            </svg>
+            <div className="lineChartLabels">
+              {last10.map((s, i) => {
+                const pct = s.answered ? Math.round((s.correct / s.answered) * 100) : 0;
+                return <span key={i}>{pct}%</span>;
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── S3: Tabla de temas ── */}
       <div className="topicsProgressSection">
         <h3>Progreso por tema</h3>
         <div className="domainLegend">
@@ -124,6 +224,28 @@ export function ProgressPage({ data }) {
           </div>
         )}
       </div>
+
+      {/* ── S4: Preguntas difíciles ── */}
+      {hardQuestions.length > 0 && (
+        <div className="progressSection">
+          <h3>Top preguntas difíciles</h3>
+          <div className="hardQuestionsList">
+            {hardQuestions.map(({ question, topic, failures }, idx) => (
+              <div className="hardQuestionItem" key={question.id ?? idx}>
+                <div className="hardQMeta">
+                  <span className="hardQTopic">T{String(topic.id).padStart(2, "0")} · {topic.title}</span>
+                  <span className="hardQFails">{failures} {failures === 1 ? "fallo" : "fallos"}</span>
+                </div>
+                <p className="hardQText">
+                  {question.question.length > 100
+                    ? question.question.slice(0, 100) + "…"
+                    : question.question}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
