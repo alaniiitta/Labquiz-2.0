@@ -2507,7 +2507,7 @@
         "A": "Anti-HBs",
         "B": "Anti-Hbe",
         "C": "Anti-HBc",
-        "D": "HBcAg Explicación. Pregunta difícil y puñetera, ya que preguntan por un perfil atípico. En los pacientes que se curan de la hepatitis B, tienen Ac anti HBc, Anti HBe y Anti-HBs positivos (de hecho éste último es el que indica curación). Tras la curación y pasado el tiempo los Ac anti HBe y Anti Hbs pueden ir descendiendo, haciéndose incluso negativos en algunos pacientes."
+        "D": "HBcAg"
       },
       "page": 19,
       "correctAnswer": "C",
@@ -2741,7 +2741,7 @@
         "A": "Unas 100 veces.",
         "B": "Unas 80 veces.",
         "C": "Unas 60 veces.",
-        "D": "Unas 20 veces. Comentario. La concentración de la orina va a depender de la cantidad total de proteínas en orina. En casos con pocas proteínas, se recomienda concentrar unas 100-150 veces"
+        "D": "Unas 20 veces."
       },
       "page": 20,
       "correctAnswer": "A",
@@ -2793,7 +2793,7 @@
         "A": "Transforma el amoníaco en creatinina.",
         "B": "Sintetiza glucosa a partir de ácido láctico.",
         "C": "Elimina compuestos tóxicos.",
-        "D": "Almacena vitaminas. Comentario. A pillar. Transforma el AMONIO en urea"
+        "D": "Almacena vitaminas."
       },
       "page": 21,
       "correctAnswer": "A",
@@ -2884,7 +2884,7 @@
         "A": "Movilizar ácidos grasos procedentes del tejido adiposo.",
         "B": "Sintetizar colesterol.",
         "C": "Utilizar la urea procedente de la degradación de los aminoácidos para producir amoniaco.",
-        "D": "Sintetizar albúmina. Comentario. Es al revés, transforma el amoniaco y amonio en urea para eliminarlo"
+        "D": "Sintetizar albúmina."
       },
       "page": 22,
       "correctAnswer": "C",
@@ -3111,7 +3111,7 @@
         "A": "Vénulas Portales.",
         "B": "Vena Central.",
         "C": "Arteriolas hepáticas.",
-        "D": "Conductos Biliares. Comentario. Los espacios porta son regiones de tejido conjuntivo procedente de la cápsula de Glisson de aspecto triangular que se encuentran en la periferia de los lóbulos hepáticos"
+        "D": "Conductos Biliares."
       },
       "page": 23,
       "correctAnswer": "B",
@@ -3137,11 +3137,11 @@
         "A": "La transferrina es la proteína principal de la banda de las betaglobulinas.",
         "B": "La proteína C reactiva aparece en la banda de las inmunoglobulinas.",
         "C": "La lipoproteína HDL aparece en la banda de las alfa-1-globulinas.",
-        "D": "La prealbúmina es la banda más ancha y grande del proteinograma. Comentario. Recuerda que la PCR puede aparecer en beta o en gamma"
+        "D": "La prealbúmina es la banda más ancha y grande del proteinograma."
       },
       "page": 23,
       "correctAnswer": "D",
-      "correctText": "La prealbúmina es la banda más ancha y grande del proteinograma. Comentario. Recuerda que la PCR puede aparecer en beta o en gamma"
+      "correctText": "La prealbúmina es la banda más ancha y grande del proteinograma."
     },
     {
       "id": 243,
@@ -3331,11 +3331,11 @@
         "A": "La bilirrubina conjugada en el hepatocito forma la bilirrubina indirecta.",
         "B": "La bilirrubina indirecta se determina directamente en el analizador.",
         "C": "Los niveles de bilirrubina indirecta son un índice fiable de la función hepática.",
-        "D": "Un aumento aislado de la bilirrubina directa indica colestasis. Explicación. No siempre, pero es la menos mala de las opciones. La dieron como correcta, aunque está cogido con pinzas"
+        "D": "Un aumento aislado de la bilirrubina directa indica colestasis."
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "Un aumento aislado de la bilirrubina directa indica colestasis. Explicación. No siempre, pero es la menos mala de las opciones. La dieron como correcta, aunque está cogido con pinzas"
+      "correctText": "Un aumento aislado de la bilirrubina directa indica colestasis."
     },
     {
       "id": 258,
@@ -4004,7 +4004,7 @@
         "A": "Ferritina",
         "B": "Fibrinógeno",
         "C": "Albúmina",
-        "D": "Prealbúmina Comentario. La presión oncótica o presión coloidosmótica es una forma de presión osmótica"
+        "D": "Prealbúmina"
       },
       "page": 31,
       "correctAnswer": "C",
@@ -4160,7 +4160,7 @@
         "A": "Haptoglobina.",
         "B": "Ferroxidasa.",
         "C": "Hemopexina.",
-        "D": "2 - macroglobulina. Comentario. Haptoglobina se une a hemoglobina libre y hemopexina a hemo libre"
+        "D": "2 - macroglobulina."
       },
       "page": 32,
       "correctAnswer": "C",
@@ -4173,11 +4173,11 @@
         "A": "Prealbúmina.",
         "B": "Inmunoglobulinas.",
         "C": "Proteína ligada de retinal.",
-        "D": "Albumina. Comentario. OJO, es la más grande y constituye el 55%, pero la más ancha suele ser la fracción gamma. No la anularon."
+        "D": "Albumina."
       },
       "page": 32,
       "correctAnswer": "D",
-      "correctText": "Albumina. Comentario. OJO, es la más grande y constituye el 55%, pero la más ancha suele ser la fracción gamma. No la anularon."
+      "correctText": "Albumina."
     },
     {
       "id": 323,

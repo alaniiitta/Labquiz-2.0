@@ -12,6 +12,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 5 Función hepática y proteínas (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-05.json",
 	},
+	6: {
+		pdfPath: "pdfs/Test tema 6 Enzimas (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-06.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -162,7 +166,7 @@ for (const question of questions) {
 			? optionText
 			: optionText.replace(/^[A-E](?:\s*[).]|\s+(?=[A-ZÁÉÍÓÚÑ]))\s*/, "").trim();
 		options[marker.key] = cleanedOptionText
-			.replace(/\s+NOTA:\s.*$/i, "")
+			.replace(/\s+(?:NOTA|COMENTARIO|EXPLICACIÓN)\s*[.:]\s.*$/i, "")
 			.trim();
 	}
 
