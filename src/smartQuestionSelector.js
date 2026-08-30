@@ -201,11 +201,38 @@ export function shuffleQuestionOptions(question, random = Math.random) {
   const optionsKey = Array.isArray(question.opciones) ? "opciones" : "answers";
   const correctKey = Object.prototype.hasOwnProperty.call(question, "respuestaCorrecta") ? "respuestaCorrecta" : "correctAnswer";
   const options = question[optionsKey] ?? [];
+
+  // Guard: if no options, return question unchanged to avoid desync
+  if (options.length === 0) return question;
+
   const correctIndex = typeof question[correctKey] === "number"
     ? question[correctKey]
     : options.indexOf(question[correctKey]);
+
+  // Guard: if correctIndex is invalid or out of range, return question unchanged
+  if (correctIndex < 0 || correctIndex >= options.length) return question;
+
   const shuffled = shuffle(options.map((text, index) => ({ text, index })), random);
-  return { ...question, [optionsKey]: shuffled.map((item) => item.text), [correctKey]: shuffled.findIndex((item) => item.index === correctIndex) };
+  const newCorrectIndex = shuffled.findIndex((item) => item.index === correctIndex);
+
+  // Guard: if mapping failed, return question unchanged
+  if (newCorrectIndex === -1) return question;
+
+  return { ...question, [optionsKey]: shuffled.map((item) => item.text), [correctKey]: newCorrectIndex };
+}
+
+export function validateQuestionSync(question) {
+  const optionsKey = Array.isArray(question.opciones) ? "opciones" : "answers";
+  const correctKey = Object.prototype.hasOwnProperty.call(question, "respuestaCorrecta") ? "respuestaCorrecta" : "correctAnswer";
+  const options = question[optionsKey];
+  const correctAnswer = question[correctKey];
+  return (
+    Array.isArray(options)
+    && options.length > 0
+    && typeof correctAnswer === "number"
+    && correctAnswer >= 0
+    && correctAnswer < options.length
+  );
 }
 
 export const getQuestionIdForProgress = getQuestionId;

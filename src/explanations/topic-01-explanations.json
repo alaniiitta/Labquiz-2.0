@@ -1,0 +1,58 @@
+{
+  "tema-01": {
+    "1": {
+      "respuestaCorrecta": "A",
+      "porQueLaCorrecta": "Los controles de calidad deben situarse en concentraciones intermedias entre los calibradores, NO sobre ellos, para detectar errores de interpolación. Los valores 3, 20 y 40 ng/mL caen entre los niveles 2-5, 10-25 y 25-50 respectivamente, cubriendo rango bajo, medio y alto.",
+      "porQueNoLasOtras": {
+        "B": "1 y 10 coinciden con calibradores exactos, lo que no detecta errores de ajuste de la curva.",
+        "C": "45 ng/mL supera el último calibrador (50), situándose fuera del rango lineal.",
+        "D": "16 ng/mL cae en zona mid pero los otros dos valores (4 y 8) están demasiado agrupados en el rango bajo."
+      },
+      "ojoEnElExamen": "Los controles NO deben coincidir con los puntos de la recta de calibrado; deben interpolarse entre ellos para ser informativos.",
+      "claveMemorizar": "Controles de calidad = entre calibradores, no sobre ellos. Regla: bajo-medio-alto del rango."
+    },
+    "2": {
+      "respuestaCorrecta": "C",
+      "porQueLaCorrecta": "La calidad es responsabilidad de TODOS los miembros del laboratorio, no solo del jefe o del supervisor. Esto es un principio fundamental de los sistemas de gestión de calidad (ISO 15189): la implicación de todo el personal.",
+      "porQueNoLasOtras": {
+        "A": "El Jefe lidera pero no asume la responsabilidad en exclusiva.",
+        "D": "La Unidad de Calidad del Hospital es un órgano de apoyo, no el responsable directo de la calidad del laboratorio."
+      },
+      "ojoEnElExamen": "Pregunta trampa clásica: se tiende a marcar el Jefe. La norma ISO 15189 establece que la calidad es responsabilidad colectiva.",
+      "claveMemorizar": "Calidad = responsabilidad de TODO el personal → ISO 15189."
+    },
+    "3": {
+      "respuestaCorrecta": "B",
+      "porQueLaCorrecta": "La calibración es el conjunto de operaciones que establece la relación entre los valores indicados por un instrumento y los valores verdaderos, garantizando la exactitud de sus especificaciones. Es diferente del mantenimiento (conservación del equipo) o la verificación (comprobación puntual sin ajuste).",
+      "porQueNoLasOtras": {
+        "A": "El Control de Calidad evalúa el proceso analítico globalmente, no el instrumento de forma individual.",
+        "C": "La verificación comprueba que el equipo sigue especificaciones pero sin ajustarlo.",
+        "D": "El mantenimiento conserva el equipo en buen estado pero no establece exactitud de medida."
+      },
+      "ojoEnElExamen": "No confundir calibración con verificación: calibrar = ajustar y garantizar exactitud; verificar = comprobar sin ajustar.",
+      "claveMemorizar": "Calibración → asegura exactitud del instrumento. Verificación → solo comprueba."
+    },
+    "4": {
+      "respuestaCorrecta": "A",
+      "porQueLaCorrecta": "Lo primero al recibir una muestra es la fase preanalítica de recepción: comprobar que la petición médica y el etiquetado son correctos. Sin esta verificación, cualquier procesamiento posterior carece de trazabilidad y puede derivar en errores graves (muestra intercambiada, petición incompleta).",
+      "porQueNoLasOtras": {
+        "B": "Centrifugar es un paso posterior dentro de la fase preanalítica.",
+        "C": "El registro también es previo al procesado, pero la primera acción es la verificación documental.",
+        "D": "Procesar la muestra ocurre en la fase analítica, siempre posterior."
+      },
+      "ojoEnElExamen": "El orden correcto en fase preanalítica: recepción y verificación → registro → preparación (centrifugación, etc.) → procesado.",
+      "claveMemorizar": "Primera acción = comprobar petición y etiquetado. Nunca procesar sin verificar."
+    },
+    "5": {
+      "respuestaCorrecta": "B",
+      "porQueLaCorrecta": "Las Normas ISO (International Organization for Standardization) son el conjunto de normas internacionales que definen los estándares de calidad y su gestión. Para laboratorios clínicos la norma específica es la ISO 15189.",
+      "porQueNoLasOtras": {
+        "A": "Las normas políticas son regulaciones gubernamentales, no estándares de calidad.",
+        "C": "Las normas de responsabilidades hacen referencia al marco legal o laboral.",
+        "D": "Las normas jurídicas son leyes o reglamentos de aplicación legal."
+      },
+      "ojoEnElExamen": "Para laboratorios clínicos: ISO 15189 (calidad y competencia técnica). No confundir con ISO 9001 (calidad genérica de empresas).",
+      "claveMemorizar": "Normas internacionales de calidad = ISO. Laboratorio clínico = ISO 15189."
+    }
+  }
+}
