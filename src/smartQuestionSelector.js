@@ -105,7 +105,7 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
   const selected = [];
   const groups = [
     { items: unique.filter((item) => !item.state.vecesVista), ratio: 0.35 },
-    { items: unique.filter((item) => item.state.vecesFallada || item.state.estado === LEARNING_STATUS.DIFFICULT), ratio: 0.35 },
+    { items: unique.filter((item) => isQuestionCurrentlyFailed(item.state) || item.state.estado === LEARNING_STATUS.DIFFICULT), ratio: 0.35 },
     { items: unique.filter((item) => item.state.vecesVista && item.state.fechaProximoRepaso && item.state.fechaProximoRepaso <= now), ratio: 0.2 },
     { items: unique, ratio: 0.1 },
   ];
@@ -175,6 +175,26 @@ export function recordQuestionAnswer(question, userProgress = {}, isCorrect, now
         : LEARNING_STATUS.LEARNING,
   };
   return { ...userProgress, [id]: next };
+}
+
+export function getTopicProgress(questions = [], userProgress = {}, topicId = null) {
+  if (!questions.length) return { mastery: 0, answered: 0, correct: 0, attempts: 0 };
+
+  const states = questions.map((question, index) => userProgress[getQuestionId(
+    topicId == null ? question : { ...question, topicId },
+    index,
+  )] ?? createInitialQuestionProgress());
+  const answered = states.filter((state) => state.vecesVista > 0).length;
+  const correct = states.reduce((total, state) => total + state.vecesAcertada, 0);
+  const attempts = states.reduce((total, state) => total + state.vecesVista, 0);
+  const masteryPoints = states.reduce((total, state) => total + Math.max(0, Math.min(5, state.nivelDominio)), 0);
+
+  return {
+    mastery: Math.round((masteryPoints / (questions.length * 5)) * 100),
+    answered,
+    correct,
+    attempts,
+  };
 }
 
 export function shuffleQuestionOptions(question, random = Math.random) {
