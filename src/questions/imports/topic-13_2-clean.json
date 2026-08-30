@@ -99,7 +99,8 @@
       "id": 8,
       "question": "Una de las siguientes no es una tinción diferencial:",
       "options": {
-        "A": "Tinción AAR (Ácido Alcohol Resistente). B Tinción de esporas.",
+        "A": "Tinción AAR (Ácido Alcohol Resistente).",
+        "B": "Tinción de esporas.",
         "C": "Tinción de Gram.",
         "D": "Tinción con Fuchsina."
       },
@@ -151,7 +152,7 @@
       "question": "¿Cuál es la tinción de elección para el estudio de meningitis bacteriana en el LCR?",
       "options": {
         "A": "Tinción de rodamina",
-        "B": "Tinción de Giemsa Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Tinción de Giemsa",
         "C": "Tinción de Gram",
         "D": "Tinción de safranina"
       },
@@ -296,7 +297,7 @@
         "A": "Violeta de genciana, lugol, safranina, alcohol- acetona",
         "B": "Violeta de genciana, alcohol-acetona, lugol, safranina",
         "C": "Violeta de genciana, lugol, alcohol-acetona, safranina",
-        "D": "Safranina, lugol, violeta de genciana, alcohol- acetona Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+        "D": "Safranina, lugol, violeta de genciana, alcohol- acetona"
       },
       "page": 2,
       "correctAnswer": "C",
@@ -438,7 +439,7 @@
       "options": {
         "A": "Las bacterias gram-negativas carecen de membrana lipídica.",
         "B": "Las bacterias gram- positivas tienen una única membrana lipídica y las gram-negativas tiene dos.",
-        "C": "Las bacterias gram- positivas carecen de pared celular. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Las bacterias gram- positivas carecen de pared celular.",
         "D": "La pared celular de las bacterias gram-positivas es mucho más delgada que la de las gram- negativas."
       },
       "page": 3,
@@ -580,13 +581,13 @@
       "question": "La capacidad de resistir la decoloración ácida-alcohol de las micobacterias radica en:",
       "options": {
         "A": "La presencia de cápsulas",
-        "B": "Los ácidos micólicos de la pared celular Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Los ácidos micólicos de la pared celular",
         "C": "Los ácidos teicoicos de la pared celular",
         "D": "La unión del colorante a los ácidos nucleicos"
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "Los ácidos micólicos de la pared celular Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      "correctText": "Los ácidos micólicos de la pared celular"
     },
     {
       "id": 46,
@@ -733,7 +734,7 @@
     },
     {
       "id": 57,
-      "question": "Antes del descubrimiento de los microorganismos, los seres vivos se clasificaban en dos reinos: el reino animal y el vegetal; a partir de dicho descubrimiento Tema 13.2 Tinciones, bioquímica y morfología bacteriana se realiza una nueva clasificación que incluye un nuevo reino; este reino es el de:",
+      "question": "Antes del descubrimiento de los microorganismos, los seres vivos se clasificaban en dos reinos: el reino animal y el vegetal; a partir de dicho descubrimiento se realiza una nueva clasificación que incluye un nuevo reino; este reino es el de:",
       "options": {
         "A": "Arqueas.",
         "B": "Eucariotas.",
@@ -867,7 +868,7 @@
       "options": {
         "A": "Ureasa",
         "B": "Fosfatasa",
-        "C": "Lipasa Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "C": "Lipasa",
         "D": "Catalasa"
       },
       "page": 6,
@@ -1006,7 +1007,7 @@
     },
     {
       "id": 78,
-      "question": "En el estudio morfológico las bacterias se pueden diferenciar los cocos según si se agrupan por pares, Tema 13.2 Tinciones, bioquímica y morfología bacteriana en racimos, en tétradas o en cadenas. Entonces, los agrupamos respectivamente en:",
+      "question": "En el estudio morfológico las bacterias se pueden diferenciar los cocos según si se agrupan por pares, en racimos, en tétradas o en cadenas. Entonces, los agrupamos respectivamente en:",
       "options": {
         "A": "Estafilococos, vibriones, campilobacterias y estreptococos",
         "B": "Estafilococos, estreptococos, micrococos y espirilos",
@@ -1086,14 +1087,14 @@
       "id": 84,
       "question": "¿Cuál de estas se emplea como tinción de BAAR?",
       "options": {
-        "A": "Zielh_nielsen",
+        "A": "Zielh nielsen",
         "B": "Wirtz-conklin",
         "C": "Moeller",
         "D": "A y b son ciertas."
       },
       "page": 8,
       "correctAnswer": "A",
-      "correctText": "Zielh_nielsen"
+      "correctText": "Zielh nielsen"
     },
     {
       "id": 85,
@@ -1164,7 +1165,7 @@
       "id": 90,
       "question": "¿Cuál de los siguientes microorganismos no presenta cápsula polisacarídica?",
       "options": {
-        "A": "Clostridium perfringens Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "A": "Clostridium perfringens",
         "B": "Bacillus anthracis",
         "C": "Klebsiella pneumoniae",
         "D": "Streptococcus pyogenes"
@@ -1292,7 +1293,7 @@
     },
     {
       "id": 100,
-      "question": "MALDI_ TOF es una técnica que, de momento, no se utiliza en los laboratorios de Microbiología Clínica para la identificación de:",
+      "question": "MALDI TOF es una técnica que, de momento, no se utiliza en los laboratorios de Microbiología Clínica para la identificación de:",
       "options": {
         "A": "Parásitos",
         "B": "Levaduras",
@@ -1308,7 +1309,7 @@
       "question": "El diagnóstico serológico no es útil en el diagnóstico de las infecciones producidas · por:",
       "options": {
         "A": "Brucella",
-        "B": "Virus Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Virus",
         "C": "Anaerobios",
         "D": "Sífilis"
       },
@@ -1438,13 +1439,13 @@
       "question": "Indique cuál sería la tinción más correcta para visualizar Cryptococcus neoformans:",
       "options": {
         "A": "Tinción de Gram.",
-        "B": "Tinción de tinta china. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Tinción de tinta china.",
         "C": "Tinción de Giemsa.",
         "D": "Tinción de Ziehl-Neelsen."
       },
       "page": 10,
       "correctAnswer": "B",
-      "correctText": "Tinción de tinta china. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+      "correctText": "Tinción de tinta china."
     },
     {
       "id": 112,
@@ -1583,7 +1584,7 @@
         "A": "Realizar antibiogramas cuantitativos de forma totalmente automatizada mediante espectrometría de masas.",
         "B": "Realizar la identificación de forma rápida y fiable de un amplio abanico de microorganismos mediante espectrometría de masas.",
         "C": "Identificar microorganismos mediante la amplificación y secuenciación de ácidos nucleicos.",
-        "D": "Todas son correctas. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+        "D": "Todas son correctas."
       },
       "page": 11,
       "correctAnswer": "B",
@@ -1739,7 +1740,7 @@
         "A": "Pseudomonas.",
         "B": "Neisseria.",
         "C": "Acinectobacter.",
-        "D": "Moraxella. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+        "D": "Moraxella."
       },
       "page": 12,
       "correctAnswer": "C",
@@ -1800,11 +1801,11 @@
       "options": {
         "A": "Virus.",
         "B": "Hongos.",
-        "C": "Bacterias. Comentario. Pregunta difícil. El peptidoglicano consiste de: un esqueleto de glicano (polisacárido) que está compuesto de ácido N-acetil murámico y N-acetil glucosamina, cadenas laterales de péptidos conteniendo D- y L- aminoácidos y algunas veces ácido diaminopimélico (especialmente en Gram negativas)"
+        "C": "Bacterias."
       },
       "page": 13,
       "correctAnswer": "C",
-      "correctText": "Bacterias. Comentario. Pregunta difícil. El peptidoglicano consiste de: un esqueleto de glicano (polisacárido) que está compuesto de ácido N-acetil murámico y N-acetil glucosamina, cadenas laterales de péptidos conteniendo D- y L- aminoácidos y algunas veces ácido diaminopimélico (especialmente en Gram negativas)"
+      "correctText": "Bacterias."
     },
     {
       "id": 140,
@@ -1865,7 +1866,7 @@
         "A": "Tinción de Ziehi-Neelsen.",
         "B": "Tinción de Wirtz-Conklin.",
         "C": "Tinción de naranja de acridina.",
-        "D": "Tinción de Gram. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+        "D": "Tinción de Gram."
       },
       "page": 13,
       "correctAnswer": "C",
@@ -1989,11 +1990,11 @@
         "A": "Serratia marcescens.",
         "B": "Haemophilus ducrey.",
         "C": "Bordetella pertussis.",
-        "D": "Legionella pneumophila. Comentario: de todas ellas es la que peor se tiñe. Legionella es un bacilo gramnegativo que se tiñe débilmente con la coloración de contraste característica de la tinción de Gram, por lo que es recomendable la utilización de fuchsina básica al 0,1% en vez de safranina en esta tinción"
+        "D": "Legionella pneumophila."
       },
       "page": 14,
       "correctAnswer": "D",
-      "correctText": "Legionella pneumophila. Comentario: de todas ellas es la que peor se tiñe. Legionella es un bacilo gramnegativo que se tiñe débilmente con la coloración de contraste característica de la tinción de Gram, por lo que es recomendable la utilización de fuchsina básica al 0,1% en vez de safranina en esta tinción"
+      "correctText": "Legionella pneumophila."
     },
     {
       "id": 155,
@@ -2012,7 +2013,7 @@
       "id": 156,
       "question": "Sobre la tinción de gram, señale la respuesta correcta",
       "options": {
-        "A": "Es una tinción simple Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "A": "Es una tinción simple",
         "B": "Diferencia las bacterias en gram positivas y gram negativas",
         "C": "Permite ver la morfología y movilidad de las bacterias",
         "D": "Se utiliza para ver parásitos en heces"
@@ -2156,7 +2157,7 @@
       "question": "Señale cuál de las siguientes afirmaciones es correcta:",
       "options": {
         "A": "Todas las células bacterianas tienen pared celular, membrana citoplasmática, citoplasma y material nuclear.",
-        "B": "Todas las células bacterianas tienen cápsula, membrana citoplasmática, citoplasma y material nuclear. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "B": "Todas las células bacterianas tienen cápsula, membrana citoplasmática, citoplasma y material nuclear.",
         "C": "Todas las células bacterianas tienen pared celular, membrana citoplasmática y núcleo."
       },
       "page": 15,
@@ -2170,7 +2171,7 @@
         "A": "Micoplasma.",
         "B": "Gardnerella vaginalis.",
         "C": "Salmonella spp.",
-        "D": "Pseudomona spp. Comentario: debido a que no tiene pared celular"
+        "D": "Pseudomona spp."
       },
       "page": 16,
       "correctAnswer": "A",
@@ -2274,7 +2275,7 @@
         "A": "Tinción de Kinyoun.",
         "B": "Tinción de Ziehl-Neelsen.",
         "C": "Tinción de Giemsa.",
-        "D": "Tinción auramina-rodamina. Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+        "D": "Tinción auramina-rodamina."
       },
       "page": 16,
       "correctAnswer": "C",
@@ -2414,7 +2415,7 @@
       "id": 187,
       "question": "Indique la respuesta correcta:",
       "options": {
-        "A": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan de color violeta. Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+        "A": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan de color violeta.",
         "B": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram positivos quedan de color rojo.",
         "C": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan de color azul.",
         "D": "Tras la decoloración, en la Tinción de Gram, los gérmenes gram negativos quedan sin color."
@@ -2542,7 +2543,7 @@
     },
     {
       "id": 197,
-      "question": "La capacidad de resistir la decoloración ácida-alcohol de las micobacterias radica en: Tema 13.2 Tinciones, bioquímica y morfología bacteriana",
+      "question": "La capacidad de resistir la decoloración ácida-alcohol de las micobacterias radica en:",
       "options": {
         "A": "La presencia de cápsulas",
         "B": "Los ácidos micólicos de la pared celular",
@@ -2586,11 +2587,11 @@
         "A": "Tinción de cápsulas.",
         "B": "Tinción de corpúsculos metacromáticos.",
         "C": "Tinción de flagelos.",
-        "D": "Tinción de esporas. Comentario: por ejemplo en la T. Wirtz Cortitlin"
+        "D": "Tinción de esporas."
       },
       "page": 19,
       "correctAnswer": "D",
-      "correctText": "Tinción de esporas. Comentario: por ejemplo en la T. Wirtz Cortitlin"
+      "correctText": "Tinción de esporas."
     },
     {
       "id": 201,
@@ -2677,7 +2678,7 @@
         "A": "50S",
         "B": "70S",
         "C": "80S",
-        "D": "60S Tema 13.2 Tinciones, bioquímica y morfología bacteriana"
+        "D": "60S"
       },
       "page": 19,
       "correctAnswer": "B",

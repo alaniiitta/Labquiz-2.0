@@ -136,7 +136,7 @@
     },
     {
       "id": 11,
-      "question": "Por la mañana envían a laboratorio unas muestras de LCR y de orina para cultivo de bacterias. Dichas muestras han sido recogidas y refrigeradas durante TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas) la noche. ¿Qué muestra rechazaríamos por no haber sido guardada adecuadamente?",
+      "question": "Por la mañana envían a laboratorio unas muestras de LCR y de orina para cultivo de bacterias. Dichas muestras han sido recogidas y refrigeradas durante la noche. ¿Qué muestra rechazaríamos por no haber sido guardada adecuadamente?",
       "options": {
         "A": "La muestra de LCR.",
         "B": "La muestra de orina.",
@@ -153,12 +153,12 @@
       "options": {
         "A": "Menos de 10.000 UFC/ ml.",
         "B": "Entre 10.000 y 100.000 UFC/ ml.",
-        "C": "Más de 100 .000 UFC/ ml.",
+        "C": "Más de 100.000 UFC/ ml.",
         "D": "No debe aparecer ninguna colonia en la placa inoculada."
       },
       "page": 2,
       "correctAnswer": "C",
-      "correctText": "Más de 100 .000 UFC/ ml."
+      "correctText": "Más de 100.000 UFC/ ml."
     },
     {
       "id": 13,
@@ -284,7 +284,7 @@
         "A": "Venosa.",
         "B": "Capilar.",
         "C": "Vaginal.",
-        "D": "Arterial. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+        "D": "Arterial."
       },
       "page": 2,
       "correctAnswer": "C",
@@ -424,9 +424,9 @@
       "id": 33,
       "question": "A la hora de interpretar un resultado positivo de un urocultivo de orina obtenida por punción suprapúbica, es significativo un recuento de:",
       "options": {
-        "A": ">102 ufc/mL.",
-        "B": ">103 ufc/mL.",
-        "C": ">105 ufc/mL.",
+        "A": ">10 2 ufc/mL.",
+        "B": ">10 3 ufc/mL.",
+        "C": ">10 5 ufc/mL.",
         "D": "Cualquier recuento es significativo."
       },
       "page": 3,
@@ -440,11 +440,11 @@
         "A": "S. viridans.",
         "B": "S. pneumoniae.",
         "C": "S. pyogenes.",
-        "D": "S. aureus. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+        "D": "S. aureus."
       },
       "page": 3,
       "correctAnswer": "D",
-      "correctText": "S. aureus. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+      "correctText": "S. aureus."
     },
     {
       "id": 35,
@@ -578,7 +578,7 @@
     },
     {
       "id": 45,
-      "question": "Varón de 68 años con antecedentes de hipertensión arterial, obesidad y cardiopatía isquémica. Ingresa por presentar rachas de taquicardia ventricular sostenida. Tras cardioversión eléctrica, se insertó una vía central en la vena femoral derecha. Después de TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas) una semana de ingreso sin complicaciones, el paciente comenzó al octavo día con fiebre de 38°C, precedida de tiritona. La exploración física fue normal y no presentaba disnea, tos ni dolor torácico. Se solicita al laboratorio de Microbiología urocultivo, hemocultivo seriado y cultivo de punta de catéter tras ser retirado. El urocultivo fue negativo. En los hemocultivos y cultivo de la punta de catéter se aislaron colonias Staphylococcus Epidermidis. ¿Cómo se debe remitir la punta del catéter al laboratorio de Microbiología?",
+      "question": "Varón de 68 años con antecedentes de hipertensión arterial, obesidad y cardiopatía isquémica. Ingresa por presentar rachas de taquicardia ventricular sostenida. Tras cardioversión eléctrica, se insertó una vía central en la vena femoral derecha. Después de una semana de ingreso sin complicaciones, el paciente comenzó al octavo día con fiebre de 38°C, precedida de tiritona. La exploración física fue normal y no presentaba disnea, tos ni dolor torácico. Se solicita al laboratorio de Microbiología urocultivo, hemocultivo seriado y cultivo de punta de catéter tras ser retirado. El urocultivo fue negativo. En los hemocultivos y cultivo de la punta de catéter se aislaron colonias Staphylococcus Epidermidis. ¿Cómo se debe remitir la punta del catéter al laboratorio de Microbiología?",
       "options": {
         "A": "En torunda de alginato en medio de transporte",
         "B": "En jeringa",
@@ -700,7 +700,7 @@
         "A": "hay infección renal",
         "B": "hay infección de la vejiga",
         "C": "se considera probable contaminación fecal",
-        "D": "se considera cultivo negativo TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+        "D": "se considera cultivo negativo"
       },
       "page": 5,
       "correctAnswer": "C",
@@ -829,7 +829,7 @@
       "options": {
         "A": "Streptococcus pyogenes.",
         "B": "Streptococcus agalactiae.",
-        "C": "Streptococcus del grupo viridans. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)",
+        "C": "Streptococcus del grupo viridans.",
         "D": "Streptococcus pneumoniae"
       },
       "page": 6,
@@ -947,11 +947,11 @@
         "A": "Explicar al paciente las normas de recogida.",
         "B": "Proporcionar al paciente un recipiente estéril adecuado.",
         "C": "Si la tos no es productiva, utilizar nebulizadores o fisioterapia para obtener la muestra.",
-        "D": "Todas son correctas. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+        "D": "Todas son correctas."
       },
       "page": 7,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+      "correctText": "Todas son correctas."
     },
     {
       "id": 74,
@@ -1096,7 +1096,7 @@
     },
     {
       "id": 85,
-      "question": "Paciente adolescente que acude a urgencias con fiebre elevada y ciertos signos neurológicos. Se le realiza punción lumbar para la obtención de LCR (líquido cefalorraquídeo) y punción venosa para el cultivo de sangre. ¿A qué temperatura se mantendrá TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas) la muestra de LCR para el cultivo de bacterias si no podemos procesar inmediatamente?",
+      "question": "Paciente adolescente que acude a urgencias con fiebre elevada y ciertos signos neurológicos. Se le realiza punción lumbar para la obtención de LCR (líquido cefalorraquídeo) y punción venosa para el cultivo de sangre. ¿A qué temperatura se mantendrá la muestra de LCR para el cultivo de bacterias si no podemos procesar inmediatamente?",
       "options": {
         "A": "30ºC.",
         "B": "4ºC.",
@@ -1114,7 +1114,7 @@
         "A": "El primer chorro de micción.",
         "B": "El chorro medio de la micción.",
         "C": "La orina de 24 horas.",
-        "D": "La orina de 12 horas. Comentario. La orina es una muestra no habitual para búsqueda de patógenos de ETS y se encuentra limitada a pruebas de PCR de patógenos (según la SEIMC), con alguna excepción como las tricomonas que se pueden visualizar al microscopio. Casi todos estos patógenos colonizan la uretra y partes superficiales, de ahí que en caso de coger orina sea la de la primera parte. Recuerda que el medio más habitual es el exudado uretral, que debe recogerse si el paciente no ha orinado al menos las dos horas previas (por esa misma razón, para evitar que se pierdan los patógenos)."
+        "D": "La orina de 12 horas."
       },
       "page": 9,
       "correctAnswer": "A",
@@ -1213,11 +1213,11 @@
         "A": "Liquido ascítico.",
         "B": "Liquido pleural.",
         "C": "Liquido sinovial.",
-        "D": "LCR (Líquido cefalorraquídeo). Comentario. Si el LCR procede de una derivación, se debe incluir siempre cultivo en anerobiosis"
+        "D": "LCR (Líquido cefalorraquídeo)."
       },
       "page": 9,
       "correctAnswer": "D",
-      "correctText": "LCR (Líquido cefalorraquídeo). Comentario. Si el LCR procede de una derivación, se debe incluir siempre cultivo en anerobiosis"
+      "correctText": "LCR (Líquido cefalorraquídeo)."
     },
     {
       "id": 95,
@@ -1226,7 +1226,7 @@
         "A": "Klebsiella spp",
         "B": "Salmonella spp",
         "C": "Yersinia spp",
-        "D": "Aspergillus spp TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+        "D": "Aspergillus spp"
       },
       "page": 9,
       "correctAnswer": "A",
@@ -1327,7 +1327,7 @@
       "id": 103,
       "question": "Respecto a la etiopatogenia de la infección del tracto urinario, señale la respuesta correcta:",
       "options": {
-        "A": "La incidencia de las infecciones del tracto urinario no se relaciona con el sexo ni con la edad. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)",
+        "A": "La incidencia de las infecciones del tracto urinario no se relaciona con el sexo ni con la edad.",
         "B": "La vía ascendente es la principal vía de infección.",
         "C": "Staphylococcus saprophyticus es el germen que con mayor frecuencia provoca infección del tracto urinario (75-90% casos).",
         "D": "La incidencia de las infecciones del tracto urinario no se relaciona con los periodos de máxima actividad sexual en la mujer."
@@ -1366,7 +1366,7 @@
       "id": 106,
       "question": "Sobre la siembra y procesamiento de orina para identificación de patógenos urinarios, señale la respuesta correcta:",
       "options": {
-        "A": "La siembra se realiza de manera cuantitativa, y para ello se usan asas calibradas de 100 µL.",
+        "A": "La siembra se realiza de manera cuantitativa, y para ello se usan asas calibradas de 100 μL.",
         "B": "Las placas se incuban habitualmente a 35-37º C en anaerobiosis.",
         "C": "Mediante espectrometría de masas MALDI-TOF se pueden identificar fiablemente la mayoría de patógenos urinarios.",
         "D": "Las técnicas basadas en las pruebas bioquímicas no están automatizadas."
@@ -1444,7 +1444,7 @@
       "id": 112,
       "question": "¿Cómo se realizaría la toma de muestra de orina?",
       "options": {
-        "A": "Primero lavar el área periuretral con un antiséptico suave y enjuagar con abundante agua. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)",
+        "A": "Primero lavar el área periuretral con un antiséptico suave y enjuagar con abundante agua.",
         "B": "Recoger en un recipiente apropiado la orina en cualquier momento del día, desechando la primera porción de la orina. Aunque es preferible la primera orina de la mañana con al menos tres horas de retención.",
         "C": "Desechar la primera orina de la mañana y recoger la orina 2 horas después.",
         "D": "Las respuestas A) y B) son ciertas."
@@ -1561,7 +1561,7 @@
       "question": "Antes de realizar una tinción de Gram en LCR, las muestras deben ser:",
       "options": {
         "A": "Filtradas.",
-        "B": "Calentadas a 37ºC. TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)",
+        "B": "Calentadas a 37ºC.",
         "C": "Centrifugadas.",
         "D": "Mezcladas."
       },
@@ -1679,7 +1679,7 @@
         "A": "A temperatura ambiente",
         "B": "En estufa de CO2 a 37 ºC",
         "C": "En frigorífico a 4ºC",
-        "D": "Uno para el cultivo de Cocos Gram + y otro para Gram - TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas)"
+        "D": "En estufa a 37 ºC D) Uno para el cultivo de Cocos Gram + y otro para Gram -"
       },
       "page": 13,
       "correctAnswer": "A",
