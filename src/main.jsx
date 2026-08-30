@@ -15,6 +15,7 @@ import {
   Star,
   History,
   Trophy,
+  Zap,
 } from "lucide-react";
 import "./styles.css";
 
@@ -44,6 +45,13 @@ import {
   SimulacrumPage,
   WrongPage,
 } from "./components/SecondaryPages";
+import {
+  getStreakEmoji,
+  getWeeklyStats,
+  getTodayStats,
+  getWeakestTopic,
+  getGlobalMasteryFromProgress,
+} from "./lib/analytics";
 
 const pdfFiles = import.meta.glob("/pdfs/*.pdf", {
   query: "?url",
@@ -271,8 +279,110 @@ function HomePage({ data, onStart, savedTestAvailable, onResumeSavedTest }) {
   const [mode, setMode] = useState("smart");
   const [topicId, setTopicId] = useState(0);
 
+  const streak = data.streak ?? 0;
+  const streakEmoji = getStreakEmoji(streak);
+  const weeklyStats = useMemo(() => getWeeklyStats(data.history), [data.history]);
+  const today = useMemo(() => getTodayStats(data.history), [data.history]);
+  const weakest = useMemo(() => getWeakestTopic(data.progress), [data.progress]);
+  const globalMastery = useMemo(() => getGlobalMasteryFromProgress(data.progress), [data.progress]);
+  const maxTotal = Math.max(...weeklyStats.map((d) => d.total), 1);
+
+  const savedSession = loadSavedTest();
+  const savedTopicLabel = savedSession
+    ? savedSession.selectedTopicId === 0
+      ? "Todos los temas"
+      : topics.find((t) => t.id === savedSession.selectedTopicId)?.title ?? "Test guardado"
+    : null;
+  const savedProgress = savedSession
+    ? `${(savedSession.i ?? 0) + 1} / ${savedSession.testQuestions?.length ?? "?"}`
+    : null;
+
   return (
     <div className="testHome">
+      {/* ── Quick stats bar ── */}
+      <div className="dashQuickStats">
+        <div className="dashStat">
+          <span className="dashStatEmoji">{streakEmoji}</span>
+          <strong>{streak}</strong>
+          <small>racha</small>
+        </div>
+        <div className="dashStat">
+          <span className="dashStatEmoji">📝</span>
+          <strong>{today.tests}</strong>
+          <small>tests hoy</small>
+        </div>
+        <div className="dashStat">
+          <span className="dashStatEmoji">✅</span>
+          <strong>{today.correct}</strong>
+          <small>aciertos hoy</small>
+        </div>
+        <div className="dashStat">
+          <span className="dashStatEmoji">🎯</span>
+          <strong>{globalMastery}%</strong>
+          <small>dominio global</small>
+        </div>
+      </div>
+
+      {/* ── Resume card ── */}
+      {savedTestAvailable && (
+        <div className="dashResumeCard">
+          <div className="dashResumeInfo">
+            <span className="dashResumeBadge">En curso</span>
+            <strong>{savedTopicLabel}</strong>
+            {savedProgress && <small>Pregunta {savedProgress}</small>}
+          </div>
+          <button className="primary dashResumeBtn" onClick={onResumeSavedTest}>
+            <Play /> Continuar
+          </button>
+        </div>
+      )}
+
+      {/* ── Recommended topic ── */}
+      {weakest && (
+        <div className="dashRecommend">
+          <Zap size={16} />
+          <span>
+            <b>Próximo recomendado:</b> {weakest.topic.title}
+            <small> · dominio {weakest.mastery}%</small>
+          </span>
+          <button
+            className="secondary dashRecommendBtn"
+            onClick={() => onStart({ count, mode: "smart", topicId: weakest.topic.id })}
+          >
+            Practicar
+          </button>
+        </div>
+      )}
+
+      {/* ── Weekly mini-chart ── */}
+      <div className="dashWeekly">
+        <span className="dashWeeklyTitle">Últimos 7 días</span>
+        <div className="dashBars">
+          {weeklyStats.map((day) => (
+            <div className="dashBarCol" key={day.dateStr}>
+              <div className="dashBarTrack">
+                <div
+                  className="dashBarCorrect"
+                  style={{ height: `${maxTotal ? (day.correct / maxTotal) * 100 : 0}%` }}
+                  title={`${day.correct} aciertos`}
+                />
+                <div
+                  className="dashBarIncorrect"
+                  style={{ height: `${maxTotal ? (day.incorrect / maxTotal) * 100 : 0}%` }}
+                  title={`${day.incorrect} fallos`}
+                />
+              </div>
+              <span className="dashBarLabel">{day.label}</span>
+            </div>
+          ))}
+        </div>
+        <div className="dashBarLegend">
+          <span><i className="legendDot legendGreen" />Aciertos</span>
+          <span><i className="legendDot legendRed" />Fallos</span>
+        </div>
+      </div>
+
+      {/* ── Test launch ── */}
       <section className="testLaunch">
         <span className="eyebrow">LABQUIZ</span>
         <h2>
@@ -327,11 +437,6 @@ function HomePage({ data, onStart, savedTestAvailable, onResumeSavedTest }) {
       <section className="testHomeFooter">
         <span>{data.tests} tests realizados</span>
         <div className="testHomeActions">
-          {savedTestAvailable && (
-            <button className="secondary" onClick={onResumeSavedTest}>
-              Retomar test guardado
-            </button>
-          )}
           <button className="textBtn" onClick={() => onStart({ count, mode, topicId })}>
             Empezar con esta configuración <ChevronRight />
           </button>
@@ -357,6 +462,8 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
   const [testQuestions, setTestQuestions] = useState(savedSession?.testQuestions ?? []);
   const [failedQuestions, setFailedQuestions] = useState(savedSession?.failedQuestions ?? []);
   const [restoredSession, setRestoredSession] = useState(Boolean(savedSession?.testQuestions?.length));
+  const [answerResult, setAnswerResult] = useState(null); // "correct" | "incorrect"
+  const [questionKey, setQuestionKey] = useState(0);
 
   const currentTopic = useMemo(
     () => (selectedTopicId === 0 ? { id: 0, title: "Todos los temas" } : topics.find((t) => t.id === selectedTopicId) ?? null),
@@ -494,14 +601,18 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
 
   const handleAnswer = (answerIndex) => {
     if (!q || showResult) return;
+    const isCorrect = answerIndex === q.correctAnswer;
     setSelectedAnswer(answerIndex);
     setShowResult(true);
-    onQuestionAnswered?.(recordQuestionAnswer(q, questionProgress, answerIndex === q.correctAnswer, Date.now(), answerIndex));
-    if (answerIndex === q.correctAnswer) setScore((prev) => prev + 1);
+    setAnswerResult(isCorrect ? "correct" : "incorrect");
+    onQuestionAnswered?.(recordQuestionAnswer(q, questionProgress, isCorrect, Date.now(), answerIndex));
+    if (isCorrect) setScore((prev) => prev + 1);
     else setFailedQuestions((prev) => [...prev, q]);
   };
 
   const handleNext = () => {
+    setAnswerResult(null);
+    setQuestionKey((k) => k + 1);
     if (i >= totalQuestions - 1) {
       finishTest();
       return;
@@ -515,6 +626,8 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
     if (!q || showResult) return;
     const nextSkippedCount = skippedCount + 1;
     setSkippedCount(nextSkippedCount);
+    setAnswerResult(null);
+    setQuestionKey((k) => k + 1);
 
     if (i >= totalQuestions - 1) {
       finishTest(nextSkippedCount);
@@ -562,14 +675,20 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
           </button>
 
           {topics.map((topic) => {
-            const questionCount = getQuestionBank(topic.id).length;
+            const bank = getQuestionBank(topic.id);
+            const questionCount = bank.length;
             const available = questionCount || getPdfUrl(topic.id);
             const mastery = getTopicMastery(topic.id, questionProgress);
+            const failedInTopic = bank.filter((q) =>
+              isQuestionCurrentlyFailed(questionProgress[getQuestionIdForProgress(q)])
+            ).length;
+            const masteryColor = mastery >= 70 ? "green" : mastery >= 40 ? "yellow" : "red";
+            const masteryEmoji = mastery >= 70 ? "🟢" : mastery >= 40 ? "🟡" : "🔴";
 
             return (
               <button
                 key={topic.id}
-                className="topicSelectCard"
+                className={`topicSelectCard mastery-${masteryColor}`}
                 onClick={() => {
                   setSelectedTopicId(topic.id);
                   setI(0);
@@ -580,7 +699,13 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
                   setDone(false);
                 }}
               >
-                <span className="badge">Tema {String(topic.id).padStart(2, "0")}</span>
+                <div className="topicCardHeader">
+                  <span className="badge">Tema {String(topic.id).padStart(2, "0")}</span>
+                  <span className="topicMasteryEmoji">{masteryEmoji}</span>
+                  {failedInTopic > 0 && (
+                    <span className="topicFailedBadge">{failedInTopic > 99 ? "99+" : failedInTopic}</span>
+                  )}
+                </div>
                 <h3>{topic.title}</h3>
                 <small>
                   {available
@@ -649,6 +774,30 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
       accuracy >= 50 ? { label: "Regular", cls: "regular" } :
       { label: "Necesitas practicar más", cls: "needsWork" };
 
+    // Donut chart (SVG)
+    const total = answeredCount + skippedCount || 1;
+    const correctPct = (score / total) * 100;
+    const incorrectPct = (incorrectCount / total) * 100;
+    const skippedPct = (skippedCount / total) * 100;
+    const r = 40;
+    const circ = 2 * Math.PI * r;
+    const c1 = (correctPct / 100) * circ;
+    const c2 = (incorrectPct / 100) * circ;
+    const c3 = (skippedPct / 100) * circ;
+    const offset1 = 0;
+    const offset2 = circ - c1;
+    const offset3 = circ - c1 - c2;
+
+    // Recommendation
+    let recommendation = null;
+    if (incorrectCount > 0 && failedQuestions.length > 0) {
+      recommendation = "🔄 Repasa tus errores para fortalecer el dominio.";
+    } else if (accuracy >= 85) {
+      recommendation = "🚀 ¡Genial! Prueba un nuevo tema para seguir avanzando.";
+    } else {
+      recommendation = "💡 Sigue practicando este tema para mejorar tu dominio.";
+    }
+
     return (
       <div className="resultScreen">
         <span className="resultIcon">🏆</span>
@@ -665,6 +814,47 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
             Comparado con tu último test: <b>{diff > 0 ? `↑ +${diff}%` : diff < 0 ? `↓ ${diff}%` : "= igual"}</b>
           </p>
         )}
+
+        {/* Donut chart */}
+        <div className="resultDonut">
+          <svg viewBox="0 0 100 100" width="100" height="100">
+            <circle cx="50" cy="50" r={r} fill="none" stroke="#e8eeed" strokeWidth="14" />
+            {score > 0 && (
+              <circle
+                cx="50" cy="50" r={r} fill="none"
+                stroke="#27a869" strokeWidth="14"
+                strokeDasharray={`${c1} ${circ - c1}`}
+                strokeDashoffset={circ / 4}
+                strokeLinecap="round"
+              />
+            )}
+            {incorrectCount > 0 && (
+              <circle
+                cx="50" cy="50" r={r} fill="none"
+                stroke="#c94040" strokeWidth="14"
+                strokeDasharray={`${c2} ${circ - c2}`}
+                strokeDashoffset={circ / 4 - c1}
+                strokeLinecap="round"
+              />
+            )}
+            {skippedCount > 0 && (
+              <circle
+                cx="50" cy="50" r={r} fill="none"
+                stroke="#bbb" strokeWidth="14"
+                strokeDasharray={`${c3} ${circ - c3}`}
+                strokeDashoffset={circ / 4 - c1 - c2}
+                strokeLinecap="round"
+              />
+            )}
+            <text x="50" y="54" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#1a2a22">{accuracy}%</text>
+          </svg>
+          <div className="donutLegend">
+            <span><i style={{ background: "#27a869" }} />{score} aciertos</span>
+            <span><i style={{ background: "#c94040" }} />{incorrectCount} fallos</span>
+            {skippedCount > 0 && <span><i style={{ background: "#bbb" }} />{skippedCount} omitidas</span>}
+          </div>
+        </div>
+
         <div className="resultStats">
           <div className="resultStat correct-stat">
             <small>Aciertos</small>
@@ -683,6 +873,25 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
           </div>
         </div>
         <p className="resultTime">⏱ Tiempo dedicado: {timeStr}</p>
+
+        {/* Failed questions preview */}
+        {failedQuestions.length > 0 && (
+          <div className="resultFailedPreview">
+            <h3>Preguntas en las que fallaste ({failedQuestions.length})</h3>
+            <ul>
+              {failedQuestions.slice(0, 3).map((fq, idx) => (
+                <li key={fq.id ?? idx}>{fq.question.length > 80 ? fq.question.slice(0, 80) + "…" : fq.question}</li>
+              ))}
+              {failedQuestions.length > 3 && <li className="muted">…y {failedQuestions.length - 3} más</li>}
+            </ul>
+          </div>
+        )}
+
+        {/* Recommendation */}
+        <div className="resultRecommendation">
+          <p>{recommendation}</p>
+        </div>
+
         <div className="resultActions">
           {failedQuestions.length > 0 && (
             <button
@@ -693,6 +902,7 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
                 setScore(0);
                 setSkippedCount(0);
                 setFailedQuestions([]);
+                setAnswerResult(null);
                 setDone(false);
               }}
             >
@@ -707,6 +917,7 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
               setSkippedCount(0);
               setSelectedAnswer(null);
               setShowResult(false);
+              setAnswerResult(null);
               setDone(false);
             }}
           >
@@ -733,31 +944,47 @@ function TestPage({ go, initialConfig, questionProgress, onQuestionAnswered, onS
         <i style={{ width: `${((i + 1) / totalQuestions) * 100}%` }} />
       </div>
 
-      <div className="testCard">
+      <div className={`testCard${answerResult ? ` answerFeedback-${answerResult}` : ""}`} key={questionKey}>
         <span className="badge">
           {selectedTopicId === 0 ? "TEST GLOBAL" : `Tema ${String(currentTopic.id).padStart(2, "0")}`}
         </span>
 
         {restoredSession && <p className="testResumeHint">Has retomado tu test guardado.</p>}
 
-        <h2>{q.question}</h2>
+        <h2 className="questionFade">{q.question}</h2>
 
         <div className="answers">
-          {q.answers.map((answer, index) => (
-            <button
-              key={answer + index}
-              type="button"
-              onClick={() => handleAnswer(index)}
-              disabled={showResult}
-              className={showResult
-                ? (index === q.correctAnswer ? "correct" : (selectedAnswer === index ? "incorrect" : ""))
-                : (selectedAnswer === index ? "selected" : "")}
-            >
-              <span>{String.fromCharCode(65 + index)}</span>
-              {answer}
-            </button>
-          ))}
+          {q.answers.map((answer, index) => {
+            const isCorrect = index === q.correctAnswer;
+            const isSelected = selectedAnswer === index;
+            const isWrongSelected = showResult && isSelected && !isCorrect;
+            let cls = "";
+            if (showResult) {
+              if (isCorrect) cls = "correct";
+              else if (isSelected) cls = `incorrect${isWrongSelected ? " shake" : ""}`;
+            } else if (isSelected) {
+              cls = "selected";
+            }
+            return (
+              <button
+                key={answer + index}
+                type="button"
+                onClick={() => handleAnswer(index)}
+                disabled={showResult}
+                className={cls}
+              >
+                <span>{String.fromCharCode(65 + index)}</span>
+                {answer}
+              </button>
+            );
+          })}
         </div>
+
+        {showResult && (
+          <div className={`answerFeedbackIcon ${answerResult}`}>
+            {answerResult === "correct" ? "✓" : "✗"}
+          </div>
+        )}
 
         {showResult && (
           <ExplanationDisplay
