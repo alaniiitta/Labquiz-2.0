@@ -227,16 +227,16 @@
     },
     {
       "id": 18,
-      "question": "Mediante la utilización de plaquetas marcadas con 51Cr ó 111In, podemos:",
+      "question": "Mediante la utilización de plaquetas marcadas con 51 Cr ó 111 In, podemos:",
       "options": {
         "A": "Realizar un estudio de la integridad vascular",
-        "B": "Establecer la vida media plaquetaria (VN.: 8-10",
+        "B": "Establecer la vida media plaquetaria (VN.: 8-10 días)",
         "C": "Hacer un seguimiento del recorrido plaquetar",
         "D": "Establecer la vida media plaquetaria, salvo consumo por sangrado (V.N.: 10-15 días)"
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Establecer la vida media plaquetaria (VN.: 8-10"
+      "correctText": "Establecer la vida media plaquetaria (VN.: 8-10 días)"
     },
     {
       "id": 19,
@@ -347,13 +347,13 @@
       "question": "Respecto a la función de las plaquetas que afirmación no es cierta:",
       "options": {
         "A": "Previenen la salida de sangre de los vasos",
-        "B": "Su única función es constituir el trombo",
+        "B": "Su única función es constituir el trombo plaquetario",
         "C": "Contienen diversos factores que intervienen en la coagulación",
         "D": "Su déficit produce una tendencia al sangrado"
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Su única función es constituir el trombo"
+      "correctText": "Su única función es constituir el trombo plaquetario"
     },
     {
       "id": 28,
@@ -373,13 +373,13 @@
       "question": "Entre las causas de una trombocitosis autónoma, se encuentra;",
       "options": {
         "A": "Deficiencia de hierro.",
-        "B": "Trastorno mieloproliferativo (policitemia vera,",
+        "B": "Trastorno mieloproliferativo (policitemia vera, mielofibrosis, leucemia mieloide crónica).",
         "C": "Esplenectomía.",
         "D": "Enfermedad inflamatoria."
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Trastorno mieloproliferativo (policitemia vera,"
+      "correctText": "Trastorno mieloproliferativo (policitemia vera, mielofibrosis, leucemia mieloide crónica)."
     },
     {
       "id": 30,
@@ -620,13 +620,13 @@
       "question": "Los cuerpos de Döhle con coloraciones panópticas se observan como:",
       "options": {
         "A": "Inclusiones en forma de agujas de color rojo violáceo.",
-        "B": "Inclusiones ovaladas, excéntricas, de color azul",
+        "B": "Inclusiones ovaladas, excéntricas, de color azul pálido.",
         "C": "Inclusiones grandes, redondeadas y excéntricas con halo.",
         "D": "Gruesos gránulos azurófilos irregulares."
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Inclusiones ovaladas, excéntricas, de color azul"
+      "correctText": "Inclusiones ovaladas, excéntricas, de color azul pálido."
     },
     {
       "id": 49,
@@ -658,18 +658,18 @@
       "id": 51,
       "question": "Como marcadores inmunológicos de los linfocitos se suelen usar:",
       "options": {
-        "A": "CD19 para los linfocitos B y CD3 para los",
+        "A": "CD19 para los linfocitos B y CD3 para los linfocitos T.",
         "B": "CD17 para los linfocitos B y CD5 para los linfocitos T.",
         "C": "CD24 para los linfocitos B y CD9 para los linfocitos T.",
         "D": "CD9 para los linfocitos B y CD24para los linfocitos T."
       },
       "page": 5,
       "correctAnswer": "A",
-      "correctText": "CD19 para los linfocitos B y CD3 para los"
+      "correctText": "CD19 para los linfocitos B y CD3 para los linfocitos T."
     },
     {
       "id": 52,
-      "question": "Para el recuento automatizado de plaquetas cuando su número es inferior a 20x109/L se recomienda el empleo de:",
+      "question": "Para el recuento automatizado de plaquetas cuando su número es inferior a 20x10 9 /L se recomienda el empleo de:",
       "options": {
         "A": "Dispersión lumínica.",
         "B": "citometría de flujo.",
@@ -712,12 +712,12 @@
       "options": {
         "A": "Los valores normales no varían con la edad.",
         "B": "Incluye cuatro poblaciones linfocitarias.",
-        "C": "La tinción preferible es la tinción de May-",
+        "C": "La tinción preferible es la tinción de May- Grunwald-Giemsa.",
         "D": "Todas las respuestas son incorrectas."
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "La tinción preferible es la tinción de May-"
+      "correctText": "La tinción preferible es la tinción de May- Grunwald-Giemsa."
     },
     {
       "id": 56,
@@ -815,13 +815,13 @@
       "question": "En un paciente en el recuento automático de plaquetas es repetidamente bajo y en la extensión se ven agregados plaquetarios, ¿qué actitud sería la aconsejable?",
       "options": {
         "A": "Calentar la muestra a 37° Centígrados y reanalizar.",
-        "B": "Repetir",
+        "B": "Repetir extracción utilizando como anticoagulante el citrato sódico.",
         "C": "Agitar bien la muestra y reanalizar.",
         "D": "Ninguna de las anteriores."
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "Repetir"
+      "correctText": "Repetir extracción utilizando como anticoagulante el citrato sódico."
     },
     {
       "id": 64,
@@ -892,14 +892,14 @@
       "id": 69,
       "question": "La presencia de células de Redd Sternberg:",
       "options": {
-        "A": "Permite el diagnóstico de la enfermedad de",
+        "A": "Permite el diagnóstico de la enfermedad de hodgkin.",
         "B": "Se encuentran en las leucemias mieloides agudas.",
         "C": "Se encuentran en la anemia sideroblástica.",
         "D": "Se encuentran en las leucemias mieloides crónicas."
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Permite el diagnóstico de la enfermedad de"
+      "correctText": "Permite el diagnóstico de la enfermedad de hodgkin."
     },
     {
       "id": 70,
@@ -931,27 +931,27 @@
       "id": 72,
       "question": "Ante un paciente con sospecha diagnóstica de leucemia linfática crónica, debemos tener presente que:",
       "options": {
-        "A": "Es fundamental el análisis del marcador de",
+        "A": "Es fundamental el análisis del marcador de linfocitos B CD5",
         "B": "Es principalmente de origen linfoide NK",
         "C": "Es fundamental el análisis del marcador de linfocitos T CD8",
         "D": "Es fundamental el análisis del marcador de linfocitos T y B CD8"
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Es fundamental el análisis del marcador de"
+      "correctText": "Es fundamental el análisis del marcador de linfocitos B CD5"
     },
     {
       "id": 73,
       "question": "Considerando la célula más inmadura la situada al inicio de la relación, la secuencia de maduración normal de las plaquetas es:",
       "options": {
-        "A": "Megacarioblasto,",
-        "B": "",
+        "A": "Megacarioblasto, promegacariocito, megacariocito y plaquetas.",
+        "B": "Megacariocito, promegacarioblasto, megacarioblasto y plaquetas.",
         "C": "Plaquetas, megacariocito, megacarioblasto y promegacariocito.",
         "D": "Megacarioblasto, mieloblasto, megacariocito y plaquetas."
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Megacarioblasto,"
+      "correctText": "Megacarioblasto, promegacariocito, megacariocito y plaquetas."
     },
     {
       "id": 74,
@@ -1024,25 +1024,25 @@
       "options": {
         "A": "Eosinófilos, característicos de procesos alérgicos con granulaciones muy refringentes en el citoplasma, que se tiñen con colorantes ácidos.",
         "B": "Reticulocitos con finos filamentos y gránulos que constituyen la más granulo-filamentosa ortocromática.",
-        "C": "Agregados de coilocitos, esféricos con núcleo",
+        "C": "Agregados de coilocitos, esféricos con núcleo pequeño, que se tiñen con colorantes básicos.",
         "D": "Linfocitos peludos o \"hairycells\", de leucemia de células vellosas (HCL), considerada subtipo de leucemia linfocítica crónica (LLC)."
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Agregados de coilocitos, esféricos con núcleo"
+      "correctText": "Agregados de coilocitos, esféricos con núcleo pequeño, que se tiñen con colorantes básicos."
     },
     {
       "id": 80,
       "question": "Indicar cuál de las siguientes líneas de maduración es cierta, considerando la forma más inmadura la situada más a la izquierda:",
       "options": {
         "A": "Monoblasto - Monoblasto basófilo - Monocito basófilo.",
-        "B": "Mielocito basófilo -- Metamielocito basófilo-",
+        "B": "Mielocito basófilo -- Metamielocito basófilo- Basófilo en banda.",
         "C": "Megacarioblasto - Megacariocito.",
         "D": "Mieloblasto - Linfocito."
       },
       "page": 8,
       "correctAnswer": "B",
-      "correctText": "Mielocito basófilo -- Metamielocito basófilo-"
+      "correctText": "Mielocito basófilo -- Metamielocito basófilo- Basófilo en banda."
     },
     {
       "id": 81,
@@ -1128,12 +1128,12 @@
       "options": {
         "A": "Realizar frotis de sangre periférica.",
         "B": "No tener en cuenta las alarmas en los distintos parámetros.",
-        "C": "Observar macroscópicamente la muestra y",
+        "C": "Observar macroscópicamente la muestra y descartar la presencia de coágulos.",
         "D": "Solicitar reticulocitos."
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "Observar macroscópicamente la muestra y"
+      "correctText": "Observar macroscópicamente la muestra y descartar la presencia de coágulos."
     },
     {
       "id": 88,
@@ -1257,7 +1257,7 @@
       "question": "Una de las siguientes afirmaciones es falsa, respecto a las plaquetas:",
       "options": {
         "A": "Se originan a partir de la fragmentación del citoplasma de los megacariocitos.",
-        "B": "Tienen un tamaño entre 1-3 µm.",
+        "B": "Tienen un tamaño entre 1-3 μm.",
         "C": "Su función es la hemostasia primaria.",
         "D": "Tienen un núcleo excéntrico."
       },
@@ -1269,14 +1269,14 @@
       "id": 98,
       "question": "¿Cuál de las siguientes puede ser causa de trombocitopenia ficticia?",
       "options": {
-        "A": "La utilización de tubos con EDTA para la",
+        "A": "La utilización de tubos con EDTA para la realización del hemograma.",
         "B": "La utilización de tubos con citrato sódico para la realización del hemograma.",
         "C": "El abuso de alcohol.",
         "D": "El déficit de trombopoyetina."
       },
       "page": 10,
       "correctAnswer": "A",
-      "correctText": "La utilización de tubos con EDTA para la"
+      "correctText": "La utilización de tubos con EDTA para la realización del hemograma."
     },
     {
       "id": 99,
@@ -1334,14 +1334,14 @@
       "id": 103,
       "question": "En la leucemia linfoide crónica, sobre los linfocitos es ERRÓNEO que:",
       "options": {
-        "A": "Pueden presentar granulaciones en forma de",
+        "A": "Pueden presentar granulaciones en forma de bastones de Auer.",
         "B": "El citoplasma es pequeño.",
         "C": "Debido a su fragilidad pueden romperse al extender el frotis y formar sombras de Gumprecht.",
         "D": "La cromatina es madura y condensada"
       },
       "page": 10,
       "correctAnswer": "A",
-      "correctText": "Pueden presentar granulaciones en forma de"
+      "correctText": "Pueden presentar granulaciones en forma de bastones de Auer."
     },
     {
       "id": 104,
@@ -1373,27 +1373,27 @@
       "id": 106,
       "question": "Los eosinófilos:",
       "options": {
-        "A": "Constituyen el 2-5% de los leucocitos en sangre",
+        "A": "Constituyen el 2-5% de los leucocitos en sangre periférica.",
         "B": "Constituyen menos del 0,2% de los leucocitos en sangre periférica.",
         "C": "Constituyen el 90% de los polimorfonucleares.",
         "D": "Provienen de los ganglios linfáticos."
       },
       "page": 10,
       "correctAnswer": "A",
-      "correctText": "Constituyen el 2-5% de los leucocitos en sangre"
+      "correctText": "Constituyen el 2-5% de los leucocitos en sangre periférica."
     },
     {
       "id": 107,
       "question": "En una fórmula leucocitaria, se dice que hay una desviación a la izquierda si:",
       "options": {
-        "A": "Hay un aumento de porcentaje de formas",
+        "A": "Hay un aumento de porcentaje de formas juveniles de los neutrófilos en sangre periférica.",
         "B": "Hay un aumento de porcentaje de segmentados en sangre periférica.",
         "C": "Si hay una disminución de monocitos en sangre periférica.",
         "D": "Todas son correctas."
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "Hay un aumento de porcentaje de formas"
+      "correctText": "Hay un aumento de porcentaje de formas juveniles de los neutrófilos en sangre periférica."
     },
     {
       "id": 108,
@@ -1401,12 +1401,12 @@
       "options": {
         "A": "Son plaquetas inmaduras",
         "B": "Son neutrófilos hipersegmentados con cuatro lóbulos en su núcleo",
-        "C": "Son neutrófilos hipersegmentados mayores con",
+        "C": "Son neutrófilos hipersegmentados mayores con más de cinco lóbulos en su núcleo",
         "D": "Son neutrófilos en fase inmadura"
       },
       "page": 11,
       "correctAnswer": "C",
-      "correctText": "Son neutrófilos hipersegmentados mayores con"
+      "correctText": "Son neutrófilos hipersegmentados mayores con más de cinco lóbulos en su núcleo"
     },
     {
       "id": 109,
@@ -1453,12 +1453,12 @@
       "options": {
         "A": "Para determinar rápidamente la coagulación del paciente",
         "B": "Para ver si las plaquetas del paciente son grandes",
-        "C": "Para evitar que las plaquetas se agreguen en",
+        "C": "Para evitar que las plaquetas se agreguen en presencia del anticoagulante EDTA, en pacientes EDTA-dependientes",
         "D": "Para el diagnóstico de la trombocitemia esencial"
       },
       "page": 11,
       "correctAnswer": "C",
-      "correctText": "Para evitar que las plaquetas se agreguen en"
+      "correctText": "Para evitar que las plaquetas se agreguen en presencia del anticoagulante EDTA, en pacientes EDTA-dependientes"
     },
     {
       "id": 113,
@@ -1555,14 +1555,14 @@
       "id": 120,
       "question": "La PTI o Enfermedad de Werlhof es una trombopenia inmune idiopática producida por:",
       "options": {
-        "A": "La adhesión de autoanticuerpos a la membrana",
+        "A": "La adhesión de autoanticuerpos a la membrana de las plaquetas.",
         "B": "Digestión del citoplasma por fármacos.",
         "C": "A y B son ciertas.",
         "D": "Ninguna es cierta."
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "La adhesión de autoanticuerpos a la membrana"
+      "correctText": "La adhesión de autoanticuerpos a la membrana de las plaquetas."
     },
     {
       "id": 121,
@@ -1647,13 +1647,13 @@
       "question": "La leucemia promielocítica se caracteriza frecuentemente por:",
       "options": {
         "A": "Blastos indiferenciados y ocasionales bastones de Auer",
-        "B": "Promielocitos hipergranulares con abundantes",
+        "B": "Promielocitos hipergranulares con abundantes bastones de Auer",
         "C": "Blastos con diferenciación monocítica",
         "D": "Promielocitos hipergranulares y ausencia de bastones de Auer"
       },
       "page": 12,
       "correctAnswer": "B",
-      "correctText": "Promielocitos hipergranulares con abundantes"
+      "correctText": "Promielocitos hipergranulares con abundantes bastones de Auer"
     },
     {
       "id": 128,
@@ -1766,7 +1766,7 @@
         "A": "La hiperviscosidad sanguínea",
         "B": "Las crioglobulinas",
         "C": "La proteína de Bence-Jones",
-        "D": "El aumento de la VSG Comentario. Síndrome de Raynaud es un trastorno que se caracteriza por una disminución de la circulación sanguínea en los dedos de las manos y de los pies, que produce dolor y cambios de coloración en dichas localizaciones. Los factores que lo desencadenan son los cambios de temperatura (generalmente el frío) y las situaciones de estrés y emociones."
+        "D": "El aumento de la VSG"
       },
       "page": 13,
       "correctAnswer": "B",
@@ -1790,13 +1790,13 @@
       "question": "Las sombras de Gumprecht son",
       "options": {
         "A": "Blastos que aparecen en la leucemia mieloide aguda.",
-        "B": "Linfocitos pequeños frágiles de la leucemia",
+        "B": "Linfocitos pequeños frágiles de la leucemia linfoide crónica.",
         "C": "Linfocitos inmaduros del linfoma de Hodgkin.",
         "D": "Linfocitos atípicos en las displasias."
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Linfocitos pequeños frágiles de la leucemia"
+      "correctText": "Linfocitos pequeños frágiles de la leucemia linfoide crónica."
     },
     {
       "id": 139,
@@ -1880,14 +1880,14 @@
       "id": 145,
       "question": "Los tipos de leucemia van a estar en función de",
       "options": {
-        "A": "El tipo de célula afectada y la rapidez de",
+        "A": "El tipo de célula afectada y la rapidez de instauración.",
         "B": "El tipo de célula afectada y el recuento de la misma.",
         "C": "El tipo de hematíes afectado y su coloración.",
         "D": "Ninguna de las anteriores es cierta."
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "El tipo de célula afectada y la rapidez de"
+      "correctText": "El tipo de célula afectada y la rapidez de instauración."
     },
     {
       "id": 146,
@@ -1906,14 +1906,14 @@
       "id": 147,
       "question": "La línea de maduración normal de las plaquetas es",
       "options": {
-        "A": "Megacarioblasto,",
-        "B": "",
+        "A": "Megacarioblasto, promegacariocito, megacariocito y plaquetas.",
+        "B": "Megacariocito, promegacarioblasto, megacarioblasto y plaquetas.",
         "C": "Plaquetas, megacariocito, promegacariocito y megacarioblasto.",
         "D": "Ninguna es cierta."
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "Megacarioblasto,"
+      "correctText": "Megacarioblasto, promegacariocito, megacariocito y plaquetas."
     },
     {
       "id": 148,
@@ -1971,14 +1971,14 @@
       "id": 152,
       "question": "La leucemia mieloide crónica (LMC):",
       "options": {
-        "A": "Cursa con aumento principalmente de células",
-        "B": "",
+        "A": "Cursa con aumento principalmente de células granulocíticas.",
+        "B": "Cursa con aumento principalmente de linfocitos B.",
         "C": "Cursa con aumento principalmente de linfocitos T.",
         "D": "Cursa con aumento principalmente de eritrocitos."
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "Cursa con aumento principalmente de células"
+      "correctText": "Cursa con aumento principalmente de células granulocíticas."
     },
     {
       "id": 153,
@@ -2101,14 +2101,14 @@
       "id": 162,
       "question": "Es cierto que:",
       "options": {
-        "A": "Los linfocitos B y T se originan en la medula ósea",
+        "A": "Los linfocitos B y T se originan en la medula ósea a partir de un precursor común.",
         "B": "Los linfocitos B y T se originan en la medula ósea a partir distintos precursores.",
         "C": "Los linfocitos B y T se originan en el timo a partir de un precursor común.",
         "D": "Los linfocitos B y T se originan en el timo a partir distintos precursores."
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Los linfocitos B y T se originan en la medula ósea"
+      "correctText": "Los linfocitos B y T se originan en la medula ósea a partir de un precursor común."
     },
     {
       "id": 163,
@@ -2154,13 +2154,13 @@
       "question": "Con respecto a la sangre ¿Cuál es la respuesta correcta?:",
       "options": {
         "A": "El plasma no contribuye a la regulación del pH.",
-        "B": "Los monocitos tienen una función esencialmente",
+        "B": "Los monocitos tienen una función esencialmente fagocítica.",
         "C": "Los leucocitos son el componente celular más abundante.",
         "D": "El plasma constituye el 90% del volumen total de la sangre."
       },
       "page": 16,
       "correctAnswer": "B",
-      "correctText": "Los monocitos tienen una función esencialmente"
+      "correctText": "Los monocitos tienen una función esencialmente fagocítica."
     },
     {
       "id": 167,
@@ -2179,14 +2179,14 @@
       "id": 168,
       "question": "Con respecto al síndrome de Sézary, señale la respuesta correcta:",
       "options": {
-        "A": "Son característicos los leucocitos mononucleares",
+        "A": "Son característicos los leucocitos mononucleares con núcleo cerebriforme.",
         "B": "Son típicos los linfocitos con el núcleo mellado.",
         "C": "Son característicos los neutrófilos con dos lóbulos.",
         "D": "Podemos observar neutrófilos grandes y con núcleos hipersegmentados."
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "Son característicos los leucocitos mononucleares"
+      "correctText": "Son característicos los leucocitos mononucleares con núcleo cerebriforme."
     },
     {
       "id": 169,
@@ -2232,26 +2232,26 @@
       "question": "Tras examinar los casos más relevantes de trombocitopenia en el centro hospitalario donde trabajo, sé que es FALSO que:",
       "options": {
         "A": "La trombocitopenia inmunitaria se conocía anteriormente con el nombre de púrpura trombocitopénica idiopática y en niños se desarrolla con frecuencia tras una infección viral, caso en el que suele remitir espontáneamente.",
-        "B": "La trombocitopenia inmunitaria puede ser de",
-        "C": "La púrpura trombótica trombocitopénica se trata",
+        "B": "La trombocitopenia inmunitaria puede ser de carácter hereditario, en este caso se relaciona con un déficit de la enzima ADAMTS13.",
+        "C": "La púrpura trombótica trombocitopénica se trata en muchas ocasiones con plasmaféresis.",
         "D": "La púrpura trombótica trombocitopénica sin tratamiento con frecuencia es letal."
       },
       "page": 17,
       "correctAnswer": "B",
-      "correctText": "La trombocitopenia inmunitaria puede ser de"
+      "correctText": "La trombocitopenia inmunitaria puede ser de carácter hereditario, en este caso se relaciona con un déficit de la enzima ADAMTS13."
     },
     {
       "id": 173,
       "question": "Al observar al microscopio óptico un frotis sanguíneo sin alteraciones y teñido con la tinción de Wright, puedo identificar con claridad un basófilo porque:",
       "options": {
         "A": "El núcleo posee una cromatina densa y suele tener de 2 a 3 lóbulos, el citoplasma es basófilo y está lleno de gránulos esféricos de color rojo violáceo de tamaño uniforme distribuidos de forma regular.",
-        "B": "El núcleo posee una cromatina densa y suele ser",
-        "C": "El núcleo posee una cromatina densa y suele",
+        "B": "El núcleo posee una cromatina densa y suele ser bilobular pero su conformación real muchas veces se oculta por la presencia de gránulos suprayacentes. El citoplasma es acidófilo y pocas veces se observa, ya que suele estar oculto por los gránulos que son grandes de color negro morado y de distribución irregular.",
+        "C": "El núcleo posee una cromatina densa y suele tener de 2 a 5 lóbulos, el citoplasma es basófilo y contiene gránulos neutros y azurófilos, pequeños, muy abundantes y distribuidos de forma regular.",
         "D": "El núcleo posee una cromatina densa y suele tener de 2 a 3 lóbulos pero su conformación real muchas veces se oculta por la presencia de gránulos suprayacentes. El citoplasma es basófilo y está lleno de gránulos grandes de tamaño uniforme de color negro morado y de distribución irregular."
       },
       "page": 17,
       "correctAnswer": "B",
-      "correctText": "El núcleo posee una cromatina densa y suele ser"
+      "correctText": "El núcleo posee una cromatina densa y suele ser bilobular pero su conformación real muchas veces se oculta por la presencia de gránulos suprayacentes. El citoplasma es acidófilo y pocas veces se observa, ya que suele estar oculto por los gránulos que son grandes de color negro morado y de distribución irregular."
     },
     {
       "id": 174,
@@ -2286,11 +2286,11 @@
         "A": "Miosina",
         "B": "Troponina",
         "C": "Actina",
-        "D": "Fibronectina Comentario. Juego con el lenguaje. Te hablan primero de las plaquetas para que pienses sobre ellas, pero luego te preguntan qué indiques cual no es contráctil. La fibronectina tiene una función más bien de adhesión y de facilitación de la agregación plaquetaria"
+        "D": "Fibronectina"
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "Fibronectina Comentario. Juego con el lenguaje. Te hablan primero de las plaquetas para que pienses sobre ellas, pero luego te preguntan qué indiques cual no es contráctil. La fibronectina tiene una función más bien de adhesión y de facilitación de la agregación plaquetaria"
+      "correctText": "Fibronectina"
     },
     {
       "id": 177,
@@ -2298,12 +2298,12 @@
       "options": {
         "A": "Los gránulos alfa son los más escasos pero los más específicos, contienen factor plaquetario 4, factor Von Willebrand, fibrinógeno y otras proteínas.",
         "B": "Los gránulos densos son los más abundantes y contienen serotonina, lisosomas, ADP y ATP.",
-        "C": "Los gránulos alfa son los más abundantes y",
+        "C": "Los gránulos alfa son los más abundantes y contienen gran diversidad de proteínas específicas y no específicas.",
         "D": "Los gránulos densos son los más escasos y contienen serotonina, lisosomas, ADP y ATP."
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "Los gránulos alfa son los más abundantes y"
+      "correctText": "Los gránulos alfa son los más abundantes y contienen gran diversidad de proteínas específicas y no específicas."
     },
     {
       "id": 178,
@@ -2361,14 +2361,14 @@
       "id": 182,
       "question": "El Factor de von Willebrand:",
       "options": {
-        "A": "Se encuentra en los gránulos alfa de los",
+        "A": "Se encuentra en los gránulos alfa de los trombocitos.",
         "B": "Interviene en la activación de la vía extrínseca de la coagulación.",
         "C": "Se denomina también f3p (Factor 3 plaquetario).",
         "D": "Es un factor inhibidor de la coagulación."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Se encuentra en los gránulos alfa de los"
+      "correctText": "Se encuentra en los gránulos alfa de los trombocitos."
     },
     {
       "id": 183,
@@ -2427,13 +2427,13 @@
       "question": "¿Cuál es la secuencia normal en el proceso de trombopoyesis?",
       "options": {
         "A": "Promegacariocito, megacarioblasto, megacariocito y trombocito.",
-        "B": "Megacarioblasto,",
-        "C": "Megacarioblasto, trombocito, promegacariocito",
+        "B": "Megacarioblasto, promegacariocito, megacariocito y plaqueta.",
+        "C": "Megacarioblasto, trombocito, promegacariocito y plaqueta.",
         "D": "Megacarioblasto, megacariocito, promegacariocito y plaqueta."
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Megacarioblasto,"
+      "correctText": "Megacarioblasto, promegacariocito, megacariocito y plaqueta."
     },
     {
       "id": 188,
@@ -2492,13 +2492,13 @@
       "question": "¿Cuál es la secuencia completa y correcta en la formación de los leucocitos mieloides?",
       "options": {
         "A": "Metamielocito – promielocito – mielocito neutrófilo - neutrófilo en cayado – neutrófilo segmentado.",
-        "B": "Mieloblasto – promielocito – mielocito neutrófilo",
-        "C": "",
+        "B": "Mieloblasto – promielocito – mielocito neutrófilo – metamielocito – neutrófilo en cayado – neutrófilo segmentado.",
+        "C": "Mieloblasto – mielocito neutrófilo – metamielocito – neutrófilo en cayado – neutrófilo segmentado.",
         "D": "Promielocito – mieloblasto – mielocito neutrófilo – metamielocito – neutrófilo en cayado – neutrófilo segmentado."
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Mieloblasto – promielocito – mielocito neutrófilo"
+      "correctText": "Mieloblasto – promielocito – mielocito neutrófilo – metamielocito – neutrófilo en cayado – neutrófilo segmentado."
     },
     {
       "id": 193,
@@ -2604,12 +2604,12 @@
       "options": {
         "A": "Hay un aumento del porcentaje de segmentados en sangre periférica.",
         "B": "Hay una disminución de monocitos en sangre periférica.",
-        "C": "Hay un aumento del porcentaje de formas",
+        "C": "Hay un aumento del porcentaje de formas jóvenes de los neutrófilos en sangre periférica.",
         "D": "Todas son correctas."
       },
       "page": 21,
       "correctAnswer": "C",
-      "correctText": "Hay un aumento del porcentaje de formas"
+      "correctText": "Hay un aumento del porcentaje de formas jóvenes de los neutrófilos en sangre periférica."
     },
     {
       "id": 202,
@@ -2654,14 +2654,14 @@
       "id": 205,
       "question": "Los eosinófilos:",
       "options": {
-        "A": "Constituyen el 1 al 5% de los leucocitos en sangre",
+        "A": "Constituyen el 1 al 5% de los leucocitos en sangre periférica.",
         "B": "Constituyen menos del 0,2% de los leucocitos en sangre periférica.",
         "C": "Constituyen el 90% de los polimorfonucleares.",
         "D": "Provienen de los ganglios linfáticos."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Constituyen el 1 al 5% de los leucocitos en sangre"
+      "correctText": "Constituyen el 1 al 5% de los leucocitos en sangre periférica."
     },
     {
       "id": 206,
@@ -2681,12 +2681,11 @@
       "options": {
         "A": "Disminución del número de componentes de la serie blanca.",
         "B": "Disminución del número de componentes de la serie roja.",
-        "C": "Disminución del número de componentes de la",
-        "D": "serie blanca, serie roja y sistema plaquetario."
+        "C": "Disminución del número de componentes de la serie blanca, serie roja y sistema plaquetario."
       },
       "page": 21,
       "correctAnswer": "C",
-      "correctText": "Disminución del número de componentes de la"
+      "correctText": "Disminución del número de componentes de la serie blanca, serie roja y sistema plaquetario."
     },
     {
       "id": 208,
@@ -2832,14 +2831,14 @@
       "id": 219,
       "question": "Señale la respuesta INCORRECTA:",
       "options": {
-        "A": "Las sombras nucleares de Gümprecht son típicas",
+        "A": "Las sombras nucleares de Gümprecht son típicas de leucemia mieloide aguda.",
         "B": "En la parasitosis podemos encontrar eosinofilia.",
         "C": "El cribado de hemoglobinopalías estructurales puede realizarse por sistemas de cromatografía de alta resolución.",
         "D": "La enzimopatía más frecuente es por déficit de glucosa 6 fosfato."
       },
       "page": 22,
       "correctAnswer": "A",
-      "correctText": "Las sombras nucleares de Gümprecht son típicas"
+      "correctText": "Las sombras nucleares de Gümprecht son típicas de leucemia mieloide aguda."
     },
     {
       "id": 220,
@@ -2886,12 +2885,11 @@
       "options": {
         "A": "Las plaquetas se originan a partir de la fragmentación del citoplasma de los megacariocitos.",
         "B": "Su función es la hemostasia, es decir, frenar o detener la pérdida de sangre cuando se ha quebrantado la integridad de la pared vascular.",
-        "C": "En ocasiones, encontramos recuentos altos de",
-        "D": "plaquetas a causa de un aumento de su tamaño o por agregación."
+        "C": "En ocasiones, encontramos recuentos altos de plaquetas a causa de un aumento de su tamaño o por agregación."
       },
       "page": 23,
       "correctAnswer": "C",
-      "correctText": "En ocasiones, encontramos recuentos altos de"
+      "correctText": "En ocasiones, encontramos recuentos altos de plaquetas a causa de un aumento de su tamaño o por agregación."
     },
     {
       "id": 224,
@@ -2946,14 +2944,14 @@
       "id": 228,
       "question": "Señale la respuesta correcta sobre las trombopenias:",
       "options": {
-        "A": "La púrpura idiopática trombocitopénica es un",
+        "A": "La púrpura idiopática trombocitopénica es un trastorno autoinmune.",
         "B": "El síndrome hemolítico-urémico afecta generalmente a jóvenes adultos.",
         "C": "La púrpura trombótica trombocitopénica afecta principalmente al riñón.",
         "D": "El atrapamiento de plaquetas por el bazo se denomina enfermedad de Werlhof."
       },
       "page": 23,
       "correctAnswer": "A",
-      "correctText": "La púrpura idiopática trombocitopénica es un"
+      "correctText": "La púrpura idiopática trombocitopénica es un trastorno autoinmune."
     },
     {
       "id": 229,
@@ -3011,27 +3009,27 @@
       "id": 233,
       "question": "Hablamos de leucopenia cuando el recuento total de leucocitos está por debajo de:",
       "options": {
-        "A": "6 x 109/L.",
-        "B": "4 x 109/L.",
-        "C": "10 x 109/L.",
-        "D": "11 x 109/L."
+        "A": "6 x 10 9 /L.",
+        "B": "4 x 10 9 /L.",
+        "C": "10 x 10 9 /L.",
+        "D": "11 x 10 9 /L."
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "4 x 109/L."
+      "correctText": "4 x 10 9 /L."
     },
     {
       "id": 234,
       "question": "Se considera trombocitosis cuando la cifra del recuento plaquetario es:",
       "options": {
-        "A": "< 450 x 109/L.",
-        "B": "> 250 x 109/L.",
-        "C": "> 400 x 109/L.",
-        "D": "> 150 x 109/L."
+        "A": "< 450 x 10 9 /L.",
+        "B": "> 250 x 10 9 /L.",
+        "C": "> 400 x 10 9 /L.",
+        "D": "> 150 x 10 9 /L."
       },
       "page": 24,
       "correctAnswer": "C",
-      "correctText": "> 400 x 109/L."
+      "correctText": "> 400 x 10 9 /L."
     },
     {
       "id": 235,
@@ -3114,13 +3112,13 @@
       "question": "En relación con la pseudotrombocitopenia, señale la respuesta correcta:",
       "options": {
         "A": "Los autoanalizadores permiten detectar cuando una trombocitopenia es de naturaleza inmune.",
-        "B": "Un recuento de plaquetas adicional en una",
-        "C": "Entre las pseudotrombocitopenias de mecanismo",
+        "B": "Un recuento de plaquetas adicional en una muestra de sangre extraída en presencia de otro anticoagulante distinto al EDTA y una revisión del frotis de sangre periférica permiten detectar la mayoría de pseudotrombocitopenias de causa inmune.",
+        "C": "Entre las pseudotrombocitopenias de mecanismo inmune, las producidas por anticuerpos EDTA dependientes son las menos frecuentes.",
         "D": "Los pacientes con pseudotrombocitopenia suelen presentar diátesis hemorrágica"
       },
       "page": 25,
       "correctAnswer": "B",
-      "correctText": "Un recuento de plaquetas adicional en una"
+      "correctText": "Un recuento de plaquetas adicional en una muestra de sangre extraída en presencia de otro anticoagulante distinto al EDTA y una revisión del frotis de sangre periférica permiten detectar la mayoría de pseudotrombocitopenias de causa inmune."
     },
     {
       "id": 242,
@@ -3191,14 +3189,14 @@
       "id": 247,
       "question": "En la fórmula de Arneth de clasificación de los leucocitos, una desviación a la izquierda indica:",
       "options": {
-        "A": "Producción de leucocitos nuevos o la presencia",
+        "A": "Producción de leucocitos nuevos o la presencia de formas jóvenes más inmaduras.",
         "B": "Alto porcentaje en la fórmula leucocitaria de neutrófilos con el núcleo multilobulado.",
         "C": "Aumento en la cifra total de glóbulos blancos por encima del valor normal establecido.",
         "D": "Ninguna es correcta"
       },
       "page": 25,
       "correctAnswer": "A",
-      "correctText": "Producción de leucocitos nuevos o la presencia"
+      "correctText": "Producción de leucocitos nuevos o la presencia de formas jóvenes más inmaduras."
     },
     {
       "id": 248,
@@ -3245,12 +3243,12 @@
       "options": {
         "A": "Se debe a la aglomeración de plaquetas en presencia de EDTA",
         "B": "Se corrige al utilizar otro anticoagulante distinto de EDTA",
-        "C": "Puede causar hemorragia si el recuento de",
+        "C": "Puede causar hemorragia si el recuento de plaquetas está por debajo de 20.000 plaquetas /microL",
         "D": "El examen del frotis sanguíneo establece el diagnóstico"
       },
       "page": 26,
       "correctAnswer": "C",
-      "correctText": "Puede causar hemorragia si el recuento de"
+      "correctText": "Puede causar hemorragia si el recuento de plaquetas está por debajo de 20.000 plaquetas /microL"
     },
     {
       "id": 252,
@@ -3310,25 +3308,25 @@
       "options": {
         "A": "Disminución de la serie plaquetar.",
         "B": "Disminución de la serie eritroide y plaquetar.",
-        "C": "Disminución de la serie eritroide, plaquetar y",
+        "C": "Disminución de la serie eritroide, plaquetar y leucocitaria.",
         "D": "Aumento de la serie eritroide, plaquetar y leucocitaria."
       },
       "page": 26,
       "correctAnswer": "C",
-      "correctText": "Disminución de la serie eritroide, plaquetar y"
+      "correctText": "Disminución de la serie eritroide, plaquetar y leucocitaria."
     },
     {
       "id": 257,
       "question": "Se obtiene en el contador hematológico un recuento de plaquetas por debajo del límite de normalidad. Señale la respuesta correcta:",
       "options": {
-        "A": "La pseudotrombocitopenia inducida por EDTA",
-        "B": "",
+        "A": "La pseudotrombocitopenia inducida por EDTA (ácido etilendiamino tetraacético) es un fenómeno de aglutinación in vitro de las plaquetas.",
+        "B": "El frotis no permite descartar las pseudotrombopenias por EDTA, macrotrombocitopenias o la presencia de esquistocitos",
         "C": "\"Satelitismo” plaquetario (agregación plaquetaria alrededor de los neutrófilos) no causa pseudotrombopenias.",
         "D": "En caso de agregados plaquetarios (pseudotrombocitopenias) inducidos por EDTA se debe hacer un recuento en sangre sin anticoagulante"
       },
       "page": 26,
       "correctAnswer": "A",
-      "correctText": "La pseudotrombocitopenia inducida por EDTA"
+      "correctText": "La pseudotrombocitopenia inducida por EDTA (ácido etilendiamino tetraacético) es un fenómeno de aglutinación in vitro de las plaquetas."
     },
     {
       "id": 258,
@@ -3401,12 +3399,12 @@
       "options": {
         "A": "Realizar frotis de sangre periférica.",
         "B": "No tener en cuenta las alarmas en los distintos parámetros.",
-        "C": "Observar macroscópicamente la muestra y",
+        "C": "Observar macroscópicamente la muestra y descartar la presencia de coágulos.",
         "D": "Solicitar reticulocitos."
       },
       "page": 27,
       "correctAnswer": "C",
-      "correctText": "Observar macroscópicamente la muestra y"
+      "correctText": "Observar macroscópicamente la muestra y descartar la presencia de coágulos."
     },
     {
       "id": 264,
@@ -3440,29 +3438,31 @@
       "options": {
         "A": "Promielocito-mieloblasto- cayado- metamielocito- segmentado",
         "B": "Mieloblasto-metamielocito- mielocito- segmentado-cayado",
-        "C": "Mieloblasto-mielocito-metamielocito-cayado-",
+        "C": "Mieloblasto-mielocito-metamielocito-cayado- segmentado",
         "D": "Promielocito- mieloblasto-segmentado- metamielocito-cayado"
       },
       "page": 27,
       "correctAnswer": "C",
-      "correctText": "Mieloblasto-mielocito-metamielocito-cayado-"
+      "correctText": "Mieloblasto-mielocito-metamielocito-cayado- segmentado"
     },
     {
       "id": 267,
-      "question": "En una leucemia linfática crónica (LLC), ¿qué se puede observar en un frotis de sangre periférica? a) Un aumento de células plasmáticas",
+      "question": "En una leucemia linfática crónica (LLC), ¿qué se puede observar en un frotis de sangre periférica?",
       "options": {
+        "A": "Un aumento de células plasmáticas",
         "B": "Presencia de linfocitos grandes granulares y sombras de Gumprecht",
-        "C": "Linfocitos con el núcleo maduro y condensado, y",
+        "C": "Linfocitos con el núcleo maduro y condensado, y sombras de Gumprecht",
         "D": "Bastones de Auer en el citoplasma de los linfocitos"
       },
       "page": 27,
       "correctAnswer": "C",
-      "correctText": "Linfocitos con el núcleo maduro y condensado, y"
+      "correctText": "Linfocitos con el núcleo maduro y condensado, y sombras de Gumprecht"
     },
     {
       "id": 268,
-      "question": "También hacen un frotis sanguíneo y observamos los neutrófilos segmentados. ¿Qué característica podemos encontrar en presencia de una infección bacteriana? a) Bastones de Auer",
+      "question": "También hacen un frotis sanguíneo y observamos los neutrófilos segmentados. ¿Qué característica podemos encontrar en presencia de una infección bacteriana?",
       "options": {
+        "A": "Bastones de Auer",
         "B": "Hipogranulación del citoplasma",
         "C": "Vacuolización del citoplasma",
         "D": "Sombras de Gümprecht"
@@ -3473,8 +3473,9 @@
     },
     {
       "id": 269,
-      "question": "¿Qué tipo de método utilizan los autoanalizadores para obtener el recuento de células sanguíneas? a) Citometría de flujo y citoquímica celular",
+      "question": "¿Qué tipo de método utilizan los autoanalizadores para obtener el recuento de células sanguíneas?",
       "options": {
+        "A": "Citometría de flujo y citoquímica celular",
         "B": "Cromatografía de adsorción",
         "C": "Electroforesis",
         "D": "Impedancia eléctrica y dispersión de la luz"
@@ -3498,8 +3499,9 @@
     },
     {
       "id": 271,
-      "question": "En referencia a las posibles causas de un recuento disminuido de plaquetas en un hemograma, qué respuesta es INCORRECTA a) Muestra coagulada en el tubo con EDTA-K3",
+      "question": "En referencia a las posibles causas de un recuento disminuido de plaquetas en un hemograma, qué respuesta es INCORRECTA",
       "options": {
+        "A": "Muestra coagulada en el tubo con EDTA-K3",
         "B": "Paciente con antecedentes de hepatopatía",
         "C": "Presencia de agregados plaquetarios EDTA- dependientes",
         "D": "Paciente con trombocitemia esencial"
@@ -3510,15 +3512,16 @@
     },
     {
       "id": 272,
-      "question": "Actualmente, en las técnicas de inmunodiagnóstico se utiliza mucho la citometría de flujo. En referencia a esta técnica de análisis, ¿cuál de estas afirmaciones es FALSA? a) Es necesaria la obtención de una suspensión celular.",
+      "question": "Actualmente, en las técnicas de inmunodiagnóstico se utiliza mucho la citometría de flujo. En referencia a esta técnica de análisis, ¿cuál de estas afirmaciones es FALSA?",
       "options": {
+        "A": "Es necesaria la obtención de una suspensión celular.",
         "B": "Es necesario marcar las suspensiones con AcMo conjugados con fluorocromos.",
-        "C": "Es necesaria la calibración del haz de luz led del",
+        "C": "Es necesaria la calibración del haz de luz led del citómetro de flujo.",
         "D": "Es necesario realizar la adquisición y análisis de datos."
       },
       "page": 28,
       "correctAnswer": "C",
-      "correctText": "Es necesaria la calibración del haz de luz led del"
+      "correctText": "Es necesaria la calibración del haz de luz led del citómetro de flujo."
     },
     {
       "id": 273,
@@ -3550,27 +3553,27 @@
       "id": 275,
       "question": "Señale la respuesta falsa de las siguientes afirmaciones sobre la tinción de PAS:",
       "options": {
-        "A": "Es útil en la diferencia de las leucemias",
+        "A": "Es útil en la diferencia de las leucemias monocíticas",
         "B": "Es fuertemente positiva en la talasemia beta mayor",
         "C": "Es fuertemente positiva en los síndromes mielodisplásicos",
         "D": "Detecta la presencia de carbohidratos en las células"
       },
       "page": 28,
       "correctAnswer": "A",
-      "correctText": "Es útil en la diferencia de las leucemias"
+      "correctText": "Es útil en la diferencia de las leucemias monocíticas"
     },
     {
       "id": 276,
       "question": "¿Qué es la fórmula leucocitaria?",
       "options": {
         "A": "Un parámetro de la serie roja.",
-        "B": "Un recuento diferencial de cada uno de los",
+        "B": "Un recuento diferencial de cada uno de los leucocitos presentes en sangre periférica.",
         "C": "Un test de aglutinación de leucocitos.",
         "D": "Ninguna es correcta."
       },
       "page": 28,
       "correctAnswer": "B",
-      "correctText": "Un recuento diferencial de cada uno de los"
+      "correctText": "Un recuento diferencial de cada uno de los leucocitos presentes en sangre periférica."
     },
     {
       "id": 277,
@@ -3704,8 +3707,9 @@
     },
     {
       "id": 287,
-      "question": "El estado final de la maduración del linfocito B corresponde a: a) Linfocito grande.",
+      "question": "El estado final de la maduración del linfocito B corresponde a:",
       "options": {
+        "A": "Linfocito grande.",
         "B": "Linfocito atípico.",
         "C": "Plasmocito.",
         "D": "Monocito vacuolado."
@@ -3716,24 +3720,25 @@
     },
     {
       "id": 288,
-      "question": "La alteración de May-Hegglin y el síndrome de Chédiak-Higashi pueden diferenciarse por la presencia de: a) Células polimorfonucleares hipersegmentadas.",
+      "question": "La alteración de May-Hegglin y el síndrome de Chédiak-Higashi pueden diferenciarse por la presencia de:",
       "options": {
+        "A": "Células polimorfonucleares hipersegmentadas.",
         "B": "Linfocitos y gránulos azurófilos.",
-        "C": "Disminución",
-        "D": "Tinción citoquímica.",
-        "E": "número de gránulos agrandados."
+        "C": "Disminución del número de gránulos agrandados.",
+        "D": "Tinción citoquímica."
       },
       "page": 29,
-      "correctAnswer": "E",
-      "correctText": "número de gránulos agrandados."
+      "correctAnswer": "C",
+      "correctText": "Disminución del número de gránulos agrandados."
     },
     {
       "id": 289,
-      "question": "En condiciones normales, la cantidad de eritrocitos maduros producidos por una célula troncal multipotencial estimulada para producir normoblastos es de: a) 4.",
+      "question": "En condiciones normales, la cantidad de eritrocitos maduros producidos por una célula troncal multipotencial estimulada para producir normoblastos es de:",
       "options": {
+        "A": "4.",
         "B": "8.",
         "C": "16.",
-        "D": "32. Comentario. IMPUGNABLE. Se dividen por mitosis. La última que puede hacerlo es el eritroblasto policromatófilo. Serían 4 pasos, es decir 24 que son 16"
+        "D": "32."
       },
       "page": 30,
       "correctAnswer": "B",
@@ -3741,8 +3746,9 @@
     },
     {
       "id": 290,
-      "question": "De las siguientes, la primera célula precursora de los granulocitos neutrófilos es: a) Monoblasto.",
+      "question": "De las siguientes, la primera célula precursora de los granulocitos neutrófilos es:",
       "options": {
+        "A": "Monoblasto.",
         "B": "Mieloblasto.",
         "C": "Metamielocito.",
         "D": "Promielocito."
@@ -3753,8 +3759,9 @@
     },
     {
       "id": 291,
-      "question": "¿Cuál de las siguientes no puede ser causa de linfopenia?: a) SIDA.",
+      "question": "¿Cuál de las siguientes no puede ser causa de linfopenia?:",
       "options": {
+        "A": "SIDA.",
         "B": "Linfoma.",
         "C": "Infección vírica.",
         "D": "Tratamiento con inmunosupresores."
@@ -3765,20 +3772,22 @@
     },
     {
       "id": 292,
-      "question": "¿Cuál es la translocación genética que da lugar a la leucemia mieloide aguda M3? a) t (15;17).",
+      "question": "¿Cuál es la translocación genética que da lugar a la leucemia mieloide aguda M3?",
       "options": {
+        "A": "t (15;17).",
         "B": "t (9;11).",
         "C": "t (21;21).",
         "D": "t (1;19)."
       },
       "page": 30,
-      "correctAnswer": "B",
-      "correctText": "t (9;11)."
+      "correctAnswer": "A",
+      "correctText": "t (15;17)."
     },
     {
       "id": 293,
-      "question": "En la clasificación de las leucemias mieloides agudas, ¿cuál corresponde con el tipo M6?: a) Leucemia mieloblástica aguda sin maduración.",
+      "question": "En la clasificación de las leucemias mieloides agudas, ¿cuál corresponde con el tipo M6?:",
       "options": {
+        "A": "Leucemia mieloblástica aguda sin maduración.",
         "B": "Leucemia mielomonocítica aguda.",
         "C": "Eritroleucemia aguda.",
         "D": "Leucemia megacariocítica aguda."

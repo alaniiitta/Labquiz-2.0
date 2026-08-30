@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { createCanvas } from "@napi-rs/canvas";
 import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 
-const topic = Number(process.env.TOPIC ?? 4);
+const topic = process.env.TOPIC ?? "4";
 const topicFiles = {
 	4: {
 		pdfPath: "pdfs/Test tema 4 Funcion digestiva (respuestas).pdf",
@@ -19,6 +19,16 @@ const topicFiles = {
 	7: {
 		pdfPath: "pdfs/Test tema 7 tecnicas instrumentales (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-07.json",
+	},
+	"8.1": {
+		pdfPath:
+			"pdfs/Test tema 8.1 Fisiología y metabolismo eritrocitario (respuestas)_652efe00ac2bfe331bbd1c9740877f68.pdf",
+		jsonPath: "src/questions/imports/topic-08.json",
+	},
+	"8.2": {
+		pdfPath:
+			"pdfs/TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf",
+		jsonPath: "src/questions/imports/topic-08_2.json",
 	},
 };
 const files = topicFiles[topic];
@@ -75,7 +85,7 @@ function findOptionMarkers(items) {
 		const standardMatch = combined.match(/^([A-E])\s*[).]/i);
 		const unpunctuatedMatch = combined.match(/^([D])\s+[A-ZÁÉÍÓÚÑ]/);
 		const inferredKey =
-			topic === 4 &&
+			topic === "4" &&
 			items[0]?.str.trim() === "206." &&
 			expectedKey === "D" &&
 			current === "El"
@@ -156,20 +166,28 @@ const parsed = [];
 const errors = [];
 
 for (const question of questions) {
-	const markers = findOptionMarkers(question.items);
+	const extraQuestionIndex =
+		topic === "8.2" && question.id === 222
+			? question.items.findIndex((item) => item.str.trim() === "1.")
+			: -1;
+	const questionItems =
+		extraQuestionIndex > 0
+			? question.items.slice(0, extraQuestionIndex)
+			: question.items;
+	const markers = findOptionMarkers(questionItems);
 	if (markers.length < 3 || markers.length > 5) {
 		errors.push(`Pregunta ${question.id}: detectadas ${markers.length} opciones`);
 		continue;
 	}
 
 	const questionText = joinItems(
-		question.items.slice(1, markers[0].index),
+		questionItems.slice(1, markers[0].index),
 	);
 	const options = {};
 	for (let index = 0; index < markers.length; index += 1) {
 		const marker = markers[index];
-		const end = markers[index + 1]?.index ?? question.items.length;
-		const optionText = joinItems(question.items.slice(marker.index, end));
+		const end = markers[index + 1]?.index ?? questionItems.length;
+		const optionText = joinItems(questionItems.slice(marker.index, end));
 		const cleanedOptionText = marker.inferred
 			? optionText
 			: optionText
@@ -182,8 +200,8 @@ for (const question of questions) {
 
 	const highlightScores = markers.map((marker) => {
 		const markerIndex = markers.indexOf(marker);
-		const end = markers[markerIndex + 1]?.index ?? question.items.length;
-		const score = question.items
+		const end = markers[markerIndex + 1]?.index ?? questionItems.length;
+		const score = questionItems
 			.slice(marker.index, end)
 			.filter((item) => item.str.trim())
 			.reduce((total, item) => {
