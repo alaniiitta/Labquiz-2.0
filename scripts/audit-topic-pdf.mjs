@@ -34,6 +34,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 9 Coagulación (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-09.json",
 	},
+	10: {
+		pdfPath: "pdfs/TEST tema 10 Banco de sangre (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-10.json",
+	},
 };
 const files = topicFiles[topic];
 
