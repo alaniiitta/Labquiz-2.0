@@ -42,6 +42,10 @@ const topicFiles = {
 		pdfPath: "pdfs/TEST tema 11 Inmunología (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-11-clean.json",
 	},
+	12: {
+		pdfPath: "pdfs/TEST tema 12 serología (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-12-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -59,6 +63,7 @@ function normalizeText(value) {
 		.replace(/\s+([,.;:?!])/g, "$1")
 		.replace(/([¿¡])\s+/g, "$1")
 		.replace(/\btrioleí na\b/g, "trioleína")
+		.replace(/\bheteró filos\b/g, "heterófilos")
 		.replace("marcador de.la pérdida", "marcador de .la pérdida")
 		.trim();
 }
