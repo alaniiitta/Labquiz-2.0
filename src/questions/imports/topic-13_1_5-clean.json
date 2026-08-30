@@ -15,13 +15,7 @@
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "S. intermedius.",
-      "_yellow_scores": {
-        "A": 0.6454901960784314,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "S. intermedius."
     },
     {
       "id": 2,
@@ -34,13 +28,7 @@
       },
       "page": 1,
       "correctAnswer": "B",
-      "correctText": "Haemophylus ducreyi",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6347826086956522,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Haemophylus ducreyi"
     },
     {
       "id": 3,
@@ -53,13 +41,7 @@
       },
       "page": 1,
       "correctAnswer": "D",
-      "correctText": "Son cocos gram-",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6413043478260869
-      }
+      "correctText": "Son cocos gram-"
     },
     {
       "id": 4,
@@ -72,13 +54,7 @@
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "Bacilos Gram negativos inmóviles.",
-      "_yellow_scores": {
-        "A": 0.6529411764705882,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos Gram negativos inmóviles."
     },
     {
       "id": 5,
@@ -91,13 +67,7 @@
       },
       "page": 1,
       "correctAnswer": "B",
-      "correctText": "Bordetella.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6019900497512438,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bordetella."
     },
     {
       "id": 6,
@@ -110,13 +80,7 @@
       },
       "page": 1,
       "correctAnswer": "D",
-      "correctText": "Treponema.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6383561643835617
-      }
+      "correctText": "Treponema."
     },
     {
       "id": 7,
@@ -129,32 +93,20 @@
       },
       "page": 1,
       "correctAnswer": "D",
-      "correctText": "Bacillus anthracis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7144781144781145
-      }
+      "correctText": "Bacillus anthracis."
     },
     {
       "id": 8,
       "question": "Un título de ASLO alto es indicativo de:",
       "options": {
-        "A": "",
+        "A": "Fiebres reumáticas.",
         "B": "Artrosis.",
         "C": "Artritis reumatoide.",
-        "D": "Infección estreptocócica beta hemolítica del grupo"
+        "D": "Infección estreptocócica beta hemolítica del grupo A."
       },
       "page": 1,
       "correctAnswer": "D",
-      "correctText": "Infección estreptocócica beta hemolítica del grupo",
-      "_yellow_scores": {
-        "A": 0.35,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6227226720647774
-      }
+      "correctText": "Infección estreptocócica beta hemolítica del grupo A."
     },
     {
       "id": 9,
@@ -167,13 +119,7 @@
       },
       "page": 1,
       "correctAnswer": "B",
-      "correctText": "Borrelias.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6459016393442623,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Borrelias."
     },
     {
       "id": 10,
@@ -186,13 +132,7 @@
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "Es una bacteria intracelular del hombre que puede provocar conjuntivitis.",
-      "_yellow_scores": {
-        "A": 0.446258325715032,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Es una bacteria intracelular del hombre que puede provocar conjuntivitis."
     },
     {
       "id": 11,
@@ -205,13 +145,7 @@
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "Proteus.",
-      "_yellow_scores": {
-        "A": 0.5535714285714286,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Proteus."
     },
     {
       "id": 12,
@@ -219,18 +153,12 @@
       "options": {
         "A": "Bacilos Gram- que forman tétradas.",
         "B": "Bacilos Gran- que se asocian de forma irregular y se tiñen con facilidad.",
-        "C": "Bacilos Gram+ que se tiñen con dificultad y son pleomorfos. TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Bacilos Gram+ que se tiñen con dificultad y son pleomorfos.",
         "D": "Bacilos Gram+ que se tiñen con facilidad."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "Bacilos Gram+ que se tiñen con dificultad y son pleomorfos. TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.4174089068825911,
-        "D": 0.0
-      }
+      "correctText": "Bacilos Gram+ que se tiñen con dificultad y son pleomorfos."
     },
     {
       "id": 13,
@@ -243,13 +171,7 @@
       },
       "page": 2,
       "correctAnswer": "D",
-      "correctText": "A y B son verdaderas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6666666666666666
-      }
+      "correctText": "A y B son verdaderas."
     },
     {
       "id": 14,
@@ -262,13 +184,7 @@
       },
       "page": 2,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7163636363636363
-      }
+      "correctText": "Todas son correctas."
     },
     {
       "id": 15,
@@ -281,13 +197,7 @@
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Brucella melitensis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5714285714285714,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Brucella melitensis."
     },
     {
       "id": 16,
@@ -300,13 +210,7 @@
       },
       "page": 2,
       "correctAnswer": "C",
-      "correctText": "Tener prevalencia estacional",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6574712643678161,
-        "D": 0.0
-      }
+      "correctText": "Tener prevalencia estacional"
     },
     {
       "id": 17,
@@ -319,13 +223,7 @@
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Una toxina presente en cepas comunitarias de S.aureus resistente a cloxacilina",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5634146341463414,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Una toxina presente en cepas comunitarias de S.aureus resistente a cloxacilina"
     },
     {
       "id": 18,
@@ -338,13 +236,7 @@
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Tres semanas",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6495726495726496,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Tres semanas"
     },
     {
       "id": 19,
@@ -357,13 +249,7 @@
       },
       "page": 2,
       "correctAnswer": "A",
-      "correctText": "Normalmente no se diagnostica por serología.",
-      "_yellow_scores": {
-        "A": 0.6577777777777778,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Normalmente no se diagnostica por serología."
     },
     {
       "id": 20,
@@ -376,13 +262,7 @@
       },
       "page": 2,
       "correctAnswer": "D",
-      "correctText": "Bartonella henselae",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6327160493827161
-      }
+      "correctText": "Bartonella henselae"
     },
     {
       "id": 21,
@@ -395,13 +275,7 @@
       },
       "page": 2,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6456456456456456
-      }
+      "correctText": "Todas son correctas."
     },
     {
       "id": 22,
@@ -414,13 +288,7 @@
       },
       "page": 2,
       "correctAnswer": "C",
-      "correctText": "Estrategia extrema de supervivencia de ciertas bacterias Gram positivas",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.47629619955596186,
-        "D": 0.0
-      }
+      "correctText": "Estrategia extrema de supervivencia de ciertas bacterias Gram positivas"
     },
     {
       "id": 23,
@@ -433,32 +301,20 @@
       },
       "page": 2,
       "correctAnswer": "C",
-      "correctText": "Prueba de la Coagulasa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.7045333333333333,
-        "D": 0.0
-      }
+      "correctText": "Prueba de la Coagulasa."
     },
     {
       "id": 24,
       "question": "De las siguientes bacterias, ¿cuál es gram positiva?",
       "options": {
         "A": "Escherichia",
-        "B": "Proteus TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Proteus",
         "C": "Pseudomonas",
         "D": "Staphylococcus"
       },
       "page": 2,
       "correctAnswer": "D",
-      "correctText": "Staphylococcus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5747126436781609
-      }
+      "correctText": "Staphylococcus"
     },
     {
       "id": 25,
@@ -471,13 +327,7 @@
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "Nocardia.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.594535519125683,
-        "D": 0.0
-      }
+      "correctText": "Nocardia."
     },
     {
       "id": 26,
@@ -490,13 +340,7 @@
       },
       "page": 3,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6533333333333333
-      }
+      "correctText": "Todas son correctas."
     },
     {
       "id": 27,
@@ -509,13 +353,7 @@
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Bacilos gran positivos pequeños; colonias pequeñas débilmente beta-hemolíticas; motilidad característica (volteo).",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.4848618201020947,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos gran positivos pequeños; colonias pequeñas débilmente beta-hemolíticas; motilidad característica (volteo)."
     },
     {
       "id": 28,
@@ -528,13 +366,7 @@
       },
       "page": 3,
       "correctAnswer": "D",
-      "correctText": "Candida albicans.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7020833333333333
-      }
+      "correctText": "Candida albicans."
     },
     {
       "id": 29,
@@ -547,13 +379,7 @@
       },
       "page": 3,
       "correctAnswer": "D",
-      "correctText": "Prueba de Weil-Félix.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5736842105263158
-      }
+      "correctText": "Prueba de Weil-Félix."
     },
     {
       "id": 30,
@@ -566,13 +392,7 @@
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Alfa – Hemolíticas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6379084967320261,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Alfa – Hemolíticas."
     },
     {
       "id": 31,
@@ -585,13 +405,7 @@
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "Haemophilus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6796536796536796,
-        "D": 0.0
-      }
+      "correctText": "Haemophilus"
     },
     {
       "id": 32,
@@ -604,13 +418,7 @@
       },
       "page": 3,
       "correctAnswer": "A",
-      "correctText": "Clostridium",
-      "_yellow_scores": {
-        "A": 0.5757042253521126,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium"
     },
     {
       "id": 33,
@@ -623,13 +431,7 @@
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "No poseer pared celular",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6391534391534391,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "No poseer pared celular"
     },
     {
       "id": 34,
@@ -642,32 +444,20 @@
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Prueba de la catalasa",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6967551622418879,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Prueba de la catalasa"
     },
     {
       "id": 35,
       "question": "Una de las siguientes afirmaciones de la pseudomona es falsa:",
       "options": {
         "A": "Bacilos gram negativos móviles",
-        "B": "Bacilos gram negativos inmóviles TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Bacilos gram negativos inmóviles",
         "C": "Crecen con facilidad en medios de cultivo ordinarios",
         "D": "No fermentan la lactosa"
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Bacilos gram negativos inmóviles TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5931726907630522,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos gram negativos inmóviles"
     },
     {
       "id": 36,
@@ -680,13 +470,7 @@
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "Neisseria.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6808743169398908,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Neisseria."
     },
     {
       "id": 37,
@@ -699,13 +483,7 @@
       },
       "page": 4,
       "correctAnswer": "C",
-      "correctText": "FTA-ABS",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5556818181818182,
-        "D": 0.0
-      }
+      "correctText": "FTA-ABS"
     },
     {
       "id": 38,
@@ -718,13 +496,7 @@
       },
       "page": 4,
       "correctAnswer": "D",
-      "correctText": "S. pyogenes.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6013513513513513
-      }
+      "correctText": "S. pyogenes."
     },
     {
       "id": 39,
@@ -737,13 +509,7 @@
       },
       "page": 4,
       "correctAnswer": "D",
-      "correctText": "S. agalactiae.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6207792207792208
-      }
+      "correctText": "S. agalactiae."
     },
     {
       "id": 40,
@@ -756,13 +522,7 @@
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "Bacilos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5192307692307693,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos."
     },
     {
       "id": 41,
@@ -775,13 +535,7 @@
       },
       "page": 4,
       "correctAnswer": "C",
-      "correctText": "Haemophilus ducreyi.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6463768115942029,
-        "D": 0.0
-      }
+      "correctText": "Haemophilus ducreyi."
     },
     {
       "id": 42,
@@ -794,13 +548,7 @@
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "Clostridium.",
-      "_yellow_scores": {
-        "A": 0.6191780821917808,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium."
     },
     {
       "id": 43,
@@ -813,13 +561,7 @@
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "Mycoplasmas.",
-      "_yellow_scores": {
-        "A": 0.5737951807228916,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Mycoplasmas."
     },
     {
       "id": 44,
@@ -832,13 +574,7 @@
       },
       "page": 4,
       "correctAnswer": "C",
-      "correctText": "Haemophilus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6158333333333333,
-        "D": 0.0
-      }
+      "correctText": "Haemophilus."
     },
     {
       "id": 45,
@@ -851,13 +587,7 @@
       },
       "page": 4,
       "correctAnswer": "D",
-      "correctText": "Un bacilo Gram (-).",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6532051282051282
-      }
+      "correctText": "Un bacilo Gram (-)."
     },
     {
       "id": 46,
@@ -870,13 +600,7 @@
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "Son causa frecuente de endocarditis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6536231884057971,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son causa frecuente de endocarditis."
     },
     {
       "id": 47,
@@ -889,32 +613,20 @@
       },
       "page": 4,
       "correctAnswer": "D",
-      "correctText": "Diplococo Gram negativo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7096296296296296
-      }
+      "correctText": "Diplococo Gram negativo."
     },
     {
       "id": 48,
       "question": "Uno de los siguientes géneros de bacterias es catalasa negativa:",
       "options": {
         "A": "Staphylococcus spp.",
-        "B": "Neisserias spp. TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Neisserias spp.",
         "C": "Streptococcus spp.",
         "D": "Listeria spp."
       },
       "page": 4,
       "correctAnswer": "C",
-      "correctText": "Streptococcus spp.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6392156862745098,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus spp."
     },
     {
       "id": 49,
@@ -927,13 +639,7 @@
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Catalasa positivo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6979166666666666,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Catalasa positivo."
     },
     {
       "id": 50,
@@ -946,13 +652,7 @@
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "Test de la Coagulasa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6069819819819819,
-        "D": 0.0
-      }
+      "correctText": "Test de la Coagulasa."
     },
     {
       "id": 51,
@@ -965,13 +665,7 @@
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Clostridium perfringens.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6444444444444445,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium perfringens."
     },
     {
       "id": 52,
@@ -984,13 +678,7 @@
       },
       "page": 5,
       "correctAnswer": "A",
-      "correctText": "Especies de Haemofilus.",
-      "_yellow_scores": {
-        "A": 0.6534391534391535,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Especies de Haemofilus."
     },
     {
       "id": 53,
@@ -1003,13 +691,7 @@
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Salmonella thypi.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6259649122807017,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Salmonella thypi."
     },
     {
       "id": 54,
@@ -1022,13 +704,7 @@
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Los micoplasmas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5618055555555556,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Los micoplasmas."
     },
     {
       "id": 55,
@@ -1041,13 +717,7 @@
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Son componentes de la pared de las micobacterias.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6709851551956815,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son componentes de la pared de las micobacterias."
     },
     {
       "id": 56,
@@ -1060,13 +730,7 @@
       },
       "page": 5,
       "correctAnswer": "A",
-      "correctText": "Elemento constante de todas las bacterias incluso los mycoplasmas.",
-      "_yellow_scores": {
-        "A": 0.4403813503983283,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Elemento constante de todas las bacterias incluso los mycoplasmas."
     },
     {
       "id": 57,
@@ -1079,13 +743,7 @@
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "Prueba de la catalasa",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.7002949852507374,
-        "D": 0.0
-      }
+      "correctText": "Prueba de la catalasa"
     },
     {
       "id": 58,
@@ -1098,13 +756,7 @@
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Halófilo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6321428571428571,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Halófilo."
     },
     {
       "id": 59,
@@ -1117,13 +769,7 @@
       },
       "page": 5,
       "correctAnswer": "D",
-      "correctText": "Streptococcus pneumonia",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.65
-      }
+      "correctText": "Streptococcus pneumonia"
     },
     {
       "id": 60,
@@ -1136,17 +782,11 @@
       },
       "page": 5,
       "correctAnswer": "A",
-      "correctText": "Rickettsia conorii.",
-      "_yellow_scores": {
-        "A": 0.6319727891156462,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Rickettsia conorii."
     },
     {
       "id": 61,
-      "question": "¿Cuál es el agente etiológico de la fiebre Q?: TEST 13.1 y 13.5 Microbiología patógenos",
+      "question": "¿Cuál es el agente etiológico de la fiebre Q?:",
       "options": {
         "A": "Ricketisia conorii.",
         "B": "Ricketisia typhi.",
@@ -1155,13 +795,7 @@
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "Coxiella burnetii.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6329749103942652,
-        "D": 0.0
-      }
+      "correctText": "Coxiella burnetii."
     },
     {
       "id": 62,
@@ -1174,13 +808,7 @@
       },
       "page": 6,
       "correctAnswer": "D",
-      "correctText": "Clamidias.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6208333333333333
-      }
+      "correctText": "Clamidias."
     },
     {
       "id": 63,
@@ -1193,13 +821,7 @@
       },
       "page": 6,
       "correctAnswer": "D",
-      "correctText": "Streptococo del grupo B",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7074074074074074
-      }
+      "correctText": "Streptococo del grupo B"
     },
     {
       "id": 64,
@@ -1212,13 +834,7 @@
       },
       "page": 6,
       "correctAnswer": "D",
-      "correctText": "Para su aislamiento selectivo se usa el medio de Mac Conkey, donde crece en colonias lactosa Positivas",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6711201079622132
-      }
+      "correctText": "Para su aislamiento selectivo se usa el medio de Mac Conkey, donde crece en colonias lactosa Positivas"
     },
     {
       "id": 65,
@@ -1231,13 +847,7 @@
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "Proteus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6593939393939394,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Proteus."
     },
     {
       "id": 66,
@@ -1250,13 +860,7 @@
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "Staphylococcus saprophyticus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5776315789473684,
-        "D": 0.0
-      }
+      "correctText": "Staphylococcus saprophyticus"
     },
     {
       "id": 67,
@@ -1269,13 +873,7 @@
       },
       "page": 6,
       "correctAnswer": "A",
-      "correctText": "Fiebre reumática",
-      "_yellow_scores": {
-        "A": 0.6989473684210527,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Fiebre reumática"
     },
     {
       "id": 68,
@@ -1288,13 +886,7 @@
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "Un cocobacilo gram negativo, pleomórfico.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6193452380952381,
-        "D": 0.0
-      }
+      "correctText": "Un cocobacilo gram negativo, pleomórfico."
     },
     {
       "id": 69,
@@ -1307,13 +899,7 @@
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "Son bacilos Gram negativos inmóviles.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.7266313932980599,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son bacilos Gram negativos inmóviles."
     },
     {
       "id": 70,
@@ -1326,13 +912,7 @@
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "Pared celular.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6225,
-        "D": 0.0
-      }
+      "correctText": "Pared celular."
     },
     {
       "id": 71,
@@ -1345,13 +925,7 @@
       },
       "page": 6,
       "correctAnswer": "D",
-      "correctText": "Bordetella Pertussis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6348348348348348
-      }
+      "correctText": "Bordetella Pertussis."
     },
     {
       "id": 72,
@@ -1364,17 +938,11 @@
       },
       "page": 6,
       "correctAnswer": "D",
-      "correctText": "Todas las respuestas anteriores son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6693333333333333
-      }
+      "correctText": "Todas las respuestas anteriores son correctas."
     },
     {
       "id": 73,
-      "question": "¿Cuál de estos microorganismos no es una bacteria? TEST 13.1 y 13.5 Microbiología patógenos",
+      "question": "¿Cuál de estos microorganismos no es una bacteria?",
       "options": {
         "A": "Staphylococcus aureus.",
         "B": "Criptococcus neoformans.",
@@ -1383,13 +951,7 @@
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "Criptococcus neoformans.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.585679012345679,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Criptococcus neoformans."
     },
     {
       "id": 74,
@@ -1402,13 +964,7 @@
       },
       "page": 7,
       "correctAnswer": "D",
-      "correctText": "Todas las respuestas anteriores son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6758928571428572
-      }
+      "correctText": "Todas las respuestas anteriores son correctas."
     },
     {
       "id": 75,
@@ -1421,13 +977,7 @@
       },
       "page": 7,
       "correctAnswer": "D",
-      "correctText": "Son bacterias gram negativas y anaerobias facultativas",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.4348282192499344
-      }
+      "correctText": "Son bacterias gram negativas y anaerobias facultativas"
     },
     {
       "id": 76,
@@ -1440,13 +990,7 @@
       },
       "page": 7,
       "correctAnswer": "D",
-      "correctText": "Escherichia coli, oxidasa +",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6512437810945274
-      }
+      "correctText": "Escherichia coli, oxidasa +"
     },
     {
       "id": 77,
@@ -1459,13 +1003,7 @@
       },
       "page": 7,
       "correctAnswer": "C",
-      "correctText": "S. saprophyticus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.642962962962963,
-        "D": 0.0
-      }
+      "correctText": "S. saprophyticus"
     },
     {
       "id": 78,
@@ -1478,13 +1016,7 @@
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "RPR",
-      "_yellow_scores": {
-        "A": 0.5388888888888889,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "RPR"
     },
     {
       "id": 79,
@@ -1497,13 +1029,7 @@
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Clostridium",
-      "_yellow_scores": {
-        "A": 0.6114285714285714,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium"
     },
     {
       "id": 80,
@@ -1516,13 +1042,7 @@
       },
       "page": 7,
       "correctAnswer": "B",
-      "correctText": "Bacilos gram negativos inmóviles",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6409638554216868,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos gram negativos inmóviles"
     },
     {
       "id": 81,
@@ -1535,13 +1055,7 @@
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Carecen de pared celular",
-      "_yellow_scores": {
-        "A": 0.5902564102564103,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Carecen de pared celular"
     },
     {
       "id": 82,
@@ -1554,13 +1068,7 @@
       },
       "page": 7,
       "correctAnswer": "C",
-      "correctText": "Catalasa negativo",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5805412371134021,
-        "D": 0.0
-      }
+      "correctText": "Catalasa negativo"
     },
     {
       "id": 83,
@@ -1573,13 +1081,7 @@
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Coco Gram negativo",
-      "_yellow_scores": {
-        "A": 0.6890909090909091,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Coco Gram negativo"
     },
     {
       "id": 84,
@@ -1592,32 +1094,20 @@
       },
       "page": 7,
       "correctAnswer": "D",
-      "correctText": "Es un bacilo aerobio Gram positivo",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6609195402298851
-      }
+      "correctText": "Es un bacilo aerobio Gram positivo"
     },
     {
       "id": 85,
       "question": "Con respecto a la prueba VDRL para el diagnóstico de sífilis señale la respuesta incorrecta:",
       "options": {
         "A": "Se trata de una técnica de aglutinación",
-        "B": "Es una prueba treponémica TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Es una prueba treponémica",
         "C": "Se emplea como indicador de infección en fase aguda",
         "D": "Es útil para control de respuesta al tratamiento"
       },
       "page": 7,
       "correctAnswer": "B",
-      "correctText": "Es una prueba treponémica TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6427230046948357,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Es una prueba treponémica"
     },
     {
       "id": 86,
@@ -1630,13 +1120,7 @@
       },
       "page": 8,
       "correctAnswer": "D",
-      "correctText": "Es coagulasa negativo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6397759103641456
-      }
+      "correctText": "Es coagulasa negativo."
     },
     {
       "id": 87,
@@ -1649,13 +1133,7 @@
       },
       "page": 8,
       "correctAnswer": "D",
-      "correctText": "Algunas cepas producen toxinas eritrogénicas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.658962962962963
-      }
+      "correctText": "Algunas cepas producen toxinas eritrogénicas."
     },
     {
       "id": 88,
@@ -1668,13 +1146,7 @@
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Anaerobios.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5755868544600939,
-        "D": 0.0
-      }
+      "correctText": "Anaerobios."
     },
     {
       "id": 89,
@@ -1687,13 +1159,7 @@
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Enterococcus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.635,
-        "D": 0.0
-      }
+      "correctText": "Enterococcus."
     },
     {
       "id": 90,
@@ -1706,13 +1172,7 @@
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Neisseria gonorrhoeae",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6364145658263305,
-        "D": 0.0
-      }
+      "correctText": "Neisseria gonorrhoeae"
     },
     {
       "id": 91,
@@ -1725,13 +1185,7 @@
       },
       "page": 8,
       "correctAnswer": "A",
-      "correctText": "Son cocobacilos Gram positivos",
-      "_yellow_scores": {
-        "A": 0.6570230607966457,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son cocobacilos Gram positivos"
     },
     {
       "id": 92,
@@ -1744,13 +1198,7 @@
       },
       "page": 8,
       "correctAnswer": "D",
-      "correctText": "S.pneumoniae",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5626984126984127
-      }
+      "correctText": "S.pneumoniae"
     },
     {
       "id": 93,
@@ -1763,13 +1211,7 @@
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "FTA-ABS.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5977401129943503,
-        "D": 0.0
-      }
+      "correctText": "FTA-ABS."
     },
     {
       "id": 94,
@@ -1782,13 +1224,7 @@
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "FTA-ABS",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5857142857142857,
-        "D": 0.0
-      }
+      "correctText": "FTA-ABS"
     },
     {
       "id": 95,
@@ -1801,13 +1237,7 @@
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Corynebacterium",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6333333333333333,
-        "D": 0.0
-      }
+      "correctText": "Corynebacterium"
     },
     {
       "id": 96,
@@ -1816,17 +1246,11 @@
         "A": "La lectura se hace a las 48 horas de la inyección intradérmica.",
         "B": "Se considera resultado positivo cuando el diámetro de la induración producida es > de 15 mm en personas no vacunadas.",
         "C": "Puede dar falsos negativos en recién nacidos y pacientes ancianos.",
-        "D": "Puede dar falsos positivos por corticoterapia. TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "Puede dar falsos positivos por corticoterapia."
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Puede dar falsos negativos en recién nacidos y pacientes ancianos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.45135170432284183,
-        "D": 0.0
-      }
+      "correctText": "Puede dar falsos negativos en recién nacidos y pacientes ancianos."
     },
     {
       "id": 97,
@@ -1839,13 +1263,7 @@
       },
       "page": 9,
       "correctAnswer": "B",
-      "correctText": "Se aconseja recoger tres muestras aisladas de tres días consecutivos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.46016260162601624,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Se aconseja recoger tres muestras aisladas de tres días consecutivos."
     },
     {
       "id": 98,
@@ -1858,13 +1276,7 @@
       },
       "page": 9,
       "correctAnswer": "D",
-      "correctText": "Todas las respuestas anteriores son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6758928571428572
-      }
+      "correctText": "Todas las respuestas anteriores son correctas."
     },
     {
       "id": 99,
@@ -1877,13 +1289,7 @@
       },
       "page": 9,
       "correctAnswer": "B",
-      "correctText": "Es anaerobio facultativo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.7125,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Es anaerobio facultativo."
     },
     {
       "id": 100,
@@ -1896,13 +1302,7 @@
       },
       "page": 9,
       "correctAnswer": "A",
-      "correctText": "Haber padecido tuberculosis.",
-      "_yellow_scores": {
-        "A": 0.7131991051454138,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Haber padecido tuberculosis."
     },
     {
       "id": 101,
@@ -1915,13 +1315,7 @@
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "Se detecta mediante la intradermorreacción de Mantoux.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.40487804878048783,
-        "D": 0.0
-      }
+      "correctText": "Se detecta mediante la intradermorreacción de Mantoux."
     },
     {
       "id": 102,
@@ -1934,13 +1328,7 @@
       },
       "page": 9,
       "correctAnswer": "B",
-      "correctText": "Líquido cefalorraquídeo",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6309333333333333,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Líquido cefalorraquídeo"
     },
     {
       "id": 103,
@@ -1953,13 +1341,7 @@
       },
       "page": 9,
       "correctAnswer": "B",
-      "correctText": "Las muestras de lavado gástrico deben ser procesadas de inmediato porque las micobacterias son rápidamente destruidas con la acidez del jugo gástrico.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5041138827216926,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Las muestras de lavado gástrico deben ser procesadas de inmediato porque las micobacterias son rápidamente destruidas con la acidez del jugo gástrico."
     },
     {
       "id": 104,
@@ -1972,13 +1354,7 @@
       },
       "page": 9,
       "correctAnswer": "A",
-      "correctText": "El test de niacina es útil para diferenciar Mycobacterium tuberculosis de Mycobacterium bovis.",
-      "_yellow_scores": {
-        "A": 0.4954233409610984,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "El test de niacina es útil para diferenciar Mycobacterium tuberculosis de Mycobacterium bovis."
     },
     {
       "id": 105,
@@ -1987,17 +1363,11 @@
         "A": "Mycobacterium kansasii",
         "B": "Mycobacterium bovis",
         "C": "Mycobacterium avium-intracellulare",
-        "D": "Mycobacterium leprae TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "Mycobacterium leprae"
       },
       "page": 9,
       "correctAnswer": "D",
-      "correctText": "Mycobacterium leprae TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.631404958677686
-      }
+      "correctText": "Mycobacterium leprae"
     },
     {
       "id": 106,
@@ -2010,13 +1380,7 @@
       },
       "page": 10,
       "correctAnswer": "A",
-      "correctText": "Haemophilus influenzae.",
-      "_yellow_scores": {
-        "A": 0.6501291989664083,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Haemophilus influenzae."
     },
     {
       "id": 107,
@@ -2029,13 +1393,7 @@
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "Chlamydia trachomatis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6482384823848238,
-        "D": 0.0
-      }
+      "correctText": "Chlamydia trachomatis."
     },
     {
       "id": 108,
@@ -2048,13 +1406,7 @@
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "La tinción de elección es el azul de metileno.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.7351851851851852,
-        "D": 0.0
-      }
+      "correctText": "La tinción de elección es el azul de metileno."
     },
     {
       "id": 109,
@@ -2067,13 +1419,7 @@
       },
       "page": 10,
       "correctAnswer": "B",
-      "correctText": "Legionella.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5393939393939394,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Legionella."
     },
     {
       "id": 110,
@@ -2086,13 +1432,7 @@
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "De este género, la principal causa de infección de piel en humanos es una especie coagulasa (+).",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.620460704607046,
-        "D": 0.0
-      }
+      "correctText": "De este género, la principal causa de infección de piel en humanos es una especie coagulasa (+)."
     },
     {
       "id": 111,
@@ -2105,13 +1445,7 @@
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "Detección mediante PCR a tiempo real del gen mecA de S. aureus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.43750816246571766,
-        "D": 0.0
-      }
+      "correctText": "Detección mediante PCR a tiempo real del gen mecA de S. aureus."
     },
     {
       "id": 112,
@@ -2124,13 +1458,7 @@
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "Licuar cualquier moco en las muestras respiratorias y reducir el crecimiento excesivo de otras bacterias y hongos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.49445520154902306,
-        "D": 0.0
-      }
+      "correctText": "Licuar cualquier moco en las muestras respiratorias y reducir el crecimiento excesivo de otras bacterias y hongos."
     },
     {
       "id": 113,
@@ -2143,13 +1471,7 @@
       },
       "page": 10,
       "correctAnswer": "D",
-      "correctText": "Staphylococcus aureus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.646236559139785
-      }
+      "correctText": "Staphylococcus aureus."
     },
     {
       "id": 114,
@@ -2162,13 +1484,7 @@
       },
       "page": 10,
       "correctAnswer": "B",
-      "correctText": "A la presencia del gen mecA.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.7034013605442176,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "A la presencia del gen mecA."
     },
     {
       "id": 115,
@@ -2176,18 +1492,12 @@
       "options": {
         "A": "M. bovis",
         "B": "M. tuberculosis",
-        "C": "M. africanum TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "M. africanum",
         "D": "Todas son correctas"
       },
       "page": 10,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6438271604938272
-      }
+      "correctText": "Todas son correctas"
     },
     {
       "id": 116,
@@ -2200,13 +1510,7 @@
       },
       "page": 11,
       "correctAnswer": "B",
-      "correctText": "Coagulasa",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5925925925925926,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Coagulasa"
     },
     {
       "id": 117,
@@ -2219,13 +1523,7 @@
       },
       "page": 11,
       "correctAnswer": "D",
-      "correctText": "Pertenece al grupo D",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.696165191740413
-      }
+      "correctText": "Pertenece al grupo D"
     },
     {
       "id": 118,
@@ -2238,13 +1536,7 @@
       },
       "page": 11,
       "correctAnswer": "D",
-      "correctText": "Gram negativos anaerobios",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7111111111111111
-      }
+      "correctText": "Gram negativos anaerobios"
     },
     {
       "id": 119,
@@ -2257,13 +1549,7 @@
       },
       "page": 11,
       "correctAnswer": "D",
-      "correctText": "Sangre",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5891156462585034
-      }
+      "correctText": "Sangre"
     },
     {
       "id": 120,
@@ -2276,13 +1562,7 @@
       },
       "page": 11,
       "correctAnswer": "B",
-      "correctText": "gangrena gaseosa",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6122448979591837,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "gangrena gaseosa"
     },
     {
       "id": 121,
@@ -2295,13 +1575,7 @@
       },
       "page": 11,
       "correctAnswer": "C",
-      "correctText": "Hay que seguir las instrucciones del documento “insert” de la técnica",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.46072874493927124,
-        "D": 0.0
-      }
+      "correctText": "Hay que seguir las instrucciones del documento “insert” de la técnica"
     },
     {
       "id": 122,
@@ -2314,13 +1588,7 @@
       },
       "page": 11,
       "correctAnswer": "B",
-      "correctText": "Precipitación de Lancefield",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.702158273381295,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Precipitación de Lancefield"
     },
     {
       "id": 123,
@@ -2333,13 +1601,7 @@
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "El carácter hemolítico.",
-      "_yellow_scores": {
-        "A": 0.6459383753501401,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "El carácter hemolítico."
     },
     {
       "id": 124,
@@ -2352,13 +1614,7 @@
       },
       "page": 11,
       "correctAnswer": "B",
-      "correctText": "Eritrogénica.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6142222222222222,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Eritrogénica."
     },
     {
       "id": 125,
@@ -2371,13 +1627,7 @@
       },
       "page": 11,
       "correctAnswer": "C",
-      "correctText": "Glucosa -.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6419354838709678,
-        "D": 0.0
-      }
+      "correctText": "Glucosa -."
     },
     {
       "id": 126,
@@ -2390,17 +1640,11 @@
       },
       "page": 11,
       "correctAnswer": "B",
-      "correctText": "Streptococcus pyogenes.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.7035897435897436,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus pyogenes."
     },
     {
       "id": 127,
-      "question": "Clostridium perfringens puede formar cinco clases de toxinas, ¿qué tipo de toxina es la que causa la mayoría de las enfermedades en el hombre? TEST 13.1 y 13.5 Microbiología patógenos",
+      "question": "Clostridium perfringens puede formar cinco clases de toxinas, ¿qué tipo de toxina es la que causa la mayoría de las enfermedades en el hombre?",
       "options": {
         "A": "A.",
         "B": "C.",
@@ -2409,13 +1653,7 @@
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "A.",
-      "_yellow_scores": {
-        "A": 0.562962962962963,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "A."
     },
     {
       "id": 128,
@@ -2428,13 +1666,7 @@
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "Aerobias, Gram + y ácido alcohol resistente.",
-      "_yellow_scores": {
-        "A": 0.6654205607476635,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Aerobias, Gram + y ácido alcohol resistente."
     },
     {
       "id": 129,
@@ -2447,13 +1679,7 @@
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "A, B, E y F.",
-      "_yellow_scores": {
-        "A": 0.646875,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "A, B, E y F."
     },
     {
       "id": 130,
@@ -2466,13 +1692,7 @@
       },
       "page": 12,
       "correctAnswer": "D",
-      "correctText": "Clostridium difficile.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5728395061728395
-      }
+      "correctText": "Clostridium difficile."
     },
     {
       "id": 131,
@@ -2485,13 +1705,7 @@
       },
       "page": 12,
       "correctAnswer": "C",
-      "correctText": "Rapid plasma reagin (RPR) y Venereal Disease Research Laboratory (VDRL).",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.495279307631786,
-        "D": 0.0
-      }
+      "correctText": "Rapid plasma reagin (RPR) y Venereal Disease Research Laboratory (VDRL)."
     },
     {
       "id": 132,
@@ -2504,13 +1718,7 @@
       },
       "page": 12,
       "correctAnswer": "B",
-      "correctText": "Bacillus cereus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6206896551724138,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacillus cereus."
     },
     {
       "id": 133,
@@ -2523,13 +1731,7 @@
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "Coxiella burnetii.",
-      "_yellow_scores": {
-        "A": 0.6144329896907217,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Coxiella burnetii."
     },
     {
       "id": 134,
@@ -2542,13 +1744,7 @@
       },
       "page": 12,
       "correctAnswer": "C",
-      "correctText": "72 horas a 42 ªc en atmósfera microaerobia.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.7370199692780338,
-        "D": 0.0
-      }
+      "correctText": "72 horas a 42 ªc en atmósfera microaerobia."
     },
     {
       "id": 135,
@@ -2561,13 +1757,7 @@
       },
       "page": 12,
       "correctAnswer": "D",
-      "correctText": "Klebsiella pneumoniae.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6417344173441735
-      }
+      "correctText": "Klebsiella pneumoniae."
     },
     {
       "id": 136,
@@ -2580,13 +1770,7 @@
       },
       "page": 12,
       "correctAnswer": "D",
-      "correctText": "Neisseria",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5877777777777777
-      }
+      "correctText": "Neisseria"
     },
     {
       "id": 137,
@@ -2599,17 +1783,11 @@
       },
       "page": 12,
       "correctAnswer": "B",
-      "correctText": "Clostridium difficile",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6749206349206349,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium difficile"
     },
     {
       "id": 138,
-      "question": "Según la clasificación de Lacefield, ¿a qué grupo pertenece el Streptococcus agalactiae? TEST 13.1 y 13.5 Microbiología patógenos",
+      "question": "Según la clasificación de Lacefield, ¿a qué grupo pertenece el Streptococcus agalactiae?",
       "options": {
         "A": "Grupo A",
         "B": "Grupo B",
@@ -2618,13 +1796,7 @@
       },
       "page": 12,
       "correctAnswer": "B",
-      "correctText": "Grupo B",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5358024691358024,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Grupo B"
     },
     {
       "id": 139,
@@ -2650,13 +1822,7 @@
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Streptococcus spp",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6437710437710438,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus spp"
     },
     {
       "id": 141,
@@ -2669,13 +1835,7 @@
       },
       "page": 13,
       "correctAnswer": "A",
-      "correctText": "Se comportan con especial adherencia en los epitelio respiratorio y urogenital",
-      "_yellow_scores": {
-        "A": 0.48997289972899727,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Se comportan con especial adherencia en los epitelio respiratorio y urogenital"
     },
     {
       "id": 142,
@@ -2688,13 +1848,7 @@
       },
       "page": 13,
       "correctAnswer": "A",
-      "correctText": "Coco grampositivo, catalasa negativo, sensible a optoquina",
-      "_yellow_scores": {
-        "A": 0.3930894308943089,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Coco grampositivo, catalasa negativo, sensible a optoquina"
     },
     {
       "id": 143,
@@ -2707,13 +1861,7 @@
       },
       "page": 13,
       "correctAnswer": "D",
-      "correctText": "Haemophilus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6085470085470085
-      }
+      "correctText": "Haemophilus"
     },
     {
       "id": 144,
@@ -2726,13 +1874,7 @@
       },
       "page": 13,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6456456456456456
-      }
+      "correctText": "Todas son correctas."
     },
     {
       "id": 145,
@@ -2745,13 +1887,7 @@
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Son espiroquetas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5602693602693603,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son espiroquetas."
     },
     {
       "id": 146,
@@ -2764,13 +1900,7 @@
       },
       "page": 13,
       "correctAnswer": "A",
-      "correctText": "Para la concentración de la muestra hay que hervirla durante 5 minutos.",
-      "_yellow_scores": {
-        "A": 0.5499325236167342,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Para la concentración de la muestra hay que hervirla durante 5 minutos."
     },
     {
       "id": 147,
@@ -2783,13 +1913,7 @@
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Enterobacterias.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6826086956521739,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Enterobacterias."
     },
     {
       "id": 148,
@@ -2797,18 +1921,12 @@
       "options": {
         "A": "Pseudomonas",
         "B": "Clostridium",
-        "C": "Klebsiella TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Klebsiella",
         "D": "Enterobacter"
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Clostridium",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5914285714285714,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium"
     },
     {
       "id": 149,
@@ -2821,13 +1939,7 @@
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "Staphylococcus aureus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.646448087431694,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Staphylococcus aureus."
     },
     {
       "id": 150,
@@ -2840,13 +1952,7 @@
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "Bacilos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.573076923076923,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos."
     },
     {
       "id": 151,
@@ -2859,13 +1965,7 @@
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Klebsiella.",
-      "_yellow_scores": {
-        "A": 0.564484126984127,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Klebsiella."
     },
     {
       "id": 152,
@@ -2878,13 +1978,7 @@
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Coagulasa.",
-      "_yellow_scores": {
-        "A": 0.6070707070707071,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Coagulasa."
     },
     {
       "id": 153,
@@ -2897,13 +1991,7 @@
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "Neisseria meningitidis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6369747899159663,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Neisseria meningitidis."
     },
     {
       "id": 154,
@@ -2916,13 +2004,7 @@
       },
       "page": 14,
       "correctAnswer": "D",
-      "correctText": "Todas son características.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6447761194029851
-      }
+      "correctText": "Todas son características."
     },
     {
       "id": 155,
@@ -2935,13 +2017,7 @@
       },
       "page": 14,
       "correctAnswer": "C",
-      "correctText": "Infección vías urinarias.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6439024390243903,
-        "D": 0.0
-      }
+      "correctText": "Infección vías urinarias."
     },
     {
       "id": 156,
@@ -2954,13 +2030,7 @@
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Ser catalasa negativa.",
-      "_yellow_scores": {
-        "A": 0.6339080459770114,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Ser catalasa negativa."
     },
     {
       "id": 157,
@@ -2973,13 +2043,7 @@
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Streptococcus pneumoniae.",
-      "_yellow_scores": {
-        "A": 0.6509259259259259,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus pneumoniae."
     },
     {
       "id": 158,
@@ -2992,13 +2056,7 @@
       },
       "page": 14,
       "correctAnswer": "D",
-      "correctText": "Sífilis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5688888888888889
-      }
+      "correctText": "Sífilis."
     },
     {
       "id": 159,
@@ -3007,17 +2065,11 @@
         "A": "α-Hemolítico.",
         "B": "β-Hemolítico.",
         "C": "ɣ-Hemolítico.",
-        "D": "No es una característica del Streptococcus agalactiae. TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "No es una característica del Streptococcus agalactiae."
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "β-Hemolítico.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.619409282700422,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "β-Hemolítico."
     },
     {
       "id": 160,
@@ -3030,13 +2082,7 @@
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "Líquido cefalorraquídeo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6430446194225722,
-        "D": 0.0
-      }
+      "correctText": "Líquido cefalorraquídeo."
     },
     {
       "id": 161,
@@ -3049,13 +2095,7 @@
       },
       "page": 15,
       "correctAnswer": "D",
-      "correctText": "Pseudomona aeruginosa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.645959595959596
-      }
+      "correctText": "Pseudomona aeruginosa."
     },
     {
       "id": 162,
@@ -3068,13 +2108,7 @@
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "Alfa hemolítico.",
-      "_yellow_scores": {
-        "A": 0.6194756554307116,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Alfa hemolítico."
     },
     {
       "id": 163,
@@ -3087,13 +2121,7 @@
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "Mycobacterium tuberculosis.",
-      "_yellow_scores": {
-        "A": 0.6635135135135135,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Mycobacterium tuberculosis."
     },
     {
       "id": 164,
@@ -3106,13 +2134,7 @@
       },
       "page": 15,
       "correctAnswer": "D",
-      "correctText": "Únicamente por bacterias gram negativas",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6640650406504065
-      }
+      "correctText": "Únicamente por bacterias gram negativas"
     },
     {
       "id": 165,
@@ -3125,13 +2147,7 @@
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "Se aíslan normalmente a partir de las heces del ser humano y diversos animales",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5327913279132791,
-        "D": 0.0
-      }
+      "correctText": "Se aíslan normalmente a partir de las heces del ser humano y diversos animales"
     },
     {
       "id": 166,
@@ -3144,13 +2160,7 @@
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "Diplococos gran negativos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6325925925925926,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Diplococos gran negativos"
     },
     {
       "id": 167,
@@ -3163,13 +2173,7 @@
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "La tos ferina.",
-      "_yellow_scores": {
-        "A": 0.6210970464135022,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "La tos ferina."
     },
     {
       "id": 168,
@@ -3182,13 +2186,7 @@
       },
       "page": 15,
       "correctAnswer": "D",
-      "correctText": "La fiebre Q.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6178403755868545
-      }
+      "correctText": "La fiebre Q."
     },
     {
       "id": 169,
@@ -3201,13 +2199,7 @@
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "Una enfermedad caracterizada por espasmos musculares.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.38677462887989206,
-        "D": 0.0
-      }
+      "correctText": "Una enfermedad caracterizada por espasmos musculares."
     },
     {
       "id": 170,
@@ -3220,32 +2212,20 @@
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "Neisserias.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5880597014925373,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Neisserias."
     },
     {
       "id": 171,
       "question": "¿Cuál es la reacción serológica para el diagnóstico de sífilis, que pertenece a las pruebas treponémicas?",
       "options": {
         "A": "RPR.",
-        "B": "EBV. TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "EBV.",
         "C": "VDRL.",
         "D": "FTA-ABS."
       },
       "page": 15,
       "correctAnswer": "D",
-      "correctText": "FTA-ABS.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5491525423728814
-      }
+      "correctText": "FTA-ABS."
     },
     {
       "id": 172,
@@ -3258,13 +2238,7 @@
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "Catalasa negativo, gram positivos, esféricos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.7255813953488373,
-        "D": 0.0
-      }
+      "correctText": "Catalasa negativo, gram positivos, esféricos."
     },
     {
       "id": 173,
@@ -3277,13 +2251,7 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Optoquina sensible.",
-      "_yellow_scores": {
-        "A": 0.6361370716510903,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Optoquina sensible."
     },
     {
       "id": 174,
@@ -3296,13 +2264,7 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Coagulasa negativo.",
-      "_yellow_scores": {
-        "A": 0.6429906542056075,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Coagulasa negativo."
     },
     {
       "id": 175,
@@ -3315,13 +2277,7 @@
       },
       "page": 16,
       "correctAnswer": "D",
-      "correctText": "Anaerobios.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5805555555555556
-      }
+      "correctText": "Anaerobios."
     },
     {
       "id": 176,
@@ -3334,13 +2290,7 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Clostridium botulinum.",
-      "_yellow_scores": {
-        "A": 0.7129476584022039,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium botulinum."
     },
     {
       "id": 177,
@@ -3353,13 +2303,7 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Catalasa positivos.",
-      "_yellow_scores": {
-        "A": 0.634983498349835,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Catalasa positivos."
     },
     {
       "id": 178,
@@ -3372,13 +2316,7 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Listeria.",
-      "_yellow_scores": {
-        "A": 0.5370370370370371,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Listeria."
     },
     {
       "id": 179,
@@ -3391,13 +2329,7 @@
       },
       "page": 16,
       "correctAnswer": "D",
-      "correctText": "Son fermentadoras de glucosa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6531645569620254
-      }
+      "correctText": "Son fermentadoras de glucosa."
     },
     {
       "id": 180,
@@ -3410,13 +2342,7 @@
       },
       "page": 16,
       "correctAnswer": "D",
-      "correctText": "Rickettsia prowazecki.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6423728813559322
-      }
+      "correctText": "Rickettsia prowazecki."
     },
     {
       "id": 181,
@@ -3429,13 +2355,7 @@
       },
       "page": 16,
       "correctAnswer": "B",
-      "correctText": "Salmonella.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6685446009389672,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Salmonella."
     },
     {
       "id": 182,
@@ -3448,13 +2368,7 @@
       },
       "page": 16,
       "correctAnswer": "B",
-      "correctText": "Son móviles.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6168888888888889,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son móviles."
     },
     {
       "id": 183,
@@ -3467,17 +2381,11 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Streptococcus del grupo A.",
-      "_yellow_scores": {
-        "A": 0.6508393285371703,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus del grupo A."
     },
     {
       "id": 184,
-      "question": "Bacteria gram negativa, aerobia y móvil, causante de gran parte de las infecciones nosocomiales: TEST 13.1 y 13.5 Microbiología patógenos",
+      "question": "Bacteria gram negativa, aerobia y móvil, causante de gran parte de las infecciones nosocomiales:",
       "options": {
         "A": "Pseudomonas aeruginosa.",
         "B": "Neisseria gonorrhoeae.",
@@ -3486,13 +2394,7 @@
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Pseudomonas aeruginosa.",
-      "_yellow_scores": {
-        "A": 0.6548148148148148,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Pseudomonas aeruginosa."
     },
     {
       "id": 185,
@@ -3505,13 +2407,7 @@
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "Treponema pallidum.",
-      "_yellow_scores": {
-        "A": 0.6409356725146199,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Treponema pallidum."
     },
     {
       "id": 186,
@@ -3524,13 +2420,7 @@
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "Bacilos Gram positivos.",
-      "_yellow_scores": {
-        "A": 0.7021857923497268,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos Gram positivos."
     },
     {
       "id": 187,
@@ -3543,13 +2433,7 @@
       },
       "page": 17,
       "correctAnswer": "C",
-      "correctText": "Neumonía.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6786069651741293,
-        "D": 0.0
-      }
+      "correctText": "Neumonía."
     },
     {
       "id": 188,
@@ -3562,13 +2446,7 @@
       },
       "page": 17,
       "correctAnswer": "D",
-      "correctText": "Pleisomonas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6188034188034188
-      }
+      "correctText": "Pleisomonas."
     },
     {
       "id": 189,
@@ -3581,13 +2459,7 @@
       },
       "page": 17,
       "correctAnswer": "D",
-      "correctText": "a) y b) son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6666666666666666
-      }
+      "correctText": "a) y b) son correctas."
     },
     {
       "id": 190,
@@ -3600,13 +2472,7 @@
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "Bacilos Gram positivo que se tiñen de forma irregular.",
-      "_yellow_scores": {
-        "A": 0.4232887490165224,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilos Gram positivo que se tiñen de forma irregular."
     },
     {
       "id": 191,
@@ -3619,13 +2485,7 @@
       },
       "page": 17,
       "correctAnswer": "D",
-      "correctText": "Streptococcus pyogenes.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6305343511450382
-      }
+      "correctText": "Streptococcus pyogenes."
     },
     {
       "id": 192,
@@ -3637,12 +2497,7 @@
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "α-hemolítica.",
-      "_yellow_scores": {
-        "A": 0.6160337552742616,
-        "B": 0.0,
-        "C": 0.0
-      }
+      "correctText": "α-hemolítica."
     },
     {
       "id": 193,
@@ -3654,12 +2509,7 @@
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "Pseudomonas aeruginosa.",
-      "_yellow_scores": {
-        "A": 0.6465686274509804,
-        "B": 0.0,
-        "C": 0.0
-      }
+      "correctText": "Pseudomonas aeruginosa."
     },
     {
       "id": 194,
@@ -3671,12 +2521,7 @@
       },
       "page": 17,
       "correctAnswer": "A",
-      "correctText": "Fotocromógena.",
-      "_yellow_scores": {
-        "A": 0.6301075268817204,
-        "B": 0.0,
-        "C": 0.0
-      }
+      "correctText": "Fotocromógena."
     },
     {
       "id": 195,
@@ -3688,29 +2533,19 @@
       },
       "page": 17,
       "correctAnswer": "C",
-      "correctText": "Coagulasa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5970149253731343
-      }
+      "correctText": "Coagulasa."
     },
     {
       "id": 196,
       "question": "¿Cuál de los siguientes microorganismos es un Bacilo Gram positivo?:",
       "options": {
-        "A": "Yersinia pestis. TEST 13.1 y 13.5 Microbiología patógenos",
+        "A": "Yersinia pestis.",
         "B": "Listeria monocytogenes.",
         "C": "Helycobacter pylori"
       },
       "page": 17,
       "correctAnswer": "B",
-      "correctText": "Listeria monocytogenes.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6404199475065617,
-        "C": 0.0
-      }
+      "correctText": "Listeria monocytogenes."
     },
     {
       "id": 197,
@@ -3722,12 +2557,7 @@
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "M. ulcerans.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6858447488584475
-      }
+      "correctText": "M. ulcerans."
     },
     {
       "id": 198,
@@ -3740,13 +2570,7 @@
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "Anaerobio facultativo-clostridium difficile.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7330112721417069
-      }
+      "correctText": "Anaerobio facultativo-clostridium difficile."
     },
     {
       "id": 199,
@@ -3759,13 +2583,7 @@
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "Orina.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5985507246376811
-      }
+      "correctText": "Orina."
     },
     {
       "id": 200,
@@ -3778,13 +2596,7 @@
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "Mycobacterium bovis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6461538461538462,
-        "D": 0.0
-      }
+      "correctText": "Mycobacterium bovis."
     },
     {
       "id": 201,
@@ -3797,13 +2609,7 @@
       },
       "page": 18,
       "correctAnswer": "B",
-      "correctText": "Reducción de nitratos a nitritos -.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.7397590361445783,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Reducción de nitratos a nitritos -."
     },
     {
       "id": 202,
@@ -3816,13 +2622,7 @@
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "Staphylococcus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6244444444444445,
-        "D": 0.0
-      }
+      "correctText": "Staphylococcus."
     },
     {
       "id": 203,
@@ -3835,13 +2635,7 @@
       },
       "page": 18,
       "correctAnswer": "B",
-      "correctText": "Ditioeritritol o N-acetil cisteína.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5946169772256729,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Ditioeritritol o N-acetil cisteína."
     },
     {
       "id": 204,
@@ -3854,13 +2648,7 @@
       },
       "page": 18,
       "correctAnswer": "A",
-      "correctText": "Patógenos mesófilos.",
-      "_yellow_scores": {
-        "A": 0.6274853801169591,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Patógenos mesófilos."
     },
     {
       "id": 205,
@@ -3873,13 +2661,7 @@
       },
       "page": 18,
       "correctAnswer": "B",
-      "correctText": "Lofotricas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.602051282051282,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Lofotricas."
     },
     {
       "id": 206,
@@ -3892,13 +2674,7 @@
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "No fermentan la lactosa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6537467700258398
-      }
+      "correctText": "No fermentan la lactosa."
     },
     {
       "id": 207,
@@ -3907,17 +2683,11 @@
         "A": "Las mordeduras de perro.",
         "B": "Los arañazos de gato.",
         "C": "Las pulgas y los piojos.",
-        "D": "Las garrapatas. TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "Las garrapatas."
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "Las garrapatas. TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.675095785440613
-      }
+      "correctText": "Las garrapatas."
     },
     {
       "id": 208,
@@ -3930,13 +2700,7 @@
       },
       "page": 19,
       "correctAnswer": "D",
-      "correctText": "Prueba de acidez gástrica y gastrina en el plasma.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6663877266387727
-      }
+      "correctText": "Prueba de acidez gástrica y gastrina en el plasma."
     },
     {
       "id": 209,
@@ -3949,13 +2713,7 @@
       },
       "page": 19,
       "correctAnswer": "D",
-      "correctText": "Todas las respuestas anteriores son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7392857142857143
-      }
+      "correctText": "Todas las respuestas anteriores son correctas."
     },
     {
       "id": 210,
@@ -3967,12 +2725,7 @@
       },
       "page": 19,
       "correctAnswer": "C",
-      "correctText": "Son bacilos anaerobios.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5875338753387533
-      }
+      "correctText": "Son bacilos anaerobios."
     },
     {
       "id": 211,
@@ -3985,13 +2738,7 @@
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Técnicas serológicas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.648048048048048,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Técnicas serológicas."
     },
     {
       "id": 212,
@@ -3999,16 +2746,12 @@
       "options": {
         "A": "Moraxella catarrhalis.",
         "B": "Gardenerella vaginalis.",
+        "C": "Brucella melitensis.",
         "D": "Treponema pallidum."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Moraxella catarrhalis.",
-      "_yellow_scores": {
-        "A": 0.6419540229885058,
-        "B": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Moraxella catarrhalis."
     },
     {
       "id": 213,
@@ -4021,13 +2764,7 @@
       },
       "page": 19,
       "correctAnswer": "C",
-      "correctText": "Es un bacilo gram positivo anaerobio.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6569369369369369,
-        "D": 0.0
-      }
+      "correctText": "Es un bacilo gram positivo anaerobio."
     },
     {
       "id": 214,
@@ -4040,13 +2777,7 @@
       },
       "page": 19,
       "correctAnswer": "C",
-      "correctText": "Borrelia burgdorferi",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6361370716510903,
-        "D": 0.0
-      }
+      "correctText": "Borrelia burgdorferi"
     },
     {
       "id": 215,
@@ -4059,13 +2790,7 @@
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Son componentes de la pared de las micobacterias",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6628571428571428,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son componentes de la pared de las micobacterias"
     },
     {
       "id": 216,
@@ -4078,13 +2803,7 @@
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Haemophilus spp.",
-      "_yellow_scores": {
-        "A": 0.6862745098039216,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Haemophilus spp."
     },
     {
       "id": 217,
@@ -4097,13 +2816,7 @@
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "La tinción de elección es la de azul de metileno.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6632331902718169,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "La tinción de elección es la de azul de metileno."
     },
     {
       "id": 218,
@@ -4116,13 +2829,7 @@
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Mycoplasma pneumoniae.",
-      "_yellow_scores": {
-        "A": 0.6495238095238095,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Mycoplasma pneumoniae."
     },
     {
       "id": 219,
@@ -4131,17 +2838,11 @@
         "A": "Streptococcus pneumoniae.",
         "B": "Morganella morganii.",
         "C": "Bordetella pertussis.",
-        "D": "Moraxella catarrhalis. TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "Moraxella catarrhalis."
       },
       "page": 19,
       "correctAnswer": "C",
-      "correctText": "Bordetella pertussis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6312684365781711,
-        "D": 0.0
-      }
+      "correctText": "Bordetella pertussis."
     },
     {
       "id": 220,
@@ -4154,13 +2855,7 @@
       },
       "page": 20,
       "correctAnswer": "D",
-      "correctText": "Infección endógena.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6440476190476191
-      }
+      "correctText": "Infección endógena."
     },
     {
       "id": 221,
@@ -4173,13 +2868,7 @@
       },
       "page": 20,
       "correctAnswer": "A",
-      "correctText": "Es preferible la recogida de tres muestras de esputos, una cada día, y preferentemente por la mañana en ayunas.",
-      "_yellow_scores": {
-        "A": 0.5075998586072817,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Es preferible la recogida de tres muestras de esputos, una cada día, y preferentemente por la mañana en ayunas."
     },
     {
       "id": 222,
@@ -4192,13 +2881,7 @@
       },
       "page": 20,
       "correctAnswer": "D",
-      "correctText": "Todas las respuestas anteriores son correctas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6758928571428572
-      }
+      "correctText": "Todas las respuestas anteriores son correctas."
     },
     {
       "id": 223,
@@ -4211,13 +2894,7 @@
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Detección de antígeno de Legionella en orina.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6594594594594595,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Detección de antígeno de Legionella en orina."
     },
     {
       "id": 224,
@@ -4230,13 +2907,7 @@
       },
       "page": 20,
       "correctAnswer": "D",
-      "correctText": "Beta-hemolitico.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6315412186379928
-      }
+      "correctText": "Beta-hemolitico."
     },
     {
       "id": 225,
@@ -4249,13 +2920,7 @@
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Bordetella.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5833333333333334,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bordetella."
     },
     {
       "id": 226,
@@ -4268,13 +2933,7 @@
       },
       "page": 20,
       "correctAnswer": "C",
-      "correctText": "Streptococcus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6164705882352941,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus."
     },
     {
       "id": 227,
@@ -4287,13 +2946,7 @@
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Ser Gram negativo anaerobios facultativos y fermentar azucares.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5016194331983805,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Ser Gram negativo anaerobios facultativos y fermentar azucares."
     },
     {
       "id": 228,
@@ -4306,13 +2959,7 @@
       },
       "page": 20,
       "correctAnswer": "C",
-      "correctText": "Streptococcus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6164705882352941,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus."
     },
     {
       "id": 229,
@@ -4325,30 +2972,19 @@
       },
       "page": 20,
       "correctAnswer": "C",
-      "correctText": "VDRL.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5659259259259259,
-        "D": 0.0
-      }
+      "correctText": "VDRL."
     },
     {
       "id": 230,
       "question": "Son bacilos gram positivos:",
       "options": {
         "A": "Género Gardnerella.",
-        "B": "Género Listeria. TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Género Listeria.",
         "C": "Género Bordetella."
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Género Listeria. TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.69812734082397,
-        "C": 0.0
-      }
+      "correctText": "Género Listeria."
     },
     {
       "id": 231,
@@ -4360,12 +2996,7 @@
       },
       "page": 21,
       "correctAnswer": "C",
-      "correctText": "Tinción de Ziehl- Neelsen.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6606060606060606
-      }
+      "correctText": "Tinción de Ziehl- Neelsen."
     },
     {
       "id": 232,
@@ -4378,13 +3009,7 @@
       },
       "page": 21,
       "correctAnswer": "B",
-      "correctText": "Es un Estreptococo beta hemolítico del grupo A.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6706896551724137,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Es un Estreptococo beta hemolítico del grupo A."
     },
     {
       "id": 233,
@@ -4397,13 +3022,7 @@
       },
       "page": 21,
       "correctAnswer": "D",
-      "correctText": "S. Pneumoniae.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6484848484848484
-      }
+      "correctText": "S. Pneumoniae."
     },
     {
       "id": 234,
@@ -4416,13 +3035,7 @@
       },
       "page": 21,
       "correctAnswer": "D",
-      "correctText": "M. bovis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5717514124293785
-      }
+      "correctText": "M. bovis."
     },
     {
       "id": 235,
@@ -4435,13 +3048,7 @@
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "La prueba de niacina es positiva en un cultivo de M. tuberculosis.",
-      "_yellow_scores": {
-        "A": 0.4573170731707317,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "La prueba de niacina es positiva en un cultivo de M. tuberculosis."
     },
     {
       "id": 236,
@@ -4453,12 +3060,7 @@
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Medio BBE en anaerobiosis.",
-      "_yellow_scores": {
-        "A": 0.6370370370370371,
-        "B": 0.0,
-        "C": 0.0
-      }
+      "correctText": "Medio BBE en anaerobiosis."
     },
     {
       "id": 237,
@@ -4470,12 +3072,7 @@
       },
       "page": 21,
       "correctAnswer": "B",
-      "correctText": "Ácidos grasos de cadena larga.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5793548387096774,
-        "C": 0.0
-      }
+      "correctText": "Ácidos grasos de cadena larga."
     },
     {
       "id": 238,
@@ -4487,12 +3084,7 @@
       },
       "page": 21,
       "correctAnswer": "B",
-      "correctText": "La infección por C. difficile suele asociarse con el medio hospitalario y el uso reciente de antibióticos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6088546428105002,
-        "C": 0.0
-      }
+      "correctText": "La infección por C. difficile suele asociarse con el medio hospitalario y el uso reciente de antibióticos."
     },
     {
       "id": 239,
@@ -4504,12 +3096,7 @@
       },
       "page": 21,
       "correctAnswer": "B",
-      "correctText": "M. Bovis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5844444444444444,
-        "C": 0.0
-      }
+      "correctText": "M. Bovis."
     },
     {
       "id": 240,
@@ -4522,13 +3109,7 @@
       },
       "page": 21,
       "correctAnswer": "D",
-      "correctText": "Enzimoinmunoanálisis (EIA).",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6410958904109589
-      }
+      "correctText": "Enzimoinmunoanálisis (EIA)."
     },
     {
       "id": 241,
@@ -4536,18 +3117,12 @@
       "options": {
         "A": "Bacilo Gram positivo, anaerobio estricto.",
         "B": "Coco gram positivo, anaerobio estricto.",
-        "C": "Bacilo gram positivo aerobio estricto. TEST 13.1 y 13.5 Microbiología patógenos",
+        "C": "Bacilo gram positivo aerobio estricto.",
         "D": "Coco gram positivo aerobio estricto."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Bacilo Gram positivo, anaerobio estricto.",
-      "_yellow_scores": {
-        "A": 0.6580431177446103,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Bacilo Gram positivo, anaerobio estricto."
     },
     {
       "id": 242,
@@ -4560,13 +3135,7 @@
       },
       "page": 22,
       "correctAnswer": "D",
-      "correctText": "Ninguna de las respuestas anteriores es verdadera.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6623481781376518
-      }
+      "correctText": "Ninguna de las respuestas anteriores es verdadera."
     },
     {
       "id": 243,
@@ -4579,13 +3148,7 @@
       },
       "page": 22,
       "correctAnswer": "D",
-      "correctText": "Crecimiento lento - No cromógena - Niacina positiva - Reducción de Nitratos positiva.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6106830351312524
-      }
+      "correctText": "Crecimiento lento - No cromógena - Niacina positiva - Reducción de Nitratos positiva."
     },
     {
       "id": 244,
@@ -4598,13 +3161,7 @@
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Sangre.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6,
-        "D": 0.0
-      }
+      "correctText": "Sangre."
     },
     {
       "id": 245,
@@ -4617,13 +3174,7 @@
       },
       "page": 22,
       "correctAnswer": "B",
-      "correctText": "Burkholderia cepacia.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6350877192982456,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Burkholderia cepacia."
     },
     {
       "id": 246,
@@ -4636,13 +3187,7 @@
       },
       "page": 22,
       "correctAnswer": "B",
-      "correctText": "Homogeneización.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6745098039215687,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Homogeneización."
     },
     {
       "id": 247,
@@ -4655,13 +3200,7 @@
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Sífilis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.5575757575757576,
-        "D": 0.0
-      }
+      "correctText": "Sífilis."
     },
     {
       "id": 248,
@@ -4674,13 +3213,7 @@
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Tres muestras en días consecutivos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6655493482309125,
-        "D": 0.0
-      }
+      "correctText": "Tres muestras en días consecutivos."
     },
     {
       "id": 249,
@@ -4693,13 +3226,7 @@
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Tosferina.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6063492063492063,
-        "D": 0.0
-      }
+      "correctText": "Tosferina."
     },
     {
       "id": 250,
@@ -4712,30 +3239,19 @@
       },
       "page": 22,
       "correctAnswer": "A",
-      "correctText": "Streptococcus pneumoniae.",
-      "_yellow_scores": {
-        "A": 0.7143518518518519,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Streptococcus pneumoniae."
     },
     {
       "id": 251,
       "question": "¿Cuál es la propiedad característica de la pared micobacteriana que es usada como estrategia en la tinción de Ziehl-Neelsen?",
       "options": {
         "A": "Termorresistencia.",
-        "B": "Ácido alcohol resistencia. TEST 13.1 y 13.5 Microbiología patógenos",
+        "B": "Ácido alcohol resistencia.",
         "C": "Termosensibilidad."
       },
       "page": 22,
       "correctAnswer": "B",
-      "correctText": "Ácido alcohol resistencia. TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6989898989898989,
-        "C": 0.0
-      }
+      "correctText": "Ácido alcohol resistencia."
     },
     {
       "id": 252,
@@ -4748,13 +3264,7 @@
       },
       "page": 23,
       "correctAnswer": "A",
-      "correctText": "Clostridium perfringens.",
-      "_yellow_scores": {
-        "A": 0.7153439153439154,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Clostridium perfringens."
     },
     {
       "id": 253,
@@ -4767,13 +3277,7 @@
       },
       "page": 23,
       "correctAnswer": "A",
-      "correctText": "Pruebas no treponémicas (VDRL/RPR).",
-      "_yellow_scores": {
-        "A": 0.6493055555555556,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Pruebas no treponémicas (VDRL/RPR)."
     },
     {
       "id": 254,
@@ -4786,13 +3290,7 @@
       },
       "page": 23,
       "correctAnswer": "D",
-      "correctText": "Son cocos gram positivos, catalasa negativa y agrupados en cadenas o parejas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5513550135501355
-      }
+      "correctText": "Son cocos gram positivos, catalasa negativa y agrupados en cadenas o parejas."
     },
     {
       "id": 255,
@@ -4805,13 +3303,7 @@
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "Rickettsia rickettsii.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6199376947040498,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Rickettsia rickettsii."
     },
     {
       "id": 256,
@@ -4824,13 +3316,7 @@
       },
       "page": 23,
       "correctAnswer": "C",
-      "correctText": "Sensible a antibióticos betalactámicos.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6473229706390328,
-        "D": 0.0
-      }
+      "correctText": "Sensible a antibióticos betalactámicos."
     },
     {
       "id": 257,
@@ -4843,13 +3329,7 @@
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "Fermenta la glucosa y la maltosa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.636078431372549,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Fermenta la glucosa y la maltosa."
     },
     {
       "id": 258,
@@ -4862,13 +3342,7 @@
       },
       "page": 23,
       "correctAnswer": "A",
-      "correctText": "Escherichiae coli enterotoxigénico (ETEC).",
-      "_yellow_scores": {
-        "A": 0.6471153846153846,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Escherichiae coli enterotoxigénico (ETEC)."
     },
     {
       "id": 259,
@@ -4881,13 +3355,7 @@
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "Son móviles y presentan una débil β-hemólisis.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6902777777777778,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son móviles y presentan una débil β-hemólisis."
     },
     {
       "id": 260,
@@ -4900,13 +3368,7 @@
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "Las recidivas son excepcionales.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6538302277432713,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Las recidivas son excepcionales."
     },
     {
       "id": 261,
@@ -4918,12 +3380,7 @@
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "Género Listeria.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.69812734082397,
-        "C": 0.0
-      }
+      "correctText": "Género Listeria."
     },
     {
       "id": 262,
@@ -4932,17 +3389,11 @@
         "A": "Grupo I.",
         "B": "Grupo II.",
         "C": "Grupo III.",
-        "D": "Grupo IV. TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "Grupo IV."
       },
       "page": 23,
       "correctAnswer": "D",
-      "correctText": "Grupo IV. TEST 13.1 y 13.5 Microbiología patógenos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6688172043010753
-      }
+      "correctText": "Grupo IV."
     },
     {
       "id": 263,
@@ -4955,13 +3406,7 @@
       },
       "page": 24,
       "correctAnswer": "A",
-      "correctText": "Microscopio de campo oscuro.",
-      "_yellow_scores": {
-        "A": 0.6584946236559139,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Microscopio de campo oscuro."
     },
     {
       "id": 264,
@@ -4974,13 +3419,7 @@
       },
       "page": 24,
       "correctAnswer": "D",
-      "correctText": "Cultivo de una muestra del exudado de la lesión",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7387696709585122
-      }
+      "correctText": "Cultivo de una muestra del exudado de la lesión"
     },
     {
       "id": 265,
@@ -4993,13 +3432,7 @@
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "Permanganato potásico.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6023622047244095,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Permanganato potásico."
     },
     {
       "id": 266,
@@ -5012,13 +3445,7 @@
       },
       "page": 24,
       "correctAnswer": "D",
-      "correctText": "Se colorean con la tinción de Gram.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6120527306967984
-      }
+      "correctText": "Se colorean con la tinción de Gram."
     },
     {
       "id": 267,
@@ -5031,13 +3458,7 @@
       },
       "page": 24,
       "correctAnswer": "D",
-      "correctText": "Estreptococo – coco gram positivo, catalasa positiva.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.39959349593495935
-      }
+      "correctText": "Estreptococo – coco gram positivo, catalasa positiva."
     },
     {
       "id": 268,
@@ -5050,13 +3471,7 @@
       },
       "page": 24,
       "correctAnswer": "C",
-      "correctText": "análisis de antígenos de Helicobacter pylori.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.06028985507246377,
-        "C": 0.5913178294573643,
-        "D": 0.0
-      }
+      "correctText": "análisis de antígenos de Helicobacter pylori."
     },
     {
       "id": 269,
@@ -5069,13 +3484,7 @@
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "Staphylococcus saprophyticus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6963440860215053,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Staphylococcus saprophyticus"
     },
     {
       "id": 270,
@@ -5088,13 +3497,7 @@
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "Vacuna contra difteria",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6983050847457627,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Vacuna contra difteria"
     },
     {
       "id": 271,
@@ -5107,13 +3510,7 @@
       },
       "page": 24,
       "correctAnswer": "D",
-      "correctText": "Shigella sonnei.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.06279069767441861,
-        "D": 0.6756554307116105
-      }
+      "correctText": "Shigella sonnei."
     },
     {
       "id": 272,
@@ -5126,13 +3523,7 @@
       },
       "page": 24,
       "correctAnswer": "D",
-      "correctText": "Mycobacterium leprae",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.631404958677686
-      }
+      "correctText": "Mycobacterium leprae"
     },
     {
       "id": 273,
@@ -5145,17 +3536,11 @@
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "Halófilo.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.5738095238095238,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Halófilo."
     },
     {
       "id": 274,
-      "question": "En el cultivo en agar sangre de una muestra de esputo de un paciente alcohólico con fiebre, escalofríos, tos y dolor pleurítico, crecieron colonias de cocos gram TEST 13.1 y 13.5 Microbiología patógenos positivos alfa hemolíticos con prueba de la optoquina positiva. ¿De qué microorganismo se trata?:",
+      "question": "En el cultivo en agar sangre de una muestra de esputo de un paciente alcohólico con fiebre, escalofríos, tos y dolor pleurítico, crecieron colonias de cocos gram positivos alfa hemolíticos con prueba de la optoquina positiva. ¿De qué microorganismo se trata?:",
       "options": {
         "A": "Enterococcus faecalis.",
         "B": "Staphilococcus aureus.",
@@ -5164,13 +3549,7 @@
       },
       "page": 24,
       "correctAnswer": "C",
-      "correctText": "Steptococcus pneumoniae.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.7146282973621103,
-        "D": 0.0
-      }
+      "correctText": "Steptococcus pneumoniae."
     },
     {
       "id": 275,
@@ -5183,13 +3562,7 @@
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "La tinción de Gram muestras diplococos gram positivos",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.3849986886965644
-      }
+      "correctText": "La tinción de Gram muestras diplococos gram positivos"
     },
     {
       "id": 276,
@@ -5202,13 +3575,7 @@
       },
       "page": 25,
       "correctAnswer": "A",
-      "correctText": "Son cocobacilos gran negativos",
-      "_yellow_scores": {
-        "A": 0.6547770700636942,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Son cocobacilos gran negativos"
     },
     {
       "id": 277,
@@ -5221,13 +3588,7 @@
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "Haemophillus.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6248995983935743
-      }
+      "correctText": "Haemophillus."
     },
     {
       "id": 278,
@@ -5240,13 +3601,7 @@
       },
       "page": 25,
       "correctAnswer": "C",
-      "correctText": "Pseudomonas aeruginosa.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6376811594202898,
-        "D": 0.0
-      }
+      "correctText": "Pseudomonas aeruginosa."
     },
     {
       "id": 279,
@@ -5259,13 +3614,7 @@
       },
       "page": 25,
       "correctAnswer": "B",
-      "correctText": "Campylobacter.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6801498127340824,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Campylobacter."
     },
     {
       "id": 280,
@@ -5278,13 +3627,7 @@
       },
       "page": 25,
       "correctAnswer": "B",
-      "correctText": "Se les pone en aislamiento de contacto",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6583765112262522,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Se les pone en aislamiento de contacto"
     },
     {
       "id": 281,
@@ -5297,13 +3640,7 @@
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "Cloranfenicol",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6683544303797468
-      }
+      "correctText": "Cloranfenicol"
     },
     {
       "id": 282,
@@ -5316,13 +3653,7 @@
       },
       "page": 25,
       "correctAnswer": "B",
-      "correctText": "Cultivo de Treponema pallidum",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6555555555555556,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Cultivo de Treponema pallidum"
     },
     {
       "id": 283,
@@ -5331,21 +3662,15 @@
         "A": "Cadenas cortas",
         "B": "En parejas",
         "C": "Formando racimos",
-        "D": "Todas las anteriores son correctas Comentario. OJO, aunque la forma más característica es en racimos, se pueden observar de las tres formas."
+        "D": "Todas las anteriores son correctas"
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "Todas las anteriores son correctas Comentario. OJO, aunque la forma más característica es en racimos, se pueden observar de las tres formas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.15303643724696356
-      }
+      "correctText": "Todas las anteriores son correctas"
     },
     {
       "id": 284,
-      "question": "¿Qué micobacteria no puede ser aislada en el laboratorio?: TEST 13.1 y 13.5 Microbiología patógenos",
+      "question": "¿Qué micobacteria no puede ser aislada en el laboratorio?:",
       "options": {
         "A": "M. marinum",
         "B": "M. avium",
@@ -5354,13 +3679,7 @@
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "M. leprae",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6043010752688172
-      }
+      "correctText": "M. leprae"
     },
     {
       "id": 285,
@@ -5373,13 +3692,7 @@
       },
       "page": 26,
       "correctAnswer": "A",
-      "correctText": "Es producida por el gen mecA.",
-      "_yellow_scores": {
-        "A": 0.6631808278867103,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Es producida por el gen mecA."
     },
     {
       "id": 286,
@@ -5392,13 +3705,7 @@
       },
       "page": 26,
       "correctAnswer": "A",
-      "correctText": "El uso inadecuado de antibióticos.",
-      "_yellow_scores": {
-        "A": 0.6615686274509804,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "El uso inadecuado de antibióticos."
     },
     {
       "id": 287,
@@ -5411,13 +3718,7 @@
       },
       "page": 26,
       "correctAnswer": "B",
-      "correctText": "Patógeno intracelular causante de meningitis bacteriana.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.3977183320220299,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Patógeno intracelular causante de meningitis bacteriana."
     },
     {
       "id": 288,
@@ -5430,13 +3731,7 @@
       },
       "page": 26,
       "correctAnswer": "D",
-      "correctText": "Tiene fimbrias como factores de adherencia a la mucosa de las vías urogenitales.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.5711382113821138
-      }
+      "correctText": "Tiene fimbrias como factores de adherencia a la mucosa de las vías urogenitales."
     },
     {
       "id": 289,
@@ -5449,32 +3744,20 @@
       },
       "page": 26,
       "correctAnswer": "A",
-      "correctText": "Movilidad.",
-      "_yellow_scores": {
-        "A": 0.601010101010101,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Movilidad."
     },
     {
       "id": 290,
       "question": "Se dice que un estreptococo es alfa-hemolítico cuando:",
       "options": {
-        "A": "Clostridium.",
-        "B": "Listeria.",
-        "C": "Staphylococcus.",
-        "D": "Bacteroides."
+        "A": "Produce hemólisis total en placas de agar sangre.",
+        "B": "No tiene actividad hemolítica.",
+        "C": "Produce hemólisis parcial con coloración verdosa en placas de agar sangre.",
+        "D": "Es un parásito intracelular de los eritrocitos."
       },
       "page": 26,
-      "correctAnswer": "D",
-      "correctText": "Bacteroides.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.608
-      }
+      "correctAnswer": "C",
+      "correctText": "Produce hemólisis parcial con coloración verdosa en placas de agar sangre."
     },
     {
       "id": 291,
@@ -5487,13 +3770,7 @@
       },
       "page": 26,
       "correctAnswer": "D",
-      "correctText": "Staphylococcus saprophyticus",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.6431372549019608
-      }
+      "correctText": "Staphylococcus saprophyticus"
     },
     {
       "id": 292,
@@ -5506,13 +3783,7 @@
       },
       "page": 26,
       "correctAnswer": "C",
-      "correctText": "VDRL",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.546031746031746,
-        "D": 0.0
-      }
+      "correctText": "VDRL"
     },
     {
       "id": 293,
@@ -5525,13 +3796,7 @@
       },
       "page": 26,
       "correctAnswer": "C",
-      "correctText": "Clostridium",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.6657142857142857,
-        "D": 0.0
-      }
+      "correctText": "Clostridium"
     },
     {
       "id": 294,
@@ -5540,17 +3805,11 @@
         "A": "No son sensibles a los antibióticos que bloquean la síntesis de la pared bacteriana.",
         "B": "Tienen pared celular.",
         "C": "Poseen poca acción enzimática.",
-        "D": "Poseen especial adherencia al epitelio respiratorio y urogenitales. TEST 13.1 y 13.5 Microbiología patógenos"
+        "D": "Poseen especial adherencia al epitelio respiratorio y urogenitales."
       },
       "page": 26,
       "correctAnswer": "B",
-      "correctText": "Tienen pared celular.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.6436578171091445,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Tienen pared celular."
     },
     {
       "id": 295,
@@ -5563,13 +3822,7 @@
       },
       "page": 27,
       "correctAnswer": "B",
-      "correctText": "Corynebaclerium spp.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.7060869565217391,
-        "C": 0.0,
-        "D": 0.0
-      }
+      "correctText": "Corynebaclerium spp."
     },
     {
       "id": 296,
@@ -5582,13 +3835,7 @@
       },
       "page": 27,
       "correctAnswer": "D",
-      "correctText": "Salmonella spp. puede presentar endotoxinas.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.7292035398230089
-      }
+      "correctText": "Salmonella spp. puede presentar endotoxinas."
     },
     {
       "id": 297,
@@ -5601,13 +3848,7 @@
       },
       "page": 27,
       "correctAnswer": "D",
-      "correctText": "Son anaerobios facultativos, alfa-hemolíticos y sensibles a la optoquina.",
-      "_yellow_scores": {
-        "A": 0.0,
-        "B": 0.0,
-        "C": 0.0,
-        "D": 0.47530364372469636
-      }
+      "correctText": "Son anaerobios facultativos, alfa-hemolíticos y sensibles a la optoquina."
     }
   ]
 }

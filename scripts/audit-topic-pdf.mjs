@@ -46,6 +46,26 @@ const topicFiles = {
 		pdfPath: "pdfs/TEST tema 12 serología (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-12-clean.json",
 	},
+	"13.1_5": {
+		pdfPath:
+			"pdfs/TEST 13.1 y 13.5 Microbiología patógenos (respuestas) v2.pdf",
+		jsonPath: "src/questions/imports/topic-13_1_5-clean.json",
+	},
+	"13.2": {
+		pdfPath:
+			"pdfs/TEST 13.2 Tinciones, bioquímica, morfología (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-13_2-clean.json",
+	},
+	"13.3_4": {
+		pdfPath:
+			"pdfs/TEST 13.3 y 13.4 Medios de cultivo, siembras y antibiograma (respuestas) v2.pdf",
+		jsonPath: "src/questions/imports/topic-13_3_4-clean.json",
+	},
+	"13.6_8": {
+		pdfPath:
+			"pdfs/TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-13_6_8-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -173,6 +193,24 @@ function normalizeOptionLabels(question) {
 		if (topic === "11" && question.id === 292 && index === 39) {
 			text = text.replace(/^A\s+/, "A) ");
 		}
+		if (topic === "13.1_5" && question.id === 139) {
+			const keyByIndex = new Map([
+				[7, "B"],
+				[9, "C"],
+				[11, "D"],
+			]);
+			const key = keyByIndex.get(index);
+			if (key) text = `${key}) ${text}`;
+		}
+		if (topic === "13.1_5" && question.id === 212 && index === 12) {
+			text = text.replace(/^D$/, "C");
+		}
+		if (topic === "13.2" && question.id === 8 && index === 6) {
+			text = text.replace(/^B\s+/, "B) ");
+		}
+		if (topic === "13.3_4" && question.id === 155 && index === 8) {
+			text = text.replace(/^D\)/, "C)");
+		}
 
 		return text === item.str ? item : { ...item, str: text };
 	});
@@ -199,7 +237,7 @@ for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
 	for (const rawItem of textContent.items) {
 		const item = { ...rawItem, page: pageNumber };
 		const verticalPosition = item.transform[5];
-		if (verticalPosition > 750 || verticalPosition < 100) continue;
+		if (verticalPosition > 760 || verticalPosition < 100) continue;
 
 		if (item.str.trim() === `${expectedId}.`) {
 			currentQuestion = { id: expectedId, page: pageNumber, items: [] };
@@ -216,10 +254,14 @@ const errors = [];
 
 for (const question of questions) {
 	const normalizedItems = normalizeOptionLabels(question);
-	const extraQuestionIndex =
-		topic === "8.2" && question.id === 222
-			? normalizedItems.findIndex((item) => item.str.trim() === "1.")
-			: -1;
+	let extraQuestionIndex = -1;
+	if (topic === "8.2" && question.id === 222) {
+		extraQuestionIndex = normalizedItems.findIndex(
+			(item) => item.str.trim() === "1.",
+		);
+	}
+	if (topic === "13.1_5" && question.id === 139) extraQuestionIndex = 13;
+	if (topic === "13.1_5" && question.id === 290) extraQuestionIndex = 26;
 	const questionItems =
 		extraQuestionIndex > 0
 			? normalizedItems.slice(0, extraQuestionIndex)
