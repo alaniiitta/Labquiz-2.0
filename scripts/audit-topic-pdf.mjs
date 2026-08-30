@@ -2,8 +2,22 @@ import fs from "node:fs";
 import { createCanvas } from "@napi-rs/canvas";
 import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 
-const pdfPath = "pdfs/Test tema 4 Funcion digestiva (respuestas).pdf";
-const jsonPath = "src/questions/tema4_funcion_digestiva_questions.json";
+const topic = Number(process.env.TOPIC ?? 4);
+const topicFiles = {
+	4: {
+		pdfPath: "pdfs/Test tema 4 Funcion digestiva (respuestas).pdf",
+		jsonPath: "src/questions/tema4_funcion_digestiva_questions.json",
+	},
+	5: {
+		pdfPath: "pdfs/Test tema 5 Función hepática y proteínas (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-05.json",
+	},
+};
+const files = topicFiles[topic];
+
+if (!files) throw new Error(`El tema ${topic} no está configurado`);
+
+const { pdfPath, jsonPath } = files;
 const optionKeys = ["A", "B", "C", "D", "E"];
 const scale = 2;
 
@@ -53,6 +67,7 @@ function findOptionMarkers(items) {
 		const standardMatch = combined.match(/^([A-E])\s*[).]/);
 		const unpunctuatedMatch = combined.match(/^([D])\s+[A-ZÁÉÍÓÚÑ]/);
 		const inferredKey =
+			topic === 4 &&
 			items[0]?.str.trim() === "206." &&
 			expectedKey === "D" &&
 			current === "El"
@@ -143,9 +158,12 @@ for (const question of questions) {
 		const marker = markers[index];
 		const end = markers[index + 1]?.index ?? question.items.length;
 		const optionText = joinItems(question.items.slice(marker.index, end));
-		options[marker.key] = marker.inferred
+		const cleanedOptionText = marker.inferred
 			? optionText
 			: optionText.replace(/^[A-E](?:\s*[).]|\s+(?=[A-ZÁÉÍÓÚÑ]))\s*/, "").trim();
+		options[marker.key] = cleanedOptionText
+			.replace(/\s+NOTA:\s.*$/i, "")
+			.trim();
 	}
 
 	const highlightScores = markers.map((marker) => {
