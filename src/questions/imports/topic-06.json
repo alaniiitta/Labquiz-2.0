@@ -62,12 +62,12 @@
       "options": {
         "A": "El marcador de preferencia del IAM es la Troponina.",
         "B": "El IAM refleja la pérdida de células cardiacas (necrosis).",
-        "C": "La troponina es cardioespecífica y detectable en",
+        "C": "La troponina es cardioespecífica y detectable en las primeras dos horas.",
         "D": "Ante la ausencia de medición de troponina, la CK-MB masa es el mejor indicador."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "La troponina es cardioespecífica y detectable en"
+      "correctText": "La troponina es cardioespecífica y detectable en las primeras dos horas."
     },
     {
       "id": 6,
@@ -140,12 +140,12 @@
       "options": {
         "A": "Son catalizadores con alta especificidad por su substrato.",
         "B": "Como catalizadores están presentes en cantidad mínima y pueden saturarse",
-        "C": "La mayoría de las enzimas se encuentran en",
+        "C": "La mayoría de las enzimas se encuentran en concentraciones plasmática superiores a las concentraciones del interior de las células.",
         "D": "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el substrato en producto."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "La mayoría de las enzimas se encuentran en"
+      "correctText": "La mayoría de las enzimas se encuentran en concentraciones plasmática superiores a las concentraciones del interior de las células."
     },
     {
       "id": 12,
@@ -164,27 +164,27 @@
       "id": 13,
       "question": "Señale la RESPUESTA INCORRECTA:",
       "options": {
-        "A": "El BNP es una molécula más estable que el NT-",
+        "A": "El BNP es una molécula más estable que el NT- proBNP en las muestras de suero y plasma.",
         "B": "Los péptidos natriuréticos actúan sobre el glomérulo renal.",
         "C": "En circulación se detectan fragmentos de BNP y de NT- proBNP.",
         "D": "Existe un péptido natriurético de tipo D, llamado DNP."
       },
       "page": 2,
       "correctAnswer": "A",
-      "correctText": "El BNP es una molécula más estable que el NT-"
+      "correctText": "El BNP es una molécula más estable que el NT- proBNP en las muestras de suero y plasma."
     },
     {
       "id": 14,
       "question": "La desnaturalización de una enzima supone:",
       "options": {
         "A": "Su recuperación modificando su estado.",
-        "B": "Pérdida o disminución de su actividad como",
+        "B": "Pérdida o disminución de su actividad como catalizador.",
         "C": "La recuperación de su actividad.",
         "D": "Ninguna de las anteriores es correcta."
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Pérdida o disminución de su actividad como"
+      "correctText": "Pérdida o disminución de su actividad como catalizador."
     },
     {
       "id": 15,
@@ -216,14 +216,14 @@
       "id": 17,
       "question": "La definición de la unidad internacional de actividad enzimática es:",
       "options": {
-        "A": "La cantidad de enzima que cataliza la conversión de 1 µmol de sustrato en producto por segundo.",
+        "A": "La cantidad de enzima que cataliza la conversión de 1 μmol de sustrato en producto por segundo.",
         "B": "La cantidad de enzima que cataliza la conversión de 1 mol de sustrato en producto por minuto.",
         "C": "La cantidad de enzima que cataliza la conversión de 1 mol de sustrato en producto por segundo.",
-        "D": "La cantidad de enzima que cataliza la conversión de 1 µmol de sustrato en producto por minuto."
+        "D": "La cantidad de enzima que cataliza la conversión de 1 μmol de sustrato en producto por minuto."
       },
       "page": 2,
       "correctAnswer": "D",
-      "correctText": "La cantidad de enzima que cataliza la conversión de 1 µmol de sustrato en producto por minuto."
+      "correctText": "La cantidad de enzima que cataliza la conversión de 1 μmol de sustrato en producto por minuto."
     },
     {
       "id": 18,
@@ -360,13 +360,13 @@
       "question": "Las izoenzimas son:",
       "options": {
         "A": "Proteínas biológicas especializadas en la catálisis de reacciones orgánicas.",
-        "B": "Formas múltiples de una determinada enzima y",
+        "B": "Formas múltiples de una determinada enzima y catalizan la misma reacción.",
         "C": "Son asociaciones de enzimas que catalizan reacciones consecutivas.",
         "D": "Son formas precursoras inactivas de las enzimas."
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "Formas múltiples de una determinada enzima y"
+      "correctText": "Formas múltiples de una determinada enzima y catalizan la misma reacción."
     },
     {
       "id": 29,
@@ -398,27 +398,27 @@
       "id": 31,
       "question": "En las determinaciones analíticas de actividad enzimática se trabaja en la zona en la que la actividad:",
       "options": {
-        "A": "Es independiente de la concentración de",
+        "A": "Es independiente de la concentración de sustrato.",
         "B": "Es dependiente de la concentración de sustrato.",
         "C": "Las dos anteriores son correctas.",
         "D": "Ninguna es correcta."
       },
       "page": 3,
       "correctAnswer": "A",
-      "correctText": "Es independiente de la concentración de"
+      "correctText": "Es independiente de la concentración de sustrato."
     },
     {
       "id": 32,
       "question": "Los activadores son:",
       "options": {
-        "A": "Sustancias que aumentan la velocidad de la",
+        "A": "Sustancias que aumentan la velocidad de la reacción al disminuir aún más la energía de activación.",
         "B": "Formas precursoras inactivas de las enzimas.",
         "C": "Sustancias que disminuyen la velocidad de la reacción al disminuir aún más la energía de activación.",
         "D": "Ninguna es correcta."
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "Sustancias que aumentan la velocidad de la"
+      "correctText": "Sustancias que aumentan la velocidad de la reacción al disminuir aún más la energía de activación."
     },
     {
       "id": 33,
@@ -426,12 +426,12 @@
       "options": {
         "A": "Membranas serosas transparentes.",
         "B": "Es toda sustancia química que, aplicada en pequeñas cantidades, es capaz de interactuar con un organismo vivo.",
-        "C": "Son proteínas biológicas especializadas en la",
+        "C": "Son proteínas biológicas especializadas en la catálisis de reacciones orgánicas.",
         "D": "Son soluciones acuosas de concentración que se analizan en los especímenes biológicos."
       },
       "page": 4,
       "correctAnswer": "C",
-      "correctText": "Son proteínas biológicas especializadas en la"
+      "correctText": "Son proteínas biológicas especializadas en la catálisis de reacciones orgánicas."
     },
     {
       "id": 34,
@@ -541,14 +541,14 @@
       "id": 42,
       "question": "¿Cuál de los siguientes parámetros bioquímicas presenta utilidad como marcador de actividad de la sarcoidosis?",
       "options": {
-        "A": "Enzima convertidora de la angiotensina sérica",
+        "A": "Enzima convertidora de la angiotensina sérica (ECA).",
         "B": "PCR.",
         "C": "Gammaglobulinas.",
         "D": "Ninguna de las anteriores."
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "Enzima convertidora de la angiotensina sérica"
+      "correctText": "Enzima convertidora de la angiotensina sérica (ECA)."
     },
     {
       "id": 43,
@@ -764,12 +764,12 @@
       "options": {
         "A": "Tiene un peso molecular de 140.000 daltons.",
         "B": "Los valores normales en adultos van de 230 a 460 U/L.",
-        "C": "Alcanza su máximo valor a las 12-20 horas del",
+        "C": "Alcanza su máximo valor a las 12-20 horas del inicio de los síntomas.",
         "D": "Permanece elevada durante 10- 12 días."
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "Alcanza su máximo valor a las 12-20 horas del"
+      "correctText": "Alcanza su máximo valor a las 12-20 horas del inicio de los síntomas."
     },
     {
       "id": 60,
@@ -854,13 +854,13 @@
       "question": "¿Qué se entiende por enzimas plasma-específicas?",
       "options": {
         "A": "Enzimas que se sintetizan en el plasma.",
-        "B": "Enzimas que desarrollan su propia función en el",
+        "B": "Enzimas que desarrollan su propia función en el plasma.",
         "C": "Enzimas que se sintetizan en los hematíes.",
         "D": "Enzimas que se sintetizan en los leucocitos."
       },
       "page": 7,
       "correctAnswer": "B",
-      "correctText": "Enzimas que desarrollan su propia función en el"
+      "correctText": "Enzimas que desarrollan su propia función en el plasma."
     },
     {
       "id": 67,
@@ -984,13 +984,13 @@
       "question": "Señale la respuesta correcta:",
       "options": {
         "A": "La vida media del Nt-ProBNP es inferior a la del BNP.",
-        "B": "En Atención Primaria la determinación de Nt-",
+        "B": "En Atención Primaria la determinación de Nt- proBNP es muy eficaz para descartar la insuficiencia cardiaca dado su elevado valor predictivo negativo.",
         "C": "Es un péptido de actividad hormonal.",
         "D": "El sobrepeso influye aumentando las concentraciones de Nt-ProBNP."
       },
       "page": 7,
       "correctAnswer": "B",
-      "correctText": "En Atención Primaria la determinación de Nt-"
+      "correctText": "En Atención Primaria la determinación de Nt- proBNP es muy eficaz para descartar la insuficiencia cardiaca dado su elevado valor predictivo negativo."
     },
     {
       "id": 77,
@@ -1011,12 +1011,12 @@
       "options": {
         "A": "Produce un aumento de la diuresis.",
         "B": "La elevación de su valor en plasma o suero es indicativa de insuficiencia cardíaca congestiva.",
-        "C": "Es una prueba poco específica por lo que se",
+        "C": "Es una prueba poco específica por lo que se acompaña de la determinación de CPK y Troponina en el diagnóstico de insuficiencia cardíaca.",
         "D": "El BNP es una hormona con función autocrina, paracrina, endocrina"
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Es una prueba poco específica por lo que se"
+      "correctText": "Es una prueba poco específica por lo que se acompaña de la determinación de CPK y Troponina en el diagnóstico de insuficiencia cardíaca."
     },
     {
       "id": 79,
@@ -1075,26 +1075,26 @@
       "question": "Señala la falsa:",
       "options": {
         "A": "La velocidad de formación del producto aumenta conforme aumenta la velocidad de sustrato hasta llegar a la Vmáx.",
-        "B": "Cuanto mayor es la Km, mayor será la afinidad de",
+        "B": "Cuanto mayor es la Km, mayor será la afinidad de la enzima por el sustrato.",
         "C": "La gráfica que representa la cinética enzimática es la de Michaelis-Menten.",
         "D": "Al aumentar la temperatura se eleva la velocidad de reacción hasta un punto máximo."
       },
       "page": 8,
       "correctAnswer": "B",
-      "correctText": "Cuanto mayor es la Km, mayor será la afinidad de"
+      "correctText": "Cuanto mayor es la Km, mayor será la afinidad de la enzima por el sustrato."
     },
     {
       "id": 84,
       "question": "Una enzima oxidorreductasa:",
       "options": {
-        "A": "Cataliza",
-        "B": "Cataliza reacciones de transferencia de grupos",
+        "A": "Cataliza reacciones de transferencia de electrones de uno a otro sustrato.",
+        "B": "Cataliza reacciones de transferencia de grupos amino, carboxilo, fosfato.",
         "C": "Catalizan la ruptura con adición de agua.",
         "D": "Todas son falsas."
       },
       "page": 8,
       "correctAnswer": "A",
-      "correctText": "Cataliza"
+      "correctText": "Cataliza reacciones de transferencia de electrones de uno a otro sustrato."
     },
     {
       "id": 85,
@@ -1126,14 +1126,14 @@
       "id": 87,
       "question": "La constante Km:",
       "options": {
-        "A": "Es la concentración de sustrato a la que la",
+        "A": "Es la concentración de sustrato a la que la reacción transcurre a la mitad de la velocidad máxima.",
         "B": "Es la velocidad referida de una concentración.",
         "C": "No mide nada.",
         "D": "Es la concentración de un sustrato referida al tiempo."
       },
       "page": 8,
       "correctAnswer": "A",
-      "correctText": "Es la concentración de sustrato a la que la"
+      "correctText": "Es la concentración de sustrato a la que la reacción transcurre a la mitad de la velocidad máxima."
     },
     {
       "id": 88,
@@ -1349,12 +1349,12 @@
       "options": {
         "A": "Que cataliza la hidrólisis de lactato y mide así la cantidad de este a 340nm.",
         "B": "Que añade sustratos de piruvato y mide la aparición o desaparición del compuesto formado a 340 nm, según el pH con el que trabajemos.",
-        "C": "Que mide la aparición o desaparición de NADH a",
+        "C": "Que mide la aparición o desaparición de NADH a 340 nm, según el pH con el que trabajemos.",
         "D": "Que añade nicotina adenina dinucleótidohidrogenasa (NADH) en un medio ácido hasta la desaparición de LDH y medido a 340nm."
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "Que mide la aparición o desaparición de NADH a"
+      "correctText": "Que mide la aparición o desaparición de NADH a 340 nm, según el pH con el que trabajemos."
     },
     {
       "id": 105,
@@ -1438,14 +1438,14 @@
       "id": 111,
       "question": "¿Qué es la constante Km en una reacción enzimática?",
       "options": {
-        "A": "Es la concentración de sustrato a la que la",
-        "B": "Es la concentración de sustrato a la que la",
+        "A": "Es la concentración de sustrato a la que la reacción transcurre a la mitad de la velocidad máxima.",
+        "B": "Es la concentración de sustrato a la que la reacción transcurre a la velocidad máxima.",
         "C": "Es la concentración de sustrato a la que la reacción transcurre a un tercio de la velocidad máxima.",
         "D": "Es la concentración de sustrato necesaria para que se produzca la reacción."
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "Es la concentración de sustrato a la que la"
+      "correctText": "Es la concentración de sustrato a la que la reacción transcurre a la mitad de la velocidad máxima."
     },
     {
       "id": 112,
@@ -1542,14 +1542,14 @@
       "id": 119,
       "question": "¿Cuál es la causa que justifica la mayoría de las elevaciones de las enzimas séricas?:",
       "options": {
-        "A": "Alteración de la permeabilidad de la membrana",
+        "A": "Alteración de la permeabilidad de la membrana celular.",
         "B": "Invasión de virus.",
         "C": "Ausencia de glucosa",
         "D": "Hipoxia celular."
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "Alteración de la permeabilidad de la membrana"
+      "correctText": "Alteración de la permeabilidad de la membrana celular."
     },
     {
       "id": 120,
@@ -1570,12 +1570,12 @@
       "options": {
         "A": "Lípidos especializados en la catálisis de reacciones orgánicas",
         "B": "Azúcares especializadas en la catálisis de reacciones orgánicas",
-        "C": "Proteínas especializadas en la catálisis de",
+        "C": "Proteínas especializadas en la catálisis de reacciones orgánicas",
         "D": "Ácidos nucleicos especializados en la catálisis de reacciones orgánicas"
       },
       "page": 12,
       "correctAnswer": "C",
-      "correctText": "Proteínas especializadas en la catálisis de"
+      "correctText": "Proteínas especializadas en la catálisis de reacciones orgánicas"
     },
     {
       "id": 122,
@@ -1906,14 +1906,14 @@
       "id": 147,
       "question": "Respecto a la determinación de la enzima LDH, que afirmación NO es correcta:",
       "options": {
-        "A": "Es una enzima de escasa distribución y altamente",
+        "A": "Es una enzima de escasa distribución y altamente específica.",
         "B": "Es una enzima que se haya ampliamente distribuida en distintos tejidos.",
         "C": "Sus valores aparecen elevados en diversos cuadros patológicos.",
         "D": "Aparece elevada en pacientes con anemia megaloblástica y carcinoma diseminado."
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Es una enzima de escasa distribución y altamente"
+      "correctText": "Es una enzima de escasa distribución y altamente específica."
     },
     {
       "id": 148,
@@ -1921,12 +1921,12 @@
       "options": {
         "A": "Valores elevados de la CK junto con la determinación de la CK-MB es útil para identificar patologías cardiacas.",
         "B": "La determinación de la creatinina es la prueba más común para evaluar la función renal.",
-        "C": "La determinación de LDH la prueba más común",
+        "C": "La determinación de LDH la prueba más común para evaluar la función pancreática, valores elevados indican pancreatitis aguda.",
         "D": "La medición de la concentración de beta HCG permite diagnosticar el embarazo en suero y en orina."
       },
       "page": 14,
       "correctAnswer": "C",
-      "correctText": "La determinación de LDH la prueba más común"
+      "correctText": "La determinación de LDH la prueba más común para evaluar la función pancreática, valores elevados indican pancreatitis aguda."
     },
     {
       "id": 149,
@@ -1986,12 +1986,12 @@
       "options": {
         "A": "Tras un episodio de necrosis miocárdica la troponina T puede permanecer elevada de 10 a 14 días.",
         "B": "El péptido natriurético se sintetiza en el corazón.",
-        "C": "La CK-MB es el marcador cardiaco de elección en",
+        "C": "La CK-MB es el marcador cardiaco de elección en un infarto de miocardio.",
         "D": "La mioglobina es un marcador no cardioespecífico cuya concentración está afectada en patologías musculares."
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "La CK-MB es el marcador cardiaco de elección en"
+      "correctText": "La CK-MB es el marcador cardiaco de elección en un infarto de miocardio."
     },
     {
       "id": 154,
@@ -2049,24 +2049,23 @@
       "options": {
         "A": "Tiene una vida media muy corta.",
         "B": "No es marcador de elección de daño miocárdico.",
-        "C": "Su elevación tiene una sensibilidad del 100% en",
-        "D": "el diagnóstico de infarto."
+        "C": "Su elevación tiene una sensibilidad del 100% en el diagnóstico de infarto."
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "Su elevación tiene una sensibilidad del 100% en"
+      "correctText": "Su elevación tiene una sensibilidad del 100% en el diagnóstico de infarto."
     },
     {
       "id": 159,
       "question": "Respecto a la enzima Lactato Deshidrogenasa (LDH):",
       "options": {
         "A": "Se encuentra en el citoplasma de los glóbulos rojos por lo que su elevación es específica de patologías de la serie roja hematológica.",
-        "B": "Cataliza la oxidación reversible de L-lactato a",
+        "B": "Cataliza la oxidación reversible de L-lactato a piruvato, empleando NAD+.",
         "C": "Presenta seis isoenzimas cuya identificación se realiza mediante inmunoensayo."
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "Cataliza la oxidación reversible de L-lactato a"
+      "correctText": "Cataliza la oxidación reversible de L-lactato a piruvato, empleando NAD+."
     },
     {
       "id": 160,
@@ -2084,14 +2083,14 @@
       "id": 161,
       "question": "En una reacción enzimática de orden 0:",
       "options": {
-        "A": "La velocidad de reacción es independiente de la",
-        "B": "La velocidad de reacción es dependiente de la",
+        "A": "La velocidad de reacción es independiente de la concentración de sustratos y es directamente proporcional a la concentración de la enzima.",
+        "B": "La velocidad de reacción es dependiente de la concentración de sustratos y es directamente proporcional a la concentración de la enzima.",
         "C": "La velocidad de reacción es independiente de la concentración de sustratos y es inversamente proporcional a la concentración de la enzima.",
         "D": "La velocidad de reacción es dependiente de la concentración de sustratos y es inversamente proporcional a la concentración de la enzima."
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "La velocidad de reacción es independiente de la"
+      "correctText": "La velocidad de reacción es independiente de la concentración de sustratos y es directamente proporcional a la concentración de la enzima."
     },
     {
       "id": 162,
@@ -2164,7 +2163,7 @@
         "A": "Troponina.",
         "B": "Prolactina.",
         "C": "PCR.",
-        "D": "Procalcitonina. Comentario. Se pasan de rebuscados. PCR y procalcitonina se podrían elevar ligeramente"
+        "D": "Procalcitonina."
       },
       "page": 16,
       "correctAnswer": "B",
@@ -2188,13 +2187,13 @@
       "question": "Señale la respuesta correcta sobre la válvula tricúspide.",
       "options": {
         "A": "Controla la comunicación entre el ventrículo derecho y la arteria pulmonar",
-        "B": "Se encuentra entre la aurícula derecha y el",
+        "B": "Se encuentra entre la aurícula derecha y el ventrículo derecho",
         "C": "Se encuentra entre la aurícula izquierda y el ventrículo izquierdo",
         "D": "Se conoce también como válvula mitral"
       },
       "page": 16,
       "correctAnswer": "B",
-      "correctText": "Se encuentra entre la aurícula derecha y el"
+      "correctText": "Se encuentra entre la aurícula derecha y el ventrículo derecho"
     },
     {
       "id": 170,
@@ -2228,12 +2227,12 @@
       "options": {
         "A": "Las troponinas más importantes son la I y la T, específicas del corazón",
         "B": "La troponina es de mayor sensibilidad y especificidad que la CK-MB",
-        "C": "La CK total alcanza un valor máximo entre las 3 y",
+        "C": "La CK total alcanza un valor máximo entre las 3 y las 6 horas",
         "D": "La troponina puede permanecer elevada entre 10 y 14 días"
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "La CK total alcanza un valor máximo entre las 3 y"
+      "correctText": "La CK total alcanza un valor máximo entre las 3 y las 6 horas"
     },
     {
       "id": 173,
@@ -2333,7 +2332,7 @@
         "A": "CK.",
         "B": "LDH.",
         "C": "Tropo I.",
-        "D": "Tropo T. Comentario. Puede ser discutible, ya que ambas troponinas tienen valores de sensibilidad y especificidad similares"
+        "D": "Tropo T."
       },
       "page": 17,
       "correctAnswer": "C",
@@ -2371,12 +2370,12 @@
       "options": {
         "A": "No son específico del tejido cardíaco.",
         "B": "Este marcador ayuda a valorar el tratamiento en pacientes diabéticos.",
-        "C": "Está indicado para controlar el tratamiento de",
+        "C": "Está indicado para controlar el tratamiento de pacientes con insuficiencia ventricular izquierda.",
         "D": "Se elevan debido a una interrupción total del flujo coronario."
       },
       "page": 17,
       "correctAnswer": "C",
-      "correctText": "Está indicado para controlar el tratamiento de"
+      "correctText": "Está indicado para controlar el tratamiento de pacientes con insuficiencia ventricular izquierda."
     },
     {
       "id": 184,
@@ -2384,12 +2383,12 @@
       "options": {
         "A": "La estabilidad de una magnitud bioquímica es independiente del método de medida.",
         "B": "La estabilidad de una magnitud bioquímica es independiente de las condiciones de conservación.",
-        "C": "Puede haber tiempos de estabilidad distintos",
-        "D": "No influye en la calidad de los resultados de esa magnitud. Comentario. En algunos analitos el tiempo de estabilidad es método dependiente"
+        "C": "Puede haber tiempos de estabilidad distintos para la misma magnitud.",
+        "D": "No influye en la calidad de los resultados de esa magnitud."
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "Puede haber tiempos de estabilidad distintos"
+      "correctText": "Puede haber tiempos de estabilidad distintos para la misma magnitud."
     },
     {
       "id": 185,
@@ -2408,14 +2407,14 @@
       "id": 186,
       "question": "En relación con la determinación de las troponinas, señale la respuesta FALSA:",
       "options": {
-        "A": "Es detectable en plasma a partir de la 48 h del",
+        "A": "Es detectable en plasma a partir de la 48 h del inicio del dolor torácico.",
         "B": "Es indicador de necrosis cardiaca",
         "C": "La troponina I y la troponina T son marcadores específicos de infarto de miocardio.",
         "D": "Las formas cardíacas son extremadamente específicas del tejido del corazón y, por lo tanto, se usan cada vez más como marcadores específicos de daño en el músculo cardíaco."
       },
       "page": 18,
       "correctAnswer": "A",
-      "correctText": "Es detectable en plasma a partir de la 48 h del"
+      "correctText": "Es detectable en plasma a partir de la 48 h del inicio del dolor torácico."
     },
     {
       "id": 187,
@@ -2424,7 +2423,8 @@
         "A": "CK",
         "B": "Hematocrito",
         "C": "LDH",
-        "D": "GOT E) Creatinina"
+        "D": "GOT",
+        "E": "Creatinina"
       },
       "page": 18,
       "correctAnswer": "B",
@@ -2437,11 +2437,12 @@
         "A": "Mioglobina.",
         "B": "Troponina cardiaca (Tnc).",
         "C": "CK-MB.",
-        "D": "NT-ProBNP E) PCR ultrasensible (PCRus)"
+        "D": "NT-ProBNP",
+        "E": "PCR ultrasensible (PCRus)"
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "NT-ProBNP E) PCR ultrasensible (PCRus)"
+      "correctText": "NT-ProBNP"
     },
     {
       "id": 189,
@@ -2461,12 +2462,12 @@
       "question": "La unidad de actividad enzimática katal es la que corresponde a:",
       "options": {
         "A": "Transformación de 1 μmol de sustrato en 1 minuto.",
-        "B": "Transformación de 1 mol de sustrato en un",
+        "B": "Transformación de 1 mol de sustrato en un segundo.",
         "C": "Transformación de 1gr de sustrato en 1 minuto."
       },
       "page": 18,
       "correctAnswer": "B",
-      "correctText": "Transformación de 1 mol de sustrato en un"
+      "correctText": "Transformación de 1 mol de sustrato en un segundo."
     },
     {
       "id": 191,
@@ -2485,14 +2486,14 @@
       "id": 192,
       "question": "Respecto a la constante de Michaelis-Mentel, señale la respuesta correcta:",
       "options": {
-        "A": "Es la concentración del sustrato a la cual la",
-        "B": "Es la concentración del sustrato a la cual la",
+        "A": "Es la concentración del sustrato a la cual la velocidad de reacción es la mitad de la velocidad máxima.",
+        "B": "Es la concentración del sustrato a la cual la velocidad de reacción es igual a la velocidad máxima.",
         "C": "Es la concentración del sustrato a la cual la velocidad de reacción es el doble de la velocidad máxima.",
         "D": "La concentración del sustrato no varía dependiendo de la velocidad."
       },
       "page": 18,
       "correctAnswer": "A",
-      "correctText": "Es la concentración del sustrato a la cual la"
+      "correctText": "Es la concentración del sustrato a la cual la velocidad de reacción es la mitad de la velocidad máxima."
     },
     {
       "id": 193,
@@ -2511,14 +2512,14 @@
       "id": 194,
       "question": "¿Cuál es la actividad catalítica de las enzimas?",
       "options": {
-        "A": "Es la cantidad de enzima que transforma 1µmol",
-        "B": "Es la cantidad de enzima que transforma 1µmol de sustrato por segundo.",
-        "C": "Es la cantidad de enzima que transforma 1µmol durante la duración de la reacción.",
+        "A": "Es la cantidad de enzima que transforma 1μmol de sustrato por minuto.",
+        "B": "Es la cantidad de enzima que transforma 1μmol de sustrato por segundo.",
+        "C": "Es la cantidad de enzima que transforma 1μmol durante la duración de la reacción.",
         "D": "Todas son falsas."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Es la cantidad de enzima que transforma 1µmol"
+      "correctText": "Es la cantidad de enzima que transforma 1μmol de sustrato por minuto."
     },
     {
       "id": 195,
@@ -2587,16 +2588,16 @@
     },
     {
       "id": 200,
-      "question": "En relación al Péptido Natriurético Cerebral (BNP) y su prohormona NTpro-BNP se ha demostrado principalmente su utilidad analítica en el despistaje de:",
+      "question": "En relación al Péptido Natriuré tico Cerebral (BNP) y su prohormona NTpro-BNP se ha demostrado principalmente su utilidad analítica en el despistaje de:",
       "options": {
         "A": "Accidentes cerebro vasculares (ACV).",
-        "B": "Insuficiencia cardíaca por disfunción ventricular",
+        "B": "Insuficiencia cardíaca por disfunción ventricular izquierda.",
         "C": "Enfermedad de Alzheimer.",
         "D": "Hemorragia subaracnoidea."
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Insuficiencia cardíaca por disfunción ventricular"
+      "correctText": "Insuficiencia cardíaca por disfunción ventricular izquierda."
     },
     {
       "id": 201,
@@ -2681,13 +2682,13 @@
       "question": "En relación con la AST, cuál de las siguientes afirmaciones es cierta:",
       "options": {
         "A": "Su concentración disminuye en cualquier alteración del sistema hepatobiliar.",
-        "B": "Su concentración aumenta después de un infarto",
+        "B": "Su concentración aumenta después de un infarto agudo de miocardio.",
         "C": "Su concentración aumenta en una insuficiencia renal.",
         "D": "Su concentración disminuye en una insuficiencia respiratoria."
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Su concentración aumenta después de un infarto"
+      "correctText": "Su concentración aumenta después de un infarto agudo de miocardio."
     },
     {
       "id": 208,
@@ -2756,7 +2757,7 @@
     },
     {
       "id": 213,
-      "question": "Señale la respuesta incorrecta. La enzima Lactato deshidrogenasa (LDH) ...",
+      "question": "Señale la respuesta incorrecta. La enzima Lactato deshidrogenasa (LDH)...",
       "options": {
         "A": "Presenta niveles elevados en la cirrosis",
         "B": "No tiene isoenzimas",
@@ -2784,14 +2785,14 @@
       "id": 215,
       "question": "¿Cuál de las siguientes patologías relacionadas con alteraciones del flujo sanguíneo no es congénita?",
       "options": {
-        "A": "Miocardiopatía por enfermedad metabólica",
+        "A": "Miocardiopatía por enfermedad metabólica sistémica.",
         "B": "Tetralogía de Fallot.",
         "C": "Comunicación interventricular (CIV).",
         "D": "Comunicación interauricular."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Miocardiopatía por enfermedad metabólica"
+      "correctText": "Miocardiopatía por enfermedad metabólica sistémica."
     },
     {
       "id": 216,
