@@ -30,6 +30,10 @@ const topicFiles = {
 			"pdfs/TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf",
 		jsonPath: "src/questions/imports/topic-08_2.json",
 	},
+	9: {
+		pdfPath: "pdfs/Test tema 9 Coagulación (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-09.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -129,6 +133,36 @@ function yellowPixelCount(context, viewport, item) {
 	return count;
 }
 
+function normalizeOptionLabels(question) {
+	if (topic !== "9") return question.items;
+
+	return question.items.map((item, index) => {
+		let text = item.str;
+
+		if (question.id === 96 && text.startsWith("E)")) {
+			text = text.replace(/^E\)/, "C)");
+		}
+		if (
+			(question.id === 118 && index === 14) ||
+			(question.id === 228 && index === 9)
+		) {
+			text = text.replace(/^D\)/, "C)");
+		}
+		if (question.id === 124) {
+			const keyByIndex = new Map([
+				[5, "A"],
+				[7, "B"],
+				[9, "C"],
+				[11, "D"],
+			]);
+			const key = keyByIndex.get(index);
+			if (key) text = `${key}) ${text}`;
+		}
+
+		return text === item.str ? item : { ...item, str: text };
+	});
+}
+
 const source = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
 const pdf = await getDocument({
 	data: new Uint8Array(fs.readFileSync(pdfPath)),
@@ -166,14 +200,15 @@ const parsed = [];
 const errors = [];
 
 for (const question of questions) {
+	const normalizedItems = normalizeOptionLabels(question);
 	const extraQuestionIndex =
 		topic === "8.2" && question.id === 222
-			? question.items.findIndex((item) => item.str.trim() === "1.")
+			? normalizedItems.findIndex((item) => item.str.trim() === "1.")
 			: -1;
 	const questionItems =
 		extraQuestionIndex > 0
-			? question.items.slice(0, extraQuestionIndex)
-			: question.items;
+			? normalizedItems.slice(0, extraQuestionIndex)
+			: normalizedItems;
 	const markers = findOptionMarkers(questionItems);
 	if (markers.length < 3 || markers.length > 5) {
 		errors.push(`Pregunta ${question.id}: detectadas ${markers.length} opciones`);
