@@ -75,25 +75,25 @@
       "options": {
         "A": "Observando el ocular, que es donde está marcado.",
         "B": "Observando el objetivo, que es donde está marcado.",
-        "C": "Multiplicando el número del ocular por el del",
+        "C": "Multiplicando el número del ocular por el del objetivo.",
         "D": "Multiplicando la distancia del objetivo al ocular por una constante."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "Multiplicando el número del ocular por el del"
+      "correctText": "Multiplicando el número del ocular por el del objetivo."
     },
     {
       "id": 7,
       "question": "Los analizadores discretos son instrumentos que:",
       "options": {
-        "A": "Disponen de un compartimento para cada",
-        "B": "Bombean continuamente reactivos a través de",
+        "A": "Disponen de un compartimento para cada reacción de la muestra. La mezcla del reactivo y la muestra se produce en una cubeta individual.",
+        "B": "Bombean continuamente reactivos a través de tuberías y serpentín es para formar una corriente de flujo, bombeando después la muestra a esta corriente de flujo de reactivo.",
         "C": "Emplean la fuerza centrífuga para mezclar la muestra y reactivos.",
         "D": "Poseen varios canales de determinación, de manera que cada muestra es sometida a un proceso de análisis múltiple."
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "Disponen de un compartimento para cada"
+      "correctText": "Disponen de un compartimento para cada reacción de la muestra. La mezcla del reactivo y la muestra se produce en una cubeta individual."
     },
     {
       "id": 8,
@@ -101,12 +101,12 @@
       "options": {
         "A": "Una lente que amplía la imagen de una manera constante.",
         "B": "El objetivo seco más comúnmente utilizado.",
-        "C": "La lente encargada de concentrar un haz",
+        "C": "La lente encargada de concentrar un haz luminoso en cada punto del portaobjetos.",
         "D": "El objetivo de inmersión más utilizado."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "La lente encargada de concentrar un haz"
+      "correctText": "La lente encargada de concentrar un haz luminoso en cada punto del portaobjetos."
     },
     {
       "id": 9,
@@ -114,12 +114,12 @@
       "options": {
         "A": "La medida de la radiación absorbida cuando un metal se introduce en una llama de temperatura adecuada.",
         "B": "La medida de la radiación dispersada cuando un metal se introduce en una llama de temperatura adecuada.",
-        "C": "La medida de la radiación emitida cuando un",
+        "C": "La medida de la radiación emitida cuando un metal se introduce en una llama de temperatura adecuada.",
         "D": "Someter una sustancia al calor de la llama, con lo cual los electrones de sus átomos se excitan pasando a niveles inferiores de energía."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "La medida de la radiación emitida cuando un"
+      "correctText": "La medida de la radiación emitida cuando un metal se introduce en una llama de temperatura adecuada."
     },
     {
       "id": 10,
@@ -283,12 +283,12 @@
       "options": {
         "A": "Las radiaciones más energéticas son las de menor longitud de onda y mayor frecuencia.",
         "B": "Las radiaciones más energéticas son capaces de inducir en la materia transformándose en nucleares.",
-        "C": "Las radiaciones menos energéticas son los rayos",
+        "C": "Las radiaciones menos energéticas son los rayos gamma.",
         "D": "La fluorescencia es un fenómeno de emisión atómica."
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "Las radiaciones menos energéticas son los rayos"
+      "correctText": "Las radiaciones menos energéticas son los rayos gamma."
     },
     {
       "id": 23,
@@ -296,12 +296,12 @@
       "options": {
         "A": "La banda de proteína gamma es la situada más próxima a la fracción alfa2.",
         "B": "La banda de proteína gamma es la que más se desplaza y se sitúa más alejada del punto de aplicación.",
-        "C": "La albúmina es la que más migra, respecto al",
+        "C": "La albúmina es la que más migra, respecto al punto de aplicación de la muestra.",
         "D": "La banda de proteína gamma es la situada inmediatamente después de la albúmina."
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "La albúmina es la que más migra, respecto al"
+      "correctText": "La albúmina es la que más migra, respecto al punto de aplicación de la muestra."
     },
     {
       "id": 24,
@@ -361,12 +361,12 @@
       "options": {
         "A": "La valoración de proteínas y materias grasas se realiza mediante espectrofotometría de absorción atómica.",
         "B": "La determinación del grado de humedad y cenizas se realiza mediante valoraciones colorimétricas",
-        "C": "La determinación de oligoelementos se realiza",
+        "C": "La determinación de oligoelementos se realiza mediante espectrofotometría de absorción atómica tras una destrucción de la materia orgánica.",
         "D": "Todas son ciertas"
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "La determinación de oligoelementos se realiza"
+      "correctText": "La determinación de oligoelementos se realiza mediante espectrofotometría de absorción atómica tras una destrucción de la materia orgánica."
     },
     {
       "id": 29,
@@ -386,13 +386,13 @@
       "question": "La ley de Beer dice que",
       "options": {
         "A": "La concentración de una sustancia es indirectamente proporcional a la cantidad de luz absorbida.",
-        "B": "La",
-        "C": "La concentración de una sustancia es indiferente",
+        "B": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida",
+        "C": "La concentración de una sustancia es indiferente a la cantidad de luz absorbida",
         "D": "La concentración de una sustancia es directamente proporcional a la luz incidente"
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "La"
+      "correctText": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida"
     },
     {
       "id": 31,
@@ -477,13 +477,13 @@
       "question": "La ley de Beer es una relación matemática teórica, que indica:",
       "options": {
         "A": "La concentración de una sustancia es indirectamente proporcional a la cantidad de luz absorbida.",
-        "B": "La concentración de una sustancia es",
-        "C": "La concentración de una sustancia no puede",
+        "B": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida.",
+        "C": "La concentración de una sustancia no puede relacionarse con la cantidad de luz absorbida",
         "D": "La concentración de una sustancia es directamente proporcional al logaritmo de la luz transmitida."
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "La concentración de una sustancia es"
+      "correctText": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida."
     },
     {
       "id": 38,
@@ -516,26 +516,26 @@
       "question": "Es una característica de un analizador monocanal:",
       "options": {
         "A": "Dispone de un compartimento para cada reacción de la muestra.",
-        "B": "Realiza cada vez una sola determinación sobre",
+        "B": "Realiza cada vez una sola determinación sobre una muestra.",
         "C": "Posee varios canales de determinación, de manera que cada muestra es sometida a un proceso de análisis múltiple.",
         "D": "Emplea el calor para mezclar el reactivo con la muestra."
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Realiza cada vez una sola determinación sobre"
+      "correctText": "Realiza cada vez una sola determinación sobre una muestra."
     },
     {
       "id": 41,
       "question": "En un microscopio el condensador es:",
       "options": {
         "A": "Una lente situada próxima al observador y que amplía la imagen de manera constante.",
-        "B": "Una lente que concentra un haz luminoso en",
+        "B": "Una lente que concentra un haz luminoso en cada punto del portaobjetos.",
         "C": "El objetivo de mayor resolución.",
         "D": "El objetivo de inmersión."
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Una lente que concentra un haz luminoso en"
+      "correctText": "Una lente que concentra un haz luminoso en cada punto del portaobjetos."
     },
     {
       "id": 42,
@@ -582,12 +582,12 @@
       "options": {
         "A": "Automatización total y volúmenes muy reducidos de muestra",
         "B": "Un elevado voltaje",
-        "C": "Colorantes de tinción similares a los usados en",
+        "C": "Colorantes de tinción similares a los usados en una electroforesis en soporte sólido",
         "D": "Medida de fracciones por espectrofotometría directa en la zona ultravioleta"
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "Colorantes de tinción similares a los usados en"
+      "correctText": "Colorantes de tinción similares a los usados en una electroforesis en soporte sólido"
     },
     {
       "id": 46,
@@ -607,13 +607,13 @@
       "question": "En el microscopio de fluorescencia:",
       "options": {
         "A": "Se ilumina con luz visible y se observa la fluorescencia a una longitud de onda mayor.",
-        "B": "Se ilumina con luz UV (ultravioleta) y se observa",
+        "B": "Se ilumina con luz UV (ultravioleta) y se observa la fluorescencia a una longitud de onda mayor.",
         "C": "Se ilumina con luz IR (infrarroja) y se observa la fluorescencia con una longitud de onda menor.",
         "D": "Se ilumina con luz fluorescente y se observa sobre fondo oscuro."
       },
       "page": 5,
       "correctAnswer": "B",
-      "correctText": "Se ilumina con luz UV (ultravioleta) y se observa"
+      "correctText": "Se ilumina con luz UV (ultravioleta) y se observa la fluorescencia a una longitud de onda mayor."
     },
     {
       "id": 48,
@@ -646,13 +646,13 @@
       "question": "Al utilizar aceite de inmersión en un microscopio óptico:",
       "options": {
         "A": "El índice de refracción aumenta con lo que el poder de resolución disminuye.",
-        "B": "El índice de refracción aumenta con lo que el",
+        "B": "El índice de refracción aumenta con lo que el poder de resolución aumenta.",
         "C": "El índice de refracción disminuye con lo que aumenta el poder de definición.",
         "D": "El índice de refracción disminuye con lo que disminuye el poder de definición."
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "El índice de refracción aumenta con lo que el"
+      "correctText": "El índice de refracción aumenta con lo que el poder de resolución aumenta."
     },
     {
       "id": 51,
@@ -660,12 +660,12 @@
       "options": {
         "A": "La muestra entera se recubre con una capa delgada de metal pesado.",
         "B": "Se obtienen imágenes tridimensionales.",
-        "C": "Los electrones se dispersan según la masa",
+        "C": "Los electrones se dispersan según la masa atómica de los elementos de la muestra.",
         "D": "Todas son ciertas."
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "Los electrones se dispersan según la masa"
+      "correctText": "Los electrones se dispersan según la masa atómica de los elementos de la muestra."
     },
     {
       "id": 52,
@@ -697,14 +697,14 @@
       "id": 54,
       "question": "Indique la opción correcta en el comportamiento de la materia ante la radiación electromagnética:",
       "options": {
-        "A": "Cuando se incide sobre la materia con una",
-        "B": "La energía radiante puede manifestarse como",
-        "C": "Cuando la radiación incidente es menos",
+        "A": "Cuando se incide sobre la materia con una energía radiante, tiene lugar determinadas transiciones electrónicas desde unos orbitales a otros.",
+        "B": "La energía radiante puede manifestarse como movimiento rectilíneo.",
+        "C": "Cuando la radiación incidente es menos energética como la radiación X, se produce excitación en electrones más internos.",
         "D": "La radiación gamma es mucho más energética y penetrante. Su acción se localiza a nivel orbital."
       },
       "page": 6,
       "correctAnswer": "A",
-      "correctText": "Cuando se incide sobre la materia con una"
+      "correctText": "Cuando se incide sobre la materia con una energía radiante, tiene lugar determinadas transiciones electrónicas desde unos orbitales a otros."
     },
     {
       "id": 55,
@@ -725,25 +725,25 @@
       "options": {
         "A": "Al aumentar la absorbancia, aumenta la transmitancia",
         "B": "Al disminuir la transmitancia, disminuye la absorbancia",
-        "C": "La absorbancia es el logaritmo del inverso de la",
+        "C": "La absorbancia es el logaritmo del inverso de la transmitancia",
         "D": "La transmitancia es directamente proporcional a la concentración"
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "La absorbancia es el logaritmo del inverso de la"
+      "correctText": "La absorbancia es el logaritmo del inverso de la transmitancia"
     },
     {
       "id": 57,
       "question": "El número de aumentos de un microscopio se obtiene:",
       "options": {
-        "A": "Multiplicando el número del ocular por el del",
+        "A": "Multiplicando el número del ocular por el del objetivo",
         "B": "Multiplicando el número del objetivo por una constante",
         "C": "Mirando las especificaciones del fabricante",
         "D": "Multiplicando el número del objetivo por 20"
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Multiplicando el número del ocular por el del"
+      "correctText": "Multiplicando el número del ocular por el del objetivo"
     },
     {
       "id": 58,
@@ -801,27 +801,27 @@
       "id": 62,
       "question": "En cromatografía de exclusión por tamaño, eluyen en último lugar las moléculas que tienen:",
       "options": {
-        "A": "Diámetro menor que el tamaño medio de los",
+        "A": "Diámetro menor que el tamaño medio de los poros de relleno",
         "B": "Diámetro mayor que el tamaño medio de los poros de relleno",
         "C": "Mayor peso molecular",
         "D": "Átomos de nitrógeno"
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "Diámetro menor que el tamaño medio de los"
+      "correctText": "Diámetro menor que el tamaño medio de los poros de relleno"
     },
     {
       "id": 63,
       "question": "¿Qué microscopio se necesita para el estudio de cristales en líquido sinovial?",
       "options": {
         "A": "Microscopio de contraste de fases",
-        "B": "Microscopio",
+        "B": "Microscopio de luz polarizada con un compensador rojo",
         "C": "Microscopio de fluorescencia",
         "D": "Microscopio de campo oscuro"
       },
       "page": 7,
       "correctAnswer": "B",
-      "correctText": "Microscopio"
+      "correctText": "Microscopio de luz polarizada con un compensador rojo"
     },
     {
       "id": 64,
@@ -842,12 +842,12 @@
       "options": {
         "A": "Hacia el ánodo, porque a ese pH tienen carga positiva.",
         "B": "Hacia el cátodo: porque a ese pH tienen carga positiva.",
-        "C": "Hacia el ánodo, porque a ese pH tienen carga",
+        "C": "Hacia el ánodo, porque a ese pH tienen carga negativa.",
         "D": "Hacia el cátodo, porque a ese pH tienen carga negativa."
       },
       "page": 7,
       "correctAnswer": "C",
-      "correctText": "Hacia el ánodo, porque a ese pH tienen carga"
+      "correctText": "Hacia el ánodo, porque a ese pH tienen carga negativa."
     },
     {
       "id": 66,
@@ -867,13 +867,13 @@
       "question": "Señale cuál de las siguientes afirmaciones NO es cierta respecto a la cromatografía de exclusión:",
       "options": {
         "A": "Cuanto menores sean las moléculas, más tardan en salir de la red porosa.",
-        "B": "La elución se produce en orden creciente de",
+        "B": "La elución se produce en orden creciente de tamaño molecular.",
         "C": "La separación de diferentes moléculas depende del tamaño de las partículas del gel y de la longitud de la columna.",
         "D": "La fase estacionaria está formada por partículas de un polímero poroso que absorbe agua y otros disolventes."
       },
       "page": 8,
       "correctAnswer": "B",
-      "correctText": "La elución se produce en orden creciente de"
+      "correctText": "La elución se produce en orden creciente de tamaño molecular."
     },
     {
       "id": 68,
@@ -881,12 +881,12 @@
       "options": {
         "A": "Aquellos en los que los reactivos se equilibran en contacto con el aire.",
         "B": "Aquellos en los que la toma de aire de los sistemas hidroneumáticos es directamente de la atmósfera.",
-        "C": "Aquellos en los que el operador puede modificar",
+        "C": "Aquellos en los que el operador puede modificar parámetros de los ensayos y adquirir reactivos de distintos proveedores.",
         "D": "Aquellos en los que la salida de los desechos no está sellada."
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Aquellos en los que el operador puede modificar"
+      "correctText": "Aquellos en los que el operador puede modificar parámetros de los ensayos y adquirir reactivos de distintos proveedores."
     },
     {
       "id": 69,
@@ -907,12 +907,12 @@
       "options": {
         "A": "Algunos autoanalizadores permiten usar sangre total directamente, eliminando el tiempo de preparación de la muestra.",
         "B": "Los electrolitos selectivos de iones automatizados que miden la actividad iónica en sangre total, pueden incorporarse a los sistemas automatizados.",
-        "C": "Las copas del espécimen deben diseñarse de",
+        "C": "Las copas del espécimen deben diseñarse de forma que el volumen muerto sea elevado.",
         "D": "Las copas deben de ser de un material inerte que no interacciones con los constituyentes que se van a medir."
       },
       "page": 8,
       "correctAnswer": "C",
-      "correctText": "Las copas del espécimen deben diseñarse de"
+      "correctText": "Las copas del espécimen deben diseñarse de forma que el volumen muerto sea elevado."
     },
     {
       "id": 71,
@@ -1024,25 +1024,25 @@
       "options": {
         "A": "La valoración de proteínas y materias grasas se realiza mediante espectrofotometría de absorción atómica.",
         "B": "La determinación del grado de humedad y cenizas se realiza mediante valoraciones colorimétricas",
-        "C": "La determinación de oligoelementos se realiza",
+        "C": "La determinación de oligoelementos se realiza mediante espectrofotometría de absorción atómica tras una destrucción de la materia orgánica.",
         "D": "Todas son ciertas"
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "La determinación de oligoelementos se realiza"
+      "correctText": "La determinación de oligoelementos se realiza mediante espectrofotometría de absorción atómica tras una destrucción de la materia orgánica."
     },
     {
       "id": 80,
       "question": "La ley de Beer dice que",
       "options": {
         "A": "La concentración de una sustancia es indirectamente proporcional a la cantidad de luz absorbida.",
-        "B": "La",
-        "C": "La concentración de una sustancia es indiferente",
+        "B": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida",
+        "C": "La concentración de una sustancia es indiferente a la cantidad de luz absorbida",
         "D": "La concentración de una sustancia es directamente proporcional a la luz incidente"
       },
       "page": 9,
       "correctAnswer": "B",
-      "correctText": "La"
+      "correctText": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida"
     },
     {
       "id": 81,
@@ -1050,12 +1050,12 @@
       "options": {
         "A": "Una lente que amplía la imagen de una manera constante",
         "B": "El objetivo seco más comúnmente utilizado",
-        "C": "La lente encargada de concentrar la luz sobre el",
+        "C": "La lente encargada de concentrar la luz sobre el objeto situado en la platina",
         "D": "El objetivo de inmersión más utilizado"
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "La lente encargada de concentrar la luz sobre el"
+      "correctText": "La lente encargada de concentrar la luz sobre el objeto situado en la platina"
     },
     {
       "id": 82,
@@ -1102,12 +1102,12 @@
       "options": {
         "A": "Una mayor necesidad en el volumen de muestra.",
         "B": "Una perdida en el potencial de membrana de la muestra diluida",
-        "C": "Una infravaloración de la concentración de sodio",
+        "C": "Una infravaloración de la concentración de sodio en caso de hiperlipemia.",
         "D": "Un deterioro más rápido del electrodo de Sodio."
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "Una infravaloración de la concentración de sodio"
+      "correctText": "Una infravaloración de la concentración de sodio en caso de hiperlipemia."
     },
     {
       "id": 86,
@@ -1180,12 +1180,12 @@
       "options": {
         "A": "Consta fundamentalmente de un tubo de rayos catódicos.",
         "B": "Los electrones son emitidos por un filamento de wolframio (cátodo).",
-        "C": "Hay dos tipos de microscopio electrónico: el",
+        "C": "Hay dos tipos de microscopio electrónico: el confocal y el de barrido.",
         "D": "Los electrones no impresionan la retina, por lo que deben recogerse en una pantalla fluorescente."
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "Hay dos tipos de microscopio electrónico: el"
+      "correctText": "Hay dos tipos de microscopio electrónico: el confocal y el de barrido."
     },
     {
       "id": 92,
@@ -1205,13 +1205,13 @@
       "question": "La Ley de Beer dice que:",
       "options": {
         "A": "La concentración de una sustancia es indirectamente proporcional a la cantidad de luz absorbida.",
-        "B": "La",
-        "C": "La concentración de una sustancia es indiferente",
+        "B": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida.",
+        "C": "La concentración de una sustancia es indiferente a la cantidad de luz absorbida.",
         "D": "La concentración de una sustancia es directamente proporcional a la luz incidente."
       },
       "page": 11,
       "correctAnswer": "B",
-      "correctText": "La"
+      "correctText": "La concentración de una sustancia es directamente proporcional a la cantidad de luz absorbida."
     },
     {
       "id": 94,
@@ -1256,14 +1256,14 @@
       "id": 97,
       "question": "En cromatografía de gases, el gas portador utilizado:",
       "options": {
-        "A": "Debe ser un gas inerte, evitando su reacción con",
+        "A": "Debe ser un gas inerte, evitando su reacción con el analito o la columna",
         "B": "Reacciona con el analito para poder identificar a éste.",
         "C": "Interacciona con la columna cromatográfica",
         "D": "No puede ser un gas noble"
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "Debe ser un gas inerte, evitando su reacción con"
+      "correctText": "Debe ser un gas inerte, evitando su reacción con el analito o la columna"
     },
     {
       "id": 98,
@@ -1361,13 +1361,13 @@
       "question": "Un blanco de reactivo se utiliza:",
       "options": {
         "A": "Cuando queremos eliminar interferencias del suero",
-        "B": "Cuando queremos eliminar interferencias del",
+        "B": "Cuando queremos eliminar interferencias del reactivo",
         "C": "Cuando queremos eliminar interferencias de la fuente de luz",
         "D": "Cuando se debe hacer un calibrador"
       },
       "page": 12,
       "correctAnswer": "B",
-      "correctText": "Cuando queremos eliminar interferencias del"
+      "correctText": "Cuando queremos eliminar interferencias del reactivo"
     },
     {
       "id": 106,
@@ -1453,12 +1453,12 @@
       "options": {
         "A": "Hacia el ánodo, porque a ese pH tiene carga positiva",
         "B": "Hacia el cátodo, porque a ese pH tiene carga positiva",
-        "C": "Hacia el ánodo, porque a ese pH tiene carga",
+        "C": "Hacia el ánodo, porque a ese pH tiene carga negativa.",
         "D": "Hacia el cátodo, porque a ese pH tiene carga negativa"
       },
       "page": 12,
       "correctAnswer": "C",
-      "correctText": "Hacia el ánodo, porque a ese pH tiene carga"
+      "correctText": "Hacia el ánodo, porque a ese pH tiene carga negativa."
     },
     {
       "id": 113,
@@ -1570,12 +1570,12 @@
       "options": {
         "A": "Se aplica para la separación de proteínas en fluidos biológicos.",
         "B": "Utiliza un menor volumen de muestra.",
-        "C": "Se realiza en capilares de más de 100",
+        "C": "Se realiza en capilares de más de 100 micrómetros.",
         "D": "Mejor eficiencia de la separación."
       },
       "page": 13,
       "correctAnswer": "C",
-      "correctText": "Se realiza en capilares de más de 100"
+      "correctText": "Se realiza en capilares de más de 100 micrómetros."
     },
     {
       "id": 122,
@@ -1607,14 +1607,14 @@
       "id": 124,
       "question": "En la Cromatografía de Exclusión Molecular:",
       "options": {
-        "A": "Las partículas voluminosas son eluidas en primer",
+        "A": "Las partículas voluminosas son eluidas en primer lugar de la columna.",
         "B": "Las partículas pequeñas son eluidas en primer lugar de la columna.",
         "C": "Los cationes o partículas con carga positiva eluyen en primer lugar de la columna.",
         "D": "Los aniones o partículas negativas eluyen en primer lugar de la columna."
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Las partículas voluminosas son eluidas en primer"
+      "correctText": "Las partículas voluminosas son eluidas en primer lugar de la columna."
     },
     {
       "id": 125,
@@ -1699,13 +1699,13 @@
       "question": "De las siguientes afirmaciones relativas a las distintas técnicas cromatográficas, señale la que caracteriza a la Cromatografía de Exclusión:",
       "options": {
         "A": "Utiliza para separar sustancias interacciones biológicas muy específicas, como las de antígeno- anticuerpo",
-        "B": "La separación de sustancias sólo depende de la",
-        "C": "Consigue separar las sustancias tomando como",
+        "B": "La separación de sustancias sólo depende de la forma, tamaño de las sustancias y de los poros del gel",
+        "C": "Consigue separar las sustancias tomando como base su diferente distribución entre dos fases líquidas inmiscibles.",
         "D": "Consigue separar las sustancias sobre la base de las interacciones electrostáticas entre la fase estacionaria y la fase móvil."
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "La separación de sustancias sólo depende de la"
+      "correctText": "La separación de sustancias sólo depende de la forma, tamaño de las sustancias y de los poros del gel"
     },
     {
       "id": 132,
@@ -1748,7 +1748,7 @@
     },
     {
       "id": 135,
-      "question": "La principal aplicación de la electroforesis en acetato de celulosa es ...",
+      "question": "La principal aplicación de la electroforesis en acetato de celulosa es...",
       "options": {
         "A": "La separación de fragmentos del ADN amplificados por PCR: amplicograma",
         "B": "La separación de proteínas: proteinograma",
@@ -1789,14 +1789,14 @@
       "id": 138,
       "question": "La luz emitida por un microscopio son:",
       "options": {
-        "A": "Ondas electromagnéticas de una determinada",
+        "A": "Ondas electromagnéticas de una determinada longitud",
         "B": "Neutrones de energía",
         "C": "Emisiones de rayos gamma y ultravioleta",
         "D": "Electrones luminiscentes"
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "Ondas electromagnéticas de una determinada"
+      "correctText": "Ondas electromagnéticas de una determinada longitud"
     },
     {
       "id": 139,
@@ -1804,12 +1804,12 @@
       "options": {
         "A": "La separación de partículas neutras disueltas en una solución conductora",
         "B": "La separación de partículas mediante reacciones electrolíticas",
-        "C": "Las moléculas cargadas son separadas en función",
+        "C": "Las moléculas cargadas son separadas en función de su movilidad electroforética a un pH específico en un tampón alcalino",
         "D": "La migración de partículas iónicas en función de su configuración"
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "Las moléculas cargadas son separadas en función"
+      "correctText": "Las moléculas cargadas son separadas en función de su movilidad electroforética a un pH específico en un tampón alcalino"
     },
     {
       "id": 140,
@@ -1817,25 +1817,25 @@
       "options": {
         "A": "La fuente de radiación luminosa",
         "B": "El detector de radiaciones",
-        "C": "La situación del detector respecto al rayo",
+        "C": "La situación del detector respecto al rayo incidente",
         "D": "El tamaño de las cubetas de reacción"
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "La situación del detector respecto al rayo"
+      "correctText": "La situación del detector respecto al rayo incidente"
     },
     {
       "id": 141,
       "question": "La cromatografía es un método de análisis químico que consta de:",
       "options": {
         "A": "Una fase gaseosa y otra mitad sólida mitad gaseosa",
-        "B": "Una fase estacionaria (sólida o líquida) y una fase",
+        "B": "Una fase estacionaria (sólida o líquida) y una fase móvil (líquida o gaseosa)",
         "C": "Una fase estacionaria gaseosa y una móvil sólida",
         "D": "La cromatografía no es un método de análisis, es un tipo de tinción"
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "Una fase estacionaria (sólida o líquida) y una fase"
+      "correctText": "Una fase estacionaria (sólida o líquida) y una fase móvil (líquida o gaseosa)"
     },
     {
       "id": 142,
@@ -1855,13 +1855,13 @@
       "question": "En la Nefelometría:",
       "options": {
         "A": "Se cuantifica la luz residual transmitida.",
-        "B": "La intensidad de la luz dispersada está",
+        "B": "La intensidad de la luz dispersada está relacionada con la concentración.",
         "C": "Se mide la refracción que ocurre cuando la radiación atraviesa una sustancia ópticamente transparente.",
         "D": "La concentración se determina midiendo la disminución de la intensidad incidente."
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "La intensidad de la luz dispersada está"
+      "correctText": "La intensidad de la luz dispersada está relacionada con la concentración."
     },
     {
       "id": 144,
@@ -1869,12 +1869,12 @@
       "options": {
         "A": "Calentar hasta evaporación y posteriormente condensar aumentado la presión hasta liberar los iones libres en el agua.",
         "B": "Utilizar un filtro de resina con poros cargados negativamente y así atrapar los iones presentes en el agua.",
-        "C": "Eliminar las partículas cargadas presentes en el",
+        "C": "Eliminar las partículas cargadas presentes en el agua, haciéndolas pasar a través de una columna rellena de resina de intercambio iónico.",
         "D": "Usar adsorbentes minerales que liberen iones y formen compuestos más grandes que posteriormente son filtrados en un equipo especializado."
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "Eliminar las partículas cargadas presentes en el"
+      "correctText": "Eliminar las partículas cargadas presentes en el agua, haciéndolas pasar a través de una columna rellena de resina de intercambio iónico."
     },
     {
       "id": 145,
@@ -1893,14 +1893,14 @@
       "id": 146,
       "question": "La osmometría es una técnica que:",
       "options": {
-        "A": "Se",
-        "B": "Se utiliza para medir en particular determinadas",
-        "C": "Se utiliza para medir el flujo de soluto a través de",
+        "A": "Se utiliza para medir, en general, la concentración de moléculas e iones en una disolución.",
+        "B": "Se utiliza para medir en particular determinadas moléculas e iones.",
+        "C": "Se utiliza para medir el flujo de soluto a través de una membrana semipermeable.",
         "D": "Se utiliza para medir el aumento de la presión osmótica, debido a la concentración de iones que existe en una disolución."
       },
       "page": 16,
       "correctAnswer": "A",
-      "correctText": "Se"
+      "correctText": "Se utiliza para medir, en general, la concentración de moléculas e iones en una disolución."
     },
     {
       "id": 147,
@@ -1921,12 +1921,12 @@
       "options": {
         "A": "Mayor que la real y tendremos un error positivo en la medida de la absorbancia.",
         "B": "Menor que la real y tendremos un error positivo en la medida de la absorbancia.",
-        "C": "Mayor que la real y tendremos un error negativo",
+        "C": "Mayor que la real y tendremos un error negativo en la medida de la absorbancia.",
         "D": "Menor que la real y tendremos un error negativo en la medida de la absorbancia"
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "Mayor que la real y tendremos un error negativo"
+      "correctText": "Mayor que la real y tendremos un error negativo en la medida de la absorbancia."
     },
     {
       "id": 149,
@@ -2038,12 +2038,12 @@
       "options": {
         "A": "Utilizaremos habitualmente objetivo de 40X",
         "B": "Utilizaremos alta intensidad de luz",
-        "C": "El objetivo estará en contacto con la gota de",
+        "C": "El objetivo estará en contacto con la gota de aceite",
         "D": "A y B son correctas"
       },
       "page": 17,
       "correctAnswer": "C",
-      "correctText": "El objetivo estará en contacto con la gota de"
+      "correctText": "El objetivo estará en contacto con la gota de aceite"
     },
     {
       "id": 158,
@@ -2090,38 +2090,38 @@
       "options": {
         "A": "Cuando la luz pasa de un medio a otro con un cierto ángulo, la dirección de propagación del haz se altera, ya que la velocidad de propagación de la radiación es distinta en ambos medios.",
         "B": "Cuando una superficie se ilumina con una radiación pueden ocurrir dos cosas: reflexión especular (ocurre en superficies pulidas) o reflexión difusa (ocurre en superficies no pulidas).",
-        "C": "Cuando un haz de radiación choca contra una",
+        "C": "Cuando un haz de radiación choca contra una partícula en suspensión, puede, además de sufrir procesos de adsorción, reflejarse o dispersarse.",
         "D": "Es una técnica electroquímica que mide la corriente o el voltaje generado por la actividad de especies iónicas específicas."
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "Cuando un haz de radiación choca contra una"
+      "correctText": "Cuando un haz de radiación choca contra una partícula en suspensión, puede, además de sufrir procesos de adsorción, reflejarse o dispersarse."
     },
     {
       "id": 162,
       "question": "Son elementos básicos en los espectrofotómetros de absorción",
       "options": {
-        "A": "Fuente de radiación, selector de longitud de",
+        "A": "Fuente de radiación, selector de longitud de onda, recipiente para la muestra.",
         "B": "Fuente de calor, batea metálica, registrador o medidor.",
         "C": "Fuente de frío, recipiente para la muestra, selector de longitud de onda.",
         "D": "Fuente de iluminación, detector de radiaciones o transductor, pinza de Kocher."
       },
       "page": 18,
       "correctAnswer": "A",
-      "correctText": "Fuente de radiación, selector de longitud de"
+      "correctText": "Fuente de radiación, selector de longitud de onda, recipiente para la muestra."
     },
     {
       "id": 163,
       "question": "Son técnicas de laboratorio que se basan en espectrofotometría",
       "options": {
         "A": "Espectrofotometría de absorción, espectrofotometría de transmisión iónica.",
-        "B": "Espectroscopia",
-        "C": "",
+        "B": "Espectroscopia de absorción ultravioleta- sensible, espectroscopia de absorción infrarroja.",
+        "C": "Espectroscopia de absorción inalámbrica, espectroscopia de emisión.",
         "D": "Espectroscopia de absorción atómica, espectroscopia de eliminación de iones."
       },
       "page": 18,
       "correctAnswer": "B",
-      "correctText": "Espectroscopia"
+      "correctText": "Espectroscopia de absorción ultravioleta- sensible, espectroscopia de absorción infrarroja."
     },
     {
       "id": 164,
@@ -2168,25 +2168,25 @@
       "options": {
         "A": "El ocular es la lente situada cerca del ojo del observador y amplía la imagen del objetivo.",
         "B": "El condensador es la lente que concentra los rayos luminosos sobre la preparación.",
-        "C": "El diafragma contiene los sistemas de lentes",
+        "C": "El diafragma contiene los sistemas de lentes oculares y puede ser monocular o binocular.",
         "D": "La platina es el lugar donde se deposita la preparación."
       },
       "page": 19,
       "correctAnswer": "C",
-      "correctText": "El diafragma contiene los sistemas de lentes"
+      "correctText": "El diafragma contiene los sistemas de lentes oculares y puede ser monocular o binocular."
     },
     {
       "id": 168,
       "question": "Como medidas de mantenimiento general de los microscopios se deben realizar las siguientes acciones",
       "options": {
-        "A": "Cuando no se esté utilizando el microscopio se",
-        "B": "Se debe dejar el portaobjetos puesto sobre la",
+        "A": "Cuando no se esté utilizando el microscopio se debe cubrir con su funda para evitar que se ensucien y dañen las lentes.",
+        "B": "Se debe dejar el portaobjetos puesto sobre la platina si no se está utilizando el microscopio.",
         "C": "Después de utilizar el objetivo de inmersión se debe dejar el aceite que queda en el objetivo.",
         "D": "Todas las respuestas anteriores son verdaderas."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Cuando no se esté utilizando el microscopio se"
+      "correctText": "Cuando no se esté utilizando el microscopio se debe cubrir con su funda para evitar que se ensucien y dañen las lentes."
     },
     {
       "id": 169,
@@ -2257,27 +2257,27 @@
       "id": 174,
       "question": "El microscopio de contraste de fases:",
       "options": {
-        "A": "Permite observar células sin colorear y resulta",
+        "A": "Permite observar células sin colorear y resulta especialmente útil para visualizar células vivas.",
         "B": "Se denomina lupa.",
         "C": "Tiene como finalidad detectar reacciones inmunológicas.",
         "D": "Permite que la luz ultravioleta excite los materiales fluorescentes que se perciben como brillantes sobre un fondo oscuro."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Permite observar células sin colorear y resulta"
+      "correctText": "Permite observar células sin colorear y resulta especialmente útil para visualizar células vivas."
     },
     {
       "id": 175,
       "question": "En cromatografía podemos afirmar que es una técnica que:",
       "options": {
         "A": "Implica la separación de sustancias de diferentes colores.",
-        "B": "Se basa en las diferentes velocidades con las que",
+        "B": "Se basa en las diferentes velocidades con las que los componentes de una mezcla se desplazan a través de un medio por influencia de una fase móvil.",
         "C": "Su soporte en capa fina, siempre debe ser papel.",
         "D": "Su objetivo es buscar la cantidad de intensidad de luz absorbida después de pasar a través de una solución muestra."
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Se basa en las diferentes velocidades con las que"
+      "correctText": "Se basa en las diferentes velocidades con las que los componentes de una mezcla se desplazan a través de un medio por influencia de una fase móvil."
     },
     {
       "id": 176,
@@ -2297,13 +2297,13 @@
       "question": "Indique la opción correcta en el caso de la nefelometría:",
       "options": {
         "A": "Se utiliza para suspensiones con concentraciones elevadas.",
-        "B": "El detector se sitúa en ángulo de 90º con",
+        "B": "El detector se sitúa en ángulo de 90º con respecto al haz de luz.",
         "C": "Se mide la radiación absorbida por la muestra.",
         "D": "El detector se sitúa en la misma línea que el haz de luz."
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "El detector se sitúa en ángulo de 90º con"
+      "correctText": "El detector se sitúa en ángulo de 90º con respecto al haz de luz."
     },
     {
       "id": 178,
@@ -2337,12 +2337,12 @@
       "options": {
         "A": "El recipiente utilizado para la suspensión problema.",
         "B": "El monocromador.",
-        "C": "La situación del detector respecto al rayo",
+        "C": "La situación del detector respecto al rayo incidente.",
         "D": "El detector de radiaciones."
       },
       "page": 20,
       "correctAnswer": "C",
-      "correctText": "La situación del detector respecto al rayo"
+      "correctText": "La situación del detector respecto al rayo incidente."
     },
     {
       "id": 181,
@@ -2415,12 +2415,12 @@
       "options": {
         "A": "El sobrenadante es el material que se fija en el fondo del tubo.",
         "B": "El sedimento es el material que se sitúa por encima del sobrenadante.",
-        "C": "La sedimentación es un movimiento de partículas",
+        "C": "La sedimentación es un movimiento de partículas en un campo centrífugo.",
         "D": "La sedimentación es inversamente proporcional a la velocidad de giro en revoluciones por minuto."
       },
       "page": 21,
       "correctAnswer": "C",
-      "correctText": "La sedimentación es un movimiento de partículas"
+      "correctText": "La sedimentación es un movimiento de partículas en un campo centrífugo."
     },
     {
       "id": 187,
@@ -2454,38 +2454,38 @@
       "options": {
         "A": "De una lámpara eléctrica de 12v.",
         "B": "De una fuente de radiación de longitud de onda larga.",
-        "C": "De un haz de electrones de longitud de onda",
+        "C": "De un haz de electrones de longitud de onda corta.",
         "D": "De haces difuminados de fotones de barrido o trasmisión."
       },
       "page": 21,
       "correctAnswer": "C",
-      "correctText": "De un haz de electrones de longitud de onda"
+      "correctText": "De un haz de electrones de longitud de onda corta."
     },
     {
       "id": 190,
       "question": "Las proteínas se pueden separar por:",
       "options": {
         "A": "Añadiéndolas a una fase móvil gaseosa en la cromatografía de líquidos.",
-        "B": "Haciéndolas migrar a través de un campo",
+        "B": "Haciéndolas migrar a través de un campo eléctrico.",
         "C": "Espectrofotometría de absorción atómica.",
         "D": "A y B son correctas."
       },
       "page": 21,
       "correctAnswer": "B",
-      "correctText": "Haciéndolas migrar a través de un campo"
+      "correctText": "Haciéndolas migrar a través de un campo eléctrico."
     },
     {
       "id": 191,
       "question": "La amplificación total de un microscopio viene definida por:",
       "options": {
-        "A": "Amplificación del objetivo x Amplificación del",
+        "A": "Amplificación del objetivo x Amplificación del ocular.",
         "B": "Amplificación del objetivo / Amplificación del ocular.",
         "C": "Amplificación del objetivo x Amplificación del condensador.",
         "D": "Amplificación del objetivo / Amplificación del condensador."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Amplificación del objetivo x Amplificación del"
+      "correctText": "Amplificación del objetivo x Amplificación del ocular."
     },
     {
       "id": 192,
@@ -2493,25 +2493,25 @@
       "options": {
         "A": "La cromatografía gaseosa sólo se puede aplicar a especies que a temperatura ambiente son gases.",
         "B": "La cromatografía líquida sólo se puede aplicar a especies que a temperatura ambiente son líquidas.",
-        "C": "La cromatografía en capa fina no se puede",
+        "C": "La cromatografía en capa fina no se puede aplicar directamente a muestras sólidas.",
         "D": "La cromatografía de fluidos supercríticos no se puede aplicar más que a especies que se hallen en estado supercrítico."
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "La cromatografía en capa fina no se puede"
+      "correctText": "La cromatografía en capa fina no se puede aplicar directamente a muestras sólidas."
     },
     {
       "id": 193,
       "question": "El monocromador:",
       "options": {
-        "A": "Es un instrumento que produce luz de longitudes",
+        "A": "Es un instrumento que produce luz de longitudes de onda especificas a partir de una fuente de luz.",
         "B": "Proporciona radiación electromagnética como luz visible.",
         "C": "Transforma la energía radiante transmitida en una cantidad equivalente de energía eléctrica.",
-        "D": "Reduce la luz inespecífica. Comentario. Más que producir, selecciona longitudes de onda específicas"
+        "D": "Reduce la luz inespecífica."
       },
       "page": 22,
       "correctAnswer": "A",
-      "correctText": "Es un instrumento que produce luz de longitudes"
+      "correctText": "Es un instrumento que produce luz de longitudes de onda especificas a partir de una fuente de luz."
     },
     {
       "id": 194,
@@ -2556,27 +2556,27 @@
       "id": 197,
       "question": "La Ley de Lambert-Beer es una relación matemática que indica:",
       "options": {
-        "A": "La cantidad de radiación que absorbe una",
-        "B": "La cantidad de radiación que absorbe una",
-        "C": "La cantidad de radiación que absorbe una",
+        "A": "La cantidad de radiación que absorbe una sustancia es directamente proporcional a su concentración cumpliendo determinadas condiciones.",
+        "B": "La cantidad de radiación que absorbe una sustancia es inversamente proporcional a su concentración cumpliendo determinadas condiciones.",
+        "C": "La cantidad de radiación que absorbe una sustancia nunca es proporcional a su concentración.",
         "D": "La cantidad de radiación que absorbe una sustancia aumenta de manera exponencial si aumenta su concentración."
       },
       "page": 22,
       "correctAnswer": "A",
-      "correctText": "La cantidad de radiación que absorbe una"
+      "correctText": "La cantidad de radiación que absorbe una sustancia es directamente proporcional a su concentración cumpliendo determinadas condiciones."
     },
     {
       "id": 198,
       "question": "Respecto a la turbidimetría, señale la respuesta incorrecta.",
       "options": {
         "A": "Mide la radiación bloqueada por parte de la muestra.",
-        "B": "La detección de la radiación transmitida se",
+        "B": "La detección de la radiación transmitida se realiza en distinta dirección que el haz incidente.",
         "C": "La señal puede expresarse como absorbancia.",
         "D": "La señal puede expresarse como transmitancia."
       },
       "page": 22,
       "correctAnswer": "B",
-      "correctText": "La detección de la radiación transmitida se"
+      "correctText": "La detección de la radiación transmitida se realiza en distinta dirección que el haz incidente."
     },
     {
       "id": 199,
@@ -2669,13 +2669,13 @@
       "id": 206,
       "question": "¿Para qué se utiliza el campo oscuro de un microscopio?:",
       "options": {
-        "A": "Para la observación de microorganismos en",
+        "A": "Para la observación de microorganismos en fresco.",
         "B": "Para la observación de virus.",
         "C": "Para detectar reacciones inmunológicas."
       },
       "page": 23,
       "correctAnswer": "A",
-      "correctText": "Para la observación de microorganismos en"
+      "correctText": "Para la observación de microorganismos en fresco."
     },
     {
       "id": 207,
@@ -2694,13 +2694,13 @@
       "question": "De las siguientes afirmaciones relativas a las distintas técnicas cromatográficas, señala que caracteriza a la cromatografía de exclusión.",
       "options": {
         "A": "Se utiliza para separar sustancias, interacciones biológicas muy específicas, como las de antígeno- anticuerpo.",
-        "B": "La separación de sustancias sólo depende de la",
-        "C": "Consigue separar las sustancias tomando como",
+        "B": "La separación de sustancias sólo depende de la forma, tamaños de las sustancias y se los poros de gel.",
+        "C": "Consigue separar las sustancias tomando como base su diferente distribución entre dos fases líquidas inmiscibles.",
         "D": "Consigue separar las sustancias sobre la base de las interacciones electrostáticas entre la fase estacionaria y la fase móvil."
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "La separación de sustancias sólo depende de la"
+      "correctText": "La separación de sustancias sólo depende de la forma, tamaños de las sustancias y se los poros de gel."
     },
     {
       "id": 209,
@@ -2761,7 +2761,7 @@
         "A": "...la aglutinación.",
         "B": "...la inmunoelectroforesis.",
         "C": "...la turbidimetría.",
-        "D": "Ninguna de las respuestas anteriores es correcta. Comentario. Se pueden combinar. Primero se precipita y luego se mide la turbidez."
+        "D": "Ninguna de las respuestas anteriores es correcta."
       },
       "page": 24,
       "correctAnswer": "C",
@@ -2798,7 +2798,8 @@
       "question": "¿Qué soporte no es utilizado habitualmente en la electroforesis?",
       "options": {
         "A": "El acetato de celulosa.",
-        "B": "El gel de agarosa. c) El gel de acrilamida.",
+        "B": "El gel de agarosa.",
+        "C": "El gel de acrilamida.",
         "D": "El acetato de megestrol."
       },
       "page": 24,
@@ -2822,12 +2823,12 @@
       "question": "La ley de Lambert-Beer afirma que:",
       "options": {
         "A": "La iluminación producida por una fuente luminosa sobre una superficie es directamente proporcional a la intensidad de la fuente.",
-        "B": "La cantidad de luz absorbida por un analito",
+        "B": "La cantidad de luz absorbida por un analito depende de su concentración en la solución.",
         "C": "La cantidad de luz absorbida por un analito depende de la viscosidad en la solución."
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "La cantidad de luz absorbida por un analito"
+      "correctText": "La cantidad de luz absorbida por un analito depende de su concentración en la solución."
     },
     {
       "id": 219,
@@ -2869,13 +2870,13 @@
       "id": 222,
       "question": "¿Para qué se utiliza fundamentalmente el microscopio de campo oscuro?",
       "options": {
-        "A": "Observación de microorganismos sin teñir",
+        "A": "Observación de microorganismos sin teñir suspendidos en líquido.",
         "B": "Detectar microorganismos muy resistentes a la luz ultravioleta.",
         "C": "Aumentar el poder de resolución debido a la luz ultravioleta."
       },
       "page": 25,
       "correctAnswer": "A",
-      "correctText": "Observación de microorganismos sin teñir"
+      "correctText": "Observación de microorganismos sin teñir suspendidos en líquido."
     },
     {
       "id": 223,
@@ -2895,12 +2896,12 @@
       "options": {
         "A": "Separan unos analitos de otros en función de distintas propiedades de sus moléculas.",
         "B": "Pueden ser analíticas o preparativas.",
-        "C": "Todas las técnicas cromatográficas se basan en",
+        "C": "Todas las técnicas cromatográficas se basan en detectar la distinta absorbancia al color de los analitos.",
         "D": "La propiedad de las moléculas que componen los analitos, que se aprovechan para la técnica, determinan el tipo de cromatografía."
       },
       "page": 25,
       "correctAnswer": "C",
-      "correctText": "Todas las técnicas cromatográficas se basan en"
+      "correctText": "Todas las técnicas cromatográficas se basan en detectar la distinta absorbancia al color de los analitos."
     },
     {
       "id": 225,
@@ -2908,12 +2909,12 @@
       "options": {
         "A": "Un espectrofotómetro de absorción en las regiones visibles y ultravioletas.",
         "B": "Un fotodiómetro de emisión en las regiones visibles y ultravioletas.",
-        "C": "Un espectrofotómetro de emisión en las regiones",
-        "D": "Identifica la absorción de los elementos excitados por llama, arco eléctrico o chispa de alto voltaje. Comentario. OJO que siempre se falla con esto. La absorción se da en elementos no excitados y la emisión en excitados"
+        "C": "Un espectrofotómetro de emisión en las regiones visibles y ultravioletas.",
+        "D": "Identifica la absorción de los elementos excitados por llama, arco eléctrico o chispa de alto voltaje."
       },
       "page": 25,
       "correctAnswer": "C",
-      "correctText": "Un espectrofotómetro de emisión en las regiones"
+      "correctText": "Un espectrofotómetro de emisión en las regiones visibles y ultravioletas."
     },
     {
       "id": 226,
@@ -2921,12 +2922,12 @@
       "options": {
         "A": "Es una técnica de separación cromatográfica.",
         "B": "Separa las moléculas cargadas eléctricamente entre dos electrodos de igual potencial, en función de su carga y tamaño.",
-        "C": "La separación no se produce por la diferente",
+        "C": "La separación no se produce por la diferente distribución entre las fases.",
         "D": "No es aplicable a iones, al producirse la separación por la velocidad de migración en el campo eléctrico."
       },
       "page": 25,
       "correctAnswer": "C",
-      "correctText": "La separación no se produce por la diferente"
+      "correctText": "La separación no se produce por la diferente distribución entre las fases."
     },
     {
       "id": 227,
@@ -2934,12 +2935,12 @@
       "options": {
         "A": "Los detectores cromatográficos no averiguan la naturaleza de la especie química que sale de la columna.",
         "B": "El detector de conductividad identifica directamente las especies que eluyen de la columna.",
-        "C": "En función de la naturaleza de la fase móvil se",
+        "C": "En función de la naturaleza de la fase móvil se podrían clasificar las cromatografías como de fluidos supercríticos.",
         "D": "En los detectores es importante la respuesta lineal en un cierto intervalo y poseer un límite de detección optimizado a baja temperatura."
       },
       "page": 25,
       "correctAnswer": "C",
-      "correctText": "En función de la naturaleza de la fase móvil se"
+      "correctText": "En función de la naturaleza de la fase móvil se podrían clasificar las cromatografías como de fluidos supercríticos."
     },
     {
       "id": 228,
@@ -2947,12 +2948,12 @@
       "options": {
         "A": "El aumento total se calcula multiplicando el aumento del objetivo por el aumento del condensador.",
         "B": "El índice de refracción se calcula como la velocidad de la luz en el aire dividido por la velocidad de la luz en el objetivo.",
-        "C": "La apertura numérica es la expresión matemática",
+        "C": "La apertura numérica es la expresión matemática que describe la forma en que la luz es concentrada por el condensador y captada por el objetivo.",
         "D": "El poder de resolución se calcula PR = λ2 x IR (siendo λ., longitud de onda e IR, índice de refracción)"
       },
       "page": 26,
       "correctAnswer": "C",
-      "correctText": "La apertura numérica es la expresión matemática"
+      "correctText": "La apertura numérica es la expresión matemática que describe la forma en que la luz es concentrada por el condensador y captada por el objetivo."
     },
     {
       "id": 229,
@@ -3012,12 +3013,12 @@
       "options": {
         "A": "La ley de Lambert-Beer: la transmitancia es directamente proporcional a la concentración de una disolución",
         "B": "La ley de Faraday: La absorbancia a 290 nm es proporcional a la concentración de una disolución",
-        "C": "Ley de Lambert-Beer: la absorbancia es",
+        "C": "Ley de Lambert-Beer: la absorbancia es directamente proporcional a la concentración de una disolución",
         "D": "La ley de Faraday: la dispersión de la luz en ángulos de 15° y 90° es proporcional a la concentración de una disolución"
       },
       "page": 26,
       "correctAnswer": "C",
-      "correctText": "Ley de Lambert-Beer: la absorbancia es"
+      "correctText": "Ley de Lambert-Beer: la absorbancia es directamente proporcional a la concentración de una disolución"
     },
     {
       "id": 234,
@@ -3102,13 +3103,13 @@
       "question": "La electroforesis se define como:",
       "options": {
         "A": "La movilización de partículas en función de su absorbancia.",
-        "B": "La migración de partículas cargadas disueltas en",
+        "B": "La migración de partículas cargadas disueltas en una solución (buffer) dentro de un campo eléctrico.",
         "C": "La movilización de partículas basada en la afinidad por anticuerpos.",
         "D": "La distribución de las moléculas de una sustancia en función de su masa."
       },
       "page": 27,
       "correctAnswer": "B",
-      "correctText": "La migración de partículas cargadas disueltas en"
+      "correctText": "La migración de partículas cargadas disueltas en una solución (buffer) dentro de un campo eléctrico."
     },
     {
       "id": 241,
@@ -3117,7 +3118,8 @@
         "A": "Nefelometría.",
         "B": "Turbidimetría.",
         "C": "Electroforesis capilar.",
-        "D": "Colorimetría E) Espectroscopía UV-Visible."
+        "D": "Colorimetría",
+        "E": "Espectroscopía UV-Visible."
       },
       "page": 27,
       "correctAnswer": "A",
@@ -3130,11 +3132,12 @@
         "A": "Un control",
         "B": "Una calibración",
         "C": "Un blanco de reactivo",
-        "D": "Un blanco de muestra E) Todas son correctas"
+        "D": "Un blanco de muestra",
+        "E": "Todas son correctas"
       },
       "page": 27,
       "correctAnswer": "D",
-      "correctText": "Un blanco de muestra E) Todas son correctas"
+      "correctText": "Un blanco de muestra"
     },
     {
       "id": 243,
@@ -3164,13 +3167,13 @@
       "id": 245,
       "question": "El revólver es la parte del microscopio:",
       "options": {
-        "A": "Donde se montan los objetivos, normalmente",
-        "B": "Donde se acopla un condensador, con un",
+        "A": "Donde se montan los objetivos, normalmente tres o cuatro, y que se puede girar para seleccionar uno de ellos.",
+        "B": "Donde se acopla un condensador, con un diafragma para regular la cantidad de luz incidente.",
         "C": "Donde se coloca la muestra."
       },
       "page": 27,
       "correctAnswer": "A",
-      "correctText": "Donde se montan los objetivos, normalmente"
+      "correctText": "Donde se montan los objetivos, normalmente tres o cuatro, y que se puede girar para seleccionar uno de ellos."
     },
     {
       "id": 246,
@@ -3178,37 +3181,35 @@
       "options": {
         "A": "Y absorber mejor el reflejo de la cubeta solamente.",
         "B": "Y absorber mejor el reflejo de la cubeta y del solvente.",
-        "C": "Interferencias de la absorción y reflexión de la",
-        "D": "cubeta y del solvente."
+        "C": "Interferencias de la absorción y reflexión de la cubeta y del solvente."
       },
       "page": 28,
       "correctAnswer": "C",
-      "correctText": "Interferencias de la absorción y reflexión de la"
+      "correctText": "Interferencias de la absorción y reflexión de la cubeta y del solvente."
     },
     {
       "id": 247,
       "question": "El condensador:",
       "options": {
         "A": "Es una parte del microscopio óptico situado debajo de la pletina, siendo el encargado de regular la entrada de luz.",
-        "B": "Es una lente o sistema de lentes situada debajo",
-        "C": "Está formado por dos lentes que se encuentran",
-        "D": "concentrar la luz en la muestra que se observa. separadas por un diafragma."
+        "B": "Es una lente o sistema de lentes situada debajo de la pletina y que permite concentrar la luz en la muestra que se observa.",
+        "C": "Está formado por dos lentes que se encuentran separadas por un diafragma."
       },
       "page": 28,
-      "correctAnswer": "D",
-      "correctText": "concentrar la luz en la muestra que se observa. separadas por un diafragma."
+      "correctAnswer": "B",
+      "correctText": "Es una lente o sistema de lentes situada debajo de la pletina y que permite concentrar la luz en la muestra que se observa."
     },
     {
       "id": 248,
       "question": "El gel de acetato de celulosa:",
       "options": {
         "A": "Es un soporte selectivo que permite separar los componentes de la muestra en función de su tamaño, además de su carga eléctrica.",
-        "B": "Es un soporte no selectivo donde la separación",
+        "B": "Es un soporte no selectivo donde la separación solo depende de la carga eléctrica de las partículas.",
         "C": "Es un soporte selectivo que se usa para la separación de moléculas de gran tamaño."
       },
       "page": 28,
       "correctAnswer": "B",
-      "correctText": "Es un soporte no selectivo donde la separación"
+      "correctText": "Es un soporte no selectivo donde la separación solo depende de la carga eléctrica de las partículas."
     },
     {
       "id": 249,
@@ -3239,14 +3240,13 @@
       "id": 251,
       "question": "Respecto de la separación electroforética, señale cuál de las siguientes afirmaciones es verdadera:",
       "options": {
-        "A": "El punto isoeléctrico de una sustancia es aquel",
-        "B": "Cuanto mayor es la fuerza iónica, más anchas son",
-        "C": "La velocidad de migración es inversamente",
-        "D": "es nula. las bandas de separación. proporcional a la carga neta de la partícula."
+        "A": "El punto isoeléctrico de una sustancia es aquel en el que el balance de cargas superficiales positivas y negativas es cero, es decir, la carga neta es nula.",
+        "B": "Cuanto mayor es la fuerza iónica, más anchas son las bandas de separación.",
+        "C": "La velocidad de migración es inversamente proporcional a la carga neta de la partícula."
       },
       "page": 28,
       "correctAnswer": "A",
-      "correctText": "El punto isoeléctrico de una sustancia es aquel"
+      "correctText": "El punto isoeléctrico de una sustancia es aquel en el que el balance de cargas superficiales positivas y negativas es cero, es decir, la carga neta es nula."
     },
     {
       "id": 252,
@@ -3290,12 +3290,12 @@
       "options": {
         "A": "La electroforesis se utiliza para separar compuestos como carbohidratos y lípidos.",
         "B": "La movilidad electroforética de una molécula depende directamente de su masa, y es inversamente proporcional al campo magnético.",
-        "C": "La migración de las partículas depende del pH del",
+        "C": "La migración de las partículas depende del pH del medio en que estén, ya que su carga neta depende de éste.",
         "D": "El coeficiente de rozamiento es directamente proporcional a la movilidad de la molécula."
       },
       "page": 28,
       "correctAnswer": "C",
-      "correctText": "La migración de las partículas depende del pH del"
+      "correctText": "La migración de las partículas depende del pH del medio en que estén, ya que su carga neta depende de éste."
     },
     {
       "id": 256,
@@ -3342,12 +3342,12 @@
       "options": {
         "A": "Hacia el ánodo porque a ese pH tienen carga positiva.",
         "B": "Hacia el cátodo porque a ese pH tienen carga positiva.",
-        "C": "Hacia el ánodo porque a ese pH tienen carga",
+        "C": "Hacia el ánodo porque a ese pH tienen carga negativa.",
         "D": "Hacia el cátodo porque a ese pH tienen carga negativa."
       },
       "page": 29,
       "correctAnswer": "C",
-      "correctText": "Hacia el ánodo porque a ese pH tienen carga"
+      "correctText": "Hacia el ánodo porque a ese pH tienen carga negativa."
     },
     {
       "id": 260,
@@ -3444,40 +3444,40 @@
       "id": 267,
       "question": "De las siguientes afirmaciones sobre el microscopio de luz ultravioleta ¿Cuál es INCORRECTA?",
       "options": {
-        "A": "Todos los elementos ópticos del microscopio son",
+        "A": "Todos los elementos ópticos del microscopio son de vidrio.",
         "B": "Se utiliza mucho en investigación científica.",
         "C": "La fuente de luz ultravioleta tiene una longitud de onda de 200nm.",
         "D": "Las imágenes deben visualizarse mediante fluorescencia, fotografía o un sensor digital."
       },
       "page": 30,
       "correctAnswer": "A",
-      "correctText": "Todos los elementos ópticos del microscopio son"
+      "correctText": "Todos los elementos ópticos del microscopio son de vidrio."
     },
     {
       "id": 268,
       "question": "¿En relación a las técnicas electroforéticas de separación, es cierto qué?",
       "options": {
-        "A": "La velocidad de migración aumenta cuanto",
+        "A": "La velocidad de migración aumenta cuanto mayor sea la carga y menor el tamaño del ion",
         "B": "La velocidad de migración aumenta cuanto menor sea la carga y menor el tamaño del ion",
         "C": "La velocidad de migración aumenta cuanto mayor sea la carga y mayor el tamaño del ion",
         "D": "La velocidad de migración aumenta cuanto menor sea la carga y mayor el tamaño del ion"
       },
       "page": 30,
       "correctAnswer": "A",
-      "correctText": "La velocidad de migración aumenta cuanto"
+      "correctText": "La velocidad de migración aumenta cuanto mayor sea la carga y menor el tamaño del ion"
     },
     {
       "id": 269,
       "question": "¿En relación a las técnicas cromatografícas de separación, es cierto que?",
       "options": {
         "A": "La eficiencia de la columna cromatográfica aumenta cuanto menor es el número de platos N y cuanto menor es la altura H del plato",
-        "B": "La eficiencia de la columna cromatográfica",
-        "C": "La eficiencia de la columna cromatográfica",
+        "B": "La eficiencia de la columna cromatográfica aumenta cuanto mayor es el número de platos N y cuanto menor es la altura H del plato",
+        "C": "La eficiencia de la columna cromatográfica aumenta cuanto menor es el número de platos N y cuanto mayor es la altura H del plato",
         "D": "La eficiencia de la columna cromatográfica aumenta cuanto mayor es el número de platos N y cuanto mayor es la altura H del plato"
       },
       "page": 30,
       "correctAnswer": "B",
-      "correctText": "La eficiencia de la columna cromatográfica"
+      "correctText": "La eficiencia de la columna cromatográfica aumenta cuanto mayor es el número de platos N y cuanto menor es la altura H del plato"
     },
     {
       "id": 270,
@@ -3498,12 +3498,12 @@
       "options": {
         "A": "Al aumentar la absorbancia, aumenta la transmitancia.",
         "B": "Al disminuir la transmitancia, disminuye la absorbancia.",
-        "C": "La absorbancia es el logaritmo del inverso de la",
+        "C": "La absorbancia es el logaritmo del inverso de la transmitancia.",
         "D": "La transmitancia es directamente proporcional a la concentración."
       },
       "page": 30,
       "correctAnswer": "C",
-      "correctText": "La absorbancia es el logaritmo del inverso de la"
+      "correctText": "La absorbancia es el logaritmo del inverso de la transmitancia."
     },
     {
       "id": 272,
@@ -3535,14 +3535,14 @@
       "id": 274,
       "question": "El número de aumentos de un microscopio se obtiene:",
       "options": {
-        "A": "Multiplicando el número del ocular por el del",
+        "A": "Multiplicando el número del ocular por el del objetivo.",
         "B": "Multiplicando el número del objetivo por una constante",
         "C": "Mirando las especificaciones del fabricante.",
         "D": "Multiplicando el número del objetivo por 20."
       },
       "page": 31,
       "correctAnswer": "A",
-      "correctText": "Multiplicando el número del ocular por el del"
+      "correctText": "Multiplicando el número del ocular por el del objetivo."
     },
     {
       "id": 275,
@@ -3574,9 +3574,9 @@
       "id": 277,
       "question": "Señale la afirmación incorrecta relativa a la nefelometría y turbidimetría:",
       "options": {
-        "A": "Las técnicas turbidimétricas se aplican a suspensiones concentradas que producen grandes descensos en la intensidad trasmitida, y por ende de la señal que recibe el detector.",
+        "A": "Las técnicas turbidimé tricas se aplican a suspensiones concentradas que producen grandes descensos en la intensidad trasmitida, y por ende de la señal que recibe el detector.",
         "B": "En nefelometría el detector de radiación se sitúa a un ángulo distinto de 0° y en turbidimetría el detector se sitúa de manera que forme un ángulo de 0° con respecto a la dirección del rayo incidente.",
-        "C": "En las determinaciones turbidimétricas se mide la cantidad de luz que atraviesa la suspensión sin ser dispersada.",
+        "C": "En las determinaciones turbidimé tricas se mide la cantidad de luz que atraviesa la suspensión sin ser dispersada.",
         "D": "Todas son correctas"
       },
       "page": 31,
@@ -3640,25 +3640,25 @@
       "question": "¿Cuál de las siguientes técnicas analíticas se emplea para la determinación de los niveles de manganeso en sangre?",
       "options": {
         "A": "Cromatografía Líquida - Espectrometría de Masas.",
-        "B": "Espectrofotometría de absorción atómica con",
+        "B": "Espectrofotometría de absorción atómica con atomización electrotérmica.",
         "C": "Cromatografía de Gases - Espectrometría de Masas."
       },
       "page": 32,
       "correctAnswer": "B",
-      "correctText": "Espectrofotometría de absorción atómica con"
+      "correctText": "Espectrofotometría de absorción atómica con atomización electrotérmica."
     },
     {
       "id": 283,
       "question": "Los fluorocromos conjugados a los anticuerpos monoclonales son moléculas:",
       "options": {
-        "A": "Con capacidad de absorber luz de una",
-        "B": "Con capacidad de desprender luz de una",
-        "C": "Con capacidad de absorber luz de una",
+        "A": "Con capacidad de absorber luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda mayor.",
+        "B": "Con capacidad de desprender luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda menor.",
+        "C": "Con capacidad de absorber luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda menor.",
         "D": "Con capacidad de desprender luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda mayor."
       },
       "page": 32,
       "correctAnswer": "A",
-      "correctText": "Con capacidad de absorber luz de una"
+      "correctText": "Con capacidad de absorber luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda mayor."
     },
     {
       "id": 284,
@@ -3769,13 +3769,13 @@
       "question": "Un microscopio electrónico es aquel que está basado en:",
       "options": {
         "A": "La transmisión de la luz, que ocurre cuando la luz (fotones) atraviesa la suspensión de un objeto, pudiendo ser un microscopio de contraste de fases.",
-        "B": "El uso de electrones atravesando el objeto,",
+        "B": "El uso de electrones atravesando el objeto, pudiendo ser un microscopio de transmisión.",
         "C": "La luz reflejada sabre un objeto, pudiendo ser un microscopio de fluorescencia.",
         "D": "Una luz focalizada sabre un piano."
       },
       "page": 33,
       "correctAnswer": "B",
-      "correctText": "El uso de electrones atravesando el objeto,"
+      "correctText": "El uso de electrones atravesando el objeto, pudiendo ser un microscopio de transmisión."
     },
     {
       "id": 293,
@@ -3820,14 +3820,14 @@
       "id": 296,
       "question": "Una vez que se ha aceptado la petición, pasamos a la fase de centrifugación, para ello debería informarle que:",
       "options": {
-        "A": "Cuando se centrifugue material biológico",
+        "A": "Cuando se centrifugue material biológico infeccioso deben utilizarse tubos cerrados.",
         "B": "La centrífuga no es un equipo a tener en cuenta, en cuanto a medida de protección individual.",
         "C": "Nada, se da por hecho, que sabe utilizarla.",
         "D": "Ninguna de las anteriores."
       },
       "page": 33,
       "correctAnswer": "A",
-      "correctText": "Cuando se centrifugue material biológico"
+      "correctText": "Cuando se centrifugue material biológico infeccioso deben utilizarse tubos cerrados."
     }
   ]
 }
