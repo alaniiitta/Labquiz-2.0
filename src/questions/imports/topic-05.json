@@ -112,14 +112,14 @@
       "id": 9,
       "question": "¿Cuál de las siguientes afirmaciones es falsa?",
       "options": {
-        "A": "La",
-        "B": "La gamma-glutamil-transferasa es el indicador",
-        "C": "La 5´nucleotidasa aumenta en la ictericia",
+        "A": "La alfa1-antitripsina es un marcador característico del carcinoma hepatocelular.",
+        "B": "La gamma-glutamil-transferasa es el indicador más sensible de la enfermedad de vías biliares",
+        "C": "La 5´nucleotidasa aumenta en la ictericia obstructiva.",
         "D": "El déficit de ceruloplasmina origina depósitos tóxicos de cobre."
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "La"
+      "correctText": "La alfa1-antitripsina es un marcador característico del carcinoma hepatocelular."
     },
     {
       "id": 10,
@@ -244,12 +244,12 @@
       "options": {
         "A": "Es un virus completo que se asocia al virus de la hepatitis B y provoca cuadros de hepatitis fulminante.",
         "B": "Es un virus defectuoso que sólo puede infectar a los hepatocitos cuando esté presente el VHC.",
-        "C": "Es un virus defectuoso que se asocia al virus de la",
+        "C": "Es un virus defectuoso que se asocia al virus de la hepatitis B (coinfección) en cuadros de hepatitis aguda fulminante.",
         "D": "En nuestro medio la infección por VHD NO está presente en usuarios de drogas por vía parenteral."
       },
       "page": 2,
       "correctAnswer": "C",
-      "correctText": "Es un virus defectuoso que se asocia al virus de la"
+      "correctText": "Es un virus defectuoso que se asocia al virus de la hepatitis B (coinfección) en cuadros de hepatitis aguda fulminante."
     },
     {
       "id": 20,
@@ -309,12 +309,12 @@
       "options": {
         "A": "A la disminución de la fosfatasa alcalina hepática, con aumento de GGT, AST Y ALT.",
         "B": "A la elevación de la fosfatasa alcalina, con disminución de GGLy elevación de AST Y Al T.",
-        "C": "A la elevación de la fosfatasa alcalina junto con la",
+        "C": "A la elevación de la fosfatasa alcalina junto con la GGT, con niveles normales de AST y ALT.",
         "D": "Ninguna de las anteriores es correcta"
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "A la elevación de la fosfatasa alcalina junto con la"
+      "correctText": "A la elevación de la fosfatasa alcalina junto con la GGT, con niveles normales de AST y ALT."
     },
     {
       "id": 25,
@@ -333,14 +333,14 @@
       "id": 26,
       "question": "La técnica cinética que se usa para la determinación de AST (GOT) en sangre se basa en medir:",
       "options": {
-        "A": "La velocidad de disminución de la concentración",
+        "A": "La velocidad de disminución de la concentración de NADH en el medio.",
         "B": "La velocidad de aumento de la concentración de NADH en el medio.",
         "C": "La velocidad de disminución de la concentración de EDTA en el medio.",
         "D": "La velocidad del aumento de la concentración de EDTA en el medio."
       },
       "page": 3,
       "correctAnswer": "A",
-      "correctText": "La velocidad de disminución de la concentración"
+      "correctText": "La velocidad de disminución de la concentración de NADH en el medio."
     },
     {
       "id": 27,
@@ -413,12 +413,12 @@
       "options": {
         "A": "Saturación de transferrina, hierro y ferritina.",
         "B": "Determinación de la mutación HFE.",
-        "C": "Cobre en orina de 24 horas y ceruloplasmina",
+        "C": "Cobre en orina de 24 horas y ceruloplasmina sérica.",
         "D": "Anticuerpos anti - LKM."
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "Cobre en orina de 24 horas y ceruloplasmina"
+      "correctText": "Cobre en orina de 24 horas y ceruloplasmina sérica."
     },
     {
       "id": 33,
@@ -426,12 +426,12 @@
       "options": {
         "A": "A la bilirrubina que circula por la sangre sin estar unida a otra molécula.",
         "B": "A la bilirrubina que circula por la sangre unida a la albúmina.",
-        "C": "A la bilirrubina que circula por la sangre unida al",
+        "C": "A la bilirrubina que circula por la sangre unida al ácido glucurónico.",
         "D": "A la bilirrubina que circula por la sangre unida a la hemoglobina."
       },
       "page": 3,
       "correctAnswer": "C",
-      "correctText": "A la bilirrubina que circula por la sangre unida al"
+      "correctText": "A la bilirrubina que circula por la sangre unida al ácido glucurónico."
     },
     {
       "id": 34,
@@ -556,12 +556,12 @@
       "options": {
         "A": "La concentración sérica de cobre presenta valores muy bajos en las formas fulminantes.",
         "B": "La excreción diaria de cobre en orina es muy baja.",
-        "C": "La concentración sérica de ceruloplasmina",
+        "C": "La concentración sérica de ceruloplasmina presenta valores muy bajos.",
         "D": "Ninguna de las anteriores es correcta"
       },
       "page": 4,
       "correctAnswer": "C",
-      "correctText": "La concentración sérica de ceruloplasmina"
+      "correctText": "La concentración sérica de ceruloplasmina presenta valores muy bajos."
     },
     {
       "id": 44,
@@ -827,14 +827,14 @@
       "id": 64,
       "question": "La principal función de la haptoglobina es:",
       "options": {
-        "A": "Unirse a la hemoglobina resultante de la lisis de",
+        "A": "Unirse a la hemoglobina resultante de la lisis de los eritrocitos para evitar la pérdida de hierro.",
         "B": "Inhibición de la plasmina.",
         "C": "Inhibición linfocítica y agregación plaquetaria.",
         "D": "Inhibición de las proteasas leucocitarias."
       },
       "page": 6,
       "correctAnswer": "A",
-      "correctText": "Unirse a la hemoglobina resultante de la lisis de"
+      "correctText": "Unirse a la hemoglobina resultante de la lisis de los eritrocitos para evitar la pérdida de hierro."
     },
     {
       "id": 65,
@@ -1154,12 +1154,12 @@
       "options": {
         "A": "El antígeno de superficie de la hepatitis B (HBsAg), también llamado antígeno de Australia, es el marcador serológico primordial para el diagnóstico de infección por virus C.",
         "B": "El antígeno de superficie de hepatitis B (HBsAg) aparece en el suelo de los pacientes una vez que la enfermedad ha quedado resuelta.",
-        "C": "La persistencia de HBsAg durante más de 6",
+        "C": "La persistencia de HBsAg durante más de 6 meses implica infección crónica.",
         "D": "Todas las respuestas son correctas."
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "La persistencia de HBsAg durante más de 6"
+      "correctText": "La persistencia de HBsAg durante más de 6 meses implica infección crónica."
     },
     {
       "id": 90,
@@ -1440,12 +1440,12 @@
       "options": {
         "A": "Un error del laboratorio.",
         "B": "Una infección resuelta por el virus de la hepatitis b.",
-        "C": "Una infección crónica por el virus de la hepatitis",
+        "C": "Una infección crónica por el virus de la hepatitis b.",
         "D": "El paciente ha sido vacunado contra el virus de la hepatitis b."
       },
       "page": 11,
       "correctAnswer": "C",
-      "correctText": "Una infección crónica por el virus de la hepatitis"
+      "correctText": "Una infección crónica por el virus de la hepatitis b."
     },
     {
       "id": 112,
@@ -1516,14 +1516,14 @@
       "id": 117,
       "question": "El diagnóstico de la enfermedad de Wilson puede hacerse si hay:",
       "options": {
-        "A": "Aumento de cobre en orina y disminución de",
+        "A": "Aumento de cobre en orina y disminución de ceruloplasmina plasmática",
         "B": "Aumento de ceruloplasmina plasmática y aumento de excreción de cobre en orina.",
         "C": "Aumento de ceruloplasmina plasmática y disminución de excreción de cobre en orina.",
         "D": "Disminución de ceruloplasmina plasmática y disminución de cobre en orina."
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "Aumento de cobre en orina y disminución de"
+      "correctText": "Aumento de cobre en orina y disminución de ceruloplasmina plasmática"
     },
     {
       "id": 118,
@@ -1699,13 +1699,13 @@
       "question": "En relación con los trastornos en la función biliar, señale la RESPUESTA INCORRECTA:",
       "options": {
         "A": "La cantidad de bilirrubina en sangre se conoce como bilirrubinemia",
-        "B": "En el intestino la bilirrubina conjugada se",
+        "B": "En el intestino la bilirrubina conjugada se trasforma en biliverdina",
         "C": "La estercobilina se elimina en las heces",
         "D": "La bilirrubina es producto del catabolismo de la hemoglobina, de ciertas enzimas hepáticas y de la destrucción de eritrocitos inmaduros."
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "En el intestino la bilirrubina conjugada se"
+      "correctText": "En el intestino la bilirrubina conjugada se trasforma en biliverdina"
     },
     {
       "id": 132,
@@ -1739,12 +1739,12 @@
       "options": {
         "A": "Las proteínas simples están compuestas por aminoácidos más un grupo prostético",
         "B": "En la estructura primaria proteica, los aminoácidos forman una hélice a",
-        "C": "La hiperalbuminemia aparece en estados de",
+        "C": "La hiperalbuminemia aparece en estados de deshidratación",
         "D": "La protrombina es una B-globulina"
       },
       "page": 13,
       "correctAnswer": "C",
-      "correctText": "La hiperalbuminemia aparece en estados de"
+      "correctText": "La hiperalbuminemia aparece en estados de deshidratación"
     },
     {
       "id": 135,
@@ -1895,12 +1895,12 @@
       "options": {
         "A": "La bilirrubina se forma a partir de la degradación de la hemoglobina",
         "B": "Unida a la albúmina es transportada al hígado",
-        "C": "En el hígado se conjuga formando la bilirrubina",
+        "C": "En el hígado se conjuga formando la bilirrubina indirecta que es hidrosoluble",
         "D": "En el hígado se conjuga formando la bilirrubina directa que es hidrosoluble"
       },
       "page": 14,
       "correctAnswer": "C",
-      "correctText": "En el hígado se conjuga formando la bilirrubina"
+      "correctText": "En el hígado se conjuga formando la bilirrubina indirecta que es hidrosoluble"
     },
     {
       "id": 147,
@@ -1932,27 +1932,27 @@
       "id": 149,
       "question": "Indique la respuesta correcta en el caso de un paciente con sospecha de infección:",
       "options": {
-        "A": "Ante una concentración de procalcitonina en",
-        "B": "La interleuquina 6 puede ser utilizada como",
+        "A": "Ante una concentración de procalcitonina en plasma ≥ 0,5 ng/mL está indicada la toma de hemocultivos",
+        "B": "La interleuquina 6 puede ser utilizada como biomarcador tardío de sepsis vertical en los recién nacidos",
         "C": "La proteína C reactiva se eleva muy rápidamente ante una infección bacteriana lo que le confiere una alta especificidad como marcador de infección",
         "D": "La medición de procalcitonina es muy útil en el diagnóstico de estos pacientes pero nunca debe usarse como criterio para retirar un tratamiento antibiótico"
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Ante una concentración de procalcitonina en"
+      "correctText": "Ante una concentración de procalcitonina en plasma ≥ 0,5 ng/mL está indicada la toma de hemocultivos"
     },
     {
       "id": 150,
       "question": "En relación a las enzimas hepáticas señale la respuesta correcta:",
       "options": {
         "A": "Las aminotrasferasas son un grupo de enzimas que se encargar de catalizar la interconversión de aminoácidcos a 2-oxo ácidos mediante la trasferencia de grupos carboxilo",
-        "B": "En la mayoría de enfermedades hepáticas la",
-        "C": "El pico máximo de actividad en suero puede",
+        "B": "En la mayoría de enfermedades hepáticas la elevación de ALT es mayor que la de AST a excepción de la hepatitis alcohólica, cirrosis y hepatocarcinoma",
+        "C": "El pico máximo de actividad en suero puede verse entre 12 y 24 tras la liberación al torrente sanguíneo",
         "D": "Tras una hepatitis aguda, una elevación persistente más allá de 6 semanas es criterio de hepatitis crónica"
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "En la mayoría de enfermedades hepáticas la"
+      "correctText": "En la mayoría de enfermedades hepáticas la elevación de ALT es mayor que la de AST a excepción de la hepatitis alcohólica, cirrosis y hepatocarcinoma"
     },
     {
       "id": 151,
@@ -2037,26 +2037,26 @@
       "question": "Imagine que un individuo sufre una obstrucción crónica del conducto colédoco, ¿cuál de las siguientes respuestas es correcta con relación a la concentración de la bilirrubina plasmática?:",
       "options": {
         "A": "La bilirrubina plasmática no conjugada aumenta considerablemente.",
-        "B": "La bilirrubina plasmática conjugada aumenta",
+        "B": "La bilirrubina plasmática conjugada aumenta ostensiblemente.",
         "C": "La bilirrubina plasmática conjugada disminuye de forma evidente.",
         "D": "La bilirrubina plasmática conjugada no experimenta cambio alguno."
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "La bilirrubina plasmática conjugada aumenta"
+      "correctText": "La bilirrubina plasmática conjugada aumenta ostensiblemente."
     },
     {
       "id": 158,
       "question": "¿Cuál de las siguientes afirmaciones es incorrecta?:",
       "options": {
         "A": "La bilirrubinuria sólo puede detectarse cuando hay una elevación de la bilirrubina conjugada en sangre.",
-        "B": "La bilirrubinuria sólo puede detectarse cuando",
-        "C": "En los individuos sanos no debe detectarse",
+        "B": "La bilirrubinuria sólo puede detectarse cuando hay una elevación de la bilirrubina no conjugada en sangre.",
+        "C": "En los individuos sanos no debe detectarse bilirrubina en orina",
         "D": "La bilirrubinuria, en ausencia de urobilinógeno, suele indicar una obstrucción biliar."
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "La bilirrubinuria sólo puede detectarse cuando"
+      "correctText": "La bilirrubinuria sólo puede detectarse cuando hay una elevación de la bilirrubina no conjugada en sangre."
     },
     {
       "id": 159,
@@ -2168,12 +2168,12 @@
       "options": {
         "A": "La positividad en suero del AgHBe es indicador de cese de la enfermedad.",
         "B": "La presencia en suero del AntiHBs indica empeoramiento de la enfermedad.",
-        "C": "El AgHBs se detecta en el suero en la fase aguda",
+        "C": "El AgHBs se detecta en el suero en la fase aguda de la enfermedad y en la cronificación de la misma.",
         "D": "El AntiHBc cuando es tipo IgM denota contacto antiguo con el virus."
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "El AgHBs se detecta en el suero en la fase aguda"
+      "correctText": "El AgHBs se detecta en el suero en la fase aguda de la enfermedad y en la cronificación de la misma."
     },
     {
       "id": 168,
@@ -2337,12 +2337,12 @@
       "options": {
         "A": "El Antígeno Australia HBs-Ag es un marcador de infección.",
         "B": "EL HBs-Ac o Anti-HBs confiere inmunidad.",
-        "C": "Esporádicamente podemos encontrar solo el AG",
+        "C": "Esporádicamente podemos encontrar solo el AG del CORE HBcAg en sangre.",
         "D": "La IgM HBc-Ac es el mejor marcador de la hepatitis aguda."
       },
       "page": 17,
       "correctAnswer": "C",
-      "correctText": "Esporádicamente podemos encontrar solo el AG"
+      "correctText": "Esporádicamente podemos encontrar solo el AG del CORE HBcAg en sangre."
     },
     {
       "id": 181,
@@ -2454,12 +2454,12 @@
       "options": {
         "A": "HBsAg+, IgM anti-HBc+, Anti-HBc total+, Anti- HBs+.",
         "B": "HBsAg-, IgM anti-HBc-, Anti-HBc total-, Anti- HBs+.",
-        "C": "HBsAg+, IgM anti-HBc-, Anti-HBc total+, Anti-HBs-",
+        "C": "HBsAg+, IgM anti-HBc-, Anti-HBc total+, Anti-HBs-.",
         "D": "HBsAg+, IgM anti-HBc+, Anti-HBc total+, Anti- HBs-"
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "HBsAg+, IgM anti-HBc-, Anti-HBc total+, Anti-HBs-"
+      "correctText": "HBsAg+, IgM anti-HBc-, Anti-HBc total+, Anti-HBs-."
     },
     {
       "id": 190,
@@ -2751,14 +2751,14 @@
       "id": 212,
       "question": "Indica la afirmación correcta.",
       "options": {
-        "A": "La bilirrubina indirecta se conjuga en el hígado",
+        "A": "La bilirrubina indirecta se conjuga en el hígado con el ácido glucurónico.",
         "B": "La bilirrubina conjugada es transportada principalmente por la albúmina.",
         "C": "La bilirrubina indirecta se forma al degradarse las cadenas de globina de la hemoglobina.",
         "D": "Con valores de bilirrubina por encima de 1 mg/dl, se produce ictericia."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "La bilirrubina indirecta se conjuga en el hígado"
+      "correctText": "La bilirrubina indirecta se conjuga en el hígado con el ácido glucurónico."
     },
     {
       "id": 213,
@@ -2803,14 +2803,14 @@
       "id": 216,
       "question": "La enfermedad de Wilson consiste en:",
       "options": {
-        "A": "Acumulación en exceso de cobre en el",
+        "A": "Acumulación en exceso de cobre en el organismo.",
         "B": "Acumulación en exceso de hierro en el organismo.",
         "C": "Insuficiencia de cobre en el organismo.",
         "D": "Insuficiencia de sodio en el organismo."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Acumulación en exceso de cobre en el"
+      "correctText": "Acumulación en exceso de cobre en el organismo."
     },
     {
       "id": 217,
@@ -2883,12 +2883,12 @@
       "options": {
         "A": "Movilizar ácidos grasos procedentes del tejido adiposo.",
         "B": "Sintetizar colesterol.",
-        "C": "Utilizar la urea procedente de la degradación de",
+        "C": "Utilizar la urea procedente de la degradación de los aminoácidos para producir amoniaco.",
         "D": "Sintetizar albúmina. Comentario. Es al revés, transforma el amoniaco y amonio en urea para eliminarlo"
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Utilizar la urea procedente de la degradación de"
+      "correctText": "Utilizar la urea procedente de la degradación de los aminoácidos para producir amoniaco."
     },
     {
       "id": 223,
@@ -2922,12 +2922,12 @@
       "options": {
         "A": "Es sensible a la luz y se degrada cuando se expone a ésta.",
         "B": "La hemólisis produce un falso aumento en su concentración.",
-        "C": "Los anticonceptivos orales pueden disminuir su",
+        "C": "Los anticonceptivos orales pueden disminuir su medición.",
         "D": "La lipidemia produce una falsa reducción."
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Los anticonceptivos orales pueden disminuir su"
+      "correctText": "Los anticonceptivos orales pueden disminuir su medición."
     },
     {
       "id": 226,
@@ -2948,12 +2948,12 @@
       "options": {
         "A": "El método Kjeldahl determina el nitrógeno proteico.",
         "B": "El método Biuret es un método colorimétrico.",
-        "C": "Los métodos refractométricos son rápidos, pero",
+        "C": "Los métodos refractométricos son rápidos, pero de poca precisión.",
         "D": "El método Lowry es de gran sensibilidad."
       },
       "page": 22,
       "correctAnswer": "C",
-      "correctText": "Los métodos refractométricos son rápidos, pero"
+      "correctText": "Los métodos refractométricos son rápidos, pero de poca precisión."
     },
     {
       "id": 228,
@@ -3008,13 +3008,13 @@
       "id": 232,
       "question": "En la enfermedad de Wilson, además de pruebas genéticas, se solicita:",
       "options": {
-        "A": "Cobre en orina de 24 horas y ceruloplasmina",
+        "A": "Cobre en orina de 24 horas y ceruloplasmina sérica.",
         "B": "Determinación de la mutación HFE.",
         "C": "Anticuerpos anti-LKM."
       },
       "page": 22,
       "correctAnswer": "A",
-      "correctText": "Cobre en orina de 24 horas y ceruloplasmina"
+      "correctText": "Cobre en orina de 24 horas y ceruloplasmina sérica."
     },
     {
       "id": 233,
@@ -3122,13 +3122,13 @@
       "question": "Señala la respuesta correcta:",
       "options": {
         "A": "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los Picarnavirus.",
-        "B": "El virus de la hepatitis B es un virus ADN y",
+        "B": "El virus de la hepatitis B es un virus ADN y pertenece a la familia de los Hepadnavirus.",
         "C": "El virus de la hepatitis C es un virus ARN y pertenece a la familia de los flavivilidae.",
         "D": "Todas son correctas."
       },
       "page": 23,
       "correctAnswer": "B",
-      "correctText": "El virus de la hepatitis B es un virus ADN y"
+      "correctText": "El virus de la hepatitis B es un virus ADN y pertenece a la familia de los Hepadnavirus."
     },
     {
       "id": 242,
@@ -3199,13 +3199,13 @@
       "question": "Indique la respuesta incorrecta sobre el metabolismo de la bilirrubina:",
       "options": {
         "A": "La bilirrubina una vez formada, pasa a la circulación sanguínea y se une a la albúmina",
-        "B": "La bilirrubina cuando pasa a la circulación",
+        "B": "La bilirrubina cuando pasa a la circulación sanguínea se conjuga con el ácido glucurónico",
         "C": "Parte de la bilirrubina conjugada se elimina por vía renal en forma de urobilina",
         "D": "Parte de la bilirrubina conjugada se elimina por las heces como estercobilinógeno"
       },
       "page": 24,
       "correctAnswer": "B",
-      "correctText": "La bilirrubina cuando pasa a la circulación"
+      "correctText": "La bilirrubina cuando pasa a la circulación sanguínea se conjuga con el ácido glucurónico"
     },
     {
       "id": 248,
@@ -3304,12 +3304,12 @@
       "options": {
         "A": "La presencia de bacterias en la sangre que se pone de manifiesto por el aislamiento de éstas en los hemocultivos.",
         "B": "Se utiliza para designar la presencia de hongos en la sangre, generalmente levaduras del género Candida spp.",
-        "C": "Es una disfunción orgánica que amenaza la vida",
+        "C": "Es una disfunción orgánica que amenaza la vida de un paciente causada por una respuesta no regulada del individuo frente a la infección.",
         "D": "Todas las respuestas anteriores son ciertas."
       },
       "page": 25,
       "correctAnswer": "C",
-      "correctText": "Es una disfunción orgánica que amenaza la vida"
+      "correctText": "Es una disfunción orgánica que amenaza la vida de un paciente causada por una respuesta no regulada del individuo frente a la infección."
     },
     {
       "id": 256,
@@ -3357,7 +3357,8 @@
         "A": "GOT",
         "B": "GPT",
         "C": "GGT",
-        "D": "CPK E) LDH"
+        "D": "CPK",
+        "E": "LDH"
       },
       "page": 25,
       "correctAnswer": "B",
@@ -3405,26 +3406,26 @@
       "question": "Señale cuál de las siguientes afirmaciones sobre las proteínas séricas es cierta:",
       "options": {
         "A": "La albúmina es la proteína de mayor peso molecular.",
-        "B": "La beta-2-microglobulina forma parte del sistema",
+        "B": "La beta-2-microglobulina forma parte del sistema principal de histocompatibilidad.",
         "C": "La transferrina es una alfa-globulina.",
         "D": "La función principal de la haptoglobina consiste en combinarse con la mioglobina que se libera en el plasma durante la hemólisis intravascular."
       },
       "page": 26,
       "correctAnswer": "B",
-      "correctText": "La beta-2-microglobulina forma parte del sistema"
+      "correctText": "La beta-2-microglobulina forma parte del sistema principal de histocompatibilidad."
     },
     {
       "id": 264,
       "question": "Señale la situación que se perfila en una Hepatitis Aguda:",
       "options": {
         "A": "Un aumento elevado de Aspartato aminotransferasa (AST) y Alanina aminotransferasa (ALT); y un detrimento de la actividad de la fosfatasa alcalina plasmática.",
-        "B": "Un",
-        "C": "",
+        "B": "Un aumento elevado de Aspartato aminotransferasa (AST) y Alanina aminotransferasa (ALT); junto con un aumento moderado de la actividad de la fosfatasa alcalina plasmática.",
+        "C": "Un aumento moderado de Aspartato aminotransferasa (AST), así como de Alanina aminotransferasa (ALT), que no sobrepasan las 50 U/L.",
         "D": "Un aumento moderado de Aspartato aminotransferasa (ALT), que no sobrepasan las 50 U/L; y un detrimento de la actividad de la fosfatasa alcalina."
       },
       "page": 26,
       "correctAnswer": "B",
-      "correctText": "Un"
+      "correctText": "Un aumento elevado de Aspartato aminotransferasa (AST) y Alanina aminotransferasa (ALT); junto con un aumento moderado de la actividad de la fosfatasa alcalina plasmática."
     },
     {
       "id": 265,
@@ -3675,14 +3676,14 @@
       "id": 284,
       "question": "En relación con patrones bioquímicos que se pueden presentar en las enfermedades hepáticas, NO es cierto que:",
       "options": {
-        "A": "Ratio ALT/ AST > 2 es compatible con hepatitis",
+        "A": "Ratio ALT/ AST > 2 es compatible con hepatitis alcohólica.",
         "B": "Ratio AST/ALT < 1 es compatible con hepatitis viral o de causa tóxica.",
         "C": "GGT y fosfatasa alcalina elevada, junto con una discreta elevación de las transaminasas, permiten pensar en un patrón colestásico.",
         "D": "LDH elevada junto a una hiperbilirrubinemia indirecta es compatible con anemia hemolítica."
       },
       "page": 28,
       "correctAnswer": "A",
-      "correctText": "Ratio ALT/ AST > 2 es compatible con hepatitis"
+      "correctText": "Ratio ALT/ AST > 2 es compatible con hepatitis alcohólica."
     },
     {
       "id": 285,
@@ -3712,7 +3713,7 @@
     },
     {
       "id": 287,
-      "question": "¿Qué parámetros de laboratorio utiliza el índice CONUTS como método de cribado de la desnutrición hospitalaria?",
+      "question": "¿Qué parámetros de laboratorio utiliza el índice CONUTS como método de cribado de la desnutrición hospitalaria?",
       "options": {
         "A": "Albúmina, Colesterol, linfocitos.",
         "B": "Albúmina, Prealbúmina, Colesterol.",
@@ -3727,14 +3728,14 @@
       "id": 288,
       "question": "En relación a Parámetros de función inmunológica, en la evaluación nutricional se ha relacionado con malnutrición:",
       "options": {
-        "A": "La disminución en el recuento total de linfocitos",
+        "A": "La disminución en el recuento total de linfocitos (<1500).",
         "B": "El índice de CD3/CD4 (>50).",
         "C": "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.",
         "D": "El aumento en el recuento total de linfocitos (>10.500)."
       },
       "page": 28,
       "correctAnswer": "A",
-      "correctText": "La disminución en el recuento total de linfocitos"
+      "correctText": "La disminución en el recuento total de linfocitos (<1500)."
     },
     {
       "id": 289,
@@ -3779,14 +3780,14 @@
       "id": 292,
       "question": "Señale la respuesta CORRECTA sobre la procalcitonina.",
       "options": {
-        "A": "En pacientes con sospecha de infección y",
-        "B": "La procalcitonina no aumenta en las primeras 48",
+        "A": "En pacientes con sospecha de infección y procalcitonina ≥ 0.5 ng/mL está indicada la toma de hemocultivos.",
+        "B": "La procalcitonina no aumenta en las primeras 48 horas de vida, por lo que es posible utilizar los mismos valores de referencia que en los adultos para la interpretación de su concentración.",
         "C": "En prematuros las concentraciones de procalcitonina están característicamente disminuidas.",
         "D": "Las concentraciones de procalcitonina carecen de utilidad como herramienta de apoyo para acortar la duración de la terapia antimicrobiana."
       },
       "page": 29,
       "correctAnswer": "A",
-      "correctText": "En pacientes con sospecha de infección y"
+      "correctText": "En pacientes con sospecha de infección y procalcitonina ≥ 0.5 ng/mL está indicada la toma de hemocultivos."
     },
     {
       "id": 293,
@@ -3818,14 +3819,14 @@
       "id": 295,
       "question": "En la enfermedad de Wilson:",
       "options": {
-        "A": "Disminuyen",
+        "A": "Disminuyen los niveles plasmáticos de ceruloplasmina.",
         "B": "Aumenta la concentración de cobre plasmático.",
         "C": "Disminuye la concentración de cobre urinario.",
         "D": "Todas las anteriores son correctas."
       },
       "page": 29,
       "correctAnswer": "A",
-      "correctText": "Disminuyen"
+      "correctText": "Disminuyen los niveles plasmáticos de ceruloplasmina."
     },
     {
       "id": 296,
@@ -3845,13 +3846,13 @@
       "question": "Referido a la albúmina plasmática y sus efectos, ¿cuál de las siguientes afirmaciones es la FALSA?",
       "options": {
         "A": "La albúmina plasmática mantiene la presión oncótica intravascular.",
-        "B": "La albúmina plasmática aumenta con la",
+        "B": "La albúmina plasmática aumenta con la inflamación aguda.",
         "C": "La albuminuria es un marcador precoz de insuficiencia renal.",
         "D": "La ascitis suele cursar con hipoalbuminemia."
       },
       "page": 29,
       "correctAnswer": "B",
-      "correctText": "La albúmina plasmática aumenta con la"
+      "correctText": "La albúmina plasmática aumenta con la inflamación aguda."
     },
     {
       "id": 298,
@@ -3924,12 +3925,12 @@
       "options": {
         "A": "Durante la primera semana de vida, un alto porcentaje de los recién nacidos a término desarrollan ictericia fisiológica por hiperbilirrubinemia conjugada o directa.",
         "B": "La ictericia fisiológica causada por hiperbilirrubinemia conjugada o directa es incluso más frecuente en recién nacidos prematuros.",
-        "C": "Durante la primera semana de vida, un alto",
+        "C": "Durante la primera semana de vida, un alto porcentaje de los recién nacidos a término desarrollan ictericia fisiológica por hiperbilirrubinemia no conjugada o indirecta.",
         "D": "El kernícterus es una lesión hepática debida a la acumulación de bilirrubina en el hígado"
       },
       "page": 30,
       "correctAnswer": "C",
-      "correctText": "Durante la primera semana de vida, un alto"
+      "correctText": "Durante la primera semana de vida, un alto porcentaje de los recién nacidos a término desarrollan ictericia fisiológica por hiperbilirrubinemia no conjugada o indirecta."
     },
     {
       "id": 304,
@@ -3949,13 +3950,13 @@
       "question": "En la inflamación crónica, ¿cuál de las siguientes características es cierta?",
       "options": {
         "A": "Se observan de forma secuencial signos de destrucción tisular, de inflamación activa y reparación.",
-        "B": "Se observan de forma simultánea signos de",
+        "B": "Se observan de forma simultánea signos de inflamación activa, destrucción tisular y reparación.",
         "C": "Los fibroblastos liberan diferentes factores de crecimiento para favorecer la proliferación de macrófagos.",
         "D": "Los leucocitos polimorfonucleares son el tipo celular predominante."
       },
       "page": 30,
       "correctAnswer": "B",
-      "correctText": "Se observan de forma simultánea signos de"
+      "correctText": "Se observan de forma simultánea signos de inflamación activa, destrucción tisular y reparación."
     },
     {
       "id": 306,
@@ -4118,13 +4119,13 @@
       "question": "Respecto a la AST (aspartato amino transferasa) es falso:",
       "options": {
         "A": "Abunda en hígado, corazón y músculo esquelético",
-        "B": "Sólo",
+        "B": "Sólo se puede determinar mediante inmunoensayos",
         "C": "Hay una isoforma mitocondrial y otra citosólica",
         "D": "Su peso molécula es de unos 94000 Daltons"
       },
       "page": 32,
       "correctAnswer": "B",
-      "correctText": "Sólo"
+      "correctText": "Sólo se puede determinar mediante inmunoensayos"
     },
     {
       "id": 319,
@@ -4236,12 +4237,12 @@
       "options": {
         "A": "Es un virus completo que se asocia al virus de la hepatitis B y provoca cuadros de hepatitis fulminante.",
         "B": "Es un virus defectuoso que sólo puede infectar a los hepatocitos cuando esté presente el VHC.",
-        "C": "Es un virus defectuoso que se asocia al virus de la",
+        "C": "Es un virus defectuoso que se asocia al virus de la hepatitis B (confección) en cuadros de hepatitis aguda fulminante.",
         "D": "En nuestro medio la infección por VHD NO está presente en usuarios de drogas por vía parenteral."
       },
       "page": 32,
       "correctAnswer": "C",
-      "correctText": "Es un virus defectuoso que se asocia al virus de la"
+      "correctText": "Es un virus defectuoso que se asocia al virus de la hepatitis B (confección) en cuadros de hepatitis aguda fulminante."
     },
     {
       "id": 328,
@@ -4312,14 +4313,14 @@
       "id": 333,
       "question": "Señale la CORRECTA:",
       "options": {
-        "A": "El virus de la hepatitis A es un virus ARN y",
+        "A": "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los picornavirus.",
         "B": "El virus de la hepatitis B es un virus ARN y pertenece a la familia de los hepadnavirus.",
         "C": "El virus de la hepatitis C es un virus ADN y pertenece a la familia de los flaviviridae.",
         "D": "A y C son correctas."
       },
       "page": 33,
       "correctAnswer": "A",
-      "correctText": "El virus de la hepatitis A es un virus ARN y"
+      "correctText": "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los picornavirus."
     },
     {
       "id": 334,
@@ -4364,14 +4365,14 @@
       "id": 337,
       "question": "En relación a Parámetros de función inmunológica, en la evaluación nutricional se ha relacionado con malnutrición:",
       "options": {
-        "A": "La disminución en el recuento total de linfocitos",
+        "A": "La disminución en el recuento total de linfocitos (<1500).",
         "B": "El índice de CD3/CD4 (>50).",
         "C": "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.",
         "D": "El aumento en el recuento total de linfocitos (>10.500)."
       },
       "page": 33,
       "correctAnswer": "A",
-      "correctText": "La disminución en el recuento total de linfocitos"
+      "correctText": "La disminución en el recuento total de linfocitos (<1500)."
     }
   ]
 }
