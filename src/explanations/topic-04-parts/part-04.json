@@ -1,0 +1,405 @@
+{
+  "109": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El síndrome de Zollinger-Ellison se debe a un gastrinoma que secreta gastrina en exceso. El temario indica que una gastrina superior a 1000 pg/ml con pH gástrico menor de 3 es sugestiva de gastrinoma.",
+    "motivosPorOpcion": {
+      "Acromegalia.": "Es un trastorno por exceso de hormona de crecimiento y no la neoplasia secretora de gastrina descrita en el temario.",
+      "Waldenstrom.": "La macroglobulinemia de Waldenström es una neoplasia linfoplasmocitaria definida por producción de IgM, no por hipergastrinemia.",
+      "Tumor de Wilms.": "El tumor de Wilms es una neoplasia renal pediátrica y no un tumor neuroendocrino productor de gastrina."
+    },
+    "claveMemorizar": "Zollinger-Ellison: gastrinoma, gastrina muy alta y pH gástrico ácido.",
+    "fuente": "Tema 4 F. digestiva, p. 54"
+  },
+  "110": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hematoquecia es la emisión rectal de sangre roja mezclada con las heces y suele corresponder a una hemorragia digestiva baja. Se distingue de la rectorragia, que el temario define como sangrado rectal fresco.",
+    "motivosPorOpcion": {
+      "Aparición de vómitos sanguíneos.": "Los vómitos con sangre se denominan hematemesis.",
+      "Aparición de heces negras": "Las heces negras por sangre digerida se denominan melenas y suelen asociarse a hemorragia digestiva alta.",
+      "Hemorroides.": "Las hemorroides son una posible causa de sangrado bajo, no el nombre del signo clínico."
+    },
+    "claveMemorizar": "Hematoquecia: sangre roja mezclada con las heces.",
+    "fuente": "Tema 4 F. digestiva, pp. 38-39"
+  },
+  "111": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El intervalo de pH fecal normal recogido en el temario es 6,8-7,2, próximo a la neutralidad. Un pH ácido orienta a malabsorción de hidratos de carbono o grasas, mientras que uno alcalino puede acompañar a degradación proteica.",
+    "motivosPorOpcion": {
+      "5,5 y 6,2.": "Es un intervalo ácido, por debajo del rango normal indicado y compatible con procesos de malabsorción o fermentación.",
+      "7,9 y 8,4.": "Es un intervalo alcalino que excede el límite superior normal de 7,2.",
+      "8,5 y 9,5.": "Representa una alcalinidad marcada y no el pH fisiológico de las heces."
+    },
+    "claveMemorizar": "pH fecal normal: 6,8-7,2.",
+    "fuente": "Tema 4 F. digestiva, p. 24"
+  },
+  "112": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Sudán III es un colorante liposoluble que tiñe de rojo las gotas de grasa de una suspensión fecal, permitiendo observarlas al microscopio. Su hallazgo apoya la existencia de malabsorción grasa o esteatorrea.",
+    "motivosPorOpcion": {
+      "Leucocitos": "Los leucocitos fecales se visualizan con tinciones como azul de metileno, azul de Loeffler o Wright.",
+      "Cuerpos reductores": "Los azúcares reductores se investigan mediante Clinitest, basado en la reducción del cobre.",
+      "Almidón": "El almidón no digerido se identifica con Lugol y su presencia se denomina amilorrea."
+    },
+    "claveMemorizar": "Sudán III tiñe grasa de rojo; Lugol identifica almidón.",
+    "fuente": "Tema 4 F. digestiva, pp. 32, 34 y 36"
+  },
+  "113": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos antitransglutaminasa tisular de clase IgA son la prueba serológica de cribado indicada para la enfermedad celíaca y se solicitan junto con la IgA total. En déficit de IgA deben emplearse pruebas de clase IgG.",
+    "motivosPorOpcion": {
+      "Anti-DNA": "Los anticuerpos anti-DNA se asocian principalmente al lupus eritematoso sistémico, no al cribado de celiaquía.",
+      "Anti-SPM": "El temario no incluye anti-SPM entre los anticuerpos diagnósticos de celiaquía; sí enumera anti-tTG, anti-DGP y antiendomisio.",
+      "Ninguna es correcta": "Existe una opción específica válida: los anticuerpos antitransglutaminasa IgA."
+    },
+    "claveMemorizar": "Cribado celíaco: anti-tTG IgA más IgA total.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "114": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La lactosa de la leche se hidroliza en glucosa y galactosa; por ello, retirar leche y derivados evita una fuente dietética principal de galactosa. El PDF solo documenta la composición de la lactosa, no el tratamiento dietético de la galactosemia.",
+    "motivosPorOpcion": {
+      "Grasas": "Los lípidos no son la fuente del monosacárido galactosa señalado en la pregunta.",
+      "Azúcares": "La categoría es demasiado amplia: el problema exige restringir específicamente galactosa y sus precursores, no todos los azúcares por igual.",
+      "Aminoácidos": "Los aminoácidos proceden de proteínas y no generan la carga dietética de galactosa asociada a la lactosa."
+    },
+    "claveMemorizar": "La lactosa está formada por glucosa y galactosa.",
+    "fuente": "Tema 4 F. digestiva, p. 3",
+    "advertenciaRevision": "El PDF relaciona lactosa con glucosa y galactosa, pero no desarrolla la galactosemia ni confirma de forma directa su intervención dietética."
+  },
+  "115": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Cuando no llega bilis al intestino dejan de formarse los pigmentos fecales derivados de la bilirrubina y las heces pierden su color pardo, adquiriendo aspecto blanquecino o de yeso. Esa ausencia de pigmentación caracteriza la acolia.",
+    "motivosPorOpcion": {
+      "Ausencia de urobilinógeno en heces": "El propio PDF usa urobilinógeno al explicar la falta de pigmento por ausencia de bilis, por lo que esta opción entra en conflicto terminológico con la respuesta marcada.",
+      "Ausencia de bilirrubina heces": "La acolia se reconoce por la falta de pigmentos fecales finales y de color, no se define en el temario como una medición aislada de bilirrubina fecal.",
+      "Ausencia de biliverdina en heces": "La biliverdina no es el pigmento fecal pardo con el que el temario caracteriza el aspecto normal."
+    },
+    "claveMemorizar": "Sin bilis intestinal, no se forman pigmentos fecales y aparecen heces acólicas.",
+    "fuente": "Tema 4 F. digestiva, p. 21",
+    "advertenciaRevision": "La respuesta del banco señala estercobilinógeno, pero el PDF afirma literalmente que al no llegar bilis no se puede formar urobilinógeno; conviene revisar la nomenclatura y la unicidad de la opción."
+  },
+  "116": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La alfa-1-antitripsina fecal permite valorar la pérdida intestinal de proteínas plasmáticas. Su aclaramiento se emplea como estudio de la permeabilidad intestinal porque esta proteína puede recuperarse y cuantificarse en heces cuando existe enteropatía perdedora de proteínas.",
+    "motivosPorOpcion": {
+      "Es un marcador de cáncer de esófago": "No es un marcador tumoral esofágico; su aplicación digestiva descrita es medir pérdida proteica intestinal.",
+      "Es un importante marcador del metabolismo de los lípidos": "La malabsorción lipídica se estudia con grasa fecal, Sudán III o Van de Kamer, no con alfa-1-antitripsina.",
+      "Es un importante marcador de la enfermedad celiaca": "La serología característica de celiaquía incluye anti-transglutaminasa, anti-DGP y antiendomisio."
+    },
+    "claveMemorizar": "Alfa-1-antitripsina fecal: pérdida intestinal de proteínas.",
+    "fuente": "Tema 4 F. digestiva, pp. 35 y 54"
+  },
+  "117": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Van de Kamer es una determinación cuantitativa de grasa fecal: requiere recogida de tres días y expresa la grasa eliminada por 24 horas. El temario lo considera método de referencia, por lo que llamarlo cualitativo es incorrecto.",
+    "motivosPorOpcion": {
+      "La elastasa fecal sirve para determinar la existencia de posibles alteraciones pancreáticas": "La elastasa fecal evalúa función pancreática exocrina y disminuye en la insuficiencia pancreática grave.",
+      "La determinación de calprotectina en heces indica el grado de inflamación intestinal": "La calprotectina es una proteína neutrofílica cuya concentración se correlaciona con la intensidad de la inflamación.",
+      "El método del guayaco determina la existencia de sangre oculta en heces": "El guayaco detecta la actividad seudoperoxidasa de la hemoglobina y se usa para sangre oculta fecal."
+    },
+    "claveMemorizar": "Van de Kamer cuantifica grasa fecal; no es cualitativo.",
+    "fuente": "Tema 4 F. digestiva, pp. 26, 29, 33 y 52"
+  },
+  "118": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La alfa-amilasa aumenta durante las primeras horas de una pancreatitis aguda y forma parte de su evaluación bioquímica. Aunque también puede elevarse en numerosas afecciones no pancreáticas, su aplicación clínica clásica es el diagnóstico y seguimiento temporal de pancreatitis aguda.",
+    "motivosPorOpcion": {
+      "El diagnóstico y evolución de los infartos de miocardio": "La amilasa no es el biomarcador de lesión miocárdica; esa aplicación corresponde a marcadores cardíacos.",
+      "La actividad osteoblástica del hueso": "La actividad osteoblástica se relaciona con marcadores de formación ósea, no con una enzima digestiva del almidón.",
+      "El diagnóstico de las enfermedades hepatobiliares": "Aunque algunas enfermedades hepatobiliares pueden elevar amilasa, el aumento no constituye su aplicación diagnóstica principal."
+    },
+    "claveMemorizar": "Amilasa: ascenso temprano en pancreatitis aguda.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 50"
+  },
+  "119": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El test de Schilling estudia la absorción intestinal de vitamina B12 radiomarcada mediante su excreción urinaria. Una segunda fase añade factor intrínseco para investigar si la malabsorción se debe a anemia perniciosa.",
+    "motivosPorOpcion": {
+      "Déficit de ácido fólico": "El test utiliza vitamina B12 radiomarcada y no mide la absorción de folato.",
+      "Déficit de hierro": "La absorción de hierro se produce principalmente en duodeno y no se evalúa con la excreción urinaria de B12 del test de Schilling.",
+      "Talasemia": "La talasemia es una alteración de la síntesis de globina, no un defecto de absorción de vitamina B12."
+    },
+    "claveMemorizar": "Schilling estudia absorción de B12 y dependencia del factor intrínseco.",
+    "fuente": "Tema 4 F. digestiva, p. 57"
+  },
+  "120": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los métodos inmunoquímicos emplean anticuerpos específicos frente a la globina de la hemoglobina humana. Esa especificidad reduce falsos positivos frente a los métodos químicos basados en actividad peroxidasa.",
+    "motivosPorOpcion": {
+      "Tableta reactivas con guayacol": "El guayaco responde a actividad peroxidasa y puede sufrir interferencias dietéticas, por lo que es menos específico.",
+      "Tabletas reactivas con ortotolidín": "La ortotolidina es un reactivo químico oxidativo sin reconocimiento inmunológico específico de hemoglobina humana.",
+      "Reacción del perclorato de hierro": "No es el método inmunológico específico para la fracción globina descrito en el temario."
+    },
+    "claveMemorizar": "FIT inmunoquímico: anticuerpos contra globina humana, mayor especificidad.",
+    "fuente": "Tema 4 F. digestiva, pp. 27-28"
+  },
+  "121": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba del guayaco aprovecha la actividad seudoperoxidasa del grupo hemo: la hemoglobina cataliza la oxidación de un cromógeno por peróxido de hidrógeno. La oxidación produce la coloración azul indicativa de sangre oculta.",
+    "motivosPorOpcion": {
+      "Detecta las hemorragias digestivas debido a la acción del grupo hemo de las hemoglobinas en contacto con las heces.": "Describe de forma imprecisa el resultado clínico, pero omite la reacción peroxidasa con peróxido y cromógeno que constituye el fundamento analítico.",
+      "Es un método cuantitativo para la determinación de sangre en heces.": "El temario clasifica el guayaco como una prueba simple y semicuantitativa, no cuantitativa.",
+      "A y C son correctas.": "La combinación no es válida porque incluye la afirmación falsa de que el método es cuantitativo."
+    },
+    "claveMemorizar": "Guayaco: seudoperoxidasa del hemo, cromógeno azul.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-26"
+  },
+  "122": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La calprotectina es una proteína derivada de neutrófilos que aumenta en las heces cuando existe inflamación de la mucosa intestinal. Su concentración se correlaciona con la intensidad inflamatoria y sirve como indicador de actividad.",
+    "motivosPorOpcion": {
+      "Quimiotripsina": "La quimotripsina fecal es una enzima usada para valorar función pancreática exocrina, no actividad inflamatoria intestinal.",
+      "Elastasa": "La elastasa fecal disminuye en insuficiencia pancreática exocrina y su utilidad principal no es medir inflamación intestinal.",
+      "Alfa-1-antritipsina": "La alfa-1-antitripsina fecal valora pérdida intestinal de proteínas, no el grado de actividad inflamatoria."
+    },
+    "claveMemorizar": "Calprotectina fecal: actividad inflamatoria intestinal.",
+    "fuente": "Tema 4 F. digestiva, pp. 29, 35 y 52"
+  },
+  "123": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El test de Schilling compara la absorción de B12 radiomarcada sola con la absorción tras añadir factor intrínseco. La normalización en la segunda fase indica que la falta de factor intrínseco explica la malabsorción, como ocurre en la anemia perniciosa.",
+    "motivosPorOpcion": {
+      "Test de Shutton": "No corresponde a la prueba bifásica de absorción de vitamina B12 descrita en el temario.",
+      "Test de Standford": "No es el nombre del ensayo con B12 radiomarcada y factor intrínseco.",
+      "Test de Smillie": "No identifica la dependencia de factor intrínseco en la absorción de B12."
+    },
+    "claveMemorizar": "Schilling fase 2: B12 más factor intrínseco.",
+    "fuente": "Tema 4 F. digestiva, p. 57"
+  },
+  "124": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El gastrinoma del síndrome de Zollinger-Ellison produce una hipergastrinemia marcada. El temario señala que concentraciones superiores a 1000 pg/ml, asociadas a un pH menor de 3, son sugestivas del síndrome.",
+    "motivosPorOpcion": {
+      "El pH del jugo gástrico es elevado.": "La hipersecreción ácida mantiene un pH gástrico bajo, no elevado.",
+      "Se detecta infección por Helicobacter pylori.": "Helicobacter pylori es una causa frecuente de duodenitis y úlcera, pero no define el gastrinoma de Zollinger-Ellison.",
+      "No se detecta factor intrínseco.": "La ausencia de factor intrínseco caracteriza la anemia perniciosa por lesión de células parietales, no este síndrome hipergastrinémico."
+    },
+    "claveMemorizar": "Zollinger-Ellison combina gastrina alta con hipersecreción ácida.",
+    "fuente": "Tema 4 F. digestiva, pp. 42, 46 y 54"
+  },
+  "125": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El guayacol actúa como cromógeno en una prueba química de sangre oculta. La actividad seudoperoxidasa de la hemoglobina oxida el indicador y genera una coloración azul.",
+    "motivosPorOpcion": {
+      "Cuantificar los nutrientes en las heces.": "La cuantificación global de nutrientes se realiza mediante fecalograma por espectroscopia infrarroja, no con guayacol.",
+      "Determinar la presencia de amilasa en heces.": "El guayacol no es un sustrato analítico para medir amilasa.",
+      "Determinar la presencia de hidratos de carbono en heces.": "Los cuerpos reductores fecales se estudian con Clinitest y el almidón con Lugol."
+    },
+    "claveMemorizar": "Guayacol azul: sangre oculta por actividad del hemo.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-26, 31 y 36"
+  },
+  "126": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El test de Kleihauer-Betke se realiza en sangre y permite distinguir y estimar la fracción de eritrocitos con hemoglobina fetal en la circulación materna. En este temario solo se menciona como alternativa para diferenciar sangre materna de fetal y se remite su desarrollo al tema 8.",
+    "motivosPorOpcion": {
+      "Es un test que detecta la hemoglobina S de la anemia falciforme.": "La hemoglobina S requiere métodos de identificación de variantes, no una prueba de hemorragia fetomaterna.",
+      "Es un test que detecta la hemoglobina C en la anemia hemolítica.": "La hemoglobina C es una variante estructural y no el objetivo de la diferenciación entre hematíes fetales y maternos.",
+      "Es un test que detecta la hemoglobina A2 en las talasemias.": "La HbA2 se cuantifica en el estudio de beta-talasemia, una finalidad distinta de la prueba fetomaterna."
+    },
+    "claveMemorizar": "Kleihauer-Betke: hematíes fetales en sangre materna.",
+    "fuente": "Tema 4 F. digestiva, p. 59",
+    "advertenciaRevision": "El PDF solo afirma que Kleihauer-Betke se realiza en sangre y diferencia sangre materna de fetal; no explica su procedimiento ni documenta expresamente la cuantificación indicada en la respuesta."
+  },
+  "127": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El test de Schilling administra vitamina B12 radiomarcada por vía oral y mide cuánto aparece en la orina de 24 horas. Una excreción de al menos el 10 % indica que la vitamina fue absorbida.",
+    "motivosPorOpcion": {
+      "El porcentaje de transferrina sanguínea": "La transferrina transporta hierro y no es la magnitud medida por esta prueba de absorción intestinal.",
+      "La saturación de la hemoglobina": "La saturación de hemoglobina refleja oxigenación y no la absorción digestiva de cobalamina.",
+      "El tamaño medio de los eritrocitos presentes en sangre.": "El volumen corpuscular medio puede elevarse en anemia megaloblástica, pero el test de Schilling no mide el tamaño eritrocitario."
+    },
+    "claveMemorizar": "Schilling mide absorción de B12 mediante excreción urinaria.",
+    "fuente": "Tema 4 F. digestiva, p. 57"
+  },
+  "128": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La amilasa se eleva pronto tras comenzar la pancreatitis y se normaliza antes que la lipasa. La lipasa permanece elevada durante 7-14 días, por lo que la amilasa es la enzima de aclaramiento más rápido entre las opciones.",
+    "motivosPorOpcion": {
+      "Lipasa": "La lipasa permanece elevada durante más tiempo, aproximadamente 7-14 días, y por ello no es la que antes vuelve a la normalidad.",
+      "Tripsina": "El temario aborda la tripsina fecal como indicador de función pancreática exocrina, no como marcador circulante de rápida normalización en pancreatitis aguda.",
+      "Elastasa": "La elastasa fecal se usa para insuficiencia pancreática exocrina grave y no para seguir este intervalo sérico temprano."
+    },
+    "claveMemorizar": "Amilasa sube pronto y cae antes; lipasa dura 7-14 días.",
+    "fuente": "Tema 4 F. digestiva, pp. 50-52",
+    "advertenciaRevision": "La pregunta fija 48-72 horas, pero el PDF afirma que la amilasa generalmente retorna a la normalidad en 3-5 días; solo queda plenamente sustentado que se normaliza antes que la lipasa."
+  },
+  "129": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El temario sitúa el origen de la hemorragia digestiva baja por debajo de la unión duodeno-yeyuno y señala la enfermedad diverticular como su causa más común. También enumera angiodisplasias, hemorroides, colitis segmentaria y neoplasias de colon.",
+    "motivosPorOpcion": {
+      "Úlceras de estómago.": "La úlcera gástrica origina una hemorragia digestiva alta por su localización en el estómago.",
+      "Angiodisplasia.": "Es una causa reconocida de hemorragia digestiva baja, pero el temario no la identifica como la más frecuente.",
+      "Neoplasia de colon.": "Puede producir sangrado bajo u oculto, aunque figura después de la enfermedad diverticular en frecuencia."
+    },
+    "claveMemorizar": "Hemorragia digestiva baja: causa más común, enfermedad diverticular.",
+    "fuente": "Tema 4 F. digestiva, p. 39"
+  },
+  "130": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El jugo gástrico se obtiene introduciendo una sonda nasogástrica hasta el estómago. Esa muestra permite valorar volumen, color, olor y secreción ácida basal o estimulada.",
+    "motivosPorOpcion": {
+      "Provocaremos el vómito del paciente.": "El vómito mezcla el contenido gástrico con otras secreciones y no es el procedimiento de toma descrito.",
+      "Pediremos al paciente que escupa en un tarro.": "Escupir proporciona saliva, no una muestra de jugo procedente de la luz gástrica.",
+      "Todas son falsas.": "La colocación de una sonda nasogástrica sí aparece expresamente como método válido."
+    },
+    "claveMemorizar": "Jugo gástrico: aspiración mediante sonda nasogástrica.",
+    "fuente": "Tema 4 F. digestiva, p. 53"
+  },
+  "131": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Si la bilis no alcanza el intestino, no se forman los pigmentos que confieren a las heces su tonalidad parda. El resultado son heces claras o hipocólicas, y en la obstrucción intensa pueden ser acólicas y blanquecinas.",
+    "motivosPorOpcion": {
+      "Melenas.": "Las melenas son heces negras por sangre digerida de una hemorragia alta, no heces aclaradas.",
+      "Hemorragias.": "El sangrado suele producir heces negras o rojas según su localización y no explica la hipocolia.",
+      "Ingestión de verduras": "Las verduras pueden dar una coloración verde, no la pérdida de pigmento biliar."
+    },
+    "claveMemorizar": "Hipocolia: llega poca o ninguna bilis al intestino.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
+  },
+  "132": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Van de Kamer cuantifica la grasa eliminada en heces durante una recogida de tres días. Una excreción superior a 7 g de grasa por 24 horas se considera esteatorrea.",
+    "motivosPorOpcion": {
+      "Leucocitos": "Los leucocitos se buscan mediante extensión, tinción y microscopía, no por cuantificación de ácidos grasos.",
+      "Sangre oculta": "La sangre oculta se detecta con métodos químicos como guayaco o con métodos inmunoquímicos.",
+      "Creatorrea": "La creatorrea es la presencia de fibras musculares sin digerir y se valora microscópicamente."
+    },
+    "claveMemorizar": "Van de Kamer: método de referencia para grasa fecal.",
+    "fuente": "Tema 4 F. digestiva, pp. 29, 33 y 35"
+  },
+  "133": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El olor fecal depende en buena medida de la degradación proteica y del metabolismo bacteriano. Los tratamientos antibióticos prolongados alteran esa flora y pueden originar heces inodoras.",
+    "motivosPorOpcion": {
+      "Diarreas de fermentación.": "Las diarreas de fermentación producen en el temario un olor rancio, no ausencia de olor.",
+      "Fístulas anales.": "Las fístulas anales se asocian a olor amoniacal.",
+      "Neoplasias.": "Las neoplasias se relacionan con olor fétido."
+    },
+    "claveMemorizar": "Antibióticos prolongados pueden dejar heces inodoras.",
+    "fuente": "Tema 4 F. digestiva, p. 23"
+  },
+  "134": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La amilasa se determina en suero para valorar función pancreática, pero el intervalo de referencia debe interpretarse según el método del laboratorio. El PDF proporciona 53-123 U/L en suero, no 0-130 U/L.",
+    "motivosPorOpcion": {
+      "Estudio de amilasa en plasma 150-160 U/L.": "Ese intervalo estrecho y elevado no corresponde al rango sérico de referencia mostrado en el temario.",
+      "Estudio de amilasa en suero 145-155 U/L.": "Ambos límites superan el límite superior de 123 U/L indicado en el PDF.",
+      "Estudio de amilasa en plasma 140-150 U/L.": "El temario especifica una medición sérica de 53-123 U/L y no valida ese rango plasmático."
+    },
+    "claveMemorizar": "En el PDF, amilasa sérica: 53-123 U/L.",
+    "fuente": "Tema 4 F. digestiva, p. 50",
+    "advertenciaRevision": "La respuesta marcada como correcta (0-130 U/L) no coincide con el intervalo de referencia del PDF (53-123 U/L); debe revisarse el banco o documentarse otro método analítico."
+  },
+  "135": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fibrosis quística se debe a variantes del gen CFTR, situado en el cromosoma 7, que codifica un canal de cloro. Por tanto, atribuir el defecto al cromosoma 9 es la afirmación falsa.",
+    "motivosPorOpcion": {
+      "Origina una proteína defectuosa, la CFTR que provoca alteraciones en la sínfisis de los canales de cloro": "Aunque contiene una errata de redacción, expresa el concepto de un CFTR defectuoso que altera el transporte de cloro.",
+      "Enfermedad congénita": "Es una enfermedad genética autosómica recesiva y, por ello, está presente desde el nacimiento.",
+      "Test del sudor: estimulación con pilocarpina para su diagnóstico": "La prueba del sudor con pilocarpina y cloro superior a 60 mmol/L en dos ocasiones figura como prueba diagnóstica."
+    },
+    "claveMemorizar": "Fibrosis quística: CFTR en cromosoma 7.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "136": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El páncreas produce amilasa, enzima que degrada hidratos de carbono complejos como el almidón. El temario distingue amilasa pancreática y salival, y la primera se mide en suero en el estudio de pancreatitis.",
+    "motivosPorOpcion": {
+      "Riñón": "El riñón participa en la eliminación de amilasa, pero no es la fuente pancreática o salival descrita.",
+      "Hígado": "El hígado no figura como origen principal de las isoenzimas amilasa pancreática y salival.",
+      "Corazón": "El miocardio no es el órgano secretor de amilasa digestiva señalado en el temario."
+    },
+    "claveMemorizar": "Amilasa digestiva: principalmente páncreas y glándulas salivales.",
+    "fuente": "Tema 4 F. digestiva, pp. 2 y 50"
+  },
+  "137": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El temario identifica el alcoholismo crónico como causa principal de pancreatitis aguda. También recoge cálculos biliares, hiperlipemias, traumatismos, procedimientos y fármacos como causas posibles.",
+    "motivosPorOpcion": {
+      "Anemia": "La anemia no aparece entre las causas de pancreatitis enumeradas.",
+      "Cáncer": "Una neoplasia puede producir obstrucción pancreática en otros contextos, pero no es la causa principal indicada.",
+      "Grasas": "La hiperlipemia es un factor etiológico concreto; la ingesta genérica de grasas no equivale a esa alteración metabólica."
+    },
+    "claveMemorizar": "En el temario, causa principal de pancreatitis aguda: alcoholismo crónico.",
+    "fuente": "Tema 4 F. digestiva, p. 48"
+  },
+  "138": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La lipasa permanece elevada en sangre aproximadamente 7-14 días tras una pancreatitis aguda. Esa ventana es mayor que la de la amilasa, que suele normalizarse en 3-5 días, y además la lipasa es más específica y sensible.",
+    "motivosPorOpcion": {
+      "Amilasa.": "La amilasa asciende temprano, pero retorna antes a valores normales.",
+      "Insulina.": "La insulina es una hormona endocrina pancreática y no el marcador enzimático descrito para seguir pancreatitis aguda.",
+      "Glucagón.": "El glucagón regula la glucemia y no se usa como enzima sérica persistente de lesión pancreática."
+    },
+    "claveMemorizar": "Lipasa dura 7-14 días y permanece más que amilasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 50-51"
+  },
+  "139": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los anticuerpos antitransglutaminasa tisular son el cribado serológico principal de enfermedad celíaca. Se determina anti-tTG IgA junto con IgA total para detectar un posible déficit de esta inmunoglobulina.",
+    "motivosPorOpcion": {
+      "IgD.": "La concentración de IgD no forma parte del panel serológico celíaco descrito.",
+      "La concentración de neutrófilos.": "Los neutrófilos pueden reflejar inflamación, pero no identifican la respuesta autoinmune específica frente al gluten.",
+      "Estudio de poblaciones por citometría de flujo.": "La citometría de poblaciones celulares no es la prueba de cribado indicada en el temario."
+    },
+    "claveMemorizar": "Celiaquía: anti-transglutaminasa IgA como cribado.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "140": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En condiciones normales no se observan leucocitos en heces. Su presencia microscópica puede ser la única pista de una diarrea inflamatoria, como la asociada a colitis ulcerosa, y se correlaciona con la intensidad de la inflamación.",
+    "motivosPorOpcion": {
+      "Se necesitan tres muestras secuenciales.": "El procedimiento descrito utiliza una extensión fecal teñida y no establece como requisito tres muestras consecutivas.",
+      "El microscopio debe ser de luz polarizada.": "La observación se realiza tras tinción con azul de Loeffler, azul de metileno o Wright; no se exige luz polarizada.",
+      "No añade información al clínico.": "La detección aporta evidencia de origen inflamatorio y puede constituir la única pista disponible."
+    },
+    "claveMemorizar": "Leucocitos fecales: pista microscópica de diarrea inflamatoria.",
+    "fuente": "Tema 4 F. digestiva, pp. 29 y 41"
+  },
+  "141": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La calprotectina fecal procede de neutrófilos y se libera en la luz intestinal durante la inflamación. Su concentración se relaciona con la intensidad del proceso, por lo que es útil para manejar y monitorizar inflamación intestinal.",
+    "motivosPorOpcion": {
+      "Insuficiencia pancreática.": "La insuficiencia pancreática exocrina se valora con enzimas fecales como elastasa, tripsina o quimotripsina.",
+      "Malabsorción intestinal.": "La absorción de la mucosa proximal se estudia con D-xilosa; la calprotectina mide inflamación, no absorción.",
+      "Insuficiencia hepática.": "La calprotectina fecal no es un marcador de síntesis o función hepática."
+    },
+    "claveMemorizar": "Calprotectina alta equivale a actividad inflamatoria intestinal.",
+    "fuente": "Tema 4 F. digestiva, pp. 29-30 y 52"
+  },
+  "142": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La respuesta combinada considera que en la inspección macroscópica pueden reconocerse grasa y fragmentos de mucosa. Sin embargo, el texto extraído del PDF solo documenta el aspecto macroscópico de las heces, el moco y la apariencia amarillenta asociada a esteatorrea; no afirma literalmente ambos hallazgos de la opción combinada.",
+    "motivosPorOpcion": {
+      "Grasas.": "Es una respuesta parcial frente a la opción combinada; el PDF relaciona heces amarillentas o arcillosas con esteatorrea y confirma la grasa mediante estudio microscópico.",
+      "Cristales.": "Los cristales, como los de Charcot-Leyden, son hallazgos de la evaluación microscópica y no de la inspección macroscópica ordinaria.",
+      "Trozos de mucosa epitelial.": "Es una respuesta parcial frente a la combinación marcada, pero el texto extraído no documenta de forma expresa fragmentos de mucosa epitelial visibles."
+    },
+    "claveMemorizar": "Macroscopia valora cantidad, color, aspecto, olor y elementos visibles.",
+    "fuente": "Tema 4 F. digestiva, pp. 20-23, 29 y 32",
+    "advertenciaRevision": "El PDF no sustenta de forma directa que grasas y trozos de mucosa epitelial sean ambos hallazgos macroscópicos; la página 22 carece de texto extraíble y la grasa se desarrolla como determinación microscópica."
+  },
+  "143": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La respuesta del banco vincula homocisteína y ácido metilmalónico con el déficit de vitamina B12. El PDF sí explica la absorción de B12, la anemia perniciosa y el test de Schilling, pero no menciona ninguno de esos dos metabolitos.",
+    "motivosPorOpcion": {
+      "Vitamina K.": "El temario relaciona la vitamina K con las vitaminas liposolubles cuya carencia puede acompañar a esteatorrea, no con esos metabolitos.",
+      "Vitamina D.": "La vitamina D también es liposoluble y puede disminuir en malabsorción grasa, pero el PDF no la vincula a homocisteína ni ácido metilmalónico.",
+      "Hierro.": "El hierro se absorbe principalmente en duodeno y se transporta por transferrina; el PDF no asocia su déficit a esos marcadores."
+    },
+    "claveMemorizar": "B12: absorción ileal con factor intrínseco; el PDF no cubre sus metabolitos.",
+    "fuente": "Tema 4 F. digestiva, pp. 14, 32, 46 y 57",
+    "advertenciaRevision": "No aparecen homocisteína ni ácido metilmalónico en el texto extraído de ninguna de las 59 páginas del PDF; la asociación concreta no puede verificarse con esta fuente."
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La bilis permite formar los pigmentos responsables del color pardo normal de las heces. Cuando no alcanza el intestino, las heces se aclaran, se vuelven hipocólicas y, si la ausencia es marcada, pueden adquirir el aspecto de yeso propio de la acolia.",
+    "motivosPorOpcion": {
+      "Hemorragias.": "La hemorragia digestiva altera las heces hacia negro o rojo según el origen y el tránsito de la sangre.",
+      "Ingesta de verduras.": "La ingesta de verduras se asocia a heces verdes, no a reducción de pigmentos biliares.",
+      "Melenas.": "La melena es una deposición negra por sangre digerida y representa el patrón cromático opuesto a la hipocolia."
+    },
+    "claveMemorizar": "Heces hipocólicas: falta de llegada de bilis al intestino.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
+  }
+}

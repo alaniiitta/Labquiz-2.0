@@ -1,0 +1,407 @@
+{
+  "1": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sudán III es una prueba microscópica cualitativa que tiñe de rojo los glóbulos de grasa fecal. El temario la diferencia de los métodos cuantitativos usados para medir la excreción de grasa.",
+    "motivosPorOpcion": {
+      "Método titulométrico de Van de Kamer": "Van de Kamer cuantifica la grasa fecal de una recogida de tres días y es el método de referencia.",
+      "Métodos gravimétricos": "La gravimetría figura entre los procedimientos cuantitativos de determinación de grasa fecal.",
+      "Prueba de la trioleína-14C": "La trioleína marcada se utiliza en una prueba del aliento relacionada con la absorción de grasas, no como tinción microscópica."
+    },
+    "claveMemorizar": "Sudán III: detección microscópica cualitativa; Van de Kamer: cuantificación de referencia.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-33",
+    "advertenciaRevision": "El PDF describe el carácter microscópico de Sudán III y los métodos cuantitativos, pero no afirma de forma expresa que Sudán III sea el de menor sensibilidad."
+  },
+  "2": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La anemia perniciosa se debe a la pérdida de factor intrínseco por atrofia gástrica o destrucción autoinmune de las células parietales. Por ello, los anticuerpos anti-células parietales forman parte de su diagnóstico, junto con los anti-factor intrínseco.",
+    "motivosPorOpcion": {
+      "Anti-peroxidasa tiroidea": "Este autoanticuerpo se dirige contra una enzima tiroidea y no identifica la autoinmunidad gástrica descrita en la anemia perniciosa.",
+      "Anti receptor de TSH": "Este anticuerpo reconoce el receptor de TSH, una diana tiroidea distinta de las células parietales y del factor intrínseco.",
+      "Anti IgGFc": "La porción Fc de IgG no es una de las dianas diagnósticas que el temario atribuye a la anemia perniciosa."
+    },
+    "claveMemorizar": "Anemia perniciosa: déficit de B12 por falta de factor intrínseco; buscar anti-FI y anti-células parietales.",
+    "fuente": "Tema 4 F. digestiva, p. 46"
+  },
+  "3": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Sudán III es un colorante liposoluble empleado para visualizar al microscopio los glóbulos de grasa de las heces, que aparecen rojos. Así permite identificar grasa neutra no absorbida.",
+    "motivosPorOpcion": {
+      "Sangre oculta.": "La sangre oculta se estudia mediante reacciones de guayaco, bencidina o piramidón y mediante técnicas inmunoquímicas.",
+      "Almidón.": "El almidón fecal se investiga con Lugol y su presencia se denomina amilorrea.",
+      "Proteínas.": "Las fibras musculares se examinan sin tinción o con eosina al 10 %, no con Sudán III."
+    },
+    "claveMemorizar": "Sudán III tiñe la grasa fecal de rojo.",
+    "fuente": "Tema 4 F. digestiva, páginas 32 y 34-35"
+  },
+  "4": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La esteatorrea se define como una excreción fecal de grasa superior a 7 g en 24 horas, medida como ácidos grasos. Es un signo de malabsorción lipídica.",
+    "motivosPorOpcion": {
+      "Creatorrea.": "La creatorrea es la presencia de fibras de carne sin digerir en las heces.",
+      "Diarrea.": "La diarrea describe deposiciones líquidas o semilíquidas frecuentes, no específicamente un exceso de grasa.",
+      "Amilorrea.": "La amilorrea es la presencia de almidón sin digerir en las heces."
+    },
+    "claveMemorizar": "Esteatorrea = más de 7 g de grasa fecal en 24 horas.",
+    "fuente": "Tema 4 F. digestiva, páginas 20 y 32-35"
+  },
+  "5": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El olor fecal depende en buena parte del metabolismo bacteriano. Los tratamientos antibióticos prolongados alteran esa actividad y el temario los relaciona con heces inodoras.",
+    "motivosPorOpcion": {
+      "Neoplasias.": "Las neoplasias se asocian en el temario con olor fecal fétido.",
+      "Fístulas anales.": "Las fístulas anales se relacionan con olor amoniacal.",
+      "Diarreas de fermentación.": "Las diarreas de fermentación producen un olor rancio."
+    },
+    "claveMemorizar": "Inodoras: diarrea mantenida o antibióticos prolongados; rancias: fermentación.",
+    "fuente": "Tema 4 F. digestiva, p. 23"
+  },
+  "6": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una extensión fecal teñida con azul de metileno permite visualizar leucocitos polimorfonucleares. Su presencia orienta a un proceso intestinal inflamatorio.",
+    "motivosPorOpcion": {
+      "Sudán.": "Sudán se utiliza para teñir de rojo la grasa fecal.",
+      "Azul de Prusia.": "El azul de Prusia no figura entre las tinciones fecales indicadas para visualizar leucocitos en el temario.",
+      "Lugol.": "Lugol facilita la detección microscópica de almidón no digerido."
+    },
+    "claveMemorizar": "Leucocitos fecales: azul de metileno, azul de Loeffler o Wright.",
+    "fuente": "Tema 4 F. digestiva, páginas 29 y 32-34"
+  },
+  "7": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El temario enumera guayaco, bencidina y oxidación con piramidón como métodos químicos para detectar sangre oculta. La primaquina no aparece entre esas técnicas.",
+    "motivosPorOpcion": {
+      "Bencidina.": "La bencidina figura expresamente como método de detección química de sangre oculta.",
+      "Guayacon.": "La prueba del guayaco aprovecha la actividad seudoperoxidasa de la hemoglobina y produce color azul.",
+      "Piramidón.": "La oxidación del piramidón aparece enumerada como técnica química para sangre oculta."
+    },
+    "claveMemorizar": "Químicas para sangre oculta: guayaco, bencidina y piramidón; primaquina no.",
+    "fuente": "Tema 4 F. digestiva, páginas 25-27"
+  },
+  "8": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Calprotectina y lactoferrina son proteínas de origen neutrofílico. Su liberación en la luz intestinal permite usarlas como marcadores fecales de inflamación.",
+    "motivosPorOpcion": {
+      "Se emplean en el diagnóstico de enterocolitis necrotizante del lactante.": "El temario las presenta como marcadores generales de inflamación intestinal y no les atribuye esa indicación diagnóstica específica.",
+      "Su estabilidad en heces es baja.": "El temario no señala una baja estabilidad como rasgo común de estos marcadores.",
+      "Deben determinarse en heces de 24 horas.": "La muestra indicada es heces, sin exigir una recogida de 24 horas para calprotectina o lactoferrina."
+    },
+    "claveMemorizar": "Calprotectina y lactoferrina: proteínas neutrofílicas, marcadores de inflamación fecal.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "9": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Van de Kamer cuantifica la grasa eliminada en heces durante 24 horas a partir de una recogida de tres días. Una excreción superior a 7 g/24 h establece esteatorrea.",
+    "motivosPorOpcion": {
+      "Sangre oculta.": "La sangre oculta se detecta con métodos químicos o inmunológicos dirigidos a la hemoglobina.",
+      "Creatorrea.": "La creatorrea se estudia observando fibras musculares fecales, sin tinción o con eosina.",
+      "Leucocitos.": "Los leucocitos fecales se visualizan mediante tinciones como azul de metileno o Wright."
+    },
+    "claveMemorizar": "Van de Kamer cuantifica grasa fecal y confirma esteatorrea.",
+    "fuente": "Tema 4 F. digestiva, páginas 29 y 32-35"
+  },
+  "10": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La tinción de Wright puede aplicarse a una extensión de heces para visualizar leucocitos. Estos pueden constituir una pista de inflamación intestinal.",
+    "motivosPorOpcion": {
+      "Sudán III.": "Sudán III demuestra grasa fecal al teñir sus glóbulos de rojo.",
+      "Verde malaquita.": "El verde malaquita no aparece entre las tinciones que el temario recomienda para leucocitos fecales.",
+      "Naranja de acridina.": "El naranja de acridina no está incluido en el procedimiento fecal descrito para detectar leucocitos."
+    },
+    "claveMemorizar": "Wright, azul de metileno o azul de Loeffler permiten ver leucocitos en heces.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "11": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las pruebas inmunoquímicas reconocen específicamente la globina de la hemoglobina humana mediante anticuerpos. Esa especificidad reduce los falsos positivos y las interferencias frente a las pruebas químicas.",
+    "motivosPorOpcion": {
+      "Las pruebas de detección de hemoglobina pueden ser químicas e inmunoquímicas.": "El temario describe tanto reacciones químicas, como guayaco, como métodos inmunológicos basados en anticuerpos.",
+      "Las pruebas químicas suelen ser cualitativas.": "La reacción química del guayaco se interpreta por la aparición de color azul y se describe como simple y semicuantitativa.",
+      "Las pruebas inmunoquímicas pueden ser cualitativas y cuantitativas.": "Las técnicas inmunológicas pueden detectar específicamente hemoglobina humana y también medirse por procedimientos como la inmunoturbidimetría."
+    },
+    "claveMemorizar": "Inmunoquímica fecal: más sensible y específica, con menos falsos positivos.",
+    "fuente": "Tema 4 F. digestiva, páginas 25-28"
+  },
+  "12": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las sales biliares emulsionan los lípidos insolubles en agua y facilitan su digestión y absorción intestinal. La bilis se vierte al intestino delgado precisamente para ayudar a digerir las grasas.",
+    "motivosPorOpcion": {
+      "Lactosa": "La lactosa se hidroliza mediante lactasa a glucosa y galactosa.",
+      "Hierro": "El hierro se absorbe principalmente en el duodeno y su captación se favorece por vitamina C y pH ácido.",
+      "Vitamina B12": "La vitamina B12 requiere factor intrínseco y se absorbe en el íleon."
+    },
+    "claveMemorizar": "Sales biliares = emulsión y absorción de lípidos.",
+    "fuente": "Tema 4 F. digestiva, páginas 2, 14 y 18"
+  },
+  "13": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El examen busca simultáneamente restos no digeridos de grasas, almidón y fibras musculares. Para que los tres componentes sean evaluables, la alimentación debe aportarlos.",
+    "motivosPorOpcion": {
+      "Una dieta especial en la que se hayan restringidas las grasas": "Restringir grasas limita la posibilidad de valorar su digestión y su excreción fecal.",
+      "Una dieta especial a base exclusivamente de proteínas": "Una dieta solo proteica impide valorar en la misma muestra almidón y grasa dietarios.",
+      "Una dieta especial a base de almidones y fibras vegetales": "Una dieta centrada en almidón y fibra no aporta todos los principios inmediatos que pretende examinar la prueba."
+    },
+    "claveMemorizar": "Para estudiar grasas, almidón y fibras musculares, la dieta debe contener los tres.",
+    "fuente": "Tema 4 F. digestiva, páginas 31 y 34-35",
+    "advertenciaRevision": "El PDF enumera los nutrientes que se investigan, pero no indica expresamente que deba mantenerse la alimentación habitual."
+  },
+  "14": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Van de Kamer es una determinación cuantitativa de la grasa fecal: expresa la cantidad excretada por 24 horas y considera esteatorrea valores superiores a 7 g/24 h.",
+    "motivosPorOpcion": {
+      "Lípidos fecales totales.": "Esta formulación describe prácticamente el mismo analito y no queda claramente diferenciada de la opción marcada en el material.",
+      "Malabsorción de grasas.": "La malabsorción es la interpretación clínica de una excreción aumentada, no la magnitud que mide directamente el método.",
+      "Titulación de ácidos grasos.": "La titulación puede formar parte del principio analítico, pero el resultado clínico del método es la cuantificación de grasa fecal."
+    },
+    "claveMemorizar": "Van de Kamer: cantidad de grasa fecal por 24 horas; referencia para esteatorrea.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-33",
+    "advertenciaRevision": "Las opciones A y B son semánticamente solapadas. El PDF respalda que Van de Kamer cuantifica grasa fecal, pero no permite separar con nitidez «lípidos fecales totales» de «grasas totales»."
+  },
+  "15": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Esteatorrea es el término clínico para el exceso de grasa en heces. El temario fija como criterio cuantitativo más de 7 g de lípidos fecales en 24 horas.",
+    "motivosPorOpcion": {
+      "Melenas.": "Las melenas son heces negras por sangre procedente habitualmente de una hemorragia digestiva alta.",
+      "Lipidosis.": "Lipidosis designa acumulación patológica de lípidos en tejidos y no la eliminación fecal de grasa.",
+      "Grasorrea.": "El término que utiliza y define el temario para el exceso de grasa fecal es esteatorrea."
+    },
+    "claveMemorizar": "Grasa en heces = esteatorrea.",
+    "fuente": "Tema 4 F. digestiva, páginas 32 y 38"
+  },
+  "16": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En las pruebas químicas basadas en guayaco, la actividad seudoperoxidasa de la hemoglobina cataliza una reacción cromática azul. La aparición de color azul indica positividad.",
+    "motivosPorOpcion": {
+      "Burbujas.": "La lectura descrita para el guayaco es un cambio de color y no la formación de gas.",
+      "Una línea rosada.": "El temario no asocia una línea rosada con la reacción positiva del guayaco.",
+      "Un punto rojo.": "La coloración roja corresponde a la grasa teñida con Sudán III, no a sangre oculta con guayaco."
+    },
+    "claveMemorizar": "Guayaco positivo = color azul por actividad seudoperoxidasa de la hemoglobina.",
+    "fuente": "Tema 4 F. digestiva, páginas 25-27",
+    "advertenciaRevision": "El PDF especifica «azul positivo», pero no describe literalmente que el patrón observado sea un halo azulado."
+  },
+  "17": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prueba administra lactosa por vía oral y después mide glucosa sérica, no lactosa, a los 60 y 120 minutos. Un aumento de glucosa inferior a 20-30 mg/dL con clínica compatible indica maldigestión por déficit de lactasa.",
+    "motivosPorOpcion": {
+      "Se ingiere una cantidad conocida de lactosa disuelta.": "El protocolo descrito administra por vía oral una carga conocida de 50 g de lactosa.",
+      "Se busca la deficiencia de lactasa.": "La falta de lactasa impide hidrolizar adecuadamente la lactosa y reduce el incremento esperado de glucosa.",
+      "El paciente debe estar en ayunas.": "La prueba compara la glucemia posterior a una carga oral, por lo que requiere una situación basal controlada."
+    },
+    "claveMemorizar": "Tolerancia a lactosa: se administra lactosa, pero se mide glucosa sérica.",
+    "fuente": "Tema 4 F. digestiva, p. 37",
+    "advertenciaRevision": "El PDF explica la carga oral y la medición de glucosa, pero no menciona de forma expresa el ayuno en este protocolo."
+  },
+  "18": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Elastasa y tripsina fecales reflejan la secreción pancreática exocrina: disminuyen en enfermedades pancreáticas y se emplean en el seguimiento de la fibrosis quística. Por tanto, las afirmaciones B y C son compatibles con el temario.",
+    "motivosPorOpcion": {
+      "La calprotectina fecal no es útil como indicador de actividad en la enfermedad intestinal inflamatoria.": "La calprotectina se correlaciona con la intensidad de la inflamación y es el marcador fecal de elección.",
+      "La elastasa fecal se utiliza en el diagnóstico de enfermedades pancreáticas.": "La elastasa fecal disminuye cuando falla la función pancreática exocrina y sirve para evaluarla.",
+      "La tripsina en heces es útil para el seguimiento de la fibrosis quística del páncreas.": "La tripsina está incluida entre las enzimas fecales que disminuyen en fibrosis quística y permiten su seguimiento."
+    },
+    "claveMemorizar": "Tripsina, quimotripsina y elastasa fecales evalúan función pancreática exocrina.",
+    "fuente": "Tema 4 F. digestiva, páginas 29 y 52"
+  },
+  "19": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La calprotectina es una proteína neutrofílica cuya concentración fecal se correlaciona con la intensidad de la inflamación intestinal. El temario la considera el marcador de elección en este contexto.",
+    "motivosPorOpcion": {
+      "Insuficiencia pancreática": "La insuficiencia pancreática exocrina se valora con enzimas fecales como tripsina, quimotripsina y elastasa.",
+      "Malabsorción intestinal.": "La absorción de la mucosa intestinal proximal se evalúa en el temario mediante la prueba de D-xilosa.",
+      "Insuficiencia hepática": "La calprotectina procede de neutrófilos y no se presenta como marcador de función hepática."
+    },
+    "claveMemorizar": "Calprotectina fecal = actividad inflamatoria intestinal.",
+    "fuente": "Tema 4 F. digestiva, páginas 29-30 y 52"
+  },
+  "20": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El fecalograma cuantifica nutrientes mediante espectroscopia de reflectancia en el infrarrojo cercano. El intervalo analítico indicado es de 1.400 a 2.600 nm, de modo que B y C describen la misma técnica.",
+    "motivosPorOpcion": {
+      "Espectroscopia de Absorción atómica": "La absorción atómica no es la técnica que el temario asigna a la cuantificación conjunta de nutrientes fecales.",
+      "Espectroscopia de reflectancia en el infrarrojo cercano": "Esta es la técnica denominada en el temario para realizar el fecalograma.",
+      "Método basado en la absorción de las moléculas entre 1400 y 2600nm": "Ese intervalo de longitudes de onda corresponde al método infrarrojo descrito para cuantificar nutrientes."
+    },
+    "claveMemorizar": "Fecalograma: infrarrojo cercano entre 1.400 y 2.600 nm.",
+    "fuente": "Tema 4 F. digestiva, p. 31"
+  },
+  "21": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La quimotripsina puede detectarse en heces cuando existe secreción pancreática exocrina y disminuye en la fibrosis quística. Esto permite utilizarla en su seguimiento.",
+    "motivosPorOpcion": {
+      "Enfermedad celíaca": "La enfermedad celíaca se estudia principalmente con anticuerpos anti-transglutaminasa, anti-péptidos de gliadina deaminados y antiendomisio.",
+      "El tratamiento sustitutivo con enzimas pancreáticas orales": "El PDF no atribuye a la quimotripsina fecal el seguimiento específico del tratamiento enzimático oral.",
+      "Insuficiencia pancreática exocrina leve- moderada": "El temario señala que estas enzimas fecales tienen mayor utilidad en la insuficiencia pancreática exocrina grave."
+    },
+    "claveMemorizar": "Quimotripsina fecal baja: disfunción pancreática exocrina y seguimiento de fibrosis quística.",
+    "fuente": "Tema 4 F. digestiva, páginas 42 y 52",
+    "advertenciaRevision": "El PDF respalda el seguimiento de fibrosis quística mediante enzimas fecales, incluida la quimotripsina, pero no menciona específicamente su «alta fiabilidad» ni limita la indicación a niños."
+  },
+  "22": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sudán III detecta microscópicamente grasa al teñirla de rojo, mientras que Van de Kamer, la gravimetría y las pruebas con trioleína aportan evaluaciones cuantitativas o funcionales. Su naturaleza cualitativa explica su menor capacidad para detectar incrementos pequeños.",
+    "motivosPorOpcion": {
+      "Método título métrico de Van de Kamer": "Van de Kamer cuantifica la excreción fecal y constituye el método de referencia para grasa en heces.",
+      "Métodos gravimétricos": "Los métodos gravimétricos se incluyen entre las determinaciones cuantitativas de grasa fecal.",
+      "Prueba de la trioleína-14C": "La trioleína-14C se usa como sustrato marcado en una prueba del aliento para estudiar la absorción lipídica."
+    },
+    "claveMemorizar": "Sudán III orienta; Van de Kamer cuantifica y es referencia.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-33",
+    "advertenciaRevision": "El PDF no compara explícitamente la sensibilidad diagnóstica de los cuatro métodos ni declara que Sudán III sea el menos sensible."
+  },
+  "23": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La sacarosa es un disacárido cuya hidrólisis produce una molécula de glucosa y otra de fructosa. La sacarasa es la enzima intestinal implicada en esa digestión.",
+    "motivosPorOpcion": {
+      "Dos moléculas de glucosa": "Dos unidades de glucosa forman maltosa, no sacarosa.",
+      "Una molécula de glucosa y una de galactosa": "Glucosa más galactosa corresponde a lactosa.",
+      "Una molécula de galactosa y una de fructosa": "El temario no asigna esta combinación a ninguno de los disacáridos descritos."
+    },
+    "claveMemorizar": "Sacarosa = glucosa + fructosa; lactosa = glucosa + galactosa; maltosa = glucosa + glucosa.",
+    "fuente": "Tema 4 F. digestiva, páginas 2-3"
+  },
+  "24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Cuando faltan disacaridasas, los carbohidratos no digeridos llegan al colon y la flora los fermenta. Los productos de esa fermentación acidifican las heces, por lo que el pH fecal bajo es un dato característico.",
+    "motivosPorOpcion": {
+      "Diarrea.": "La diarrea puede acompañar a la malabsorción de carbohidratos, pero es un hallazgo inespecífico con muchas causas.",
+      "Hipoglucemia.": "El temario no presenta la hipoglucemia como marcador fecal o clínico característico del déficit de disacaridasas.",
+      "Vómitos": "Los vómitos no se describen como el dato analítico distintivo de este déficit en el temario."
+    },
+    "claveMemorizar": "Déficit de disacaridasas: carbohidratos fermentados y pH fecal ácido.",
+    "fuente": "Tema 4 F. digestiva, páginas 3 y 36-37"
+  },
+  "25": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La vitamina C es hidrosoluble, por lo que su absorción no depende de la digestión y absorción de la grasa. La malabsorción lipídica prolongada afecta sobre todo a las vitaminas liposolubles A, D, E y K.",
+    "motivosPorOpcion": {
+      "Vitamina A": "La vitamina A es liposoluble y puede disminuir cuando se mantiene la esteatorrea.",
+      "Vitamina D": "La vitamina D pertenece al grupo liposoluble cuya absorción se compromete con la malabsorción de grasa.",
+      "Vitamina E": "La vitamina E es liposoluble y el temario la incluye entre las deficiencias asociadas a esteatorrea."
+    },
+    "claveMemorizar": "Malabsorción de grasas afecta ADEK; vitamina C es hidrosoluble.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
+  },
+  "26": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La colestasis reduce la llegada de bilis al intestino y perjudica la absorción de vitaminas liposolubles. Las vitaminas del grupo B son hidrosolubles y, a diferencia de A, D y K, no dependen de la absorción de grasa.",
+    "motivosPorOpcion": {
+      "A": "La vitamina A es liposoluble y puede hacerse deficitaria cuando falla la absorción de grasas.",
+      "D": "La vitamina D es liposoluble y forma parte del grupo afectado por la esteatorrea mantenida.",
+      "K": "La vitamina K es liposoluble y su absorción puede disminuir si no llegan suficientes sales biliares al intestino."
+    },
+    "claveMemorizar": "Colestasis y malabsorción grasa: déficit de ADEK, no de vitaminas B.",
+    "fuente": "Tema 4 F. digestiva, páginas 18 y 32"
+  },
+  "27": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La esteatorrea es el aumento de grasa en las heces y se objetiva cuando la excreción supera 7 g en 24 horas. Indica malabsorción lipídica.",
+    "motivosPorOpcion": {
+      "Heces blanquecinas": "Las heces blanquecinas o acólicas aparecen cuando no llega bilis al intestino y no se forma urobilinógeno.",
+      "De olor pétrido": "El temario vincula el olor fétido con neoplasias y melenas, no lo usa para definir esteatorrea.",
+      "Poca cantidad": "La definición de esteatorrea depende del contenido de grasa, no de un volumen fecal reducido."
+    },
+    "claveMemorizar": "Esteatorrea describe contenido graso aumentado, no color, olor ni cantidad.",
+    "fuente": "Tema 4 F. digestiva, páginas 21, 23 y 32"
+  },
+  "28": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Van de Kamer es el método de referencia para determinar grasa en heces. Cuantifica la excreción diaria a partir de una recogida fecal de tres días con aporte dietético controlado de grasa.",
+    "motivosPorOpcion": {
+      "Proteínas fecales.": "La pérdida intestinal de proteínas se valora con alfa-1-antitripsina fecal.",
+      "Proteínas en orina.": "Van de Kamer se realiza sobre una recogida de heces y no analiza proteínas urinarias.",
+      "Hidratos de carbono fecales.": "Los hidratos no digeridos se estudian con Lugol, cuerpos reductores o pruebas de intolerancia."
+    },
+    "claveMemorizar": "Método de referencia para grasa fecal = Van de Kamer.",
+    "fuente": "Tema 4 F. digestiva, páginas 33-36"
+  },
+  "29": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Sudán III tiñe de rojo los glóbulos de grasa presentes en una suspensión de heces. La preparación se observa al microscopio para detectar grasa no absorbida.",
+    "motivosPorOpcion": {
+      "Lugol": "Lugol se emplea para poner de manifiesto almidón fecal no digerido.",
+      "Azul de toluidina": "El azul de toluidina no aparece como método de detección de grasa fecal en el temario.",
+      "Giemsa": "Giemsa no es la tinción lipídica indicada para esta observación microscópica."
+    },
+    "claveMemorizar": "Grasa al microscopio: Sudán III y glóbulos rojos.",
+    "fuente": "Tema 4 F. digestiva, páginas 32 y 34"
+  },
+  "30": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los anticuerpos monoclonales reconocen específicamente la globina de la hemoglobina humana. Las pruebas inmunológicas ofrecen mayor sensibilidad y especificidad, con menos falsos positivos que las reacciones químicas.",
+    "motivosPorOpcion": {
+      "Método del piramidón": "El piramidón es una reacción química y no aporta la especificidad por hemoglobina humana de un anticuerpo.",
+      "Reacción de bencidina": "La bencidina es otro método químico susceptible de más interferencias que la detección inmunológica.",
+      "Tabletas reactivas con guayaco": "El guayaco depende de la actividad seudoperoxidasa y exige controlar la dieta para reducir resultados falsos."
+    },
+    "claveMemorizar": "Menos interferencias: anticuerpos frente a globina humana.",
+    "fuente": "Tema 4 F. digestiva, páginas 25-28"
+  },
+  "31": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Lugol revela almidón no digerido en el examen microscópico de heces. El almidón es un hidrato de carbono y su presencia fecal recibe el nombre de amilorrea.",
+    "motivosPorOpcion": {
+      "Grasas neutras": "Las grasas neutras se visualizan mediante tinción con Sudán III.",
+      "Ácidos grasos": "La cuantificación de grasa como ácidos grasos corresponde a métodos específicos como Van de Kamer, no a Lugol.",
+      "Proteínas en forma de tejido muscular": "Las fibras musculares se observan sin tinción o con eosina al 10 %."
+    },
+    "claveMemorizar": "Lugol = almidón = hidratos de carbono = amilorrea.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-35"
+  },
+  "32": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La investigación microscópica valora conjuntamente grasa, almidón y fibras musculares no digeridas. Una dieta que contenga grasas, proteínas y almidones permite examinar las tres categorías en la muestra.",
+    "motivosPorOpcion": {
+      "Una dieta especial en la que se hayan restringidas las grasas": "Reducir la grasa dietética resta valor a la búsqueda de restos lipídicos fecales.",
+      "Una dieta especial a base exclusivamente de proteínas": "Una ingesta exclusivamente proteica no permite evaluar almidón ni grasa en el mismo estudio.",
+      "Una dieta especial a base de almidones y fibras vegetales": "Esa dieta no aporta de forma equilibrada todos los principios inmediatos que se quieren investigar."
+    },
+    "claveMemorizar": "El estudio completo requiere aporte de grasas, proteínas y almidones.",
+    "fuente": "Tema 4 F. digestiva, páginas 31 y 34-35",
+    "advertenciaRevision": "El PDF explica qué principios inmediatos se buscan, pero no prescribe literalmente «la alimentación habitual» como preparación."
+  },
+  "33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calprotectina es una proteína neutrofílica cuya concentración fecal se correlaciona con la intensidad de la inflamación. El temario la identifica como marcador de elección para la actividad inflamatoria intestinal.",
+    "motivosPorOpcion": {
+      "Sangre oculta en heces": "La sangre oculta se utiliza sobre todo en el cribado de cáncer colorrectal y no mide específicamente actividad inflamatoria.",
+      "Cuerpos reductores": "Los cuerpos reductores orientan a intolerancia a lactosa o déficit de disacaridasas.",
+      "Determinación de leucocitos en heces": "Los leucocitos pueden señalar inflamación, pero la calprotectina ofrece la correlación elegida para valorar su intensidad."
+    },
+    "claveMemorizar": "Biomarcador fecal principal de EII: calprotectina.",
+    "fuente": "Tema 4 F. digestiva, páginas 25, 29 y 36"
+  },
+  "34": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las melenas son heces negras por sangre digerida, habitualmente procedente de una hemorragia digestiva alta. El color negro las diferencia del sangrado rectal rojo de la hematoquecia o la rectorragia.",
+    "motivosPorOpcion": {
+      "Esteatorrea": "La esteatorrea es exceso de grasa fecal y puede producir heces amarillentas, no define heces negras.",
+      "Amilorrea": "La amilorrea consiste en almidón sin digerir en heces y se demuestra con Lugol.",
+      "Creatorrea": "La creatorrea es la presencia fecal de fibras de carne sin digerir."
+    },
+    "claveMemorizar": "Melena = sangre digerida, heces negras, origen digestivo alto habitual.",
+    "fuente": "Tema 4 F. digestiva, páginas 21 y 34-38",
+    "advertenciaRevision": "El PDF define las melenas por sangre en heces negras, pero no especifica literalmente la consistencia pastosa ni el brillo."
+  },
+  "35": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sudán III es una tinción lipídica: colorea de rojo los glóbulos de grasa de una suspensión fecal y permite observarlos al microscopio simple.",
+    "motivosPorOpcion": {
+      "Se emplea en el test del aliento y se puede cuantificar el CO2 espirado tras ingerir una comida prueba marcada con el colorante Sudán.": "La prueba del aliento utiliza trioleína marcada con carbono-14; Sudán es un colorante para microscopía fecal.",
+      "Se emplea en el análisis de reflectancia con infrarrojos para ver la malabsorción de grasas.": "La espectroscopia infrarroja cuantifica nutrientes por absorción de radiación y no requiere tinción con Sudán.",
+      "Se emplea, junto con trioleína marcada, en el test del aliento.": "La trioleína-14C funciona como sustrato marcado de la prueba respiratoria sin combinarse con Sudán."
+    },
+    "claveMemorizar": "Sudán III: grasa roja al microscopio; trioleína-14C: prueba del aliento.",
+    "fuente": "Tema 4 F. digestiva, páginas 31-32"
+  },
+  "36": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Van de Kamer determina cuantitativamente la grasa fecal y expresa la excreción por 24 horas. Es el método de referencia para confirmar esteatorrea.",
+    "motivosPorOpcion": {
+      "Sudán III": "Sudán III proporciona una observación microscópica cualitativa de los glóbulos de grasa.",
+      "Lugol": "Lugol detecta almidón no digerido y se relaciona con la investigación de amilorrea.",
+      "Azul de Nilo.": "El azul de Nilo no es el método cuantitativo de referencia indicado por el temario para grasa fecal."
+    },
+    "claveMemorizar": "Cuantificación de grasa fecal = Van de Kamer.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-34"
+  }
+}

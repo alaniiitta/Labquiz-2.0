@@ -1,0 +1,405 @@
+{
+  "145": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La primaquina es un fármaco antipalúdico, no uno de los reactivos químicos enumerados para detectar sangre oculta. El temario sí incluye guayaco, bencidina y oxidación con piramidón entre los métodos químicos fecales.",
+    "motivosPorOpcion": {
+      "Bencidima.": "Parece una errata por bencidina, reactivo que el temario sí enumera como método químico de detección de sangre oculta.",
+      "Guayacon.": "Parece una variante errónea de guayaco, cuya reacción aprovecha la actividad seudoperoxidasa de la hemoglobina y produce color azul.",
+      "Piramidón.": "La oxidación del piramidón figura expresamente entre las técnicas químicas para sangre oculta en heces."
+    },
+    "claveMemorizar": "Guayaco, bencidina y piramidón son reactivos; primaquina es un fármaco.",
+    "fuente": "Tema 4 F. digestiva, p. 25-26"
+  },
+  "146": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La esteatorrea es la eliminación fecal aumentada de grasa; el temario la define cuantitativamente como más de 7 g de lípidos en 24 horas. Es un signo de malabsorción grasa.",
+    "motivosPorOpcion": {
+      "Grasorrea.": "No es el término clínico empleado en el temario para la excreción aumentada de grasa fecal.",
+      "Lipidosis.": "Una lipidosis es un trastorno de depósito o metabolismo lipídico en tejidos, no el nombre de la grasa presente en heces.",
+      "Melenas.": "Las melenas son heces negras por hemorragia digestiva alta, no heces con exceso de grasa."
+    },
+    "claveMemorizar": "Grasa fecal aumentada = esteatorrea.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
+  },
+  "147": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El PDF no sustenta el enunciado: define creatorrea como presencia de fibras de carne sin digerir, no como pérdida de proteínas. Para estudiar pérdida intestinal de proteínas menciona la alfa-1-antitripsina fecal.",
+    "motivosPorOpcion": {
+      "Acolia.": "La acolia describe heces claras por ausencia de pigmentos biliares, no pérdida proteica fecal.",
+      "Esteatorrea.": "La esteatorrea designa exceso de grasa en heces, no eliminación de proteínas.",
+      "A, B y C son correctas.": "Acolia, esteatorrea y creatorrea describen fenómenos distintos y no son sinónimos de pérdida proteica intestinal."
+    },
+    "claveMemorizar": "Creatorrea = fibras musculares sin digerir; pérdida proteica = alfa-1-antitripsina fecal.",
+    "fuente": "Tema 4 F. digestiva, p. 21 y 35",
+    "advertenciaRevision": "La respuesta original C contradice el temario: creatorrea no significa pérdida de proteínas en heces. Debe revisarse el enunciado o la clave."
+  },
+  "148": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La sangre procedente de tramos digestivos altos se digiere durante el tránsito y origina melenas, de aspecto negro. El temario también advierte que hierro, bismuto o carbón pueden ennegrecer las heces sin hemorragia.",
+    "motivosPorOpcion": {
+      "Dieta vegetariana.": "El temario relaciona las verduras con coloración verde, no con el negro típico de melena.",
+      "Hemorragias digestivas bajas.": "El sangrado distal suele verse rojo o como hematoquecia porque ha sufrido menos digestión.",
+      "Estreñimiento.": "El estreñimiento se asocia a heces duras o escíbalos, no explica por sí mismo una coloración negra."
+    },
+    "claveMemorizar": "Negro por sangre digerida = melena de origen alto.",
+    "fuente": "Tema 4 F. digestiva, p. 21 y 38"
+  },
+  "149": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La lipasa pancreática cataliza la hidrólisis de los triglicéridos dietarios, liberando ácidos grasos y glicerol. Actúa sobre enlaces éster de lípidos, mientras que las sales biliares facilitan previamente su dispersión.",
+    "motivosPorOpcion": {
+      "Emulsionar las grasas en presencia de sales biliares.": "La emulsión es una función fisicoquímica de las sales biliares; la lipasa realiza hidrólisis enzimática.",
+      "Catalizar la hidrólisis de los polisacáridos.": "Los polisacáridos como el almidón son sustratos de amilasas, no de lipasas.",
+      "Degradar las proteínas.": "La proteólisis corresponde a enzimas como pepsina, tripsina o quimotripsina."
+    },
+    "claveMemorizar": "Lipasa: triglicéridos a ácidos grasos y glicerol.",
+    "fuente": "Tema 4 F. digestiva, p. 2 y 51"
+  },
+  "150": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El protocolo del temario administra una suspensión de D-xilosa a razón de 10 mg/kg, no una dosis fija de 100 g. Después valora su aparición en sangre y orina para comprobar la absorción de la mucosa intestinal proximal.",
+    "motivosPorOpcion": {
+      "Se obtendrán muestras de orina por un período de 5 horas tras la toma de la D-xilosa.": "La recogida urinaria durante aproximadamente 5-6 horas forma parte del protocolo descrito.",
+      "El paciente tiene que estar en ayunas.": "El ayuno previo está indicado para que la prueba refleje la absorción de D-xilosa sin interferencia alimentaria.",
+      "Mide la capacidad de absorción del intestino delgado proximal.": "La D-xilosa se utiliza para evaluar la integridad absortiva de la mucosa proximal."
+    },
+    "claveMemorizar": "D-xilosa: ayuno, sangre a 60 min y orina 5-6 h.",
+    "fuente": "Tema 4 F. digestiva, p. 30"
+  },
+  "151": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sangre oculta en heces se usa como cribado y una positividad requiere una prueba confirmatoria que permita visualizar y estudiar el colon. El temario identifica la colonoscopia como esa prueba confirmatoria.",
+    "motivosPorOpcion": {
+      "Para todas las personas comprendidas entre 50 y 69 años.": "El cribado poblacional inicial descrito es la sangre oculta, no una colonoscopia indiscriminada a todo el intervalo etario.",
+      "No es la prueba diagnóstica más utilizada.": "El temario sitúa expresamente la colonoscopia como confirmación tras el cribado fecal.",
+      "Solo en los casos en los que la prueba de sangre oculta en heces sea negativa.": "Una prueba fecal negativa no es el criterio indicado aquí para confirmar mediante colonoscopia; la derivación habitual sigue a un resultado positivo."
+    },
+    "claveMemorizar": "SOH criba; colonoscopia confirma el positivo.",
+    "fuente": "Tema 4 F. digestiva, p. 25"
+  },
+  "152": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La lipasa es una enzima pancreática que aumenta en la pancreatitis y permanece elevada durante más tiempo que la amilasa. El temario la considera más sensible y específica para pancreatitis.",
+    "motivosPorOpcion": {
+      "ALP.": "La fosfatasa alcalina se asocia principalmente con vías hepatobiliares y hueso, no es el marcador pancreático destacado en el temario.",
+      "CPK.": "La creatina cinasa informa sobre lesión muscular y no evalúa de forma específica enfermedad pancreática.",
+      "ALT.": "La alanina aminotransferasa es sobre todo un marcador de lesión hepatocelular, no una enzima funcional pancreática."
+    },
+    "claveMemorizar": "Pancreatitis: lipasa más específica y duradera que amilasa.",
+    "fuente": "Tema 4 F. digestiva, p. 48 y 51"
+  },
+  "153": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La detección de sangre oculta identifica pérdidas hemáticas no visibles y el temario le asigna de forma directa la utilidad de cribado del cáncer colorrectal. Un resultado positivo se confirma mediante colonoscopia.",
+    "motivosPorOpcion": {
+      "Ca 19,9.": "CA 19-9 se emplea sobre todo en el contexto pancreatobiliar y no figura como prueba de cribado colorrectal en el temario.",
+      "CEA.": "El CEA puede ayudar en seguimiento oncológico, pero no sustituye a la prueba fecal como cribado poblacional.",
+      "CYFRA 21.": "CYFRA 21-1 se relaciona principalmente con ciertos carcinomas epiteliales, especialmente pulmonares, y no con este cribado fecal."
+    },
+    "claveMemorizar": "Cribado colorrectal = sangre oculta en heces.",
+    "fuente": "Tema 4 F. digestiva, p. 25"
+  },
+  "154": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El olor fecal característico procede sobre todo de la degradación de proteínas y del metabolismo bacteriano. Por eso los antibióticos prolongados, al modificar la microbiota, pueden producir heces inodoras.",
+    "motivosPorOpcion": {
+      "La estercobilina.": "La estercobilina explica principalmente la tonalidad parda normal, no el olor fecal.",
+      "La urobilina.": "Los pigmentos derivados del metabolismo de la bilirrubina participan en la coloración, no son la fuente fundamental del olor.",
+      "El hierro.": "El hierro puede oscurecer las heces, pero el temario no lo identifica como generador principal de su olor."
+    },
+    "claveMemorizar": "Olor fecal = metabolismo bacteriano y degradación proteica.",
+    "fuente": "Tema 4 F. digestiva, p. 21 y 23"
+  },
+  "155": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Lugol permite visualizar al microscopio restos de almidón no digerido en heces. Su presencia se denomina amilorrea y puede asociarse a tránsito intestinal acelerado.",
+    "motivosPorOpcion": {
+      "Sudán III.": "Sudán III tiñe de rojo la grasa fecal y se utiliza para investigar esteatorrea, no almidón.",
+      "Ácido acético.": "El ácido acético no es el reactivo que el temario prescribe para reconocer almidón fecal."
+    },
+    "claveMemorizar": "Lugol revela almidón; Sudán III revela grasa.",
+    "fuente": "Tema 4 F. digestiva, p. 34"
+  },
+  "156": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sudán III es un colorante liposoluble que tiñe de rojo las gotas de grasa en una suspensión fecal. Su observación microscópica es una valoración cualitativa de grasa fecal.",
+    "motivosPorOpcion": {
+      "Almidón.": "El almidón sin digerir se demuestra con Lugol y recibe el nombre de amilorrea.",
+      "Leucocitos.": "Los leucocitos fecales se observan tras tinción con azul de Loeffler, azul de metileno o Wright."
+    },
+    "claveMemorizar": "Sudán III tiñe la grasa de rojo.",
+    "fuente": "Tema 4 F. digestiva, p. 29 y 32-34"
+  },
+  "157": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los métodos inmunoquímicos se basan en una reacción antígeno-anticuerpo contra la fracción globina de la hemoglobina humana. Esta especificidad reduce falsos positivos respecto a pruebas químicas inespecíficas.",
+    "motivosPorOpcion": {
+      "La capacidad de inmunofluorescencia de la hemoglobina debido a su unión con las porfirinas originadas en el colon.": "El fundamento descrito no es fluorescencia ni unión a porfirinas colónicas, sino reconocimiento inmunológico de globina humana.",
+      "Biomarcadores enzimáticos que producen glucólisis a nivel intestinal.": "La glucólisis intestinal no interviene en la reacción inmunoquímica para detectar hemoglobina fecal.",
+      "Isótopos generados por la actividad peroxidasa de la hemoglobina en reacción con la bencidina.": "La actividad seudoperoxidasa corresponde a métodos químicos y no genera isótopos; tampoco define el método inmunológico."
+    },
+    "claveMemorizar": "FIT: anticuerpos contra globina humana.",
+    "fuente": "Tema 4 F. digestiva, p. 28"
+  },
+  "158": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La secreción de enzimas digestivas al duodeno pertenece a la función exocrina del páncreas, no a la endocrina. La función endocrina libera hormonas como insulina y glucagón a la sangre.",
+    "motivosPorOpcion": {
+      "Una función endocrina consiste en producir insulina.": "La insulina es una hormona pancreática y su producción forma parte de la función endocrina.",
+      "Una función endocrina consiste en producir glucagón.": "El glucagón es otra hormona del páncreas endocrino que participa en la regulación de la glucemia.",
+      "El Glucagón se produce en las células alfa de los islotes de Langerhans.": "Las células alfa de los islotes son la población endocrina productora de glucagón."
+    },
+    "claveMemorizar": "Hormonas = endocrino; enzimas digestivas = exocrino.",
+    "fuente": "Tema 4 F. digestiva, p. 16-17"
+  },
+  "159": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La maltosa está formada por dos unidades de glucosa, por lo que es un disacárido. La maltasa rompe su enlace glucosídico durante la digestión.",
+    "motivosPorOpcion": {
+      "Fructosa.": "La fructosa es un monosacárido y aparece como producto de la hidrólisis de la sacarosa.",
+      "Galactosa.": "La galactosa es un monosacárido que se libera al digerir lactosa.",
+      "Glucosa.": "La glucosa es un monosacárido y constituye ambas unidades de la maltosa."
+    },
+    "claveMemorizar": "Maltosa = glucosa + glucosa.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Van de Kamer es el método de referencia para cuantificar la grasa eliminada en heces. Requiere recogida de tres días con ingesta controlada de grasa y expresa el resultado por 24 horas.",
+    "motivosPorOpcion": {
+      "Determinar la presencia de parásitos intestinales.": "La identificación de parásitos pertenece al examen parasitológico y no a una cuantificación química de lípidos.",
+      "Diagnosticar la enfermedad celíaca.": "La celiaquía se estudia con serología específica y biopsia; la grasa fecal solo puede mostrar malabsorción inespecífica.",
+      "Analizar la presencia de glúcidos en las heces.": "Los carbohidratos fecales se investigan mediante Lugol o cuerpos reductores, no con Van de Kamer."
+    },
+    "claveMemorizar": "Van de Kamer cuantifica grasa fecal de 3 días.",
+    "fuente": "Tema 4 F. digestiva, p. 33-34 y 42"
+  },
+  "161": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La vitamina C es hidrosoluble. El temario agrupa A, D, E y K como vitaminas liposolubles cuya deficiencia puede aparecer en la esteatorrea.",
+    "motivosPorOpcion": {
+      "La vitamina A.": "La vitamina A pertenece al grupo liposoluble y su absorción puede afectarse cuando hay malabsorción grasa.",
+      "La vitamina D.": "La vitamina D es liposoluble y depende de una absorción intestinal adecuada de lípidos.",
+      "La vitamina K.": "La vitamina K es liposoluble y puede disminuir en síndromes de malabsorción de grasas."
+    },
+    "claveMemorizar": "Liposolubles: A, D, E y K; C es hidrosoluble.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
+  },
+  "162": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prueba de sangre oculta en heces detecta sangrado microscópico y se emplea como cribado del cáncer colorrectal. La colonoscopia queda como confirmación de los resultados positivos.",
+    "motivosPorOpcion": {
+      "La prueba de grasas en las heces.": "La grasa fecal estudia maldigestión o malabsorción y no sangrado por lesiones colorrectales.",
+      "La determinación de la calprotectina.": "La calprotectina refleja inflamación neutrofílica intestinal, no es la prueba de cribado oncológico indicada.",
+      "La determinación de la elastasa fecal": "La elastasa fecal evalúa función pancreática exocrina y disminuye en insuficiencia pancreática grave."
+    },
+    "claveMemorizar": "Prevención colorrectal: cribado fecal y confirmación endoscópica.",
+    "fuente": "Tema 4 F. digestiva, p. 25, 29 y 52"
+  },
+  "163": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Van de Kamer mide cuantitativamente la grasa fecal y es el método de referencia del temario. Una excreción superior a 7 g en 24 horas se considera esteatorrea.",
+    "motivosPorOpcion": {
+      "Proteínas fecales.": "La pérdida intestinal de proteínas se valora mediante alfa-1-antitripsina fecal, no con Van de Kamer.",
+      "Hidratos de carbono fecales.": "El almidón se observa con Lugol y los azúcares reductores con Clinitest."
+    },
+    "claveMemorizar": "Referencia para grasa fecal: Van de Kamer.",
+    "fuente": "Tema 4 F. digestiva, p. 33-36"
+  },
+  "164": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La colitis ulcerosa produce inflamación de la mucosa colónica, por lo que puede generar exudado purulento, moco y sangrado. El temario relaciona el moco purulento con colitis ulcerosa y los leucocitos fecales con enfermedad inflamatoria.",
+    "motivosPorOpcion": {
+      "Restos de simientes y piel de vegetales": "Son residuos alimentarios y no constituyen el patrón inflamatorio típico de una colitis ulcerosa activa.",
+      "Parásitos": "La presencia de parásitos indica una etiología infecciosa parasitaria distinta y no es un hallazgo definitorio de colitis ulcerosa.",
+      "Bilis y sulfato de bario": "La bilis es una secreción digestiva y el bario un contraste radiológico; ninguno describe el exudado inflamatorio de esta enfermedad."
+    },
+    "claveMemorizar": "Colitis ulcerosa activa: moco, pus y sangre.",
+    "fuente": "Tema 4 F. digestiva, p. 21 y 29"
+  },
+  "165": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Sudán III tiñe la grasa fecal de rojo, no de verdoso. Por tanto, la descripción cromática de grandes gotas verdes no corresponde al procedimiento del temario.",
+    "motivosPorOpcion": {
+      "La cantidad normal de heces secretadas diariamente oscila entre 100-200 gramos al día": "El intervalo de 100-200 g diarios coincide con el valor normal indicado, aunque varía con cantidad y tipo de dieta.",
+      "El color pardo de las heces se debe a la estercobilina y la urobilina": "El PDF atribuye el pardo normal a la estercobilina y menciona urobilinógeno aumentado para heces oscuras; no formula esta combinación.",
+      "El color verde de las heces se debe a la presencia de biliverdina": "El PDF atribuye el verde a verduras o antibióticos y no menciona biliverdina como causa en esta sección."
+    },
+    "claveMemorizar": "Sudán III: gotas grasas rojas, nunca verdes.",
+    "fuente": "Tema 4 F. digestiva, p. 20-21 y 32",
+    "advertenciaRevision": "Aunque B es falsa y coincide con la clave, el PDF tampoco sustenta literalmente C y contradice D al atribuir el verde a verduras o antibióticos. La pregunta puede tener más de una opción falsa según el temario."
+  },
+  "166": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El PDF extraído solo contiene una mención aislada a «folato» y no desarrolla su estructura como ácido pteroilglutámico. Por ello no permite justificar directamente la opción marcada con el nivel de detalle solicitado.",
+    "motivosPorOpcion": {
+      "Es el nombre para una familia de derivados denominados comúnmente como vitamina B12": "El enunciado confunde folato con vitamina B12, que el temario trata como vitamina distinta y con absorción dependiente de factor intrínseco.",
+      "Se unen dos proteínas para su transporte plasmático, trascobalamina y haptocorrina.": "Transcobalamina y haptocorrina corresponden al transporte de vitamina B12, no al concepto de folato preguntado.",
+      "La absorción tiene lugar casi exclusivamente en íleon mediante dos mecanismos.": "El temario localiza en el íleon la absorción de vitamina B12 con factor intrínseco, por lo que esta opción vuelve a describir B12."
+    },
+    "claveMemorizar": "No confundir folato con la absorción y transporte de B12.",
+    "fuente": "Tema 4 F. digestiva, p. 14 y 55",
+    "advertenciaRevision": "La equivalencia entre folato y estructura de ácido pteroilglutámico no está explicada en el texto extraíble del PDF; requiere verificación con otra fuente docente."
+  },
+  "167": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las neoplasias de colon pueden sangrar de forma crónica en cantidades no visibles macroscópicamente. Esa asociación fundamenta el uso de sangre oculta fecal para cribado colorrectal.",
+    "motivosPorOpcion": {
+      "Cirrosis.": "La cirrosis puede favorecer hemorragias por hipertensión portal, pero no es la asociación específica que fundamenta este cribado fecal.",
+      "Pancreatitis": "La pancreatitis se diagnostica mediante clínica, imagen y elevación de amilasa y lipasa, no por sangre oculta fecal típica.",
+      "Litiasis Renal.": "La litiasis renal causa hematuria en vías urinarias y no una pérdida digestiva oculta."
+    },
+    "claveMemorizar": "Sangrado fecal oculto crónico obliga a descartar cáncer de colon.",
+    "fuente": "Tema 4 F. digestiva, p. 25 y 39"
+  },
+  "168": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según el temario, la presencia visible de moco en heces se considera patológica, incluso sin especificar una cantidad mínima normal. Puede asociarse a colitis mucosa, estreñimiento espástico, inflamación o tumor.",
+    "motivosPorOpcion": {
+      "El moco sanguinolento puede indicar neoplasia o proceso inflamatorio del canal rectal": "La asociación de moco con sangre orienta a tumor o inflamación y está recogida en el temario.",
+      "El moco asociado con pus y sangre se encuentra en colitis ulcerosa y disentería bacilar": "Ese patrón representa exudado inflamatorio intestinal y es compatible con colitis ulcerosa o una colitis infecciosa invasiva.",
+      "En heces normales el moco es inexistente": "Esta formulación concuerda con la consideración del temario de que el moco visible siempre es patológico."
+    },
+    "claveMemorizar": "Moco visible en heces: hallazgo patológico según el temario.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
+  },
+  "169": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Lugol se utiliza para visualizar restos de almidón en el examen microscópico fecal. Sin embargo, el PDF indica que las fibras musculares se observan sin tinción o con eosina al 10 %, por lo que la opción marcada solo es parcialmente correcta.",
+    "motivosPorOpcion": {
+      "Es útil para determinar restos de grasa": "Los restos de grasa se tiñen con Sudán III, no con Lugol.",
+      "Se mezcla con Sudan III para ver restos de grasa": "El temario presenta Lugol y Sudán III como técnicas para sustratos distintos y no prescribe mezclarlos.",
+      "La observación de restos de almidón indica una correcta digestión de hidratos de carbono": "El almidón residual es amilorrea y evidencia material no digerido, no digestión correcta."
+    },
+    "claveMemorizar": "Lugol: almidón; eosina o sin tinción: fibras musculares.",
+    "fuente": "Tema 4 F. digestiva, p. 34-35",
+    "advertenciaRevision": "La respuesta B añade «fibra muscular», pero el PDF limita Lugol al almidón y asigna a las fibras musculares observación sin tinción o eosina. Debe corregirse el texto de la opción."
+  },
+  "170": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La amilorrea es la presencia de almidón no digerido en las heces. Se identifica con Lugol y puede reflejar un tránsito acelerado a través del colon.",
+    "motivosPorOpcion": {
+      "Calprotectina.": "La calprotectina es una proteína neutrofílica usada como marcador de inflamación intestinal.",
+      "Bilirrubina.": "La bilirrubina es un pigmento biliar y no denomina la eliminación fecal de almidón.",
+      "Esteatorrea.": "La esteatorrea es exceso de grasa fecal, un sustrato distinto del almidón."
+    },
+    "claveMemorizar": "El término amilorrea identifica una digestión incompleta del almidón.",
+    "fuente": "Tema 4 F. digestiva, p. 34"
+  },
+  "171": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El PDF fija como cantidad normal 100-200 g de heces al día y señala que depende de la ingesta y de la dieta. El intervalo marcado de 150-250 g se solapa parcialmente, pero eleva el límite superior respecto al temario.",
+    "motivosPorOpcion": {
+      "< 50 g.": "Una cantidad inferior a 50 g queda por debajo del intervalo normal diario indicado y puede acompañar al estreñimiento.",
+      "1000 g.": "Un kilogramo diario excede ampliamente el intervalo normal y orientaría a aumento patológico del volumen fecal.",
+      "> 31.": "La opción carece de unidad y de un límite interpretable para compararla con gramos por día."
+    },
+    "claveMemorizar": "Temario: 100-200 g de heces al día, dependiente de la dieta.",
+    "fuente": "Tema 4 F. digestiva, p. 20",
+    "advertenciaRevision": "La respuesta original B indica 150-250 g/día, pero el PDF establece 100-200 g/día. Ninguna opción reproduce exactamente el intervalo del temario."
+  },
+  "172": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La amilasa aumenta en las primeras 6-48 horas de una pancreatitis aguda y forma parte de su diagnóstico bioquímico. No obstante, el temario exige valorar también lipasa y afirma que esta es mejor marcador.",
+    "motivosPorOpcion": {
+      "Amonio.": "El amonio se relaciona con metabolismo nitrogenado y función hepática, no es la enzima diagnóstica pancreática descrita.",
+      "Creatinina.": "La creatinina estima función renal y no lesión pancreática aguda.",
+      "AST.": "AST es una aminotransferasa inespecífica de lesión celular y no sustituye a las enzimas pancreáticas."
+    },
+    "claveMemorizar": "Pancreatitis aguda: amilasa y lipasa; lipasa es mejor marcador.",
+    "fuente": "Tema 4 F. digestiva, p. 48 y 50-51",
+    "advertenciaRevision": "La amilasa es una respuesta posible entre las opciones, pero el PDF considera esenciales la elevación de amilasa y lipasa y destaca la superioridad de lipasa; el singular «magnitud esencial» resulta incompleto."
+  },
+  "173": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La calprotectina fecal deriva de neutrófilos y se correlaciona con la intensidad de la inflamación intestinal. Un valor bajo ayuda a excluir inflamación orgánica significativa, mientras que uno alto apoya el estudio de enfermedad inflamatoria intestinal.",
+    "motivosPorOpcion": {
+      "Alteración de la absorción de alimentos.": "La absorción proximal se estudia con D-xilosa; la calprotectina no mide directamente capacidad absortiva.",
+      "Pancreatitis.": "La pancreatitis se valora con amilasa y lipasa, y la insuficiencia exocrina con enzimas fecales como elastasa.",
+      "Ninguna de las respuestas anteriores es correcta.": "Sí existe una relación directa entre calprotectina fecal e inflamación intestinal, por lo que hay una opción aplicable."
+    },
+    "claveMemorizar": "Calprotectina baja ayuda a descartar inflamación intestinal significativa.",
+    "fuente": "Tema 4 F. digestiva, p. 29-30 y 48-52"
+  },
+  "174": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El protocolo requiere D-xilosa en ayunas, sangre a los 60 minutos y recogida de orina durante las 5-6 horas siguientes. Ninguna opción reproduce a la vez el momento sanguíneo y la duración urinaria correctos.",
+    "motivosPorOpcion": {
+      "Muestra de sangre basal y orina elemental.": "Una muestra basal y una orina aislada no permiten aplicar los tiempos ni calcular la excreción indicados.",
+      "Muestra de sangre a los 60 minutos, tras la ingesta de D-xilosa y orina de 24 h.": "El tiempo sanguíneo es correcto, pero la recogida urinaria descrita dura 5-6 horas, no 24.",
+      "Muestra de sangre a los 60 minutos, tras la ingesta de D-xilosa. No hace falta la orina.": "El temario incluye la excreción urinaria de las 5-6 horas siguientes como parte de la prueba."
+    },
+    "claveMemorizar": "D-xilosa: sangre a 60 min más orina de 5-6 h.",
+    "fuente": "Tema 4 F. digestiva, p. 30"
+  },
+  "175": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La sangre oculta fecal detecta pérdidas no visibles y es la técnica que el temario asigna al cribado de cáncer colorrectal. La colonoscopia se reserva para confirmación.",
+    "motivosPorOpcion": {
+      "Cuerpos reductores.": "Los cuerpos reductores investigan azúcares no absorbidos y posibles déficits de disacaridasas.",
+      "Determinación de leucocitos en sangre.": "Los leucocitos sanguíneos no son una prueba específica de sangrado o neoplasia colorrectal en población asintomática.",
+      "Calprotectina.": "La calprotectina fecal cuantifica inflamación neutrofílica y se usa en enfermedad inflamatoria intestinal."
+    },
+    "claveMemorizar": "Cáncer de colon: cribado con sangre oculta fecal.",
+    "fuente": "Tema 4 F. digestiva, p. 25, 29 y 36"
+  },
+  "176": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La transcobalamina es una proteína transportadora plasmática de vitamina B12. Su disminución compromete el transporte tisular de cobalamina y puede producir un déficit funcional.",
+    "motivosPorOpcion": {
+      "Disminución de la Proteína Reguladora de Retinol (RBP).": "La RBP transporta retinol, es decir vitamina A, y no es el transportador plasmático específico de cobalamina.",
+      "Disminución de la Proteína C Reactiva.": "La proteína C reactiva es un reactante de fase aguda y no transporta vitamina B12.",
+      "Disminución de la Crioglobulinas.": "Las crioglobulinas son inmunoglobulinas que precipitan con el frío y no median el transporte de cobalamina."
+    },
+    "claveMemorizar": "Transcobalamina transporta vitamina B12 en plasma.",
+    "fuente": "Tema 4 F. digestiva, p. 55"
+  },
+  "177": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Más del 90 % de los pacientes con enfermedad celíaca portan el heterodímero HLA-DQ2. La mayoría del resto expresa HLA-DQ8, de modo que estos alelos tienen gran valor para excluir predisposición cuando ambos faltan.",
+    "motivosPorOpcion": {
+      "DQ8": "HLA-DQ8 aparece en una minoría aproximada del 5-10 %, no en el 90 % señalado.",
+      "B57": "HLA-B57 no es el heterodímero de clase II asociado de forma principal con celiaquía en el temario.",
+      "B27": "HLA-B27 se asocia clásicamente con espondiloartritis, no con la gran mayoría de pacientes celíacos.",
+      "B12": "B12 es una denominación vitamínica y no la variante HLA de riesgo celíaco solicitada."
+    },
+    "claveMemorizar": "Celiaquía: 90 % HLA-DQ2; 5-10 % HLA-DQ8.",
+    "fuente": "Tema 4 F. digestiva, p. 45"
+  },
+  "178": {
+    "respuestaCorrecta": "E",
+    "porQueLaCorrecta": "Las pruebas químicas como el guayaco dependen de actividad seudoperoxidasa y pueden sufrir interferencias alimentarias. Por ello el temario exige controlar la dieta durante los días previos.",
+    "motivosPorOpcion": {
+      "Actualmente es la única prueba recomendada para el cribado de cáncer colorrectal en población general.": "El temario la identifica como prueba de cribado, pero no afirma que sea la única estrategia recomendada en toda población general.",
+      "Es muy específica de enfermedad inflamatoria intestinal.": "La sangre oculta detecta hemoglobina y puede aparecer por múltiples lesiones sangrantes; no identifica específicamente inflamación intestinal.",
+      "La sensibilidad analítica de los métodos químicos suele ser superior a la de los métodos inmunológicos.": "El PDF atribuye mayor sensibilidad y especificidad a los métodos inmunológicos.",
+      "Se usa para el diagnóstico de Colitis ulcerosa": "La colitis ulcerosa puede sangrar, pero la prueba no establece por sí sola ese diagnóstico; calprotectina y leucocitos reflejan mejor inflamación."
+    },
+    "claveMemorizar": "Guayaco requiere control dietético; FIT es más sensible y específico.",
+    "fuente": "Tema 4 F. digestiva, p. 25-29",
+    "advertenciaRevision": "El PDF confirma que debe controlarse la dieta los días previos, pero no especifica exactamente tres días como afirma la opción E."
+  },
+  "179": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La amilasa suele normalizarse a los 3-5 días, mientras que la lipasa puede permanecer elevada 7-14 días. Por esa ventana más larga y su mayor sensibilidad, puede encontrarse lipasa elevada cuando la amilasa ya no lo está.",
+    "motivosPorOpcion": {
+      "Amilasa y Lipasa son dos enzimas igual de específicas para su diagnóstico.": "El temario indica que la lipasa es más específica y sensible que la amilasa.",
+      "Las transaminasas son los parámetros bioquímicos más adecuados para el diagnóstico de PA": "Las transaminasas informan sobre lesión hepatocelular; el diagnóstico bioquímico pancreático se apoya en amilasa y lipasa.",
+      "La Amilasa y la TBil son fundamentales en el diagnóstico.": "La bilirrubina total puede orientar a obstrucción biliar, pero el par enzimático destacado es amilasa-lipasa.",
+      "Todas son falsas.": "La distinta cinética de ambas enzimas hace verdadera la posibilidad descrita en la opción B."
+    },
+    "claveMemorizar": "Lipasa dura 7-14 días; amilasa vuelve a normalidad en 3-5.",
+    "fuente": "Tema 4 F. digestiva, p. 48 y 50-51"
+  },
+  "180": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El azul de Loeffler o azul de metileno permite teñir leucocitos en una extensión fecal para observarlos al microscopio. Su presencia orienta a un proceso intestinal inflamatorio.",
+    "motivosPorOpcion": {
+      "Eosina.": "La eosina al 10 % se menciona para estudiar fibras musculares y creatorrea, no como tinción de elección para leucocitos fecales.",
+      "Verde Jano.": "El verde Jano es un colorante supravital y no figura entre las tinciones fecales para leucocitos del temario.",
+      "Nigrosina.": "La nigrosina se usa como tinción negativa en otros contextos microbiológicos y no es el método indicado para leucocitos fecales."
+    },
+    "claveMemorizar": "Leucocitos fecales: azul de Loeffler, azul de metileno o Wright.",
+    "fuente": "Tema 4 F. digestiva, p. 29 y 35"
+  }
+}

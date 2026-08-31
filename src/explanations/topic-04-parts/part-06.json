@@ -1,0 +1,408 @@
+{
+  "181": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las pruebas químicas como el guayaco detectan la actividad seudoperoxidasa del grupo hemo y pueden reaccionar con componentes dietéticos, por lo que requieren controlar la dieta antes de recoger la muestra.",
+    "motivosPorOpcion": {
+      "Actualmente la colonoscopia es la prueba recomendada para el cribado de cáncer colorrectal en población general.": "La colonoscopia es la prueba confirmatoria tras un cribado positivo, no la prueba inicial de cribado poblacional descrita en el temario.",
+      "Es muy específica de enfermedad inflamatoria intestinal.": "La sangre oculta puede aparecer por múltiples lesiones digestivas y no identifica específicamente una enfermedad inflamatoria intestinal.",
+      "La sensibilidad analítica de los métodos químicos suele ser superior a la de los métodos inmunológicos.": "El temario atribuye mayor sensibilidad y especificidad a los métodos inmunológicos que a los químicos."
+    },
+    "claveMemorizar": "Guayaco: dieta controlada; inmunológico: mayor sensibilidad y especificidad.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-28",
+    "advertenciaRevision": "El PDF exige controlar la dieta los días previos, pero no especifica que deban ser exactamente 3 días."
+  },
+  "182": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La bilis emulsiona los lípidos en el intestino delgado, aumentando su superficie de contacto para la acción de las lipasas y facilitando su digestión y absorción.",
+    "motivosPorOpcion": {
+      "Intervenir en la digestión de las proteínas.": "La hidrólisis proteica depende principalmente de proteasas como pepsina, tripsina y peptidasas, no de la bilis.",
+      "Intervenir en la digestión de los hidratos de carbono.": "Los hidratos de carbono se degradan mediante amilasas y disacaridasas, sin que la bilis sea su agente digestivo principal.",
+      "Intervenir en todo lo citado en las respuestas anteriores.": "La función digestiva principal atribuida a la bilis es la emulsión de grasas, no la digestión conjunta de proteínas, glúcidos y lípidos."
+    },
+    "claveMemorizar": "Bilis = emulsión y digestión de grasas.",
+    "fuente": "Tema 4 F. digestiva, pp. 2 y 18"
+  },
+  "183": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un valor negativo de actividad enzimática es fisiológicamente inverosímil y obliga primero a revisar la curva de reacción y las alarmas del analizador para detectar un fallo analítico antes de actuar sobre la muestra o informar.",
+    "motivosPorOpcion": {
+      "Pedir que extraigan un nuevo espécimen.": "Una nueva extracción solo estaría justificada después de descartar problemas de reacción, medición o identificación en el análisis ya realizado.",
+      "Informar como resultado < 1 UI/L.": "Convertir un resultado negativo anómalo en un límite informable ocultaría una posible incidencia analítica sin investigarla.",
+      "Calibrar y pasar controles a la amilasa.": "La calibración y los controles pueden ser necesarios si la revisión revela un problema sistemático, pero no preceden a comprobar la curva y las alarmas de esa medición."
+    },
+    "claveMemorizar": "Resultado imposible: revisar primero curva y alarmas.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 50",
+    "advertenciaRevision": "El PDF relaciona amilasa elevada con pancreatitis aguda, pero no describe la actuación técnica ante un resultado negativo ni el orden de revisión del analizador."
+  },
+  "184": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La calprotectina es una proteína de origen neutrofílico con actividad bacteriostática y fungistática. Su concentración fecal se correlaciona con la intensidad de la inflamación intestinal.",
+    "motivosPorOpcion": {
+      "Es una proteína que se sintetiza en el hígado y que se elimina, en parte, con las heces.": "La calprotectina fecal procede principalmente de neutrófilos, no de síntesis hepática con eliminación fecal.",
+      "Es una enzima que se encuentra en el jugo pancreático. Concentraciones disminuidas en heces alertarían de una posible alteración pancreática.": "Esa descripción corresponde a enzimas pancreáticas fecales como elastasa, tripsina o quimotripsina, no a la calprotectina."
+    },
+    "claveMemorizar": "Calprotectina: proteína neutrofílica y marcador fecal de inflamación.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "185": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La alfa-amilasa rompe enlaces glucosídicos de polisacáridos como el almidón y genera carbohidratos de menor tamaño. Es una enzima digestiva de origen principalmente pancreático y salival.",
+    "motivosPorOpcion": {
+      "Se fracciona en ocho isoenzimas.": "El temario distingue amilasa pancreática y salival, no una división funcional en ocho isoenzimas.",
+      "Hidroliza los triglicéridos.": "La hidrólisis de triglicéridos corresponde a las lipasas, que producen ácidos grasos y glicerol.",
+      "Se emplea en el diagnóstico de la diabetes mellitus.": "Su principal aplicación clínica descrita es la evaluación de pancreatitis, no el diagnóstico de diabetes mellitus."
+    },
+    "claveMemorizar": "Amilasa degrada almidón; lipasa degrada triglicéridos.",
+    "fuente": "Tema 4 F. digestiva, pp. 13 y 50"
+  },
+  "186": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La afirmación es incorrecta porque Sudán III tiñe de rojo las gotas de grasa, no de azul. La microscopía con este colorante es una prueba cualitativa para detectar lípidos fecales.",
+    "motivosPorOpcion": {
+      "Su presencia indica trastornos de malabsorción.": "La esteatorrea refleja una excreción fecal excesiva de grasa y constituye un signo de malabsorción lipídica.",
+      "Las muestras de casos sospechosos pueden evaluarse microscópicamente.": "Una suspensión de heces teñida con Sudán III permite observar microscópicamente gotas de grasa.",
+      "Se muestra en el tránsito intestinal acelerado.": "Un tránsito acelerado puede reducir el tiempo disponible para digestión y absorción y contribuir a la presencia de nutrientes no absorbidos en heces."
+    },
+    "claveMemorizar": "Sudán III tiñe la grasa de rojo, no de azul.",
+    "fuente": "Tema 4 F. digestiva, pp. 32 y 34",
+    "advertenciaRevision": "El PDF vincula explícitamente la esteatorrea con malabsorción y la tinción roja con Sudán III, pero no afirma de forma directa que el tránsito acelerado produzca esteatorrea."
+  },
+  "187": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calprotectina es una proteína neutrofílica que ejerce actividad bacteriostática y fungistática mediante mecanismos de defensa innata. Su presencia fecal aumenta cuando migran neutrófilos a la mucosa intestinal inflamada.",
+    "motivosPorOpcion": {
+      "Es un glucolípido que sintetizan los leucocitos.": "La calprotectina es una proteína, no un glucolípido.",
+      "La disminución de su concentración en heces indica inflamación intestinal.": "La inflamación intestinal se asocia con aumento, no disminución, de calprotectina fecal.",
+      "Su aumento es indicador de alteraciones pancreáticas.": "La calprotectina informa de inflamación intestinal; la función pancreática exocrina se valora con enzimas fecales como elastasa."
+    },
+    "claveMemorizar": "Calprotectina alta = inflamación intestinal activa.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "188": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La afirmación es incorrecta porque Van de Kamer cuantifica grasa fecal, mientras que la elastasa se determina como enzima pancreática en heces. Son pruebas con analitos y objetivos distintos.",
+    "motivosPorOpcion": {
+      "La prueba es específica para diferenciar las causas pancreáticas de las no pancreáticas en pacientes con esteatorrea.": "Una elastasa fecal disminuida orienta a insuficiencia pancreática exocrina y ayuda a separar ese origen de causas intestinales de esteatorrea.",
+      "Es una enzima producida por el páncreas.": "La elastasa forma parte de las enzimas del jugo pancreático y puede detectarse en heces.",
+      "Es un indicador muy sensible de la insuficiencia pancreática exocrina.": "La disminución de enzimas pancreáticas fecales es sugerente de insuficiencia exocrina, especialmente cuando esta es grave."
+    },
+    "claveMemorizar": "Elastasa evalúa páncreas; Van de Kamer cuantifica grasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 32-33 y 52",
+    "advertenciaRevision": "El PDF respalda el uso de elastasa fecal para función pancreática exocrina, pero no cuantifica su sensibilidad ni declara literalmente su capacidad diferencial en pacientes con esteatorrea."
+  },
+  "189": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Van de Kamer es el método de referencia para cuantificar la grasa eliminada en heces. Una excreción superior a 7 g de grasa en 24 horas se considera esteatorrea.",
+    "motivosPorOpcion": {
+      "Leucocitos.": "Los leucocitos fecales se estudian por extensión, tinción y microscopía, no mediante cuantificación de grasa.",
+      "Creatorrea.": "La creatorrea es la presencia de fibras musculares no digeridas y se evalúa microscópicamente, con o sin eosina.",
+      "Sangre oculta.": "La sangre oculta se detecta con pruebas químicas o inmunológicas dirigidas a hemoglobina, no con Van de Kamer."
+    },
+    "claveMemorizar": "Para medir esteatorrea de forma cuantitativa: método de Van de Kamer.",
+    "fuente": "Tema 4 F. digestiva, pp. 32-33"
+  },
+  "190": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La falta de llegada de bilis al intestino impide formar pigmentos fecales y origina heces hipocólicas o acólicas, de aspecto claro, blanquecino o grisáceo. En terminología clínica, ese aspecto puede describirse como color arcilla.",
+    "motivosPorOpcion": {
+      "El sangrado del tracto gastrointestinal superior origina heces de color rojo.": "La sangre procedente del tracto superior suele digerirse y producir melenas negras; el rojo vivo orienta a sangrado distal.",
+      "El color verde de las heces puede deberse a la ingesta de carbón vegetal.": "El carbón vegetal se asocia a heces negras, mientras que el verde se relaciona en el temario con verduras o antibióticos.",
+      "El color pardo de las heces se debe a la biliverdina.": "La tonalidad parda normal se atribuye a la estercobilina, no a la biliverdina."
+    },
+    "claveMemorizar": "Sin bilis: heces claras o acólicas; sangrado alto: negras.",
+    "fuente": "Tema 4 F. digestiva, p. 21",
+    "advertenciaRevision": "Existe una contradicción terminológica interna: el PDF asocia la ausencia de bilis con heces claras, blanquecinas o grisáceas, pero en la misma página denomina 'amarillentas (arcillosas)' a las heces con esteatorrea. La clave C requiere revisión frente a la redacción exacta del temario."
+  },
+  "191": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sudán III es un colorante liposoluble que permite visualizar al microscopio las gotas de grasa fecal, que aparecen rojas.",
+    "motivosPorOpcion": {
+      "Azul de metileno.": "El azul de metileno se emplea para visualizar leucocitos en heces y orientar a inflamación.",
+      "Lugol.": "El Lugol revela almidón no digerido en el estudio de principios inmediatos.",
+      "Wright.": "La tinción de Wright puede utilizarse para leucocitos fecales, no para gotas lipídicas."
+    },
+    "claveMemorizar": "Grasa fecal al microscopio: Sudán III.",
+    "fuente": "Tema 4 F. digestiva, pp. 29 y 32-34"
+  },
+  "192": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La amilasa sérica aumenta durante las primeras horas de la pancreatitis aguda y forma parte de sus criterios bioquímicos. El temario señala que la lipasa es un marcador más específico y sensible, pero entre las opciones la enzima pancreática pertinente es la amilasa.",
+    "motivosPorOpcion": {
+      "Alanina-aminotrasferasa.": "La ALT es una aminotransferasa usada principalmente para valorar lesión hepatocelular, no el marcador enzimático principal de pancreatitis aguda.",
+      "Aspartato-aminotrasferasa.": "La AST puede alterarse en múltiples tejidos y no sustituye a amilasa o lipasa para establecer el diagnóstico bioquímico de pancreatitis.",
+      "Creatinacinasa.": "La creatinacinasa refleja sobre todo lesión muscular y no evalúa la liberación de enzimas pancreáticas."
+    },
+    "claveMemorizar": "Pancreatitis aguda: amilasa y, preferentemente, lipasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 50-51"
+  },
+  "193": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La D-xilosa se absorbe en la mucosa intestinal proximal y la fracción absorbida se elimina por orina. El protocolo del temario recoge la orina durante las 5-6 horas posteriores a la ingesta.",
+    "motivosPorOpcion": {
+      "1 hora.": "A los 60 minutos se obtiene la muestra sanguínea, pero la recogida urinaria continúa durante varias horas.",
+      "12 horas.": "El intervalo descrito para la orina es de 5-6 horas, por lo que una recogida de 12 horas no corresponde al protocolo.",
+      "24 horas.": "La prueba de D-xilosa no requiere la recogida urinaria de 24 horas indicada en otros estudios de absorción."
+    },
+    "claveMemorizar": "D-xilosa: sangre a 60 min y orina durante 5-6 h.",
+    "fuente": "Tema 4 F. digestiva, p. 30",
+    "advertenciaRevision": "El PDF describe una dosis de 10 mg/kg en suspensión al 5 %, no la ingesta fija de 25 g incluida en el enunciado; sí respalda la recogida urinaria de 5-6 horas."
+  },
+  "194": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Sudán III se disuelve en los lípidos y colorea de rojo las gotas de grasa, permitiendo identificarlas en una suspensión fecal al microscopio.",
+    "motivosPorOpcion": {
+      "Lugol.": "El Lugol se usa para detectar almidón no digerido, no lípidos.",
+      "Bencidina.": "La bencidina es un reactivo químico para sangre oculta basado en la actividad seudoperoxidasa de la hemoglobina.",
+      "Alcohol etílico.": "El alcohol etílico no es el colorante diagnóstico señalado para visualizar grasa fecal."
+    },
+    "claveMemorizar": "Sudán III colorea de rojo la grasa fecal.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-26 y 32-34"
+  },
+  "195": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El temario identifica el alcoholismo crónico como causa principal de pancreatitis aguda y también incluye los cálculos de la vía biliar entre sus causas destacadas. Ambas exposiciones pueden desencadenar activación intrapancreática de enzimas y lesión inflamatoria.",
+    "motivosPorOpcion": {
+      "Traumatismo abdominal.": "El traumatismo es una causa posible, pero el temario no lo presenta como la más frecuente.",
+      "Ingesta aguda de alcohol.": "La referencia del temario es al alcoholismo crónico, no a una ingesta aguda aislada como causa principal.",
+      "Hipertrigliceridemia.": "Las hiperlipemias pueden causar pancreatitis, pero figuran como una etiología menos destacada que alcoholismo crónico y litiasis biliar."
+    },
+    "claveMemorizar": "Pancreatitis aguda: alcoholismo crónico y litiasis biliar dominan la etiología.",
+    "fuente": "Tema 4 F. digestiva, p. 48"
+  },
+  "196": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La D-xilosa puede absorberse sin digestión pancreática previa, por lo que su absorción y excreción reflejan la integridad funcional de la mucosa del intestino delgado proximal.",
+    "motivosPorOpcion": {
+      "Prueba de la trioleína.": "La trioleína marcada explora digestión y absorción de grasas, no específicamente la integridad de la mucosa proximal.",
+      "Prueba del aliento para lactosa.": "Esta prueba detecta malabsorción de lactosa por déficit de lactasa mediante el hidrógeno producido por fermentación colónica.",
+      "Prueba de Schilling.": "El test de Schilling estudia la absorción de vitamina B12 y ayuda a investigar anemia perniciosa."
+    },
+    "claveMemorizar": "D-xilosa = absorción de la mucosa intestinal proximal.",
+    "fuente": "Tema 4 F. digestiva, pp. 30, 37 y 57"
+  },
+  "197": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La fibrosis quística sigue una herencia autosómica recesiva: la enfermedad aparece cuando se heredan dos variantes patogénicas de CFTR, una de cada progenitor.",
+    "motivosPorOpcion": {
+      "Mendeliana ligada al sexo.": "CFTR se localiza en el cromosoma 7, no en un cromosoma sexual.",
+      "No es una enfermedad genética.": "La enfermedad está causada por alteraciones del gen CFTR.",
+      "Mendeliana autosómica dominante.": "Una sola copia alterada suele conferir estado de portador, no el patrón clínico recesivo característico."
+    },
+    "claveMemorizar": "Fibrosis quística: CFTR, cromosoma 7, autosómica recesiva.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "198": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las variantes patogénicas de CFTR alteran un canal epitelial de cloruro y producen secreciones anormalmente espesas en múltiples glándulas exocrinas, cuadro característico de fibrosis quística.",
+    "motivosPorOpcion": {
+      "El hipotiroidismo congénito.": "El hipotiroidismo congénito tiene etiologías tiroideas diversas y no deriva de mutaciones en CFTR.",
+      "La fenilcetonuria.": "La fenilcetonuria se relaciona con alteraciones del metabolismo de la fenilalanina, no con el canal CFTR.",
+      "La tirosinemia tipo I.": "La tirosinemia tipo I es un defecto del catabolismo de la tirosina independiente de CFTR."
+    },
+    "claveMemorizar": "Mutación CFTR = fibrosis quística.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "199": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos frente a gliadina nativa tienen menor rendimiento diagnóstico que los ensayos actuales y no forman parte del cribado serológico inicial descrito. El temario prioriza antitransglutaminasa IgA junto con IgA total y contempla péptidos de gliadina deaminados, que no equivalen a gliadina nativa.",
+    "motivosPorOpcion": {
+      "Los anticuerpos antitransglutaminasa IgA.": "Son la prueba de cribado serológico indicada en pacientes con producción normal de IgA.",
+      "Los anticuerpos antiendomisio.": "Los EMA-IgA forman parte de los anticuerpos asociados al diagnóstico de enfermedad celíaca.",
+      "La IgA total.": "La IgA total se mide junto con antitransglutaminasa IgA para detectar un déficit que podría causar resultados falsamente negativos."
+    },
+    "claveMemorizar": "Cribado celíaco: tTG-IgA + IgA total; no AGA nativa rutinaria.",
+    "fuente": "Tema 4 F. digestiva, p. 42",
+    "advertenciaRevision": "El PDF enumera las pruebas recomendadas y menciona anticuerpos contra péptidos de gliadina deaminados, pero no declara expresamente que la antigliadina nativa no deba solicitarse sistemáticamente."
+  },
+  "200": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Más del 90 % de los pacientes con enfermedad celíaca portan el heterodímero HLA-DQ2, lo que lo convierte en el principal factor HLA de predisposición. Su presencia no confirma por sí sola la enfermedad porque también aparece en población sana.",
+    "motivosPorOpcion": {
+      "HLA B27.": "HLA-B27 se asocia clásicamente con espondiloartritis y no es el haplotipo predominante de celiaquía.",
+      "HLA DR1.": "El temario no incluye HLA-DR1 entre los alelos de riesgo celíaco destacados.",
+      "HLA Aw68.": "HLA-Aw68 no corresponde a los heterodímeros DQ2 o DQ8 vinculados a susceptibilidad celíaca."
+    },
+    "claveMemorizar": "Celiaquía: más del 90 % porta HLA-DQ2.",
+    "fuente": "Tema 4 F. digestiva, pp. 42 y 45"
+  },
+  "201": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La inmunoluminiscencia combina el reconocimiento específico de hemoglobina humana por anticuerpos con una señal luminosa generada por luminol y peróxido. Al reconocer la fracción humana de la hemoglobina evita interferencias alimentarias propias de los métodos químicos.",
+    "motivosPorOpcion": {
+      "Enzimoinmunoanalisis.": "Un enzimoinmunoanálisis genera una señal mediante una enzima marcadora, mientras el enunciado describe específicamente una reacción luminiscente con luminol.",
+      "Método tradicional.": "Los métodos químicos tradicionales explotan la actividad seudoperoxidasa del hemo y sí pueden exigir control dietético.",
+      "Técnicas inmunoquímicas.": "Es una categoría amplia basada en reacción antígeno-anticuerpo, pero la adición de luminol identifica de forma más concreta la modalidad de inmunoluminiscencia."
+    },
+    "claveMemorizar": "Anticuerpo + luminol = inmunoluminiscencia.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-28",
+    "advertenciaRevision": "El PDF explica los métodos químicos e inmunológicos, pero no menciona luminol ni describe una técnica de inmunoluminiscencia; la distinción específica de la respuesta D no queda sustentada directamente."
+  },
+  "202": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La galactosa es un monosacárido de seis átomos de carbono, es decir, una aldohexosa. Junto con la glucosa constituye la lactosa.",
+    "motivosPorOpcion": {
+      "Una pentosa.": "Las pentosas contienen cinco carbonos, mientras que la galactosa contiene seis.",
+      "Una triosa.": "Las triosas tienen tres carbonos y son intermediarios metabólicos mucho más pequeños que la galactosa.",
+      "Un disacárido": "La galactosa es un monosacárido; el disacárido lactosa se forma por glucosa y galactosa."
+    },
+    "claveMemorizar": "Galactosa: monosacárido aldohexosa de la lactosa.",
+    "fuente": "Tema 4 F. digestiva, pp. 3 y 36",
+    "advertenciaRevision": "El PDF identifica galactosa como componente de la lactosa y como sustancia reductora, pero no afirma explícitamente que sea una hexosa."
+  },
+  "203": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un aumento de amilasa o lipasa sérica de al menos tres veces el límite superior del intervalo de referencia constituye uno de los criterios diagnósticos de pancreatitis aguda, en combinación con la clínica o la imagen.",
+    "motivosPorOpcion": {
+      "Mayor o igual a 2 veces el límite superior de lo normal.": "Dos veces el límite superior no alcanza el umbral bioquímico de tres veces indicado en el temario.",
+      "Mayor o igual a 4 veces el límite superior de lo normal.": "Exigir cuatro veces el límite sería más restrictivo que el criterio establecido y perdería casos que cumplen el umbral de tres.",
+      "Mayor o igual a 10 veces el límite superior de lo normal.": "Una elevación de diez veces puede ocurrir, pero no es el umbral mínimo diagnóstico."
+    },
+    "claveMemorizar": "Pancreatitis aguda: amilasa o lipasa ≥3 veces el límite superior.",
+    "fuente": "Tema 4 F. digestiva, p. 48"
+  },
+  "204": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos antitransglutaminasa tisular IgA son la prueba serológica de cribado recomendada por su elevada sensibilidad y especificidad. Deben interpretarse junto con la IgA total para detectar déficits de esta inmunoglobulina.",
+    "motivosPorOpcion": {
+      "Anticuerpos antigliadina (AGA) de isotipos IgA.": "Los AGA contra gliadina nativa tienen peor rendimiento que los antitransglutaminasa y no son la prueba inicial recomendada.",
+      "Anticuerpos antigliadina (AGA) de isotipos IgG.": "La IgG útil en situaciones seleccionadas se dirige preferentemente a péptidos de gliadina deaminados o a transglutaminasa, especialmente si existe déficit de IgA.",
+      "Anticuerpos antiendomisio (EMA) IgA.": "Los EMA-IgA son muy específicos y útiles como apoyo, pero el temario establece tTG-IgA como prueba de cribado."
+    },
+    "claveMemorizar": "Primera serología celíaca: tTG-IgA con IgA total.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "205": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El enlace peptídico es un enlace covalente tipo amida entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente. Su repetición forma la cadena polipeptídica que constituye la estructura primaria proteica.",
+    "motivosPorOpcion": {
+      "Hidrófilos.": "Hidrófilo describe afinidad por el agua, no el enlace covalente que une aminoácidos.",
+      "Hidrofóbicos.": "Las interacciones hidrofóbicas contribuyen al plegamiento proteico, pero no enlazan secuencialmente los aminoácidos de la cadena.",
+      "Básicos.": "Básico describe propiedades ácido-base de ciertos grupos o aminoácidos, no una clase de enlace entre monómeros."
+    },
+    "claveMemorizar": "Aminoácidos unidos por enlaces peptídicos.",
+    "fuente": "Tema 4 F. digestiva, pp. 3 y 13"
+  },
+  "206": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "CFTR codifica una proteína transmembrana que funciona como canal epitelial de cloruro. Su alteración modifica el transporte de sales y agua y espesa las secreciones de glándulas exocrinas.",
+    "motivosPorOpcion": {
+      "La enzima 21-hidroxilasa implicada en la función respiratoria.": "La 21-hidroxilasa participa en la síntesis de esteroides suprarrenales y su déficit causa hiperplasia suprarrenal congénita, no fibrosis quística.",
+      "La distrofina ligada al cromosoma X.": "Las mutaciones de distrofina causan distrofias musculares ligadas al X, no la alteración secretora de la fibrosis quística.",
+      "El canal de conductancia transmembrana de fluoruro, RFTK.": "La proteína implicada es CFTR, un canal de cloruro; el canal de fluoruro RFTK propuesto no corresponde a esta enfermedad."
+    },
+    "claveMemorizar": "CFTR codifica un canal de cloruro.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "207": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La pancreatitis aguda provoca liberación de amilasa y lipasa a la circulación, por lo que ambas se determinan en suero. La lipasa ofrece mayor especificidad y permanece elevada durante más tiempo.",
+    "motivosPorOpcion": {
+      "Determinación en sangre de glucógeno y colesterol.": "Glucógeno y colesterol no constituyen los marcadores séricos diagnósticos de lesión pancreática aguda.",
+      "Determinación de fosfatasa alcalina.": "La fosfatasa alcalina orienta principalmente a colestasis o actividad ósea y no sustituye a amilasa/lipasa.",
+      "Ninguna es correcta.": "Sí existe una opción válida: la medición sérica de amilasa y lipasa forma parte del diagnóstico."
+    },
+    "claveMemorizar": "Diagnóstico bioquímico de pancreatitis: amilasa y lipasa séricas.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 50-51"
+  },
+  "208": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La estructura secundaria surge de puentes de hidrógeno regulares en el esqueleto peptídico. Sus patrones clásicos son la hélice alfa y la lámina beta plegada.",
+    "motivosPorOpcion": {
+      "Proteínas de membrana, proteínas globulares.": "Estas categorías describen localización o morfología global, no patrones de estructura secundaria.",
+      "Transporte, protección.": "Transporte y protección clasifican proteínas por función biológica.",
+      "Energética, hormonal.": "Energética y hormonal también son categorías funcionales, no conformaciones locales de la cadena."
+    },
+    "claveMemorizar": "Secundaria: alfa hélice y beta lámina plegada.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  },
+  "209": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las proteínas fibrosas poseen cadenas polipeptídicas extendidas y ordenadas en paralelo, forman estructuras resistentes y suelen ser insolubles en agua.",
+    "motivosPorOpcion": {
+      "Solubles en agua.": "La solubilidad acuosa es más propia de muchas proteínas globulares que de las fibrosas.",
+      "Están plegadas en forma más o menos esféricas.": "El plegamiento aproximadamente esférico define a las proteínas globulares, no a las fibrosas.",
+      "Su estructura es compacta casi esférica.": "Una conformación compacta y casi esférica corresponde a proteínas globulares."
+    },
+    "claveMemorizar": "Fibrosas: alargadas e insolubles; globulares: esféricas y solubles.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  },
+  "210": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hélice alfa y la lámina beta plegada son conformaciones repetitivas estabilizadas por puentes de hidrógeno del esqueleto polipeptídico. Por ello pertenecen al nivel estructural secundario.",
+    "motivosPorOpcion": {
+      "Proteínas de membrana, proteínas globulares.": "Esta pareja mezcla una clasificación por localización con otra por forma y no identifica estructura secundaria.",
+      "Transporte, protección.": "Ambos términos designan funciones que una proteína puede desempeñar.",
+      "Energética, hormonal.": "Estas son funciones fisiológicas y no describen el plegamiento local del polipéptido."
+    },
+    "claveMemorizar": "Puentes de hidrógeno forman alfa hélice y beta lámina.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  },
+  "211": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La migración de neutrófilos hacia una mucosa intestinal inflamada libera calprotectina, por lo que su concentración fecal aumenta en proporción a la actividad inflamatoria.",
+    "motivosPorOpcion": {
+      "Es una proteína que se sintetiza en los hematíes.": "La calprotectina es de origen neutrofílico; los hematíes no son su fuente relevante.",
+      "Se encuentra elevada en el sedimento urinario.": "La aplicación descrita en el temario mide calprotectina en heces como marcador intestinal, no en sedimento urinario.",
+      "Una disminución de su concentración indica un aumento del grado de infamación intestinal.": "La relación es directa: una mayor inflamación se acompaña de una concentración fecal mayor, no menor."
+    },
+    "claveMemorizar": "Más calprotectina fecal, más actividad inflamatoria intestinal.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "212": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La calprotectina es una proteína abundante en neutrófilos y llega a las heces durante la inflamación de la mucosa. Su concentración se correlaciona con la intensidad del proceso inflamatorio intestinal.",
+    "motivosPorOpcion": {
+      "Elastasa": "La elastasa fecal es una enzima pancreática cuya disminución sugiere insuficiencia pancreática exocrina.",
+      "Quimiotripsina": "La quimotripsina fecal también valora función pancreática exocrina y disminuye cuando esta falla.",
+      "Alfa-1-antitripsina": "La alfa-1-antitripsina fecal se emplea para valorar pérdida intestinal de proteínas, no actividad neutrofílica."
+    },
+    "claveMemorizar": "Proteína leucocitaria inflamatoria en heces: calprotectina.",
+    "fuente": "Tema 4 F. digestiva, pp. 29, 35 y 52"
+  },
+  "213": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La elevación sérica de amilasa o lipasa hasta al menos tres veces el límite superior de referencia es el umbral bioquímico indicado para pancreatitis aguda. La lipasa es el marcador preferido por su mayor especificidad.",
+    "motivosPorOpcion": {
+      "Mayor o igual a 2 veces el límite superior de lo normal.": "Una elevación doble queda por debajo del criterio de tres veces señalado.",
+      "Mayor o igual a 4 veces el límite superior de lo normal.": "Cuatro veces también es compatible, pero no es el umbral mínimo requerido.",
+      "Mayor o igual a 10 veces el límite superior de lo normal.": "Diez veces representa una elevación intensa, no el punto de corte diagnóstico mínimo."
+    },
+    "claveMemorizar": "Umbral en pancreatitis aguda: ≥3 veces el límite superior.",
+    "fuente": "Tema 4 F. digestiva, p. 48"
+  },
+  "214": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La antitransglutaminasa tisular IgA combina alta sensibilidad y especificidad y es la serología inicial señalada para el cribado de celiaquía. Se solicita junto con IgA total para reconocer pacientes con déficit de IgA.",
+    "motivosPorOpcion": {
+      "Anticuerpos antigliadina (AGA) de isotipos IgA.": "Los anticuerpos frente a gliadina nativa han sido desplazados por pruebas con mejor rendimiento, especialmente tTG-IgA.",
+      "Anticuerpos antigliadina (AGA) de isotipos IgG.": "En déficit de IgA se prefieren anti-DGP-IgG o tTG-IgG, no AGA-IgG contra gliadina nativa como marcador principal.",
+      "Anticuerpos antiendomisio (EMA) IgA.": "Los antiendomisio son específicos y pueden confirmar resultados, pero no son la prueba de cribado inicial elegida por el temario."
+    },
+    "claveMemorizar": "Celiaquía: tTG-IgA es la serología inicial.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "215": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La galactosa es una aldohexosa, es decir, un monosacárido con seis carbonos. Se combina con glucosa para formar el disacárido lactosa.",
+    "motivosPorOpcion": {
+      "Una pentosa.": "Una pentosa posee cinco carbonos y la galactosa posee seis.",
+      "Una triosa.": "Una triosa contiene tres carbonos, por lo que no corresponde a la estructura de la galactosa.",
+      "Un disacárido.": "La galactosa es una unidad monosacárida; forma parte de la lactosa, que sí es un disacárido."
+    },
+    "claveMemorizar": "Galactosa = aldohexosa; glucosa + galactosa = lactosa.",
+    "fuente": "Tema 4 F. digestiva, pp. 3 y 36",
+    "advertenciaRevision": "El PDF muestra que la galactosa integra la lactosa y la incluye entre las sustancias reductoras, pero no la clasifica explícitamente como hexosa."
+  },
+  "216": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El páncreas exocrino produce y libera alfa-amilasa para digerir almidón, por lo que es uno de los tejidos con mayor concentración de esta enzima. También existe una isoenzima salival, pero esa localización no figura entre las opciones.",
+    "motivosPorOpcion": {
+      "Hígado": "El hígado no es la fuente principal de alfa-amilasa; una hepatopatía puede acompañarse de cambios séricos sin convertirlo en el tejido de mayor concentración.",
+      "Músculo": "El músculo se evalúa con enzimas como creatinacinasa y no concentra alfa-amilasa digestiva.",
+      "Hueso": "El tejido óseo se asocia a marcadores como fosfatasa alcalina, no a una alta concentración de alfa-amilasa."
+    },
+    "claveMemorizar": "Alfa-amilasa: origen pancreático y salival.",
+    "fuente": "Tema 4 F. digestiva, pp. 16-17 y 50",
+    "advertenciaRevision": "El PDF confirma amilasa pancreática y salival, pero no compara cuantitativamente sus concentraciones con hígado, músculo y hueso."
+  }
+}

@@ -7,9 +7,10 @@ import React from "react";
  * @param {object|null} props.structured - Explanation object from explainQuestion()
  * @param {string} props.fallback - Plain-text fallback when no structured data exists
  * @param {string} props.correctAnswerText - Human-readable text of the correct answer
+ * @param {string} props.selectedAnswerText - Human-readable text of the selected answer
  * @param {boolean} props.isCorrect - Whether the user answered correctly
  */
-export default function ExplanationDisplay({ structured, fallback, correctAnswerText, isCorrect }) {
+export default function ExplanationDisplay({ structured, fallback, correctAnswerText, selectedAnswerText, isCorrect }) {
   if (!structured) {
     return (
       <div className="explanationBlock">
@@ -28,7 +29,16 @@ export default function ExplanationDisplay({ structured, fallback, correctAnswer
     );
   }
 
-  const { porQueLaCorrecta, porQueNoLasOtras, ojoEnElExamen, claveMemorizar } = structured;
+  const {
+    porQueLaCorrecta,
+    motivosPorOpcion,
+    claveMemorizar,
+    fuente,
+    advertenciaRevision,
+  } = structured;
+  const motivoDeLaSeleccion = !isCorrect
+    ? motivosPorOpcion?.[selectedAnswerText]
+    : null;
 
   return (
     <div className="explanationBlock">
@@ -42,37 +52,33 @@ export default function ExplanationDisplay({ structured, fallback, correctAnswer
       {porQueLaCorrecta && (
         <p className="explanationWhy">
           <span className="explanationIcon">🧠</span>
-          <strong>Por qué:</strong> {porQueLaCorrecta}
+          <strong>Explicación:</strong> {porQueLaCorrecta}
         </p>
       )}
 
-      {ojoEnElExamen && (
-        <p className="explanationWarning">
-          <span className="explanationIcon">⚠️</span>
-          <strong>Ojo en el examen:</strong> {ojoEnElExamen}
+      {motivoDeLaSeleccion && (
+        <p className="explanationWrong">
+          <strong>Por qué tu opción no es correcta:</strong> {motivoDeLaSeleccion}
         </p>
       )}
 
       {claveMemorizar && (
         <p className="explanationKey">
           <span className="explanationIcon">⭐</span>
-          <strong>Clave para memorizar:</strong> {claveMemorizar}
+          <strong>Clave:</strong> {claveMemorizar}
         </p>
       )}
 
-      {porQueNoLasOtras && Object.keys(porQueNoLasOtras).length > 0 && (
-        <div className="explanationOthers">
-          <p>
-            <strong>Por qué NO las otras:</strong>
-          </p>
-          <ul>
-            {Object.entries(porQueNoLasOtras).map(([letter, reason]) => (
-              <li key={letter}>
-                <strong>{letter}:</strong> {reason}
-              </li>
-            ))}
-          </ul>
-        </div>
+      {fuente && (
+        <p className="explanationSource">
+          <strong>Fuente:</strong> {fuente}
+        </p>
+      )}
+
+      {advertenciaRevision && (
+        <p className="explanationWarning">
+          <strong>Nota de revisión:</strong> {advertenciaRevision}
+        </p>
       )}
     </div>
   );

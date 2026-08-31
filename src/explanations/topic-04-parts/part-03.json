@@ -1,0 +1,405 @@
+{
+  "73": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La pilocarpina estimula localmente las glándulas sudoríparas y permite recoger sudor para medir cloruro. El temario vincula esta prueba con el diagnóstico de fibrosis quística.",
+    "motivosPorOpcion": {
+      "Esfingomielina": "Es un esfingolípido de membrana y no un agente para inducir la sudoración.",
+      "Cefalosporina": "Es una familia de antibióticos betalactámicos, sin función en la obtención de sudor.",
+      "Glicerina": "Es un poliol humectante y no el estimulante colinérgico empleado en la prueba del sudor."
+    },
+    "claveMemorizar": "Prueba del sudor: pilocarpina y medición de cloruro.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "74": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Van de Kamer es el método de referencia para cuantificar la grasa fecal, expresada por 24 horas. Una excreción superior a 7 g/24 h se considera esteatorrea.",
+    "motivosPorOpcion": {
+      "La determinación de proteínas.": "La pérdida intestinal de proteínas se estudia con otros analitos, como la alfa-1-antitripsina fecal.",
+      "Detectar la presencia o ausencia de enzimas pancreáticos.": "La función pancreática exocrina se valora mediante enzimas fecales como tripsina, quimotripsina y elastasa.",
+      "Realizar el recuento de leucocitos": "Los leucocitos fecales se investigan mediante extensión, tinción y microscopía, no con Van de Kamer."
+    },
+    "claveMemorizar": "Van de Kamer cuantifica grasa fecal.",
+    "fuente": "Tema 4 F. digestiva, pp. 32-33"
+  },
+  "75": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hay varias pruebas válidas porque exploran procesos gastrointestinales distintos: calprotectina para inflamación, sangre oculta para sangrado y quimotripsina para función pancreática exocrina. Por ello no existe una única opción específica correcta entre A, B y C.",
+    "motivosPorOpcion": {
+      "La determinación de calprotectina.": "Evalúa inflamación intestinal, pero no abarca por sí sola todas las alteraciones gastrointestinales mencionadas.",
+      "El estudio de la sangre oculta.": "Detecta pérdidas hemáticas no visibles y se usa en el cribado colorrectal, pero representa solo una de varias pruebas posibles.",
+      "La determinación de quimotrípsina.": "Una concentración fecal baja orienta a insuficiencia pancreática exocrina, otro ámbito concreto del estudio digestivo."
+    },
+    "claveMemorizar": "Cada marcador fecal explora una función o lesión diferente.",
+    "fuente": "Tema 4 F. digestiva, pp. 25, 29 y 52"
+  },
+  "76": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos antitransglutaminasa tisular forman parte del diagnóstico serológico de la enfermedad celíaca. El cribado recomendado en el temario es antitransglutaminasa IgA junto con IgA total.",
+    "motivosPorOpcion": {
+      "Gastrina.": "La gastrina se estudia en trastornos de secreción gástrica, especialmente ante sospecha de gastrinoma.",
+      "Cobalofilinas.": "Son proteínas relacionadas con la unión de cobalamina y no constituyen el marcador serológico de celiaquía indicado.",
+      "Albúmina.": "Puede reflejar el estado proteico, pero no identifica la respuesta autoinmune específica frente al gluten."
+    },
+    "claveMemorizar": "Celiaquía: antitransglutaminasa IgA más IgA total.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "77": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calprotectina es una proteína neutrofílica que aparece en heces cuando existe inflamación intestinal. Su concentración se correlaciona con la intensidad inflamatoria.",
+    "motivosPorOpcion": {
+      "Está disminuida en pacientes con enfermedad inflamatoria intestinal.": "La infiltración neutrofílica intestinal eleva, no disminuye, la calprotectina fecal.",
+      "Es una hormona antidiurética.": "La hormona antidiurética regula el balance hídrico renal; la calprotectina es una proteína de neutrófilos.",
+      "Es una enzima proteolítica liberada por el páncreas": "Las proteasas pancreáticas incluyen tripsina y quimotripsina, mientras que la calprotectina es un marcador inflamatorio."
+    },
+    "claveMemorizar": "Calprotectina fecal = actividad neutrofílica intestinal.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "78": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La vitamina C es hidrosoluble. El temario clasifica A, D y E entre las vitaminas liposolubles cuya deficiencia puede acompañar a la esteatorrea.",
+    "motivosPorOpcion": {
+      "Vitamina A.": "Es liposoluble y su absorción puede afectarse cuando existe malabsorción de grasas.",
+      "Vitamina D.": "Es una vitamina liposoluble, por lo que no pertenece al grupo hidrosoluble.",
+      "Vitamina E.": "Es liposoluble y figura entre las vitaminas susceptibles de déficit en la esteatorrea."
+    },
+    "claveMemorizar": "C es hidrosoluble; A, D y E son liposolubles.",
+    "fuente": "Tema 4 F. digestiva, p. 32",
+    "advertenciaRevision": "El PDF enumera A, D, E y K como liposolubles, pero no declara de forma explícita que la vitamina C sea hidrosoluble; la respuesta se obtiene por exclusión dentro de las opciones."
+  },
+  "79": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La esteatorrea se define como una excreción anormalmente elevada de grasa en heces. El temario fija como criterio cuantitativo más de 7 g de lípidos fecales por 24 horas.",
+    "motivosPorOpcion": {
+      "Hidratos de carbono.": "El almidón no digerido en heces se denomina amilorrea, no esteatorrea.",
+      "Proteínas.": "La presencia de fibras musculares sin digerir recibe el nombre de creatorrea.",
+      "Creatinina.": "La creatinina es un producto nitrogenado usado principalmente en evaluación renal y no define una alteración fecal de este tipo."
+    },
+    "claveMemorizar": "Esteatorrea = exceso de grasa fecal.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
+  },
+  "80": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Apt-Downey estudia sangre presente en vómito, aspirado gástrico o heces del recién nacido. Distingue hemoglobina fetal, resistente al álcali, de hemoglobina adulta materna.",
+    "motivosPorOpcion": {
+      "Para detectar la presencia de amilasa en heces.": "La amilasa degrada carbohidratos y su determinación no se basa en la resistencia alcalina de la hemoglobina.",
+      "Para determinar si el color negro de las heces es debido al consumo de hierro.": "El test diferencia sangre fetal de materna y no identifica pigmentación fecal causada por hierro.",
+      "Para detectar la presencia de principios inmediatos no digeridos en heces.": "Los restos de grasa, almidón y fibras musculares se investigan mediante técnicas microscópicas específicas."
+    },
+    "claveMemorizar": "Apt-Downey diferencia sangre neonatal de sangre materna.",
+    "fuente": "Tema 4 F. digestiva, p. 59"
+  },
+  "81": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba del guayaco o guayacol detecta actividad seudoperoxidasa de la hemoglobina en sangre fecal no visible macroscópicamente. Un resultado positivo produce color azul.",
+    "motivosPorOpcion": {
+      "Determinar la concentración de urobilinógeno.": "El urobilinógeno participa en el color fecal, pero no es el analito detectado por la reacción del guayaco.",
+      "Determinar la presencia de hidratos de carbono.": "Los carbohidratos reductores se estudian, por ejemplo, con Clinitest y reacción de Fehling.",
+      "Cuantificar los nutrientes en heces.": "El fecalograma cuantitativo emplea espectroscopia infrarroja, no una reacción peroxidasa."
+    },
+    "claveMemorizar": "Guayaco azul: sangre oculta fecal.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-26"
+  },
+  "82": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cribado serológico inicial de celiaquía combina IgA total con anticuerpos antitransglutaminasa IgA. Medir IgA total permite reconocer un déficit de IgA que podría causar un falso negativo.",
+    "motivosPorOpcion": {
+      "Anticuerpo anti-transglutaminasa lgG": "La clase IgG se reserva especialmente para pacientes con déficit de IgA y no es la estrategia inicial general.",
+      "Anticuerpos anti-transglutaminasa lgA": "Es el anticuerpo de cribado principal, pero debe acompañarse de IgA total para interpretar su fiabilidad.",
+      "Anticuerpos anti-péptidos deaminados de gliadina": "Los anti-DGP son útiles, en particular de clase IgG si hay déficit de IgA, pero no sustituyen la combinación inicial indicada."
+    },
+    "claveMemorizar": "Inicio del cribado: IgA total + anti-tTG IgA.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "83": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La detección de sangre oculta en heces se utiliza como cribado de cáncer colorrectal. Un resultado de cribado positivo requiere confirmación mediante colonoscopia.",
+    "motivosPorOpcion": {
+      "Alfafetoproteína (AFP)": "La AFP no es la prueba fecal de cribado para cáncer colorrectal.",
+      "Mutaciones de K-RAS": "El estado de K-RAS es un biomarcador molecular con utilidad terapéutica, no la prueba poblacional inicial descrita.",
+      "Antígeno carcinoembrionario (CEA)": "El CEA puede emplearse en seguimiento oncológico, pero no reemplaza el cribado mediante sangre oculta."
+    },
+    "claveMemorizar": "Cribado colorrectal: sangre oculta; confirmación: colonoscopia.",
+    "fuente": "Tema 4 F. digestiva, p. 25"
+  },
+  "84": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La calprotectina fecal refleja la llegada y actividad de neutrófilos en la mucosa intestinal. Por ello es el marcador de elección para valorar la intensidad de la inflamación intestinal.",
+    "motivosPorOpcion": {
+      "Insuficiencia pancreática": "Se evalúa con enzimas fecales como tripsina, quimotripsina y elastasa, no con calprotectina.",
+      "Malabsorción intestinal": "La integridad absortiva proximal se puede estudiar con D-xilosa, mientras que la calprotectina señala inflamación.",
+      "Insuficiencia hepática": "La calprotectina fecal no mide síntesis ni reserva funcional del hígado."
+    },
+    "claveMemorizar": "Calprotectina: marcador fecal de inflamación intestinal.",
+    "fuente": "Tema 4 F. digestiva, pp. 29 y 46"
+  },
+  "85": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Sudán III tiñe de rojo los glóbulos de grasa presentes en una suspensión fecal y permite su observación microscópica. Es una prueba cualitativa de grasa fecal.",
+    "motivosPorOpcion": {
+      "Sangre oculta": "Se detecta mediante métodos de guayaco o inmunológicos, basados en hemoglobina.",
+      "Almidón": "El almidón no digerido se identifica con Lugol y corresponde a amilorrea.",
+      "Proteínas": "Las fibras musculares fecales se observan sin tinción o con eosina al 10 %."
+    },
+    "claveMemorizar": "Sudán III tiñe grasa fecal de rojo.",
+    "fuente": "Tema 4 F. digestiva, pp. 32 y 34-35"
+  },
+  "86": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La transglutaminasa tisular es el autoantígeno frente al que se dirigen los anticuerpos de cribado característicos de la enfermedad celíaca. La prueba habitual determina anti-tTG de clase IgA.",
+    "motivosPorOpcion": {
+      "Artritis reumatoide": "Su autoanticuerpo clásico es el factor reumatoide y puede asociarse a anti-CCP, no a anti-tTG como marcador principal.",
+      "Diabetes tipo I": "Es una asociación de riesgo para celiaquía, pero los anti-tTG identifican la autoinmunidad celíaca y no diagnostican diabetes.",
+      "Tiroiditis de Hashimoto": "La enfermedad tiroidea autoinmune aumenta el riesgo de celiaquía, aunque sus marcadores propios no son los anti-tTG."
+    },
+    "claveMemorizar": "Anti-tTG apunta a enfermedad celíaca.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "87": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Cuando no llega bilis al intestino no se forma adecuadamente urobilinógeno, responsable de parte de la coloración parda. Las heces se vuelven claras o hipocólicas y pueden llegar a ser acólicas.",
+    "motivosPorOpcion": {
+      "Hemorragias.": "Las hemorragias altas suelen producir heces negras y las bajas pueden aportar sangre roja, no hipocolia.",
+      "Ingesta de verduras.": "El temario relaciona la ingesta de verduras con heces verdes.",
+      "Melenas.": "La melena es sangre digerida que origina heces negras, no heces pálidas."
+    },
+    "claveMemorizar": "Sin bilis: heces hipocólicas o acólicas.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
+  },
+  "88": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La estructura primaria de una proteína es la secuencia lineal y ordenada de sus aminoácidos. Los niveles superiores describen plegamientos e interacciones posteriores de esa cadena.",
+    "motivosPorOpcion": {
+      "Secundaria de las proteínas.": "La estructura secundaria comprende patrones locales estabilizados por puentes de hidrógeno, como alfa-hélice y beta-lámina.",
+      "Terciaria de las proteínas.": "La estructura terciaria es la conformación tridimensional debida a interacciones entre grupos laterales.",
+      "Las proteínas no se componen de aminoácidos.": "Las proteínas son cadenas polipeptídicas formadas precisamente por aminoácidos."
+    },
+    "claveMemorizar": "Secuencia lineal de aminoácidos = estructura primaria.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  },
+  "89": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La quimotripsina puede detectarse en heces cuando el páncreas exocrino funciona adecuadamente. Su disminución sugiere insuficiencia pancreática exocrina, sobre todo si es grave.",
+    "motivosPorOpcion": {
+      "Se usa únicamente heces de 24 horas.": "El temario no exige una recogida exclusiva de 24 horas para esta enzima fecal.",
+      "El método de elección es el RIA (radioinmunoanálisis).": "El PDF no identifica el radioinmunoanálisis como método de elección para quimotripsina fecal.",
+      "Se usa en el control diabético.": "La medición fecal valora secreción pancreática exocrina, no el control glucémico endocrino."
+    },
+    "claveMemorizar": "Quimotripsina fecal baja sugiere insuficiencia exocrina.",
+    "fuente": "Tema 4 F. digestiva, p. 52",
+    "advertenciaRevision": "El PDF sustenta la interpretación de valores bajos, pero no detalla el tipo de muestra ni compara métodos analíticos para la quimotripsina."
+  },
+  "90": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La elastasa fecal es una enzima pancreática empleada para evaluar función exocrina y para el seguimiento de la fibrosis quística. El temario sí indica que sus niveles disminuyen en enfermedad pancreática.",
+    "motivosPorOpcion": {
+      "Se mide habitualmente en muestra aislada de heces.": "Describe el formato habitual de muestreo, pero el PDF no especifica este detalle preanalítico.",
+      "Es muy usada en el control de la malabsorción de la fibrosis quística del páncreas.": "Su uso se relaciona con el seguimiento de la afectación pancreática en fibrosis quística, no con inflamación intestinal.",
+      "Habitualmente se mide por enzimoinmunoanálisis.": "Describe el principio analítico habitual, aunque el PDF no documenta el método de medición."
+    },
+    "claveMemorizar": "Elastasa fecal: función pancreática exocrina.",
+    "fuente": "Tema 4 F. digestiva, p. 52",
+    "advertenciaRevision": "El PDF solo respalda el uso pancreático y en fibrosis quística; no confirma que se use muestra aislada ni que el método habitual sea enzimoinmunoanálisis, por lo que no sustenta por completo la opción combinada D."
+  },
+  "91": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La calprotectina fecal se usa para detectar y graduar inflamación intestinal por su origen neutrofílico. La opción combinada también afirma estabilidad durante la conservación refrigerada, dato que el temario no desarrolla.",
+    "motivosPorOpcion": {
+      "Es una proteína muy estable y refrigerada permite demorar su análisis.": "Es una propiedad preanalítica atribuida a la calprotectina, pero no está documentada en el PDF consultado.",
+      "Es usada para detectar déficit de lactasa.": "El déficit de lactasa se investiga con cuerpos reductores, prueba de hidrógeno espirado o tolerancia a lactosa.",
+      "Es usada para detectar inflamación intestinal.": "Esta afirmación es cierta por separado, pero la respuesta D integra además la estabilidad indicada en A."
+    },
+    "claveMemorizar": "Calprotectina fecal indica inflamación neutrofílica.",
+    "fuente": "Tema 4 F. digestiva, pp. 29 y 37",
+    "advertenciaRevision": "El PDF confirma la utilidad inflamatoria de la calprotectina, pero no su estabilidad ni el efecto de la refrigeración; por ello no sustenta íntegramente la respuesta combinada D."
+  },
+  "92": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La digestión de proteínas se valora observando fibras musculares en heces. Estas pueden examinarse sin tinción o teñirse con eosina al 10 % para facilitar su visualización.",
+    "motivosPorOpcion": {
+      "Sudan III.": "Sudán III se emplea para teñir de rojo la grasa fecal.",
+      "Solución yodo/yodurada.": "La solución yodada o Lugol evidencia almidón no digerido.",
+      "Tinta china.": "No figura entre las técnicas del temario para estudiar fibras musculares fecales."
+    },
+    "claveMemorizar": "Proteínas fecales: fibras musculares con eosina al 10 %.",
+    "fuente": "Tema 4 F. digestiva, p. 35"
+  },
+  "93": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El fecalograma consiste en cuantificar nutrientes presentes en heces y puede realizarse mediante espectroscopia de reflectancia en el infrarrojo cercano. El temario sitúa el intervalo instrumental entre 1400 y 2600 nm.",
+    "motivosPorOpcion": {
+      "Es útil la espectroscopia de reflectancia en el infrarrojo cercano.": "Es una afirmación verdadera, pero D es más completa porque también incorpora la definición de fecalograma.",
+      "La medición de nitrógeno no tiene utilidad.": "El PDF no respalda negar toda utilidad a la medición de nitrógeno en el análisis cuantitativo fecal.",
+      "Un fecalograma es la cuantificación de nutrientes en heces.": "También es verdadera, pero por sí sola omite la técnica infrarroja indicada en A."
+    },
+    "claveMemorizar": "Fecalograma = nutrientes fecales cuantificados por infrarrojo.",
+    "fuente": "Tema 4 F. digestiva, p. 31"
+  },
+  "94": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La lipasa digestiva hidroliza triglicéridos de la dieta y libera ácidos grasos y glicerol. Esa reacción facilita el procesamiento intestinal de los lípidos ingeridos.",
+    "motivosPorOpcion": {
+      "Esterifica el colesterol libre de la dieta.": "La esterificación del colesterol es una reacción distinta de la hidrólisis de triglicéridos atribuida aquí a la lipasa.",
+      "Esterifica el colesterol endógeno.": "La función descrita en el temario para la lipasa es hidrolítica y actúa sobre triglicéridos, no esterificante sobre colesterol.",
+      "Ninguna de las funciones anteriores.": "Sí existe una función recogida en el temario: convertir triglicéridos en ácidos grasos y glicerol."
+    },
+    "claveMemorizar": "Lipasa digestiva: triglicéridos a ácidos grasos y glicerol.",
+    "fuente": "Tema 4 F. digestiva, p. 51",
+    "advertenciaRevision": "El enunciado equipara lipoproteinlipasa con lipasa digestiva; el PDF solo describe la lipasa que hidroliza triglicéridos de la dieta y no sustenta esa equivalencia terminológica."
+  },
+  "95": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La lipasa sérica posee mayor especificidad y sensibilidad pancreática que la amilasa. Además permanece elevada durante más tiempo, entre 7 y 14 días según el temario.",
+    "motivosPorOpcion": {
+      "La amilasa se libera significativamente antes que la lipasa": "El PDF aporta el ascenso de amilasa entre 6 y 48 horas, pero no establece que su liberación sea significativamente anterior a la de lipasa.",
+      "La lipasa se libera significativamente antes que la amilasa.": "La ventaja documentada de lipasa es su persistencia y especificidad, no una liberación significativamente más precoz.",
+      "La amilasa es más específica que la lipasa": "La amilasa también aumenta en múltiples procesos no pancreáticos, por lo que es menos específica."
+    },
+    "claveMemorizar": "Pancreatitis: lipasa más específica que amilasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 50-51"
+  },
+  "96": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "HLA-DQ2 es el principal factor HLA de susceptibilidad para enfermedad celíaca. Más del 90 % de los pacientes porta este heterodímero, mientras que una fracción menor presenta DQ8.",
+    "motivosPorOpcion": {
+      "HLA DR 1": "No aparece entre las asociaciones de riesgo celíaco descritas en el temario.",
+      "HLA Aw68": "No es uno de los heterodímeros HLA vinculados en el PDF a la predisposición celíaca.",
+      "HLA B27": "Se asocia clásicamente con espondiloartritis, no es el principal marcador genético de celiaquía."
+    },
+    "claveMemorizar": "Más del 90 % de celíacos porta HLA-DQ2.",
+    "fuente": "Tema 4 F. digestiva, pp. 42 y 45"
+  },
+  "97": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la pancreatitis aguda aumentan amilasa y lipasa séricas, habitualmente por encima de tres veces el límite superior de referencia. En la pancreatitis crónica pueden alterarse, pero no son esenciales para el diagnóstico.",
+    "motivosPorOpcion": {
+      "El diagnóstico de pancreatitis crónica.": "La pancreatitis crónica se diagnostica principalmente con clínica e imagen; amilasa y lipasa no son esenciales.",
+      "El diagnóstico de ambas pancreatitis.": "La utilidad decisiva de estas enzimas se concentra en el cuadro agudo, no por igual en ambos tipos.",
+      "No tiene una importancia real.": "Su elevación constituye uno de los datos diagnósticos principales de pancreatitis aguda."
+    },
+    "claveMemorizar": "Amilasa y lipasa séricas son esenciales en pancreatitis aguda.",
+    "fuente": "Tema 4 F. digestiva, pp. 48-49"
+  },
+  "98": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La lipasa analizada en clínica como marcador de pancreatitis procede principalmente del páncreas. Su mayor especificidad frente a amilasa explica su preferencia diagnóstica.",
+    "motivosPorOpcion": {
+      "En las células hepáticas.": "Existen lipasas en el hígado, pero no son la fuente principal del marcador sérico pancreático considerado en este contexto.",
+      "En el tejido cardíaco.": "El tejido cardíaco no es la localización que fundamenta el uso diagnóstico habitual de lipasa en pancreatitis.",
+      "En el tejido muscular.": "La lipasa pancreática usada como marcador clínico no se localiza primariamente en músculo."
+    },
+    "claveMemorizar": "Lipasa clínica habitual: origen pancreático.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 51",
+    "advertenciaRevision": "El PDF presenta la lipasa como marcador pancreático y enumera otros tejidos donde existe, pero no formula literalmente una comparación de cuál localización es la más analizada."
+  },
+  "99": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos contra transglutaminasa tisular son el marcador serológico de cribado preferente para enfermedad celíaca. Su medición en clase IgA se interpreta junto a la concentración total de IgA.",
+    "motivosPorOpcion": {
+      "Artritis reumatoide": "La artritis reumatoide se caracteriza por otros autoanticuerpos y no se criba mediante anti-transglutaminasa.",
+      "Diabetes tipo I": "La diabetes tipo 1 predispone a celiaquía, pero esta asociación no convierte a anti-tTG en marcador de la diabetes.",
+      "Tiroiditis de Hashimoto": "La autoinmunidad tiroidea es un factor asociado, aunque su serología diagnóstica no se basa en anti-tTG."
+    },
+    "claveMemorizar": "Antitransglutaminasa tisular: serología de celiaquía.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "100": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ingesta de hierro puede conferir tonalidad negra a las heces. Sin embargo, ese color también puede aparecer por bismuto, carbón o hemorragia digestiva alta.",
+    "motivosPorOpcion": {
+      "Que el paciente es vegetariano.": "El temario asocia las verduras con color verde, no específicamente con heces negras.",
+      "Que el paciente presenta una infección bacteriana.": "La tonalidad negra no se presenta en el PDF como signo específico de infección bacteriana.",
+      "No se pueden encontrar heces de esta tonalidad.": "Las heces negras sí existen y pueden corresponder a fármacos, hierro, carbón o melenas."
+    },
+    "claveMemorizar": "Heces negras: hierro, bismuto, carbón o sangrado alto.",
+    "fuente": "Tema 4 F. digestiva, p. 21",
+    "advertenciaRevision": "La opción A es una causa posible, pero el color negro no permite concluir por sí solo que el paciente toma hierro; el enunciado es clínicamente inespecífico."
+  },
+  "101": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La secretina estimula al páncreas para que segregue jugo digestivo hacia el duodeno. Es una hormona gastrointestinal que coordina la respuesta pancreática al contenido intestinal.",
+    "motivosPorOpcion": {
+      "Angiotensina.": "Forma parte del sistema renina-angiotensina y regula presión arterial y balance hidrosalino.",
+      "Eritropoyetina.": "Estimula la producción de eritrocitos en la médula ósea, no la secreción pancreática.",
+      "Vasopresina.": "Favorece la reabsorción renal de agua y no es la hormona digestiva señalada para estimular el páncreas."
+    },
+    "claveMemorizar": "Secretina estimula la secreción pancreática.",
+    "fuente": "Tema 4 F. digestiva, p. 14"
+  },
+  "102": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos antitransglutaminasa IgA son la prueba serológica inicial de cribado para celiaquía. Deben solicitarse junto con IgA total para detectar un posible déficit de esta inmunoglobulina.",
+    "motivosPorOpcion": {
+      "Anticuerpos antiendomisio IgA.": "Los EMA-IgA forman parte del estudio serológico, pero el temario designa anti-tTG IgA como prueba de screening.",
+      "Anticuerpos antigliadina IgA.": "El PDF menciona anticuerpos frente a péptidos deaminados de gliadina, no antigliadina IgA como elección inicial.",
+      "HLA DQ2/DQ8.": "DQ2 y DQ8 indican predisposición genética; su presencia no confirma enfermedad activa y no sustituye al cribado serológico."
+    },
+    "claveMemorizar": "Primera prueba: anti-tTG IgA con IgA total.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "103": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fibrosis quística es una enfermedad autosómica recesiva causada por alteraciones en CFTR, localizado en el cromosoma 7. El gen codifica un canal de cloro y su disfunción altera secreciones exocrinas.",
+    "motivosPorOpcion": {
+      "El hipotiroidismo congénito.": "Es un trastorno de producción o desarrollo tiroideo y no deriva de mutaciones en CFTR.",
+      "La fenilcetonuria.": "Se debe a un defecto del metabolismo de fenilalanina, no a un canal de cloro CFTR.",
+      "La tirosinemia tipo I.": "Es un error del catabolismo de tirosina y no una enfermedad de secreciones exocrinas causada por CFTR."
+    },
+    "claveMemorizar": "CFTR, cromosoma 7, canal de cloro: fibrosis quística.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "104": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los hidratos de carbono se señalan como la principal fuente de energía del organismo. Su digestión convierte polisacáridos y disacáridos en monosacáridos absorbibles.",
+    "motivosPorOpcion": {
+      "Proteínas": "Su función principal incluye estructura y actividad biológica, aunque también puedan aportar energía.",
+      "Lípidos": "Son una reserva energética concentrada, pero el temario no los identifica como la fuente principal inmediata.",
+      "Vitaminas": "Actúan como micronutrientes reguladores y no proporcionan energía metabólica."
+    },
+    "claveMemorizar": "Carbohidratos = principal fuente energética.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  },
+  "105": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El hierro se absorbe en el duodeno en estado ferroso, Fe2+, y circula unido a transferrina en estado férrico, Fe3+. Después se incorpora a la hemoglobina nuevamente como Fe2+.",
+    "motivosPorOpcion": {
+      "Se absorbe como Fe 2+ y se transporta como Fe 2+.": "Mantiene correctamente la forma absorbida, pero asigna al transporte el estado ferroso en vez del férrico.",
+      "Se absorbe como Fe 3+ y se transporta como Fe 2+.": "Invierte ambos estados descritos: la absorción es ferrosa y el transporte en transferrina es férrico.",
+      "Se absorbe como Fe 3+ y se transporta como Fe": "Atribuye Fe3+ a la absorción y deja incompleto el estado de oxidación durante el transporte."
+    },
+    "claveMemorizar": "Hierro: absorción 2+, transporte 3+, hemoglobina 2+.",
+    "fuente": "Tema 4 F. digestiva, p. 14"
+  },
+  "106": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los heterodímeros HLA-DQ2 y HLA-DQ8 concentran la susceptibilidad genética conocida para celiaquía. Aproximadamente el 90 % de pacientes presenta DQ2 y otro 5-10 % DQ8.",
+    "motivosPorOpcion": {
+      "HLA DQ1 y DQ2.": "Incluye DQ2, pero sustituye DQ8 por DQ1, que no figura como asociación principal en el temario.",
+      "HLA DR2 y DR3.": "DR3 puede acompañar a DQ2, pero DR2 no constituye la pareja de heterodímeros de riesgo solicitada.",
+      "HLA DR3 y DR4.": "Son asociaciones en desequilibrio con ciertos DQ, pero los alelos señalados directamente son DQ2 y DQ8."
+    },
+    "claveMemorizar": "Susceptibilidad celíaca: HLA-DQ2 y HLA-DQ8.",
+    "fuente": "Tema 4 F. digestiva, pp. 42 y 45"
+  },
+  "107": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La cuantificación de nutrientes o fecalograma se realiza mediante espectroscopia de reflectancia en el infrarrojo cercano. El intervalo de longitudes de onda descrito es de 1400 a 2600 nm, por lo que B y C expresan aspectos de la misma técnica.",
+    "motivosPorOpcion": {
+      "Espectroscopía de absorción atómica.": "Esta técnica se orienta a elementos y no es la recomendada en el temario para cuantificar el conjunto de nutrientes fecales.",
+      "Espectroscopía de reflectancia en el infrarrojo cercano.": "Identifica correctamente la técnica, pero D añade también su intervalo espectral.",
+      "Método basado en la absorción de las moléculas entre 1400nm y 2600nm.": "Describe el intervalo infrarrojo correcto, pero D reúne esta propiedad con el nombre de la técnica."
+    },
+    "claveMemorizar": "Fecalograma: infrarrojo cercano, 1400-2600 nm.",
+    "fuente": "Tema 4 F. digestiva, p. 31"
+  },
+  "108": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La lactosa es un disacárido formado por glucosa y galactosa. Para absorberla debe ser hidrolizada por lactasa a sus dos monosacáridos.",
+    "motivosPorOpcion": {
+      "Almidón.": "Es un polisacárido vegetal compuesto por numerosas unidades de glucosa.",
+      "Glucógeno.": "Es un polisacárido de reserva animal, no un azúcar de dos monosacáridos.",
+      "Heparina.": "Es un glucosaminoglucano sulfatado con función anticoagulante, no un disacárido dietético."
+    },
+    "claveMemorizar": "Lactosa = glucosa + galactosa.",
+    "fuente": "Tema 4 F. digestiva, p. 3"
+  }
+}

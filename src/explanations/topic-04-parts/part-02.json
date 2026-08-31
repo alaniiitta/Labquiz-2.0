@@ -1,0 +1,406 @@
+{
+  "37": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La calprotectina es una proteína de origen neutrofílico cuya concentración fecal se correlaciona con la intensidad de la inflamación intestinal. Por ello se usa como marcador de elección en la enfermedad inflamatoria intestinal.",
+    "motivosPorOpcion": {
+      "Osmolaridad.": "La osmolaridad y la brecha osmótica ayudan a clasificar diarreas osmóticas, pero no son marcadores específicos de inflamación intestinal.",
+      "Grasa": "La grasa fecal se estudia para detectar esteatorrea y malabsorción lipídica.",
+      "Quimotripsina": "La quimotripsina fecal valora la función pancreática exocrina y disminuye en su insuficiencia."
+    },
+    "claveMemorizar": "Calprotectina fecal = inflamación intestinal neutrofílica.",
+    "fuente": "Tema 4 F. digestiva, p. 29"
+  },
+  "38": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La aquilia implica falta de secreción gástrica eficaz, lo que dificulta la digestión inicial de las proteínas. El patrón descrito es el de fibras musculares en manojos acompañadas de abundante tejido conectivo.",
+    "motivosPorOpcion": {
+      "Insuficiencia pancreática crónica": "La insuficiencia pancreática puede causar maldigestión proteica, pero el patrón de manojos con tejido conectivo se atribuye específicamente a la aquilia gástrica.",
+      "Tránsito intestinal rápido": "El tránsito rápido se asocia en el temario con almidón sin digerir y amilorrea, no con este patrón muscular específico.",
+      "Parasitosis.": "Las parasitosis pueden producir inflamación y cristales derivados de eosinófilos, pero no explican este patrón de fibras musculares."
+    },
+    "claveMemorizar": "Manojos musculares con tejido conectivo = aquilia gástrica.",
+    "fuente": "Tema 4 F. digestiva, p. 35"
+  },
+  "39": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La esteatorrea es la excreción aumentada de grasa en las heces; el temario fija el criterio cuantitativo en más de 7 g de lípidos por 24 horas.",
+    "motivosPorOpcion": {
+      "Grasorrea": "Aunque es una construcción descriptiva comprensible, no es el término clínico empleado en el temario para el exceso de grasa fecal.",
+      "Lipidosis": "Una lipidosis es un trastorno de acumulación de lípidos en tejidos, no grasa aumentada en heces.",
+      "Melenas": "Las melenas son heces negras por hemorragia digestiva alta."
+    },
+    "claveMemorizar": "Esteatorrea = más de 7 g de grasa fecal al día.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
+  },
+  "40": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El test de Van de Kamer cuantifica la grasa eliminada en heces de 24 horas, habitualmente a partir de una recogida de tres días. Es el método de referencia para determinar grasas fecales.",
+    "motivosPorOpcion": {
+      "Medir nivel de glucosa": "La glucosa no es el analito del método de Van de Kamer.",
+      "Detecta la anemia ferropénica": "La anemia ferropénica se evalúa mediante parámetros hematológicos y del metabolismo del hierro, no mediante grasa fecal.",
+      "Detecta déficits vitamínicos": "La esteatorrea puede favorecer déficits de vitaminas liposolubles, pero Van de Kamer no mide vitaminas."
+    },
+    "claveMemorizar": "Si preguntan qué cuantifica Van de Kamer: grasa fecal total.",
+    "fuente": "Tema 4 F. digestiva, pp. 32-33"
+  },
+  "41": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La amilorrea es la presencia de almidón sin digerir en las heces y puede reflejar un tránsito intestinal acelerado.",
+    "motivosPorOpcion": {
+      "Creatorrea": "La creatorrea designa fibras de carne sin digerir en las heces.",
+      "Esteatorrea": "La esteatorrea es el aumento de grasa fecal.",
+      "Melenas": "Las melenas son heces negras originadas por sangre digerida."
+    },
+    "claveMemorizar": "Restos de almidón en heces reciben el nombre de amilorrea.",
+    "fuente": "Tema 4 F. digestiva, p. 34"
+  },
+  "42": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La alfa-1-antitripsina fecal permite valorar la pérdida intestinal de proteínas porque su presencia y aclaramiento reflejan el escape proteico hacia la luz intestinal.",
+    "motivosPorOpcion": {
+      "Van de Kramer": "Van de Kamer cuantifica grasa fecal, no pérdida intestinal de proteínas.",
+      "Calprotectina": "La calprotectina es un marcador neutrofílico de inflamación intestinal.",
+      "Prueba D xilosa": "La D-xilosa examina la capacidad de absorción de la mucosa intestinal proximal."
+    },
+    "claveMemorizar": "Pérdida proteica intestinal = alfa-1-antitripsina fecal.",
+    "fuente": "Tema 4 F. digestiva, pp. 35, 54"
+  },
+  "43": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La clave original considera que ninguna de las tres instrucciones dietéticas propuestas describe correctamente la preparación. El temario solo indica que la dieta debe controlarse los días previos, sin concretar aquí las restricciones de carne o vitamina C.",
+    "motivosPorOpcion": {
+      "Debe tomarse abundante cantidad de vitamina C en los días previos a la prueba": "La opción propone aumentar deliberadamente una sustancia dietética sin que el protocolo del temario lo indique.",
+      "Debe tomarse abundante cantidad de carne en los días previos a la prueba": "La opción propone aumentar deliberadamente la carne, pese a que el temario exige controlar la dieta para evitar resultados falsos.",
+      "No debe tomarse ninguna cantidad de vitamina C": "La prohibición absoluta no queda establecida en el texto extraído del temario."
+    },
+    "claveMemorizar": "Guayaco: controlar la dieta previa por posibles falsos resultados.",
+    "fuente": "Tema 4 F. digestiva, p. 27",
+    "advertenciaRevision": "El PDF no detalla qué cantidad de vitamina C o carne debe evitarse; solo exige controlar la dieta. No permite verificar de forma completa que D sea preferible a C."
+  },
+  "44": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El temario cifra en 150 ml la pérdida normal diaria de agua por las heces.",
+    "motivosPorOpcion": {
+      "250 ml": "Supera en 100 ml la cifra normal indicada en el temario.",
+      "200 ml": "Aunque está dentro del rango de masa fecal diaria, no es el volumen de agua fecal señalado.",
+      "100 ml": "Es inferior en 50 ml a la cifra normal indicada."
+    },
+    "claveMemorizar": "Agua fecal normal: 150 ml/día.",
+    "fuente": "Tema 4 F. digestiva, p. 20"
+  },
+  "45": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Cuando no llega bilis al intestino no se forma urobilinógeno y las heces se vuelven acólicas. Su aspecto puede ser blanquecino grisáceo, descrito como color yeso.",
+    "motivosPorOpcion": {
+      "Ladrillo": "No es el aspecto que el temario relaciona con la ausencia de pigmentos biliares.",
+      "Oro": "La falta de bilis aclara las heces en vez de producir un tono dorado.",
+      "Cemento": "El temario usa específicamente la comparación con yeso para las heces acólicas."
+    },
+    "claveMemorizar": "Acolia por falta de bilis = heces color yeso.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
+  },
+  "46": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La respuesta original exige refrigerar en hielo la muestra destinada a gastrina. El temario confirma que se determina gastrina en suero y en ayunas, pero no especifica cómo conservar o transportar la muestra.",
+    "motivosPorOpcion": {
+      "Calentamiento en estufa a 40ºC": "El PDF no describe calentamiento de la muestra como parte de la determinación de gastrina.",
+      "Mantener la muestra a temperatura ambiente": "El PDF no aporta estabilidad a temperatura ambiente que permita aceptar esta condición.",
+      "Congelación, en nitrógeno líquido": "El PDF no establece congelación criogénica para esta determinación."
+    },
+    "claveMemorizar": "Gastrina: muestra de suero obtenida en ayunas.",
+    "fuente": "Tema 4 F. digestiva, p. 54",
+    "advertenciaRevision": "La refrigeración en hielo no aparece en el PDF; la página citada solo sustenta el uso de suero en ayunas. La respuesta A requiere una fuente preanalítica adicional."
+  },
+  "47": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la prueba del guayaco, la actividad pseudoperoxidasa de la hemoglobina cataliza la oxidación del indicador. La reacción positiva produce color azul.",
+    "motivosPorOpcion": {
+      "Verde": "El verde puede aparecer en otras reacciones colorimétricas, pero no es el positivo del guayaco descrito.",
+      "Rojo": "El rojo corresponde al aspecto de la grasa teñida con Sudán III, no a esta reacción.",
+      "Amarillo": "El amarillo no es el color final positivo de la oxidación del guayaco."
+    },
+    "claveMemorizar": "Guayaco positivo = azul.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-26"
+  },
+  "48": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las sales biliares emulsionan los lípidos, facilitando su digestión y posterior absorción intestinal.",
+    "motivosPorOpcion": {
+      "Lactosa": "La lactosa requiere lactasa para convertirse en monosacáridos absorbibles.",
+      "Hierro": "El hierro se absorbe principalmente en duodeno y su absorción mejora con vitamina C y pH ácido.",
+      "Vitaminas B12": "La vitamina B12 depende del factor intrínseco y se absorbe en el íleon."
+    },
+    "claveMemorizar": "Sales biliares = emulsión y absorción de grasas.",
+    "fuente": "Tema 4 F. digestiva, pp. 14, 18"
+  },
+  "49": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Lugol permite visualizar microscópicamente el almidón no digerido en las heces durante el estudio de principios inmediatos.",
+    "motivosPorOpcion": {
+      "Sudán III": "Sudán III tiñe de rojo los glóbulos de grasa fecal.",
+      "Ácido acético": "El ácido acético no es el reactivo indicado en el temario para identificar almidón fecal.",
+      "Bencidina": "La bencidina se emplea en métodos químicos de detección de sangre oculta."
+    },
+    "claveMemorizar": "Almidón en heces = Lugol.",
+    "fuente": "Tema 4 F. digestiva, p. 34"
+  },
+  "50": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cuerpos reductores deben analizarse en una muestra reciente para preservar azúcares como glucosa, lactosa, fructosa o galactosa antes de su consumo o transformación.",
+    "motivosPorOpcion": {
+      "Debe recogerse en medio de conservación": "El método Clinitest descrito requiere una muestra reciente y no indica un medio conservante.",
+      "Puede guardarse en nevera hasta el siguiente día": "Posponer el análisis contradice el requisito explícito de muestra reciente.",
+      "Puede analizarse al día siguiente pero nunca refrigerarse": "El análisis al día siguiente tampoco cumple el requisito de inmediatez de la muestra."
+    },
+    "claveMemorizar": "Cuerpos reductores: muestra fecal reciente.",
+    "fuente": "Tema 4 F. digestiva, p. 36"
+  },
+  "51": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La clave original señala que amilasa y lipasa aumentan en la pancreatitis aguda. El temario confirma el aumento de ambas enzimas, superior a tres veces el límite de referencia, pero no lo localiza específicamente en líquido ascítico.",
+    "motivosPorOpcion": {
+      "Lipasa": "La lipasa sí aumenta en pancreatitis aguda, pero esta opción aislada omite el aumento concomitante de amilasa que recoge la clave.",
+      "Amilasa": "La amilasa sí aumenta en pancreatitis aguda, pero esta opción aislada omite el aumento concomitante de lipasa que recoge la clave.",
+      "Sólo se elevan en la sangre, no el líquido ascítico": "El temario no establece esa exclusividad ni compara sangre con líquido ascítico."
+    },
+    "claveMemorizar": "Pancreatitis aguda: aumentan amilasa y lipasa; lipasa es mejor marcador.",
+    "fuente": "Tema 4 F. digestiva, p. 48",
+    "advertenciaRevision": "El PDF sustenta el aumento de amilasa y lipasa en pancreatitis aguda, pero no menciona su medición en líquido ascítico. Ese componente de la pregunta necesita otra fuente."
+  },
+  "52": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las técnicas inmunológicas usan anticuerpos específicos frente a la globina de la hemoglobina humana. Esa especificidad proporciona mayor sensibilidad y menos falsos positivos que las reacciones químicas.",
+    "motivosPorOpcion": {
+      "Método del piramidón": "Es una reacción química de oxidación y carece de la especificidad antigénica de los anticuerpos.",
+      "Reacción de bencidina": "Detecta actividad pseudoperoxidasa, por lo que está más expuesta a interferencias que el método inmunológico.",
+      "Tabletas reactivas con guayaco": "El guayaco es rápido y semicuantitativo, pero exige controlar la dieta por sus falsos resultados."
+    },
+    "claveMemorizar": "Sangre oculta: inmunológico = más sensible y específico.",
+    "fuente": "Tema 4 F. digestiva, pp. 27-28"
+  },
+  "53": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La detección de sangre oculta en heces se utiliza para el cribado poblacional del cáncer colorrectal. Un resultado positivo requiere confirmación mediante colonoscopia.",
+    "motivosPorOpcion": {
+      "CA19.9": "CA19.9 es un marcador tumoral sérico que no se propone en el temario como prueba de cribado colorrectal universal.",
+      "CEA": "El CEA se usa principalmente en seguimiento oncológico y no como cribado universal de población asintomática.",
+      "CYFRA 21": "CYFRA 21 no es la determinación fecal indicada para cribado de cáncer colorrectal."
+    },
+    "claveMemorizar": "Cribado colorrectal = sangre oculta; confirmación = colonoscopia.",
+    "fuente": "Tema 4 F. digestiva, p. 25"
+  },
+  "54": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La amilasa puede elevarse en pancreatitis, parotiditis y embarazo ectópico. No es exclusiva del páncreas porque existen isoenzimas pancreática y salival y también aumenta en procesos extrapancreáticos.",
+    "motivosPorOpcion": {
+      "Pancreatitis": "La pancreatitis eleva la amilasa, pero no es la única situación enumerada.",
+      "Parotiditis": "La afectación de glándulas salivares puede elevar la amilasa, pero tampoco es la única causa propuesta.",
+      "Embarazo ectópico": "El embarazo ectópico figura entre las causas de elevación, pero la respuesta aislada queda incompleta."
+    },
+    "claveMemorizar": "Amilasa alta no equivale siempre a pancreatitis.",
+    "fuente": "Tema 4 F. digestiva, pp. 48, 50"
+  },
+  "55": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tres afirmaciones previas son falsas: la lipasa ofrece ventajas sobre la amilasa, es más específica y sensible, y persiste elevada durante más tiempo. El temario no incluye hepatitis ni parotiditis entre sus causas de elevación.",
+    "motivosPorOpcion": {
+      "Su determinación no tiene ventajas sobre la amilasa": "La lipasa permanece elevada 7-14 días y presenta mayor sensibilidad y especificidad.",
+      "Es menos específica del páncreas que la amilasa": "El temario afirma justamente que la lipasa es más específica que la amilasa.",
+      "También se eleva en la hepatitis y la parotiditis": "Hepatitis y parotiditis se enumeran como causas de amilasa elevada, no de lipasa."
+    },
+    "claveMemorizar": "Lipasa: más específica, sensible y duradera que amilasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 50-51"
+  },
+  "56": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el estómago, el HCl activa el pepsinógeno a pepsina y esta rompe enlaces peptídicos de las proteínas. Esa es una hidrólisis proteica inicial, aunque la liberación completa de aminoácidos requiere etapas digestivas posteriores.",
+    "motivosPorOpcion": {
+      "Se absorben en la sangre y van al músculo a dar energía": "El temario indica que en el estómago no se absorben los alimentos; la absorción ocurre sobre todo en intestino delgado.",
+      "No se hidrolizan en sus aminoácidos correspondientes": "Sí comienza la proteólisis gástrica por acción de la pepsina sobre los enlaces peptídicos.",
+      "Ninguna respuesta es correcta": "Existe digestión gástrica de proteínas, por lo que no puede descartarse toda la afirmación B."
+    },
+    "claveMemorizar": "Estómago: HCl activa pepsina e inicia la proteólisis.",
+    "fuente": "Tema 4 F. digestiva, pp. 2, 13",
+    "advertenciaRevision": "La redacción de B es imprecisa: el PDF sustenta hidrólisis de enlaces peptídicos en el estómago, no conversión completa de las proteínas en aminoácidos libres."
+  },
+  "57": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La macroamilasemia es una elevación persistente de amilasa sérica causada habitualmente por su unión a una inmunoglobulina, formando un complejo grande. Su tamaño impide la filtración renal y prolonga la vida media circulante.",
+    "motivosPorOpcion": {
+      "Hiperamilasemia acompañada de hiperamilasuria": "En macroamilasemia la amilasa urinaria suele ser normal o indetectable porque el complejo no se filtra.",
+      "Hiperamilasemia acompañada de hiperlipasemia": "La elevación de lipasa no define la formación del complejo macromolecular de amilasa.",
+      "Corresponde a la actividad de la amilasa detectada en el jugo pancreático": "La macroamilasemia es un fenómeno circulante sérico, no una medición del jugo pancreático."
+    },
+    "claveMemorizar": "Macroamilasa = amilasa unida a inmunoglobulina, sérica alta y urinaria baja.",
+    "fuente": "Tema 4 F. digestiva, p. 50"
+  },
+  "58": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La parotiditis puede elevar la amilasa por afectación de las glándulas salivares. Sin embargo, el texto extraído del temario no afirma de manera específica que produzca hiperamilasuria.",
+    "motivosPorOpcion": {
+      "Cólico hepático": "El temario cita colelitiasis y colecistitis entre situaciones con amilasa elevada, pero no identifica el cólico hepático como causa concreta de hiperamilasuria.",
+      "Insuficiencia renal": "El fracaso renal puede elevar la amilasa sérica por menor eliminación, pero el PDF no lo presenta como causa de hiperamilasuria.",
+      "Amigdalitis": "La amigdalitis no figura entre las causas de elevación de amilasa recogidas en el temario."
+    },
+    "claveMemorizar": "Parotiditis puede elevar amilasa de origen salival.",
+    "fuente": "Tema 4 F. digestiva, p. 50",
+    "advertenciaRevision": "El PDF vincula parotiditis con amilasa elevada, pero no distingue aquí amilasa sérica de hiperamilasuria. La localización urinaria de la pregunta necesita otra fuente."
+  },
+  "59": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La respuesta original sitúa el máximo de hiperamilasemia en 24-28 horas. El temario solo señala que la amilasa se eleva entre 6 y 48 horas tras el inicio y vuelve generalmente a la normalidad en 3-5 días.",
+    "motivosPorOpcion": {
+      "Un mes": "Es incompatible con la normalización habitual de la amilasa a los 3-5 días.",
+      "Una semana": "También supera el intervalo habitual de normalización descrito.",
+      "5 días": "A los cinco días la amilasa suele estar retornando a la normalidad, no alcanzando su máximo."
+    },
+    "claveMemorizar": "Amilasa: sube en 6-48 h y normaliza en 3-5 días.",
+    "fuente": "Tema 4 F. digestiva, p. 50",
+    "advertenciaRevision": "El PDF no proporciona el intervalo exacto de 24-28 horas para el pico máximo; solo ofrece una ventana de elevación de 6-48 horas."
+  },
+  "60": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La amilasa sérica incluye una fracción pancreática y otra salival. Por eso las enfermedades de las glándulas salivares, como la parotiditis, también pueden elevarla.",
+    "motivosPorOpcion": {
+      "Glándulas sudoríparas": "El temario no atribuye a las glándulas sudoríparas una isoenzima relevante de la amilasa sérica.",
+      "Páncreas exocrino": "El páncreas exocrino ya aparece en el enunciado; la otra procedencia destacada es la salival.",
+      "Metabolismo hepático": "El hígado no se presenta como la segunda fuente fisiológica de amilasa sérica."
+    },
+    "claveMemorizar": "Amilasa sérica = pancreática + salival.",
+    "fuente": "Tema 4 F. digestiva, p. 50"
+  },
+  "61": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El hierro se absorbe en forma ferrosa, Fe2+, principalmente en duodeno. El pH ácido y el ácido ascórbico favorecen esta absorción, por lo que A y B describen mecanismos compatibles.",
+    "motivosPorOpcion": {
+      "Acción del pH ácido del estómago y del ácido ascórbico": "Es un factor favorecedor verdadero, pero la opción combinada recoge además la forma química absorbida.",
+      "Se absorbe como Fe++": "La forma Fe2+ es correcta, pero la opción combinada incorpora también los factores que facilitan su absorción.",
+      "Al aumentar la ferritina sérica aumenta la absorción de hierro": "La ferritina refleja depósitos de hierro y el temario no la presenta como estímulo de absorción."
+    },
+    "claveMemorizar": "Hierro: Fe2+ en duodeno; vitamina C y pH ácido favorecen.",
+    "fuente": "Tema 4 F. digestiva, p. 14"
+  },
+  "62": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El hierro se absorbe principalmente en el duodeno como ion ferroso, Fe2+. Después circula unido a transferrina en forma férrica, Fe3+.",
+    "motivosPorOpcion": {
+      "Fe++ en el hígado": "El hígado no es el lugar de absorción intestinal del hierro.",
+      "Fe+++ en duodeno": "La forma indicada para la absorción duodenal es Fe2+, no Fe3+.",
+      "Fe++ en íleon": "El íleon se relaciona con absorción de vitamina B12 y sales biliares, mientras el hierro se absorbe en duodeno."
+    },
+    "claveMemorizar": "Hierro absorbido: Fe2+ en duodeno.",
+    "fuente": "Tema 4 F. digestiva, p. 14"
+  },
+  "63": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las vitaminas A, D, E y K son liposolubles y su absorción puede alterarse cuando existe malabsorción de grasas.",
+    "motivosPorOpcion": {
+      "B12 y ácido fólico": "La vitamina B12 y el ácido fólico pertenecen al grupo de vitaminas hidrosolubles.",
+      "Vit C y vit B12": "Tanto la vitamina C como la B12 son hidrosolubles.",
+      "Ácido ascórbico": "Ácido ascórbico es vitamina C, una vitamina hidrosoluble."
+    },
+    "claveMemorizar": "Liposolubles: A, D, E y K.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
+  },
+  "64": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La respuesta original exige recoger las heces en un recipiente perfectamente limpio para evitar contaminación de la muestra. El temario consultado solo concreta el tamaño aproximado de la muestra y algunos medios de transporte.",
+    "motivosPorOpcion": {
+      "Mezclar heces y orinas": "Mezclar matrices contamina la muestra fecal y altera su evaluación.",
+      "Llenar el recipiente hasta el borde": "El temario indica una cantidad aproximada al tamaño de una nuez, no llenar el recipiente.",
+      "A y B son correctas": "No puede ser correcta porque incluye mezclar heces con orina."
+    },
+    "claveMemorizar": "Muestra fecal: recipiente limpio, sin orina y cantidad de una nuez.",
+    "fuente": "Tema 4 F. digestiva, p. 19",
+    "advertenciaRevision": "El PDF sustenta la cantidad aproximada de muestra, pero no expresa literalmente que el recipiente deba estar perfectamente limpio ni que se evite la orina."
+  },
+  "65": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La vitamina B12 forma un complejo con el factor intrínseco producido por las células parietales gástricas. Ese factor permite su absorción posterior en el íleon.",
+    "motivosPorOpcion": {
+      "Factor V": "El factor V es una proteína de la coagulación y no media la absorción de cobalamina.",
+      "Factor X": "El factor X pertenece a la cascada de coagulación y no transporta B12 al íleon.",
+      "Factor extrínseco": "El temario identifica específicamente al factor intrínseco como requisito de absorción."
+    },
+    "claveMemorizar": "B12 + factor intrínseco = absorción en íleon.",
+    "fuente": "Tema 4 F. digestiva, pp. 14, 46"
+  },
+  "66": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La enfermedad celíaca es una sensibilización frente a la gliadina, la fracción soluble en alcohol del gluten. La respuesta inmunitaria resultante lesiona y atrofia las vellosidades intestinales.",
+    "motivosPorOpcion": {
+      "Glucosa": "La glucosa es un monosacárido y no el antígeno desencadenante de la enfermedad celíaca.",
+      "Insulina": "La insulina es una hormona pancreática y no una fracción del gluten.",
+      "Ninguna es correcta": "Sí hay una opción definida en el temario: la gliadina."
+    },
+    "claveMemorizar": "Celiaquía = respuesta frente a gliadina del gluten.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
+  },
+  "67": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las fibras musculares bien digeridas presentan forma oval, extremos redondeados y ausencia de estrías visibles.",
+    "motivosPorOpcion": {
+      "Aparición de estrías": "Las estrías bien definidas caracterizan fibras mal digeridas.",
+      "Extremos cuadrados": "Los extremos cuadrados corresponden a fibras musculares mal digeridas.",
+      "Todas las anteriores son ciertas": "No todas son ciertas porque estrías y extremos cuadrados indican mala digestión."
+    },
+    "claveMemorizar": "Fibra digerida: oval, redondeada y sin estrías.",
+    "fuente": "Tema 4 F. digestiva, p. 35"
+  },
+  "68": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La amilorrea es la aparición de almidón no digerido en las heces; se investiga microscópicamente mediante Lugol.",
+    "motivosPorOpcion": {
+      "Creatorrea": "La creatorrea corresponde a fibras de carne sin digerir.",
+      "Esteatorrea": "La esteatorrea corresponde al exceso de grasa fecal.",
+      "Melenas": "Las melenas son heces negras por una hemorragia digestiva alta."
+    },
+    "claveMemorizar": "Almidón = amilorrea; carne = creatorrea.",
+    "fuente": "Tema 4 F. digestiva, p. 34"
+  },
+  "69": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La creatorrea es la presencia en las heces de fibras de carne que no han sido digeridas adecuadamente.",
+    "motivosPorOpcion": {
+      "Amilorrea": "La amilorrea designa almidón sin digerir, no fibras musculares.",
+      "Esteatorrea": "La esteatorrea es grasa fecal aumentada.",
+      "Melenas": "Las melenas indican sangre digerida procedente de una hemorragia alta."
+    },
+    "claveMemorizar": "Creatorrea = fibras de carne sin digerir.",
+    "fuente": "Tema 4 F. digestiva, p. 35"
+  },
+  "70": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fibrosis quística altera el canal de cloro CFTR y modifica las secreciones de varias glándulas exocrinas. La prueba del sudor con pilocarpina detecta esta alteración midiendo cloruro.",
+    "motivosPorOpcion": {
+      "Enfermedad celíaca": "La celiaquía se estudia mediante anticuerpos relacionados con gluten y daño de la mucosa intestinal, no con la prueba del sudor.",
+      "Enfermedades metabólicas": "La prueba descrita tiene una indicación diagnóstica concreta en fibrosis quística, no un cribado metabólico general.",
+      "Intolerancia al ejercicio": "La intolerancia al ejercicio no se diagnostica mediante cloruro en sudor en este temario."
+    },
+    "claveMemorizar": "Prueba del sudor = fibrosis quística.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "71": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la prueba del sudor se determina cloruro porque CFTR codifica un canal de cloro. El temario considera sugestivo un Cl superior a 60 mmol/l en al menos dos ocasiones.",
+    "motivosPorOpcion": {
+      "K": "El potasio no es el ion diagnóstico especificado en la prueba del sudor del temario.",
+      "Sales biliares": "Las sales biliares intervienen en digestión y absorción de grasas, no son el analito de esta prueba.",
+      "Mg": "El magnesio no es el electrolito usado como criterio diagnóstico de fibrosis quística."
+    },
+    "claveMemorizar": "Fibrosis quística: cloruro en sudor > 60 mmol/l, dos veces.",
+    "fuente": "Tema 4 F. digestiva, p. 47"
+  },
+  "72": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La clave original clasifica la fosfatasa alcalina como enzima no digestiva del jugo gástrico. Sin embargo, las páginas del temario dedicadas al jugo gástrico enumeran pepsina, amilasa gástrica, lipasa gástrica, renina y ureasa, pero no fosfatasa alcalina.",
+    "motivosPorOpcion": {
+      "Pepsina": "La pepsina es digestiva porque rompe enlaces peptídicos de las proteínas.",
+      "Lipasa gástrica": "La lipasa gástrica es digestiva porque hidroliza triglicéridos.",
+      "Todas son ciertas": "Pepsina y lipasa gástrica sí tienen actividad digestiva, de modo que no todas pueden ser enzimas no digestivas."
+    },
+    "claveMemorizar": "Pepsina digiere proteínas; lipasa gástrica hidroliza triglicéridos.",
+    "fuente": "Tema 4 F. digestiva, pp. 12-13",
+    "advertenciaRevision": "El PDF no menciona fosfatasa alcalina como componente del jugo gástrico ni la clasifica como enzima no digestiva. La respuesta C no puede verificarse con este temario."
+  }
+}
