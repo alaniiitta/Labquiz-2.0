@@ -78,6 +78,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 15 gases e iones (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-15-clean.json",
 	},
+	16: {
+		pdfPath: "pdfs/Test tema 16 Metabolismo lipídico (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-16-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -96,6 +100,7 @@ function normalizeText(value) {
 		.replace(/([¿¡])\s+/g, "$1")
 		.replace(/\btrioleí na\b/g, "trioleína")
 		.replace(/\bheteró filos\b/g, "heterófilos")
+		.replace(/\bapoB-\s+48\b/gi, "apoB-48")
 		.replace("marcador de.la pérdida", "marcador de .la pérdida")
 		.trim();
 }
