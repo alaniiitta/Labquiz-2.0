@@ -2117,7 +2117,7 @@
         "A": "Son útiles para detectar disomías uniparentales",
         "B": "Son útiles para detectar deleciones y duplicaciones",
         "C": "Son útiles para caracterizar reordenamientos equilibrados",
-        "D": "Son útiles para detectar pérdidas de heterocigosidad Explicación. El array CGH sirve para ver deleciones y duplicaciones pero NO para reordenamientos equilibrados o balanceados. A este array se le puede añadir sondas de SNPs para detectar las disomías uniparentales y pérdidas de heterocigosidad"
+        "D": "Son útiles para detectar pérdidas de heterocigosidad"
       },
       "page": 17,
       "correctAnswer": "C",
@@ -2260,7 +2260,7 @@
         "A": "Desnaturalización, extensión o elongación y anillamiento o templado.",
         "B": "Desnaturalización, anillamiento o templado y extensión o elongación.",
         "C": "Anillamiento o templado, desnaturalización y extensión o elongación.",
-        "D": "Extensión o elongación, anillamiento o templado, desnaturalización. Comentario. Anillamiento o templado es una forma rara de expresar la fase de hibridación"
+        "D": "Extensión o elongación, anillamiento o templado, desnaturalización."
       },
       "page": 18,
       "correctAnswer": "B",
@@ -2299,11 +2299,11 @@
         "A": "Euploidia",
         "B": "Poliploidia",
         "C": "Autopoliplidia",
-        "D": "Aneuploidia Comentario. Traduzco. Dice que no pierde juegos completos (N) sino que pierde cromosomas sueltos. Eso es una aneuploidía."
+        "D": "Aneuploidia"
       },
       "page": 18,
       "correctAnswer": "D",
-      "correctText": "Aneuploidia Comentario. Traduzco. Dice que no pierde juegos completos (N) sino que pierde cromosomas sueltos. Eso es una aneuploidía."
+      "correctText": "Aneuploidia"
     },
     {
       "id": 178,
@@ -2390,7 +2390,7 @@
         "A": "El ADN es una molécula más estable que el ARN.",
         "B": "Un codón puede significar más de un aminoácido.",
         "C": "Un codón es la combinación de tres nucleótidos.",
-        "D": "Las mitocondrias contienen ADN Explicación. Cada codón codifica para un solo aminoácido. Pero varios codones pueden codificar un mismo aminoácido."
+        "D": "Las mitocondrias contienen ADN"
       },
       "page": 19,
       "correctAnswer": "B",
@@ -2455,11 +2455,11 @@
         "A": "Un organismo gana o pierde una dotación completa de cromosomas.",
         "B": "Están presentes dotaciones haploides completas de cromosomas.",
         "C": "Hay más de dos dotaciones haploides.",
-        "D": "Un organismo gana o pierde uno o más cromosomas pero no una dotación completa. Explicación. Recordar que dotaciones completas son poliploidías"
+        "D": "Un organismo gana o pierde uno o más cromosomas pero no una dotación completa."
       },
       "page": 20,
       "correctAnswer": "D",
-      "correctText": "Un organismo gana o pierde uno o más cromosomas pero no una dotación completa. Explicación. Recordar que dotaciones completas son poliploidías"
+      "correctText": "Un organismo gana o pierde uno o más cromosomas pero no una dotación completa."
     },
     {
       "id": 190,
@@ -2533,7 +2533,7 @@
         "A": "Aneuploidía.",
         "B": "Poliploidía.",
         "C": "Traslocación.",
-        "D": "Deleción. Explicación: ojo, dice nº de cromosomas, no dice juego completo de cromosomas"
+        "D": "Deleción."
       },
       "page": 20,
       "correctAnswer": "A",
@@ -2650,11 +2650,11 @@
         "A": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleósido.",
         "B": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por una base nitrogenada.",
         "C": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por una pentosa.",
-        "D": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleótido. Comentario: recordar que luego por electroforesis se separan, y como el nucleótido terminal está marcado, podemos saber qué base nitrogenada está en cada posición"
+        "D": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleótido."
       },
       "page": 21,
       "correctAnswer": "D",
-      "correctText": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleótido. Comentario: recordar que luego por electroforesis se separan, y como el nucleótido terminal está marcado, podemos saber qué base nitrogenada está en cada posición"
+      "correctText": "Sintetizar a partir de fragmentos de ADN un grupo de hebras hijas marcadas en un extremo y que difieren en longitud por un nucleótido."
     },
     {
       "id": 205,
@@ -2689,7 +2689,7 @@
         "A": "Consiste en la extracción del ácido nucleico, amplificación de un fragmento del ácido nucleico y visualización del producto.",
         "B": "Utiliza el Cloruro de Magnesio para estabilizar el ADN de una sola cadena, y aumentando su concentración aumenta la especificidad.",
         "C": "En la hibridación los primers se unen de forma específica a su cadena complementaria.",
-        "D": "Para la amplificación del fragmento necesitamos, además de unos determinados reactivos, someterlo a ciclos repetitivos a unas temperaturas determinadas durante un tiempo determinado. Comentario: el ClMg2 es un cofactor necesario para la actividad de la ADN polimerasa. Tiene que ajustarse su concentración en función de la polimerasa, primers y secuencia a amplificar (generalmente de 1 a 5 mM). Si se coge poca concentración puede reducir la eficiencia de la amplificación y un exceso puede generar productos inespecíicos"
+        "D": "Para la amplificación del fragmento necesitamos, además de unos determinados reactivos, someterlo a ciclos repetitivos a unas temperaturas determinadas durante un tiempo determinado."
       },
       "page": 22,
       "correctAnswer": "B",
@@ -2728,7 +2728,7 @@
         "A": "Unidad física y funcional de herencia que trasporta información de una generación a la siguiente.",
         "B": "En términos moleculares, los cromosomas codificantes.",
         "C": "La consecuencia completa de ADN incluyendo la región amplificadora, necesaria para la síntesis de un producto génico funcional de tipo polipéptido o ARN.",
-        "D": "La secuencia completa de ADN, la cual incluye las regiones no codificantes de control de la transcripción, necesaria para la producción de una proteína funcional o ARN. Comentario: OJO con la redacción. Recordar que los genes tienen también zonas no codificantes (intrones), y que cromosoma hace referencia a una estructura organizada mucho más amplia."
+        "D": "La secuencia completa de ADN, la cual incluye las regiones no codificantes de control de la transcripción, necesaria para la producción de una proteína funcional o ARN."
       },
       "page": 22,
       "correctAnswer": "B",
@@ -3039,11 +3039,11 @@
         "A": "El método de Sanger y Coulson se basa en la síntesis enzimática de una copia complementaria a la molécula cuya secuencia se quiere conocer.",
         "B": "El método de Maxam y Gilber utiliza un marcador radiactivo de uno de los extremos de ADN",
         "C": "En el método de Sanger y Coulson la separación de los fragmentos se realiza por electroforesis y se utiliza un marcador radiactivo.",
-        "D": "En la secuenciación de última generación, a partir del fragmento de ADN, se obtiene ARN y se le añaden unas secuencias adaptadoras en sus extremos mediante ligación. Comentario: la C generalmente se utilizan marcadores fluorescentes más que radioactivos. Pero no es incorrecta"
+        "D": "En la secuenciación de última generación, a partir del fragmento de ADN, se obtiene ARN y se le añaden unas secuencias adaptadoras en sus extremos mediante ligación."
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "En la secuenciación de última generación, a partir del fragmento de ADN, se obtiene ARN y se le añaden unas secuencias adaptadoras en sus extremos mediante ligación. Comentario: la C generalmente se utilizan marcadores fluorescentes más que radioactivos. Pero no es incorrecta"
+      "correctText": "En la secuenciación de última generación, a partir del fragmento de ADN, se obtiene ARN y se le añaden unas secuencias adaptadoras en sus extremos mediante ligación."
     },
     {
       "id": 235,
@@ -3234,7 +3234,7 @@
         "A": "Un fragmento de ADN cuya secuencia de nucleótidos se desconoce",
         "B": "Una población homogénea de moléculas identificadas.",
         "C": "Un ADN mitocondrial.",
-        "D": "Una endonucleasa de restricción que va a romper enlaces entre nucleótidos. Comentario. Redactada un poco rara porque queda incompleta la definición, pero es correcta. Una sonda es una secuencia de ácidos nucleicos complementaria a la secuencia de ácidos nucleicos que se pretende buscar en la muestra. Es cierto, que es una población homogénea de moléculas que previamente sabemos qué secuencia tienen, es decir, están identificadas"
+        "D": "Una endonucleasa de restricción que va a romper enlaces entre nucleótidos."
       },
       "page": 26,
       "correctAnswer": "B",
@@ -3299,7 +3299,8 @@
         "A": "Desnaturalización-Hibridación-Extensión",
         "B": "Hibridación- Desnaturalización- Extensión",
         "C": "Hibridación- Extensión-Digestión",
-        "D": "Desnaturalización – Hibridación – Digestión E) Desnaturalización – Digestión – Hibridación"
+        "D": "Desnaturalización – Hibridación – Digestión",
+        "E": "Desnaturalización – Digestión – Hibridación"
       },
       "page": 27,
       "correctAnswer": "A",
@@ -3312,7 +3313,8 @@
         "A": "Se generada en el citoplasma.",
         "B": "Corresponde a proteínas que dan estructura al núcleo celular.",
         "C": "Se genera a partir de la transcripción del DNA.",
-        "D": "Todas son falsas. E) Todas son verdaderas. Comentario: el RNA se genera en el núcleo"
+        "D": "Todas son falsas.",
+        "E": "Todas son verdaderas."
       },
       "page": 27,
       "correctAnswer": "C",
@@ -3325,11 +3327,12 @@
         "A": "Desoxinucleótidos trifosfato",
         "B": "Cloruro de magnesio",
         "C": "Solución tampón que mantiene el pH",
-        "D": "ADN polimerasa E) Todas son necesarias"
+        "D": "ADN polimerasa",
+        "E": "Todas son necesarias"
       },
       "page": 27,
-      "correctAnswer": "D",
-      "correctText": "ADN polimerasa E) Todas son necesarias"
+      "correctAnswer": "E",
+      "correctText": "Todas son necesarias"
     },
     {
       "id": 257,
@@ -3338,7 +3341,7 @@
         "A": "El DNA.",
         "B": "El RNA.",
         "C": "El RNA mensajero (mRNA).",
-        "D": "Todas son falsas."
+        "D": "RNA de transferencia D) Todas son falsas."
       },
       "page": 27,
       "correctAnswer": "C",
@@ -3700,17 +3703,17 @@
       "question": "La técnica Hibridación Genómica Comparada CGH array, es similar a la CGH, pero la hibridación se realiza en una matriz inmovilizada llamados arrays. Respecto a ella, es FALSO:",
       "options": {
         "A": "Tiene una resolución rnuchísirno mayor que la de un cariotipo de alta resolución por bandeo G.",
-        "B": "La mayoría de las plataformas de arrays se diseñan para detectar aneuploidías, síndromes de microdelección y mícrodupllcación así como rearreglos subteloméricos desbalanceados.",
+        "B": "La mayoría de las plataformas de arrays se diseñan para detectar aneuploidías, síndromes de microdelecció n y mícrodupllcació n así como rearreglos subteloméricos desbalanceados.",
         "C": "También se le ha llamado cariotipo molecular.",
-        "D": "Son necesarios cromosomas en metafase para su realización."
+        "D": "Son necesarios cromosomas en metafase para su realizació n."
       },
       "page": 30,
       "correctAnswer": "D",
-      "correctText": "Son necesarios cromosomas en metafase para su realización."
+      "correctText": "Son necesarios cromosomas en metafase para su realizació n."
     },
     {
       "id": 286,
-      "question": "Respecto a la temperatura óptima de hidratación o “melting temperatura” (Tm) en una reacción en cadena de la polimerasa (PCR) no es cierto:",
+      "question": "Respecto a la temperatura ó ptima de hidratació n o “melting temperatura” (Tm) en una reacció n en cadena de la polimerasa (PCR) no es cierto:",
       "options": {
         "A": "Es la temperatura en la cual la mitad de las moléculas de los cebadores se encuentran unidas a sus cadenas complementarias de ADN.",
         "B": "Es la temperatura a la cual se va a realizar la desnaturalización del ADN.",
@@ -3831,7 +3834,7 @@
       "options": {
         "A": "Permite amplificar distintos fragmentos simultáneamente.",
         "B": "Permite amplificar todos los fragmentos con igual eficacia.",
-        "C": "Sólo permite añadir un cebador o \"primer”.",
+        "C": "Sólo permite añadir un cebador o \"primer”.",
         "D": "No permite la cuantificación."
       },
       "page": 31,
@@ -3869,7 +3872,8 @@
       "question": "¿Qué inhibe el crecimiento celular en los estudios citogenéticos?",
       "options": {
         "A": "El suero vacuno fetal",
-        "B": "Los antibióticos G) La fitohemaglutinina al 4%",
+        "B": "Los antibióticos",
+        "C": "La fitohemaglutinina al 4%",
         "D": "Los fungicidas"
       },
       "page": 32,
