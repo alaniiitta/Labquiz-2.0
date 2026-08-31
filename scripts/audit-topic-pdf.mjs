@@ -82,6 +82,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 16 Metabolismo lipídico (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-16-clean.json",
 	},
+	17: {
+		pdfPath: "pdfs/Test tema 17 hidratos de carbono (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-17-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
