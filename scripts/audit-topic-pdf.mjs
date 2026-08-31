@@ -74,6 +74,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 14.2 virus y hongos (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-14_2_3-clean.json",
 	},
+	15: {
+		pdfPath: "pdfs/Test tema 15 gases e iones (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-15-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -294,7 +298,10 @@ for (const question of questions) {
 					.replace(/^[A-E](?:\s*[).]|\s+(?=[A-ZÁÉÍÓÚÑ]))\s*/i, "")
 					.trim();
 		options[marker.key] = cleanedOptionText
-			.replace(/\s+(?:NOTA|COMENTARIO|EXPLICACIÓN)\s*[.:]\s.*$/i, "")
+			.replace(
+				/\s+(?:PREGUNTA DIFÍCIL|NOTA|COMENTARIO|EXPLICACIÓN)\s*[.:]\s.*$/i,
+				"",
+			)
 			.trim();
 	}
 
