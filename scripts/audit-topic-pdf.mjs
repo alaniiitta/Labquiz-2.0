@@ -90,6 +90,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 18 Hormonas (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-18-clean.json",
 	},
+	19: {
+		pdfPath: "pdfs/Test tema 19 genética (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-19-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -144,7 +148,13 @@ function findOptionMarkers(items) {
 		const next = items[index + 1]?.str.trim() ?? "";
 		const expectedKey = optionKeys[markers.length];
 		const combined = `${current}${next}`;
-		const standardMatch = combined.match(/^([A-E])\s*[).]/i);
+		const isEmbeddedAnswer =
+			topic === "19" &&
+			items[0]?.str.trim() === "325." &&
+			(current === "D." || next === "D.");
+		const standardMatch = isEmbeddedAnswer
+			? undefined
+			: combined.match(/^([A-E])\s*[).]/i);
 		const unpunctuatedMatch = combined.match(/^([D])\s+[A-ZÁÉÍÓÚÑ]/);
 		const inferredKey =
 			topic === "4" &&
@@ -238,6 +248,9 @@ function normalizeOptionLabels(question) {
 		}
 		if (topic === "18" && question.id === 112 && index === 17) {
 			text = text.replace(/^GravesEn$/, "Graves");
+		}
+		if (topic === "19" && question.id === 298 && index === 9) {
+			text = text.replace(/^G\)/, "C)");
 		}
 
 		return text === item.str ? item : { ...item, str: text };
@@ -340,6 +353,17 @@ for (const question of questions) {
 	const highlighted = highlightScores.filter(
 		({ score }) => score === maximumScore && score > 0,
 	);
+	if (Number(process.env.DEBUG_QUESTION) === question.id) {
+		console.log({
+			question: question.id,
+			markers: highlightScores.map(({ key, index, score }) => ({
+				key,
+				index,
+				score,
+				text: questionItems[index]?.str,
+			})),
+		});
+	}
 
 	if (highlighted.length !== 1) {
 		errors.push(
