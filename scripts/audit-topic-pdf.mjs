@@ -66,6 +66,14 @@ const topicFiles = {
 			"pdfs/TEST 13.6 al 13.8 Enfermedades bacterianas (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-13_6_8-clean.json",
 	},
+	"14.1": {
+		pdfPath: "pdfs/Test tema 14.1 Parasitología (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-14_1-clean.json",
+	},
+	"14.2_3": {
+		pdfPath: "pdfs/Test tema 14.2 virus y hongos (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-14_2_3-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
