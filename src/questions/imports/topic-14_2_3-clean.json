@@ -1332,7 +1332,7 @@
     },
     {
       "id": 103,
-      "question": "La fase de la infección aguda por VIH inicia en el momento de la infección, el virus se propaga por el cuerpo de la persona infectada a través de sus fluidos corporales, en un plazo de días, el VIH infecta no sólo las células expuestas inicialmente sino también a los ganglios linfáticos. El tejido linfoide constituye uno de los principales espacios del cuerpo humano donde tiene lugar la reproducción inicial del VIH por su alto porcentaje de linfocitos T ...",
+      "question": "La fase de la infección aguda por VIH inicia en el momento de la infección, el virus se propaga por el cuerpo de la persona infectada a través de sus fluidos corporales, en un plazo de días, el VIH infecta no sólo las células expuestas inicialmente sino también a los ganglios linfáticos. El tejido linfoide constituye uno de los principales espacios del cuerpo humano donde tiene lugar la reproducción inicial del VIH por su alto porcentaje de linfocitos T...",
       "options": {
         "A": "CD4",
         "B": "CD8",
@@ -1540,7 +1540,7 @@
     },
     {
       "id": 119,
-      "question": "La temperatura óptima de crecimiento para la mayoría de los hongos patógenos es de ...",
+      "question": "La temperatura óptima de crecimiento para la mayoría de los hongos patógenos es de...",
       "options": {
         "A": "36,5 ºC",
         "B": "37 ºC",
@@ -2494,7 +2494,7 @@
         "A": "Durante 1 semana.",
         "B": "Durante 3-4 semanas.",
         "C": "Durante 3-4 meses.",
-        "D": "No es necesaria la incubación. Explicación. Pego tal cual lo que dice la SEIMC al respecto: “Los cultivos de hongos deben incubarse durante 3-4 semanas antes de ser desechados, y no deben desecharse cuando se aísla un hongo, sino que debe completarse el periodo de incubación. Sin embargo, hay muestras que se pueden eliminar antes (por ejemplo, exudado vaginal), a los 7 días, cuando se realizan cultivos habituales”"
+        "D": "No es necesaria la incubación."
       },
       "page": 19,
       "correctAnswer": "B",
@@ -2839,11 +2839,11 @@
         "A": "Prueba de reacción en cadena de la polimerasa con transcripción inversa (RTPCR).",
         "B": "Prueba de antígenos.",
         "C": "Prueba de reacción en cadena de la polimerasa (PCR, por sus siglas en inglés).",
-        "D": "Todas son correctas. Comentario. Aunque muchas PCR son cuantitativas, algunas no lo son. Y dentro de las que son cuantitativas también se puede expresar su resultado de forma cualitativa (negativo/positivo)."
+        "D": "Todas son correctas."
       },
       "page": 22,
       "correctAnswer": "D",
-      "correctText": "Todas son correctas. Comentario. Aunque muchas PCR son cuantitativas, algunas no lo son. Y dentro de las que son cuantitativas también se puede expresar su resultado de forma cualitativa (negativo/positivo)."
+      "correctText": "Todas son correctas."
     },
     {
       "id": 220,
@@ -2902,13 +2902,13 @@
       "question": "¿Cuál es la población de linfocitos que ataca específicamente el virus de la inmunodeficiencia humana adquirida (VIH o SIDA)?",
       "options": {
         "A": "Linfocitos CD3 + del timo.",
-        "B": "Linfocitos TH auxiliares, cooperadores, CD4 +o T4 .",
+        "B": "Linfocitos TH auxiliares, cooperadores, CD4 +o T4.",
         "C": "Linfocitos Ts supresores y Te citotóxicos, CD8 +o Ts.",
         "D": "Células NK agresoras naturales (natural killer) CD16 +y CD56 +."
       },
       "page": 22,
       "correctAnswer": "B",
-      "correctText": "Linfocitos TH auxiliares, cooperadores, CD4 +o T4 ."
+      "correctText": "Linfocitos TH auxiliares, cooperadores, CD4 +o T4."
     },
     {
       "id": 225,
@@ -3085,11 +3085,12 @@
         "A": "Cocos Gram Positivos.",
         "B": "Enterobacterias.",
         "C": "Parásitos intracelulares.",
-        "D": "Levaduras. E) Cocos Gram Negativos"
+        "D": "Levaduras.",
+        "E": "Cocos Gram Negativos"
       },
       "page": 23,
       "correctAnswer": "D",
-      "correctText": "Levaduras. E) Cocos Gram Negativos"
+      "correctText": "Levaduras."
     },
     {
       "id": 239,
