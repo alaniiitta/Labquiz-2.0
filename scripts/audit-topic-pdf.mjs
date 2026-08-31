@@ -86,6 +86,10 @@ const topicFiles = {
 		pdfPath: "pdfs/Test tema 17 hidratos de carbono (respuestas).pdf",
 		jsonPath: "src/questions/imports/topic-17-clean.json",
 	},
+	18: {
+		pdfPath: "pdfs/Test tema 18 Hormonas (respuestas).pdf",
+		jsonPath: "src/questions/imports/topic-18-clean.json",
+	},
 };
 const files = topicFiles[topic];
 
@@ -232,6 +236,9 @@ function normalizeOptionLabels(question) {
 		if (topic === "13.3_4" && question.id === 155 && index === 8) {
 			text = text.replace(/^D\)/, "C)");
 		}
+		if (topic === "18" && question.id === 112 && index === 17) {
+			text = text.replace(/^GravesEn$/, "Graves");
+		}
 
 		return text === item.str ? item : { ...item, str: text };
 	});
@@ -283,6 +290,7 @@ for (const question of questions) {
 	}
 	if (topic === "13.1_5" && question.id === 139) extraQuestionIndex = 13;
 	if (topic === "13.1_5" && question.id === 290) extraQuestionIndex = 26;
+	if (topic === "18" && question.id === 112) extraQuestionIndex = 18;
 	const questionItems =
 		extraQuestionIndex > 0
 			? normalizedItems.slice(0, extraQuestionIndex)
