@@ -1451,14 +1451,14 @@
       "id": 112,
       "question": "La presencia de TSI, inmunoglobulina estimulante del tiroides permite diagnosticar:",
       "options": {
-        "A": "Se bloquea la producción de cortisol y aldosterona.",
-        "B": "Aumenta la producción de andrógenos que causan virilización.",
-        "C": "Se caracteriza por un aumento en la formación de 17-hidroxiprogesterona.",
-        "D": "En las formas tardías dudosas se diagnostica al observar un descenso de 17-hidroxiprogesterona tras administrar ACTH"
+        "A": "Tiroiditis de Hashimoto.",
+        "B": "Adenoma tiroideo tóxico.",
+        "C": "Tiroiditis subaguda.",
+        "D": "Enfermedad de Graves"
       },
       "page": 11,
       "correctAnswer": "D",
-      "correctText": "En las formas tardías dudosas se diagnostica al observar un descenso de 17-hidroxiprogesterona tras administrar ACTH"
+      "correctText": "Enfermedad de Graves"
     },
     {
       "id": 113,
@@ -1683,7 +1683,7 @@
     },
     {
       "id": 130,
-      "question": "La coriogonadotropina es una hormona peptídica producida a ...",
+      "question": "La coriogonadotropina es una hormona peptídica producida a...",
       "options": {
         "A": "El hígado",
         "B": "El corazón",
@@ -2273,7 +2273,7 @@
         "A": "aumentará los niveles de ACTH.",
         "B": "disminuirá los niveles de CRH.",
         "C": "disminuirá los niveles de catecolaminas.",
-        "D": "disminuirá los niveles de LH. Comentario. Una elevación del cortisol, por feedback negativo hace que disminuya la ACTH y la CRH"
+        "D": "disminuirá los niveles de LH."
       },
       "page": 17,
       "correctAnswer": "B",
@@ -2531,11 +2531,11 @@
         "A": "A la naturaleza química de la molécula.",
         "B": "A su solubilidad en los diferentes fluidos orgánicos.",
         "C": "A la sintetización de las hormonas.",
-        "D": "A su función. Comentario: más concretamente a donde realiza su función."
+        "D": "A su función."
       },
       "page": 19,
       "correctAnswer": "D",
-      "correctText": "A su función. Comentario: más concretamente a donde realiza su función."
+      "correctText": "A su función."
     },
     {
       "id": 196,
@@ -2739,11 +2739,12 @@
         "A": "Es la hormona fundamental en la regulación del metabolismo fosfo-cálcico.",
         "B": "Tiene un tiempo de vida media de 2-4 minutos.",
         "C": "Se sintetiza como una preprohormona en los ribosomas de las células glandulares paratiroideas.",
-        "D": "Todas las respuestas anteriores son correctas. E) A y C son verdaderas"
+        "D": "Todas las respuestas anteriores son correctas.",
+        "E": "A y C son verdaderas"
       },
       "page": 20,
       "correctAnswer": "D",
-      "correctText": "Todas las respuestas anteriores son correctas. E) A y C son verdaderas"
+      "correctText": "Todas las respuestas anteriores son correctas."
     },
     {
       "id": 212,
@@ -2752,11 +2753,12 @@
         "A": "Una evaluación fiable pero lenta de la extracción del tejido paratiroide hiperfuncionante.",
         "B": "Reducción del tiempo de la intervención quirúrgica.",
         "C": "Se realiza 1 hora después de finalizar la intervención",
-        "D": "Reducción en los costes y acortamiento en los tiempos de hospitalización. E) Todas las anteriores son correctas."
+        "D": "Reducción en los costes y acortamiento en los tiempos de hospitalización.",
+        "E": "Todas las anteriores son correctas."
       },
       "page": 20,
       "correctAnswer": "D",
-      "correctText": "Reducción en los costes y acortamiento en los tiempos de hospitalización. E) Todas las anteriores son correctas."
+      "correctText": "Reducción en los costes y acortamiento en los tiempos de hospitalización."
     },
     {
       "id": 213,
@@ -2802,7 +2804,7 @@
       "options": {
         "A": "La hipófisis produce una cantidad muy reducida de hormonas.",
         "B": "Se ha perturbado la función de la propia tiroides.",
-        "C": "Hay un fallo a nivel del hipotálamo. Nota: recordar PRIMARIO (fallo tejido productor hormona), SECUNDARIO (fallo hipófisis), TERCIARIO (fallo hipotálamo)"
+        "C": "Hay un fallo a nivel del hipotálamo."
       },
       "page": 21,
       "correctAnswer": "B",
@@ -2815,11 +2817,11 @@
         "A": "Cromatografía líquida.",
         "B": "Inmunofluorescencia.",
         "C": "Inmunoelectroforesis.",
-        "D": "Radioinmunoanálisis. Comentario: clásicamente ha sido el método utilizado. Hoy en día en desuso, aunque de las descritas en la pregunta es la que había que señalar. Hoy en día la técnica más utilizada para determinarla es otro tipo de inmunoensayo como el inmunoquimioluminiscencia."
+        "D": "Radioinmunoanálisis."
       },
       "page": 21,
       "correctAnswer": "D",
-      "correctText": "Radioinmunoanálisis. Comentario: clásicamente ha sido el método utilizado. Hoy en día en desuso, aunque de las descritas en la pregunta es la que había que señalar. Hoy en día la técnica más utilizada para determinarla es otro tipo de inmunoensayo como el inmunoquimioluminiscencia."
+      "correctText": "Radioinmunoanálisis."
     },
     {
       "id": 218,
@@ -3177,7 +3179,7 @@
         "A": "El método más comúnmente utilizado es la nefelometría",
         "B": "Cuando interpretemos resultados no es importante valorar la medicación que toma el paciente para descartar ya que casi no hay influencia de fármacos que alteren su concentración",
         "C": "Para medir cortisol libre en orina es necesario hacer una extracción previa con un solvente orgánico",
-        "D": "En los pacientes ingresados en unidades de cuidados críticos lo habitual es encontrar niveles muy elevados Comentario: En muchos laboratorios, ya no se realiza la extracción previa a la medida) Se realiza directamente sin extracción, aunque es más recomendado su extracción."
+        "D": "En los pacientes ingresados en unidades de cuidados críticos lo habitual es encontrar niveles muy elevados"
       },
       "page": 23,
       "correctAnswer": "C",
@@ -3237,7 +3239,7 @@
     },
     {
       "id": 250,
-      "question": "¿Cuándo se produce el pico máximo en los niveles de subunidad de gonadotropina coriónica humana (beta-hCG) ?:",
+      "question": "¿Cuándo se produce el pico máximo en los niveles de subunidad de gonadotropina coriónica humana (beta-hCG)?:",
       "options": {
         "A": "Semana 8-10.",
         "B": "Semana 24-28.",
