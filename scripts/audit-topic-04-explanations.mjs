@@ -47,7 +47,11 @@ for (const question of bank.questions) {
     .map(([, text]) => text);
   const explainedOptions = Object.keys(explanation.motivosPorOpcion ?? {});
 
-  if (JSON.stringify(explainedOptions) !== JSON.stringify(expectedOptions)) {
+  const sortOptions = (options) => [...options].sort((a, b) => a.localeCompare(b));
+  if (
+    JSON.stringify(sortOptions(explainedOptions)) !==
+    JSON.stringify(sortOptions(expectedOptions))
+  ) {
     errors.push(`Pregunta ${id}: los distractores no coinciden con el banco`);
   }
 

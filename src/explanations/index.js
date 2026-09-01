@@ -12,6 +12,11 @@ import topic05Part04 from "./topic-05-parts/part-04.json";
 import topic05Part05 from "./topic-05-parts/part-05.json";
 import topic05Part06 from "./topic-05-parts/part-06.json";
 import topic05Part07 from "./topic-05-parts/part-07.json";
+import topic06Part01 from "./topic-06-parts/part-01.json";
+import topic06Part02 from "./topic-06-parts/part-02.json";
+import topic06Part03 from "./topic-06-parts/part-03.json";
+import topic06Part04 from "./topic-06-parts/part-04.json";
+import topic06Part05 from "./topic-06-parts/part-05.json";
 
 const explanationsByTopic = {
   "tema-01": topic01["tema-01"],
@@ -31,6 +36,13 @@ const explanationsByTopic = {
     ...topic05Part05,
     ...topic05Part06,
     ...topic05Part07,
+  },
+  "tema-06": {
+    ...topic06Part01,
+    ...topic06Part02,
+    ...topic06Part03,
+    ...topic06Part04,
+    ...topic06Part05,
   },
 };
 

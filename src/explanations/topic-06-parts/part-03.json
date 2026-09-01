@@ -1,0 +1,493 @@
+{
+  "89": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La actividad enzimática se evalúa habitualmente siguiendo por espectrofotometría el cambio de una especie que absorbe luz, como el NADH a 340 nm. La variación de absorbancia por unidad de tiempo refleja la velocidad de la reacción.",
+    "motivosPorOpcion": {
+      "Mediante inmunoensayo": "El inmunoensayo mide la cantidad de enzima como proteína, no necesariamente su actividad catalítica.",
+      "Nefelometría": "La nefelometría cuantifica la dispersión de luz por partículas o complejos y no es el método general indicado para medir actividad enzimática.",
+      "Técnicas de osmometría": "La osmometría determina propiedades relacionadas con la concentración osmótica, no la velocidad de conversión de sustrato en producto."
+    },
+    "claveMemorizar": "Actividad enzimática: cambio de absorbancia por tiempo; NADH, 340 nm.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 25"
+  },
+  "90": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tres estrategias descritas permiten seguir una reacción por absorción de luz: aparición de producto, desaparición de sustrato o variación de un componente indicador como NADH/NADPH. Por ello todos los enunciados son válidos.",
+    "motivosPorOpcion": {
+      "Si el producto absorbe luz a una longitud de onda determinada podemos evaluar la evaluación del producto analizando el incremento de absorbancia a dicha longitud de onda.": "Es una estrategia correcta: la formación de un producto absorbente produce un incremento medible de absorbancia.",
+      "Si el sustrato absorbe luz a una longitud de onda determinada podemos evaluar la aparición del producto analizando la disminución de la absorbancia a dicha longitud de onda.": "Aunque la frase habla de aparición de producto, lo que se sigue directamente es el consumo del sustrato absorbente mediante la disminución de absorbancia; el principio analítico es válido.",
+      "Se puede analizar la variación de un cofactor o de algún componente de la reacción. Aparición o desaparición del NADH o NADPH.": "Es correcto porque el NADH absorbe a 340 nm y su formación o consumo puede acoplarse a la reacción que se desea medir."
+    },
+    "claveMemorizar": "Espectrofotometría enzimática: producto sube, sustrato baja o cambia NAD(P)H.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 25"
+  },
+  "91": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el método a punto final se deja transcurrir la reacción con sustrato en exceso durante un intervalo definido y se realiza la lectura al final. Se diferencia del método cinético, que registra varias lecturas para calcular la velocidad.",
+    "motivosPorOpcion": {
+      "Método cinético": "Realiza mediciones a varios tiempos y obtiene la velocidad en la fase lineal, no una única lectura tras una incubación fijada.",
+      "Método a punto inicial": "Una lectura inicial sirve como referencia basal, pero no corresponde al procedimiento descrito de incubación y lectura final.",
+      "Método a punto intermedio": "No es la modalidad analítica que el temario contrapone a la medida cinética."
+    },
+    "claveMemorizar": "Punto final = una lectura tras incubación; cinético = varias lecturas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 25",
+    "advertenciaRevision": "El PDF distingue medida a punto final y medida cinética, pero no desarrolla literalmente el protocolo de incubación con sustrato en exceso."
+  },
+  "92": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La actividad puede determinarse por la tasa de aparición de producto, la desaparición de sustrato o una reacción indicadora que siga otro componente. Las tres vías propuestas son formas válidas de monitorizar la reacción.",
+    "motivosPorOpcion": {
+      "Aparición de algún producto": "Es correcta cuando el producto genera una señal analítica cuantificable.",
+      "Desaparición del sustrato": "Es correcta porque el consumo de sustrato por unidad de tiempo informa de la velocidad catalítica.",
+      "Variación de un cofactor o de algún componente de la reacción.": "Es correcta si ese componente produce una señal directa o se integra en una reacción indicadora acoplada."
+    },
+    "claveMemorizar": "Actividad: seguir sustrato, producto o indicador acoplado.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 25"
+  },
+  "93": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La troponina T puede permanecer detectable hasta 14 días después del daño miocárdico. Por eso todavía puede estar elevada doce días después de un infarto.",
+    "motivosPorOpcion": {
+      "CKMB.": "La CK-MB desciende habitualmente a las 48–72 horas, mucho antes del día 12.",
+      "Mioglobina.": "Su elevación es muy precoz y breve; suele desaparecer de la circulación a las 12–24 horas.",
+      "CK total": "La CK no presenta la persistencia tardía de la troponina T y además es menos específica de miocardio."
+    },
+    "claveMemorizar": "Troponina T: detectable hasta 14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6, 8 y 10-11"
+  },
+  "94": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La obesidad se asocia a valores menores de NT-proBNP, no a una elevación característica. Esto puede reducir la sensibilidad del biomarcador en personas obesas.",
+    "motivosPorOpcion": {
+      "Enfermedad pulmonar obstructiva crónica.": "La enfermedad pulmonar puede acompañarse de sobrecarga cardíaca derecha y elevar péptidos natriuréticos, aunque el PDF no desarrolla específicamente la EPOC.",
+      "Insuficiencia renal severa.": "La insuficiencia renal aumenta NT-proBNP, entre otros motivos por menor aclaramiento y mayor carga cardiovascular.",
+      "Hiperaldosteronismo.": "Puede asociarse a expansión de volumen y tensión parietal cardíaca, pero esta relación no se documenta en el PDF aportado."
+    },
+    "claveMemorizar": "NT-proBNP: menor en obesidad y mayor en insuficiencia renal.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 15",
+    "advertenciaRevision": "El PDF confirma valores menores en obesidad y mayores en insuficiencia renal, pero no sustenta de forma explícita las opciones EPOC e hiperaldosteronismo."
+  },
+  "95": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El pH y la temperatura son variables esenciales de la actividad enzimática y deben controlarse al determinar concentración catalítica. Afirmar que no es necesario considerarlos es falso.",
+    "motivosPorOpcion": {
+      "Se expresa en kat/L.": "El katal es la unidad derivada del Sistema Internacional para actividad catalítica; al referirla a volumen se expresa como kat/L.",
+      "Para su determinación es necesario tener en cuenta el requerimiento de cofactores.": "Es correcto porque una enzima que requiere cofactor solo presenta actividad plena cuando este está disponible.",
+      "La velocidad de reacción frente a la concentración de sustrato suele tener forma sigmoidea.": "El material docente presenta esa forma como habitual, aunque el modelo clásico de Michaelis-Menten simple produce una curva hiperbólica."
+    },
+    "claveMemorizar": "Actividad enzimática: controlar pH, temperatura, sustrato y cofactores.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 10, 14, 16 y 26",
+    "advertenciaRevision": "El PDF afirma que la curva suele ser sigmoidea; conceptualmente, la cinética de Michaelis-Menten no cooperativa es hiperbólica y la sigmoidea corresponde típicamente a cooperatividad/alosterismo."
+  },
+  "96": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La holoenzima es el complejo catalíticamente activo formado por la apoenzima y su cofactor. La apoenzima aislada es la parte proteica inactiva cuando el cofactor es imprescindible.",
+    "motivosPorOpcion": {
+      "Apoenzima.": "Es solo la porción proteica y permanece inactiva si la enzima necesita cofactor.",
+      "Coenzima.": "Es un cofactor orgánico, no el complejo completo de proteína y cofactor.",
+      "Metaloenzima": "Designa una enzima asociada a un metal, pero no es el nombre general del complejo apoenzima-cofactor activo."
+    },
+    "claveMemorizar": "Apoenzima + cofactor = holoenzima activa.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "97": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una Km baja significa que se necesita poca concentración de sustrato para alcanzar la mitad de Vmax. Esto se interpreta como una afinidad alta de la enzima por el sustrato.",
+    "motivosPorOpcion": {
+      "Poca afinidad de la enzima por la coenzima.": "Km se define respecto a la concentración de sustrato, no respecto a una coenzima.",
+      "Poca afinidad de la enzima por el sustrato.": "La baja afinidad se asocia a una Km alta, porque hace falta más sustrato para alcanzar Vmax/2.",
+      "No relaciona la afinidad de la enzima por el sustrato.": "En el marco docente de Michaelis-Menten, Km se utiliza precisamente como indicador inverso de afinidad por el sustrato."
+    },
+    "claveMemorizar": "Km baja = afinidad alta.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 17-18"
+  },
+  "98": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mioglobina es el marcador que se eleva antes tras una necrosis cardíaca, con aparición sérica aproximada a las 1–2 horas. Su precocidad se acompaña de baja especificidad porque también abunda en músculo esquelético.",
+    "motivosPorOpcion": {
+      "Isoformas MB1 y MB2 de CK-MB.": "Las formas de CK-MB pueden aportar información precoz, pero el temario identifica a la mioglobina como el primer marcador en elevarse.",
+      "Troponinas I y T.": "Son los marcadores de elección por especificidad, pero su ascenso se sitúa generalmente entre 3 y 12 horas.",
+      "AST": "Es un marcador histórico poco específico que se eleva más tarde y está en desuso para diagnosticar daño cardíaco."
+    },
+    "claveMemorizar": "Mioglobina: primera en subir, rápida en desaparecer y poco específica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 4 y 8"
+  },
+  "99": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El umbral de lesión miocárdica se establece en una troponina cardíaca superior al percentil 99 de una población sana de referencia. El diagnóstico de IAM exige además evidencia clínica, electrocardiográfica, de imagen o anatómica de isquemia.",
+    "motivosPorOpcion": {
+      "Percentil 95 de la población sana.": "El punto de referencia indicado para troponina cardíaca es el percentil 99, no el 95.",
+      "La concentración de Troponina que represente una imprecisión inferior al 20%.": "La precisión analítica se evalúa en el punto de corte, pero no define por sí sola la concentración diagnóstica; el objetivo óptimo es un CV inferior al 10% en el percentil 99.",
+      "Un límite basado en curvas ROC de estudio en pacientes con y sin IAM.": "El criterio recomendado por el temario se ancla en el percentil 99 de referencia y no en un umbral ROC específico de una cohorte."
+    },
+    "claveMemorizar": "Troponina cardíaca: percentil 99 más evidencia de isquemia.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9 y 12"
+  },
+  "100": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La CK-MB comienza a elevarse a las 3–12 horas y alcanza su máximo alrededor de las 24 horas. Después desciende y suele normalizarse en 48–72 horas.",
+    "motivosPorOpcion": {
+      "Entre las 48-72 horas del inicio.": "Ese intervalo corresponde al descenso o retorno hacia la normalidad de CK-MB, no a su pico.",
+      "A las 12 horas del inicio.": "A las 12 horas puede estar elevada, pero el máximo descrito se alcanza aproximadamente a las 24 horas.",
+      "A las 6 horas del inicio.": "Las 4–6 horas se sitúan en la fase inicial de ascenso, antes de la concentración máxima."
+    },
+    "claveMemorizar": "CK-MB: sube 3–12 h, pico 24 h, baja 48–72 h.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 6"
+  },
+  "101": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "CK-MM, también denominada CK3, es la isoenzima que abunda en músculo esquelético. También existe en músculo cardíaco y constituye prácticamente toda la CK sérica normal.",
+    "motivosPorOpcion": {
+      "CK-MB.": "CK-MB o CK2 se concentra sobre todo en corazón, aunque aparece en cierta cantidad en músculo esquelético.",
+      "CK-BB.": "CK-BB o CK1 predomina en cerebro y músculo liso, y está prácticamente ausente del suero.",
+      "CK-MM3.": "El temario denomina CK3 a la isoenzima MM; «CK-MM3» no figura como una de las tres isoenzimas básicas."
+    },
+    "claveMemorizar": "CK1 = BB; CK2 = MB; CK3 = MM, predominante en músculo esquelético.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "102": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las troponinas cardíacas I o T son las magnitudes de elección para detectar necrosis miocárdica por su mayor sensibilidad y especificidad. Deben interpretarse con el percentil 99 y el contexto clínico de isquemia.",
+    "motivosPorOpcion": {
+      "LDH": "Es un indicador tardío y poco específico de lisis celular, distribuido en numerosos tejidos.",
+      "CPK-MB": "Fue un marcador importante y puede ser útil por su cinética, pero ha sido sustituido por troponinas para el diagnóstico principal.",
+      "GOT": "Es un marcador histórico, inespecífico y actualmente en desuso para daño cardíaco."
+    },
+    "claveMemorizar": "Necrosis miocárdica: troponina I/T es la elección.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 4, 6 y 9"
+  },
+  "103": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La lactato deshidrogenasa cataliza de forma reversible la oxidación de L-lactato a piruvato utilizando NAD+ como aceptor de electrones. La reacción inversa reduce piruvato a lactato con NADH.",
+    "motivosPorOpcion": {
+      "Ácido láctico": "Es la forma protonada relacionada con el lactato y no el producto de su oxidación por LDH.",
+      "Citrato": "Es un intermediario del ciclo de Krebs y no participa como producto directo de la reacción catalizada por LDH.",
+      "Oxalacetato": "Es otro intermediario metabólico, pero no resulta de la oxidación reversible de lactato."
+    },
+    "claveMemorizar": "LDH: lactato ⇄ piruvato, acoplado a NAD+/NADH.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
+  },
+  "104": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La actividad de LDH se mide espectrofotométricamente siguiendo la disminución o aparición de NADH a 340 nm, según el sentido y las condiciones de la reacción. El NADH es la especie absorbente que permite cuantificar la velocidad.",
+    "motivosPorOpcion": {
+      "Que cataliza la hidrólisis de lactato y mide así la cantidad de este a 340nm.": "LDH es una oxidorreductasa, no una hidrolasa, y a 340 nm se sigue NADH, no lactato directamente.",
+      "Que añade sustratos de piruvato y mide la aparición o desaparición del compuesto formado a 340 nm, según el pH con el que trabajemos.": "Puede emplearse piruvato como sustrato, pero la señal a 340 nm corresponde específicamente al NADH y no de forma genérica al compuesto formado.",
+      "Que añade nicotina adenina dinucleótidohidrogenasa (NADH) en un medio ácido hasta la desaparición de LDH y medido a 340nm.": "El ensayo sigue el consumo de NADH; no provoca ni mide la desaparición de la propia enzima LDH."
+    },
+    "claveMemorizar": "LDH por espectrofotometría: seguir NADH a 340 nm.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
+  },
+  "105": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cofactores son componentes no proteicos que pueden ser moléculas orgánicas, moléculas inorgánicas o iones metálicos activadores. Por tanto, las tres categorías propuestas son correctas.",
+    "motivosPorOpcion": {
+      "Compuestos orgánicos.": "Es correcto: las coenzimas y los grupos prostéticos orgánicos son tipos de cofactor.",
+      "Compuestos inorgánicos.": "Es correcto: el material incluye moléculas inorgánicas entre los cofactores.",
+      "Iones metálicos denominados activadores.": "Es correcto: Mg2+, Fe2+, Cu2+, K+ o Mn2+ son ejemplos de iones con función cofactorial."
+    },
+    "claveMemorizar": "Cofactor: componente no proteico orgánico, inorgánico o metálico.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "106": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fosfatasa alcalina requiere magnesio como cofactor para desarrollar su actividad catalítica. El material lo identifica explícitamente como cofactor de ALP.",
+    "motivosPorOpcion": {
+      "Calcio.": "En el temario, el calcio se vincula como cofactor a la amilasa, no a la fosfatasa alcalina.",
+      "Piridoxil fosfato.": "El piridoxal fosfato se asigna a ALT y otras aminotransferasas, no a ALP.",
+      "No necesita cofactor.": "Es incorrecto porque ALP figura entre las enzimas cuya actividad requiere un ion cofactor."
+    },
+    "claveMemorizar": "ALP–Mg; amilasa–Ca; ALT–piridoxal fosfato.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "107": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las enzimas aceleran las reacciones al ofrecer una vía con menor energía de activación. No cambian la constante de equilibrio ni la dirección termodinámica de la reacción.",
+    "motivosPorOpcion": {
+      "Modificar la constante de equilibrio de la reacción.": "Una enzima acelera por igual la llegada al equilibrio, pero no modifica su constante.",
+      "Conseguir un pH óptimo.": "El pH condiciona la actividad y la conformación enzimática, pero la enzima no cataliza ajustando por sí misma el pH del medio.",
+      "Mantener una cinética de primer orden.": "El orden aparente cambia con la concentración de sustrato; a saturación puede observarse orden cero."
+    },
+    "claveMemorizar": "Catalizador: baja la energía de activación, no cambia el equilibrio.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 3-4 y 15"
+  },
+  "108": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "NT-proBNP se utiliza en el diagnóstico y pronóstico de insuficiencia cardíaca y tiene un elevado valor predictivo negativo. En pacientes con disnea ayuda a descartar o apoyar un origen cardíaco según concentraciones ajustadas por edad y contexto.",
+    "motivosPorOpcion": {
+      "Procalcitonina.": "Es un biomarcador orientado a infección bacteriana y sepsis, no el parámetro cardíaco descrito para insuficiencia cardíaca.",
+      "Troponina de alta sensibilidad.": "Detecta lesión miocárdica, pero no es el marcador principal para diferenciar insuficiencia cardíaca como causa de disnea.",
+      "Pueden emplearse las tres en combinación.": "La combinación puede aportar contexto en casos seleccionados, pero el parámetro específicamente indicado para esta discriminación es NT-proBNP."
+    },
+    "claveMemorizar": "Disnea e insuficiencia cardíaca: NT-proBNP.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 14-15"
+  },
+  "109": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Dentro del complejo contráctil, la troponina I presenta una cardioespecificidad ligeramente mayor que la troponina T. La diferencia es útil al interpretar lesión miocárdica, aunque ambas son marcadores cardíacos de elección.",
+    "motivosPorOpcion": {
+      "Troponina T": "Es cardioespecífica y permanece elevada más tiempo, pero el PDF atribuye una especificidad ligeramente superior a troponina I.",
+      "Troponina C": "Participa en la unión al calcio, pero no posee isoformas cardíacas suficientemente específicas para ser el marcador elegido.",
+      "Troponina K": "No es uno de los tres componentes reconocidos del complejo de troponina, que son C, I y T."
+    },
+    "claveMemorizar": "Troponina I: algo más cardioespecífica; T: permanece más días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-10"
+  },
+  "110": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las enzimas aceleran la velocidad con la que una reacción alcanza el equilibrio al disminuir su energía de activación. No alteran el equilibrio ni aumentan la cantidad final de producto determinada por la termodinámica.",
+    "motivosPorOpcion": {
+      "Modifican el equilibrio, formando más producto": "Los catalizadores no cambian la constante de equilibrio ni desplazan por sí mismos la reacción hacia más producto.",
+      "Aceleran la velocidad de reacción y aumentan la cantidad de producto": "Sí aceleran la reacción, pero no modifican el rendimiento final en el equilibrio.",
+      "Ninguna es correcta": "La opción sobre acelerar la velocidad sí describe correctamente la función catalítica."
+    },
+    "claveMemorizar": "La enzima cambia la rapidez, no la posición del equilibrio.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 3"
+  },
+  "111": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Km es la concentración de sustrato a la que la velocidad alcanza la mitad de Vmax. Permite relacionar la cantidad de sustrato necesaria con la afinidad aparente de la enzima.",
+    "motivosPorOpcion": {
+      "Es la concentración de sustrato a la que la reacción transcurre a la velocidad máxima.": "Vmax se aproxima cuando la enzima está saturada; Km se define exactamente en Vmax/2.",
+      "Es la concentración de sustrato a la que la reacción transcurre a un tercio de la velocidad máxima.": "La fracción definitoria no es un tercio, sino la mitad de la velocidad máxima.",
+      "Es la concentración de sustrato necesaria para que se produzca la reacción.": "La reacción puede ocurrir a concentraciones inferiores a Km; Km no es un umbral de inicio."
+    },
+    "claveMemorizar": "Km = [S] cuando v = Vmax/2.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 17"
+  },
+  "112": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La troponina forma parte del aparato contráctil del músculo estriado y regula la interacción actina-miosina en relación con el calcio. El complejo contiene las moléculas C, I y T.",
+    "motivosPorOpcion": {
+      "La LDH": "Es una enzima metabólica que interconvierte lactato y piruvato, no una proteína miofibrilar reguladora.",
+      "La mioglobina": "Es una proteína monomérica con grupo hemo que transporta oxígeno en músculo, pero no regula la contracción.",
+      "El péptido natriurético de tipo B": "Es un biomarcador y hormona relacionada con tensión de la pared cardíaca, no un componente de la miofibrilla."
+    },
+    "claveMemorizar": "Troponina + Ca2+ regula la interacción actina-miosina.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 9"
+  },
+  "113": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las isoenzimas son formas moleculares estructuralmente distintas que catalizan la misma reacción y suelen distribuirse de manera específica por tejidos. Sus diferencias de secuencia pueden proceder de genes distintos.",
+    "motivosPorOpcion": {
+      "Son enzimas iguales que catalizan distintas reacciones.": "Invierte la definición: las isoenzimas son diferentes en estructura, pero catalizan la misma reacción.",
+      "Son modificaciones postraduccionales de las enzimas.": "Una modificación postraduccional puede generar variantes moleculares, pero no constituye la definición general presentada para isoenzimas.",
+      "Es la misma molécula de enzima que se expresa en distintos tejidos.": "La distribución tisular puede variar, pero las isoenzimas no son la misma molécula: difieren estructuralmente y en su secuencia."
+    },
+    "claveMemorizar": "Isoenzimas: estructura distinta, misma reacción, distribución tisular propia.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11",
+    "advertenciaRevision": "El PDF confirma diferencias de secuencia y misma reacción, pero no afirma literalmente que todas las isoenzimas estén codificadas por genes distintos."
+  },
+  "114": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las isoenzimas presentan diferencias estructurales que pueden traducirse en distinta movilidad electroforética. Precisamente esa diferencia permite separar e identificar algunas formas tisulares.",
+    "motivosPorOpcion": {
+      "Son distintas estructuras de la misma enzima del organismo en distintos tejidos": "Describe formas estructuralmente diferentes asociadas con frecuencia a órganos o tejidos específicos.",
+      "Catalizan la misma reacción": "Es el rasgo funcional definitorio de las isoenzimas.",
+      "Cuando sufren alteraciones, si sabemos de donde proceden, sabremos el tejido afectado": "La distribución tisular diferencial permite orientar el origen del daño cuando una isoenzima aumenta en sangre."
+    },
+    "claveMemorizar": "Isoenzimas: misma reacción, estructura y movilidad diferenciables.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11"
+  },
+  "115": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La troponina I es ligeramente más cardioespecífica que la T, por lo que discrimina mejor el origen miocárdico. En cambio, la troponina T destaca por mantenerse elevada durante más tiempo.",
+    "motivosPorOpcion": {
+      "Troponina K": "No pertenece al complejo reconocido de troponina C, I y T.",
+      "Troponina B": "No es una de las tres moléculas del complejo de troponina descritas en el material.",
+      "Troponina C": "Es la subunidad que participa en la respuesta al calcio, pero no es cardioespecífica para diagnóstico."
+    },
+    "claveMemorizar": "I = más específica; T = más persistente.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-10"
+  },
+  "116": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La CK aumenta ante lesión del músculo estriado y en enfermedades cardíacas porque se libera desde células musculares dañadas. El test también incluye elevaciones en las últimas semanas del embarazo y en hipotiroidismo, por lo que integra todas las opciones.",
+    "motivosPorOpcion": {
+      "Necrosis o atrofia aguda del músculo estriado": "Es una causa válida: el daño muscular libera CK intracelular al plasma.",
+      "Enfermedades del corazón": "Es válida porque el miocardio contiene CK, incluida la fracción CK-MB.",
+      "Ultimas semanas del embarazo e hipotiroidsimo": "El test la considera válida, aunque esas asociaciones no aparecen explicadas en los PDF de Tema 6 disponibles."
+    },
+    "claveMemorizar": "CK sube con daño muscular; interpretar según músculo, corazón y contexto clínico.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4-6",
+    "advertenciaRevision": "Los PDF respaldan la elevación de CK por daño muscular y cardíaco, pero no documentan las últimas semanas del embarazo ni el hipotiroidismo."
+  },
+  "117": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de detección condiciona cómo observamos o cuantificamos la reacción, pero no modifica la reacción enzimática en sí. En cambio, sustrato, pH y temperatura sí alteran directamente su velocidad.",
+    "motivosPorOpcion": {
+      "Cantidad de substrato": "Determina la velocidad hasta alcanzar la saturación de la enzima.",
+      "pH de la reacción": "Afecta la ionización y conformación de la enzima y puede reducir o anular su actividad.",
+      "Temperatura de la reacción": "Modifica la velocidad y, si es extrema, puede desnaturalizar la proteína."
+    },
+    "claveMemorizar": "Factores reales: [E], [S], productos, pH, temperatura y fuerza iónica.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 3 y 14"
+  },
+  "118": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Con sustrato saturante y temperatura constante, aumentar más el sustrato ya no eleva la velocidad. En esas condiciones la velocidad depende de la cantidad de enzima disponible.",
+    "motivosPorOpcion": {
+      "Sustrato.": "A saturación, los centros activos ya están ocupados y la reacción deja de depender de más sustrato.",
+      "Producto.": "El producto puede influir en sistemas reales, pero no es el factor limitante señalado bajo las condiciones saturantes descritas.",
+      "Enzima y producto.": "En el modelo indicado, el único factor limitante durante la fase lineal con sustrato saturante es la concentración de enzima."
+    },
+    "claveMemorizar": "Sustrato saturante: v depende de [enzima].",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 15-16"
+  },
+  "119": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La pérdida de integridad o el aumento de permeabilidad de la membrana celular permite que enzimas intracelulares pasen al plasma. Ese mecanismo explica gran parte de las elevaciones séricas asociadas a lesión tisular.",
+    "motivosPorOpcion": {
+      "Invasión de virus.": "Una infección viral puede lesionar células y elevar enzimas, pero actúa como causa de daño, no como mecanismo general de liberación.",
+      "Ausencia de glucosa": "No constituye la explicación general de la salida de enzimas intracelulares al suero.",
+      "Hipoxia celular.": "La hipoxia puede producir lesión y alterar membranas, pero es un desencadenante concreto, no el mecanismo común final propuesto."
+    },
+    "claveMemorizar": "Lesión de membrana → liberación de enzimas intracelulares al plasma.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, p. 2",
+    "advertenciaRevision": "Los PDF relacionan elevación enzimática con muerte o lesión celular, pero no formulan literalmente que la alteración de permeabilidad explique la mayoría de los casos."
+  },
+  "120": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "NT-proBNP se emplea para el diagnóstico, pronóstico y seguimiento clínico de la insuficiencia cardíaca. Su concentración debe interpretarse según edad, sexo, obesidad y función renal.",
+    "motivosPorOpcion": {
+      "Control de drogas de abuso.": "Ese control utiliza pruebas toxicológicas específicas y no péptidos natriuréticos.",
+      "Pacientes con diabetes tipo II.": "La diabetes es un factor de riesgo cardiovascular, pero NT-proBNP no es el biomarcador de monitorización metabólica de la diabetes.",
+      "Presencia de autoanticuerpos.": "Los autoanticuerpos se detectan mediante ensayos inmunológicos dirigidos a cada diana, no con NT-proBNP."
+    },
+    "claveMemorizar": "NT-proBNP = insuficiencia cardíaca.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15"
+  },
+  "121": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las enzimas son proteínas especializadas que catalizan reacciones químicas indispensables para la célula. Su estructura genera un sitio activo específico para el sustrato.",
+    "motivosPorOpcion": {
+      "Lípidos especializados en la catálisis de reacciones orgánicas": "Los lípidos cumplen funciones energéticas y estructurales, pero no son la naturaleza general de las enzimas del temario.",
+      "Azúcares especializadas en la catálisis de reacciones orgánicas": "Los glúcidos pueden actuar como sustratos o componentes celulares, pero no constituyen las enzimas descritas.",
+      "Ácidos nucleicos especializados en la catálisis de reacciones orgánicas": "Existen ARN catalíticos, pero el material define las enzimas estudiadas como proteínas."
+    },
+    "claveMemorizar": "Enzima: proteína catalítica con sitio activo.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2 y 4"
+  },
+  "122": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La amilasa pancreática necesita calcio como cofactor para mantener su actividad. El ion se asocia a la función y estabilidad de la enzima.",
+    "motivosPorOpcion": {
+      "Piridoxal fosfato (PP)": "Se asocia a aminotransferasas como ALT, no a la amilasa.",
+      "Magnesio": "El material asigna magnesio como cofactor de la fosfatasa alcalina.",
+      "Heces": "Es un tipo de muestra biológica, no una molécula cofactorial."
+    },
+    "claveMemorizar": "Amilasa–calcio; ALP–magnesio; ALT–piridoxal fosfato.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "123": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Como proteínas, las enzimas poseen estructura primaria y pueden plegarse en niveles secundario y terciario; cuando contienen varias subunidades presentan además estructura cuaternaria. Ese plegamiento determina el sitio activo y la función catalítica.",
+    "motivosPorOpcion": {
+      "Primaria": "La secuencia de aminoácidos es necesaria, pero por sí sola no describe el plegamiento funcional de una enzima.",
+      "Primaria y secundaria": "Omite la estructura terciaria que forma el entorno tridimensional del sitio activo.",
+      "Primaria, secundaria y terciaria": "Describe enzimas monoméricas, pero excluye las que están formadas por varias subunidades y alcanzan nivel cuaternario."
+    },
+    "claveMemorizar": "Enzimas: de estructura primaria hasta cuaternaria si son multiméricas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2, 4 y 8",
+    "advertenciaRevision": "El PDF identifica a las enzimas como proteínas y muestra su conformación y sitio activo, pero no enumera explícitamente los cuatro niveles estructurales."
+  },
+  "124": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La troponina T cardíaca, abreviada TnT, es uno de los biomarcadores de elección para diagnosticar lesión miocárdica compatible con IAM. Puede permanecer elevada hasta 14 días.",
+    "motivosPorOpcion": {
+      "HDL": "Es una lipoproteína relacionada con el transporte de colesterol y el riesgo cardiovascular, no un marcador de necrosis miocárdica aguda.",
+      "Amilasa": "Es una enzima digestiva, principalmente pancreática y salival, sin indicación como marcador de IAM.",
+      "Todas": "No puede ser correcta porque HDL y amilasa no se determinan para demostrar necrosis miocárdica."
+    },
+    "claveMemorizar": "IAM: troponina cardíaca I o T.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-11"
+  },
+  "125": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La unión de la apoenzima con el cofactor requerido forma la holoenzima, que es la forma catalíticamente activa. El término abarca el complejo completo.",
+    "motivosPorOpcion": {
+      "Proenzima": "Es un precursor enzimático inactivo que necesita un cambio bioquímico para activarse, no la unión funcional con un cofactor.",
+      "Apoenzima": "Es únicamente la parte proteica y está inactiva cuando depende de cofactor.",
+      "Coenzima": "Es un cofactor orgánico que puede unirse a la apoenzima, pero no denomina al complejo resultante."
+    },
+    "claveMemorizar": "Holoenzima = apoenzima + cofactor.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 10 y 12"
+  },
+  "126": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "GGT es una gamma-glutamil transferasa, pero no pertenece al grupo de aminotransferasas o transaminasas ALT/GPT y AST/GOT. Que ambas clases sean transferasas no las convierte en la misma familia funcional.",
+    "motivosPorOpcion": {
+      "GOT": "GOT es AST, una aminotransferasa que transfiere grupos amino.",
+      "GPT": "GPT es ALT y forma parte de las aminotransferasas clínicas.",
+      "Son todas transaminasas": "Es falso porque GGT transfiere grupos gamma-glutamilo y no se clasifica como transaminasa."
+    },
+    "claveMemorizar": "GOT/AST y GPT/ALT son transaminasas; GGT no.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27"
+  },
+  "127": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La creatina quinasa presenta tres isoenzimas principales: CK1 (BB), CK2 (MB) y CK3 (MM). Se distinguen por la combinación de subunidades y su distribución tisular.",
+    "motivosPorOpcion": {
+      "8": "No corresponde al número de combinaciones diméricas BB, MB y MM descritas para CK.",
+      "4": "El esquema del temario enumera tres isoenzimas, no cuatro.",
+      "6": "Confunde posiblemente subunidades o variantes con las tres isoenzimas principales de CK."
+    },
+    "claveMemorizar": "Tres CK: BB, MB y MM.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "128": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Muchas coenzimas son moléculas orgánicas derivadas de vitaminas y se unen de forma débil a la apoenzima durante la reacción. Las vitaminas aportan grupos químicos capaces de transferir electrones o grupos funcionales.",
+    "motivosPorOpcion": {
+      "Colesterol": "Es un lípido estructural y precursor de esteroides, no la asociación general de las coenzimas.",
+      "Hormonas": "Las hormonas regulan procesos fisiológicos, pero no constituyen de forma general coenzimas asociadas a apoenzimas.",
+      "Ácidos esenciales": "La categoría no corresponde a la relación explícita entre coenzimas y vitaminas indicada en el temario."
+    },
+    "claveMemorizar": "Coenzimas: cofactores orgánicos, a menudo derivados de vitaminas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "129": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las distintas formas moleculares de una enzima que catalizan la misma reacción se denominan isoenzimas. Pueden diferir en secuencia, propiedades fisicoquímicas y distribución tisular.",
+    "motivosPorOpcion": {
+      "Coenzimas": "Son cofactores orgánicos que colaboran en la catálisis, no variantes moleculares de una enzima.",
+      "Apoenzimas": "Son las porciones proteicas de holoenzimas dependientes de cofactor, no un conjunto de formas tisulares equivalentes.",
+      "Holoenzima": "Es el complejo activo de apoenzima y cofactor, no el término para formas moleculares múltiples."
+    },
+    "claveMemorizar": "Misma reacción, formas moleculares distintas = isoenzimas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11"
+  },
+  "130": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mioglobina es una proteína monomérica que contiene un único grupo hemo capaz de unir oxígeno. Su pequeño tamaño favorece su liberación temprana tras daño muscular.",
+    "motivosPorOpcion": {
+      "Una molécula con dos grupos hemo.": "Una mioglobina monomérica contiene un solo grupo hemo, no dos.",
+      "Una molécula con tres grupos hemo.": "Tres grupos hemo no corresponden a la estructura monomérica descrita.",
+      "Una molécula con cuatro grupos hemo.": "Cuatro grupos hemo se asocian a la hemoglobina tetramérica completa, no a una molécula de mioglobina."
+    },
+    "claveMemorizar": "Mioglobina: monómero, un hemo, unión de O2.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 8"
+  },
+  "131": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "CK2 corresponde a CK-MB y es la isoenzima que abunda en corazón, aunque también existe en menor cantidad en músculo esquelético. Su elevación se ha utilizado como indicador de lesión miocárdica.",
+    "motivosPorOpcion": {
+      "CK₁.": "CK1 es CK-BB y predomina en cerebro y músculo liso.",
+      "CKз.": "La opción representa CK3, equivalente a CK-MM, predominante en músculo esquelético y presente también en corazón, pero menos específica de lesión miocárdica.",
+      "CK₄.": "El sistema descrito solo incluye CK1, CK2 y CK3; no presenta una CK4 principal."
+    },
+    "claveMemorizar": "CK2 = MB = fracción asociada a miocardio.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 5-6"
+  },
+  "132": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La medición enzimática exige controlar concentración de reactivos, temperatura y pH porque las tres variables modifican la velocidad observada. Sin condiciones definidas, los resultados de actividad no son comparables.",
+    "motivosPorOpcion": {
+      "Hidratación, idoneidad y conductividad.": "No reúne las variables cinéticas principales establecidas para estandarizar la actividad enzimática.",
+      "Temperatura, pH e hidratación.": "Temperatura y pH sí son esenciales, pero hidratación no sustituye el control de concentración de enzima, sustrato y productos.",
+      "Conductividad, temperatura y adherencia.": "La temperatura influye, pero conductividad y adherencia no forman el conjunto general de condiciones indicado."
+    },
+    "claveMemorizar": "Ensayo enzimático reproducible: concentración, temperatura y pH controlados.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 3 y 14"
+  }
+}

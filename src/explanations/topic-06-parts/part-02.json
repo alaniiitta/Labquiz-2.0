@@ -1,0 +1,499 @@
+{
+  "45": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La CPK-MB, también denominada CK2, es la isoenzima de creatina quinasa que abunda en el corazón. Por esa distribución es más específica de lesión miocárdica que CK-MM o CK-BB.",
+    "motivosPorOpcion": {
+      "CPK-MM": "Predomina en músculo esquelético y también existe en músculo cardíaco, por lo que no es la fracción más específica del miocardio.",
+      "CPK-BB": "Se localiza sobre todo en cerebro y musculatura lisa, no en el miocardio.",
+      "CPK-MC": "No forma parte de las tres isoenzimas de CK descritas; las formas reconocidas son BB, MB y MM."
+    },
+    "claveMemorizar": "CK-MB: fracción cardíaca; CK-MM: músculo; CK-BB: cerebro.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "46": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tiroxina es una hormona tiroidea y no figura entre los marcadores de daño o función cardíaca. Troponina, mioglobina y CK sí se emplean en el contexto del infarto.",
+    "motivosPorOpcion": {
+      "Troponina": "Es la magnitud de elección para detectar daño miocárdico por su elevada sensibilidad y cardioespecificidad.",
+      "Mioglobina": "Es un marcador de elevación muy precoz tras el infarto, aunque su especificidad cardíaca es limitada.",
+      "CPK": "La CK total aumenta con la lesión muscular y su isoenzima CK-MB se ha utilizado como marcador cardíaco."
+    },
+    "claveMemorizar": "Tiroxina evalúa función tiroidea, no lesión cardíaca.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 2"
+  },
+  "47": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mioglobina aparece en suero aproximadamente a las 1-2 horas y es el primer marcador del listado que se eleva tras un infarto. Esa rapidez explica su sensibilidad en la fase inicial, aunque no sea cardioespecífica.",
+    "motivosPorOpcion": {
+      "Troponina": "Es el marcador de elección y puede detectar daño temprano, pero su ascenso convencional se sitúa después, entre 3 y 12 horas.",
+      "Hidroxiprolina": "Se relaciona con el metabolismo del colágeno y no aparece entre los marcadores de infarto del temario.",
+      "CPK-MB": "Suele comenzar a elevarse a las 3-12 horas, por lo que es menos precoz que la mioglobina."
+    },
+    "claveMemorizar": "Mioglobina es la primera en subir; troponina es la prueba de elección.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6 y 8"
+  },
+  "48": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La rotura de hematíes libera componentes intracelulares y hemoglobina, por lo que puede alterar el potasio y actividades enzimáticas, además de interferir ópticamente en algunas determinaciones como bilirrubina. En consecuencia, una muestra hemolizada puede afectar a los tres parámetros enumerados.",
+    "motivosPorOpcion": {
+      "Potasio": "Sí resulta afectado porque los eritrocitos liberan potasio al plasma o suero durante la hemólisis, pero no es el único parámetro comprometido.",
+      "Bilirrubinas": "La hemoglobina libre puede interferir en métodos fotométricos de bilirrubina, aunque escogerla sola deja fuera otras alteraciones.",
+      "CPK-MB": "La hemólisis y la liberación de contenido celular pueden sesgar ensayos enzimáticos, pero esta no es la única determinación afectada."
+    },
+    "claveMemorizar": "Muestra hemolizada: sospechar interferencia múltiple, no un analito aislado.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4",
+    "advertenciaRevision": "Los PDF del Tema 6 explican la liberación de componentes celulares por lisis, pero no documentan de forma específica la interferencia de la hemólisis en potasio, bilirrubina y CPK-MB."
+  },
+  "49": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La CK-MB presenta un valor predictivo negativo alto: un resultado no elevado reduce la probabilidad de infarto dentro de la ventana diagnóstica adecuada. El temario también le atribuye sensibilidad y especificidad cercanas al 95 %.",
+    "motivosPorOpcion": {
+      "Es la isoenzima menos cardioespecífica de la CPK total.": "CK-MB es precisamente la isoenzima de CK más asociada al corazón; CK-MM es predominantemente muscular y CK-BB cerebral.",
+      "Alcanza su máximo en sangre a las 30-40 horas del inicio del infarto.": "El máximo descrito se sitúa alrededor de las 24 horas, no entre 30 y 40 horas.",
+      "Lo más frecuente es determinarla en sangre total": "Los métodos del temario se refieren a la determinación analítica de CK-MB y no establecen la sangre total como muestra habitual."
+    },
+    "claveMemorizar": "CK-MB: VPN alto, pico aproximado a las 24 horas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6-7"
+  },
+  "50": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El NT-proBNP se utiliza para el diagnóstico y el pronóstico de la insuficiencia cardíaca. Su elevado valor predictivo negativo es especialmente útil para descartar este cuadro cuando la concentración es baja.",
+    "motivosPorOpcion": {
+      "Anemia.": "La anemia se estudia con parámetros hematológicos y no es la indicación diagnóstica atribuida al NT-proBNP.",
+      "Proteinuria.": "La proteinuria refleja eliminación urinaria de proteínas y se evalúa mediante análisis de orina, no con este péptido cardíaco.",
+      "Glucosuria.": "La glucosuria es presencia de glucosa en orina y no guarda relación diagnóstica directa con NT-proBNP."
+    },
+    "claveMemorizar": "NT-proBNP bajo ayuda a descartar insuficiencia cardíaca.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 14-15"
+  },
+  "51": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La mioglobina es el indicador que aparece antes en sangre tras el daño miocárdico, desde aproximadamente 1-2 horas. Su ventana es breve porque alcanza el pico a las 6-12 horas y desaparece a las 12-24 horas.",
+    "motivosPorOpcion": {
+      "Troponina T.": "Es más cardioespecífica y permanece elevada más tiempo, pero su cinética convencional comienza entre 3 y 12 horas.",
+      "CPK.": "La CK aumenta por lesión muscular y no ofrece la aparición tan precoz ni la especificidad de otros marcadores.",
+      "LDH.": "Se eleva a las 12-24 horas y alcanza su máximo entre 2 y 4 días, por lo que es un marcador tardío."
+    },
+    "claveMemorizar": "Precocidad: mioglobina; permanencia tardía: LDH y troponinas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3, 8 y 10"
+  },
+  "52": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La actividad enzimática se expresa habitualmente como unidades internacionales por litro. Una UI corresponde a la cantidad que convierte 1 micromol de sustrato por minuto bajo las condiciones definidas.",
+    "motivosPorOpcion": {
+      "mg/100 ml.": "Es una unidad de concentración de masa y no mide la velocidad catalítica de una enzima.",
+      "Mol/L.": "Expresa concentración molar, pero no incorpora el componente temporal necesario para describir actividad.",
+      "Unidades convencionales.": "La referencia normalizada del temario es la unidad internacional por litro, no una unidad convencional inespecífica."
+    },
+    "claveMemorizar": "Actividad enzimática: UI/L; 1 UI = 1 micromol por minuto.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 26"
+  },
+  "53": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una coenzima es un cofactor orgánico, como una vitamina, unido débilmente a la apoenzima. Su asociación permite formar la holoenzima catalíticamente activa.",
+    "motivosPorOpcion": {
+      "Factor": "Es un término demasiado genérico y no identifica el cofactor orgánico separable definido en la pregunta.",
+      "Activador": "Un activador aumenta la actividad enzimática, pero no designa específicamente la vitamina que integra la holoenzima.",
+      "Apoenzima": "Es la parte proteica e inactiva de la holoenzima, no el componente vitamínico que se le une."
+    },
+    "claveMemorizar": "Apoenzima más cofactor forma holoenzima; si es orgánico y débil, es coenzima.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "54": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fosfatasa alcalina necesita magnesio como cofactor para desarrollar su actividad. El ion metálico completa funcionalmente a la parte proteica de la enzima.",
+    "motivosPorOpcion": {
+      "LDH": "La LDH utiliza NAD+ en la oxidación reversible de lactato a piruvato, no se identifica aquí por Mg.",
+      "Amilasa": "El cofactor señalado para la amilasa es calcio, no magnesio.",
+      "GPT": "La GPT o ALT utiliza piridoxal fosfato como cofactor."
+    },
+    "claveMemorizar": "ALP-Mg, amilasa-Ca y ALT-piridoxal fosfato.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "55": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La distribución destacada de CK comprende músculo esquelético, corazón y cerebro, cada uno con distinto predominio isoenzimático. El hígado no figura como localización característica de esta enzima en el temario.",
+    "motivosPorOpcion": {
+      "Miocardio": "Contiene CK-MB y también CK-MM, por lo que sí es un tejido rico en creatina quinasa.",
+      "Músculo esquelético": "Es la localización predominante de CK-MM y utiliza fosfocreatina como reserva rápida de energía.",
+      "Cerebro": "La isoenzima CK-BB abunda en cerebro y musculatura lisa."
+    },
+    "claveMemorizar": "CK: músculo, miocardio y cerebro; no localización hepática característica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5",
+    "advertenciaRevision": "El PDF enumera los tejidos predominantes de las isoenzimas CK, pero formula la ausencia hepática por omisión y no afirma literalmente que el hígado carezca por completo de CK."
+  },
+  "56": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una muestra hemolizada puede liberar enzimas intracelulares y producir elevaciones espurias en distintas determinaciones. La clave del banco agrupa LDH, GOT y GPT como susceptibles de ese efecto preanalítico.",
+    "motivosPorOpcion": {
+      "LDH": "Los hematíes contienen LDH, de modo que la hemólisis puede elevarla, pero la clave considera que no es la única enzima afectada.",
+      "GOT": "La GOT o AST también puede liberarse desde células sanguíneas, aunque escogerla sola no recoge el efecto múltiple indicado.",
+      "GPT": "La GPT o ALT se incluye en la respuesta compuesta del banco, pero su susceptibilidad a hemólisis es menor y dependiente del método."
+    },
+    "claveMemorizar": "Antes de interpretar enzimas elevadas, descartar hemólisis de la muestra.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-4",
+    "advertenciaRevision": "Los PDF no describen la interferencia por hemólisis de LDH, GOT y GPT. Además, la inclusión general de GPT como falsamente elevada requiere verificar el método analítico concreto."
+  },
+  "57": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDH cataliza una reacción de oxidorreducción reversible entre lactato y piruvato utilizando NAD+. Por transferir hidrógeno o electrones entre sustratos se clasifica como oxidorreductasa.",
+    "motivosPorOpcion": {
+      "Hidrolasa": "Las hidrolasas rompen enlaces mediante agua; esa no es la reacción catalizada por LDH.",
+      "Liasa": "Las liasas catalizan rupturas o formaciones de enlaces sin la transferencia redox propia de LDH.",
+      "Transferasa": "Las transferasas desplazan grupos químicos distintos del hidrógeno entre moléculas, mientras LDH realiza una oxidación-reducción."
+    },
+    "claveMemorizar": "Deshidrogenasa equivale a oxidorreductasa.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 12 y 27"
+  },
+  "58": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La CK no es una hidrolasa, sino una transferasa que cataliza la transferencia de un fosfato entre ATP y creatina. Por ello la clasificación enzimática de la afirmación es incorrecta, aunque la reacción requiera magnesio.",
+    "motivosPorOpcion": {
+      "La aldolasa muscular está aumentada en la distrofia muscular de Duchenne.": "La aldolasa es un marcador de daño muscular y puede liberarse cuando se destruye tejido muscular.",
+      "En clínica sólo tiene importancia el aumento de la aldolasa muscular.": "La interpretación clínica de enzimas tisulares suele centrarse en aumentos por liberación celular; el PDF no desarrolla descensos de aldolasa.",
+      "El aumento de la GGT es un indicador sensible de alcoholismo oculto.": "La GGT puede aumentar por inducción enzimática frente a tóxicos, lo que sustenta su sensibilidad al consumo de alcohol."
+    },
+    "claveMemorizar": "CK transfiere fosfato: es transferasa, no hidrolasa.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4-5",
+    "advertenciaRevision": "Los PDF respaldan que CK es transferasa y que aldolasa aumenta en daño muscular, pero no citan expresamente distrofia de Duchenne ni alcoholismo oculto."
+  },
+  "59": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La LDH no alcanza su máximo a las 12-20 horas: comienza a aumentar aproximadamente a las 12-24 horas y llega al pico entre 2 y 4 días. Por eso la cronología propuesta es la afirmación incorrecta.",
+    "motivosPorOpcion": {
+      "Tiene un peso molecular de 140.000 daltons.": "Es una característica estructural compatible con la LDH tetramérica y no contradice su comportamiento como marcador.",
+      "Los valores normales en adultos van de 230 a 460 U/L.": "El intervalo puede variar según método y laboratorio; el PDF no ofrece un rango alternativo con el que refutar esta opción.",
+      "Permanece elevada durante 10- 12 días.": "El temario sitúa el retorno a la normalidad entre 8 y 14 días, intervalo que incluye 10-12 días."
+    },
+    "claveMemorizar": "LDH sube tarde, pico 2-4 días y persiste hasta unos 8-14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
+    "advertenciaRevision": "El PDF confirma la cinética que hace falsa la opción C, pero no documenta el peso molecular ni el intervalo de referencia incluidos en las otras opciones."
+  },
+  "60": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La clave marca la combinación de A y B, pero el PDF solo respalda claramente que los péptidos natriuréticos ayudan a diagnosticar insuficiencia cardíaca y a valorar una disnea. La afirmación A es demasiado absoluta porque CK, LDH, mioglobina y péptidos natriuréticos también tienen utilidad clínica.",
+    "motivosPorOpcion": {
+      "En clínica sólo tiene importancia el aumento de los niveles de troponinas.": "Es falsa por el término «sólo»: el temario presenta otros marcadores con utilidad diagnóstica o pronóstica.",
+      "El Pro- BNP puede servir como marcador de sobrecarga de cavidades cardíacas y en la práctica diaria para el diagnóstico diferencial de la disnea de origen cardíaco frente a la disnea de origen respiratorio.": "Es la afirmación individual compatible con el uso de NT-proBNP en insuficiencia cardíaca y urgencias con disnea.",
+      "La Troponina I es algo menos específica de la lesión miocárdica que la Troponina T.": "El temario indica lo contrario: troponina I es ligeramente más cardioespecífica que troponina T."
+    },
+    "claveMemorizar": "NT-proBNP orienta en disnea; troponina I es algo más cardioespecífica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 10 y 14-15",
+    "advertenciaRevision": "La respuesta D del banco contradice el PDF: A es falsa y B es la única opción individual respaldada. Debe revisarse la clave y probablemente cambiarse a B."
+  },
+  "61": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Cuando el cofactor es una molécula orgánica unida débilmente y se separa al terminar la reacción recibe el nombre de coenzima. Muchas coenzimas derivan de vitaminas.",
+    "motivosPorOpcion": {
+      "Apoenzima": "Es la porción proteica inactiva que necesita el cofactor, no el propio compuesto orgánico.",
+      "Activador": "Describe una sustancia que incrementa actividad, pero no clasifica al cofactor por su naturaleza orgánica.",
+      "Grupo prostético.": "Es un cofactor orgánico unido de forma fuerte o covalente; la denominación general esperada aquí es coenzima."
+    },
+    "claveMemorizar": "Cofactor orgánico débil: coenzima; orgánico fuertemente unido: grupo prostético.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "62": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Temperatura, pH y concentración de sustrato modifican directamente la velocidad enzimática. El tiempo de reacción define cuándo se mide el proceso, pero no aparece como factor intrínseco de actividad en la lista del temario.",
+    "motivosPorOpcion": {
+      "Temperatura": "Modifica la velocidad hasta un óptimo y, si es excesiva, puede desnaturalizar la enzima.",
+      "pH": "Altera la ionización y la conformación del sitio activo, por lo que cambia la actividad.",
+      "Concentración del sustrato": "Aumenta la velocidad hasta que la enzima se satura y se alcanza Vmáx."
+    },
+    "claveMemorizar": "Factores cinéticos: concentraciones, pH, temperatura y fuerza iónica.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 14-16"
+  },
+  "63": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la inhibición competitiva, inhibidor y sustrato compiten por la enzima y no pueden unirse a la vez. Una concentración suficientemente alta de sustrato desplaza al inhibidor y recupera la Vmáx.",
+    "motivosPorOpcion": {
+      "Inhibición irreversible.": "La unión covalente no se revierte añadiendo sustrato porque la enzima queda modificada de forma permanente.",
+      "Inhibición reversible acompetitiva.": "El inhibidor acompetitivo se une solo al complejo enzima-sustrato y reduce tanto Km como Vmáx.",
+      "Retroinhibición.": "Es una regulación por producto final de una vía y no describe necesariamente una competencia superable con más sustrato."
+    },
+    "claveMemorizar": "Competitiva: más Km, misma Vmáx y se vence con sustrato.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 20 y 22"
+  },
+  "64": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La troponina I o T es la magnitud de elección para el diagnóstico de daño miocárdico. Su interpretación seriada, junto con evidencia clínica, electrocardiográfica o de imagen, permite definir un infarto.",
+    "motivosPorOpcion": {
+      "Procalcitonina": "Se utiliza principalmente como marcador de infección bacteriana sistémica, no como marcador cardíaco del temario.",
+      "GGT": "Es una enzima relacionada con hígado y vías biliares, no una proteína cardioespecífica.",
+      "HLA-B27": "Es un antígeno de histocompatibilidad asociado a enfermedades inflamatorias, no a lesión miocárdica."
+    },
+    "claveMemorizar": "Infarto: troponina alterada más evidencia de isquemia.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-10"
+  },
+  "65": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Dentro de las isoenzimas de CPK, la fracción MB presenta la mayor asociación con miocardio. Puede existir también en músculo esquelético, razón por la que hoy la troponina ofrece mayor especificidad.",
+    "motivosPorOpcion": {
+      "CPK-MM": "Constituye casi toda la CK sérica y predomina en músculo esquelético, de modo que un aumento no localiza específicamente el corazón.",
+      "CPK-BB": "Es característica de cerebro y musculatura lisa y está prácticamente ausente del suero normal.",
+      "CPK-MC": "No es una isoenzima descrita de CK; el sistema se compone de BB, MB y MM."
+    },
+    "claveMemorizar": "MB orienta a miocardio, pero troponina es más específica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 5-6"
+  },
+  "66": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las enzimas plasma-específicas son aquellas cuya función fisiológica se desarrolla en el propio plasma. El criterio es el lugar donde actúan, no el tejido o célula donde se sintetizan.",
+    "motivosPorOpcion": {
+      "Enzimas que se sintetizan en el plasma.": "El plasma no es un tejido sintetizador; contiene proteínas producidas por células y órganos.",
+      "Enzimas que se sintetizan en los hematíes.": "El origen eritrocitario no define una función plasmática y la liberación por lisis puede ser patológica o preanalítica.",
+      "Enzimas que se sintetizan en los leucocitos.": "La síntesis leucocitaria tampoco es el criterio de clasificación como plasma-específica."
+    },
+    "claveMemorizar": "Plasma-específica describe dónde funciona, no dónde se fabrica.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27",
+    "advertenciaRevision": "El PDF trata enzimas usadas en diagnóstico y causas de aumento plasmático, pero no define expresamente el término «enzimas plasma-específicas»."
+  },
+  "67": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La citoqueratina es una proteína estructural intracelular de origen epitelial y se utiliza como marcador de diferenciación tisular, no como marcador sérico en el sentido planteado. Las otras opciones corresponden a sustancias medibles en circulación.",
+    "motivosPorOpcion": {
+      "Fosfatasa ácida prostática": "Es una enzima de origen prostático que históricamente se ha determinado en suero.",
+      "Calcitonina": "Es una hormona circulante utilizable como marcador sérico, especialmente en patología de células C tiroideas.",
+      "Gonadotropina coriónica humana": "La hCG circula en sangre y puede cuantificarse como marcador sérico."
+    },
+    "claveMemorizar": "Citoqueratina identifica linaje epitelial; no es el marcador sérico de la lista.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27",
+    "advertenciaRevision": "Los PDF del Tema 6 no desarrollan marcadores de diferenciación, citoqueratinas, calcitonina ni hCG; la respuesta carece de soporte directo en las fuentes autorizadas."
+  },
+  "68": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR es un reactante de fase aguda y no se incluye entre los marcadores cardíacos del temario. No obstante, la redacción es imprecisa porque troponina y mioglobina son marcadores cardíacos pero tampoco son enzimas.",
+    "motivosPorOpcion": {
+      "Troponina": "Es una proteína del aparato contráctil y el marcador de elección de daño miocárdico, aunque técnicamente no es una enzima.",
+      "Mioglobina": "Es una proteína transportadora de oxígeno que aumenta precozmente tras daño muscular, no una enzima.",
+      "Aldolasa": "Es una enzima muscular que puede aumentar en daño muscular, incluido infarto, aunque actualmente se usan marcadores más específicos."
+    },
+    "claveMemorizar": "PCR indica inflamación; troponina y mioglobina son proteínas marcadoras, no enzimas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 4, 8-9",
+    "advertenciaRevision": "La clave D encaja si la pregunta pretende identificar qué opción no es marcador cardíaco, pero no si pregunta literalmente por enzimas: troponina y mioglobina tampoco tienen actividad enzimática."
+  },
+  "69": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mioglobina se libera muy pronto tras la necrosis miocárdica y puede aparecer en suero desde 1-2 horas. Su escasa especificidad obliga a interpretarla junto con marcadores más cardioespecíficos.",
+    "motivosPorOpcion": {
+      "Creatinfosfocinasa": "La CK puede aumentar en infarto, pero también ante lesión de músculo esquelético y su ascenso es posterior al de mioglobina.",
+      "Aldolasa": "Es un marcador inespecífico de daño muscular y está desplazado por CK y troponinas.",
+      "Amilasa": "Es una enzima digestiva y no forma parte del panel de necrosis miocárdica descrito."
+    },
+    "claveMemorizar": "Mioglobina avisa primero, pero no localiza el daño en el corazón.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 4 y 8"
+  },
+  "70": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La actividad CK-MB puede determinarse mediante métodos inmunológicos indirectos de inmunoinhibición. Estos bloquean selectivamente una subunidad para estimar la actividad de la fracción MB.",
+    "motivosPorOpcion": {
+      "Ensayos cromogénicos cualitativos.": "La actividad enzimática requiere una medición cuantitativa de velocidad, no una lectura meramente cualitativa.",
+      "Técnicas de microscopía.": "La microscopía examina estructuras celulares y no separa ni cuantifica la actividad de isoenzimas CK.",
+      "Técnicas de química seca": "Aunque existen plataformas de química seca, no es el método específico de CK-MB destacado frente a la inmunoinhibición."
+    },
+    "claveMemorizar": "CK-MB actividad: inmunoinhibición; CK-MB masa: inmunoensayo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 7"
+  },
+  "71": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La CK-BB o CK1 abunda en el cerebro y también en musculatura lisa. Su distribución la diferencia de CK-MB cardíaca y CK-MM muscular.",
+    "motivosPorOpcion": {
+      "El miocardio.": "En corazón destaca CK-MB, aunque también contiene CK-MM.",
+      "El músculo esquelético.": "La isoenzima predominante en músculo esquelético es CK-MM.",
+      "El hueso.": "El hueso se asocia a isoformas de fosfatasa alcalina, no al predominio de CK-BB descrito."
+    },
+    "claveMemorizar": "BB-cerebro, MB-miocardio, MM-músculo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "72": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "CK-MB es la isoenzima que abunda en el corazón y por ello la más específica del miocardio dentro de la familia CK. Su ascenso debe distinguirse de la CK-MM liberada por músculo esquelético.",
+    "motivosPorOpcion": {
+      "CK-MM.": "Predomina en músculo esquelético y constituye casi toda la CK sérica basal, por lo que es poco cardioespecífica.",
+      "CK-BB.": "Se concentra en cerebro y músculo liso y no representa la fracción miocárdica.",
+      "CK-SS.": "No pertenece a la nomenclatura de las tres isoenzimas CK descritas en el temario."
+    },
+    "claveMemorizar": "La letra B de MB orienta a la fracción cardíaca frente a MM muscular.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "73": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La necrosis miocárdica libera creatina quinasa intracelular al plasma y aumenta la CK total. La fracción CK-MB aporta mayor orientación cardíaca, aunque actualmente ha sido sustituida en gran medida por troponina.",
+    "motivosPorOpcion": {
+      "Lipasa.": "Es una hidrolasa relacionada principalmente con digestión de grasas y patología pancreática, no con necrosis miocárdica.",
+      "Alfa-amilasa.": "Actúa sobre carbohidratos y no figura entre los marcadores liberados por lesión cardíaca.",
+      "Fosfatasa alcalina": "Se utiliza sobre todo en patología hepatobiliar y ósea, no como indicador de infarto."
+    },
+    "claveMemorizar": "Infarto libera CK; CK-MB orienta al origen cardíaco.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 5-6"
+  },
+  "74": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las enzimas actúan como catalizadores: aumentan la velocidad de reacciones necesarias para la vida al reducir la energía de activación. Al finalizar permanecen inalteradas y no modifican el equilibrio de la reacción.",
+    "motivosPorOpcion": {
+      "Transmisores.": "La transmisión de señales puede involucrar proteínas, pero no define la función catalítica general de las enzimas.",
+      "Fuente de energía.": "Las enzimas facilitan reacciones sin consumirse como combustible ni aportar por sí mismas la energía de la reacción.",
+      "Neurotransmisores.": "Los neurotransmisores son mensajeros químicos; no equivalen a catalizadores enzimáticos."
+    },
+    "claveMemorizar": "Enzima acelera y queda intacta; no aporta energía ni cambia el equilibrio.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2-4"
+  },
+  "75": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "CK-MM, CK-MB y CK-BB son las tres isoenzimas de creatina quinasa. Como las opciones A, B y C nombran formas válidas, hay más de una respuesta correcta.",
+    "motivosPorOpcion": {
+      "Creatina quinasa -MM.": "Es una isoenzima real y predomina en músculo esquelético, pero no es la única forma válida de la lista.",
+      "Creatina quinasa -MB.": "Es la isoenzima asociada al corazón, aunque comparte validez con MM y BB.",
+      "Creatina quinasa -BB.": "Es la forma predominante en cerebro y músculo liso, pero tampoco es la única isoenzima correcta."
+    },
+    "claveMemorizar": "Las tres combinaciones de subunidades CK son MM, MB y BB.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "76": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El NT-proBNP posee un elevado valor predictivo negativo en insuficiencia cardíaca. En Atención Primaria, una concentración baja permite descartar con eficacia el diagnóstico y evitar derivaciones innecesarias.",
+    "motivosPorOpcion": {
+      "La vida media del Nt-ProBNP es inferior a la del BNP.": "NT-proBNP permanece más tiempo en circulación que BNP; no presenta una vida media inferior.",
+      "Es un péptido de actividad hormonal.": "NT-proBNP es el fragmento inactivo liberado junto al BNP, que es el péptido biológicamente activo.",
+      "El sobrepeso influye aumentando las concentraciones de Nt-ProBNP.": "El temario señala concentraciones menores en personas obesas, no mayores."
+    },
+    "claveMemorizar": "NT-proBNP destaca para descartar IC; obesidad tiende a bajarlo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 14-15",
+    "advertenciaRevision": "El PDF respalda el alto valor predictivo negativo y el descenso con obesidad, pero no explica de forma explícita la vida media ni la ausencia de actividad hormonal de NT-proBNP."
+  },
+  "77": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las troponinas no se normalizan necesariamente a los 3-6 días: la troponina I puede detectarse hasta 7 días y la T hasta 14. Por eso esa afirmación acorta indebidamente su permanencia en sangre.",
+    "motivosPorOpcion": {
+      "La troponina es un parámetro de elevada sensibilidad y especificidad en el diagnóstico del Infarto Agudo de Miocardio.": "Es correcta y supera en sensibilidad y especificidad a CK-MB.",
+      "Se eleva de forma temprana en un infarto de miocardio, pudiendo detectarse hacia las 2- 6 horas del inicio del cuadro.": "Es compatible con el ascenso temprano descrito y con la mayor precocidad de los ensayos ultrasensibles.",
+      "Se detecta su pico en sangre tras 10-24horas.": "El máximo se sitúa aproximadamente en torno a 24-48 horas, por lo que el extremo de 24 horas es compatible con el inicio del pico descrito."
+    },
+    "claveMemorizar": "Troponina I dura hasta 7 días; troponina T, hasta 14.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 10-12",
+    "advertenciaRevision": "El PDF sitúa el máximo en 24-48 horas, mientras la opción C propone 10-24 horas. Aunque la clave señala D, el intervalo de C también merece revisión."
+  },
+  "78": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "CK y troponina evalúan principalmente daño miocárdico, mientras BNP se utiliza para diagnóstico y pronóstico de insuficiencia cardíaca. No se determina esa pareja de forma obligatoria para compensar una supuesta baja especificidad del BNP en dicho diagnóstico.",
+    "motivosPorOpcion": {
+      "Produce un aumento de la diuresis.": "El BNP favorece natriuresis y diuresis como respuesta a la sobrecarga cardíaca.",
+      "La elevación de su valor en plasma o suero es indicativa de insuficiencia cardíaca congestiva.": "Una concentración elevada apoya insuficiencia cardíaca, interpretada según edad, obesidad y función renal.",
+      "El BNP es una hormona con función autocrina, paracrina, endocrina": "El BNP es el fragmento biológicamente activo y ejerce acciones locales y sistémicas de compensación cardiovascular."
+    },
+    "claveMemorizar": "BNP/NT-proBNP para insuficiencia cardíaca; troponina para daño miocárdico.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15",
+    "advertenciaRevision": "El PDF respalda el uso diagnóstico de BNP/NT-proBNP, pero no detalla sus acciones diurética, autocrina, paracrina y endocrina."
+  },
+  "79": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La concentración de conjugado pertenece a protocolos de inmunoensayo y no figura como variable intrínseca de la cinética enzimática. Temperatura, concentración de sustrato y pH sí modifican directamente la actividad.",
+    "motivosPorOpcion": {
+      "Temperatura": "Aumenta la velocidad hasta un máximo y puede inactivar la enzima si provoca desnaturalización.",
+      "Concentración de sustrato": "Determina la velocidad hasta la saturación enzimática y la llegada a Vmáx.",
+      "pH": "Modifica cargas y estructura del sitio activo, afectando la unión al sustrato y la catálisis."
+    },
+    "claveMemorizar": "Cinética enzimática: sustrato, enzima, pH, temperatura e inhibidores.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 14-16"
+  },
+  "80": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El temario enumera isoenzimas para LDH, CK y fosfatasa alcalina, pero no incluye GGT entre sus ejemplos. Según la clave, GGT es la excepción del conjunto propuesto.",
+    "motivosPorOpcion": {
+      "Lactato dehidrogenasa (LDH).": "Presenta cinco isoenzimas, LDH1 a LDH5, con distinta distribución tisular.",
+      "Creatinfosfokinasa (CPK).": "Posee tres isoenzimas principales: CK-BB, CK-MB y CK-MM.",
+      "Fosfatasa alcalina.": "El temario la cita expresamente como enzima con formas isoenzimáticas."
+    },
+    "claveMemorizar": "Ejemplos clásicos de isoenzimas: LDH, CK y fosfatasa alcalina.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 5",
+    "advertenciaRevision": "El soporte para GGT se basa en que no aparece entre los ejemplos de isoenzimas del PDF; la fuente no afirma expresamente que no existan isoformas de GGT."
+  },
+  "81": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las enzimas no se consumen durante la catálisis: tras liberar los productos recuperan su estado y pueden participar en otra reacción. Esta propiedad permite que cantidades bajas catalicen muchas conversiones.",
+    "motivosPorOpcion": {
+      "Aumentan la energía de activación": "Las enzimas disminuyen la barrera de activación para acelerar la reacción.",
+      "Se requieren cantidades muy altas para catalizar la reacción": "Actúan eficazmente en cantidades pequeñas porque permanecen disponibles tras cada ciclo catalítico.",
+      "Disminuyen la velocidad de reacción": "Su función catalítica consiste en aumentar la velocidad sin cambiar la constante de equilibrio."
+    },
+    "claveMemorizar": "Catalizador: acelera, reduce energía de activación y no se consume.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 3-4"
+  },
+  "82": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las enzimas catalizan reacciones específicas y permiten que procesos espontáneos demasiado lentos ocurran a velocidad compatible con la vida. Sus actividades también se relacionan con estados clínicos y se aprovechan en diagnóstico.",
+    "motivosPorOpcion": {
+      "Catalizar reacciones químicas específicas.": "Es una función verdadera, basada en la unión selectiva entre enzima y sustrato, pero no agota las afirmaciones válidas.",
+      "Se relacionan con numerosos estados clínicos.": "Las actividades enzimáticas cambian por muerte celular, inducción o alteración de eliminación y sirven como marcadores, pero hay más respuestas verdaderas.",
+      "Permiten que reaccionen que tienen lugar a velocidades muy bajas se realicen a mayor velocidad.": "Describe correctamente su efecto catalítico sobre reacciones biológicas lentas, aunque tampoco es la única opción cierta."
+    },
+    "claveMemorizar": "Especificidad más aceleración explica el valor biológico y clínico de las enzimas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2-5 y 27"
+  },
+  "83": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Km y afinidad se relacionan de forma inversa: una Km alta indica que hace falta más sustrato para alcanzar la mitad de Vmáx y, por tanto, menor afinidad. La afirmación invierte esa relación.",
+    "motivosPorOpcion": {
+      "La velocidad de formación del producto aumenta conforme aumenta la velocidad de sustrato hasta llegar a la Vmáx.": "Interpretada como aumento de concentración de sustrato, describe la subida de velocidad hasta la saturación enzimática.",
+      "La gráfica que representa la cinética enzimática es la de Michaelis-Menten.": "La ecuación y su representación relacionan velocidad con concentración de sustrato.",
+      "Al aumentar la temperatura se eleva la velocidad de reacción hasta un punto máximo.": "La temperatura acelera inicialmente la reacción hasta un óptimo, antes de que la pérdida estructural reduzca actividad."
+    },
+    "claveMemorizar": "Km baja significa afinidad alta; Km alta significa afinidad baja.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 14 y 17-18"
+  },
+  "84": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las oxidorreductasas catalizan transferencias de hidrógeno o electrones entre sustratos. Así producen una oxidación en una molécula acoplada a una reducción en otra.",
+    "motivosPorOpcion": {
+      "Cataliza reacciones de transferencia de grupos amino, carboxilo, fosfato.": "La transferencia de grupos químicos distintos del hidrógeno corresponde a las transferasas.",
+      "Catalizan la ruptura con adición de agua.": "La rotura de enlaces por incorporación de agua define a las hidrolasas.",
+      "Todas son falsas.": "La opción sobre transferencia de electrones reproduce la definición de oxidorreductasa, por lo que no todas son falsas."
+    },
+    "claveMemorizar": "Redox mueve electrones o hidrógeno; transferasa mueve grupos; hidrolasa usa agua.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 12"
+  },
+  "85": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las isomerasas catalizan la conversión de una molécula en otro isómero, reorganizando su estructura sin cambiar su composición global. Esa interconversión distingue su clase enzimática.",
+    "motivosPorOpcion": {
+      "Eliminan enlaces y forman dobles enlaces": "Ese tipo de ruptura o formación de enlaces se atribuye a liasas, no a isomerasas.",
+      "Catalizan la unión de dos sustratos utilizando energía": "La unión acoplada a hidrólisis de ATP o GTP corresponde a ligasas.",
+      "Todas son correctas": "Las funciones de las opciones A y C pertenecen a otras clases enzimáticas, así que no pueden ser todas correctas."
+    },
+    "claveMemorizar": "Isomerasa reorganiza; ligasa une con energía; liasa rompe o forma enlaces.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 12"
+  },
+  "86": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un inhibidor competitivo obliga a emplear más sustrato para alcanzar una velocidad determinada, por lo que aumenta la Km aparente. Como una concentración alta de sustrato desplaza al inhibidor, la Vmáx permanece sin cambios.",
+    "motivosPorOpcion": {
+      "Aumento de la Vmáx pero sin alteración de la Km": "La inhibición no incrementa la capacidad catalítica máxima; en la competitiva cambia Km, no Vmáx.",
+      "Aumento tanto de la Km como de la Vmáx": "Km sí aumenta, pero Vmáx se conserva porque el efecto puede superarse con exceso de sustrato.",
+      "Disminución de la Vmáx pero sin alterar la Km": "Ese patrón corresponde a inhibición no competitiva pura, no competitiva."
+    },
+    "claveMemorizar": "Competitiva: Km sube y Vmáx queda igual.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 21-22"
+  },
+  "87": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Km es la concentración de sustrato necesaria para que la velocidad alcance la mitad de Vmáx. Su valor permite comparar de forma inversa la afinidad de distintas enzimas por sus sustratos.",
+    "motivosPorOpcion": {
+      "Es la velocidad referida de una concentración.": "Km tiene unidades de concentración y define un punto de la curva, pero no es en sí una velocidad.",
+      "No mide nada.": "Es un parámetro cuantitativo de Michaelis-Menten con significado cinético y relación con afinidad.",
+      "Es la concentración de un sustrato referida al tiempo.": "No incorpora tiempo; se define por la concentración a la que se obtiene Vmáx/2."
+    },
+    "claveMemorizar": "En la curva, Km se lee donde v = Vmáx/2.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 17-18"
+  },
+  "88": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las reacciones enzimáticas sí pueden inhibirse mediante mecanismos competitivos, no competitivos y acompetitivos. Negar cualquier posibilidad de inhibición contradice la regulación enzimática descrita.",
+    "motivosPorOpcion": {
+      "Pueden inhibirse competitivamente": "Es verdadera: inhibidor y sustrato compiten y el efecto puede vencerse con exceso de sustrato.",
+      "Pueden inhibirse no competitivamente": "Es verdadera: el inhibidor reduce Vmáx sin modificar Km en el patrón puro.",
+      "Pueden inhibirse acompetitivamente": "Es verdadera: el inhibidor se une al complejo enzima-sustrato y reduce Km y Vmáx."
+    },
+    "claveMemorizar": "Tres patrones reversibles: competitiva, no competitiva y acompetitiva.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 20-23"
+  }
+}

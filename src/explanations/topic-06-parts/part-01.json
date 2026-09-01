@@ -1,0 +1,499 @@
+{
+  "1": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDH es una oxidorreductasa que interconvierte lactato y piruvato utilizando el par NAD+/NADH. La reversibilidad permite que la dirección dependa de las condiciones metabólicas.",
+    "motivosPorOpcion": {
+      "Ácido láctico.": "Es otra forma de nombrar el lactato según el pH, no el producto distinto que se obtiene al oxidarlo.",
+      "No cataliza ninguna reacción.": "La LDH sí tiene actividad catalítica y participa en una reacción central del metabolismo anaerobio.",
+      "Fosfato.": "La reacción de la LDH es una oxidación-reducción y no implica transferir ni liberar grupos fosfato."
+    },
+    "claveMemorizar": "LDH: lactato ⇄ piruvato, acoplado a NAD+/NADH.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, p. 3"
+  },
+  "2": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "CK-MB está enriquecida en el corazón y fue la fracción de CK usada para reconocer lesión miocárdica. Su proporción respecto a la CK total ayuda a distinguir el origen cardíaco.",
+    "motivosPorOpcion": {
+      "CPK-MM.": "CK-MM predomina en músculo esquelético y también existe en corazón, por lo que resulta menos específica del miocardio.",
+      "CPK-BB.": "CK-BB abunda en cerebro y músculo liso, no en el tejido cardíaco.",
+      "CPK-MD.": "La clasificación expuesta solo contempla las combinaciones BB, MB y MM; MD no es una isoenzima de CK reconocida."
+    },
+    "claveMemorizar": "CK-BB: cerebro; CK-MB: miocardio; CK-MM: músculo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 5-6"
+  },
+  "3": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mioglobina aparece en suero aproximadamente a las 1-2 horas, antes que los demás marcadores enumerados. Esa rapidez aporta sensibilidad inicial, aunque su abundancia en músculo esquelético limita la especificidad cardíaca.",
+    "motivosPorOpcion": {
+      "Troponina.": "Es el marcador de elección por sensibilidad y cardioespecificidad, pero su elevación se sitúa habitualmente entre 3 y 12 horas.",
+      "Hidroxiprolina.": "Es un componente relacionado con el colágeno y no figura entre los marcadores de necrosis miocárdica del temario.",
+      "CPK.MB.": "CK-MB comienza a elevarse más tarde, en torno a 3-12 horas, y ha sido sustituida por troponinas."
+    },
+    "claveMemorizar": "Mioglobina: primera en subir; troponina: marcador de elección.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2, 6 y 8"
+  },
+  "4": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las transaminasas catalizan la transferencia de grupos amino y pertenecen a la clase de las transferasas. Por tanto, su identidad funcional es la de enzimas.",
+    "motivosPorOpcion": {
+      "Proteínas.": "La mayoría de las enzimas son proteínas, pero la pregunta pide la categoría funcional específica de las transaminasas.",
+      "Hormonas.": "Las hormonas actúan como señales; no catalizan la transferencia de grupos amino.",
+      "Aminoácidos": "Los aminoácidos pueden actuar como sustratos de transaminación, pero no son los catalizadores de la reacción."
+    },
+    "claveMemorizar": "Transaminasas = aminotransferasas = enzimas transferasas.",
+    "fuente": "Tema 6.1. Enzimas, pp. 2, 12 y 27"
+  },
+  "5": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las troponinas cardíacas son muy específicas, pero el temario sitúa su aumento habitual entre 3 y 12 horas, no necesariamente dentro de las dos primeras. La afirmación une una propiedad verdadera con un tiempo demasiado precoz.",
+    "motivosPorOpcion": {
+      "El marcador de preferencia del IAM es la Troponina.": "Troponina I o T es la magnitud de elección para el infarto agudo de miocardio.",
+      "El IAM refleja la pérdida de células cardiacas (necrosis).": "La lesión miocárdica libera componentes intracelulares al plasma, fundamento de la medición de biomarcadores.",
+      "Ante la ausencia de medición de troponina, la CK-MB masa es el mejor indicador.": "CK-MB posee alta sensibilidad y especificidad y fue el marcador alternativo clásico antes del predominio de la troponina."
+    },
+    "claveMemorizar": "Troponina: elección en IAM; elevación habitual desde 3-12 h.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2, 6, 9-10",
+    "advertenciaRevision": "El PDF confirma que la detección habitual no se fija en las primeras dos horas, pero no formula expresamente la recomendación alternativa de CK-MB masa cuando no hay troponina."
+  },
+  "6": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Entre las isoformas cardíacas, la troponina I se considera ligeramente más cardioespecífica. La troponina T ofrece a cambio una permanencia más prolongada en circulación.",
+    "motivosPorOpcion": {
+      "Troponina C.": "La troponina C participa en la regulación por calcio, pero no aporta la cardioespecificidad diferencial de I.",
+      "Troponina K.": "El complejo descrito contiene troponinas C, I y T; no incluye una isoforma K.",
+      "Troponina T.": "Es un marcador cardíaco válido y permanece elevada más tiempo, aunque el temario atribuye la ligera ventaja de especificidad a I."
+    },
+    "claveMemorizar": "I: algo más específica; T: detectable durante más días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 9-11"
+  },
+  "7": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las constantes de equilibrio se representan de forma general con K. Una constante resume la relación entre especies cuando las velocidades directa e inversa se igualan.",
+    "motivosPorOpcion": {
+      "S": "S se usa habitualmente para representar el sustrato, no una constante de equilibrio.",
+      "P": "P identifica el producto en el esquema de reacción enzimática, no la constante.",
+      "T": "T no es la notación general empleada en el temario para el equilibrio químico."
+    },
+    "claveMemorizar": "K representa una constante; S, sustrato; P, producto.",
+    "fuente": "Tema 6.1. Enzimas, pp. 2-3",
+    "advertenciaRevision": "El PDF usa K para la constante de equilibrio, pero no define específicamente una «constante de disociación para alcanzar el punto de equilibrio»."
+  },
+  "8": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ejercicio puede liberar enzimas abundantes en músculo, como CK, LDH y aldolasa. La piruvato kinasa no se presenta en el temario como una elevación sérica muscular característica del esfuerzo.",
+    "motivosPorOpcion": {
+      "Creatina kinasa.": "CK-MM abunda en músculo esquelético y aumenta ante daño o estrés muscular.",
+      "Lactato deshidrogenasa.": "La LDH está ampliamente distribuida y puede elevarse por lisis de células musculares.",
+      "Aldolasa.": "El temario incluye la aldolasa entre las enzimas liberadas en destrucción muscular."
+    },
+    "claveMemorizar": "Esfuerzo muscular: pueden subir CK, LDH y aldolasa.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 3-5",
+    "advertenciaRevision": "El PDF relaciona CK, LDH y aldolasa con destrucción muscular, pero no compara directamente las cuatro enzimas tras ejercicio ni menciona la piruvato kinasa."
+  },
+  "9": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una Km menor significa que se necesita menos sustrato para alcanzar la mitad de Vmax y, por tanto, refleja mayor afinidad. No permite concluir que la enzima actúe más lentamente.",
+    "motivosPorOpcion": {
+      "La velocidad de trasformación del substrato en producto depende de la afinidad de la enzima por el substrato.": "La afinidad condiciona la concentración de sustrato necesaria para ocupar la enzima y alcanzar una velocidad dada.",
+      "La velocidad de trasformación depende de la cantidad de enzima presente.": "Con sustrato saturante, la cantidad de enzima disponible es el factor que limita la velocidad máxima.",
+      "La velocidad de trasformación también depende de la cantidad de substrato presente.": "A bajas concentraciones, aumentar el sustrato incrementa proporcionalmente la velocidad."
+    },
+    "claveMemorizar": "Km baja = afinidad alta, no velocidad baja.",
+    "fuente": "Tema 6.1. Enzimas, pp. 14-18"
+  },
+  "10": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La inhibición puede ser reversible o irreversible, y los patrones cinéticos competitivo, no competitivo y acompetitivo se describen como interacciones reversibles. No es correcto presentar la irreversibilidad como la situación habitual.",
+    "motivosPorOpcion": {
+      "Hay tres patrones de inhibición: competitivo, no competitivo, acompetitivo.": "Son los tres patrones básicos enumerados, a los que el material añade la inhibición mixta.",
+      "Los inhibidores no competitivos se unen a un sitio de la enzima diferente del sitio catalítico.": "Su efecto se explica por unión alostérica, que modifica la actividad sin competir por el sitio activo.",
+      "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el sustrato en producto.": "La inhibición no competitiva disminuye Vmax porque reduce la fracción catalíticamente eficaz."
+    },
+    "claveMemorizar": "Irreversible: enlace covalente; reversible: competitivo, no competitivo o acompetitivo.",
+    "fuente": "Tema 6.1. Enzimas, pp. 19-24"
+  },
+  "11": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las enzimas diagnósticas suelen encontrarse dentro de las células y pasan al plasma cuando existe lesión o aumento de liberación. Por eso es falsa la inversión de ese gradiente de concentración.",
+    "motivosPorOpcion": {
+      "Son catalizadores con alta especificidad por su substrato.": "La complementariedad del sitio activo confiere especificidad por sustrato y tipo de reacción.",
+      "Como catalizadores están presentes en cantidad mínima y pueden saturarse": "Pequeñas cantidades catalizan reacciones y, con sustrato abundante, todos los sitios activos pueden quedar ocupados.",
+      "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el substrato en producto.": "Al disminuir Vmax, queda reducida la capacidad catalítica total aunque el sustrato aún pueda unirse."
+    },
+    "claveMemorizar": "Enzimas celulares altas en plasma suelen indicar liberación tisular.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3-6, 15 y 21",
+    "advertenciaRevision": "El PDF explica la liberación plasmática por muerte celular, pero no compara de forma literal las concentraciones intracelulares y plasmáticas de la mayoría de enzimas."
+  },
+  "12": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "CK-BB, también denominada CK1, predomina en cerebro y musculatura lisa. Esa distribución la convierte en la isoenzima del listado más vinculada al daño cerebral.",
+    "motivosPorOpcion": {
+      "CK-MM.": "CK-MM predomina en músculo esquelético y constituye casi toda la CK sérica normal.",
+      "CK- MB.": "CK-MB está enriquecida en corazón y se empleó como marcador de lesión miocárdica.",
+      "CK-SS.": "La CK se organiza en isoenzimas BB, MB y MM; SS no pertenece a esa clasificación."
+    },
+    "claveMemorizar": "BB = brain; MB = miocardio; MM = músculo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, p. 5"
+  },
+  "13": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "NT-proBNP presenta mayor estabilidad analítica que BNP en suero y plasma, de modo que la frase invierte la relación. Ambos proceden del procesamiento de proBNP y se usan en insuficiencia cardíaca.",
+    "motivosPorOpcion": {
+      "Los péptidos natriuréticos actúan sobre el glomérulo renal.": "Su acción renal favorece natriuresis y diuresis, parte de la respuesta frente a sobrecarga de volumen.",
+      "En circulación se detectan fragmentos de BNP y de NT- proBNP.": "El procesamiento de proBNP libera BNP biológicamente activo y el fragmento amino-terminal medible.",
+      "Existe un péptido natriurético de tipo D, llamado DNP.": "DNP es una denominación reconocida dentro de la familia de péptidos natriuréticos, aunque no es el marcador clínico principal."
+    },
+    "claveMemorizar": "NT-proBNP es más estable; BNP es el péptido activo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15",
+    "advertenciaRevision": "El PDF vincula BNP y NT-proBNP con insuficiencia cardíaca, pero el texto extraído no documenta su estabilidad, fragmentos circulantes, acción glomerular ni DNP."
+  },
+  "14": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La desnaturalización altera la conformación que mantiene el sitio activo y reduce o anula la catálisis. Puede ser causada por cambios de pH, temperatura o fuerza iónica.",
+    "motivosPorOpcion": {
+      "Su recuperación modificando su estado.": "Cambiar el estado de una proteína no garantiza que recupere su plegamiento ni su función catalítica.",
+      "La recuperación de su actividad.": "Desnaturalizar describe pérdida de estructura funcional, no restauración de actividad.",
+      "Ninguna de las anteriores es correcta.": "Sí hay una consecuencia correcta: la pérdida o disminución de la capacidad catalítica."
+    },
+    "claveMemorizar": "Desnaturalización = cambio estructural y pérdida de actividad.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3-6"
+  },
+  "15": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El BNP es un péptido liberado en respuesta a sobrecarga cardíaca y se utiliza, junto con NT-proBNP, en el diagnóstico y pronóstico de insuficiencia cardíaca.",
+    "motivosPorOpcion": {
+      "Ácido valproico.": "Es un fármaco cuya concentración puede monitorizarse, no un producto liberado para evaluar función cardíaca.",
+      "Micofenolato.": "Es un inmunosupresor sometido a monitorización farmacológica y no un biomarcador cardíaco endógeno.",
+      "Ninguna de las anteriores es correcta.": "El péptido natriurético cerebral sí aparece expresamente como marcador de insuficiencia cardíaca."
+    },
+    "claveMemorizar": "Insuficiencia cardíaca: BNP y NT-proBNP.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15"
+  },
+  "16": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La AST o GOT fue el primer marcador histórico con utilidad para detectar infarto. Después se incorporaron CK, CK-MB y finalmente las troponinas, mucho más específicas.",
+    "motivosPorOpcion": {
+      "CK- MB.": "CK-MB tuvo gran utilidad antes de las troponinas, pero su introducción fue posterior a GOT.",
+      "CK.": "La CK total es un marcador muscular menos específico y tampoco fue el primero históricamente.",
+      "Troponina.": "Es el marcador actual de elección, no el primero que se utilizó."
+    },
+    "claveMemorizar": "Historia del IAM: GOT primero; troponina, elección actual.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 4"
+  },
+  "17": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una unidad internacional expresa la cantidad de enzima capaz de transformar un micromol de sustrato por minuto bajo condiciones definidas. El katal, en cambio, utiliza moles por segundo.",
+    "motivosPorOpcion": {
+      "La cantidad de enzima que cataliza la conversión de 1 μmol de sustrato en producto por segundo.": "El micromol es correcto para la UI, pero su unidad temporal es el minuto, no el segundo.",
+      "La cantidad de enzima que cataliza la conversión de 1 mol de sustrato en producto por minuto.": "La UI se define con micromoles; un mol por minuto sería un millón de veces mayor.",
+      "La cantidad de enzima que cataliza la conversión de 1 mol de sustrato en producto por segundo.": "Mol por segundo corresponde al katal del sistema internacional, no a la UI."
+    },
+    "claveMemorizar": "UI = μmol/min; katal = mol/s.",
+    "fuente": "Tema 6.1. Enzimas, p. 26"
+  },
+  "18": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fosfatasa alcalina necesita magnesio como cofactor para desarrollar su actividad. El ion participa en la configuración catalítica adecuada de la enzima.",
+    "motivosPorOpcion": {
+      "LDH": "La LDH emplea NAD+/NADH como coenzima de oxidación-reducción, no se identifica aquí por Mg.",
+      "Amilasa": "El cofactor señalado para amilasa es calcio, que contribuye a estabilizar su estructura.",
+      "GPT": "La GPT o ALT utiliza piridoxal fosfato, derivado de la vitamina B6, para transferir grupos amino."
+    },
+    "claveMemorizar": "ALP-Mg; amilasa-Ca; transaminasas-PLP.",
+    "fuente": "Tema 6.1. Enzimas, p. 10"
+  },
+  "19": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En ELISA, una enzima se acopla al sistema de reconocimiento y transforma un sustrato en una señal medible. RIA sustituye ese sistema de revelado por un marcador radiactivo.",
+    "motivosPorOpcion": {
+      "Un isótopo aglutinante": "La aglutinación es un fenómeno de agregación de partículas y no define el marcador de un inmunoensayo enzimático.",
+      "Un isótopo de la fracción del complemento": "ELISA no depende de marcar radiactivamente componentes del complemento.",
+      "Una hemaglutinina": "Una hemaglutinina produce agregación de eritrocitos, pero no genera la señal enzimática característica de ELISA."
+    },
+    "claveMemorizar": "RIA revela con radioisótopo; ELISA, con enzima.",
+    "fuente": "Tema 6.1. Enzimas, p. 25",
+    "advertenciaRevision": "El PDF menciona el inmunoensayo para medir proteínas, pero no explica ni compara las técnicas RIA y ELISA."
+  },
+  "20": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "BNP aumenta ante distensión y sobrecarga cardíaca, por lo que ayuda a valorar insuficiencia cardíaca y aporta información pronóstica. Su principal fortaleza clínica es también un elevado valor predictivo negativo.",
+    "motivosPorOpcion": {
+      "Mioglobina": "Su elevación temprana informa de lesión muscular aguda, no de la eficiencia crónica del bombeo cardíaco.",
+      "Proteína C reactiva": "La PCR refleja inflamación sistémica y carece de la relación funcional directa con sobrecarga ventricular.",
+      "Creatín Kinasa (CK)": "CK se libera en lesión muscular y no es la prueba específica para diagnosticar insuficiencia cardíaca."
+    },
+    "claveMemorizar": "Fallo de bomba: BNP/NT-proBNP; necrosis: troponina.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15"
+  },
+  "21": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las isoenzimas tienen estructuras o secuencias diferentes, pero conservan la capacidad de catalizar la misma reacción. Su distribución por tejidos permite inferir el origen de una elevación sérica.",
+    "motivosPorOpcion": {
+      "Enzimas iguales que catalizan distintas reacciones.": "Las isoenzimas no son moléculas iguales y comparten reacción catalizada, no reacciones distintas.",
+      "Modificaciones postraduccionales de las enzimas.": "Una modificación posterior a la traducción puede generar formas moleculares, pero no define por sí sola una isoenzima codificada de manera diferente.",
+      "La misma molécula de enzima que se expresa en distintos tejidos.": "La localización puede variar, pero las isoenzimas son formas estructuralmente distintas, no una única molécula idéntica."
+    },
+    "claveMemorizar": "Isoenzimas: estructura distinta, misma reacción, distribución tisular diferente.",
+    "fuente": "Tema 6.1. Enzimas, p. 11",
+    "advertenciaRevision": "El PDF confirma diferencias de secuencia y una misma reacción, pero no declara literalmente que todas las isoenzimas estén codificadas por genes distintos."
+  },
+  "22": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Con sustrato muy abundante, la enzima se satura y trabaja en Vmax; añadir más sustrato ya no cambia la velocidad. Esa independencia define una cinética de orden cero respecto al sustrato.",
+    "motivosPorOpcion": {
+      "Una cinética de primer orden.": "En primer orden la velocidad sí es proporcional a la concentración de sustrato, como ocurre a concentraciones bajas.",
+      "Baja la afinidad de la enzima con el sustrato.": "La afinidad se relaciona con Km y no define que la velocidad sea independiente del sustrato.",
+      "Lenta la velocidad de reacción.": "Orden cero describe cómo responde la velocidad a la concentración, no que la reacción sea lenta."
+    },
+    "claveMemorizar": "Enzima saturada: Vmax y orden cero.",
+    "fuente": "Tema 6.1. Enzimas, pp. 15-16"
+  },
+  "23": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "CK-MB está enriquecida en miocardio y su aumento fue utilizado para reconocer lesión de ese tejido. Aunque hoy la troponina es preferente, sigue siendo la isoenzima correcta entre las opciones.",
+    "motivosPorOpcion": {
+      "CK-BB": "CK-BB se asocia principalmente con cerebro y músculo liso.",
+      "CK-MM": "CK-MM predomina en músculo esquelético, de modo que una elevación puede tener origen no cardíaco.",
+      "CK-BN": "BN no corresponde a ninguna de las tres isoenzimas BB, MB y MM descritas."
+    },
+    "claveMemorizar": "Lesión miocárdica clásica: CK-MB.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 5-6"
+  },
+  "24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "proBNP es el precursor liberado por el corazón ante tensión de la pared y da lugar a BNP y NT-proBNP. Por eso sus productos se emplean como marcadores de insuficiencia cardíaca.",
+    "motivosPorOpcion": {
+      "Bazo.": "El bazo participa en funciones hematológicas e inmunitarias, no es la fuente principal del precursor natriurético cardíaco.",
+      "Hígado.": "El hígado sintetiza numerosas proteínas plasmáticas, pero proBNP se vincula a la respuesta del tejido cardíaco.",
+      "Riñón.": "La función renal modifica las concentraciones circulantes de NT-proBNP por su eliminación, pero eso no convierte al riñón en su lugar principal de síntesis."
+    },
+    "claveMemorizar": "proBNP nace en corazón; el riñón influye en su concentración.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15",
+    "advertenciaRevision": "El PDF asigna BNP/NT-proBNP a insuficiencia cardíaca y señala el efecto de la función renal, pero el texto extraído no afirma explícitamente el órgano principal de síntesis de proBNP."
+  },
+  "25": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La actividad puede obtenerse siguiendo desaparición de sustrato, aparición de producto o una reacción indicadora, con lecturas finales o cinéticas. Según el diseño, esto admite cálculo espectrofotométrico, calibración o medición indirecta.",
+    "motivosPorOpcion": {
+      "Mediante la aplicación de una variante de la ley de Lambert-Beer.": "La absorbancia puede convertirse en concentración cuando se conoce la respuesta espectrofotométrica del compuesto medido.",
+      "Mediante la construcción de una recta de calibrado.": "Una calibración relaciona señales conocidas con concentración o actividad y permite interpolar la muestra.",
+      "Con medidas indirectas de la concentración de sustrato.": "Las reacciones auxiliares e indicadoras permiten inferir actividad a partir de un compuesto medible relacionado con el sustrato."
+    },
+    "claveMemorizar": "Actividad enzimática: medir sustrato, producto o reacción acoplada.",
+    "fuente": "Tema 6.1. Enzimas, p. 25",
+    "advertenciaRevision": "El PDF respalda los principios de medida directa e indirecta, pero no enumera literalmente la ley de Lambert-Beer ni la recta de calibrado en esta sección."
+  },
+  "26": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDH cataliza de forma reversible la oxidación del lactato a piruvato. El acoplamiento con NAD+/NADH permite además seguir la reacción por espectrofotometría.",
+    "motivosPorOpcion": {
+      "Transforma la fosfocreatinina a creatinina.": "La CK actúa sobre creatina y fosfocreatina; esa no es la reacción de LDH.",
+      "Cataliza la hidrólisis de triglicéridos.": "La hidrólisis de triglicéridos corresponde a lipasas, que pertenecen a las hidrolasas.",
+      "Descompone ésteres fosfatos.": "Las fosfatasas hidrolizan enlaces fosfato; la LDH realiza una oxidación-reducción."
+    },
+    "claveMemorizar": "LDH es oxidorreductasa; lipasa y fosfatasas son hidrolasas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, p. 3; Tema 6.1. Enzimas, pp. 12 y 27"
+  },
+  "27": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las transaminasas necesitan piridoxal fosfato para transferir grupos amino entre moléculas. Es la forma coenzimática de la vitamina B6.",
+    "motivosPorOpcion": {
+      "No necesita cofactor.": "La catálisis de aminotransferencia depende de una coenzima que transporte temporalmente el grupo amino.",
+      "Presentan como cofactor el calcio.": "El calcio se señala como cofactor de amilasa, no de las transaminasas.",
+      "Presentan como cofactor el Mg (magnesio).": "El magnesio se asocia en el temario con fosfatasa alcalina."
+    },
+    "claveMemorizar": "ALT/AST usan PLP, derivado de B6.",
+    "fuente": "Tema 6.1. Enzimas, p. 10"
+  },
+  "28": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las isoenzimas son variantes estructurales de una misma actividad catalítica. Sus diferencias moleculares y su reparto tisular permiten distinguir, por ejemplo, las fracciones de CK o LDH.",
+    "motivosPorOpcion": {
+      "Proteínas biológicas especializadas en la catálisis de reacciones orgánicas.": "Esa es una descripción general de las enzimas, sin el rasgo de multiplicidad molecular.",
+      "Son asociaciones de enzimas que catalizan reacciones consecutivas.": "Un sistema multienzimático encadena reacciones diferentes, mientras las isoenzimas catalizan la misma.",
+      "Son formas precursoras inactivas de las enzimas.": "Las formas precursoras inactivas son proenzimas o zimógenos."
+    },
+    "claveMemorizar": "Isoenzima: variante activa; proenzima: precursor inactivo.",
+    "fuente": "Tema 6.1. Enzimas, pp. 11-12"
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La velocidad enzimática cambia con la disponibilidad de sustrato, la temperatura y el pH porque cada factor afecta la ocupación o la conformación catalítica. Por ello las tres variables deben controlarse en el laboratorio.",
+    "motivosPorOpcion": {
+      "Concentración de sustrato.": "Determina la velocidad hasta que la enzima queda saturada, pero no es el único factor.",
+      "Temperatura.": "Modifica la energía molecular y puede favorecer la reacción o desnaturalizar la proteína, pero actúa junto con otras variables.",
+      "Ph.": "Altera cargas y estructura del sitio activo, aunque tampoco explica por sí solo toda variación de actividad."
+    },
+    "claveMemorizar": "Actividad enzimática: sustrato, pH, temperatura y reguladores.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3 y 14-16"
+  },
+  "30": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La holoenzima es el complejo catalíticamente activo formado por apoenzima y cofactor. El nombre se aplica a la enzima completa cuando necesita ese componente auxiliar.",
+    "motivosPorOpcion": {
+      "Apoenzimas.": "La apoenzima es solo la parte proteica y permanece inactiva mientras no se una el cofactor requerido.",
+      "Cofactor.": "El cofactor es el componente no proteico auxiliar, no la enzima completa.",
+      "Ninguna es correcta.": "Holoenzima sí es el término definido para el complejo activo dependiente de cofactor."
+    },
+    "claveMemorizar": "Holoenzima activa = apoenzima + cofactor.",
+    "fuente": "Tema 6.1. Enzimas, p. 10"
+  },
+  "31": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ensayo aporta sustrato en exceso para saturar la enzima y hacer que la velocidad dependa de la cantidad de enzima de la muestra. Así, la pendiente medida representa su actividad sin quedar limitada por el sustrato.",
+    "motivosPorOpcion": {
+      "Es dependiente de la concentración de sustrato.": "Si el sustrato limitara la velocidad, pequeñas diferencias de reactivo distorsionarían la estimación de actividad enzimática.",
+      "Las dos anteriores son correctas.": "Las condiciones dependiente e independiente del sustrato no pueden describir simultáneamente la zona analítica elegida.",
+      "Ninguna es correcta.": "El temario indica expresamente que se trabaja con actividad independiente de la concentración de sustrato."
+    },
+    "claveMemorizar": "Ensayo de actividad: sustrato saturante, enzima limitante.",
+    "fuente": "Tema 6.1. Enzimas, pp. 16 y 25-26"
+  },
+  "32": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un activador favorece una conformación catalíticamente eficaz y eleva la velocidad de reacción. En términos energéticos, facilita que más moléculas alcancen el estado de transición.",
+    "motivosPorOpcion": {
+      "Formas precursoras inactivas de las enzimas.": "Esa definición corresponde a zimógenos o proenzimas, que requieren un cambio estructural para activarse.",
+      "Sustancias que disminuyen la velocidad de la reacción al disminuir aún más la energía de activación.": "Disminuir la barrera energética favorece la reacción; una reducción de velocidad describiría inhibición, no activación.",
+      "Ninguna es correcta.": "Sí existe una opción coherente con el aumento de actividad producido por activadores."
+    },
+    "claveMemorizar": "Activador acelera; inhibidor frena; zimógeno aún no cataliza.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3, 9 y 12",
+    "advertenciaRevision": "El PDF indica que efectores alostéricos pueden activar enzimas y que las enzimas reducen la energía de activación, pero no define al activador exactamente con la frase del banco."
+  },
+  "33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las enzimas son catalizadores biológicos, mayoritariamente proteicos, que aceleran reacciones esenciales sin consumirse. Su acción hace posibles procesos celulares que espontáneamente serían demasiado lentos.",
+    "motivosPorOpcion": {
+      "Membranas serosas transparentes.": "Una membrana es una estructura anatómica de revestimiento y no una molécula catalítica.",
+      "Es toda sustancia química que, aplicada en pequeñas cantidades, es capaz de interactuar con un organismo vivo.": "Esa formulación amplia se aproxima a un agente farmacológico y no exige capacidad catalítica.",
+      "Son soluciones acuosas de concentración que se analizan en los especímenes biológicos.": "Una solución es una preparación o matriz analítica, no el catalizador molecular contenido en ella."
+    },
+    "claveMemorizar": "Enzima: catalizador biológico que acelera sin consumirse.",
+    "fuente": "Tema 6.1. Enzimas, pp. 2-4"
+  },
+  "34": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La energía de activación es la barrera que deben superar los reactivos para alcanzar el estado de transición. Las enzimas aceleran la reacción al disminuir esa barrera sin cambiar el equilibrio.",
+    "motivosPorOpcion": {
+      "De transición.": "Estado de transición nombra la configuración de máxima energía, no la energía requerida para alcanzarla.",
+      "De reacción.": "La energía global de reacción compara reactivos y productos, pero no designa la barrera cinética.",
+      "De canalización.": "No es un término empleado en cinética enzimática para esta magnitud."
+    },
+    "claveMemorizar": "La enzima baja Ea; no cambia K de equilibrio.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3-4 y 13"
+  },
+  "35": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una actividad enzimática puede existir en varias formas moleculares con distinta secuencia y distribución tisular. Todas conservan la misma reacción, que es el criterio que las reúne como isoenzimas.",
+    "motivosPorOpcion": {
+      "Formas simples de una determinada enzima.": "La idea esencial es la multiplicidad y diferencia estructural, no que exista una forma simple única.",
+      "Formas cilíndricas de una determinada enzima.": "Las isoenzimas no se clasifican por una geometría macroscópica cilíndrica.",
+      "Formas esféricas de una determinada enzima.": "La forma espacial genérica de una proteína no define variantes con igual actividad catalítica."
+    },
+    "claveMemorizar": "Muchas formas, una misma reacción.",
+    "fuente": "Tema 6.1. Enzimas, p. 11"
+  },
+  "36": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Muchas proteasas se sintetizan como zimógenos para evitar que degraden proteínas en el tejido que las produce. Una activación estructural posterior restringe su acción al lugar y momento adecuados.",
+    "motivosPorOpcion": {
+      "Almidón.": "El almidón es un polisacárido que actúa como sustrato de amilasas, no una clase de enzimas precursoras.",
+      "Bacterias.": "Las bacterias son organismos y no una categoría enzimática definida por activación de zimógenos.",
+      "Levaduras.": "Las levaduras son hongos unicelulares, no formas precursoras de enzimas."
+    },
+    "claveMemorizar": "Proteasas digestivas: se fabrican inactivas para evitar autodigestión.",
+    "fuente": "Tema 6.1. Enzimas, p. 12",
+    "advertenciaRevision": "El PDF define proenzima o zimógeno como precursor inactivo, pero no ofrece en esa página el ejemplo específico de las enzimas proteolíticas."
+  },
+  "37": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La actividad resulta de la interacción entre concentración de sustrato, pH, temperatura y moléculas reguladoras. Modificar cualquiera puede cambiar la ocupación del sitio activo o la conformación de la enzima.",
+    "motivosPorOpcion": {
+      "Concentración de sustrato.": "Controla la velocidad hasta la saturación, pero no excluye el efecto de las condiciones fisicoquímicas.",
+      "PH y temperatura.": "Ambos afectan estructura y catálisis, aunque no son los únicos determinantes.",
+      "Presencia de inhibidores/ activadores.": "Los reguladores alteran la actividad, pero su efecto se integra con sustrato, pH y temperatura."
+    },
+    "claveMemorizar": "Velocidad = función de concentraciones, medio y regulación.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3, 9 y 14"
+  },
+  "38": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cofactores no proteicos incluyen iones metálicos y moléculas orgánicas; estas últimas pueden actuar como coenzimas o grupos prostéticos. Ambos completan la actividad de determinadas apoenzimas.",
+    "motivosPorOpcion": {
+      "Iones orgánicos- moléculas metálicas.": "La terminología está invertida: los metales forman iones y las coenzimas son moléculas orgánicas.",
+      "Iones metálicos- moléculas glucolíticas": "Las moléculas orgánicas auxiliares no se limitan a intermediarios de glucólisis e incluyen, por ejemplo, derivados vitamínicos.",
+      "Iones glucolíticos- moléculas metálicas.": "«Iones glucolíticos» no es una clase de cofactor y los metales actúan precisamente como iones."
+    },
+    "claveMemorizar": "Cofactor: ion metálico o molécula orgánica auxiliar.",
+    "fuente": "Tema 6.1. Enzimas, p. 10"
+  },
+  "39": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La actividad puede medirse tras un tiempo definido o siguiendo varias lecturas para calcular la velocidad. Esas estrategias corresponden, respectivamente, a punto final y método cinético.",
+    "motivosPorOpcion": {
+      "Pruebas radiológicas.": "La radiología produce imágenes anatómicas y no cuantifica la velocidad de una reacción enzimática in vitro.",
+      "Cámara de Makler.": "Es una cámara de recuento empleada en análisis seminal, no un método de actividad enzimática.",
+      "Fermentación.": "Es un proceso metabólico global y no una modalidad analítica de lectura de actividad."
+    },
+    "claveMemorizar": "Una lectura: punto final; varias en el tiempo: cinética.",
+    "fuente": "Tema 6.1. Enzimas, p. 25"
+  },
+  "40": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "CK-MM o CK3 es la isoenzima predominante del músculo esquelético. Su abundancia explica que el daño muscular eleve de forma marcada la CK sérica.",
+    "motivosPorOpcion": {
+      "Corazón": "El corazón contiene CK-MM, pero CK-MB es la fracción que lo diferencia mejor del músculo esquelético.",
+      "Intestino": "El intestino no aparece como tejido predominante para CK-MM en la distribución descrita.",
+      "Páncreas": "El páncreas tampoco se identifica como reservorio principal de esta isoenzima muscular."
+    },
+    "claveMemorizar": "CK-MM domina en músculo esquelético.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, p. 5"
+  },
+  "41": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La apoenzima aporta la estructura proteica y la coenzima orgánica completa la maquinaria catalítica. Al asociarse forman la holoenzima activa.",
+    "motivosPorOpcion": {
+      "Holoenzima = apoenzima + isoenzima": "Una isoenzima es una variante catalítica completa, no el componente auxiliar que activa una apoenzima.",
+      "Holoenzima = coenzima + isoenzima": "La definición requiere una apoenzima como parte proteica; una isoenzima no la sustituye.",
+      "Holoenzima = enzima + isoenzima": "Sumar dos formas enzimáticas no describe la asociación entre proteína y cofactor."
+    },
+    "claveMemorizar": "Holo = apo + cofactor; si el cofactor es orgánico, coenzima.",
+    "fuente": "Tema 6.1. Enzimas, p. 10",
+    "advertenciaRevision": "El PDF da la fórmula general «holoenzima = apoenzima + cofactor»; la opción del banco usa el caso particular coenzima y omite otros cofactores posibles, como iones metálicos."
+  },
+  "42": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ECA sérica puede reflejar la actividad granulomatosa de la sarcoidosis y se utiliza como apoyo en su seguimiento. No es suficientemente específica para establecer por sí sola el diagnóstico.",
+    "motivosPorOpcion": {
+      "PCR.": "La PCR mide inflamación sistémica y puede variar por numerosas causas, sin representar específicamente actividad granulomatosa de sarcoidosis.",
+      "Gammaglobulinas.": "Una hipergammaglobulinemia indica estimulación inmunitaria amplia y no constituye el marcador bioquímico seleccionado para actividad.",
+      "Ninguna de las anteriores.": "La ECA sí tiene utilidad clínica como marcador complementario de actividad de la enfermedad."
+    },
+    "claveMemorizar": "Sarcoidosis: ECA para apoyo y seguimiento, no diagnóstico aislado.",
+    "fuente": "Tema 6.1. Enzimas, p. 27",
+    "advertenciaRevision": "El PDF enumera la ECA entre las enzimas de interés diagnóstico, pero no menciona la sarcoidosis ni demuestra su utilidad como marcador de actividad."
+  },
+  "43": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Km expresa cuánta concentración de sustrato necesita la enzima para llegar a la mitad de Vmax. Si Km es pequeña, esa semisaturación se alcanza con poco sustrato, lo que indica mayor afinidad y no una catálisis más lenta.",
+    "motivosPorOpcion": {
+      "La velocidad de trasformación de substrato en producto depende de la afinidad de la enzima por el substrato.": "La unión enzima-sustrato condiciona la ocupación de sitios activos y la respuesta de la velocidad a la concentración.",
+      "La velocidad de trasformación depende de la cantidad de enzima presente.": "Cuando el sustrato no limita, más moléculas de enzima proporcionan más sitios catalíticos y mayor velocidad.",
+      "La velocidad de trasformación también depende de la cantidad de sustrato presente.": "Antes de alcanzar saturación, el aumento de sustrato eleva la frecuencia de formación del complejo ES."
+    },
+    "claveMemorizar": "Poca Km: hace falta poco sustrato para Vmax/2.",
+    "fuente": "Tema 6.1. Enzimas, pp. 14-18"
+  },
+  "44": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La reversibilidad depende del tipo de unión: una interacción débil puede deshacerse, mientras una unión covalente caracteriza la inhibición irreversible. Por tanto, no puede generalizarse que la inhibición enzimática sea habitualmente irreversible.",
+    "motivosPorOpcion": {
+      "Hay tres patrones de inhibición: competitivo, no competitivo y acompetitivo.": "El esquema básico distingue esos tres comportamientos según cómo interaccione el inhibidor con enzima y complejo ES.",
+      "Los inhibidores no competitivos se unen a un sitio de la enzima diferente del sitio catalítico.": "La unión fuera del sitio activo altera la capacidad catalítica sin impedir necesariamente que el sustrato se una.",
+      "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el substrato en producto.": "Ese descenso se observa como una Vmax menor con Km constante en el caso no competitivo puro."
+    },
+    "claveMemorizar": "No competitiva pura: Vmax baja, Km igual.",
+    "fuente": "Tema 6.1. Enzimas, pp. 20-24"
+  }
+}

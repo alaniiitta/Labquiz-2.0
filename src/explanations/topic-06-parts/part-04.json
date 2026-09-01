@@ -1,0 +1,494 @@
+{
+  "133": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el infarto agudo de miocardio, la necrosis de los cardiomiocitos libera CK al plasma y aumenta su actividad sérica. La CK forma parte de los marcadores cardíacos clásicos del temario.",
+    "motivosPorOpcion": {
+      "Disminuye la LDH.": "La LDH aumenta tras la lesión miocárdica y puede permanecer elevada entre 8 y 14 días; no disminuye.",
+      "El cociente CPK/LDH es superior a 3.": "El temario usa el porcentaje de CK-MB respecto de CK total, no un cociente CPK/LDH superior a 3, para orientar el origen cardíaco.",
+      "Aumenta la fosfatasa ácida.": "La fosfatasa ácida no figura entre los marcadores de necrosis miocárdica presentados en el PDF cardíaco."
+    },
+    "claveMemorizar": "IAM: aumentan CK, CK-MB, LDH y troponinas por liberación desde células miocárdicas lesionadas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2-3 y 5-6"
+  },
+  "134": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La CK-MM o CK3 abunda en músculo esquelético. El ejercicio intenso aumenta la liberación de esta isoenzima muscular y puede elevar la CK sérica.",
+    "motivosPorOpcion": {
+      "CPK-MB.": "La CK-MB o CK2 predomina en corazón, aunque existe en menor cantidad en músculo esquelético; no es la fracción predominante tras ejercicio muscular.",
+      "CPK-BB.": "La CK-BB o CK1 abunda en cerebro y músculo liso y está prácticamente ausente del suero normal.",
+      "CPK-MD.": "El temario solo reconoce las isoenzimas CK-BB, CK-MB y CK-MM; CK-MD no corresponde a una isoenzima descrita."
+    },
+    "claveMemorizar": "CK1 = BB cerebral; CK2 = MB cardíaca; CK3 = MM muscular.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "135": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fosfatasa ácida cataliza la hidrólisis de enlaces fosfato, por lo que se clasifica como hidrolasa.",
+    "motivosPorOpcion": {
+      "Transferasa.": "Las transferasas trasladan grupos químicos entre sustratos; el temario clasifica como transferasas a CK, GGT y aminotransferasas, no a la fosfatasa ácida.",
+      "Oxidoreductasa.": "Las oxidoreductasas transfieren electrones o hidrógeno; un ejemplo es la LDH, mientras la fosfatasa ácida actúa por hidrólisis.",
+      "Ninguna es correcta.": "Sí hay una clase correcta y aparece de forma explícita en el temario: hidrolasa."
+    },
+    "claveMemorizar": "Las fosfatasas ácida y alcalina son hidrolasas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 12 y 27"
+  },
+  "136": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El proBNP es el precursor del BNP y del NT-proBNP, péptidos cardíacos utilizados como marcadores de insuficiencia cardíaca. Por ello su órgano principal de síntesis es el corazón.",
+    "motivosPorOpcion": {
+      "Bazo.": "El bazo no es el origen indicado para los péptidos natriuréticos usados como marcadores cardíacos.",
+      "Hígado.": "El hígado sintetiza numerosas proteínas plasmáticas, pero no es el órgano principal de síntesis del proBNP.",
+      "Riñón.": "La función renal modifica las concentraciones de NT-proBNP, pero eso no convierte al riñón en su principal lugar de síntesis."
+    },
+    "claveMemorizar": "proBNP cardíaco se escinde en BNP activo y NT-proBNP.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15",
+    "advertenciaRevision": "El PDF presenta BNP y NT-proBNP como marcadores cardíacos, pero no declara literalmente el órgano de síntesis del proBNP."
+  },
+  "137": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El magnesio figura expresamente como cofactor de la fosfatasa alcalina y es necesario para su actividad catalítica.",
+    "motivosPorOpcion": {
+      "Potasio.": "El potasio puede actuar como cofactor en otras enzimas, pero el ejemplo asignado a la ALP en el temario es el magnesio.",
+      "Bicarbonato.": "El bicarbonato no se presenta como ion metálico cofactor de la fosfatasa alcalina.",
+      "Cobre.": "El cobre puede ser cofactor de otras metaloenzimas, pero no es el cofactor indicado para ALP en el PDF."
+    },
+    "claveMemorizar": "ALP necesita Mg2+; amilasa, Ca2+; ALT, piridoxal fosfato.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "138": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tres afirmaciones previas son generalizaciones falsas: la actividad enzimática depende de condiciones concretas, se suele medir por velocidad catalítica y el frío moderado no inactiva a la gran mayoría. Por tanto, la opción global correcta es que todas las anteriores son falsas.",
+    "motivosPorOpcion": {
+      "Ninguna soporta temperaturas superiores a 70ºC.": "La temperatura puede desnaturalizar enzimas, pero el absoluto «ninguna» no está establecido por el temario y existen enzimas termoestables.",
+      "Se valoran en razón de su concentración.": "En las determinaciones habituales se mide actividad enzimática mediante aparición de producto o desaparición de sustrato, no necesariamente concentración proteica.",
+      "La gran mayoría se inactivan a 6ºC.": "El PDF identifica la temperatura como variable de actividad, pero no sostiene que 6 °C inactive a la mayoría de las enzimas."
+    },
+    "claveMemorizar": "Actividad enzimática: medir velocidad bajo pH, temperatura, sustrato y cofactores controlados.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 3, 14 y 25",
+    "advertenciaRevision": "El PDF no aporta límites universales de 70 °C o 6 °C; la corrección se apoya en que ambos absolutos carecen de respaldo."
+  },
+  "139": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fosfatasa alcalina posee isoenzimas específicas de tejidos, entre ellas una fracción placentaria. El PDF incluye de forma explícita a la fosfatasa alcalina entre las enzimas con isoenzimas.",
+    "motivosPorOpcion": {
+      "GPT.": "La GPT o ALT no se identifica en el temario como enzima con una isoenzima placentaria de utilidad diagnóstica.",
+      "CK.": "La CK tiene isoenzimas cerebral, cardíaca y muscular, pero el PDF no describe una isoenzima placentaria.",
+      "GOT.": "La GOT o AST se distribuye en varios tejidos, pero no se presenta aquí una isoenzima placentaria."
+    },
+    "claveMemorizar": "ALP tiene isoenzimas tisulares, incluida la placentaria.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11",
+    "advertenciaRevision": "El PDF confirma que ALP posee isoenzimas, pero no enumera expresamente la isoenzima placentaria."
+  },
+  "140": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El temario sitúa el comienzo de la elevación de las troponinas dentro de las 3-12 horas y resume el intervalo habitual como 4-6 horas. Esta es la única opción compatible.",
+    "motivosPorOpcion": {
+      "A las 12 horas.": "Doce horas es el extremo tardío del intervalo descrito, no el momento típico de inicio señalado como 4-6 horas.",
+      "A las 36 horas.": "A las 36 horas la elevación ya está establecida y se aproxima al periodo de máximo, no a su inicio.",
+      "A las 48 horas.": "El máximo de troponina se sitúa entre 24 y 48 horas; 48 horas no representa el inicio."
+    },
+    "claveMemorizar": "Troponina: sube 3-12 h, habitualmente 4-6 h; máximo 24-48 h.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 10"
+  },
+  "141": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mioglobina es el primer marcador que aumenta tras la lesión miocárdica, con aparición sérica aproximada a las 1-2 horas. Su precocidad es alta, aunque su especificidad cardíaca es baja.",
+    "motivosPorOpcion": {
+      "Isoformas MB1 y MB2 de CK-MB.": "La CK-MB comienza a elevarse más tarde, aproximadamente entre 3 y 12 horas según el temario.",
+      "Troponinas I y T.": "Las troponinas son los marcadores de elección por sensibilidad y especificidad, pero su aumento se sitúa entre 3 y 12 horas.",
+      "AST.": "La AST o GOT se eleva a partir de unas 6 horas y actualmente está en desuso como marcador cardíaco."
+    },
+    "claveMemorizar": "Más precoz: mioglobina; de elección: troponina I/T.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4, 6, 8 y 10"
+  },
+  "142": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pericardio es el saco seroso de doble hoja que envuelve el corazón.",
+    "motivosPorOpcion": {
+      "Peritoneo.": "El peritoneo reviste la cavidad abdominopélvica y sus vísceras, no el corazón.",
+      "Pleura.": "La pleura recubre los pulmones y la cavidad torácica asociada a ellos.",
+      "Todas son falsas.": "Existe una opción anatómicamente correcta: el pericardio."
+    },
+    "claveMemorizar": "Corazón: pericardio; pulmones: pleura; abdomen: peritoneo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 16-18",
+    "advertenciaRevision": "Las páginas de anatomía cardíaca del PDF no describen el pericardio ni su doble capa; la respuesta requiere conocimiento anatómico no desarrollado en los PDF permitidos."
+  },
+  "143": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La LDH aumenta a las 12-24 horas, alcanza su máximo a los 2-4 días y vuelve a la normalidad entre 8 y 14 días. Esa persistencia le confiere utilidad histórica en el diagnóstico tardío del IAM.",
+    "motivosPorOpcion": {
+      "CK total.": "La CK tiene una ventana más corta y es menos específica; la fracción CK-MB desciende a las 48-72 horas.",
+      "AST.": "La AST es inespecífica, está en desuso y permanece elevada aproximadamente 4-6 días.",
+      "GOT.": "GOT es otro nombre de AST, por lo que comparte su menor duración y falta de especificidad."
+    },
+    "claveMemorizar": "LDH: marcador tardío histórico, normaliza en 8-14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-4 y 6"
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El temario caracteriza el IAM por dolor torácico intenso que no cede con el reposo, a diferencia del patrón clásico de angina estable.",
+    "motivosPorOpcion": {
+      "Ceder con vasodilatadores.": "La respuesta a vasodilatadores no es la característica que el PDF utiliza para definir el dolor del IAM.",
+      "Ceder con el reposo.": "La persistencia pese al reposo es precisamente el rasgo clínico destacado para el infarto.",
+      "Tener las mismas características que la angina de pecho.": "Aunque ambos pueden causar dolor precordial, el infarto se distingue en el temario porque el dolor no cede en reposo."
+    },
+    "claveMemorizar": "Dolor de IAM: intenso, precordial y no cede en reposo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 2"
+  },
+  "145": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La válvula tricúspide se sitúa entre la aurícula derecha y el ventrículo derecho y permite el llenado ventricular durante la diástole.",
+    "motivosPorOpcion": {
+      "Pulmonar.": "La válvula pulmonar comunica el ventrículo derecho con la arteria pulmonar.",
+      "Aórtica.": "La válvula aórtica se encuentra a la salida del ventrículo izquierdo hacia la aorta.",
+      "Mitral.": "La válvula mitral separa la aurícula izquierda del ventrículo izquierdo."
+    },
+    "claveMemorizar": "Derecha: tricúspide; izquierda: mitral.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 17-18"
+  },
+  "146": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La clave atribuye el paro cardíaco principalmente a la enfermedad coronaria, mecanismo que puede provocar isquemia, infarto y arritmias malignas.",
+    "motivosPorOpcion": {
+      "Valvulopatía.": "Las enfermedades valvulares pueden comprometer el corazón, pero no se presentan como la causa más frecuente de paro cardíaco.",
+      "Insuficiencia cardiaca.": "La insuficiencia cardíaca aumenta el riesgo, pero describe un síndrome de bombeo ineficiente y no la etiología más frecuente indicada por la clave.",
+      "Arritmias.": "Las arritmias son el mecanismo eléctrico inmediato de muchos paros, mientras la pregunta y su clave tratan la enfermedad coronaria como causa subyacente."
+    },
+    "claveMemorizar": "Enfermedad coronaria: causa subyacente frecuente; arritmia: mecanismo inmediato habitual del paro.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 2",
+    "advertenciaRevision": "El PDF vincula ateroesclerosis con IAM y cardiopatía isquémica con insuficiencia cardíaca, pero no afirma cuál es la causa más frecuente de paro cardíaco. Además, «arritmias» puede interpretarse como mecanismo inmediato, por lo que conviene revisar el enunciado."
+  },
+  "147": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La afirmación es incorrecta porque la LDH está ampliamente distribuida y es poco específica. Por ello aumenta en cuadros muy diversos, como infarto, anemia megaloblástica y cáncer oncohematológico.",
+    "motivosPorOpcion": {
+      "Es una enzima que se haya ampliamente distribuida en distintos tejidos.": "Describe correctamente la extensa distribución tisular de LDH.",
+      "Sus valores aparecen elevados en diversos cuadros patológicos.": "Su carácter de indicador inespecífico de lisis celular explica la elevación en numerosas patologías.",
+      "Aparece elevada en pacientes con anemia megaloblástica y carcinoma diseminado.": "El temario incluye anemia megaloblástica y neoplasias entre los procesos que elevan LDH."
+    },
+    "claveMemorizar": "LDH: amplia distribución, alta sensibilidad a lisis y baja especificidad tisular.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
+  },
+  "148": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La LDH es un marcador inespecífico de lisis celular y no la prueba más común para valorar función pancreática. Su elevación aislada tampoco identifica una pancreatitis aguda.",
+    "motivosPorOpcion": {
+      "Valores elevados de la CK junto con la determinación de la CK-MB es útil para identificar patologías cardiacas.": "CK y CK-MB fueron marcadores cardíacos útiles, aunque actualmente la troponina ha sustituido a CK-MB como magnitud de elección.",
+      "La determinación de la creatinina es la prueba más común para evaluar la función renal.": "La creatinina sérica se utiliza habitualmente para estimar la filtración glomerular; no es una enzima cardíaca.",
+      "La medición de la concentración de beta HCG permite diagnosticar el embarazo en suero y en orina.": "La beta-hCG puede detectarse tanto en sangre como en orina para apoyar el diagnóstico de embarazo."
+    },
+    "claveMemorizar": "LDH indica daño celular inespecífico; no sustituye a marcadores pancreáticos específicos.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
+    "advertenciaRevision": "Los PDF del Tema 6 respaldan la inespecificidad de LDH, pero no desarrollan creatinina, beta-hCG ni las pruebas pancreáticas habituales."
+  },
+  "149": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las troponinas I y T son proteínas cardioespecíficas y constituyen la magnitud de elección ante sospecha de IAM. Superan a CK-MB en sensibilidad y especificidad.",
+    "motivosPorOpcion": {
+      "Miosina.": "La miosina participa en la contracción, pero el temario no la propone como biomarcador de elección del IAM.",
+      "LDH.": "La LDH tiene amplia distribución tisular y es poco específica, aunque históricamente resultó útil por su persistencia.",
+      "CK.": "La CK total también aumenta con lesión de músculo esquelético y es menos específica que la troponina."
+    },
+    "claveMemorizar": "Sospecha de IAM: solicitar troponina I o T.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3, 5 y 9-10"
+  },
+  "150": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La fosfatasa alcalina es una hidrolasa que elimina grupos fosfato mediante una reacción de hidrólisis.",
+    "motivosPorOpcion": {
+      "Eliminación o adición de alguna molécula.": "Ese patrón corresponde a las liasas, no a las fosfatasas.",
+      "Transferencia de grupos funcionales.": "La transferencia de grupos caracteriza a las transferasas; la ALP rompe enlaces fosfato con agua.",
+      "Oxidación-reducción.": "Las reacciones redox son propias de oxidoreductasas como LDH, no de ALP."
+    },
+    "claveMemorizar": "Fosfatasa alcalina = hidrolasa que elimina fosfatos.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 12 y 27"
+  },
+  "151": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En una cinética de orden cero la enzima está saturada y la velocidad ya no depende de la concentración de sustrato. En esas condiciones depende de la cantidad de enzima y alcanza su velocidad máxima.",
+    "motivosPorOpcion": {
+      "Una cinética de primer orden.": "En primer orden, a baja concentración de sustrato, la velocidad sí es proporcional a dicha concentración.",
+      "Una cinética de segundo orden.": "El temario no emplea segundo orden para la zona de saturación enzimática independiente del sustrato.",
+      "Una cinética de orden inespecífico.": "No es la denominación cinética establecida; la independencia respecto del sustrato define orden cero."
+    },
+    "claveMemorizar": "Sustrato bajo: primer orden; enzima saturada: orden cero.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 15"
+  },
+  "152": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La apoenzima es la parte proteica inactiva de una enzima que requiere cofactor. Al asociarse con el cofactor forma la holoenzima activa.",
+    "motivosPorOpcion": {
+      "Coenzima.": "Una coenzima es un cofactor orgánico unido débilmente, no la proteína enzimática sin cofactor.",
+      "Isoenzima.": "Una isoenzima es una variante estructural que cataliza la misma reacción que otras formas.",
+      "Holoenzima.": "La holoenzima es el complejo activo ya constituido por apoenzima y cofactor."
+    },
+    "claveMemorizar": "Apoenzima + cofactor = holoenzima activa.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "153": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La afirmación es incorrecta porque la troponina I o T es actualmente el marcador de elección del IAM. CK-MB ha sido sustituida por troponina y conserva usos históricos o complementarios.",
+    "motivosPorOpcion": {
+      "Tras un episodio de necrosis miocárdica la troponina T puede permanecer elevada de 10 a 14 días.": "Es compatible con el PDF, que indica troponina T detectable hasta 14 días.",
+      "El péptido natriurético se sintetiza en el corazón.": "BNP y NT-proBNP se presentan como marcadores cardíacos de insuficiencia cardíaca.",
+      "La mioglobina es un marcador no cardioespecífico cuya concentración está afectada en patologías musculares.": "La mioglobina abunda en músculo esquelético y aumenta en daño muscular, lo que reduce su especificidad cardíaca."
+    },
+    "claveMemorizar": "Troponina desplaza a CK-MB como marcador de elección del IAM.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6, 8-11 y 14"
+  },
+  "154": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La mioglobina es el marcador que se libera y eleva más precozmente, desde aproximadamente 1-2 horas tras el daño. Su breve permanencia y baja cardioespecificidad limitan su uso aislado.",
+    "motivosPorOpcion": {
+      "CK- MB.": "CK-MB comienza a elevarse más tarde, dentro de las 3-12 horas.",
+      "Troponina T.": "La troponina T es más específica y permanece elevada más tiempo, pero no es la primera en aparecer.",
+      "Troponina l.": "La troponina I es marcador de elección, aunque su elevación suele comenzar después que la mioglobina."
+    },
+    "claveMemorizar": "Mioglobina primero; troponina para confirmar con mayor especificidad.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6 y 8-10"
+  },
+  "155": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La apoenzima es la estructura proteica de una holoenzima y permanece inactiva mientras no se una al cofactor requerido.",
+    "motivosPorOpcion": {
+      "La estructura no proteica de una haloenzima.": "La parte no proteica es el cofactor, que puede ser un ion, coenzima o grupo prostético.",
+      "El complejo formado por una haloenzima y un cofactor.": "El complejo correcto es apoenzima más cofactor, y el producto se denomina holoenzima; una holoenzima ya incluye su cofactor.",
+      "Un ión metálico necesario para activar ciertas enzimas.": "Ese ion es un tipo de cofactor, no una apoenzima."
+    },
+    "claveMemorizar": "Apo = proteína sola e inactiva; holo = apo + cofactor y activa.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 10"
+  },
+  "156": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La troponina I o T es la magnitud de elección ante sospecha de infarto agudo de miocardio por su mayor sensibilidad y especificidad frente a CK-MB.",
+    "motivosPorOpcion": {
+      "CK.": "La CK total aumenta también por lesión de músculo esquelético y no ofrece la cardioespecificidad de la troponina.",
+      "LDH.": "La LDH es poco específica y su cinética más tardía la relega frente a troponina."
+    },
+    "claveMemorizar": "Prueba recomendada en IAM: troponina cardíaca seriada.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 9-10"
+  },
+  "157": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La CK-MB posee sensibilidad y especificidad cercanas al 95 % según el temario y fue un indicador sensible de IAM. Actualmente ha sido sustituida por las troponinas para el diagnóstico principal.",
+    "motivosPorOpcion": {
+      "LDH (Lactato deshidrogenasa).": "La LDH se eleva en el IAM, pero su amplia distribución tisular la hace poco específica y su ascenso es tardío.",
+      "CPK total.": "La CK total incluye sobre todo CK-MM sérica y puede aumentar por lesión muscular no cardíaca."
+    },
+    "claveMemorizar": "CK-MB fue sensible para IAM, pero troponina es hoy la elección.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3, 5-6 y 9-10"
+  },
+  "158": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La troponina ofrece una sensibilidad diagnóstica muy alta cuando se interpreta con ensayos adecuados y determinaciones seriadas. Sin embargo, el PDF no establece una sensibilidad absoluta del 100 %.",
+    "motivosPorOpcion": {
+      "Tiene una vida media muy corta.": "Las troponinas permanecen detectables varios días; la T puede mantenerse hasta 14 días.",
+      "No es marcador de elección de daño miocárdico.": "Troponina I o T es precisamente la magnitud de elección en el IAM."
+    },
+    "claveMemorizar": "Troponina: marcador de elección, muy sensible y específico, pero interpretar en serie y con clínica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-12",
+    "advertenciaRevision": "La clave usa «sensibilidad del 100%», cifra que el PDF no aporta y que no debe generalizarse a toda fase temporal o método. Revisar la redacción o sustituirla por «mayor sensibilidad y especificidad que CK-MB»."
+  },
+  "159": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDH es una oxidoreductasa que cataliza reversiblemente la oxidación de L-lactato a piruvato utilizando NAD+ como aceptor de electrones.",
+    "motivosPorOpcion": {
+      "Se encuentra en el citoplasma de los glóbulos rojos por lo que su elevación es específica de patologías de la serie roja hematológica.": "Aunque está en eritrocitos, también se distribuye ampliamente por otros tejidos; por ello una elevación de LDH es poco específica.",
+      "Presenta seis isoenzimas cuya identificación se realiza mediante inmunoensayo.": "El temario enumera cinco isoenzimas, LDH1 a LDH5, no seis."
+    },
+    "claveMemorizar": "LDH: lactato + NAD+ ⇄ piruvato + NADH; cinco isoenzimas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La rabdomiólisis destruye músculo esquelético y libera grandes cantidades de CK, por lo que esta enzima se eleva de forma característica.",
+    "motivosPorOpcion": {
+      "ECA (Enzima convertidora de angiotensina).": "La ECA no se presenta como marcador de destrucción muscular en el temario.",
+      "Amilasa.": "La amilasa se relaciona principalmente con páncreas y glándulas salivales, no con el contenido liberado por músculo lesionado."
+    },
+    "claveMemorizar": "Rabdomiólisis: CK muy elevada, junto con mioglobina, LDH, aldolasa, potasio y fósforo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4"
+  },
+  "161": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Con sustrato abundante, la enzima se satura y la reacción entra en orden cero: la velocidad deja de depender del sustrato y queda determinada directamente por la concentración de enzima.",
+    "motivosPorOpcion": {
+      "La velocidad de reacción es dependiente de la concentración de sustratos y es directamente proporcional a la concentración de la enzima.": "La dependencia del sustrato caracteriza la región de primer orden, no la de orden cero.",
+      "La velocidad de reacción es independiente de la concentración de sustratos y es inversamente proporcional a la concentración de la enzima.": "La independencia del sustrato es correcta, pero más enzima aumenta, no reduce, la velocidad máxima.",
+      "La velocidad de reacción es dependiente de la concentración de sustratos y es inversamente proporcional a la concentración de la enzima.": "Ambas relaciones son incompatibles con orden cero: no depende del sustrato y aumenta al aumentar la enzima."
+    },
+    "claveMemorizar": "Orden cero: sustrato no limita; enzima sí limita.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 15-16"
+  },
+  "162": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La afirmación es falsa porque pH y temperatura son variables esenciales de la actividad enzimática y deben controlarse en la determinación de concentración catalítica.",
+    "motivosPorOpcion": {
+      "Se expresa en kat/L.": "El katal por litro es una unidad del sistema internacional para concentración catalítica; el temario también usa UI/L.",
+      "Para su determinación es necesario tener en cuenta el requerimiento de cofactores.": "Una enzima dependiente de cofactor solo expresa plenamente su actividad si dispone de ese componente.",
+      "La velocidad de reacción frente a la concentración de sustrato suele tener forma sigmoidea.": "El PDF afirma expresamente que esta representación suele presentar forma sigmoidea."
+    },
+    "claveMemorizar": "Medición enzimática: controlar sustrato, cofactores, pH y temperatura.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 10, 14, 16 y 26"
+  },
+  "163": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave, la GGT es la enzima del listado que no presenta isoenzimas, mientras CK y LDH poseen formas tisulares bien definidas.",
+    "motivosPorOpcion": {
+      "Creatinfosfoquinasa (CPK).": "La CK posee tres isoenzimas principales: CK-BB, CK-MB y CK-MM.",
+      "Lactato deshidrogenasa (LDH).": "La LDH posee cinco isoenzimas, de LDH1 a LDH5.",
+      "Todas tienen isoenzimas.": "El temario enumera CK y LDH como ejemplos de isoenzimas, pero no incluye GGT en esa relación."
+    },
+    "claveMemorizar": "En el temario: CK y LDH tienen isoenzimas; GGT no se incluye entre ellas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 11 y 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 5",
+    "advertenciaRevision": "Los PDF demuestran las isoenzimas de CK y LDH, pero la ausencia de GGT en la lista no prueba de forma explícita que carezca de isoenzimas. La clave necesita una afirmación directa o una fuente adicional."
+  },
+  "164": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La concentración de «conjugado» no aparece como variable general de la actividad enzimática. Sí influyen la temperatura, el pH y las concentraciones de enzima, sustrato, producto, inhibidores y activadores.",
+    "motivosPorOpcion": {
+      "Temperatura.": "La temperatura modifica la velocidad y puede causar desnaturalización, por lo que debe controlarse.",
+      "pH.": "El pH afecta a la conformación y actividad de la enzima y figura entre las variables cinéticas principales."
+    },
+    "claveMemorizar": "Factores: [enzima], [sustrato], productos, reguladores, pH, temperatura y fuerza iónica.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 3 y 14"
+  },
+  "165": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las enzimas disminuyen la energía de activación; no la aumentan. Así aceleran la reacción y permiten alcanzar los productos más rápidamente sin cambiar el equilibrio.",
+    "motivosPorOpcion": {
+      "Acelerar la velocidad de las reacciones.": "Es una función catalítica esencial de las enzimas.",
+      "Disminuir la energía de activación.": "La reducción de la barrera energética explica el aumento de velocidad.",
+      "Obtener más rápidamente los productos.": "Al acelerar la reacción, los productos se forman antes, aunque no cambia la constante de equilibrio."
+    },
+    "claveMemorizar": "Enzima: baja energía de activación y acelera; no cambia el equilibrio.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2-4 y 13"
+  },
+  "166": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El NT-proBNP se utiliza para el diagnóstico y pronóstico de la insuficiencia cardíaca y posee un elevado valor predictivo negativo.",
+    "motivosPorOpcion": {
+      "CK-MB.": "CK-MB se asocia a necrosis miocárdica y reinfarto, no a la evaluación principal de insuficiencia cardíaca.",
+      "Mioglobina.": "La mioglobina es un marcador precoz pero inespecífico de lesión muscular, no de función de bombeo.",
+      "AST.": "AST es una enzima inespecífica y en desuso como marcador cardíaco."
+    },
+    "claveMemorizar": "Insuficiencia cardíaca: BNP o NT-proBNP.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15"
+  },
+  "167": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prolactina es una hormona hipofisaria y no forma parte de los marcadores presentados para necrosis miocárdica. Troponina sí aumenta de manera característica en daño miocárdico.",
+    "motivosPorOpcion": {
+      "Troponina.": "La lesión miocárdica eleva troponina I o T, que son los marcadores de elección.",
+      "PCR.": "La PCR puede elevarse como reactante inflamatorio tras daño tisular, aunque no es cardioespecífica.",
+      "Procalcitonina.": "La procalcitonina es un biomarcador inflamatorio y su comportamiento no se desarrolla en los PDF del Tema 6."
+    },
+    "claveMemorizar": "Marcador específico de daño miocárdico: troponina; prolactina no es marcador de IAM.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 9-10",
+    "advertenciaRevision": "Los PDF no explican PCR, procalcitonina ni prolactina en el IAM. No permiten confirmar que solo la prolactina permanezca sin elevarse; la pregunta requiere una fuente adicional o reformulación."
+  },
+  "168": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La afirmación es incorrecta porque el complejo troponina participa en la contracción muscular dependiente de calcio. El Ca2+ interviene en el control de la interacción entre actina y miosina.",
+    "motivosPorOpcion": {
+      "El conocimiento de falsos positivos y negativos en el análisis de la troponina es imprescindible para evitar un error diagnóstico en síndrome coronario agudo": "Es conceptualmente correcto: existen elevaciones no debidas a IAM y la troponina debe interpretarse con clínica, cambios seriados y otras evidencias.",
+      "Se puede determinar por técnicas de inmunoanálisis": "El PDF describe inmunoensayos ultrasensibles para medir troponina.",
+      "Es una de las proteínas miofibrilares del músculo esquelético y se compone de tres péptidos.": "El complejo troponina está en músculo estriado y presenta tres componentes, C, I y T; las isoformas cardíacas I/T permiten el uso como biomarcador."
+    },
+    "claveMemorizar": "Troponina C, I y T regulan contracción estriada con participación de Ca2+.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9 y 12",
+    "advertenciaRevision": "La opción C es imprecisa al llamar a la troponina «una» proteína compuesta de tres péptidos y centrarla en músculo esquelético; el PDF habla de un complejo del músculo estriado con tres moléculas. Aunque D contradice inequívocamente la dependencia de Ca2+, conviene depurar C."
+  },
+  "169": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La válvula tricúspide está entre aurícula derecha y ventrículo derecho. Se abre durante el llenado diastólico cuando la presión auricular supera a la ventricular.",
+    "motivosPorOpcion": {
+      "Controla la comunicación entre el ventrículo derecho y la arteria pulmonar": "Esa comunicación está regulada por la válvula pulmonar.",
+      "Se encuentra entre la aurícula izquierda y el ventrículo izquierdo": "Entre las cavidades izquierdas se sitúa la válvula mitral.",
+      "Se conoce también como válvula mitral": "Mitral y tricúspide son válvulas auriculoventriculares distintas, izquierda y derecha respectivamente."
+    },
+    "claveMemorizar": "Tricúspide: aurícula derecha ↔ ventrículo derecho.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 17-18"
+  },
+  "170": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La CK1 corresponde a CK-BB y es la isoenzima que abunda en cerebro y músculo liso. Por eso es la opción asociada a una presencia cerebral aproximada del 90 %.",
+    "motivosPorOpcion": {
+      "CK2.": "CK2 corresponde a CK-MB y abunda en corazón, con cantidades menores en músculo esquelético.",
+      "CK3.": "CK3 corresponde a CK-MM y predomina en músculo esquelético y cardíaco, además de constituir casi toda la CK sérica.",
+      "CK4.": "El temario enumera tres isoenzimas de CK, CK1 a CK3; no describe una CK4."
+    },
+    "claveMemorizar": "CK1/BB = cerebro; CK2/MB = corazón; CK3/MM = músculo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5",
+    "advertenciaRevision": "El PDF confirma que CK1 abunda en cerebro, pero no aporta la cifra exacta del 90 %."
+  },
+  "171": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las troponinas permanecen elevadas más tiempo que mioglobina, CK-MB y CK total. La troponina I puede detectarse unos 7 días y la T hasta 14 días tras daño miocárdico.",
+    "motivosPorOpcion": {
+      "Mioglobina": "Aparece muy pronto, pero desaparece del suero aproximadamente a las 12-24 horas.",
+      "CK-MB": "Desciende a las 48-72 horas, lo que limita su ventana diagnóstica pero puede ayudar en reinfarto.",
+      "CK total": "Su elevación es menos específica y su permanencia no supera la larga ventana de las troponinas."
+    },
+    "claveMemorizar": "Mayor permanencia: troponina T, hasta 14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6, 8 y 10-11"
+  },
+  "172": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La afirmación es falsa porque la CK total no alcanza su máximo entre 3 y 6 horas. El PDF sitúa para CK-MB el comienzo de la elevación en 3-12 horas y el máximo alrededor de 24 horas.",
+    "motivosPorOpcion": {
+      "Las troponinas más importantes son la I y la T, específicas del corazón": "El temario identifica troponina I y T como formas cardioespecíficas y de elección en IAM.",
+      "La troponina es de mayor sensibilidad y especificidad que la CK-MB": "Esta superioridad aparece de forma explícita y explica que troponina haya sustituido a CK-MB.",
+      "La troponina puede permanecer elevada entre 10 y 14 días": "La troponina T puede seguir detectable hasta 14 días, por lo que el intervalo es compatible con su persistencia."
+    },
+    "claveMemorizar": "CK-MB: inicia 3-12 h y pico 24 h; troponina T persiste hasta 14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6 y 9-11",
+    "advertenciaRevision": "El PDF proporciona la cinética de CK-MB, no una curva separada de CK total; la opción falsa sigue siendo incompatible con el máximo de 24 h descrito para CK-MB."
+  },
+  "173": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El BNP se libera en respuesta al estrés de la pared ventricular y se utiliza para evaluar insuficiencia cardíaca, por lo que se relaciona con la función ventricular izquierda.",
+    "motivosPorOpcion": {
+      "Troponina": "La troponina informa de lesión de cardiomiocitos, no mide directamente la función ventricular izquierda.",
+      "Mioglobina": "La mioglobina es un marcador precoz e inespecífico de lesión muscular.",
+      "Creatina Kinasa-MB": "CK-MB indica necrosis miocárdica y fue usada en IAM, pero no es el marcador principal de función ventricular."
+    },
+    "claveMemorizar": "BNP/NT-proBNP: insuficiencia y estrés ventricular; troponina: necrosis miocárdica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15",
+    "advertenciaRevision": "El PDF vincula BNP y NT-proBNP con insuficiencia cardíaca, pero no explica de forma expresa su relación específica con la funcionalidad del ventrículo izquierdo."
+  },
+  "174": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El temario agrupa LDH, GOT/AST y CK entre los marcadores enzimáticos históricos del infarto de miocardio. Por ello LDH se valora junto con AST y CK en ese contexto.",
+    "motivosPorOpcion": {
+      "ALT y AST.": "AST tuvo uso histórico en IAM, pero ALT se orienta más a lesión hepática y no integra el panel cardíaco descrito.",
+      "ALT y GGT.": "ALT y GGT son enzimas empleadas principalmente en evaluación hepatobiliar, no para complementar LDH en IAM.",
+      "GGT y CK.": "CK sí se asocia al IAM, pero GGT no figura entre los marcadores cardíacos del temario."
+    },
+    "claveMemorizar": "Panel enzimático histórico de IAM: LDH + AST/GOT + CK/CK-MB.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2-6"
+  },
+  "175": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mioglobina es el biomarcador que aparece antes en sangre tras una lesión cardíaca, aproximadamente a las 1-2 horas. Su rapidez se acompaña de baja especificidad porque también abunda en músculo esquelético.",
+    "motivosPorOpcion": {
+      "AST.": "AST comienza a elevarse alrededor de 6 horas y actualmente está en desuso como marcador cardíaco.",
+      "Troponina.": "Troponina es el marcador de elección por especificidad y sensibilidad, pero suele elevarse después que mioglobina.",
+      "CK-MB.": "CK-MB se eleva aproximadamente a las 3-12 horas, después de la aparición de mioglobina."
+    },
+    "claveMemorizar": "Mioglobina = primera; troponina = elección.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4, 6 y 8-10"
+  },
+  "176": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El BNP es un péptido natriurético de origen cardíaco empleado, junto con NT-proBNP, en el diagnóstico y pronóstico de la insuficiencia cardíaca.",
+    "motivosPorOpcion": {
+      "Páncreas.": "El páncreas no es el órgano de origen del BNP usado como marcador cardíaco.",
+      "Hígado.": "El hígado no es el lugar principal de síntesis del BNP.",
+      "Encéfalo.": "Aunque la denominación histórica «péptido natriurético cerebral» puede inducir a error, en el contexto clínico se sintetiza principalmente en el corazón."
+    },
+    "claveMemorizar": "BNP significa tipo B: marcador cardíaco, no síntesis principal cerebral.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15",
+    "advertenciaRevision": "El PDF lo presenta como marcador de insuficiencia cardíaca, pero no declara literalmente su sitio de síntesis."
+  }
+}

@@ -1,12 +1,12 @@
 import fs from "node:fs";
 
 const bank = JSON.parse(
-  fs.readFileSync("src/questions/imports/topic-05.json", "utf8"),
+  fs.readFileSync("src/questions/imports/topic-06.json", "utf8"),
 );
-const parts = Array.from({ length: 7 }, (_, index) =>
+const parts = Array.from({ length: 5 }, (_, index) =>
   JSON.parse(
     fs.readFileSync(
-      `src/explanations/topic-05-parts/part-0${index + 1}.json`,
+      `src/explanations/topic-06-parts/part-0${index + 1}.json`,
       "utf8",
     ),
   ),
@@ -14,6 +14,7 @@ const parts = Array.from({ length: 7 }, (_, index) =>
 const explanations = Object.assign({}, ...parts);
 const errors = [];
 const mainExplanations = new Map();
+const sortOptions = (options) => [...options].sort((a, b) => a.localeCompare(b));
 
 for (const question of bank.questions) {
   const id = String(question.id);
@@ -47,7 +48,6 @@ for (const question of bank.questions) {
     .map(([, text]) => text);
   const explainedOptions = Object.keys(explanation.motivosPorOpcion ?? {});
 
-  const sortOptions = (options) => [...options].sort((a, b) => a.localeCompare(b));
   if (
     JSON.stringify(sortOptions(explainedOptions)) !==
     JSON.stringify(sortOptions(expectedOptions))

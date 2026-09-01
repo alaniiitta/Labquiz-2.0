@@ -1,0 +1,496 @@
+{
+  "177": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un dolor torácico prolongado que no cede en reposo obliga a investigar daño miocárdico. La troponina I o T es la magnitud de elección para el diagnóstico del IAM por su alta sensibilidad y cardioespecificidad.",
+    "motivosPorOpcion": {
+      "CK.": "Puede aumentar tras lesión cardíaca, pero también ante daño de músculo esquelético y ha sido sustituida por troponina para diagnosticar IAM.",
+      "LDH.": "Es un marcador tardío y poco específico porque se distribuye en numerosos tejidos.",
+      "GOT.": "Fue el primer marcador histórico del infarto, pero su escasa especificidad cardíaca hizo que quedara en desuso."
+    },
+    "claveMemorizar": "Dolor torácico compatible con IAM: troponina I/T como marcador de elección.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 9-10"
+  },
+  "178": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mioglobina aparece en suero aproximadamente a las 1-2 horas del infarto, antes que el resto de marcadores propuestos. Esa precocidad se acompaña de menor especificidad porque también abunda en músculo esquelético.",
+    "motivosPorOpcion": {
+      "Tropo I.": "Es de elección por su especificidad, pero suele aumentar entre 3 y 12 horas después del daño.",
+      "CK-MB.": "Comienza a elevarse aproximadamente entre 3 y 12 horas, más tarde que la mioglobina.",
+      "Tropo T.": "Comparte la ventana inicial de las troponinas y destaca más por su larga permanencia que por ser la primera en elevarse."
+    },
+    "claveMemorizar": "Más precoz: mioglobina; de elección: troponina.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 6 y 8-10"
+  },
+  "179": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La troponina T puede seguir detectable hasta 14 días después del daño miocárdico. Permanece más que la troponina I, la LDH, la GOT y la CK-MB.",
+    "motivosPorOpcion": {
+      "LDH.": "Regresa a valores normales aproximadamente en 8-14 días, y el temario sitúa su permanencia por debajo de la troponina T.",
+      "GOT.": "Su elevación se mantiene unos 4-6 días, además de ser poco específica.",
+      "CK-MB.": "Desciende en 48-72 horas, por lo que ofrece una ventana mucho más corta."
+    },
+    "claveMemorizar": "Troponina T: detectable hasta 14 días; troponina I: hasta 7 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-6 y 10-11"
+  },
+  "180": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las troponinas I y T son las magnitudes de elección en el IAM, y la troponina I es ligeramente más cardioespecífica. Por ello es la mejor elección entre las opciones ofrecidas.",
+    "motivosPorOpcion": {
+      "CK.": "La CK total también procede del músculo esquelético y no alcanza la especificidad de la troponina I.",
+      "LDH.": "Su amplia distribución tisular y su elevación tardía la convierten en un marcador poco específico.",
+      "Tropo T.": "También es un marcador de elección, pero el temario atribuye a la troponina I una cardioespecificidad ligeramente mayor."
+    },
+    "claveMemorizar": "TnI y TnT son de elección; TnI es algo más cardioespecífica.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 9-10"
+  },
+  "181": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mioglobina desaparece rápidamente del suero, de modo que una nueva elevación puede revelar una recidiva tras el descenso inicial. El temario la incluye como marcador de reinfarto junto con CK-MB, aunque actualmente prefiere troponinas seriadas.",
+    "motivosPorOpcion": {
+      "LDH.": "Su ascenso tardío y permanencia de hasta 8-14 días dificultan distinguir una nueva lesión próxima.",
+      "Tropo T.": "Permanece elevada hasta 14 días; para reinfarto se interpretan cambios significativos en determinaciones seriadas, no un valor aislado.",
+      "CK-MB.": "También puede detectar reinfarto y retorna pronto a la normalidad, pero la clave del banco selecciona la mioglobina, igualmente respaldada por el temario."
+    },
+    "claveMemorizar": "Reinfarto: nueva elevación de un marcador breve; hoy se prefieren troponinas seriadas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 6, 8 y 10"
+  },
+  "182": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La actividad enzimática se mide durante la fase lineal, cuando la formación de producto mantiene una velocidad constante y la enzima de la muestra es el factor limitante.",
+    "motivosPorOpcion": {
+      "La fase de agotamiento de sustrato.": "Al agotarse el sustrato u otro reactivo, la velocidad disminuye y deja de reflejar linealmente la actividad.",
+      "La fase de retardo.": "Es la etapa inicial de encuentro y acoplamiento entre enzima y sustrato, antes de estabilizarse la velocidad.",
+      "La fase de dilución.": "No constituye una fase cinética de la reacción enzimática descrita en el temario."
+    },
+    "claveMemorizar": "Actividad enzimática: medir la pendiente en la fase lineal.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 16"
+  },
+  "183": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "BNP y NT-proBNP se emplean en el diagnóstico y pronóstico de la insuficiencia cardíaca, incluida la disfunción ventricular izquierda. Sus concentraciones también pueden ayudar a valorar la evolución clínica y terapéutica.",
+    "motivosPorOpcion": {
+      "No son específico del tejido cardíaco.": "Son péptidos liberados por el corazón ante sobrecarga; aunque sus valores dependen de edad, sexo, obesidad y función renal, esta frase no expresa su utilidad principal.",
+      "Este marcador ayuda a valorar el tratamiento en pacientes diabéticos.": "La indicación desarrollada es la insuficiencia cardíaca, no el control metabólico de la diabetes.",
+      "Se elevan debido a una interrupción total del flujo coronario.": "La oclusión coronaria caracteriza el IAM; los péptidos natriuréticos responden sobre todo a sobrecarga y fallo cardíaco."
+    },
+    "claveMemorizar": "BNP/NT-proBNP: insuficiencia cardíaca; troponina: daño miocárdico.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15"
+  },
+  "184": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una misma magnitud puede presentar distintos tiempos de estabilidad según la matriz, el método, la temperatura y otras condiciones preanalíticas. Por tanto, la estabilidad no es una propiedad temporal única e independiente del procesamiento.",
+    "motivosPorOpcion": {
+      "La estabilidad de una magnitud bioquímica es independiente del método de medida.": "Un método puede tolerar o detectar de forma distinta los cambios del analito, por lo que la estabilidad declarada debe vincularse al procedimiento.",
+      "La estabilidad de una magnitud bioquímica es independiente de las condiciones de conservación.": "Temperatura, tiempo, luz y conservación pueden modificar el analito o la muestra.",
+      "No influye en la calidad de los resultados de esa magnitud.": "La degradación previa al análisis introduce sesgo y afecta directamente a la calidad del resultado."
+    },
+    "claveMemorizar": "La estabilidad depende de muestra, método, tiempo y conservación.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 25-26",
+    "advertenciaRevision": "Los PDF de Tema 6 explican métodos y condiciones de ensayo, pero no desarrollan de forma expresa la estabilidad preanalítica ni sus tiempos."
+  },
+  "185": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La proteína C reactiva es una proteína plasmática de fase aguda, no una enzima catalítica. Su nombre describe su reactividad, no una función enzimática.",
+    "motivosPorOpcion": {
+      "Los Péptidos Natriuréticos son hormonas.": "BNP y NT-proBNP pertenecen al sistema hormonal cardíaco y se usan como biomarcadores de insuficiencia cardíaca.",
+      "La Lactatodeshidrogenasa es una enzima.": "La LDH es una oxidorreductasa que cataliza reversiblemente la interconversión de lactato y piruvato.",
+      "La Mioglobina es una proteína.": "Es una proteína monomérica con grupo hemo capaz de unir oxígeno."
+    },
+    "claveMemorizar": "PCR = proteína de fase aguda, no enzima.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2 y 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 8"
+  },
+  "186": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las troponinas aumentan aproximadamente entre 3 y 12 horas tras el daño, no empiezan a ser detectables a las 48 horas. A las 24-48 horas se sitúa su máximo.",
+    "motivosPorOpcion": {
+      "Es indicador de necrosis cardiaca": "La salida de troponina a circulación evidencia daño de células miocárdicas y forma parte de la definición de IAM.",
+      "La troponina I y la troponina T son marcadores específicos de infarto de miocardio.": "Sus isoformas cardíacas poseen mayor sensibilidad y especificidad que CK-MB y son las magnitudes de elección.",
+      "Las formas cardíacas son extremadamente específicas del tejido del corazón y, por lo tanto, se usan cada vez más como marcadores específicos de daño en el músculo cardíaco.": "TnI y TnT cardíacas proceden del aparato contráctil miocárdico y se utilizan para detectar daño cardíaco."
+    },
+    "claveMemorizar": "Troponina: sube 3-12 h, pico 24-48 h, persiste 5-14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-11"
+  },
+  "187": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La rabdomiólisis libera componentes musculares y eleva CK, LDH, GOT y mioglobina; además puede causar daño renal con aumento de creatinina. El hematocrito no es un producto liberado por la destrucción del miocito.",
+    "motivosPorOpcion": {
+      "CK": "Es abundante en músculo y su aumento es uno de los hallazgos bioquímicos centrales de la lesión muscular.",
+      "LDH": "La lisis celular libera LDH, una enzima ampliamente distribuida.",
+      "GOT": "La AST/GOT también está presente en músculo y aumenta tras destrucción muscular.",
+      "Creatinina": "Puede aumentar si la mioglobinuria de la rabdomiólisis provoca lesión renal y reduce la filtración."
+    },
+    "claveMemorizar": "Rabdomiólisis: CK muy alta, mioglobina, LDH, GOT, K y P elevados.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4",
+    "advertenciaRevision": "El PDF enumera CK, LDH y GOT elevadas y advierte del daño renal por mioglobina, pero no menciona expresamente hematocrito ni creatinina."
+  },
+  "188": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "NT-proBNP es un biomarcador destinado al diagnóstico y pronóstico de la insuficiencia cardíaca. Destaca por su elevado valor predictivo negativo para descartar esta entidad.",
+    "motivosPorOpcion": {
+      "Mioglobina.": "Es un marcador precoz pero poco específico de lesión muscular e infarto, no de insuficiencia cardíaca.",
+      "Troponina cardiaca (Tnc).": "Indica daño miocárdico y es la magnitud de elección en IAM.",
+      "CK-MB.": "Se relaciona con necrosis miocárdica y reinfarto, aunque hoy ha sido sustituida por troponinas.",
+      "PCR ultrasensible (PCRus)": "Es un marcador inflamatorio y de riesgo cardiovascular, no el péptido diagnóstico característico del fallo cardíaco."
+    },
+    "claveMemorizar": "Insuficiencia cardíaca: BNP o NT-proBNP.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15"
+  },
+  "189": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "CK-MM abunda en músculo esquelético y constituye prácticamente toda la CK sérica habitual. El ejercicio intenso lesiona o aumenta la permeabilidad muscular y eleva preferentemente esta isoenzima.",
+    "motivosPorOpcion": {
+      "CPK-MB.": "Predomina en corazón, aunque existe en menor cantidad en músculo esquelético; no es la fracción principal tras ejercicio.",
+      "CPK-BB.": "Abunda en cerebro y músculo liso y está prácticamente ausente del suero.",
+      "CPK-MD.": "No corresponde a una de las tres isoenzimas CK descritas: BB, MB y MM."
+    },
+    "claveMemorizar": "CK-MM = músculo esquelético; CK-MB = corazón; CK-BB = cerebro.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
+  },
+  "190": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El katal es la unidad derivada del Sistema Internacional y equivale a la actividad que transforma un mol de sustrato por segundo.",
+    "motivosPorOpcion": {
+      "Transformación de 1 μmol de sustrato en 1 minuto.": "Esa definición corresponde a una unidad internacional de actividad enzimática, UI.",
+      "Transformación de 1gr de sustrato en 1 minuto.": "La actividad catalítica no se define por gramos de sustrato, sino por cantidad de sustancia transformada por unidad de tiempo."
+    },
+    "claveMemorizar": "1 katal = 1 mol/s; 1 UI = 1 micromol/min.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 26"
+  },
+  "191": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El centro activo es una región tridimensional de la proteína enzimática constituida por residuos de aminoácidos que reconocen y catalizan la transformación del sustrato.",
+    "motivosPorOpcion": {
+      "Tienen una estructura bidimensional.": "La unión específica exige una conformación tridimensional con complementariedad geométrica y de cargas.",
+      "Constituyen la mayor parte del volumen total de la enzima.": "El centro activo es una zona localizada de la macromolécula, no la mayor parte de su volumen.",
+      "Formados por estructuras lipídicas.": "Las enzimas del temario son proteínas y su sitio activo pertenece a esa estructura proteica."
+    },
+    "claveMemorizar": "Centro activo: pequeña región 3D formada por aminoácidos.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2 y 4-8"
+  },
+  "192": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La constante de Michaelis-Menten, Km, es la concentración de sustrato necesaria para que la velocidad alcance la mitad de Vmax.",
+    "motivosPorOpcion": {
+      "Es la concentración del sustrato a la cual la velocidad de reacción es igual a la velocidad máxima.": "Vmax se aproxima cuando la enzima está saturada, no cuando la concentración equivale a Km.",
+      "Es la concentración del sustrato a la cual la velocidad de reacción es el doble de la velocidad máxima.": "Vmax es el límite de velocidad del modelo y no puede duplicarse aumentando solo el sustrato.",
+      "La concentración del sustrato no varía dependiendo de la velocidad.": "A bajas concentraciones, la velocidad aumenta con el sustrato hasta aproximarse a la saturación."
+    },
+    "claveMemorizar": "Cuando [S] = Km, v = Vmax/2.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 15-18"
+  },
+  "193": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las enzimas son proteínas catalíticas y la actividad medida cambia con las condiciones del ensayo, como pH, temperatura y concentraciones. Por ello cada procedimiento debe establecer sus propios intervalos de referencia.",
+    "motivosPorOpcion": {
+      "Las enzimas son proteínas que catalizan reacciones químicas.": "Es una propiedad verdadera: aceleran reacciones necesarias para la vida celular.",
+      "La concentración catalítica depende de las condiciones de ensayo.": "Es verdadera porque pH, temperatura, fuerza iónica y concentraciones alteran la velocidad observada.",
+      "Cada método tiene sus propios valores de referencia.": "Es verdadera porque las condiciones y el principio analítico condicionan el resultado de actividad."
+    },
+    "claveMemorizar": "Actividad enzimática y referencia siempre dependen del método y sus condiciones.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2-3, 14 y 25-26"
+  },
+  "194": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una unidad internacional de actividad enzimática es la cantidad de enzima que convierte un micromol de sustrato en producto por minuto bajo condiciones definidas.",
+    "motivosPorOpcion": {
+      "Es la cantidad de enzima que transforma 1μmol de sustrato por segundo.": "Usa segundos en lugar de minutos y no corresponde a la definición de UI.",
+      "Es la cantidad de enzima que transforma 1μmol durante la duración de la reacción.": "No fija una unidad temporal reproducible, por lo que no define una actividad cuantificable.",
+      "Todas son falsas.": "La primera opción reproduce la definición de unidad internacional del temario."
+    },
+    "claveMemorizar": "UI = micromol/minuto.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 26"
+  },
+  "195": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La unidad derivada del Sistema Internacional para actividad catalítica es el katal, definido en moles por segundo.",
+    "motivosPorOpcion": {
+      "UI/ml.": "Combina una unidad no SI de actividad con volumen y además usa una concentración distinta de la habitual UI/L.",
+      "UI/L.": "Es la expresión clínica habitual de concentración catalítica, pero la unidad SI estricta es el katal.",
+      "UI/mg de proteínas.": "Expresa actividad específica respecto a masa proteica, no la unidad SI de actividad catalítica."
+    },
+    "claveMemorizar": "Sistema Internacional: katal; laboratorio clínico: frecuentemente UI/L.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 26"
+  },
+  "196": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El temario fija precisión óptima con CV menor del 10 % en el percentil 99, considera menos útiles los ensayos con CV de 10-20 % y no aceptables los superiores al 20 %. Esto respalda A y C, pero no demuestra toda la afirmación B.",
+    "motivosPorOpcion": {
+      "La precisión óptima del test (coeficiente de variación al percentil 99 del límite superior de referencia) debe definirse como 10 %.": "Coincide aproximadamente con el criterio del PDF, que exige CV inferior al 10 % para precisión óptima.",
+      "Los test con precisión no óptima (CV > 10% al percentil 99 del límite superior de referencia) hacen más difícil determinar cambios significativos, pero no producen falsos negativos.": "La imprecisión dificulta distinguir variaciones reales, pero el PDF no garantiza que nunca ocasione falsos negativos.",
+      "No se deben utilizar test con CV > 20% al percentil 99 del límite superior de referencia.": "El documento clasifica como no aceptables los ensayos con imprecisión superior al 20 %."
+    },
+    "claveMemorizar": "Troponina en p99: CV <10 % óptimo; 10-20 % menos útil; >20 % no aceptable.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 12",
+    "advertenciaRevision": "La respuesta «Todas son ciertas» no queda plenamente respaldada: el PDF no afirma que un CV >10 % nunca produzca falsos negativos y formula el umbral óptimo como CV <10 %, no exactamente 10 %."
+  },
+  "197": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "LDH1 y las troponinas presentan ventanas prolongadas después de un IAM. La LDH puede tardar 8-14 días en normalizarse y la troponina T permanecer detectable hasta 14 días.",
+    "motivosPorOpcion": {
+      "CK-MB y LDH1.": "LDH1 es tardía, pero CK-MB decae en 48-72 horas.",
+      "Troponina y mioglobina.": "La troponina persiste, mientras que la mioglobina desaparece en solo 12-24 horas.",
+      "Troponina y BNP.": "BNP se usa en insuficiencia cardíaca y no se presenta como marcador cinético de normalización tras IAM."
+    },
+    "claveMemorizar": "Marcadores tardíos: troponina y LDH1; breves: mioglobina y CK-MB.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3, 6, 8 y 10-11"
+  },
+  "198": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La troponina cardíaca es el marcador que más tiempo permanece elevado: TnI hasta unos 7 días y TnT hasta 14 días. El temario ordena la permanencia creciente como troponina I, LDH y troponina T.",
+    "motivosPorOpcion": {
+      "Lactato deshidrogenasa.": "Puede persistir 8-14 días, pero queda por debajo de TnT en el orden de permanencia indicado.",
+      "Creatina quinasa.": "CK-MB retorna aproximadamente en 48-72 horas.",
+      "Aspartato aminotransferasa": "AST/GOT se mantiene elevada unos 4-6 días y está en desuso por su baja especificidad."
+    },
+    "claveMemorizar": "La TnT es la de mayor permanencia tras IAM.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-6 y 10-11"
+  },
+  "199": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El límite de referencia para troponina cardíaca se establece en el percentil 99 de una población normal, ajustándolo cuando proceda por edad y sexo.",
+    "motivosPorOpcion": {
+      "Percentil 95 de la población sana.": "El consenso y el temario emplean el percentil 99, no el 95.",
+      "La concentración de troponina que presente una imprecisión inferior al 20%.": "La precisión es un requisito del ensayo en el punto de corte, pero no define por sí misma la concentración de corte.",
+      "Un límite basado en curvas ROC de estudio en pacientes con y sin IAM.": "El criterio indicado se ancla en la distribución de referencia sana, no en un umbral ROC del estudio clínico."
+    },
+    "claveMemorizar": "Troponina: lesión si supera p99 o muestra cambio significativo seriado.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9 y 12"
+  },
+  "200": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "BNP y NT-proBNP se utilizan principalmente para detectar insuficiencia cardíaca, incluida la causada por disfunción ventricular izquierda. En urgencias, valores bajos ofrecen gran capacidad para descartarla.",
+    "motivosPorOpcion": {
+      "Accidentes cerebro vasculares (ACV).": "Un ACV no es la indicación principal desarrollada para estos péptidos cardíacos.",
+      "Enfermedad de Alzheimer.": "No guarda relación con la liberación cardíaca de BNP ante sobrecarga ventricular.",
+      "Hemorragia subaracnoidea.": "No constituye el objetivo diagnóstico principal de BNP o NT-proBNP."
+    },
+    "claveMemorizar": "BNP/NT-proBNP sirven para diagnóstico y pronóstico de insuficiencia cardíaca.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15"
+  },
+  "201": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fosfatasa ácida es una hidrolasa: cataliza la hidrólisis de enlaces fosfato.",
+    "motivosPorOpcion": {
+      "GOT.": "AST/GOT transfiere grupos amino y pertenece a las transferasas.",
+      "LDH.": "La lactato deshidrogenasa transfiere hidrógeno o electrones y es una oxidorreductasa.",
+      "Ninguna de ellas.": "Sí hay una hidrolasa entre las opciones: la fosfatasa ácida."
+    },
+    "claveMemorizar": "Fosfatasas y lipasas: hidrolasas; transaminasas: transferasas; LDH: oxidorreductasa.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 12 y 27"
+  },
+  "202": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El katal es la unidad de actividad catalítica del Sistema Internacional y expresa moles transformados por segundo.",
+    "motivosPorOpcion": {
+      "UI/mL.": "Es una concentración de unidades internacionales por volumen, no la unidad SI.",
+      "UI/L.": "Se usa habitualmente en informes clínicos, pero UI no es la unidad derivada del SI.",
+      "UI/μg de proteínas.": "Relaciona actividad con masa proteica y expresa actividad específica."
+    },
+    "claveMemorizar": "Katal = mol/s; UI = micromol/min.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 26"
+  },
+  "203": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En urgencias, la principal fortaleza de NT-proBNP es su elevado valor predictivo negativo. Un resultado bajo permite descartar con eficacia la insuficiencia cardíaca como causa de la disnea.",
+    "motivosPorOpcion": {
+      "Monitorización de tratamiento.": "Puede contribuir al seguimiento, pero no es la utilidad diagnóstica principal en el contexto urgente planteado.",
+      "Valor pronóstico.": "Tiene utilidad pronóstica, aunque la pregunta pide su ventaja para el diagnóstico inmediato.",
+      "Estratificación del riesgo.": "Es una aplicación clínica secundaria frente a su capacidad de exclusión diagnóstica."
+    },
+    "claveMemorizar": "NT-proBNP bajo en urgencias: alto VPN para descartar insuficiencia cardíaca.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 14-15"
+  },
+  "204": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La LDH es un indicador inespecífico de lisis celular porque se distribuye ampliamente. Puede elevarse en daño cardiovascular y en enfermedades hematológicas, y su distribución también permite aumentos en patología pulmonar.",
+    "motivosPorOpcion": {
+      "Cardiovasculares.": "El IAM libera LDH cardíaca, especialmente LDH1, por lo que esta asociación es verdadera pero incompleta.",
+      "Pulmonares.": "El pulmón contiene LDH y su lesión puede elevarla; la opción aislada no recoge el resto de tejidos afectados.",
+      "Hematológicas.": "El temario cita anemia megaloblástica y cáncer oncohematológico, pero no son las únicas causas."
+    },
+    "claveMemorizar": "LDH elevada = lisis celular; alta sensibilidad y baja especificidad tisular.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
+    "advertenciaRevision": "El PDF respalda la amplia distribución de LDH y cita patologías cardíacas y hematológicas, pero no menciona expresamente patologías pulmonares."
+  },
+  "205": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El temario advierte que las concentraciones de troponina I medidas en plasma son ligeramente superiores a las obtenidas en suero. Esta diferencia de matriz debe considerarse al interpretar el método.",
+    "motivosPorOpcion": {
+      "Menos elevados que en el suero.": "Invierte la dirección del efecto de matriz indicada en el PDF.",
+      "Similares valores que en suero.": "Aunque la diferencia sea ligera, el documento no los considera idénticos.",
+      "Es imposible técnicamente la determinación en plasma": "La comparación entre plasma y suero confirma que el plasma es una muestra técnicamente utilizable."
+    },
+    "claveMemorizar": "Troponina en plasma: valores ligeramente mayores que en suero.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 12"
+  },
+  "206": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fosfatasa alcalina hidroliza grupos fosfato y la lipasa hidroliza enlaces de lípidos; ambas pertenecen a las hidrolasas.",
+    "motivosPorOpcion": {
+      "Liasa.": "Las liasas rompen o forman enlaces sin el mecanismo de hidrólisis propio de estas enzimas.",
+      "Oxidorreductasa.": "Las oxidorreductasas catalizan transferencias de electrones o hidrógeno, como la LDH.",
+      "Transferasa.": "Las transferasas desplazan grupos químicos entre sustratos, como AST, ALT, CK o GGT."
+    },
+    "claveMemorizar": "ALP y lipasa = hidrolasas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 12 y 27"
+  },
+  "207": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La AST o GOT está presente en el corazón y se libera tras necrosis miocárdica. Históricamente fue el primer marcador utilizado en IAM, aunque hoy está en desuso por su baja especificidad.",
+    "motivosPorOpcion": {
+      "Su concentración disminuye en cualquier alteración del sistema hepatobiliar.": "La lesión celular hepática puede aumentar AST; no provoca una disminución universal.",
+      "Su concentración aumenta en una insuficiencia renal.": "El PDF cita riñón como tejido con AST, pero no establece insuficiencia renal como causa característica de su aumento.",
+      "Su concentración disminuye en una insuficiencia respiratoria.": "No existe un mecanismo general por el que la insuficiencia respiratoria reduzca AST."
+    },
+    "claveMemorizar": "AST/GOT sube tras IAM, pero es poco específica y está en desuso.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4"
+  },
+  "208": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un aneurisma es una dilatación permanente e irreversible de la pared de una arteria. Describe un ensanchamiento focal, no una obstrucción del flujo.",
+    "motivosPorOpcion": {
+      "Disminución en el diámetro de las arterias que irrigan las extremidades inferiores produciendo un aporte insuficiente de sangre a los tejidos": "Define un estrechamiento arterial con isquemia periférica, no una dilatación de la pared.",
+      "Engrosamiento y pérdida de flexibilidad de las paredes vasculares": "Corresponde al endurecimiento arterial o arteriosclerosis, sin exigir una dilatación focal.",
+      "Reducción brusca de la irrigación de una extremidad por una obstrucción arterial": "Describe una isquemia arterial aguda causada por oclusión."
+    },
+    "claveMemorizar": "Aneurisma = arteria dilatada de forma irreversible.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 16"
+  },
+  "209": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La arteria pulmonar sale del ventrículo derecho y conduce sangre desoxigenada hacia los pulmones para su oxigenación. Se denomina arteria por alejarse del corazón, no por el contenido de oxígeno.",
+    "motivosPorOpcion": {
+      "Arteria aorta": "Sale del ventrículo izquierdo y distribuye sangre oxigenada a la circulación sistémica.",
+      "Arteria hepática": "Aporta al hígado sangre oxigenada procedente de la circulación sistémica.",
+      "Arteria subclavia": "Es una rama sistémica que lleva sangre oxigenada hacia miembros superiores y otras estructuras."
+    },
+    "claveMemorizar": "Arteria pulmonar: desoxigenada; venas pulmonares: oxigenadas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 18"
+  },
+  "210": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las enzimas son las moléculas que catalizan reacciones químicas biológicas: aumentan su velocidad al reducir la energía de activación y permanecen inalteradas al finalizar.",
+    "motivosPorOpcion": {
+      "Hidratos de carbono.": "Cumplen funciones energéticas y estructurales, pero no constituyen la clase catalítica principal descrita.",
+      "Proteínas.": "Es una categoría demasiado amplia: muchas proteínas no catalizan; las proteínas catalíticas son específicamente enzimas.",
+      "Ninguna es correcta.": "Sí existe una opción que nombra directamente a los catalizadores biológicos."
+    },
+    "claveMemorizar": "Enzima = catalizador biológico, generalmente proteico.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2-4"
+  },
+  "211": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La CK aumenta por muerte celular y se distribuye en músculo cardíaco y esquelético. Por ello puede elevarse en IAM, necrosis y afectación del músculo esquelético.",
+    "motivosPorOpcion": {
+      "Infarto agudo de miocardio.": "La lesión miocárdica libera CK, en especial su fracción MB, pero no es el único contexto de elevación.",
+      "Necrosis.": "La muerte celular libera enzimas intracelulares como CK; la afirmación es cierta pero general.",
+      "Afectación del músculo esquelético.": "CK-MM abunda en músculo esquelético y aumenta con su daño, aunque también existe CK en otros tejidos."
+    },
+    "claveMemorizar": "CK indica lesión muscular; la isoenzima orienta al tejido.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 5"
+  },
+  "212": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La actividad enzimática puede medirse por un cambio acumulado al final de un intervalo o siguiendo la velocidad en varios tiempos. Esos enfoques corresponden a métodos de tiempo fijo y cinéticos.",
+    "motivosPorOpcion": {
+      "Métodos de tiempo fijo": "Son válidos porque cuantifican el cambio tras un intervalo definido, pero no son el único enfoque.",
+      "Métodos de velocidad de reacción": "Son válidos porque calculan la pendiente de la reacción mediante varias medidas temporales.",
+      "No se mide la actividad enzimática, sino la concentración de la enzima": "Puede medirse tanto actividad como masa proteica; no son determinaciones mutuamente excluyentes."
+    },
+    "claveMemorizar": "Actividad: punto final/tiempo fijo o cinética/velocidad.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 25"
+  },
+  "213": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La afirmación es incorrecta porque la LDH posee cinco isoenzimas, LDH1 a LDH5, con distinta distribución tisular.",
+    "motivosPorOpcion": {
+      "Presenta niveles elevados en la cirrosis": "La lesión hepática puede liberar LDH, aunque su falta de especificidad limita el valor diagnóstico aislado.",
+      "La hemolisis interfiere en su medición": "Los eritrocitos contienen LDH; su rotura libera enzima y puede elevar falsamente la actividad de la muestra.",
+      "Cataliza la reacción en la que el piruvato pasa a lactato": "La reacción lactato-piruvato es reversible y utiliza el par NAD+/NADH."
+    },
+    "claveMemorizar": "LDH tiene cinco isoenzimas y cataliza lactato reversible a piruvato.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11; Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
+    "advertenciaRevision": "Los PDF confirman isoenzimas y reacción de LDH, pero no mencionan expresamente cirrosis ni la interferencia por hemólisis."
+  },
+  "214": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La neumonía sin daño miocárdico asociado es la opción menos directamente relacionada con aumento de troponina. Síndrome coronario agudo y miocarditis lesionan miocardio, y la insuficiencia cardíaca grave también puede elevarla.",
+    "motivosPorOpcion": {
+      "Síndrome Coronario Agudo": "La isquemia con necrosis miocárdica libera troponina y constituye su indicación diagnóstica principal.",
+      "Insuficiencia cardiaca grave": "El estrés y daño miocárdico en insuficiencia avanzada pueden producir elevaciones de troponina.",
+      "Miocarditis": "La inflamación del miocardio lesiona cardiomiocitos y libera sus troponinas."
+    },
+    "claveMemorizar": "Troponina indica daño miocárdico, no exclusivamente IAM.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-12",
+    "advertenciaRevision": "El PDF enumera numerosas causas no isquémicas de troponina elevada, incluida insuficiencia cardíaca, pero no menciona neumonía ni miocarditis de forma expresa."
+  },
+  "215": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una miocardiopatía secundaria a una enfermedad metabólica sistémica se adquiere como consecuencia de esa enfermedad. En cambio, tetralogía de Fallot y comunicaciones interauricular e interventricular son malformaciones estructurales congénitas.",
+    "motivosPorOpcion": {
+      "Tetralogía de Fallot.": "Es una cardiopatía congénita compuesta por cuatro anomalías anatómicas.",
+      "Comunicación interventricular (CIV).": "Es un defecto congénito del tabique que comunica ambos ventrículos.",
+      "Comunicación interauricular.": "Es una abertura congénita en el tabique entre las aurículas."
+    },
+    "claveMemorizar": "Fallot, CIV y CIA son congénitas; una miocardiopatía metabólica sistémica es secundaria.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 16-18",
+    "advertenciaRevision": "El PDF solo repasa anatomía cardíaca y no desarrolla la clasificación congénita de estas patologías; la clave no puede verificarse directamente con los PDF permitidos."
+  },
+  "216": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La secuencia clásica propuesta es CK, AST y LDH: CK comienza a aumentar desde 3-12 horas, AST desde unas 6 horas y LDH desde 12-24 horas. Sus intervalos se solapan, pero LDH es claramente la más tardía.",
+    "motivosPorOpcion": {
+      "CK, LDH y AST.": "Coloca LDH antes de AST pese a que el inicio descrito para LDH es más tardío.",
+      "AST, CK y LDH.": "Invierte CK y AST respecto al orden clásico, aunque sus ventanas iniciales pueden solaparse.",
+      "AST, LDH y CK.": "Sitúa CK al final cuando su elevación precede claramente a LDH."
+    },
+    "claveMemorizar": "Secuencia enzimática clásica del IAM: CK, AST, LDH.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-6",
+    "advertenciaRevision": "El PDF aporta ventanas cinéticas solapadas, pero no enuncia literalmente la secuencia CK-AST-LDH; CK y AST pueden empezar dentro de intervalos coincidentes."
+  },
+  "217": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Tras un IAM, la CK-MB alcanza su máximo alrededor de las 24 horas, compatible con el intervalo de 24-48 horas ofrecido.",
+    "motivosPorOpcion": {
+      "Retorna a la normalidad a los 12 días.": "CK-MB decae y suele normalizarse en 48-72 horas, mucho antes de 12 días.",
+      "Se comienza a elevar a la media hora.": "Empieza a aumentar aproximadamente a las 3-12 horas, no a los 30 minutos.",
+      "Todas las respuestas son correctas.": "Las afirmaciones sobre normalización a 12 días e inicio a la media hora contradicen su cinética."
+    },
+    "claveMemorizar": "CK-MB: sube 3-12 h, pico 24 h, baja en 48-72 h.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 6"
+  },
+  "218": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La clave del banco llama a Km «constante de reacción», pero el modelo la define con precisión como la concentración de sustrato a la que la velocidad es Vmax/2. Ninguna opción expresa correctamente esa definición.",
+    "motivosPorOpcion": {
+      "Es la velocidad máxima.": "Vmax es el límite de velocidad con la enzima saturada y es un parámetro distinto de Km.",
+      "Es la pendiente de la recta.": "La curva de Michaelis-Menten es hiperbólica; Km no es una pendiente.",
+      "Es la mitad de la velocidad máxima.": "Km es una concentración de sustrato, mientras que Vmax/2 es la velocidad alcanzada cuando [S] = Km."
+    },
+    "claveMemorizar": "Km no es una velocidad: es [S] cuando v = Vmax/2.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 17-18",
+    "advertenciaRevision": "La respuesta A es imprecisa y contradice la definición del PDF. La pregunta no contiene una opción plenamente correcta y debería corregirse."
+  },
+  "219": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las isoenzimas pueden separarse por diferencias fisicoquímicas mediante electroforesis o cromatografía y distinguirse con métodos inmunoquímicos. El temario enumera los tres enfoques para estudiar CK-MB.",
+    "motivosPorOpcion": {
+      "Cromatografía.": "La resina de intercambio iónico permite separar isoenzimas, pero no es la única técnica disponible.",
+      "Electroforesis.": "Separa formas con distinta movilidad, aunque también existen métodos cromatográficos e inmunológicos.",
+      "Métodos inmunoquímicos.": "La inmunoinhibición y los inmunoensayos reconocen isoenzimas específicas, junto a métodos de separación no inmunológicos."
+    },
+    "claveMemorizar": "Isoenzimas: electroforesis, cromatografía e inmunoquímica.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 11 y 25; Tema 6.2. Enzimas cardiacas v2.pdf, p. 7"
+  },
+  "220": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El rasgo definitorio de un aneurisma es el ensanchamiento irreversible de la pared arterial. La pérdida de calibre o la obstrucción describen procesos isquémicos diferentes.",
+    "motivosPorOpcion": {
+      "Disminución en el diámetro de las arterias que irrigan las extremidades inferiores produciendo un aporte insuficiente de sangre a los tejidos": "Corresponde a enfermedad arterial periférica con estenosis y perfusión insuficiente.",
+      "Engrosamiento y pérdida de flexibilidad de las paredes vasculares": "Describe rigidez o arteriosclerosis de la pared, no necesariamente una dilatación aneurismática.",
+      "Reducción brusca de la irrigación de una extremidad por una obstrucción arterial": "Es una oclusión arterial aguda que reduce el flujo, no un aumento permanente del diámetro."
+    },
+    "claveMemorizar": "Aneurisma: dilatación arterial irreversible; estenosis: estrechamiento; oclusión: bloqueo.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 16"
+  }
+}

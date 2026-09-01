@@ -8,6 +8,7 @@
     "build": "vite build",
     "audit:topic-04-explanations": "node scripts/audit-topic-04-explanations.mjs",
     "audit:topic-05-explanations": "node scripts/audit-topic-05-explanations.mjs",
+    "audit:topic-06-explanations": "node scripts/audit-topic-06-explanations.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
