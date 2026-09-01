@@ -23,6 +23,18 @@ import topic07Part03 from "./topic-07-parts/part-03.json";
 import topic07Part04 from "./topic-07-parts/part-04.json";
 import topic07Part05 from "./topic-07-parts/part-05.json";
 import topic07Part06 from "./topic-07-parts/part-06.json";
+import topic08Part01 from "./topic-08-parts/part-01.json";
+import topic08Part02 from "./topic-08-parts/part-02.json";
+import topic08Part03 from "./topic-08-parts/part-03.json";
+import topic08Part04 from "./topic-08-parts/part-04.json";
+import topic08Part05 from "./topic-08-parts/part-05.json";
+import topic08Part06 from "./topic-08-parts/part-06.json";
+import topic08Part07 from "./topic-08-parts/part-07.json";
+import topic08Part08 from "./topic-08-parts/part-08.json";
+import topic08Part09 from "./topic-08-parts/part-09.json";
+import topic08Part10 from "./topic-08-parts/part-10.json";
+import topic08Part11 from "./topic-08-parts/part-11.json";
+import topic08Part12 from "./topic-08-parts/part-12.json";
 
 const explanationsByTopic = {
   "tema-01": topic01["tema-01"],
@@ -57,6 +69,20 @@ const explanationsByTopic = {
     ...topic07Part04,
     ...topic07Part05,
     ...topic07Part06,
+  },
+  "tema-08": {
+    ...topic08Part01,
+    ...topic08Part02,
+    ...topic08Part03,
+    ...topic08Part04,
+    ...topic08Part05,
+    ...topic08Part06,
+    ...topic08Part07,
+    ...topic08Part08,
+    ...topic08Part09,
+    ...topic08Part10,
+    ...topic08Part11,
+    ...topic08Part12,
   },
 };
 

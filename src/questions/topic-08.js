@@ -7,6 +7,7 @@ const convertQuestions = (source, block) => source.questions
 		return {
 			id: `8.${block}-${question.id}`,
 			number: question.id,
+			explanationId: `${block}-${question.id}`,
 			question: question.question,
 			answers: optionKeys.map((key) => question.options[key]),
 			correctAnswer: optionKeys.indexOf(question.correctAnswer),

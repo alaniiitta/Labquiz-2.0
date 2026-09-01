@@ -15,6 +15,8 @@ export function explainQuestion(question, topicId) {
   const topicExplanations = explanationsByTopic[topicKey];
   if (!topicExplanations) return null;
 
-  const questionNumber = String(question.number ?? question.id ?? "");
+  const questionNumber = String(
+    question.explanationId ?? question.number ?? question.id ?? "",
+  );
   return topicExplanations[questionNumber] ?? null;
 }

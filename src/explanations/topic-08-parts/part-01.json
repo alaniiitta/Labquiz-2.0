@@ -1,0 +1,672 @@
+{
+  "1-1": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una hemorragia estimula la respuesta medular para reponer los eritrocitos perdidos. Esa regeneración se manifiesta por hiperplasia eritroblástica y aumento de reticulocitos, igual que en una hemólisis regenerativa.",
+    "motivosPorOpcion": {
+      "Descenso de la haptoglobina e hiperregeneración eritroblástica": "La regeneración puede aparecer tras una hemorragia, pero el descenso de haptoglobina indica consumo por hemoglobina libre y orienta a hemólisis intravascular.",
+      "Elevación de LDH y bilirrubina no conjugada": "Ambos parámetros reflejan destrucción celular y catabolismo del grupo hemo; no son la respuesta compensadora característica de una pérdida sanguínea simple.",
+      "Elevación de la bilirrubina no conjugada y descenso de la haptoglobina": "Esta combinación es propia de la liberación y degradación acelerada de hemoglobina durante la hemólisis, no de la salida de sangre intacta."
+    },
+    "claveMemorizar": "Hemorragia y hemólisis regenerativa comparten reticulocitosis e hiperregeneración medular.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 33, 45 y 48"
+  },
+  "1-2": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El método de elección transforma la hemoglobina en cianmetahemoglobina estable y mide su absorbancia por espectrofotometría a 540 nm.",
+    "motivosPorOpcion": {
+      "Sistema de conductividad eléctrica, en diluciones de sangre 1/50.000.": "La impedancia eléctrica cuenta y dimensiona células; no cuantifica el pigmento hemoglobínico.",
+      "Método del ferricianuro potásico.": "El ferricianuro participa como reactivo oxidante, pero su uso aislado no nombra el método completo de medida.",
+      "Método de la metahemoglobina.": "La metahemoglobina es un intermediario que debe reaccionar con cianuro para formar el producto estable que se cuantifica."
+    },
+    "claveMemorizar": "Hb: cianmetahemoglobina, espectrofotometría a 540 nm.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24 y 41"
+  },
+  "1-3": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El estudio básico de una anemia incluye cuantificar hemoglobina, calcular índices como el VCM y revisar la morfología eritrocitaria. La tinción PAS es una técnica citoquímica especializada y no forma parte de esa evaluación inicial.",
+    "motivosPorOpcion": {
+      "Observación morfológica de los hematíes en un frotis teñido por método Wright.": "El frotis permite reconocer alteraciones de tamaño, forma, coloración e inclusiones que orientan el diagnóstico.",
+      "Dosificación de hemoglobina.": "La disminución de hemoglobina define analíticamente la anemia y es una determinación esencial.",
+      "Determinación del VCM.": "El VCM clasifica la anemia como microcítica, normocítica o macrocítica y dirige el diagnóstico diferencial."
+    },
+    "claveMemorizar": "Anemia básica: Hb + índices eritrocitarios + frotis; PAS no es rutinaria.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 16, 24 y 27"
+  },
+  "1-4": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La ferritina refleja las reservas de hierro y es el primer parámetro que disminuye en la ferropenia. Un valor bajo apoya el agotamiento de depósitos.",
+    "motivosPorOpcion": {
+      "Muy aumentada.": "Una ferritina alta orienta a inflamación, sobrecarga férrica o anemia sideroblástica, no a ferropenia no complicada.",
+      "Dentro de los márgenes normales.": "En la deficiencia de hierro establecida se consumen los depósitos y la ferritina deja de mantenerse en rango normal.",
+      "Ligeramente aumentada": "El aumento no representa agotamiento de reservas; además, la ferritina puede elevarse como reactante de fase aguda."
+    },
+    "claveMemorizar": "Ferropenia: ferritina baja y es la primera alteración del estudio férrico.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51 y 54"
+  },
+  "1-5": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La globina es la porción proteica de la hemoglobina y está formada exclusivamente por cadenas de aminoácidos, por lo que se clasifica como holoproteína.",
+    "motivosPorOpcion": {
+      "Cromoproteína.": "La hemoglobina completa sí es una cromoproteína por incluir el grupo hemo coloreado, pero la globina aislada no contiene ese grupo prostético.",
+      "Fosfoproteína.": "Una fosfoproteína incorpora fosfato como componente característico; esa no es la naturaleza de las cadenas de globina.",
+      "Nucleoproteína.": "Las nucleoproteínas están asociadas a ácidos nucleicos, mientras que la globina consta de cadenas polipeptídicas."
+    },
+    "claveMemorizar": "Globina sola = holoproteína; hemoglobina completa = heteroproteína con hemo.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 38",
+    "advertenciaRevision": "El banco escribe «globulina», pero el PDF respalda esta clasificación para la «globina» de la hemoglobina; conviene corregir el enunciado."
+  },
+  "1-6": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Antes de cualquier análisis debe verificarse que la muestra corresponde al paciente y está correctamente identificada. Este control preanalítico evita atribuir resultados a una persona equivocada.",
+    "motivosPorOpcion": {
+      "Procesarla sin identificación.": "Una muestra anónima rompe la trazabilidad y no debe generar un resultado clínico válido.",
+      "Procesar sin observación microscópica de la muestra.": "La necesidad de frotis depende del caso y de las alertas del analizador; no sustituye la identificación inicial.",
+      "Centrifugarla.": "El hemograma se realiza en sangre total anticoagulada y la centrifugación no es el primer paso general de su procesamiento."
+    },
+    "claveMemorizar": "Primero, identidad y trazabilidad de la muestra.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
+    "advertenciaRevision": "El PDF describe la preanalítica y el anticoagulante, pero la extracción no contiene una instrucción textual sobre comprobar primero la identificación."
+  },
+  "1-7": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La anemia ferropénica, causada por déficit de hierro, se identifica en el temario como la anemia más frecuente.",
+    "motivosPorOpcion": {
+      "Anemia aplásica.": "Es un fallo de producción medular mucho menos frecuente que la deficiencia de hierro.",
+      "Anemia megaloblástica.": "Se relaciona principalmente con déficits de vitamina B12 o folato y no alcanza la frecuencia poblacional de la ferropenia.",
+      "Trastorno crónico.": "La anemia de enfermedad crónica es común en pacientes con inflamación, pero no es la señalada como la más frecuente en el temario."
+    },
+    "claveMemorizar": "La anemia más frecuente es la ferropénica.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 51"
+  },
+  "1-8": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "VCM, HCM y CHCM se obtienen relacionando hematocrito, hemoglobina y recuento de hematíes. Son los índices eritrocitarios calculados clásicos.",
+    "motivosPorOpcion": {
+      "VCM, HCM, Nº hematíes.": "El número de hematíes es una medición primaria del hemograma, no un índice derivado de los otros parámetros.",
+      "VCM, HCM, ADE.": "El ADE o RDW procede de la distribución de volúmenes celulares medida por el analizador, no del cálculo conjunto de Hb, Hto y hematíes.",
+      "VCM, CCMH, reticulocitos.": "Los reticulocitos se cuentan o detectan mediante tinción/citometría y no se calculan a partir de Hb, Hto y eritrocitos."
+    },
+    "claveMemorizar": "Índices calculados: VCM, HCM y CHCM.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24 y 26"
+  },
+  "1-9": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El eritrocito maduro ha expulsado el núcleo durante la maduración y tampoco conserva orgánulos como mitocondrias o ribosomas.",
+    "motivosPorOpcion": {
+      "Eritroblastobasófilo.": "Es un precursor medular temprano y todavía conserva núcleo.",
+      "Policromatofilo.": "El eritroblasto policromatófilo sigue siendo una célula nucleada y es la última etapa eritroide con capacidad de división.",
+      "Proeritoblasto": "Es la primera célula morfológicamente reconocible de la serie eritroide y posee núcleo."
+    },
+    "claveMemorizar": "Eritrocito maduro: sin núcleo ni orgánulos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23"
+  },
+  "1-10": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En condiciones normales, el hematíe circula aproximadamente 120 días antes de ser retirado principalmente por bazo e hígado.",
+    "motivosPorOpcion": {
+      "200 días.": "Supera ampliamente la supervivencia fisiológica descrita para el eritrocito humano.",
+      "7 días.": "Es un periodo demasiado corto y sugeriría destrucción eritrocitaria acelerada.",
+      "140 días.": "Se aproxima, pero no corresponde al valor de referencia de 120 días indicado en el temario."
+    },
+    "claveMemorizar": "Vida media eritrocitaria: 120 días, cerca de 4 meses.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23"
+  },
+  "1-11": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El VCM cuantifica el volumen promedio de los hematíes. Un VCM bajo define microcitosis y uno dentro del intervalo de referencia, normocitosis.",
+    "motivosPorOpcion": {
+      "HCM.": "La HCM informa de la cantidad media de hemoglobina por hematíe y clasifica sobre todo la cromía.",
+      "Hematocrito.": "El hematocrito mide la proporción de sangre ocupada por eritrocitos, no su tamaño individual.",
+      "CCMH.": "La concentración corpuscular media de hemoglobina valora la concentración de Hb dentro de los hematíes, no su volumen."
+    },
+    "claveMemorizar": "Tamaño eritrocitario y tipo micro/normo/macro: VCM.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 26-27"
+  },
+  "1-12": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El recuento de reticulocitos refleja la respuesta de la médula ósea. Su aumento indica regeneración; una respuesta baja o inadecuada orienta a anemia arregenerativa.",
+    "motivosPorOpcion": {
+      "VCM.": "Clasifica el tamaño medio del hematíe, pero no mide directamente la producción medular reciente.",
+      "Hto.": "Cuantifica el volumen eritrocitario total y puede estar bajo en ambos tipos de anemia.",
+      "CHCM.": "Describe la concentración media de hemoglobina corpuscular, sin distinguir la capacidad regenerativa."
+    },
+    "claveMemorizar": "Regeneración medular = reticulocitos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 33 y 45"
+  },
+  "1-13": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El azul de cresil brillante es una tinción vital que precipita el ARN residual del reticulocito y hace visible su red reticular.",
+    "motivosPorOpcion": {
+      "Azul toluidina.": "Es un colorante básico útil en otras aplicaciones histológicas, pero no es el colorante vital indicado para el recuento reticulocitario.",
+      "Colorantes vitales.": "Nombra la familia de técnicas, no el reactivo concreto solicitado; el azul de cresil brillante pertenece a esa familia.",
+      "Método Wright.": "Wright muestra policromasia en frotis, pero no pone de manifiesto la red de ARN con la especificidad del azul de cresil."
+    },
+    "claveMemorizar": "Reticulocito: tinción vital con azul de cresil brillante.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 18, 23 y 33"
+  },
+  "1-14": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un frotis correcto pasa gradualmente de una zona más gruesa a otra más fina. Si el espesor aumenta hacia el final, la extensión está invertida respecto al patrón adecuado.",
+    "motivosPorOpcion": {
+      "No cubre toda la superficie del portaobjeto.": "Una extensión no necesita ocupar todo el portaobjeto; debe cubrir una zona amplia dejando márgenes manejables.",
+      "La sangre queda repartida de forma que no queden huecos en blanco.": "La distribución homogénea y continua evita áreas sin células y favorece una lectura representativa.",
+      "Las bandas laterales son lisas.": "Los bordes regulares son compatibles con una extensión uniforme y bien ejecutada."
+    },
+    "claveMemorizar": "Frotis correcto: de grueso a fino, homogéneo y sin huecos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 15 y 19"
+  },
+  "1-15": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El temario fija para adultos un intervalo absoluto de reticulocitos de 35-75 × 10^9/L en el procedimiento manual descrito.",
+    "motivosPorOpcion": {
+      "1-5.": "Ese intervalo es demasiado bajo para un recuento absoluto expresado en 10^9/L y puede confundirse con porcentajes.",
+      "2-50": "Incluye un límite inferior incompatible con el intervalo absoluto indicado y mezcla valores subnormales.",
+      "70-100": "Desplaza el intervalo hacia cifras altas y excluiría gran parte del rango adulto citado."
+    },
+    "claveMemorizar": "Reticulocitos absolutos del material: 35-75 × 10^9/L.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 18",
+    "advertenciaRevision": "El mismo PDF ofrece en la p. 33 otro intervalo de 40-100 × 10^9/L; el valor depende del método y laboratorio, por lo que existe una discrepancia interna."
+  },
+  "1-16": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El punteado basófilo representa agregados ribosómicos y se asocia a eritropoyesis alterada o acelerada, de forma clásica a intoxicación por plomo. La ferropenia no figura entre las asociaciones destacadas en el temario.",
+    "motivosPorOpcion": {
+      "Hepatopatía.": "Las hepatopatías pueden acompañarse de alteraciones eritrocitarias y no quedan excluidas por el patrón morfológico planteado.",
+      "Beta Talasemia.": "La síntesis globínica ineficaz de la beta talasemia puede conservar agregados de ARN y producir punteado basófilo.",
+      "Esferocitosis hereditaria.": "Su lesión principal es de membrana y produce esferocitos; aun así, el banco no la selecciona como la excepción solicitada."
+    },
+    "claveMemorizar": "Punteado basófilo: agregados ribosómicos, plomo y eritropoyesis alterada.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 34",
+    "advertenciaRevision": "El PDF no compara expresamente estas cuatro enfermedades y la esferocitosis hereditaria tampoco es una asociación típica de punteado basófilo; el ítem puede admitir objeciones."
+  },
+  "1-17": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La Hb de 8 g/dl y el hematocrito del 25 % confirman anemia; el VCM de 103 fL indica macrocitosis. La HCM de 28 pg permanece en rango habitual y orienta a normocromía.",
+    "motivosPorOpcion": {
+      "No tiene anemia, precisa otros estudios.": "Una hemoglobina de 8 g/dl está muy por debajo de los umbrales diagnósticos de anemia.",
+      "Anemia microcítica e hipocrómica.": "La microcitosis exige un VCM bajo, mientras que 103 fL está por encima de 100 fL.",
+      "Anemia normocítica y normocrómica.": "La cromía puede ser normal, pero el VCM elevado impide clasificarla como normocítica."
+    },
+    "claveMemorizar": "VCM >100 fL = macrocítica; HCM normal = normocrómica.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 32 y 44"
+  },
+  "1-18": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un VCM de 103 fL corresponde a macrocitosis. La ferropenia se asocia típicamente a VCM bajo y microcitosis, por lo que es la opción menos compatible.",
+    "motivosPorOpcion": {
+      "Trastorno crónico.": "La anemia de enfermedad crónica suele ser normocítica y a veces microcítica, pero el dato aislado no la excluye con la misma fuerza que a la ferropenia típica.",
+      "Megaloblástica.": "La anemia megaloblástica es una causa característica de macrocitosis y encaja con un VCM superior a 100 fL.",
+      "Hemolítica.": "La hemólisis suele ser normocítica, pero una reticulocitosis intensa puede elevar el VCM porque los reticulocitos son células mayores."
+    },
+    "claveMemorizar": "Ferropenia típica = microcítica; megaloblástica = macrocítica.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 33, 48 y 51"
+  },
+  "1-19": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La destrucción acelerada de hematíes libera hemoglobina y aumenta sus productos de degradación, favoreciendo ictericia. Si la hemólisis es intravascular también puede aparecer hemoglobinuria y orina oscura.",
+    "motivosPorOpcion": {
+      "Ferropénica": "La falta de hierro causa una anemia de producción deficiente, sin liberación aguda de hemoglobina que explique ictericia y orina oscura.",
+      "Sangrado ginecológico.": "La pérdida externa de sangre no genera por sí misma el patrón de degradación intravascular responsable de esos signos.",
+      "Megaloblástica.": "Puede existir eritropoyesis ineficaz, pero la combinación clínica planteada orienta de forma más directa a hemólisis."
+    },
+    "claveMemorizar": "Ictericia + orina oscura = sospechar hemólisis.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 46 y 48"
+  },
+  "1-20": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ferritina evalúa principalmente las reservas de hierro y no pertenece al panel básico para demostrar hemólisis. Este se apoya en LDH, haptoglobina, bilirrubina y reticulocitos.",
+    "motivosPorOpcion": {
+      "Haptoglobina.": "Desciende al unirse a la hemoglobina libre, especialmente en hemólisis intravascular.",
+      "LDH.": "Aumenta por la liberación del contenido celular durante la destrucción eritrocitaria.",
+      "Bilirrubina total y directa.": "Permite valorar el incremento de bilirrubina total y calcular o identificar el predominio indirecto asociado al catabolismo del hemo."
+    },
+    "claveMemorizar": "Hemólisis: LDH alta, haptoglobina baja, bilirrubina indirecta alta.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 48"
+  },
+  "1-21": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un hematocrito del 33 % está por debajo del intervalo de referencia aproximado del 38-47 %, por lo que es compatible con disminución de la masa eritrocitaria.",
+    "motivosPorOpcion": {
+      "44%.": "Se encuentra dentro del intervalo de referencia general citado y no demuestra anemia por sí solo.",
+      "53%.": "Es un valor elevado que orienta más a hemoconcentración o policitemia que a anemia.",
+      "60%.": "Representa una elevación marcada del volumen eritrocitario, opuesta al descenso esperado en anemia."
+    },
+    "claveMemorizar": "Hematocrito bajo, como 33 %, es compatible con anemia.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 24"
+  },
+  "1-22": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una hemoglobina de 11 g/dl queda por debajo del umbral adulto tanto para hombres como para mujeres y es compatible con anemia.",
+    "motivosPorOpcion": {
+      "14 g/dl.": "Es una concentración habitual en adultos y supera los umbrales diagnósticos generales.",
+      "17 g/dl.": "Es alta para muchos adultos y no representa una disminución de hemoglobina.",
+      "20 g/dl": "Es marcadamente elevada y orientaría a policitemia o hemoconcentración."
+    },
+    "claveMemorizar": "OMS en adultos: anemia por debajo de 13 g/dl en hombres y 12 g/dl en mujeres.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44"
+  },
+  "1-23": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un recuento de 3.500.000 hematíes/mm3 equivale a 3,5 × 10^12/L y está por debajo de los intervalos adultos mostrados para ambos sexos.",
+    "motivosPorOpcion": {
+      "4.700.000/mm3.": "Equivale a 4,7 × 10^12/L y entra en los intervalos adultos habituales.",
+      "5.500.000/mm3.": "Es un recuento normal-alto, especialmente en varones, y no sugiere eritrocitopenia.",
+      "5.000.000/mm3.": "Se sitúa dentro de los valores normales adultos del temario."
+    },
+    "claveMemorizar": "3,5 millones/mm3 es un recuento eritrocitario bajo.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 22"
+  },
+  "1-24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El cuerpo del frotis ofrece una monocapa con células suficientemente separadas y morfología conservada, por lo que es la zona indicada para el recuento y estudio.",
+    "motivosPorOpcion": {
+      "Cabeza.": "Es la zona más gruesa, con abundante superposición celular que dificulta identificar y contar elementos.",
+      "Cola.": "En el extremo fino las células pueden deformarse y distribuirse de forma selectiva.",
+      "Da igual la zona.": "El espesor y la distribución celular cambian a lo largo de la extensión y alteran la representatividad del recuento."
+    },
+    "claveMemorizar": "Lectura del frotis: zona del cuerpo o monocapa.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 19"
+  },
+  "1-25": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hemoglobina es acidófila y fija la eosina de las tinciones tipo Romanowsky, dando a los eritrocitos una coloración rosada o rojiza.",
+    "motivosPorOpcion": {
+      "Azules.": "El azul de metileno tiñe componentes ácidos como los ácidos nucleicos, ausentes en el eritrocito maduro.",
+      "Púrpura.": "Los tonos púrpura son más propios de estructuras que combinan componentes azur y eosina, no del citoplasma eritrocitario normal.",
+      "Naranjas.": "Aunque la eosina puede producir matices rojizos, la descripción estándar del hematíe en el frotis es rosada."
+    },
+    "claveMemorizar": "Eosina + hemoglobina = eritrocito rosado.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 16"
+  },
+  "1-26": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hayen es un líquido diluyente empleado para contar hematíes, no una cámara de recuento. Neubauer, Thoma y Bürker sí son cámaras.",
+    "motivosPorOpcion": {
+      "Neubauer.": "Es una cámara reticulada de uso habitual para recuentos celulares manuales.",
+      "Thomas.": "El banco denomina «Thomas» a la cámara Thoma que aparece en el temario; es un dispositivo de recuento.",
+      "Bürker.": "Es otra cámara de recuento celular por volumen definido."
+    },
+    "claveMemorizar": "Cámaras: Neubauer, Thoma y Bürker; Hayen es diluyente.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 14",
+    "advertenciaRevision": "El distractor dice «Thomas», mientras que el PDF emplea la denominación correcta «Thoma»."
+  },
+  "1-27": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cuerpos de Heinz son precipitados de hemoglobina desnaturalizada que aparecen como inclusiones azuladas con tinciones vitales.",
+    "motivosPorOpcion": {
+      "Anillos de Cabot.": "Son restos de membrana nuclear con forma de anillo y se relacionan con diseritropoyesis.",
+      "Cuerpos de Howell-Holy.": "Los cuerpos de Howell-Jolly son restos nucleares redondos, no precipitados de hemoglobina revelados de este modo.",
+      "Punteado basófilo.": "Está formado por agregados ribosómicos numerosos y finos, no por masas de hemoglobina desnaturalizada."
+    },
+    "claveMemorizar": "Heinz = hemoglobina precipitada + tinción vital.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 34-36"
+  },
+  "1-28": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El proeritroblasto es la primera célula de la serie eritroide que puede reconocerse morfológicamente en médula ósea.",
+    "motivosPorOpcion": {
+      "Eritroblasto.": "Es una denominación general o una etapa posterior; no identifica con precisión el primer precursor reconocible.",
+      "Eritroblasto policromático.": "Aparece después del eritroblasto basófilo y ya muestra hemoglobinización progresiva.",
+      "Hematíe.": "Es la célula madura terminal, no la primera etapa identificable de la eritropoyesis."
+    },
+    "claveMemorizar": "Primera célula eritroide reconocible: proeritroblasto.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
+  },
+  "1-29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la secuencia propuesta, el eritroblasto basófilo precede al ortocromático, al reticulocito y al eritrocito, por lo que es el más inmaduro.",
+    "motivosPorOpcion": {
+      "Eritroblasto ortocromático.": "Es un precursor tardío que ya ha completado gran parte de la hemoglobinización y expulsará el núcleo.",
+      "Reticulocito.": "Ya es anucleado y constituye la etapa inmediatamente anterior al eritrocito maduro.",
+      "Eritrocito.": "Es el producto final maduro de la serie roja."
+    },
+    "claveMemorizar": "Orden: basófilo → policromatófilo → ortocromático → reticulocito → eritrocito.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
+  },
+  "1-30": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El glóbulo rojo maduro es anucleado, una adaptación que deja más espacio para hemoglobina y facilita su deformabilidad.",
+    "motivosPorOpcion": {
+      "Proeritroblasto.": "Es un precursor temprano con núcleo grande y cromatina todavía activa.",
+      "Eritroblasto ortocromático.": "Es la última etapa nucleada; expulsa el núcleo antes de convertirse en reticulocito.",
+      "Eritroblasto basófilo.": "Conserva núcleo y ribosomas abundantes durante una fase temprana de maduración."
+    },
+    "claveMemorizar": "La pérdida nuclear ocurre entre el ortocromático y el reticulocito.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23"
+  },
+  "1-31": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los intervalos de hematíes difieren entre hombres y mujeres adultos, y esa diferencia se refleja también en la fracción de volumen sanguíneo ocupada por ellos, el hematocrito.",
+    "motivosPorOpcion": {
+      "Plaquetas y granulocitos.": "Sus intervalos no se establecen de forma rutinaria con la diferencia sexual señalada para la masa eritrocitaria.",
+      "Granulocitos y linfocitos.": "El recuento diferencial leucocitario no constituye el par de parámetros dependientes del sexo que plantea el tema.",
+      "Hematíes y leucocitos.": "El recuento eritrocitario sí varía, pero el leucocitario no es el segundo parámetro indicado."
+    },
+    "claveMemorizar": "Sexo biológico influye especialmente en hematíes, Hb y hematocrito.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22 y 24"
+  },
+  "1-32": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Anisocitosis significa coexistencia de eritrocitos de tamaños diferentes en una misma muestra y se refleja cuantitativamente en el RDW o ADE.",
+    "motivosPorOpcion": {
+      "Hematíes pequeños.": "La disminución uniforme del tamaño se denomina microcitosis, no anisocitosis.",
+      "Hematíes con forma anormal.": "La variación de formas se denomina poiquilocitosis.",
+      "Hematíes esféricos.": "Son esferocitos y representan una alteración morfológica concreta, no variación general de tamaño."
+    },
+    "claveMemorizar": "Anisocitosis = tamaños distintos; poiquilocitosis = formas distintas.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 27"
+  },
+  "1-33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El microcito se define por un tamaño y VCM inferiores a lo normal, así que pertenece a las alteraciones dimensionales que pueden componer una anisocitosis.",
+    "motivosPorOpcion": {
+      "Leptocito.": "Se define por ser una célula delgada con un aro periférico de hemoglobina; su rasgo principal no es el tamaño.",
+      "Equinocito.": "Presenta espículas cortas y regulares, una alteración de forma y membrana.",
+      "Esferocito.": "Su característica es la forma esférica y la pérdida de palidez central, no una categoría de tamaño."
+    },
+    "claveMemorizar": "Microcito y macrocito son alteraciones de tamaño.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 29 y 31"
+  },
+  "1-34": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El codocito o dianocito presenta hemoglobina central rodeada de un halo claro y un anillo periférico, creando el aspecto de diana.",
+    "motivosPorOpcion": {
+      "Eliptocito.": "Tiene contorno ovalado o alargado, descrito como puro habano, sin patrón concéntrico.",
+      "Esquizocito.": "Es un fragmento eritrocitario irregular o triangular producido por daño mecánico.",
+      "Dacriocito.": "Posee forma de lágrima o raqueta y se asocia a fibrosis medular."
+    },
+    "claveMemorizar": "Célula diana = codocito o dianocito.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 29-30"
+  },
+  "1-35": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El estomatocito presenta una palidez central lineal o en forma de boca, es decir, una depresión central característica.",
+    "motivosPorOpcion": {
+      "Poiquilocitos: hematíes ovalados.": "Poiquilocitosis designa diversidad de formas anormales; los ovalados son ovalocitos o eliptocitos.",
+      "Eliptocitos: en diana.": "Los eliptocitos son alargados; la morfología en diana corresponde a codocitos.",
+      "Esquistocitos: desiguales.": "Los esquistocitos son fragmentos eritrocitarios, mientras que «desiguales» no define su mecanismo ni morfología."
+    },
+    "claveMemorizar": "Estomatocito = palidez central en boca; codocito = diana.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 28-30"
+  },
+  "1-36": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "CHCM significa concentración corpuscular media de hemoglobina y expresa cuánta hemoglobina hay respecto al volumen de eritrocitos.",
+    "motivosPorOpcion": {
+      "Concentración celular media de hematíes.": "No mide la concentración de células; el término se refiere a hemoglobina dentro de la masa eritrocitaria.",
+      "Cantidad celular media de hematíes.": "Confunde un índice de concentración hemoglobínica con un recuento celular.",
+      "Concentración de hemoglobina de la sangre total.": "La CHCM se refiere al compartimento eritrocitario estimado por el hematocrito, no a todo el volumen sanguíneo."
+    },
+    "claveMemorizar": "CHCM = concentración corpuscular media de hemoglobina.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 26 y 32"
+  },
+  "1-37": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La CHCM relaciona la concentración de hemoglobina con el hematocrito: CHCM = Hb/Hto, aplicando el factor de unidades correspondiente.",
+    "motivosPorOpcion": {
+      "Hematocrito/Hemoglobina.": "Invierte numerador y denominador y no obtiene la concentración de Hb en el volumen eritrocitario.",
+      "Nº de hematíes/mm3.": "Un recuento aislado no incorpora ni hemoglobina ni volumen celular total.",
+      "Nº de hematíes/Hemoglobina": "Esta relación tampoco usa el hematocrito y no corresponde a ningún índice corpuscular clásico."
+    },
+    "claveMemorizar": "CHCM = Hb/Hto.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 26"
+  },
+  "1-38": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La HCM expresa la masa media de hemoglobina contenida en cada eritrocito, una cantidad del orden de picogramos.",
+    "motivosPorOpcion": {
+      "Nanogramos.": "Un nanogramo es mil veces mayor que un picogramo y resulta excesivo para la hemoglobina de una sola célula.",
+      "Miligramos.": "Es una unidad macroscópica incompatible con el contenido de un eritrocito individual.",
+      "Picolitros.": "El picolitro mide volumen y se utiliza para el VCM, no para la masa de hemoglobina."
+    },
+    "claveMemorizar": "HCM en pg; VCM en fL.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 26"
+  },
+  "1-39": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La HCM se calcula dividiendo la hemoglobina total entre el número de hematíes, con el ajuste de unidades necesario para obtener picogramos por célula.",
+    "motivosPorOpcion": {
+      "Concentración de hemoglobina/Hematocrito.": "Esa relación calcula la CHCM, que expresa concentración dentro del volumen eritrocitario.",
+      "Hematocrito/Hematíes.": "Esa relación corresponde al VCM y estima el volumen medio de cada hematíe.",
+      "Nº de hematíes/Hemoglobina.": "Es la relación inversa y no expresa masa de hemoglobina por célula."
+    },
+    "claveMemorizar": "HCM = Hb/hematíes.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 26"
+  },
+  "1-40": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El VCM se obtiene dividiendo el hematocrito entre el número de hematíes, lo que estima el volumen promedio ocupado por cada célula.",
+    "motivosPorOpcion": {
+      "Nº de hematíes/Hemoglobina.": "No usa el volumen eritrocitario y constituye la inversa de una relación vinculada a la HCM.",
+      "Nº de hematíes/Hematocrito.": "Invierte la fórmula y expresaría células por unidad de fracción volumétrica.",
+      "Hematocrito/Hemoglobina.": "Relaciona dos magnitudes globales, pero omite el recuento necesario para calcular un volumen por célula."
+    },
+    "claveMemorizar": "VCM = Hto/hematíes.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 26"
+  },
+  "1-41": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El VCM es el índice que separa las anemias por tamaño eritrocitario: microcíticas, normocíticas y macrocíticas.",
+    "motivosPorOpcion": {
+      "HCM.": "Clasifica el contenido medio de hemoglobina y ayuda a valorar cromía, no tamaño.",
+      "Hematocrito.": "Indica qué fracción del volumen sanguíneo ocupan los hematíes, sin definir su volumen individual.",
+      "VSG.": "Es una prueba inespecífica de sedimentación influida por inflamación y morfología, no un índice de tamaño."
+    },
+    "claveMemorizar": "Micro/normo/macro se decide con VCM.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 26-27"
+  },
+  "1-42": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La HCM cuantifica la hemoglobina media por eritrocito y permite valorar si el contenido hemoglobínico está disminuido o conservado.",
+    "motivosPorOpcion": {
+      "VCM.": "El VCM clasifica el tamaño celular, no la cantidad de pigmento hemoglobínico.",
+      "Hematocrito.": "Mide volumen eritrocitario total y no distingue la cromía de cada hematíe.",
+      "VSG.": "Mide sedimentación eritrocitaria y carece de una relación directa con el contenido corpuscular de hemoglobina."
+    },
+    "claveMemorizar": "Cromía: HCM y CHCM; tamaño: VCM.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 26 y 32"
+  },
+  "1-43": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los reticulocitos son eritrocitos recién liberados y su número muestra si la médula aumenta la producción ante la anemia. Por ello son un indicador directo de capacidad regenerativa.",
+    "motivosPorOpcion": {
+      "De la inmunidad celular.": "La inmunidad celular depende principalmente de poblaciones linfocitarias, no de precursores eritroides.",
+      "De la eritropoyetina.": "La EPO estimula la eritropoyesis, pero el recuento reticulocitario refleja la respuesta medular global y no mide directamente la hormona.",
+      "Del porcentaje de las infecciones.": "No cuantifican infección; ese contexto se valora con clínica, leucocitos y otros marcadores."
+    },
+    "claveMemorizar": "Reticulocitos altos = médula regenerando.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 33 y 45"
+  },
+  "1-44": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La coloración vital con azul de cresil requiere 15 minutos de contacto para revelar el ARN residual de los reticulocitos.",
+    "motivosPorOpcion": {
+      "10 minutos.": "Es inferior al tiempo de incubación especificado y puede producir una precipitación insuficiente de la red.",
+      "30 minutos.": "Duplica el tiempo indicado en el protocolo del temario sin aportar la condición estándar solicitada.",
+      "2 horas.": "Es una incubación excesiva para esta técnica rutinaria y puede favorecer artefactos."
+    },
+    "claveMemorizar": "Azul de cresil para reticulocitos: 15 minutos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 18"
+  },
+  "1-45": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El déficit de hierro reduce la síntesis de hemoglobina y produce hematíes pequeños con menor contenido hemoglobínico. Por eso la ferropenia típica es microcítica e hipocrómica.",
+    "motivosPorOpcion": {
+      "Perniciosa.": "La deficiencia de B12 asociada a anemia perniciosa causa una anemia megaloblástica y macrocítica.",
+      "Megaloblástica.": "Se caracteriza por macrocitosis debida a alteración de la síntesis de ADN, no por microcitosis hipocrómica.",
+      "Addison-Biermer.": "Es otro nombre de la anemia perniciosa por déficit de vitamina B12 y comparte su patrón macrocítico."
+    },
+    "claveMemorizar": "Ferropenia = VCM bajo + HCM baja.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 32, 51 y 56"
+  },
+  "1-46": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La anemia se define por una disminución de la hemoglobina circulante por debajo de los límites apropiados para edad, sexo y situación fisiológica. El recuento de hematíes o el hierro pueden variar sin definirla por sí solos.",
+    "motivosPorOpcion": {
+      "Como una disminución del número de hematíes.": "Puede haber anemia con recuento relativamente conservado, por ejemplo cuando los eritrocitos son pequeños y contienen poca hemoglobina.",
+      "Como una disminución de oxígeno.": "La reducción del transporte de oxígeno es una consecuencia funcional, no la definición analítica.",
+      "Como una disminución del hierro": "El déficit de hierro es una causa frecuente, pero existen muchas anemias con hierro normal o elevado."
+    },
+    "claveMemorizar": "Anemia se define por Hb baja, no por hierro o recuento aislados.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44"
+  },
+  "1-47": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La talasemia disminuye la síntesis de cadenas de globina y suele producir un VCM bajo, por lo que se clasifica como anemia microcítica.",
+    "motivosPorOpcion": {
+      "Insuficiencia hepática: anemia microcítica.": "Las hepatopatías crónicas se asocian con mayor frecuencia a macrocitosis.",
+      "Alcoholismo: anemia normocítica.": "El alcohol altera la eritropoyesis y se relaciona típicamente con macrocitosis, incluso sin anemia intensa.",
+      "Anemia hemolítica: anemia microcítica.": "La anemia hemolítica suele ser normocítica y normocrómica; la reticulocitosis puede incluso elevar el VCM."
+    },
+    "claveMemorizar": "Talasemia: microcitosis por síntesis globínica reducida.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 48 y 59"
+  },
+  "1-48": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las talasemias son enfermedades genéticas cuantitativas en las que disminuye o falta la síntesis de una cadena de globina, alterando la formación de hemoglobina.",
+    "motivosPorOpcion": {
+      "Una alteración de la formación eritrocitaria.": "Puede producir eritropoyesis ineficaz, pero esa es una consecuencia menos específica que el defecto primario de síntesis globínica.",
+      "Un tipo de anemia megaloblástica.": "La megaloblastosis procede de síntesis defectuosa de ADN y suele ser macrocítica, no una hemoglobinopatía cuantitativa.",
+      "Una enfermedad degenerativa.": "Es un trastorno hereditario de síntesis proteica, no un proceso degenerativo adquirido."
+    },
+    "claveMemorizar": "Talasemia = menos cadenas de globina = defecto cuantitativo de Hb.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 57-59"
+  },
+  "1-49": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El test de Schilling administraba vitamina B12 marcada para estudiar su absorción y ayudar a identificar un déficit, especialmente por ausencia de factor intrínseco en anemia perniciosa.",
+    "motivosPorOpcion": {
+      "Déficit de ácido fólico.": "El folato no es el trazador administrado en esta prueba y su absorción sigue mecanismos distintos.",
+      "Déficit de hierro.": "El metabolismo férrico se estudia con sideremia, ferritina, transferrina y saturación, no con Schilling.",
+      "Talasemia.": "Las talasemias se diagnostican mediante índices, electroforesis, cuantificación de HbA2/HbF y genética."
+    },
+    "claveMemorizar": "Schilling = absorción de B12 y anemia perniciosa.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 56 y 59"
+  },
+  "1-50": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "«Hemoglobina saturada» describe el estado de unión al oxígeno, cuyo nombre específico es oxihemoglobina, pero no una variante estructural como HbA2, HbF o HbC.",
+    "motivosPorOpcion": {
+      "Hemoglobina A2": "Es una hemoglobina adulta minoritaria formada por dos cadenas alfa y dos delta.",
+      "Hemoglobina Fetal": "La HbF es la hemoglobina predominante en el feto y contiene dos cadenas alfa y dos gamma.",
+      "Hemoglobina C": "La HbC es una hemoglobinopatía estructural producida por una sustitución aminoacídica en la cadena beta."
+    },
+    "claveMemorizar": "Saturada de O2 = estado oxihemoglobina; A2, F y C son tipos definidos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 39, 42 y 59",
+    "advertenciaRevision": "La pregunta usa «tipo» de forma ambigua: el PDF sí clasifica nombres según el estado de unión, pero «hemoglobina saturada» no es la denominación formal, sino oxihemoglobina."
+  },
+  "1-51": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La mayor fracción del hierro corporal está incorporada a la hemoglobina de los eritrocitos, donde forma parte del grupo hemo y permite transportar oxígeno.",
+    "motivosPorOpcion": {
+      "Mioglobina.": "Contiene hierro para almacenar oxígeno muscular, pero representa una fracción menor del hierro total.",
+      "Ferritina.": "Es la principal proteína de reserva soluble, aunque sus depósitos contienen menos hierro que la masa hemoglobínica circulante.",
+      "Transferrina.": "Transporta hierro en plasma y normalmente solo una parte de sus sitios está ocupada; su fracción corporal es pequeña."
+    },
+    "claveMemorizar": "Mayor depósito funcional de hierro: hemoglobina.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38 y 52-54",
+    "advertenciaRevision": "El PDF describe las funciones y reservas del hierro, pero no formula textualmente la comparación cuantitativa de todos los compartimentos."
+  },
+  "1-52": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El estudio férrico diferencia ambos cuadros: en ferropenia disminuyen sideremia, ferritina y saturación, mientras que en anemia sideroblástica el hierro y la ferritina están normales o elevados.",
+    "motivosPorOpcion": {
+      "VCM.": "Ambas anemias pueden ser microcíticas, por lo que el tamaño eritrocitario no las separa de forma fiable.",
+      "Recuento eritrocitario.": "Puede disminuir en ambas y no informa sobre disponibilidad ni depósitos de hierro.",
+      "Estudio de la hemoglobina.": "Es especialmente útil en hemoglobinopatías como talasemia, pero no constituye la comparación principal entre ferropenia y sideroblastosis."
+    },
+    "claveMemorizar": "Ferropenia: hierro/ferritina bajos; sideroblástica: altos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51-55"
+  },
+  "1-53": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El banco establece 2-6 mm en la primera hora como intervalo masculino normal de VSG para el método considerado.",
+    "motivosPorOpcion": {
+      "5-10 mm.": "Desplaza el intervalo hacia valores superiores a los seleccionados para hombres en el banco.",
+      "12-20 mm.": "Corresponde a cifras más altas y no al intervalo masculino de referencia planteado.",
+      "3-8 mm.": "Se solapa parcialmente, pero modifica ambos límites respecto a la respuesta fijada."
+    },
+    "claveMemorizar": "En este banco: VSG masculina, 2-6 mm en la primera hora.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 7-9",
+    "advertenciaRevision": "El PDF explica métodos y lectura de VSG, pero la extracción no muestra el intervalo masculino 2-6 mm; además, los valores de referencia dependen del método y la edad."
+  },
+  "1-54": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La VSG comienza con la formación de agregados o rouleaux, continúa con una sedimentación rápida y termina con la concentración de hematíes en el fondo.",
+    "motivosPorOpcion": {
+      "Sedimentación rápida, concentración y agregación.": "Coloca la agregación al final, aunque esta debe preceder al descenso acelerado de los hematíes.",
+      "Sensibilización de los hematíes, agregación y concentración.": "La sensibilización no es una de las tres fases y omite la sedimentación rápida.",
+      "Agregación de los hematíes, concentración y sedimentación.": "Tras agregarse, los hematíes sedimentan antes de alcanzar la fase final de concentración."
+    },
+    "claveMemorizar": "VSG: agregación → sedimentación → concentración.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 6"
+  },
+  "1-55": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fase de sedimentación rápida ocupa aproximadamente 45 minutos, entre la agregación inicial y la concentración final en el fondo del tubo.",
+    "motivosPorOpcion": {
+      "10 minutos.": "Es la duración asignada a la fase inicial de agregación, no a la sedimentación.",
+      "30 minutos.": "No corresponde al tiempo indicado para la fase rápida en el esquema del temario.",
+      "60 minutos.": "Es el momento habitual de la primera lectura del método, no la duración específica de la segunda fase."
+    },
+    "claveMemorizar": "VSG: agregación 10 min; sedimentación 45 min.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 6 y 9"
+  },
+  "1-56": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para VSG se recomienda citrato sódico en proporción de cuatro partes de sangre por una de citrato, usando el tubo específico de tapón negro.",
+    "motivosPorOpcion": {
+      "EDTA.": "Puede utilizarse en algunos procedimientos, pero el temario señala el citrato como anticoagulante recomendado para VSG.",
+      "Heparina de litio.": "Se emplea en otras áreas analíticas y no mantiene las condiciones estandarizadas del método de VSG descrito.",
+      "ACD.": "La solución ácido-citrato-dextrosa se usa sobre todo para conservación celular y banco de sangre, no para esta determinación rutinaria."
+    },
+    "claveMemorizar": "VSG: citrato 4:1, tapón negro.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4"
+  },
+  "1-57": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El índice de Katz es un cálculo histórico derivado de lecturas de eritrosedimentación y es la respuesta marcada por el banco. No obstante, no es la unidad directa con la que el PDF expresa la VSG.",
+    "motivosPorOpcion": {
+      "I/h": "No es una notación reconocible como unidad de longitud por tiempo para informar la sedimentación.",
+      "Indice de Azta.": "No corresponde a una denominación estandarizada de cálculo o unidad de VSG.",
+      "mm/sg": "La longitud es correcta, pero el denominador debería ser una hora, no segundos."
+    },
+    "claveMemorizar": "La VSG directa se informa en mm/h; Katz es un índice histórico calculado.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 9",
+    "advertenciaRevision": "Contradicción: el PDF indica expresamente resultados en mm/hora, opción que no aparece correctamente en el ítem. «Índice de Katz» no es la unidad de expresión directa de la VSG y la respuesta del banco debe revisarse."
+  },
+  "1-58": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Tras unos 120 días, los eritrocitos envejecidos son retirados principalmente por macrófagos del bazo y del hígado mediante hemocatéresis.",
+    "motivosPorOpcion": {
+      "Saco vitelino": "Es un lugar embrionario temprano de hematopoyesis, no el principal sitio de destrucción del hematíe adulto.",
+      "Cresta ilíaca.": "Es una localización habitual para obtener médula ósea y estudiar hematopoyesis, no el destino principal de eritrocitos senescentes.",
+      "Médula ósea.": "Puede participar en menor medida en la eliminación, pero el temario sitúa la destrucción sobre todo en bazo e hígado."
+    },
+    "claveMemorizar": "Hemocatéresis: principalmente bazo e hígado.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
+  },
+  "1-59": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La eritropoyetina, sintetizada principalmente en el riñón ante hipoxia, estimula la proliferación y maduración de los precursores eritroides hasta aumentar la producción de hematíes.",
+    "motivosPorOpcion": {
+      "Ferritina.": "Es una proteína de almacenamiento de hierro, no una hormona reguladora de la eritropoyesis.",
+      "Hormona del crecimiento.": "Tiene efectos metabólicos generales, pero no es el regulador específico principal de la serie eritroide.",
+      "Prolactina.": "Regula sobre todo la lactancia y no dirige la aparición y maduración del proeritroblasto."
+    },
+    "claveMemorizar": "Riñón + hipoxia → EPO → eritropoyesis.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
+  },
+  "1-60": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El banco fija un máximo de 24 horas para efectuar el recuento cuando la sangre con EDTA K3 se conserva a 4 °C. La refrigeración ralentiza el deterioro, pero no evita cambios celulares indefinidamente.",
+    "motivosPorOpcion": {
+      "2 horas.": "Es un plazo más restrictivo que el indicado para la muestra refrigerada en las condiciones planteadas.",
+      "5 horas.": "También queda por debajo del periodo de estabilidad que da por válido el banco a 4 °C.",
+      "48 horas.": "Prolonga demasiado el almacenamiento y aumenta el riesgo de alteraciones de volumen y morfología eritrocitaria."
+    },
+    "claveMemorizar": "Según el banco: EDTA K3 a 4 °C, recuento antes de 24 h.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
+    "advertenciaRevision": "El PDF confirma el uso de EDTA K3, pero no aporta en el texto extraído el límite de 24 horas a 4 °C; el tiempo debe verificarse con el protocolo preanalítico aplicable."
+  }
+}

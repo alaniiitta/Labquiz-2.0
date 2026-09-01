@@ -1,0 +1,673 @@
+{
+  "1-241": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las crioaglutininas son anticuerpos, generalmente IgM, que aglutinan los hematíes a temperaturas inferiores a 37 °C. Por ello, su detección busca principalmente inmunoglobulinas de clase IgM.",
+    "motivosPorOpcion": {
+      "IgG": "Las IgG pueden actuar como anticuerpos calientes, pero no son la clase generalmente asociada a las crioaglutininas en el temario.",
+      "IgE": "La IgE participa sobre todo en hipersensibilidad inmediata y defensa antiparasitaria, no en este fenómeno de aglutinación eritrocitaria por frío.",
+      "IgA": "La IgA predomina en secreciones y superficies mucosas; no es la inmunoglobulina característica de las crioaglutininas."
+    },
+    "claveMemorizar": "Crioaglutinina: generalmente IgM y activa por debajo de 37 °C.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 36-37"
+  },
+  "1-242": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El agitador de rodillo mantiene los tubos en movimiento suave y continuo, una forma de homogeneización habitual para muestras de sangre total empleadas en hematología.",
+    "motivosPorOpcion": {
+      "Estudios de bioquímica": "Las muestras de bioquímica suelen procesarse como suero o plasma y no constituyen el uso más frecuente de este agitador.",
+      "Estudios de coagulación": "Los tubos de coagulación requieren una mezcla inicial cuidadosa con citrato, pero no suelen mantenerse en agitación continua sobre rodillos.",
+      "Agitaciones rápidas y breves, fundamentalmente para resuspender partículas en un líquido": "Esa función corresponde mejor a un agitador rápido, como el vórtex, no al movimiento lento y continuo del rodillo."
+    },
+    "claveMemorizar": "Rodillos: homogeneización suave y continua de sangre total en hematología.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
+    "advertenciaRevision": "El PDF identifica el EDTA como muestra de elección para el hemograma, pero no describe el agitador de rodillo ni compara sus usos entre áreas."
+  },
+  "1-243": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El aumento de la temperatura desplaza la curva de disociación para favorecer la liberación de oxígeno a los tejidos. Esto equivale a una disminución de la afinidad de la hemoglobina por el oxígeno.",
+    "motivosPorOpcion": {
+      "El aumento de pH del medio": "La afinidad disminuye con el descenso del pH; un aumento del pH produce el efecto opuesto.",
+      "El descenso de la concentración de CO2 en el medio": "Es el aumento de CO2 el que favorece la cesión de oxígeno y reduce la afinidad.",
+      "La disminución del metabolito 2,3 bifosfoglicerato": "La afinidad disminuye cuando aumenta el 2,3-BPG; su descenso facilita que la hemoglobina retenga oxígeno."
+    },
+    "claveMemorizar": "Menor afinidad por O2: más temperatura, más CO2, más 2,3-BPG y menos pH.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 40"
+  },
+  "1-244": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ferropenia aumenta la transferrina y su capacidad total de fijación, mientras que en la inflamación la transferrina disminuye. Esta diferencia ayuda a separar la anemia ferropénica de la anemia de enfermedad crónica.",
+    "motivosPorOpcion": {
+      "Sideremia": "El hierro sérico puede estar bajo tanto en el déficit de hierro como en la enfermedad crónica, por lo que discrimina peor entre ambas.",
+      "VCM": "La microcitosis orienta a ferropenia, pero también puede aparecer en otros trastornos y no distingue por sí sola ambas entidades.",
+      "Cuantificación de HbA2 y HbF": "Estas fracciones se cuantifican principalmente para estudiar talasemias, no para diferenciar ferropenia de inflamación crónica."
+    },
+    "claveMemorizar": "Ferropenia: capacidad total de fijación alta; inflamación: transferrina baja.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51 y 54-55"
+  },
+  "1-245": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La eosina es un colorante ácido que tiñe de rojo componentes básicos o acidófilos, como la hemoglobina. Los demás nombres se integran entre los colorantes básicos de las tinciones hematológicas.",
+    "motivosPorOpcion": {
+      "Azul de metileno": "Es el colorante básico de referencia que tiñe de azul o violeta componentes ácidos como los ácidos nucleicos.",
+      "Azur A": "Es un producto de oxidación del azul de metileno y forma parte del componente básico de tinciones tipo Romanowsky.",
+      "Tiacinas": "Las tiacinas son colorantes básicos derivados del grupo del azul de metileno, a diferencia de la eosina ácida."
+    },
+    "claveMemorizar": "Eosina = ácida y roja; azul de metileno y azures = básicos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 16"
+  },
+  "1-246": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Cuando el hierro del hemo pasa de Fe2+ a Fe3+ se forma metahemoglobina. El hierro férrico no puede transportar oxígeno.",
+    "motivosPorOpcion": {
+      "Carboxihemoglobina": "Se forma por la unión de monóxido de carbono a la hemoglobina, no por oxidación del hierro a Fe3+.",
+      "Desoxihemoglobina": "Es hemoglobina reducida libre de oxígeno, pero conserva hierro ferroso capaz de volver a unir O2.",
+      "Oxihemoglobina": "Es la hemoglobina unida a oxígeno con el hierro funcional en estado ferroso."
+    },
+    "claveMemorizar": "Fe3+ en el hemo = metahemoglobina incapaz de unir O2.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-39"
+  },
+  "1-247": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Cada grupo hemo contiene una ferroporfirina con un único átomo de hierro ferroso. La hemoglobina completa posee cuatro grupos hemo y, por tanto, cuatro átomos de hierro.",
+    "motivosPorOpcion": {
+      "Cuatro átomos de hierro en estado ferroso.": "Cuatro es el total por molécula de hemoglobina, no la composición de cada ferroporfirina individual.",
+      "Cuatro átomos de hierro en estado férrico.": "Además de atribuir cuatro átomos a cada hemo, propone Fe3+, estado que genera metahemoglobina no funcional para O2.",
+      "Un átomo de hierro en estado férrico.": "El número es correcto, pero el hemo funcional contiene Fe2+, no Fe3+."
+    },
+    "claveMemorizar": "Un hemo = una protoporfirina IX + un Fe2+; una Hb = cuatro hemos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 38"
+  },
+  "1-248": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hidropesía fetal por hemoglobina de Bart es la forma más grave de alfa-talasemia y resulta incompatible con la vida. Por eso es falso clasificarla como beta-talasemia.",
+    "motivosPorOpcion": {
+      "El feto afectado sólo presenta Hemoglobina Barts": "La deleción de los cuatro genes alfa impide formar hemoglobinas con cadenas alfa y conduce al predominio de tetrámeros gamma, Hb Bart.",
+      "Es un tipo de alfa talasemia": "La Hb Bart aparece en la alfa-talasemia grave por ausencia de cadenas alfa.",
+      "Es un trastorno incompatible con la vida": "El temario identifica la hydrops fetalis o Hb de Bart como la forma más grave e incompatible con la vida."
+    },
+    "claveMemorizar": "Hydrops fetalis = alfa-talasemia de máxima gravedad con Hb Bart.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 57-58"
+  },
+  "1-249": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La HCM expresa la masa media de hemoglobina por hematíe, por lo que se obtiene relacionando la concentración de hemoglobina con el número de eritrocitos. Su unidad habitual es el picogramo.",
+    "motivosPorOpcion": {
+      "El hematocrito y el número de hematíes": "Esa relación permite calcular el VCM, es decir, el volumen medio del eritrocito.",
+      "La concentración de hemoglobina y el hematocrito": "Estos dos parámetros se usan para calcular la CHCM, no la HCM.",
+      "El hematocrito y el IDH": "El índice de distribución eritrocitaria describe variabilidad de tamaño y no interviene en la fórmula de HCM."
+    },
+    "claveMemorizar": "HCM = hemoglobina / número de hematíes.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-26"
+  },
+  "1-250": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La eritrocitosis secundaria aparece cuando aumenta la eritropoyetina, habitualmente como respuesta a hipoxia. Las enfermedades pulmonares hipoxémicas, las cardiopatías cianosantes y el síndrome de Gaisböck se incluyen en ese contexto.",
+    "motivosPorOpcion": {
+      "Enfermedad pulmonar hipoxémica": "Es una causa válida: la hipoxemia sostenida estimula EPO y eleva la masa eritrocitaria, pero no es la única opción correcta.",
+      "Cardiopatías congénitas cianosantes": "También producen hipoxia crónica y estímulo eritropoyético, por lo que la opción es cierta pero incompleta ante la respuesta conjunta.",
+      "Síndrome de Gaisböck": "El temario lo cita entre las situaciones asociadas a policitemia secundaria; tampoco excluye las otras causas."
+    },
+    "claveMemorizar": "Eritrocitosis secundaria: EPO alta, generalmente por hipoxia.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 22",
+    "advertenciaRevision": "El PDF vincula policitemia secundaria con EPO alta, hipoxia y síndrome de Gaisböck, pero no enumera expresamente la enfermedad pulmonar y la cardiopatía cianosante."
+  },
+  "1-251": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La anemia ferropénica es típicamente microcítica e hipocrómica: disminuyen VCM, HCM y ferritina. Un VCM elevado sería macrocitosis y no el patrón esperado.",
+    "motivosPorOpcion": {
+      "HCM baja": "La síntesis insuficiente de hemoglobina reduce su contenido medio por eritrocito.",
+      "Ferritina sérica disminuida": "La ferritina refleja las reservas y es el primer parámetro que desciende en la ferropenia.",
+      "CHCM baja": "La hipocromía de la ferropenia concuerda con una concentración corpuscular de hemoglobina reducida."
+    },
+    "claveMemorizar": "Ferropenia: ferritina baja, VCM bajo y HCM baja.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 32 y 51"
+  },
+  "1-252": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hemoglobinopatía S se debe a la sustitución de ácido glutámico por valina en la posición 6 de la cadena beta. La HbS polimeriza y favorece la forma falciforme del hematíe.",
+    "motivosPorOpcion": {
+      "Los eritrocitos tienen mucha flexibilidad": "La falciformación vuelve los hematíes rígidos y dificulta su paso por la microcirculación.",
+      "El cribado se realiza mediante determinación de hemoglobina A": "El estudio se dirige a detectar HbS mediante electroforesis o pruebas de solubilidad, no a determinar únicamente HbA.",
+      "Los hematíes tienen forma de diana": "La morfología característica es de hoz o semiluna; las células diana se asocian especialmente a talasemias y HbC."
+    },
+    "claveMemorizar": "HbS: Glu por Val en beta-6 y hematíes en hoz.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 30 y 59"
+  },
+  "1-253": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si la extensión no puede hacerse de inmediato, la sangre venosa para hemograma se conserva con EDTA, anticoagulante de elección en hematología. Permite mantener la muestra sin coagular para preparar después el frotis.",
+    "motivosPorOpcion": {
+      "Citrato sódico.": "El citrato se reserva principalmente para VSG o coagulación y diluye la muestra según su proporción con sangre.",
+      "Heparina": "No es el anticoagulante de elección para el hemograma y puede ocasionar una tinción y morfología menos adecuadas en el frotis.",
+      "Sin anticoagulante.": "La sangre venosa coagularía antes de poder realizar una extensión diferida."
+    },
+    "claveMemorizar": "Hemograma y frotis diferido: sangre venosa con EDTA.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4"
+  },
+  "1-254": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El azul de cresil brillante es una tinción vital que precipita y hace visible el ARN residual de los reticulocitos. Así permite distinguirlos de los eritrocitos maduros.",
+    "motivosPorOpcion": {
+      "Azul de metileno": "Es un colorante básico usado en tinciones hematológicas generales, pero la tinción vital indicada para reticulocitos es el azul de cresilo.",
+      "Azul de toluidina": "Se emplea por su metacromasia en otros tipos de estructuras y no es la opción específica del temario para reticulocitos.",
+      "Azul de bromotimol": "Es un indicador de pH, no una tinción hematológica para poner de manifiesto ARN reticulocitario."
+    },
+    "claveMemorizar": "Reticulocitos: tinción vital con azul de cresil brillante.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 18 y 33"
+  },
+  "1-255": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cuerpos de Heinz son inclusiones producidas por precipitación de hemoglobina anormal o desnaturalizada. Se observan, por ejemplo, en hemoglobinopatías inestables y déficit de G6PD.",
+    "motivosPorOpcion": {
+      "Un pequeño residuo nuclear": "Los restos nucleares redondos corresponden a cuerpos de Howell-Jolly.",
+      "Restos de la membrana nuclear o microtúbulos": "Los restos de membrana nuclear con forma de anillo corresponden a anillos de Cabot.",
+      "Cúmulos de hemosiderina unida a proteínas": "Las inclusiones con hierro son cuerpos de Pappenheimer y se demuestran con tinción de Perls."
+    },
+    "claveMemorizar": "Heinz = hemoglobina precipitada; Howell-Jolly = ADN; Pappenheimer = hierro.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 34-36"
+  },
+  "1-256": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hemoglobina fetal está constituida por dos cadenas alfa y dos cadenas gamma, es decir, α2γ2. Es la fracción predominante durante la vida fetal.",
+    "motivosPorOpcion": {
+      "Hemoglobina A": "La HbA principal del adulto está formada por α2β2.",
+      "Hemoglobina A2": "La HbA2 combina dos cadenas alfa y dos delta, α2δ2.",
+      "Hemoglobina Portland": "Las hemoglobinas Portland incorporan cadenas zeta junto con gamma o beta, no la combinación α2γ2."
+    },
+    "claveMemorizar": "HbF = α2γ2; HbA = α2β2; HbA2 = α2δ2.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 42"
+  },
+  "1-257": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La talasemia altera la síntesis de globina y suele producir microcitosis, con VCM inferior a 80 fL. No cabría esperar como patrón típico un VCM superior a 100 fL.",
+    "motivosPorOpcion": {
+      "Hepatopatía crónica": "El temario incluye las hepatopatías crónicas entre las causas de macrocitosis.",
+      "Carencia de vitamina B12": "El déficit de B12 altera la síntesis de ADN y causa anemia megaloblástica macrocítica.",
+      "Carencia de ácido fólico": "El déficit de folato también origina megaloblastosis y elevación del VCM."
+    },
+    "claveMemorizar": "Talasemia = microcítica; B12/folato y hepatopatía = macrocitosis.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 56-59"
+  },
+  "1-258": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El test de Kleihauer-Betke detecta hematíes fetales resistentes al medio ácido en sangre materna. Permite estimar la magnitud de la hemorragia fetomaterna y ajustar, cuando procede, la profilaxis anti-D.",
+    "motivosPorOpcion": {
+      "Es un test que detecta la hemoglobina S de la anemia falciforme": "La HbS se estudia mediante electroforesis y pruebas de solubilidad, no con la elución ácida de Kleihauer.",
+      "Es un test que detecta la hemoglobina C en la anemia hemolítica": "La HbC es una variante estructural que requiere separación o análisis de hemoglobinas.",
+      "Es un test que detecta la hemoglobina A2 en las talasemias": "La HbA2 se cuantifica mediante electroforesis o cromatografía para estudiar beta-talasemia."
+    },
+    "claveMemorizar": "Kleihauer: cuantifica hematíes fetales con HbF en sangre materna.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 43"
+  },
+  "1-259": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La HbA contiene cuatro grupos hemo asociados a una globina tetramérica formada por dos cadenas alfa y dos beta. La combinación globínica se abrevia α2β2.",
+    "motivosPorOpcion": {
+      "Un grupo hemo más un grupo amino.": "La porción proteica no es un único grupo amino, sino cuatro cadenas polipeptídicas, cada una asociada a un hemo.",
+      "Un grupo hemo más un grupo lipídico.": "La globina es proteica, no lipídica, y la molécula contiene cuatro grupos hemo.",
+      "Un grupo hemo más un grupo proteico formado por cuatro cadenas α.": "Cuatro cadenas alfa no corresponden a HbA; su globina normal es α2β2."
+    },
+    "claveMemorizar": "HbA: globina α2β2 y cuatro grupos hemo.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38 y 42"
+  },
+  "1-260": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El reticulocito sale de la médula ósea todavía con ARN y completa su maduración en la sangre periférica hasta convertirse en eritrocito. La secuencia del temario sitúa al reticulocito entre la fase medular y el hematíe circulante maduro.",
+    "motivosPorOpcion": {
+      "Bazo.": "El bazo participa principalmente en la retirada de eritrocitos envejecidos y anómalos, no es el lugar normal de maduración final del reticulocito.",
+      "Timo.": "El timo es un órgano linfoide asociado a la maduración de linfocitos T, no de la serie roja.",
+      "Medula óseA)": "En la médula se desarrollan los eritroblastos y se origina el reticulocito, pero este finaliza su maduración tras pasar a circulación."
+    },
+    "claveMemorizar": "Reticulocito: nace en médula y termina de madurar en sangre periférica.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 23 y 33"
+  },
+  "1-261": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La célula madre hematopoyética pluripotencial puede denominarse FC-LM o stem cell. La expansión «Células Formadoras de Colonias Linfoides Macrófagas» no es la denominación indicada y por eso es la afirmación falsa.",
+    "motivosPorOpcion": {
+      "De ellas derivan el resto de células sanguíneas.": "Su carácter pluripotencial implica que origina los linajes hematopoyéticos.",
+      "Es también conocida como Stem-Cell.": "El temario equipara expresamente célula madre hematopoyética pluripotencial y stem cell.",
+      "Es precursor de las CFU-L": "La célula madre pluripotencial precede a progenitores comprometidos, incluido el linaje linfoide."
+    },
+    "claveMemorizar": "FC-LM o stem cell = célula madre hematopoyética pluripotencial.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 21",
+    "advertenciaRevision": "El PDF confirma los nombres FC-LM y stem cell, pero la extracción textual no desarrolla la expansión de las siglas ni muestra de forma legible la relación concreta con CFU-L."
+  },
+  "1-262": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hemoglobina es un tetrámero α2β2 con un hemo por subunidad, mientras que la mioglobina es monomérica y posee un solo hemo. Ambas ligan oxígeno, con función principal en sangre para la hemoglobina y en músculo para la mioglobina.",
+    "motivosPorOpcion": {
+      "La hemoglobina es una proteína tetramérica: consta de dos subunidades alfa y dos beta, con notable homología entre ellas. Cada subunidad contiene un grupo hemo.": "La descripción estructural de la HbA es correcta, pero no es la única afirmación válida.",
+      "La mioglobina es similar a la hemoglobina salvo que se trata de una proteína monomérica y, en consecuencia, solo tiene un grupo hemo.": "Esta estructura de la mioglobina también es correcta, por lo que no excluye las demás.",
+      "Las funciones de la hemoglobina y mioglobina es el transporte de oxígeno (O2): la hemoglobina en la sangre y la mioglobina en el músculo.": "La localización funcional expresada es válida y se suma a las dos afirmaciones estructurales."
+    },
+    "claveMemorizar": "Hemoglobina: tetrámero y cuatro hemos; mioglobina: monómero y un hemo.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-42 y 52",
+    "advertenciaRevision": "El PDF desarrolla la estructura y función de la hemoglobina y menciona la mioglobina como hemoproteína, pero no confirma expresamente su carácter monomérico ni su función muscular."
+  },
+  "1-263": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La CHCM expresa la concentración de hemoglobina dentro del volumen eritrocitario. Se calcula relacionando la hemoglobina con el hematocrito.",
+    "motivosPorOpcion": {
+      "La hemoglobina y el RBC.": "Hemoglobina y recuento de hematíes permiten obtener la HCM, masa de Hb por célula.",
+      "El hematocrito y el RBC.": "Hematocrito y número de eritrocitos se relacionan para calcular el VCM.",
+      "La hemoglobina y el VCM.": "El VCM puede intervenir en relaciones derivadas, pero la fórmula directa de CHCM usa hemoglobina y hematocrito."
+    },
+    "claveMemorizar": "CHCM = hemoglobina / hematocrito.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-26"
+  },
+  "1-264": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la anemia ferropénica descienden la hemoglobina y el hematocrito por la anemia, y el VCM por su carácter microcítico. Por tanto, los tres parámetros propuestos pueden estar reducidos.",
+    "motivosPorOpcion": {
+      "Hemoglobina": "Disminuye y define el estado anémico, pero no es el único parámetro de la lista que puede bajar.",
+      "VCM": "La ferropenia produce microcitosis y VCM bajo, aunque también descienden hemoglobina y hematocrito.",
+      "Hematocrito": "La reducción de la masa eritrocitaria disminuye el hematocrito, pero la respuesta conjunta incluye además Hb y VCM."
+    },
+    "claveMemorizar": "Ferropenia: Hb, hematocrito, VCM y HCM disminuidos.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 27 y 51"
+  },
+  "1-265": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La macrocitosis se define por un volumen corpuscular medio superior a 100 fL. La anemia macrocítica combina esa elevación del VCM con descenso de hemoglobina.",
+    "motivosPorOpcion": {
+      "En la anemia macrocítica la hemoglobina se encuentra dentro de los valores de referencia para la edad y sexo del paciente.": "Si la hemoglobina fuese normal no se cumpliría el criterio de anemia, aunque existiera macrocitosis.",
+      "En la anemia macrocítica el VCM se encuentra disminuido (menor de 80 fL).": "Un VCM menor de 80 fL define microcitosis, no macrocitosis.",
+      "La causa más frecuente de anemia macrocítica es un déficit de hierro.": "El déficit de hierro produce típicamente anemia microcítica; la macrocítica se asocia, entre otras causas, a megaloblastosis y hepatopatía."
+    },
+    "claveMemorizar": "Macrocítica: VCM >100 fL; microcítica: VCM <80 fL.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 44"
+  },
+  "1-266": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los trombocitos son plaquetas, un elemento forme distinto de los eritrocitos. Esferocitos, eliptocitos y dacriocitos sí nombran formas eritrocitarias anómalas.",
+    "motivosPorOpcion": {
+      "Esferocitos.": "Son hematíes esféricos con alto contenido aparente de hemoglobina y pérdida de la palidez central.",
+      "Eliptocitos.": "Son eritrocitos alargados o elípticos y constituyen una alteración de forma.",
+      "Dacriocitos.": "Son hematíes con forma de lágrima o raqueta, frecuentes en fibrosis medular."
+    },
+    "claveMemorizar": "-cito con prefijo morfológico describe hematíes; trombocito significa plaqueta.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 2 y 28-31"
+  },
+  "1-267": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las anemias hemolíticas pueden originarse por defectos enzimáticos como G6PD, alteraciones de membrana como la esferocitosis hereditaria o mecanismos autoinmunes. Las tres causas enumeradas son válidas.",
+    "motivosPorOpcion": {
+      "Déficit de glucosa -6- fosfato deshidrogenasa.": "Es una causa eritrocitaria enzimática de hemólisis, pero no agota la lista.",
+      "Esferocitosis hereditaria.": "El defecto hereditario de membrana acorta la supervivencia del hematíe, aunque también existen las otras causas propuestas.",
+      "Anemia hemolítica autoinmune.": "Los anticuerpos pueden destruir eritrocitos y causar hemólisis adquirida, pero no es la única respuesta cierta."
+    },
+    "claveMemorizar": "Hemólisis: defectos de enzimas, membrana, hemoglobina o causas inmunes.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 46-48"
+  },
+  "1-268": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El reticulocito es el precursor inmediato del hematíe, conserva ARN y ribosomas, y aumenta en sangre cuando la médula responde a una anemia regenerativa. Su recuento permite valorar la capacidad de regeneración eritroide.",
+    "motivosPorOpcion": {
+      "Son los precursores inmediatos de los hematíes maduros, que conservan capacidad de síntesis de proteínas gracias a la persistencia de restos de retículo endoplásmico en el citoplasma.": "Describe su inmadurez y material ribosómico residual, pero las otras afirmaciones también son correctas.",
+      "El aumento en sangre periférica desde la médula ósea es un mecanismo compensatorio en anemias regenerativas.": "La reticulocitosis refleja respuesta medular, sin invalidar las restantes opciones.",
+      "Nos permiten determinar el carácter regenerativo o arregenerativo de la anemia.": "Es una utilidad diagnóstica expresa del recuento reticulocitario, junto con las características anteriores."
+    },
+    "claveMemorizar": "Reticulocitos altos = médula responde; bajos = anemia arregenerativa.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 23, 33 y 45"
+  },
+  "1-269": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las talasemias son trastornos congénitos de la síntesis de una o más cadenas de globina y se nombran por la cadena afectada, sobre todo alfa o beta. Se transmiten mediante genes autosómicos de las globinas.",
+    "motivosPorOpcion": {
+      "Las talasemias son un grupo heterogéneo de alteraciones congénitas, cuya característica común es un defecto en la síntesis de una o varias de las cadenas de globina.": "Esta es la definición del trastorno, pero las otras dos afirmaciones también son compatibles con ella.",
+      "Cada talasemia recibe el nombre de la cadena que deja de sintetizarse. Las más comunes son la betatalasemia y alfa-talasemia.": "El temario clasifica las talasemias según la cadena afectada y destaca alfa y beta, sin hacer falsa la opción anterior.",
+      "Son trastornos hereditarios con un patrón de herencia autosómica.": "Los genes alfa y no alfa se localizan en los cromosomas 16 y 11, respectivamente, ambos autosómicos."
+    },
+    "claveMemorizar": "Talasemia = defecto cuantitativo hereditario de cadenas alfa o beta.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 57-59",
+    "advertenciaRevision": "El PDF confirma el origen genético y la localización cromosómica, pero no formula literalmente el patrón de herencia autosómica como regla general."
+  },
+  "1-270": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El hierro circula unido a transferrina en estado férrico. La ferritina y la hemosiderina cumplen principalmente funciones de reserva.",
+    "motivosPorOpcion": {
+      "Ferritina.": "Es la principal forma soluble de almacenamiento de hierro, no su transportador plasmático.",
+      "Ceruloplasmina.": "Transporta cobre y participa en oxidaciones necesarias para movilizar hierro, pero no es la proteína principal que lo lleva en plasma.",
+      "Transcobalamina.": "Transporta vitamina B12, no hierro."
+    },
+    "claveMemorizar": "Transferrina transporta; ferritina almacena; transcobalamina lleva B12.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 52, 54 y 56"
+  },
+  "1-271": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El método Coulter detecta los cambios de impedancia cuando una célula suspendida en una solución conductora atraviesa un orificio. El número de pulsos refleja el número de partículas y su intensidad se relaciona con el tamaño.",
+    "motivosPorOpcion": {
+      "La representación del coeficiente de extinción molar en función de la longitud de onda de la luz incidente de una partícula.": "Describe una relación espectral de absorción, no el recuento por impedancia eléctrica.",
+      "Medir la actividad enzimática de la peroxidasa.": "La peroxidasa puede ayudar a clasificar leucocitos en algunos analizadores, pero no constituye el fundamento Coulter.",
+      "Detectar estructuras diferentes por densitometría.": "La densitometría cuantifica señales ópticas; Coulter registra interrupciones eléctricas al pasar partículas por una apertura."
+    },
+    "claveMemorizar": "Coulter: cada célula que cruza el orificio produce un pulso de impedancia.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 10 y 12"
+  },
+  "1-272": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el analizador se lisan los hematíes, se libera la hemoglobina y se mide fotométricamente a una longitud de onda determinada. El método de cianmetahemoglobina también concluye con una lectura espectrofotométrica.",
+    "motivosPorOpcion": {
+      "Densitometría.": "No es la técnica descrita para cuantificar la hemoglobina liberada en el canal hematológico.",
+      "Medición directa.": "La concentración se obtiene a partir de una señal óptica tras la reacción, no mediante conteo o medición física directa de moléculas.",
+      "Cromatografía en placa.": "La cromatografía separa componentes y variantes, pero no es el método rutinario del autoanalizador para Hb total."
+    },
+    "claveMemorizar": "Hb total en autoanalizador: lisis y espectrofotometría.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24 y 41",
+    "advertenciaRevision": "La técnica correcta está respaldada, pero el enunciado llama glicoproteína a la hemoglobina; el PDF la define como heteroproteína con globina y grupo hemo."
+  },
+  "1-273": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cuerpos de Heinz son gránulos intraeritrocitarios formados por precipitación de hemoglobina estructuralmente anormal. Se ponen de manifiesto con tinciones vitales.",
+    "motivosPorOpcion": {
+      "Anillos de Cabot.": "Son inclusiones anulares de restos de membrana nuclear, no cadenas de hemoglobina precipitadas.",
+      "Cuerpos de Harrison.": "No es la denominación que usa el temario para esta inclusión eritrocitaria.",
+      "Cuerpos de Hunts.": "Tampoco corresponde al nombre hematológico de los precipitados de hemoglobina."
+    },
+    "claveMemorizar": "Precipitado de hemoglobina dentro del hematíe = cuerpo de Heinz.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 36"
+  },
+  "1-274": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El reticulocito es una célula roja inmadura, inmediatamente anterior al eritrocito, que todavía conserva ARN y ribosomas. Ese ARN puede teñirse con azul de cresilo.",
+    "motivosPorOpcion": {
+      "Una célula del retículo endotelial.": "El nombre reticulocito alude a la red de ARN visible con tinción vital, no al sistema reticuloendotelial.",
+      "Una célula precursora del eritroblasto basófilo.": "El eritroblasto basófilo aparece mucho antes; el reticulocito sigue al eritroblasto ortocromático.",
+      "Una célula inmadura de la serie blanca.": "Pertenece a la serie eritroide o roja, no al linaje leucocitario."
+    },
+    "claveMemorizar": "Reticulocito = eritrocito joven con ARN ribosómico residual.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 23 y 33"
+  },
+  "1-275": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El eritrocito circula aproximadamente 120 días antes de ser retirado principalmente en bazo e hígado. Una supervivencia menor de 120 días caracteriza la hemólisis.",
+    "motivosPorOpcion": {
+      "30 días.": "Es una duración demasiado corta para un hematíe normal y sugeriría destrucción acelerada.",
+      "45 días.": "No corresponde a la vida media eritrocitaria normal indicada en el temario.",
+      "90 días.": "Aunque se aproxima más, sigue por debajo de los 120 días de supervivencia normal."
+    },
+    "claveMemorizar": "Vida del eritrocito: 120 días.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23 y 46"
+  },
+  "1-276": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hemoglobina A mayoritaria del adulto tiene dos cadenas alfa y dos beta, α2β2. Representa alrededor del 97 % de la hemoglobina adulta.",
+    "motivosPorOpcion": {
+      "Dos cadenas ɣ y dos cadenas α.": "La combinación α2γ2 corresponde a hemoglobina fetal.",
+      "Dos cadenas β y dos cadenas ɣ.": "No corresponde a una de las hemoglobinas fisiológicas principales enumeradas en el temario.",
+      "Cuatro cadenas α.": "La HbA necesita dos cadenas beta además de las dos alfa; un tetrámero solo alfa no es HbA."
+    },
+    "claveMemorizar": "HbA = α2β2 y constituye cerca del 97 % en el adulto.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 57"
+  },
+  "1-277": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La normocitosis ocupa el intervalo entre los umbrales de microcitosis y macrocitosis. Un VCM de 81-99 fL está por encima de 80 y por debajo de 100 fL.",
+    "motivosPorOpcion": {
+      "66-76 fL.": "Ese intervalo es inferior a 80 fL y corresponde a microcitosis.",
+      "100- 110 fL.": "Valores superiores a 100 fL se clasifican como macrocitosis.",
+      ">110 fL.": "Es una macrocitosis marcada, no un volumen corpuscular normal."
+    },
+    "claveMemorizar": "VCM: micro <80 fL, normo 80-100 fL, macro >100 fL.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 27"
+  },
+  "1-278": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los corpúsculos de Howell-Jolly son inclusiones redondas e indeformables que corresponden a restos nucleares. Son especialmente visibles tras esplenectomía o en hipoesplenismo.",
+    "motivosPorOpcion": {
+      "Se corresponden con depósitos de hierro.": "Los depósitos de hierro eritrocitarios son cuerpos de Pappenheimer y reaccionan con Perls.",
+      "Son ribosomas.": "Los agregados ribosómicos producen punteado basófilo; Howell-Jolly procede del núcleo.",
+      "Se corresponden con acúmulos de hemosiderina.": "La hemosiderina se identifica en siderocitos o cuerpos de Pappenheimer, no en Howell-Jolly."
+    },
+    "claveMemorizar": "Howell-Jolly = resto nuclear; Pappenheimer = hierro.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 34-35"
+  },
+  "1-279": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La transferrina es la principal proteína plasmática transportadora de hierro y migra en la fracción beta de las globulinas. Por ello se considera una beta-globulina principal.",
+    "motivosPorOpcion": {
+      "La proteína más abundante en el plasma, hasta 2/3 de las proteínas totales.": "Esa descripción corresponde a la albúmina, no a la transferrina.",
+      "Es el componente principal de las α-1 globulina.": "La transferrina migra en la región beta; la fracción alfa-1 contiene otras proteínas como alfa-1-antitripsina y orosomucoide.",
+      "Se conoce como orosomucoide.": "Orosomucoide es el nombre de la alfa-1-glicoproteína ácida, distinta de la transferrina."
+    },
+    "claveMemorizar": "Transferrina: transportadora de Fe3+ y beta-globulina.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 52 y 54",
+    "advertenciaRevision": "El PDF confirma que la transferrina transporta hierro, pero no indica expresamente su migración como principal beta-globulina ni desarrolla las otras fracciones proteicas."
+  },
+  "1-280": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La supervivencia fisiológica del eritrocito es de unos 120 días. Después se elimina sobre todo en bazo e hígado mediante hemocatéresis.",
+    "motivosPorOpcion": {
+      "30 días.": "Implicaría una supervivencia muy reducida respecto a la fisiológica.",
+      "60 días.": "Representa solo la mitad de la duración normal indicada para el hematíe.",
+      "90 días.": "Sigue siendo inferior a los 120 días de vida eritrocitaria normal."
+    },
+    "claveMemorizar": "Eritrocito normal: 120 días antes de la hemocatéresis.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23"
+  },
+  "1-281": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las talasemias reducen la síntesis de globina y suelen mostrar VCM disminuido, con hemoglobina normal o baja. El patrón común en el hemograma es una anemia microcítica.",
+    "motivosPorOpcion": {
+      "Poliglobulia.": "Un aumento de la masa eritrocitaria no es el rasgo diagnóstico habitual de una talasemia.",
+      "Neutropenia.": "Afecta a la serie blanca y no es la alteración hematimétrica característica del defecto de globina.",
+      "Aumento de la metahemoglobina.": "La metahemoglobina depende de oxidación del hierro a Fe3+, no de la reducción cuantitativa de cadenas globínicas."
+    },
+    "claveMemorizar": "Talasemia en hemograma: microcitosis con hierro y ferritina normales.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 59"
+  },
+  "1-282": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ferritina refleja las reservas corporales de hierro y es el primer parámetro que se altera en la ferropenia. El temario la considera mejor marcador que la sideremia para valorar el déficit.",
+    "motivosPorOpcion": {
+      "Hierro.": "La sideremia fluctúa y se considera un mal marcador aislado del déficit frente a la ferritina.",
+      "Índice de saturación de transferrina.": "También disminuye en ferropenia, pero no refleja las reservas de manera tan directa como la ferritina.",
+      "Hepcidina.": "Regula la salida de hierro a sangre, pero no es el parámetro rutinario señalado como mejor marcador de ferropenia."
+    },
+    "claveMemorizar": "Ferritina baja = agotamiento de reservas y dato temprano de ferropenia.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51-55"
+  },
+  "1-283": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El azul de cresil brillante tiñe vitalmente el ARN residual del reticulocito y lo diferencia del hematíe maduro, que carece de ribosomas. Es la tinción específica de su recuento manual.",
+    "motivosPorOpcion": {
+      "Los neutrófilos.": "Los neutrófilos se reconocen por morfología y tinciones panópticas, no mediante la red de ARN del azul de cresilo.",
+      "Los cayados.": "Los cayados son neutrófilos inmaduros y se distinguen por la forma nuclear en un frotis teñido.",
+      "Los basófilos.": "Los basófilos se identifican por sus gránulos basófilos en tinciones hematológicas generales."
+    },
+    "claveMemorizar": "Azul de cresil: ARN del reticulocito frente al hematíe maduro.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 18 y 33"
+  },
+  "1-284": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La metahemoglobina contiene hierro oxidado en estado férrico, Fe3+, que no puede unir oxígeno. Se diferencia así de las formas funcionales con hierro ferroso.",
+    "motivosPorOpcion": {
+      "Carboxihemoglobina": "Contiene monóxido de carbono unido con gran afinidad, pero su nombre no define la oxidación a Fe3+.",
+      "Oxihemoglobina": "Es la forma saturada de oxígeno y requiere un hemo ferroso capaz de ligarlo.",
+      "Sulfohemoglobina": "Se forma por incorporación irreversible de azufre a la hemoglobina, mecanismo distinto de la simple oxidación férrica."
+    },
+    "claveMemorizar": "Metahemoglobina = hemo oxidado Fe3+ sin capacidad de unir O2.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-39"
+  },
+  "1-285": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el adulto, la eritropoyetina que regula la proliferación y maduración eritroide se sintetiza principalmente en el riñón. Su producción aumenta ante la hipoxia.",
+    "motivosPorOpcion": {
+      "En la médula ósea.": "La médula es el lugar de eritropoyesis y responde a EPO, pero no es su principal órgano productor.",
+      "En el hígado.": "El hígado es importante en la producción fetal de EPO y hematopoyesis, pero en el adulto predomina el riñón.",
+      "En el bazo.": "El bazo participa en hemocatéresis y puede intervenir en hematopoyesis fetal, no es la fuente adulta principal de EPO."
+    },
+    "claveMemorizar": "EPO adulta: riñón; efecto: estimula eritropoyesis medular.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
+  },
+  "1-286": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los dacriocitos son eritrocitos con forma de lágrima, pera o raqueta. Se asocian de manera característica a fibrosis medular o mielofibrosis.",
+    "motivosPorOpcion": {
+      "Diana.": "La forma de diana corresponde a dianocitos o codocitos, frecuentes en talasemia y HbC.",
+      "Hoz o semiluna.": "La forma de hoz define al drepanocito de la hemoglobinopatía S.",
+      "Son desiguales entre ellos.": "La desigualdad global de forma es poiquilocitosis; dacriocitosis designa específicamente células en lágrima."
+    },
+    "claveMemorizar": "Dacriocito = lágrima; drepanocito = hoz; dianocito = diana.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 28-30"
+  },
+  "1-287": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La alfa-globina está codificada por cuatro genes; la pérdida de uno produce el fenotipo alfa-talasémico silente. Al quedar tres genes funcionales, la alteración suele ser mínima.",
+    "motivosPorOpcion": {
+      "Dos genes.": "La pérdida de dos genes corresponde habitualmente al rasgo alfa-talasémico, con microcitosis más evidente.",
+      "Tres genes.": "Tres genes afectados producen enfermedad por HbH, formada por tetrámeros beta.",
+      "Cuatro genes.": "La ausencia de los cuatro genes causa Hb Bart e hidropesía fetal, la forma incompatible con la vida."
+    },
+    "claveMemorizar": "Alfa-talasemia: 1 silente, 2 rasgo, 3 HbH, 4 Hb Bart.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 57-58",
+    "advertenciaRevision": "El PDF afirma que existen cuatro genes alfa y presenta cinco fenotipos, pero la extracción textual de la figura no conserva la correspondencia explícita entre una deleción y el fenotipo silente."
+  },
+  "1-288": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Durante la infancia, la médula ósea de prácticamente todo el esqueleto conserva actividad hematopoyética. Con la edad, esa actividad se restringe progresivamente al esqueleto axial y extremos proximales de algunos huesos largos.",
+    "motivosPorOpcion": {
+      "Hígado.": "Es un órgano hematopoyético destacado en la vida fetal, no el principal durante la infancia normal.",
+      "Páncreas.": "No es un órgano hematopoyético fisiológico principal en ninguna de estas etapas.",
+      "Timo.": "Es un órgano linfoide para maduración de linfocitos T, no el centro general de producción de células sanguíneas."
+    },
+    "claveMemorizar": "Infancia: médula de todo el esqueleto; adulto: médula roja más restringida.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 21-23",
+    "advertenciaRevision": "El PDF sitúa la hematopoyesis adulta en médula ósea y la fetal en hígado y bazo, pero no afirma expresamente que en la infancia abarque todo el esqueleto."
+  },
+  "1-289": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La anemia se define por una concentración de hemoglobina inferior al valor de referencia para edad, sexo y situación fisiológica. Por tanto, el déficit de hemoglobina provoca anemia.",
+    "motivosPorOpcion": {
+      "Leucocitosis.": "Es un aumento de leucocitos y no deriva por definición de una disminución de hemoglobina.",
+      "Problemas hepáticos.": "Una hepatopatía puede causar alteraciones hematológicas, pero no es la consecuencia definitoria del déficit de Hb.",
+      "Disminución del recuento plaquetario.": "La trombocitopenia afecta a otra serie celular y no es consecuencia necesaria de la hemoglobina baja."
+    },
+    "claveMemorizar": "Anemia = hemoglobina por debajo del umbral de referencia.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44"
+  },
+  "1-290": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La policitemia secundaria se caracteriza por aumento de eritropoyetina, a menudo en respuesta a hipoxia. Ese estímulo incrementa la producción medular y la masa eritrocitaria.",
+    "motivosPorOpcion": {
+      "Un déficit de factor de crecimiento.": "Reducir un estímulo eritropoyético tendería a disminuir la producción de hematíes, no a aumentarla.",
+      "Un aumento de la hemoglobina A2.": "La HbA2 elevada orienta a ciertas beta-talasemias y no explica una masa eritrocitaria aumentada por causa secundaria.",
+      "Al fenómeno de rouleaux.": "Rouleaux describe apilamiento de hematíes por proteínas plasmáticas, no expansión real de la masa eritrocitaria."
+    },
+    "claveMemorizar": "Policitemia secundaria = EPO alta; policitemia vera = EPO baja.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 22"
+  },
+  "1-291": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El barrido inicial del frotis con bajo aumento permite juzgar su calidad y localizar elementos grandes o distribuidos de forma irregular. También ayuda a detectar parásitos antes de pasar a aumentos mayores.",
+    "motivosPorOpcion": {
+      "La calidad general del frotis.": "Es una valoración esencial a 10x, pero no es la única tarea posible durante el barrido inicial.",
+      "Presencia de células grandes anormales.": "El bajo aumento facilita localizar células grandes escasas, junto con la revisión de calidad y parásitos.",
+      "Presencia de parásitos.": "La exploración panorámica puede revelar parásitos o zonas sospechosas, sin excluir los otros objetivos."
+    },
+    "claveMemorizar": "A 10x: calidad y barrido general; a mayor aumento: detalle celular.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 14-19",
+    "advertenciaRevision": "El PDF explica la preparación y zona de observación del frotis, pero no enumera de forma expresa las tres valoraciones concretas realizadas a 10x."
+  },
+  "1-292": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La anemia sideroblástica acumula hierro en las mitocondrias de los eritroblastos y origina sideroblastos en anillo. La tinción de Perls o azul de Prusia demuestra ese hierro insoluble.",
+    "motivosPorOpcion": {
+      "Sideroblastos con forma de L.": "La disposición diagnóstica del hierro rodea el núcleo en anillo, no adopta una forma de L definida.",
+      "Los sideroblastos son más luminiscentes.": "Perls genera un precipitado azul de ferrocianuro férrico; no es una técnica basada en luminiscencia.",
+      "Lo que caracteriza a esta anemia es que no se ven sideroblastos.": "La presencia de sideroblastos en anillo es precisamente el hallazgo que da nombre al trastorno."
+    },
+    "claveMemorizar": "Sideroblástica: hierro mitocondrial perinuclear y sideroblastos en anillo con Perls.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 17 y 51"
+  },
+  "1-293": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La esferocitosis hereditaria es una anemia hemolítica congénita debida a defectos de proteínas de membrana. Los hematíes pierden su forma bicóncava, se vuelven esféricos y son retirados prematuramente.",
+    "motivosPorOpcion": {
+      "Visualización de esferas en una extensión de hematíes.": "Describe vagamente una apariencia, pero esferocitosis es una entidad clínica hereditaria y no la mera presencia de objetos esféricos.",
+      "Una prueba de luminiscencia.": "No es una técnica analítica, sino una alteración eritrocitaria con hemólisis.",
+      "Déficit de hierro.": "La ferropenia produce microcitosis e hipocromía, no define la esferocitosis hereditaria."
+    },
+    "claveMemorizar": "Esferocitosis hereditaria: defecto de membrana y anemia hemolítica congénita.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 31-32 y 46-48"
+  },
+  "1-294": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las talasemias son defectos genéticos cuantitativos que reducen o impiden la síntesis de una cadena de globina. Esa alteración diferencia su mecanismo del defecto de hemo o de las anemias secundarias.",
+    "motivosPorOpcion": {
+      "Anemia de los procesos crónicos.": "Se relaciona con inflamación y disponibilidad restringida de hierro, no con un defecto primario de síntesis globínica.",
+      "Anemias sideroblásticas.": "Su defecto central afecta a la síntesis del grupo hemo y acumula hierro mitocondrial, no a las cadenas de globina.",
+      "Anemias no megaloblásticas.": "Es una categoría macrocítica heterogénea y no define por sí misma un fallo de síntesis de globina."
+    },
+    "claveMemorizar": "Talasemia = síntesis de globina; sideroblástica = síntesis de hemo.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51 y 57-59"
+  },
+  "1-295": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Cada molécula de hemoglobina tiene cuatro grupos hemo y cada uno fija una molécula de oxígeno. Por tanto, el máximo es cuatro moléculas de O2, no ocho.",
+    "motivosPorOpcion": {
+      "La hemoglobina constituye el 95% del peso seco eritrocitario.": "La hemoglobina es el componente proteico predominante del hematíe y la afirmación no contradice su composición descrita.",
+      "El oxígeno se fija a la hemoglobina para formar oxihemoglobina.": "La forma saturada con oxígeno recibe precisamente el nombre de oxihemoglobina.",
+      "La unión entre el oxígeno y la hemoglobina es de tipo coordinado.": "El oxígeno se coordina reversiblemente con el hierro ferroso del grupo hemo."
+    },
+    "claveMemorizar": "Una Hb tiene cuatro hemos y transporta hasta cuatro O2.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-40",
+    "advertenciaRevision": "El PDF respalda expresamente la capacidad máxima de cuatro O2 y la formación de oxihemoglobina, pero no formula literalmente el 95 % del peso seco ni denomina coordinada a la unión."
+  },
+  "1-296": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las crioglobulinas deben mantenerse a 37 °C durante coagulación y centrifugación para evitar precipitación prematura; después el suero se conserva en frío hasta una semana para observar el crioprecipitado. Una incubación genérica de dos horas no describe el procedimiento indicado.",
+    "motivosPorOpcion": {
+      "El laboratorio debe estar avisado de la extracción para estar preparado.": "La manipulación térmica inmediata exige coordinación previa para mantener la muestra atemperada.",
+      "La jeringuilla con la que se hace la extracción debe estar a 37ºC, para evitar que las crioglobulinas precipiten.": "El material caliente evita que las inmunoglobulinas precipiten antes de separar el suero.",
+      "No debe usarse plasma.": "La prueba se realiza sobre suero obtenido tras coagulación a 37 °C, no sobre plasma anticoagulado."
+    },
+    "claveMemorizar": "Crioglobulinas: preanalítica a 37 °C y observación del suero en frío durante una semana.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 37"
+  },
+  "1-297": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La membrana eritrocitaria presenta carga electrostática negativa, denominada potencial zeta. Esta genera repulsión entre hematíes y contribuye a mantenerlos separados en suspensión.",
+    "motivosPorOpcion": {
+      "El grado de hidratación que posibilita una mayor adhesión entre los hematíes.": "El potencial zeta se opone a la adhesión; si disminuye, se facilita la agregación en rouleaux.",
+      "La capacidad de deformación de los hematíes.": "La deformabilidad depende de la membrana, el citoesqueleto y la geometría celular, no define el potencial electrostático.",
+      "El conjunto de receptores antigénicos de los grupos sanguíneos.": "Los antígenos de grupo son moléculas de membrana, pero no equivalen a la fuerza repulsiva de su carga superficial."
+    },
+    "claveMemorizar": "Potencial zeta = carga negativa y repulsión entre hematíes.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 6-7"
+  },
+  "1-298": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La HCM representa la masa media de hemoglobina contenida en un eritrocito y se expresa en picogramos. El VCM expresa volumen y la CHCM expresa concentración.",
+    "motivosPorOpcion": {
+      "Volumen corpuscular medio (VCM).": "Es un volumen celular y se expresa en femtolitros, no en picogramos.",
+      "Concentración corpuscular media de Hemoglobina (CCMH).": "Es una concentración y suele expresarse en g/dL, no como masa en picogramos.",
+      "Ninguno de ellos.": "Sí existe un índice con esa unidad: la hemoglobina corpuscular media."
+    },
+    "claveMemorizar": "VCM: fL; HCM: pg; CHCM: g/dL.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-26"
+  },
+  "1-299": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los esquistocitos son fragmentos eritrocitarios producidos por daño mecánico en la microcirculación. Son característicos de anemias hemolíticas microangiopáticas y también pueden verse en trombosis o coagulación intravascular diseminada.",
+    "motivosPorOpcion": {
+      "Hemoglobinopatía S.": "Su forma característica es el drepanocito en hoz por polimerización de HbS, no el fragmento esquistocítico.",
+      "Talasemia.": "Predominan microcitos y células diana por el defecto de globina, no esquistocitos como hallazgo principal.",
+      "Insuficiencia renal.": "Puede causar anemia por déficit de EPO; sin lesión microangiopática asociada no explica específicamente los esquistocitos."
+    },
+    "claveMemorizar": "Esquistocito = fragmentación mecánica y hemólisis microangiopática.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 30 y 48"
+  },
+  "1-300": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La anemia megaloblástica se acompaña de macrocitosis y VCM superior a 100 fL por alteración de la maduración celular. Las otras opciones suelen ser normocíticas o microcíticas.",
+    "motivosPorOpcion": {
+      "Anemia ferropénica.": "El déficit de hierro reduce la síntesis de hemoglobina y produce microcitosis con VCM bajo.",
+      "Talasemia.": "El defecto de cadenas de globina causa un patrón típicamente microcítico.",
+      "Anemia de los procesos crónicos.": "Suele ser normocítica y puede hacerse microcítica, pero no es típicamente macrocítica."
+    },
+    "claveMemorizar": "Megaloblástica = macrocítica; ferropenia y talasemia = microcíticas.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 34"
+  }
+}

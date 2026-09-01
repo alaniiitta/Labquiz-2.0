@@ -1,0 +1,662 @@
+{
+  "2-60": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La célula plasmática es la forma efectora terminal de un linfocito B activado y está especializada en secretar inmunoglobulinas.",
+    "motivosPorOpcion": {
+      "Linfocito CD4 (colaborador).": "El CD4 es un linfocito T cooperador: puede ayudar a activar al linfocito B, pero no se diferencia en célula plasmática.",
+      "Linfocito CD8 (citotóxico).": "El CD8 es un linfocito T con función citotóxica y no pertenece a la línea de diferenciación plasmocitaria.",
+      "Monocito.": "El monocito se diferencia principalmente en macrófago o célula dendrítica, no en célula plasmática."
+    },
+    "claveMemorizar": "Linfocito B activado → plasmoblasto → célula plasmática secretora de anticuerpos.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 9 y 27"
+  },
+  "2-61": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El temario identifica los síndromes mieloproliferativos crónicos como la causa más frecuente de aumento de basófilos.",
+    "motivosPorOpcion": {
+      "Enfermedades alérgicas.": "La alergia se asocia de forma característica con eosinofilia; puede intervenir el basófilo, pero no es la causa más frecuente señalada de basofilia.",
+      "Infecciones.": "Las infecciones producen con mayor frecuencia neutrofilia, linfocitosis o monocitosis según su tipo.",
+      "Síndromes mielodisplásicos.": "Suelen causar hematopoyesis ineficaz y citopenias, no la basofilia típica de los procesos mieloproliferativos."
+    },
+    "claveMemorizar": "Basofilia: pensar primero en síndrome mieloproliferativo crónico.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 14 y 22"
+  },
+  "2-62": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La esterasa no específica de la serie monocítica es sensible al fluoruro: el fluoruro sódico inhibe su actividad, rasgo útil para identificar monocitos.",
+    "motivosPorOpcion": {
+      "Linfocitos.": "Los linfocitos no presentan el patrón de esterasa no específica fluoruro-sensible propio de la línea monocítica.",
+      "Neutrófilos.": "La línea granulocítica se identifica mejor con mieloperoxidasa o esterasa específica de cloroacetato.",
+      "Eosinófilos.": "Los eosinófilos son granulocitos y no muestran el patrón monocítico de inhibición por fluoruro."
+    },
+    "claveMemorizar": "Esterasa no específica + inhibición por fluoruro = serie monocítica.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 30"
+  },
+  "2-63": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los agregados con recuento bajo sugieren pseudotrombocitopenia por EDTA; una nueva muestra con citrato evita esa agregación dependiente del anticoagulante.",
+    "motivosPorOpcion": {
+      "Calentar la muestra a 37° Centígrados y reanalizar.": "El calentamiento se usa ante fenómenos dependientes del frío, pero no es la solución indicada para agregación plaquetaria por EDTA.",
+      "Agitar bien la muestra y reanalizar.": "Agitar no deshace de forma fiable los agregados inducidos por EDTA y puede deteriorar la muestra.",
+      "Ninguna de las anteriores.": "Sí hay una actuación recomendada: repetir la extracción en un tubo con citrato."
+    },
+    "claveMemorizar": "Plaquetas bajas + agregados en EDTA: repetir en citrato.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38"
+  },
+  "2-64": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La tricoleucemia o leucemia de células peludas es una neoplasia linfoide B, por lo que aumenta una población de células linfoides vellosas.",
+    "motivosPorOpcion": {
+      "Blastos.": "No se define por proliferación de blastos, sino por linfocitos B maduros con prolongaciones citoplasmáticas.",
+      "Basófilos.": "La basofilia orienta más a síndromes mieloproliferativos como la leucemia mieloide crónica.",
+      "Monocitos.": "Los monocitos pertenecen a la línea mieloide y no constituyen la población clonal de la tricoleucemia."
+    },
+    "claveMemorizar": "Tricoleucemia = neoplasia de linfocitos B con células peludas.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 19-20 y 28"
+  },
+  "2-65": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La combinación CRAB, paraproteína monoclonal y rouleaux identifica un mieloma múltiple por proliferación de células plasmáticas productoras de inmunoglobulina monoclonal.",
+    "motivosPorOpcion": {
+      "Infección vírica.": "Puede activar linfocitos, pero no explica conjuntamente la banda monoclonal, las lesiones óseas y el daño renal.",
+      "Leucemia linfática crónica.": "Produce linfocitosis clonal y sombras de Gumprecht, no el síndrome CRAB con rouleaux típico.",
+      "Mononucleosis infecciosa.": "Cursa con linfocitos activados y anticuerpos heterófilos, no con una paraproteína y lesiones líticas."
+    },
+    "claveMemorizar": "Mieloma: paraproteína + rouleaux + CRAB.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33"
+  },
+  "2-66": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los eosinófilos participan en la defensa frente a parásitos; por ello las parasitosis son una causa clásica de eosinofilia.",
+    "motivosPorOpcion": {
+      "Eosinopenia.": "Es una disminución de eosinófilos y se relaciona con infecciones agudas o aplasia, no con la respuesta antiparasitaria típica.",
+      "Basopenia.": "La reducción de basófilos no constituye la alteración característica de las parasitosis.",
+      "Basofilia.": "La basofilia se asocia sobre todo a síndromes mieloproliferativos crónicos."
+    },
+    "claveMemorizar": "Parásitos y alergia → eosinofilia.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14"
+  },
+  "2-67": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El temario incluye entre las causas de neutropenia la anemia aplásica, la anemia megaloblástica y las infecciones víricas; por tanto, las tres propuestas son válidas.",
+    "motivosPorOpcion": {
+      "Anemia aplásica.": "Es verdadera por fallo de producción medular, pero no es la única causa correcta de la lista.",
+      "Anemia megaloblástica.": "Es verdadera por hematopoyesis ineficaz, pero tampoco agota las causas propuestas.",
+      "Hepatitis vírica.": "Es una infección vírica capaz de asociarse a neutropenia, pero las anemias indicadas también pueden producirla."
+    },
+    "claveMemorizar": "Neutropenia: fallo medular, megaloblastosis, virus, fármacos o autoinmunidad.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14"
+  },
+  "2-68": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La distinción aguda/crónica integra la rapidez o agresividad clínica y el grado de diferenciación: las agudas acumulan células inmaduras y evolucionan con mayor rapidez.",
+    "motivosPorOpcion": {
+      "Grado de diferenciación de células neoplásicas.": "Es un criterio real, pero la opción combinada recoge además la rapidez o agresividad señalada por el temario.",
+      "Número de células malignas.": "El recuento no define por sí solo si una leucemia es aguda o crónica.",
+      "De la agresividad de las células neoplásicas.": "La rapidez es relevante, pero la clasificación también considera el grado de maduración celular."
+    },
+    "claveMemorizar": "Aguda: inmadura y rápida; crónica: más diferenciada y lenta.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 16"
+  },
+  "2-69": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La célula de Reed-Sternberg es el hallazgo celular característico que orienta el diagnóstico histológico del linfoma de Hodgkin.",
+    "motivosPorOpcion": {
+      "Se encuentran en las leucemias mieloides agudas.": "Las leucemias mieloides agudas presentan mieloblastos y pueden mostrar bastones de Auer, no células de Reed-Sternberg.",
+      "Se encuentran en la anemia sideroblástica.": "La anemia sideroblástica se define por sideroblastos en anillo, no por células linfoides gigantes binucleadas.",
+      "Se encuentran en las leucemias mieloides crónicas.": "La leucemia mieloide crónica se relaciona con BCR-ABL y maduración granulocítica, no con Reed-Sternberg."
+    },
+    "claveMemorizar": "Reed-Sternberg → linfoma de Hodgkin.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 20"
+  },
+  "2-70": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El estudio de una gammapatía debe detectar y caracterizar el componente monoclonal; la clave considera correctos el análisis de suero y orina y el uso de agarosa como soporte.",
+    "motivosPorOpcion": {
+      "Es recomendable procesar plasma en lugar de suero.": "El fibrinógeno del plasma puede originar una banda que interfiera en la interpretación, por lo que se prefiere suero.",
+      "Un estudio analítico correcto de las GM debe analizar muestras de suero y de orina.": "Es una afirmación válida, pero la opción combinada incorpora también el soporte de agarosa.",
+      "El gel de agarosa es el soporte recomendado.": "Es una afirmación válida para la electroforesis de proteínas, pero la opción combinada reúne ambas correctas."
+    },
+    "claveMemorizar": "Gammapatía: detectar por electroforesis y tipificar por inmunofijación; valorar suero y orina.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33",
+    "advertenciaRevision": "El PDF explica el cribado por electroforesis y la caracterización por inmunofijación, pero no especifica el análisis conjunto de suero y orina ni recomienda expresamente el gel de agarosa."
+  },
+  "2-71": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La inmunofijación caracteriza la banda detectada por electroforesis e identifica la inmunoglobulina o proteína específica que la compone.",
+    "motivosPorOpcion": {
+      "Sólo en la electroforesis de proteínas del líquido cefalorraquídeo.": "No se limita al líquido cefalorraquídeo; se utiliza, por ejemplo, para tipificar paraproteínas séricas.",
+      "Sólo en proteínas de bajo peso molecular.": "Su utilidad depende del reconocimiento inmunológico, no de una restricción general al bajo peso molecular.",
+      "En todos los anteriores.": "No puede ser correcta porque las dos afirmaciones exclusivas introducidas por «sólo» son falsas."
+    },
+    "claveMemorizar": "Electroforesis detecta la banda; inmunofijación identifica su tipo.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33"
+  },
+  "2-72": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La LLC típica es una proliferación B con coexpresión aberrante de CD5, junto con CD19 y CD23, por lo que CD5 es clave en su inmunofenotipo.",
+    "motivosPorOpcion": {
+      "Es principalmente de origen linfoide NK": "La LLC habitual deriva de linfocitos B, no de células NK.",
+      "Es fundamental el análisis del marcador de linfocitos T CD8": "CD8 identifica una subpoblación T citotóxica y no define el clon B de la LLC.",
+      "Es fundamental el análisis del marcador de linfocitos T y B CD8": "CD8 no es un marcador compartido fundamental de células T y B ni el marcador diagnóstico descrito para LLC."
+    },
+    "claveMemorizar": "LLC B típica: CD19+, CD5+, CD23+.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 27-28"
+  },
+  "2-73": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La trombopoyesis progresa desde megacarioblasto a promegacariocito y megacariocito; finalmente, el citoplasma del megacariocito se fragmenta en plaquetas.",
+    "motivosPorOpcion": {
+      "Megacariocito, promegacarioblasto, megacarioblasto y plaquetas.": "Invierte la maduración al situar una célula madura antes de sus precursores.",
+      "Plaquetas, megacariocito, megacarioblasto y promegacariocito.": "Comienza por el producto final y ordena después los precursores de forma incorrecta.",
+      "Megacarioblasto, mieloblasto, megacariocito y plaquetas.": "El mieloblasto pertenece a la serie granulocítica y no es una fase de la trombopoyesis."
+    },
+    "claveMemorizar": "Megacarioblasto → promegacariocito → megacariocito → plaquetas.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 35 y 37"
+  },
+  "2-74": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La trombocitemia esencial causa una producción desmesurada y el temario sitúa sus recuentos en 750.000–1.000.000 plaquetas/mm3.",
+    "motivosPorOpcion": {
+      "750-1.000/mm3": "Es una cifra extremadamente baja y correspondería a trombopenia crítica, no a trombocitemia.",
+      "150-4.000/ mm3": "Ese intervalo también está muy por debajo del recuento normal y no representa sobreproducción.",
+      "No es una prueba estimable en la TE.": "El hemograma cuantifica precisamente el aumento plaquetario característico de la enfermedad."
+    },
+    "claveMemorizar": "Trombocitemia esencial: alrededor de 750.000–1.000.000/mm3.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 41"
+  },
+  "2-75": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las infecciones, especialmente bacterianas, son la causa más frecuente de neutrofilia por movilización y aumento de producción de neutrófilos.",
+    "motivosPorOpcion": {
+      "Tumores": "Pueden causar reacciones leucemoides, pero no son la causa más frecuente señalada.",
+      "Hemorragias": "El estrés hemorrágico puede elevar neutrófilos, aunque con menor frecuencia que las infecciones.",
+      "Alergias": "Las alergias se asocian de modo más característico con eosinofilia."
+    },
+    "claveMemorizar": "Neutrofilia: primero infección; eosinofilia: alergia o parásitos.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14"
+  },
+  "2-76": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La clasificación general separa los leucocitos en granulocitos y mononucleares; estos últimos comprenden linfocitos y monocitos.",
+    "motivosPorOpcion": {
+      "Neutrófilos, eosinófilos y basófilos": "Enumera únicamente los tres tipos de granulocitos y omite linfocitos y monocitos.",
+      "Eosinófilos, linfocitos y basófilos": "Mezcla dos granulocitos con linfocitos y deja fuera neutrófilos y monocitos.",
+      "Granulocitos, linfocitos y eosinófilos": "Los eosinófilos ya están incluidos entre los granulocitos y faltan los monocitos."
+    },
+    "claveMemorizar": "Leucocitos: granulocitos + linfocitos + monocitos.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 3"
+  },
+  "2-77": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para contar plaquetas en citrato se analiza sangre total anticoagulada; centrifugar separaría las células del plasma e impediría obtener el recuento correcto.",
+    "motivosPorOpcion": {
+      "Determinación de plaquetas en el tubo de citrato, si lo tenemos en el laboratorio.": "Es la comprobación recomendada porque el citrato evita la agregación dependiente de EDTA.",
+      "Al resultado de plaquetas obtenido del autoanalizador, le sumaremos un 10%.": "La corrección compensa de forma aproximada la dilución introducida por el citrato.",
+      "Revisión microscópica, con recuento manual de plaquetas.": "La extensión permite confirmar agregados y el recuento manual puede resolver interferencias."
+    },
+    "claveMemorizar": "Fenómeno EDTA: revisar frotis y repetir sangre total en citrato, sin centrifugar.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38",
+    "advertenciaRevision": "El PDF recomienda microscopía, nueva muestra en citrato y, en algunos casos, recuento manual; no menciona expresamente sumar un 10% ni la prohibición de centrifugar."
+  },
+  "2-78": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El gradiente de Ficoll separa por densidad las células mononucleares, entre ellas los linfocitos, de granulocitos y eritrocitos.",
+    "motivosPorOpcion": {
+      "Purificación de apoproteínas.": "Las apoproteínas se purifican con técnicas bioquímicas, no mediante un gradiente destinado a células sanguíneas.",
+      "Aislamiento de parásitos intestinales.": "El Ficoll descrito se usa para separar células mononucleares, no parásitos de muestras fecales.",
+      "Cuantificación de proteínas en la orina.": "La cuantificación proteica requiere métodos químicos o inmunológicos y no una separación celular por densidad."
+    },
+    "claveMemorizar": "Ficoll → aislamiento de monocitos y linfocitos.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 32"
+  },
+  "2-79": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los coilocitos son células epiteliales escamosas con halo perinuclear asociadas a infección por papilomavirus; no son elementos formes de una extensión de sangre periférica.",
+    "motivosPorOpcion": {
+      "Eosinófilos, característicos de procesos alérgicos con granulaciones muy refringentes en el citoplasma, que se tiñen con colorantes ácidos.": "Los eosinófilos son granulocitos circulantes y sus gránulos captan eosina.",
+      "Reticulocitos con finos filamentos y gránulos que constituyen la más granulo-filamentosa ortocromática.": "Los reticulocitos son eritrocitos jóvenes presentes en sangre y su ARN residual se demuestra con tinción vital.",
+      "Linfocitos peludos o \"hairycells\", de leucemia de células vellosas (HCL), considerada subtipo de leucemia linfocítica crónica (LLC).": "Las células peludas pueden circular en pacientes con tricoleucemia y observarse en el frotis."
+    },
+    "claveMemorizar": "Coilocito = epitelio por VPH, no célula sanguínea.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 20",
+    "advertenciaRevision": "El PDF confirma eosinófilos y células peludas como leucocitos, pero no describe coilocitos ni la morfología reticulocitaria."
+  },
+  "2-80": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la granulopoyesis basófila, el mielocito madura a metamielocito y después a una forma en banda antes del basófilo segmentado.",
+    "motivosPorOpcion": {
+      "Monoblasto - Monoblasto basófilo - Monocito basófilo.": "La serie monocítica pasa de monoblasto a promonocito y monocito; esas fases «basófilas» no forman la secuencia estándar.",
+      "Megacarioblasto - Megacariocito.": "Mantiene el sentido de maduración, pero omite el promegacariocito y no representa la línea completa planteada.",
+      "Mieloblasto - Linfocito.": "Cruza dos linajes distintos: un mieloblasto no madura a linfocito."
+    },
+    "claveMemorizar": "Granulocito: mielocito → metamielocito → banda → segmentado.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 5 y 10"
+  },
+  "2-81": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aplasia medular reduce la producción de células sanguíneas y el temario la asocia con eosinopenia, no con eosinofilia.",
+    "motivosPorOpcion": {
+      "Parasitosis.": "Es una causa clásica de eosinofilia por la función antiparasitaria del eosinófilo.",
+      "Alergia.": "La respuesta alérgica eleva con frecuencia el número de eosinófilos.",
+      "Síndromes proliferativos.": "Los síndromes mieloproliferativos pueden producir proliferación eosinófila."
+    },
+    "claveMemorizar": "Eosinofilia: alergia, parásitos y proliferación; aplasia: eosinopenia.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14"
+  },
+  "2-82": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el linfoma de Hodgkin, una albúmina baja puede reflejar inflamación sistémica y se utiliza como dato pronóstico desfavorable.",
+    "motivosPorOpcion": {
+      "VSG": "La velocidad de sedimentación suele elevarse por la respuesta inflamatoria, no disminuir.",
+      "Proteína C reactiva.": "Como reactante de fase aguda suele aumentar cuando existe inflamación activa.",
+      "lnmunoglobulinas.": "No constituyen el parámetro característicamente disminuido que busca esta pregunta."
+    },
+    "claveMemorizar": "Hodgkin: inflamación con VSG/PCR altas; albúmina baja es desfavorable.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 16 y 20",
+    "advertenciaRevision": "El PDF identifica Hodgkin y sus manifestaciones, pero no documenta de forma expresa la disminución de albúmina ni compara estos cuatro parámetros."
+  },
+  "2-83": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En niños pequeños es fisiológico un predominio linfocitario y un porcentaje menor de neutrófilos que en adultos; el recuento total indicado también es compatible con la edad.",
+    "motivosPorOpcion": {
+      "Existe leucocitosis.": "Un recuento de 10.000/mm3 puede ser normal a los dos años y debe interpretarse con intervalos pediátricos.",
+      "Existe linfocitosis.": "El 60% sería alto para un adulto, pero representa el predominio linfocitario fisiológico infantil.",
+      "Existe eosinofilia.": "Un 2% de eosinófilos se encuentra dentro del intervalo habitual."
+    },
+    "claveMemorizar": "Niño pequeño: más linfocitos y menos neutrófilos que el adulto.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14"
+  },
+  "2-84": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los gránulos densos plaquetarios almacenan ADP, ATP, calcio, serotonina y otras aminas que se liberan durante la activación.",
+    "motivosPorOpcion": {
+      "Gránulos específicos de las plaquetas que contienen factores plaquetarios.": "Describe mejor los gránulos alfa, que contienen factor plaquetario 4, fibrinógeno y factor von Willebrand.",
+      "Gránulos que presentan grandes cantidades de hidrolasas ácidas.": "Las hidrolasas ácidas son características de los lisosomas.",
+      "Gránulos numerosos que no presentan función secretora.": "Los gránulos densos sí tienen función secretora esencial en la activación y agregación."
+    },
+    "claveMemorizar": "Densos: ADP, ATP, Ca y serotonina; alfa: proteínas; lisosomas: hidrolasas.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 36"
+  },
+  "2-85": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las sombras de Gumprecht son restos de linfocitos frágiles que se rompen al preparar el frotis y son características de la leucemia linfoide crónica.",
+    "motivosPorOpcion": {
+      "Leucemia linfoide aguda.": "Predominan linfoblastos inmaduros, no los pequeños linfocitos frágiles típicos de la LLC.",
+      "Alfatalasemia.": "Es una alteración de síntesis de globina y afecta a eritrocitos, no produce sombras linfocitarias.",
+      "Leucemia mieloide crónica.": "Se caracteriza por proliferación granulocítica y BCR-ABL, no por sombras de Gumprecht."
+    },
+    "claveMemorizar": "Sombras de Gumprecht = LLC.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 12 y 19"
+  },
+  "2-86": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los monocitos miden aproximadamente 12–20 µm y son los leucocitos normales de mayor tamaño en sangre periférica.",
+    "motivosPorOpcion": {
+      "Hematíes.": "Los eritrocitos miden alrededor de 7–8 µm, claramente menos que un monocito.",
+      "Eosinófilos.": "Son granulocitos de tamaño inferior al intervalo máximo de los monocitos.",
+      "Basófilos.": "También son granulocitos de aproximadamente 8–12 µm, menores que los monocitos."
+    },
+    "claveMemorizar": "Monocito: 12–20 µm, el mayor leucocito circulante normal.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 3"
+  },
+  "2-87": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una pancitopenia inesperada exige descartar primero un error preanalítico; un coágulo consume y atrapa células de las tres series y falsea el hemograma.",
+    "motivosPorOpcion": {
+      "Realizar frotis de sangre periférica.": "Es útil después de comprobar la idoneidad de la muestra, pero no precede a la inspección inmediata de coágulos.",
+      "No tener en cuenta las alarmas en los distintos parámetros.": "Las alarmas deben revisarse porque pueden advertir interferencias o resultados no fiables.",
+      "Solicitar reticulocitos.": "Evalúa la respuesta eritropoyética, pero antes debe verificarse que la pancitopenia no sea artefactual."
+    },
+    "claveMemorizar": "Pancitopenia automática inesperada: primero revisar muestra y coágulos.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 14 y 38"
+  },
+  "2-88": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El bazo mantiene una reserva importante de plaquetas y también participa en su eliminación por fagocitosis.",
+    "motivosPorOpcion": {
+      "Médula ósea": "Es el lugar de producción a partir de megacariocitos y participa en eliminación, pero no es el depósito circulante señalado.",
+      "Pulmones": "No figuran como el reservorio fisiológico principal de plaquetas.",
+      "Hígado": "Participa en la eliminación mediante células de Kupffer, no en el almacenamiento principal."
+    },
+    "claveMemorizar": "Bazo: reserva y eliminación plaquetaria.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 35"
+  },
+  "2-89": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Bernard-Soulier es un defecto de adhesión por déficit del complejo GPIb-IX, receptor del factor von Willebrand, y suele acompañarse de macroplaquetas y trombopenia.",
+    "motivosPorOpcion": {
+      "Déficit del complejo GPllb-llla de la membrana plaquetaria, sin alteraciones en la morfología plaquetar": "El déficit GPIIb-IIIa corresponde a trombastenia de Glanzmann y altera la agregación.",
+      "Trombopenia de origen periférico": "Puede existir trombopenia, pero esa descripción inespecífica no identifica el defecto de adhesión hereditario.",
+      "Trombocitosis sin alteraciones funcionales de las plaquetas": "El síndrome produce disfunción de adhesión y suele cursar con trombopenia, no trombocitosis."
+    },
+    "claveMemorizar": "Bernard-Soulier: GPIb-IX, adhesión, plaquetas gigantes.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 36 y 40"
+  },
+  "2-90": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La clave agrupa la naturaleza autoinmune, el carácter hemorrágico y la trombopenia como rasgos de la púrpura trombocitopénica idiopática.",
+    "motivosPorOpcion": {
+      "Es una enfermedad autoinmune.": "Es cierta porque existen autoanticuerpos antiplaquetarios, pero la clave considera además válidas las otras descripciones.",
+      "Es un trastorno hemorrágico.": "Es cierta por las petequias y hemorragias mucosas, pero no es la respuesta integradora.",
+      "Cursa con trombopenia y aumento moderado de linfocitos.": "La clave la da por válida junto a las anteriores, aunque el aumento linfocitario no es un rasgo nuclear de la PTI."
+    },
+    "claveMemorizar": "PTI: autoinmunidad antiplaquetaria, trombopenia y sangrado mucocutáneo.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 41",
+    "advertenciaRevision": "El PDF respalda autoinmunidad, trombopenia y manifestaciones hemorrágicas, pero no menciona un aumento moderado de linfocitos; por ello no sustenta por completo «Todas correctas»."
+  },
+  "2-91": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El glucocáliz es la capa externa de la plaqueta y contiene estructuras de superficie que median su adhesión al área vascular lesionada.",
+    "motivosPorOpcion": {
+      "Membrana celular": "Sostiene los complejos receptores, pero el temario atribuye específicamente la función de adhesión a la capa exterior o glucocáliz.",
+      "Hialoplasma": "Es la zona interna sol-gel implicada en la estructura y cambio de forma, no la cubierta adhesiva.",
+      "Ninguna de las anteriores": "Sí existe una opción descrita expresamente como encargada de la adhesión: el glucocáliz."
+    },
+    "claveMemorizar": "Glucocáliz plaquetario = adhesión.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 36"
+  },
+  "2-92": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las plaquetas contienen tres grupos principales de orgánulos secretores: gránulos alfa, gránulos densos y lisosomas.",
+    "motivosPorOpcion": {
+      "Gránulos densos, alfa y beta.": "Incluye gránulos beta, que no aparecen en la clasificación plaquetaria del temario, y omite lisosomas.",
+      "Gránulos alfa, beta y gamma.": "Beta y gamma no son las categorías descritas; faltan densos y lisosomas.",
+      "Gránulos alfa y beta.": "Además de introducir beta, omite gránulos densos y lisosomas."
+    },
+    "claveMemorizar": "Plaqueta: alfa + densos + lisosomas.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 36"
+  },
+  "2-93": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los bastones de Auer son inclusiones alargadas de blastos mieloides formadas por agregación o fusión de gránulos azurófilos.",
+    "motivosPorOpcion": {
+      "Cuerpos de Döhle.": "Son inclusiones azuladas periféricas de neutrófilos, no varillas azurófilas de blastos.",
+      "Sombras de Gumprecht.": "Son restos nucleares de linfocitos frágiles rotos durante la extensión.",
+      "Cromatina de Barr.": "Es cromatina sexual condensada y puede verse como apéndice nuclear, no como varilla citoplasmática."
+    },
+    "claveMemorizar": "Varilla azurófila en blasto mieloide = bastón de Auer.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 12 y 30"
+  },
+  "2-94": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quimioterápicos deprimen la proliferación de precursores medulares y pueden causar leucopenia por reducción de la producción leucocitaria.",
+    "motivosPorOpcion": {
+      "Artritis reumatoide.": "Es un proceso inflamatorio y no constituye la asociación directa buscada frente a la mielosupresión farmacológica.",
+      "Leucemia aguda.": "Puede debutar con leucopenia, pero también con leucocitosis o recuento normal; no es un hallazgo uniforme.",
+      "Síndrome mieloproliferativo crónico.": "Se caracteriza por sobreproducción de una o más líneas y suele asociarse a recuentos elevados."
+    },
+    "claveMemorizar": "Quimioterapia → mielosupresión → leucopenia.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 14 y 18"
+  },
+  "2-95": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Al activarse, el linfocito aumenta de tamaño y desarrolla citoplasma abundante; por ello disminuye, no aumenta, la relación núcleo/citoplasma.",
+    "motivosPorOpcion": {
+      "El citoplasma suele ser hiperbasófilo.": "Es compatible con la intensa síntesis proteica del linfocito activado.",
+      "Pueden encontrarse en cuadros de mononucleosis infecciosa.": "La mononucleosis por VEB produce característicamente linfocitos activados.",
+      "Aparecen de manera fisiológica en niños recién nacidos.": "La clave la considera una observación posible y no la afirmación falsa buscada."
+    },
+    "claveMemorizar": "Linfocito activado: grande, citoplasma abundante e hiperbasófilo; relación N/C menor.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 8 y 33",
+    "advertenciaRevision": "El PDF describe linfocitos activados y su relación con mononucleosis, pero no confirma expresamente su aparición fisiológica en recién nacidos."
+  },
+  "2-96": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El criterio habitual empleado en la pregunta define trombocitosis como un recuento superior a 450 × 10^9/L.",
+    "motivosPorOpcion": {
+      "<450x109/L.": "Incluye el intervalo normal y cifras bajas; el signo es opuesto al aumento requerido.",
+      ">250x109/L.": "Ese valor puede encontrarse dentro del intervalo normal y no basta para diagnosticar trombocitosis.",
+      ">150x109/L.": "También corresponde a valores normales habituales y carece de especificidad para trombocitosis."
+    },
+    "claveMemorizar": "Trombocitosis: >450 × 10^9/L en el criterio de la pregunta.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39",
+    "advertenciaRevision": "El PDF fija trombocitosis por encima de 400.000/mm3, mientras la pregunta y su clave usan el umbral >450 × 10^9/L."
+  },
+  "2-97": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las plaquetas son fragmentos citoplasmáticos anucleados procedentes de megacariocitos; por tanto, no pueden tener un núcleo excéntrico.",
+    "motivosPorOpcion": {
+      "Se originan a partir de la fragmentación del citoplasma de los megacariocitos.": "Es la procedencia fisiológica descrita por el temario.",
+      "Tienen un tamaño entre 1-3 μm.": "Es compatible de forma aproximada con su pequeño tamaño; el PDF indica 2–4 µm.",
+      "Su función es la hemostasia primaria.": "La formación del tapón plaquetario es una función esencial de la hemostasia primaria."
+    },
+    "claveMemorizar": "Plaqueta = fragmento anucleado de megacariocito.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 35",
+    "advertenciaRevision": "El PDF indica un diámetro de 2–4 µm, mientras la opción aceptada como verdadera expresa 1–3 µm; ambos intervalos se solapan, pero no son idénticos."
+  },
+  "2-98": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En algunos pacientes el EDTA induce agregación plaquetaria in vitro; el analizador no cuenta esos agregados como plaquetas y produce una trombocitopenia ficticia.",
+    "motivosPorOpcion": {
+      "La utilización de tubos con citrato sódico para la realización del hemograma.": "El citrato se recomienda precisamente para comprobar y evitar el fenómeno dependiente de EDTA.",
+      "El abuso de alcohol.": "Puede causar trombopenia real por toxicidad o alteración de producción, no un artefacto de recuento específico.",
+      "El déficit de trombopoyetina.": "Reduciría verdaderamente la producción plaquetaria, por lo que no sería una trombocitopenia ficticia."
+    },
+    "claveMemorizar": "EDTA puede agregar plaquetas in vitro y falsear el recuento a la baja.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38"
+  },
+  "2-99": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La plaqueta no es una célula completa, sino un pequeño fragmento anucleado desprendido del citoplasma del megacariocito.",
+    "motivosPorOpcion": {
+      "Neutrófilos.": "Son leucocitos granulocíticos completos con núcleo segmentado.",
+      "Hematíes.": "Aunque maduros carecen de núcleo, son células diferenciadas completas de la serie eritroide.",
+      "Macrófagos.": "Son células fagocíticas nucleadas derivadas de monocitos."
+    },
+    "claveMemorizar": "Entre los elementos formes, la plaqueta es un fragmento celular.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 35"
+  },
+  "2-100": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las parasitosis estimulan la respuesta eosinófila, de modo que es esperable encontrar eosinofilia en sangre periférica.",
+    "motivosPorOpcion": {
+      "Enfermedades autoinmunes.": "Pueden modificar distintos recuentos, pero no son la asociación clásica y directa de esta pregunta.",
+      "Viriasis.": "Las infecciones víricas se asocian con mayor frecuencia a linfocitosis o incluso neutropenia.",
+      "Leucemia linfática crónica.": "Produce una expansión clonal de linfocitos B, no una eosinofilia característica."
+    },
+    "claveMemorizar": "Eosinofilia: buscar parásitos, alergia o asma.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14"
+  },
+  "2-101": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El EDTA puede inducir agregados plaquetarios in vitro y el analizador informa entonces un recuento falsamente bajo.",
+    "motivosPorOpcion": {
+      "Citrato.": "Es el anticoagulante alternativo recomendado para verificar una pseudotrombopenia dependiente de EDTA.",
+      "Oxalato.": "No es el anticoagulante identificado en el temario como causa típica del fenómeno.",
+      "Heparina": "No es la causa más frecuente descrita de pseudotrombopenia en analizadores hematológicos."
+    },
+    "claveMemorizar": "Pseudotrombopenia del analizador: sospechar EDTA.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38"
+  },
+  "2-102": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La LMC se asocia a la translocación t(9;22)(q34;q11), que crea BCR-ABL; el temario la detecta en alrededor del 90% y la pregunta expresa 95%.",
+    "motivosPorOpcion": {
+      "Afecta especialmente a pacientes jóvenes (edad mediana de aparición de 27 años).": "La LMC aparece típicamente en adultos de mayor edad, no con una mediana de 27 años.",
+      "Es una enfermedad monofásica: fase aguda o crisis blástica (CB)": "Evoluciona por fases, habitualmente crónica, acelerada y crisis blástica.",
+      "El índice de la fosfatasa alcalina granulocitaria (FAG) está aumentado en el 95% de los casos.": "En la LMC el índice FAG suele estar disminuido y ayuda a diferenciarla de una reacción leucemoide."
+    },
+    "claveMemorizar": "LMC: BCR-ABL por t(9;22) y FAG baja.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 23 y 30",
+    "advertenciaRevision": "El PDF sitúa el cromosoma Filadelfia en el 90% de pacientes con LMC, mientras la opción correcta de la pregunta indica 95%."
+  },
+  "2-103": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los bastones de Auer son inclusiones de blastos mieloides; los linfocitos maduros de la LLC no presentan estas varillas azurófilas.",
+    "motivosPorOpcion": {
+      "El citoplasma es pequeño.": "Los linfocitos de la LLC suelen ser pequeños y con escaso citoplasma.",
+      "Debido a su fragilidad pueden romperse al extender el frotis y formar sombras de Gumprecht.": "La fragilidad celular explica las sombras características de la LLC.",
+      "La cromatina es madura y condensada": "La LLC está formada por linfocitos de aspecto maduro con cromatina densa."
+    },
+    "claveMemorizar": "LLC: linfocito pequeño y maduro + sombra de Gumprecht; no Auer.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 12, 19 y 30"
+  },
+  "2-104": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las proyecciones describen una alteración morfológica del linfocito, mientras linfopenia, monocitosis y basofilia expresan cambios numéricos.",
+    "motivosPorOpcion": {
+      "Linfopenia.": "Indica una disminución cuantitativa de linfocitos.",
+      "Monocitosis.": "Indica un aumento cuantitativo de monocitos.",
+      "Basofilia.": "Indica un aumento cuantitativo de basófilos."
+    },
+    "claveMemorizar": "-penia/-citosis/-filia cuantifican; proyecciones describen forma.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 12-14"
+  },
+  "2-105": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El diagnóstico definitivo de leucemia requiere estudiar la médula ósea, donde se valora el porcentaje y linaje de blastos mediante morfología y técnicas complementarias.",
+    "motivosPorOpcion": {
+      "Una muestra de esputo.": "Sirve para estudiar patología respiratoria, no la hematopoyesis medular.",
+      "Una muestra de orina.": "Puede aportar datos metabólicos o renales, pero no permite clasificar una proliferación leucémica.",
+      "Una muestra de heces.": "Se emplea en estudios digestivos o microbiológicos y no contiene la población medular diagnóstica."
+    },
+    "claveMemorizar": "Leucemia: confirmación y clasificación en médula ósea.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 18"
+  },
+  "2-106": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los eosinófilos constituyen una fracción minoritaria de los leucocitos; el intervalo de 2–5% es el compatible con su proporción normal.",
+    "motivosPorOpcion": {
+      "Constituyen menos del 0,2% de los leucocitos en sangre periférica.": "Ese porcentaje es demasiado bajo para el intervalo eosinófilo habitual.",
+      "Constituyen el 90% de los polimorfonucleares.": "Los neutrófilos, no los eosinófilos, son la población granulocítica predominante.",
+      "Provienen de los ganglios linfáticos.": "Se originan en la médula ósea dentro de la línea granulocítica."
+    },
+    "claveMemorizar": "Eosinófilos: pocos, aproximadamente 2–5%.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 5"
+  },
+  "2-107": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La desviación a la izquierda consiste en un aumento de formas neutrófilas juveniles, especialmente cayados o bandas, liberadas a sangre periférica.",
+    "motivosPorOpcion": {
+      "Hay un aumento de porcentaje de segmentados en sangre periférica.": "Los segmentados son formas maduras y su aumento aislado no define desviación a la izquierda.",
+      "Si hay una disminución de monocitos en sangre periférica.": "La monocitopenia no describe el grado de maduración de la serie neutrófila.",
+      "Todas son correctas.": "Las opciones sobre segmentados y monocitos no cumplen la definición, por lo que no pueden ser todas correctas."
+    },
+    "claveMemorizar": "Izquierda = más neutrófilos jóvenes o bandas.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 10 y 13"
+  },
+  "2-108": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los pleocariocitos son neutrófilos de gran tamaño e hipersegmentados, con más de cinco lóbulos nucleares.",
+    "motivosPorOpcion": {
+      "Son plaquetas inmaduras": "Las plaquetas jóvenes grandes se denominan macroplaquetas; no son pleocariocitos.",
+      "Son neutrófilos hipersegmentados con cuatro lóbulos en su núcleo": "Cuatro lóbulos pueden entrar en la segmentación normal; la hipersegmentación exige más de cinco.",
+      "Son neutrófilos en fase inmadura": "Las formas inmaduras presentan núcleo no segmentado o en banda, no hipersegmentación."
+    },
+    "claveMemorizar": "Pleocariocito = neutrófilo grande con >5 lóbulos.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 10-11"
+  },
+  "2-109": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mieloperoxidasa suele ser positiva en mieloblastos y negativa en linfoblastos, por lo que diferencia el origen mieloide del linfoide.",
+    "motivosPorOpcion": {
+      "Tinción PAS": "Puede apoyar la identificación de linfoblastos, pero no es la prueba enzimática principal de la distinción mieloide frente a linfoide planteada.",
+      "Tinción de los": "La opción está incompleta y no identifica ninguna técnica diagnóstica interpretable.",
+      "Tinción de May-Grünwald-Giemsa": "Muestra morfología general, pero no demuestra específicamente la actividad mieloperoxidasa."
+    },
+    "claveMemorizar": "MPO positiva orienta a mieloblasto; linfoblasto suele ser MPO negativo.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 29-30"
+  },
+  "2-110": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El mieloma múltiple es una proliferación clonal de células plasmáticas alteradas que producen una inmunoglobulina monoclonal.",
+    "motivosPorOpcion": {
+      "Neutrófilos inmaduros": "Una proliferación de precursores mieloides corresponde a neoplasias mieloides, no a mieloma.",
+      "Linfocitos t": "Las células plasmáticas proceden del linaje B y no de linfocitos T.",
+      "Mielocitos": "Los mielocitos son precursores granulocíticos y no secretan la paraproteína del mieloma."
+    },
+    "claveMemorizar": "Mieloma = clon de células plasmáticas + paraproteína.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33"
+  },
+  "2-111": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El basófilo es un granulocito polimorfonuclear de origen mieloide, no una célula de la serie linfoide.",
+    "motivosPorOpcion": {
+      "Las células mononucleadas corresponden a linfocitos y monocitos": "Ambos grupos presentan un núcleo no segmentado y forman la fracción mononuclear.",
+      "El mielocito pertenece a la serie granulocítica": "Es una fase de maduración de los granulocitos.",
+      "Los leucocitos se dividen en polimorfonucleares y mononucleares": "Es una clasificación morfológica válida: granulocitos frente a linfocitos y monocitos."
+    },
+    "claveMemorizar": "Basófilo = granulocito mieloide, no linfocito.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 5"
+  },
+  "2-112": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El recuento en citrato se utiliza para evitar la agregación in vitro que el EDTA provoca en pacientes EDTA-dependientes y comprobar una pseudotrombopenia.",
+    "motivosPorOpcion": {
+      "Para determinar rápidamente la coagulación del paciente": "Aunque el citrato se usa en pruebas de coagulación, aquí la técnica persigue un recuento plaquetario fiable.",
+      "Para ver si las plaquetas del paciente son grandes": "El tamaño se valora con índices, frotis o recuento manual; cambiar el anticoagulante no es su finalidad principal.",
+      "Para el diagnóstico de la trombocitemia esencial": "La trombocitemia se diagnostica por trombocitosis persistente y estudios hematológicos, no por evitar agregación por EDTA."
+    },
+    "claveMemorizar": "Plaquetas en citrato: confirmar pseudotrombopenia por EDTA.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38"
+  },
+  "2-113": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La leucemia linfocítica o linfoide crónica es una de las categorías reconocidas de leucemia crónica.",
+    "motivosPorOpcion": {
+      "Leucemia perniciosa": "«Perniciosa» denomina un tipo de anemia por déficit de vitamina B12, no una leucemia.",
+      "Leucemia macrocítica": "Macrocítica describe el tamaño eritrocitario en anemias y no una clase de leucemia.",
+      "Leucemia microcítica": "Microcítica también clasifica anemias por volumen eritrocitario, no neoplasias leucémicas."
+    },
+    "claveMemorizar": "Crónicas principales: leucemia linfoide crónica y mieloide crónica.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 16 y 19"
+  },
+  "2-114": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La presencia de células de Reed-Sternberg es el rasgo celular característico utilizado para diagnosticar el linfoma de Hodgkin.",
+    "motivosPorOpcion": {
+      "Sombras de Gumprecht.": "Son restos de linfocitos frágiles característicos de la leucemia linfoide crónica.",
+      "Mieloblastos diferenciales.": "Los mieloblastos orientan a leucemia mieloide aguda y no identifican un linfoma de Hodgkin.",
+      "Ninguna es correcta": "Sí hay una célula diagnóstica entre las opciones: Reed-Sternberg."
+    },
+    "claveMemorizar": "Hodgkin → Reed-Sternberg.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 20"
+  },
+  "2-115": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El temario relaciona el linfoma de Hodgkin con linfopenia, no con linfocitosis; por eso es la situación que no se espera que eleve linfocitos.",
+    "motivosPorOpcion": {
+      "Leucemia linfocítica aguda.": "La proliferación linfoide puede aumentar células de esa línea en sangre, aunque sean blastos.",
+      "Leucemia linfocítica crónica.": "Se define por una expansión persistente de linfocitos clonales, típicamente B.",
+      "Infecciones bacterianas.": "Algunas infecciones bacterianas pueden acompañarse de linfocitosis, aunque muchas producen neutrofilia."
+    },
+    "claveMemorizar": "Hodgkin se asocia a linfopenia; LLC, a linfocitosis clonal.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14",
+    "advertenciaRevision": "El PDF respalda linfopenia en Hodgkin, pero no sostiene como regla general que las infecciones bacterianas produzcan linfocitosis; esa opción es demasiado amplia."
+  },
+  "2-116": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Entre 20.000 y 50.000 plaquetas/µl la hemostasia está comprometida y aumenta el riesgo de hemorragias, especialmente ante traumatismos o procedimientos.",
+    "motivosPorOpcion": {
+      "De 150.000-300.000 /μl": "Es un intervalo de recuento plaquetario normal y no implica por sí mismo riesgo hemorrágico elevado.",
+      "De 100.000-150.000 /μl": "Corresponde a trombopenia leve y suele conservar una hemostasia suficiente.",
+      "De 100.000-50.000 /μl": "La trombopenia es moderada, pero el temario destaca el incremento del riesgo por debajo de 50.000/mm3."
+    },
+    "claveMemorizar": "<50.000/µl: hemorragias difíciles de controlar; cuanto más bajo, mayor riesgo.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39"
+  },
+  "2-117": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las células B del centro germinal conservan marcadores B como CD20 y CD79a y expresan CD10, asociado al fenotipo de centro germinal.",
+    "motivosPorOpcion": {
+      "CD20a y CD79a.": "Incluye marcadores B, pero omite CD10, que distingue el fenotipo de centro germinal.",
+      "CD20a,CD79a, CD10 y CD120a.": "Añade CD120a, que no forma parte del perfil solicitado en la clave.",
+      "CD20a,CD79a, CD10 y CD12a.": "Añade CD12a, marcador que tampoco integra el perfil de centro germinal planteado."
+    },
+    "claveMemorizar": "Centro germinal B: CD20+, CD79a+ y CD10+.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 27-28",
+    "advertenciaRevision": "El PDF enumera CD20 como marcador B y CD10 en linfoma folicular, pero no presenta expresamente el perfil conjunto CD20/CD79a/CD10 del centro germinal ni menciona CD79a."
+  },
+  "2-118": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los eosinófilos intervienen en reacciones de hipersensibilidad y suelen aumentar en alergias, además de hacerlo en parasitosis y asma.",
+    "motivosPorOpcion": {
+      "Neutrófilos.": "Aumentan sobre todo en infecciones y procesos inflamatorios agudos, no son el granulocito típico de alergia.",
+      "Basófilos.": "Participan en hipersensibilidad, pero la elevación sanguínea más característica de las manifestaciones alérgicas es la eosinofilia.",
+      "Monocitos.": "No son granulocitos y su aumento se asocia más a infecciones crónicas o granulomatosas."
+    },
+    "claveMemorizar": "Alergia → eosinófilos elevados.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 5 y 14"
+  }
+}

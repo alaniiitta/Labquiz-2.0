@@ -10,6 +10,7 @@
     "audit:topic-05-explanations": "node scripts/audit-topic-05-explanations.mjs",
     "audit:topic-06-explanations": "node scripts/audit-topic-06-explanations.mjs",
     "audit:topic-07-explanations": "node scripts/audit-topic-07-explanations.mjs",
+    "audit:topic-08-explanations": "node scripts/audit-topic-08-explanations.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
