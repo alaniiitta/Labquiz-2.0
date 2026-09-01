@@ -1,0 +1,533 @@
+{
+  "249": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La nefelometría mide la radiación dispersada y ofrece buena sensibilidad cuando la suspensión contiene pocas partículas. Por ello resulta más adecuada que la turbidimetría para cuantificar proteínas en concentraciones bajas mediante inmunocomplejos.",
+    "motivosPorOpcion": {
+      "Turbidimetría.": "Mide la disminución de luz transmitida y se aplica mejor a suspensiones relativamente concentradas, donde la atenuación es suficiente.",
+      "Electroforesis capilar.": "Separa especies cargadas por su movilidad electroforética; no es la técnica directa más sensible de las propuestas para cuantificar proteínas a baja concentración.",
+      "Espectroscopía UV-visible.": "La absorbancia directa de proteínas pierde sensibilidad a concentraciones muy bajas y puede sufrir interferencias de otros cromóforos."
+    },
+    "claveMemorizar": "Poca concentración de partículas: nefelometría; suspensiones concentradas: turbidimetría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-6"
+  },
+  "250": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El microscopio electrónico sustituye la radiación luminosa por un haz de electrones. La menor longitud de onda asociada a los electrones permite una resolución muy superior a la del microscopio óptico.",
+    "motivosPorOpcion": {
+      "Que utiliza un haz de luz invertida.": "No utiliza un tipo especial de luz, sino electrones acelerados y lentes electromagnéticas.",
+      "Que el máximo aumento no es proporcional a la longitud de onda del medio con el que se observa.": "La resolución sí está vinculada a la longitud de onda; usar electrones de longitud de onda muy corta es precisamente la base de su mayor poder resolutivo."
+    },
+    "claveMemorizar": "Microscopio electrónico: haz de electrones y resolución de hasta aproximadamente 0,002 µm.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 21-22 y 33-34"
+  },
+  "251": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El punto isoeléctrico es el pH al que las cargas positivas y negativas de una molécula se compensan. En ese punto su carga neta y su movilidad electroforética son cero.",
+    "motivosPorOpcion": {
+      "Cuanto mayor es la fuerza iónica, más anchas son las bandas de separación.": "El temario relaciona una fuerza iónica mayor con una velocidad de migración menor por el aumento de interacciones entre iones, no establece como regla que ensanche las bandas.",
+      "La velocidad de migración es inversamente proporcional a la carga neta de la partícula.": "Una carga neta mayor incrementa la fuerza ejercida por el campo y favorece la movilidad, manteniendo constantes los demás factores."
+    },
+    "claveMemorizar": "En el pI: carga neta = 0 y movilidad electroforética = 0.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45-46, 53-54 y 59"
+  },
+  "252": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La auramina es un fluorocromo: absorbe radiación de excitación y emite luz detectable. Por eso una tinción con auramina se observa mediante microscopía de fluorescencia.",
+    "motivosPorOpcion": {
+      "Campo oscuro.": "Aumenta el contraste al recoger luz difractada por la muestra, pero no excita ni detecta específicamente fluorocromos.",
+      "Contraste de fase.": "Convierte diferencias de índice de refracción en contraste y se usa en muestras transparentes sin teñir, no para leer auramina."
+    },
+    "claveMemorizar": "Auramina, rodamina y naranja de acridina: fluorocromos para microscopía de fluorescencia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32"
+  },
+  "253": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tira reactiva desarrolla zonas coloreadas cuya radiación reflejada se relaciona con la concentración del analito. Ese fundamento corresponde a la fotometría de reflectancia.",
+    "motivosPorOpcion": {
+      "Nefelometría.": "Cuantifica luz dispersada por partículas suspendidas; una tira seca se lee a partir de la luz reflejada por su superficie.",
+      "Enzimoinmunoensayo.": "Se basa en el reconocimiento antígeno-anticuerpo y una señal enzimática, mecanismo que no constituye el fundamento general de la tira sistemática de orina."
+    },
+    "claveMemorizar": "Tira reactiva de orina = fotometría de reflectancia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 10-14"
+  },
+  "254": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una clasificación cromatográfica atiende a la naturaleza física de las fases; cuando la fase móvil es gaseosa se habla de cromatografía de gases. Adsorción describe, en cambio, un mecanismo de separación.",
+    "motivosPorOpcion": {
+      "Cromatografía de adsorción.": "Se clasifica por el tipo de interacción del soluto con la superficie de la fase estacionaria, no solo por la naturaleza de ambas fases.",
+      "Cromatografía de absorción.": "No es la categoría propuesta en el temario; la modalidad superficial correcta se denomina adsorción."
+    },
+    "claveMemorizar": "Naturaleza de la fase móvil: cromatografía de gases o de líquidos; mecanismo: adsorción, reparto, intercambio o exclusión.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61 y 67-69"
+  },
+  "255": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El pH modifica la ionización y, con ella, la carga neta de las moléculas. Como la fuerza eléctrica depende de esa carga, el pH condiciona la dirección y velocidad de migración.",
+    "motivosPorOpcion": {
+      "La electroforesis se utiliza para separar compuestos como carbohidratos y lípidos.": "El temario destaca su aplicación a proteínas y ácidos nucleicos, moléculas ionizables que migran en el campo eléctrico.",
+      "La movilidad electroforética de una molécula depende directamente de su masa, y es inversamente proporcional al campo magnético.": "Intervienen carga, tamaño, fricción y campo eléctrico; no un campo magnético, y un tamaño mayor aumenta la resistencia.",
+      "El coeficiente de rozamiento es directamente proporcional a la movilidad de la molécula.": "Un rozamiento mayor se opone al desplazamiento, por lo que reduce la movilidad."
+    },
+    "claveMemorizar": "Electroforesis: la carga depende del pH y la movilidad aumenta con carga y campo, pero disminuye con fricción.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45-46 y 53-55"
+  },
+  "256": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los objetivos pueden clasificarse por su empleo como secos o de inmersión y por su corrección óptica como acromáticos o apocromáticos. «Betacromático» no designa una clase de objetivo microscópico.",
+    "motivosPorOpcion": {
+      "Objetivos secos.": "Trabajan con aire entre el objetivo y la preparación y constituyen una categoría real.",
+      "Objetivos de inmersión.": "Usan un líquido, habitualmente aceite, para aumentar la apertura numérica y la resolución.",
+      "Objetivos apocromáticos.": "Corrigen aberraciones cromáticas en varias longitudes de onda y son una clase óptica reconocida."
+    },
+    "claveMemorizar": "Objetivos por uso: secos o inmersión; por corrección: acromáticos o apocromáticos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18"
+  },
+  "257": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tres descripciones intercambian o deforman el funcionamiento del MET y el MEB. El MET forma una imagen aumentada con electrones transmitidos, mientras el MEB barre punto por punto la superficie y produce una imagen de relieve.",
+    "motivosPorOpcion": {
+      "En el microscopio electrónico de transmisión (MET) una parte de los electrones emiten señales por el objeto formando una imagen reducida de la muestra.": "En el MET los electrones atraviesan o son dispersados por la muestra y forman una imagen aumentada, no reducida ni basada en electrones que «emiten señales» por el objeto.",
+      "El microscopio electrónico de barrido (MEB) crea una imagen simplificada de la superficie de un objeto.": "El MEB genera una imagen detallada, con apariencia tridimensional, de la topografía superficial; «simplificada» no describe su resultado.",
+      "El microscopio electrónico de transmisión (MET) explora la superficie de la imagen punto por punto, al contrario del microscopio electrónico de barrido, que examina una gran parte de la muestra cada vez.": "Es el MEB el que explora la superficie punto por punto; el MET proyecta simultáneamente los electrones transmitidos a través de una sección fina."
+    },
+    "claveMemorizar": "MET: electrones atraviesan una sección; MEB: barrido punto a punto de la superficie.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-37"
+  },
+  "258": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La espectrometría de emisión atómica con llama mide la radiación emitida por átomos excitados térmicamente y recibe el nombre de fotometría de llama. Se emplea especialmente para metales alcalinos y alcalinotérreos.",
+    "motivosPorOpcion": {
+      "Fluorometría.": "Mide fluorescencia molecular tras excitación radiativa, no la emisión de átomos excitados en una llama.",
+      "Espectrometría de reflectancia.": "Mide radiación reflejada por una superficie, como ocurre en tiras reactivas.",
+      "Espectrometría de dispersión de partículas.": "Se relaciona con nefelometría o turbidimetría y no con emisión atómica."
+    },
+    "claveMemorizar": "Emisión atómica con llama = fotometría de llama.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 27 y 33-35"
+  },
+  "259": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "A un pH superior a su punto isoeléctrico, la proteína pierde protones y presenta carga neta negativa. En el campo eléctrico migra hacia el ánodo, que es el polo positivo.",
+    "motivosPorOpcion": {
+      "Hacia el ánodo porque a ese pH tienen carga positiva.": "La dirección hacia el ánodo es correcta, pero a pH superior al pI la carga de la proteína es negativa.",
+      "Hacia el cátodo porque a ese pH tienen carga positiva.": "Una proteína sería positiva y migraría al cátodo cuando el pH estuviera por debajo de su pI.",
+      "Hacia el cátodo porque a ese pH tienen carga negativa.": "Las cargas negativas son atraídas por el polo positivo, no por el cátodo negativo."
+    },
+    "claveMemorizar": "pH > pI: proteína negativa hacia ánodo; pH < pI: positiva hacia cátodo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 59-60"
+  },
+  "260": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una célula electroquímica transforma la energía asociada a una reacción de oxidación-reducción en energía eléctrica. La transferencia de electrones entre las semirreacciones genera la diferencia de potencial.",
+    "motivosPorOpcion": {
+      "Energía solar.": "La conversión directa de radiación en electricidad corresponde a una célula fotovoltaica, no a una célula electroquímica.",
+      "Una pila voltaica.": "Una pila voltaica es un tipo de célula electroquímica, no la fuente primaria de la que esta obtiene la energía.",
+      "Ninguna es correcta.": "Las reacciones redox sí pueden producir una corriente eléctrica, por lo que existe una opción válida."
+    },
+    "claveMemorizar": "Célula electroquímica: reacción redox convertida en energía eléctrica.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-41",
+    "advertenciaRevision": "El PDF desarrolla métodos electroanalíticos y las semirreacciones de oxidación-reducción, pero no formula de manera expresa esta definición general de célula electroquímica."
+  },
+  "261": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El revólver porta los objetivos y permite seleccionarlos, mientras la columna sostiene y articula el conjunto; ambos pertenecen al sistema mecánico. Los objetivos, el condensador y el diafragma se clasifican en otros sistemas.",
+    "motivosPorOpcion": {
+      "Revólver y objetivos.": "El revólver es mecánico, pero los objetivos son lentes del sistema óptico.",
+      "Platina y diafragma.": "La platina es mecánica; el diafragma regula la iluminación y pertenece al sistema de iluminación.",
+      "Condensador y diafragma.": "Ambos regulan o dirigen la luz y forman parte del sistema de iluminación, no del mecánico."
+    },
+    "claveMemorizar": "Mecánico: pie, columna, tubo, revólver, platina y mandos de enfoque.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 15-19"
+  },
+  "262": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El naranja de acridina se intercala o asocia con los ácidos nucleicos y emite fluorescencia al ser excitado. Permite diferenciar material nucleico según su señal fluorescente.",
+    "motivosPorOpcion": {
+      "Ácidos micólicos.": "Los ácidos micólicos de bacterias ácido-alcohol resistentes se detectan clásicamente con auramina, no son la diana del naranja de acridina.",
+      "Hongos.": "Puede teñir material nucleico presente en células, pero «hongos» no identifica la molécula diana específica del colorante.",
+      "Bacterias ácido-resistentes.": "La detección fluorescente específica de ácido-resistencia emplea auramina o auramina-rodamina."
+    },
+    "claveMemorizar": "Naranja de acridina: ácidos nucleicos; auramina-rodamina: ácido-alcohol resistentes.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32"
+  },
+  "263": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En un examen en fresco, el cubreobjetos contiene y aplana la gota para formar una preparación húmeda observable. También reduce evaporación y protege el objetivo del contacto con la muestra.",
+    "motivosPorOpcion": {
+      "En el procedimiento de la tinción de Gram.": "El frotis teñido se fija y se observa habitualmente sin cubreobjetos, aplicando aceite directamente cuando se usa inmersión.",
+      "En la observación con el objetivo de inmersión.": "El aceite de inmersión se coloca entre la preparación seca y el objetivo; el cubreobjetos no es un requisito general de este objetivo.",
+      "Siempre deben llevar cubreobjetos.": "Los frotis fijados y teñidos son una excepción habitual, por lo que su uso depende del tipo de preparación."
+    },
+    "claveMemorizar": "Preparación en fresco: gota más cubreobjetos; frotis teñido: normalmente sin cubreobjetos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18 y 23-25",
+    "advertenciaRevision": "El PDF describe objetivos, preparación e iluminación, pero no establece de forma expresa la regla del cubreobjetos para exámenes en fresco."
+  },
+  "264": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El naranja de acridina y la rodamina son fluorocromos que emiten luz tras ser excitados con radiación apropiada. Esa emisión se detecta con un microscopio de fluorescencia.",
+    "motivosPorOpcion": {
+      "Microscopía de luz polarizada.": "Detecta birrefringencia, especialmente en cristales, y no depende de fluorocromos.",
+      "Microscopía de campo oscuro.": "Forma la imagen con luz dispersada lateralmente por objetos sin teñir, no con emisión fluorescente.",
+      "Microscopía de campo luminoso.": "Utiliza luz transmitida y contraste por absorción; no es el sistema específico para captar fluorescencia."
+    },
+    "claveMemorizar": "Fluorocromo excitado que emite luz: microscopía de fluorescencia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32"
+  },
+  "265": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un microscopio simple utiliza una sola lente o un único sistema convergente, como una lupa. La lupa binocular mantiene ese principio de observación, aunque permita visión con ambos ojos.",
+    "motivosPorOpcion": {
+      "De contraste de fases.": "Es un microscopio óptico compuesto con objetivo y ocular, además de condensador y objetivos especiales.",
+      "Óptico estándar.": "El microscopio óptico convencional es compuesto porque combina al menos objetivo y ocular.",
+      "De campo oscuro.": "Es una modalidad compuesta que requiere objetivos y un condensador especial para iluminación oblicua."
+    },
+    "claveMemorizar": "Simple = una lente, tipo lupa; compuesto = objetivo más ocular.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 24 y 26-29"
+  },
+  "266": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El aumento total se calcula multiplicando el aumento del ocular por el del objetivo. Con ocular de 8× y objetivo de 100×, el resultado es 8 × 100 = 800 aumentos.",
+    "motivosPorOpcion": {
+      "1000.": "Correspondería a combinar un ocular de 10× con un objetivo de 100×, no el ocular de 8× indicado.",
+      "108.": "Sumar 8 y 100 no es la operación usada para obtener el aumento total.",
+      "Ninguna es correcta.": "El producto de los aumentos sí aparece entre las opciones: 800."
+    },
+    "claveMemorizar": "Aumento total = ocular × objetivo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-20"
+  },
+  "267": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El vidrio común absorbe radiación ultravioleta, por lo que los componentes ópticos que deben transmitirla se fabrican con materiales como cuarzo o sílice fundida. En consecuencia, no todos pueden ser de vidrio.",
+    "motivosPorOpcion": {
+      "Se utiliza mucho en investigación científica.": "La menor longitud de onda ultravioleta mejora la resolución y tiene aplicaciones especializadas de investigación.",
+      "La fuente de luz ultravioleta tiene una longitud de onda de 200nm.": "Una longitud de onda cercana a 200 nm pertenece a la región ultravioleta y puede emplearse en este tipo de microscopía.",
+      "Las imágenes deben visualizarse mediante fluorescencia, fotografía o un sensor digital.": "La radiación ultravioleta no es visible directamente y debe convertirse o registrarse mediante esos sistemas."
+    },
+    "claveMemorizar": "UV no atraviesa vidrio común: óptica de cuarzo y visualización indirecta.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 21 y 24; Tema 7.2 Técnicas intrumentales.pdf, p. 15",
+    "advertenciaRevision": "Los PDF apoyan la dependencia de la resolución con la longitud de onda y el uso de cuarzo en UV, pero no desarrollan específicamente el microscopio de luz ultravioleta ni fijan 200 nm como su longitud de onda."
+  },
+  "268": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La fuerza ejercida por el campo aumenta con la carga neta de la partícula, mientras que un tamaño menor reduce el rozamiento con el medio. La combinación de mayor carga y menor tamaño produce una migración más rápida.",
+    "motivosPorOpcion": {
+      "La velocidad de migración aumenta cuanto menor sea la carga y menor el tamaño del ion": "El tamaño pequeño favorece la migración, pero una carga menor reduce la fuerza electroforética.",
+      "La velocidad de migración aumenta cuanto mayor sea la carga y mayor el tamaño del ion": "La carga mayor favorece el movimiento, pero el tamaño grande eleva la resistencia y lo frena.",
+      "La velocidad de migración aumenta cuanto menor sea la carga y mayor el tamaño del ion": "Ambos cambios disminuyen la movilidad: baja la fuerza eléctrica y aumenta el rozamiento."
+    },
+    "claveMemorizar": "Movilidad electroforética: aumenta con la carga y disminuye con el tamaño y el rozamiento.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45-46 y 53-55"
+  },
+  "269": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El número de platos teóricos N mide la capacidad separadora acumulada de una columna, mientras la altura equivalente H expresa el espacio necesario por plato. Una columna es más eficiente cuando N es alto y H es bajo.",
+    "motivosPorOpcion": {
+      "La eficiencia de la columna cromatográfica aumenta cuanto menor es el número de platos N y cuanto menor es la altura H del plato": "Una H pequeña es favorable, pero un N menor implica menos unidades teóricas de separación y reduce la eficacia.",
+      "La eficiencia de la columna cromatográfica aumenta cuanto menor es el número de platos N y cuanto mayor es la altura H del plato": "Pocos platos y una gran altura por plato describen conjuntamente una separación ineficiente.",
+      "La eficiencia de la columna cromatográfica aumenta cuanto mayor es el número de platos N y cuanto mayor es la altura H del plato": "Un N alto es favorable, pero una H alta indica que cada plato requiere más longitud y empeora la eficiencia."
+    },
+    "claveMemorizar": "Mayor eficiencia cromatográfica: N alto y H bajo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 64"
+  },
+  "270": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las medidas cinéticas siguen el cambio de señal tras iniciar la reacción antígeno-anticuerpo. La variación temporal permite separar la formación específica de inmunocomplejos de una absorbancia basal preexistente y estable.",
+    "motivosPorOpcion": {
+      "Restando a la señal obtenida la correspondiente a la señal de fondo.": "Una resta puede corregir un blanco conocido, pero no compensa con la misma robustez un fondo propio y variable de cada muestra.",
+      "Utilizando micropartículas de látex.": "El látex amplifica la dispersión y mejora la sensibilidad, pero también contribuye a la turbidez y no elimina por sí mismo la señal basal.",
+      "Situando el detector en ángulo con la fuente de radiación.": "Eso transforma la geometría de lectura hacia nefelometría; no elimina el fondo de una determinación inmunoturbidimétrica."
+    },
+    "claveMemorizar": "Inmunoturbidimetría con fondo: medir la velocidad de cambio, no solo una señal final.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-6",
+    "advertenciaRevision": "El PDF explica la geometría y las aplicaciones inmunológicas de turbidimetría y nefelometría, pero no desarrolla expresamente la corrección del fondo mediante medidas cinéticas."
+  },
+  "271": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La absorbancia se define como A = log10(1/T), equivalente a −log10(T). Por tanto, al disminuir la transmitancia aumenta la absorbancia.",
+    "motivosPorOpcion": {
+      "Al aumentar la absorbancia, aumenta la transmitancia.": "Ambas magnitudes varían en sentido inverso: una muestra que absorbe más transmite menos.",
+      "Al disminuir la transmitancia, disminuye la absorbancia.": "La relación logarítmica inversa hace que una caída de T produzca un aumento de A.",
+      "La transmitancia es directamente proporcional a la concentración.": "Según Beer, la magnitud lineal con la concentración en condiciones ideales es la absorbancia, no la transmitancia."
+    },
+    "claveMemorizar": "A = −log T = log(1/T); más A significa menos T.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 9-11"
+  },
+  "272": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El horno de grafito atomiza electrotérmicamente una pequeña muestra para producir átomos libres que absorben radiación característica. Es un atomizador de espectrofotometría de absorción atómica.",
+    "motivosPorOpcion": {
+      "Polarografía.": "Es una técnica electroanalítica basada en corriente y potencial con un electrodo, no en atomización térmica y absorción de luz.",
+      "Cromatografía de gases.": "Vaporiza y separa compuestos en una columna con fase móvil gaseosa; el horno de columna no es un horno de grafito atomizador.",
+      "Cromatografía líquida de alta resolución.": "Impulsa una fase móvil líquida por una columna y no necesita generar átomos libres en grafito."
+    },
+    "claveMemorizar": "Horno de grafito = atomización electrotérmica en absorción atómica.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 25-26"
+  },
+  "273": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La centrifugación aplica una fuerza superior a la gravedad para que los componentes sedimenten de forma distinta según su densidad. Los más densos tienden a desplazarse y sedimentar con mayor rapidez.",
+    "motivosPorOpcion": {
+      "Electroforesis.": "Separa partículas cargadas según su movilidad en un campo eléctrico, no principalmente por densidad.",
+      "Cromatografía.": "Separa por distinta distribución entre una fase móvil y otra estacionaria.",
+      "Extracción.": "Transfiere solutos entre fases según su solubilidad o coeficiente de reparto."
+    },
+    "claveMemorizar": "Diferencias de densidad bajo fuerza rotatoria: centrifugación.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 74"
+  },
+  "274": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En un microscopio compuesto, el objetivo forma la primera imagen aumentada y el ocular vuelve a ampliarla. Por ello el aumento total es el producto del número del ocular por el del objetivo.",
+    "motivosPorOpcion": {
+      "Multiplicando el número del objetivo por una constante": "La constante sería el aumento real del ocular, que debe conocerse; no existe un único factor fijo para todos los microscopios.",
+      "Mirando las especificaciones del fabricante.": "Las especificaciones pueden informar de los componentes, pero el cálculo óptico se obtiene multiplicando ocular y objetivo.",
+      "Multiplicando el número del objetivo por 20.": "Solo sería válido si el ocular concreto fuera de 20×; no es una regla general."
+    },
+    "claveMemorizar": "Aumento total = aumento del ocular × aumento del objetivo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-20"
+  },
+  "275": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ley de Lambert-Beer supone radiación monocromática para que el coeficiente de absorción permanezca definido a una longitud de onda concreta. La radiación policromática es una causa instrumental de desviación.",
+    "motivosPorOpcion": {
+      "Es necesario que se produzcan reacciones entre el componente a determinar y el resto de componentes en disolución.": "Las interacciones o reacciones con otros componentes pueden alterar los equilibrios y causar desviaciones químicas.",
+      "Los límites de absorbancia oscilan entre 0 y 3.": "La absorbancia no queda definida por ese intervalo universal; el rango útil depende del instrumento y de la linealidad del método.",
+      "Solo es de aplicación en soluciones concentradas": "La ley describe mejor soluciones diluidas; a concentraciones altas aumentan las interacciones y desviaciones."
+    },
+    "claveMemorizar": "Beer exige luz monocromática y funciona mejor en soluciones diluidas.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 11 y 14"
+  },
+  "276": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La electroforesis es la migración de partículas con carga en una disolución tampón sometida a un campo eléctrico. Las diferencias de movilidad permiten separarlas.",
+    "motivosPorOpcion": {
+      "Separación de partículas neutras disueltas en una solución conductora.": "Una partícula neutra no experimenta fuerza electroforética neta y no migra por este mecanismo.",
+      "Migración de las partículas iónicas en función de su configuración química.": "La configuración puede influir en el rozamiento, pero la definición requiere explicitar la acción del campo eléctrico.",
+      "La separación de partículas mediante reacciones electrolíticas.": "La separación se debe al movimiento de cargas, no a que deban producirse reacciones en los electrodos sobre los analitos."
+    },
+    "claveMemorizar": "Electroforesis = partículas cargadas + tampón + campo eléctrico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45-47"
+  },
+  "277": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las afirmaciones A, B y C describen correctamente ambas técnicas, así que ninguna de ellas es incorrecta. La turbidimetría mide luz no dispersada en línea y la nefelometría mide luz dispersada con el detector en ángulo.",
+    "motivosPorOpcion": {
+      "Las técnicas turbidimé tricas se aplican a suspensiones concentradas que producen grandes descensos en la intensidad trasmitida, y por ende de la señal que recibe el detector.": "Es correcta: una suspensión concentrada atenúa suficientemente el haz transmitido para una lectura turbidimétrica.",
+      "En nefelometría el detector de radiación se sitúa a un ángulo distinto de 0° y en turbidimetría el detector se sitúa de manera que forme un ángulo de 0° con respecto a la dirección del rayo incidente.": "Es correcta: cada geometría selecciona respectivamente luz dispersada o luz transmitida.",
+      "En las determinaciones turbidimé tricas se mide la cantidad de luz que atraviesa la suspensión sin ser dispersada.": "Es correcta: el detector alineado registra la radiación transmitida que no se desvió."
+    },
+    "claveMemorizar": "Turbidimetría: 0° y transmitida; nefelometría: ángulo distinto de 0° y dispersada.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4"
+  },
+  "278": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En intercambio catiónico la fase estacionaria negativa retiene proteínas con carga positiva. En las condiciones habituales de separación de proteínas séricas, la albúmina es la fracción más negativa y se une menos, por lo que eluye primero.",
+    "motivosPorOpcion": {
+      "Globulinas alfa-1.": "Presentan menor carga negativa efectiva que la albúmina en las condiciones habituales y muestran más retención relativa.",
+      "Globulinas alfa-2.": "Su interacción iónica con el intercambiador es mayor que la de la albúmina, por lo que requiere más tiempo o cambio de eluyente.",
+      "Beta-globulinas.": "No son la fracción menos retenida frente a la albúmina y eluyen después en este planteamiento."
+    },
+    "claveMemorizar": "Intercambio catiónico retiene cargas positivas; la albúmina, muy negativa, eluye primero.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 60 y 70-71",
+    "advertenciaRevision": "El PDF explica las cargas de las proteínas y el intercambio catiónico, pero no muestra de forma expresa el orden de elución de estas cuatro fracciones."
+  },
+  "279": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El límite de resolución es la distancia mínima entre dos puntos que todavía pueden percibirse como separados. Cuanto menor es ese límite, mayor es el poder de resolución del microscopio.",
+    "motivosPorOpcion": {
+      "Poder de resolución.": "Es la capacidad de distinguir detalles o puntos próximos, no la distancia mínima expresada como magnitud.",
+      "Profundidad de resolución.": "Alude al intervalo en profundidad que aparece enfocado y no a la separación lateral mínima entre puntos.",
+      "Distancia focal.": "Es la distancia asociada al enfoque de una lente y no mide la capacidad de separar dos detalles."
+    },
+    "claveMemorizar": "Límite de resolución = distancia mínima; poder de resolución = capacidad de distinguir.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 20-22"
+  },
+  "280": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El blanco cuantifica la señal debida a cubeta, disolvente o reactivos en ausencia del analito medido. Con esa lectura se pone el sistema a cero para que las muestras reflejen principalmente la absorbancia del analito.",
+    "motivosPorOpcion": {
+      "Tratar la muestra problema eliminando contaminantes.": "El blanco corrige instrumentalmente una contribución de fondo; no purifica ni modifica la muestra problema.",
+      "Averiguar si la relación existente entre absorbancia y concentración es lineal.": "La linealidad se comprueba con varios patrones o calibradores de concentración conocida.",
+      "Iniciar una serie de diluciones a fin de efectuar una curva patrón.": "Una curva patrón requiere calibradores; el blanco puede ser su punto cero, pero su función principal es ajustar la señal basal del aparato."
+    },
+    "claveMemorizar": "Blanco espectrofotométrico: medir fondo y ajustar el cero.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 12"
+  },
+  "281": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La electroforesis de disco es una modalidad electroforética en gel que concentra la muestra y después separa sus componentes en zonas o bandas. Las otras opciones usan principios de separación no eléctricos.",
+    "motivosPorOpcion": {
+      "Cromatografía de exclusión molecular.": "Separa por tamaño mediante poros de una fase estacionaria y pertenece a cromatografía.",
+      "Solubilización y precipitación por salado de las proteínas.": "Se basa en cambios de solubilidad por fuerza iónica, sin migración en un campo eléctrico.",
+      "Fraccionamiento con disolventes.": "Separa por diferencias de solubilidad o reparto entre medios, no por movilidad electroforética."
+    },
+    "claveMemorizar": "Electroforesis de disco: separación en gel mediante zonas discontinuas.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 47-58",
+    "advertenciaRevision": "El PDF clasifica electroforesis de zona, gel, gradiente, capilar e isoelectroenfoque, pero no nombra expresamente la electroforesis de disco."
+  },
+  "282": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El manganeso es un elemento metálico presente a nivel traza, por lo que puede cuantificarse mediante absorción atómica. La atomización electrotérmica en horno de grafito aporta la sensibilidad necesaria para muestras sanguíneas pequeñas.",
+    "motivosPorOpcion": {
+      "Cromatografía Líquida - Espectrometría de Masas.": "Es muy útil para moléculas orgánicas y algunas aplicaciones elementales acopladas, pero no es la técnica de referencia propuesta para manganeso total en este temario.",
+      "Cromatografía de Gases - Espectrometría de Masas.": "Exige especies volátiles o derivatizables y no determina directamente un metal no volátil como el manganeso."
+    },
+    "claveMemorizar": "Metales traza en sangre: absorción atómica con atomización electrotérmica.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 25-26",
+    "advertenciaRevision": "El PDF respalda la absorción atómica para cuantificar metales y metaloides, pero no menciona de forma expresa el manganeso ni su determinación en sangre con horno de grafito."
+  },
+  "283": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un fluorocromo absorbe fotones a una longitud de onda de excitación y, tras perder parte de esa energía, emite fluorescencia de menor energía. La radiación emitida tiene por ello una longitud de onda mayor que la absorbida.",
+    "motivosPorOpcion": {
+      "Con capacidad de desprender luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda menor.": "El proceso comienza con absorción, no con «desprender» luz, y la emisión suele desplazarse a longitud de onda mayor.",
+      "Con capacidad de absorber luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda menor.": "Identifica bien la absorción inicial, pero invierte el desplazamiento de Stokes: la emisión es menos energética y de longitud mayor.",
+      "Con capacidad de desprender luz de una determinada longitud de onda y emitir fluorescencia a una longitud de onda mayor.": "La longitud de emisión es coherente, pero falta el paso esencial de absorción de la radiación excitadora."
+    },
+    "claveMemorizar": "Fluorocromo: absorbe λ corta y emite λ más larga.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32; Tema 7.2 Técnicas intrumentales.pdf, pp. 29-32"
+  },
+  "284": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cristales birrefringentes desdoblan o modifican la luz polarizada según su orientación. La microscopía de luz polarizada permite detectarlos e identificarlos en líquidos biológicos.",
+    "motivosPorOpcion": {
+      "Microscopía de contraste de fase": "Convierte diferencias de índice de refracción en intensidad para observar estructuras transparentes, pero no analiza específicamente birrefringencia.",
+      "Microscopía de fluorescencia": "Detecta emisión de fluorocromos excitados y no requiere que el objeto sea birrefringente.",
+      "Microscopía de campo oscuro": "Recoge luz dispersada por la muestra y mejora el contraste de objetos finos sin teñir, pero no caracteriza su respuesta a luz polarizada."
+    },
+    "claveMemorizar": "Cristales birrefringentes en líquidos: luz polarizada.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 30"
+  },
+  "285": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La nefelometría coloca el detector fuera del eje del haz para medir la radiación dispersada por partículas. En una reacción serológica, esas partículas son los inmunocomplejos antígeno-anticuerpo formados.",
+    "motivosPorOpcion": {
+      "Pruebas de neutralización": "Evalúan la pérdida de actividad biológica de un agente o toxina por anticuerpos, no cuantifican luz dispersada.",
+      "Enzimoinmunoanálisis": "Genera una señal mediante una enzima unida a un reactivo inmunológico, habitualmente medida por absorbancia o luminiscencia.",
+      "Radioinmunoanálisis": "Cuantifica un marcador radiactivo unido al sistema antígeno-anticuerpo, no la dispersión óptica de complejos."
+    },
+    "claveMemorizar": "Luz dispersada por inmunocomplejos = inmunonefelometría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2 y 4-6"
+  },
+  "286": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En un soporte con efecto de tamizado, las moléculas pequeñas atraviesan con mayor facilidad los poros y sufren menos resistencia. Por eso recorren una distancia mayor que las moléculas grandes en el mismo tiempo.",
+    "motivosPorOpcion": {
+      "Las secuencias ricas en pares AT": "La composición AT no determina por sí sola la migración cuando se comparan fragmentos de igual longitud y conformación.",
+      "Las secuencias ricas en pares CG.": "La riqueza en GC puede afectar estabilidad de la doble hélice, pero no sustituye al tamaño como factor principal de separación en gel.",
+      "Las moléculas de mayor tamaño.": "Encuentran más fricción y dificultad para atravesar la matriz, por lo que migran más lentamente."
+    },
+    "claveMemorizar": "En electroforesis en gel, menor tamaño = mayor migración.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 49-51 y 53-57"
+  },
+  "287": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La disposición más extendida confina la fase estacionaria en una columna y hace circular la fase móvil. En el proceso de elución, la muestra se desplaza y sus componentes salen a tiempos distintos para ser detectados.",
+    "motivosPorOpcion": {
+      "Cromatografía en plano y proceso de desplazamiento.": "La geometría plana existe, pero el desplazamiento no es el proceso de uso más general frente a columna y elución.",
+      "Cromatografía en columna y proceso frontal.": "La columna es habitual, pero el análisis frontal alimenta continuamente la muestra y no es la modalidad más utilizada.",
+      "Cromatografía en plano y proceso de elución.": "El proceso de elución es común, aunque la disposición en columna domina en las técnicas instrumentales."
+    },
+    "claveMemorizar": "Configuración cromatográfica más habitual: columna con proceso de elución.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61-67"
+  },
+  "288": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La cromatografía separa los componentes por su distribución diferente entre dos fases inmiscibles: una estacionaria y otra móvil. La distinta retención hace que cada componente avance a una velocidad diferente.",
+    "motivosPorOpcion": {
+      "Diálisis.": "Separa por difusión selectiva a través de una membrana semipermeable, sin una fase estacionaria cromatográfica.",
+      "Filtración.": "Retiene partículas según tamaño al atravesar un medio poroso, pero no requiere equilibrio entre fase móvil y estacionaria.",
+      "Electroforesis.": "Separa partículas cargadas por su movilidad en un campo eléctrico y utiliza un soporte, no dos fases cromatográficas."
+    },
+    "claveMemorizar": "Cromatografía = fase móvil + fase estacionaria.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61-62"
+  },
+  "289": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una centrifugación correcta exige seleccionar fuerza y tiempo adecuados, equilibrar los tubos de forma enfrentada y conservar la temperatura cuando el analito lo requiera. Las tres medidas protegen la muestra, el resultado y el equipo.",
+    "motivosPorOpcion": {
+      "Utilizar las velocidades apropiadas para el tipo de muestra que sea": "Es una medida correcta porque una fuerza insuficiente o excesiva altera la separación esperada.",
+      "Los tubos deben estar situados en las cestas como en espejo (compensados) respecto al eje de la centrífuga": "Es correcto: equilibrar masas opuestas evita vibraciones, daños y una sedimentación irregular.",
+      "Utilizar centrífugas refrigeradas cuando lo requiera el analito correspondiente": "Es correcto: la refrigeración limita degradación o cambios térmicos en analitos sensibles."
+    },
+    "claveMemorizar": "Centrifugar: velocidad adecuada, tubos equilibrados y refrigeración si procede.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75",
+    "advertenciaRevision": "El PDF especifica velocidades, tubos enfrentados y cerrados, pero no menciona expresamente cuándo usar una centrífuga refrigerada."
+  },
+  "290": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El límite de resolución típico del microscopio óptico es aproximadamente 0,2 micras. Dos puntos más próximos tienden a verse como uno solo debido a la difracción de la luz.",
+    "motivosPorOpcion": {
+      "20 micras.": "Es cien veces mayor que el límite típico y supondría una capacidad resolutiva muy pobre para un microscopio óptico.",
+      "40 micras.": "Esta separación es visible con muy poco aumento y no representa el límite instrumental de la microscopía óptica.",
+      "80 micras.": "Se aproxima al tamaño de estructuras visibles sin gran resolución y está muy por encima de 0,2 micras."
+    },
+    "claveMemorizar": "Resolución óptica ≈ 0,2 µm; electrónica ≈ 0,002 µm.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 20-22"
+  },
+  "291": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "CCD y CMOS son sensores matriciales habituales para formar imágenes digitales, y los PMT son detectores muy sensibles usados en sistemas microscópicos de barrido o fluorescencia. Los tres pueden actuar como sistemas de captura o detección de imagen microscópica.",
+    "motivosPorOpcion": {
+      "Coupled Charge Device (CCD).": "Es correcto: un CCD convierte fotones en cargas eléctricas y registra imágenes con bajo ruido.",
+      "Complementary Metal-Oxide Semiconductor (CMOS).": "Es correcto: los sensores CMOS ofrecen lectura rápida y se usan ampliamente en cámaras de microscopía.",
+      "Photomultiplicator (PMT).": "Es correcto: el fotomultiplicador amplifica señales luminosas débiles, especialmente en microscopía de fluorescencia y confocal."
+    },
+    "claveMemorizar": "Captura microscópica: cámaras CCD/CMOS y detección sensible PMT.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-37; Tema 7.2 Técnicas intrumentales.pdf, p. 18",
+    "advertenciaRevision": "Los PDF describen microscopía electrónica, fluorescencia y tubos fotomultiplicadores, pero no enumeran conjuntamente CCD, CMOS y PMT como los sistemas de captura más utilizados en microscopía."
+  },
+  "292": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La microscopía electrónica forma imágenes mediante la interacción de un haz de electrones con la muestra. En el microscopio electrónico de transmisión, parte de esos electrones atraviesa una sección fina del objeto.",
+    "motivosPorOpcion": {
+      "La transmisión de la luz, que ocurre cuando la luz (fotones) atraviesa la suspensión de un objeto, pudiendo ser un microscopio de contraste de fases.": "Describe modalidades de microscopía óptica basadas en fotones, no microscopía electrónica.",
+      "La luz reflejada sabre un objeto, pudiendo ser un microscopio de fluorescencia.": "La fluorescencia se basa en emisión tras excitación y sigue siendo una técnica óptica, no electrónica.",
+      "Una luz focalizada sabre un piano.": "No define ningún principio de formación de imagen mediante electrones ni diferencia una modalidad microscópica."
+    },
+    "claveMemorizar": "Microscopio electrónico: electrones; MET: atraviesan la muestra; MEB: barren la superficie.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-37"
+  },
+  "293": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El tornillo macrométrico realiza desplazamientos amplios para lograr el enfoque inicial y el micrométrico hace ajustes finos. La combinación permite situar la preparación en el plano focal con precisión.",
+    "motivosPorOpcion": {
+      "Teñiremos siempre la muestra": "La tinción mejora el contraste en ciertos preparados, pero existen observaciones en fresco y técnicas que no la requieren.",
+      "Utilizaremos cubreobjeto": "El cubreobjetos acondiciona algunas preparaciones, pero no es el mecanismo que modifica la distancia de enfoque.",
+      "Cerraremos el diafragma": "El diafragma regula iluminación y contraste; cerrarlo no sustituye el movimiento de los mandos de enfoque."
+    },
+    "claveMemorizar": "Enfoque: macrométrico para aproximar y micrométrico para afinar.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16 y 19-20"
+  },
+  "294": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La separación mínima que permite reconocer dos puntos como entidades distintas es el límite de resolución. Su valor depende, entre otros factores, de la longitud de onda y de la apertura numérica del sistema.",
+    "motivosPorOpcion": {
+      "Poder de resolución.": "Nombra la aptitud del instrumento para mostrar detalles separados; no es la distancia mínima cuantificada en la pregunta.",
+      "Profundidad de resolución.": "Describe cuánto espesor de la muestra permanece aceptablemente enfocado, una dimensión axial distinta.",
+      "Distancia focal.": "Relaciona la lente con el punto donde converge la imagen y no compara dos puntos del objeto."
+    },
+    "claveMemorizar": "Menor límite de resolución implica mayor poder de resolución.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 20-22"
+  },
+  "295": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La lectura del blanco recoge pequeñas pérdidas por absorción, reflexión o refracción ajenas al analito. Ajustar el aparato con esa lectura elimina el fondo de las mediciones posteriores.",
+    "motivosPorOpcion": {
+      "Tratar la muestra problema eliminando contaminantes.": "El blanco no entra en contacto para limpiar la muestra; sirve como referencia de medida.",
+      "Averiguar si la relación existente entre absorbancia y concentración es lineal.": "Para verificar linealidad se comparan varias concentraciones conocidas y sus absorbancias, no una única solución blanco.",
+      "Iniciar una serie de diluciones a fin de efectuar una curva patrón.": "La serie se prepara a partir de un patrón o calibrador; el blanco solo establece la respuesta cuando no hay analito."
+    },
+    "claveMemorizar": "El blanco corrige fondo de cubeta, disolvente y reactivos antes de medir.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 12"
+  },
+  "296": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El material biológico infeccioso debe centrifugarse en tubos cerrados para evitar derrames y la formación o liberación de aerosoles. Esta barrera reduce la exposición del personal y la contaminación del equipo.",
+    "motivosPorOpcion": {
+      "La centrífuga no es un equipo a tener en cuenta, en cuanto a medida de protección individual.": "Aunque la centrífuga no sea un EPI, su uso exige medidas de bioseguridad porque una rotura puede dispersar material infeccioso.",
+      "Nada, se da por hecho, que sabe utilizarla.": "La aceptación de una muestra no sustituye la formación ni la información sobre equilibrio, cierre de tubos y respuesta ante incidentes.",
+      "Ninguna de las anteriores.": "Sí existe una instrucción correcta y explícita: mantener cerrados los tubos con material biológico."
+    },
+    "claveMemorizar": "Muestra infecciosa en centrífuga: tubo cerrado, equilibrado y manipulación segura.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75"
+  }
+}

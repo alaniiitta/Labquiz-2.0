@@ -1,0 +1,562 @@
+{
+  "151": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La vaselina no es un medio de soporte electroforético. Los soportes sirven como matriz para la migración de moléculas cargadas, mientras que la vaselina carece de esa función.",
+    "motivosPorOpcion": {
+      "Gel de almidón": "Es un soporte selectivo cuyo tamaño de poro permite separar también según el tamaño molecular.",
+      "Papel": "Es un soporte electroforético no selectivo, aunque ofrece poca resolución y puede presentar electroendósmosis.",
+      "Acetato de celulosa": "Es un soporte no selectivo empleado en proteinogramas y en separación de ácidos nucleicos."
+    },
+    "claveMemorizar": "Soportes habituales: papel, acetato de celulosa, agarosa, almidón y poliacrilamida; vaselina no.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 48-50"
+  },
+  "152": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La potenciometría relaciona la fuerza electromotriz medida en equilibrio con la actividad del analito mediante la ecuación de Nernst. Para ello compara un electrodo indicador con uno de referencia.",
+    "motivosPorOpcion": {
+      "Conductimetría": "Evalúa la capacidad de una disolución para conducir corriente, no un potencial de equilibrio frente a una referencia.",
+      "Electrogravimetría": "Determina un analito por su depósito electrolítico y la variación de masa resultante.",
+      "Culombimetría": "Relaciona la cantidad de carga eléctrica consumida con la cantidad de analito."
+    },
+    "claveMemorizar": "Potenciometría: potencial y actividad; culombimetría: carga y cantidad de analito.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-40"
+  },
+  "153": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La nefelometría mide la radiación que las partículas de una suspensión dispersan. El detector suele situarse a 90 grados respecto al haz incidente.",
+    "motivosPorOpcion": {
+      "La luz transmitida": "La radiación no dispersada que atraviesa la muestra se mide en turbidimetría.",
+      "La luz absorbida": "La absorción es el fundamento de la espectrofotometría de absorción, no de la nefelometría.",
+      "La luz reflejada": "La radiación devuelta por una superficie corresponde a reflectancia; la nefelometría estudia dispersión por partículas."
+    },
+    "claveMemorizar": "Nefelometría = luz dispersada; turbidimetría = luz transmitida no dispersada.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4"
+  },
+  "154": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la centrifugación zonal la muestra se coloca como una zona estrecha sobre un gradiente de densidad ya preparado. Las partículas forman bandas a distinta profundidad según su velocidad de sedimentación.",
+    "motivosPorOpcion": {
+      "Por gradientes": "Es una denominación general que engloba modalidades con gradiente, pero la disposición descrita corresponde específicamente a la zonal.",
+      "Isopícnica": "En ella cada partícula migra hasta la zona cuya densidad iguala la suya, no se define solo por depositar la muestra sobre el gradiente.",
+      "Fraccionaria": "Consiste en centrifugaciones sucesivas para sedimentar componentes a diferentes fuerzas, sin requerir un gradiente preformado."
+    },
+    "claveMemorizar": "Zonal: muestra sobre el gradiente y separación por velocidad; isopícnica: equilibrio por densidad.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-77",
+    "advertenciaRevision": "El PDF enumera rotores y centrifugación con gradientes, pero la extracción textual no desarrolla explícitamente la colocación inicial de la muestra en la modalidad zonal."
+  },
+  "155": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La determinación potenciométrica del pH utiliza un electrodo de membrana de vidrio sensible a la actividad de los iones hidrógeno.",
+    "motivosPorOpcion": {
+      "Electrodo de Severinghaus": "Es un electrodo destinado a medir la presión parcial de dióxido de carbono, no el pH directamente.",
+      "Electrodo de Clark": "Es un sensor polarográfico empleado para medir la presión parcial de oxígeno.",
+      "Electrodo metálico": "Los electrodos metálicos responden a pares redox o especies concretas, pero no son el electrodo habitual para pH."
+    },
+    "claveMemorizar": "pH: electrodo de vidrio; pO2: Clark; pCO2: Severinghaus.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 39-41"
+  },
+  "156": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El campo oscuro ilumina lateralmente la preparación y solo la luz difractada entra en el objetivo. Así permite observar microorganismos vivos y sin teñir, brillantes sobre un fondo oscuro.",
+    "motivosPorOpcion": {
+      "Para poder visualizar virus": "Los virus quedan por debajo de la resolución del microscopio óptico convencional y suelen requerir microscopía electrónica.",
+      "Para aumentar el poder de resolución debido a la luz ultravioleta": "El campo oscuro modifica la iluminación y el contraste; no se basa en radiación ultravioleta.",
+      "Para detectar reacciones inmunológicas": "Las reacciones inmunológicas pueden medirse con técnicas de precipitación o fluorescencia, pero no constituyen el uso principal del campo oscuro."
+    },
+    "claveMemorizar": "Campo oscuro: muestra fresca sin teñir, objeto brillante sobre fondo negro.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 24-26"
+  },
+  "157": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En un objetivo de inmersión se interpone una gota de aceite entre la preparación y la lente frontal, por lo que el objetivo contacta con el aceite. El mayor índice de refracción mejora la apertura numérica y la resolución.",
+    "motivosPorOpcion": {
+      "Utilizaremos habitualmente objetivo de 40X": "El temario identifica el 40X como objetivo habitual para preparaciones en fresco; el de inmersión típico es el 100X.",
+      "Utilizaremos alta intensidad de luz": "Puede ajustarse la iluminación durante el enfoque, pero esto no define el uso de un objetivo de inmersión.",
+      "A y B son correctas": "La opción A es falsa porque el objetivo de inmersión habitual es 100X, de modo que la combinación no puede ser correcta."
+    },
+    "claveMemorizar": "Objetivo 100X de inmersión: aceite entre lente y preparación.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18 y 21"
+  },
+  "158": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La electroforesis separa partículas cargadas mediante un campo eléctrico, se usa de forma destacada para fraccionar proteínas y presenta modalidades como isoelectroenfoque, capilar y geles de poliacrilamida. Por tanto, las tres afirmaciones describen aspectos válidos de la técnica.",
+    "motivosPorOpcion": {
+      "La separación de solutos o partículas cargadas en un medio líquido bajo la influencia de un campo eléctrico": "Esta es la definición física de electroforesis, pero no recoge por sí sola las otras afirmaciones también verdaderas.",
+      "Se utiliza preferentemente en el laboratorio clínico para la separación de fracciones protéicas": "El proteinograma es una aplicación principal, aunque la técnica también separa ácidos nucleicos y otras especies.",
+      "El isolectronfoque, la electroforesis capilar y la electroforesis bidimensional o la realizada en gel de poliacriamida son tipos especiales de electroforesis": "Enumera modalidades electroforéticas válidas, pero las opciones A y B también son correctas."
+    },
+    "claveMemorizar": "Electroforesis: campo eléctrico, moléculas cargadas y separación frecuente de proteínas.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45, 50 y 56-60"
+  },
+  "159": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los electrodos de referencia clásicos son el de hidrógeno, el de calomelanos y el de plata/cloruro de plata. Proporcionan un potencial conocido frente al electrodo indicador.",
+    "motivosPorOpcion": {
+      "Electrodo de calcio, electrodo de calomelanos, electrodo de cobre.": "El electrodo de calcio es ion-selectivo y actúa como indicador; esta terna no reúne los tres electrodos de referencia citados.",
+      "Electrodo de potasio, electrodo de calomelanos, electrodo de magnesio.": "Los electrodos selectivos de potasio y magnesio responden a analitos, no forman la terna de referencia.",
+      "Electrodo de hidrógeno, electrodo de magnesio, electrodo de plata.": "Incluye hidrógeno, pero sustituye calomelanos y plata/cloruro de plata por electrodos que no corresponden a la lista."
+    },
+    "claveMemorizar": "Referencias: hidrógeno, calomelanos y Ag/AgCl.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 40"
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La microscopía de fluorescencia puede utilizar una lámpara de mercurio como fuente de excitación de los fluorocromos. El temario también menciona lámparas de xenón.",
+    "motivosPorOpcion": {
+      "Bombillas de tungsteno": "Se emplean como fuente visible en microscopía óptica o fotometría, pero no son la fuente UV característica aquí.",
+      "Lámparas de fluorita": "La fluorita puede formar parte de materiales ópticos, pero no es una lámpara de excitación descrita para fluorescencia.",
+      "Bombillas de dos filamentos": "El número de filamentos no proporciona la radiación de excitación específica que requiere la fluorescencia."
+    },
+    "claveMemorizar": "Fluorescencia: fluorocromos excitados con fuentes como mercurio o xenón.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32"
+  },
+  "161": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Turbidimetría y nefelometría parten de la dispersión producida cuando la radiación encuentra partículas en suspensión. Una mide la luz que continúa transmitiéndose y la otra la luz dispersada.",
+    "motivosPorOpcion": {
+      "Cuando la luz pasa de un medio a otro con un cierto ángulo, la dirección de propagación del haz se altera, ya que la velocidad de propagación de la radiación es distinta en ambos medios.": "Describe la refracción y la ley de Snell, fundamento de la refractometría.",
+      "Cuando una superficie se ilumina con una radiación pueden ocurrir dos cosas: reflexión especular (ocurre en superficies pulidas) o reflexión difusa (ocurre en superficies no pulidas).": "Describe reflexión y reflectancia, no dispersión por una suspensión.",
+      "Es una técnica electroquímica que mide la corriente o el voltaje generado por la actividad de especies iónicas específicas.": "Corresponde a métodos electroanalíticos, mientras que turbidimetría y nefelometría son técnicas ópticas."
+    },
+    "claveMemorizar": "Partículas en suspensión dispersan luz: transmisión residual en turbidimetría y dispersión lateral en nefelometría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4, 7 y 10-11"
+  },
+  "162": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un espectrofotómetro de absorción necesita una fuente de radiación, un selector de longitud de onda y una cubeta para la muestra; además incorpora un detector. Los tres elementos enumerados pertenecen al esquema instrumental básico.",
+    "motivosPorOpcion": {
+      "Fuente de calor, batea metálica, registrador o medidor.": "Una batea metálica no es el recipiente óptico de muestra y una fuente de calor no sustituye a la fuente espectral adecuada.",
+      "Fuente de frío, recipiente para la muestra, selector de longitud de onda.": "El instrumento requiere una fuente de radiación, no una fuente de frío.",
+      "Fuente de iluminación, detector de radiaciones o transductor, pinza de Kocher.": "La pinza de Kocher es material quirúrgico y no forma parte de la trayectoria óptica."
+    },
+    "claveMemorizar": "Fuente -> selector de longitud de onda -> cubeta -> detector.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 13-18"
+  },
+  "163": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La absorción UV-visible y la absorción infrarroja son modalidades espectroscópicas basadas en la interacción selectiva de radiación electromagnética con la materia. Entre las opciones, es la única pareja formada por técnicas reales de absorción.",
+    "motivosPorOpcion": {
+      "Espectrofotometría de absorción, espectrofotometría de transmisión iónica.": "La absorción sí es válida, pero la denominada transmisión iónica no aparece como modalidad espectrofotométrica.",
+      "Espectroscopia de absorción inalámbrica, espectroscopia de emisión.": "La emisión es una técnica válida, pero absorción inalámbrica no es una categoría espectroscópica.",
+      "Espectroscopia de absorción atómica, espectroscopia de eliminación de iones.": "La absorción atómica es válida, pero eliminación de iones no es una modalidad espectroscópica."
+    },
+    "claveMemorizar": "Modalidades reales: absorción UV-visible, IR y atómica; también espectroscopía de emisión.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 20-27",
+    "advertenciaRevision": "La expresión literal «ultravioleta- sensible» de la opción correcta parece una errata; el PDF desarrolla espectroscopía de absorción UV-visible."
+  },
+  "164": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El aumento total se obtiene multiplicando el aumento del objetivo por el del ocular. Con un objetivo 50X y el ocular habitual de 10X, el resultado es 500 aumentos.",
+    "motivosPorOpcion": {
+      "50 aumentos.": "Solo considera el objetivo y omite la ampliación adicional del ocular.",
+      "5000 aumentos.": "Ese resultado añadiría un factor diez extra que no corresponde a la fórmula.",
+      "5 aumentos.": "Dividir objetivo entre ocular no es la forma de calcular el aumento total."
+    },
+    "claveMemorizar": "Aumento total = objetivo x ocular; 50X x 10X = 500X.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 20"
+  },
+  "165": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El contraste de fases transforma diferencias de fase originadas por distintos índices de refracción en diferencias visibles de intensidad, permite observar material vivo sin teñir y presenta modalidades positiva y negativa. Por ello las tres afirmaciones son compatibles con su fundamento y uso.",
+    "motivosPorOpcion": {
+      "La microscopía de contraste de fases es una técnica de microscopía basada en traducir los cambios de fase de las ondas de luz que pasan a través de una muestra en cambios de amplitud.": "Describe el mecanismo óptico, pero no excluye que las otras dos afirmaciones también sean ciertas.",
+      "Este tipo de microscopía es especialmente útil para observar muestras biológicas vivas.": "Es una aplicación correcta porque no requiere tinción, aunque no es la única proposición válida.",
+      "Existen dos clases de microscopía por contraste de fases: positiva y negativa.": "El temario confirma ambas clases, pero también respalda el fundamento y la utilidad indicados."
+    },
+    "claveMemorizar": "Contraste de fases: índices de refracción -> diferencias de intensidad; vivo y sin tinción.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 28-29"
+  },
+  "166": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El microscopio electrónico usa electrones en lugar de luz, alcanza una resolución y capacidad de aumento superiores y se divide principalmente en transmisión y barrido. Las tres proposiciones son correctas.",
+    "motivosPorOpcion": {
+      "El microscopio electrónico es un tipo de microscopio con una capacidad de aumento muy superior a la del microscopio óptico.": "Es cierto por la menor longitud de onda asociada a los electrones, pero las opciones B y C también son correctas.",
+      "Su principio de funcionamiento se basa en utilizar electrones en lugar de luz para obtener una imagen de la muestra.": "Es su diferencia instrumental esencial, aunque no invalida las otras afirmaciones verdaderas.",
+      "Los dos principales tipos de microscopio electrónico son el microscopio electrónico de transmisión y el microscopio electrónico de barrido.": "La clasificación TEM/SEM es correcta, junto con las propiedades indicadas en A y B."
+    },
+    "claveMemorizar": "Microscopía electrónica: haz de electrones; tipos TEM y SEM.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 22, 24 y 33-37"
+  },
+  "167": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El diafragma regula el cono de luz que atraviesa la muestra y se localiza en el condensador; no contiene los oculares. El sistema que puede ser monocular o binocular es el cabezal o tubo óptico.",
+    "motivosPorOpcion": {
+      "El ocular es la lente situada cerca del ojo del observador y amplía la imagen del objetivo.": "Describe correctamente la lente superior que recibe y amplía la imagen formada por el objetivo.",
+      "El condensador es la lente que concentra los rayos luminosos sobre la preparación.": "Esa es la función del condensador situado bajo la platina.",
+      "La platina es el lugar donde se deposita la preparación.": "La platina pertenece al sistema mecánico y sostiene la preparación."
+    },
+    "claveMemorizar": "Diafragma regula luz; condensador la concentra; ocular amplía; platina sostiene la muestra.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16-19"
+  },
+  "168": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Cubrir el microscopio cuando no se usa reduce la acumulación de polvo sobre el equipo y las superficies ópticas. Las otras prácticas dejarían material o aceite en el instrumento y no son medidas correctas de mantenimiento.",
+    "motivosPorOpcion": {
+      "Se debe dejar el portaobjetos puesto sobre la platina si no se está utilizando el microscopio.": "La preparación debe retirarse para dejar la platina libre y evitar roturas, derrames o suciedad.",
+      "Después de utilizar el objetivo de inmersión se debe dejar el aceite que queda en el objetivo.": "El aceite residual debe limpiarse porque puede ensuciar y deteriorar la lente y contaminar otros objetivos.",
+      "Todas las respuestas anteriores son verdaderas.": "Las opciones B y C describen prácticas inadecuadas, de modo que no pueden ser todas verdaderas."
+    },
+    "claveMemorizar": "Al terminar: retirar preparación, limpiar aceite y cubrir el microscopio.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 18",
+    "advertenciaRevision": "El PDF explica la limpieza del aceite del objetivo, pero no menciona expresamente la funda ni la retirada del portaobjetos."
+  },
+  "169": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El campo oscuro dirige iluminación oblicua, muestra las partículas brillantes sobre fondo oscuro y requiere que la apertura del objetivo no recoja directamente el cono iluminador. En conjunto, las tres opciones describen condiciones del método.",
+    "motivosPorOpcion": {
+      "En el microscopio de campo oscuro se dispersan los rayos de luz con el fin de que lleguen a la muestra los haces oblicuos.": "Resume la iluminación lateral u oblicua producida por el condensador especial, pero no es la única afirmación válida.",
+      "En un campo visual de campo oscuro los elementos o partículas en suspensión se ven brillantes y refringentes.": "Es el aspecto característico porque entra al objetivo la luz difractada por la muestra.",
+      "Para asegurar una buena imagen la apertura numérica de los objetivos no puede superar a la del condensador.": "Expresa la condición geométrica para impedir que la iluminación directa alcance el objetivo; las otras opciones también describen el campo oscuro."
+    },
+    "claveMemorizar": "Campo oscuro: iluminación oblicua y partículas brillantes sobre fondo oscuro.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 26-27",
+    "advertenciaRevision": "El PDF respalda la iluminación lateral y el aspecto brillante, pero no formula explícitamente la relación entre las aperturas numéricas del objetivo y el condensador."
+  },
+  "170": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El campo oscuro ofrece información principalmente de contornos con detalle interno limitado, exige preparaciones finas y se aplica de forma característica a muestras frescas en medio líquido. Estas limitaciones hacen válidas las tres afirmaciones en el sentido del banco.",
+    "motivosPorOpcion": {
+      "La resolución de las imágenes es generalmente baja.": "La técnica mejora el contraste, pero la imagen de luz dispersada puede aportar poco detalle estructural; no es la única limitación indicada.",
+      "No se pueden visualizar preparaciones al seco.": "Su uso característico es la observación en fresco y sin teñir de partículas suspendidas, aunque la prohibición absoluta requiere matización.",
+      "Se debe tener cuidado en las preparaciones ya que si quedan muy gruesas no se observarán bien.": "Una preparación gruesa produce dispersión múltiple y empeora el contraste, pero las otras limitaciones también se consideran válidas."
+    },
+    "claveMemorizar": "Campo oscuro funciona mejor con preparaciones frescas, finas y limpias.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 26-27",
+    "advertenciaRevision": "El PDF solo indica observación en fresco y sin teñir; no enumera estas tres desventajas y no respalda de forma expresa la prohibición absoluta de preparaciones secas."
+  },
+  "171": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fluorescencia se basa en moléculas que absorben radiación y emiten luz, y puede excitarse con fuentes intensas como lámparas, láseres o LED. El banco considera además que su contraste y selectividad permiten distinguir estructuras pequeñas con mayor detalle.",
+    "motivosPorOpcion": {
+      "Los microscopios de fluorescencia tienen una resolución de imagen mucho mejor que los microscopios ópticos convencionales, lo que significa que se pueden observar estructuras más pequeñas y detalladas.": "La fluorescencia convencional mejora contraste y especificidad, pero no necesariamente el límite de resolución óptica; esta afirmación solo sería inequívoca para modalidades avanzadas.",
+      "El fundamento principal del microscopio de fluorescencia es la capacidad de las moléculas de absorber y emitir luz fluorescente.": "Describe correctamente la excitación y emisión de fluorocromos, pero no sería la única afirmación según la clave del banco.",
+      "La fuente de luz puede ser una lámpara de mercurio, un láser o un LED.": "Son fuentes de excitación posibles; el PDF cita expresamente mercurio y xenón, aunque no enumera láser y LED."
+    },
+    "claveMemorizar": "Fluorescencia: excitación del fluorocromo y emisión a mayor longitud de onda.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32",
+    "advertenciaRevision": "La clave D es discutible: el PDF no afirma que la fluorescencia convencional tenga mucha mejor resolución que la microscopía óptica convencional y solo cita lámparas de mercurio o xenón como fuentes."
+  },
+  "172": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La velocidad de giro de una centrífuga se expresa en revoluciones por minuto. La fuerza centrífuga relativa, que también depende del radio, se expresa en múltiplos de g.",
+    "motivosPorOpcion": {
+      "Voltios.": "El voltio mide diferencia de potencial eléctrico, no velocidad de rotación.",
+      "Watios.": "El vatio mide potencia, no el número de vueltas por unidad de tiempo.",
+      "Pascal": "El pascal es una unidad de presión."
+    },
+    "claveMemorizar": "Velocidad de giro: rpm; fuerza centrífuga relativa: g.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 75"
+  },
+  "173": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una centrífuga necesita un motor que impulse un eje y este transmita el giro al rotor o cabezal. Por tanto, los tres elementos forman parte funcional del equipo.",
+    "motivosPorOpcion": {
+      "Rotor o cabezal.": "Aloja los tubos y gira durante el proceso, pero no es el único componente enumerado.",
+      "Eje de centrífuga.": "Transmite el movimiento del motor al rotor, junto con los demás elementos indicados.",
+      "Motor.": "Genera el movimiento rotatorio, pero requiere eje y rotor para aplicarlo a las muestras."
+    },
+    "claveMemorizar": "Cadena mecánica de la centrífuga: motor -> eje -> rotor.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75",
+    "advertenciaRevision": "El PDF enumera tipos de rotor y describe la fuerza rotativa, pero no presenta una lista expresa de motor, eje y rotor como componentes."
+  },
+  "174": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El contraste de fases convierte diferencias de índice de refracción en diferencias de intensidad y no necesita tinción. Esto lo hace especialmente útil para observar células vivas.",
+    "motivosPorOpcion": {
+      "Se denomina lupa.": "Una lupa es un microscopio simple de una lente, no un microscopio de contraste de fases.",
+      "Tiene como finalidad detectar reacciones inmunológicas.": "Esa no es su finalidad; el contraste de fases revela estructuras transparentes sin tinción.",
+      "Permite que la luz ultravioleta excite los materiales fluorescentes que se perciben como brillantes sobre un fondo oscuro.": "Describe microscopía de fluorescencia, que usa fluorocromos y radiación de excitación."
+    },
+    "claveMemorizar": "Contraste de fases: células vivas y sin colorear.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 24 y 28-29"
+  },
+  "175": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En cromatografía los componentes se distribuyen de modo diferente entre una fase móvil y otra estacionaria. Esa interacción desigual produce distintas velocidades y tiempos de elución.",
+    "motivosPorOpcion": {
+      "Implica la separación de sustancias de diferentes colores.": "El nombre tiene origen histórico, pero la técnica separa analitos aunque sean incoloros.",
+      "Su soporte en capa fina, siempre debe ser papel.": "La cromatografía en capa fina usa una capa adsorbente; la cromatografía en papel es una modalidad plana distinta.",
+      "Su objetivo es buscar la cantidad de intensidad de luz absorbida después de pasar a través de una solución muestra.": "Eso describe una medida espectrofotométrica de absorción, no el principio de separación cromatográfica."
+    },
+    "claveMemorizar": "Cromatografía: distinta distribución entre fase móvil y estacionaria produce distinta velocidad.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61-62 y 67"
+  },
+  "176": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La centrifugación somete la sangre a una fuerza que sedimenta sus componentes según su densidad, permitiendo separar células y fracciones líquidas.",
+    "motivosPorOpcion": {
+      "Formar coágulo.": "La coagulación depende de la activación de factores y fibrina; centrifugar separa componentes, no induce por sí mismo el coágulo.",
+      "Valorar VSG.": "La velocidad de sedimentación globular se mide dejando sedimentar eritrocitos bajo gravedad en condiciones estandarizadas, no centrifugándolos.",
+      "Todas son ciertas.": "Formar coágulo y valorar la VSG no son finalidades propias de la centrifugación, así que no pueden ser todas ciertas."
+    },
+    "claveMemorizar": "Centrifugación sanguínea: separación por densidad, no coagulación ni VSG.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75"
+  },
+  "177": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En nefelometría el detector se coloca habitualmente a 90 grados del haz incidente para captar la luz dispersada por las partículas.",
+    "motivosPorOpcion": {
+      "Se utiliza para suspensiones con concentraciones elevadas.": "La nefelometría se aplica a suspensiones diluidas; para concentraciones mayores se usa turbidimetría.",
+      "Se mide la radiación absorbida por la muestra.": "Se mide radiación dispersada, no la absorbancia molecular de la muestra.",
+      "El detector se sitúa en la misma línea que el haz de luz.": "La disposición en línea corresponde a turbidimetría, que mide la radiación transmitida no dispersada."
+    },
+    "claveMemorizar": "Nefelómetro: detector lateral a 90 grados.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-4"
+  },
+  "178": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH se determina habitualmente por potenciometría con un electrodo de vidrio, midiendo un potencial relacionado con la actividad de H+.",
+    "motivosPorOpcion": {
+      "Espectrofotometría.": "Puede medir cambios de color de indicadores, pero no es el método electroquímico principal señalado para pH.",
+      "Turbidimetría.": "Mide pérdida de radiación transmitida por partículas en suspensión, no actividad de H+.",
+      "Electroforesis.": "Separa partículas cargadas en un campo eléctrico y no determina directamente el pH."
+    },
+    "claveMemorizar": "Determinación directa de pH: potenciometría con electrodo de vidrio.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-40"
+  },
+  "179": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La microscopía de contraste de fases aprovecha pequeñas diferencias de índice de refracción dentro de la preparación y las convierte en diferencias visibles de intensidad.",
+    "motivosPorOpcion": {
+      "Microscopia de campo oscuro.": "Usa iluminación oblicua y muestra luz difractada sobre fondo oscuro, sin convertir diferencias de fase internas.",
+      "Microscopia de fluorescencia.": "Se basa en la excitación y emisión de fluorocromos.",
+      "Microscopia de polarización.": "Analiza materiales anisótropos o birrefringentes, como cristales, mediante luz polarizada."
+    },
+    "claveMemorizar": "Diferencias de índice de refracción -> contraste de fases.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 28-30"
+  },
+  "180": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La diferencia instrumental esencial es la orientación del detector: alineado con el haz en turbidimetría y habitualmente a 90 grados en nefelometría.",
+    "motivosPorOpcion": {
+      "El recipiente utilizado para la suspensión problema.": "Ambas técnicas pueden usar cubetas; el recipiente no define cuál componente de la radiación se mide.",
+      "El monocromador.": "Seleccionar longitud de onda puede ser común a ambas técnicas y no establece la diferencia fundamental.",
+      "El detector de radiaciones.": "La naturaleza del detector puede ser similar; lo decisivo es su posición respecto al rayo incidente."
+    },
+    "claveMemorizar": "Turbidimetría 0/180 grados; nefelometría 90 grados.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-4"
+  },
+  "181": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El campo oscuro permite observar microorganismos sin teñir en una suspensión porque la luz difractada por ellos los hace aparecer brillantes sobre un fondo oscuro.",
+    "motivosPorOpcion": {
+      "Detectar reacciones inmunológicas.": "No es su finalidad principal; las reacciones inmunológicas se estudian con técnicas como inmunofluorescencia o inmunoprecipitación.",
+      "Poner de manifiesto diferencias en las células no discernibles por otros métodos ópticos.": "Esa descripción encaja mejor con contraste de fases, que revela diferencias internas de índice de refracción.",
+      "Aumentar el poder de resolución debido a la luz ultravioleta.": "El campo oscuro utiliza una geometría especial de iluminación, no radiación UV para aumentar resolución."
+    },
+    "claveMemorizar": "Campo oscuro: microorganismos vivos sin teñir en líquido.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 25-26"
+  },
+  "182": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La centrifugación separa componentes de una muestra según su densidad al aplicar una fuerza rotativa superior a la gravedad.",
+    "motivosPorOpcion": {
+      "Electroforesis.": "Separa según movilidad de partículas cargadas en un campo eléctrico.",
+      "Cromatografía.": "Separa por distribución diferencial entre una fase móvil y una estacionaria.",
+      "Radioinmunoanálisis.": "Es un inmunoensayo de detección basado en trazadores radiactivos, no una separación por densidad."
+    },
+    "claveMemorizar": "Diferencia de densidad + fuerza rotativa = centrifugación.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 74"
+  },
+  "183": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los rotores pueden ser de ángulo fijo, basculantes, zonales o verticales. «Rotor bobinado» no corresponde a una configuración de rotor de centrífuga descrita.",
+    "motivosPorOpcion": {
+      "Rotor de ángulo fijo.": "Mantiene los tubos con un ángulo constante durante el giro y es un tipo habitual.",
+      "Rotor de cabeza basculante": "Permite que los portatubos pasen hacia una posición horizontal al girar.",
+      "Rotor zonal.": "Está diseñado para separaciones de gran volumen mediante gradientes de densidad."
+    },
+    "claveMemorizar": "Rotores reales: angular, basculante, zonal y vertical; no bobinado.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 74"
+  },
+  "184": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El aumento total es el producto del objetivo y el ocular: 100X por 15X equivale a 1.500 aumentos.",
+    "motivosPorOpcion": {
+      "15.000 aumentos.": "Introduce un factor diez adicional que no aparece en los aumentos indicados.",
+      "150 aumentos.": "Equivale a una operación incorrecta y no al producto 100 por 15.",
+      "15 aumentos.": "Solo considera el ocular e ignora la amplificación del objetivo."
+    },
+    "claveMemorizar": "100X x 15X = 1.500X.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-20"
+  },
+  "185": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El blanco permite ajustar la línea base y descontar la absorción, reflexión y refracción debidas a la cubeta, al disolvente y a reactivos distintos del analito. Así la señal atribuida a la sustancia analizada no queda artificialmente incrementada.",
+    "motivosPorOpcion": {
+      "Preparar soluciones con la misma sustancia a determinar en la muestra problema, pero de las cuales se conoce su concentración.": "Describe patrones o calibradores con concentración conocida, no una solución blanco sin analito.",
+      "Averiguar si la relación entre absorbancia y concentración es lineal.": "La linealidad se comprueba con una serie de patrones, mientras que el blanco corrige la señal de fondo.",
+      "Iniciar una serie de diluciones a fin de hacer una curva patrón.": "Una curva patrón se construye con calibradores de varias concentraciones; el blanco puede ser un punto, pero esa no es su función principal."
+    },
+    "claveMemorizar": "Blanco = restar señal de cubeta, solvente y reactivos sin analito.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 12"
+  },
+  "186": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La sedimentación es el desplazamiento de partículas bajo la acción del campo centrífugo. Las partículas más densas forman el sedimento y la fase que queda encima es el sobrenadante.",
+    "motivosPorOpcion": {
+      "El sobrenadante es el material que se fija en el fondo del tubo.": "El material del fondo es el sedimento; el sobrenadante permanece por encima.",
+      "El sedimento es el material que se sitúa por encima del sobrenadante.": "Invierte las posiciones: el sedimento queda en el fondo y el sobrenadante arriba.",
+      "La sedimentación es inversamente proporcional a la velocidad de giro en revoluciones por minuto.": "La fuerza centrífuga aumenta con el cuadrado de las rpm, por lo que una mayor velocidad favorece la sedimentación."
+    },
+    "claveMemorizar": "Sedimento abajo, sobrenadante arriba; más rpm producen más fuerza centrífuga.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75"
+  },
+  "187": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los objetivos se identifican mediante un código de color asociado a su aumento. El anillo permite reconocer rápidamente la potencia del objetivo.",
+    "motivosPorOpcion": {
+      "Poder de resolución.": "La resolución depende de longitud de onda y apertura numérica, no se expresa mediante el color del anillo.",
+      "Profundidad del foco.": "Es una propiedad óptica ligada al objetivo, pero el código cromático no está destinado a indicarla.",
+      "Contraste.": "El contraste depende de la muestra y de la iluminación, y se ajusta con elementos como el diafragma."
+    },
+    "claveMemorizar": "Anillo de color del objetivo = identificación de sus aumentos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18"
+  },
+  "188": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La cromatografía en capa fina es una cromatografía plana: la fase estacionaria forma una capa sobre una placa, no rellena una columna. Por eso no pertenece al grupo descrito en la pregunta.",
+    "motivosPorOpcion": {
+      "Cromatografía de reparto.": "Puede realizarse como cromatografía líquida en columna y separa por distribución entre fases.",
+      "Cromatografía de absorción iónica.": "Entendida como intercambio iónico, utiliza una resina estacionaria en columna y una fase móvil líquida.",
+      "Ninguna tiene la fase estacionaria situada en columna.": "El reparto y el intercambio iónico sí pueden usar una fase estacionaria dispuesta en columna."
+    },
+    "claveMemorizar": "Capa fina = cromatografía plana; intercambio iónico y reparto pueden ser de columna.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 67-71",
+    "advertenciaRevision": "La opción «absorción iónica» no coincide con la terminología del PDF, que denomina la técnica cromatografía de intercambio iónico."
+  },
+  "189": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El microscopio electrónico sustituye la iluminación fotónica por un haz de electrones. Su longitud de onda efectiva corta permite alcanzar una resolución muy superior a la del microscopio óptico.",
+    "motivosPorOpcion": {
+      "De una lámpara eléctrica de 12v.": "Una lámpara produce luz para microscopía óptica; el electrónico usa un filamento emisor de electrones.",
+      "De una fuente de radiación de longitud de onda larga.": "Una longitud de onda larga empeoraría el límite de resolución y no describe el haz electrónico.",
+      "De haces difuminados de fotones de barrido o trasmisión.": "TEM y SEM emplean electrones, no haces de fotones."
+    },
+    "claveMemorizar": "Microscopio electrónico: haz de electrones de longitud de onda corta.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 22 y 33-36"
+  },
+  "190": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las proteínas adquieren una carga dependiente del pH y pueden migrar en un campo eléctrico, lo que permite separarlas por electroforesis.",
+    "motivosPorOpcion": {
+      "Añadiéndolas a una fase móvil gaseosa en la cromatografía de líquidos.": "Una cromatografía líquida usa fase móvil líquida; además, las proteínas no se introducen como fase móvil gaseosa.",
+      "Espectrofotometría de absorción atómica.": "Atomiza la muestra para cuantificar elementos, no separa proteínas intactas.",
+      "A y B son correctas.": "La opción A mezcla de forma incompatible una fase móvil gaseosa con cromatografía de líquidos, así que la combinación es falsa."
+    },
+    "claveMemorizar": "Proteínas cargadas + campo eléctrico = separación electroforética.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 53-60"
+  },
+  "191": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La imagen formada por el objetivo vuelve a ser ampliada por el ocular; por ello la amplificación total es el producto de ambos aumentos.",
+    "motivosPorOpcion": {
+      "Amplificación del objetivo / Amplificación del ocular.": "El ocular no reduce la imagen del objetivo, sino que la amplía de nuevo.",
+      "Amplificación del objetivo x Amplificación del condensador.": "El condensador concentra la iluminación sobre la muestra y no aporta el aumento visual.",
+      "Amplificación del objetivo / Amplificación del condensador.": "Además de usar una división incorrecta, atribuye aumento al condensador."
+    },
+    "claveMemorizar": "Aumento total = aumento del objetivo x aumento del ocular.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 20"
+  },
+  "192": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En cromatografía en capa fina la muestra debe aplicarse como una pequeña disolución sobre la placa; una muestra sólida no se deposita directamente de forma reproducible. El estado físico ambiente del analito tampoco determina por sí solo la fase móvil de las otras cromatografías.",
+    "motivosPorOpcion": {
+      "La cromatografía gaseosa sólo se puede aplicar a especies que a temperatura ambiente son gases.": "También analiza compuestos líquidos o sólidos que puedan volatilizarse sin descomponerse.",
+      "La cromatografía líquida sólo se puede aplicar a especies que a temperatura ambiente son líquidas.": "Puede analizar solutos originalmente sólidos si se disuelven en una fase móvil compatible.",
+      "La cromatografía de fluidos supercríticos no se puede aplicar más que a especies que se hallen en estado supercrítico.": "El fluido supercrítico es la fase móvil; los analitos no necesitan encontrarse inicialmente en ese estado."
+    },
+    "claveMemorizar": "El estado de la fase móvil no exige que el analito tenga ese estado a temperatura ambiente.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 65-68",
+    "advertenciaRevision": "El PDF clasifica cromatografía plana, gaseosa, líquida y de fluidos supercríticos, pero no explica de forma expresa la preparación de muestras sólidas para capa fina."
+  },
+  "193": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El monocromador recibe radiación policromática y selecciona una banda estrecha de longitudes de onda mediante un prisma o una red de difracción.",
+    "motivosPorOpcion": {
+      "Proporciona radiación electromagnética como luz visible.": "Esa es la función de la fuente; el monocromador selecciona parte de la radiación ya emitida.",
+      "Transforma la energía radiante transmitida en una cantidad equivalente de energía eléctrica.": "Describe el detector o transductor fotoeléctrico.",
+      "Reduce la luz inespecífica.": "La selección espectral puede reducir radiación no deseada, pero esta formulación no define su función principal con precisión."
+    },
+    "claveMemorizar": "Monocromador: selecciona una longitud de onda de una fuente policromática.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 14"
+  },
+  "194": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los objetivos se enroscan en el revólver, una pieza giratoria que permite seleccionar el aumento deseado.",
+    "motivosPorOpcion": {
+      "En la cabeza.": "El cabezal o parte superior aloja los oculares, no los objetivos.",
+      "En el cuerpo.": "Es una denominación demasiado general; la pieza concreta que porta los objetivos es el revólver.",
+      "En la platina.": "La platina sostiene el portaobjetos y la preparación."
+    },
+    "claveMemorizar": "Revólver porta objetivos; tubo/cabezal porta oculares; platina porta muestra.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16-17"
+  },
+  "195": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La nefelometría mide la radiación dispersada por partículas en una dirección distinta de la incidente, habitualmente con el detector a 90 grados.",
+    "motivosPorOpcion": {
+      "Refractometría.": "Mide el cambio de dirección de un haz al pasar entre medios con distinto índice de refracción.",
+      "Turbidimetría.": "Mide en línea la radiación que atraviesa la muestra sin ser dispersada.",
+      "Osmometría.": "Determina osmolalidad mediante propiedades coligativas, como el descenso del punto de congelación."
+    },
+    "claveMemorizar": "Radiación dispersada fuera del eje incidente = nefelometría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-4 y 78"
+  },
+  "196": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un espectrómetro de absorción molecular UV-visible trabaja con moléculas en una cubeta y no necesita convertir la muestra en átomos mediante una llama. La atomización pertenece a la absorción atómica.",
+    "motivosPorOpcion": {
+      "Fuente de radiación.": "Aporta la radiación UV-visible que atravesará la muestra.",
+      "Detector.": "Convierte la radiación transmitida en una señal eléctrica medible.",
+      "Selector de longitud de onda.": "Aísla la banda espectral adecuada antes de que alcance la muestra."
+    },
+    "claveMemorizar": "UV-visible molecular usa cubeta; absorción atómica usa atomizador.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 13-20 y 25-26"
+  },
+  "197": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ley de Beer expresa A = epsilon por b por c: manteniendo constantes el coeficiente de absorción y el paso óptico, la absorbancia es directamente proporcional a la concentración. Esta relación presenta límites, especialmente en soluciones concentradas.",
+    "motivosPorOpcion": {
+      "La cantidad de radiación que absorbe una sustancia es inversamente proporcional a su concentración cumpliendo determinadas condiciones.": "Al aumentar la concentración aumenta la absorbancia; la relación no es inversa.",
+      "La cantidad de radiación que absorbe una sustancia nunca es proporcional a su concentración.": "En el intervalo lineal y bajo las condiciones de la ley sí existe proporcionalidad.",
+      "La cantidad de radiación que absorbe una sustancia aumenta de manera exponencial si aumenta su concentración.": "La absorbancia aumenta linealmente con la concentración; lo que varía de forma logarítmica es su relación con la transmitancia."
+    },
+    "claveMemorizar": "Ley de Beer: A = epsilon b c; absorbancia proporcional a concentración.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 10-11"
+  },
+  "198": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En turbidimetría el detector está alineado con el haz incidente para medir la radiación transmitida que no fue dispersada. Detectar en otra dirección caracteriza a la nefelometría.",
+    "motivosPorOpcion": {
+      "Mide la radiación bloqueada por parte de la muestra.": "La disminución del haz transmitido refleja la radiación retirada por dispersión y sustenta la medida turbidimétrica.",
+      "La señal puede expresarse como absorbancia.": "La atenuación del haz puede representarse con una escala de absorbancia o densidad óptica.",
+      "La señal puede expresarse como transmitancia.": "También puede informarse como proporción de radiación transmitida respecto a la incidente."
+    },
+    "claveMemorizar": "Turbidimetría: detector en línea y señal como transmitancia o absorbancia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4"
+  },
+  "199": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La señal nefelométrica depende de la concentración y características de las partículas, de la longitud de onda y de la geometría de detección, incluida la distancia a la cubeta. Por ello intervienen los tres factores enumerados.",
+    "motivosPorOpcion": {
+      "Distancia del detector a la cubeta.": "Modifica el ángulo sólido y la cantidad de luz dispersada recogida, pero no es el único factor.",
+      "Longitud de onda de la radiación incidente.": "Influye en la intensidad de dispersión en relación con el tamaño de partícula, junto con los demás factores.",
+      "Concentración del analito.": "Determina el número de partículas capaces de dispersar radiación, pero la señal también depende de longitud de onda y geometría."
+    },
+    "claveMemorizar": "Nefelometría depende de concentración, longitud de onda y geometría del detector.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2 y 4"
+  },
+  "200": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La clave del banco clasifica el equipo como centrífuga de alta velocidad, categoría que el temario sitúa aproximadamente entre 10.000 y 20.000 rpm. El extremo inferior del intervalo propuesto, 18.000 rpm, pertenece a esa categoría.",
+    "motivosPorOpcion": {
+      "Sobremesa.": "Describe formato y ubicación del equipo, no una clase definida por ese intervalo de velocidad.",
+      "Micrófugas.": "Se caracterizan por trabajar con microtubos y pequeños volúmenes, no por abarcar específicamente el intervalo dado.",
+      "Ultracentrífugas.": "El temario clasifica como ultracentrifugación las velocidades superiores a 20.000 rpm, por lo que parte del intervalo sí entraría en esta categoría."
+    },
+    "claveMemorizar": "Según el PDF: alta velocidad 10.000-20.000 rpm; ultracentrifugación >20.000 rpm.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 75",
+    "advertenciaRevision": "El intervalo 18.000-25.000 rpm cruza el umbral del propio PDF: 18.000-20.000 sería alta velocidad y más de 20.000 ultracentrifugación. La clave C no es válida para todo el intervalo."
+  }
+}

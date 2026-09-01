@@ -1,0 +1,518 @@
+{
+  "201": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La luz dispersada aumenta con la concentración de partículas, mientras que la fracción transmitida disminuye al crecer la dispersión. Por eso no es correcto afirmar que la luz transmitida sea directamente proporcional al número de partículas.",
+    "motivosPorOpcion": {
+      "La ley de Lambert-Beer es la ley básica de la espectrometría.": "La ley de Beer relaciona absorbancia y concentración y sustenta la cuantificación espectrofotométrica.",
+      "Nefelometría es una técnica que mide la luz dispersada.": "El detector nefelométrico recoge radiación dispersada, habitualmente a 90 grados respecto al haz incidente.",
+      "La espectroscopia de emisión atómica se conoce como fotometría de llama.": "La emisión atómica con llama recibe el nombre de fotometría de llama en el temario."
+    },
+    "claveMemorizar": "Más partículas: más dispersión y menos transmisión; nefelometría mide dispersión.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4; Tema 7.2 Técnicas intrumentales.pdf, pp. 11 y 27"
+  },
+  "202": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El contraste de fases transforma las diferencias de índice de refracción de la preparación en diferencias de intensidad visibles. Lo consigue separando la luz directa y la difractada para que interfieran al llegar al objetivo.",
+    "motivosPorOpcion": {
+      "Microscopia de campo oscuro.": "El campo oscuro ilumina lateralmente y forma la imagen con la luz difractada sobre un fondo negro, no convierte pequeñas diferencias de índice de refracción.",
+      "Microscopia de fluorescencia.": "La fluorescencia detecta la emisión de fluorocromos previamente excitados por radiación, no diferencias de fase por refracción."
+    },
+    "claveMemorizar": "Contraste de fases: índice de refracción distinto se convierte en contraste visible.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 28-29"
+  },
+  "203": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La microscopía de fluorescencia necesita radiación de excitación, habitualmente UV, para que los fluorocromos emitan luz. El temario señala fuentes de mercurio o xenón para producir esa excitación.",
+    "motivosPorOpcion": {
+      "Requiere inmersión en aceite.": "El aceite se asocia a objetivos de inmersión, pero no es un requisito definitorio de toda observación por fluorescencia.",
+      "Requiere un condensador de campo oscuro.": "El condensador especial de iluminación lateral pertenece al campo oscuro; la fluorescencia exige fuente y detección adecuadas para fluorocromos."
+    },
+    "claveMemorizar": "Fluorescencia: fluorocromo más radiación de excitación, frecuentemente UV.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 32"
+  },
+  "204": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el microscopio compuesto, el objetivo genera una primera imagen real y aumentada que después recoge y amplía el ocular. La imagen virtual corresponde al resultado observado a través del ocular, no a la formada inicialmente por el objetivo.",
+    "motivosPorOpcion": {
+      "Virtual y aumentada.": "El ocular actúa sobre la imagen intermedia del objetivo y proporciona la imagen virtual final; no describe la imagen primaria del objetivo.",
+      "Rectificada y aumentada.": "El sistema no rectifica la orientación: la imagen intermedia producida por el objetivo es real, aumentada e invertida."
+    },
+    "claveMemorizar": "Objetivo: imagen real aumentada; ocular: imagen virtual final.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 24",
+    "advertenciaRevision": "El PDF indica que el ocular capta la imagen formada por el objetivo y que ambos amplían, pero no califica expresamente esa imagen intermedia como real."
+  },
+  "205": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La absorbancia se define como A = -log10(T). Por tanto, al aumentar la transmitancia disminuye la absorbancia, y la relación es logarítmica, no una proporcionalidad lineal.",
+    "motivosPorOpcion": {
+      "Es directamente proporcional.": "Una subida de transmitancia implica menor absorbancia y la función que las une es logarítmica.",
+      "Es inversamente proporcional.": "Aunque varían en sentidos opuestos, no cumplen una relación del tipo A = k/T; interviene el logaritmo decimal."
+    },
+    "claveMemorizar": "A = -log10(T): relación inversa en sentido y logarítmica en forma.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 9-10"
+  },
+  "206": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El campo oscuro permite observar en fresco y sin tinción microorganismos que difractan la iluminación lateral. Así aparecen brillantes sobre un fondo oscuro.",
+    "motivosPorOpcion": {
+      "Para la observación de virus.": "Los virus quedan por debajo de la resolución habitual del microscopio óptico y requieren técnicas como microscopía electrónica.",
+      "Para detectar reacciones inmunológicas.": "La detección inmunológica puede acoplarse a fluorescencia u otros métodos, pero no es la finalidad fundamental del campo oscuro."
+    },
+    "claveMemorizar": "Campo oscuro: microorganismos en fresco, brillantes y sin teñir.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 22 y 26"
+  },
+  "207": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El contraste de fases permite visualizar preparaciones transparentes sin teñir al convertir desfases ópticos en diferencias de intensidad. Evitar la tinción favorece la observación de células vivas sin alterar su estado.",
+    "motivosPorOpcion": {
+      "Microscopio de campo brillante.": "Las muestras transparentes ofrecen poco contraste en campo claro y suelen requerir tinción para hacerse visibles.",
+      "Microscopio de luz.": "Es una categoría general que incluye varias modalidades y no identifica el método específico para células vivas sin teñir."
+    },
+    "claveMemorizar": "Células vivas transparentes sin tinción: contraste de fases.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 25 y 28-29",
+    "advertenciaRevision": "El PDF confirma que el contraste de fases no necesita tinción, aunque no menciona expresamente células vivas."
+  },
+  "208": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La cromatografía de exclusión separa según el tamaño y el peso molecular mediante poros de tamaño definido en un gel. Las moléculas grandes quedan excluidas y eluyen antes; las pequeñas entran en los poros y se retrasan.",
+    "motivosPorOpcion": {
+      "Se utiliza para separar sustancias, interacciones biológicas muy específicas, como las de antígeno- anticuerpo.": "Las interacciones específicas ligando-diana, como antígeno-anticuerpo, caracterizan la cromatografía de afinidad.",
+      "Consigue separar las sustancias tomando como base su diferente distribución entre dos fases líquidas inmiscibles.": "La distribución diferencial entre fases líquidas corresponde a cromatografía de reparto o partición.",
+      "Consigue separar las sustancias sobre la base de las interacciones electrostáticas entre la fase estacionaria y la fase móvil.": "Las atracciones entre cargas opuestas son el fundamento del intercambio iónico."
+    },
+    "claveMemorizar": "Exclusión molecular: las grandes salen primero; las pequeñas entran en los poros.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 68-73"
+  },
+  "209": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La centrifugación separa componentes por sus diferencias de densidad al someterlos a una fuerza rotativa superior a la gravedad. Los componentes más densos sedimentan.",
+    "motivosPorOpcion": {
+      "Electroforesis.": "Separa partículas cargadas por su migración en un campo eléctrico, condicionada por carga, tamaño y fricción.",
+      "Cromatografía.": "Separa por la distribución diferencial entre una fase móvil y otra estacionaria.",
+      "Filtración.": "Retiene partículas según su capacidad para atravesar los poros de una barrera, no por sedimentación diferencial."
+    },
+    "claveMemorizar": "Diferencia de densidad más fuerza rotativa: centrifugación.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45, 61 y 74"
+  },
+  "210": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El revólver es la pieza giratoria del sistema mecánico que contiene los objetivos. Su giro permite situar cada objetivo en el eje óptico.",
+    "motivosPorOpcion": {
+      "El ocular determina el aumento de microscopio.": "El aumento total depende del producto del aumento del ocular por el del objetivo, no del ocular aislado.",
+      "Se llama estativo a la unión de la base con la platina.": "El temario denomina asa o columna a la pieza que une el tubo con el pie o base, y no define el estativo de ese modo.",
+      "El diafragma es un elemento de la parte mecánica del microscopio": "El diafragma forma parte del sistema de iluminación y regula el cono de luz que atraviesa la preparación."
+    },
+    "claveMemorizar": "Revólver: pieza giratoria que aloja los objetivos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16, 19-20"
+  },
+  "211": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Filtración, centrifugación y electroforesis son métodos físicos empleados para separar componentes de una muestra. Cada uno explota una propiedad distinta: paso por poros, densidad o movilidad de partículas cargadas.",
+    "motivosPorOpcion": {
+      "La filtración.": "Es un método básico de separación, pero la pregunta incluye además otros métodos válidos.",
+      "La centrifugación.": "La sedimentación por densidad es un método básico, aunque no es el único de la lista.",
+      "Las técnicas de electroforesis.": "La migración en un campo eléctrico también separa sustancias, pero las otras dos categorías son igualmente válidas."
+    },
+    "claveMemorizar": "Separación básica: filtración, centrifugación y electroforesis.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 74",
+    "advertenciaRevision": "El PDF desarrolla centrifugación y electroforesis como separaciones, pero no desarrolla la filtración en las páginas extraídas."
+  },
+  "212": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La movilidad electroforética depende tanto del medio y su pH como del tiempo de aplicación del campo. El pH modifica la carga neta, el medio aporta fricción y fuerza iónica, y prolongar el tiempo aumenta la separación.",
+    "motivosPorOpcion": {
+      "Tiempo.": "La duración sí modifica cuánto se separan las bandas, pero no es el único factor enumerado.",
+      "Medio.": "La viscosidad, el soporte y la fuerza iónica del medio afectan la resistencia, pero también influyen tiempo y pH.",
+      "pH del medio.": "El pH determina la carga neta de moléculas anfóteras, aunque forma parte de un conjunto más amplio de factores."
+    },
+    "claveMemorizar": "Movilidad electroforética: carga, pH, soporte, fricción, voltaje, tiempo y temperatura.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 48 y 53-54"
+  },
+  "213": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La turbidimetría mide la pérdida de radiación transmitida causada por partículas en suspensión y suele combinarse con una reacción de precipitación previa. Por ello es una técnica principal para cuantificar precipitados en medio líquido.",
+    "motivosPorOpcion": {
+      "...la aglutinación.": "La aglutinación produce agregados visibles por unión de partículas, pero no designa aquí la técnica instrumental que mide la turbidez del precipitado.",
+      "...la inmunoelectroforesis.": "Combina separación electroforética y reacción inmunológica; no se basa principalmente en medir la atenuación del haz por un precipitado líquido.",
+      "Ninguna de las respuestas anteriores es correcta.": "La turbidimetría sí aparece descrita como técnica acoplable a reacciones de precipitación."
+    },
+    "claveMemorizar": "Precipitado en líquido y haz transmitido: turbidimetría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-3 y 5"
+  },
+  "214": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El contraste de fases está diseñado para observar preparaciones transparentes sin tinción. Las diferencias de fase originadas por distintos índices de refracción se convierten en diferencias de intensidad.",
+    "motivosPorOpcion": {
+      "Giemsa.": "Giemsa aporta color a estructuras celulares, pero eliminaría la ventaja específica de observar la preparación sin teñir.",
+      "Únicamente con muestras de médula ósea teñidas con panóptico rápido.": "El contraste de fases no se restringe a médula ósea ni requiere panóptico; se aplica a muestras transparentes sin teñir.",
+      "No existen los microscopios de contraste de fases.": "El temario los incluye entre los microscopios ópticos y explica su condensador, objetivos y fundamento."
+    },
+    "claveMemorizar": "Contraste de fases: observar sin tinción.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 24 y 28-29"
+  },
+  "215": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los objetivos están montados en el revólver, una pieza giratoria que permite seleccionar el aumento deseado. El revólver pertenece al sistema mecánico y sostiene estos elementos ópticos.",
+    "motivosPorOpcion": {
+      "En el micrómetro.": "El tornillo micrométrico realiza ajustes finos de enfoque y no aloja lentes.",
+      "En el interruptor primario.": "El interruptor controla la alimentación de la iluminación y no es un soporte óptico.",
+      "En el cabezal.": "La parte superior o tubo aloja los oculares; los objetivos se disponen en el revólver."
+    },
+    "claveMemorizar": "Objetivos en el revólver; oculares en la parte superior del tubo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16-17"
+  },
+  "216": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El acetato de megestrol es un fármaco y no un soporte electroforético. El temario sí enumera acetato de celulosa, agarosa y poliacrilamida como medios de soporte.",
+    "motivosPorOpcion": {
+      "El acetato de celulosa.": "Es un soporte no selectivo usado para proteinogramas, inmunología y separación de ácidos nucleicos.",
+      "El gel de agarosa.": "Es un medio electroforético habitual con mejor resolución que papel y acetato de celulosa.",
+      "El gel de acrilamida.": "La poliacrilamida es un soporte selectivo de alta resolución, utilizado también con SDS para proteínas desnaturalizadas."
+    },
+    "claveMemorizar": "Soportes: celulosa, agarosa y poliacrilamida; megestrol es un medicamento.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 48-50"
+  },
+  "217": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La absorción atómica requiere fuentes discontinuas con líneas espectrales propias del elemento. Entre ellas se encuentran las lámparas de descarga sin electrodos.",
+    "motivosPorOpcion": {
+      "Lámparas de Helio.": "El helio no aparece como fuente elemental habitual de absorción atómica en el temario.",
+      "Lámparas de Neón.": "El neón puede emplearse como gas en otros dispositivos, pero no se presenta como la fuente analítica seleccionada para absorción atómica."
+    },
+    "claveMemorizar": "Absorción atómica: fuente de líneas, como cátodo hueco o descarga sin electrodos.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 13 y 25-26"
+  },
+  "218": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ley de Beer expresa A = εbc, de modo que la absorbancia depende linealmente de la concentración del analito cuando las demás condiciones se mantienen. La cantidad de luz absorbida aumenta con esa concentración dentro del intervalo de validez.",
+    "motivosPorOpcion": {
+      "La iluminación producida por una fuente luminosa sobre una superficie es directamente proporcional a la intensidad de la fuente.": "Esa relación describe iluminación, no la dependencia de absorbancia respecto a concentración establecida por Beer.",
+      "La cantidad de luz absorbida por un analito depende de la viscosidad en la solución.": "La viscosidad no figura en A = εbc; los términos son coeficiente de absorción, camino óptico y concentración."
+    },
+    "claveMemorizar": "Beer: A = εbc; a camino fijo, absorbancia proporcional a concentración.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 11"
+  },
+  "219": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La región visible se sitúa aproximadamente entre 380 y 750 nm. Por debajo se encuentra el ultravioleta y por encima comienza el infrarrojo.",
+    "motivosPorOpcion": {
+      "150 a 380 nm.": "Ese intervalo corresponde a radiación ultravioleta, no a la región que percibe el ojo.",
+      "1 a 150nm.": "Son longitudes de onda más cortas y energéticas, fuera del visible."
+    },
+    "claveMemorizar": "Visible: alrededor de 380-750 nm.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 5-6"
+  },
+  "220": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El poder de resolución es la capacidad de mostrar de forma nítida y separada dos puntos adyacentes. Se evalúa mediante el límite de resolución, la distancia mínima a la que aún se distinguen.",
+    "motivosPorOpcion": {
+      "Apertura numérica.": "La apertura numérica influye en la resolución al describir la captación de luz, pero no es el nombre de la capacidad de separar dos puntos.",
+      "Contraste de fases.": "Es una modalidad microscópica que convierte desfases en contraste, no la propiedad general definida en el enunciado."
+    },
+    "claveMemorizar": "Resolución: ver separados dos puntos próximos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 20-21"
+  },
+  "221": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los objetivos son lentes y pertenecen al sistema óptico. La platina y el tubo forman parte del sistema mecánico que sostiene y posiciona la preparación y los elementos ópticos.",
+    "motivosPorOpcion": {
+      "Platina.": "Es la pieza mecánica sobre la que se coloca la preparación.",
+      "Tubo.": "Es un componente mecánico que aloja los oculares y sostiene parte del trayecto óptico."
+    },
+    "claveMemorizar": "Objetivos y oculares: óptica; tubo y platina: mecánica.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16-17"
+  },
+  "222": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El campo oscuro se emplea fundamentalmente para observar microorganismos sin teñir suspendidos en líquido. El condensador ilumina desde los lados y solo la luz difractada por la muestra entra en el objetivo.",
+    "motivosPorOpcion": {
+      "Detectar microorganismos muy resistentes a la luz ultravioleta.": "La técnica no selecciona resistencia a UV; su contraste procede de iluminación oblicua y fondo oscuro.",
+      "Aumentar el poder de resolución debido a la luz ultravioleta.": "El campo oscuro mejora la visibilidad y el contraste, pero no se fundamenta en usar UV para elevar la resolución."
+    },
+    "claveMemorizar": "Campo oscuro: muestra fresca sin teñir, luz difractada sobre fondo negro.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 26"
+  },
+  "223": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El microscopio electrónico utiliza un filamento de tungsteno como fuente de electrones. El haz atraviesa o barre la muestra y se controla mediante lentes electromagnéticas.",
+    "motivosPorOpcion": {
+      "Haz de fotones.": "Los fotones constituyen la iluminación de la microscopía óptica; la electrónica sustituye la luz por electrones.",
+      "Lámpara de Hidrógeno.": "Es una fuente continua para espectrofotometría ultravioleta, no la fuente de un microscopio electrónico."
+    },
+    "claveMemorizar": "Microscopio electrónico: haz de electrones generado por filamento de tungsteno.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 33; Tema 7.2 Técnicas intrumentales.pdf, p. 13"
+  },
+  "224": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La cromatografía separa por distribución o interacción diferencial entre fases, y sus detectores pueden medir absorbancia, refracción, fluorescencia, conductividad u otras propiedades. Por ello es falso que todas las técnicas dependan de la absorbancia al color.",
+    "motivosPorOpcion": {
+      "Separan unos analitos de otros en función de distintas propiedades de sus moléculas.": "Los tipos cromatográficos explotan solubilidad, carga, tamaño, adsorción o afinidad, entre otras propiedades.",
+      "Pueden ser analíticas o preparativas.": "Una separación puede usarse para identificar y cuantificar o para aislar y recuperar componentes.",
+      "La propiedad de las moléculas que componen los analitos, que se aprovechan para la técnica, determinan el tipo de cromatografía.": "El mecanismo elegido depende de la propiedad diferencial que se quiera explotar, como carga, tamaño o afinidad."
+    },
+    "claveMemorizar": "Cromatografía separa por interacción entre fases; la detección no siempre es absorbancia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61-62 y 66-72"
+  },
+  "225": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El fotómetro de llama mide la radiación emitida por átomos excitados térmicamente en una llama. Por su fundamento es un instrumento de espectrofotometría de emisión, aplicado especialmente a metales alcalinos y alcalinotérreos.",
+    "motivosPorOpcion": {
+      "Un espectrofotómetro de absorción en las regiones visibles y ultravioletas.": "La señal analítica procede de emisión atómica tras la excitación en la llama, no de pérdida de un haz por absorción.",
+      "Un fotodiómetro de emisión en las regiones visibles y ultravioletas.": "Fotodiómetro no es la denominación instrumental presentada; la técnica se clasifica como espectrofotometría de emisión.",
+      "Identifica la absorción de los elementos excitados por llama, arco eléctrico o chispa de alto voltaje.": "Los átomos excitados liberan radiación al volver a estados de menor energía; lo medido es emisión, no absorción."
+    },
+    "claveMemorizar": "Fotometría de llama: emisión atómica de metales excitados.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 27 y 33",
+    "advertenciaRevision": "El PDF respalda que es espectrofotometría de emisión, pero no afirma expresamente que su región abarque visible y ultravioleta."
+  },
+  "226": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La electroforesis capilar separa por movilidad en un campo eléctrico y por el flujo electroosmótico del capilar. No se basa en la distribución diferencial de analitos entre una fase móvil y una estacionaria, propia de la cromatografía.",
+    "motivosPorOpcion": {
+      "Es una técnica de separación cromatográfica.": "Pertenece a las técnicas electroforéticas y utiliza diferencia de potencial, no equilibrio entre fases cromatográficas.",
+      "Separa las moléculas cargadas eléctricamente entre dos electrodos de igual potencial, en función de su carga y tamaño.": "Para crear el campo eléctrico los electrodos deben estar a distinto potencial, no a igual potencial.",
+      "No es aplicable a iones, al producirse la separación por la velocidad de migración en el campo eléctrico.": "El temario indica expresamente que permite separar cationes y aniones, además de proteínas y otras sustancias."
+    },
+    "claveMemorizar": "Capilar: campo eléctrico más flujo electroosmótico; no distribución entre fases.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45, 52 y 58; pp. 61-62"
+  },
+  "227": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una clasificación cromatográfica atiende a la naturaleza de la fase móvil y contempla gases, líquidos y fluidos supercríticos. Estos últimos combinan características de gas y líquido.",
+    "motivosPorOpcion": {
+      "Los detectores cromatográficos no averiguan la naturaleza de la especie química que sale de la columna.": "Detectores como emisión atómica o espectrometría acoplada pueden aportar información cualitativa sobre la especie eluida.",
+      "El detector de conductividad identifica directamente las especies que eluyen de la columna.": "La conductividad responde a la presencia y concentración de especies iónicas, pero por sí sola no establece inequívocamente su identidad.",
+      "En los detectores es importante la respuesta lineal en un cierto intervalo y poseer un límite de detección optimizado a baja temperatura.": "La linealidad y el límite de detección importan, pero este último no se define por optimizarlo a baja temperatura de forma general."
+    },
+    "claveMemorizar": "Según fase móvil: cromatografía de gases, líquidos o fluidos supercríticos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 66-67",
+    "advertenciaRevision": "El PDF confirma la clasificación por fluidos supercríticos y enumera detectores, pero no desarrolla de forma expresa todas las afirmaciones sobre identificación, linealidad y temperatura."
+  },
+  "228": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La apertura numérica, n·sen(α), expresa la capacidad del sistema para concentrar y captar luz mediante condensador y objetivo. Una apertura numérica mayor reduce el límite de resolución y mejora el poder resolutivo.",
+    "motivosPorOpcion": {
+      "El aumento total se calcula multiplicando el aumento del objetivo por el aumento del condensador.": "El aumento total es el producto de objetivo y ocular; el condensador concentra iluminación.",
+      "El índice de refracción se calcula como la velocidad de la luz en el aire dividido por la velocidad de la luz en el objetivo.": "El índice compara velocidades de propagación en medios; el objetivo no es el medio cuya velocidad se usa en esa formulación.",
+      "El poder de resolución se calcula PR = λ2 x IR (siendo λ., longitud de onda e IR, índice de refracción)": "El límite de resolución depende de λ dividido por la apertura numérica, no de λ al cuadrado multiplicada por el índice."
+    },
+    "claveMemorizar": "Apertura numérica = n·sen(α); mayor apertura, mejor resolución.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 19-21"
+  },
+  "229": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La afirmación es falsa porque la nefelometría se aplica a suspensiones diluidas y es más sensible. Las suspensiones concentradas se analizan preferentemente por turbidimetría.",
+    "motivosPorOpcion": {
+      "Son técnicas de inmunoprecipitación.": "Ambas pueden acoplarse a reacciones inmunológicas de precipitación como inmunoturbidimetría e inmunonefelometría.",
+      "En la turbidimetría se compara con la intensidad del haz de luz que emerge con la intensidad del haz de luz que llega.": "La turbidimetría mide la radiación que atraviesa la muestra sin dispersarse mediante un detector alineado con el haz.",
+      "La nefelometría mide la luz dispersada en distinta dirección a la luz emitida.": "Su detector se sitúa fuera del eje incidente, habitualmente a 90 grados, para recoger luz dispersada."
+    },
+    "claveMemorizar": "Nefelometría: diluidas y más sensible; turbidimetría: concentradas.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-5"
+  },
+  "230": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El azul de bromofenol figura entre los colorantes empleados para detectar proteínas tras una separación electroforética. La tinción permite visualizar las bandas en el soporte de agarosa.",
+    "motivosPorOpcion": {
+      "azul violeta": "No aparece entre los colorantes proteicos enumerados para la detección electroforética.",
+      "nitrato potásico": "Es una sal inorgánica y no actúa como colorante para revelar bandas de proteínas.",
+      "azul de metileno": "Es un colorante biológico, pero el temario no lo señala como el colorante habitual de proteínas en esta lectura electroforética."
+    },
+    "claveMemorizar": "Proteínas electroforéticas: azul de bromofenol, Coomassie o Ponceau.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 52"
+  },
+  "231": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El movimiento browniano es el desplazamiento aleatorio de cada partícula debido a su energía cinética. En electroforesis actúa junto a la fuerza eléctrica y la resistencia del medio.",
+    "motivosPorOpcion": {
+      "Las moléculas se mueven debido a la fuerza gravitatoria.": "La agitación browniana procede de la energía cinética y de colisiones microscópicas, no de sedimentación gravitatoria.",
+      "El movimiento browniano provoca que todas las moléculas migren de igual manera.": "Es aleatorio y cada partícula también responde de modo distinto a carga y fricción.",
+      "El movimiento browniano disminuye al aumentar la temperatura.": "Una temperatura mayor incrementa la energía cinética y, por tanto, la agitación térmica."
+    },
+    "claveMemorizar": "Browniano = movimiento aleatorio por energía cinética.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 46"
+  },
+  "232": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La nefelometría cuantifica la radiación dispersada por partículas en suspensión. El detector se coloca normalmente a 90 grados del haz incidente para no medir directamente la luz transmitida.",
+    "motivosPorOpcion": {
+      "La luz incidente.": "Es la radiación que llega a la muestra y sirve de referencia, pero la señal nefelométrica es la fracción desviada.",
+      "La luz absorbida.": "La absorción corresponde a técnicas espectrofotométricas basadas en la pérdida energética del haz.",
+      "La luz inducida.": "No es la magnitud óptica definida para nefelometría; la señal es luz dispersada."
+    },
+    "claveMemorizar": "Nefelometría = luz dispersada, detector fuera del eje.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2 y 4"
+  },
+  "233": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Fotómetros y espectrofotómetros de absorción aplican la ley de Lambert-Beer: A = εbc. Con camino óptico y coeficiente constantes, la absorbancia es directamente proporcional a la concentración.",
+    "motivosPorOpcion": {
+      "La ley de Lambert-Beer: la transmitancia es directamente proporcional a la concentración de una disolución": "La magnitud lineal con concentración es la absorbancia; la transmitancia se relaciona con ella mediante un logaritmo y disminuye al aumentar A.",
+      "La ley de Faraday: La absorbancia a 290 nm es proporcional a la concentración de una disolución": "La ley de Faraday trata fenómenos electroquímicos y 290 nm no es una longitud universal para todas las sustancias.",
+      "La ley de Faraday: la dispersión de la luz en ángulos de 15° y 90° es proporcional a la concentración de una disolución": "La dispersión angular pertenece a nefelometría, no al fundamento de absorción de fotómetros y espectrofotómetros."
+    },
+    "claveMemorizar": "Lambert-Beer linealiza absorbancia, no transmitancia: A proporcional a c.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 9-11 y 14"
+  },
+  "234": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La nefelometría mide la luz que una suspensión coloidal dispersa en una dirección distinta de la incidente. La geometría habitual coloca el detector a 90 grados.",
+    "motivosPorOpcion": {
+      "Turbidimetría": "Mide la radiación no dispersada que continúa alineada con el haz, no la dispersión observada a otros ángulos.",
+      "Cromatografía": "Separa analitos por su distribución diferencial entre fases y no es una medida angular de luz dispersada.",
+      "HPLC": "Es cromatografía líquida de alta resolución; su función primaria es separar componentes en una columna."
+    },
+    "claveMemorizar": "Dispersión a un ángulo respecto a la fuente: nefelometría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4; pp. 61 y 65"
+  },
+  "235": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La cromatografía de exclusión o tamizado molecular separa por peso molecular y tamaño mediante geles porosos. El tamaño y la forma condicionan el acceso efectivo de cada molécula a los poros.",
+    "motivosPorOpcion": {
+      "Cromatografía de partición": "Separa por distinta solubilidad y distribución entre dos fases, no por entrada en poros.",
+      "Cromatografía de intercambio iónico": "Diferencia analitos por interacciones electrostáticas con grupos cargados de una resina.",
+      "Cromatografía de adsorción": "Depende de la distinta interacción de los solutos con la superficie sólida estacionaria."
+    },
+    "claveMemorizar": "Tamaño molecular y poros del gel: cromatografía de exclusión.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 68-73"
+  },
+  "236": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una partícula positiva es un catión y migra hacia el electrodo de carga opuesta, el cátodo negativo. La atracción entre cargas contrarias dirige su desplazamiento electroforético.",
+    "motivosPorOpcion": {
+      "Positivo.": "Un electrodo positivo repele cationes y atrae aniones.",
+      "No migran.": "Al poseer carga neta, experimentan una fuerza en el campo eléctrico y sí migran.",
+      "Ánodo.": "El ánodo es el polo positivo en la electroforesis descrita y atrae partículas negativas."
+    },
+    "claveMemorizar": "Catión positivo va al cátodo negativo; anión negativo va al ánodo positivo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 45"
+  },
+  "237": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La región ultravioleta se encuentra por debajo del visible y, en la división usada por el banco, comprende aproximadamente 100-390 nm. A longitudes mayores comienza la región visible.",
+    "motivosPorOpcion": {
+      "1-100 nm.": "Ese intervalo incluye radiación de longitud más corta y mayor energía, como ultravioleta extremo y rayos X según la clasificación.",
+      "390-700 nm.": "Corresponde aproximadamente al espectro visible.",
+      "700-100000 nm.": "A partir de unos 700 nm se entra en la región infrarroja."
+    },
+    "claveMemorizar": "UV: aproximadamente 100-390 nm; visible: aproximadamente 390-700 nm.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 5-7"
+  },
+  "238": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La cromatografía de gases separa por distribución entre una fase móvil gaseosa y una fase estacionaria. No utiliza como principio la migración de partículas cargadas en un campo eléctrico.",
+    "motivosPorOpcion": {
+      "Electroforesis capilar.": "Es una modalidad electroforética que combina movilidad eléctrica y flujo electroosmótico dentro de un capilar.",
+      "lsoelectroenfoque.": "Separa moléculas en un gradiente de pH hasta que alcanzan su punto isoeléctrico.",
+      "Electroforesis en gel de almidón.": "El gel de almidón es un soporte selectivo en el que la migración depende de carga y tamaño."
+    },
+    "claveMemorizar": "Cromatografía de gases distribuye entre fases; no es electroforesis.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 48, 56-59 y 61-68"
+  },
+  "239": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La volatilidad es la tendencia de un compuesto a pasar al estado gaseoso. Esta propiedad resulta especialmente relevante para la cromatografía de gases.",
+    "motivosPorOpcion": {
+      "Solubilidad.": "Describe la capacidad de disolverse en un medio y condiciona técnicas de reparto, no el paso a gas.",
+      "Adsorción.": "Es la retención de moléculas sobre una superficie sólida.",
+      "Polaridad.": "Expresa la distribución desigual de carga en una molécula y afecta interacciones, pero no define la transición sólido-gas."
+    },
+    "claveMemorizar": "Volatilidad = facilidad o tendencia a pasar a fase gaseosa.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 65, 68-69"
+  },
+  "240": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La electroforesis transporta partículas cargadas a través de una disolución tampón por acción de un campo eléctrico. La dirección depende del signo de la carga y la movilidad también de la fricción y del medio.",
+    "motivosPorOpcion": {
+      "La movilización de partículas en función de su absorbancia.": "La absorbancia es una magnitud óptica de cuantificación y no genera el desplazamiento electroforético.",
+      "La movilización de partículas basada en la afinidad por anticuerpos.": "La afinidad antígeno-anticuerpo puede intervenir en inmunotécnicas, pero no define la migración eléctrica.",
+      "La distribución de las moléculas de una sustancia en función de su masa.": "La masa puede influir mediante el tamaño y la fricción, pero la electroforesis exige partículas cargadas y un campo eléctrico."
+    },
+    "claveMemorizar": "Electroforesis: partículas cargadas más tampón más campo eléctrico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45-48"
+  },
+  "241": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La nefelometría es más sensible que la turbidimetría y se aplica a suspensiones diluidas. El temario destaca su uso para determinar macromoléculas como proteínas e inmunoglobulinas.",
+    "motivosPorOpcion": {
+      "Turbidimetría.": "Se aplica preferentemente a suspensiones concentradas y tiene menor sensibilidad que la nefelometría.",
+      "Electroforesis capilar.": "Es excelente para separar especies, pero la pregunta pide la técnica óptica más adecuada para cuantificar proteínas a baja concentración.",
+      "Colorimetría": "La absorción visible puede cuantificar proteínas tras una reacción cromógena, pero no ofrece aquí la sensibilidad característica de la nefelometría.",
+      "Espectroscopía UV-Visible.": "La absorción UV-visible es cuantitativa, aunque para concentraciones proteicas bajas la dispersión nefelométrica es la elección señalada."
+    },
+    "claveMemorizar": "Proteínas a baja concentración: nefelometría por su mayor sensibilidad.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-6; Tema 7.2 Técnicas intrumentales.pdf, p. 20"
+  },
+  "242": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Medir primero la absorbancia propia del suero y restarla de la reacción final corrige las interferencias ópticas aportadas por la muestra. Ese procedimiento es un blanco de muestra.",
+    "motivosPorOpcion": {
+      "Un control": "Un control verifica el desempeño analítico con un material de valor esperado, pero no consiste en sustraer la señal basal del propio suero.",
+      "Una calibración": "La calibración establece la relación entre señal y concentración mediante calibradores, no elimina la absorbancia basal individual.",
+      "Un blanco de reactivo": "Corrige la señal introducida por los reactivos; aquí la medición previa corresponde al suero antes de añadirlos.",
+      "Todas son correctas": "El procedimiento descrito tiene una función concreta de blanco de muestra y no equivale simultáneamente a control y calibración."
+    },
+    "claveMemorizar": "Señal basal del propio suero: blanco de muestra.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 12"
+  },
+  "243": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La espectrometría de emisión atómica con llama, o fotometría de llama, se utiliza especialmente para metales alcalinos y alcalinotérreos. El temario cita de forma expresa sodio, potasio y calcio.",
+    "motivosPorOpcion": {
+      "Espectrometría de absorción atómica.": "También cuantifica metales y puede ser sensible, pero el temario asigna específicamente Na, K y Ca a la fotometría de llama de emisión.",
+      "Espectrometría de dispersión de partículas.": "Las técnicas de dispersión cuantifican suspensiones o macromoléculas y no son el método característico para estos iones."
+    },
+    "claveMemorizar": "Fotometría de llama: Na, K y Ca.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 27 y 33"
+  },
+  "244": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El azul de Coomassie se une a proteínas y permite visualizar sus bandas tras la electroforesis. El temario lo enumera junto con Ponceau y azul de bromofenol.",
+    "motivosPorOpcion": {
+      "Sudán III.": "Los colorantes Sudán se emplean para lípidos o lipoproteínas, no como tinción general de proteínas.",
+      "Tween-20.": "Es un detergente no iónico usado en lavados y solubilización, no un colorante que revele bandas proteicas."
+    },
+    "claveMemorizar": "Coomassie tiñe proteínas; Sudán tiñe lípidos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 52"
+  },
+  "245": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El revólver es una pieza giratoria que contiene normalmente varios objetivos. Al rotarlo se selecciona el objetivo y, con ello, el aumento y la apertura usados en la observación.",
+    "motivosPorOpcion": {
+      "Donde se acopla un condensador, con un diafragma para regular la cantidad de luz incidente.": "El condensador está debajo de la platina y contiene el diafragma; no se acopla al revólver.",
+      "Donde se coloca la muestra.": "La preparación se deposita sobre la platina y se desplaza mediante el carro."
+    },
+    "claveMemorizar": "Revólver selecciona objetivos; platina sostiene muestra; condensador concentra luz.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16-19"
+  },
+  "246": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El blanco permite poner a cero la señal debida a absorción, reflexión y refracción de la cubeta y del disolvente o medio. Así, la lectura posterior representa principalmente la absorbancia atribuible al analito.",
+    "motivosPorOpcion": {
+      "Y absorber mejor el reflejo de la cubeta solamente.": "El blanco no mejora la absorción y tampoco corrige únicamente la cubeta; compensa señales ópticas ajenas al analito.",
+      "Y absorber mejor el reflejo de la cubeta y del solvente.": "Su función no es absorber mejor, sino medir la contribución de fondo y sustraerla o ajustar el cero."
+    },
+    "claveMemorizar": "Blanco: corrige la señal de cubeta, disolvente y otros componentes sin analito.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 12"
+  },
+  "247": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El condensador es una lente o conjunto de lentes situado debajo de la platina cuya función es concentrar la luz sobre la preparación. La regulación del cono luminoso corresponde al diafragma alojado en su interior.",
+    "motivosPorOpcion": {
+      "Es una parte del microscopio óptico situado debajo de la pletina, siendo el encargado de regular la entrada de luz.": "La posición es correcta, pero quien regula el cono de luz es el diafragma; el condensador la concentra.",
+      "Está formado por dos lentes que se encuentran separadas por un diafragma.": "El temario lo define como sistema de concentración y ubica el diafragma en su interior, pero no establece una composición universal de exactamente dos lentes."
+    },
+    "claveMemorizar": "Condensador concentra; diafragma regula.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 19"
+  },
+  "248": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El acetato de celulosa se clasifica como soporte no selectivo: no participa directamente en la separación. En él, la separación depende esencialmente de la carga eléctrica de las partículas.",
+    "motivosPorOpcion": {
+      "Es un soporte selectivo que permite separar los componentes de la muestra en función de su tamaño, además de su carga eléctrica.": "Esa propiedad corresponde a soportes selectivos como gel de almidón o poliacrilamida, no al acetato de celulosa.",
+      "Es un soporte selectivo que se usa para la separación de moléculas de gran tamaño.": "El acetato no se clasifica como tamiz selectivo por tamaño; se usa, entre otras aplicaciones, para proteinogramas y ácidos nucleicos."
+    },
+    "claveMemorizar": "Acetato de celulosa: soporte no selectivo, separación por carga.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 48 y 50"
+  }
+}

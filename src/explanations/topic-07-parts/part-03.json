@@ -1,0 +1,562 @@
+{
+  "101": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La longitud de onda es la distancia entre dos puntos sucesivos que están en la misma fase, como dos máximos consecutivos. Se expresa habitualmente en micrómetros, nanómetros o ángstroms.",
+    "motivosPorOpcion": {
+      "Frecuencia": "Es el número de ondas completas por unidad de tiempo, no una distancia entre máximos.",
+      "Secuencia": "No es una magnitud física que caracterice el movimiento ondulatorio.",
+      "Radiación electromagnética": "Es la forma de propagación de la energía mediante campos eléctricos y magnéticos, no la distancia espacial descrita."
+    },
+    "claveMemorizar": "Longitud de onda = distancia entre dos puntos consecutivos en igual fase.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 3"
+  },
+  "102": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La lámpara de tungsteno se emplea como fuente continua en la región visible, por lo que es adecuada para mediciones por encima del ultravioleta próximo. Las fuentes de hidrógeno y deuterio se reservan para la región UV.",
+    "motivosPorOpcion": {
+      "Arco de mercurio": "Puede emitir en la región visible, pero el temario identifica el filamento de tungsteno como la fuente continua característica para espectrofotometría visible.",
+      "Deuterio": "Es una fuente para la región ultravioleta, especialmente útil a longitudes de onda más cortas.",
+      "Hidrógeno": "También se clasifica como fuente ultravioleta y no como la fuente habitual de la región indicada."
+    },
+    "claveMemorizar": "Visible: tungsteno; UV: hidrógeno o deuterio.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 13",
+    "advertenciaRevision": "El PDF asigna tungsteno a la región visible e hidrógeno/deuterio a UV, pero no fija literalmente el umbral de 320 nm."
+  },
+  "103": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La platina es la pieza mecánica sobre la que se deposita la preparación. Sobre ella suele situarse un carro que permite desplazar el portaobjetos.",
+    "motivosPorOpcion": {
+      "Un tubo con lentes entre el ocular y el objetivo": "El tubo sostiene los oculares y mantiene alineado el sistema óptico; no es la superficie de apoyo de la muestra.",
+      "Donde se concentra la luz desde la fuente hasta el objetivo": "La concentración de la luz sobre la preparación corresponde al condensador.",
+      "Sirve para regular la intensidad de luz": "La regulación del cono luminoso corresponde al diafragma, mientras que la fuente puede regular la cantidad de luz."
+    },
+    "claveMemorizar": "Platina: soporte de la preparación; carro: desplazamiento.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 16"
+  },
+  "104": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El pH se determina potenciométricamente con un electrodo de membrana de vidrio sensible a protones. La diferencia de potencial se relaciona con la actividad del ion hidrógeno mediante la ecuación de Nernst.",
+    "motivosPorOpcion": {
+      "Subtipos de hemoglobina": "Se separan mediante técnicas como electroforesis o cromatografía, no midiendo un potencial electroquímico.",
+      "Glucosa": "Su determinación habitual usa reacciones enzimáticas con detección fotométrica o electroquímica amperométrica, no la potenciometría de pH descrita.",
+      "Anticuerpos monoclonales": "Se detectan o caracterizan por métodos inmunológicos, no con un electrodo ion-selectivo."
+    },
+    "claveMemorizar": "pH: potenciometría con membrana de vidrio.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-40"
+  },
+  "105": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El blanco de reactivo mide la señal aportada por los reactivos en ausencia del analito y permite descontarla. Así la lectura final representa mejor la contribución de la muestra.",
+    "motivosPorOpcion": {
+      "Cuando queremos eliminar interferencias del suero": "Las interferencias propias de la muestra se corrigen con un blanco de muestra, no con uno que contenga solo reactivos.",
+      "Cuando queremos eliminar interferencias de la fuente de luz": "Las contribuciones ópticas generales del sistema se ajustan con el blanco de cubeta o el ajuste instrumental a cero.",
+      "Cuando se debe hacer un calibrador": "El calibrador establece la relación entre señal y concentración conocida; cumple una función distinta a la corrección del fondo del reactivo."
+    },
+    "claveMemorizar": "Cada blanco corrige su origen: reactivo, muestra o sistema óptico.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 12"
+  },
+  "106": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una medición a 260 nm pertenece a la región ultravioleta. Las cubetas de cuarzo o sílice fundida transmiten UV, mientras que vidrio y plástico se destinan en general a la región visible.",
+    "motivosPorOpcion": {
+      "De plástico": "El material plástico indicado en el temario es apropiado para visible, pero puede absorber radiación UV a 260 nm.",
+      "De vidrio": "El vidrio no transmite adecuadamente el ultravioleta empleado en esta medición.",
+      "De pírex": "El pírex es un vidrio de borosilicato y tampoco sustituye al cuarzo para una lectura UV a 260 nm."
+    },
+    "claveMemorizar": "UV = cuarzo o sílice; visible = vidrio o plástico.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 15"
+  },
+  "107": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ruido de fondo describe fluctuaciones o señales ajenas al analito; el chequeo debe cuantificar cuánto se separa una señal del fondo instrumental. Esa diferencia condiciona la capacidad de detectar señales pequeñas.",
+    "motivosPorOpcion": {
+      "El valor físico que mide un el equipo": "Eso corresponde a la magnitud analítica medida de forma ordinaria, no específicamente al ruido basal.",
+      "Que la media del blanco sea correcta": "La media del blanco informa del nivel basal o sesgo, mientras que el ruido se relaciona con su variabilidad y la distinción de una señal.",
+      "Que el equipo no tiene lectura en ese chequeo": "Un instrumento puede presentar señal basal aun sin analito; exigir lectura exactamente nula no cuantifica el ruido."
+    },
+    "claveMemorizar": "Ruido = variación del fondo; señal detectable = diferencia respecto a ese fondo.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 12 y 18",
+    "advertenciaRevision": "Los PDF explican el ajuste del fondo y la conversión de señal por el detector, pero no describen literalmente este chequeo de ruido ni la redacción de la opción C."
+  },
+  "108": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el sustrato se agota, la reacción deja de generar señal proporcional aunque todavía haya analito por medir. La respuesta fotométrica se aplana y la concentración calculada queda por debajo de la real.",
+    "motivosPorOpcion": {
+      "Un valor de la concentración mayor que la real": "El agotamiento limita la formación de producto y reduce la señal, por lo que no produce una sobreestimación por este mecanismo.",
+      "Un valor de la concentración igual que la real": "Al perderse la proporcionalidad entre señal y cantidad de analito, el resultado ya no representa fielmente la concentración.",
+      "Ninguna de las anteriores": "La limitación de sustrato sí tiene una dirección previsible: genera una respuesta insuficiente y una infravaloración."
+    },
+    "claveMemorizar": "Agotamiento de sustrato → señal insuficiente → resultado falsamente bajo.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 11",
+    "advertenciaRevision": "El PDF trata desviaciones de la ley de Beer, pero no desarrolla explícitamente el agotamiento de sustrato en métodos fotométricos."
+  },
+  "109": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En microscopía electrónica de transmisión la muestra debe ser ultrafina y contrastarse con sustancias de alto número atómico que dispersen electrones. El tetróxido de osmio fija y aporta contraste lipídico, y el acetato de uranilo aumenta el contraste electrónico de las secciones.",
+    "motivosPorOpcion": {
+      "El microscopio de campo oscuro": "Trabaja con luz oblicua y muestras habitualmente frescas sin teñir; no requiere contraste con metales pesados.",
+      "El microscopio de contraste de fase": "Convierte diferencias de fase causadas por índices de refracción y permite observar muestras sin tinción.",
+      "El microscopio de campo luminoso": "Emplea luz visible y colorantes ópticos ordinarios, no la preparación con compuestos electrodensos propia de microscopía electrónica."
+    },
+    "claveMemorizar": "TEM: cortes ultrafinos y contraste con sustancias electrodensas.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-35",
+    "advertenciaRevision": "El PDF exige sustancias especiales que dispersen electrones, pero el texto extraíble no nombra acetato de uranilo ni tetróxido de osmio."
+  },
+  "110": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El aceite eleva el índice de refracción entre preparación y objetivo, con lo que aumenta la apertura numérica. Al disminuir el límite de resolución, mejora el poder de resolución; por eso las tres afirmaciones se encadenan.",
+    "motivosPorOpcion": {
+      "Aumentamos su apertura numérica": "Es una consecuencia válida del mayor índice de refracción aportado por el aceite.",
+      "Aumentamos el índice de refracción entre el objetivo y el objeto": "Es el cambio físico directo al sustituir el aire por aceite de inmersión.",
+      "Aumentamos el poder de resolución": "Es el resultado óptico de aumentar la apertura numérica y reducir la distancia mínima resoluble."
+    },
+    "claveMemorizar": "Aceite ↑ índice y apertura numérica; límite de resolución ↓; resolución ↑.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 21"
+  },
+  "111": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El filtro de excitación selecciona la banda capaz de excitar el fluorocromo antes de que la radiación alcance la muestra. Es propio del sistema óptico de fluorescencia, que separa la radiación excitadora de la emitida.",
+    "motivosPorOpcion": {
+      "El microscopio de campo oscuro": "Su componente distintivo es un condensador que envía iluminación oblicua, no un filtro para excitar fluorocromos.",
+      "El microscopio de contraste de fase": "Utiliza diafragma anular y elementos de fase para convertir diferencias de fase en intensidad.",
+      "El microscopio de campo luminoso": "Forma la imagen con luz transmitida convencional y no necesita seleccionar una banda de excitación fluorescente."
+    },
+    "claveMemorizar": "Fluorescencia: filtro de excitación antes de la muestra y filtro de emisión después.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32",
+    "advertenciaRevision": "El PDF desarrolla fluorocromos, fuentes y emisión en fluorescencia, pero el texto extraíble de esas páginas no menciona literalmente el filtro de excitación."
+  },
+  "112": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "A pH 8,6 las proteínas séricas presentan carga neta negativa y, en el campo eléctrico, migran hacia el ánodo positivo. El sentido de migración depende del signo de la carga, no solo del valor numérico del pH.",
+    "motivosPorOpcion": {
+      "Hacia el ánodo, porque a ese pH tiene carga positiva": "El destino sería coherente con una carga negativa, pero una especie positiva sería atraída por el cátodo.",
+      "Hacia el cátodo, porque a ese pH tiene carga positiva": "Describe el comportamiento de un catión, mientras que las proteínas séricas son negativas a pH 8,6.",
+      "Hacia el cátodo, porque a ese pH tiene carga negativa": "Una partícula negativa es repelida por el cátodo y atraída por el ánodo."
+    },
+    "claveMemorizar": "pH 8,6: proteínas negativas → ánodo positivo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 60"
+  },
+  "113": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fluorescencia ocurre cuando una molécula excitada libera energía en forma de radiación al regresar a un estado de menor energía. Por tanto, se clasifica como espectroscopía de emisión molecular.",
+    "motivosPorOpcion": {
+      "Absorción molecular": "La absorción inicia la excitación, pero la señal analítica de fluorescencia es la luz que la molécula emite después.",
+      "Dispersión de la radiación": "La dispersión desvía radiación incidente sin corresponder a la transición emisiva característica de la fluorescencia.",
+      "Refractometría": "Mide cambios de dirección relacionados con el índice de refracción, no radiación emitida por moléculas excitadas."
+    },
+    "claveMemorizar": "Fluorescencia = emisión molecular tras excitación.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 8 y 27-29"
+  },
+  "114": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Como el pH 8,1 es superior al pI 6,1, la proteína adquiere carga neta negativa. En un campo eléctrico será atraída hacia el ánodo positivo.",
+    "motivosPorOpcion": {
+      "Migrará hacia el cátodo": "La migración al cátodo correspondería a una proteína positiva, condición que se daría cuando pH fuese menor que pI.",
+      "No migrará": "La movilidad sería nula en el punto isoeléctrico, pero aquí pH y pI difieren en dos unidades.",
+      "Ninguna de las anteriores": "La comparación entre pH y pI permite determinar tanto la carga negativa como la migración al ánodo."
+    },
+    "claveMemorizar": "pH > pI → carga negativa → ánodo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 53 y 59"
+  },
+  "115": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Campo claro, campo oscuro y contraste de fases son modalidades de microscopía óptica compuesta. Como ninguno de los tres deja de ser óptico, todos los microscopios enumerados lo son.",
+    "motivosPorOpcion": {
+      "Microscopio de campo claro": "Forma parte de los microscopios ópticos compuestos y utiliza luz transmitida.",
+      "Microscopio de campo oscuro": "También es óptico; cambia la geometría de iluminación mediante un condensador especial.",
+      "Microscopio de contraste de fases": "Es óptico y transforma diferencias de fase de la luz en diferencias de intensidad."
+    },
+    "claveMemorizar": "Campo claro, oscuro y contraste de fases: todos ópticos compuestos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 24"
+  },
+  "116": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Interpretando 50X como el aumento del objetivo y usando el ocular habitual de 10X, el aumento total es 50 × 10 = 500. El aumento total siempre resulta del producto del objetivo por el ocular.",
+    "motivosPorOpcion": {
+      "50 aumentos": "Sería el aumento aportado solo por el objetivo, sin multiplicarlo por el ocular de 10X.",
+      "5000 aumentos": "Ese valor exigiría un ocular de 100X, no el ocular habitual de 10X descrito en el temario.",
+      "100 aumentos": "No resulta del producto de un objetivo de 50X por un ocular de 10X."
+    },
+    "claveMemorizar": "Aumento total = objetivo × ocular; 50X × 10X = 500X.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 20",
+    "advertenciaRevision": "El enunciado dice «microscopio de 50X», lo que normalmente designaría 50 aumentos totales; la clave 500 solo se sostiene si 50X se interpreta como el objetivo y se presupone un ocular de 10X."
+  },
+  "117": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La resistencia al movimiento electroforético depende de la viscosidad del disolvente y de las dimensiones y forma de la partícula. Por ello los tres factores enumerados contribuyen al coeficiente de fricción.",
+    "motivosPorOpcion": {
+      "Viscosidad del disolvente": "Es un factor real: una viscosidad mayor opone más resistencia al desplazamiento.",
+      "Forma de la partícula": "La geometría modifica el rozamiento hidrodinámico y, con ello, la movilidad.",
+      "Tamaño de la partícula": "A igual carga, una partícula menor suele migrar más rápido porque encuentra menos resistencia."
+    },
+    "claveMemorizar": "Fricción electroforética: viscosidad, tamaño y forma.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 54"
+  },
+  "118": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un soporte electroforético ideal debe ser estable, además de homogéneo y químicamente inerte. La inestabilidad alteraría el medio de migración y perjudicaría la reproducibilidad de la separación.",
+    "motivosPorOpcion": {
+      "Químicamente inerte, no debe interaccionar con el tampón (buffer) ni con la muestra": "Es una propiedad deseable porque evita retenciones o reacciones ajenas a la movilidad electroforética.",
+      "No debe tener grupos ionizables": "Evita cargas propias del soporte y fenómenos electroosmóticos que distorsionen la migración.",
+      "Consistente y homogéneo": "La homogeneidad mantiene uniformes los poros y el recorrido de las partículas."
+    },
+    "claveMemorizar": "Soporte ideal: inerte, no ionizable, homogéneo y estable.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 49"
+  },
+  "119": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La cromatografía separa los componentes por su distinta distribución entre una fase móvil y otra estacionaria. Esa separación permite aislar fracciones y, combinada con tiempos de retención o detectores, contribuir a su identificación; por ello las tres aplicaciones son válidas.",
+    "motivosPorOpcion": {
+      "Aislar componentes": "Es una finalidad válida cuando se recoge por separado una fracción ya resuelta.",
+      "Separar componentes": "Es el fundamento central de toda técnica cromatográfica.",
+      "Identificar componentes": "La comparación de la respuesta cromatográfica con patrones puede apoyar la identificación."
+    },
+    "claveMemorizar": "Cromatografía: separar, identificar y aislar fracciones.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61-64"
+  },
+  "120": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "HPLC es la sigla de cromatografía líquida de alta resolución. Emplea una fase móvil líquida impulsada a través de una columna para obtener separaciones eficientes.",
+    "motivosPorOpcion": {
+      "Cromatografía líquida clásica": "Es una categoría más amplia y no desarrolla el significado de la sigla HPLC.",
+      "Cromatografía líquida de baja resolución": "Invierte el rasgo de alta resolución expresado por las letras HP de la denominación usada en el temario.",
+      "Cromatografía de altos pesos moleculares": "La sigla no alude al peso molecular de los analitos, sino al rendimiento o resolución de la cromatografía líquida."
+    },
+    "claveMemorizar": "HPLC = cromatografía líquida de alta resolución.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 65"
+  },
+  "121": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La electroforesis capilar utiliza conductos de diámetro interno muy pequeño, habitualmente dentro del intervalo de decenas de micrómetros. Afirmar que se realiza en capilares de más de 100 µm no caracteriza la técnica habitual.",
+    "motivosPorOpcion": {
+      "Se aplica para la separación de proteínas en fluidos biológicos.": "Las proteínas se encuentran entre las macromoléculas que pueden separarse mediante electroforesis capilar.",
+      "Utiliza un menor volumen de muestra.": "El pequeño diámetro del capilar permite trabajar con volúmenes reducidos.",
+      "Mejor eficiencia de la separación.": "El flujo electroosmótico y la disipación eficiente del calor favorecen separaciones de alta eficiencia."
+    },
+    "claveMemorizar": "Electroforesis capilar: diámetro pequeño, poco volumen y alta eficiencia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 58",
+    "advertenciaRevision": "El PDF explica el flujo electroosmótico y los analitos separables, pero no especifica el diámetro de los capilares, el volumen de muestra ni cuantifica la eficiencia."
+  },
+  "122": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los fragmentos de ADN poseen carga y pueden separarse en un campo eléctrico según su movilidad a través de un soporte, normalmente un gel. El temario incluye expresamente los ácidos nucleicos entre las aplicaciones de la electroforesis.",
+    "motivosPorOpcion": {
+      "Cromatografía.": "Puede analizar ácidos nucleicos en contextos específicos, pero no es la técnica preferente propuesta para resolver fragmentos de ADN por tamaño.",
+      "Espectrofotometría.": "Permite estimar concentración y pureza por absorbancia, pero no separa físicamente fragmentos individuales.",
+      "Nefelometría.": "Mide luz dispersada por partículas o complejos y no resuelve fragmentos de ADN en bandas."
+    },
+    "claveMemorizar": "ADN en fragmentos → electroforesis en gel.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 48"
+  },
+  "123": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La nefelometría mide la luz dispersada y se aplica a suspensiones diluidas, con mayor sensibilidad que la turbidimetría. Por eso es adecuada para cuantificar concentraciones bajas de proteínas, a menudo mediante complejos inmunológicos.",
+    "motivosPorOpcion": {
+      "Turbidimetría.": "Se aplica preferentemente a suspensiones más concentradas y mide la radiación que atraviesa la muestra sin dispersarse.",
+      "Espectroscopía UV-visible.": "Puede cuantificar proteínas, pero para concentraciones bajas la dispersión nefelométrica de complejos ofrece mayor sensibilidad en el contexto planteado.",
+      "Electroforesis": "Separa fracciones proteicas y permite estudiar su distribución, pero no es la opción preferente para cuantificar una proteína a baja concentración."
+    },
+    "claveMemorizar": "Baja concentración de proteína: nefelometría, más sensible que turbidimetría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 4-6"
+  },
+  "124": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En exclusión molecular, las partículas grandes no penetran en los poros del gel y recorren un trayecto más corto, por lo que eluyen primero. Las pequeñas entran en los poros, quedan retenidas durante más tiempo y salen después.",
+    "motivosPorOpcion": {
+      "Las partículas pequeñas son eluidas en primer lugar de la columna.": "Las partículas pequeñas acceden a los poros y aumentan su tiempo de permanencia en la fase estacionaria.",
+      "Los cationes o partículas con carga positiva eluyen en primer lugar de la columna.": "La exclusión molecular separa principalmente por tamaño, no por el signo positivo de la carga.",
+      "Los aniones o partículas negativas eluyen en primer lugar de la columna.": "La carga negativa tampoco determina el orden de elución en un tamizado molecular ideal."
+    },
+    "claveMemorizar": "Exclusión molecular: grandes primero, pequeñas después.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 72-73"
+  },
+  "125": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El isoelectroenfoque establece un gradiente de pH y cada anfolito migra hasta la zona donde el pH coincide con su pI. Allí su carga neta y movilidad se hacen cero, concentrándose en una banda estrecha.",
+    "motivosPorOpcion": {
+      "Cromatografía micelar electrocinética.": "Separa por reparto entre una fase micelar y el medio, no enfocando cada especie en su punto isoeléctrico.",
+      "Isotacoforesis.": "Ordena iones en zonas de igual velocidad entre electrolitos guía y terminal, sin usar el pI como posición final.",
+      "Electroforesis capilar de zona.": "Separa según movilidad electroforética en un tampón de pH definido, pero no crea el gradiente de pH característico."
+    },
+    "claveMemorizar": "Isoelectroenfoque: gradiente de pH y parada en pH = pI.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 59"
+  },
+  "126": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los analizadores de tiras de orina miden la luz reflejada por las zonas reactivas coloreadas. El temario presenta las tiras de orina como ejemplo de fotometría de reflectancia y su uso semicuantitativo en urianálisis.",
+    "motivosPorOpcion": {
+      "Inmunocromatografía.": "Se usa en pruebas rápidas dirigidas a analitos concretos, pero no es la tecnología general de lectura de las tiras multiparamétricas de orina.",
+      "Inmunoanálisis con detección enzimática.": "Requiere una reacción antígeno-anticuerpo y no describe la lectura óptica rutinaria de áreas reactivas en la mayoría de equipos.",
+      "Espectrofotometría de luminiscencia.": "La luminiscencia detecta luz producida por una reacción; las tiras de orina se leen por radiación reflejada."
+    },
+    "claveMemorizar": "Tira de orina: fotometría de reflectancia.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 10-14"
+  },
+  "127": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La reducción consiste en la ganancia de electrones por una especie química. El proceso complementario, la oxidación, implica pérdida de electrones.",
+    "motivosPorOpcion": {
+      "Pierde electrones.": "La pérdida de electrones define una oxidación.",
+      "Se denomina reductor.": "La especie que se reduce acepta electrones y actúa como oxidante; el reductor es quien los cede y se oxida.",
+      "Se denomina oxidante": "Aunque la especie que acepta electrones funciona como agente oxidante, la pregunta solicita qué le ocurre durante la reducción, no su nombre funcional."
+    },
+    "claveMemorizar": "Reducción gana electrones; oxidación pierde electrones.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 41"
+  },
+  "128": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El objetivo forma una imagen aumentada y el ocular vuelve a ampliarla. Por ello el aumento total de un microscopio compuesto se obtiene multiplicando ambos aumentos individuales.",
+    "motivosPorOpcion": {
+      "La distancia del objetivo al ocular debe ser variable.": "El enfoque se consigue desplazando la preparación o el sistema mediante tornillos de enfoque, no alterando libremente la longitud óptica del tubo.",
+      "Las partes ópticas principales son los objetivos, brazo, condensadores y diafragma.": "El brazo pertenece al sistema mecánico, por lo que la enumeración mezcla sistemas.",
+      "Las partes mecánicas principales son el soporte, los oculares, la platina y el tubo.": "Los oculares son lentes del sistema óptico, no una parte mecánica."
+    },
+    "claveMemorizar": "Aumento total = aumento del objetivo × aumento del ocular.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 16-20"
+  },
+  "129": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La resolución expresa la capacidad de mostrar como separados dos puntos muy próximos y, por tanto, de revelar detalles finos. Se valora mediante el límite de resolución, la distancia mínima que aún puede distinguirse.",
+    "motivosPorOpcion": {
+      "Aumento": "Solo indica cuántas veces se agranda la imagen; un aumento mayor no garantiza nuevos detalles si falta resolución.",
+      "Profundidad del foco": "Describe el espesor de muestra que permanece enfocado, no la separación mínima entre detalles.",
+      "Contraste": "Es la diferencia de intensidad entre objeto y fondo y facilita la visibilidad, pero no define el detalle mínimo resoluble."
+    },
+    "claveMemorizar": "Resolución separa detalles; aumento solo agranda.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 20-22"
+  },
+  "130": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La centrifugación aplica una fuerza superior a la gravedad para separar componentes de acuerdo con su densidad. Los de mayor densidad sedimentan con mayor facilidad bajo la fuerza centrífuga.",
+    "motivosPorOpcion": {
+      "Electroforesis.": "Separa partículas cargadas según su movilidad en un campo eléctrico.",
+      "Cromatografía.": "Se basa en la distribución diferencial entre una fase móvil y otra estacionaria.",
+      "Filtración.": "Retiene partículas según su paso a través de poros y no se fundamenta primariamente en diferencias de densidad."
+    },
+    "claveMemorizar": "Diferencia de densidad + fuerza rotatoria = centrifugación.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 74"
+  },
+  "131": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La cromatografía de exclusión utiliza un gel poroso y separa según el tamaño molecular y la posibilidad de penetrar en sus poros. No requiere interacciones químicas específicas con la fase estacionaria.",
+    "motivosPorOpcion": {
+      "Utiliza para separar sustancias interacciones biológicas muy específicas, como las de antígeno- anticuerpo": "Ese reconocimiento específico caracteriza a la cromatografía de afinidad.",
+      "Consigue separar las sustancias tomando como base su diferente distribución entre dos fases líquidas inmiscibles.": "Ese mecanismo corresponde a cromatografía de reparto líquido-líquido.",
+      "Consigue separar las sustancias sobre la base de las interacciones electrostáticas entre la fase estacionaria y la fase móvil.": "Las interacciones entre cargas caracterizan la cromatografía de intercambio iónico."
+    },
+    "claveMemorizar": "Exclusión: forma/tamaño frente a poros del gel.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 67-73"
+  },
+  "132": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un filtro de interferencia es un selector de longitud de onda que transmite una banda restringida y puede utilizarse en visible, infrarrojo y ultravioleta. Los espectrofotómetros, en sentido estricto, suelen incorporar monocromadores de prisma o red.",
+    "motivosPorOpcion": {
+      "Un filtro de emisión": "En fluorescencia selecciona la radiación emitida, pero no es la categoría general de selector enumerada para espectrofotometría de absorción.",
+      "Un filtro de prisma": "El prisma es un monocromador que dispersa la luz; no se clasifica como filtro.",
+      "Un filtro de difracción": "La red de difracción también es un monocromador, no un filtro denominado de difracción."
+    },
+    "claveMemorizar": "Selectores: filtros de absorción/interferencia o monocromadores de prisma/red.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 14"
+  },
+  "133": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El microscopio de luz polarizada aparece clasificado entre los microscopios ópticos compuestos, que poseen al menos objetivo y ocular. Su aplicación destacada es observar materiales birrefringentes, como cristales en líquidos biológicos.",
+    "motivosPorOpcion": {
+      "Microscopio óptico simple": "Un microscopio simple utiliza una sola lente, como una lupa; el polarizado descrito pertenece a los compuestos.",
+      "Microscopio electrónicos de transmisión": "El TEM forma imágenes con electrones y lentes electromagnéticas, no con luz polarizada.",
+      "Microscopio óptico compuesto invertido": "La polarización describe el tratamiento de la luz, mientras que invertido describe una disposición distinta de objetivos y platina."
+    },
+    "claveMemorizar": "Polarizado = microscopio óptico compuesto para materiales birrefringentes.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 24 y 30"
+  },
+  "134": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El punto isoeléctrico es el pH al que una proteína presenta carga neta y movilidad electroforética nulas. Es esencial para predecir su migración y constituye el criterio de separación del isoelectroenfoque.",
+    "motivosPorOpcion": {
+      "Espectrometría de masas": "Separa iones según su relación masa/carga, no sitúa proteínas en el pH correspondiente a su carga cero.",
+      "Cromatografía": "Distribuye analitos entre fases y puede usar carga o tamaño, pero el pI se desarrolla aquí como factor electroforético.",
+      "osmómetro": "Mide concentración osmótica mediante propiedades coligativas y no determina movilidad eléctrica de proteínas."
+    },
+    "claveMemorizar": "pI: carga neta cero y movilidad electroforética cero.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 53 y 59"
+  },
+  "135": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El acetato de celulosa es un soporte electroforético no selectivo empleado para separar proteínas séricas. La aplicación principal indicada es el proteinograma.",
+    "motivosPorOpcion": {
+      "La separación de fragmentos del ADN amplificados por PCR: amplicograma": "Los fragmentos de ADN se resuelven habitualmente en geles como agarosa o poliacrilamida, no como aplicación principal del acetato de celulosa.",
+      "La separación de vitaminas: vitaminograma": "No es la aplicación electroforética principal descrita para este soporte.",
+      "No tiene ninguna aplicación, ya que el acetato de celulosa se utiliza en la cromatografía": "El temario lo enumera expresamente como soporte de electroforesis."
+    },
+    "claveMemorizar": "Acetato de celulosa + proteínas séricas = proteinograma.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 48-50 y 60"
+  },
+  "136": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El objetivo de 40X se utiliza habitualmente para visualizar preparaciones en fresco. El de 100X suele reservarse para preparaciones teñidas y requiere aceite de inmersión.",
+    "motivosPorOpcion": {
+      "Carro hidráulico": "El carro sirve para desplazar la preparación sobre la platina y no determina el aumento adecuado para el examen.",
+      "Objetivo x100 seco": "El objetivo de 100X habitual es de inmersión, no seco, y no es la elección general para un fresco.",
+      "Objetivo x100 de inmersión": "Se utiliza para observar con gran detalle preparaciones teñidas, interponiendo aceite entre muestra y objetivo."
+    },
+    "claveMemorizar": "Fresco: 40X; teñida con detalle: 100X de inmersión.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18"
+  },
+  "137": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El espectrofotómetro incorpora un sistema que selecciona una longitud de onda y un detector que convierte la radiación transmitida en señal eléctrica. La opción alude de forma imprecisa a ese conjunto selector-detector.",
+    "motivosPorOpcion": {
+      "No necesitan de una fuente de energía radiante": "La fuente de radiación es uno de los componentes básicos del instrumento.",
+      "Detecta frecuencias entre 20 Hz y 20 KHz": "Ese intervalo corresponde a frecuencias audibles, no a radiación UV-visible o infrarroja.",
+      "Es parte de un cromatógrado": "Un detector espectrofotométrico puede acoplarse a cromatografía, pero el espectrofotómetro es también un instrumento independiente."
+    },
+    "claveMemorizar": "Espectrofotómetro: fuente → selector de λ → cubeta → detector.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 13-18",
+    "advertenciaRevision": "El PDF separa el selector de longitud de onda del detector: el primero restringe λ y el segundo convierte la radiación transmitida en señal. «Detector de longitud de onda» no es una denominación precisa."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La luz es radiación electromagnética con propiedades ondulatorias y se caracteriza, entre otras magnitudes, por su longitud de onda. Un microscopio óptico utiliza esa radiación para iluminar la preparación y formar la imagen.",
+    "motivosPorOpcion": {
+      "Neutrones de energía": "Los neutrones son partículas nucleares sin carga y no constituyen la luz del microscopio óptico.",
+      "Emisiones de rayos gamma y ultravioleta": "La iluminación óptica ordinaria se basa en luz visible; los rayos gamma no forman parte de ella y el UV solo se usa en modalidades específicas.",
+      "Electrones luminiscentes": "Los electrones forman el haz de un microscopio electrónico, no la luz emitida por uno óptico."
+    },
+    "claveMemorizar": "Luz = onda electromagnética caracterizada por λ.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 2-5"
+  },
+  "139": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La electroforesis capilar separa especies cargadas según su movilidad electroforética y el flujo electroosmótico dentro del capilar. El pH del tampón determina su carga y, con ello, la dirección y velocidad de migración.",
+    "motivosPorOpcion": {
+      "La separación de partículas neutras disueltas en una solución conductora": "Las partículas neutras no poseen movilidad electroforética propia, aunque puedan ser arrastradas por el flujo electroosmótico.",
+      "La separación de partículas mediante reacciones electrolíticas": "La separación no requiere transformar químicamente los analitos por electrólisis, sino hacerlos migrar en un campo.",
+      "La migración de partículas iónicas en función de su configuración": "La configuración por sí sola no define la separación; intervienen carga, tamaño, fricción, campo y flujo electroosmótico."
+    },
+    "claveMemorizar": "Capilar: movilidad electroforética + flujo electroosmótico a pH controlado.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 53-58"
+  },
+  "140": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En turbidimetría el detector se alinea con el haz incidente y mide radiación transmitida; en nefelometría se sitúa habitualmente a 90° para medir radiación dispersada. La geometría del detector es, por tanto, la diferencia instrumental fundamental.",
+    "motivosPorOpcion": {
+      "La fuente de radiación luminosa": "Ambas técnicas pueden emplear fuentes semejantes; lo que cambia de forma definitoria es qué radiación recoge el detector.",
+      "El detector de radiaciones": "El principio de transducción puede ser similar en ambas; la diferencia clave no es su naturaleza, sino su posición.",
+      "El tamaño de las cubetas de reacción": "El tamaño de cubeta puede variar entre equipos, pero no define si se mide transmisión o dispersión."
+    },
+    "claveMemorizar": "Turbidimetría: detector 0°; nefelometría: detector 90°.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4"
+  },
+  "141": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La cromatografía distribuye los analitos entre dos fases inmiscibles: una fase estacionaria sólida o líquida y una fase móvil líquida o gaseosa. Las distintas afinidades por ambas fases originan diferentes velocidades de elución.",
+    "motivosPorOpcion": {
+      "Una fase gaseosa y otra mitad sólida mitad gaseosa": "No existe una fase híbrida definida de ese modo; las fases se describen por su estado y función.",
+      "Una fase estacionaria gaseosa y una móvil sólida": "La fase móvil debe desplazarse y es líquida o gaseosa, mientras la estacionaria permanece fija.",
+      "La cromatografía no es un método de análisis, es un tipo de tinción": "Es una técnica de separación y análisis, no un procedimiento de coloración microscópica."
+    },
+    "claveMemorizar": "Cromatografía = fase estacionaria + fase móvil.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 61-62"
+  },
+  "142": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En microscopía electrónica la dispersión de electrones depende especialmente del número atómico del material. Los elementos de mayor número atómico dispersan con más intensidad y generan contraste electrónico.",
+    "motivosPorOpcion": {
+      "De la absorción de electrones.": "El temario fundamenta la imagen principalmente en la dispersión y transmisión de electrones, no en una absorción equivalente a la de luz.",
+      "De la dispersión de la luz.": "El microscopio electrónico usa un haz de electrones, no fotones de luz visible.",
+      "De la refracción de la luz.": "La refracción luminosa corresponde a sistemas ópticos; en el electrónico actúan lentes electromagnéticas sobre electrones."
+    },
+    "claveMemorizar": "Contraste electrónico: dispersión ligada al número atómico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-34"
+  },
+  "143": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La nefelometría cuantifica la radiación dispersada por las partículas de una suspensión. Dentro de un intervalo analítico, su intensidad se relaciona con la concentración y también depende del tamaño de las partículas y de la geometría de medida.",
+    "motivosPorOpcion": {
+      "Se cuantifica la luz residual transmitida.": "La luz transmitida en línea es la magnitud propia de la turbidimetría.",
+      "Se mide la refracción que ocurre cuando la radiación atraviesa una sustancia ópticamente transparente.": "Ese cambio de dirección corresponde a refractometría, no a dispersión por partículas.",
+      "La concentración se determina midiendo la disminución de la intensidad incidente.": "Describe de forma general una pérdida de transmisión, mientras la nefelometría recoge directamente luz dispersada a otro ángulo."
+    },
+    "claveMemorizar": "Nefelometría: intensidad dispersada proporcional a concentración.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2 y 4"
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La desionización hace pasar el agua por resinas de intercambio iónico cuyos grupos cargados retienen e intercambian los iones disueltos. El proceso elimina especies cargadas sin depender de evaporar el agua.",
+    "motivosPorOpcion": {
+      "Calentar hasta evaporación y posteriormente condensar aumentado la presión hasta liberar los iones libres en el agua.": "Evaporar y condensar describe destilación; el aumento de presión no es el mecanismo de desionización.",
+      "Utilizar un filtro de resina con poros cargados negativamente y así atrapar los iones presentes en el agua.": "Una resina solo negativa intercambiaría cationes, pero no retiraría también los aniones necesarios para desionizar.",
+      "Usar adsorbentes minerales que liberen iones y formen compuestos más grandes que posteriormente son filtrados en un equipo especializado.": "Añadir iones y formar agregados corresponde a otros tratamientos, no al intercambio reversible de cationes y aniones en resinas."
+    },
+    "claveMemorizar": "Agua desionizada: resinas de intercambio catiónico y aniónico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 70-71"
+  },
+  "145": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En contraste de fases una parte de la luz atraviesa la muestra directamente y otra se difracta por sus estructuras. El sistema hace interferir ambas fracciones con distinta fase y las convierte en diferencias visibles de intensidad.",
+    "motivosPorOpcion": {
+      "De campo claro.": "Utiliza iluminación transmitida convencional y suele necesitar tinción en muestras muy transparentes.",
+      "De campo oscuro.": "Emplea haces oblicuos y deja entrar al objetivo principalmente la luz dispersada por la muestra.",
+      "De fluorescencia.": "Forma la imagen con la emisión de fluorocromos excitados, no por interferencia entre luz directa y difractada."
+    },
+    "claveMemorizar": "Contraste de fases: luz directa + difractada → interferencia visible.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 29"
+  },
+  "146": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La osmometría estima la concentración total de partículas osmóticamente activas en una disolución, con independencia de su identidad química. Los osmómetros habituales la obtienen mediante una propiedad coligativa, como el descenso del punto de congelación.",
+    "motivosPorOpcion": {
+      "Se utiliza para medir en particular determinadas moléculas e iones.": "La señal osmométrica refleja el número total de partículas y no identifica selectivamente cada especie.",
+      "Se utiliza para medir el flujo de soluto a través de una membrana semipermeable.": "La ósmosis implica movimiento de disolvente, pero el osmómetro descrito mide una propiedad coligativa de la disolución.",
+      "Se utiliza para medir el aumento de la presión osmótica, debido a la concentración de iones que existe en una disolución.": "La presión osmótica es una propiedad coligativa posible, pero la concentración incluye moléculas e iones y los equipos habituales usan descenso crioscópico."
+    },
+    "claveMemorizar": "Osmometría: número total de partículas; habitual, descenso crioscópico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 78"
+  },
+  "147": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Aumentar demasiado el potencial eleva la corriente y el calentamiento del sistema, lo que puede evaporar tampón, desnaturalizar componentes y distorsionar la migración. El voltaje debe optimizarse, no maximizarse sin límite.",
+    "motivosPorOpcion": {
+      "La carga neta no depende del pH del medio.": "En moléculas anfotéricas, el pH determina si la carga neta es positiva, negativa o nula.",
+      "El gel de agarosa es el soporte que menos prestaciones presenta.": "La agarosa es un soporte no selectivo útil y el temario atribuye los inconvenientes más marcados al papel, no establece esa inferioridad general.",
+      "La estructura y tamaño de las sustancias a separar no es influyente en el proceso electroforético.": "Tamaño y forma afectan al coeficiente de fricción y, por tanto, a la velocidad de migración."
+    },
+    "claveMemorizar": "Voltaje excesivo → calentamiento → migración defectuosa.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 53-54",
+    "advertenciaRevision": "El PDF indica que más voltaje aumenta la separación y que la temperatura puede desnaturalizar o evaporar disolvente, pero no enlaza explícitamente un potencial excesivo con esos problemas."
+  },
+  "148": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La radiación parásita añade luz al detector que no ha seguido la absorción ideal de la muestra, por lo que la transmitancia medida resulta mayor que la real. Como A = −log T, esa transmitancia artificialmente alta produce una absorbancia y una concentración calculada falsamente bajas.",
+    "motivosPorOpcion": {
+      "Mayor que la real y tendremos un error positivo en la medida de la absorbancia.": "La primera parte es coherente, pero una transmitancia mayor reduce la absorbancia y genera un error negativo.",
+      "Menor que la real y tendremos un error positivo en la medida de la absorbancia.": "Una transmitancia menor sí elevaría la absorbancia, pero la radiación parásita añade señal y no disminuye la transmitancia medida.",
+      "Menor que la real y tendremos un error negativo en la medida de la absorbancia": "Si la transmitancia fuese menor, la relación logarítmica haría que la absorbancia fuese mayor, no menor."
+    },
+    "claveMemorizar": "Radiación parásita: T aparente ↑ → A aparente ↓ → concentración infravalorada.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 10-11"
+  },
+  "149": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El aumento de temperatura favorece desactivaciones no radiativas y reduce el rendimiento fluorescente. El oxígeno disuelto también actúa como desactivador por colisiones, de modo que ambos factores disminuyen la intensidad.",
+    "motivosPorOpcion": {
+      "Analitos de estructura aromática y elevada rigidez estructural.": "La aromaticidad y la rigidez suelen favorecer la fluorescencia al limitar pérdidas de energía por movimientos internos.",
+      "Analitos de estructura aromática y que poseen un anillo heterocíclico.": "La aromaticidad puede sostener transiciones fluorescentes; la presencia de un heterociclo no constituye por sí sola la pareja de factores de desactivación descrita.",
+      "La disminución de la temperatura de la disolución y la presencia de nitrógeno atmosférico disuelto en el medio.": "Bajar la temperatura reduce colisiones desactivadoras y el nitrógeno es mucho menos eficaz como apagador que el oxígeno."
+    },
+    "claveMemorizar": "Fluorescencia baja con temperatura alta y oxígeno disuelto.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 30",
+    "advertenciaRevision": "La página presenta los factores que condicionan la emisión de forma gráfica, pero el texto extraído mediante pdfjs-dist no conserva la lista y no permite verificar literalmente temperatura y oxígeno."
+  },
+  "150": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El electrodo selectivo a protones usado para medir pH posee una membrana de vidrio que desarrolla un potencial dependiente de la actividad de H+. Ese potencial se compara con un electrodo de referencia.",
+    "motivosPorOpcion": {
+      "Líquida con un intercambiador iónico.": "Las membranas líquidas con intercambiadores se emplean en otros electrodos ion-selectivos, no en el electrodo clásico de pH.",
+      "Líquida con un ionóforo.": "Los ionóforos aportan selectividad a membranas para determinados iones, pero la respuesta protónica convencional se obtiene con vidrio.",
+      "Sólida policristal.": "Las membranas cristalinas sólidas se asocian a otros iones, como fluoruros, y no al electrodo de protones descrito."
+    },
+    "claveMemorizar": "Electrodo de pH: membrana de vidrio sensible a H+.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 39-40"
+  }
+}
