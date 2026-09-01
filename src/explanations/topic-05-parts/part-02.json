@@ -1,0 +1,537 @@
+{
+  "49": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La transferrina se localiza en la fracción beta del proteinograma y su función principal es transportar hierro. Su movilidad electroforética permite separarla de las proteínas alfa.",
+    "motivosPorOpcion": {
+      "Haptoglobina": "La haptoglobina pertenece a la fracción alfa-2 y se une a la hemoglobina libre.",
+      "Orosomucoide": "El orosomucoide o alfa-1-glicoproteína ácida migra en la región alfa-1.",
+      "Quimotripsina": "El temario no la incluye entre las proteínas plasmáticas de la banda beta; es una enzima proteolítica digestiva."
+    },
+    "claveMemorizar": "Transferrina: beta-globulina transportadora de hierro.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "50": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La deshidratación reduce el volumen de agua plasmática y concentra la albúmina sin exigir un aumento real de su síntesis. Por eso una hiperalbuminemia suele reflejar hemoconcentración.",
+    "motivosPorOpcion": {
+      "Una bisalbuminemia": "La bisalbuminemia altera el patrón electroforético al mostrar dos componentes de albúmina, no explica por sí sola una concentración total elevada.",
+      "Una concentración elevada de sustancias transportadas por la albúmina": "La unión de metabolitos u hormonas no es el mecanismo descrito para elevar la concentración medida de albúmina.",
+      "Una nutrición adecuada": "Un buen estado nutricional evita déficits, pero no suele elevar la albúmina por encima del intervalo normal."
+    },
+    "claveMemorizar": "Albúmina alta: pensar primero en pérdida de agua plasmática.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 14"
+  },
+  "51": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Como la transferrina migra con las beta-globulinas, un aumento de su concentración incrementa la banda beta del proteinograma. La posición de la banda refleja la movilidad de la proteína, no su órgano de síntesis.",
+    "motivosPorOpcion": {
+      "Fracción Alfa 1.": "Esta región contiene, entre otras, alfa-1-antitripsina y orosomucoide, pero no transferrina.",
+      "Fracción Alfa 2.": "Ceruloplasmina, haptoglobina y alfa-2-macroglobulina son componentes característicos de esta banda.",
+      "Fracción Gamma": "La fracción gamma está dominada por inmunoglobulinas sintetizadas por células plasmáticas."
+    },
+    "claveMemorizar": "Más transferrina equivale a una banda beta más intensa.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "52": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las inmunoglobulinas son producidas por linfocitos B y células plasmáticas, no por hepatocitos. Constituyen una excepción a la síntesis hepática de la mayoría de proteínas plasmáticas.",
+    "motivosPorOpcion": {
+      "Ceruloplasmina": "Es una proteína plasmática de síntesis hepática que transporta cobre.",
+      "Fibrinógeno": "Es un factor de coagulación incluido entre las proteínas sintetizadas por el hígado.",
+      "Albúmina": "La albúmina se sintetiza en el hígado y sirve como indicador de su capacidad sintética."
+    },
+    "claveMemorizar": "Hígado fabrica casi todas las proteínas plasmáticas, excepto inmunoglobulinas y factor von Willebrand.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 6 y 10"
+  },
+  "53": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En intercambio catiónico la fase estacionaria retiene especies con carga positiva; a pH alcalino la albúmina presenta una carga negativa intensa y queda poco retenida. Por ello se espera que eluya antes que las globulinas propuestas.",
+    "motivosPorOpcion": {
+      "Globulinas alfa-1.": "Su comportamiento de carga permite una retención mayor que la de la albúmina en las condiciones planteadas.",
+      "Globulinas alfa-2.": "No son la fracción con menor interacción catiónica entre las opciones y eluyen después de la albúmina.",
+      "Beta-globulinas.": "Su movilidad y carga no les confieren la elución inicial frente a la albúmina fuertemente aniónica."
+    },
+    "claveMemorizar": "Intercambiador catiónico retiene cationes; la albúmina alcalina es muy negativa.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8",
+    "advertenciaRevision": "El PDF explica la electroforesis y la carga negativa de las proteínas a pH 8,6, pero no describe la cromatografía de intercambio catiónico ni el orden de elución."
+  },
+  "54": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La alfa-1-antitripsina es el componente cuantitativamente principal de la región alfa-1. Además actúa como inhibidor de proteasas y reactante de fase aguda.",
+    "motivosPorOpcion": {
+      "Alfa-1-glicoproteína ácida.": "También migra en alfa-1 y responde a la inflamación, pero no es el componente principal señalado.",
+      "Alfa-1-lipoproteína.": "Transporta lípidos dentro de la región alfa-1, sin dominar esa fracción.",
+      "Alfa-1-microglobulina.": "Forma parte de la banda alfa-1, aunque su contribución es menor que la de alfa-1-antitripsina."
+    },
+    "claveMemorizar": "Principal alfa-1-globulina: alfa-1-antitripsina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 16"
+  },
+  "55": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La alfa-2-macroglobulina no figura en la relación del temario de reactantes positivos ni negativos de fase aguda. Su función destacada es inhibir proteasas, como la plasmina.",
+    "motivosPorOpcion": {
+      "Alfa-1 antitripsina.": "Es un reactante positivo y aumenta al activarse la respuesta inflamatoria.",
+      "Alfa-1 glicoproteína ácida.": "El orosomucoide está incluido expresamente entre los reactantes positivos.",
+      "Antiquimiotripsina.": "La alfa-1-antiquimiotripsina también aparece en la lista de proteínas que aumentan en fase aguda."
+    },
+    "claveMemorizar": "Alfa-2-macroglobulina inhibe proteasas, pero no integra la lista de reactantes de fase aguda del temario.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 19",
+    "advertenciaRevision": "El PDF omite la alfa-2-macroglobulina de ambas listas de reactantes, pero no afirma expresamente que su concentración no varíe ante la inflamación."
+  },
+  "56": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "A pH sanguíneo, cercano al pH alcalino empleado en el proteinograma, la albúmina tiene carga neta negativa. Esa propiedad explica su desplazamiento hacia el ánodo en electroforesis.",
+    "motivosPorOpcion": {
+      "Prácticamente neutra.": "Una carga casi nula impediría la marcada movilidad electroforética característica de la albúmina.",
+      "Positiva.": "Una proteína positiva migraría hacia el cátodo, en sentido opuesto al patrón descrito a pH 8,6.",
+      "Totalmente neutra": "Las proteínas plasmáticas no son eléctricamente neutras a pH 8,6; el temario señala carga negativa."
+    },
+    "claveMemorizar": "pH 8,6: proteínas plasmáticas negativas y albúmina hacia el ánodo.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8"
+  },
+  "57": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La bioquímica clínica aplica determinaciones químicas y bioquímicas de laboratorio a la prevención, diagnóstico, seguimiento y tratamiento de enfermedades. Su objeto une la medición analítica con la decisión clínica.",
+    "motivosPorOpcion": {
+      "La Fisiopatología": "Estudia los mecanismos funcionales alterados por la enfermedad, pero no designa específicamente la disciplina analítica de laboratorio.",
+      "La Patología Molecular": "Se centra en cambios moleculares asociados a enfermedad y no abarca por definición todo el trabajo químico del laboratorio clínico.",
+      "La Farmacología": "Analiza fármacos y sus efectos en el organismo, no el conjunto de pruebas bioquímicas para diagnóstico y seguimiento."
+    },
+    "claveMemorizar": "Bioquímica clínica: química del laboratorio aplicada a decisiones sanitarias.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 1-2",
+    "advertenciaRevision": "Los dos PDF del Tema 5 desarrollan pruebas bioquímicas, pero no contienen esta definición formal de Bioquímica Clínica."
+  },
+  "58": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El hígado incorpora el amonio tóxico al ciclo de la urea y genera urea, que pasa a sangre para ser eliminada por el riñón. Un fallo hepático grave reduce esta conversión y favorece hiperamonemia.",
+    "motivosPorOpcion": {
+      "Creatinina": "Procede principalmente del metabolismo muscular y no es el producto hepático de detoxificación del amonio.",
+      "Colesterol": "Es un lípido sintetizado por el hígado, pero no constituye la vía de eliminación del nitrógeno amoniacal.",
+      "Albúmina": "Es una proteína hepática de transporte y presión oncótica, no el producto final del ciclo de la urea."
+    },
+    "claveMemorizar": "Amonio tóxico, hígado lo convierte en urea, riñón la excreta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 23"
+  },
+  "59": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las proteínas pueden actuar como anticuerpos o complemento, transportar sustancias y catalizar reacciones como enzimas. Las tres funciones propuestas pertenecen a la diversidad funcional proteica.",
+    "motivosPorOpcion": {
+      "Función defensiva.": "Es una función verdadera, ejemplificada por inmunoglobulinas y componentes del complemento, pero no es la única.",
+      "Transporte de moléculas.": "Albúmina, transferrina y ceruloplasmina muestran esta función, aunque las proteínas también realizan otras tareas.",
+      "Función catalizadora.": "Las enzimas son proteínas catalíticas, pero escoger solo esta opción dejaría fuera defensa y transporte."
+    },
+    "claveMemorizar": "Proteínas: defensa, transporte y catálisis, entre muchas otras funciones.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4 y 10"
+  },
+  "60": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La transferrina migra en la región beta y transporta hierro. Las demás proteínas citadas aparecen agrupadas en la fracción alfa-2 del esquema del temario.",
+    "motivosPorOpcion": {
+      "Haptoglobina.": "Es una alfa-2-globulina que captura hemoglobina liberada por los eritrocitos.",
+      "Ceruloplasmina.": "Migra en alfa-2 y transporta cobre en plasma.",
+      "Eritropoyetina.": "El cuadro electroforético del temario la incluye en alfa-2 y la relaciona con la eritropoyesis."
+    },
+    "claveMemorizar": "Transferrina es beta; haptoglobina y ceruloplasmina son alfa-2.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "61": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El método de Biuret genera un producto coloreado al reaccionar los enlaces peptídicos con cobre y cuantifica su absorbancia a 540 nm. Es, por tanto, una determinación colorimétrica de proteínas.",
+    "motivosPorOpcion": {
+      "Tiene baja especificidad.": "La reacción responde a enlaces peptídicos y es el método de elección en suero, no se caracteriza en el temario como de baja especificidad.",
+      "Es un método enzimático.": "No utiliza una enzima catalizadora; se basa en una reacción química de proteínas con iones cúpricos.",
+      "La reacción tiene lugar en medio acido.": "El reactivo mantiene los iones cúpricos en una solución alcalina, no ácida."
+    },
+    "claveMemorizar": "Biuret: cobre, medio alcalino, color a 540 nm.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 12"
+  },
+  "62": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La bilirrubina total y sus fracciones directa e indirecta son esenciales para reconocer y clasificar una ictericia. Negar su uso diagnóstico contradice el estudio descrito en el temario.",
+    "motivosPorOpcion": {
+      "La bilirrubina es un producto del catabolismo de la hemoglobina.": "La mayor parte procede de la degradación de eritrocitos y de su hemoglobina.",
+      "Se transporta por el plasma unida a la albúmina.": "La fracción indirecta, insoluble, necesita circular ligada a albúmina.",
+      "La ictericia neonatal es un caso de hiperbilirrubinemia.": "La ictericia refleja acumulación de bilirrubina; en recién nacidos pueden encontrarse valores fisiológicamente mayores."
+    },
+    "claveMemorizar": "Bilirrubina directa e indirecta clasifican la ictericia.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-30"
+  },
+  "63": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La colestasis lesiona o bloquea el territorio canalicular donde se localiza la fosfatasa alcalina, por lo que aumenta su actividad sérica. Suele elevarse junto con GGT.",
+    "motivosPorOpcion": {
+      "Disminución de ácidos biliares en plasma.": "La obstrucción impide su salida normal hacia el intestino y favorece su retención, no una disminución plasmática característica.",
+      "Disminución de las cifras de colesterol.": "El temario no define el descenso de colesterol como patrón de colestasis; puede existir retención de componentes biliares.",
+      "Disminución de la fosfatasa alcalina.": "El patrón colestásico se reconoce precisamente por aumento de ALP y GGT."
+    },
+    "claveMemorizar": "Colestasis: ALP y GGT elevadas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 41"
+  },
+  "64": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La haptoglobina captura la hemoglobina libre tras la hemólisis y evita que se pierda por filtración renal. Así conserva el hierro y facilita la retirada del complejo.",
+    "motivosPorOpcion": {
+      "Inhibición de la plasmina.": "La inhibición de proteasas como la plasmina corresponde a alfa-2-macroglobulina y alfa-2-antiplasmina.",
+      "Inhibición linfocítica y agregación plaquetaria.": "No es la función asignada a la haptoglobina en el cuadro de proteínas plasmáticas.",
+      "Inhibición de las proteasas leucocitarias.": "Esta actividad antiproteasa se relaciona con alfa-1-antitripsina, no con la captadora de hemoglobina."
+    },
+    "claveMemorizar": "Haptoglobina atrapa hemoglobina y conserva hierro.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "65": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fibronectina es un reactante negativo: su concentración disminuye durante la respuesta de fase aguda. Este comportamiento contrasta con el aumento de PCR, fibrinógeno y complemento.",
+    "motivosPorOpcion": {
+      "Proteína C reactiva": "Es el reactante positivo que alcanza la elevación más marcada ante inflamación.",
+      "Fibrinógeno": "Aumenta como reactante positivo y contribuye, entre otros efectos, al incremento de la VSG.",
+      "C3": "El componente C3 del complemento figura entre los reactantes positivos de fase aguda."
+    },
+    "claveMemorizar": "Fibronectina baja; PCR, fibrinógeno y C3 suben en fase aguda.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 19"
+  },
+  "66": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El piridoxal es cofactor necesario para medir la actividad de ALT/GPT; su déficit puede disminuirla. Por eso esta situación es la excepción frente a los cuadros propuestos con elevación enzimática.",
+    "motivosPorOpcion": {
+      "Obesidad": "Puede acompañarse de lesión hepatocelular metabólica y liberación de ALT a sangre.",
+      "Leucemia Linfoblástica aguda": "La afectación hepática o el contexto terapéutico pueden elevar transaminasas, por lo que no representa la excepción del banco.",
+      "Preclampsia grave": "El daño hepático de formas graves puede producir elevación de transaminasas."
+    },
+    "claveMemorizar": "Sin piridoxal puede medirse menos actividad ALT.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 39",
+    "advertenciaRevision": "El PDF confirma que el déficit de piridoxal disminuye la actividad, pero no documenta la elevación de ALT en obesidad, leucemia linfoblástica aguda y preeclampsia grave."
+  },
+  "67": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los anticuerpos antimúsculo liso, también llamados ASMA, son marcadores de hepatitis autoinmune, sobre todo de tipo 1. Se interpretan junto con ANA y otros autoanticuerpos según el subtipo.",
+    "motivosPorOpcion": {
+      "Anticuerpos anti-músculo estriado.": "No se incluyen entre los marcadores hepáticos autoinmunes recogidos en el temario.",
+      "Anticuerpos anti-transglutaminas": "Se asocian al estudio inmunológico de enfermedad celíaca, no al panel descrito para hepatitis autoinmune.",
+      "Anticuerpos anti-neuronales": "Orientan a procesos neurológicos o paraneoplásicos y no forman parte del panel hepático expuesto."
+    },
+    "claveMemorizar": "Hepatitis autoinmune tipo 1: ASMA y ANA.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 38 y 43"
+  },
+  "68": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La deshidratación concentra las proteínas plasmáticas y puede elevar la albúmina medida. Las otras situaciones favorecen menor síntesis, dilución o absorción deficiente.",
+    "motivosPorOpcion": {
+      "Desnutrición": "La falta de aporte proteico reduce la disponibilidad de aminoácidos y se asocia a hipoalbuminemia.",
+      "Embarazo": "La expansión del volumen plasmático produce hemodilución en lugar de hiperalbuminemia.",
+      "Síndromes de mala absorción": "La absorción insuficiente de nutrientes limita sustratos para síntesis proteica y disminuye albúmina."
+    },
+    "claveMemorizar": "Deshidratación concentra albúmina; desnutrición y malabsorción la reducen.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 14"
+  },
+  "69": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las sales biliares emulsionan los lípidos y permiten su digestión y absorción intestinal. Cuando faltan, aumenta la grasa en heces y aparece esteatorrea.",
+    "motivosPorOpcion": {
+      "Lactosa": "Su digestión depende de lactasa intestinal, no de la emulsión por ácidos biliares.",
+      "Hierro": "Su absorción requiere mecanismos específicos del enterocito y no la formación de micelas biliares.",
+      "Vitamina B12": "Necesita factor intrínseco y receptores ileales; no depende directamente de sales biliares."
+    },
+    "claveMemorizar": "Bilis ausente produce malabsorción de grasa y esteatorrea.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 26"
+  },
+  "70": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El esquema electroforético del temario sitúa la protrombina en alfa-1. Es una proenzima de la trombina vinculada a la coagulación.",
+    "motivosPorOpcion": {
+      "Albúmina": "Forma una fracción propia y mayoritaria, anterior a las globulinas alfa.",
+      "Haptoglobina": "Se clasifica como alfa-2-globulina y une hemoglobina libre.",
+      "Transferina": "La transferrina es una beta-globulina transportadora de hierro."
+    },
+    "claveMemorizar": "Protrombina en alfa-1; haptoglobina en alfa-2; transferrina en beta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "71": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La ALT/GPT transfiere el grupo amino de la alanina al alfa-cetoglutarato en una reacción de transaminación. Esta función explica su pertenencia a las aminotransferasas.",
+    "motivosPorOpcion": {
+      "Fosfatasa alcalina": "Hidroliza grupos fosfato en medio alcalino y no transfiere grupos amino.",
+      "GOT": "La AST/GOT participa en la transaminación del aspartato, no de la alanina indicada.",
+      "γ-GT": "Transfiere grupos gamma-glutamilo y se usa como marcador canalicular, no cataliza esta reacción."
+    },
+    "claveMemorizar": "Alanina corresponde a ALT, también llamada GPT.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-37"
+  },
+  "72": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las inmunoglobulinas proceden de linfocitos B y células plasmáticas. Aunque circulan en plasma y aparecen en el proteinograma, no forman parte de la síntesis proteica hepática.",
+    "motivosPorOpcion": {
+      "Metabolismo de hidratos de carbono": "El hígado regula y transforma carbohidratos como parte de su función metabólica.",
+      "Formación de pigmentos biliares": "El procesamiento y excreción de bilirrubina pertenecen a la función hepática.",
+      "Todas son ciertas": "No todas las afirmaciones pueden ser funciones hepáticas porque la síntesis de anticuerpos corresponde al sistema inmunitario."
+    },
+    "claveMemorizar": "Anticuerpos: células plasmáticas, no hepatocitos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4, 6 y 10"
+  },
+  "73": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La bilirrubina no conjugada es lipofílica e insoluble en agua, de modo que necesita albúmina para circular por plasma hasta el hígado. Tras conjugarse se vuelve hidrosoluble.",
+    "motivosPorOpcion": {
+      "Fundamentalmente la fracción conjugada.": "La fracción directa es soluble y no requiere el mismo transporte plasmático ligado a albúmina.",
+      "Ambas fracciones se unen totalmente a la albúmina.": "La unión característica corresponde a la indirecta; no ambas fracciones se transportan totalmente de ese modo.",
+      "Ninguna de las dos fracciones se unen a la albúmina.": "La albúmina es precisamente el vehículo plasmático de la bilirrubina indirecta insoluble."
+    },
+    "claveMemorizar": "Indirecta: insoluble y unida a albúmina; directa: soluble.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27 y 29"
+  },
+  "74": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La vida media de la albúmina es aproximadamente 20-22 días, no dos días. Este recambio relativamente lento limita su sensibilidad a cambios muy recientes.",
+    "motivosPorOpcion": {
+      "Es la proteína más abundante en el plasma": "Representa alrededor del 66 % de las proteínas sanguíneas y es la fracción principal.",
+      "Es una proteína transportadora": "Transporta metabolitos, hormonas y diversos iones o compuestos en sangre.",
+      "Se sintetiza en el hígado": "Es una de las proteínas plasmáticas producidas por hepatocitos y refleja capacidad de síntesis."
+    },
+    "claveMemorizar": "Albúmina: 66 % y vida media de 20-22 días.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 6 y 14"
+  },
+  "75": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los déficits enzimáticos congénitos del ciclo de la urea impiden incorporar eficazmente el nitrógeno a urea. Como consecuencia se acumula amonio, especialmente tóxico para el sistema nervioso.",
+    "motivosPorOpcion": {
+      "Hiperuricemia": "Se refiere a exceso de ácido úrico del metabolismo de purinas, no a un bloqueo del ciclo de la urea.",
+      "Enfermedad pulmonar obstructiva crónica": "No es una causa primaria descrita de incapacidad para transformar amonio en urea.",
+      "Enfermedad de Addison": "La insuficiencia suprarrenal altera corticoides y electrolitos, no constituye el defecto señalado del metabolismo amoniacal."
+    },
+    "claveMemorizar": "Defecto del ciclo de la urea equivale a hiperamonemia.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 23-24"
+  },
+  "76": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La conjugación con ácido glucurónico vuelve hidrosoluble a la bilirrubina; por tanto, la conjugada o directa sí es soluble en agua. La insoluble es la fracción no conjugada.",
+    "motivosPorOpcion": {
+      "Es el metabolito más importante del grupo HEMO.": "La bilirrubina procede principalmente del catabolismo de la hemoglobina y otras hemoproteínas.",
+      "Una vez que alcanza el intestino es metabolizada por las bacterias.": "La flora intestinal transforma los pigmentos biliares después de su excreción con la bilis.",
+      "Puede elevarse en las anemias hemolíticas.": "La destrucción eritrocitaria excesiva incrementa la producción de bilirrubina indirecta."
+    },
+    "claveMemorizar": "Conjugación convierte bilirrubina insoluble en soluble.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-31"
+  },
+  "77": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La lesión hepatocelular libera AST/GOT y aumenta su actividad sérica. En cambio, la pérdida de capacidad sintética puede reducir albúmina y factores de coagulación.",
+    "motivosPorOpcion": {
+      "Albúmina": "Se sintetiza en el hígado y puede descender cuando la enfermedad compromete esa función.",
+      "Factor VII": "Es uno de los factores de coagulación de síntesis hepática y contribuye a alterar el tiempo de protrombina.",
+      "Factor II": "La protrombina o factor II también depende de síntesis hepática y puede disminuir en disfunción."
+    },
+    "claveMemorizar": "Daño hepatocelular eleva transaminasas, pero reduce productos de síntesis.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 18 y 41"
+  },
+  "78": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La alfa-2-macroglobulina es una alfa-2-globulina inhibidora de proteasas, incluida la plasmina. Puede actuar como reserva inhibitoria cuando se supera la acción específica de alfa-2-antiplasmina.",
+    "motivosPorOpcion": {
+      "La Transferrina es una alfa-globulina que se sintetiza en el hígado y tiene como principal función transportar hierro desde los tejidos a la médula ósea para reutilizarlo.": "La función de transporte de hierro es correcta, pero la transferrina migra en beta, no en alfa.",
+      "La Haptoglobina es una beta-globulina cuya principal función es unirse a la hemoglobina resultante de la lisis de los eritrocitos.": "La unión a hemoglobina es correcta, pero la haptoglobina pertenece a alfa-2, no a beta.",
+      "Cuando solicitan una muestra de crioglobulinas la jeringuilla debe de estar fría para evitar que se cristalicen.": "La muestra debe mantenerse caliente inicialmente; enfriarla favorecería la precipitación que se pretende evitar antes de separar el suero."
+    },
+    "claveMemorizar": "Alfa-2-macroglobulina: inhibidor amplio de proteasas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 9-10"
+  },
+  "79": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fosfatasa alcalina se localiza en la superficie canalicular del hepatocito y aumenta cuando se reduce u obstruye el flujo biliar. Es uno de los marcadores centrales del patrón colestásico.",
+    "motivosPorOpcion": {
+      "Hipotiroidismo, sobre todo infantil.": "No corresponde al patrón de aumento canalicular; el crecimiento infantil sí puede elevar ALP, pero no por hipotiroidismo.",
+      "Enfermedad celíaca.": "El banco la relaciona en otra pregunta con disminución de ALP, no con el ascenso colestásico.",
+      "Escorbuto.": "La alteración de vitamina C y formación de tejido no produce el patrón hepatobiliar de ALP elevada descrito."
+    },
+    "claveMemorizar": "ALP alta más GGT alta orienta a colestasis.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 41"
+  },
+  "80": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El anti-HBc de tipo IgM aparece al inicio de los síntomas y señala infección aguda reciente. Puede persistir entre tres y seis meses con títulos decrecientes.",
+    "motivosPorOpcion": {
+      "HBs Ag.": "Aparece pronto y demuestra infección, pero también puede persistir en la infección crónica, por lo que es menos específico de fase aguda.",
+      "Anti- HBs.": "Indica inmunidad tras recuperación o vacunación y aparece después de desaparecer HBsAg.",
+      "HBe Ag.": "Indica replicación activa y elevada infectividad, no identifica por sí solo específicamente la fase aguda."
+    },
+    "claveMemorizar": "Aguda reciente por VHB: anti-HBc IgM.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 5 y 8"
+  },
+  "81": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El rosa de Bengala permite evaluar la captación y eliminación hepática de un colorante administrado por vía intravenosa. Su aclaramiento refleja una función excretora, aunque hoy tiene escaso uso.",
+    "motivosPorOpcion": {
+      "Prueba de Hanger.": "Es una reacción de floculación relacionada con gammaglobulinas altas y albúmina baja en cirrosis.",
+      "Prueba de Kunkel.": "No figura entre las pruebas de excreción de colorantes enumeradas en el temario.",
+      "Ninguna de las anteriores es correcta": "El rosa de Bengala sí aparece expresamente como colorante usado para valorar eliminación hepática."
+    },
+    "claveMemorizar": "Rosa de Bengala mide aclaramiento excretor; Hanger mide floculación.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 40 y 43"
+  },
+  "82": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el recién nacido la capacidad hepática de conjugar bilirrubina todavía es inmadura, por lo que puede acumularse fracción indirecta. Este mecanismo explica la ictericia neonatal fisiológica más frecuente.",
+    "motivosPorOpcion": {
+      "Obstrucción de la vía biliar intrahepática.": "Una obstrucción produciría un patrón patológico con retención predominante de bilirrubina conjugada.",
+      "Aumento de la producción de bilirrubina.": "Puede contribuir a la carga neonatal, pero el banco identifica como causa principal la conjugación hepática inmadura.",
+      "Todas son falsas.": "La inmadurez de conjugación ofrece un mecanismo válido y coherente con hiperbilirrubinemia indirecta."
+    },
+    "claveMemorizar": "Ictericia fisiológica neonatal: conjugación hepática inmadura.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31",
+    "advertenciaRevision": "El PDF indica que la ictericia del recién nacido es frecuente y relaciona la conjugación ineficiente con bilirrubina indirecta, pero no atribuye de forma explícita el cuadro neonatal a inmadurez del sistema."
+  },
+  "83": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La 5'-nucleotidasa es un marcador de colestasis que ayuda a distinguir una elevación hepatobiliar de una de origen óseo. Por ello su alteración apunta al tracto hepatobiliar.",
+    "motivosPorOpcion": {
+      "Páncreas.": "No es el territorio cuya afectación se discrimina mediante 5'-nucleotidasa en el temario.",
+      "Hueso.": "Precisamente se usa para diferenciar enfermedad hepatobiliar de elevaciones de origen óseo.",
+      "Hígado.": "Es una respuesta demasiado limitada: el marcador se asocia al sistema hepatobiliar y especialmente a colestasis, que incluye la vía biliar."
+    },
+    "claveMemorizar": "5'-NT elevada confirma origen hepatobiliar frente a óseo.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 38"
+  },
+  "84": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Haptoglobina, alfa-1-antitripsina y proteína C reactiva son reactantes positivos de fase aguda. Las tres aumentan en respuesta a un estímulo inflamatorio.",
+    "motivosPorOpcion": {
+      "Haptoglobina": "Sí se eleva y participa en la retirada de hemoglobina libre, pero no es la única opción verdadera.",
+      "Alfa-1 antitripsina": "También aumenta y refuerza el control de proteasas durante la inflamación.",
+      "Proteína C reactiva": "Es la que más se eleva según el temario, aunque comparte el carácter positivo con las otras dos."
+    },
+    "claveMemorizar": "PCR, haptoglobina y alfa-1-antitripsina son reactantes positivos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 19"
+  },
+  "85": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los ácidos biliares forman el entorno necesario para emulsionar y digerir lípidos en el intestino. Sin ellos, la grasa no absorbida se elimina en las heces.",
+    "motivosPorOpcion": {
+      "Lactosa.": "Es un disacárido hidrosoluble cuya utilización depende de hidrólisis por lactasa.",
+      "Hierro.": "Se incorpora mediante transportadores intestinales y su absorción no exige emulsificación biliar.",
+      "Vitaminas B12": "La cobalamina se absorbe mediante el complejo con factor intrínseco en el íleon."
+    },
+    "claveMemorizar": "Sales biliares crean micelas para absorber lípidos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 25-26"
+  },
+  "86": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El hepatocito sintetiza numerosas proteínas plasmáticas, pero no anticuerpos. La síntesis de inmunoglobulinas pertenece a linfocitos B diferenciados en células plasmáticas.",
+    "motivosPorOpcion": {
+      "Metabolismo de hidratos de carbono.": "La regulación metabólica de carbohidratos aparece entre las funciones propias del hígado.",
+      "Formación de pigmentos biliares.": "El hígado conjuga y excreta bilirrubina dentro de su función excretora.",
+      "Todas son ciertas.": "La opción no puede aceptarse porque una de las actividades enumeradas tiene origen inmunitario y no hepático."
+    },
+    "claveMemorizar": "El hígado sintetiza proteínas plasmáticas; las células plasmáticas sintetizan inmunoglobulinas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4, 6 y 10"
+  },
+  "87": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Antes de la conjugación, la bilirrubina no puede disolverse en el medio acuoso plasmático. La albúmina la transporta hasta el hepatocito, donde se conjuga para facilitar su eliminación.",
+    "motivosPorOpcion": {
+      "Fundamentalmente la fracción conjugada.": "La conjugación aporta solubilidad en agua y reduce la necesidad de transporte unido a albúmina.",
+      "Ambas fracciones se unen totalmente a la albúmina.": "No existe unión total equivalente de ambas; la asociación definitoria es la de la fracción indirecta.",
+      "Ninguna de las dos fracciones se une a la albúmina.": "Excluir ambas contradice el transporte plasmático de la bilirrubina lipofílica no conjugada."
+    },
+    "claveMemorizar": "Albúmina lleva la bilirrubina indirecta al hígado.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-29"
+  },
+  "88": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La vacuna induce anticuerpos protectores contra el antígeno de superficie, por lo que el anti-HBs es positivo. En una persona vacunada sin infección previa debe ser el único marcador positivo del VHB.",
+    "motivosPorOpcion": {
+      "HbsAg": "Es antígeno viral y su presencia indica infección actual, no respuesta protectora a la vacuna.",
+      "Anti-Hbc": "Solo aparece tras contacto con el virus porque la vacuna no contiene antígeno del core.",
+      "Anti-HBe": "Se asocia a evolución de una infección y ausencia de replicación, no a inmunización vacunal."
+    },
+    "claveMemorizar": "Vacunado: anti-HBs aislado.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 5 y 7"
+  },
+  "89": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si HBsAg no desaparece durante los primeros tres a seis meses y continúa positivo más allá del sexto, la infección por VHB se considera crónica. Su persistencia demuestra que no se ha producido aclaramiento.",
+    "motivosPorOpcion": {
+      "El antígeno de superficie de la hepatitis B (HBsAg), también llamado antígeno de Australia, es el marcador serológico primordial para el diagnóstico de infección por virus C.": "HBsAg pertenece al virus B; la hepatitis C se estudia con anti-VHC y ARN viral.",
+      "El antígeno de superficie de hepatitis B (HBsAg) aparece en el suelo de los pacientes una vez que la enfermedad ha quedado resuelta.": "Aparece durante incubación e infección activa y desaparece si la evolución es favorable; además, la frase contiene el probable error tipográfico 'suelo'.",
+      "Todas las respuestas son correctas.": "Las dos primeras afirmaciones son incompatibles con la identidad y evolución temporal de HBsAg."
+    },
+    "claveMemorizar": "HBsAg más de seis meses significa cronicidad.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, p. 7"
+  },
+  "90": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El proteinograma separa electroforéticamente las proteínas séricas y permite observar sus fracciones. Complementa la cifra total mostrando cómo se distribuye entre albúmina, alfa, beta y gamma.",
+    "motivosPorOpcion": {
+      "Ionograma": "Cuantifica electrolitos y no separa proteínas por movilidad electroforética.",
+      "Gasometría": "Evalúa gases, pH y equilibrio ácido-base, no fracciones proteicas.",
+      "Hemograma": "Analiza células sanguíneas y sus índices, no el patrón de proteínas séricas."
+    },
+    "claveMemorizar": "Proteínas totales dicen cuánto; proteinograma dice cómo se reparten.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 7"
+  },
+  "91": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "A pH 8,6 las proteínas son negativas y avanzan hacia el ánodo según su movilidad. El orden del patrón desde ese polo comienza con albúmina y continúa alfa-1, alfa-2, beta-1, beta-2 y gamma.",
+    "motivosPorOpcion": {
+      "Albúmina, α2, β1, α1, β2, γ": "Intercambia alfa-1 y alfa-2 y rompe el orden electroforético normal.",
+      "Albúmina, α2, β1, α1, γ, β2": "Además de invertir las alfa, coloca gamma antes de beta-2.",
+      "γ, β2, β1, α2, α1, Albúmina": "Es el orden inverso, correspondiente a leer desde el cátodo hacia el ánodo."
+    },
+    "claveMemorizar": "Ánodo a cátodo: albúmina, alfa-1, alfa-2, beta y gamma.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8"
+  },
+  "92": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La transferrina y los componentes C3 y C4 aparecen agrupados entre las beta-globulinas. Aunque cumplen funciones distintas, comparten región de migración electroforética.",
+    "motivosPorOpcion": {
+      "Fracción alfa-1": "Contiene alfa-1-antitripsina, orosomucoide y otras proteínas, no este conjunto.",
+      "Fracción alfa-2": "Incluye ceruloplasmina, haptoglobina y alfa-2-macroglobulina.",
+      "Fracción gamma": "Está formada sobre todo por inmunoglobulinas y no es la posición principal de transferrina, C3 y C4."
+    },
+    "claveMemorizar": "Beta: transferrina, C3 y C4.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "93": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El síndrome de Crigler-Najjar altera la conjugación hepática y produce acumulación aislada de bilirrubina indirecta. Es una causa de ictericia previa a la conjugación.",
+    "motivosPorOpcion": {
+      "Colestasis extrahepática.": "La obstrucción retiene bilirrubina ya conjugada y eleva principalmente la fracción directa.",
+      "Hepatitis aguda": "La lesión hepatocelular puede alterar varias etapas y elevar tanto bilirrubina directa como indirecta.",
+      "Sd.Dubin-Jonson.": "Este síndrome afecta la excreción posterior a la conjugación y aumenta bilirrubina directa."
+    },
+    "claveMemorizar": "Crigler-Najjar indirecta; Dubin-Johnson directa.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30 y 32-33"
+  },
+  "94": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hipocolia o acolia aparece cuando llega poca o ninguna bilis al intestino, de modo que faltan pigmentos que coloreen las heces. El banco la asocia tanto a obstrucción como a determinados cuadros hepatíticos.",
+    "motivosPorOpcion": {
+      "Ictericias por hemólisis": "En la hemólisis aumenta la producción de bilirrubina y urobilinógeno; no se bloquea primariamente la llegada de bilis al intestino.",
+      "Ictericias obstructivas": "La obstrucción sí puede causar heces pálidas, pero el banco considera además la opción de hepatitis.",
+      "Hepatitis": "Una alteración hepatocelular grave puede reducir la excreción biliar, aunque esta opción aislada no recoge la causa obstructiva."
+    },
+    "claveMemorizar": "Heces sin color indican poca bilis o pigmento biliar intestinal.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31 y 44",
+    "advertenciaRevision": "El PDF permite relacionar la obstrucción con menor llegada de bilis y menciona heces poco coloreadas en cirrosis, pero no afirma que acolia/hipocolia sea propia de la hepatitis; la clave combinada D requiere revisión."
+  },
+  "95": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La enfermedad celíaca puede asociarse a fosfatasa alcalina baja en contextos de malabsorción y déficit nutricional. Se diferencia de procesos con aumento por actividad ósea o colestasis.",
+    "motivosPorOpcion": {
+      "Enfermedad de Paget": "El remodelado óseo intenso aumenta la actividad de la isoenzima ósea de ALP.",
+      "Cirrosis biliar": "La afectación colestásica eleva ALP por lesión u obstrucción canalicular.",
+      "Hiperparatiroidismo primario": "El recambio óseo estimulado puede aumentar ALP en vez de disminuirla."
+    },
+    "claveMemorizar": "ALP baja puede acompañar malabsorción; ALP alta aparece en hueso activo y colestasis.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35-37 y 41",
+    "advertenciaRevision": "El PDF explica las elevaciones óseas y colestásicas de ALP, pero no documenta su disminución en enfermedad celíaca."
+  },
+  "96": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La albúmina disminuye por menor síntesis en enfermedad hepática, como reactante negativo durante inflamación y por pérdida urinaria en síndrome nefrótico. Las tres vías convergen en hipoalbuminemia mediante mecanismos diferentes.",
+    "motivosPorOpcion": {
+      "Enfermedad hepática.": "Es una causa verdadera por deterioro de la capacidad sintética, pero no la única de la lista.",
+      "Enfermedad inflamatoria.": "La albúmina desciende como reactante negativo de fase aguda, aunque también hay otras causas.",
+      "En un síndrome nefrótico.": "La pérdida renal de albúmina reduce su concentración plasmática, sin excluir los mecanismos hepático e inflamatorio."
+    },
+    "claveMemorizar": "Albúmina baja: menor síntesis, inflamación o pérdida renal.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 14 y 19"
+  }
+}

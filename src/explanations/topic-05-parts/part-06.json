@@ -1,0 +1,540 @@
+{
+  "241": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El VHB es un virus de ADN perteneciente a la familia Hepadnavirus. Esta combinación de genoma y familia coincide literalmente con el temario.",
+    "motivosPorOpcion": {
+      "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los Picarnavirus.": "El VHA sí es de ARN, pero el temario denomina a su familia Picornavirus, no «Picarnavirus».",
+      "El virus de la hepatitis C es un virus ARN y pertenece a la familia de los flavivilidae.": "El VHC sí es de ARN, pero la denominación escrita «flavivilidae» no coincide con Flavivirus/Flaviviridae.",
+      "Todas son correctas.": "No todas son literalmente correctas porque A y C contienen denominaciones taxonómicas erróneas."
+    },
+    "claveMemorizar": "VHB: ADN y Hepadnavirus; VHA y VHC: ARN.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 2-5",
+    "advertenciaRevision": "La clave B depende de interpretar literalmente las erratas «Picarnavirus» y «flavivilidae»; corregidas esas erratas, A y C también expresarían conceptos respaldados por el PDF."
+  },
+  "242": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La prealbúmina apenas se aprecia y no se considera una banda del proteinograma. La banda mayoritaria y más ancha corresponde a la albúmina.",
+    "motivosPorOpcion": {
+      "La transferrina es la proteína principal de la banda de las betaglobulinas.": "La transferrina migra en la fracción beta y es uno de sus componentes característicos.",
+      "La proteína C reactiva aparece en la banda de las inmunoglobulinas.": "La PCR puede aparecer al final de beta o al principio de gamma, región donde migran principalmente las inmunoglobulinas.",
+      "La lipoproteína HDL aparece en la banda de las alfa-1-globulinas.": "La alfa-lipoproteína, correspondiente a HDL, se incluye en la fracción alfa-1."
+    },
+    "claveMemorizar": "Prealbúmina casi invisible; albúmina es la fracción dominante.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7 y 10"
+  },
+  "243": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La albúmina constituye una banda propia y las inmunoglobulinas forman el componente principal de la región gamma. Ambas se reconocen en el patrón electroforético sérico.",
+    "motivosPorOpcion": {
+      "La transferrina.": "La transferrina contribuye a la fracción beta, pero el proteinograma básico informa fracciones y no identifica por sí solo esta proteína individual.",
+      "La ceruloplasmina.": "La ceruloplasmina migra dentro de alfa-2 y no suele distinguirse como banda individual en el patrón básico.",
+      "La ferritina.": "La ferritina no figura entre las bandas electroforéticas principales del proteinograma descrito."
+    },
+    "claveMemorizar": "Proteinograma: albúmina, alfa-1, alfa-2, beta y gamma; Ig predominan en gamma.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7 y 10",
+    "advertenciaRevision": "El PDF también sitúa transferrina y ceruloplasmina dentro de fracciones del proteinograma; la pregunta solo es inequívoca si «se observa» significa una banda o componente claramente reconocible."
+  },
+  "244": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los déficits enzimáticos congénitos del ciclo de la urea impiden transformar eficazmente el amonio en urea. Como consecuencia, aumenta el amonio sanguíneo.",
+    "motivosPorOpcion": {
+      "Enfermedad pulmonar obstructiva crónica.": "La EPOC no constituye en el temario una causa primaria de bloqueo del ciclo de la urea.",
+      "Enfermedad de Addison.": "La insuficiencia suprarrenal no se relaciona aquí con una alteración directa de la detoxificación hepática del amonio."
+    },
+    "claveMemorizar": "Ciclo de la urea defectuoso = hiperamonemia.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 23-24"
+  },
+  "245": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La GGT se eleva en alteraciones hepatobiliares, alcoholismo y por inducción farmacológica, pero no en patología ósea. Esto ayuda a distinguir un origen hepático de una elevación de fosfatasa alcalina.",
+    "motivosPorOpcion": {
+      "Enfermedad hepática.": "La GGT se localiza en el sistema hepatobiliar y aumenta en daño canalicular o colestasis.",
+      "Insuficiencia renal.": "La GGT también está presente en riñón, por lo que esta opción no ofrece la exclusión característica de la patología ósea.",
+      "EPOC.": "La EPOC puede coexistir con inducción enzimática u otras alteraciones; no es la excepción diagnóstica específica señalada por el temario."
+    },
+    "claveMemorizar": "ALP ósea puede subir; GGT no sube por patología ósea.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 37",
+    "advertenciaRevision": "El PDF afirma explícitamente que la GGT no aumenta en patología ósea, pero no documenta de forma directa su aumento en EPOC o insuficiencia renal."
+  },
+  "246": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El virus de la hepatitis D es un agente defectivo que necesita obligatoriamente al VHB para completar la infección, ya sea como coinfección o sobreinfección.",
+    "motivosPorOpcion": {
+      "Virus de la hepatitis A": "El VHA es un virus entérico autónomo y no aporta al VHD la envoltura que necesita.",
+      "Virus de la hepatitis C": "Aunque ambos tienen ARN, el VHC no es el virus auxiliar obligatorio del agente delta.",
+      "Citomegalovirus": "El citomegalovirus no participa en el ciclo infeccioso dependiente del VHD."
+    },
+    "claveMemorizar": "VHD siempre asociado a VHB.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, p. 4"
+  },
+  "247": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La bilirrubina no se conjuga al entrar en la circulación, sino después de llegar al hepatocito. En plasma, la bilirrubina no conjugada viaja unida a albúmina.",
+    "motivosPorOpcion": {
+      "La bilirrubina una vez formada, pasa a la circulación sanguínea y se une a la albúmina": "La bilirrubina no conjugada es insoluble y necesita albúmina para transportarse al hígado.",
+      "Parte de la bilirrubina conjugada se elimina por vía renal en forma de urobilina": "Una parte del urobilinógeno reabsorbido llega a la orina y se oxida a urobilina.",
+      "Parte de la bilirrubina conjugada se elimina por las heces como estercobilinógeno": "Tras su paso al intestino, los derivados de la bilirrubina se transforman en estercobilinógeno y estercobilina y se eliminan por heces."
+    },
+    "claveMemorizar": "No conjugada + albúmina en sangre; conjugación en hepatocito.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-29"
+  },
+  "248": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La alfa-1-antitripsina es el principal componente proteico de la región alfa-1 y actúa como inhibidor de proteasas.",
+    "motivosPorOpcion": {
+      "Alfa-macroglobulina": "La alfa-2-macroglobulina migra en la fracción alfa-2, no en alfa-1.",
+      "Transferrina": "La transferrina pertenece a la fracción beta.",
+      "Ceruloplasmina": "La ceruloplasmina se localiza en la fracción alfa-2."
+    },
+    "claveMemorizar": "Alfa-1: alfa-1-antitripsina; alfa-2: ceruloplasmina y macroglobulina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 16"
+  },
+  "249": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El anti-HBs indica inmunidad tras recuperación o vacunación. En una persona vacunada que nunca se infectó es el único marcador serológico del VHB positivo.",
+    "motivosPorOpcion": {
+      "AND-VHB": "El ADN del VHB indica presencia y replicación viral, no inmunidad por vacunación.",
+      "Anti-HBc": "El anti-HBc demuestra contacto natural con el virus y no aparece por la vacuna de superficie.",
+      "Anti-HBe": "El anti-HBe aparece tras contacto con el virus y se asocia con ausencia de replicación, no con vacunación aislada."
+    },
+    "claveMemorizar": "Vacunado frente a VHB: anti-HBs positivo aislado.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 7-9"
+  },
+  "250": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las pruebas hepáticas sirven para detectar daño, valorar funcionalidad y pronóstico, y seguir la evolución de la hepatopatía. Por ello las tres finalidades propuestas son complementarias.",
+    "motivosPorOpcion": {
+      "Determinar presencia o ausencia de daño hepático": "Es una finalidad válida, pero no agota el uso de enzimas, albúmina y tiempo de protrombina.",
+      "Determinar severidad y establecer pronósticos": "También es válida, especialmente mediante indicadores funcionales, pero no es la única utilidad.",
+      "Monitorizar el curso de la enfermedad hepática": "El seguimiento es correcto, aunque las pruebas también ayudan a detectar y estratificar el daño."
+    },
+    "claveMemorizar": "Pruebas hepáticas: detectar, pronosticar y monitorizar.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35-44"
+  },
+  "251": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ALT, también llamada GPT, alcanza una concentración tisular especialmente alta en hígado y es más específica de daño hepático que las demás enzimas propuestas.",
+    "motivosPorOpcion": {
+      "Lactato deshidrogenasa": "La LDH está ampliamente distribuida en músculo, hematíes, pulmón, riñón y otros tejidos, por lo que es poco específica.",
+      "AST/GOT": "La AST abunda también en corazón y músculo esquelético, reduciendo su especificidad hepática.",
+      "Fosfatasa alcalina": "La fosfatasa alcalina tiene isoenzimas de origen óseo, hepático, intestinal, renal y placentario."
+    },
+    "claveMemorizar": "ALT/GPT es más hepatoespecífica que AST/GOT.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-37"
+  },
+  "252": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hemocromatosis hereditaria, la enfermedad de Wilson y el déficit de alfa-1-antitripsina son trastornos genéticos capaces de producir hepatopatía. Por tanto, las tres opciones son correctas.",
+    "motivosPorOpcion": {
+      "Hemocromatosis hereditaria": "Es correcta por separado: variantes como HFE C282Y producen sobrecarga férrica y lesión hepática.",
+      "Enfermedad de Wilson": "Es correcta por separado: el defecto ATP7B causa acumulación de cobre, especialmente en hígado y cerebro.",
+      "Deficiencia de alfa1-antitripsina": "Es correcta por separado: determinados fenotipos deficitarios presentan riesgo elevado de hepatopatía."
+    },
+    "claveMemorizar": "Genéticas hepáticas: hierro, cobre y alfa-1-antitripsina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 16-17 y 43-44"
+  },
+  "253": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La albúmina representa aproximadamente dos tercios de las proteínas plasmáticas y mantiene la presión oncótica intravascular, una forma de presión osmótica.",
+    "motivosPorOpcion": {
+      "Haptoglobina.": "La haptoglobina une hemoglobina libre y es reactante de fase aguda, pero no es la proteína plasmática mayoritaria.",
+      "Transferrina.": "La transferrina transporta hierro y migra en beta, sin dominar la presión oncótica plasmática.",
+      "Ceruloplasmina.": "La ceruloplasmina transporta cobre y pertenece a alfa-2, pero su concentración es muy inferior a la de albúmina."
+    },
+    "claveMemorizar": "Albúmina: 66 % y principal presión oncótica.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 14"
+  },
+  "254": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La transferrina o siderofilina migra en la fracción beta del proteinograma y realiza el transporte plasmático de hierro.",
+    "motivosPorOpcion": {
+      "Alfa 1 globulinas.": "Alfa-1 contiene sobre todo alfa-1-antitripsina y otras proteínas de fase aguda, no transferrina.",
+      "Alfa 2 globulinas.": "Alfa-2 agrupa ceruloplasmina, haptoglobina y alfa-2-macroglobulina.",
+      "Gammaglobulinas.": "La región gamma está formada principalmente por inmunoglobulinas."
+    },
+    "claveMemorizar": "Transferrina = beta-globulina transportadora de hierro.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "255": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La sepsis es una disfunción orgánica potencialmente mortal causada por una respuesta desregulada del organismo frente a una infección.",
+    "motivosPorOpcion": {
+      "La presencia de bacterias en la sangre que se pone de manifiesto por el aislamiento de éstas en los hemocultivos.": "Esa definición corresponde a bacteriemia; puede existir bacteriemia sin disfunción orgánica y sepsis sin hemocultivo positivo.",
+      "Se utiliza para designar la presencia de hongos en la sangre, generalmente levaduras del género Candida spp.": "Esa situación es fungemia o candidemia, no la definición de sepsis.",
+      "Todas las respuestas anteriores son ciertas.": "Bacteriemia y fungemia describen microorganismos en sangre, mientras que sepsis exige disfunción orgánica por respuesta desregulada."
+    },
+    "claveMemorizar": "Sepsis = infección + respuesta desregulada + disfunción orgánica.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 20-21"
+  },
+  "256": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La GGT es una enzima inducible por el alcohol y el temario la identifica como el marcador enzimático más sensible en alcoholismo crónico.",
+    "motivosPorOpcion": {
+      "Determinación de niveles de Bilirrubina.": "La bilirrubina puede alterarse en hepatopatía avanzada, pero no es el parámetro más útil para detectar consumo crónico.",
+      "Determinación de niveles de Alcoholdeshidrogenasa (ADH).": "La ADH participa en el metabolismo del etanol, pero no se propone como marcador sérico rutinario de alcoholismo crónico.",
+      "Determinación de niveles de Lactatodeshidrogenasa (LDH).": "La LDH es muy inespecífica por su amplia distribución tisular."
+    },
+    "claveMemorizar": "Alcoholismo crónico: GGT elevada por inducción enzimática.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 42"
+  },
+  "257": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la colestasis se obstruye la salida de bilirrubina ya conjugada y soluble, que se acumula en sangre. Por eso puede aparecer un aumento predominante o aislado de bilirrubina directa.",
+    "motivosPorOpcion": {
+      "La bilirrubina conjugada en el hepatocito forma la bilirrubina indirecta.": "La conjugación transforma la bilirrubina indirecta no conjugada en bilirrubina directa conjugada.",
+      "La bilirrubina indirecta se determina directamente en el analizador.": "La indirecta suele estimarse restando la bilirrubina directa de la total.",
+      "Los niveles de bilirrubina indirecta son un índice fiable de la función hepática.": "La bilirrubina indirecta también aumenta por hemólisis o defectos de conjugación y no mide de manera específica la función hepática."
+    },
+    "claveMemorizar": "Colestasis retiene bilirrubina directa y soluble.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 29-31"
+  },
+  "258": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La GPT o ALT es la transaminasa con mayor especificidad para lesión hepatocelular debido a su distribución tisular más concentrada en hígado.",
+    "motivosPorOpcion": {
+      "GOT.": "La GOT/AST también es abundante en corazón y músculo esquelético.",
+      "CPK.": "La CPK es principalmente un marcador de lesión muscular, no hepática.",
+      "LDH.": "La LDH se encuentra en numerosos tejidos y carece de especificidad hepática."
+    },
+    "claveMemorizar": "GPT/ALT: transaminasa más específica de hígado.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-37"
+  },
+  "259": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Entre las cinco enzimas propuestas, la GPT/ALT es la más específica de daño del hepatocito. Su mayor concentración relativa en hígado limita más los falsos orígenes extrahepáticos.",
+    "motivosPorOpcion": {
+      "GOT": "La GOT/AST tiene fuentes importantes en corazón, músculo y otros órganos.",
+      "GGT": "La GGT es muy sensible para enfermedad hepatobiliar y colestasis, pero también se induce por alcohol y fármacos.",
+      "CPK": "La CPK orienta fundamentalmente a daño muscular.",
+      "LDH": "La LDH es ubicua y puede elevarse por lesión de múltiples tejidos."
+    },
+    "claveMemorizar": "Especificidad hepatocelular: ALT/GPT; sensibilidad hepatobiliar: GGT.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35-38"
+  },
+  "260": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La gamma-glutamiltranspeptidasa aumenta por inducción enzimática asociada al alcohol. En este contexto es el parámetro bioquímico más sensible de las opciones.",
+    "motivosPorOpcion": {
+      "Determinación de Bilirrubina.": "La bilirrubina evalúa metabolismo y excreción, pero puede permanecer normal en consumo crónico sin insuficiencia u obstrucción.",
+      "Determinación de Alcoholdeshidrogenas (ADH).": "La alcohol deshidrogenasa metaboliza etanol, pero su concentración no es el marcador rutinario propuesto por el temario.",
+      "Determinación de Lactatodeshidrogenasa (LDH).": "La LDH se eleva en daños tisulares muy diversos y no identifica consumo crónico de alcohol."
+    },
+    "claveMemorizar": "GGT inducible: alcohol y ciertos fármacos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 42"
+  },
+  "261": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En hepatopatías crónicas como la cirrosis puede observarse aumento policlonal de gammaglobulinas junto con descenso de albúmina. Este patrón refleja activación inmunitaria y pérdida de capacidad sintética.",
+    "motivosPorOpcion": {
+      "Disminuidas.": "El patrón clásico descrito para cirrosis muestra hipergammaglobulinemia, no una reducción global de la fracción gamma.",
+      "No se alteran.": "Las gammaglobulinas sí pueden modificar el proteinograma en hepatopatía crónica."
+    },
+    "claveMemorizar": "Cirrosis: gamma aumentada y albúmina disminuida.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 43",
+    "advertenciaRevision": "El PDF respalda el aumento en cirrosis, pero «enfermedad hepática» es una categoría demasiado amplia para afirmar que siempre aumentan."
+  },
+  "262": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La enfermedad de Wilson se debe a una alteración de ATP7B que provoca acumulación de cobre, sobre todo en hígado y cerebro. El cobre es, por tanto, el analito característico.",
+    "motivosPorOpcion": {
+      "Hierro.": "La acumulación de hierro caracteriza la hemocromatosis, no la enfermedad de Wilson.",
+      "Bilirubina.": "La bilirrubina puede aumentar si existe lesión hepática, pero no define el defecto metabólico de Wilson."
+    },
+    "claveMemorizar": "Wilson = ATP7B y acumulación de cobre.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 17",
+    "advertenciaRevision": "El PDF describe aumento del cobre corporal y recomienda cobre hepático; el cobre sérico total no necesariamente está elevado porque puede disminuir la ceruloplasmina."
+  },
+  "263": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La beta-2-microglobulina es un componente del HLA, es decir, del complejo principal de histocompatibilidad.",
+    "motivosPorOpcion": {
+      "La albúmina es la proteína de mayor peso molecular.": "La albúmina es abundante, pero existen proteínas plasmáticas de peso molecular mucho mayor, como la alfa-2-macroglobulina.",
+      "La transferrina es una alfa-globulina.": "La transferrina migra en la región beta.",
+      "La función principal de la haptoglobina consiste en combinarse con la mioglobina que se libera en el plasma durante la hemólisis intravascular.": "La haptoglobina se une a hemoglobina libre; la hemólisis no libera mioglobina."
+    },
+    "claveMemorizar": "Beta-2-microglobulina: componente HLA.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "264": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hepatitis aguda produce un patrón hepatocelular con elevación marcada de AST y ALT. Puede acompañarse de una elevación menor de fosfatasa alcalina que en un patrón colestásico.",
+    "motivosPorOpcion": {
+      "Un aumento elevado de Aspartato aminotransferasa (AST) y Alanina aminotransferasa (ALT); y un detrimento de la actividad de la fosfatasa alcalina plasmática.": "La lesión hepatocelular no se define por una disminución de fosfatasa alcalina.",
+      "Un aumento moderado de Aspartato aminotransferasa (AST), así como de Alanina aminotransferasa (ALT), que no sobrepasan las 50 U/L.": "Una hepatitis aguda suele causar incrementos de transaminasas claramente superiores a una elevación moderada limitada a 50 U/L.",
+      "Un aumento moderado de Aspartato aminotransferasa (ALT), que no sobrepasan las 50 U/L; y un detrimento de la actividad de la fosfatasa alcalina.": "Combina una elevación demasiado pequeña de transaminasas con una disminución de ALP que no caracteriza la hepatitis aguda."
+    },
+    "claveMemorizar": "Hepatitis aguda: transaminasas muy altas; ALP, como mucho, moderada.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 41; Tema 5.2. Enfermedades víricas hepáticas v2.pdf, p. 2",
+    "advertenciaRevision": "Los PDF respaldan la elevación de AST/ALT en hepatitis y el patrón hepatocelular, pero no especifican literalmente el aumento moderado de fosfatasa alcalina en hepatitis aguda."
+  },
+  "265": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fosfatasa alcalina no se limita a dos isoenzimas: existen formas de origen hepático, óseo, intestinal, renal y placentario, entre otras.",
+    "motivosPorOpcion": {
+      "Pertenece a la clase de las hidrolasas.": "La fosfatasa alcalina cataliza la hidrólisis de grupos fosfato y se clasifica como hidrolasa.",
+      "Es un marcador sensible de la enfermedad obstructiva hepática pero no específica.": "Aumenta en colestasis, pero también en patología ósea y otros estados, por lo que no es específica.",
+      "Su actividad óptima es a un pH alcalino.": "Su método de medida utiliza un sustrato fosforado a pH alcalino, coherente con su actividad óptima."
+    },
+    "claveMemorizar": "ALP: múltiples isoenzimas y actividad a pH alcalino.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 37 y 39"
+  },
+  "266": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El HBsAg indica infección por VHB, pero no mide por sí mismo alta replicación. Los indicadores de replicación activa son HBeAg y, de forma más directa, el ADN viral.",
+    "motivosPorOpcion": {
+      "La presencia de Ac anti-HBc indica contacto con el virus VHB": "El anti-HBc aparece únicamente tras infección natural y demuestra contacto con el VHB.",
+      "Los Ac anti-HBs indican inmunidad por curación o vacunación.": "El anti-HBs es protector y aparece tras recuperación o inmunización.",
+      "Si el HBsAg permanece detectable durante al menos 6 meses implica infección crónica.": "La persistencia de HBsAg más allá de seis meses define cronicidad."
+    },
+    "claveMemorizar": "HBsAg: infección; HBeAg/ADN: replicación.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 7-9"
+  },
+  "267": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La actividad tisular de ALT es mucho mayor en hígado que en páncreas, intestino o músculo, lo que explica su especificidad relativa para lesión hepática.",
+    "motivosPorOpcion": {
+      "Páncreas.": "El páncreas contiene ALT, pero en concentración mucho menor que el hígado.",
+      "Intestino.": "El intestino no es el depósito tisular principal de ALT.",
+      "Músculo.": "El músculo contiene proporcionalmente más AST que ALT y no supera al hígado en ALT."
+    },
+    "claveMemorizar": "ALT predomina en hígado.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 37"
+  },
+  "268": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La albúmina se sintetiza en el hígado y su descenso refleja pérdida sostenida de capacidad sintética, por lo que resulta útil en fallo hepático crónico.",
+    "motivosPorOpcion": {
+      "Ferritina.": "La ferritina informa sobre depósitos de hierro y fase aguda, no mide directamente la síntesis hepática crónica.",
+      "Bilirrubina.": "La bilirrubina valora excreción y puede aumentar en distintos patrones, pero no es tan representativa de reserva sintética crónica como la albúmina.",
+      "Cetonuria.": "La cetonuria refleja metabolismo energético y no constituye una prueba de función sintética hepática."
+    },
+    "claveMemorizar": "Función hepática crónica: albúmina y tiempo de protrombina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 14 y 41"
+  },
+  "269": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La GGT es el marcador enzimático más sensible del patrón hepatobiliar y colestásico, aunque su especificidad es limitada.",
+    "motivosPorOpcion": {
+      "Fosfatasa alcalina.": "La ALP también aumenta en colestasis, pero comparte fuentes extrahepáticas, especialmente hueso.",
+      "LDH.": "La LDH está distribuida por numerosos tejidos y no es un indicador hepatobiliar sensible.",
+      "Creatina cinasa.": "La creatina cinasa es un marcador predominantemente muscular."
+    },
+    "claveMemorizar": "GGT: muy sensible para enfermedad hepatobiliar.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 41"
+  },
+  "270": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La bilirrubina directa está conjugada y es soluble en agua, por lo que puede filtrarse y aparecer en orina. La indirecta viaja unida a albúmina y no se excreta por vía renal.",
+    "motivosPorOpcion": {
+      "Bilirrubina total.": "La bilirrubina total suma directa e indirecta; solo su componente directo es hidrosoluble y excretable.",
+      "Bilirrubina indirecta.": "La indirecta es insoluble y circula ligada a albúmina.",
+      "Bilirrubina no conjugada.": "No conjugada es sinónimo de indirecta y no atraviesa el filtro renal en condiciones normales."
+    },
+    "claveMemorizar": "Orina: bilirrubina directa sí; indirecta no.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 29 y 31"
+  },
+  "271": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Entre los marcadores serológicos propuestos, el HBsAg es el primero que se hace positivo durante la incubación. El ADN viral aparece antes, pero no figura entre las opciones.",
+    "motivosPorOpcion": {
+      "Anti-HBc IgM.": "Es el primer anticuerpo, detectable al inicio de los síntomas, pero aparece después de los marcadores virales tempranos.",
+      "HBeAg.": "Se asocia con replicación e infectividad, pero no precede al HBsAg como marcador serológico de elección.",
+      "Anti-HBs.": "Es el último anticuerpo y aparece tras desaparecer HBsAg o después de la vacunación."
+    },
+    "claveMemorizar": "Primero ADN-VHB; entre serológicos, HBsAg.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 7-9"
+  },
+  "272": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hepatopatía alcohólica eleva proporcionalmente más AST que ALT, por lo que el cociente AST/ALT supera 1 y típicamente puede ser mayor de 2.",
+    "motivosPorOpcion": {
+      "Hepatitis viral.": "En hepatitis viral suele predominar ALT y el cociente AST/ALT tiende a ser menor de 1.",
+      "Colestasis.": "La colestasis se reconoce sobre todo por GGT y fosfatasa alcalina, no por un cociente AST/ALT característico superior a 1.",
+      "Hepatitis autoinmune.": "Su patrón es hepatocelular, pero el predominio de AST sobre ALT no es la asociación clásica destacada."
+    },
+    "claveMemorizar": "Alcohol: AST/ALT > 1, clásicamente > 2.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 42 y 44"
+  },
+  "273": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La GGT tiene especial relevancia diagnóstica por su concentración y localización hepatobiliar, sobre todo en la membrana canalicular y microsomas del hepatocito.",
+    "motivosPorOpcion": {
+      "Músculo esquelético.": "El músculo esquelético no figura entre las fuentes principales de GGT del temario.",
+      "Páncreas.": "El páncreas contiene GGT, pero no es la fuente sérica de referencia en el estudio hepatobiliar.",
+      "Eritrocitos.": "Los eritrocitos no se describen como tejido de alta concentración de GGT."
+    },
+    "claveMemorizar": "GGT sérica: orientación hepatobiliar.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 37",
+    "advertenciaRevision": "El PDF enumera GGT en hígado, riñón y páncreas, pero no aporta concentraciones comparativas que demuestren literalmente que el hígado tenga la máxima."
+  },
+  "274": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La bilirrubina no conjugada o indirecta es lipofílica e insoluble, por lo que se transporta en plasma unida a albúmina hasta el hígado.",
+    "motivosPorOpcion": {
+      "Bilirrubina directa.": "La directa ya está conjugada y es hidrosoluble.",
+      "Bilirrubina conjugada.": "La conjugación permite su secreción biliar y eventual excreción urinaria, sin requerir el transporte inicial con albúmina.",
+      "Bilis.": "La bilis es una mezcla de sustancias secretadas al canalículo, no una fracción plasmática de bilirrubina."
+    },
+    "claveMemorizar": "Indirecta = no conjugada = unida a albúmina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-29"
+  },
+  "275": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La albúmina constituye cerca del 66 % de las proteínas sanguíneas y es la fracción mayoritaria del suero.",
+    "motivosPorOpcion": {
+      "Fibrinógeno.": "El fibrinógeno se encuentra en plasma, pero se consume al coagular y por eso no forma parte normal del suero.",
+      "IgG.": "La IgG es la inmunoglobulina predominante, pero la fracción gamma total es menor que la albúmina.",
+      "LDH.": "La LDH es una enzima presente a concentraciones muy inferiores a las proteínas estructurales mayoritarias."
+    },
+    "claveMemorizar": "Suero: albúmina es la fracción proteica principal.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 9-10 y 14"
+  },
+  "276": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el proteinograma, la banda de albúmina es la de mayor área porque esta proteína supone alrededor de dos tercios del total sérico.",
+    "motivosPorOpcion": {
+      "Transferrina.": "La transferrina es solo uno de los componentes de la fracción beta.",
+      "Ceruloplasmina.": "La ceruloplasmina forma parte de alfa-2 y tiene mucha menor abundancia.",
+      "Ferritina.": "La ferritina no constituye una fracción mayor del proteinograma rutinario."
+    },
+    "claveMemorizar": "Mayor pico del proteinograma: albúmina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7, 10 y 14"
+  },
+  "277": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Prealbúmina, albúmina y transferrina aparecen en el temario como marcadores proteicos de desnutrición. Sus distintas vidas medias permiten valorar cambios nutricionales en escalas temporales diferentes.",
+    "motivosPorOpcion": {
+      "Prealbúmina.": "Es un marcador válido y de respuesta relativamente rápida, pero no es el único de la lista.",
+      "Albúmina.": "Es útil en la evaluación nutricional, aunque su vida media larga y la inflamación condicionan su interpretación.",
+      "Transferrina.": "También se emplea como marcador nutricional, pero varía con el metabolismo del hierro y la fase aguda."
+    },
+    "claveMemorizar": "Nutrición: prealbúmina, albúmina y transferrina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 14-15 y 19"
+  },
+  "278": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una agresión tóxica aguda puede causar necrosis hepatocelular extensa y liberar grandes cantidades de AST y ALT, generando incrementos mayores que los procesos crónicos o predominantemente colestásicos.",
+    "motivosPorOpcion": {
+      "Cirrosis biliar.": "Predomina el patrón colestásico con GGT y fosfatasa alcalina, no las máximas elevaciones de transaminasas.",
+      "Coledocolitiasis.": "La obstrucción del colédoco produce principalmente un patrón colestásico.",
+      "Hepatitis crónica autoinmune.": "Puede elevar transaminasas, pero el carácter crónico no suele producir los picos de una necrosis tóxica aguda."
+    },
+    "claveMemorizar": "Necrosis hepatocelular aguda: transaminasas muy elevadas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 41-43",
+    "advertenciaRevision": "El PDF diferencia patrones hepatocelular y colestásico, pero no compara explícitamente la magnitud de transaminasas en estas cuatro enfermedades."
+  },
+  "279": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En electroforesis, la movilidad de las proteínas depende de sus propiedades eléctricas y del medio de separación; la opción combina carga con tamaño como determinantes físicos de la migración.",
+    "motivosPorOpcion": {
+      "Aminoácidos aromáticos de las proteínas.": "Los aminoácidos aromáticos explican absorción ultravioleta, no la separación electroforética en fracciones.",
+      "Solubilidad en buffer neutro.": "La electroforesis descrita se realiza a pH alcalino y separa por movilidad eléctrica, no por solubilidad en tampón neutro."
+    },
+    "claveMemorizar": "Electroforesis: movilidad ligada a carga y características del soporte/molécula.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8",
+    "advertenciaRevision": "El PDF indica que a pH 8,6 las proteínas tienen carga negativa, pero no afirma expresamente que el proteinograma sérico las separe por tamaño; en electroforesis libre o capilar predomina la relación carga/tamaño y la movilidad electroforética."
+  },
+  "280": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las inmunoglobulinas, sintetizadas por linfocitos B y células plasmáticas, migran principalmente en la fracción gamma del proteinograma.",
+    "motivosPorOpcion": {
+      "Fracción Beta.": "Algunas inmunoglobulinas pueden extenderse hacia beta, pero no es su región principal.",
+      "Fracción Alfa.": "Las fracciones alfa contienen sobre todo transportadores, inhibidores de proteasas y reactantes de fase aguda."
+    },
+    "claveMemorizar": "Gamma = inmunoglobulinas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
+  },
+  "281": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Gilbert y Crigler-Najjar reducen la conjugación hepática y elevan bilirrubina no conjugada. La ictericia asociada a lactancia materna también puede implicar menor conjugación o mayor circulación enterohepática, por lo que las tres encajan en el enunciado.",
+    "motivosPorOpcion": {
+      "Ictericia producida por la lactancia materna.": "Es un contexto válido de hiperbilirrubinemia indirecta neonatal, pero no es el único propuesto.",
+      "Enfermedad de Gilbert.": "Es una causa hereditaria de conjugación reducida y bilirrubina indirecta elevada.",
+      "Enfermedad de Crigler-Najjar.": "El déficit grave o parcial de UDP-glucuronil transferasa eleva bilirrubina no conjugada."
+    },
+    "claveMemorizar": "Conjugación deficiente = bilirrubina indirecta alta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 28 y 32",
+    "advertenciaRevision": "El PDF respalda Gilbert y Crigler-Najjar, pero no menciona la ictericia por lactancia materna."
+  },
+  "282": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la colestasis se acumula bilirrubina conjugada por obstrucción de su salida hacia el intestino. Al aumentar esta fracción también se eleva la bilirrubina total.",
+    "motivosPorOpcion": {
+      "Síndrome de Gilbert.": "Gilbert eleva principalmente bilirrubina indirecta por conjugación reducida.",
+      "Síndrome de Crigler-Najjar.": "Crigler-Najjar también produce hiperbilirrubinemia no conjugada.",
+      "Todas las anteriores": "Gilbert y Crigler-Najjar no se caracterizan por aumento de la fracción conjugada."
+    },
+    "claveMemorizar": "Colestasis: total y directa elevadas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-32"
+  },
+  "283": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El hígado almacena glucógeno, pero el músculo también dispone de reservas de glucógeno. Por ello este almacenamiento no es exclusivo del hígado.",
+    "motivosPorOpcion": {
+      "Glucuronación de bilirrubina.": "La conjugación de bilirrubina con ácido glucurónico se presenta como una función del hepatocito necesaria para su eliminación.",
+      "Síntesis de sales biliares.": "Los ácidos biliares primarios se sintetizan en hepatocitos a partir de colesterol.",
+      "Ciclo de la urea.": "El temario atribuye al hígado la conversión del amonio tóxico en urea mediante este ciclo."
+    },
+    "claveMemorizar": "Glucógeno: hígado y músculo; bilis, bilirrubina y urea: funciones hepáticas clave.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4-5, 23 y 26-28",
+    "advertenciaRevision": "El PDF confirma el almacenamiento hepático de glucógeno, pero no menciona explícitamente que el músculo también lo almacene ni demuestra la exclusividad absoluta de las otras funciones."
+  },
+  "284": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hepatitis alcohólica se asocia con AST mayor que ALT, típicamente AST/ALT > 2. La opción invierte el cociente al afirmar ALT/AST > 2.",
+    "motivosPorOpcion": {
+      "Ratio AST/ALT < 1 es compatible con hepatitis viral o de causa tóxica.": "En muchas lesiones hepatocelulares no alcohólicas predomina ALT, haciendo el cociente AST/ALT menor de 1.",
+      "GGT y fosfatasa alcalina elevada, junto con una discreta elevación de las transaminasas, permiten pensar en un patrón colestásico.": "El patrón colestásico se define por elevación predominante de GGT y ALP.",
+      "LDH elevada junto a una hiperbilirrubinemia indirecta es compatible con anemia hemolítica.": "La hemólisis libera LDH y aumenta la producción de bilirrubina no conjugada."
+    },
+    "claveMemorizar": "Alcohol: AST/ALT > 2, no ALT/AST > 2.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31 y 41-42",
+    "advertenciaRevision": "El PDF respalda de forma directa el patrón alcohólico y colestásico; la asociación completa entre LDH e hiperbilirrubinemia indirecta en hemólisis se deduce de apartados separados."
+  },
+  "285": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La colestasis lesiona u obstruye el sistema canalicular y eleva de forma predominante fosfatasa alcalina y GGT.",
+    "motivosPorOpcion": {
+      "Aspartato aminotransferasa y fosfatasa alcalina.": "La AST puede aumentar, pero no sustituye a GGT como componente principal del patrón colestásico.",
+      "Aspartato aminotransferasa y alanina aminotransferasa.": "AST y ALT definen principalmente lesión hepatocelular.",
+      "Aspartato aminotransferasa y gamma-glutamil transferasa": "Incluye GGT, pero omite la elevación característica de fosfatasa alcalina."
+    },
+    "claveMemorizar": "Colestasis = ALP + GGT.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 41"
+  },
+  "286": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La alfa-1-glucoproteína ácida es un reactante positivo de fase aguda, no uno de los marcadores proteicos de desnutrición enumerados. La inflamación puede elevarla y confundir su interpretación nutricional.",
+    "motivosPorOpcion": {
+      "Prealbúmina.": "La prealbúmina figura expresamente entre los marcadores de desnutrición.",
+      "Proteína fijadora del Retinol.": "La proteína transportadora de retinol se incluye como marcador nutricional de respuesta rápida.",
+      "Transferrina.": "La transferrina forma parte de los marcadores proteicos usados en evaluación nutricional."
+    },
+    "claveMemorizar": "Nutricionales: prealbúmina, transferrina y RBP; orosomucoide es fase aguda.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 15 y 19"
+  },
+  "287": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cribado CONUT integra albúmina sérica, colesterol total y recuento total de linfocitos para estimar desnutrición hospitalaria.",
+    "motivosPorOpcion": {
+      "Albúmina, Prealbúmina, Colesterol.": "Sustituye erróneamente el recuento linfocitario por prealbúmina.",
+      "Prealbúmina, Colesterol, linfocitos.": "CONUT utiliza albúmina, no prealbúmina, como componente proteico.",
+      "Albúmina, Colesterol.": "Omite el componente inmunológico aportado por el recuento de linfocitos."
+    },
+    "claveMemorizar": "CONUT: albúmina + colesterol + linfocitos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15",
+    "advertenciaRevision": "El PDF nombra el índice CONUT, pero no detalla sus tres parámetros; la composición de la respuesta no queda sustentada íntegramente en los PDF permitidos."
+  },
+  "288": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La malnutrición puede deprimir la inmunidad celular y reducir el recuento total de linfocitos; un valor inferior a 1500 se usa como señal de riesgo nutricional.",
+    "motivosPorOpcion": {
+      "El índice de CD3/CD4 (>50).": "Ese cociente y ese umbral no constituyen el indicador nutricional estándar descrito por el recuento linfocitario total.",
+      "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.": "La malnutrición se relaciona con disminución o ausencia de respuesta cutánea retardada, no con su presencia conservada.",
+      "El aumento en el recuento total de linfocitos (>10.500).": "La malnutrición se asocia con linfopenia, mientras que un recuento elevado orienta a otros procesos."
+    },
+    "claveMemorizar": "Malnutrición inmunológica: linfocitos totales disminuidos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15",
+    "advertenciaRevision": "El PDF solo menciona CONUT y no aporta el umbral de 1500 linfocitos ni los parámetros de inmunidad celular retardada; esta respuesta requiere revisión con una fuente nutricional adicional."
+  }
+}
