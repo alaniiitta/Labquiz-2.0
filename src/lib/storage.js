@@ -2,6 +2,7 @@ export const STORAGE_KEY = "labquiz.learning.v2";
 export const TEST_SESSION_KEY = "labquiz.test-session.v1";
 
 export const EMPTY_USER_DATA = {
+  theme: "light",
   tests: 0,
   answered: 0,
   correct: 0,

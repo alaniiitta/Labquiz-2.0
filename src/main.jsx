@@ -1,11 +1,11 @@
 import React,{useEffect,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun} from "lucide-react";
 import "./styles.css";
 
 import questionBank from "./questions";
 import {parsePdfQuestions} from "./pdfPipeline.js";
-import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
+import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
 import {createBackup,loadUserData,parseBackup,saveUserData} from "./lib/storage.js";
@@ -39,12 +39,14 @@ function App(){
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  const openTest=(topicId,mode="topic")=>{setTestConfig(config=>({topicId,mode,sessionId:config.sessionId+1}));go("test")};
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
+ const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
  useEffect(()=>saveUserData(userData),[userData]);
+ useEffect(()=>{document.documentElement.dataset.theme=userData.theme??"light"},[userData.theme]);
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
   <button className="close" type="button" onClick={()=>setMobile(false)} aria-label="Cerrar menú"><X/></button>
     <nav className="nav">{[
-    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["review","Repaso",RotateCcw],["progress","Progreso",BarChart3],["simulacrum","Simulacro",Trophy],["settings","Configuración",Settings]
+    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["wrong","Preguntas falladas",RotateCcw],["review","Repaso",RotateCcw],["progress","Progreso",BarChart3],["settings","Configuración",Settings]
    ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
@@ -54,11 +56,11 @@ function App(){
   {page==="topic"&&selected&&<TopicPage topic={selected} go={go}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite}/>}
   {page==="review"&&<ReviewPage go={go}/>}
-  {page==="wrong"&&<WrongPage progress={userData.progress} onStart={()=>openTest(null,"failed")} go={go}/>}
+  {page==="wrong"&&<WrongPage progress={userData.progress} onStart={()=>openTest(null,"failed")} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
-  {page==="settings"&&<SettingsPage userData={userData} onRestore={setUserData}/>}
+  {page==="settings"&&<SettingsPage userData={userData} onRestore={setUserData} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
   </main>
  </div>
 }
@@ -119,7 +121,7 @@ function TopicPage({topic,go}){return <div>
 function TestPage({go,onChangeTopic,initialTopicId=null,mode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite}){
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [questionCount,setQuestionCount]=useState(20);
- const [testQuestions,setTestQuestions]=useState(()=>mode==="failed"?selectSmartQuestions(getFailedQuestions(questionProgress),questionProgress,30).map(question=>shuffleQuestionOptions(question)):initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[]);
+ const [testQuestions,setTestQuestions]=useState(()=>{const failedQuestions=getFailedQuestions(questionProgress);return mode==="failed"?selectSmartQuestions(failedQuestions,questionProgress,failedQuestions.length).map(question=>shuffleQuestionOptions(question)):initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[]});
  const [i,setI]=useState(0);
  const [answersByIndex,setAnswersByIndex]=useState({});
  const [done,setDone]=useState(false);
@@ -204,10 +206,11 @@ function TestPage({go,onChangeTopic,initialTopicId=null,mode="topic",questionPro
 
 function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando respondas tus primeras preguntas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>}
 
-function WrongPage({progress,onStart,go}){
- const failedCount=getFailedQuestions(progress).length;
+function WrongPage({progress,onStart,onMarkLearned,go}){
+ const failedQuestions=getFailedQuestions(progress);
+ const failedCount=failedQuestions.length;
  if(!failedCount) return <div><div className="reviewHero"><h2>Preguntas falladas</h2><p>Aquí aparecerán las preguntas que respondas incorrectamente.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
- return <div><div className="reviewHero"><h2>Preguntas falladas</h2><p>Tienes {failedCount} preguntas falladas pendientes de reforzar.</p><button className="primary" onClick={onStart}>Hacer test de falladas</button></div></div>;
+ return <div className="wrongPage"><div className="reviewHero"><h2>Preguntas falladas</h2><p>Tienes {failedCount} {failedCount===1?"pregunta pendiente":"preguntas pendientes"}. Seguirán aquí hasta que las marques como aprendidas.</p><button className="primary" onClick={onStart}>Hacer todas las falladas</button></div><div className="wrongQuestionList">{failedQuestions.map(question=>{const id=getQuestionIdForProgress(question);const state=progress[id];return <article className="wrongQuestion" key={id}><div className="wrongQuestionBody"><div className="wrongQuestionMeta"><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><span>{state?.vecesFallada??1} {(state?.vecesFallada??1)===1?"fallo":"fallos"}</span></div><h3>{question.question}</h3></div><button className="markLearnedButton" onClick={()=>onMarkLearned(question)} title="Quitar de preguntas falladas"><CheckCircle2/> Marcar como aprendida</button></article>})}</div></div>;
 }
 
 function FavoritesPage({favorites,onToggleFavorite,go}){const questions=getFavoriteQuestions(favorites);if(!questions.length)return <div><div className="reviewHero"><Star/><h2>Tus preguntas favoritas</h2><p>Las preguntas que marques como favoritas aparecerán aquí.</p><button className="primary" onClick={()=>go("test")}>Explorar preguntas</button></div></div>;return <div className="favoritesPage"><div className="pageIntro"><div><span className="eyebrow">GUARDADAS</span><h2>Tus preguntas favoritas</h2><p>{questions.length} {questions.length===1?"pregunta guardada":"preguntas guardadas"}</p></div></div><div className="favoriteQuestionList">{questions.map(question=><article className="favoriteQuestion" key={getQuestionIdForProgress(question)}><div><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><h3>{question.question}</h3></div><button className="favoriteRemove" onClick={()=>onToggleFavorite(question)} title="Quitar de favoritos"><Star fill="currentColor"/></button></article>)}</div></div>}
@@ -227,7 +230,7 @@ function ProgressPage({progress,onStart}){
  </div>
 }
 
-function SettingsPage({userData,onRestore}){
+function SettingsPage({userData,onRestore,onThemeChange}){
  const importInput=useRef(null);
  const [message,setMessage]=useState(null);
  const progressCount=Object.keys(userData.progress??{}).length;
@@ -263,6 +266,7 @@ function SettingsPage({userData,onRestore}){
 
  return <div className="settingsPage">
   <section className="settingsIntro"><span className="settingsIcon"><ShieldCheck/></span><div><span className="eyebrow">DATOS Y SEGURIDAD</span><h2>Protege tu progreso</h2><p>Descarga una copia para recuperar tus datos si cambias de móvil, navegador o borras los datos del sitio.</p></div></section>
+  <section className="settingsCard themeSetting"><div className="settingsCardText"><h3>Modo noche</h3><p>Reduce el brillo de la interfaz para estudiar con poca luz.</p></div><div className="themeControl"><Sun/><button className="themeSwitch" type="button" role="switch" aria-checked={userData.theme==="dark"} aria-label="Activar modo noche" onClick={()=>onThemeChange(userData.theme==="dark"?"light":"dark")}><span/></button><Moon/></div></section>
   <section className="settingsCard"><div className="settingsCardText"><h3>Copia de seguridad</h3><p>Incluye tu dominio por tema, respuestas, preguntas falladas y favoritas.</p><div className="backupSummary"><span><b>{progressCount}</b> preguntas con actividad</span><span><b>{favoritesCount}</b> favoritas</span></div></div><div className="settingsActions"><button className="primary" onClick={exportBackup}><Download/> Descargar copia</button><button className="secondary" onClick={()=>importInput.current?.click()}><Upload/> Restaurar copia</button><input ref={importInput} className="backupFileInput" type="file" accept="application/json,.json" onChange={importBackup}/></div></section>
   {message&&<div className={`backupMessage ${message.type}`} role="status">{message.text}</div>}
   <section className="settingsNotice"><h3>Dónde guardarla</h3><p>En iPhone, elige <b>Guardar en Archivos</b> y selecciona iCloud Drive. La copia contiene datos de estudio, pero no contraseñas ni información bancaria.</p></section>

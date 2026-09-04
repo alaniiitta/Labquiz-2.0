@@ -12,6 +12,7 @@ export const createInitialQuestionProgress = () => ({
   vecesVista: 0,
   vecesAcertada: 0,
   vecesFallada: 0,
+  marcadaAprendida: false,
   ultimaVezVista: null,
   ultimaVezAcertada: null,
   ultimaVezFallada: null,
@@ -126,10 +127,19 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
   return shuffle(selected.map((item) => item.question), random);
 }
 
-// sigue "fallada" mientras el último intento haya sido incorrecto; se corrige al acertarla de nuevo
 export function isQuestionCurrentlyFailed(state = createInitialQuestionProgress()) {
-  if (typeof state.pendienteRecuperacion === "boolean") return state.pendienteRecuperacion;
-  return state.vecesFallada > 0 && (!state.ultimaVezAcertada || state.ultimaVezFallada > state.ultimaVezAcertada);
+  return (state?.vecesFallada ?? 0) > 0 && state.marcadaAprendida !== true;
+}
+
+export function hasQuestionEverFailed(state = createInitialQuestionProgress()) {
+  return (state?.vecesFallada ?? 0) > 0;
+}
+
+export function markQuestionAsLearned(question, userProgress = {}) {
+  const id = getQuestionId(question);
+  const current = userProgress[id];
+  if (!current || !isQuestionCurrentlyFailed(current)) return userProgress;
+  return { ...userProgress, [id]: { ...current, marcadaAprendida: true, pendienteRecuperacion: false } };
 }
 
 export function selectQuestionsByMode(allQuestions = [], userProgress = {}, count = 30, mode = "smart", topicFilter = null, random = Math.random, now = Date.now()) {
@@ -161,6 +171,7 @@ export function recordQuestionAnswer(question, userProgress = {}, isCorrect, now
     respuestaElegida: selectedAnswer,
     respuestaCorrecta: question.correctAnswer,
     pendienteRecuperacion: !isCorrect,
+    marcadaAprendida: isCorrect ? current.marcadaAprendida : false,
     ultimaVezVista: now,
     ultimaVezAcertada: isCorrect ? now : current.ultimaVezAcertada,
     ultimaVezFallada: isCorrect ? current.ultimaVezFallada : now,
