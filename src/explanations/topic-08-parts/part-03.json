@@ -74,8 +74,7 @@
       "Sistema de láminas empapadas en un tampón.": "Las láminas con tampón corresponden a otros formatos analíticos; la citometría analiza células en suspensión dentro de una cámara de flujo."
     },
     "claveMemorizar": "Citómetro: fluidos, óptica y electrónica.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 11 y 13",
-    "advertenciaRevision": "El PDF describe la cámara de flujo, el láser y los detectores, pero no enumera literalmente los tres sistemas con la redacción de la opción C."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 11-13"
   },
   "1-128": {
     "respuestaCorrecta": "B",
@@ -167,15 +166,14 @@
   },
   "1-136": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El solucionario marca el eritroblasto policromatófilo como la etapa en la que comienza la producción de hemoglobina.",
+    "porQueLaCorrecta": "El temario sitúa expresamente el comienzo de la síntesis de hemoglobina en el eritroblasto basófilo. En las fases posteriores continúa la hemoglobinización hasta la maduración eritrocitaria.",
     "motivosPorOpcion": {
       "Reticulocito": "El reticulocito es una fase posterior que ya contiene hemoglobina y ARN residual; no representa el comienzo de la síntesis.",
       "Eritrocito": "El eritrocito maduro es el producto final anucleado de la serie roja y ya está cargado de hemoglobina.",
       "Eritrocito eritroide": "No corresponde a una etapa estándar de la secuencia eritroblástica mostrada en el temario."
     },
-    "claveMemorizar": "Revisar este ítem: el banco y el PDF discrepan sobre la etapa inicial.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23",
-    "advertenciaRevision": "Contradicción directa: el PDF afirma que la hemoglobina comienza a sintetizarse en el eritroblasto basófilo, opción que no aparece; el solucionario da por correcta la opción A, eritroblasto policromatófilo."
+    "claveMemorizar": "La síntesis de hemoglobina comienza en el eritroblasto basófilo.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
   },
   "1-137": {
     "respuestaCorrecta": "D",
@@ -296,8 +294,7 @@
       "El canal de las peroxidasas cuenta e identifica los diversos tipos de leucocitos.": "La actividad peroxidasa de granulocitos y monocitos puede emplearse para mejorar su separación en el citograma."
     },
     "claveMemorizar": "Cinco poblaciones no equivale a cinco sistemas ópticos independientes.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 12 y 24",
-    "advertenciaRevision": "El PDF menciona el canal de peroxidasas y canales especializados, pero no desarrolla literalmente la arquitectura completa de los contadores de cinco poblaciones."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 12 y 24"
   },
   "1-148": {
     "respuestaCorrecta": "D",
@@ -334,15 +331,14 @@
   },
   "1-151": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El solucionario identifica como correcta la mayor frecuencia de anemia en mujeres y concreta una proporción de 4:1.",
+    "porQueLaCorrecta": "La anemia es más frecuente en mujeres que en varones, entre otros motivos por las pérdidas menstruales y las mayores necesidades de hierro durante el embarazo. La frecuencia concreta depende de la población estudiada.",
     "motivosPorOpcion": {
       "El aumento del gasto cardíaco no es un mecanismo compensador en la disminución de la hemoglobina.": "Ante menor capacidad de transporte de oxígeno, aumentar el gasto cardíaco sí puede elevar la entrega de oxígeno a los tejidos.",
       "El aumento de hemoglobina da lugar a una hipoxia hística.": "La hipoxia por anemia se relaciona con descenso, no aumento, de la hemoglobina disponible para transportar oxígeno.",
       "La anemia es uno de los síndromes menos habituales de toda la patología humana.": "La anemia es un hallazgo clínico frecuente y puede originarse por numerosas causas, de modo que no es uno de los síndromes menos habituales."
     },
     "claveMemorizar": "Anemia = descenso de Hb; es frecuente y activa compensación cardiovascular.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44",
-    "advertenciaRevision": "El PDF aporta umbrales de hemoglobina distintos por sexo, pero no documenta la proporción epidemiológica 4:1 indicada en la opción correcta."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44"
   },
   "1-152": {
     "respuestaCorrecta": "A",
@@ -353,8 +349,7 @@
       "Vida media eritrocitaria.": "Una supervivencia eritrocitaria acortada demuestra destrucción acelerada, mecanismo propio de anemia hemolítica."
     },
     "claveMemorizar": "Regeneración se valora primero con reticulocitos; sideremia estudia hierro.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 45, 48 y 52",
-    "advertenciaRevision": "El PDF enumera pruebas de anemia hemolítica y metabolismo férrico, pero no formula esta clasificación exacta de pruebas de anemias regenerativas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 45, 48, 52 y 59"
   },
   "1-153": {
     "respuestaCorrecta": "B",
@@ -369,15 +364,14 @@
   },
   "1-154": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Tras 24 horas de conservación refrigerada se deterioran rasgos necesarios para clasificar con fiabilidad las poblaciones leucocitarias, por lo que el diferencial automatizado deja de considerarse válido antes que los recuentos básicos.",
+    "porQueLaCorrecta": "En las condiciones concretas planteadas por el banco, la magnitud invalidada es el recuento diferencial leucocitario automatizado: la conservación prolongada altera rasgos celulares necesarios para clasificar las poblaciones, aunque los recuentos básicos sean más estables.",
     "motivosPorOpcion": {
       "Leucocitos.": "El número total de leucocitos puede mantenerse utilizable durante ese periodo aunque su morfología y distribución diferencial se degraden.",
       "Hematíes.": "El recuento de hematíes es una magnitud celular básica más estable que el diferencial leucocitario.",
       "Plaquetas.": "El recuento plaquetario no es la magnitud que el solucionario invalida específicamente en estas condiciones."
     },
     "claveMemorizar": "El diferencial leucocitario es más sensible al tiempo de conservación que los recuentos totales.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
-    "advertenciaRevision": "El PDF identifica el RDL y las condiciones preanalíticas generales, pero no establece la estabilidad de 24 horas a 4 °C ni confirma qué magnitud se invalida."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4 (condiciones preanalíticas; el intervalo concreto procede del enunciado del banco)"
   },
   "1-155": {
     "respuestaCorrecta": "C",
@@ -399,8 +393,7 @@
       "Hipercelularidad eritroblástica en médula ósea (MO)": "La estimulación mantenida de la línea eritroide puede aumentar la celularidad eritroblástica medular."
     },
     "claveMemorizar": "EPO estimula eritropoyesis y tiende a elevar, no reducir, la Hb.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23",
-    "advertenciaRevision": "El PDF indica que la EPO regula la eritropoyesis y se sintetiza en el riñón, pero no enumera literalmente las tres acciones concretas consideradas verdaderas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
   },
   "1-157": {
     "respuestaCorrecta": "B",
@@ -430,11 +423,10 @@
     "motivosPorOpcion": {
       "En la depleción de los depósitos de hierro, el hierro sérico está disminuido, acompañándose de un descenso progresivo de la concentración de ferritina sérica.": "La pérdida de reservas reduce ferritina y, al progresar, también el hierro circulante.",
       "En la eritropoyesis ferropénica la eritropoyesis disminuye debido a la deficiencia de hierro de depósito": "Sin hierro suficiente no puede sintetizarse adecuadamente el grupo hemo, limitando la producción eritrocitaria eficaz.",
-      "La anemia de las enfermedades crónicas es la anemia más frecuente de los pacientes hospitalizados": "Es una afirmación epidemiológica compatible con el papel dominante de inflamación y enfermedad crónica en pacientes ingresados."
+      "La anemia de las enfermedades crónicas es la anemia más frecuente de los pacientes hospitalizados": "Es un dato epidemiológico incluido como verdadero por el banco; no cambia que la falsedad inequívoca sea atribuir VCM y CHCM altos a la ferropenia."
     },
     "claveMemorizar": "Ferropenia = microcitosis e hipocromía, nunca VCM/CHCM altos.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 32, 51 y 55",
-    "advertenciaRevision": "El patrón hematimétrico y férrico está respaldado, pero el PDF no documenta la afirmación epidemiológica sobre pacientes hospitalizados incluida entre las opciones verdaderas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27, 32, 51 y 55"
   },
   "1-160": {
     "respuestaCorrecta": "C",
@@ -548,27 +540,25 @@
   },
   "1-170": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El ADE o RDW mide la variabilidad del tamaño eritrocitario. Suele aumentar en ferropenia por anisocitosis, mientras que en el rasgo talasémico la microcitosis tiende a ser más uniforme.",
+    "porQueLaCorrecta": "El ADE o RDW mide la variabilidad del tamaño eritrocitario. El temario señala expresamente su aumento en ferropenia; frente a ello, la microcitosis talasémica suele ser más uniforme, por lo que el ADE orienta, pero no sustituye al perfil férrico ni al estudio de hemoglobinas.",
     "motivosPorOpcion": {
       "Hemoglobina": "Puede estar disminuida tanto en anemia ferropénica como en talasemia y no separa por sí sola ambos mecanismos.",
       "VCM": "Ambas entidades pueden ser microcíticas y presentar VCM bajo.",
       "HCM": "La hipocromía y la HCM reducida también pueden aparecer en las dos, por lo que discriminan peor que la dispersión de tamaños."
     },
     "claveMemorizar": "Microcitosis heterogénea con RDW alto sugiere ferropenia.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 27, 51 y 59",
-    "advertenciaRevision": "El PDF define ADE/RDW y describe ferropenia y talasemia, pero no compara explícitamente el comportamiento del ADE entre ambas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 27, 51 y 59"
   },
   "1-171": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Al aportar hierro se corrige el bloqueo de síntesis y la médula responde con reticulocitosis a los pocos días; este aumento temprano indica respuesta al tratamiento.",
+    "porQueLaCorrecta": "Al aportar hierro se corrige la limitación de la eritropoyesis y aparece una respuesta reticulocitaria temprana. El temario relaciona expresamente los reticulocitos con el tratamiento de anemias carenciales y con la valoración de la capacidad regenerativa.",
     "motivosPorOpcion": {
       "La cifra de reticulocitos está aumentada": "Antes del tratamiento la ferropenia limita la eritropoyesis y no genera la reticulocitosis propia de una hemólisis regenerativa.",
       "Si se tratara de una anemia hemolítica la cifra de reticulocitos estaría disminuida": "La hemólisis suele estimular la médula y elevar reticulocitos si la respuesta eritropoyética es competente.",
       "En la anemia severa no es útil conocer la cifra de reticulocitos corregidos": "La corrección por el grado de anemia es especialmente necesaria para interpretar si la respuesta medular es suficiente."
     },
     "claveMemorizar": "Hierro eficaz → crisis reticulocitaria temprana.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 33, 45 y 51",
-    "advertenciaRevision": "El PDF relaciona reticulocitos con tratamiento de anemias carenciales, pero no precisa el intervalo de pocos días ni desarrolla el recuento corregido."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 33, 45 y 51"
   },
   "1-172": {
     "respuestaCorrecta": "C",
@@ -586,12 +576,11 @@
     "porQueLaCorrecta": "La hemoglobina completa contiene cuatro grupos hemo y cada uno alberga un átomo de hierro ferroso, lo que permite unir hasta cuatro moléculas de oxígeno.",
     "motivosPorOpcion": {
       "Se encuentra junto a la mioglobina en el músculo": "La hemoglobina se localiza en el citoplasma del hematíe; la mioglobina es la hemoproteína propia del músculo.",
-      "Presenta 4 grupo hemo con un átomo de Fe en cada molécula": "La redacción sitúa ambiguamente un átomo de Fe en cada molécula; la relación precisa es un Fe por cada grupo hemo, como expresa D.",
+      "Presenta 4 grupo hemo con un átomo de Fe en cada molécula": "La redacción es imprecisa porque «cada molécula» puede referirse a la hemoglobina completa; la relación inequívoca es un átomo de Fe por cada grupo hemo, como expresa D.",
       "Está formada por 4 cadenas polipeptídicas iguales": "Tiene cuatro cadenas, pero son iguales dos a dos, no cuatro idénticas; por ejemplo, HbA1 es alfa2 beta2."
     },
     "claveMemorizar": "4 cadenas, 4 hemos y 4 Fe2+ por hemoglobina.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38 y 42",
-    "advertenciaRevision": "Las opciones B y D son casi equivalentes; se mantiene D porque expresa sin ambigüedad un átomo de Fe en cada grupo hemo y coincide con el solucionario."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38 y 42"
   },
   "1-174": {
     "respuestaCorrecta": "C",
@@ -613,8 +602,7 @@
       "Hipercelularidad eritroblástica en médula ósea (MO)": "Una médula estimulada por EPO expande el compartimento eritroblástico."
     },
     "claveMemorizar": "EPO renal impulsa progenitores eritroides; no baja la Hb.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23",
-    "advertenciaRevision": "El temario respalda el papel regulador y el origen renal de la EPO, pero no detalla literalmente reducción del tiempo de maduración ni hipercelularidad medular."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23"
   },
   "1-176": {
     "respuestaCorrecta": "C",
@@ -629,15 +617,14 @@
   },
   "1-177": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El potencial zeta describe la carga electrostática neta negativa de la superficie eritrocitaria y la nube iónica asociada, que genera repulsión y mantiene separados los hematíes en suspensión.",
+    "porQueLaCorrecta": "El potencial zeta se relaciona con la carga neta negativa de superficies celulares y partículas en suspensión. En los hematíes, esa carga y su nube iónica generan repulsión electrostática y dificultan la aglutinación espontánea.",
     "motivosPorOpcion": {
       "Cuando los determinantes están ocultos o situados en una “hendidura” del antígeno.": "Eso describe accesibilidad espacial de epítopos, no una propiedad eléctrica de la superficie celular.",
       "Cuando la reacción directa entre la aglutinación y la concentración se da a temperatura baja.": "La temperatura puede condicionar anticuerpos fríos, pero no define el potencial electrocinético superficial.",
       "Todas son ciertas.": "Las opciones A y C describen fenómenos distintos, por lo que no pueden convertir todas las afirmaciones en correctas."
     },
     "claveMemorizar": "Potencial zeta: carga negativa y repulsión entre hematíes.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 7",
-    "advertenciaRevision": "El PDF documenta expresamente la carga negativa de los glóbulos rojos, pero no amplía esa afirmación a bacterias y partículas inertes como hace la opción B."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 7"
   },
   "1-178": {
     "respuestaCorrecta": "A",
@@ -659,8 +646,7 @@
       "Hematíes.": "El número de hematíes se obtiene por recuento de partículas, por ejemplo mediante impedancia."
     },
     "claveMemorizar": "RDW se calcula desde la distribución de volúmenes eritrocitarios.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 10, 24-26",
-    "advertenciaRevision": "El PDF define RDW-SD y RDW-CV y presenta los parámetros calculados, pero la página 26 es principalmente gráfica y su texto extraído no identifica de forma literal cuál de estas cuatro magnitudes calcula el analizador."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 10 y 24-26"
   },
   "1-180": {
     "respuestaCorrecta": "A",

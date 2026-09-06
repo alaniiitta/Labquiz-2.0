@@ -1,15 +1,14 @@
 {
   "2-178": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La LMA M3 corresponde a la leucemia promielocítica: predominan promielocitos anómalos y su estirpe mieloide explica la intensa positividad para mieloperoxidasa y Sudán negro B.",
+    "porQueLaCorrecta": "La LMA M3 corresponde a la leucemia promielocítica: predominan promielocitos anómalos medianos o grandes, con núcleo irregular e incisura amplia descrita como signo del hachazo, inclusiones citoplasmáticas e intensa positividad para mieloperoxidasa y Sudán negro B.",
     "motivosPorOpcion": {
       "La clasificación Franco-América-Británica creada en 1976 divide a las leucemias mieloides crónicas en 8 subtipos, de M0 a M7, y a las linfoides en 3.": "La serie M0-M7 clasifica leucemias mieloides agudas, no crónicas.",
       "La clasificación FAB se basa en la citogenia, citometría de flujo, inmunohistoquímica, el análisis de la historia clínica, la influencia de terapias citotóxicas y la comorbilidad con otros desordenes hematológicos lo cual permite obtener una gran eficacia clínica y terapéutica.": "La FAB se basa principalmente en el tipo celular y la morfología; esos criterios amplios corresponden a clasificaciones posteriores, como la OMS.",
       "En la clasificación de la Organización Mundial de la Salud se aumentó a un 20% el porcentaje de blastocitos leucémicos en médula ósea exigido para el diagnóstico de la LMA en contraste al 10% que venía exigiendo la FAB.": "El PDF fija el corte general de la OMS en 20%, pero la FAB empleaba 30%, no 10%."
     },
-    "claveMemorizar": "M3 = promielocítica; MPO y Sudán negro B intensamente positivos.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 17-18 y 30",
-    "advertenciaRevision": "El PDF identifica M3, el corte del 20% y las tinciones mieloides, pero no describe literalmente el signo del hachazo."
+    "claveMemorizar": "M3 = promielocítica; signo del hachazo, MPO y Sudán negro B intensamente positivos.",
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, pp. 18-19; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 17-18 y 30"
   },
   "2-179": {
     "respuestaCorrecta": "B",
@@ -134,15 +133,14 @@
   },
   "2-190": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En la LLA los blastos pueden concentrarse en médula ósea sin producir siempre leucocitosis periférica; por ello el recuento sanguíneo puede ser alto, normal o bajo.",
+    "porQueLaCorrecta": "En la LLA los blastos pueden concentrarse en médula ósea sin producir siempre leucocitosis periférica; por ello el recuento sanguíneo puede ser alto, normal o bajo. Esta variabilidad no es exclusiva de la LLA: el temario la atribuye de forma general a las leucemias agudas, pero C es la única leucemia aguda entre las opciones.",
     "motivosPorOpcion": {
       "Leucemia mieloide crónica (LMC).": "La LMC se caracteriza habitualmente por leucocitosis marcada con representación de estadios mieloides.",
       "Leucemia linfoide crónica (LLC).": "La LLC se define por una linfocitosis clonal persistente, no por cualquier nivel de leucocitos.",
       "En ninguna leucemia, ya que siempre hay una concentración muy elevada de leucocitos.": "El PDF incluye leucocitosis y leucopenia entre las posibles manifestaciones de leucemia."
     },
     "claveMemorizar": "Leucemia aguda no implica siempre leucocitosis periférica.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 16 y 19",
-    "advertenciaRevision": "El PDF enumera leucocitosis y leucopenia en leucemias, pero no atribuye literalmente la tríada alta-normal-baja de forma exclusiva a la LLA."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 20; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 18"
   },
   "2-191": {
     "respuestaCorrecta": "D",
@@ -175,8 +173,7 @@
       "> 25.000 leucocitos/mm3 (en reacciones hiperleucocitósicas y reacciones leucemoides).": "Es leucocitosis intensa, pero A también cumple la definición general."
     },
     "claveMemorizar": "Leucopenia <4.000; leucocitosis >11.000/mm3.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 13",
-    "advertenciaRevision": "El PDF muestra los conceptos de leucopenia y leucocitosis, pero el texto extraído no conserva de forma inequívoca todos los límites usados en la pregunta."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 20; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 13"
   },
   "2-194": {
     "respuestaCorrecta": "C",
@@ -197,8 +194,7 @@
       "Eosinófilo.": "Sus gránulos tienen afinidad por colorantes ácidos como la eosina."
     },
     "claveMemorizar": "Basófilo: gránulos metacromáticos con azul de toluidina.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 8",
-    "advertenciaRevision": "El PDF explica la afinidad basófila por colorantes básicos, pero no menciona literalmente el azul de toluidina."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3, 8 y 30; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 20"
   },
   "2-196": {
     "respuestaCorrecta": "C",
@@ -222,25 +218,23 @@
   },
   "2-198": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El FVW une la plaqueta al subendotelio mediante GPIb y favorece así el reclutamiento plaquetario; en la formulación del test, esto se recoge como favorecimiento de la agregación.",
+    "porQueLaCorrecta": "La función principal del FVW es mediar la adhesión de la plaqueta al subendotelio mediante GPIb y estabilizar el factor VIII. Ese anclaje favorece el reclutamiento y la formación del tapón plaquetario, por lo que C es la única opción compatible, aunque «adhesión» sería el término directo y más preciso que «agregación».",
     "motivosPorOpcion": {
       "Inhibe la coagulación.": "El FVW favorece la hemostasia y protege al factor VIII de su degradación.",
       "Estabiliza el cóagulo de fibrina.": "Su función estabilizadora recae sobre el factor VIII; la estabilización covalente de fibrina corresponde al factor XIII."
     },
-    "claveMemorizar": "FVW: adhesión plaquetaria y estabilización del VIII.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 42",
-    "advertenciaRevision": "El PDF denomina adhesión, no agregación, a la función directa del FVW; la opción C es la más próxima pero usa terminología imprecisa."
+    "claveMemorizar": "FVW: adhesión plaquetaria y estabilización del VIII; no confundir adhesión con agregación.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 42; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 20"
   },
   "2-199": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Una cifra superior a 500.000/mm3 está claramente por encima del intervalo normal y constituye trombocitosis.",
+    "porQueLaCorrecta": "Una cifra superior a 500.000/mm3 está claramente por encima del intervalo normal y constituye trombocitosis. El umbral que fija el temario es >400.000/mm3, de modo que C describe un caso inequívoco, pero no el punto de corte mínimo.",
     "motivosPorOpcion": {
       "Inferiores a 50.000 / mm³.": "Es una trombopenia grave con riesgo hemorrágico.",
       "200.000 – 400.000 / mm³.": "Ese intervalo se encuentra dentro de valores habituales, no define trombocitosis."
     },
-    "claveMemorizar": "Plaquetas muy elevadas = trombocitosis; <50.000/mm3 = hemorragia difícil de controlar.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39",
-    "advertenciaRevision": "El PDF define trombocitosis por encima de 400.000/mm3; >500.000/mm3 sigue siendo correcto, pero no es el umbral mínimo."
+    "claveMemorizar": "Trombocitosis >400.000/mm3; <50.000/mm3 implica tendencia a hemorragias de difícil control.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 21"
   },
   "2-200": {
     "respuestaCorrecta": "B",
@@ -388,8 +382,7 @@
       "Síndrome de Chediak-Higashi.": "Presenta gránulos lisosómicos gigantes y alteración fagocítica, no el defecto receptor indicado."
     },
     "claveMemorizar": "GPIIb/IIIa ausente = Glanzmann.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 40-41",
-    "advertenciaRevision": "El PDF identifica el defecto GPIIb/IIIa y su carácter congénito, pero no explicita en el texto extraído la herencia autosómica recesiva."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 22; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 40-41"
   },
   "2-214": {
     "respuestaCorrecta": "D",
@@ -433,8 +426,7 @@
       "Azul de lactofenol": "Se utiliza en micología para observar estructuras fúngicas."
     },
     "claveMemorizar": "Frotis hematológico y plaquetas: May-Grünwald Giemsa.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 38",
-    "advertenciaRevision": "El PDF enumera May-Grünwald-Giemsa como tinción habitual y el recuento manual como alternativa, pero no formula literalmente este procedimiento de recuento plaquetario."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 22; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 38"
   },
   "2-218": {
     "respuestaCorrecta": "C",
@@ -453,11 +445,10 @@
     "motivosPorOpcion": {
       "En la parasitosis podemos encontrar eosinofilia.": "Es correcta: los eosinófilos participan en la defensa frente a parásitos, especialmente helmintos.",
       "El cribado de hemoglobinopalías estructurales puede realizarse por sistemas de cromatografía de alta resolución.": "No contradice el temario de hematología; la cromatografía permite separar variantes de hemoglobina.",
-      "La enzimopatía más frecuente es por déficit de glucosa 6 fosfato.": "Es una afirmación hematológica aceptada y no es el error morfológico evidente de la opción A."
+      "La enzimopatía más frecuente es por déficit de glucosa 6 fosfato.": "Se refiere al déficit de glucosa-6-fosfato deshidrogenasa, una enzimopatía eritrocitaria frecuente; no es el error morfológico evidente de A."
     },
     "claveMemorizar": "Sombras de Gümprecht = LLC.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 10 y 13",
-    "advertenciaRevision": "El PDF 8.2 respalda directamente A y la eosinofilia parasitaria; no desarrolla hemoglobinopatías ni compara la frecuencia de enzimopatías."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 22; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 10 y 13"
   },
   "2-220": {
     "respuestaCorrecta": "D",
@@ -468,8 +459,7 @@
       "SIDA.": "La pérdida de linfocitos T CD4 causa linfopenia, aunque no es la única causa propuesta."
     },
     "claveMemorizar": "Linfopenia: inmunodeficiencia, SIDA y algunos linfomas.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 13",
-    "advertenciaRevision": "El PDF cita inmunodeficiencia y linfoma de Hodgkin como causas de descenso linfocitario, pero no menciona literalmente SIDA en esa tabla."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 22; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 13"
   },
   "2-221": {
     "respuestaCorrecta": "B",

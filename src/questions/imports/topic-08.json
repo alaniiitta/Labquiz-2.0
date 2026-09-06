@@ -58,7 +58,7 @@
     },
     {
       "id": 5,
-      "question": "La globulina es una:",
+      "question": "La globina es una:",
       "options": {
         "A": "Cromoproteína.",
         "B": "Holoproteína.",
@@ -209,8 +209,8 @@
         "D": "Esferocitosis hereditaria."
       },
       "page": 2,
-      "correctAnswer": "C",
-      "correctText": "Ferropénica."
+      "correctAnswer": "D",
+      "correctText": "Esferocitosis hereditaria."
     },
     {
       "id": 17,
@@ -335,7 +335,7 @@
       "options": {
         "A": "Neubauer.",
         "B": "Hayen.",
-        "C": "Thomas.",
+        "C": "Thoma.",
         "D": "Bürker."
       },
       "page": 3,
@@ -682,16 +682,16 @@
     },
     {
       "id": 53,
-      "question": "Los valores normales de la VSG en la 1ª hora en los hombres oscila entre:",
+      "question": "En el método manual de Westergren para determinar la VSG, ¿entre qué valores está calibrada la pipeta?",
       "options": {
-        "A": "5-10 mm.",
-        "B": "12-20 mm.",
+        "A": "0-200 mm.",
+        "B": "0-100 mm.",
         "C": "2-6 mm.",
-        "D": "3-8 mm."
+        "D": "0-20 mm."
       },
       "page": 5,
-      "correctAnswer": "C",
-      "correctText": "2-6 mm."
+      "correctAnswer": "A",
+      "correctText": "0-200 mm."
     },
     {
       "id": 54,
@@ -737,13 +737,13 @@
       "question": "Los resultados de la VSG se expresan en:",
       "options": {
         "A": "I/h",
-        "B": "Indice de Katz.",
+        "B": "mm/h",
         "C": "Indice de Azta.",
         "D": "mm/sg"
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "Indice de Katz."
+      "correctText": "mm/h"
     },
     {
       "id": 58,
@@ -895,11 +895,11 @@
         "A": "Pelagra.",
         "B": "Escorbuto.",
         "C": "Raquitismo.",
-        "D": "Anemia perniciosa."
+        "D": "Anemia megaloblástica."
       },
       "page": 7,
       "correctAnswer": "D",
-      "correctText": "Anemia perniciosa."
+      "correctText": "Anemia megaloblástica."
     },
     {
       "id": 70,
@@ -1191,14 +1191,14 @@
       "id": 92,
       "question": "La OMS define la anemia como la disminución de los valores de hemoglobina por debajo de ciertos valores que se sitúan en",
       "options": {
-        "A": "15 mg/dl en hombres y 12 mg/dl en mujeres",
-        "B": "18 mg/dl en hombres y 15 mg/dl en mujeres",
-        "C": "13 mg/dl en hombres y 12 mg/dl en mujeres",
-        "D": "15 mg/dl en hombres y 15 mg/dl en mujeres"
+        "A": "15 g/dL en hombres y 12 g/dL en mujeres",
+        "B": "18 g/dL en hombres y 15 g/dL en mujeres",
+        "C": "13 g/dL en hombres y 12 g/dL en mujeres",
+        "D": "15 g/dL en hombres y 15 g/dL en mujeres"
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "13 mg/dl en hombres y 12 mg/dl en mujeres"
+      "correctText": "13 g/dL en hombres y 12 g/dL en mujeres"
     },
     {
       "id": 93,
@@ -1763,14 +1763,14 @@
       "id": 136,
       "question": "¿En qué momento del desarrollo de los eritrocitos comienza la producción de hemoglobina?",
       "options": {
-        "A": "Eritroblasto policromatófilo",
+        "A": "Eritroblasto basófilo",
         "B": "Reticulocito",
         "C": "Eritrocito",
         "D": "Eritrocito eritroide"
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "Eritroblasto policromatófilo"
+      "correctText": "Eritroblasto basófilo"
     },
     {
       "id": 137,
@@ -1958,14 +1958,14 @@
       "id": 151,
       "question": "¿Cuál de estas afirmaciones es correcta?:",
       "options": {
-        "A": "La anemia es más frecuente en mujeres que en varones en una proporción 4:1.",
+        "A": "La anemia es más frecuente en mujeres que en varones.",
         "B": "El aumento del gasto cardíaco no es un mecanismo compensador en la disminución de la hemoglobina.",
         "C": "El aumento de hemoglobina da lugar a una hipoxia hística.",
         "D": "La anemia es uno de los síndromes menos habituales de toda la patología humana."
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "La anemia es más frecuente en mujeres que en varones en una proporción 4:1."
+      "correctText": "La anemia es más frecuente en mujeres que en varones."
     },
     {
       "id": 152,
@@ -2606,16 +2606,16 @@
     },
     {
       "id": 201,
-      "question": "Según la clasificación morfológica de las anemias, podemos encontrarnos:",
+      "question": "Según la clasificación morfológica de las anemias por el VCM, podemos encontrarnos:",
       "options": {
-        "A": "Normocrómicas.",
+        "A": "Normocíticas.",
         "B": "Arregenerativas.",
         "C": "Regenerativas.",
         "D": "Ninguna es correcta."
       },
       "page": 19,
-      "correctAnswer": "D",
-      "correctText": "Ninguna es correcta."
+      "correctAnswer": "A",
+      "correctText": "Normocíticas."
     },
     {
       "id": 202,
@@ -2658,7 +2658,7 @@
     },
     {
       "id": 205,
-      "question": "¿Cómo realizamos un diagnóstico diferencial entre la anemia ferropénica y la talasemia?",
+      "question": "¿Qué parámetro del hemograma ayuda a diferenciar la anemia ferropénica de la talasemia?",
       "options": {
         "A": "Recuento eritrocitario.",
         "B": "VCM.",
@@ -2931,7 +2931,7 @@
     },
     {
       "id": 226,
-      "question": "¿En cuál de las siguientes enfermedades aparece el codocito o célula Diana?",
+      "question": "¿Con cuál de las siguientes enfermedades se asocia de forma característica el codocito o célula diana?",
       "options": {
         "A": "Talasemias.",
         "B": "Hidrocitosis.",
@@ -3043,8 +3043,8 @@
         "D": "Ninguna es correcta."
       },
       "page": 22,
-      "correctAnswer": "D",
-      "correctText": "Ninguna es correcta."
+      "correctAnswer": "C",
+      "correctText": "Alteración en la forma."
     },
     {
       "id": 235,
@@ -3247,7 +3247,7 @@
       "options": {
         "A": "Enfermedad pulmonar hipoxémica",
         "B": "Cardiopatías congénitas cianosantes",
-        "C": "Síndrome de Gaisböck",
+        "C": "Residencia a gran altitud",
         "D": "Todas las anteriores son correctas"
       },
       "page": 24,
@@ -3386,7 +3386,7 @@
     },
     {
       "id": 261,
-      "question": "¿Cuál de las siguientes afirmaciones sobre las CFC- LM es falsa?:",
+      "question": "¿Cuál de las siguientes afirmaciones sobre las FC-LM es falsa?:",
       "options": {
         "A": "También se conoce como Células Formadoras de Colonias Linfoides Macrófagas.",
         "B": "De ellas derivan el resto de células sanguíneas.",
@@ -3529,7 +3529,7 @@
     },
     {
       "id": 272,
-      "question": "La hemoglobina es una glicoproteína compleja y componente más importante del hematíe cuya concentración se mide en un autoanalizador hematológico mediante la técnica de:",
+      "question": "La hemoglobina es una hemoproteína conjugada y el componente más importante del hematíe cuya concentración se mide en un autoanalizador hematológico mediante la técnica de:",
       "options": {
         "A": "Espectrofotometría.",
         "B": "Densitometría.",
@@ -4566,11 +4566,11 @@
         "A": "Que el 42% de la sangre es hemoglobina.",
         "B": "Que el 42% de la hemoglobina está en los eritrocitos.",
         "C": "Nuestro paciente tiene anemia.",
-        "D": "Que el 42% del volumen sanguíneo está formado por células."
+        "D": "Que el 42% del volumen sanguíneo está formado por eritrocitos."
       },
       "page": 34,
       "correctAnswer": "D",
-      "correctText": "Que el 42% del volumen sanguíneo está formado por células."
+      "correctText": "Que el 42% del volumen sanguíneo está formado por eritrocitos."
     },
     {
       "id": 353,
@@ -4591,12 +4591,12 @@
       "options": {
         "A": "Poiquilocitos: hematíes ovalados.",
         "B": "Eliptocitos: hematíes en diana.",
-        "C": "Estomatocitos: hematíes con depresión central.",
+        "C": "Estomatocitos: hematíes con palidez central lineal o en forma de boca.",
         "D": "Esquistocitos: hematíes desiguales."
       },
       "page": 34,
       "correctAnswer": "C",
-      "correctText": "Estomatocitos: hematíes con depresión central."
+      "correctText": "Estomatocitos: hematíes con palidez central lineal o en forma de boca."
     },
     {
       "id": 355,
@@ -4669,13 +4669,13 @@
       "options": {
         "A": "Poiquilocitos: hematíes ovalados.",
         "B": "Eliptocitos: en diana.",
-        "C": "Estomatocitos: con depresión central.",
+        "C": "Estomatocitos: con palidez central lineal o en forma de boca.",
         "D": "Esquistocitos: desiguales.",
         "E": "Todas son correctas"
       },
       "page": 35,
       "correctAnswer": "C",
-      "correctText": "Estomatocitos: con depresión central."
+      "correctText": "Estomatocitos: con palidez central lineal o en forma de boca."
     },
     {
       "id": 361,
@@ -5224,13 +5224,13 @@
       "question": "En cuanto al El K3-EDTA como anticoagulante, señale la FALSA:",
       "options": {
         "A": "Puede disminuir el valor del volumen corpuscular medio (VCM) de los hematíes.",
-        "B": "Puede aumentar el valor del volumen corpuscular medio (VCM) de los hematíes.",
+        "B": "A concentración adecuada, puede aumentar inmediatamente el VCM de los hematíes.",
         "C": "Puede causar agregados plaquetarios in vitro.",
-        "D": "Es uno de los anticoagulantes menos solubles."
+        "D": "Es uno de los anticoagulantes más solubles."
       },
       "page": 39,
       "correctAnswer": "B",
-      "correctText": "Puede aumentar el valor del volumen corpuscular medio (VCM) de los hematíes."
+      "correctText": "A concentración adecuada, puede aumentar inmediatamente el VCM de los hematíes."
     },
     {
       "id": 404,

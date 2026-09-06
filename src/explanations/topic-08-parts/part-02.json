@@ -89,15 +89,14 @@
   },
   "1-69": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La anemia perniciosa o de Addison-Biermer es una anemia megaloblástica causada por déficit de vitamina B12 debido a una absorción alterada. El temario vincula su diagnóstico histórico con la prueba de Schilling.",
+    "porQueLaCorrecta": "La vitamina B12 es necesaria para la síntesis normal de ADN. Su deficiencia altera la maduración nuclear de los precursores eritroides y produce una anemia megaloblástica.",
     "motivosPorOpcion": {
       "Pelagra.": "Se asocia al déficit de niacina, vitamina B3.",
       "Escorbuto.": "Se produce por déficit de vitamina C.",
       "Raquitismo.": "Se relaciona con déficit de vitamina D y alteración de la mineralización ósea."
     },
     "claveMemorizar": "B12: anemia megaloblástica; si falla el factor intrínseco, anemia perniciosa.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 56",
-    "advertenciaRevision": "Un déficit de vitamina B12 no equivale siempre a anemia perniciosa: también puede deberse a dieta, malabsorción u otras causas. La opción del banco nombra una etiología concreta."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 56"
   },
   "1-70": {
     "respuestaCorrecta": "A",
@@ -156,15 +155,14 @@
   },
   "1-75": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La anemia perniciosa tiene un mecanismo autoinmune dirigido contra componentes necesarios para absorber vitamina B12. Entre las opciones, los anticuerpos frente a células parietales son los vinculados a esta entidad.",
+    "porQueLaCorrecta": "La anemia perniciosa se debe a gastritis autoinmune con pérdida de células parietales y de factor intrínseco. Entre las opciones, los anticuerpos anti-célula parietal son los únicos vinculados a esta entidad y se usan como apoyo diagnóstico. Son relativamente sensibles pero menos específicos que los anticuerpos anti-factor intrínseco, que no aparecen entre las respuestas.",
     "motivosPorOpcion": {
       "Anti peroxidasa.": "Se asocian a enfermedad tiroidea autoinmune y no investigan directamente la pérdida de factor intrínseco gástrico.",
       "Antinucleares.": "Son marcadores de enfermedades autoinmunes sistémicas y carecen de especificidad para anemia perniciosa.",
       "Anti receptor TSH.": "Se utilizan en el contexto de enfermedad de Graves y otras alteraciones tiroideas autoinmunes."
     },
-    "claveMemorizar": "Perniciosa: autoinmunidad gástrica contra células parietales o factor intrínseco.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 56",
-    "advertenciaRevision": "El PDF relaciona anemia perniciosa, B12 y prueba de Schilling, pero no compara anticuerpos. En la práctica, los anticuerpos anti-factor intrínseco son menos sensibles pero más específicos que los anti-célula parietal."
+    "claveMemorizar": "Perniciosa: anti-factor intrínseco más específico; anti-célula parietal más sensible y menos específico.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 56; NICE guideline NG239, Vitamin B12 deficiency in over 16s: diagnosis and management, 2024"
   },
   "1-76": {
     "respuestaCorrecta": "C",
@@ -289,15 +287,14 @@
   },
   "1-87": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El banco fija 24 horas como plazo para realizar el recuento de hematíes en sangre con EDTA-K3 conservada a 4 °C. La refrigeración retrasa el deterioro, pero no evita cambios celulares progresivos.",
+    "porQueLaCorrecta": "Para las condiciones concretas del ítem, 24 horas es el límite conservador indicado para el recuento de hematíes en sangre con EDTA-K3 a 4 °C. La estabilidad depende del analizador y del parámetro; aunque la refrigeración preserva el recuento, índices y morfología pueden cambiar con el almacenamiento.",
     "motivosPorOpcion": {
       "2 horas": "Es un plazo más restrictivo que el indicado para esta combinación concreta de EDTA-K3 y conservación refrigerada.",
       "5 horas": "La muestra refrigerada mantiene el recuento durante más tiempo que cinco horas según la clave propuesta.",
       "48 horas": "Prolongar la conservación hasta 48 horas aumenta el riesgo de alteraciones morfológicas y de índices hematológicos."
     },
-    "claveMemorizar": "Hemograma: analizar pronto; en esta pregunta, EDTA-K3 a 4 °C hasta 24 h.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
-    "advertenciaRevision": "La página citada identifica el EDTA-K3 y las condiciones preanalíticas generales, pero no muestra en el texto extraído el límite específico de 24 horas. El plazo depende además del parámetro y del protocolo del laboratorio."
+    "claveMemorizar": "Analizar pronto; para este protocolo, EDTA-K3 refrigerado hasta 24 h y siempre según estabilidad local validada.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4; Imeri F et al. Stability of hematological analytes depends on the hematology analyser used: a stability study with Bayer Advia 120, Beckman Coulter LH 750 and Sysmex XE-2100. Clinica Chimica Acta. 2008;397(1-2):68-71. doi:10.1016/j.cca.2008.07.018"
   },
   "1-88": {
     "respuestaCorrecta": "D",
@@ -347,13 +344,12 @@
     "respuestaCorrecta": "C",
     "porQueLaCorrecta": "El temario recoge como umbrales de anemia de la OMS una hemoglobina inferior a 13 en hombres y a 12 en mujeres. La cifra debe expresarse como concentración de hemoglobina.",
     "motivosPorOpcion": {
-      "15 mg/dl en hombres y 12 mg/dl en mujeres": "El umbral masculino propuesto es superior al valor de 13 recogido en el temario.",
-      "18 mg/dl en hombres y 15 mg/dl en mujeres": "Ambas cifras son demasiado altas para los límites diagnósticos mostrados.",
-      "15 mg/dl en hombres y 15 mg/dl en mujeres": "No coincide con los umbrales diferenciados de 13 para hombres y 12 para mujeres."
+      "15 g/dL en hombres y 12 g/dL en mujeres": "El umbral masculino propuesto es superior al valor de 13 recogido en el temario.",
+      "18 g/dL en hombres y 15 g/dL en mujeres": "Ambas cifras son demasiado altas para los límites diagnósticos mostrados.",
+      "15 g/dL en hombres y 15 g/dL en mujeres": "No coincide con los umbrales diferenciados de 13 para hombres y 12 para mujeres."
     },
     "claveMemorizar": "OMS en adultos: Hb <13 g/dL hombre y <12 g/dL mujer.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44",
-    "advertenciaRevision": "El enunciado y las opciones usan mg/dL, pero los umbrales de hemoglobina deben expresarse en g/dL. Además, los criterios pueden variar con embarazo, edad y contexto clínico."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 44"
   },
   "1-93": {
     "respuestaCorrecta": "A",
@@ -467,15 +463,14 @@
   },
   "1-103": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Los capilares para microhematocrito se distinguen por el código de color del extremo. La franja roja identifica los capilares heparinizados, destinados a sangre capilar no anticoagulada.",
+    "porQueLaCorrecta": "Los capilares para microhematocrito se distinguen por el código de color del extremo. La franja roja identifica los capilares heparinizados, destinados a sangre capilar no anticoagulada; el propio esquema del temario rotula «Rojo: heparina».",
     "motivosPorOpcion": {
       "Heparina en su interior.": "La heparina no se reconoce visualmente como contenido libre; se identifica mediante el código del capilar.",
       "Franjas azules en su extremo superior.": "El color azul identifica habitualmente capilares sin heparina para muestras ya anticoaguladas.",
       "Un centímetro amarillo en su punta.": "Ese no es el código convencional indicado para reconocer capilares heparinizados."
     },
     "claveMemorizar": "Microhematocrito: rojo heparinizado; azul sin heparina.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 26",
-    "advertenciaRevision": "La página citada explica el microhematocrito, pero el texto extraído no conserva el detalle visual del código de color; conviene contrastar la figura original y las especificaciones del fabricante."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-25"
   },
   "1-104": {
     "respuestaCorrecta": "D",
@@ -567,15 +562,14 @@
   },
   "1-112": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El recuento automatizado de reticulocitos identifica su ARN residual mediante colorantes fluorescentes y analiza la señal por citometría de flujo. Esto permite separarlos de los hematíes maduros y estimar su grado de madurez.",
+    "porQueLaCorrecta": "El procedimiento descrito en el temario identifica el ARN residual del reticulocito mediante fluorescencia óptica y analiza cada célula por citometría de flujo. Algunos analizadores combinan fluorescencia con dispersión o impedancia, pero estas señales físicas aisladas no identifican con la misma especificidad el ARN reticulocitario; por eso la opción C es la mejor respuesta en el marco del tema.",
     "motivosPorOpcion": {
       "Método de la impedancia.": "La impedancia sin un marcador adicional mide tamaño y número celular, pero no distingue de manera específica el ARN del reticulocito.",
       "Método de la dispersión lumínica.": "La dispersión aislada aporta información física, pero la identificación específica suele requerir tinción del ARN y análisis citométrico.",
       "Todas son correctas.": "El banco reserva la respuesta a la citometría de flujo; impedancia y dispersión por sí solas no ofrecen la especificidad del marcaje del ARN."
     },
-    "claveMemorizar": "Reticulocitos automatizados: fluorescencia del ARN por citometría de flujo.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13 y 33",
-    "advertenciaRevision": "Algunos analizadores combinan fluorescencia, dispersión e impedancia dentro de plataformas automatizadas. La exclusión absoluta de los otros principios depende de cómo interprete el examen cada método."
+    "claveMemorizar": "En el temario: ARN fluorescente + citometría de flujo; otros equipos pueden combinar señales físicas.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13 y 33"
   },
   "1-113": {
     "respuestaCorrecta": "C",
@@ -623,27 +617,25 @@
   },
   "1-117": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La tinción de Perls demuestra hierro férrico almacenado en médula. En ferropenia los depósitos están ausentes, mientras que en la anemia de procesos crónicos suelen conservarse o aumentar aunque el hierro no esté disponible para la eritropoyesis.",
+    "porQueLaCorrecta": "La tinción de Perls demuestra hierro férrico almacenado en los macrófagos medulares. En la ferropenia los depósitos están ausentes o muy reducidos; en la anemia de procesos crónicos suelen conservarse o aumentar, aunque el hierro quede secuestrado y poco disponible para la eritropoyesis. Esa diferencia permite separar ambos cuadros en un aspirado.",
     "motivosPorOpcion": {
       "Tinción de la mieloperoxidasa.": "Identifica diferenciación mieloide mediante una enzima granular y no valora depósitos de hierro.",
       "Tinción del Negro Sudán.": "Demuestra lípidos de los gránulos mieloides y se usa en clasificación citoquímica, no en metabolismo férrico.",
       "Tinción del azul de toluidina.": "Resalta estructuras metacromáticas, pero no es la técnica específica para hierro medular."
     },
-    "claveMemorizar": "Perls ve hierro: ausente en ferropenia, presente en inflamación.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 35, 51 y 55",
-    "advertenciaRevision": "El PDF documenta la tinción de Perls y los perfiles férricos, pero no formula de manera directa esta comparación en aspirado medular. Actualmente suele priorizarse el perfil sérico y el receptor soluble de transferrina."
+    "claveMemorizar": "Perls medular: depósitos ausentes en ferropenia y conservados/aumentados en inflamación.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 35, 51, 54-55"
   },
   "1-118": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La esferocitosis aumenta la fragilidad del hematíe frente a distintos medios de lisis. La fragilidad osmótica, la lisis en glicerol acidificado y el Pink test exploran esa estabilidad anómala mediante condiciones diferentes.",
+    "porQueLaCorrecta": "La esferocitosis hereditaria reduce la relación superficie/volumen del hematíe y aumenta su susceptibilidad a la lisis. La fragilidad osmótica, la lisis en glicerol acidificado y el Pink test son pruebas históricamente útiles que exploran esa propiedad mediante condiciones diferentes, por lo que las tres opciones son ciertas. En la práctica actual se prefieren pruebas más sensibles, como la unión de eosina-5-maleimida por citometría.",
     "motivosPorOpcion": {
       "Prueba de la fragilidad osmótica eritrocitaria (FOE).": "Es útil porque los esferocitos tienen menor relación superficie/volumen, pero no es la única prueba válida de la lista.",
       "Prueba de la lisis en glicerol acidificado.": "También detecta la lisis acelerada de esferocitos, aunque comparte utilidad con las otras pruebas enumeradas.",
       "Prueba de Pink (Pink-Test).": "Es una modificación de fragilidad osmótica aplicable al estudio, pero no excluye FOE ni lisis en glicerol."
     },
-    "claveMemorizar": "Esferocitosis: FOE, glicerol acidificado y Pink test evalúan fragilidad.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 48",
-    "advertenciaRevision": "El PDF extraído menciona de forma explícita la fragilidad osmótica, pero no desarrolla la prueba de glicerol acidificado ni el Pink test. La respuesta conjunta procede de la clave del banco."
+    "claveMemorizar": "Esferocitosis: FOE, glicerol acidificado y Pink test son útiles; EMA es una prueba actual preferente.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 48; Bolton-Maggs PHB et al. Guidelines for the diagnosis and management of hereditary spherocytosis—2011 update. British Journal of Haematology. 2012;156(1):37-49. doi:10.1111/j.1365-2141.2011.08921.x"
   },
   "1-119": {
     "respuestaCorrecta": "B",
@@ -658,14 +650,13 @@
   },
   "1-120": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La transferrina distribuye hierro mediante receptores celulares y el organismo lo dirige a eritroblastos para hemoglobina, a músculo para mioglobina y a hígado para reserva. Por eso los tres destinos propuestos participan en su utilización o almacenamiento.",
+    "porQueLaCorrecta": "La transferrina distribuye hierro férrico a células que expresan receptores de transferrina. Los eritroblastos lo captan masivamente para sintetizar hemoglobina, el músculo lo utiliza en mioglobina y enzimas, y el hígado lo capta para metabolismo y reserva. Por eso los tres tejidos propuestos son destinos fisiológicos del hierro transportado.",
     "motivosPorOpcion": {
       "A los eritroblastos.": "Es un destino esencial para sintetizar hemoglobina, pero no el único tejido que capta hierro unido a transferrina.",
       "Al músculo.": "El músculo necesita hierro para mioglobina y enzimas, aunque también existe captación en eritroblastos e hígado.",
       "Al hígado.": "El hígado constituye un depósito importante, pero la transferrina también abastece tejidos eritroides y musculares."
     },
-    "claveMemorizar": "Transferrina reparte hierro a eritropoyesis, músculo y depósitos hepáticos.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 52-54",
-    "advertenciaRevision": "El PDF describe transporte por transferrina, uso en hemoglobina y mioglobina y reserva hepática, pero no enumera juntos los tres destinos a través de su receptor."
+    "claveMemorizar": "Transferrina: hierro para eritropoyesis, músculo y metabolismo/reserva hepática.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 52-54; Ganz T, Nemeth E. Iron homeostasis in host defence and inflammation. Nature Reviews Immunology. 2015;15(8):500-510. doi:10.1038/nri3863"
   }
 }

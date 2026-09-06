@@ -400,12 +400,11 @@
     "porQueLaCorrecta": "Un recuento de 3.500 monocitos/mm³ está claramente por encima del intervalo normal y constituye monocitosis absoluta.",
     "motivosPorOpcion": {
       "500 /mm3.": "Se encuentra dentro de intervalos absolutos habituales.",
-      "900 /mm3.": "Es un valor limítrofe o elevado según el intervalo del laboratorio, por lo que no es tan inequívoco como 3.500/mm³.",
+      "700 /mm3.": "Se encuentra dentro del intervalo absoluto habitual de monocitos y no constituye una monocitosis inequívoca.",
       "Ninguna es cierta.": "Sí existe una cifra inequívocamente compatible con monocitosis."
     },
     "claveMemorizar": "Monocitosis absoluta: el recuento supera el límite del laboratorio; 3.500/mm³ es inequívoco.",
-    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 4",
-    "advertenciaRevision": "El valor de 900/mm³ también puede superar el límite normal en algunos laboratorios; el PDF marca A, que es la opción inequívoca."
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 4"
   },
   "2-38": {
     "respuestaCorrecta": "A",
@@ -607,27 +606,25 @@
   },
   "2-56": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Pelger-Hüet es una alteración nuclear del neutrófilo caracterizada por hiposegmentación y cromatina muy condensada.",
+    "porQueLaCorrecta": "La anomalía congénita de Pelger-Hüet altera el núcleo de los neutrófilos y produce una hiposegmentación característica.",
     "motivosPorOpcion": {
-      "Puede aparecer en algunos síndromes mielodisplásicos.": "La forma adquirida o pseudo-Pelger-Hüet sí puede aparecer en mielodisplasia, aunque el PDF no la marca.",
+      "Puede aparecer en algunos síndromes mielodisplásicos.": "En los síndromes mielodisplásicos puede aparecer la forma adquirida pseudo-Pelger-Hüet, distinta de la anomalía congénita preguntada.",
       "Es una alteración del citoplasma de los linfocitos.": "Afecta al núcleo de granulocitos, no al citoplasma linfoide.",
       "Todas las respuestas son falsas.": "La opción B describe correctamente la anomalía."
     },
-    "claveMemorizar": "Pelger-Hüet = núcleo neutrofílico hiposegmentado.",
-    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 5",
-    "advertenciaRevision": "La opción A también es científicamente cierta para la anomalía pseudo-Pelger-Hüet de síndromes mielodisplásicos; el PDF marca B."
+    "claveMemorizar": "Pelger-Hüet congénita = núcleo neutrofílico hiposegmentado; pseudo-Pelger-Hüet = forma adquirida.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 21 y 34; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 5"
   },
   "2-57": {
-    "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Según el banco, el mieloma es una gammapatía monoclonal frecuente y puede producir un cuadro leucoeritroblástico con eritroblastos en sangre; por ello combina A y C.",
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el mieloma múltiple pueden observarse ocasionalmente eritroblastos en el frotis de sangre periférica como expresión de la alteración medular.",
     "motivosPorOpcion": {
-      "Es la gammapatía monoclonal más frecuente.": "El PDF la considera cierta en la combinación, pero aisladamente es discutible porque la GMSI es más prevalente.",
+      "Es la gammapatía monoclonal más frecuente.": "La GMSI es más frecuente que el mieloma múltiple entre las gammapatías monoclonales.",
       "Las plaquetas están aumentadas.": "La infiltración medular suele causar trombopenia, no trombocitosis.",
-      "En el frotis pueden observarse eritroblastos.": "Puede ocurrir por infiltración medular, pero el banco exige además la afirmación A."
+      "Las respuestas a y c son correctas.": "Aunque C es cierta, A es falsa; por ello no son correctas ambas respuestas."
     },
-    "claveMemorizar": "Mieloma: clon plasmático, paraproteína e infiltración medular.",
-    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 6",
-    "advertenciaRevision": "La afirmación A depende de qué se incluya como gammapatía: la GMSI es más frecuente que el mieloma múltiple; se conserva D porque es la respuesta marcada en el PDF."
+    "claveMemorizar": "Mieloma múltiple: la infiltración medular puede acompañarse de eritroblastos circulantes y trombopenia.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 6"
   },
   "2-58": {
     "respuestaCorrecta": "A",

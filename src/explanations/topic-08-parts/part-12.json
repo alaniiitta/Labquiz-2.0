@@ -560,27 +560,25 @@
   },
   "2-288": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La clave del PDF diferencia ambas anomalías por el patrón de gránulos agrandados: en May-Hegglin las inclusiones tipo Döhle son escasas, mientras Chédiak-Higashi presenta gránulos lisosomales gigantes y numerosos en leucocitos.",
+    "porQueLaCorrecta": "El síndrome de Chédiak-Higashi se caracteriza por gránulos lisosómicos gigantes en los leucocitos. La anomalía de May-Hegglin presenta inclusiones tipo Döhle en neutrófilos, macroplaquetas y trombocitopenia.",
     "motivosPorOpcion": {
       "Células polimorfonucleares hipersegmentadas.": "La hipersegmentación se relaciona sobre todo con alteraciones megaloblásticas y no separa estos dos trastornos granulares.",
       "Linfocitos y gránulos azurófilos.": "La mera presencia de linfocitos o gránulos azurófilos no define la diferencia morfológica solicitada.",
       "Tinción citoquímica.": "La distinción planteada se apoya en el número y aspecto de inclusiones o gránulos, no en nombrar genéricamente una técnica."
     },
-    "claveMemorizar": "Chédiak-Higashi: gránulos gigantes; May-Hegglin: inclusiones escasas tipo Döhle.",
-    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, pp. 29-30",
-    "advertenciaRevision": "La opción marcada por el PDF, «Disminución del número de gránulos agrandados», tiene una redacción ambigua y no especifica con claridad a cuál de las dos alteraciones atribuye el hallazgo."
+    "claveMemorizar": "Chédiak-Higashi: gránulos lisosómicos gigantes; May-Hegglin: cuerpos de Döhle, macroplaquetas y trombocitopenia.",
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, pp. 29-30; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 34"
   },
   "2-289": {
-    "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El PDF marca como respuesta oficial 8 eritrocitos, por lo que se conserva la clave B del banco; sin embargo, el comentario de la propia fuente calcula cuatro divisiones mitóticas y obtiene 16.",
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Cada división mitótica duplica el número de células; tras cuatro divisiones sucesivas de un proeritroblasto se obtienen 2⁴ = 16 eritrocitos.",
     "motivosPorOpcion": {
-      "4.": "Equivaldría a dos duplicaciones celulares y queda por debajo tanto de la clave marcada como del cálculo explicado en el PDF.",
-      "16.": "Es el resultado de 2⁴ y coincide con el comentario razonado del PDF, pero no con la opción B que la fuente resalta como respuesta oficial.",
+      "4.": "Corresponde a 2², es decir, solo dos divisiones mitóticas.",
+      "8.": "Corresponde a 2³, es decir, solo tres divisiones mitóticas.",
       "32.": "Requeriría cinco duplicaciones completas y no coincide ni con la clave ni con el cálculo de cuatro pasos incluido en la fuente."
     },
-    "claveMemorizar": "Clave oficial del banco: 8; cálculo anotado en el PDF: 2⁴ = 16.",
-    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 30",
-    "advertenciaRevision": "El propio PDF declara la pregunta «IMPUGNABLE»: marca B (8), pero su comentario afirma que hay cuatro divisiones y calcula 2⁴ = 16, correspondiente a la opción C. Debe revisarse la clave antes de usarla con finalidad evaluativa."
+    "claveMemorizar": "Cuatro divisiones mitóticas: 2⁴ = 16 células descendientes.",
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 30"
   },
   "2-290": {
     "respuestaCorrecta": "B",
@@ -595,15 +593,14 @@
   },
   "2-291": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En el planteamiento del test, las infecciones víricas producen con frecuencia linfocitosis o linfocitos reactivos, por lo que no se consideran una causa típica de linfopenia.",
+    "porQueLaCorrecta": "La mononucleosis infecciosa por el virus de Epstein-Barr se asocia clásicamente con linfocitosis y presencia de linfocitos reactivos o atípicos en sangre periférica.",
     "motivosPorOpcion": {
-      "SIDA.": "La infección por VIH destruye progresivamente linfocitos T CD4 y puede causar linfopenia marcada.",
-      "Linfoma.": "La alteración de la inmunidad y la afectación medular o terapéutica pueden reducir los linfocitos circulantes.",
-      "Tratamiento con inmunosupresores.": "Estos fármacos inhiben proliferación o supervivencia linfocitaria y pueden disminuir su recuento."
+      "SIDA.": "La infección avanzada por VIH se asocia a pérdida de linfocitos T CD4, no al cuadro clásico de linfocitosis reactiva preguntado.",
+      "Linfoma.": "Es una neoplasia linfoide y no la asociación infecciosa clásica con linfocitos reactivos en sangre periférica.",
+      "Tratamiento con inmunosupresores.": "Estos fármacos inhiben la proliferación o supervivencia linfocitaria y pueden causar linfopenia."
     },
-    "claveMemorizar": "Test: viriasis → linfocitosis reactiva; VIH e inmunosupresión → linfopenia.",
-    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 30",
-    "advertenciaRevision": "La afirmación es demasiado general: algunas infecciones víricas agudas, incluido COVID-19, pueden causar linfopenia. La clave C refleja la asociación didáctica habitual del PDF, no una regla clínica universal."
+    "claveMemorizar": "Mononucleosis por VEB = linfocitosis reactiva con linfocitos atípicos.",
+    "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 30; Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 10 y 13"
   },
   "2-292": {
     "respuestaCorrecta": "A",

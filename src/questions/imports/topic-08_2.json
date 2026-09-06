@@ -478,7 +478,7 @@
       "options": {
         "A": "3500 /mm3.",
         "B": "500 /mm3.",
-        "C": "900 /mm3.",
+        "C": "700 /mm3.",
         "D": "Ninguna es cierta."
       },
       "page": 4,
@@ -721,7 +721,7 @@
     },
     {
       "id": 56,
-      "question": "Con respecto a la anomalía de Pelger-Hüet señala la respuesta correcta:",
+      "question": "Con respecto a la anomalía congénita de Pelger-Hüet señala la respuesta correcta:",
       "options": {
         "A": "Puede aparecer en algunos síndromes mielodisplásicos.",
         "B": "Es una alteración del núcleo de los neutrófilos.",
@@ -742,8 +742,8 @@
         "D": "Las respuestas a y c son correctas."
       },
       "page": 6,
-      "correctAnswer": "D",
-      "correctText": "Las respuestas a y c son correctas."
+      "correctAnswer": "C",
+      "correctText": "En el frotis pueden observarse eritroblastos."
     },
     {
       "id": 58,
@@ -1167,7 +1167,7 @@
       "options": {
         "A": "Es una enfermedad autoinmune.",
         "B": "Es un trastorno hemorrágico.",
-        "C": "Cursa con trombopenia y aumento moderado de linfocitos.",
+        "C": "Cursa con trombopenia y TP/TTPa normales.",
         "D": "Todas correctas."
       },
       "page": 9,
@@ -1735,16 +1735,16 @@
     },
     {
       "id": 134,
-      "question": "¿Cuál de las siguientes no es una trombocitopatía adquirida?",
+      "question": "¿Cuál de las siguientes es una trombocitopatía congénita?",
       "options": {
         "A": "Anemia aplásica.",
-        "B": "Defectos de agregación plaquetaria.",
+        "B": "Trombastenia de Glanzmann.",
         "C": "CID.",
         "D": "Leucemia aguda."
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Defectos de agregación plaquetaria."
+      "correctText": "Trombastenia de Glanzmann."
     },
     {
       "id": 135,
@@ -3720,20 +3720,20 @@
     },
     {
       "id": 288,
-      "question": "La alteración de May-Hegglin y el síndrome de Chédiak-Higashi pueden diferenciarse por la presencia de:",
+      "question": "¿Qué hallazgo morfológico es característico del síndrome de Chédiak-Higashi y permite distinguirlo de la anomalía de May-Hegglin?",
       "options": {
         "A": "Células polimorfonucleares hipersegmentadas.",
         "B": "Linfocitos y gránulos azurófilos.",
-        "C": "Disminución del número de gránulos agrandados.",
+        "C": "Gránulos lisosómicos gigantes en los leucocitos.",
         "D": "Tinción citoquímica."
       },
       "page": 29,
       "correctAnswer": "C",
-      "correctText": "Disminución del número de gránulos agrandados."
+      "correctText": "Gránulos lisosómicos gigantes en los leucocitos."
     },
     {
       "id": 289,
-      "question": "En condiciones normales, la cantidad de eritrocitos maduros producidos por una célula troncal multipotencial estimulada para producir normoblastos es de:",
+      "question": "¿Cuántos eritrocitos se obtienen tras cuatro divisiones mitóticas sucesivas de un proeritroblasto?",
       "options": {
         "A": "4.",
         "B": "8.",
@@ -3741,8 +3741,8 @@
         "D": "32."
       },
       "page": 30,
-      "correctAnswer": "B",
-      "correctText": "8."
+      "correctAnswer": "C",
+      "correctText": "16."
     },
     {
       "id": 290,
@@ -3759,16 +3759,16 @@
     },
     {
       "id": 291,
-      "question": "¿Cuál de las siguientes no puede ser causa de linfopenia?:",
+      "question": "¿Cuál de las siguientes se asocia clásicamente con linfocitosis reactiva?",
       "options": {
         "A": "SIDA.",
         "B": "Linfoma.",
-        "C": "Infección vírica.",
+        "C": "Mononucleosis infecciosa por VEB.",
         "D": "Tratamiento con inmunosupresores."
       },
       "page": 30,
       "correctAnswer": "C",
-      "correctText": "Infección vírica."
+      "correctText": "Mononucleosis infecciosa por VEB."
     },
     {
       "id": 292,

@@ -52,20 +52,18 @@
       "Nucleoproteína.": "Las nucleoproteínas están asociadas a ácidos nucleicos, mientras que la globina consta de cadenas polipeptídicas."
     },
     "claveMemorizar": "Globina sola = holoproteína; hemoglobina completa = heteroproteína con hemo.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 38",
-    "advertenciaRevision": "El banco escribe «globulina», pero el PDF respalda esta clasificación para la «globina» de la hemoglobina; conviene corregir el enunciado."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 38"
   },
   "1-6": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Antes de cualquier análisis debe verificarse que la muestra corresponde al paciente y está correctamente identificada. Este control preanalítico evita atribuir resultados a una persona equivocada.",
+    "porQueLaCorrecta": "Antes de aceptar y procesar una muestra debe verificarse que sus identificadores coinciden con los del paciente y la solicitud. Es un requisito básico de trazabilidad preanalítica: una identificación incorrecta puede atribuir un resultado a otra persona y obliga a rechazar o resolver la no conformidad antes del análisis.",
     "motivosPorOpcion": {
       "Procesarla sin identificación.": "Una muestra anónima rompe la trazabilidad y no debe generar un resultado clínico válido.",
       "Procesar sin observación microscópica de la muestra.": "La necesidad de frotis depende del caso y de las alertas del analizador; no sustituye la identificación inicial.",
       "Centrifugarla.": "El hemograma se realiza en sangre total anticoagulada y la centrifugación no es el primer paso general de su procesamiento."
     },
-    "claveMemorizar": "Primero, identidad y trazabilidad de la muestra.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
-    "advertenciaRevision": "El PDF describe la preanalítica y el anticoagulante, pero la extracción no contiene una instrucción textual sobre comprobar primero la identificación."
+    "claveMemorizar": "Antes de procesar: identidad concordante y trazabilidad de la muestra.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4; ISO 15189:2022, Medical laboratories — Requirements for quality and competence, apartado 7.2 (procesos preanalíticos)"
   },
   "1-7": {
     "respuestaCorrecta": "C",
@@ -157,27 +155,25 @@
   },
   "1-15": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El temario fija para adultos un intervalo absoluto de reticulocitos de 35-75 × 10^9/L en el procedimiento manual descrito.",
+    "porQueLaCorrecta": "En el procedimiento manual con azul de cresil, el temario fija para adultos un intervalo absoluto de 35-75 × 10^9/L, que coincide con la opción C. Otra sección del mismo tema ofrece 40-100 × 10^9/L para el recuento general; los intervalos de referencia dependen del método y del laboratorio, por lo que aquí debe aplicarse el asociado al procedimiento preguntado.",
     "motivosPorOpcion": {
       "1-5.": "Ese intervalo es demasiado bajo para un recuento absoluto expresado en 10^9/L y puede confundirse con porcentajes.",
       "2-50": "Incluye un límite inferior incompatible con el intervalo absoluto indicado y mezcla valores subnormales.",
       "70-100": "Desplaza el intervalo hacia cifras altas y excluiría gran parte del rango adulto citado."
     },
-    "claveMemorizar": "Reticulocitos absolutos del material: 35-75 × 10^9/L.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 18",
-    "advertenciaRevision": "El mismo PDF ofrece en la p. 33 otro intervalo de 40-100 × 10^9/L; el valor depende del método y laboratorio, por lo que existe una discrepancia interna."
+    "claveMemorizar": "En el procedimiento manual del temario: 35-75 × 10^9/L; cada método debe usar su propio intervalo validado.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 18 y 33"
   },
   "1-16": {
-    "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El punteado basófilo representa agregados ribosómicos y se asocia a eritropoyesis alterada o acelerada, de forma clásica a intoxicación por plomo. La ferropenia no figura entre las asociaciones destacadas en el temario.",
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La esferocitosis hereditaria es un defecto de proteínas de membrana caracterizado por esferocitos y no se asocia típicamente con punteado basófilo. Este último corresponde a agregados ribosómicos y puede observarse en trastornos con eritropoyesis alterada.",
     "motivosPorOpcion": {
       "Hepatopatía.": "Las hepatopatías pueden acompañarse de alteraciones eritrocitarias y no quedan excluidas por el patrón morfológico planteado.",
       "Beta Talasemia.": "La síntesis globínica ineficaz de la beta talasemia puede conservar agregados de ARN y producir punteado basófilo.",
-      "Esferocitosis hereditaria.": "Su lesión principal es de membrana y produce esferocitos; aun así, el banco no la selecciona como la excepción solicitada."
+      "Ferropénica.": "Aunque no es su hallazgo más característico, el punteado basófilo puede aparecer en anemias con eritropoyesis alterada, incluida la ferropenia."
     },
     "claveMemorizar": "Punteado basófilo: agregados ribosómicos, plomo y eritropoyesis alterada.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 34",
-    "advertenciaRevision": "El PDF no compara expresamente estas cuatro enfermedades y la esferocitosis hereditaria tampoco es una asociación típica de punteado basófilo; el ítem puede admitir objeciones."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 34"
   },
   "1-17": {
     "respuestaCorrecta": "C",
@@ -283,12 +279,11 @@
     "porQueLaCorrecta": "Hayen es un líquido diluyente empleado para contar hematíes, no una cámara de recuento. Neubauer, Thoma y Bürker sí son cámaras.",
     "motivosPorOpcion": {
       "Neubauer.": "Es una cámara reticulada de uso habitual para recuentos celulares manuales.",
-      "Thomas.": "El banco denomina «Thomas» a la cámara Thoma que aparece en el temario; es un dispositivo de recuento.",
+      "Thoma.": "Es una cámara de recuento celular incluida entre las cámaras descritas en el temario.",
       "Bürker.": "Es otra cámara de recuento celular por volumen definido."
     },
     "claveMemorizar": "Cámaras: Neubauer, Thoma y Bürker; Hayen es diluyente.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 14",
-    "advertenciaRevision": "El distractor dice «Thomas», mientras que el PDF emplea la denominación correcta «Thoma»."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 14"
   },
   "1-27": {
     "respuestaCorrecta": "D",
@@ -545,27 +540,25 @@
   },
   "1-50": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "«Hemoglobina saturada» describe el estado de unión al oxígeno, cuyo nombre específico es oxihemoglobina, pero no una variante estructural como HbA2, HbF o HbC.",
+    "porQueLaCorrecta": "«Hemoglobina saturada» describe que los sitios de unión al oxígeno están ocupados; no es el nombre de un tipo molecular de hemoglobina. La especie oxigenada se denomina oxihemoglobina. En cambio, HbA2 y HbF son fracciones definidas por sus cadenas globínicas, y HbC es una variante estructural.",
     "motivosPorOpcion": {
       "Hemoglobina A2": "Es una hemoglobina adulta minoritaria formada por dos cadenas alfa y dos delta.",
       "Hemoglobina Fetal": "La HbF es la hemoglobina predominante en el feto y contiene dos cadenas alfa y dos gamma.",
       "Hemoglobina C": "La HbC es una hemoglobinopatía estructural producida por una sustitución aminoacídica en la cadena beta."
     },
-    "claveMemorizar": "Saturada de O2 = estado oxihemoglobina; A2, F y C son tipos definidos.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 39, 42 y 59",
-    "advertenciaRevision": "La pregunta usa «tipo» de forma ambigua: el PDF sí clasifica nombres según el estado de unión, pero «hemoglobina saturada» no es la denominación formal, sino oxihemoglobina."
+    "claveMemorizar": "Saturación es un estado de unión al O2; A2, F y C designan hemoglobinas definidas.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38, 40, 42 y 59"
   },
   "1-51": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La mayor fracción del hierro corporal está incorporada a la hemoglobina de los eritrocitos, donde forma parte del grupo hemo y permite transportar oxígeno.",
+    "porQueLaCorrecta": "La mayor fracción del hierro corporal, aproximadamente dos tercios, está incorporada a la hemoglobina de los eritrocitos. Allí forma parte del grupo hemo y participa en el transporte de oxígeno; ferritina y hemosiderina constituyen las reservas, y la transferrina transporta una fracción mucho menor en plasma.",
     "motivosPorOpcion": {
       "Mioglobina.": "Contiene hierro para almacenar oxígeno muscular, pero representa una fracción menor del hierro total.",
       "Ferritina.": "Es la principal proteína de reserva soluble, aunque sus depósitos contienen menos hierro que la masa hemoglobínica circulante.",
       "Transferrina.": "Transporta hierro en plasma y normalmente solo una parte de sus sitios está ocupada; su fracción corporal es pequeña."
     },
-    "claveMemorizar": "Mayor depósito funcional de hierro: hemoglobina.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38 y 52-54",
-    "advertenciaRevision": "El PDF describe las funciones y reservas del hierro, pero no formula textualmente la comparación cuantitativa de todos los compartimentos."
+    "claveMemorizar": "La hemoglobina contiene cerca de dos tercios del hierro corporal.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38 y 52-54; Ganz T, Nemeth E. Iron homeostasis in host defence and inflammation. Nature Reviews Immunology. 2015;15(8):500-510. doi:10.1038/nri3863"
   },
   "1-52": {
     "respuestaCorrecta": "A",
@@ -579,16 +572,15 @@
     "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51-55"
   },
   "1-53": {
-    "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El banco establece 2-6 mm en la primera hora como intervalo masculino normal de VSG para el método considerado.",
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El método manual de Westergren utiliza una pipeta recta graduada desde 0 hasta 200 mm. Esa escala permite medir la distancia de sedimentación de los eritrocitos, cuyo resultado se informa en mm/h.",
     "motivosPorOpcion": {
-      "5-10 mm.": "Desplaza el intervalo hacia valores superiores a los seleccionados para hombres en el banco.",
-      "12-20 mm.": "Corresponde a cifras más altas y no al intervalo masculino de referencia planteado.",
-      "3-8 mm.": "Se solapa parcialmente, pero modifica ambos límites respecto a la respuesta fijada."
+      "0-100 mm.": "No abarca la escala completa de 200 mm de la pipeta de Westergren descrita en el temario.",
+      "2-6 mm.": "Es un intervalo estrecho que no corresponde al rango de calibración del instrumento.",
+      "0-20 mm.": "Puede recordar a valores de referencia clínicos, pero no representa la escala de la pipeta."
     },
-    "claveMemorizar": "En este banco: VSG masculina, 2-6 mm en la primera hora.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 7-9",
-    "advertenciaRevision": "El PDF explica métodos y lectura de VSG, pero la extracción no muestra el intervalo masculino 2-6 mm; además, los valores de referencia dependen del método y la edad."
+    "claveMemorizar": "Westergren: pipeta graduada de 0 a 200 mm; resultado de VSG en mm/h.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 7-9"
   },
   "1-54": {
     "respuestaCorrecta": "A",
@@ -625,15 +617,14 @@
   },
   "1-57": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El índice de Katz es un cálculo histórico derivado de lecturas de eritrosedimentación y es la respuesta marcada por el banco. No obstante, no es la unidad directa con la que el PDF expresa la VSG.",
+    "porQueLaCorrecta": "La VSG mide la distancia en milímetros que desciende la columna de eritrocitos durante una hora, por lo que se expresa directamente en milímetros por hora (mm/h).",
     "motivosPorOpcion": {
       "I/h": "No es una notación reconocible como unidad de longitud por tiempo para informar la sedimentación.",
       "Indice de Azta.": "No corresponde a una denominación estandarizada de cálculo o unidad de VSG.",
       "mm/sg": "La longitud es correcta, pero el denominador debería ser una hora, no segundos."
     },
     "claveMemorizar": "La VSG directa se informa en mm/h; Katz es un índice histórico calculado.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 9",
-    "advertenciaRevision": "Contradicción: el PDF indica expresamente resultados en mm/hora, opción que no aparece correctamente en el ítem. «Índice de Katz» no es la unidad de expresión directa de la VSG y la respuesta del banco debe revisarse."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 9"
   },
   "1-58": {
     "respuestaCorrecta": "A",
@@ -659,14 +650,13 @@
   },
   "1-60": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El banco fija un máximo de 24 horas para efectuar el recuento cuando la sangre con EDTA K3 se conserva a 4 °C. La refrigeración ralentiza el deterioro, pero no evita cambios celulares indefinidamente.",
+    "porQueLaCorrecta": "En las condiciones concretas del ítem, 24 horas es el límite conservador indicado para efectuar el recuento de hematíes en sangre con EDTA-K3 refrigerada a 4 °C. La estabilidad exacta depende del analizador y del parámetro: la refrigeración preserva el recuento mejor que la conservación a temperatura ambiente, pero no impide cambios progresivos en índices y morfología.",
     "motivosPorOpcion": {
       "2 horas.": "Es un plazo más restrictivo que el indicado para la muestra refrigerada en las condiciones planteadas.",
       "5 horas.": "También queda por debajo del periodo de estabilidad que da por válido el banco a 4 °C.",
       "48 horas.": "Prolonga demasiado el almacenamiento y aumenta el riesgo de alteraciones de volumen y morfología eritrocitaria."
     },
-    "claveMemorizar": "Según el banco: EDTA K3 a 4 °C, recuento antes de 24 h.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
-    "advertenciaRevision": "El PDF confirma el uso de EDTA K3, pero no aporta en el texto extraído el límite de 24 horas a 4 °C; el tiempo debe verificarse con el protocolo preanalítico aplicable."
+    "claveMemorizar": "Para este protocolo: EDTA-K3 a 4 °C, recuento antes de 24 h; aplicar siempre la estabilidad validada localmente.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4; Imeri F et al. Stability of hematological analytes depends on the hematology analyser used: a stability study with Bayer Advia 120, Beckman Coulter LH 750 and Sysmex XE-2100. Clinica Chimica Acta. 2008;397(1-2):68-71. doi:10.1016/j.cca.2008.07.018"
   }
 }

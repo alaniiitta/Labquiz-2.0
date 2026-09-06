@@ -144,15 +144,14 @@
   },
   "1-314": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Los acúmulos intraeritrocitarios de hierro en forma de hemosiderina asociada a proteínas son cuerpos de Pappenheimer o gránulos sideróticos. Ninguna de las tres inclusiones nombradas corresponde a esa definición.",
+    "porQueLaCorrecta": "Los acúmulos intraeritrocitarios de hierro en forma de hemosiderina son cuerpos de Pappenheimer o gránulos sideróticos y se demuestran con tinción de Perls. Como ese nombre no aparece entre A, B y C, la respuesta D («Ninguna es correcta») es válida.",
     "motivosPorOpcion": {
       "Anillos de Cabot.": "Son restos del huso mitótico o de membrana nuclear con forma de anillo o figura de ocho.",
       "Cuerpos de Heinz.": "Son precipitados de hemoglobina desnaturalizada adheridos a la membrana.",
       "Cuerpo de Howell-Jolly.": "Es un resto de ADN nuclear redondo y basófilo."
     },
     "claveMemorizar": "Hierro intraeritrocitario: Pappenheimer; Hb desnaturalizada: Heinz; ADN: Howell-Jolly.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 17 y 30",
-    "advertenciaRevision": "La respuesta D es válida porque falta la denominación específica «cuerpos de Pappenheimer» entre las opciones."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 17 y 35"
   },
   "1-315": {
     "respuestaCorrecta": "D",
@@ -555,15 +554,14 @@
   },
   "1-352": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Un hematocrito de 42% significa que aproximadamente el 42% del volumen de sangre total está ocupado por la fracción eritrocitaria tras la separación.",
+    "porQueLaCorrecta": "Un hematocrito de 42% significa que los eritrocitos ocupan aproximadamente el 42% del volumen total de la sangre.",
     "motivosPorOpcion": {
       "Que el 42% de la sangre es hemoglobina.": "El hematocrito mide volumen celular, no la proporción de la proteína hemoglobina.",
       "Que el 42% de la hemoglobina está en los eritrocitos.": "La hemoglobina se encuentra mayoritariamente dentro de eritrocitos, pero el 42% no expresa esa distribución.",
       "Nuestro paciente tiene anemia.": "Un valor aislado de 42% suele estar dentro del intervalo adulto citado y no establece anemia por sí solo."
     },
     "claveMemorizar": "Hematocrito = volumen de eritrocitos / volumen de sangre total.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-25 y 34",
-    "advertenciaRevision": "La opción D dice «células», pero la definición rigurosa se refiere específicamente al volumen ocupado por los eritrocitos."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-25 y 34"
   },
   "1-353": {
     "respuestaCorrecta": "A",
@@ -578,15 +576,14 @@
   },
   "1-354": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El estomatocito presenta una zona clara central alargada, semejante a una boca, producida por una alteración de la curvatura y de la membrana eritrocitaria.",
+    "porQueLaCorrecta": "El estomatocito presenta una palidez central lineal o en hendidura, semejante a una boca, que permite distinguirlo de la palidez central redondeada del eritrocito normal.",
     "motivosPorOpcion": {
       "Poiquilocitos: hematíes ovalados.": "Poiquilocito es cualquier hematíe de forma anormal; el ovalado concreto es un ovalocito o eliptocito.",
       "Eliptocitos: hematíes en diana.": "Los eliptocitos son ovalados o alargados; los hematíes en diana son dianocitos o codocitos.",
       "Esquistocitos: hematíes desiguales.": "Los esquistocitos son fragmentos eritrocitarios; la desigualdad de tamaño se denomina anisocitosis."
     },
     "claveMemorizar": "Estomatocito: palidez central en boca; esquistocito: fragmento.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27-28 y 34",
-    "advertenciaRevision": "«Depresión central» es poco específica porque el hematíe normal es bicóncavo; el rasgo diagnóstico es una palidez central lineal en forma de boca."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27-28 y 34"
   },
   "1-355": {
     "respuestaCorrecta": "A",
@@ -645,7 +642,7 @@
   },
   "1-360": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Entre las asociaciones propuestas, el estomatocito es el hematíe cuya palidez central adopta una hendidura o depresión alargada semejante a una boca.",
+    "porQueLaCorrecta": "El estomatocito se reconoce por una palidez central lineal o en hendidura con aspecto de boca, una morfología distinta de la palidez central redondeada habitual.",
     "motivosPorOpcion": {
       "Poiquilocitos: hematíes ovalados.": "Poiquilocitosis engloba formas eritrocitarias anormales diversas; los ovalados son ovalocitos o eliptocitos.",
       "Eliptocitos: en diana.": "El eliptocito es alargado; la célula en diana recibe el nombre de dianocito o codocito.",
@@ -653,7 +650,6 @@
       "Todas son correctas": "Tres asociaciones usan definiciones equivocadas, así que no pueden ser verdaderas en conjunto."
     },
     "claveMemorizar": "Estomatocito: boca; eliptocito: óvalo; dianocito: diana; esquistocito: fragmento.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27-28 y 35",
-    "advertenciaRevision": "La expresión «con depresión central» es inespecífica; debe entenderse como palidez central lineal con aspecto de boca."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27-28 y 35"
   }
 }

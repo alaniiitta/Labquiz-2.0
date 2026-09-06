@@ -155,27 +155,25 @@
   },
   "2-133": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El test considera que infecciones agudas, neoplasias y hemorragias pueden asociarse a disminución plaquetaria, por lo que agrupa las tres como correctas.",
+    "porQueLaCorrecta": "Infecciones agudas y neoplasias pueden reducir las plaquetas por destrucción, consumo o afectación medular. Una hemorragia importante también puede causar trombopenia aguda por pérdida, consumo y hemodilución, aunque durante la recuperación puede aparecer trombocitosis reactiva; por ello las tres situaciones pueden asociarse a trombopenia según el momento clínico.",
     "motivosPorOpcion": {
       "Infecciones agudas.": "Es una causa válida, pero no es la única opción que el test da por cierta.",
       "Neoplasia.": "Los procesos malignos o su afectación medular pueden alterar el recuento, pero la respuesta pretende integrar todas las opciones.",
-      "Hemorragias.": "Puede acompañarse de consumo o pérdida plaquetaria, aunque el PDF no la enumera de forma expresa entre las causas de trombopenia."
+      "Hemorragias.": "Una hemorragia importante puede disminuir inicialmente las plaquetas por pérdida, consumo y dilución; la trombocitosis reactiva descrita en el temario puede aparecer después."
     },
-    "claveMemorizar": "La trombopenia puede deberse a consumo, destrucción o producción medular insuficiente.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39",
-    "advertenciaRevision": "El PDF enumera infecciones y alteraciones medulares entre las causas de trombopenia, pero sitúa las grandes hemorragias entre las causas de trombocitosis; no respalda literalmente las tres opciones."
+    "claveMemorizar": "La trombopenia puede deberse a pérdida, consumo, destrucción, dilución o producción medular insuficiente.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 13"
   },
   "2-134": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Los defectos de agregación plaquetaria se presentan en el temario dentro de las trombopatías congénitas, con la trombastenia de Glanzmann como ejemplo, no como una trombocitopatía adquirida.",
+    "porQueLaCorrecta": "La trombastenia de Glanzmann es una trombocitopatía congénita causada por ausencia o disfunción de GPIIb/IIIa, con el consiguiente defecto de agregación plaquetaria.",
     "motivosPorOpcion": {
-      "Anemia aplásica.": "Puede acompañarse de alteración plaquetaria por insuficiencia medular, aunque afecta principalmente a la cantidad producida.",
-      "CID.": "El temario incluye expresamente la CID entre las causas adquiridas de disfunción plaquetaria.",
-      "Leucemia aguda.": "Puede producir trombopenia y disfunción secundaria por sustitución medular, pero el PDF no la enumera en su lista breve de trombopatías adquiridas."
+      "Anemia aplásica.": "Produce principalmente trombopenia por insuficiencia medular y no es una trombocitopatía congénita.",
+      "CID.": "Es un proceso adquirido con consumo y disfunción plaquetaria, no una trombocitopatía congénita.",
+      "Leucemia aguda.": "Puede causar trombopenia y disfunción plaquetaria adquiridas, no una trombocitopatía congénita."
     },
-    "claveMemorizar": "Glanzmann: defecto congénito de agregación por GPIIb/IIIa.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 40",
-    "advertenciaRevision": "La clasificación del PDF distingue trombopatías cualitativas de alteraciones cuantitativas; solo CID aparece expresamente entre las adquiridas de las opciones ofrecidas, por lo que el enunciado mezcla categorías."
+    "claveMemorizar": "Glanzmann: trombocitopatía congénita por defecto de GPIIb/IIIa y de la agregación.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 40"
   },
   "2-135": {
     "respuestaCorrecta": "B",
@@ -190,15 +188,14 @@
   },
   "2-136": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Las crioglobulinas precipitan con el frío y pueden comprometer la microcirculación, mecanismo que explica fenómenos vasoespásticos como el síndrome de Raynaud.",
+    "porQueLaCorrecta": "Las crioglobulinas precipitan cuando baja la temperatura y pueden obstruir o inflamar pequeños vasos de las zonas acras; ese mecanismo explica el fenómeno de Raynaud asociado al frío. La hiperviscosidad produce otras manifestaciones, pero no es la asociación específica solicitada.",
     "motivosPorOpcion": {
       "La hiperviscosidad sanguínea": "Puede causar síntomas neurológicos o visuales, pero no es la asociación específica pedida.",
       "La proteína de Bence-Jones": "Son cadenas ligeras libres relacionadas con daño renal, no la causa típica del fenómeno por frío.",
       "El aumento de la VSG": "Es un dato analítico favorecido por las proteínas plasmáticas y no un mecanismo causal de Raynaud."
     },
     "claveMemorizar": "Crioglobulinas: precipitan con frío y alteran la microcirculación.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 32-33",
-    "advertenciaRevision": "El PDF describe el mieloma y sus proteínas, pero no desarrolla de forma expresa la relación entre crioglobulinas y síndrome de Raynaud."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 32-33; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 14"
   },
   "2-137": {
     "respuestaCorrecta": "C",
@@ -455,15 +452,14 @@
   },
   "2-160": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las extensiones de médula ósea pueden prepararse por aplastamiento de las partículas medulares y mediante una extensión en cuña. Por eso el test considera ciertas A y B.",
+    "porQueLaCorrecta": "El temario indica expresamente que las extensiones de médula ósea pueden realizarse por aplastamiento o con la técnica del portaobjetos en cuña cuando el grumo es escaso. Por eso A y B son ciertas y corresponde marcar D.",
     "motivosPorOpcion": {
       "Técnica por aplastamiento.": "Es una técnica válida, pero no la única aceptada por la pregunta.",
       "Técnica del portaobjetos en cuña.": "También permite extender material medular, por lo que queda incompleta como respuesta única.",
       "Técnica del portaobjetos extensor.": "Describe el instrumento de una extensión, pero el test no la presenta como modalidad independiente frente a la técnica en cuña."
     },
     "claveMemorizar": "Médula ósea: aplastamiento y extensión en cuña.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 14-15",
-    "advertenciaRevision": "El PDF ilustra la preparación de frotis y menciona extensiones de médula ósea, pero el texto extraíble no formula expresamente esta pareja de técnicas."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 18"
   },
   "2-161": {
     "respuestaCorrecta": "B",
@@ -489,15 +485,14 @@
   },
   "2-163": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La mutación JAK2 está presente en la inmensa mayoría de casos de policitemia vera; entre los porcentajes ofrecidos, el test fija aproximadamente un 97%.",
+    "porQueLaCorrecta": "Las mutaciones activadoras de JAK2 están presentes en casi todos los casos de policitemia vera: predomina JAK2 V617F y una minoría presenta alteraciones del exón 12. Por eso 97% es la aproximación ofrecida que mejor representa su frecuencia global.",
     "motivosPorOpcion": {
       "70% de los casos de PV.": "Infravalora de forma marcada la frecuencia esperada de mutación JAK2.",
       "85% de los casos de PV.": "Sigue siendo inferior al porcentaje aproximado que pretende el test.",
       "87% de los casos de PV.": "También queda por debajo de la frecuencia muy alta asociada a PV."
     },
     "claveMemorizar": "PV: buscar JAK2; está presente en casi todos los casos.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 24",
-    "advertenciaRevision": "El PDF identifica JAK2 como criterio mayor y mutación característica de PV, pero el texto extraíble no muestra de forma verificable la cifra exacta del 97%."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 24; StatPearls, «Polycythemia Vera», NCBI Bookshelf, https://www.ncbi.nlm.nih.gov/books/NBK557660/"
   },
   "2-164": {
     "respuestaCorrecta": "B",
@@ -589,15 +584,14 @@
   },
   "2-172": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El déficit hereditario de ADAMTS13 se relaciona con púrpura trombótica trombocitopénica, no con trombocitopenia inmunitaria. La frase confunde dos mecanismos diferentes y por eso es falsa.",
+    "porQueLaCorrecta": "El déficit hereditario de ADAMTS13 causa púrpura trombótica trombocitopénica congénita, no trombocitopenia inmunitaria. La opción B confunde dos entidades y mecanismos distintos, por lo que es la afirmación falsa.",
     "motivosPorOpcion": {
       "La trombocitopenia inmunitaria se conocía anteriormente con el nombre de púrpura trombocitopénica idiopática y en niños se desarrolla con frecuencia tras una infección viral, caso en el que suele remitir espontáneamente.": "Describe la nomenclatura y el curso típico de muchos casos pediátricos postvirales de PTI.",
-      "La púrpura trombótica trombocitopénica se trata en muchas ocasiones con plasmaféresis.": "El recambio plasmático repone ADAMTS13 y elimina autoanticuerpos en PTT adquirida.",
-      "La púrpura trombótica trombocitopénica sin tratamiento con frecuencia es letal.": "La microangiopatía trombótica no tratada puede producir isquemia multiorgánica grave."
+      "La púrpura trombótica trombocitopénica se trata en muchas ocasiones con plasmaféresis.": "El recambio plasmático es el tratamiento urgente clásico de la PTT adquirida: repone ADAMTS13 y elimina autoanticuerpos.",
+      "La púrpura trombótica trombocitopénica sin tratamiento con frecuencia es letal.": "Sin tratamiento urgente, la microangiopatía trombótica puede causar isquemia multiorgánica y tiene una mortalidad elevada."
     },
     "claveMemorizar": "PTI: anticuerpos antiplaqueta; PTT: déficit/inhibición de ADAMTS13.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 41-42",
-    "advertenciaRevision": "El PDF describe PTI, PTT y la actividad de ADAMTS13, pero no detalla de forma expresa la PTT hereditaria, la plasmaféresis ni su letalidad sin tratamiento."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 41-42; StatPearls, «Thrombotic Thrombocytopenic Purpura», NCBI Bookshelf, https://www.ncbi.nlm.nih.gov/books/NBK430721/"
   },
   "2-173": {
     "respuestaCorrecta": "B",

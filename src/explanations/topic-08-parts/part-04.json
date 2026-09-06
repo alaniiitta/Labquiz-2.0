@@ -45,15 +45,14 @@
   },
   "1-185": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La enfermedad renal crónica reduce la producción renal de eritropoyetina; el defecto es cuantitativo y habitualmente genera hematíes de tamaño y cromía conservados.",
+    "porQueLaCorrecta": "La enfermedad renal crónica reduce la producción renal de eritropoyetina y causa una anemia hipoproliferativa. Al no implicar por sí misma un defecto de síntesis de hemoglobina o de ADN, el patrón habitual conserva tamaño y cromía: normocítico normocrómico.",
     "motivosPorOpcion": {
       "microcítica normocrómica.": "La microcitosis orienta sobre todo a alteración de síntesis de hemoglobina, como ferropenia o talasemia.",
       "normocítica hipocrómica.": "La hipocromía implica menor carga hemoglobínica por célula y no es el patrón renal típico.",
       "macrocítica normocrómica.": "La macrocitosis sugiere déficit de B12/folato, alcohol u otros trastornos de maduración."
     },
     "claveMemorizar": "Déficit de EPO renal: anemia hipoproliferativa normocítica normocrómica.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 23, 44-45",
-    "advertenciaRevision": "El PDF sitúa la síntesis de EPO en el riñón y expone la clasificación, pero no formula literalmente el patrón de la enfermedad renal crónica."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 23 y 44-45"
   },
   "1-186": {
     "respuestaCorrecta": "B",
@@ -200,15 +199,14 @@
   },
   "1-199": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "HPLC, electroforesis convencional y electroforesis capilar separan fracciones de hemoglobina y pueden revelar variantes; por eso la clave integra las tres técnicas.",
+    "porQueLaCorrecta": "HPLC es una modalidad de cromatografía y la electroforesis capilar una modalidad de electroforesis. El temario identifica ambas familias de separación para estudiar fracciones de hemoglobina, por lo que las tres opciones son válidas.",
     "motivosPorOpcion": {
       "HPLC de hemoglobinas.": "Es una técnica válida para separar y cuantificar fracciones, pero no es la única válida de la lista.",
       "Electroforesis de hemoglobinas.": "Es válida y el temario la incluye en el diagnóstico, aunque también existen métodos cromatográficos y capilares.",
       "Electroforesis capilar.": "También separa variantes por movilidad, pero la respuesta pretende reconocer que las tres sirven."
     },
     "claveMemorizar": "Hemoglobinopatías: separar y cuantificar fracciones de Hb por cromatografía o electroforesis.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 59",
-    "advertenciaRevision": "El PDF cita electroforesis y cromatografía de hemoglobinas, pero no enumera de forma expresa HPLC y electroforesis capilar en esas páginas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 59"
   },
   "1-200": {
     "respuestaCorrecta": "A",
@@ -222,16 +220,15 @@
     "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 6-9, 24 y 44"
   },
   "1-201": {
-    "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave oficial marca que ninguna propuesta reproduce las categorías principales mostradas para la clasificación morfológica por tamaño: microcítica, normocítica y macrocítica.",
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La clasificación morfológica por volumen corpuscular medio divide las anemias en microcíticas, normocíticas y macrocíticas. Por ello, normocítica es una categoría válida de esta clasificación.",
     "motivosPorOpcion": {
-      "Normocrómicas.": "Describe cromía y puede emplearse morfológicamente, pero no aparece como categoría aislada en la clasificación por VCM que parece pedir el ítem.",
       "Arregenerativas.": "Pertenece a la clasificación según respuesta medular, basada en reticulocitos.",
-      "Regenerativas.": "También clasifica capacidad regenerativa, no morfología por tamaño."
+      "Regenerativas.": "También clasifica capacidad regenerativa, no morfología por tamaño.",
+      "Ninguna es correcta.": "Normocítica sí es una categoría de la clasificación de las anemias por VCM."
     },
     "claveMemorizar": "Morfología por VCM: microcítica, normocítica o macrocítica; regeneración por reticulocitos.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 25 y 45",
-    "advertenciaRevision": "Ítem ambiguo: «normocrómica» sí es un descriptor morfológico por cromía. La clave D solo se sostiene si se restringe la pregunta a la clasificación por VCM."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 25 y 45"
   },
   "1-202": {
     "respuestaCorrecta": "C",
@@ -268,15 +265,14 @@
   },
   "1-205": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En la talasemia microcítica el recuento eritrocitario suele estar relativamente conservado o alto para el grado de anemia, mientras que en ferropenia tiende a descender.",
+    "porQueLaCorrecta": "Entre los parámetros del hemograma, el recuento eritrocitario ayuda a diferenciar ambas microcitosis: suele estar relativamente conservado o alto en la talasemia y tiende a descender en la ferropenia.",
     "motivosPorOpcion": {
       "VCM.": "Disminuye en ambas entidades y no las separa por sí solo.",
       "HCM.": "También puede estar baja en ambas por menor hemoglobinización.",
-      "Estudio del hierro.": "Sí ayuda: depósitos bajos favorecen ferropenia y normales talasemia, por lo que también es una herramienta diferencial válida."
+      "Estudio del hierro.": "También es útil en el diagnóstico diferencial, pero no es un parámetro incluido en el hemograma, que es el ámbito concreto del enunciado."
     },
     "claveMemorizar": "Microcitosis con eritrocitos relativamente altos sugiere talasemia; confirma con hierro y estudio de Hb.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51, 55 y 59",
-    "advertenciaRevision": "La pregunta no es unívoca: el estudio del hierro también diferencia ferropenia de talasemia y está respaldado por el PDF."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51, 55 y 59"
   },
   "1-206": {
     "respuestaCorrecta": "A",
@@ -504,11 +500,10 @@
     "motivosPorOpcion": {
       "Hidrocitosis.": "Es un trastorno de hidratación de membrana y no la asociación clásica indicada.",
       "Uremias.": "La uremia se relaciona más con equinocitos.",
-      "Cirrosis Hepáticas": "También pueden aparecer células diana en hepatopatía, por lo que esta opción es clínicamente posible aunque la clave prioriza talasemia."
+      "Cirrosis Hepáticas": "Las células diana pueden aparecer en hepatopatías, pero la asociación hematológica característica que se pretende identificar es la talasemia."
     },
     "claveMemorizar": "Codocito o diana: típico de talasemia, también posible en hepatopatía.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 29 y 57",
-    "advertenciaRevision": "La asociación con talasemia está respaldada, pero las células diana no son exclusivas y también pueden observarse en hepatopatías."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 29 y 57"
   },
   "1-227": {
     "respuestaCorrecta": "C",
@@ -534,15 +529,14 @@
   },
   "1-229": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "HLA-B27 sí puede determinarse por citometría de flujo con anticuerpos fluorescentes específicos; por tanto, negar esa posibilidad es falso.",
+    "porQueLaCorrecta": "La citometría permite determinar antígenos celulares de superficie mediante anticuerpos específicos marcados con fluorocromos. HLA-B27 es uno de esos antígenos de superficie, por lo que negar su determinación por esta técnica es falso.",
     "motivosPorOpcion": {
       "Clasifica células en función de su tamaño y complejidad celular.": "La dispersión frontal y lateral informa respectivamente de tamaño y complejidad interna.",
       "Es utilizado para determinación de subpoblaciones leucocitarias.": "Los anticuerpos frente a marcadores CD permiten inmunofenotipar poblaciones leucocitarias.",
       "Se puede utilizar para determinación de subpoblaciones eritrocitarias": "La técnica analiza partículas y células marcadas, por lo que puede distinguir poblaciones eritrocitarias con marcadores adecuados."
     },
     "claveMemorizar": "Citometría: dispersión física + fluorescencia de antígenos, incluido HLA-B27.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 11-13",
-    "advertenciaRevision": "El PDF explica el fundamento y la determinación de antígenos, pero no menciona HLA-B27 de forma nominal."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 11-13"
   },
   "1-230": {
     "respuestaCorrecta": "D",
@@ -589,28 +583,26 @@
     "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24-25"
   },
   "1-234": {
-    "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave importada señala «Ninguna es correcta», pero el término parece una errata de poiquilocitosis, que sí significa variación o alteración de la forma eritrocitaria.",
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La poiquilocitosis describe la presencia de eritrocitos con formas anormales o variadas; por tanto, se refiere a una alteración de la forma.",
     "motivosPorOpcion": {
       "Alteración de la cantidad de Hb.": "Corresponde a cambios de cromía, no a poiquilocitosis.",
       "Alteración del número presente por μl": "Describe una variación cuantitativa del recuento eritrocitario.",
-      "Alteración en la forma.": "Esta sería la definición correcta si «PIOQUILOCITOSIS» pretende decir poiquilocitosis."
+      "Ninguna es correcta.": "La opción que define la alteración de la forma sí es correcta."
     },
     "claveMemorizar": "Poiquilocitosis = diversidad de formas eritrocitarias.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27-31",
-    "advertenciaRevision": "Probable error de clave o de transcripción: la opción C define correctamente la poiquilocitosis, mientras el banco marca D."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27-31"
   },
   "1-235": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave importada marca «Ninguna es correcta», pero el PDF establece que cada uno de los cuatro grupos hemo fija un O2; la opción C expresa precisamente esa relación por grupo hemo.",
+    "porQueLaCorrecta": "Una molécula completa de hemoglobina contiene cuatro grupos hemo y fija cuatro moléculas de O2, una por cada hemo. Ninguna opción expresa correctamente ese total: A indica tres, B atribuye actividad solo a dos hemos y C responde uno por grupo hemo, no cuatro por unidad molecular de Hb.",
     "motivosPorOpcion": {
       "3, una por cada grupo hemo que la conforma.": "La hemoglobina posee cuatro grupos hemo, no tres.",
       "4, ya que sólo 2 grupos hemo tendrán sitios activos.": "El total cuatro es correcto, pero la justificación es falsa: los cuatro hemos tienen un sitio activo.",
-      "1, cada grupo hemo.": "Es correcta si la pregunta se interpreta por unidad de grupo hemo; una hemoglobina completa fija cuatro."
+      "1, cada grupo hemo.": "Describe la capacidad de cada grupo hemo, pero el enunciado pregunta cuántas moléculas fija una unidad molecular completa de hemoglobina: cuatro."
     },
     "claveMemorizar": "Cada hemo fija 1 O2; cada hemoglobina, con 4 hemos, fija 4 O2.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 38",
-    "advertenciaRevision": "La clave D es discutible: la opción C es correcta por grupo hemo. Si «unidad de Hb» significa molécula completa, ninguna opción formula correctamente «4, uno por cada hemo»."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 38"
   },
   "1-236": {
     "respuestaCorrecta": "A",
@@ -647,15 +639,14 @@
   },
   "1-239": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La eritropoyetina es una glicoproteína sintetizada principalmente en el riñón; el temario indica que necesita eritrogenina para activarse, no que se genere a partir de ella.",
+    "porQueLaCorrecta": "La eritropoyetina se sintetiza en el riñón y, según el temario, necesita eritrogenina para activarse. Por tanto, es falso afirmar que la EPO se genera a partir de una glicoproteína hepática llamada eritrogenina.",
     "motivosPorOpcion": {
       "Disminuye el tiempo de maduración celular.": "La EPO acelera la eritropoyesis y favorece una respuesta más rápida a la hipoxia.",
       "Coordina las cantidades producidas de hem y de globina.": "La maduración eritroide estimulada requiere síntesis coordinada de ambos componentes de hemoglobina.",
       "Facilita la liberación de reticulocitos a la sangre.": "La estimulación eritropoyética aumenta la salida de reticulocitos desde médula."
     },
     "claveMemorizar": "EPO: producción renal; estimula maduración eritroide y reticulocitos.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23",
-    "advertenciaRevision": "El PDF respalda directamente el origen renal y la relación con eritrogenina; no desarrolla literalmente las otras dos funciones propuestas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23"
   },
   "1-240": {
     "respuestaCorrecta": "A",

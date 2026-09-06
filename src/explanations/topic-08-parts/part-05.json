@@ -12,15 +12,14 @@
   },
   "1-242": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El agitador de rodillo mantiene los tubos en movimiento suave y continuo, una forma de homogeneización habitual para muestras de sangre total empleadas en hematología.",
+    "porQueLaCorrecta": "El agitador de rodillo mantiene los tubos en rotación lenta y continua, evitando la sedimentación y homogeneizando suavemente muestras de sangre total. Ese uso es habitual en hematología antes del análisis celular, mientras que la resuspensión rápida y breve corresponde al vórtex.",
     "motivosPorOpcion": {
       "Estudios de bioquímica": "Las muestras de bioquímica suelen procesarse como suero o plasma y no constituyen el uso más frecuente de este agitador.",
       "Estudios de coagulación": "Los tubos de coagulación requieren una mezcla inicial cuidadosa con citrato, pero no suelen mantenerse en agitación continua sobre rodillos.",
       "Agitaciones rápidas y breves, fundamentalmente para resuspender partículas en un líquido": "Esa función corresponde mejor a un agitador rápido, como el vórtex, no al movimiento lento y continuo del rodillo."
     },
     "claveMemorizar": "Rodillos: homogeneización suave y continua de sangre total en hematología.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4",
-    "advertenciaRevision": "El PDF identifica el EDTA como muestra de elección para el hemograma, pero no describe el agitador de rodillo ni compara sus usos entre áreas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 4; Rodak's Hematology: Clinical Principles and Applications, 6.ª ed., capítulo de recogida y procesamiento de muestras"
   },
   "1-243": {
     "respuestaCorrecta": "A",
@@ -101,15 +100,14 @@
   },
   "1-250": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La eritrocitosis secundaria aparece cuando aumenta la eritropoyetina, habitualmente como respuesta a hipoxia. Las enfermedades pulmonares hipoxémicas, las cardiopatías cianosantes y el síndrome de Gaisböck se incluyen en ese contexto.",
+    "porQueLaCorrecta": "Las enfermedades pulmonares hipoxémicas, las cardiopatías congénitas cianosantes y la residencia a gran altitud pueden producir hipoxia sostenida, aumentar la eritropoyetina y causar eritrocitosis secundaria.",
     "motivosPorOpcion": {
       "Enfermedad pulmonar hipoxémica": "Es una causa válida: la hipoxemia sostenida estimula EPO y eleva la masa eritrocitaria, pero no es la única opción correcta.",
       "Cardiopatías congénitas cianosantes": "También producen hipoxia crónica y estímulo eritropoyético, por lo que la opción es cierta pero incompleta ante la respuesta conjunta.",
-      "Síndrome de Gaisböck": "El temario lo cita entre las situaciones asociadas a policitemia secundaria; tampoco excluye las otras causas."
+      "Residencia a gran altitud": "La menor presión parcial de oxígeno ambiental provoca una respuesta eritropoyética adaptativa, pero no es la única causa correcta de la lista."
     },
     "claveMemorizar": "Eritrocitosis secundaria: EPO alta, generalmente por hipoxia.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 22",
-    "advertenciaRevision": "El PDF vincula policitemia secundaria con EPO alta, hipoxia y síndrome de Gaisböck, pero no enumera expresamente la enfermedad pulmonar y la cardiopatía cianosante."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 22"
   },
   "1-251": {
     "respuestaCorrecta": "C",
@@ -223,27 +221,25 @@
   },
   "1-261": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La célula madre hematopoyética pluripotencial puede denominarse FC-LM o stem cell. La expansión «Células Formadoras de Colonias Linfoides Macrófagas» no es la denominación indicada y por eso es la afirmación falsa.",
+    "porQueLaCorrecta": "El temario denomina FC-LM o stem cell a la célula madre hematopoyética pluripotencial; la M alude al componente mieloide, no a «macrófagas». De ella derivan los linajes sanguíneos y precede a progenitores comprometidos como CFU-L.",
     "motivosPorOpcion": {
       "De ellas derivan el resto de células sanguíneas.": "Su carácter pluripotencial implica que origina los linajes hematopoyéticos.",
       "Es también conocida como Stem-Cell.": "El temario equipara expresamente célula madre hematopoyética pluripotencial y stem cell.",
       "Es precursor de las CFU-L": "La célula madre pluripotencial precede a progenitores comprometidos, incluido el linaje linfoide."
     },
-    "claveMemorizar": "FC-LM o stem cell = célula madre hematopoyética pluripotencial.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 21",
-    "advertenciaRevision": "El PDF confirma los nombres FC-LM y stem cell, pero la extracción textual no desarrolla la expansión de las siglas ni muestra de forma legible la relación concreta con CFU-L."
+    "claveMemorizar": "FC-LM en el temario = célula madre hematopoyética pluripotencial; mieloide no significa macrófaga.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 21"
   },
   "1-262": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La hemoglobina es un tetrámero α2β2 con un hemo por subunidad, mientras que la mioglobina es monomérica y posee un solo hemo. Ambas ligan oxígeno, con función principal en sangre para la hemoglobina y en músculo para la mioglobina.",
+    "porQueLaCorrecta": "La HbA es un tetrámero α2β2 con un grupo hemo y un sitio de unión a O2 por subunidad. La mioglobina consta de una sola cadena polipeptídica y un solo hemo; está principalmente en músculo estriado, donde almacena y facilita la disponibilidad de oxígeno. Por ello A, B y C son verdaderas en el sentido funcional del enunciado y corresponde D.",
     "motivosPorOpcion": {
       "La hemoglobina es una proteína tetramérica: consta de dos subunidades alfa y dos beta, con notable homología entre ellas. Cada subunidad contiene un grupo hemo.": "La descripción estructural de la HbA es correcta, pero no es la única afirmación válida.",
       "La mioglobina es similar a la hemoglobina salvo que se trata de una proteína monomérica y, en consecuencia, solo tiene un grupo hemo.": "Esta estructura de la mioglobina también es correcta, por lo que no excluye las demás.",
       "Las funciones de la hemoglobina y mioglobina es el transporte de oxígeno (O2): la hemoglobina en la sangre y la mioglobina en el músculo.": "La localización funcional expresada es válida y se suma a las dos afirmaciones estructurales."
     },
-    "claveMemorizar": "Hemoglobina: tetrámero y cuatro hemos; mioglobina: monómero y un hemo.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-42 y 52",
-    "advertenciaRevision": "El PDF desarrolla la estructura y función de la hemoglobina y menciona la mioglobina como hemoproteína, pero no confirma expresamente su carácter monomérico ni su función muscular."
+    "claveMemorizar": "Hemoglobina: tetrámero y cuatro hemos; mioglobina: una cadena, un hemo y reserva de O2 muscular.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-42 y 52; StatPearls, Biochemistry, Myoglobin (NCBI Bookshelf, NBK544256)"
   },
   "1-263": {
     "respuestaCorrecta": "A",
@@ -320,8 +316,7 @@
       "Son trastornos hereditarios con un patrón de herencia autosómica.": "Los genes alfa y no alfa se localizan en los cromosomas 16 y 11, respectivamente, ambos autosómicos."
     },
     "claveMemorizar": "Talasemia = defecto cuantitativo hereditario de cadenas alfa o beta.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 57-59",
-    "advertenciaRevision": "El PDF confirma el origen genético y la localización cromosómica, pero no formula literalmente el patrón de herencia autosómica como regla general."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 57-59; GeneReviews, Alpha-Thalassemia y Beta-Thalassemia (NCBI Bookshelf)"
   },
   "1-270": {
     "respuestaCorrecta": "B",
@@ -347,15 +342,14 @@
   },
   "1-272": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En el analizador se lisan los hematíes, se libera la hemoglobina y se mide fotométricamente a una longitud de onda determinada. El método de cianmetahemoglobina también concluye con una lectura espectrofotométrica.",
+    "porQueLaCorrecta": "En el analizador se lisan los hematíes, se libera la hemoglobina y se cuantifica por absorbancia a una longitud de onda determinada; el método de cianmetahemoglobina realiza una lectura espectrofotométrica a 540 nm.",
     "motivosPorOpcion": {
       "Densitometría.": "No es la técnica descrita para cuantificar la hemoglobina liberada en el canal hematológico.",
       "Medición directa.": "La concentración se obtiene a partir de una señal óptica tras la reacción, no mediante conteo o medición física directa de moléculas.",
       "Cromatografía en placa.": "La cromatografía separa componentes y variantes, pero no es el método rutinario del autoanalizador para Hb total."
     },
     "claveMemorizar": "Hb total en autoanalizador: lisis y espectrofotometría.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24 y 41",
-    "advertenciaRevision": "La técnica correcta está respaldada, pero el enunciado llama glicoproteína a la hemoglobina; el PDF la define como heteroproteína con globina y grupo hemo."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24 y 41"
   },
   "1-273": {
     "respuestaCorrecta": "D",
@@ -425,15 +419,14 @@
   },
   "1-279": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La transferrina es la principal proteína plasmática transportadora de hierro y migra en la fracción beta de las globulinas. Por ello se considera una beta-globulina principal.",
+    "porQueLaCorrecta": "La transferrina es la principal proteína plasmática transportadora de hierro férrico y migra en la región beta en la electroforesis de proteínas séricas; constituye la beta-globulina mayoritaria. La albúmina es la proteína plasmática más abundante y el orosomucoide pertenece a la fracción alfa-1.",
     "motivosPorOpcion": {
       "La proteína más abundante en el plasma, hasta 2/3 de las proteínas totales.": "Esa descripción corresponde a la albúmina, no a la transferrina.",
       "Es el componente principal de las α-1 globulina.": "La transferrina migra en la región beta; la fracción alfa-1 contiene otras proteínas como alfa-1-antitripsina y orosomucoide.",
       "Se conoce como orosomucoide.": "Orosomucoide es el nombre de la alfa-1-glicoproteína ácida, distinta de la transferrina."
     },
-    "claveMemorizar": "Transferrina: transportadora de Fe3+ y beta-globulina.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 52 y 54",
-    "advertenciaRevision": "El PDF confirma que la transferrina transporta hierro, pero no indica expresamente su migración como principal beta-globulina ni desarrolla las otras fracciones proteicas."
+    "claveMemorizar": "Transferrina: transportadora de Fe3+ y principal beta-globulina.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 52 y 54; Clinical Methods, Serum Albumin and Globulin (NCBI Bookshelf, NBK204)"
   },
   "1-280": {
     "respuestaCorrecta": "D",
@@ -521,20 +514,18 @@
       "Cuatro genes.": "La ausencia de los cuatro genes causa Hb Bart e hidropesía fetal, la forma incompatible con la vida."
     },
     "claveMemorizar": "Alfa-talasemia: 1 silente, 2 rasgo, 3 HbH, 4 Hb Bart.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 57-58",
-    "advertenciaRevision": "El PDF afirma que existen cuatro genes alfa y presenta cinco fenotipos, pero la extracción textual de la figura no conserva la correspondencia explícita entre una deleción y el fenotipo silente."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 57-58; GeneReviews, Alpha-Thalassemia (NCBI Bookshelf, NBK1435)"
   },
   "1-288": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Durante la infancia, la médula ósea de prácticamente todo el esqueleto conserva actividad hematopoyética. Con la edad, esa actividad se restringe progresivamente al esqueleto axial y extremos proximales de algunos huesos largos.",
+    "porQueLaCorrecta": "Al nacimiento y durante la primera infancia, la médula roja hematopoyética ocupa prácticamente todo el esqueleto. Con la edad es sustituida progresivamente por médula amarilla en los huesos largos y, en el adulto, la hematopoyesis se concentra sobre todo en el esqueleto axial y porciones proximales de húmero y fémur.",
     "motivosPorOpcion": {
       "Hígado.": "Es un órgano hematopoyético destacado en la vida fetal, no el principal durante la infancia normal.",
       "Páncreas.": "No es un órgano hematopoyético fisiológico principal en ninguna de estas etapas.",
       "Timo.": "Es un órgano linfoide para maduración de linfocitos T, no el centro general de producción de células sanguíneas."
     },
-    "claveMemorizar": "Infancia: médula de todo el esqueleto; adulto: médula roja más restringida.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 21-23",
-    "advertenciaRevision": "El PDF sitúa la hematopoyesis adulta en médula ósea y la fetal en hígado y bazo, pero no afirma expresamente que en la infancia abarque todo el esqueleto."
+    "claveMemorizar": "Infancia: médula roja ampliamente distribuida; adulto: hematopoyesis principalmente axial.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 21-23; Hoffbrand's Essential Haematology, 8.ª ed., capítulo de hematopoyesis"
   },
   "1-289": {
     "respuestaCorrecta": "B",
@@ -560,15 +551,14 @@
   },
   "1-291": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El barrido inicial del frotis con bajo aumento permite juzgar su calidad y localizar elementos grandes o distribuidos de forma irregular. También ayuda a detectar parásitos antes de pasar a aumentos mayores.",
+    "porQueLaCorrecta": "El examen sistemático comienza a bajo aumento (10x): permite comprobar la calidad y distribución del frotis y recorrer una superficie amplia para localizar células grandes anormales y posibles parásitos. Los hallazgos se confirman después con objetivos de mayor aumento, por lo que las tres valoraciones propuestas son pertinentes.",
     "motivosPorOpcion": {
       "La calidad general del frotis.": "Es una valoración esencial a 10x, pero no es la única tarea posible durante el barrido inicial.",
       "Presencia de células grandes anormales.": "El bajo aumento facilita localizar células grandes escasas, junto con la revisión de calidad y parásitos.",
       "Presencia de parásitos.": "La exploración panorámica puede revelar parásitos o zonas sospechosas, sin excluir los otros objetivos."
     },
-    "claveMemorizar": "A 10x: calidad y barrido general; a mayor aumento: detalle celular.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 14-19",
-    "advertenciaRevision": "El PDF explica la preparación y zona de observación del frotis, pero no enumera de forma expresa las tres valoraciones concretas realizadas a 10x."
+    "claveMemorizar": "A 10x: calidad, distribución y barrido general; a mayor aumento: detalle celular.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 14-19; Clinical Hematology Atlas, 6.ª ed., examen sistemático del frotis de sangre periférica"
   },
   "1-292": {
     "respuestaCorrecta": "C",
@@ -605,15 +595,14 @@
   },
   "1-295": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Cada molécula de hemoglobina tiene cuatro grupos hemo y cada uno fija una molécula de oxígeno. Por tanto, el máximo es cuatro moléculas de O2, no ocho.",
+    "porQueLaCorrecta": "Cada molécula de hemoglobina posee cuatro subunidades con un grupo hemo cada una; cada Fe2+ coordina reversiblemente una molécula de O2. La capacidad máxima es, por tanto, cuatro moléculas de O2 y la opción que afirma ocho es la incorrecta.",
     "motivosPorOpcion": {
-      "La hemoglobina constituye el 95% del peso seco eritrocitario.": "La hemoglobina es el componente proteico predominante del hematíe y la afirmación no contradice su composición descrita.",
+      "La hemoglobina constituye el 95% del peso seco eritrocitario.": "La hemoglobina constituye aproximadamente el 95% de la masa seca del eritrocito; el resto corresponde principalmente a proteínas de membrana y enzimas.",
       "El oxígeno se fija a la hemoglobina para formar oxihemoglobina.": "La forma saturada con oxígeno recibe precisamente el nombre de oxihemoglobina.",
-      "La unión entre el oxígeno y la hemoglobina es de tipo coordinado.": "El oxígeno se coordina reversiblemente con el hierro ferroso del grupo hemo."
+      "La unión entre el oxígeno y la hemoglobina es de tipo coordinado.": "Cada O2 actúa como ligando del Fe2+ del hemo y establece una interacción de coordinación reversible."
     },
-    "claveMemorizar": "Una Hb tiene cuatro hemos y transporta hasta cuatro O2.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-40",
-    "advertenciaRevision": "El PDF respalda expresamente la capacidad máxima de cuatro O2 y la formación de oxihemoglobina, pero no formula literalmente el 95 % del peso seco ni denomina coordinada a la unión."
+    "claveMemorizar": "Una Hb tiene cuatro hemos: cada Fe2+ coordina un O2 y el máximo es cuatro O2.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 38-40; Rodak's Hematology: Clinical Principles and Applications, 6.ª ed., estructura y función eritrocitaria"
   },
   "1-296": {
     "respuestaCorrecta": "D",

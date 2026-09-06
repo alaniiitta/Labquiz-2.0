@@ -20,8 +20,7 @@
       "Infecciones.": "Pueden provocar hemólisis por mecanismos externos al hematíe, pero tampoco agotan la relación correcta."
     },
     "claveMemorizar": "Extrínseca: el hematíe es lesionado desde fuera por anticuerpos, microangiopatía o infección.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 46-48",
-    "advertenciaRevision": "El PDF clasifica las anemias hemolíticas y menciona mecanismos autoinmunes, fragmentación e infección, pero la lista de causas de la p. 46 no es plenamente recuperable como texto; conviene cotejar visualmente la diapositiva."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 46-48; Merck Manual Professional, Overview of Hemolytic Anemia"
   },
   "1-363": {
     "respuestaCorrecta": "D",
@@ -65,8 +64,7 @@
       "Citometría de flujo.": "Caracteriza células o marcadores individuales; no es la técnica indicada para fraccionar hemoglobinas estructurales."
     },
     "claveMemorizar": "Hemoglobinopatía estructural: separar fracciones de Hb por cromatografía o electroforesis.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 58",
-    "advertenciaRevision": "El PDF recomienda cromatografía/electroforesis y análisis de hemoglobinas, pero no nombra de forma expresa la modalidad HPLC."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 58-59; ARUP Consult, Hemoglobinopathies"
   },
   "1-367": {
     "respuestaCorrecta": "A",
@@ -99,8 +97,7 @@
       "Todas las respuestas anteriores son ciertas.": "Lugol y Ziehl-Neelsen no son alternativas equivalentes para la valoración hematológica rutinaria."
     },
     "claveMemorizar": "Morfología hematológica: tinciones panópticas como May-Grünwald-Giemsa.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 3 y 16",
-    "advertenciaRevision": "El PDF enumera May-Grünwald-Giemsa entre las tinciones hematológicas, pero no declara literalmente en esas páginas su aplicación a un aspirado medular esternal."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 3 y 16; ICSH Guidelines for the Standardization of Bone Marrow Specimens and Reports (2008)"
   },
   "1-370": {
     "respuestaCorrecta": "B",
@@ -122,8 +119,7 @@
       "Vitamina A.": "Interviene en diferenciación y visión, sin ser la causa vitamínica típica de anemia megaloblástica."
     },
     "claveMemorizar": "Megaloblástica: déficit de B12 y/o folato.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 56",
-    "advertenciaRevision": "El PDF relaciona macrocitosis y anemia megaloblástica y desarrolla la vitamina B12, pero el texto extraíble no menciona expresamente el déficit de folato."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 56; Merck Manual Professional, Megaloblastic Macrocytic Anemias"
   },
   "1-372": {
     "respuestaCorrecta": "B",
@@ -184,8 +180,7 @@
       "Reticulocito.": "Es una célula anucleada casi madura que aparece al final, justo antes del eritrocito."
     },
     "claveMemorizar": "Primer precursor reconocible: proeritroblasto o pronormoblasto.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23",
-    "advertenciaRevision": "El PDF usa el término «proeritroblasto», mientras que la opción correcta emplea el sinónimo «pronormoblasto»."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 23; Rodak's Hematology: Clinical Principles and Applications, 6th ed., erythrocyte production and destruction"
   },
   "1-378": {
     "respuestaCorrecta": "A",
@@ -277,15 +272,14 @@
   },
   "1-386": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El EDTA quelata calcio y es el anticoagulante rutinario del hemograma porque preserva razonablemente la morfología celular durante un intervalo corto, permitiendo preparar el frotis hasta unas dos horas después.",
+    "porQueLaCorrecta": "El EDTA quelata calcio y preserva mejor la morfología que las alternativas propuestas durante una demora corta. El límite de dos horas se refiere a preparar un frotis con calidad morfológica, no a la estabilidad de todos los parámetros del hemograma.",
     "motivosPorOpcion": {
       "Heparina.": "Puede producir fondo azulado y agregación, por lo que no es la elección para conservar la morfología de un frotis rutinario.",
       "Citrato sódico.": "Diluye la muestra y se reserva sobre todo para coagulación o situaciones hematológicas específicas.",
       "ACD (dextrosa de citrato ácido).": "Se usa para preservar células en otros contextos, no como anticoagulante estándar del hemograma y frotis."
     },
     "claveMemorizar": "Hemograma y frotis: EDTA; preparar la extensión pronto.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13-16",
-    "advertenciaRevision": "El PDF desarrolla errores preanalíticos y preparación del frotis, pero el texto extraíble no documenta expresamente la elección de EDTA ni el límite de dos horas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13-16; Dacie and Lewis Practical Haematology, 12th ed., collection and handling of blood"
   },
   "1-387": {
     "respuestaCorrecta": "D",
@@ -333,27 +327,25 @@
   },
   "1-391": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las infecciones agudas, las neoplasias y las hemorragias pueden asociarse a trombopenia por consumo, destrucción, secuestro o alteración de la producción, según el contexto clínico. Por ello el banco considera válidas las tres.",
+    "porQueLaCorrecta": "Las infecciones agudas pueden aumentar destrucción o consumo y las neoplasias pueden infiltrar la médula o inducir consumo. Una hemorragia intensa o masiva puede acompañarse de consumo y trombopenia dilucional; no toda hemorragia aislada la produce. Con ese matiz, las tres situaciones pueden causar trombopenia.",
     "motivosPorOpcion": {
       "Infecciones agudas.": "Pueden consumir o destruir plaquetas, pero son solo una de las categorías propuestas.",
       "Neoplasias.": "Pueden infiltrar médula o acompañarse de consumo, aunque no constituyen la única causa.",
       "Hemorragias.": "La pérdida y el consumo pueden reducir plaquetas, pero las otras situaciones también pueden hacerlo."
     },
     "claveMemorizar": "Trombopenia: pensar en menor producción, mayor destrucción/consumo o secuestro.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 13",
-    "advertenciaRevision": "El PDF de Tema 8.1 no desarrolla de forma expresa las causas de trombopenia ni confirma individualmente las tres opciones."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, p. 13; Merck Manual Professional, Overview of Thrombocytopenia"
   },
   "1-392": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Para el hemograma automatizado, una muestra con EDTA puede conservarse refrigerada hasta 24 horas antes del análisis, aunque el frotis morfológico debe prepararse mucho antes para evitar artefactos celulares.",
+    "porQueLaCorrecta": "En las condiciones generales planteadas, la sangre con EDTA refrigerada puede analizarse para hemograma hasta 24 horas después. No significa que todos los parámetros y la morfología permanezcan invariantes: el frotis debe hacerse antes y cada laboratorio debe validar la estabilidad en su analizador.",
     "motivosPorOpcion": {
       "2 horas.": "Es un límite más apropiado para preservar óptimamente la morfología del frotis, no el máximo refrigerado indicado para el hemograma.",
       "5 horas.": "No corresponde al periodo de conservación refrigerada seleccionado por el banco.",
       "48 horas.": "Es excesivo porque aumentan los cambios de volumen y la degeneración celular aun con refrigeración."
     },
     "claveMemorizar": "Hemograma refrigerado con EDTA: hasta 24 h; frotis, cuanto antes.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13-16",
-    "advertenciaRevision": "El texto extraíble del PDF no fija el plazo de 24 horas ni las condiciones exactas de refrigeración con EDTA."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13-16; Dacie and Lewis Practical Haematology, 12th ed., collection and handling of blood"
   },
   "1-393": {
     "respuestaCorrecta": "B",
@@ -452,44 +444,40 @@
       "Talasemias.": "La eritropoyesis ineficaz puede acompañarse de punteado, pero también son válidas las otras causas."
     },
     "claveMemorizar": "Punteado basófilo: agregados ribosómicos; pensar en plomo y diseritropoyesis.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 34 y 57",
-    "advertenciaRevision": "El PDF cita expresamente plomo y eritropoyesis acelerada, pero no enumera de forma literal síndromes mielodisplásicos y talasemias como causas del punteado basófilo."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 34, 48 y 57; NCBI Bookshelf, Clinical Methods, Peripheral Blood Smear"
   },
   "1-402": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La saturación de transferrina aumenta cuando el hierro circulante ocupa una proporción excesiva de sus sitios de unión, por lo que permite detectar precozmente una sobrecarga compatible con hemocromatosis.",
+    "porQueLaCorrecta": "La saturación de transferrina detecta exceso de hierro circulante respecto a la capacidad de transporte y suele elevarse pronto. En el cribado bioquímico de hemocromatosis hereditaria se interpreta junto con ferritina; entre las magnitudes aisladas propuestas, es la más sensible.",
     "motivosPorOpcion": {
       "Sideremia.": "Fluctúa por ritmo diario, dieta y otras condiciones, de modo que aislada ofrece menor rendimiento de cribado.",
       "Ferritina sérica.": "Puede elevarse por inflamación o daño hepático y no siempre identifica precozmente la sobrecarga.",
       "Capacidad total de fijación de hierro.": "Aporta información sobre transferrina, pero el cribado se interpreta mejor mediante el porcentaje realmente saturado."
     },
     "claveMemorizar": "Cribado de hemocromatosis: índice de saturación de transferrina.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 54-55",
-    "advertenciaRevision": "El PDF muestra saturación alta en hemocromatosis y su fórmula, pero no compara de forma explícita la sensibilidad diagnóstica de las cuatro magnitudes."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 54-55; EASL Clinical Practice Guidelines on haemochromatosis, Journal of Hepatology (2022)"
   },
   "1-403": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El K3-EDTA puede inducir contracción eritrocitaria y reducir el VCM; también puede ocasionar agregación plaquetaria in vitro. Por tanto, atribuirle un aumento del VCM es la afirmación falsa seleccionada.",
+    "porQueLaCorrecta": "A concentración adecuada y de forma inmediata, el K3-EDTA tiende a contraer los hematíes y disminuir el VCM, no a aumentarlo. La precisión temporal evita confundir este efecto con el incremento del VCM que puede aparecer durante el almacenamiento.",
     "motivosPorOpcion": {
       "Puede disminuir el valor del volumen corpuscular medio (VCM) de los hematíes.": "La forma tripotásica puede encoger los hematíes y sesgar el VCM a la baja.",
       "Puede causar agregados plaquetarios in vitro.": "La pseudotrombocitopenia dependiente de EDTA se debe a agregación in vitro y es una interferencia conocida.",
-      "Es uno de los anticoagulantes menos solubles.": "El banco la considera cierta frente a la opción B, aunque la solubilidad depende de comparar las sales concretas de EDTA."
+      "Es uno de los anticoagulantes más solubles.": "La sal tripotásica es muy soluble, aunque K2-EDTA se prefiera para el hemograma por preservar mejor el volumen celular."
     },
-    "claveMemorizar": "K3-EDTA puede bajar VCM y causar agregados; no subir VCM.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13 y 24-27",
-    "advertenciaRevision": "El PDF explica VCM e interferencias preanalíticas generales, pero no documenta los efectos específicos ni la solubilidad del K3-EDTA; la clave requiere una fuente preanalítica adicional."
+    "claveMemorizar": "K2-EDTA se prefiere para recuento; K3-EDTA es más soluble y puede contraer hematíes, mientras el almacenamiento puede elevar el VCM.",
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13 y 24-27; ICSH, Recommendations for EDTA Anticoagulation of Blood for Blood Cell Counting and Sizing, American Journal of Clinical Pathology 100 (1993): 371-372"
   },
   "1-404": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La hemoglobina fetal presenta propiedades espectrales que pueden solaparse con la estimación de carboxihemoglobina en determinados cooxímetros, generando una interferencia relevante, especialmente en neonatos.",
+    "porQueLaCorrecta": "En determinados cooxímetros, una fracción alta de HbF puede sesgar espectralmente la estimación de carboxihemoglobina, especialmente en muestras neonatales. La magnitud y dirección dependen del modelo y deben comprobarse en sus especificaciones; oxiHb, desoxiHb y metaHb son especies que el equipo intenta resolver por separado.",
     "motivosPorOpcion": {
       "OxiHB.": "Es una especie que el cooxímetro está diseñado para separar mediante múltiples longitudes de onda.",
       "MetHB.": "También se cuantifica como derivado propio en cooximetría y no es la interferencia específica señalada por el banco.",
       "DeoxiHB.": "Forma parte del conjunto habitual de especies resueltas en la medición y no corresponde a la respuesta indicada."
     },
     "claveMemorizar": "En neonatos, HbF puede interferir en la medida de COHb.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 39, 41-42",
-    "advertenciaRevision": "El PDF describe carboxihemoglobina, sus pruebas y HbF, pero no afirma que HbF interfiera con la medida de carboxihemoglobina ni desarrolla cooximetría."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 39 y 41-42; Tietz Textbook of Laboratory Medicine, 7th ed., blood gases and co-oximetry"
   },
   "1-405": {
     "respuestaCorrecta": "D",
@@ -515,27 +503,25 @@
   },
   "1-407": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El K2-EDTA o EDTA dipotásico es el anticoagulante recomendado para hematología porque preserva mejor el tamaño y la morfología celular que otras formulaciones de EDTA.",
+    "porQueLaCorrecta": "El ICSH recomienda K2-EDTA para recuento y medición del tamaño celular. Frente a K3-EDTA líquido, evita dilución y reduce alteraciones del volumen corpuscular; por ello «EDTA dipotásico» es la formulación precisa.",
     "motivosPorOpcion": {
       "EDTA tripotásico": "El K3-EDTA líquido puede diluir la muestra y favorecer cambios de volumen eritrocitario.",
       "Citrato sódico 3,8%": "Se emplea principalmente en pruebas de coagulación y diluye la sangre según una proporción definida.",
       "EDTA potásico": "La denominación es imprecisa porque no especifica la sal; la recomendación concreta es EDTA dipotásico."
     },
     "claveMemorizar": "Anticoagulante de elección en hematología: K2-EDTA.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13-16",
-    "advertenciaRevision": "El texto extraíble del PDF no recoge la recomendación del Consejo de Normalización ni compara las sales de EDTA."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 13-16; ICSH, Recommendations for EDTA Anticoagulation of Blood for Blood Cell Counting and Sizing, American Journal of Clinical Pathology 100 (1993): 371-372"
   },
   "1-408": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La ferritina aumenta como reactante de fase aguda y también con la sobrecarga de hierro. En hemocromatosis está elevada y en talasemia mayor puede subir por carga férrica, especialmente tras transfusiones repetidas; el banco considera correctas las tres.",
+    "porQueLaCorrecta": "La ferritina aumenta como reactante de fase aguda y como marcador de depósito férrico en la hemocromatosis. En la talasemia mayor suele elevarse por sobrecarga de hierro debida a transfusiones crónicas y a mayor absorción; esto no contradice que una talasemia no transfundida pueda tener ferritina normal.",
     "motivosPorOpcion": {
       "Procesos inflamatorios agudos.": "Es correcta por su comportamiento como reactante positivo, pero no es la única situación propuesta.",
       "Hemocromatosis.": "La sobrecarga eleva las reservas y la ferritina, aunque también son válidas las otras opciones según la clave.",
       "Talasemia mayor.": "Puede acumular hierro y elevar ferritina, pero la respuesta conjunta incluye además inflamación y hemocromatosis."
     },
     "claveMemorizar": "Ferritina alta: inflamación o sobrecarga férrica.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 54-55 y 57",
-    "advertenciaRevision": "El PDF respalda inflamación y hemocromatosis, pero su apartado general de diagnóstico de talasemias indica hierro y ferritina normales y no explica la sobrecarga transfusional de la talasemia mayor. La opción C y, por tanto, D no quedan plenamente sustentadas."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 54-55, 57 y 59; Thalassaemia International Federation, Guidelines for the Management of Transfusion Dependent Thalassaemia, 4th ed. (2021)"
   },
   "1-409": {
     "respuestaCorrecta": "B",
@@ -550,26 +536,24 @@
   },
   "1-410": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las hemoglobinopatías se investigan separando fracciones de hemoglobina. HPLC, electroforesis convencional y electroforesis capilar pueden mostrar un patrón anómalo y actuar como técnicas de cribado, con confirmación posterior cuando proceda.",
+    "porQueLaCorrecta": "HPLC, electroforesis convencional y electroforesis capilar separan fracciones de hemoglobina y pueden detectar patrones compatibles con hemoglobinopatía. Ninguna técnica aislada excluye todas las variantes: un resultado dudoso exige un método complementario y, cuando proceda, confirmación molecular.",
     "motivosPorOpcion": {
       "HPLC (cromatografía líquida de alta resolución).": "Es una técnica válida de separación y cuantificación, pero no es la única de las propuestas capaz de detectar variantes.",
       "Electroforesis de hemoglobina.": "También es válida, aunque la pregunta incluye otros métodos apropiados.",
       "Electroforesis capilar.": "Separa fracciones por movilidad y es igualmente útil; seleccionarla sola excluiría sin motivo las otras técnicas."
     },
     "claveMemorizar": "Hemoglobinopatías: cribado por separación de fracciones, cromatográfica o electroforética.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 58",
-    "advertenciaRevision": "El PDF cita electroforesis y cromatografía, pero no especifica HPLC ni electroforesis capilar y tampoco afirma que las tres sean intercambiables en todos los pacientes."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 42 y 58-59; ARUP Consult, Hemoglobinopathies"
   },
   "1-411": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Tras usar el objetivo de inmersión debe retirarse el aceite con material suave para lentes, como papel óptico, evitando productos que puedan dañar adhesivos o recubrimientos del objetivo.",
+    "porQueLaCorrecta": "El aceite debe retirarse del objetivo de inmersión después de usarlo con papel óptico o material específico para lentes, sin aplicar de rutina un disolvente no autorizado por el fabricante. El objetivo seco de 40x no se introduce en aceite y el 100x de inmersión no se usa en seco.",
     "motivosPorOpcion": {
       "Poner el objetivo de 100x y observar la preparación.": "El objetivo de 100x suele requerir una gota de aceite de inmersión; omitirla impide la observación correcta.",
       "Poner el objetivo de 40x y observar la preparación una vez que se haya puesto aceite de inmersión.": "El objetivo seco de 40x no debe introducirse en aceite, que puede contaminarlo y deteriorarlo."
     },
     "claveMemorizar": "Aceite solo con objetivo de inmersión; limpiar después con papel óptico.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 14-19",
-    "advertenciaRevision": "El PDF describe preparación y observación del frotis, pero el texto extraíble no documenta las instrucciones sobre objetivos, aceite, papel óptico o ausencia de disolvente."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 14-19; Nikon MicroscopyU, Microscope Objective Cleaning"
   },
   "1-412": {
     "respuestaCorrecta": "A",
@@ -628,15 +612,14 @@
   },
   "1-417": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Las formas eritrocitarias anómalas que dificultan la formación de rouleaux sedimentan peor y pueden disminuir la VSG, como sucede con drepanocitos u otras poiquilocitosis marcadas.",
+    "porQueLaCorrecta": "La VSG depende de que los eritrocitos formen agregados. Las formas anómalas, como drepanocitos o esferocitos, dificultan los rouleaux y pueden disminuirla; en cambio, la anemia y la macrocitosis suelen aumentarla. Además, la VSG es inespecífica.",
     "motivosPorOpcion": {
       "Es un indicador altamente específico": "La VSG es una prueba inespecífica influida por proteínas plasmáticas y características eritrocitarias.",
       "En las anemias disminuye": "La reducción del hematocrito suele favorecer una VSG mayor, no menor.",
       "En la macrocitosis disminuye": "Los hematíes grandes tienden a sedimentar más deprisa; no constituye una causa general de descenso."
     },
     "claveMemorizar": "VSG baja si las formas anómalas impiden rouleaux.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 28-30 y 36",
-    "advertenciaRevision": "El PDF desarrolla morfología y rouleaux, pero no explica de forma expresa la VSG ni los efectos de anemia, macrocitosis y poiquilocitosis sobre ella."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 28-30 y 36; ICSH Recommendations for Measurement of Erythrocyte Sedimentation Rate, International Journal of Laboratory Hematology (2017)"
   },
   "1-418": {
     "respuestaCorrecta": "C",
@@ -662,27 +645,25 @@
   },
   "1-420": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En ferropenia disminuyen el hierro disponible, la saturación de transferrina y la ferritina. El organismo aumenta transferrina y expresión de receptores de transferrina, elevando su fracción soluble.",
+    "porQueLaCorrecta": "En ferropenia disminuyen las reservas y el hierro transportado, por lo que bajan ferritina e IST. Aumentan la transferrina y la expresión celular de su receptor; su fragmento circulante, el receptor soluble de transferrina, también se eleva y se afecta menos por la inflamación.",
     "motivosPorOpcion": {
       "↓IST, ↓Trf, ↓RST, ↓ferritina": "Acertaría IST y ferritina, pero transferrina y receptor soluble aumentan en la carencia de hierro.",
       "↑IST, ↓Trf, ↓RST, ↓ferritina": "La saturación no aumenta cuando falta hierro y también invierte transferrina y RST.",
       "↑IST, ↑Trf, ↓RST, ↑ferritina": "Solo el aumento de transferrina concuerda; IST y ferritina bajan y RST sube."
     },
     "claveMemorizar": "Ferropenia: IST ↓, ferritina ↓, transferrina ↑, RST ↑.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51 y 54-55",
-    "advertenciaRevision": "El PDF documenta IST y ferritina bajas, transferrina alta y que el RST no se altera por inflamación, pero no afirma expresamente en el texto extraíble que el RST aumente en ferropenia."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 51 y 54-55; WHO/CDC, Assessing the Iron Status of Populations, 2nd ed. (2007)"
   },
   "1-421": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Tanto el alcoholismo como los síndromes mielodisplásicos pueden causar macrocitosis y elevar el VCM, por mecanismos no necesariamente megaloblásticos. La talasemia, en cambio, suele disminuirlo.",
+    "porQueLaCorrecta": "El consumo crónico de alcohol y los síndromes mielodisplásicos son causas reconocidas de macrocitosis, a menudo no megaloblástica, y pueden elevar el VCM. La talasemia reduce la síntesis de globina y se caracteriza por microcitosis; por ello son correctas A y C.",
     "motivosPorOpcion": {
       "Alcoholismo": "Es una causa válida de VCM alto, pero la opción C también lo es.",
       "Talasemia": "Se caracteriza por microcitosis y VCM disminuido.",
       "Síndrome mielodisplásico": "Puede producir macrocitosis, aunque no es la única respuesta correcta de la lista."
     },
     "claveMemorizar": "VCM alto: megaloblastosis, alcohol y mielodisplasia; VCM bajo: talasemia.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 57",
-    "advertenciaRevision": "El PDF explica macrocitosis y talasemia microcítica, pero no cita expresamente alcoholismo ni síndrome mielodisplásico como causas de VCM elevado."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 27 y 57; Merck Manual Professional, Megaloblastic Macrocytic Anemias"
   },
   "1-422": {
     "respuestaCorrecta": "C",
@@ -719,15 +700,14 @@
   },
   "1-425": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El reticulocito es una célula joven anucleada, de tamaño próximo o algo mayor que el hematíe, que conserva ARN residual y completa su maduración hasta convertirse en eritrocito. Por ello las tres descripciones son compatibles.",
+    "porQueLaCorrecta": "El reticulocito es una célula joven anucleada que conserva ARN residual y madura hasta convertirse en eritrocito. Su diámetro se solapa con el del hematíe y varía con el grado de maduración; el intervalo docente de 7-9 μm es compatible, aunque los reticulocitos más inmaduros pueden ser mayores.",
     "motivosPorOpcion": {
       "Su tamaño oscila entre 7 y 9 μm (micras).": "El intervalo es compatible con su tamaño, pero no recoge su ausencia de núcleo ni su destino madurativo.",
       "Es una célula anucleada.": "Es cierto tras la expulsión nuclear, aunque también son válidas A y C.",
       "Cuando madura se transforma en un eritrocito maduro.": "Define su posición final en la eritropoyesis, pero no invalida las otras afirmaciones."
     },
     "claveMemorizar": "Reticulocito: joven, anucleado, con ARN; madura a eritrocito.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23 y 33",
-    "advertenciaRevision": "El PDF sitúa el diámetro del hematíe en 7-8,5 μm y describe el reticulocito como etapa anucleada previa al eritrocito, pero no fija literalmente para el reticulocito el intervalo 7-9 μm."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 22-23 y 33; Rodak's Hematology: Clinical Principles and Applications, 6th ed., reticulocytes"
   },
   "1-426": {
     "respuestaCorrecta": "B",
@@ -753,15 +733,14 @@
   },
   "1-428": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La Hb de 6,7 g/dL confirma anemia y el VCM de 63,5 fL la clasifica como microcítica. La HCM de 16,5 pg está muy disminuida, por lo que es hipocrómica, no hipercrómica; eso es lo que la paciente no presenta.",
+    "porQueLaCorrecta": "La Hb de 6,7 g/dL confirma anemia, el VCM de 63,5 fL demuestra microcitosis y la HCM de 16,5 pg indica hipocromía, no hipercromía. Además, 16,0 × 10³ leucocitos/mm³ y 524 × 10³ plaquetas/mm³ superan los intervalos adultos habituales, por lo que sí hay leucocitosis y trombocitosis.",
     "motivosPorOpcion": {
       "Leucocitosis./": "Un recuento de 16,0 × 10³/mm³ está elevado y sí indica leucocitosis.",
       "Trombocitosis": "524 × 10³/mm³ representa un recuento plaquetario elevado.",
       "Anemia microcítica": "Existe anemia grave y el VCM inferior a 80 fL confirma microcitosis."
     },
     "claveMemorizar": "VCM 63,5 + HCM 16,5: anemia microcítica e hipocrómica, nunca hipercrómica.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 26-27 y 32",
-    "advertenciaRevision": "El PDF permite clasificar la anemia por Hb, VCM y HCM, pero no aporta en el texto extraíble los intervalos de referencia de leucocitos y plaquetas necesarios para verificar por completo A y B."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 26-27 y 32; MedlinePlus Medical Test, Complete Blood Count (CBC)"
   },
   "1-429": {
     "respuestaCorrecta": "C",
@@ -776,14 +755,13 @@
   },
   "1-430": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "En este caso, la cromía se decide con la HCM: 16,5 pg refleja muy poco contenido de hemoglobina por hematíe. Junto con el VCM de 63,5 fL, el cuadro es microcítico-hipocrómico, de modo que «anemia hipercrómica» es el hallazgo ausente.",
+    "porQueLaCorrecta": "La HCM de 16,5 pg refleja poco contenido de hemoglobina por hematíe y, junto con el VCM de 63,5 fL, define una anemia microcítica e hipocrómica. Los leucocitos (16,0 × 10³/mm³) y las plaquetas (524 × 10³/mm³) superan los intervalos adultos habituales; el hallazgo ausente es la anemia hipercrómica.",
     "motivosPorOpcion": {
       "Leucocitosis": "Los 16,0 × 10³ leucocitos/mm³ superan el recuento habitual y apoyan leucocitosis en el contexto febril.",
       "Trombocitosis": "El recuento de 524 × 10³ plaquetas/mm³ está aumentado, por lo que sí hay trombocitosis.",
       "Anemia microcítica": "La Hb está marcadamente baja y el VCM de 63,5 fL clasifica los hematíes como microcíticos."
     },
     "claveMemorizar": "En el caso clínico, HCM muy baja descarta hipercromía y confirma hipocromía.",
-    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 26-27 y 32",
-    "advertenciaRevision": "El PDF respalda la interpretación eritrocitaria, pero el texto extraíble no muestra los intervalos de leucocitos y plaquetas que confirmarían de forma independiente leucocitosis y trombocitosis."
+    "fuente": "Tema 8.1 Fisiología y metabolismo eritrocitario v4.pdf, pp. 24, 26-27 y 32; MedlinePlus Medical Test, Complete Blood Count (CBC)"
   }
 }

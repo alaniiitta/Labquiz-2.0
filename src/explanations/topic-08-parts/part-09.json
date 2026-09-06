@@ -111,15 +111,14 @@
   },
   "2-70": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El estudio de una gammapatía debe detectar y caracterizar el componente monoclonal; la clave considera correctos el análisis de suero y orina y el uso de agarosa como soporte.",
+    "porQueLaCorrecta": "El estudio clásico de una gammapatía monoclonal combina electroforesis sérica en gel de agarosa con el estudio de proteínas monoclonales urinarias; por ello B y C son correctas. El plasma no se prefiere porque el fibrinógeno puede simular una banda.",
     "motivosPorOpcion": {
       "Es recomendable procesar plasma en lugar de suero.": "El fibrinógeno del plasma puede originar una banda que interfiera en la interpretación, por lo que se prefiere suero.",
       "Un estudio analítico correcto de las GM debe analizar muestras de suero y de orina.": "Es una afirmación válida, pero la opción combinada incorpora también el soporte de agarosa.",
       "El gel de agarosa es el soporte recomendado.": "Es una afirmación válida para la electroforesis de proteínas, pero la opción combinada reúne ambas correctas."
     },
     "claveMemorizar": "Gammapatía: detectar por electroforesis y tipificar por inmunofijación; valorar suero y orina.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33",
-    "advertenciaRevision": "El PDF explica el cribado por electroforesis y la caracterización por inmunofijación, pero no especifica el análisis conjunto de suero y orina ni recomienda expresamente el gel de agarosa."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 33; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 7"
   },
   "2-71": {
     "respuestaCorrecta": "A",
@@ -189,15 +188,14 @@
   },
   "2-77": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Para contar plaquetas en citrato se analiza sangre total anticoagulada; centrifugar separaría las células del plasma e impediría obtener el recuento correcto.",
+    "porQueLaCorrecta": "Para comprobar una pseudotrombopenia por EDTA se repite el recuento en sangre total anticoagulada con citrato. Centrifugar el tubo separaría las plaquetas del plasma y ya no permitiría contarlas en la muestra íntegra, por lo que es la actuación que no debe hacerse.",
     "motivosPorOpcion": {
       "Determinación de plaquetas en el tubo de citrato, si lo tenemos en el laboratorio.": "Es la comprobación recomendada porque el citrato evita la agregación dependiente de EDTA.",
-      "Al resultado de plaquetas obtenido del autoanalizador, le sumaremos un 10%.": "La corrección compensa de forma aproximada la dilución introducida por el citrato.",
+      "Al resultado de plaquetas obtenido del autoanalizador, le sumaremos un 10%.": "Es una aproximación al factor 1,1 empleado para compensar la dilución 1:9 introducida por el citrato.",
       "Revisión microscópica, con recuento manual de plaquetas.": "La extensión permite confirmar agregados y el recuento manual puede resolver interferencias."
     },
     "claveMemorizar": "Fenómeno EDTA: revisar frotis y repetir sangre total en citrato, sin centrifugar.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38",
-    "advertenciaRevision": "El PDF recomienda microscopía, nueva muestra en citrato y, en algunos casos, recuento manual; no menciona expresamente sumar un 10% ni la prohibición de centrifugar."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 38; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 8"
   },
   "2-78": {
     "respuestaCorrecta": "C",
@@ -212,15 +210,14 @@
   },
   "2-79": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Los coilocitos son células epiteliales escamosas con halo perinuclear asociadas a infección por papilomavirus; no son elementos formes de una extensión de sangre periférica.",
+    "porQueLaCorrecta": "Los coilocitos son células epiteliales escamosas con halo perinuclear asociadas a infección por papilomavirus; se estudian en muestras epiteliales, no como agregados celulares de una extensión de sangre periférica.",
     "motivosPorOpcion": {
       "Eosinófilos, característicos de procesos alérgicos con granulaciones muy refringentes en el citoplasma, que se tiñen con colorantes ácidos.": "Los eosinófilos son granulocitos circulantes y sus gránulos captan eosina.",
       "Reticulocitos con finos filamentos y gránulos que constituyen la más granulo-filamentosa ortocromática.": "Los reticulocitos son eritrocitos jóvenes presentes en sangre y su ARN residual se demuestra con tinción vital.",
       "Linfocitos peludos o \"hairycells\", de leucemia de células vellosas (HCL), considerada subtipo de leucemia linfocítica crónica (LLC).": "Las células peludas pueden circular en pacientes con tricoleucemia y observarse en el frotis."
     },
     "claveMemorizar": "Coilocito = epitelio por VPH, no célula sanguínea.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 20",
-    "advertenciaRevision": "El PDF confirma eosinófilos y células peludas como leucocitos, pero no describe coilocitos ni la morfología reticulocitaria."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 3 y 20; StatPearls, «Koilocytosis», NCBI Bookshelf, https://www.ncbi.nlm.nih.gov/books/NBK532958/"
   },
   "2-80": {
     "respuestaCorrecta": "B",
@@ -246,15 +243,14 @@
   },
   "2-82": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En el linfoma de Hodgkin, una albúmina baja puede reflejar inflamación sistémica y se utiliza como dato pronóstico desfavorable.",
+    "porQueLaCorrecta": "En el linfoma de Hodgkin avanzado, una albúmina inferior a 40 g/L forma parte del índice pronóstico internacional y refleja un contexto inflamatorio o nutricional desfavorable. VSG y proteína C reactiva tienden, en cambio, a elevarse.",
     "motivosPorOpcion": {
       "VSG": "La velocidad de sedimentación suele elevarse por la respuesta inflamatoria, no disminuir.",
       "Proteína C reactiva.": "Como reactante de fase aguda suele aumentar cuando existe inflamación activa.",
       "lnmunoglobulinas.": "No constituyen el parámetro característicamente disminuido que busca esta pregunta."
     },
     "claveMemorizar": "Hodgkin: inflamación con VSG/PCR altas; albúmina baja es desfavorable.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 16 y 20",
-    "advertenciaRevision": "El PDF identifica Hodgkin y sus manifestaciones, pero no documenta de forma expresa la disminución de albúmina ni compara estos cuatro parámetros."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 20; NCI, «Adult Hodgkin Lymphoma Treatment (PDQ®)», https://www.cancer.gov/types/lymphoma/hp/adult-hodgkin-treatment-pdq"
   },
   "2-83": {
     "respuestaCorrecta": "C",
@@ -335,15 +331,14 @@
   },
   "2-90": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave agrupa la naturaleza autoinmune, el carácter hemorrágico y la trombopenia como rasgos de la púrpura trombocitopénica idiopática.",
+    "porQueLaCorrecta": "La púrpura trombocitopénica idiopática es una enfermedad autoinmune y hemorrágica que cursa con trombopenia aislada, por lo que el TP y el TTPa permanecen normales; así, A, B y C son correctas.",
     "motivosPorOpcion": {
-      "Es una enfermedad autoinmune.": "Es cierta porque existen autoanticuerpos antiplaquetarios, pero la clave considera además válidas las otras descripciones.",
-      "Es un trastorno hemorrágico.": "Es cierta por las petequias y hemorragias mucosas, pero no es la respuesta integradora.",
-      "Cursa con trombopenia y aumento moderado de linfocitos.": "La clave la da por válida junto a las anteriores, aunque el aumento linfocitario no es un rasgo nuclear de la PTI."
+      "Es una enfermedad autoinmune.": "Es cierta por la destrucción plaquetaria mediada por autoanticuerpos, pero no integra las demás afirmaciones válidas.",
+      "Es un trastorno hemorrágico.": "Es cierta por las petequias y hemorragias mucosas, pero no integra las demás afirmaciones válidas.",
+      "Cursa con trombopenia y TP/TTPa normales.": "Es cierta porque la PTI afecta al número de plaquetas sin alterar los factores de la coagulación, pero no integra las demás afirmaciones válidas."
     },
-    "claveMemorizar": "PTI: autoinmunidad antiplaquetaria, trombopenia y sangrado mucocutáneo.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 41",
-    "advertenciaRevision": "El PDF respalda autoinmunidad, trombopenia y manifestaciones hemorrágicas, pero no menciona un aumento moderado de linfocitos; por ello no sustenta por completo «Todas correctas»."
+    "claveMemorizar": "PTI: autoinmunidad antiplaquetaria, trombopenia aislada, TP/TTPa normales y sangrado mucocutáneo.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 41"
   },
   "2-91": {
     "respuestaCorrecta": "B",
@@ -395,35 +390,32 @@
     "motivosPorOpcion": {
       "El citoplasma suele ser hiperbasófilo.": "Es compatible con la intensa síntesis proteica del linfocito activado.",
       "Pueden encontrarse en cuadros de mononucleosis infecciosa.": "La mononucleosis por VEB produce característicamente linfocitos activados.",
-      "Aparecen de manera fisiológica en niños recién nacidos.": "La clave la considera una observación posible y no la afirmación falsa buscada."
+      "Aparecen de manera fisiológica en niños recién nacidos.": "Puede observarse morfología linfocitaria activada o atípica en el periodo neonatal; no contradice el aumento citoplasmático que identifica a estas células."
     },
     "claveMemorizar": "Linfocito activado: grande, citoplasma abundante e hiperbasófilo; relación N/C menor.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 8 y 33",
-    "advertenciaRevision": "El PDF describe linfocitos activados y su relación con mononucleosis, pero no confirma expresamente su aparición fisiológica en recién nacidos."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 8, 11 y 33; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 9"
   },
   "2-96": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El criterio habitual empleado en la pregunta define trombocitosis como un recuento superior a 450 × 10^9/L.",
+    "porQueLaCorrecta": "El umbral clínico actual utilizado habitualmente para trombocitosis es >450 × 10^9/L, por lo que C es la opción correcta. El temario usa el límite histórico >400 × 10^9/L; ambos criterios deben interpretarse según la referencia adoptada.",
     "motivosPorOpcion": {
       "<450x109/L.": "Incluye el intervalo normal y cifras bajas; el signo es opuesto al aumento requerido.",
       ">250x109/L.": "Ese valor puede encontrarse dentro del intervalo normal y no basta para diagnosticar trombocitosis.",
       ">150x109/L.": "También corresponde a valores normales habituales y carece de especificidad para trombocitosis."
     },
-    "claveMemorizar": "Trombocitosis: >450 × 10^9/L en el criterio de la pregunta.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39",
-    "advertenciaRevision": "El PDF fija trombocitosis por encima de 400.000/mm3, mientras la pregunta y su clave usan el umbral >450 × 10^9/L."
+    "claveMemorizar": "Trombocitosis: >450 × 10^9/L con el criterio clínico actual; el temario emplea >400 × 10^9/L.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 39; MSD Manual Professional, «Essential Thrombocythemia», https://www.msdmanuals.com/professional/hematology-and-oncology/myeloproliferative-disorders/essential-thrombocythemia"
   },
   "2-97": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las plaquetas son fragmentos citoplasmáticos anucleados procedentes de megacariocitos; por tanto, no pueden tener un núcleo excéntrico.",
+    "porQueLaCorrecta": "Las plaquetas son fragmentos citoplasmáticos anucleados procedentes de megacariocitos; por tanto, no pueden tener un núcleo excéntrico. Los intervalos de tamaño son aproximados: la opción indica 1–3 µm y el temario 2–4 µm, sin afectar a la falsedad inequívoca de D.",
     "motivosPorOpcion": {
       "Se originan a partir de la fragmentación del citoplasma de los megacariocitos.": "Es la procedencia fisiológica descrita por el temario.",
-      "Tienen un tamaño entre 1-3 μm.": "Es compatible de forma aproximada con su pequeño tamaño; el PDF indica 2–4 µm.",
+      "Tienen un tamaño entre 1-3 μm.": "Es una aproximación habitual al pequeño diámetro plaquetario; el temario utiliza el intervalo parcialmente solapado de 2–4 µm.",
       "Su función es la hemostasia primaria.": "La formación del tapón plaquetario es una función esencial de la hemostasia primaria."
     },
     "claveMemorizar": "Plaqueta = fragmento anucleado de megacariocito.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 35",
-    "advertenciaRevision": "El PDF indica un diámetro de 2–4 µm, mientras la opción aceptada como verdadera expresa 1–3 µm; ambos intervalos se solapan, pero no son idénticos."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 35"
   },
   "2-98": {
     "respuestaCorrecta": "A",
@@ -471,15 +463,14 @@
   },
   "2-102": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La LMC se asocia a la translocación t(9;22)(q34;q11), que crea BCR-ABL; el temario la detecta en alrededor del 90% y la pregunta expresa 95%.",
+    "porQueLaCorrecta": "La LMC se asocia a la translocación t(9;22)(q34;q11), que crea BCR::ABL1. La frecuencia se expresa de forma aproximada como 90–95% según la técnica y la fuente; por ello el 95% de la opción y el 90% del temario describen la misma asociación característica.",
     "motivosPorOpcion": {
       "Afecta especialmente a pacientes jóvenes (edad mediana de aparición de 27 años).": "La LMC aparece típicamente en adultos de mayor edad, no con una mediana de 27 años.",
       "Es una enfermedad monofásica: fase aguda o crisis blástica (CB)": "Evoluciona por fases, habitualmente crónica, acelerada y crisis blástica.",
       "El índice de la fosfatasa alcalina granulocitaria (FAG) está aumentado en el 95% de los casos.": "En la LMC el índice FAG suele estar disminuido y ayuda a diferenciarla de una reacción leucemoide."
     },
-    "claveMemorizar": "LMC: BCR-ABL por t(9;22) y FAG baja.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 23 y 30",
-    "advertenciaRevision": "El PDF sitúa el cromosoma Filadelfia en el 90% de pacientes con LMC, mientras la opción correcta de la pregunta indica 95%."
+    "claveMemorizar": "LMC: BCR::ABL1 por t(9;22), presente en aproximadamente 90–95%, y FAG baja.",
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 23 y 30; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 10"
   },
   "2-103": {
     "respuestaCorrecta": "A",
@@ -615,15 +606,14 @@
   },
   "2-115": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El temario relaciona el linfoma de Hodgkin con linfopenia, no con linfocitosis; por eso es la situación que no se espera que eleve linfocitos.",
+    "porQueLaCorrecta": "El temario relaciona el linfoma de Hodgkin con linfopenia, no con linfocitosis; por eso D es la excepción. Aunque las infecciones bacterianas suelen producir neutrofilia, algunas, como la tos ferina, sí pueden acompañarse de linfocitosis.",
     "motivosPorOpcion": {
       "Leucemia linfocítica aguda.": "La proliferación linfoide puede aumentar células de esa línea en sangre, aunque sean blastos.",
       "Leucemia linfocítica crónica.": "Se define por una expansión persistente de linfocitos clonales, típicamente B.",
-      "Infecciones bacterianas.": "Algunas infecciones bacterianas pueden acompañarse de linfocitosis, aunque muchas producen neutrofilia."
+      "Infecciones bacterianas.": "No todas la producen, pero sí puede observarse linfocitosis en infecciones bacterianas concretas, de forma clásica en la tos ferina."
     },
     "claveMemorizar": "Hodgkin se asocia a linfopenia; LLC, a linfocitosis clonal.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, p. 14",
-    "advertenciaRevision": "El PDF respalda linfopenia en Hodgkin, pero no sostiene como regla general que las infecciones bacterianas produzcan linfocitosis; esa opción es demasiado amplia."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 13-14; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 12"
   },
   "2-116": {
     "respuestaCorrecta": "C",
@@ -638,15 +628,14 @@
   },
   "2-117": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Las células B del centro germinal conservan marcadores B como CD20 y CD79a y expresan CD10, asociado al fenotipo de centro germinal.",
+    "porQueLaCorrecta": "Las células B del centro germinal conservan marcadores pan-B como CD20 y CD79a y expresan CD10, marcador de diferenciación del centro germinal. Las opciones C y D añaden marcadores que no definen este perfil.",
     "motivosPorOpcion": {
       "CD20a y CD79a.": "Incluye marcadores B, pero omite CD10, que distingue el fenotipo de centro germinal.",
       "CD20a,CD79a, CD10 y CD120a.": "Añade CD120a, que no forma parte del perfil solicitado en la clave.",
       "CD20a,CD79a, CD10 y CD12a.": "Añade CD12a, marcador que tampoco integra el perfil de centro germinal planteado."
     },
     "claveMemorizar": "Centro germinal B: CD20+, CD79a+ y CD10+.",
-    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 27-28",
-    "advertenciaRevision": "El PDF enumera CD20 como marcador B y CD10 en linfoma folicular, pero no presenta expresamente el perfil conjunto CD20/CD79a/CD10 del centro germinal ni menciona CD79a."
+    "fuente": "Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar.pdf, pp. 27-28; TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 12"
   },
   "2-118": {
     "respuestaCorrecta": "B",
