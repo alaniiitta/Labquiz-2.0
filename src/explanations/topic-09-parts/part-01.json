@@ -1,0 +1,491 @@
+{
+  "1": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteína S actúa como cofactor de la proteína C en la inactivación de factores procoagulantes. Su déficit reduce este freno natural y favorece un estado de hipercoagulabilidad con trombosis recurrentes.",
+    "motivosPorOpcion": {
+      "Afibrinogenemia.": "La afibrinogenemia es la ausencia de fibrinógeno, una alteración del sustrato que forma fibrina, no la consecuencia del déficit de un anticoagulante fisiológico.",
+      "Crisis hemolíticas de repetición.": "La hemólisis implica destrucción de eritrocitos y no es el mecanismo característico de una deficiencia de proteína S.",
+      "Hemorragias frecuentes en las articulaciones.": "Las hemartrosis son típicas de déficits hemorrágicos graves, como las hemofilias, mientras que la falta de proteína S inclina el equilibrio hacia la coagulación."
+    },
+    "claveMemorizar": "Déficit de proteína S = pérdida de anticoagulación natural = trombofilia.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 32 y 34"
+  },
+  "2": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El factor XIII activado entrecruza la fibrina y consolida su red, haciendo resistente el coágulo recién formado. Por eso se denomina factor estabilizante de la fibrina.",
+    "motivosPorOpcion": {
+      "Factor IX.": "El factor IX participa en la vía intrínseca activando el factor X, pero no realiza el entrecruzamiento final de la fibrina.",
+      "Factor VII.": "El factor VII inicia la vía extrínseca junto con el factor tisular y actúa antes de que se forme la red de fibrina.",
+      "Factor XII.": "El factor XII inicia la vía intrínseca por contacto con superficies cargadas negativamente; no estabiliza el coágulo final."
+    },
+    "claveMemorizar": "XIII = estabiliza la fibrina y evita la disolución precoz del coágulo.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 24"
+  },
+  "3": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La agregación forma un tapón plaquetario inicial e inestable y el temario sitúa esta fase en un intervalo breve de 3 a 10 minutos. Diez minutos es, por tanto, el límite superior del intervalo indicado.",
+    "motivosPorOpcion": {
+      "20 minutos.": "Supera el máximo de 10 minutos que el temario atribuye a la fase de agregación plaquetaria.",
+      "30 minutos.": "Corresponde a una duración demasiado prolongada para la formación rápida del tapón plaquetario primario.",
+      "40 minutos.": "No encaja con una fase inicial de la hemostasia que el PDF describe como muy breve, de 3 a 10 minutos."
+    },
+    "claveMemorizar": "Agregación plaquetaria: fase breve, de 3 a 10 minutos.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 7",
+    "advertenciaRevision": "El PDF ofrece un intervalo de 3-10 minutos, no una duración fija de 10 minutos; la opción A solo coincide con su límite superior."
+  },
+  "4": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tiempo de protrombina es sensible a los factores de la vía extrínseca, en especial al VII, que pertenece al grupo vitamina K dependiente. Por ello se altera tempranamente cuando falta esta vitamina.",
+    "motivosPorOpcion": {
+      "Fosfatasa alcalina.": "Es una enzima medida en bioquímica clínica y no una prueba funcional de los factores de coagulación vitamina K dependientes.",
+      "Albúmina.": "Refleja síntesis proteica y estado nutricional, pero no mide la actividad de la vía extrínseca de la coagulación.",
+      "GOT.": "Es una aminotransferasa usada como marcador de lesión celular; no constituye una determinación coagulométrica dependiente de vitamina K."
+    },
+    "claveMemorizar": "Déficit de vitamina K: el TP se altera de forma temprana.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12 y 53"
+  },
+  "5": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El método de succión aplica presión negativa con un angiosterómetro y valora la aparición de petequias. Así explora directamente la resistencia de los pequeños vasos.",
+    "motivosPorOpcion": {
+      "IVY": "El método de Ivy cronometra el tiempo de sangría tras una incisión estandarizada y no es la prueba de succión para fragilidad capilar.",
+      "Factor plaquetario IV": "La liberación del factor plaquetario 4 estudia secreción y activación plaquetarias, no la resistencia de la pared capilar.",
+      "TEG": "La tromboelastografía registra los cambios mecánicos durante la formación del coágulo y pertenece al estudio global de la coagulación."
+    },
+    "claveMemorizar": "Fragilidad capilar: succión y observación de petequias.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 40"
+  },
+  "6": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La adrenalina induce agregación de manera indirecta al estimular la secreción de ADP intraplaquetario. El ADP añadido directamente, en cambio, actúa como agonista directo.",
+    "motivosPorOpcion": {
+      "ADP": "Añadido al plasma rico en plaquetas, el ADP provoca agregación directa y no necesita una liberación intraplaquetaria previa.",
+      "Factor de Born.": "Born designa el procedimiento fotométrico que mide la agregación, no una sustancia agregante.",
+      "Todas son ciertas.": "No todas lo son: el ADP actúa directamente y el método de Born es una técnica de medición, no un inductor indirecto."
+    },
+    "claveMemorizar": "ADP: directo; adrenalina o colágeno: indirectos por liberación de ADP.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 42-43"
+  },
+  "7": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aspirina modifica la función plaquetaria, la heparina potencia la antitrombina y los anticoagulantes orales bloquean la actividad dependiente de vitamina K. Los tres pueden alterar resultados relacionados con la hemostasia y deben constar en la información preanalítica.",
+    "motivosPorOpcion": {
+      "Hipertriglicemia.": "Describe un aumento de triglicéridos y no el efecto farmacológico principal de aspirina, heparina o anticoagulantes orales.",
+      "Bioquímica.": "Es un área analítica demasiado general; la anotación interesa específicamente por la interferencia de estos fármacos con plaquetas o factores de coagulación.",
+      "Hipoglucemia.": "La disminución de glucosa no explica la acción antiagregante o anticoagulante de los medicamentos citados."
+    },
+    "claveMemorizar": "Registrar medicación antiagregante y anticoagulante antes de estudiar hemostasia.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 35 y 64-68"
+  },
+  "8": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticoagulantes orales antivitamina K disminuyen la actividad de factores que repercuten en el tiempo de protrombina. El seguimiento se realiza con el TP estandarizado mediante INR.",
+    "motivosPorOpcion": {
+      "Tiempo de coagulación.": "Es una prueba global manual poco sensible y no permite ajustar de forma estandarizada el tratamiento cumarínico.",
+      "Tiempo de hemorragia.": "Explora hemostasia primaria y función plaquetaria, no la inhibición de factores vitamina K dependientes.",
+      "Tiempo de trombina.": "Mide el paso final de fibrinógeno a fibrina tras añadir trombina y no es la prueba de control de los cumarínicos."
+    },
+    "claveMemorizar": "Anticoagulante oral anti-K: TP expresado como INR.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 53 y 68-69"
+  },
+  "9": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El factor XIII refuerza la red de fibrina una vez activado por trombina. La pérdida de este factor hace que el coágulo se disuelva precozmente.",
+    "motivosPorOpcion": {
+      "V": "El factor V es un cofactor del complejo que activa protrombina y actúa antes de la formación definitiva de fibrina.",
+      "VII": "El factor VII pertenece al inicio de la vía extrínseca y activa al factor X junto con factor tisular y calcio.",
+      "IX": "El factor IX es una proteasa de la vía intrínseca asociada a la hemofilia B, no el estabilizador de fibrina."
+    },
+    "claveMemorizar": "Factor estabilizante de la fibrina = XIII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 24"
+  },
+  "10": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los trastornos adquiridos pueden aparecer por múltiples procesos y tratamientos a lo largo de la vida, por lo que en conjunto superan en frecuencia a los déficits hereditarios raros. Además, suelen comprometer varios componentes y producir sangrado en distintas localizaciones.",
+    "motivosPorOpcion": {
+      "Suelen afectar a un solo factor.": "La afectación aislada de un factor orienta más a un déficit congénito; los procesos adquiridos pueden alterar simultáneamente síntesis, consumo o inhibición de varios factores.",
+      "En ellos el sangrado suele aparecer en un solo sitio.": "Una alteración sistémica de la coagulación no queda limitada necesariamente a una única localización anatómica.",
+      "Todas son falsas.": "La afirmación sobre la mayor frecuencia de los trastornos adquiridos invalida esta opción global."
+    },
+    "claveMemorizar": "Adquiridas: más frecuentes y a menudo multifactoriales; congénitas: déficit específico.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 33-34",
+    "advertenciaRevision": "El PDF diferencia alteraciones congénitas y adquiridas, pero no afirma expresamente que las adquiridas sean más frecuentes ni desarrolla el patrón comparativo completo de este ítem."
+  },
+  "11": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El TTPA mide la formación de fibrina después de añadir calcio, cefalina y un activador de contacto. Es la prueba más sensible del temario para explorar la vía intrínseca, además de la vía común.",
+    "motivosPorOpcion": {
+      "Tiempo de trombina.": "Evalúa la fase final tras añadir trombina al plasma y no recorre los factores propios de la vía intrínseca.",
+      "Tiempo de protrombina.": "Se activa con factor tisular y explora principalmente las vías extrínseca y común.",
+      "Determinación de fibrinógeno.": "Cuantifica o valora funcionalmente el sustrato final de la coagulación, pero no examina de forma específica la vía intrínseca."
+    },
+    "claveMemorizar": "TTPA: vía intrínseca y común.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 52"
+  },
+  "12": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El TP inicia la coagulación in vitro con factor tisular y calcio, reproduciendo la entrada de la vía extrínseca. También incluye el tramo común desde la activación del factor X.",
+    "motivosPorOpcion": {
+      "Tiempo de trombina.": "Solo cronometra la conversión final de fibrinógeno en fibrina después de aportar trombina.",
+      "Tiempo de tromboplastina parcial activada.": "Usa cefalina y activación de contacto para estudiar las vías intrínseca y común.",
+      "Recuento de plaquetas.": "Mide el número de plaquetas y pertenece al estudio de la hemostasia primaria, no de la vía extrínseca."
+    },
+    "claveMemorizar": "TP o Quick: vía extrínseca y común.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 53"
+  },
+  "13": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El factor VII es el componente vitamina K dependiente característico de la vía extrínseca y el TP es especialmente sensible a su actividad. Su descenso se manifiesta precozmente en situaciones que reducen los factores vitamina K dependientes.",
+    "motivosPorOpcion": {
+      "Factor II.": "La protrombina permanece varios días en circulación según el temario, por lo que no explica la alteración más temprana del TP.",
+      "Factor IX.": "Es un factor vitamina K dependiente de la vía intrínseca y no es el principal responsable de la sensibilidad precoz del TP.",
+      "Factor VIII.": "Es un cofactor de la vía intrínseca y no pertenece al grupo de factores vitamina K dependientes."
+    },
+    "claveMemorizar": "Factor VII: vía extrínseca y respuesta temprana del TP.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 14, 18 y 53",
+    "advertenciaRevision": "El PDF relaciona el factor VII con la alteración temprana del TP, pero no aporta una tabla de vidas medias que demuestre de forma explícita que sea el más corto entre las cuatro opciones."
+  },
+  "14": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mutación del factor V Leiden impide que la proteína C activada inactive eficazmente el factor V. Esto prolonga la generación de trombina y constituye la causa hereditaria más habitual de resistencia a proteína C.",
+    "motivosPorOpcion": {
+      "Deficiencia en antitrombina": "También elimina un freno de la coagulación y causa trombofilia, pero no es la alteración más frecuente señalada por el temario.",
+      "Presencia de anticoagulante lúpico.": "Es un factor de riesgo adquirido asociado a anticuerpos antifosfolípidos, no la trombofilia hereditaria más frecuente de la población occidental.",
+      "Deficiencia en proteína S.": "Favorece trombosis al reducir la función de la proteína C, aunque es menos frecuente que la resistencia causada por factor V Leiden."
+    },
+    "claveMemorizar": "Trombofilia hereditaria frecuente: factor V Leiden y resistencia a proteína C activada.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 17, 34 y 61-62"
+  },
+  "15": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hemofilia A se debe a una alteración cuantitativa o funcional del factor VIII. Como este factor participa en la vía intrínseca, el patrón esperado es TP normal y TTPA prolongado.",
+    "motivosPorOpcion": {
+      "Factor V.": "Es un cofactor de la vía común y su déficit no define una hemofilia clásica ligada al cromosoma X.",
+      "Factor VII.": "Pertenece a la vía extrínseca y su disminución afecta sobre todo al TP.",
+      "Factor X.": "Forma parte de la vía común y puede ser activado tanto por la vía intrínseca como por la extrínseca."
+    },
+    "claveMemorizar": "Hemofilia A = factor VIII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 19 y 72-73"
+  },
+  "16": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La protrombina o factor II pertenece a la vía común, donde se convierte en trombina tras la activación del factor X. Ambas vías de inicio convergen en ese tramo final.",
+    "motivosPorOpcion": {
+      "Factor XI.": "Actúa exclusivamente en la vía intrínseca, activando al factor IX.",
+      "Factor VIII.": "Es un cofactor de la vía intrínseca que ayuda a activar el factor X, pero no integra la vía extrínseca.",
+      "Factor III.": "Es el factor tisular que desencadena la vía extrínseca y no pertenece a la vía común."
+    },
+    "claveMemorizar": "Vía común: I, II, V y X.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 27 y 30"
+  },
+  "17": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El factor IX recibe los nombres de factor Christmas o antihemofílico B. Su déficit produce hemofilia B y su forma activada participa en la vía intrínseca.",
+    "motivosPorOpcion": {
+      "Actúa en la Vía Extrínseca.": "Aunque puede ser activado por componentes de ambas vías, el factor IX activado ejerce su función en la vía intrínseca.",
+      "Es un cofactor proteico.": "El factor IX es una enzima de coagulación vitamina K dependiente; el cofactor de su complejo activador del X es el factor VIII.",
+      "Todas las anteriores.": "Las afirmaciones sobre actuar en la vía extrínseca y ser un cofactor no son correctas, por lo que no pueden aceptarse todas."
+    },
+    "claveMemorizar": "IX = Christmas = antihemofílico B.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 20"
+  },
+  "18": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El tiempo de trombina es sensible a la etapa fibrinógeno-fibrina y a la heparina, mientras que la reptilasa forma fibrina sin verse influida por heparina. Compararlos permite reconocer si el alargamiento del tramo final se debe al anticoagulante.",
+    "motivosPorOpcion": {
+      "TT (Tiempo de trombina).": "El TT aislado puede prolongarse por heparina o por alteraciones del fibrinógeno, de modo que no permite distinguir ambas causas.",
+      "Tiempo de reptilase.": "La reptilasa evita la interferencia de heparina, pero por sí sola no cuantifica el efecto anticoagulante ni sustituye el seguimiento fibrinolítico.",
+      "TP (Tiempo de protrombina).": "El TP se usa principalmente para antagonistas de vitamina K y no es la prueba específica de control de la heparina."
+    },
+    "claveMemorizar": "TT sensible a heparina; reptilasa no sensible: la comparación ayuda al diagnóstico diferencial.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54-55, 65 y 70-71",
+    "advertenciaRevision": "La clave del banco no coincide con la monitorización descrita en el PDF: la heparina no fraccionada se controla con TTPA y los trombolíticos con fibrinógeno; TT y reptilasa se presentan como pruebas comparativas de la vía común."
+  },
+  "19": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El anticoagulante lúpico interfiere con los fosfolípidos usados como cofactores en ensayos de coagulación. Por eso se pone de manifiesto mediante pruebas coagulométricas dependientes de fosfolípidos, como variantes del APTT.",
+    "motivosPorOpcion": {
+      "Por inmunofluorescencia.": "El temario distingue el anticoagulante lúpico, evaluado por método coagulativo, de otros anticuerpos antifosfolípidos medidos por inmunoensayo.",
+      "Nefelometría.": "La medición de dispersión de luz no reproduce la interferencia funcional con fosfolípidos que caracteriza a este inhibidor.",
+      "Ninguna de las anteriores es correcta.": "Sí existe una alternativa válida: el PDF incluye expresamente el método coagulativo en el perfil antifosfolipídico."
+    },
+    "claveMemorizar": "Anticoagulante lúpico: detección funcional coagulométrica dependiente de fosfolípidos.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 58-59"
+  },
+  "20": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La trombina es la forma activada de la protrombina, es decir, el factor IIa. Su función central es escindir fibrinógeno para formar fibrina.",
+    "motivosPorOpcion": {
+      "Factor IXa.": "Es la forma activa del factor IX y participa en el complejo intrínseco que activa el factor X.",
+      "Factor Vlla.": "Representa al factor VII activado, que junto con factor tisular inicia la activación extrínseca del factor X.",
+      "Factor Xllla.": "Es el factor XIII activado, encargado de estabilizar la red de fibrina después de su formación."
+    },
+    "claveMemorizar": "Protrombina = II; trombina = IIa.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13-14"
+  },
+  "21": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las vías intrínseca y extrínseca convergen al activar el factor X; desde ahí participan V, II y I para generar trombina y fibrina. Esos cuatro factores forman la vía común.",
+    "motivosPorOpcion": {
+      "I, II, VII, X.": "El factor VII es propio de la vía extrínseca y falta el factor V del complejo protrombinasa.",
+      "I, II, VII, VIII.": "VII pertenece a la vía extrínseca y VIII a la intrínseca; además, esta combinación omite V y X de la vía común.",
+      "I, III, V, VII.": "Los factores III y VII inician la vía extrínseca, mientras que la vía común requiere II y X."
+    },
+    "claveMemorizar": "Común: I, II, V y X.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 27 y 30"
+  },
+  "22": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hemofilia B es un déficit del factor IX de la coagulación plasmática, no una alteración primaria de las plaquetas. Por ello la agregación plaquetaria se conserva.",
+    "motivosPorOpcion": {
+      "Enfermedad de Willebrand": "El factor de von Willebrand interviene en la adhesión plaquetaria y en la aglutinación inducida por ristocetina, por lo que su enfermedad sí altera estudios de función plaquetaria.",
+      "Tratamiento con aspirina": "La aspirina figura entre los antiagregantes plaquetarios y modifica la respuesta funcional de las plaquetas.",
+      "Los está en todas": "No se altera en todas las situaciones: el déficit aislado de factor IX afecta la coagulación secundaria."
+    },
+    "claveMemorizar": "Hemofilia B: factor IX y coagulación secundaria; agregación conservada.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 20, 47, 64 y 72"
+  },
+  "23": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las dicumarinas son anticoagulantes orales antivitamina K y su efecto se refleja en el tiempo de protrombina. Para comparar resultados entre reactivos, el TP se expresa como INR.",
+    "motivosPorOpcion": {
+      "Dosificación de fibrinógeno": "Valora el sustrato final de la coagulación y se solicita ante sospecha de CID o tiempos prolongados, no para ajustar dicumarinas.",
+      "Recuentos plaquetarios": "Controlan la cantidad de plaquetas y no miden la disminución funcional de factores vitamina K dependientes.",
+      "Tiempo de cefalina caolín": "Es una variante del TTPA para la vía intrínseca y se utiliza en especial para heparina no fraccionada."
+    },
+    "claveMemorizar": "Dicumarinas: TP/INR.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 53 y 68-69"
+  },
+  "24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las hemofilias A y B afectan factores VIII o IX de la vía intrínseca. En consecuencia prolongan el TTPA, mientras el TP y el tiempo de trombina permanecen normales.",
+    "motivosPorOpcion": {
+      "TP normal, TTPA normal, TT alargado": "Un TTPA normal no concuerda con un déficit de VIII o IX, y un TT aislado alargado orienta al paso fibrinógeno-fibrina.",
+      "TP alargado, TTPA alargado, TT normal": "La prolongación conjunta de TP y TTPA sugiere afectación de la vía común o de varios factores, no una hemofilia aislada.",
+      "TP alargado, TTPA normal, TT alargado": "La hemofilia no prolonga selectivamente el TP; su alteración característica se encuentra en el TTPA."
+    },
+    "claveMemorizar": "Hemofilia: TP normal, TTPA alargado, TT normal.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 73"
+  },
+  "25": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un varón hemofílico transmite su único cromosoma X alterado a todas sus hijas. Si la madre no porta la alteración, cada hija recibe un X normal materno y queda como portadora.",
+    "motivosPorOpcion": {
+      "Todos los hijos varones padecerán la enfermedad": "Los hijos reciben el cromosoma Y del padre y el X normal de la madre, de modo que el padre no les transmite su X alterado.",
+      "El 50% de las hijas serán portadoras": "El padre entrega su cromosoma X a todas las hijas, no solo a la mitad.",
+      "El 50% de los hijos varones padecerán la enfermedad": "Con una madre no portadora, los hijos varones reciben de ella un X normal y no heredan el X paterno."
+    },
+    "claveMemorizar": "Padre hemofílico y madre no portadora: todas las hijas portadoras, hijos sanos.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 74"
+  },
+  "26": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El INR es una razón normalizada que corrige el tiempo de protrombina según la sensibilidad de la tromboplastina utilizada. Permite comparar el control de anticoagulantes orales entre laboratorios.",
+    "motivosPorOpcion": {
+      "Índice de sensibilidad nacional": "La sensibilidad del reactivo se expresa mediante ISI, que significa índice de sensibilidad internacional, no nacional.",
+      "Patrón de referencia de tromboplastina": "La tromboplastina de referencia interviene en la estandarización, pero no es lo que designan las siglas INR.",
+      "Índice nacional racional": "No corresponde a ninguna magnitud coagulométrica definida en el temario."
+    },
+    "claveMemorizar": "INR = razón internacional normalizada del TP.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 53"
+  },
+  "27": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El factor XIII activado estabiliza el coágulo al reforzar la red de fibrina. Esa función da origen a su nombre alternativo.",
+    "motivosPorOpcion": {
+      "Factor Stuart": "Stuart-Prower es la denominación del factor X, componente vitamina K dependiente de la vía común.",
+      "Factor Christmas": "Christmas es el nombre del factor IX, cuyo déficit causa hemofilia B.",
+      "Factor de Voguel": "El temario no emplea esta denominación para el factor XIII; lo identifica como estabilizante de la fibrina."
+    },
+    "claveMemorizar": "XIII = factor estabilizante de la fibrina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 20-21 y 24"
+  },
+  "28": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El factor VIII es un cofactor de la vía intrínseca y no necesita vitamina K para su activación. El grupo dependiente de esta vitamina incluye II, VII, IX y X, además de proteínas C y S.",
+    "motivosPorOpcion": {
+      "Factor X": "Se sintetiza en el hígado y requiere vitamina K para adquirir actividad coagulante.",
+      "Proteína C": "Es un anticoagulante fisiológico de síntesis hepática expresamente clasificado como vitamina K dependiente.",
+      "Proteína S": "Actúa como cofactor de la proteína C y también pertenece al grupo dependiente de vitamina K."
+    },
+    "claveMemorizar": "Vitamina K: II, VII, IX, X, proteína C y proteína S; no VIII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12, 19 y 32"
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La vía intrínseca comienza cuando el factor XII contacta con superficies de carga negativa y se transforma en XIIa. Este activa sucesivamente XI e IX hasta llegar al factor X.",
+    "motivosPorOpcion": {
+      "Factor II": "La protrombina pertenece a la vía común y se activa después de que ambas vías hayan convergido en el factor X.",
+      "Factor IV": "El calcio participa en numerosos complejos, pero no es el factor de contacto que inicia la secuencia intrínseca.",
+      "Factor VI": "La clasificación usada en el temario no incluye un factor VI funcional en la cascada."
+    },
+    "claveMemorizar": "Contacto inicia XII; después XI, IX, VIII y X.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 23 y 28"
+  },
+  "30": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El tubo de tapón azul contiene citrato sódico, que secuestra calcio de forma reversible y conserva los factores para el ensayo. La proporción correcta es una parte de anticoagulante por nueve de sangre.",
+    "motivosPorOpcion": {
+      "Heparina sódica": "Potencia la antitrombina y prolonga pruebas de coagulación, por lo que interferiría con los tiempos que se quieren medir.",
+      "EDTA": "Se emplea habitualmente para conservar células en hematología, pero no es el anticoagulante indicado para las pruebas coagulométricas del temario.",
+      "Heparina litio": "Es apropiada para determinadas pruebas bioquímicas, pero su acción antitrombínica altera el estudio de coagulación."
+    },
+    "claveMemorizar": "Tapón azul: citrato sódico 1:9.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 35"
+  },
+  "31": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las plaquetas captan serotonina del plasma, la almacenan en sus gránulos densos y la liberan durante la agregación. Su medición sirve para estudiar la secreción plaquetaria.",
+    "motivosPorOpcion": {
+      "Renina.": "Es una enzima reguladora de la presión arterial producida principalmente por el riñón y no figura entre las sustancias liberadas por plaquetas.",
+      "Insulina.": "Es una hormona pancreática del control glucémico, no un componente de los gránulos plaquetarios descritos.",
+      "Globulina.": "Es una categoría amplia de proteínas plasmáticas y no identifica el mediador granular liberado durante la agregación."
+    },
+    "claveMemorizar": "Agregación plaquetaria: liberación de serotonina desde gránulos densos.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 37 y 46"
+  },
+  "32": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tiempo de protrombina añade factor tisular y calcio al plasma para activar la vía extrínseca. También examina los factores de la vía común.",
+    "motivosPorOpcion": {
+      "Tiempo de tromboplastina parcial activada (TTPA).": "Incorpora cefalina y un activador de contacto para explorar las vías intrínseca y común.",
+      "Tiempo de recalcificación del plasma.": "Es una prueba global que mide la coagulación del plasma citratado al devolverle calcio, sin aislar la vía extrínseca.",
+      "Tiempo de tromboplastina parcial (TTP).": "El tiempo de cefalina pertenece al estudio de la vía intrínseca y común."
+    },
+    "claveMemorizar": "TP: extrínseca; TTPA: intrínseca.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 53"
+  },
+  "33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La cefalina aporta los fosfolípidos que sustituyen al factor plaquetario 3 en el TTP y el TTPA. En el TTPA se combina además con calcio y un activador de contacto.",
+    "motivosPorOpcion": {
+      "Lecitina.": "No es el sustituto de FP3 que el procedimiento del temario especifica para estas pruebas.",
+      "Caolín.": "Actúa como activador de contacto en el TTPA, pero no reemplaza la superficie fosfolipídica del factor plaquetario 3.",
+      "Heparina.": "Es un anticoagulante que potencia la antitrombina y puede prolongar el TTPA; no se añade como sustituto fosfolipídico."
+    },
+    "claveMemorizar": "Cefalina sustituye FP3; caolín activa el contacto.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 51-52"
+  },
+  "34": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La trombina convierte el fibrinógeno soluble en fibrina insoluble. La fibrina forma una red sobre el tapón plaquetario y da consistencia al coágulo.",
+    "motivosPorOpcion": {
+      "Plasmina.": "Es la enzima que hidroliza la red de fibrina durante la fibrinólisis, por lo que elimina el coágulo en lugar de formarlo.",
+      "Fibrinógeno.": "Es el precursor plasmático soluble; debe transformarse en fibrina para constituir la malla del coágulo.",
+      "Plasminógeno.": "Es el precursor inactivo de la plasmina y pertenece al sistema fibrinolítico."
+    },
+    "claveMemorizar": "Fibrinógeno soluble se transforma en fibrina insoluble.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 8-9 y 13-14"
+  },
+  "35": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hemofilia B aparece cuando el factor IX está ausente o alterado. Este factor, también llamado Christmas, interviene en la vía intrínseca.",
+    "motivosPorOpcion": {
+      "Factor VIII": "Su alteración corresponde a hemofilia A, no a hemofilia B.",
+      "Factor V": "Es un cofactor de la vía común y no define ninguna de las dos hemofilias clásicas ligadas al X.",
+      "Factor X": "Es una proteasa de la vía común activada por ambas vías y su déficit no recibe el nombre de hemofilia B."
+    },
+    "claveMemorizar": "Hemofilia B: factor IX o Christmas.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 20 y 72"
+  },
+  "36": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El método fotométrico de Born añade agonistas a plasma rico en plaquetas y sigue el cambio de densidad óptica. A medida que las plaquetas se agregan, aumenta la transmisión de luz.",
+    "motivosPorOpcion": {
+      "El método de IVY combinado.": "Ivy mide el tiempo de sangría y no registra una curva de agregación en plasma rico en plaquetas.",
+      "Métodos inmunológicos.": "Se aplican a determinaciones antigénicas, pero no son el procedimiento funcional clásico para observar la agregación inducida.",
+      "Métodos de sangría provocada.": "Evalúan in vivo el cese de una hemorragia pequeña y no cuantifican la respuesta a agonistas plaquetarios."
+    },
+    "claveMemorizar": "Agregometría óptica = procedimiento fotométrico de Born.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 42-43"
+  },
+  "37": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una determinación funcional cromogénica usa un sustrato que libera un compuesto coloreado al ser hidrolizado, permitiendo cuantificar actividad enzimática. La clave del banco identifica S-223822 como el reactivo asociado al estudio de ATIII.",
+    "motivosPorOpcion": {
+      "A-523.": "El PDF no reconoce este código como sustrato cromogénico para la determinación funcional de antitrombina III.",
+      "L-43652514.": "Esta designación no aparece vinculada en el temario a un ensayo funcional de antitrombina III.",
+      "Ninguna es cierta.": "La clave del banco asigna un sustrato concreto, aunque el PDF disponible no permite verificar su código."
+    },
+    "claveMemorizar": "Ensayo cromogénico: la actividad enzimática se traduce en liberación de color.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 62 y 67",
+    "advertenciaRevision": "El PDF menciona la antitrombina III funcional y explica el principio de los métodos cromogénicos, pero no contiene el código «S-223822» ni permite distinguirlo de las otras opciones. Deben revisarse la clave y la posible errata del reactivo."
+  },
+  "38": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El suero es la fracción líquida obtenida después de que la sangre coagule. Durante ese proceso el fibrinógeno se transforma y queda incorporado al coágulo, de modo que ya no está presente como en el plasma.",
+    "motivosPorOpcion": {
+      "Es lo mismo que el plasma.": "El plasma se obtiene con anticoagulante y conserva fibrinógeno, mientras que el suero aparece tras la coagulación.",
+      "Plasma al que se le ha añadido factor de la coagulación.": "La diferencia no consiste en añadir factores, sino en que el proceso de coagulación consume o retira varios de ellos.",
+      "Parte forme de la sangre.": "La parte forme corresponde a células y plaquetas; el suero es una fracción líquida."
+    },
+    "claveMemorizar": "Plasma conserva fibrinógeno; suero se obtiene tras coagular.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13 y 36"
+  },
+  "39": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tromboxano A2 liberado durante la activación plaquetaria refuerza la hemostasia primaria produciendo vasoconstricción. También favorece el reclutamiento y la agregación de más plaquetas.",
+    "motivosPorOpcion": {
+      "Se producen a partir de los leucotrienos.": "El temario no establece esa procedencia y presenta al tromboxano como mediador plaquetario propio de la activación.",
+      "Inhiben la agregación plaquetaria.": "El tromboxano figura entre los activadores de agregación; el inhibidor endotelial destacado es la prostaciclina.",
+      "Se producen en las células endoteliales.": "El mediador endotelial antiagregante descrito es la prostaciclina, mientras el tromboxano se asocia a las plaquetas activadas."
+    },
+    "claveMemorizar": "Tromboxano A2: vasoconstrictor y proagregante.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 5 y 44"
+  },
+  "40": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ADP es un agonista clásico que se añade al plasma rico en plaquetas para provocar agregación directa. La respuesta se cuantifica por el cambio de transmisión luminosa en el método de Born.",
+    "motivosPorOpcion": {
+      "Calcio.": "Participa en múltiples reacciones de la coagulación plasmática, pero no es el agonista indicado aquí para construir la curva de agregación.",
+      "Protrombina.": "Es el precursor de la trombina en la vía común y no se usa como reactivo estándar de agregometría.",
+      "ATP.": "El agonista señalado en el temario es ADP; cambiar un fosfato modifica la molécula y su función en este ensayo."
+    },
+    "claveMemorizar": "ADP añadido = agregación plaquetaria directa.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 42"
+  },
+  "41": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Sintrom contiene acenocumarol, un derivado cumarínico con acción antivitamina K. Su dosis se ajusta con el tiempo de protrombina expresado como INR.",
+    "motivosPorOpcion": {
+      "TT (Tiempo de Trombina).": "Evalúa la conversión final de fibrinógeno en fibrina y es sensible a inhibidores de trombina, no es el control de Sintrom.",
+      "APTT (Tiempo de Tromboplastina Parcial Activada).": "Se utiliza para explorar la vía intrínseca y monitorizar heparina no fraccionada.",
+      "TR (Tiempo de Reptilasa).": "Se usa como comprobación de la formación de fibrina sin interferencia de heparina, no para ajustar cumarínicos."
+    },
+    "claveMemorizar": "Sintrom/acenocumarol: control con TP-INR.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 68-69"
+  },
+  "42": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La plasmina hidroliza la red de fibrina y genera productos de degradación de distinto tamaño. Entre los productos tardíos se encuentra el dímero D, mientras la fibrinólisis también eleva los PDF.",
+    "motivosPorOpcion": {
+      "Dímeros D.": "El dímero D es uno de los productos tardíos, pero la degradación proteolítica origina además otros fragmentos agrupados como PDF.",
+      "PDF (Productos de degradación del fibrinógeno).": "Los PDF aumentan con la fibrinólisis, pero esta opción aislada omite el dímero D procedente de fibrina entrecruzada.",
+      "Monómeros de fibrina.": "Los monómeros se forman cuando la trombina actúa sobre fibrinógeno durante la coagulación, no como resultado final de la acción lítica de plasmina."
+    },
+    "claveMemorizar": "Plasmina corta fibrina: aparecen PDF y dímero D.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 9, 63 y 75"
+  },
+  "43": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las muestras para coagulación se recogen con una parte de citrato sódico por nueve partes de sangre. Respetar el llenado evita que un exceso relativo de citrato prolongue artificialmente los tiempos.",
+    "motivosPorOpcion": {
+      "Con citrato 1:4.": "Esa proporción aporta demasiado anticoagulante para el volumen de sangre y altera la recalcificación del ensayo.",
+      "Con CPD y citrato.": "El CPD se asocia a la conservación de sangre, no a la proporción estandarizada del tubo para tiempos de coagulación.",
+      "Con heparina.": "La heparina prolonga pruebas como TTPA, TP y TT y por ello no debe usarse como anticoagulante de la muestra coagulométrica."
+    },
+    "claveMemorizar": "Muestra de coagulación: citrato:sangre = 1:9.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 35"
+  },
+  "44": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prostaciclina es producida por el endotelio vascular y frena la adhesión y activación de las plaquetas. De este modo limita el crecimiento del tapón fuera de la zona lesionada.",
+    "motivosPorOpcion": {
+      "Endoperóxido PGG2.": "El temario lo incluye entre las sustancias con poder agonista sobre la agregación plaquetaria.",
+      "Prostaglandina E2.": "Figura en la relación de activadores usada para simular la agregación in vitro, no como el inhibidor endotelial destacado.",
+      "Tromboxano A2.": "Promueve vasoconstricción y activación plaquetaria, por lo que favorece el tapón en vez de inhibirlo."
+    },
+    "claveMemorizar": "Prostaciclina endotelial: antiadhesiva y antiagregante; tromboxano plaquetario: proagregante.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 5 y 44"
+  }
+}

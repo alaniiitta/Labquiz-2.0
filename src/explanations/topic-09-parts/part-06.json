@@ -1,0 +1,439 @@
+{
+  "221": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El factor II o protrombina se sintetiza en el hígado y necesita vitamina K para adquirir actividad funcional. Forma parte del grupo II, VII, IX y X.",
+    "motivosPorOpcion": {
+      "XII": "El factor XII pertenece al sistema de contacto de la vía intrínseca y no es vitamina K dependiente.",
+      "XI": "El factor XI participa en la vía intrínseca, pero su síntesis funcional no depende de la vitamina K.",
+      "VIII": "El factor VIII es un cofactor de la vía intrínseca que circula unido al factor de von Willebrand y no es vitamina K dependiente."
+    },
+    "claveMemorizar": "Factores vitamina K dependientes: II, VII, IX y X; también proteínas C y S.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12 y 14"
+  },
+  "222": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El TTPA puede prolongarse por heparina no fraccionada, por déficits de factores de la vía intrínseca o por anticoagulante lúpico, que interfiere in vitro con los fosfolípidos del reactivo. Por ello, las tres situaciones propuestas son posibles.",
+    "motivosPorOpcion": {
+      "Heparina no fraccionada en el plasma.": "La heparina no fraccionada prolonga el TTPA, pero no es la única causa incluida en las opciones.",
+      "Posible existencia de anticoagulante lúpico.": "El anticoagulante lúpico puede prolongar pruebas dependientes de fosfolípidos, aunque también son válidas las otras causas enumeradas.",
+      "Alteración de factores de la vía intrínseca.": "Los déficits de VIII, IX, XI o XII prolongan el TTPA, pero esta opción por sí sola no reúne todas las posibilidades correctas."
+    },
+    "claveMemorizar": "TTPA prolongado: heparina, anticoagulante lúpico o defecto de la vía intrínseca.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 51, 59 y 65"
+  },
+  "223": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el método de Clauss se añade un exceso de trombina para que la variable limitante sea el fibrinógeno funcional. Cuanto mayor es su concentración, más rápidamente aparece fibrina y menor es el tiempo de coagulación.",
+    "motivosPorOpcion": {
+      "Con una concentración disminuida de trombina, el tiempo de coagulación del plasma es directamente proporcional a la concentración de fibrinógeno.": "El método funcional estandarizado emplea trombina en exceso; disminuirla convertiría su concentración en una interferencia y no establece la relación analítica indicada.",
+      "Con una concentración elevada de trombina, el tiempo de coagulación del plasma es directamente proporcional a la concentración de fibrinógeno.": "Con trombina en exceso la relación es inversa: más fibrinógeno produce un coágulo detectable en menos tiempo.",
+      "Con una concentración disminuida de trombina, el tiempo de coagulación del plasma es inversamente proporcional a la concentración de fibrinógeno.": "Aunque propone una relación inversa, no describe el método de Clauss porque este exige una concentración elevada de trombina."
+    },
+    "claveMemorizar": "Clauss: exceso de trombina; tiempo de coagulación inverso al fibrinógeno funcional.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 56"
+  },
+  "224": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El tiempo de tromboplastina parcial activada explora la vía intrínseca y la vía común al activar por contacto un plasma citratado en presencia de fosfolípidos y calcio.",
+    "motivosPorOpcion": {
+      "Tiempo de trombina.": "Evalúa la conversión final de fibrinógeno en fibrina tras añadir trombina, no el conjunto de la vía intrínseca.",
+      "Tiempo de protrombina.": "Explora principalmente la vía extrínseca y común, con especial sensibilidad al factor VII.",
+      "Determinación de fibrinógeno.": "Cuantifica el sustrato final de la coagulación, pero no estudia de manera global los factores de la vía intrínseca."
+    },
+    "claveMemorizar": "TTPA: vía intrínseca y común; TP: vía extrínseca y común.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 51"
+  },
+  "225": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El fibrinógeno está presente en el plasma, pero se consume al formarse el coágulo y por eso el suero carece de él. Llamarlo proteína sérica es la afirmación incorrecta.",
+    "motivosPorOpcion": {
+      "El fibrinógeno se sintetiza en el hígado.": "El fibrinógeno plasmático tiene síntesis hepática, por lo que esta afirmación es correcta.",
+      "El fibrinógeno es una proteína soluble.": "Circula como proteína soluble y la trombina lo transforma en fibrina insoluble.",
+      "Su principal función es la formación del coágulo.": "Es el precursor de la red de fibrina que consolida el coágulo, de modo que esta función está correctamente descrita."
+    },
+    "claveMemorizar": "Plasma contiene fibrinógeno; suero = plasma sin fibrinógeno y otros factores consumidos.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 8, 13 y 36"
+  },
+  "226": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La trombina activa el factor XIII, que entrecruza la fibrina y estabiliza el coágulo frente a su disolución precoz.",
+    "motivosPorOpcion": {
+      "Factor X.": "El factor X inicia la vía común al generar trombina dentro del complejo protrombinasa, pero no entrecruza la fibrina.",
+      "Factor VIII.": "El factor VIII actúa como cofactor de IXa en la vía intrínseca y no es el estabilizador final de la fibrina.",
+      "Factor I.": "El factor I es el fibrinógeno, sustrato que se convierte en fibrina; la estabilización por enlaces cruzados corresponde al XIII."
+    },
+    "claveMemorizar": "Factor XIII = factor estabilizador de la fibrina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 24"
+  },
+  "227": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las plaquetas no se limitan a construir el tapón primario: también secretan mediadores y aportan una superficie fosfolipídica para reacciones de la coagulación. Por eso afirmar que esa es su única función es incorrecto.",
+    "motivosPorOpcion": {
+      "Previenen la salida de sangre de los vasos.": "La adhesión y agregación plaquetarias sellan inicialmente la lesión vascular y limitan la pérdida sanguínea.",
+      "Actúan en diversos pasos de la activación de los factores de coagulación.": "Los fosfolípidos plaquetarios y las sustancias liberadas favorecen el ensamblaje y activación de complejos de coagulación.",
+      "Su déficit produce una tendencia al sangrado.": "La trombocitopenia deteriora la hemostasia primaria y favorece hemorragias, especialmente mucocutáneas."
+    },
+    "claveMemorizar": "Plaquetas: tapón primario, secreción y superficie para la coagulación.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 6-8 y 28"
+  },
+  "228": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El tiempo de protrombina recibe también el nombre de tiempo de Quick y valora las vías extrínseca y común tras añadir factor tisular y calcio.",
+    "motivosPorOpcion": {
+      "Tiempo de trombina.": "Es una prueba distinta que mide la formación de fibrina después de añadir trombina al plasma.",
+      "Tiempo de Reptilase.": "Es una variante de la fase final que emplea veneno de Bothrops y no se altera por heparina.",
+      "Tiempo de Ivy.": "Es un método de tiempo de sangría para estudiar hemostasia primaria, no un sinónimo del TP."
+    },
+    "claveMemorizar": "Tiempo de protrombina = tiempo de Quick.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 53"
+  },
+  "229": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La alteración tiroidea relacionada con hiperhomocisteinemia es el hipotiroidismo, no el hipertiroidismo. Por tanto, la afirmación propuesta invierte la asociación.",
+    "motivosPorOpcion": {
+      "La homocisteína aumenta con la edad.": "La concentración tiende a elevarse con la edad por cambios metabólicos, nutricionales y renales.",
+      "Los hombres presentan valores más elevados que las mujeres premenopáusicas.": "Antes de la menopausia las mujeres suelen presentar valores inferiores, relacionados en parte con diferencias hormonales y de masa muscular.",
+      "El déficit de las vitaminas B⁶, B¹² o el ácido fólico origina hiperhomocisteinemia": "Estas vitaminas participan como cofactores en la remetilación o transulfuración de la homocisteína; su déficit dificulta su metabolismo."
+    },
+    "claveMemorizar": "Hiperhomocisteinemia adquirida: hipotiroidismo y déficits de B6, B12 o folato.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 34",
+    "advertenciaRevision": "El PDF respalda la asociación con hipotiroidismo y antagonistas del folato, pero no documenta en esa página las diferencias por edad, sexo ni todos los déficits vitamínicos citados."
+  },
+  "230": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El factor VII pertenece a la vía extrínseca; su déficit aislado prolonga el TP mientras deja normal el TTPA, que explora la vía intrínseca.",
+    "motivosPorOpcion": {
+      "Deficiencia de factor V.": "El factor V pertenece a la vía común, por lo que su déficit puede prolongar tanto el TP como el TTPA.",
+      "Deficiencia de factor XII.": "El factor XII pertenece a la vía intrínseca y prolongaría el TTPA, no el TP aislado.",
+      "Inhibidor adquirido frente al factor VIII.": "El factor VIII forma parte de la vía intrínseca; un inhibidor contra él produce prolongación aislada del TTPA."
+    },
+    "claveMemorizar": "TP aislado prolongado: pensar en factor VII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 51, 53 y 58"
+  },
+  "231": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La warfarina es un anticoagulante oral antagonista de vitamina K y su efecto se controla mediante el tiempo de protrombina expresado como INR.",
+    "motivosPorOpcion": {
+      "Concentraciones plasmáticas de warfarina.": "La concentración del fármaco no refleja de forma tan útil la respuesta anticoagulante individual como el efecto funcional sobre el TP/INR.",
+      "Tiempo de tromboplastina parcial activada.": "Se utiliza sobre todo para explorar la vía intrínseca y monitorizar heparina no fraccionada.",
+      "Tiempo de trombina.": "Evalúa la conversión de fibrinógeno en fibrina y es muy sensible a inhibidores de trombina, pero no es la prueba de control de warfarina."
+    },
+    "claveMemorizar": "Warfarina y acenocumarol se monitorizan con TP/INR.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 68-69"
+  },
+  "232": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cumarínicos reducen la actividad de factores vitamina K dependientes y se monitorizan con el tiempo de protrombina, normalizado mediante el INR.",
+    "motivosPorOpcion": {
+      "Tiempo de coagulación en tubo.": "Es una prueba global poco sensible y poco estandarizada para ajustar anticoagulantes orales.",
+      "Tiempo de tromboplastina parcial.": "Explora principalmente la vía intrínseca y se emplea para heparina no fraccionada, no para el control rutinario de cumarínicos.",
+      "Tiempo de trombina.": "Mide la fase de conversión de fibrinógeno a fibrina y no cuantifica adecuadamente el efecto antivitamina K."
+    },
+    "claveMemorizar": "Cumarínicos: control con TP expresado como INR.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 68-69"
+  },
+  "233": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El estudio de trombofilia incluye la concentración de homocisteína y la evaluación funcional o antigénica de las proteínas C y S, entre otras determinaciones.",
+    "motivosPorOpcion": {
+      "Determinación de proteína C y S, Coombs directo.": "Las proteínas C y S sí forman parte del estudio, pero el Coombs directo detecta inmunoglobulinas o complemento unidos a hematíes y no es una prueba de trombofilia.",
+      "Determinación de Inmunoglobulinas y proteína C y S.": "La cuantificación general de inmunoglobulinas no evalúa los mecanismos trombofílicos; para síndrome antifosfolipídico se buscan anticuerpos específicos.",
+      "Son verdaderas A y C": "La opción A incluye un Coombs directo, que no pertenece al panel de trombofilia, por lo que no pueden ser verdaderas ambas."
+    },
+    "claveMemorizar": "Trombofilia: proteína C, proteína S, antitrombina, homocisteína y perfil antifosfolipídico.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 62"
+  },
+  "234": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El INR normaliza el TP y se utiliza para monitorizar anticoagulantes orales antivitamina K. La heparina no fraccionada se controla habitualmente con TTPA, no con INR.",
+    "motivosPorOpcion": {
+      "Expresa el valor correcto del tiempo de protrombina (TP).": "El INR estandariza el cociente entre TP del paciente y control según la sensibilidad de la tromboplastina.",
+      "En pacientes sanos tiene un valor alrededor de 1.": "Sin anticoagulación, el cociente normalizado se aproxima a 1; el temario sitúa el intervalo habitual en 0,9-1,2.",
+      "Es una prueba que se utiliza para descartar anomalías en la vía extrínseca de la coagulación.": "Al derivar del TP, informa sobre la vía extrínseca y común, aunque su uso principal es estandarizar el seguimiento antivitamina K."
+    },
+    "claveMemorizar": "INR para antivitamina K; TTPA para heparina no fraccionada.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 53, 65 y 71"
+  },
+  "235": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El dímero D es muy sensible pero poco específico: un valor normal ayuda a excluir TVP en un contexto clínico apropiado, mientras que uno elevado requiere correlación y pruebas de imagen.",
+    "motivosPorOpcion": {
+      "El resultado de dímero D confirma el diagnóstico de trombosis venosa profunda.": "Puede elevarse en inflamación, cáncer, embarazo, cirugía y otras situaciones, por lo que no confirma por sí solo una TVP.",
+      "El resultado de dímero D descarta el diagnóstico de trombosis venosa profunda.": "Un resultado elevado no descarta trombosis; es la normalidad, junto con baja probabilidad clínica, la que tiene utilidad excluyente.",
+      "El resultado de dímero D tiene un alto valor predictivo positivo.": "Su baja especificidad limita el valor predictivo positivo incluso cuando la cifra es alta."
+    },
+    "claveMemorizar": "Dímero D normal: alto valor predictivo negativo; elevado: no confirma trombosis.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 63"
+  },
+  "236": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cuatro factores procoagulantes dependientes de vitamina K son II, VII, IX y X; necesitan gamma-carboxilación para unirse al calcio y funcionar.",
+    "motivosPorOpcion": {
+      "II, V, IX, XI.": "Incluye V y XI, que no dependen de vitamina K, y omite VII y X.",
+      "Fibrinógeno, VII, IX, X.": "El fibrinógeno o factor I no es vitamina K dependiente y falta el factor II.",
+      "II, VI, IX, X.": "El factor VI no se reconoce como factor independiente y la lista omite el factor VII."
+    },
+    "claveMemorizar": "Generación de 1927: X, IX, II y VII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 10 y 12"
+  },
+  "237": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prueba de Rumpel-Leede es la prueba del torniquete: se dificulta el retorno venoso con un esfigmomanómetro y se valora la aparición de petequias como indicador de fragilidad capilar.",
+    "motivosPorOpcion": {
+      "La prueba del tiempo de coagulación.": "El tiempo de coagulación mide cuánto tarda en formarse un coágulo y no evalúa petequias inducidas por presión.",
+      "La prueba del tiempo de obturación.": "El tiempo de obturación evalúa función plaquetaria en un analizador y no es el nombre de Rumpel-Leede.",
+      "La prueba del tiempo de sangría": "El tiempo de sangría mide la duración del sangrado tras una incisión o punción estandarizada, sin contar petequias por torniquete."
+    },
+    "claveMemorizar": "Rumpel-Leede = torniquete y recuento de petequias.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 40"
+  },
+  "238": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El factor VIII es un cofactor de la vía intrínseca que, junto con IXa, favorece la activación del factor X.",
+    "motivosPorOpcion": {
+      "II": "La protrombina o factor II pertenece a la vía común y se convierte en trombina.",
+      "VII": "El factor VII forma con el factor tisular el complejo iniciador de la vía extrínseca.",
+      "X": "El factor X marca el inicio de la vía común, donde convergen las vías intrínseca y extrínseca."
+    },
+    "claveMemorizar": "Intrínseca: XII, XI, IX y VIII; extrínseca: VII; común: X, V, II y I.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 19 y 27-29"
+  },
+  "239": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteína C se sintetiza en el hígado y es vitamina K dependiente, de modo que la opción que afirma síntesis renal y ausencia de dependencia vitamínica es incorrecta.",
+    "motivosPorOpcion": {
+      "Es una proteína plasmática.": "Circula en plasma como un zimógeno anticoagulante antes de su activación.",
+      "Facilita la lisis del coágulo.": "La proteína C activada favorece un entorno profibrinolítico al reducir inhibidores de la fibrinólisis, además de su acción anticoagulante.",
+      "Su cimógeno es activado por la trombina.": "La trombina unida a trombomodulina activa el zimógeno proteína C."
+    },
+    "claveMemorizar": "Proteína C: hepática, vitamina K dependiente y activada por trombina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12 y 32",
+    "advertenciaRevision": "El PDF confirma síntesis hepática, dependencia de vitamina K y activación por trombina, pero no desarrolla de forma explícita la afirmación sobre facilitar la lisis del coágulo."
+  },
+  "240": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La vitamina K es necesaria para la síntesis funcional de los factores II, VII, IX y X y de los anticoagulantes naturales proteína C y proteína S.",
+    "motivosPorOpcion": {
+      "Vitamina E.": "Actúa principalmente como antioxidante liposoluble y no gamma-carboxila factores de coagulación.",
+      "Vitamina D.": "Regula sobre todo el metabolismo fosfocálcico y no es el cofactor vitamínico de estas proteínas hemostáticas.",
+      "Vitamina A.": "Participa en visión, diferenciación celular y mantenimiento epitelial, pero no activa los factores indicados."
+    },
+    "claveMemorizar": "Vitamina K: II, VII, IX, X, C y S.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12 y 32"
+  },
+  "241": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La mayoría de las pruebas coagulométricas se realizan con plasma citratado pobre en plaquetas para minimizar el aporte variable de fosfolípidos plaquetarios.",
+    "motivosPorOpcion": {
+      "Plasma rico en plaquetas.": "Se reserva principalmente para estudios de función y agregación plaquetaria, no para la mayoría de tiempos de coagulación.",
+      "Plasma adsorbido.": "Es un reactivo especial carente de determinados factores y no la muestra rutinaria de las pruebas de coagulación.",
+      "No se utiliza plasma, es más adecuado utilizar suero.": "El suero ha perdido fibrinógeno y otros factores durante la coagulación, por lo que no sirve para medir adecuadamente la cascada."
+    },
+    "claveMemorizar": "Coagulación: PPP; agregación plaquetaria: PRP.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 36"
+  },
+  "242": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hiperhomocisteinemia adquirida puede aparecer por causas patológicas, fármacos antagonistas del folato o carencias nutricionales de folato y vitamina B12. No obedece a una mutación heredada única.",
+    "motivosPorOpcion": {
+      "Hiperhomocisteinemia congénita.": "La forma congénita se debe a defectos hereditarios de enzimas del metabolismo de la homocisteína, no a carencias o fármacos adquiridos.",
+      "Disfibrinogenemia.": "Es una alteración cualitativa del fibrinógeno y no deriva de una ingesta insuficiente de B12 o folato.",
+      "Síndrome nefrótico.": "Puede crear hipercoagulabilidad por pérdida urinaria de anticoagulantes naturales, pero no define la alteración metabólica descrita."
+    },
+    "claveMemorizar": "B12 y folato bajos elevan homocisteína de forma adquirida.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 34",
+    "advertenciaRevision": "El PDF relaciona la hiperhomocisteinemia adquirida con insuficiencia renal, hipotiroidismo y antagonistas del folato, pero no menciona expresamente en el fragmento la ingesta escasa de vitamina B12."
+  },
+  "243": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un coágulo parcial consume factores y altera de forma impredecible los tiempos, por lo que debe inspeccionarse y descartarse antes de validar un TTPA anormalmente corto.",
+    "motivosPorOpcion": {
+      "Descartar la contaminación por heparina realizando la prueba trombina/Reptilase.": "La heparina prolongaría el TTPA y el TT; no explica un TTPA acortado.",
+      "Realizar la prueba dímero-D.": "El dímero D evalúa degradación de fibrina y no resuelve primero la posible invalidez preanalítica de la muestra.",
+      "Realizar la prueba fibrinógeno.": "Un fibrinógeno elevado puede acortar pruebas en inflamación, pero antes hay que excluir una muestra coagulada."
+    },
+    "claveMemorizar": "Resultado incoherente o acortado: revisar primero coágulos y fase preanalítica.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 35-36",
+    "advertenciaRevision": "El PDF describe la obtención y preparación preanalítica del plasma, pero no formula de manera explícita este algoritmo ante TP normal y TTPA acortado."
+  },
+  "244": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El fibrinógeno es un reactante positivo de fase aguda; durante un proceso infeccioso o inflamatorio puede aumentar su concentración plasmática.",
+    "motivosPorOpcion": {
+      "Un resultado de dímero-D disminuido": "La inflamación no determina como respuesta característica una disminución del dímero D; este puede incluso elevarse si aumenta la formación y degradación de fibrina.",
+      "Un resultado de TP acortado": "El TP no es el reactante de fase aguda señalado y su acortamiento no constituye el cambio típico usado para reconocer infección.",
+      "Un resultado de TTPA alargado": "Un TTPA prolongado sugiere déficit, inhibidor o anticoagulante, no el aumento esperado de un reactante positivo de fase aguda."
+    },
+    "claveMemorizar": "Inflamación aguda: fibrinógeno elevado.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 56"
+  },
+  "245": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El factor VIII pertenece a la vía intrínseca, por lo que su déficit prolonga el TTPA y suele conservar normales el TP y el TT.",
+    "motivosPorOpcion": {
+      "Un tiempo de protrombina (TP) alargado.": "El TP explora la vía extrínseca y común, que no quedan afectadas por un déficit aislado de VIII.",
+      "Un tiempo de protrombina (TP) acortado.": "El déficit de un factor intrínseco no acelera la vía extrínseca ni produce un TP corto como patrón diagnóstico.",
+      "Un tiempo de tromboplastina parcial activada (TTPA) acortado.": "La pérdida de actividad del factor VIII ralentiza, en vez de acelerar, la generación de factor Xa por la vía intrínseca."
+    },
+    "claveMemorizar": "Hemofilia A: factor VIII bajo, TP normal y TTPA alargado.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 72-73"
+  },
+  "246": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hiperfibrinólisis reduce o degrada fibrinógeno y fibrina, de modo que tras añadir trombina la formación de un coágulo detectable se retrasa y el TT se alarga.",
+    "motivosPorOpcion": {
+      "Cuantifica el tiempo que tarda en formarse el coágulo cuando añadimos calcio al plasma citratado.": "El TT se inicia añadiendo trombina al plasma pobre en plaquetas; la mera recalcificación corresponde a otra prueba global.",
+      "Se acorta el tiempo en presencia de heparina.": "La heparina potencia la inhibición de trombina y prolonga marcadamente el TT.",
+      "Se utiliza para cuantificar factores vitamina K- dependientes": "Los factores vitamina K dependientes se valoran principalmente mediante TP o ensayos específicos, no con el TT."
+    },
+    "claveMemorizar": "TT: conversión fibrinógeno-fibrina; se prolonga con heparina, poco fibrinógeno o fibrinólisis.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54, 56 y 65",
+    "advertenciaRevision": "El PDF define el TT y documenta su prolongación por heparina y alteraciones del fibrinógeno, pero no afirma literalmente que la hiperfibrinólisis prolongue el TT."
+  },
+  "247": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cumarínicos antagonizan la vitamina K; administrarla permite recuperar la síntesis funcional de los factores afectados y revertir su efecto, con la rapidez condicionada por la gravedad clínica.",
+    "motivosPorOpcion": {
+      "Ácido acetil salicílico": "Es un antiagregante y aumentaría el riesgo hemorrágico en vez de corregir la anticoagulación por cumarínicos.",
+      "Heparina de bajo peso molecular": "Es otro anticoagulante, con acción predominante anti-Xa, y no neutraliza el efecto antivitamina K.",
+      "Acenocumarol": "Es precisamente un derivado cumarínico antivitamina K, por lo que agravaría la sobredosificación."
+    },
+    "claveMemorizar": "Sobredosis de cumarínicos: vitamina K; valorar concentrado de complejo protrombínico si hay hemorragia grave.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 68-69",
+    "advertenciaRevision": "El PDF explica el mecanismo antivitamina K y el riesgo hemorrágico, pero no especifica el protocolo de reversión de una sobredosis."
+  },
+  "248": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La enfermedad de von Willebrand es el trastorno hemorrágico hereditario más frecuente y suele transmitirse de forma autosómica dominante.",
+    "motivosPorOpcion": {
+      "Hemofilia A": "Es más frecuente que las hemofilias B y C, pero globalmente es menos común que la enfermedad de von Willebrand.",
+      "Hemofilia B": "Se debe a déficit de factor IX y es menos prevalente que la hemofilia A y que la enfermedad de von Willebrand.",
+      "Hemofilia C": "El déficit de factor XI es infrecuente y no constituye el trastorno hemorrágico congénito más habitual."
+    },
+    "claveMemorizar": "Trastorno hemorrágico hereditario más común: enfermedad de von Willebrand.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 72 y 76"
+  },
+  "249": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la coagulación intravascular diseminada se consumen fibrinógeno y otros factores y aumenta la fibrinólisis; la escasez o disfunción del sustrato final puede prolongar el tiempo de reptilasa.",
+    "motivosPorOpcion": {
+      "Enfermedad renal": "No produce por sí sola el patrón de consumo de fibrinógeno que explica la prolongación elegida en esta pregunta.",
+      "Tratamientos con heparina": "La reptilasa convierte fibrinógeno en fibrina sin verse inhibida por heparina, lo que permite diferenciar su efecto del TT.",
+      "Tromboembolismo pulmonar": "Un evento trombótico aislado puede elevar el dímero D, pero no prolonga necesariamente la reptilasa."
+    },
+    "claveMemorizar": "Reptilasa no sensible a heparina; se prolonga si falta o funciona mal el fibrinógeno.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 55 y 75"
+  },
+  "250": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las vías intrínseca y extrínseca convergen al activar el factor X; desde ahí comparten X, V, II y I para generar trombina y fibrina.",
+    "motivosPorOpcion": {
+      "I, II, VII, X.": "El factor VII es específico de la vía extrínseca y falta el cofactor V de la vía común.",
+      "I, III, V, VII.": "Los factores III y VII pertenecen al inicio extrínseco, y la lista omite X y II.",
+      "II, V, X, XI.": "El factor XI es propio de la vía intrínseca y falta el fibrinógeno o factor I."
+    },
+    "claveMemorizar": "Vía común: X, V, II y I.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 27-29"
+  },
+  "251": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El TP activa la coagulación con factor tisular y calcio, por lo que valora la vía extrínseca y, desde la activación de X, la vía común. Así, son correctas A y C.",
+    "motivosPorOpcion": {
+      "La vía extrínseca.": "Es cierto que el TP explora esta vía, pero la respuesta queda incompleta porque también evalúa la vía común.",
+      "La vía intrínseca.": "La vía intrínseca se estudia con TTPA, no con TP.",
+      "La vía común.": "También es correcto, pero aisladamente omite la vía extrínseca que inicia la prueba."
+    },
+    "claveMemorizar": "TP = extrínseca + común; TTPA = intrínseca + común.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 53"
+  },
+  "252": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La CID activa extensamente la coagulación y consume plaquetas y factores en la microcirculación. La trombocitopenia resultante es periférica por hiperconsumo, no por falta de producción medular.",
+    "motivosPorOpcion": {
+      "Distribución anormal": "Describe secuestro o redistribución, como el hiperesplenismo, y no el consumo intravascular propio de la CID.",
+      "Etiología inmune": "En la CID las plaquetas se incorporan a microtrombos; no son destruidas primariamente por autoanticuerpos.",
+      "A y C son correctas": "Ni la distribución anormal ni un mecanismo inmune explican la trombocitopenia característica, por lo que ambas no pueden ser correctas."
+    },
+    "claveMemorizar": "CID: microtrombos y consumo de plaquetas, fibrinógeno y factores.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 75"
+  },
+  "253": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El temario organiza la hemostasia en tres fases enlazadas: hemostasia primaria, coagulación y fibrinólisis.",
+    "motivosPorOpcion": {
+      "Dos fases.": "Excluiría la fibrinólisis, necesaria para retirar el coágulo una vez reparada la lesión.",
+      "Cuatro fases.": "La vasoconstricción y los pasos plaquetarios se integran en la hemostasia primaria, no se cuentan aquí como fases adicionales independientes.",
+      "Una fase.": "La formación, consolidación y eliminación del coágulo requieren procesos diferenciados, no una única etapa."
+    },
+    "claveMemorizar": "Tres fases: primaria, coagulación y fibrinólisis.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 5-9"
+  },
+  "254": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La heparina potencia enormemente la acción de la antitrombina III, que neutraliza trombina y otros factores activados, especialmente Xa.",
+    "motivosPorOpcion": {
+      "Activa el factor V.": "Activar V favorecería la formación del complejo protrombinasa y tendría un efecto procoagulante.",
+      "Inhibe la trombina.": "La trombina queda inhibida, pero la heparina lo consigue indirectamente al potenciar la antitrombina III; la opción D expresa el mecanismo.",
+      "Activa la proteína C.": "La proteína C se activa fisiológicamente por el complejo trombina-trombomodulina, no por heparina."
+    },
+    "claveMemorizar": "Heparina activa funcionalmente antitrombina III; esta inhibe IIa y Xa.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 32 y 65"
+  },
+  "255": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El factor de von Willebrand une la GPIb plaquetaria al subendotelio y permite la adhesión; además, su actividad se evidencia por aglutinación dependiente de ristocetina. Entre las opciones, esta función plaquetaria hace que A sea la más próxima.",
+    "motivosPorOpcion": {
+      "Inhibe la coagulación.": "El factor de von Willebrand no es un anticoagulante; transporta y estabiliza el factor VIII.",
+      "Favorece la fibrinolisis.": "No activa el plasminógeno ni degrada fibrina; su función pertenece a la hemostasia primaria y al transporte de VIII.",
+      "Estabiliza el coagulo de fibrina.": "El entrecruzamiento que estabiliza la red de fibrina corresponde al factor XIII."
+    },
+    "claveMemorizar": "FvW: adhesión plaquetaria mediante GPIb y transporte del factor VIII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 6, 19 y 47",
+    "advertenciaRevision": "La clave usa «agregación», pero el PDF atribuye al FvW principalmente adhesión plaquetaria y aglutinación con ristocetina; la formulación de la opción es imprecisa."
+  },
+  "256": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El factor I o fibrinógeno es el sustrato soluble que la trombina transforma en fibrina insoluble, componente estructural de la red del coágulo.",
+    "motivosPorOpcion": {
+      "Factor X o de Stuart-Prower.": "Es una serinproteasa de la vía común que participa en la generación de trombina, no un componente estructural del coágulo.",
+      "Factor VIII.": "Es un cofactor de la vía intrínseca y no forma la malla final.",
+      "Factor II o protrombina.": "Es el zimógeno precursor de la trombina, una enzima que convierte fibrinógeno en fibrina."
+    },
+    "claveMemorizar": "Factor estructural: I, fibrinógeno; al activarse forma fibrina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 8 y 13"
+  },
+  "257": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La combinación de trombocitopenia y fibrinógeno bajo por consumo, TP y TTPA prolongados, dímero D alto y esquistocitos es el patrón clásico de coagulación intravascular diseminada.",
+    "motivosPorOpcion": {
+      "Púrpura trombótica trombocitopénica.": "Puede causar trombocitopenia y esquistocitos, pero las pruebas de coagulación suelen ser normales y no hay consumo sistémico típico de fibrinógeno.",
+      "Síndrome antifosfolípido catastrófico.": "Produce trombosis multiorgánica y puede alterar plaquetas, pero no explica tan específicamente el patrón de consumo global descrito.",
+      "Enfermedad de von Willebrand.": "Es un defecto de adhesión con recuento plaquetario y tiempos de coagulación generalmente normales, sin esquistocitos ni dímero D elevado por consumo."
+    },
+    "claveMemorizar": "CID: plaquetas y fibrinógeno bajos; TP/TTPA y dímero D altos; esquistocitos.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 75"
+  },
+  "258": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hemofilia B es un déficit del factor IX de la coagulación secundaria; las plaquetas pueden agregarse normalmente porque el defecto no está en su función.",
+    "motivosPorOpcion": {
+      "Enfermedad de Von Willebrand.": "El déficit de FvW altera la adhesión y la respuesta dependiente de ristocetina, por lo que afecta pruebas de función plaquetaria.",
+      "Tratamiento con aspirina.": "La aspirina inhibe irreversiblemente la ciclooxigenasa plaquetaria y reduce la agregación dependiente de tromboxano A2.",
+      "Está alterada en todas.": "La agregación no tiene por qué alterarse en un déficit aislado de factor IX, así que no todas las situaciones son equivalentes."
+    },
+    "claveMemorizar": "Hemofilia B: coagulación secundaria alterada, función plaquetaria conservada.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 64 y 72",
+    "advertenciaRevision": "El PDF identifica la hemofilia B como déficit de factor IX y la aspirina como antiagregante, pero no muestra un patrón comparativo completo de agregometría para las tres situaciones."
+  },
+  "259": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El plasminógeno o profibrinolisina es una glicoproteína hepática plasmática. El tipo I se incorpora preferentemente a los coágulos de fibrina y el tipo II se localiza sobre todo en superficies celulares, por lo que las tres afirmaciones son correctas.",
+    "motivosPorOpcion": {
+      "El plasminógeno o profibrinolisina es una glicoproteína sintetizada por el hígado, presente en el plasma sanguíneo": "La afirmación es cierta, pero solo recoge origen y localización general y no integra las otras dos descripciones válidas.",
+      "El plasminógeno tipo I aparece reclutado en los coágulos de fibrina": "Describe correctamente la afinidad del tipo I por el coágulo, aunque las demás afirmaciones también son verdaderas.",
+      "El plasminógeno tipo II está preferentemente presente en la superficie de la célula": "La localización preferente del tipo II es correcta, pero no invalida las otras propiedades enumeradas."
+    },
+    "claveMemorizar": "Plasminógeno I: fibrina; plasminógeno II: superficie celular.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 9"
+  }
+}
