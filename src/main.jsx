@@ -12,6 +12,7 @@ import {explainQuestion} from "./lib/explainQuestion.js";
 import {createBackup,loadUserData,parseBackup,saveUserData} from "./lib/storage.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
+const syllabusPdfFiles=import.meta.glob("/pdfs/temarios/*.pdf",{query:"?url",import:"default",eager:true});
 
 const topics=[
  {id:1,title:"Conceptos generales"}, {id:2,title:"Líquidos biológicos"},
@@ -38,13 +39,16 @@ const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filt
 });
 const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${String(id).padStart(2,"0")}(?:\\D|$)` ,"i").test(path))?.[1]
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
+const getSyllabusPdfs=id=>Object.entries(syllabusPdfFiles)
+ .filter(([path])=>new RegExp(`/Tema\\s+${id}(?:\\.|\\s)`,"i").test(path))
+ .map(([path,url])=>({url,title:path.split("/").pop().replace(/\.pdf$/i,"")}));
 const getFailedQuestions=progress=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
 const getFavoriteQuestions=favorites=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>favorites.includes(getQuestionIdForProgress(question)));
 
 function App(){
- const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",sessionId:0}),[userData,setUserData]=useState(loadUserData);
+ const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[userData,setUserData]=useState(loadUserData);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
- const openTest=(topicId,mode="topic")=>{setTestConfig(config=>({topicId,mode,sessionId:config.sessionId+1}));go("test")};
+ const openTest=(topicId,mode="topic",questionIds=null)=>{setTestConfig(config=>({topicId,mode,questionIds,sessionId:config.sessionId+1}));go("test")};
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
  const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
  useEffect(()=>saveUserData(userData),[userData]);
@@ -60,10 +64,10 @@ function App(){
   <main className={page==="test"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
-  {page==="topic"&&selected&&<TopicPage topic={selected} go={go}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite}/>}
+  {page==="topic"&&selected&&<TopicPage topic={selected} pdfs={getSyllabusPdfs(selected.id)} go={go}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
   {page==="review"&&<ReviewPage go={go}/>}
-  {page==="wrong"&&<WrongPage progress={userData.progress} onStart={()=>openTest(null,"failed")} onMarkLearned={markLearned} go={go}/>}
+  {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
@@ -118,9 +122,9 @@ function SummaryPage({openTopic}){const [q,setQ]=useState("");const filtered=top
  <div className="resumeGrid">{filtered.map(t=>{const summary=getSummary(t.id);return <article className="resumeCard" key={t.id} onClick={()=>openTopic(t)}><div className="resumeTop"><span className="num">{String(t.id).padStart(2,"0")}</span></div><h3>{t.title}</h3><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p><div className="resumeLinks"><span>Banco del tema</span><ChevronRight/></div></article>})}</div>
  </div>}
 
-function TopicPage({topic,go}){const summary=getSummary(topic.id);return <div>
+function TopicPage({topic,pdfs,go}){const summary=getSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
- <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}</div></section>
+ <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}{pdfs.length>0&&<div className="topicPdfLinks">{pdfs.map(pdf=><a className="topicPdfLink" href={pdf.url} target="_blank" rel="noreferrer" key={pdf.url}><BookOpen/><span><b>Abrir temario PDF</b><small>{pdf.title}</small></span></a>)}</div>}</div></section>
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
    {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
    {summary.keyFacts?.length>0&&<section className="summarySection keyFacts"><h4>⭐ Datos y valores que debes saber sí o sí</h4><ul>{summary.keyFacts.map(fact=><li key={fact}>{formatEmphasis(fact)}</li>)}</ul></section>}
@@ -132,10 +136,10 @@ function TopicPage({topic,go}){const summary=getSummary(topic.id);return <div>
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
-function TestPage({go,onChangeTopic,initialTopicId=null,mode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,mode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [questionCount,setQuestionCount]=useState(20);
- const [testQuestions,setTestQuestions]=useState(()=>{const failedQuestions=getFailedQuestions(questionProgress);return mode==="failed"?selectSmartQuestions(failedQuestions,questionProgress,failedQuestions.length).map(question=>shuffleQuestionOptions(question)):initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[]});
+ const [testQuestions,setTestQuestions]=useState(()=>{const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return mode==="failed"?selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question)):initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[]});
  const [i,setI]=useState(0);
  const [answersByIndex,setAnswersByIndex]=useState({});
  const [done,setDone]=useState(false);
@@ -149,6 +153,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,mode="topic",questionPro
  const showResult=Object.prototype.hasOwnProperty.call(answersByIndex,i);
  const score=testQuestions.reduce((total,question,index)=>total+(answersByIndex[index]===question.correctAnswer?1:0),0);
  const isFavorite=q?favorites.includes(getQuestionIdForProgress(q)):false;
+ const isLearned=q?questionProgress[getQuestionIdForProgress(q)]?.marcadaAprendida===true:false;
  const structuredExplanation=q?explainQuestion(q,q.topicId??currentTopic?.id):null;
 
  const startTopicTest=topicId=>{
@@ -215,7 +220,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,mode="topic",questionPro
   return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p>Has completado una selección inteligente de este banco.</p><button className="primary" onClick={()=>mode==="failed"?go("wrong"):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>mode==="failed"?go("wrong"):onChangeTopic()}>{mode==="failed"?"Volver a falladas":"Elegir otro tema"}</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{mode==="failed"?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} selectedAnswerText={q.answers[selectedAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>mode==="failed"?go("wrong"):onChangeTopic()}>{mode==="failed"?"Volver a preguntas falladas":"Cambiar de tema"}</button></div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{mode==="failed"?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} selectedAnswerText={q.answers[selectedAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/></div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>mode==="failed"?go("wrong"):onChangeTopic()}>{mode==="failed"?"Volver a preguntas falladas":"Cambiar de tema"}</button></div></div>;
 }
 
 function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando respondas tus primeras preguntas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>}
@@ -224,7 +229,7 @@ function WrongPage({progress,onStart,onMarkLearned,go}){
  const failedQuestions=getFailedQuestions(progress);
  const failedCount=failedQuestions.length;
  if(!failedCount) return <div><div className="reviewHero"><h2>Preguntas falladas</h2><p>Aquí aparecerán las preguntas que respondas incorrectamente.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
- return <div className="wrongPage"><div className="reviewHero"><h2>Preguntas falladas</h2><p>Tienes {failedCount} {failedCount===1?"pregunta pendiente":"preguntas pendientes"}. Seguirán aquí hasta que las marques como aprendidas.</p><button className="primary" onClick={onStart}>Hacer todas las falladas</button></div><div className="wrongQuestionList">{failedQuestions.map(question=>{const id=getQuestionIdForProgress(question);const state=progress[id];return <article className="wrongQuestion" key={id}><div className="wrongQuestionBody"><div className="wrongQuestionMeta"><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><span>{state?.vecesFallada??1} {(state?.vecesFallada??1)===1?"fallo":"fallos"}</span></div><h3>{question.question}</h3></div><button className="markLearnedButton" onClick={()=>onMarkLearned(question)} title="Quitar de preguntas falladas"><CheckCircle2/> Marcar como aprendida</button></article>})}</div></div>;
+ return <div className="wrongPage"><div className="reviewHero"><h2>Preguntas falladas</h2><p>Tienes {failedCount} {failedCount===1?"pregunta pendiente":"preguntas pendientes"}. Pulsa una pregunta para practicarla o haz el test completo.</p><button className="primary" onClick={()=>onStart()}>Hacer todas las falladas</button></div><div className="wrongQuestionList">{failedQuestions.map(question=>{const id=getQuestionIdForProgress(question);const state=progress[id];return <article className="wrongQuestion" key={id}><button className="wrongQuestionBody" onClick={()=>onStart([id])}><div className="wrongQuestionMeta"><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><span>{state?.vecesFallada??1} {(state?.vecesFallada??1)===1?"fallo":"fallos"}</span></div><h3>{question.question}</h3><small className="wrongPracticeHint"><Play/> Practicar esta pregunta</small></button><button className="markLearnedButton" onClick={()=>onMarkLearned(question)} title="Quitar de preguntas falladas"><CheckCircle2/> Marcar como aprendida</button></article>})}</div></div>;
 }
 
 function FavoritesPage({favorites,onToggleFavorite,go}){const questions=getFavoriteQuestions(favorites);if(!questions.length)return <div><div className="reviewHero"><Star/><h2>Tus preguntas favoritas</h2><p>Las preguntas que marques como favoritas aparecerán aquí.</p><button className="primary" onClick={()=>go("test")}>Explorar preguntas</button></div></div>;return <div className="favoritesPage"><div className="pageIntro"><div><span className="eyebrow">GUARDADAS</span><h2>Tus preguntas favoritas</h2><p>{questions.length} {questions.length===1?"pregunta guardada":"preguntas guardadas"}</p></div></div><div className="favoriteQuestionList">{questions.map(question=><article className="favoriteQuestion" key={getQuestionIdForProgress(question)}><div><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><h3>{question.question}</h3></div><button className="favoriteRemove" onClick={()=>onToggleFavorite(question)} title="Quitar de favoritos"><Star fill="currentColor"/></button></article>)}</div></div>}
