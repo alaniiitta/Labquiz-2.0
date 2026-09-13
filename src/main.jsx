@@ -4,6 +4,7 @@ import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,
 import "./styles.css";
 
 import questionBank from "./questions";
+import summaryBank from "./summaries/index.js";
 import {parsePdfQuestions} from "./pdfPipeline.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
@@ -29,6 +30,12 @@ const topics=[
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
 const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
+const getSummary=id=>summaryBank[getTopicKey(id)];
+const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filter(Boolean).map((part,index)=>{
+ if(part.startsWith("**")&&part.endsWith("**")) return <strong key={index}>{part.slice(2,-2)}</strong>;
+ if(part.startsWith("__")&&part.endsWith("__")) return <u key={index}>{part.slice(2,-2)}</u>;
+ return part;
+});
 const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${String(id).padStart(2,"0")}(?:\\D|$)` ,"i").test(path))?.[1]
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
 const getFailedQuestions=progress=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
@@ -108,13 +115,20 @@ function TopicRow({t,onClick}){return <button className="topicRow" onClick={onCl
 function SummaryPage({openTopic}){const [q,setQ]=useState("");const filtered=topics.filter(t=>t.title.toLowerCase().includes(q.toLowerCase()));return <div>
  <div className="pageIntro"><p>Selecciona un tema para consultar su contenido.</p><div className="search"><Search/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Buscar tema..."/></div></div>
  <div className="filterRow"><span>{topics.length} temas</span></div>
- <div className="resumeGrid">{filtered.map(t=><article className="resumeCard" key={t.id} onClick={()=>openTopic(t)}><div className="resumeTop"><span className="num">{String(t.id).padStart(2,"0")}</span></div><h3>{t.title}</h3><p>Contenido pendiente de añadir.</p><div className="resumeLinks"><span>Banco del tema</span><ChevronRight/></div></article>)}</div>
+ <div className="resumeGrid">{filtered.map(t=>{const summary=getSummary(t.id);return <article className="resumeCard" key={t.id} onClick={()=>openTopic(t)}><div className="resumeTop"><span className="num">{String(t.id).padStart(2,"0")}</span></div><h3>{t.title}</h3><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p><div className="resumeLinks"><span>Banco del tema</span><ChevronRight/></div></article>})}</div>
  </div>}
 
-function TopicPage({topic,go}){return <div>
+function TopicPage({topic,go}){const summary=getSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
- <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>Contenido pendiente de añadir.</p></div></section>
- <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3><div className="placeholder"><h4>Lo imprescindible</h4><p>Aquí irá el contenido estructurado del tema. La plantilla está preparada para añadir el resumen, conceptos clave, valores, técnicas y puntos de examen sin cambiar el diseño.</p><ul><li>Conceptos fundamentales</li><li>Datos y valores que memorizar</li><li>Interpretación de resultados</li><li>Errores frecuentes en examen</li></ul></div><h3>⭐ Preguntas que debes dominar</h3><div className="questionStrip">Añade aquí las preguntas estrella del tema.</div><h3>🧠 Reglas mnemotécnicas</h3><div className="questionStrip">Espacio preparado para tus reglas y trucos de memoria.</div></article>
+ <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}</div></section>
+ <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
+   {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
+   {summary.keyFacts?.length>0&&<section className="summarySection keyFacts"><h4>⭐ Datos y valores que debes saber sí o sí</h4><ul>{summary.keyFacts.map(fact=><li key={fact}>{formatEmphasis(fact)}</li>)}</ul></section>}
+   {summary.commonMistakes?.length>0&&<section className="summarySection commonMistakes"><h4>⚠️ Errores frecuentes en examen</h4><ul>{summary.commonMistakes.map(mistake=><li key={mistake}>{formatEmphasis(mistake)}</li>)}</ul></section>}
+  </div>:<div className="placeholder"><h4>Lo imprescindible</h4><p>Aquí irá el contenido estructurado del tema. La plantilla está preparada para añadir el resumen, conceptos clave, valores, técnicas y puntos de examen sin cambiar el diseño.</p><ul><li>Conceptos fundamentales</li><li>Datos y valores que memorizar</li><li>Interpretación de resultados</li><li>Errores frecuentes en examen</li></ul></div>}
+  <h3>⭐ Preguntas que debes dominar</h3><div className="questionStrip">Añade aquí las preguntas estrella del tema.</div>
+  <h3>🧠 Reglas mnemotécnicas</h3>{summary?.mnemonics?.length>0?<ul className="mnemonicList">{summary.mnemonics.map(rule=><li key={rule}>{formatEmphasis(rule)}</li>)}</ul>:<div className="questionStrip">Espacio preparado para tus reglas y trucos de memoria.</div>}
+ </article>
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
