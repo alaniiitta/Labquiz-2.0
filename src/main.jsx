@@ -257,9 +257,11 @@ function ReviewPage({go,onStart}){
  const totalAvailable=useMemo(()=>getAllQuestions().length,[]);
  if(!totalAvailable) return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando haya preguntas cargadas en los temas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
  return <div className="reviewPage">
-  <div className="reviewHero"><h2>Repaso general</h2><p>Test aleatorio que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p>
-   <div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30,50].map(value=><button key={value} className={count===value?"selected":""} onClick={()=>setCount(value)}>{value}</button>)}</div></div>
-   <button className="primary" onClick={()=>onStart(count)}>Empezar repaso aleatorio</button>
+  <div className="reviewHero"><h2>Repaso general</h2><p>Test aleatorio que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p></div>
+  <div className="reviewSetup">
+   <span className="reviewSetupLabel">Preguntas por test</span>
+   <div className="reviewCountRow">{[10,20,30,50].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>setCount(value)}>{value}</button>)}</div>
+   <button className="primary" type="button" onClick={()=>onStart(count)}>Empezar repaso aleatorio</button>
   </div>
  </div>;
 }

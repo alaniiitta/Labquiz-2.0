@@ -110,3 +110,15 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 .countdownBlock small{display:block;margin-top:3px;color:#b9c9cd;font-size:10px;text-transform:uppercase;letter-spacing:.6px}
 @media(max-width:700px){.homeCountdown{padding:18px}.countdownBlocks{width:100%;justify-content:space-between}.countdownBlock{min-width:0;flex:1}}
 :root[data-theme="dark"] .themeSwitch{border-color:#46504b;background:#343c38}:root[data-theme="dark"] .themeSwitch span{background:#c5ccc7}:root[data-theme="dark"] .themeSwitch[aria-checked="true"]{border-color:#668f87;background:#527b73}
+
+.reviewPage{max-width:760px;margin:0 auto}
+.reviewSetup{margin-top:22px;padding:26px;border:1px solid var(--line);border-radius:16px;background:var(--card);display:flex;flex-direction:column;gap:16px}
+.reviewSetupLabel{display:block;font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.7px;color:var(--muted)}
+.reviewCountRow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.reviewCountRow button{min-height:52px;padding:10px;border:1px solid var(--line);border-radius:12px;background:white;color:var(--text);font-weight:800;font-size:15px;cursor:pointer;transition:border-color .15s,background .15s}
+.reviewCountRow button:hover{border-color:#b9ced0}
+.reviewCountRow button.selected{background:var(--soft);border-color:var(--primary);color:var(--primary)}
+.reviewSetup>.primary{align-self:flex-start;margin-top:4px;padding:14px 24px}
+:root[data-theme="dark"] .reviewCountRow button{border-color:var(--line);background:var(--card);color:var(--text)}
+:root[data-theme="dark"] .reviewCountRow button.selected{background:var(--soft);border-color:var(--primary);color:var(--primary)}
+@media(max-width:600px){.reviewSetup{padding:18px}.reviewCountRow{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewSetup>.primary{align-self:stretch;text-align:center}}
