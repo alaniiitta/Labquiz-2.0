@@ -1,6 +1,6 @@
-import React,{useEffect,useRef,useState} from "react";
+import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass} from "lucide-react";
 import "./styles.css";
 
 import questionBank from "./questions";
@@ -10,6 +10,7 @@ import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,mark
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
 import {createBackup,loadUserData,parseBackup,saveUserData} from "./lib/storage.js";
+import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 const syllabusPdfFiles=import.meta.glob("/pdfs/temarios/*.pdf",{query:"?url",import:"default",eager:true});
@@ -42,13 +43,14 @@ const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|
 const getSyllabusPdfs=id=>Object.entries(syllabusPdfFiles)
  .filter(([path])=>new RegExp(`/Tema\\s+${id}(?:\\.|\\s)`,"i").test(path))
  .map(([path,url])=>({url,title:path.split("/").pop().replace(/\.pdf$/i,"")}));
-const getFailedQuestions=progress=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
-const getFavoriteQuestions=favorites=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(question=>favorites.includes(getQuestionIdForProgress(question)));
+const getAllQuestions=()=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id})));
+const getFailedQuestions=progress=>getAllQuestions().filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
+const getFavoriteQuestions=favorites=>getAllQuestions().filter(question=>favorites.includes(getQuestionIdForProgress(question)));
 
 function App(){
  const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[userData,setUserData]=useState(loadUserData);
  const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
- const openTest=(topicId,mode="topic",questionIds=null)=>{setTestConfig(config=>({topicId,mode,questionIds,sessionId:config.sessionId+1}));go("test")};
+ const openTest=(topicId,mode="topic",questionIds=null,questionCount=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,sessionId:config.sessionId+1}));go("test")};
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
  const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
  useEffect(()=>saveUserData(userData),[userData]);
@@ -65,8 +67,8 @@ function App(){
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
   {page==="topic"&&selected&&<TopicPage topic={selected} pdfs={getSyllabusPdfs(selected.id)} go={go}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
-  {page==="review"&&<ReviewPage go={go}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
+  {page==="review"&&<ReviewPage go={go} onStart={count=>openTest(null,"mixed",null,count)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
@@ -77,6 +79,22 @@ function App(){
 }
 const pageTitle=p=>({summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
 
+function ExamCountdown({go}){
+ const [now,setNow]=useState(()=>new Date());
+ useEffect(()=>{const timer=setInterval(()=>setNow(new Date()),1000);return ()=>clearInterval(timer)},[]);
+ const {days,hours,minutes,seconds,isPast}=getCountdown(now);
+ const examDateLabel=EXAM_DATE.toLocaleDateString("es-ES",{day:"numeric",month:"long",year:"numeric"});
+ return <section className="homeCountdown" aria-labelledby="countdown-title">
+  <div className="countdownInfo"><span className="eyebrow"><Hourglass/> EXAMEN OPE</span><h3 id="countdown-title">{isPast?"¡El examen ya está aquí!":"Cuenta atrás hasta el examen"}</h3><p>{examDateLabel}</p></div>
+  <div className="countdownBlocks">
+   <div className="countdownBlock"><strong>{days}</strong><small>días</small></div>
+   <div className="countdownBlock"><strong>{String(hours).padStart(2,"0")}</strong><small>horas</small></div>
+   <div className="countdownBlock"><strong>{String(minutes).padStart(2,"0")}</strong><small>min</small></div>
+   <div className="countdownBlock"><strong>{String(seconds).padStart(2,"0")}</strong><small>seg</small></div>
+  </div>
+ </section>
+}
+
 function HomePage({go,openTest,progress}){
  const availableTopics=topics.filter(topic=>getQuestionBank(topic.id).length||getPdfUrl(topic.id));
  const totalQuestions=topics.reduce((total,topic)=>total+getQuestionBank(topic.id).length,0);
@@ -86,6 +104,7 @@ function HomePage({go,openTest,progress}){
  const globalMastery=totalQuestions?Math.round(progressByTopic.reduce((total,topic)=>total+topic.mastery*topic.total,0)/totalQuestions):0;
  const featuredTopics=availableTopics.slice(0,6);
  return <div className="homeDashboard">
+  <ExamCountdown go={go}/>
   <section className="homeStart">
    <div><span className="eyebrow">SESIÓN DE ESTUDIO</span><h2>¿Qué quieres practicar hoy?</h2><p>Elige un tema y empieza un test con su banco de preguntas.</p></div>
     <button className="homePrimaryAction" onClick={()=>openTest(null)}><span><Brain/></span><div><b>Test por temas</b><small>{availableTopics.length} temas disponibles</small></div><ChevronRight/></button>
@@ -136,17 +155,27 @@ function TopicPage({topic,pdfs,go}){const summary=getSummary(topic.id);return <d
  <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,mode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
+const crossTopicCopy={
+ failed:{backPage:"wrong",backLabel:"Volver a preguntas falladas",emptyTitle:"No tienes preguntas falladas",emptyText:"Las preguntas que falles aparecerán aquí para volver a practicarlas.",restartLabel:"Volver a falladas"},
+ mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"}
+};
+
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,mode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [questionCount,setQuestionCount]=useState(20);
- const [testQuestions,setTestQuestions]=useState(()=>{const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return mode==="failed"?selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question)):initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[]});
+ const isCrossTopic=mode==="failed"||mode==="mixed";
+ const [testQuestions,setTestQuestions]=useState(()=>{
+  if(mode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
+  if(mode==="mixed") return selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20).map(question=>shuffleQuestionOptions(question));
+  return initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[];
+ });
  const [i,setI]=useState(0);
  const [answersByIndex,setAnswersByIndex]=useState({});
  const [done,setDone]=useState(false);
  const [loadedQuestions,setLoadedQuestions]=useState({});
  const [loading,setLoading]=useState(false);
 
- const currentTopic=mode==="failed"?{id:0,title:"Preguntas falladas"}:selectedTopicId ? topics.find(t=>t.id===selectedTopicId) : null;
+ const currentTopic=mode==="failed"?{id:0,title:"Preguntas falladas"}:mode==="mixed"?{id:0,title:"Repaso general"}:selectedTopicId ? topics.find(t=>t.id===selectedTopicId) : null;
  const totalQuestions=testQuestions.length;
  const q=testQuestions[i] ?? null;
  const selectedAnswer=answersByIndex[i] ?? null;
@@ -204,7 +233,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
 
  const handlePrevious=()=>setI(index=>Math.max(0,index-1));
 
- if(mode!=="failed"&&!selectedTopicId){
+ if(!isCrossTopic&&!selectedTopicId){
    return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small></div><div className="testTopicsGrid">{topics.map(topic=>{const questionTotal=getQuestionBank(topic.id).length;return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:getPdfUrl(topic.id)?"PDF disponible":"Sin preguntas cargadas"}</small></button>})}</div></div>;
  }
 
@@ -213,17 +242,27 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  }
 
  if(!q){
-  return <div className="result card"><div className="resultIcon">📘</div><h2>{mode==="failed"?"No tienes preguntas falladas":"Este tema aún no tiene preguntas"}</h2><p>{mode==="failed"?"Las preguntas que falles aparecerán aquí para volver a practicarlas.":"El banco de preguntas está preparado para añadirse desde archivos separados por tema."}</p><button className="primary" onClick={()=>go(mode==="failed"?"wrong":"test")}>{mode==="failed"?"Volver a preguntas falladas":"Volver a temas"}</button></div>;
+  return <div className="result card"><div className="resultIcon">📘</div><h2>{isCrossTopic?crossTopicCopy[mode].emptyTitle:"Este tema aún no tiene preguntas"}</h2><p>{isCrossTopic?crossTopicCopy[mode].emptyText:"El banco de preguntas está preparado para añadirse desde archivos separados por tema."}</p><button className="primary" onClick={()=>go(isCrossTopic?crossTopicCopy[mode].backPage:"test")}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Volver a temas"}</button></div>;
  }
 
  if(done){
-  return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p>Has completado una selección inteligente de este banco.</p><button className="primary" onClick={()=>mode==="failed"?go("wrong"):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>mode==="failed"?go("wrong"):onChangeTopic()}>{mode==="failed"?"Volver a falladas":"Elegir otro tema"}</button></div>;
+  return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p>Has completado una selección inteligente de este banco.</p><button className="primary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Elegir otro tema"}</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{mode==="failed"?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} selectedAnswerText={q.answers[selectedAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/></div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>mode==="failed"?go("wrong"):onChangeTopic()}>{mode==="failed"?"Volver a preguntas falladas":"Cambiar de tema"}</button></div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} selectedAnswerText={q.answers[selectedAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/></div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div></div>;
 }
 
-function ReviewPage({go}){return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando respondas tus primeras preguntas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>}
+function ReviewPage({go,onStart}){
+ const [count,setCount]=useState(20);
+ const totalAvailable=useMemo(()=>getAllQuestions().length,[]);
+ if(!totalAvailable) return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando haya preguntas cargadas en los temas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
+ return <div className="reviewPage">
+  <div className="reviewHero"><h2>Repaso general</h2><p>Test aleatorio que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p>
+   <div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30,50].map(value=><button key={value} className={count===value?"selected":""} onClick={()=>setCount(value)}>{value}</button>)}</div></div>
+   <button className="primary" onClick={()=>onStart(count)}>Empezar repaso aleatorio</button>
+  </div>
+ </div>;
+}
 
 function WrongPage({progress,onStart,onMarkLearned,go}){
  const failedQuestions=getFailedQuestions(progress);

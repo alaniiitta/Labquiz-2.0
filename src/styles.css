@@ -98,4 +98,15 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 :root[data-theme="dark"] .summarySection.keyFacts li{color:#eef2ef}
 :root[data-theme="dark"] .summarySection.commonMistakes{background:#332524;border-color:#5c3e3a}
 :root[data-theme="dark"] .summarySection.commonMistakes h4{color:#d6a7a2}
+
+.homeCountdown{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;margin-bottom:22px;padding:22px 26px;border:1px solid #2b5963;border-radius:18px;background:linear-gradient(120deg,var(--nav),#20444d);box-shadow:var(--shadow)}
+.homeCountdown .eyebrow{display:flex;align-items:center;gap:6px;color:var(--gold)}
+.homeCountdown .eyebrow svg{width:13px}
+.countdownInfo h3{margin:6px 0 4px;color:white;font-size:19px}
+.countdownInfo p{margin:0;color:#b9c9cd;font-size:12.5px}
+.countdownBlocks{display:flex;gap:10px}
+.countdownBlock{min-width:64px;padding:10px 6px;text-align:center;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}
+.countdownBlock strong{display:block;font-size:24px;color:white;line-height:1.1}
+.countdownBlock small{display:block;margin-top:3px;color:#b9c9cd;font-size:10px;text-transform:uppercase;letter-spacing:.6px}
+@media(max-width:700px){.homeCountdown{padding:18px}.countdownBlocks{width:100%;justify-content:space-between}.countdownBlock{min-width:0;flex:1}}
 :root[data-theme="dark"] .themeSwitch{border-color:#46504b;background:#343c38}:root[data-theme="dark"] .themeSwitch span{background:#c5ccc7}:root[data-theme="dark"] .themeSwitch[aria-checked="true"]{border-color:#668f87;background:#527b73}
