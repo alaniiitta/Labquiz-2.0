@@ -122,3 +122,5 @@ main{padding:28px 34px;min-width:0;overflow-x:hidden}
 :root[data-theme="dark"] .reviewCountRow button{border-color:var(--line);background:var(--card);color:var(--text)}
 :root[data-theme="dark"] .reviewCountRow button.selected{background:var(--soft);border-color:var(--primary);color:var(--primary)}
 @media(max-width:600px){.reviewSetup{padding:18px}.reviewCountRow{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewSetup>.primary{align-self:stretch;text-align:center}}
+.questionIdBadge{margin-left:8px;background:transparent;border:1px solid var(--line);color:var(--muted);font-weight:700}
+:root[data-theme="dark"] .questionIdBadge{border-color:var(--line);color:var(--muted)}

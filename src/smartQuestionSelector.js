@@ -89,6 +89,14 @@ function shuffle(items, random) {
   return result;
 }
 
+// Detecta opciones que hacen referencia a otras por letra ("A y C son correctas")
+// o por posición ("todas las anteriores", "las dos anteriores"): barajarlas rompería su sentido.
+const SELF_REFERENTIAL_OPTION_PATTERN = /\b[a-d]\)?\s*(?:[y,]|\bo\b)\s*[a-d]\)?\s*(?:son|es)?\s*(?:correcta|correctas|cierta|ciertas|falsa|falsas|verdadera|verdaderas)\b|\banterior(?:es)?\b/i;
+
+function hasSelfReferentialOption(options) {
+  return options.some((text) => typeof text === "string" && SELF_REFERENTIAL_OPTION_PATTERN.test(text));
+}
+
 export function selectSmartQuestions(allQuestions = [], userProgress = {}, count = 30, topicFilter = null, random = Math.random, now = Date.now()) {
   const unique = [];
   const seenIds = new Set();
@@ -215,6 +223,10 @@ export function shuffleQuestionOptions(question, random = Math.random) {
 
   // Guard: if no options, return question unchanged to avoid desync
   if (options.length === 0) return question;
+
+  // Guard: si alguna opción referencia a otra por letra ("A y C son correctas") o por
+  // posición ("todas las anteriores"), barajar el orden invalidaría su significado.
+  if (hasSelfReferentialOption(options)) return question;
 
   const correctIndex = typeof question[correctKey] === "number"
     ? question[correctKey]
