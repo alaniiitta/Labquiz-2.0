@@ -8,6 +8,7 @@ import topic12 from "./topic-12-explanations.json";
 import topic13 from "./topic-13-explanations.json";
 import topic14 from "./topic-14-explanations.json";
 import topic15 from "./topic-15-explanations.json";
+import topic16 from "./topic-16-explanations.json";
 import topic04Part01 from "./topic-04-parts/part-01.json";
 import topic04Part02 from "./topic-04-parts/part-02.json";
 import topic04Part03 from "./topic-04-parts/part-03.json";
@@ -107,6 +108,7 @@ const explanationsByTopic = {
   "tema-13": topic13,
   "tema-14": topic14,
   "tema-15": topic15,
+  "tema-16": topic16,
   "tema-09": {
     ...topic09Part01,
     ...topic09Part02,

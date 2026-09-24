@@ -1,0 +1,707 @@
+{
+  "1": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la ultracentrifugación, las LDL se separan entre densidad 1,019 y 1,063 g/mL. A 1,063 flotan LDL y más ligeras, y las HDL quedan por debajo.",
+    "claveMemorizar": "LDL: densidad hasta 1,063."
+  },
+  "2": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El exceso de VLDL da un suero turbio u opalescente de forma homogénea. Los quilomicrones forman la capa cremosa superior.",
+    "claveMemorizar": "VLDL↑ = suero opalescente."
+  },
+  "3": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El colesterol es un lípido, no una lipoproteína. Quilomicrones, VLDL y HDL sí son lipoproteínas.",
+    "claveMemorizar": "Colesterol ≠ lipoproteína."
+  },
+  "4": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La apolipoproteína principal de las LDL es la apo B-100 (una por partícula).",
+    "claveMemorizar": "LDL = apo B-100."
+  },
+  "5": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los triglicéridos de la dieta se absorben en el intestino y viajan en quilomicrones.",
+    "claveMemorizar": "Grasa de la dieta → quilomicrones."
+  },
+  "6": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Cuanto más bajo es el HDL-colesterol, mayor es el riesgo coronario: el HDL es protector.",
+    "claveMemorizar": "HDL bajo = más riesgo."
+  },
+  "7": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El método de referencia de Abell-Kendall se basa en la reacción de Liebermann-Burchard (anhídrido acético y ácido sulfúrico dan color verde).",
+    "claveMemorizar": "Abell-Kendall → Liebermann-Burchard."
+  },
+  "8": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las lipoproteínas son quilomicrones, VLDL, IDL, LDL y HDL. Los triglicéridos son lípidos transportados, no una clase de lipoproteína.",
+    "claveMemorizar": "Triglicéridos ≠ lipoproteína."
+  },
+  "9": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La disbetalipoproteinemia (tipo III, apo E2/E2) es una causa primaria (genética). Hipotiroidismo, diabetes y ciclosporina son secundarias.",
+    "claveMemorizar": "Disbetalipoproteinemia: primaria."
+  },
+  "10": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Friedewald calcula el LDL (CT − HDL − TG/5), así que es indirecto, y no es válido con triglicéridos >400 mg/dL.",
+    "claveMemorizar": "Friedewald: no si TG >400."
+  },
+  "11": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para lípidos fiables: ayuno de 12 h, sin alcohol unas 72 h antes y teniendo en cuenta fármacos como los anticonceptivos, que alteran las lipoproteínas.",
+    "claveMemorizar": "Lípidos: ayuno, sin alcohol, ojo con fármacos."
+  },
+  "12": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los métodos químicos del colesterol (Liebermann-Burchard) son reacciones cromogénicas: forman color en medio ácido.",
+    "claveMemorizar": "Métodos químicos: cromogénicos."
+  },
+  "13": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El método enzimático usa colesterol esterasa y colesterol oxidasa (que genera H₂O₂). La peroxidasa usa ese H₂O₂ para formar color (Trinder).",
+    "claveMemorizar": "Colesterol enzimático: esterasa, oxidasa, peroxidasa."
+  },
+  "14": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los estéridos son ésteres de ácido graso con un esterol (colesterol). Con glicerol son acilglicéridos.",
+    "claveMemorizar": "Estérido = ácido graso + colesterol."
+  },
+  "15": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Liebermann-Burchard es un método químico (no enzimático) para colesterol total.",
+    "claveMemorizar": "Liebermann-Burchard: químico, colesterol."
+  },
+  "16": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las LDL son las lipoproteínas con mayor porcentaje de colesterol.",
+    "claveMemorizar": "Más colesterol: LDL."
+  },
+  "17": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La referencia es Abell-Kendall, basado en la reacción de Liebermann-Burchard.",
+    "claveMemorizar": "Referencia: Liebermann-Burchard."
+  },
+  "18": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Friedewald: LDL = colesterol total − HDL − triglicéridos/5 (en mg/dL). Necesita los tres.",
+    "claveMemorizar": "Friedewald: CT, HDL y TG."
+  },
+  "19": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las HDL hacen el transporte inverso: llevan colesterol de los tejidos al hígado para eliminarlo por la bilis.",
+    "claveMemorizar": "HDL: tejidos → hígado."
+  },
+  "20": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El índice colesterol total/HDL es un marcador de riesgo cardiovascular (índice de Castelli).",
+    "claveMemorizar": "CT/HDL → riesgo cardiovascular."
+  },
+  "21": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las HDL transportan colesterol desde los tejidos al hígado.",
+    "claveMemorizar": "HDL: transporte inverso."
+  },
+  "22": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los lípidos son reserva energética, aislante y protección de órganos. Los anticuerpos son proteínas.",
+    "claveMemorizar": "Anticuerpos = proteínas."
+  },
+  "23": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quilomicrones se forman en el enterocito (intestino) con la grasa de la dieta.",
+    "claveMemorizar": "Quilomicrones: intestino."
+  },
+  "24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quilomicrones, muy ligeros, flotan y forman una capa cremosa en la superficie tras reposo en frío.",
+    "claveMemorizar": "Capa cremosa = quilomicrones."
+  },
+  "25": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los métodos enzimáticos (colesterol esterasa + oxidasa + medida del H₂O₂) son los más usados en rutina. Es falso que no se usen.",
+    "claveMemorizar": "Colesterol: métodos enzimáticos de rutina."
+  },
+  "26": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En los métodos químicos de triglicéridos se extraen con disolventes, se hidrolizan a glicerol y ácidos grasos y se cuantifica el glicerol.",
+    "claveMemorizar": "Triglicéridos: medir el glicerol."
+  },
+  "27": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las HDL son las más ricas en proteína (apo A). Las LDL llevan colesterol a los tejidos y los lípidos van en el núcleo, con proteínas en superficie.",
+    "claveMemorizar": "HDL: las más ricas en proteína."
+  },
+  "28": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los métodos directos de HDL (enzimas modificadas con PEG, sulfato de dextrano) se correlacionan bien con la ultracentrifugación.",
+    "claveMemorizar": "HDL directo: buena correlación."
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Glicerina (glicerol libre), fluoruros y citratos interfieren en los métodos enzimáticos de colesterol y triglicéridos.",
+    "claveMemorizar": "Lípidos: evitar glicerina, fluoruro, citrato."
+  },
+  "30": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El componente principal de las HDL es la apo A-I, no la apo B. La apo B es de VLDL, IDL y LDL.",
+    "claveMemorizar": "HDL = apo A-I."
+  },
+  "31": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quilomicrones llevan apo B-48 (forma intestinal truncada de apo B).",
+    "claveMemorizar": "Quilomicrón = apo B-48."
+  },
+  "32": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La homocisteína es un aminoácido azufrado. Su elevación es factor de riesgo cardiovascular y trombótico.",
+    "claveMemorizar": "Homocisteína = riesgo cardiovascular."
+  },
+  "33": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las lipoproteínas se separan por electroforesis (por carga) o por ultracentrifugación (por densidad).",
+    "claveMemorizar": "Separar lipoproteínas: electroforesis o ultracentrífuga."
+  },
+  "34": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDL es la lipoproteína con más colesterol.",
+    "claveMemorizar": "LDL = más colesterol."
+  },
+  "35": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un HDL-colesterol ≥60 mg/dL se considera protector. Por debajo de 40 es factor de riesgo.",
+    "claveMemorizar": "HDL ≥60 = protector."
+  },
+  "36": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las HDL transportan colesterol de las células al hígado. Los quilomicrones quedan en el origen de la electroforesis, las LDL vienen del catabolismo de VLDL y las VLDL llevan triglicéridos endógenos.",
+    "claveMemorizar": "HDL: células → hígado."
+  },
+  "37": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El ayuno de 12 h evita los quilomicrones posprandiales, que elevan triglicéridos y enturbian la muestra.",
+    "claveMemorizar": "Ayuno: sin quilomicrones."
+  },
+  "38": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los quilomicrones son los más ricos en triglicéridos (~85-90%).",
+    "claveMemorizar": "Quilomicrones: los más ricos en triglicéridos."
+  },
+  "39": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un torniquete prolongado hemoconcentra y sí aumenta falsamente los lípidos. Por eso D es incorrecta.",
+    "claveMemorizar": "Torniquete largo → lípidos↑."
+  },
+  "40": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El exceso de quilomicrones forma una capa cremosa en la superficie.",
+    "claveMemorizar": "Quilomicrones: capa cremosa."
+  },
+  "41": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los lípidos se miden habitualmente por métodos enzimático-colorimétricos. Absorción atómica, Jendrassik (bilirrubina) y electrodos selectivos no se usan para ello.",
+    "claveMemorizar": "Lípidos: enzimáticos colorimétricos."
+  },
+  "42": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los métodos químicos del colesterol (Liebermann-Burchard) son reacciones cromogénicas: forman color en medio ácido.",
+    "claveMemorizar": "Métodos químicos: cromogénicos."
+  },
+  "43": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La capa cremosa tras 12 h en vertical a 4 °C (prueba de refrigeración) indica quilomicrones.",
+    "claveMemorizar": "Capa cremosa a 4 °C = quilomicrones."
+  },
+  "44": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Cada VLDL, IDL y LDL tiene una apo B-100: la apo B refleja el número total de estas partículas aterogénicas.",
+    "claveMemorizar": "Apo B = partículas aterogénicas."
+  },
+  "45": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El tipo I de Fredrickson (déficit de lipoproteína lipasa) se caracteriza por quilomicrones elevados.",
+    "claveMemorizar": "Fredrickson I = quilomicrones."
+  },
+  "46": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Liebermann-Burchard es un método químico (no enzimático) para colesterol total.",
+    "claveMemorizar": "Liebermann-Burchard: químico, colesterol."
+  },
+  "47": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las LDL son las lipoproteínas con mayor porcentaje de colesterol.",
+    "claveMemorizar": "Más colesterol: LDL."
+  },
+  "48": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La LDL es la lipoproteína más rica en colesterol libre y esterificado.",
+    "claveMemorizar": "LDL: la más rica en colesterol."
+  },
+  "49": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para lipoproteínas: ayuno de 12 h, suero o plasma, y evitar el torniquete prolongado, que las eleva falsamente.",
+    "claveMemorizar": "Lipoproteínas: ayuno, suero/plasma, torniquete corto."
+  },
+  "50": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los quilomicrones transportan los triglicéridos exógenos (de la dieta). Las VLDL llevan los endógenos.",
+    "claveMemorizar": "Exógenos = quilomicrones."
+  },
+  "51": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la electroforesis de lipoproteínas la banda pre-beta corresponde a las VLDL.",
+    "claveMemorizar": "Pre-beta = VLDL."
+  },
+  "52": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La LDL es la lipoproteína más aterogénica: deposita colesterol en la pared arterial.",
+    "claveMemorizar": "Más aterogénica: LDL."
+  },
+  "53": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las HDL no tienen apo B, sino apo A. VLDL, LDL y Lp(a) sí la tienen.",
+    "claveMemorizar": "HDL: sin apo B."
+  },
+  "54": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las HDL tienen la mayor movilidad electroforética (región alfa). Los quilomicrones quedan en el origen.",
+    "claveMemorizar": "Más rápida: HDL (alfa)."
+  },
+  "55": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los métodos químicos del colesterol (Liebermann-Burchard) son reacciones cromogénicas: forman color en medio ácido.",
+    "claveMemorizar": "Métodos químicos: cromogénicos."
+  },
+  "56": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las LDL son las lipoproteínas con mayor porcentaje de colesterol.",
+    "claveMemorizar": "Más colesterol: LDL."
+  },
+  "57": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El método de referencia es Abell-Kendall, basado en Liebermann-Burchard.",
+    "claveMemorizar": "Referencia: Liebermann-Burchard."
+  },
+  "58": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La LDH es una enzima (lactato deshidrogenasa), no una lipoproteína. No confundir con LDL.",
+    "claveMemorizar": "LDH = enzima, no lipoproteína."
+  },
+  "59": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "HDL = lipoproteínas de alta densidad.",
+    "claveMemorizar": "HDL: alta densidad."
+  },
+  "60": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El HDL se mide directamente o tras precipitar las otras lipoproteínas; no existe una fórmula de Baker. La de Friedewald es para el LDL.",
+    "claveMemorizar": "Fórmula de Friedewald → LDL, no HDL."
+  },
+  "61": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El riesgo coronario se predice con colesterol total, HDL, LDL y triglicéridos. Los ácidos grasos libres no se usan en la práctica.",
+    "claveMemorizar": "Riesgo: colesterol, HDL, TG."
+  },
+  "62": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Abell-Kendall con Liebermann-Burchard se basa en reacciones colorimétricas.",
+    "claveMemorizar": "Liebermann-Burchard: colorimétrico."
+  },
+  "63": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Friedewald no debe usarse con triglicéridos >400 mg/dL (ni con quilomicrones o disbetalipoproteinemia).",
+    "claveMemorizar": "TG >400 → no Friedewald."
+  },
+  "64": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sin ayuno, la turbidez del plasma se debe a quilomicrones.",
+    "claveMemorizar": "No ayuno → quilomicrones."
+  },
+  "65": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los quilomicrones transportan lípidos exógenos (dieta), no endógenos (esos van en VLDL).",
+    "claveMemorizar": "Quilomicrones: exógenos."
+  },
+  "66": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las HDL transportan el colesterol sobrante de las células al hígado. Son de alta densidad, se forman en hígado e intestino y su aumento protege.",
+    "claveMemorizar": "HDL: recoge colesterol sobrante."
+  },
+  "67": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los quilomicrones son lipoproteínas.",
+    "claveMemorizar": "Quilomicrón = lipoproteína."
+  },
+  "68": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El colesterol total es un lípido medido, no una lipoproteína.",
+    "claveMemorizar": "Colesterol ≠ lipoproteína."
+  },
+  "69": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los triglicéridos se determinan hidrolizándolos (lipasa) y midiendo el glicerol liberado.",
+    "claveMemorizar": "TG: hidrolizar y medir glicerol."
+  },
+  "70": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "LDL = 236 − 74 − (58/5) = 236 − 74 − 11,6 ≈ 150 mg/dL.",
+    "claveMemorizar": "LDL = CT − HDL − TG/5."
+  },
+  "71": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave, las lipoproteínas son solubles en agua y pueden circular solas: su superficie de proteínas y fosfolípidos solubiliza los lípidos insolubles.",
+    "claveMemorizar": "Lipoproteína: envoltura hidrosoluble."
+  },
+  "72": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El colesterol no es saponificable: no tiene ácidos grasos esterificados. Triglicéridos, fosfolípidos y glucolípidos sí se saponifican.",
+    "claveMemorizar": "Insaponificable: colesterol."
+  },
+  "73": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Cuando el hígado sintetiza más triglicéridos de los que puede exportar como VLDL, se acumulan: hígado graso (esteatosis).",
+    "claveMemorizar": "TG que no salen en VLDL → hígado graso."
+  },
+  "74": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las HDL son de alta densidad y migran en la banda alfa. Su apo principal es la A-I y no son las más ricas en colesterol.",
+    "claveMemorizar": "HDL = alfa."
+  },
+  "75": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Friedewald necesita colesterol total, HDL y triglicéridos.",
+    "claveMemorizar": "Friedewald: CT, HDL, TG."
+  },
+  "76": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los triglicéridos exógenos (de la dieta) viajan en quilomicrones.",
+    "claveMemorizar": "Exógenos → quilomicrones."
+  },
+  "77": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La HDL contiene apo A-I y A-II, no apo B-100. Es la más pequeña y densa y hace el transporte inverso del colesterol.",
+    "claveMemorizar": "HDL: apo A, no B."
+  },
+  "78": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La apo A-I se sintetiza en el hígado y en el intestino.",
+    "claveMemorizar": "Apo A-I: hígado e intestino."
+  },
+  "79": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La apo B es muy hidrofóbica e insoluble en agua: no se intercambia entre lipoproteínas. Es la proteína de LDL, VLDL y quilomicrones, con variantes B-100 y B-48.",
+    "claveMemorizar": "Apo B: insoluble, no se intercambia."
+  },
+  "80": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "VLDL es una lipoproteína plasmática. Las demás opciones son nombres inventados.",
+    "claveMemorizar": "VLDL = lipoproteína."
+  },
+  "81": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El colesterol es estructural (membranas) y precursor de vitamina D, hormonas sexuales, corticoides y ácidos biliares.",
+    "claveMemorizar": "Colesterol: membranas y precursor de esteroides."
+  },
+  "82": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El colesterol se mide por métodos químicos (Liebermann-Burchard) o enzimáticos (colesterol oxidasa).",
+    "claveMemorizar": "Colesterol: químicos o enzimáticos."
+  },
+  "83": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave, el método químico clásico de triglicéridos es el de Kessler (fluorimétrico, tras extracción e hidrólisis). El de Bucolo y David es enzimático.",
+    "claveMemorizar": "TG químico: Kessler. Enzimático: Bucolo-David."
+  },
+  "84": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para estudiar lipoproteínas, el paciente mantiene su dieta habitual unas 3 semanas, ayuna 12 h, no hace ejercicio intenso antes y se registran los tratamientos hormonales.",
+    "claveMemorizar": "Lipoproteínas: dieta estable 3 semanas."
+  },
+  "85": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de refrigeración consiste en dejar el suero 12 h en vertical a 4 °C: quilomicrones altos forman capa cremosa y VLDL altas enturbian.",
+    "claveMemorizar": "Refrigeración: 12 h, vertical, 4 °C."
+  },
+  "86": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La electroforesis de lipoproteínas fue muy usada por sencilla. Separa por carga neta y da porcentajes, no concentraciones exactas.",
+    "claveMemorizar": "Electroforesis: porcentajes, no cantidades."
+  },
+  "87": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las HDL se aíslan por precipitación de las lipoproteínas con apo B (polianiones + cationes divalentes). Las HDL quedan en el sobrenadante.",
+    "claveMemorizar": "HDL: precipitar las demás."
+  },
+  "88": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El principal componente proteico de las HDL es la apo A. Son de alta densidad, tienen ~50% de proteína y llevan colesterol al hígado.",
+    "claveMemorizar": "HDL: apo A."
+  },
+  "89": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "De mayor a menor densidad: HDL > LDL > IDL > VLDL > quilomicrones.",
+    "claveMemorizar": "Densidad: HDL > LDL > IDL > VLDL > QM."
+  },
+  "90": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las HDL tienen apo A-I (principal) y también apo C y apo E, que ceden a otras lipoproteínas.",
+    "claveMemorizar": "HDL: apo A y apo C."
+  },
+  "91": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las VLDL migran en la región pre-beta.",
+    "claveMemorizar": "VLDL = pre-beta."
+  },
+  "92": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "LDH es una enzima, no una lipoproteína.",
+    "claveMemorizar": "LDH = enzima."
+  },
+  "93": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los triglicéridos se determinan hidrolizándolos y midiendo el glicerol liberado.",
+    "claveMemorizar": "TG: hidrólisis + glicerol."
+  },
+  "94": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las lipoproteínas se analizan por electroforesis y por ultracentrifugación.",
+    "claveMemorizar": "Lipoproteínas: electroforesis y ultracentrífuga."
+  },
+  "95": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las LDL transportan colesterol y ésteres a las células periféricas.",
+    "claveMemorizar": "LDL: colesterol a las células."
+  },
+  "96": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La precipitación polianiónica (fosfotungstato-Mg, dextrano sulfato) elimina las lipoproteínas con apo B (VLDL, LDL). En el sobrenadante queda el HDL-colesterol.",
+    "claveMemorizar": "Precipitación polianiónica: elimina apo B."
+  },
+  "97": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la disbetalipoproteinemia (tipo III, apo E2/E2) se acumulan restos de VLDL y de quilomicrones (IDL): es una alteración del metabolismo de las VLDL.",
+    "claveMemorizar": "Tipo III: restos de VLDL (IDL)."
+  },
+  "98": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para lipoproteínas sirven suero o plasma; si es plasma, EDTA es el anticoagulante preferido. Ayuno de 12 h, centrifugar pronto y refrigerar.",
+    "claveMemorizar": "Lipoproteínas: EDTA si es plasma."
+  },
+  "99": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La apo A-I activa la LCAT, que esterifica el colesterol en las HDL. Es antiaterogénica: niveles altos protegen.",
+    "claveMemorizar": "Apo A-I activa la LCAT."
+  },
+  "100": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La apo A es el principal componente de las HDL.",
+    "claveMemorizar": "Apo A → HDL."
+  },
+  "101": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La Lp(a) depende casi solo de la genética y se mantiene estable a lo largo de la vida. Basta medirla una vez.",
+    "claveMemorizar": "Lp(a): genética, estable."
+  },
+  "102": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDL es la lipoproteína con más colesterol.",
+    "claveMemorizar": "LDL = más colesterol."
+  },
+  "103": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las lipoproteínas se clasifican por su densidad (ultracentrifugación).",
+    "claveMemorizar": "Clasificación: densidad."
+  },
+  "104": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quilomicrones son los de menor densidad y mayor tamaño.",
+    "claveMemorizar": "Quilomicrones: los más grandes y ligeros."
+  },
+  "105": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Friedewald necesita colesterol total, HDL y triglicéridos.",
+    "claveMemorizar": "Friedewald: CT, HDL, TG."
+  },
+  "106": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El método de referencia para separar y cuantificar lipoproteínas es la ultracentrifugación.",
+    "claveMemorizar": "Referencia: ultracentrifugación."
+  },
+  "107": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las lipoproteínas se analizan por precipitación, ultracentrifugación y electroforesis. Según la clave, la cromatografía no es una técnica habitual para ello.",
+    "claveMemorizar": "Lipoproteínas: precipitación, ultracentrífuga, electroforesis."
+  },
+  "108": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Aproximadamente el 70% del colesterol plasmático circula en las LDL.",
+    "claveMemorizar": "70% del colesterol: LDL."
+  },
+  "109": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los quilomicrones son ricos en triglicéridos exógenos.",
+    "claveMemorizar": "TG exógenos: quilomicrones."
+  },
+  "110": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La ultracentrifugación se usa para separar las lipoproteínas del plasma según su densidad de flotación.",
+    "claveMemorizar": "Ultracentrífuga → lipoproteínas."
+  },
+  "111": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La parte proteica de las lipoproteínas se llama apoproteína (apolipoproteína).",
+    "claveMemorizar": "Parte proteica = apoproteína."
+  },
+  "112": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Liebermann-Burchard es el método químico del colesterol. Bucolo-David es enzimático (triglicéridos) y la colesterol oxidasa también es enzimática.",
+    "claveMemorizar": "Químico: Liebermann-Burchard."
+  },
+  "113": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las LDL migran en la fracción beta.",
+    "claveMemorizar": "LDL = beta."
+  },
+  "114": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quilomicrones son partículas grandes y ricas en triglicéridos que transportan los lípidos de la dieta a los tejidos. Son menos densos que el agua y enturbian el suero.",
+    "claveMemorizar": "Quilomicrones: grandes, TG de la dieta."
+  },
+  "115": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El colesterol no es una lipoproteína.",
+    "claveMemorizar": "Colesterol ≠ lipoproteína."
+  },
+  "116": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las lipoproteínas se separan con la ultracentrífuga.",
+    "claveMemorizar": "Lipoproteínas → ultracentrífuga."
+  },
+  "117": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "VLDL = lipoproteínas de muy baja densidad (Very Low Density Lipoprotein).",
+    "claveMemorizar": "VLDL: muy baja densidad."
+  },
+  "118": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "De menor a mayor densidad: quilomicrones < VLDL < LDL < HDL.",
+    "claveMemorizar": "QM < VLDL < LDL < HDL."
+  },
+  "119": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Friedewald usa colesterol total, HDL y VLDL-colesterol estimado como TG/5: LDL = CT − HDL − VLDL.",
+    "claveMemorizar": "LDL = CT − HDL − VLDL (TG/5)."
+  },
+  "120": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El colesterol se determina habitualmente por métodos enzimáticos (colesterol esterasa/oxidasa).",
+    "claveMemorizar": "Colesterol: enzimático."
+  },
+  "121": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hipercolesterolemia familiar se debe a mutaciones del receptor de LDL (o de apo B, PCSK9).",
+    "claveMemorizar": "HF: receptor de LDL."
+  },
+  "122": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La apolipoproteína principal de las VLDL es la apo B-100.",
+    "claveMemorizar": "VLDL = apo B-100."
+  },
+  "123": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las LDL transportan el colesterol plasmático al hígado y a los tejidos extrahepáticos (receptor LDL).",
+    "claveMemorizar": "LDL: colesterol a hígado y tejidos."
+  },
+  "124": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los quilomicrones transportan los lípidos de la dieta. Se forman en el intestino, son grandes y poco densos y su vida media es de minutos.",
+    "claveMemorizar": "Quilomicrones: lípidos de la dieta."
+  },
+  "125": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "De menor a mayor densidad: quilomicrones, VLDL, LDL, HDL.",
+    "claveMemorizar": "QM → VLDL → LDL → HDL."
+  },
+  "126": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si se usa plasma para lípidos, el anticoagulante de elección es el EDTA.",
+    "claveMemorizar": "Lípidos en plasma: EDTA."
+  },
+  "127": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Niveles óptimos: colesterol total <200, LDL <100, HDL >60 y triglicéridos <150 mg/dL.",
+    "claveMemorizar": "CT <200, LDL <100, HDL >60, TG <150."
+  },
+  "128": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los triglicéridos son la reserva energética principal, almacenada en el tejido adiposo.",
+    "claveMemorizar": "Reserva energética: triglicéridos."
+  },
+  "129": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDL es la lipoproteína con más colesterol.",
+    "claveMemorizar": "LDL = más colesterol."
+  },
+  "130": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Colesterol no HDL = colesterol total − HDL-colesterol.",
+    "claveMemorizar": "No HDL = CT − HDL."
+  },
+  "131": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La apo B-100 es la proteína principal de las LDL (y VLDL). En los quilomicrones es la B-48.",
+    "claveMemorizar": "Apo B-100 = LDL."
+  },
+  "132": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El HDL-colesterol transporta el colesterol de los tejidos periféricos al hígado. Su aumento protege.",
+    "claveMemorizar": "HDL: periferia → hígado."
+  },
+  "133": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las principales familias de apolipoproteínas son ApoA, ApoB y ApoC (además de E, D…).",
+    "claveMemorizar": "Apos: A, B, C, E."
+  },
+  "134": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los quilomicrones son partículas grandes, ricas en triglicéridos, que llevan los lípidos de la dieta a los tejidos.",
+    "claveMemorizar": "Quilomicrones: grandes, TG exógenos."
+  },
+  "135": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La parte proteica de las lipoproteínas son las apoproteínas.",
+    "claveMemorizar": "Apoproteína."
+  },
+  "136": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ultracentrifugación es el método de referencia para lipoproteínas.",
+    "claveMemorizar": "Referencia: ultracentrifugación."
+  },
+  "137": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La lipoproteína lipasa es una enzima endotelial que hidroliza triglicéridos, no una lipoproteína.",
+    "claveMemorizar": "LPL = enzima."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los quilomicrones transportan triglicéridos exógenos.",
+    "claveMemorizar": "Quilomicrones: TG exógenos."
+  },
+  "139": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El perfil lipídico básico incluye colesterol total, LDL, HDL y triglicéridos, con ayuno de unas 12 h. El LDL puede calcularse por Friedewald.",
+    "claveMemorizar": "Perfil básico: CT, LDL, HDL, TG."
+  },
+  "140": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Colesterol y triglicéridos muy altos con bandas pre-beta (VLDL) y de quilomicrones corresponden a la hiperlipidemia tipo V (I + IV).",
+    "claveMemorizar": "Tipo V = quilomicrones + VLDL."
+  },
+  "141": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para medir los TG endógenos en muestra lipémica se eliminan los quilomicrones (por ultracentrifugación). Luego se miden los TG del infranadante y se comparan con los totales.",
+    "claveMemorizar": "TG endógenos: quitar quilomicrones."
+  }
+}
