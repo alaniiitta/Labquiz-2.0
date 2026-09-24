@@ -1653,7 +1653,8 @@
       "options": {
         "A": "Uno para el cultivo de microorganismos aerobios y otro para anaerobios",
         "B": "Uno para el cultivo de microorganismos habituales y otro para levaduras",
-        "C": "Uno para el cultivo de micobacterias y otro para Cocos Gram +"
+        "C": "Uno para el cultivo de micobacterias y otro para Cocos Gram +",
+        "D": "Uno para el cultivo de Cocos Gram + y otro para Gram -"
       },
       "page": 13,
       "correctAnswer": "A",
@@ -1679,7 +1680,7 @@
         "A": "A temperatura ambiente",
         "B": "En estufa de CO2 a 37 ºC",
         "C": "En frigorífico a 4ºC",
-        "D": "En estufa a 37 ºC D) Uno para el cultivo de Cocos Gram + y otro para Gram -"
+        "D": "En estufa a 37 ºC"
       },
       "page": 13,
       "correctAnswer": "A",
