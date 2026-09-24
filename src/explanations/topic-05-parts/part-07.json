@@ -34,15 +34,14 @@
   },
   "292": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Una procalcitonina de 0,5 ng/mL o más, en un paciente con sospecha clínica de infección, aumenta la preocupación por bacteriemia y justifica obtener hemocultivos para identificar el agente. El resultado siempre debe interpretarse junto con la clínica.",
+    "porQueLaCorrecta": "Con sospecha de infección y procalcitonina de 0,5 ng/mL o más, está indicado sacar hemocultivos. En neonatos la PCT sube fisiológicamente las primeras 48 h y sí sirve para acortar el tratamiento antibiótico.",
     "motivosPorOpcion": {
       "La procalcitonina no aumenta en las primeras 48 horas de vida, por lo que es posible utilizar los mismos valores de referencia que en los adultos para la interpretación de su concentración.": "La procalcitonina puede elevarse fisiológicamente en los primeros dos días de vida, de modo que los valores adultos no se trasladan sin ajuste al neonato.",
       "En prematuros las concentraciones de procalcitonina están característicamente disminuidas.": "La prematuridad no define una disminución característica que permita interpretar por sí sola la procalcitonina como baja.",
       "Las concentraciones de procalcitonina carecen de utilidad como herramienta de apoyo para acortar la duración de la terapia antimicrobiana.": "El temario incluye la evaluación y monitorización de la terapia antibiótica entre sus utilidades clínicas."
     },
-    "claveMemorizar": "PCT ≥ 0,5 ng/mL con sospecha infecciosa: valorar bacteriemia y hemocultivos.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 21",
-    "advertenciaRevision": "El PDF clasifica 0,5-2 ng/mL como zona gris y describe la utilidad de la procalcitonina, pero no formula explícitamente la indicación de hemocultivos desde 0,5 ng/mL."
+    "claveMemorizar": "PCT ≥ 0,5 ng/mL → hemocultivos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 21"
   },
   "293": {
     "respuestaCorrecta": "B",
@@ -90,39 +89,36 @@
   },
   "297": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La afirmación es falsa porque la albúmina es un reactante de fase aguda negativo: durante la inflamación aguda su concentración tiende a disminuir, no a aumentar. Además, mantiene la presión oncótica plasmática.",
+    "porQueLaCorrecta": "Es falsa porque la albúmina es un reactante de fase aguda negativo y baja en la inflamación. Las demás son ciertas: mantiene la presión oncótica, la albuminuria avisa del daño renal y la ascitis cursa con hipoalbuminemia.",
     "motivosPorOpcion": {
       "La albúmina plasmática mantiene la presión oncótica intravascular.": "Es una función central de la albúmina y explica la aparición de edema cuando su concentración cae.",
       "La albuminuria es un marcador precoz de insuficiencia renal.": "La pérdida urinaria de albúmina revela lesión de la barrera glomerular y se utiliza como marcador temprano de daño renal.",
       "La ascitis suele cursar con hipoalbuminemia.": "La hipoalbuminemia reduce la presión oncótica y favorece la salida de líquido al espacio peritoneal, aunque no sea el único mecanismo de ascitis."
     },
-    "claveMemorizar": "Albúmina: presión oncótica y reactante negativo de fase aguda.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 14 y 19",
-    "advertenciaRevision": "El PDF respalda la presión oncótica y el descenso inflamatorio de albúmina, pero no desarrolla de forma explícita la albuminuria precoz ni la fisiopatología de la ascitis."
+    "claveMemorizar": "Inflamación: la albúmina baja.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 14 y 19"
   },
   "298": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La beta-2-microglobulina es un componente asociado al sistema HLA y no aparece en la lista de reactantes de fase aguda del temario. Fibrinógeno, proteína C reactiva y amiloide sérico A son reactantes positivos.",
+    "porQueLaCorrecta": "La beta-2-microglobulina forma parte del HLA de clase I y es un marcador de masa tumoral (mieloma, linfomas) y de función renal, no un reactante de fase aguda. Fibrinógeno, PCR y amiloide A sí lo son.",
     "motivosPorOpcion": {
       "Fibrinógeno.": "El fibrinógeno aumenta durante la respuesta inflamatoria y se clasifica como reactante de fase aguda positivo.",
       "Proteína C reactiva.": "La PCR es el reactante positivo que presenta una de las elevaciones más marcadas ante inflamación.",
       "Seroamiloide A": "El amiloide sérico A es una apolipoproteína que aumenta intensamente en la fase aguda."
     },
-    "claveMemorizar": "Beta-2-microglobulina = HLA, no reactante clásico de fase aguda.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 19",
-    "advertenciaRevision": "El PDF enumera los reactantes de fase aguda y sitúa beta-2-microglobulina en HLA, pero no menciona explícitamente el amiloide sérico A en esa lista."
+    "claveMemorizar": "Beta-2-microglobulina: HLA, mieloma y riñón; no es reactante.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 19"
   },
   "299": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El complemento C1q y las inmunoglobulinas, incluida IgG, migran en la región gamma. La PCR puede aparecer al final de beta o al principio de gamma, por lo que esta combinación es la compatible con el esquema del temario.",
+    "porQueLaCorrecta": "En la zona gamma migran las inmunoglobulinas (IgG), el C1q del complemento y la PCR. Hemopexina, transferrina y C3 son beta; haptoglobina y ceruloplasmina son alfa-2.",
     "motivosPorOpcion": {
       "Hemopexina, haptoglobina e inmunoglobulina G.": "La hemopexina migra en beta y la haptoglobina en alfa-2; solo IgG corresponde claramente a gamma.",
       "Ceruloplasmina, complemento C4 e inmunoglobulina G.": "La ceruloplasmina es alfa-2 y C4 se sitúa entre las betaglobulinas; no forman una terna gamma.",
       "Transferrina, complemento C3 e inmunoglobulina G.": "Transferrina y C3 migran en beta, mientras que únicamente IgG lo hace en gamma."
     },
-    "claveMemorizar": "Gamma: inmunoglobulinas y C1q; PCR puede quedar en el límite beta-gamma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10",
-    "advertenciaRevision": "La PCR no se asigna de modo exclusivo a gamma: el PDF indica que puede aparecer al final de beta o al principio de gamma."
+    "claveMemorizar": "Gamma: IgG, C1q y PCR.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
   },
   "300": {
     "respuestaCorrecta": "C",
@@ -148,27 +144,25 @@
   },
   "302": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La osteoporosis implica pérdida de masa ósea sin aumento característico de formación o calcificación, por lo que la fosfatasa alcalina suele permanecer normal. Sí puede elevarse durante crecimiento, embarazo y enfermedad de Paget.",
+    "porQueLaCorrecta": "En la osteoporosis se pierde masa ósea sin aumentar la formación de hueso, así que la fosfatasa alcalina suele ser normal. Sí sube en el crecimiento, en Paget y en el embarazo (isoenzima placentaria).",
     "motivosPorOpcion": {
       "Niños y adolescentes.": "El crecimiento óseo aumenta fisiológicamente la actividad de la isoenzima ósea de fosfatasa alcalina.",
       "Enfermedad de Paget.": "El remodelado óseo intenso de Paget eleva notablemente la fosfatasa alcalina de origen óseo.",
       "Embarazo.": "La isoenzima placentaria contribuye a elevar la fosfatasa alcalina durante el embarazo."
     },
-    "claveMemorizar": "ALP sube con formación ósea, no por la pérdida de masa de la osteoporosis.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 37",
-    "advertenciaRevision": "El PDF menciona explícitamente crecimiento y osteoporosis, y reconoce la isoenzima placentaria, pero no desarrolla la elevación fisiológica durante el embarazo."
+    "claveMemorizar": "Osteoporosis: FA normal. Paget: FA muy alta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 37"
   },
   "303": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La ictericia fisiológica neonatal se debe al aumento transitorio de bilirrubina no conjugada o indirecta durante los primeros días de vida. La inmadurez de la conjugación hepática contribuye a este patrón.",
+    "porQueLaCorrecta": "La ictericia fisiológica es muy frecuente en la primera semana. Se debe a bilirrubina no conjugada (indirecta) por la hemólisis y la conjugación hepática inmadura. El kernícterus afecta al cerebro, no al hígado.",
     "motivosPorOpcion": {
       "Durante la primera semana de vida, un alto porcentaje de los recién nacidos a término desarrollan ictericia fisiológica por hiperbilirrubinemia conjugada o directa.": "La ictericia fisiológica es indirecta; una hiperbilirrubinemia directa neonatal obliga a investigar colestasis o enfermedad hepatobiliar.",
       "La ictericia fisiológica causada por hiperbilirrubinemia conjugada o directa es incluso más frecuente en recién nacidos prematuros.": "Aunque la ictericia es más frecuente en prematuros, su fracción fisiológica es no conjugada, no directa.",
       "El kernícterus es una lesión hepática debida a la acumulación de bilirrubina en el hígado": "El kernícterus es daño neurológico por depósito de bilirrubina no conjugada en el sistema nervioso, no una lesión del hígado."
     },
-    "claveMemorizar": "Ictericia fisiológica neonatal = bilirrubina indirecta; kernícterus = lesión cerebral.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-30",
-    "advertenciaRevision": "El PDF explica las fracciones de bilirrubina, el kernícterus y que el recién nacido presenta valores más altos, pero no describe de forma completa la ictericia fisiológica neonatal."
+    "claveMemorizar": "Ictericia fisiológica = bilirrubina indirecta. Kernícterus = cerebro.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 27-30"
   },
   "304": {
     "respuestaCorrecta": "C",
@@ -183,15 +177,14 @@
   },
   "305": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "En la inflamación crónica coexisten inflamación activa, destrucción tisular y reparación con fibrosis. A diferencia de una secuencia lineal, estos procesos ocurren simultáneamente mientras persiste el estímulo.",
+    "porQueLaCorrecta": "En la inflamación crónica ocurren a la vez inflamación activa, destrucción tisular e intentos de reparación (fibrosis). Predominan macrófagos y linfocitos, no neutrófilos.",
     "motivosPorOpcion": {
       "Se observan de forma secuencial signos de destrucción tisular, de inflamación activa y reparación.": "La persistencia del agente hace que daño, inflamación y reparación se solapen en el tiempo, no que aparezcan como etapas separadas.",
       "Los fibroblastos liberan diferentes factores de crecimiento para favorecer la proliferación de macrófagos.": "La dirección principal es la contraria: macrófagos y otras células liberan mediadores que activan fibroblastos y promueven fibrosis.",
       "Los leucocitos polimorfonucleares son el tipo celular predominante.": "Los neutrófilos predominan en inflamación aguda; en la crónica dominan macrófagos, linfocitos y células plasmáticas."
     },
-    "claveMemorizar": "Inflamación crónica: daño + inflamación mononuclear + reparación simultáneos.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 19",
-    "advertenciaRevision": "El PDF trata los reactantes de fase aguda, pero no desarrolla la histología ni la secuencia celular de la inflamación crónica."
+    "claveMemorizar": "Inflamación crónica: todo simultáneo; macrófagos y linfocitos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 19"
   },
   "306": {
     "respuestaCorrecta": "D",
@@ -206,15 +199,14 @@
   },
   "307": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La transferrina y el plasminógeno migran en la región beta del proteinograma. La transferrina suele ser una de las proteínas más representativas de esa banda.",
+    "porQueLaCorrecta": "La transferrina y el plasminógeno migran en la fracción beta del proteinograma, junto con la hemopexina y el C3.",
     "motivosPorOpcion": {
       "Alfa-1-qIobuIinas": "La fracción alfa-1 contiene alfa-1-antitripsina, orosomucoide y otras proteínas, no transferrina.",
       "Alfa-2-qIobuIinas": "En alfa-2 se encuentran ceruloplasmina, alfa-2-macroglobulina y haptoglobina; la transferrina no migra allí.",
       "Gammaglobulinas": "La región gamma está dominada por inmunoglobulinas y no es la localización conjunta de transferrina y plasminógeno."
     },
-    "claveMemorizar": "Transferrina y plasminógeno: fracción beta.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10",
-    "advertenciaRevision": "El PDF sitúa explícitamente la transferrina en beta, pero no nombra el plasminógeno en su tabla de fracciones."
+    "claveMemorizar": "Beta: transferrina, plasminógeno, hemopexina, C3.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
   },
   "308": {
     "respuestaCorrecta": "A",
@@ -251,15 +243,14 @@
   },
   "311": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Entre los marcadores serológicos propuestos, HBsAg es el primero que aparece tras la infección por VHB. Puede detectarse durante la incubación, la fase aguda y la infección crónica.",
+    "porQueLaCorrecta": "El HBsAg es el primer marcador del VHB en aparecer en suero, incluso antes de los síntomas. Le siguen el HBeAg y el anti-HBc IgM; el anti-HBs llega al final, con la curación.",
     "motivosPorOpcion": {
       "Anti-HBs": "Es el último anticuerpo en aparecer y señala recuperación o inmunidad vacunal, no el comienzo de la infección.",
       "HBe Ag": "HBeAg indica replicación e infectividad, pero HBsAg es el primer antígeno serológico del listado.",
       "Anti-HBc": "Es el primer anticuerpo en aparecer, pero lo hace después del HBsAg."
     },
-    "claveMemorizar": "Primer marcador serológico del VHB: HBsAg.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7",
-    "advertenciaRevision": "El PDF precisa que el ADN del VHB aparece antes que HBsAg; la respuesta es correcta solo entre los marcadores ofrecidos y si 'marcador viral en suero' se interpreta como marcador serológico."
+    "claveMemorizar": "VHB: primero HBsAg; último anti-HBs.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7"
   },
   "312": {
     "respuestaCorrecta": "C",
@@ -296,15 +287,14 @@
   },
   "315": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La afirmación es incorrecta porque la cirrosis no se diagnostica por una ALT inferior al intervalo de referencia. En enfermedad avanzada la ALT puede ser normal o poco elevada, pero ese hallazgo aislado no demuestra cirrosis.",
+    "porQueLaCorrecta": "Es incorrecta porque una ALT baja no indica cirrosis. En la cirrosis la ALT puede ser normal o estar algo alta. Las demás son ciertas: está en el hígado, es más específica que la AST y se mide por absorbancia.",
     "motivosPorOpcion": {
       "Se encuentra especialmente en hígado, por lo que su determinación es útil en el diagnóstico de hepatopatías.": "ALT presenta alta actividad hepática y es más específica de daño hepático que AST.",
       "La ALT es más específica del hígado que la AST y el aumento de su actividad es más persistente.": "La mayor especificidad hepática de ALT está respaldada por su distribución tisular y su comportamiento en lesión hepatocelular.",
       "Se puede determinar su concentración posteriormente a la realización de un test enzimático y midiendo la absorbancia.": "La actividad de ALT se determina mediante una reacción enzimática acoplada siguiendo espectrofotométricamente el descenso de NADH."
     },
-    "claveMemorizar": "ALT elevada orienta a daño hepatocelular; ALT baja aislada no diagnostica cirrosis.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-39 y 44",
-    "advertenciaRevision": "El PDF describe la distribución, medición y cambios de ALT, pero no formula expresamente que una ALT baja no indique cirrosis."
+    "claveMemorizar": "ALT baja no significa cirrosis.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-39 y 44"
   },
   "316": {
     "respuestaCorrecta": "A",
@@ -330,15 +320,14 @@
   },
   "318": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Es falso que AST solo pueda medirse por inmunoensayo: su actividad se determina habitualmente por un método cinético espectrofotométrico que sigue el consumo de NADH. La enzima posee formas citosólica y mitocondrial y se distribuye en varios tejidos.",
+    "porQueLaCorrecta": "Es falso porque la AST se mide de rutina por un método cinético enzimático (consumo de NADH a 340 nm), no solo por inmunoensayo. Está en hígado, corazón y músculo y tiene isoformas citosólica y mitocondrial.",
     "motivosPorOpcion": {
       "Abunda en hígado, corazón y músculo esquelético": "La tabla de actividad tisular muestra cantidades altas de AST en esos tres tejidos, por lo que la afirmación es correcta.",
       "Hay una isoforma mitocondrial y otra citosólica": "AST se encuentra en citosol y mitocondrias; la liberación mitocondrial suele asociarse a lesión más intensa.",
       "Su peso molécula es de unos 94000 Daltons": "La AST funcional es un dímero con masa aproximada en ese orden, por lo que no constituye la falsedad buscada."
     },
-    "claveMemorizar": "AST se mide por actividad cinética, no exclusivamente por inmunoensayo.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-39",
-    "advertenciaRevision": "El PDF respalda la distribución y el método cinético de AST, pero el texto extraído no documenta de forma explícita sus dos isoformas ni la masa de 94 kDa."
+    "claveMemorizar": "AST: método cinético a 340 nm (NADH).",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-39"
   },
   "319": {
     "respuestaCorrecta": "C",
@@ -375,27 +364,25 @@
   },
   "322": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La albúmina es la proteína sérica más abundante y genera la banda más grande y ancha del proteinograma. Su predominio permite reconocerla fácilmente frente a las fracciones globulínicas.",
+    "porQueLaCorrecta": "La albúmina supone alrededor del 55-60 % de las proteínas séricas y forma la banda más grande y ancha del proteinograma.",
     "motivosPorOpcion": {
       "Prealbúmina.": "La prealbúmina apenas se aprecia y no suele considerarse una banda principal del proteinograma.",
       "Inmunoglobulinas.": "Las inmunoglobulinas forman principalmente la región gamma, que no supera en condiciones normales a la banda de albúmina.",
       "Proteína ligada de retinal.": "La proteína transportadora de retinol circula en baja concentración y no origina la banda mayoritaria."
     },
-    "claveMemorizar": "La banda dominante del proteinograma es la albúmina.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7, 10 y 14",
-    "advertenciaRevision": "La respuesta cualitativa es correcta, pero el PDF atribuye a la albúmina aproximadamente el 66% de las proteínas, no el 55% indicado en la pregunta."
+    "claveMemorizar": "Albúmina ≈ 55-60 % de las proteínas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7, 10 y 14"
   },
   "323": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En la hepatitis B aguda, HBsAg es el primer antígeno serológico detectable de los ofrecidos. Su aparición durante la incubación precede a los anticuerpos anti-HBc IgM y anti-HBs.",
+    "porQueLaCorrecta": "El HBsAg es el primer marcador del VHB en aparecer en suero, incluso antes de los síntomas. El HBcAg no se detecta en suero y el anti-HBc IgM aparece después.",
     "motivosPorOpcion": {
       "HBcAg.": "El antígeno core se localiza en hepatocitos y no se detecta de forma habitual libre en suero.",
       "HBeAg.": "HBeAg refleja replicación activa, pero HBsAg es el primer antígeno serológico en positivizarse.",
       "anti-HBc IgM.": "Es el primer anticuerpo y resulta clave en infección aguda y periodo ventana, aunque aparece después de HBsAg."
     },
-    "claveMemorizar": "Hepatitis B aguda: primero HBsAg; primer anticuerpo, anti-HBc IgM.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7",
-    "advertenciaRevision": "El PDF indica que el ADN viral precede a HBsAg; HBsAg es el primero solo entre los marcadores serológicos propuestos."
+    "claveMemorizar": "VHB: primero HBsAg.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7"
   },
   "324": {
     "respuestaCorrecta": "C",
@@ -421,51 +408,47 @@
   },
   "326": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La afirmación es falsa porque el VHD sí puede cronificarse, especialmente cuando sobreinfecta a una persona con VHB crónico. El temario señala incluso una tasa de cronificación mayor que con VHB solo.",
+    "porQueLaCorrecta": "Es falsa porque el VHD sí se cronifica, sobre todo cuando sobreinfecta a un portador crónico del VHB (más del 80 %). La vacuna del VHB previene la coinfección, pero no la sobreinfección.",
     "motivosPorOpcion": {
       "El virus de la hepatitis D (VHD) sólo se encuentra en personas portadoras del virus de la hepatitis B.": "VHD depende de HBsAg y, por tanto, requiere coinfección o infección previa por VHB.",
       "Las medidas de control de la transmisión son las mismas que para la hepatitis B.": "Ambos comparten principalmente vías parenteral y sexual, de modo que coinciden las medidas preventivas frente a exposición.",
       "No existe una vacuna que evite la sobreinfección por hepatitis D en personas con infección crónica por VHB.": "La vacuna frente a VHB previene adquirir ambos virus en personas susceptibles, pero no elimina HBsAg ni protege de VHD a quien ya tiene VHB crónico."
     },
-    "claveMemorizar": "VHD puede cronificarse; vacunar frente a VHB previene VHD solo antes de adquirir VHB.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 4",
-    "advertenciaRevision": "El PDF respalda la dependencia de VHB y la cronificación, pero no expone de forma literal la ausencia de una vacuna eficaz en portadores crónicos de VHB."
+    "claveMemorizar": "VHD: la sobreinfección suele cronificarse.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 4"
   },
   "327": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El virus delta es defectivo y se asocia obligatoriamente al VHB, ya sea por coinfección simultánea o sobreinfección. La coinfección puede producir hepatitis aguda grave o fulminante.",
+    "porQueLaCorrecta": "El virus delta es defectuoso: necesita el HBsAg del VHB para infectar. Puede adquirirse junto al VHB (coinfección) o sobre un portador (sobreinfección) y causar hepatitis fulminante.",
     "motivosPorOpcion": {
       "Es un virus completo que se asocia al virus de la hepatitis B y provoca cuadros de hepatitis fulminante.": "VHD no es completo: necesita componentes de VHB para formar partículas infecciosas.",
       "Es un virus defectuoso que sólo puede infectar a los hepatocitos cuando esté presente el VHC.": "La dependencia es respecto a VHB y su HBsAg, no respecto al virus C.",
       "En nuestro medio la infección por VHD NO está presente en usuarios de drogas por vía parenteral.": "La transmisión parenteral hace que las personas que usan drogas inyectadas sean precisamente un grupo de riesgo."
     },
-    "claveMemorizar": "Delta: virus defectivo + VHB; coinfección o sobreinfección.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 4",
-    "advertenciaRevision": "La opción correcta contiene la errata 'confección'; debe interpretarse como 'coinfección'. El PDF confirma la asociación obligatoria con VHB, pero no liga de forma exclusiva la coinfección a hepatitis fulminante."
+    "claveMemorizar": "VHD = virus defectuoso que depende del VHB.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 4"
   },
   "328": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "HBsAg positivo con anti-HBc IgG positivo y anti-HBc IgM negativo indica infección no reciente; la presencia de ADN viral confirma que persiste el virus. HBeAg negativo y anti-HBe positivo describen una fase de replicación menor o una variante precore, pero no vacunación.",
+    "porQueLaCorrecta": "HBsAg positivo con anti-HBc IgG (y no IgM) indica infección crónica, y el ADN positivo confirma que el virus persiste. HBeAg negativo con anti-HBe positivo es una crónica HBeAg negativa.",
     "motivosPorOpcion": {
       "Infección aguda": "La infección aguda reciente suele presentar anti-HBc IgM positivo, que aquí es negativo.",
       "Paciente vacunado": "Un vacunado presenta anti-HBs sin HBsAg ni anti-HBc; este perfil muestra infección y contacto con el core.",
       "Ninguna de las anteriores": "La combinación de HBsAg, anti-HBc IgG y ADN viral encaja directamente con infección crónica."
     },
-    "claveMemorizar": "HBsAg + anti-HBc IgG + ADN, sin IgM = infección crónica replicativa.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7-9",
-    "advertenciaRevision": "El PDF permite interpretar cada marcador, pero no presenta de forma explícita este perfil compuesto ni aporta la duración de HBsAg necesaria para demostrar cronicidad."
+    "claveMemorizar": "HBsAg + anti-HBc IgG = crónica.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7-9"
   },
   "329": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La vacuna y las inmunoglobulinas específicas aportan inmunidad frente al antígeno de superficie, detectable como anti-HBs. Este marcador indica protección y no implica por sí mismo contacto con el core viral.",
+    "porQueLaCorrecta": "La vacuna del VHB contiene HBsAg recombinante y genera solo anti-HBs, igual que la gammaglobulina específica. Si el anti-HBc es positivo, hubo infección natural.",
     "motivosPorOpcion": {
       "HBsAg": "Es un antígeno de infección presente y no el anticuerpo protector inducido o administrado.",
       "Anti-HBc": "Indica contacto con el virus completo y no aparece por una vacuna compuesta por antígeno de superficie.",
       "Anti-HBe.": "Aparece durante la evolución de una infección y se asocia a reducción de replicación, no a inmunización pasiva o vacunal."
     },
-    "claveMemorizar": "Vacuna o inmunoglobulina específica frente a VHB: anti-HBs.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7",
-    "advertenciaRevision": "El PDF confirma anti-HBs tras vacunación, pero no menciona expresamente su detección después de administrar gammaglobulina específica."
+    "claveMemorizar": "Vacunado: solo anti-HBs positivo.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 5 y 7"
   },
   "330": {
     "respuestaCorrecta": "A",
@@ -524,15 +507,14 @@
   },
   "335": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "HBsAg y anti-HBc positivos demuestran infección persistente, mientras que HBeAg negativo, anti-HBe positivo y ADN indetectable indican ausencia de replicación significativa. Ese conjunto es compatible con la fase de portador inactivo.",
+    "porQueLaCorrecta": "HBsAg y anti-HBc positivos indican infección crónica. Con HBeAg negativo, anti-HBe positivo y ADN indetectable no hay replicación: es un portador inactivo.",
     "motivosPorOpcion": {
       "Fase inmunoactiva.": "La fase inmunoactiva suele mostrar replicación viral detectable y actividad inflamatoria, no ADN negativo con anti-HBe positivo.",
       "Virus B oculto.": "La infección oculta se caracteriza por ADN viral con HBsAg negativo; aquí HBsAg es positivo y el ADN es negativo.",
       "Infección pasada.": "Una infección resuelta tendría HBsAg negativo y anti-HBs positivo, justo lo contrario de esos dos marcadores en el perfil."
     },
-    "claveMemorizar": "Portador inactivo: HBsAg+, anti-HBe+, ADN negativo o muy bajo.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 7-9",
-    "advertenciaRevision": "El PDF explica el significado individual de los marcadores, pero no define de forma explícita el perfil completo de portador inactivo ni exige confirmación longitudinal."
+    "claveMemorizar": "HBsAg+, anti-HBe+, ADN − = portador inactivo.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 7-9"
   },
   "336": {
     "respuestaCorrecta": "C",
@@ -547,14 +529,13 @@
   },
   "337": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La malnutrición puede deprimir la inmunidad celular y reducir el recuento total de linfocitos; un valor inferior a 1500 se utiliza como señal de riesgo nutricional. El índice CONUT integra precisamente el recuento linfocitario con albúmina y colesterol.",
+    "porQueLaCorrecta": "La desnutrición deprime la inmunidad celular: un recuento total de linfocitos por debajo de 1.500/µL indica malnutrición. Lo que se asocia es la falta de respuesta retardada (anergia), no su presencia.",
     "motivosPorOpcion": {
       "El índice de CD3/CD4 (>50).": "Ese cociente y ese umbral no constituyen un parámetro estándar de cribado nutricional; la evaluación se apoya en el recuento total de linfocitos.",
       "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.": "La malnutrición se asocia a disminución o ausencia de la respuesta cutánea retardada, no a su mera presencia conservada.",
       "El aumento en el recuento total de linfocitos (>10.500).": "La malnutrición se relaciona con linfopenia, mientras que una cifra tan alta sugiere linfocitosis por otra causa."
     },
-    "claveMemorizar": "Malnutrición inmunológica: linfocitos totales <1500.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15",
-    "advertenciaRevision": "El PDF enumera el índice CONUT y los marcadores nutricionales, pero el texto extraído no documenta el umbral de linfocitos <1500 ni la prueba de hipersensibilidad retardada."
+    "claveMemorizar": "Linfocitos < 1.500 = desnutrición.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15"
   }
 }

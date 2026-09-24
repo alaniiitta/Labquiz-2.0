@@ -1,15 +1,14 @@
 {
   "1": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Sudán III es una prueba microscópica cualitativa que tiñe de rojo los glóbulos de grasa fecal. El temario la diferencia de los métodos cuantitativos usados para medir la excreción de grasa.",
+    "porQueLaCorrecta": "Sudán III es una tinción microscópica cualitativa: solo orienta y no detecta aumentos leves de grasa. Los métodos cuantitativos (Van de Kamer, gravimetría) y la trioleína-14C son más sensibles.",
     "motivosPorOpcion": {
       "Método titulométrico de Van de Kamer": "Van de Kamer cuantifica la grasa fecal de una recogida de tres días y es el método de referencia.",
       "Métodos gravimétricos": "La gravimetría figura entre los procedimientos cuantitativos de determinación de grasa fecal.",
       "Prueba de la trioleína-14C": "La trioleína marcada se utiliza en una prueba del aliento relacionada con la absorción de grasas, no como tinción microscópica."
     },
-    "claveMemorizar": "Sudán III: detección microscópica cualitativa; Van de Kamer: cuantificación de referencia.",
-    "fuente": "Tema 4 F. digestiva, páginas 32-33",
-    "advertenciaRevision": "El PDF describe el carácter microscópico de Sudán III y los métodos cuantitativos, pero no afirma de forma expresa que Sudán III sea el de menor sensibilidad."
+    "claveMemorizar": "Sudán III = cualitativo = el menos sensible. Van de Kamer = referencia.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-33"
   },
   "2": {
     "respuestaCorrecta": "A",
@@ -134,27 +133,25 @@
   },
   "13": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El examen busca simultáneamente restos no digeridos de grasas, almidón y fibras musculares. Para que los tres componentes sean evaluables, la alimentación debe aportarlos.",
+    "porQueLaCorrecta": "El estudio de digestión en heces busca a la vez restos de grasas, fibras musculares y almidón. Por eso no se hace dieta especial: basta la alimentación habitual si aporta los tres principios inmediatos.",
     "motivosPorOpcion": {
       "Una dieta especial en la que se hayan restringidas las grasas": "Restringir grasas limita la posibilidad de valorar su digestión y su excreción fecal.",
       "Una dieta especial a base exclusivamente de proteínas": "Una dieta solo proteica impide valorar en la misma muestra almidón y grasa dietarios.",
       "Una dieta especial a base de almidones y fibras vegetales": "Una dieta centrada en almidón y fibra no aporta todos los principios inmediatos que pretende examinar la prueba."
     },
-    "claveMemorizar": "Para estudiar grasas, almidón y fibras musculares, la dieta debe contener los tres.",
-    "fuente": "Tema 4 F. digestiva, páginas 31 y 34-35",
-    "advertenciaRevision": "El PDF enumera los nutrientes que se investigan, pero no indica expresamente que deba mantenerse la alimentación habitual."
+    "claveMemorizar": "Digestión en heces: dieta habitual con grasas, proteínas y almidón.",
+    "fuente": "Tema 4 F. digestiva, páginas 31 y 34-35"
   },
   "14": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Van de Kamer es una determinación cuantitativa de la grasa fecal: expresa la cantidad excretada por 24 horas y considera esteatorrea valores superiores a 7 g/24 h.",
+    "porQueLaCorrecta": "Van de Kamer es el método de referencia para cuantificar la grasa fecal total, en heces de 72 h. Se expresa en g/24 h; más de 7 g/24 h es esteatorrea.",
     "motivosPorOpcion": {
       "Lípidos fecales totales.": "Esta formulación describe prácticamente el mismo analito y no queda claramente diferenciada de la opción marcada en el material.",
       "Malabsorción de grasas.": "La malabsorción es la interpretación clínica de una excreción aumentada, no la magnitud que mide directamente el método.",
       "Titulación de ácidos grasos.": "La titulación puede formar parte del principio analítico, pero el resultado clínico del método es la cuantificación de grasa fecal."
     },
-    "claveMemorizar": "Van de Kamer: cantidad de grasa fecal por 24 horas; referencia para esteatorrea.",
-    "fuente": "Tema 4 F. digestiva, páginas 32-33",
-    "advertenciaRevision": "Las opciones A y B son semánticamente solapadas. El PDF respalda que Van de Kamer cuantifica grasa fecal, pero no permite separar con nitidez «lípidos fecales totales» de «grasas totales»."
+    "claveMemorizar": "Van de Kamer: grasa fecal total, heces de 72 h, >7 g/24 h.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-33"
   },
   "15": {
     "respuestaCorrecta": "C",
@@ -169,27 +166,25 @@
   },
   "16": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En las pruebas químicas basadas en guayaco, la actividad seudoperoxidasa de la hemoglobina cataliza una reacción cromática azul. La aparición de color azul indica positividad.",
+    "porQueLaCorrecta": "La sangre oculta con guayaco se basa en la actividad peroxidasa de la hemoglobina, que oxida el reactivo y produce color azul. Un halo o viraje azul indica resultado positivo.",
     "motivosPorOpcion": {
       "Burbujas.": "La lectura descrita para el guayaco es un cambio de color y no la formación de gas.",
       "Una línea rosada.": "El temario no asocia una línea rosada con la reacción positiva del guayaco.",
       "Un punto rojo.": "La coloración roja corresponde a la grasa teñida con Sudán III, no a sangre oculta con guayaco."
     },
-    "claveMemorizar": "Guayaco positivo = color azul por actividad seudoperoxidasa de la hemoglobina.",
-    "fuente": "Tema 4 F. digestiva, páginas 25-27",
-    "advertenciaRevision": "El PDF especifica «azul positivo», pero no describe literalmente que el patrón observado sea un halo azulado."
+    "claveMemorizar": "Guayaco + hemoglobina = azul = positivo.",
+    "fuente": "Tema 4 F. digestiva, páginas 25-27"
   },
   "17": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La prueba administra lactosa por vía oral y después mide glucosa sérica, no lactosa, a los 60 y 120 minutos. Un aumento de glucosa inferior a 20-30 mg/dL con clínica compatible indica maldigestión por déficit de lactasa.",
+    "porQueLaCorrecta": "Es falsa porque en el test de tolerancia a la lactosa no se mide lactosa, sino la glucosa en sangre tras la sobrecarga. Si la glucosa apenas sube, hay déficit de lactasa.",
     "motivosPorOpcion": {
       "Se ingiere una cantidad conocida de lactosa disuelta.": "El protocolo descrito administra por vía oral una carga conocida de 50 g de lactosa.",
       "Se busca la deficiencia de lactasa.": "La falta de lactasa impide hidrolizar adecuadamente la lactosa y reduce el incremento esperado de glucosa.",
       "El paciente debe estar en ayunas.": "La prueba compara la glucemia posterior a una carga oral, por lo que requiere una situación basal controlada."
     },
-    "claveMemorizar": "Tolerancia a lactosa: se administra lactosa, pero se mide glucosa sérica.",
-    "fuente": "Tema 4 F. digestiva, p. 37",
-    "advertenciaRevision": "El PDF explica la carga oral y la medición de glucosa, pero no menciona de forma expresa el ayuno en este protocolo."
+    "claveMemorizar": "Tolerancia a lactosa: das lactosa, mides glucosa.",
+    "fuente": "Tema 4 F. digestiva, p. 37"
   },
   "18": {
     "respuestaCorrecta": "D",
@@ -226,27 +221,25 @@
   },
   "21": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La quimotripsina puede detectarse en heces cuando existe secreción pancreática exocrina y disminuye en la fibrosis quística. Esto permite utilizarla en su seguimiento.",
+    "porQueLaCorrecta": "La quimotripsina fecal refleja la secreción pancreática exocrina. Es muy útil para valorar y seguir a los niños con fibrosis quística, en quienes está disminuida.",
     "motivosPorOpcion": {
       "Enfermedad celíaca": "La enfermedad celíaca se estudia principalmente con anticuerpos anti-transglutaminasa, anti-péptidos de gliadina deaminados y antiendomisio.",
       "El tratamiento sustitutivo con enzimas pancreáticas orales": "El PDF no atribuye a la quimotripsina fecal el seguimiento específico del tratamiento enzimático oral.",
       "Insuficiencia pancreática exocrina leve- moderada": "El temario señala que estas enzimas fecales tienen mayor utilidad en la insuficiencia pancreática exocrina grave."
     },
-    "claveMemorizar": "Quimotripsina fecal baja: disfunción pancreática exocrina y seguimiento de fibrosis quística.",
-    "fuente": "Tema 4 F. digestiva, páginas 42 y 52",
-    "advertenciaRevision": "El PDF respalda el seguimiento de fibrosis quística mediante enzimas fecales, incluida la quimotripsina, pero no menciona específicamente su «alta fiabilidad» ni limita la indicación a niños."
+    "claveMemorizar": "Quimotripsina fecal baja → fibrosis quística.",
+    "fuente": "Tema 4 F. digestiva, páginas 42 y 52"
   },
   "22": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Sudán III detecta microscópicamente grasa al teñirla de rojo, mientras que Van de Kamer, la gravimetría y las pruebas con trioleína aportan evaluaciones cuantitativas o funcionales. Su naturaleza cualitativa explica su menor capacidad para detectar incrementos pequeños.",
+    "porQueLaCorrecta": "Sudán III es una tinción microscópica cualitativa: solo orienta y no detecta aumentos leves de grasa. Los métodos cuantitativos (Van de Kamer, gravimetría) y la trioleína-14C son más sensibles.",
     "motivosPorOpcion": {
       "Método título métrico de Van de Kamer": "Van de Kamer cuantifica la excreción fecal y constituye el método de referencia para grasa en heces.",
       "Métodos gravimétricos": "Los métodos gravimétricos se incluyen entre las determinaciones cuantitativas de grasa fecal.",
       "Prueba de la trioleína-14C": "La trioleína-14C se usa como sustrato marcado en una prueba del aliento para estudiar la absorción lipídica."
     },
-    "claveMemorizar": "Sudán III orienta; Van de Kamer cuantifica y es referencia.",
-    "fuente": "Tema 4 F. digestiva, páginas 32-33",
-    "advertenciaRevision": "El PDF no compara explícitamente la sensibilidad diagnóstica de los cuatro métodos ni declara que Sudán III sea el menos sensible."
+    "claveMemorizar": "Sudán III = cualitativo = el menos sensible. Van de Kamer = referencia.",
+    "fuente": "Tema 4 F. digestiva, páginas 32-33"
   },
   "23": {
     "respuestaCorrecta": "C",
@@ -349,15 +342,14 @@
   },
   "32": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La investigación microscópica valora conjuntamente grasa, almidón y fibras musculares no digeridas. Una dieta que contenga grasas, proteínas y almidones permite examinar las tres categorías en la muestra.",
+    "porQueLaCorrecta": "El estudio de digestión en heces busca a la vez restos de grasas, fibras musculares y almidón. Por eso no se hace dieta especial: basta la alimentación habitual si aporta los tres principios inmediatos.",
     "motivosPorOpcion": {
       "Una dieta especial en la que se hayan restringidas las grasas": "Reducir la grasa dietética resta valor a la búsqueda de restos lipídicos fecales.",
       "Una dieta especial a base exclusivamente de proteínas": "Una ingesta exclusivamente proteica no permite evaluar almidón ni grasa en el mismo estudio.",
       "Una dieta especial a base de almidones y fibras vegetales": "Esa dieta no aporta de forma equilibrada todos los principios inmediatos que se quieren investigar."
     },
-    "claveMemorizar": "El estudio completo requiere aporte de grasas, proteínas y almidones.",
-    "fuente": "Tema 4 F. digestiva, páginas 31 y 34-35",
-    "advertenciaRevision": "El PDF explica qué principios inmediatos se buscan, pero no prescribe literalmente «la alimentación habitual» como preparación."
+    "claveMemorizar": "Digestión en heces: dieta habitual con grasas, proteínas y almidón.",
+    "fuente": "Tema 4 F. digestiva, páginas 31 y 34-35"
   },
   "33": {
     "respuestaCorrecta": "C",
@@ -372,15 +364,14 @@
   },
   "34": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Las melenas son heces negras por sangre digerida, habitualmente procedente de una hemorragia digestiva alta. El color negro las diferencia del sangrado rectal rojo de la hematoquecia o la rectorragia.",
+    "porQueLaCorrecta": "Las melenas son heces negras, pastosas y brillantes (en «alquitrán») por sangre digerida, típicas de una hemorragia digestiva alta. Esteatorrea, amilorrea y creatorrea son exceso de grasa, almidón y fibras musculares.",
     "motivosPorOpcion": {
       "Esteatorrea": "La esteatorrea es exceso de grasa fecal y puede producir heces amarillentas, no define heces negras.",
       "Amilorrea": "La amilorrea consiste en almidón sin digerir en heces y se demuestra con Lugol.",
       "Creatorrea": "La creatorrea es la presencia fecal de fibras de carne sin digerir."
     },
-    "claveMemorizar": "Melena = sangre digerida, heces negras, origen digestivo alto habitual.",
-    "fuente": "Tema 4 F. digestiva, páginas 21 y 34-38",
-    "advertenciaRevision": "El PDF define las melenas por sangre en heces negras, pero no especifica literalmente la consistencia pastosa ni el brillo."
+    "claveMemorizar": "Melena = negra, pastosa, brillante = sangrado alto.",
+    "fuente": "Tema 4 F. digestiva, páginas 21 y 34-38"
   },
   "35": {
     "respuestaCorrecta": "A",

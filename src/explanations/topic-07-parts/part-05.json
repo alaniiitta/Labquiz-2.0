@@ -32,14 +32,13 @@
   },
   "204": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "En el microscopio compuesto, el objetivo genera una primera imagen real y aumentada que después recoge y amplía el ocular. La imagen virtual corresponde al resultado observado a través del ocular, no a la formada inicialmente por el objetivo.",
+    "porQueLaCorrecta": "El objetivo forma una imagen real, invertida y aumentada. El ocular la amplía de nuevo y da la imagen final, que es virtual.",
     "motivosPorOpcion": {
       "Virtual y aumentada.": "El ocular actúa sobre la imagen intermedia del objetivo y proporciona la imagen virtual final; no describe la imagen primaria del objetivo.",
       "Rectificada y aumentada.": "El sistema no rectifica la orientación: la imagen intermedia producida por el objetivo es real, aumentada e invertida."
     },
-    "claveMemorizar": "Objetivo: imagen real aumentada; ocular: imagen virtual final.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 24",
-    "advertenciaRevision": "El PDF indica que el ocular capta la imagen formada por el objetivo y que ambos amplían, pero no califica expresamente esa imagen intermedia como real."
+    "claveMemorizar": "Objetivo: imagen real. Ocular: imagen virtual.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 24"
   },
   "205": {
     "respuestaCorrecta": "C",
@@ -63,14 +62,13 @@
   },
   "207": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El contraste de fases permite visualizar preparaciones transparentes sin teñir al convertir desfases ópticos en diferencias de intensidad. Evitar la tinción favorece la observación de células vivas sin alterar su estado.",
+    "porQueLaCorrecta": "El microscopio de contraste de fases convierte las diferencias de índice de refracción en diferencias de luz, así que permite ver células vivas y transparentes sin teñirlas.",
     "motivosPorOpcion": {
       "Microscopio de campo brillante.": "Las muestras transparentes ofrecen poco contraste en campo claro y suelen requerir tinción para hacerse visibles.",
       "Microscopio de luz.": "Es una categoría general que incluye varias modalidades y no identifica el método específico para células vivas sin teñir."
     },
-    "claveMemorizar": "Células vivas transparentes sin tinción: contraste de fases.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 25 y 28-29",
-    "advertenciaRevision": "El PDF confirma que el contraste de fases no necesita tinción, aunque no menciona expresamente células vivas."
+    "claveMemorizar": "Células vivas sin teñir → contraste de fases.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 25 y 28-29"
   },
   "208": {
     "respuestaCorrecta": "B",
@@ -107,15 +105,14 @@
   },
   "211": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Filtración, centrifugación y electroforesis son métodos físicos empleados para separar componentes de una muestra. Cada uno explota una propiedad distinta: paso por poros, densidad o movilidad de partículas cargadas.",
+    "porQueLaCorrecta": "Todas son correctas: la filtración (separa por tamaño), la centrifugación (por densidad) y la electroforesis (por carga) son métodos básicos de separación.",
     "motivosPorOpcion": {
       "La filtración.": "Es un método básico de separación, pero la pregunta incluye además otros métodos válidos.",
       "La centrifugación.": "La sedimentación por densidad es un método básico, aunque no es el único de la lista.",
       "Las técnicas de electroforesis.": "La migración en un campo eléctrico también separa sustancias, pero las otras dos categorías son igualmente válidas."
     },
-    "claveMemorizar": "Separación básica: filtración, centrifugación y electroforesis.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 74",
-    "advertenciaRevision": "El PDF desarrolla centrifugación y electroforesis como separaciones, pero no desarrolla la filtración en las páginas extraídas."
+    "claveMemorizar": "Separar: filtración (tamaño), centrifugación (densidad), electroforesis (carga).",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 45 y 74"
   },
   "212": {
     "respuestaCorrecta": "D",
@@ -255,15 +252,14 @@
   },
   "225": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El fotómetro de llama mide la radiación emitida por átomos excitados térmicamente en una llama. Por su fundamento es un instrumento de espectrofotometría de emisión, aplicado especialmente a metales alcalinos y alcalinotérreos.",
+    "porQueLaCorrecta": "El fotómetro de llama es un espectrofotómetro de emisión: la llama excita los átomos (Na, K, Li) y se mide la luz que emiten en el visible y el ultravioleta.",
     "motivosPorOpcion": {
       "Un espectrofotómetro de absorción en las regiones visibles y ultravioletas.": "La señal analítica procede de emisión atómica tras la excitación en la llama, no de pérdida de un haz por absorción.",
       "Un fotodiómetro de emisión en las regiones visibles y ultravioletas.": "Fotodiómetro no es la denominación instrumental presentada; la técnica se clasifica como espectrofotometría de emisión.",
       "Identifica la absorción de los elementos excitados por llama, arco eléctrico o chispa de alto voltaje.": "Los átomos excitados liberan radiación al volver a estados de menor energía; lo medido es emisión, no absorción."
     },
-    "claveMemorizar": "Fotometría de llama: emisión atómica de metales excitados.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 27 y 33",
-    "advertenciaRevision": "El PDF respalda que es espectrofotometría de emisión, pero no afirma expresamente que su región abarque visible y ultravioleta."
+    "claveMemorizar": "Fotometría de llama = emisión (Na, K, Li).",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 27 y 33"
   },
   "226": {
     "respuestaCorrecta": "C",
@@ -278,15 +274,14 @@
   },
   "227": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Una clasificación cromatográfica atiende a la naturaleza de la fase móvil y contempla gases, líquidos y fluidos supercríticos. Estos últimos combinan características de gas y líquido.",
+    "porQueLaCorrecta": "Según la fase móvil, las cromatografías se clasifican en de gases, de líquidos y de fluidos supercríticos. Los detectores detectan las especies, pero en general no las identifican directamente.",
     "motivosPorOpcion": {
       "Los detectores cromatográficos no averiguan la naturaleza de la especie química que sale de la columna.": "Detectores como emisión atómica o espectrometría acoplada pueden aportar información cualitativa sobre la especie eluida.",
       "El detector de conductividad identifica directamente las especies que eluyen de la columna.": "La conductividad responde a la presencia y concentración de especies iónicas, pero por sí sola no establece inequívocamente su identidad.",
       "En los detectores es importante la respuesta lineal en un cierto intervalo y poseer un límite de detección optimizado a baja temperatura.": "La linealidad y el límite de detección importan, pero este último no se define por optimizarlo a baja temperatura de forma general."
     },
-    "claveMemorizar": "Según fase móvil: cromatografía de gases, líquidos o fluidos supercríticos.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 66-67",
-    "advertenciaRevision": "El PDF confirma la clasificación por fluidos supercríticos y enumera detectores, pero no desarrolla de forma expresa todas las afirmaciones sobre identificación, linealidad y temperatura."
+    "claveMemorizar": "Fase móvil: gas, líquido o fluido supercrítico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 66-67"
   },
   "228": {
     "respuestaCorrecta": "C",

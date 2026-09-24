@@ -45,27 +45,25 @@
   },
   "149": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La procalcitonina desde 0,5 ng/mL deja de corresponder al intervalo en el que la bacteriemia se considera poco probable. No obstante, el PDF clasifica 0,5-2 ng/mL como zona gris y no establece por sí solo la indicación de hemocultivos.",
+    "porQueLaCorrecta": "Con una procalcitonina de 0,5 ng/mL o más aumenta la probabilidad de infección bacteriana y está indicado sacar hemocultivos. La PCR es poco específica y la procalcitonina sí ayuda a retirar antibióticos.",
     "motivosPorOpcion": {
       "La interleuquina 6 puede ser utilizada como biomarcador tardío de sepsis vertical en los recién nacidos": "El temario enumera IL-6 entre biomarcadores poco utilizados, pero no la define como marcador tardío ni desarrolla sepsis vertical neonatal.",
       "La proteína C reactiva se eleva muy rápidamente ante una infección bacteriana lo que le confiere una alta especificidad como marcador de infección": "La PCR es un reactante de fase aguda sensible pero inespecífico, pues aumenta en inflamación de distintas causas.",
       "La medición de procalcitonina es muy útil en el diagnóstico de estos pacientes pero nunca debe usarse como criterio para retirar un tratamiento antibiótico": "El PDF incluye la evaluación y monitorización de la terapia antibiótica entre las utilidades de la PCT, de modo que el absoluto 'nunca' no es válido."
     },
-    "claveMemorizar": "PCT <0,5 ng/mL: bacteriemia poco probable; 0,5-2: zona gris; ≥2: muy probable.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 19-21",
-    "advertenciaRevision": "El PDF no afirma que una PCT ≥0,5 ng/mL indique automáticamente tomar hemocultivos; además, sitúa 0,5-2 ng/mL en una zona gris. Revisar la clave o aportar una fuente clínica adicional."
+    "claveMemorizar": "PCT ≥ 0,5 ng/mL → hemocultivos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 19-21"
   },
   "150": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La ALT es más específica de hígado y suele predominar en lesión hepatocelular; en hepatopatía alcohólica y cirrosis puede predominar AST, con cociente AST/ALT mayor de 2.",
+    "porQueLaCorrecta": "En casi todas las hepatopatías la ALT sube más que la AST. Las excepciones son la hepatitis alcohólica, la cirrosis y el hepatocarcinoma, donde predomina la AST.",
     "motivosPorOpcion": {
       "Las aminotrasferasas son un grupo de enzimas que se encargar de catalizar la interconversión de aminoácidcos a 2-oxo ácidos mediante la trasferencia de grupos carboxilo": "Las aminotransferasas transfieren grupos amino, no grupos carboxilo.",
       "El pico máximo de actividad en suero puede verse entre 12 y 24 tras la liberación al torrente sanguíneo": "El PDF no presenta ese intervalo cinético como regla general para las enzimas hepáticas.",
       "Tras una hepatitis aguda, una elevación persistente más allá de 6 semanas es criterio de hepatitis crónica": "El temario vírico define cronicidad por persistencia de la infección durante más de seis meses, no seis semanas."
     },
-    "claveMemorizar": "ALT suele predominar; AST/ALT >2 orienta a hepatopatía alcohólica.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-37 y 42; Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 2",
-    "advertenciaRevision": "El PDF respalda la excepción alcohólica y el patrón AST/ALT de cirrosis, pero no menciona expresamente al hepatocarcinoma dentro de la generalización de la opción."
+    "claveMemorizar": "ALT > AST salvo alcohol, cirrosis y hepatocarcinoma.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 36-37 y 42; Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 2"
   },
   "151": {
     "respuestaCorrecta": "C",
@@ -102,15 +100,14 @@
   },
   "154": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La proteína C reactiva puede migrar al final de la región beta o al principio de la gamma; entre las opciones, es la única que puede aparecer en la zona gamma.",
+    "porQueLaCorrecta": "La proteína C reactiva migra en la zona gamma (o entre beta y gamma). Ceruloplasmina y orosomucoide son alfa y la hemopexina es beta.",
     "motivosPorOpcion": {
       "Ceruloplasmina": "La ceruloplasmina migra en alfa-2.",
       "Hemopexina": "La hemopexina se incluye en las beta-globulinas y transporta el grupo hemo.",
       "Orosomucoide.": "El orosomucoide o alfa-1-glicoproteína ácida migra en alfa-1."
     },
-    "claveMemorizar": "PCR: final de beta o inicio de gamma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10",
-    "advertenciaRevision": "La PCR no migra exclusivamente en gamma: el PDF la sitúa en el límite entre el final de beta y el principio de gamma."
+    "claveMemorizar": "PCR migra en gamma.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
   },
   "155": {
     "respuestaCorrecta": "A",
@@ -158,15 +155,14 @@
   },
   "159": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La enfermedad de Paget se caracteriza por remodelado óseo intenso, situación en la que aumenta la actividad de fosfatasa alcalina de origen óseo.",
+    "porQueLaCorrecta": "En la enfermedad de Paget hay un remodelado óseo muy intenso y sube mucho la fosfatasa alcalina de origen óseo. Calcio, fósforo y PTH suelen ser normales.",
     "motivosPorOpcion": {
       "Calcemia": "La actividad de remodelado puede ser elevada sin producir necesariamente hipercalcemia.",
       "Fosfatemia": "El fosfato sérico no es el marcador que refleja de forma más habitual la actividad osteoblástica.",
       "PTH.": "La PTH se eleva de forma característica en hiperparatiroidismo, no es el hallazgo bioquímico principal de Paget."
     },
-    "claveMemorizar": "Paget: fosfatasa alcalina elevada por formación ósea aumentada.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 37",
-    "advertenciaRevision": "El PDF indica que la ALP aumenta en enfermedades con calcificación y formación ósea, pero no menciona expresamente la enfermedad de Paget ni compara calcemia, fosfatemia y PTH."
+    "claveMemorizar": "Paget = FA muy alta con calcio normal.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 37"
   },
   "160": {
     "respuestaCorrecta": "B",
@@ -192,15 +188,14 @@
   },
   "162": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La transferrina migra en beta y la PCR puede aparecer al final de beta o al comienzo de gamma, por lo que es la única pareja compatible.",
+    "porQueLaCorrecta": "La transferrina es la principal beta-globulina, y la PCR migra al final de la zona beta. Haptoglobina y ceruloplasmina son alfa-2; la transtiretina (prealbúmina) va delante de la albúmina.",
     "motivosPorOpcion": {
       "Inhibidoras de las proteasas, haptoglobulinas.": "La alfa-1-antitripsina migra en alfa-1 y la haptoglobina en alfa-2.",
       "Ceruloplasmina, hemopexina.": "La hemopexina es beta, pero la ceruloplasmina pertenece a alfa-2.",
       "Transtiretina, transcobalamina": "La transtiretina es prealbúmina y la transcobalamina figura en alfa-1, no forman una pareja beta."
     },
-    "claveMemorizar": "Beta: transferrina y hemopexina; PCR puede quedar en el límite beta-gamma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10",
-    "advertenciaRevision": "La inclusión de PCR en beta es dependiente de su movilidad: el PDF precisa que puede aparecer al final de beta o al principio de gamma."
+    "claveMemorizar": "Beta-globulinas: transferrina (y PCR al final).",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 10"
   },
   "163": {
     "respuestaCorrecta": "B",
@@ -237,15 +232,14 @@
   },
   "166": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las tres afirmaciones describen de forma general la bioquímica clínica y la utilidad del análisis sanguíneo, por lo que la clave agrupa todas como correctas.",
+    "porQueLaCorrecta": "Todas son correctas: la bioquímica clínica estudia los aspectos bioquímicos de la vida humana, y el análisis de sangre informa de la aparición y evolución de la enfermedad con un riesgo mínimo.",
     "motivosPorOpcion": {
       "Es la rama de la ciencia encargada del estudio de los aspectos bioquímicos de la vida humana.": "Es una definición general compatible con la disciplina, pero por sí sola no incorpora las otras afirmaciones válidas.",
       "El estudio bioquímico de la sangre ofrece una visión general sobre la prevención, aparición, seguimiento o finalización de cualquier enfermedad que altere los patrones bioquímicos de normalidad": "Describe usos del laboratorio clínico, aunque el término 'cualquier enfermedad' es excesivamente absoluto.",
       "El estudio de la sangre es un estudio efectivo con un mínimo de riesgo.": "La extracción sanguínea es una prueba habitual de bajo riesgo, pero esta opción no reúne el resto de enunciados."
     },
-    "claveMemorizar": "La bioquímica clínica aplica mediciones bioquímicas al diagnóstico y seguimiento.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 6-21",
-    "advertenciaRevision": "Los PDF de Tema 5 muestran aplicaciones bioquímicas, pero no contienen estas tres afirmaciones ni una definición formal que permita confirmar directamente 'todas son correctas'."
+    "claveMemorizar": "Bioquímica clínica: análisis de sangre útil y de bajo riesgo.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 6-21"
   },
   "167": {
     "respuestaCorrecta": "C",
@@ -282,15 +276,14 @@
   },
   "170": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El estrés no se presenta como agente etiológico de hepatitis; las hepatitis pueden tener causas infecciosas o tóxicas, entre otras.",
+    "porQueLaCorrecta": "La hepatitis es una inflamación del hígado por virus, bacterias, tóxicos (alcohol, fármacos) o autoinmunidad. El estrés no causa hepatitis.",
     "motivosPorOpcion": {
       "Bacteriana": "Algunas infecciones bacterianas pueden producir inflamación hepática, aunque los PDF se centran en hepatitis víricas.",
       "Tóxica": "Fármacos y otras sustancias pueden lesionar hepatocitos y causar hepatitis tóxica.",
       "Virus": "Los virus A, B, C, D y E son causas bien establecidas de hepatitis."
     },
-    "claveMemorizar": "Hepatitis describe inflamación hepática; el estrés no es una etiología directa.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 34-35; Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 2-5",
-    "advertenciaRevision": "Los PDF desarrollan la hepatitis vírica y el daño por tóxicos, pero no documentan de forma expresa la hepatitis bacteriana ni ofrecen una lista diferencial que incluya el estrés."
+    "claveMemorizar": "Hepatitis: vírica, bacteriana, tóxica o autoinmune; nunca por estrés.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 34-35; Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 2-5"
   },
   "171": {
     "respuestaCorrecta": "B",
@@ -327,15 +320,14 @@
   },
   "174": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El lobulillo hepático clásico se organiza alrededor de una vena central o centrolobulillar.",
+    "porQueLaCorrecta": "El lobulillo hepático clásico es hexagonal y tiene en su centro la vena centrolobulillar, que recoge la sangre de los sinusoides. En los vértices están los espacios porta.",
     "motivosPorOpcion": {
       "El conducto biliar centrolobulillar": "Los conductos biliares se localizan en los espacios porta de la periferia lobulillar.",
       "La arteria centrolobulillar": "Las ramas de la arteria hepática discurren en las tríadas portales, no en el centro.",
       "El espacio Disse": "El espacio de Disse es perisinusoidal y se distribuye entre sinusoides y hepatocitos, no es la estructura central."
     },
-    "claveMemorizar": "Centro del lobulillo: vena centrolobulillar; periferia: espacios porta.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 3",
-    "advertenciaRevision": "La página 3 identifica al lobulillo como unidad estructural, pero la extracción textual del PDF no explicita la vena central ni la disposición de las otras estructuras."
+    "claveMemorizar": "Centro del lobulillo = vena central. Vértices = espacio porta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 3"
   },
   "175": {
     "respuestaCorrecta": "A",
@@ -405,27 +397,25 @@
   },
   "181": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "A pH 8,6 las proteínas séricas tienen carga negativa y la albúmina presenta la mayor movilidad electroforética, por lo que recorre más distancia hacia el ánodo.",
+    "porQueLaCorrecta": "A pH 8,6 todas las proteínas tienen carga negativa y van hacia el ánodo. La albúmina es la más cargada y pequeña, así que recorre más distancia; las gamma se mueven menos.",
     "motivosPorOpcion": {
       "ɣ -globulina.": "Las gamma-globulinas son las de menor movilidad y quedan más próximas al punto de aplicación.",
       "β-globulina.": "La fracción beta migra menos que albúmina y que las fracciones alfa.",
       "α-globulina.": "Las alfa-globulinas migran por detrás de albúmina, aunque por delante de beta y gamma."
     },
-    "claveMemorizar": "Orden de movilidad: albúmina > alfa-1 > alfa-2 > beta > gamma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8",
-    "advertenciaRevision": "El PDF indica la carga negativa a pH 8,6 y muestra el proteinograma, pero la extracción textual no recoge explícitamente el orden de movilidad."
+    "claveMemorizar": "Electroforesis pH 8,6: albúmina la más rápida, gamma la más lenta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8"
   },
   "182": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La opción se refiere a la gamma-glutamiltransferasa (GGT), que el temario identifica como el marcador más sensible de lesión canalicular y colestasis.",
+    "porQueLaCorrecta": "La GGT es el marcador más sensible de lesión canalicular y colestasis. Además confirma que una FA alta es de origen hepático y no óseo.",
     "motivosPorOpcion": {
       "Ceruloplasmina.": "Es una proteína transportadora de cobre usada en el estudio de enfermedad de Wilson, no un marcador canalicular.",
       "Anticuerpos de músculo liso.": "Los ASMA orientan a hepatitis autoinmune, no a obstrucción biliar.",
       "Todas son correctas.": "Ceruloplasmina y ASMA evalúan procesos diferentes, por lo que no todas informan de obstrucción canalicular."
     },
-    "claveMemorizar": "GGT: marcador enzimático más sensible de colestasis.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35, 38 y 41",
-    "advertenciaRevision": "La opción dice 'gamma-glutamil-transferrasa', denominación incorrecta; el marcador documentado es gamma-glutamiltransferasa (GGT)."
+    "claveMemorizar": "GGT = colestasis; confirma el origen hepático de la FA.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35, 38 y 41"
   },
   "183": {
     "respuestaCorrecta": "A",

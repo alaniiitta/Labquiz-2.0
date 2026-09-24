@@ -23,15 +23,14 @@
   },
   "53": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Una medición potenciométrica requiere un electrodo indicador, uno de referencia y un dispositivo que mida la diferencia de potencial entre ambos. Por ello los tres elementos enumerados forman parte del sistema electroanalítico planteado.",
+    "porQueLaCorrecta": "Todas son correctas: los métodos electroanalíticos necesitan un electrodo indicador, uno de referencia y un dispositivo que mida el potencial entre ellos (potenciómetro).",
     "motivosPorOpcion": {
       "Electrodo de referencia.": "Aporta un potencial estable con el que comparar el del electrodo indicador, pero por sí solo no completa el circuito de medida.",
       "Electrodo indicador.": "Su potencial responde a la actividad del analito, aunque necesita una referencia y un medidor para obtener una lectura.",
       "Dispositivo para medir el potencial.": "Registra la diferencia de potencial, pero necesita los dos electrodos que convierten la actividad química en esa señal."
     },
-    "claveMemorizar": "Potenciometría = electrodo indicador + referencia + voltímetro.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-40",
-    "advertenciaRevision": "El PDF enumera métodos electroanalíticos y tipos de electrodos, pero la extracción textual no presenta en una sola definición los tres componentes de la respuesta."
+    "claveMemorizar": "Electroanálisis: electrodo indicador + referencia + medidor.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-40"
   },
   "54": {
     "respuestaCorrecta": "A",
@@ -134,15 +133,14 @@
   },
   "63": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Los cristales del líquido sinovial son birrefringentes y se identifican con luz polarizada compensada. El compensador rojo permite distinguir el signo de la birrefringencia y orientar el tipo de cristal.",
+    "porQueLaCorrecta": "Los cristales del líquido sinovial se estudian con microscopio de luz polarizada con compensador rojo. El urato monosódico (gota) da birrefringencia negativa y el pirofosfato cálcico, positiva.",
     "motivosPorOpcion": {
       "Microscopio de contraste de fases": "Realza diferencias de índice de refracción en muestras transparentes, pero no caracteriza la birrefringencia de los cristales.",
       "Microscopio de fluorescencia": "Detecta fluoróforos tras excitación y no es la técnica estándar para identificar cristales sinoviales.",
       "Microscopio de campo oscuro": "Mejora la visualización de partículas sin teñir sobre fondo negro, pero no determina el signo óptico del cristal."
     },
-    "claveMemorizar": "Cristales sinoviales: luz polarizada con compensador rojo.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 30-32",
-    "advertenciaRevision": "El PDF presenta la microscopía de polarización, pero la extracción textual consultada no explicita la aplicación a cristales de líquido sinovial ni el compensador rojo."
+    "claveMemorizar": "Cristales: luz polarizada + compensador rojo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 30-32"
   },
   "64": {
     "respuestaCorrecta": "B",
@@ -201,39 +199,36 @@
   },
   "69": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La electrogradación no figura entre los métodos electroanalíticos reconocidos. Conductimetría, potenciometría y electrogravimetría sí relacionan una propiedad eléctrica con la cantidad o actividad del analito.",
+    "porQueLaCorrecta": "La «electrogradación» no existe como técnica electroquímica. Conductimetría, potenciometría y electrogravimetría sí lo son.",
     "motivosPorOpcion": {
       "Conductimetría.": "Mide la capacidad de una disolución para conducir corriente y es una técnica electroquímica.",
       "Potenciometría.": "Relaciona la fuerza electromotriz de una celda con la actividad del analito mediante la ecuación de Nernst.",
       "Electrogravimetría.": "Deposita electrolíticamente el analito y lo cuantifica por la masa obtenida, por lo que combina electrólisis y gravimetría."
     },
-    "claveMemorizar": "Electrogradación no es una técnica electroanalítica estándar.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 38",
-    "advertenciaRevision": "El PDF enumera potenciometría, coulombimetría y voltamperometría, pero no desarrolla conductimetría ni electrogravimetría en el texto extraído."
+    "claveMemorizar": "Electroquímicas: conductimetría, potenciometría, electrogravimetría.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 38"
   },
   "70": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Los analizadores se diseñan para trabajar con el menor volumen de muestra posible y minimizar el volumen muerto. Exigir copas con volumen muerto elevado desperdiciaría muestra y contradice ese objetivo.",
+    "porQueLaCorrecta": "Es incorrecta porque las copas de muestra deben tener el menor volumen muerto posible, para aprovechar la muestra. También deben ser de un material inerte.",
     "motivosPorOpcion": {
       "Algunos autoanalizadores permiten usar sangre total directamente, eliminando el tiempo de preparación de la muestra.": "El uso directo de sangre total es posible en determinados módulos y evita una separación previa cuando el método lo admite.",
       "Los electrolitos selectivos de iones automatizados que miden la actividad iónica en sangre total, pueden incorporarse a los sistemas automatizados.": "Los electrodos selectivos pueden integrarse en analizadores para automatizar la medición de iones.",
       "Las copas deben de ser de un material inerte que no interacciones con los constituyentes que se van a medir.": "La inercia del recipiente evita adsorción, contaminación o reacción con los analitos."
     },
-    "claveMemorizar": "Automatización: minimizar muestra y volumen muerto.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 17",
-    "advertenciaRevision": "El PDF respalda de forma directa la minimización del volumen muerto, pero no detalla en esa página sangre total, integración de electrodos ni materiales de las copas."
+    "claveMemorizar": "Copas de muestra: volumen muerto mínimo e inertes.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 17"
   },
   "71": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La centrifugación diferencial separa sucesivamente componentes de una muestra según sus distintas velocidades de sedimentación, relacionadas con densidad y tamaño. Ese principio permite fraccionar los componentes sanguíneos.",
+    "porQueLaCorrecta": "La centrifugación diferencial separa los componentes de la sangre (hematíes, leucocitos, plaquetas, plasma) por sus distintas velocidades de sedimentación. Es la base del fraccionamiento de la sangre.",
     "motivosPorOpcion": {
       "Filtración inversa.": "La filtración separa por paso a través de una barrera y no es el procedimiento general de fraccionamiento sanguíneo planteado.",
       "Ultradiálisis iónica.": "La diálisis separa solutos pequeños a través de una membrana, no las fracciones celulares de la sangre.",
       "Electrolisis de fases.": "La electrólisis provoca reacciones redox en electrodos y no constituye un método de fraccionamiento de sangre."
     },
-    "claveMemorizar": "Fraccionar sangre: centrifugación diferencial por sedimentación.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-77",
-    "advertenciaRevision": "El PDF explica centrifugación y sus modalidades, pero el texto extraído no menciona expresamente el fraccionamiento de sangre mediante centrifugación diferencial."
+    "claveMemorizar": "Fraccionar sangre = centrifugación diferencial.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-77"
   },
   "72": {
     "respuestaCorrecta": "B",
@@ -292,15 +287,14 @@
   },
   "77": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El electrodo de Clark emplea un cátodo de platino, un ánodo de plata/cloruro de plata, electrolito de KCl y una membrana permeable al oxígeno. Un ánodo de oro-AuCl no corresponde a esa configuración.",
+    "porQueLaCorrecta": "El electrodo de Clark tiene cátodo de platino, ánodo de plata/cloruro de plata (Ag/AgCl), solución de KCl y membrana de teflón. Un ánodo de oro no forma parte de él.",
     "motivosPorOpcion": {
       "Cátodo de platino": "En él se reduce el oxígeno y se genera una corriente proporcional a su presión parcial.",
       "Solución saturada de KCI": "Actúa como electrolito interno para permitir el transporte iónico entre los electrodos.",
       "Membrana de teflón": "Separa la muestra del sistema interno y permite la difusión selectiva del oxígeno."
     },
-    "claveMemorizar": "Clark: Pt como cátodo, Ag/AgCl como ánodo, KCl y membrana.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 41",
-    "advertenciaRevision": "El PDF identifica el electrodo de Clark como método polarográfico para pO2, pero sus componentes no aparecen en el texto extraído de la página y requieren revisión visual de la diapositiva."
+    "claveMemorizar": "Clark (pO₂): cátodo de Pt, ánodo de Ag/AgCl.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 41"
   },
   "78": {
     "respuestaCorrecta": "D",
@@ -315,15 +309,14 @@
   },
   "79": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La absorción atómica cuantifica elementos metálicos o metaloides después de atomizar la muestra; destruir previamente la materia orgánica libera los oligoelementos de la matriz. Es la combinación técnica coherente de las opciones.",
+    "porQueLaCorrecta": "Los oligoelementos (metales) se miden por absorción atómica, tras destruir la materia orgánica (mineralización). Proteínas, grasas, humedad y cenizas se determinan con otros métodos.",
     "motivosPorOpcion": {
       "La valoración de proteínas y materias grasas se realiza mediante espectrofotometría de absorción atómica.": "La absorción atómica mide elementos, no macromoléculas orgánicas como proteínas o grasas.",
       "La determinación del grado de humedad y cenizas se realiza mediante valoraciones colorimétricas": "Humedad y cenizas se determinan habitualmente por procedimientos gravimétricos basados en pérdida o residuo de masa.",
       "Todas son ciertas": "Las opciones sobre proteínas, grasas, humedad y cenizas atribuyen técnicas que no corresponden a esas magnitudes."
     },
-    "claveMemorizar": "Absorción atómica cuantifica metales y metaloides atomizados.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 25; Tema 7.1 Técnicas instrumentales 1.pdf, p. 79",
-    "advertenciaRevision": "El PDF respalda la aplicación elemental de la absorción atómica y la gravimetría, pero no explicita la destrucción previa de materia orgánica."
+    "claveMemorizar": "Oligoelementos → absorción atómica tras mineralizar.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 25; Tema 7.1 Técnicas instrumentales 1.pdf, p. 79"
   },
   "80": {
     "respuestaCorrecta": "B",
@@ -338,15 +331,14 @@
   },
   "81": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El condensador recoge y concentra la luz de iluminación sobre la preparación situada en la platina. Así proporciona al objetivo un haz adecuado para formar la imagen.",
+    "porQueLaCorrecta": "El condensador es la lente que concentra la luz sobre la preparación colocada en la platina. No aumenta la imagen: eso lo hacen el objetivo y el ocular.",
     "motivosPorOpcion": {
       "Una lente que amplía la imagen de una manera constante": "Esa función corresponde al ocular, que amplía la imagen formada por el objetivo.",
       "El objetivo seco más comúnmente utilizado": "El condensador pertenece al sistema de iluminación y no es uno de los objetivos del revólver.",
       "El objetivo de inmersión más utilizado": "Un objetivo de inmersión usa aceite entre la preparación y la lente; el condensador es una pieza distinta."
     },
-    "claveMemorizar": "Condensador concentra luz; objetivo forma imagen; ocular la amplía.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 19",
-    "advertenciaRevision": "El texto extraído describe oculares y objetivos en p. 17; debe comprobarse visualmente en p. 19 la definición completa del condensador."
+    "claveMemorizar": "Condensador = concentra la luz en la muestra.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 19"
   },
   "82": {
     "respuestaCorrecta": "D",
@@ -372,15 +364,14 @@
   },
   "84": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La absorción atómica se aplica principalmente a elementos metálicos y metaloides; el yodo es un no metal y el temario lo sitúa entre las aplicaciones de emisión atómica. Por ello no es una determinación urinaria habitual mediante absorción atómica.",
+    "porQueLaCorrecta": "La absorción atómica se usa para metales y metaloides como cromo, mercurio o arsénico. El yodo es un no metal y habitualmente se mide con otros métodos.",
     "motivosPorOpcion": {
       "Cromo en orina.": "El cromo es un metal susceptible de cuantificación tras atomización mediante absorción atómica.",
       "Mercurio en orina": "El temario menciona específicamente una técnica de generación de vapor o hidruros para mercurio dentro de absorción atómica.",
       "Arsénico en orina": "El arsénico es un metaloide incluido entre los elementos determinables mediante generación de hidruros y absorción atómica."
     },
-    "claveMemorizar": "Absorción atómica: metales/metaloides; yodo: no metal.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 25 y 27",
-    "advertenciaRevision": "El PDF clasifica los elementos por técnica, pero no especifica cuáles se determinan habitualmente en orina."
+    "claveMemorizar": "Absorción atómica = metales. Yodo, no.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 25 y 27"
   },
   "85": {
     "respuestaCorrecta": "C",
@@ -395,27 +386,25 @@
   },
   "86": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El proteinograma se realiza habitualmente con tampón barbital a pH 8,6. A ese pH las proteínas séricas adquieren carga neta negativa y migran hacia el ánodo.",
+    "porQueLaCorrecta": "El proteinograma se hace con tampón barbital a pH 8,6. A ese pH todas las proteínas tienen carga negativa y migran hacia el ánodo.",
     "motivosPorOpcion": {
       "5.7": "Es demasiado ácido para las condiciones alcalinas estándar del proteinograma y cambiaría la carga de varias proteínas.",
       "6.6": "Está próximo a la neutralidad y no corresponde al pH alcalino establecido para esta separación.",
       "10.4": "Es más alcalino que el valor de trabajo indicado y puede alterar el patrón y las condiciones del soporte."
     },
     "claveMemorizar": "Proteinograma: barbital pH 8,6.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 60",
-    "advertenciaRevision": "El PDF confirma pH 8,6 para el proteinograma, pero el texto extraído no nombra expresamente el tampón de barbital."
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 60"
   },
   "87": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La amperometría mide la intensidad de corriente generada por reacciones de oxidación o reducción a un potencial controlado. La corriente resultante se relaciona con la cantidad de especie electroactiva.",
+    "porQueLaCorrecta": "La amperometría mide la intensidad de corriente producida al oxidarse o reducirse una especie a un potencial fijo. La potenciometría mide diferencia de potencial, no corriente.",
     "motivosPorOpcion": {
       "Polarografía": "Es una modalidad voltamperométrica que registra corriente frente a potencial, clásicamente con un electrodo de mercurio; es más específica que la definición general solicitada.",
       "Potenciometría": "Mide una diferencia de potencial con corriente prácticamente nula y la relaciona con la actividad del ion.",
       "Culombimetría": "Cuantifica la carga total transferida, es decir, integra la corriente durante el tiempo de electrólisis."
     },
-    "claveMemorizar": "Amperometría mide corriente; potenciometría, potencial; coulombimetría, carga.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38 y 41",
-    "advertenciaRevision": "El PDF desarrolla voltamperometría, polarografía y coulombimetría, pero el texto extraído no presenta una definición nominal separada de amperometría."
+    "claveMemorizar": "Amperometría = corriente. Potenciometría = potencial.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38 y 41"
   },
   "88": {
     "respuestaCorrecta": "C",
@@ -452,27 +441,25 @@
   },
   "91": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Los dos tipos principales de microscopio electrónico son el de transmisión y el de barrido. El confocal es una modalidad de microscopía óptica, por lo que la pareja propuesta es falsa.",
+    "porQueLaCorrecta": "Es falso porque los dos tipos de microscopio electrónico son el de transmisión y el de barrido. El confocal es un microscopio óptico (láser).",
     "motivosPorOpcion": {
       "Consta fundamentalmente de un tubo de rayos catódicos.": "El instrumento genera y acelera electrones en una columna al vacío, un funcionamiento afín al de un tubo de rayos catódicos.",
       "Los electrones son emitidos por un filamento de wolframio (cátodo).": "El PDF identifica el filamento de tungsteno o wolframio como fuente del haz electrónico.",
       "Los electrones no impresionan la retina, por lo que deben recogerse en una pantalla fluorescente.": "La señal electrónica debe convertirse en una imagen visible mediante una superficie sensible o un detector, ya que el ojo no detecta electrones."
     },
-    "claveMemorizar": "Microscopio electrónico: transmisión y barrido; confocal es óptico.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-36",
-    "advertenciaRevision": "El PDF respalda el filamento, el detector y los tipos transmisión/barrido, pero no usa literalmente la expresión «tubo de rayos catódicos» en el texto extraído."
+    "claveMemorizar": "Electrónico: transmisión y barrido. Confocal = óptico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-36"
   },
   "92": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Para retirar restos de aceite de un objetivo puede utilizarse papel para lentes ligeramente humedecido con éter, evitando que el disolvente alcance las juntas. El PDF advierte que existe controversia y recomienda como primera opción un paño seco.",
+    "porQueLaCorrecta": "Los objetivos se limpian con papel de lentes o pañuelo de papel humedecido con un disolvente (éter o alcohol-éter). Nunca con algodón, que raya y deja pelusa, ni con los dedos.",
     "motivosPorOpcion": {
       "Un algodón.": "Puede dejar fibras sobre la lente y no controla bien la cantidad de disolvente o la abrasión.",
       "La yema de un dedo empapado en alcohol.": "El contacto del dedo deposita grasa y aplicar alcohol de esa manera puede dañar cementos o recubrimientos.",
       "Las tres formas son válidas.": "La limpieza con el dedo no es válida y el algodón tampoco es el material ideal para una superficie óptica."
     },
-    "claveMemorizar": "Primero paño seco; si queda aceite, papel apenas humedecido y lejos de juntas.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 18",
-    "advertenciaRevision": "El PDF admite papel con éter o alcohol isopropílico en poca cantidad, pero señala controversia bibliográfica y prioriza la limpieza en seco; la recomendación debe ajustarse al fabricante."
+    "claveMemorizar": "Objetivos: papel de lentes + disolvente.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 18"
   },
   "93": {
     "respuestaCorrecta": "B",
@@ -498,39 +485,36 @@
   },
   "95": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La nefelometría cuantifica partículas por la intensidad de luz que dispersan; en inmunonefelometría, los complejos antígeno-anticuerpo permiten medir inmunoglobulinas. La señal dispersada aumenta con la concentración dentro del intervalo útil.",
+    "porQueLaCorrecta": "La nefelometría mide la luz que dispersan los complejos antígeno-anticuerpo. Por eso se usa sobre todo para cuantificar proteínas como las inmunoglobulinas.",
     "motivosPorOpcion": {
       "Hemoglobina glicosilada.": "Se determina habitualmente por métodos de separación o afinidad, no por dispersión de inmunocomplejos como aplicación fundamental.",
       "Catecolaminas.": "Son moléculas pequeñas que suelen requerir técnicas cromatográficas y no forman por sí solas partículas detectables por nefelometría.",
       "Electrolitos.": "Se miden habitualmente con electrodos selectivos de iones, no mediante dispersión luminosa."
     },
-    "claveMemorizar": "Nefelometría clínica: proteínas e inmunoglobulinas mediante inmunocomplejos.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4",
-    "advertenciaRevision": "El PDF explica la dispersión y la relación con concentración, pero la extracción textual consultada no explicita la cuantificación de inmunoglobulinas."
+    "claveMemorizar": "Nefelometría = inmunoglobulinas y proteínas.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 2-4"
   },
   "96": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El microscopio electrónico enfoca electrones con lentes electromagnéticas; en barrido detecta señales superficiales como electrones secundarios y requiere secar la muestra antes de metalizarla. Por ello las tres afirmaciones describen elementos compatibles con esta microscopía.",
+    "porQueLaCorrecta": "Todas son correctas: el microscopio electrónico usa lentes electromagnéticas; en el de barrido se producen electrones secundarios y rayos X, y las muestras se preparan con secado por punto crítico o por congelación.",
     "motivosPorOpcion": {
       "Las lentes son campos magnéticos.": "Es cierta: las lentes electromagnéticas desvían y enfocan el haz de electrones, pero no es la única afirmación válida.",
       "Se producen electrones secundarios y fluorescencia Rx.": "La interacción del haz con la muestra puede generar señales como electrones secundarios y rayos X característicos, aunque hay más opciones correctas.",
       "En el microscopio electrónico de barrido se emplean dos técnicas preparatorias: Secado por punto crítico y secado por congelación.": "El PDF cita ambos métodos de secado antes del recubrimiento metálico en MEB, pero tampoco es la única afirmación cierta."
     },
-    "claveMemorizar": "MEB: lentes electromagnéticas, señales superficiales y muestra seca/metalizada.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33 y 36",
-    "advertenciaRevision": "El PDF confirma lentes electromagnéticas, electrones secundarios y las dos preparaciones, pero el texto extraído no menciona de forma explícita la fluorescencia de rayos X."
+    "claveMemorizar": "Electrónico: lentes magnéticas; barrido = electrones secundarios.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33 y 36"
   },
   "97": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La fase móvil en cromatografía de gases debe ser un gas portador químicamente inerte para arrastrar los analitos sin reaccionar con ellos ni con la fase estacionaria. Helio, nitrógeno o hidrógeno se seleccionan según detector y condiciones.",
+    "porQueLaCorrecta": "El gas portador de la cromatografía de gases debe ser inerte (helio, nitrógeno, argón) para arrastrar el analito sin reaccionar con él ni con la columna. Puede ser un gas noble.",
     "motivosPorOpcion": {
       "Reacciona con el analito para poder identificar a éste.": "Una reacción alteraría el analito y modificaría su retención; la identificación se basa en la separación y la respuesta del detector.",
       "Interacciona con la columna cromatográfica": "El portador debe limitarse a transportar la muestra; las interacciones diferenciales relevantes ocurren entre analitos y fase estacionaria.",
       "No puede ser un gas noble": "El helio es un gas noble e inerte ampliamente utilizable como portador."
     },
-    "claveMemorizar": "Gas portador: móvil, estable e inerte.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 65-71",
-    "advertenciaRevision": "El PDF desarrolla componentes y tipos cromatográficos, pero el texto extraído consultado no recoge la definición específica del gas portador."
+    "claveMemorizar": "Gas portador: inerte (He, N₂, Ar).",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 65-71"
   },
   "98": {
     "respuestaCorrecta": "A",

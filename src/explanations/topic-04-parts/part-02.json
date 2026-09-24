@@ -67,15 +67,14 @@
   },
   "43": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave original considera que ninguna de las tres instrucciones dietéticas propuestas describe correctamente la preparación. El temario solo indica que la dieta debe controlarse los días previos, sin concretar aquí las restricciones de carne o vitamina C.",
+    "porQueLaCorrecta": "Ninguna es correcta: no hay que tomar abundante vitamina C ni carne antes de la prueba. La vitamina C da falsos negativos y la carne roja falsos positivos, por eso se restringen, no se suprimen ni se aumentan.",
     "motivosPorOpcion": {
       "Debe tomarse abundante cantidad de vitamina C en los días previos a la prueba": "La opción propone aumentar deliberadamente una sustancia dietética sin que el protocolo del temario lo indique.",
       "Debe tomarse abundante cantidad de carne en los días previos a la prueba": "La opción propone aumentar deliberadamente la carne, pese a que el temario exige controlar la dieta para evitar resultados falsos.",
       "No debe tomarse ninguna cantidad de vitamina C": "La prohibición absoluta no queda establecida en el texto extraído del temario."
     },
-    "claveMemorizar": "Guayaco: controlar la dieta previa por posibles falsos resultados.",
-    "fuente": "Tema 4 F. digestiva, p. 27",
-    "advertenciaRevision": "El PDF no detalla qué cantidad de vitamina C o carne debe evitarse; solo exige controlar la dieta. No permite verificar de forma completa que D sea preferible a C."
+    "claveMemorizar": "Sangre oculta: vitamina C → falso negativo; carne roja → falso positivo.",
+    "fuente": "Tema 4 F. digestiva, p. 27"
   },
   "44": {
     "respuestaCorrecta": "C",
@@ -101,15 +100,14 @@
   },
   "46": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La respuesta original exige refrigerar en hielo la muestra destinada a gastrina. El temario confirma que se determina gastrina en suero y en ayunas, pero no especifica cómo conservar o transportar la muestra.",
+    "porQueLaCorrecta": "La gastrina es una hormona peptídica lábil: la muestra (en ayunas) debe enfriarse en hielo y centrifugarse cuanto antes para que no se degrade.",
     "motivosPorOpcion": {
       "Calentamiento en estufa a 40ºC": "El PDF no describe calentamiento de la muestra como parte de la determinación de gastrina.",
       "Mantener la muestra a temperatura ambiente": "El PDF no aporta estabilidad a temperatura ambiente que permita aceptar esta condición.",
       "Congelación, en nitrógeno líquido": "El PDF no establece congelación criogénica para esta determinación."
     },
-    "claveMemorizar": "Gastrina: muestra de suero obtenida en ayunas.",
-    "fuente": "Tema 4 F. digestiva, p. 54",
-    "advertenciaRevision": "La refrigeración en hielo no aparece en el PDF; la página citada solo sustenta el uso de suero en ayunas. La respuesta A requiere una fuente preanalítica adicional."
+    "claveMemorizar": "Gastrina: ayunas + muestra en hielo.",
+    "fuente": "Tema 4 F. digestiva, p. 54"
   },
   "47": {
     "respuestaCorrecta": "D",
@@ -157,15 +155,14 @@
   },
   "51": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La clave original señala que amilasa y lipasa aumentan en la pancreatitis aguda. El temario confirma el aumento de ambas enzimas, superior a tres veces el límite de referencia, pero no lo localiza específicamente en líquido ascítico.",
+    "porQueLaCorrecta": "En la pancreatitis aguda, la amilasa y la lipasa aumentan en sangre y también en el líquido ascítico, donde niveles muy altos orientan a ascitis pancreática.",
     "motivosPorOpcion": {
       "Lipasa": "La lipasa sí aumenta en pancreatitis aguda, pero esta opción aislada omite el aumento concomitante de amilasa que recoge la clave.",
       "Amilasa": "La amilasa sí aumenta en pancreatitis aguda, pero esta opción aislada omite el aumento concomitante de lipasa que recoge la clave.",
       "Sólo se elevan en la sangre, no el líquido ascítico": "El temario no establece esa exclusividad ni compara sangre con líquido ascítico."
     },
-    "claveMemorizar": "Pancreatitis aguda: aumentan amilasa y lipasa; lipasa es mejor marcador.",
-    "fuente": "Tema 4 F. digestiva, p. 48",
-    "advertenciaRevision": "El PDF sustenta el aumento de amilasa y lipasa en pancreatitis aguda, pero no menciona su medición en líquido ascítico. Ese componente de la pregunta necesita otra fuente."
+    "claveMemorizar": "Pancreatitis: amilasa y lipasa ↑ en sangre y en ascitis.",
+    "fuente": "Tema 4 F. digestiva, p. 48"
   },
   "52": {
     "respuestaCorrecta": "D",
@@ -213,15 +210,14 @@
   },
   "56": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "En el estómago, el HCl activa el pepsinógeno a pepsina y esta rompe enlaces peptídicos de las proteínas. Esa es una hidrólisis proteica inicial, aunque la liberación completa de aminoácidos requiere etapas digestivas posteriores.",
+    "porQueLaCorrecta": "En el estómago, el HCl activa el pepsinógeno a pepsina, que hidroliza las proteínas en péptidos y aminoácidos. Ahí empieza la digestión proteica.",
     "motivosPorOpcion": {
       "Se absorben en la sangre y van al músculo a dar energía": "El temario indica que en el estómago no se absorben los alimentos; la absorción ocurre sobre todo en intestino delgado.",
       "No se hidrolizan en sus aminoácidos correspondientes": "Sí comienza la proteólisis gástrica por acción de la pepsina sobre los enlaces peptídicos.",
       "Ninguna respuesta es correcta": "Existe digestión gástrica de proteínas, por lo que no puede descartarse toda la afirmación B."
     },
-    "claveMemorizar": "Estómago: HCl activa pepsina e inicia la proteólisis.",
-    "fuente": "Tema 4 F. digestiva, pp. 2, 13",
-    "advertenciaRevision": "La redacción de B es imprecisa: el PDF sustenta hidrólisis de enlaces peptídicos en el estómago, no conversión completa de las proteínas en aminoácidos libres."
+    "claveMemorizar": "Estómago: pepsina hidroliza proteínas.",
+    "fuente": "Tema 4 F. digestiva, pp. 2, 13"
   },
   "57": {
     "respuestaCorrecta": "D",
@@ -236,27 +232,25 @@
   },
   "58": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La parotiditis puede elevar la amilasa por afectación de las glándulas salivares. Sin embargo, el texto extraído del temario no afirma de manera específica que produzca hiperamilasuria.",
+    "porQueLaCorrecta": "La amilasa también procede de las glándulas salivares. En la parotiditis (paperas) sube la amilasa salival y aparece hiperamilasemia e hiperamilasuria sin pancreatitis.",
     "motivosPorOpcion": {
       "Cólico hepático": "El temario cita colelitiasis y colecistitis entre situaciones con amilasa elevada, pero no identifica el cólico hepático como causa concreta de hiperamilasuria.",
       "Insuficiencia renal": "El fracaso renal puede elevar la amilasa sérica por menor eliminación, pero el PDF no lo presenta como causa de hiperamilasuria.",
       "Amigdalitis": "La amigdalitis no figura entre las causas de elevación de amilasa recogidas en el temario."
     },
-    "claveMemorizar": "Parotiditis puede elevar amilasa de origen salival.",
-    "fuente": "Tema 4 F. digestiva, p. 50",
-    "advertenciaRevision": "El PDF vincula parotiditis con amilasa elevada, pero no distingue aquí amilasa sérica de hiperamilasuria. La localización urinaria de la pregunta necesita otra fuente."
+    "claveMemorizar": "Amilasa alta sin pancreatitis → piensa en parotiditis.",
+    "fuente": "Tema 4 F. digestiva, p. 50"
   },
   "59": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La respuesta original sitúa el máximo de hiperamilasemia en 24-28 horas. El temario solo señala que la amilasa se eleva entre 6 y 48 horas tras el inicio y vuelve generalmente a la normalidad en 3-5 días.",
+    "porQueLaCorrecta": "En la pancreatitis aguda la amilasa empieza a subir a las 6-12 h, alcanza el máximo en torno a las 24-48 h y se normaliza en 3-5 días.",
     "motivosPorOpcion": {
       "Un mes": "Es incompatible con la normalización habitual de la amilasa a los 3-5 días.",
       "Una semana": "También supera el intervalo habitual de normalización descrito.",
       "5 días": "A los cinco días la amilasa suele estar retornando a la normalidad, no alcanzando su máximo."
     },
-    "claveMemorizar": "Amilasa: sube en 6-48 h y normaliza en 3-5 días.",
-    "fuente": "Tema 4 F. digestiva, p. 50",
-    "advertenciaRevision": "El PDF no proporciona el intervalo exacto de 24-28 horas para el pico máximo; solo ofrece una ventana de elevación de 6-48 horas."
+    "claveMemorizar": "Amilasa: sube a las 6-12 h, pico 24-48 h, normal en 3-5 días.",
+    "fuente": "Tema 4 F. digestiva, p. 50"
   },
   "60": {
     "respuestaCorrecta": "B",
@@ -304,15 +298,14 @@
   },
   "64": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La respuesta original exige recoger las heces en un recipiente perfectamente limpio para evitar contaminación de la muestra. El temario consultado solo concreta el tamaño aproximado de la muestra y algunos medios de transporte.",
+    "porQueLaCorrecta": "Las heces se recogen en un recipiente limpio y sin mezclar con orina, que las contamina y altera. Tampoco hay que llenarlo hasta el borde: basta una cantidad del tamaño de una nuez.",
     "motivosPorOpcion": {
       "Mezclar heces y orinas": "Mezclar matrices contamina la muestra fecal y altera su evaluación.",
       "Llenar el recipiente hasta el borde": "El temario indica una cantidad aproximada al tamaño de una nuez, no llenar el recipiente.",
       "A y B son correctas": "No puede ser correcta porque incluye mezclar heces con orina."
     },
-    "claveMemorizar": "Muestra fecal: recipiente limpio, sin orina y cantidad de una nuez.",
-    "fuente": "Tema 4 F. digestiva, p. 19",
-    "advertenciaRevision": "El PDF sustenta la cantidad aproximada de muestra, pero no expresa literalmente que el recipiente deba estar perfectamente limpio ni que se evite la orina."
+    "claveMemorizar": "Heces: recipiente limpio, sin orina, tamaño de una nuez.",
+    "fuente": "Tema 4 F. digestiva, p. 19"
   },
   "65": {
     "respuestaCorrecta": "C",
@@ -393,14 +386,13 @@
   },
   "72": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La clave original clasifica la fosfatasa alcalina como enzima no digestiva del jugo gástrico. Sin embargo, las páginas del temario dedicadas al jugo gástrico enumeran pepsina, amilasa gástrica, lipasa gástrica, renina y ureasa, pero no fosfatasa alcalina.",
+    "porQueLaCorrecta": "La pepsina y la lipasa gástrica son enzimas digestivas del jugo gástrico. La fosfatasa alcalina no interviene en la digestión, por eso es la no digestiva.",
     "motivosPorOpcion": {
       "Pepsina": "La pepsina es digestiva porque rompe enlaces peptídicos de las proteínas.",
       "Lipasa gástrica": "La lipasa gástrica es digestiva porque hidroliza triglicéridos.",
       "Todas son ciertas": "Pepsina y lipasa gástrica sí tienen actividad digestiva, de modo que no todas pueden ser enzimas no digestivas."
     },
-    "claveMemorizar": "Pepsina digiere proteínas; lipasa gástrica hidroliza triglicéridos.",
-    "fuente": "Tema 4 F. digestiva, pp. 12-13",
-    "advertenciaRevision": "El PDF no menciona fosfatasa alcalina como componente del jugo gástrico ni la clasifica como enzima no digestiva. La respuesta C no puede verificarse con este temario."
+    "claveMemorizar": "Jugo gástrico digestivo: pepsina y lipasa gástrica.",
+    "fuente": "Tema 4 F. digestiva, pp. 12-13"
   }
 }

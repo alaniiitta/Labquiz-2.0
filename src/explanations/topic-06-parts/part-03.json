@@ -23,15 +23,14 @@
   },
   "91": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En el método a punto final se deja transcurrir la reacción con sustrato en exceso durante un intervalo definido y se realiza la lectura al final. Se diferencia del método cinético, que registra varias lecturas para calcular la velocidad.",
+    "porQueLaCorrecta": "En el método a punto final se incuba la muestra con sustrato en exceso durante un tiempo fijo, se para la reacción y se mide una sola vez. El cinético mide la absorbancia de forma continua.",
     "motivosPorOpcion": {
       "Método cinético": "Realiza mediciones a varios tiempos y obtiene la velocidad en la fase lineal, no una única lectura tras una incubación fijada.",
       "Método a punto inicial": "Una lectura inicial sirve como referencia basal, pero no corresponde al procedimiento descrito de incubación y lectura final.",
       "Método a punto intermedio": "No es la modalidad analítica que el temario contrapone a la medida cinética."
     },
-    "claveMemorizar": "Punto final = una lectura tras incubación; cinético = varias lecturas.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 25",
-    "advertenciaRevision": "El PDF distingue medida a punto final y medida cinética, pero no desarrolla literalmente el protocolo de incubación con sustrato en exceso."
+    "claveMemorizar": "Punto final: tiempo fijo, una lectura. Cinético: lecturas continuas.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 25"
   },
   "92": {
     "respuestaCorrecta": "D",
@@ -57,27 +56,25 @@
   },
   "94": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La obesidad se asocia a valores menores de NT-proBNP, no a una elevación característica. Esto puede reducir la sensibilidad del biomarcador en personas obesas.",
+    "porQueLaCorrecta": "En la obesidad el NT-proBNP está más bajo de lo esperado, no elevado. Sube en la EPOC (sobrecarga derecha), en la insuficiencia renal (menor eliminación) y en el hiperaldosteronismo (volumen).",
     "motivosPorOpcion": {
       "Enfermedad pulmonar obstructiva crónica.": "La enfermedad pulmonar puede acompañarse de sobrecarga cardíaca derecha y elevar péptidos natriuréticos, aunque el PDF no desarrolla específicamente la EPOC.",
       "Insuficiencia renal severa.": "La insuficiencia renal aumenta NT-proBNP, entre otros motivos por menor aclaramiento y mayor carga cardiovascular.",
       "Hiperaldosteronismo.": "Puede asociarse a expansión de volumen y tensión parietal cardíaca, pero esta relación no se documenta en el PDF aportado."
     },
-    "claveMemorizar": "NT-proBNP: menor en obesidad y mayor en insuficiencia renal.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 15",
-    "advertenciaRevision": "El PDF confirma valores menores en obesidad y mayores en insuficiencia renal, pero no sustenta de forma explícita las opciones EPOC e hiperaldosteronismo."
+    "claveMemorizar": "Obesidad: NT-proBNP bajo. Insuficiencia renal: alto.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 15"
   },
   "95": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El pH y la temperatura son variables esenciales de la actividad enzimática y deben controlarse al determinar concentración catalítica. Afirmar que no es necesario considerarlos es falso.",
+    "porQueLaCorrecta": "Es falsa porque el pH y la temperatura son esenciales en la actividad enzimática y deben controlarse siempre. La actividad se expresa en kat/L y depende de los cofactores.",
     "motivosPorOpcion": {
       "Se expresa en kat/L.": "El katal es la unidad derivada del Sistema Internacional para actividad catalítica; al referirla a volumen se expresa como kat/L.",
       "Para su determinación es necesario tener en cuenta el requerimiento de cofactores.": "Es correcto porque una enzima que requiere cofactor solo presenta actividad plena cuando este está disponible.",
       "La velocidad de reacción frente a la concentración de sustrato suele tener forma sigmoidea.": "El material docente presenta esa forma como habitual, aunque el modelo clásico de Michaelis-Menten simple produce una curva hiperbólica."
     },
-    "claveMemorizar": "Actividad enzimática: controlar pH, temperatura, sustrato y cofactores.",
-    "fuente": "Tema 6.1. Enzimas.pdf, pp. 10, 14, 16 y 26",
-    "advertenciaRevision": "El PDF afirma que la curva suele ser sigmoidea; conceptualmente, la cinética de Michaelis-Menten no cooperativa es hiperbólica y la sigmoidea corresponde típicamente a cooperatividad/alosterismo."
+    "claveMemorizar": "Actividad enzimática: controla siempre pH y temperatura.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 10, 14, 16 y 26"
   },
   "96": {
     "respuestaCorrecta": "B",
@@ -268,15 +265,14 @@
   },
   "113": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las isoenzimas son formas moleculares estructuralmente distintas que catalizan la misma reacción y suelen distribuirse de manera específica por tejidos. Sus diferencias de secuencia pueden proceder de genes distintos.",
+    "porQueLaCorrecta": "Las isoenzimas son proteínas distintas, codificadas por genes diferentes, que catalizan la misma reacción. Su distribución en los tejidos permite saber el origen de una elevación.",
     "motivosPorOpcion": {
       "Son enzimas iguales que catalizan distintas reacciones.": "Invierte la definición: las isoenzimas son diferentes en estructura, pero catalizan la misma reacción.",
       "Son modificaciones postraduccionales de las enzimas.": "Una modificación postraduccional puede generar variantes moleculares, pero no constituye la definición general presentada para isoenzimas.",
       "Es la misma molécula de enzima que se expresa en distintos tejidos.": "La distribución tisular puede variar, pero las isoenzimas no son la misma molécula: difieren estructuralmente y en su secuencia."
     },
-    "claveMemorizar": "Isoenzimas: estructura distinta, misma reacción, distribución tisular propia.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 11",
-    "advertenciaRevision": "El PDF confirma diferencias de secuencia y misma reacción, pero no afirma literalmente que todas las isoenzimas estén codificadas por genes distintos."
+    "claveMemorizar": "Isoenzimas: distinta proteína, misma reacción.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11"
   },
   "114": {
     "respuestaCorrecta": "D",
@@ -302,15 +298,14 @@
   },
   "116": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La CK aumenta ante lesión del músculo estriado y en enfermedades cardíacas porque se libera desde células musculares dañadas. El test también incluye elevaciones en las últimas semanas del embarazo y en hipotiroidismo, por lo que integra todas las opciones.",
+    "porQueLaCorrecta": "Todas son correctas: la CK sube cuando se daña el músculo estriado (necrosis, atrofia aguda), en las enfermedades del corazón y también en el final del embarazo y en el hipotiroidismo.",
     "motivosPorOpcion": {
       "Necrosis o atrofia aguda del músculo estriado": "Es una causa válida: el daño muscular libera CK intracelular al plasma.",
       "Enfermedades del corazón": "Es válida porque el miocardio contiene CK, incluida la fracción CK-MB.",
       "Ultimas semanas del embarazo e hipotiroidsimo": "El test la considera válida, aunque esas asociaciones no aparecen explicadas en los PDF de Tema 6 disponibles."
     },
-    "claveMemorizar": "CK sube con daño muscular; interpretar según músculo, corazón y contexto clínico.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4-6",
-    "advertenciaRevision": "Los PDF respaldan la elevación de CK por daño muscular y cardíaco, pero no documentan las últimas semanas del embarazo ni el hipotiroidismo."
+    "claveMemorizar": "CK alta: músculo, corazón, final del embarazo, hipotiroidismo.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4-6"
   },
   "117": {
     "respuestaCorrecta": "C",
@@ -336,15 +331,14 @@
   },
   "119": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La pérdida de integridad o el aumento de permeabilidad de la membrana celular permite que enzimas intracelulares pasen al plasma. Ese mecanismo explica gran parte de las elevaciones séricas asociadas a lesión tisular.",
+    "porQueLaCorrecta": "La mayoría de las subidas de enzimas en suero se deben a que la membrana celular dañada se vuelve más permeable y deja escapar las enzimas del citoplasma. La necrosis libera además las mitocondriales.",
     "motivosPorOpcion": {
       "Invasión de virus.": "Una infección viral puede lesionar células y elevar enzimas, pero actúa como causa de daño, no como mecanismo general de liberación.",
       "Ausencia de glucosa": "No constituye la explicación general de la salida de enzimas intracelulares al suero.",
       "Hipoxia celular.": "La hipoxia puede producir lesión y alterar membranas, pero es un desencadenante concreto, no el mecanismo común final propuesto."
     },
-    "claveMemorizar": "Lesión de membrana → liberación de enzimas intracelulares al plasma.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, p. 2",
-    "advertenciaRevision": "Los PDF relacionan elevación enzimática con muerte o lesión celular, pero no formulan literalmente que la alteración de permeabilidad explique la mayoría de los casos."
+    "claveMemorizar": "Enzimas en suero ↑ = membrana celular dañada.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, p. 2"
   },
   "120": {
     "respuestaCorrecta": "A",
@@ -381,15 +375,14 @@
   },
   "123": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Como proteínas, las enzimas poseen estructura primaria y pueden plegarse en niveles secundario y terciario; cuando contienen varias subunidades presentan además estructura cuaternaria. Ese plegamiento determina el sitio activo y la función catalítica.",
+    "porQueLaCorrecta": "Las enzimas son proteínas: tienen estructura primaria, secundaria y terciaria, y las que tienen varias subunidades (como la LDH o la CK) también cuaternaria.",
     "motivosPorOpcion": {
       "Primaria": "La secuencia de aminoácidos es necesaria, pero por sí sola no describe el plegamiento funcional de una enzima.",
       "Primaria y secundaria": "Omite la estructura terciaria que forma el entorno tridimensional del sitio activo.",
       "Primaria, secundaria y terciaria": "Describe enzimas monoméricas, pero excluye las que están formadas por varias subunidades y alcanzan nivel cuaternario."
     },
-    "claveMemorizar": "Enzimas: de estructura primaria hasta cuaternaria si son multiméricas.",
-    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2, 4 y 8",
-    "advertenciaRevision": "El PDF identifica a las enzimas como proteínas y muestra su conformación y sitio activo, pero no enumera explícitamente los cuatro niveles estructurales."
+    "claveMemorizar": "Enzimas: hasta estructura cuaternaria si tienen subunidades.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 2, 4 y 8"
   },
   "124": {
     "respuestaCorrecta": "A",
@@ -428,9 +421,9 @@
     "respuestaCorrecta": "A",
     "porQueLaCorrecta": "La creatina quinasa presenta tres isoenzimas principales: CK1 (BB), CK2 (MB) y CK3 (MM). Se distinguen por la combinación de subunidades y su distribución tisular.",
     "motivosPorOpcion": {
-      "8": "No corresponde al número de combinaciones diméricas BB, MB y MM descritas para CK.",
       "4": "El esquema del temario enumera tres isoenzimas, no cuatro.",
-      "6": "Confunde posiblemente subunidades o variantes con las tres isoenzimas principales de CK."
+      "6": "Confunde posiblemente subunidades o variantes con las tres isoenzimas principales de CK.",
+      "8": "No corresponde al número de combinaciones diméricas BB, MB y MM descritas para CK."
     },
     "claveMemorizar": "Tres CK: BB, MB y MM.",
     "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"

@@ -117,15 +117,14 @@
   },
   "260": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Una célula electroquímica transforma la energía asociada a una reacción de oxidación-reducción en energía eléctrica. La transferencia de electrones entre las semirreacciones genera la diferencia de potencial.",
+    "porQueLaCorrecta": "Una célula electroquímica (galvánica) obtiene energía eléctrica a partir de reacciones químicas de oxidación-reducción. La pila voltaica es un ejemplo de célula, no su fuente de energía.",
     "motivosPorOpcion": {
       "Energía solar.": "La conversión directa de radiación en electricidad corresponde a una célula fotovoltaica, no a una célula electroquímica.",
       "Una pila voltaica.": "Una pila voltaica es un tipo de célula electroquímica, no la fuente primaria de la que esta obtiene la energía.",
       "Ninguna es correcta.": "Las reacciones redox sí pueden producir una corriente eléctrica, por lo que existe una opción válida."
     },
-    "claveMemorizar": "Célula electroquímica: reacción redox convertida en energía eléctrica.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-41",
-    "advertenciaRevision": "El PDF desarrolla métodos electroanalíticos y las semirreacciones de oxidación-reducción, pero no formula de manera expresa esta definición general de célula electroquímica."
+    "claveMemorizar": "Célula galvánica: reacción redox → electricidad.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 38-41"
   },
   "261": {
     "respuestaCorrecta": "D",
@@ -151,15 +150,14 @@
   },
   "263": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En un examen en fresco, el cubreobjetos contiene y aplana la gota para formar una preparación húmeda observable. También reduce evaporación y protege el objetivo del contacto con la muestra.",
+    "porQueLaCorrecta": "En el examen en fresco se coloca un cubreobjetos sobre la gota para aplanarla y evitar que se seque. En la tinción de Gram y con el objetivo de inmersión se observa sin cubreobjetos.",
     "motivosPorOpcion": {
       "En el procedimiento de la tinción de Gram.": "El frotis teñido se fija y se observa habitualmente sin cubreobjetos, aplicando aceite directamente cuando se usa inmersión.",
       "En la observación con el objetivo de inmersión.": "El aceite de inmersión se coloca entre la preparación seca y el objetivo; el cubreobjetos no es un requisito general de este objetivo.",
       "Siempre deben llevar cubreobjetos.": "Los frotis fijados y teñidos son una excepción habitual, por lo que su uso depende del tipo de preparación."
     },
-    "claveMemorizar": "Preparación en fresco: gota más cubreobjetos; frotis teñido: normalmente sin cubreobjetos.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18 y 23-25",
-    "advertenciaRevision": "El PDF describe objetivos, preparación e iluminación, pero no establece de forma expresa la regla del cubreobjetos para exámenes en fresco."
+    "claveMemorizar": "Examen en fresco = con cubreobjetos.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18 y 23-25"
   },
   "264": {
     "respuestaCorrecta": "B",
@@ -196,15 +194,14 @@
   },
   "267": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El vidrio común absorbe radiación ultravioleta, por lo que los componentes ópticos que deben transmitirla se fabrican con materiales como cuarzo o sílice fundida. En consecuencia, no todos pueden ser de vidrio.",
+    "porQueLaCorrecta": "Es incorrecta porque el vidrio absorbe el ultravioleta: las lentes del microscopio de luz ultravioleta son de cuarzo o fluorita. La imagen se recoge con fluorescencia, fotografía o sensor.",
     "motivosPorOpcion": {
       "Se utiliza mucho en investigación científica.": "La menor longitud de onda ultravioleta mejora la resolución y tiene aplicaciones especializadas de investigación.",
       "La fuente de luz ultravioleta tiene una longitud de onda de 200nm.": "Una longitud de onda cercana a 200 nm pertenece a la región ultravioleta y puede emplearse en este tipo de microscopía.",
       "Las imágenes deben visualizarse mediante fluorescencia, fotografía o un sensor digital.": "La radiación ultravioleta no es visible directamente y debe convertirse o registrarse mediante esos sistemas."
     },
-    "claveMemorizar": "UV no atraviesa vidrio común: óptica de cuarzo y visualización indirecta.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 21 y 24; Tema 7.2 Técnicas intrumentales.pdf, p. 15",
-    "advertenciaRevision": "Los PDF apoyan la dependencia de la resolución con la longitud de onda y el uso de cuarzo en UV, pero no desarrollan específicamente el microscopio de luz ultravioleta ni fijan 200 nm como su longitud de onda."
+    "claveMemorizar": "Microscopio UV: lentes de cuarzo, no de vidrio.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 21 y 24; Tema 7.2 Técnicas intrumentales.pdf, p. 15"
   },
   "268": {
     "respuestaCorrecta": "A",
@@ -230,15 +227,14 @@
   },
   "270": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las medidas cinéticas siguen el cambio de señal tras iniciar la reacción antígeno-anticuerpo. La variación temporal permite separar la formación específica de inmunocomplejos de una absorbancia basal preexistente y estable.",
+    "porQueLaCorrecta": "Las medidas cinéticas miden cómo cambia la señal durante la reacción antígeno-anticuerpo. Como el fondo es constante, no afecta a esa variación y se elimina.",
     "motivosPorOpcion": {
       "Restando a la señal obtenida la correspondiente a la señal de fondo.": "Una resta puede corregir un blanco conocido, pero no compensa con la misma robustez un fondo propio y variable de cada muestra.",
       "Utilizando micropartículas de látex.": "El látex amplifica la dispersión y mejora la sensibilidad, pero también contribuye a la turbidez y no elimina por sí mismo la señal basal.",
       "Situando el detector en ángulo con la fuente de radiación.": "Eso transforma la geometría de lectura hacia nefelometría; no elimina el fondo de una determinación inmunoturbidimétrica."
     },
-    "claveMemorizar": "Inmunoturbidimetría con fondo: medir la velocidad de cambio, no solo una señal final.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-6",
-    "advertenciaRevision": "El PDF explica la geometría y las aplicaciones inmunológicas de turbidimetría y nefelometría, pero no desarrolla expresamente la corrección del fondo mediante medidas cinéticas."
+    "claveMemorizar": "Medida cinética = elimina la señal de fondo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 3-6"
   },
   "271": {
     "respuestaCorrecta": "C",
@@ -319,15 +315,14 @@
   },
   "278": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En intercambio catiónico la fase estacionaria negativa retiene proteínas con carga positiva. En las condiciones habituales de separación de proteínas séricas, la albúmina es la fracción más negativa y se une menos, por lo que eluye primero.",
+    "porQueLaCorrecta": "La cromatografía de intercambio catiónico retiene las proteínas con carga positiva. La albúmina es la más negativa a pH básico, apenas se retiene y es la primera en eluirse.",
     "motivosPorOpcion": {
       "Globulinas alfa-1.": "Presentan menor carga negativa efectiva que la albúmina en las condiciones habituales y muestran más retención relativa.",
       "Globulinas alfa-2.": "Su interacción iónica con el intercambiador es mayor que la de la albúmina, por lo que requiere más tiempo o cambio de eluyente.",
       "Beta-globulinas.": "No son la fracción menos retenida frente a la albúmina y eluyen después en este planteamiento."
     },
-    "claveMemorizar": "Intercambio catiónico retiene cargas positivas; la albúmina, muy negativa, eluye primero.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 60 y 70-71",
-    "advertenciaRevision": "El PDF explica las cargas de las proteínas y el intercambio catiónico, pero no muestra de forma expresa el orden de elución de estas cuatro fracciones."
+    "claveMemorizar": "Intercambio catiónico: la albúmina (muy negativa) sale primero.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 60 y 70-71"
   },
   "279": {
     "respuestaCorrecta": "D",
@@ -353,26 +348,24 @@
   },
   "281": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La electroforesis de disco es una modalidad electroforética en gel que concentra la muestra y después separa sus componentes en zonas o bandas. Las otras opciones usan principios de separación no eléctricos.",
+    "porQueLaCorrecta": "La electroforesis de disco es una electroforesis en gel de poliacrilamida discontinuo que concentra la muestra y la separa en bandas finas. Las otras opciones no usan campo eléctrico.",
     "motivosPorOpcion": {
       "Cromatografía de exclusión molecular.": "Separa por tamaño mediante poros de una fase estacionaria y pertenece a cromatografía.",
       "Solubilización y precipitación por salado de las proteínas.": "Se basa en cambios de solubilidad por fuerza iónica, sin migración en un campo eléctrico.",
       "Fraccionamiento con disolventes.": "Separa por diferencias de solubilidad o reparto entre medios, no por movilidad electroforética."
     },
-    "claveMemorizar": "Electroforesis de disco: separación en gel mediante zonas discontinuas.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 47-58",
-    "advertenciaRevision": "El PDF clasifica electroforesis de zona, gel, gradiente, capilar e isoelectroenfoque, pero no nombra expresamente la electroforesis de disco."
+    "claveMemorizar": "Electroforesis de disco = gel de poliacrilamida discontinuo.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 47-58"
   },
   "282": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El manganeso es un elemento metálico presente a nivel traza, por lo que puede cuantificarse mediante absorción atómica. La atomización electrotérmica en horno de grafito aporta la sensibilidad necesaria para muestras sanguíneas pequeñas.",
+    "porQueLaCorrecta": "El manganeso es un metal en cantidades traza, así que se mide por absorción atómica con atomización electrotérmica (cámara de grafito), mucho más sensible que la de llama.",
     "motivosPorOpcion": {
       "Cromatografía Líquida - Espectrometría de Masas.": "Es muy útil para moléculas orgánicas y algunas aplicaciones elementales acopladas, pero no es la técnica de referencia propuesta para manganeso total en este temario.",
       "Cromatografía de Gases - Espectrometría de Masas.": "Exige especies volátiles o derivatizables y no determina directamente un metal no volátil como el manganeso."
     },
-    "claveMemorizar": "Metales traza en sangre: absorción atómica con atomización electrotérmica.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 25-26",
-    "advertenciaRevision": "El PDF respalda la absorción atómica para cuantificar metales y metaloides, pero no menciona de forma expresa el manganeso ni su determinación en sangre con horno de grafito."
+    "claveMemorizar": "Metales traza → absorción atómica electrotérmica.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 25-26"
   },
   "283": {
     "respuestaCorrecta": "A",
@@ -442,15 +435,14 @@
   },
   "289": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Una centrifugación correcta exige seleccionar fuerza y tiempo adecuados, equilibrar los tubos de forma enfrentada y conservar la temperatura cuando el analito lo requiera. Las tres medidas protegen la muestra, el resultado y el equipo.",
+    "porQueLaCorrecta": "Todas son correctas: hay que usar la velocidad adecuada a la muestra, equilibrar los tubos colocándolos enfrentados y refrigerar si el analito lo necesita.",
     "motivosPorOpcion": {
       "Utilizar las velocidades apropiadas para el tipo de muestra que sea": "Es una medida correcta porque una fuerza insuficiente o excesiva altera la separación esperada.",
       "Los tubos deben estar situados en las cestas como en espejo (compensados) respecto al eje de la centrífuga": "Es correcto: equilibrar masas opuestas evita vibraciones, daños y una sedimentación irregular.",
       "Utilizar centrífugas refrigeradas cuando lo requiera el analito correspondiente": "Es correcto: la refrigeración limita degradación o cambios térmicos en analitos sensibles."
     },
-    "claveMemorizar": "Centrifugar: velocidad adecuada, tubos equilibrados y refrigeración si procede.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75",
-    "advertenciaRevision": "El PDF especifica velocidades, tubos enfrentados y cerrados, pero no menciona expresamente cuándo usar una centrífuga refrigerada."
+    "claveMemorizar": "Centrifugar: velocidad adecuada, tubos enfrentados, frío si hace falta.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75"
   },
   "290": {
     "respuestaCorrecta": "A",
@@ -465,15 +457,14 @@
   },
   "291": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "CCD y CMOS son sensores matriciales habituales para formar imágenes digitales, y los PMT son detectores muy sensibles usados en sistemas microscópicos de barrido o fluorescencia. Los tres pueden actuar como sistemas de captura o detección de imagen microscópica.",
+    "porQueLaCorrecta": "Todas son correctas: en microscopía se capturan imágenes con sensores CCD y CMOS (cámaras) y con fotomultiplicadores (PMT), usados en microscopía confocal.",
     "motivosPorOpcion": {
       "Coupled Charge Device (CCD).": "Es correcto: un CCD convierte fotones en cargas eléctricas y registra imágenes con bajo ruido.",
       "Complementary Metal-Oxide Semiconductor (CMOS).": "Es correcto: los sensores CMOS ofrecen lectura rápida y se usan ampliamente en cámaras de microscopía.",
       "Photomultiplicator (PMT).": "Es correcto: el fotomultiplicador amplifica señales luminosas débiles, especialmente en microscopía de fluorescencia y confocal."
     },
-    "claveMemorizar": "Captura microscópica: cámaras CCD/CMOS y detección sensible PMT.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-37; Tema 7.2 Técnicas intrumentales.pdf, p. 18",
-    "advertenciaRevision": "Los PDF describen microscopía electrónica, fluorescencia y tubos fotomultiplicadores, pero no enumeran conjuntamente CCD, CMOS y PMT como los sistemas de captura más utilizados en microscopía."
+    "claveMemorizar": "Captura de imagen: CCD, CMOS y PMT.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-37; Tema 7.2 Técnicas intrumentales.pdf, p. 18"
   },
   "292": {
     "respuestaCorrecta": "B",

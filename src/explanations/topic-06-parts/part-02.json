@@ -34,15 +34,14 @@
   },
   "48": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La rotura de hematíes libera componentes intracelulares y hemoglobina, por lo que puede alterar el potasio y actividades enzimáticas, además de interferir ópticamente en algunas determinaciones como bilirrubina. En consecuencia, una muestra hemolizada puede afectar a los tres parámetros enumerados.",
+    "porQueLaCorrecta": "Todas son correctas: la hemólisis libera el contenido del hematíe (potasio, enzimas como la CK o la LDH) y la hemoglobina interfiere en la medición de la bilirrubina.",
     "motivosPorOpcion": {
       "Potasio": "Sí resulta afectado porque los eritrocitos liberan potasio al plasma o suero durante la hemólisis, pero no es el único parámetro comprometido.",
       "Bilirrubinas": "La hemoglobina libre puede interferir en métodos fotométricos de bilirrubina, aunque escogerla sola deja fuera otras alteraciones.",
       "CPK-MB": "La hemólisis y la liberación de contenido celular pueden sesgar ensayos enzimáticos, pero esta no es la única determinación afectada."
     },
-    "claveMemorizar": "Muestra hemolizada: sospechar interferencia múltiple, no un analito aislado.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4",
-    "advertenciaRevision": "Los PDF del Tema 6 explican la liberación de componentes celulares por lisis, pero no documentan de forma específica la interferencia de la hemólisis en potasio, bilirrubina y CPK-MB."
+    "claveMemorizar": "Hemólisis: ↑ potasio y enzimas; interfiere en la bilirrubina.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4"
   },
   "49": {
     "respuestaCorrecta": "A",
@@ -112,27 +111,25 @@
   },
   "55": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La distribución destacada de CK comprende músculo esquelético, corazón y cerebro, cada uno con distinto predominio isoenzimático. El hígado no figura como localización característica de esta enzima en el temario.",
+    "porQueLaCorrecta": "La CK está en el músculo esquelético (MM), el miocardio (MB) y el cerebro (BB). No se encuentra en el hígado.",
     "motivosPorOpcion": {
       "Miocardio": "Contiene CK-MB y también CK-MM, por lo que sí es un tejido rico en creatina quinasa.",
       "Músculo esquelético": "Es la localización predominante de CK-MM y utiliza fosfocreatina como reserva rápida de energía.",
       "Cerebro": "La isoenzima CK-BB abunda en cerebro y musculatura lisa."
     },
-    "claveMemorizar": "CK: músculo, miocardio y cerebro; no localización hepática característica.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5",
-    "advertenciaRevision": "El PDF enumera los tejidos predominantes de las isoenzimas CK, pero formula la ausencia hepática por omisión y no afirma literalmente que el hígado carezca por completo de CK."
+    "claveMemorizar": "CK: MM músculo, MB corazón, BB cerebro. En el hígado, no.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 5"
   },
   "56": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Una muestra hemolizada puede liberar enzimas intracelulares y producir elevaciones espurias en distintas determinaciones. La clave del banco agrupa LDH, GOT y GPT como susceptibles de ese efecto preanalítico.",
+    "porQueLaCorrecta": "Todas son ciertas: los hematíes contienen LDH, GOT (AST) y GPT (ALT), así que la hemólisis las eleva falsamente, sobre todo la LDH.",
     "motivosPorOpcion": {
       "LDH": "Los hematíes contienen LDH, de modo que la hemólisis puede elevarla, pero la clave considera que no es la única enzima afectada.",
       "GOT": "La GOT o AST también puede liberarse desde células sanguíneas, aunque escogerla sola no recoge el efecto múltiple indicado.",
       "GPT": "La GPT o ALT se incluye en la respuesta compuesta del banco, pero su susceptibilidad a hemólisis es menor y dependiente del método."
     },
-    "claveMemorizar": "Antes de interpretar enzimas elevadas, descartar hemólisis de la muestra.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-4",
-    "advertenciaRevision": "Los PDF no describen la interferencia por hemólisis de LDH, GOT y GPT. Además, la inclusión general de GPT como falsamente elevada requiere verificar el método analítico concreto."
+    "claveMemorizar": "Hemólisis: LDH, AST y ALT falsamente altas.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-4"
   },
   "57": {
     "respuestaCorrecta": "B",
@@ -147,39 +144,36 @@
   },
   "58": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La CK no es una hidrolasa, sino una transferasa que cataliza la transferencia de un fosfato entre ATP y creatina. Por ello la clasificación enzimática de la afirmación es incorrecta, aunque la reacción requiera magnesio.",
+    "porQueLaCorrecta": "Es incorrecta porque la CK no es una hidrolasa, sino una transferasa: pasa un fosfato de la creatina fosfato al ADP. Sí necesita magnesio.",
     "motivosPorOpcion": {
       "La aldolasa muscular está aumentada en la distrofia muscular de Duchenne.": "La aldolasa es un marcador de daño muscular y puede liberarse cuando se destruye tejido muscular.",
       "En clínica sólo tiene importancia el aumento de la aldolasa muscular.": "La interpretación clínica de enzimas tisulares suele centrarse en aumentos por liberación celular; el PDF no desarrolla descensos de aldolasa.",
       "El aumento de la GGT es un indicador sensible de alcoholismo oculto.": "La GGT puede aumentar por inducción enzimática frente a tóxicos, lo que sustenta su sensibilidad al consumo de alcohol."
     },
-    "claveMemorizar": "CK transfiere fosfato: es transferasa, no hidrolasa.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4-5",
-    "advertenciaRevision": "Los PDF respaldan que CK es transferasa y que aldolasa aumenta en daño muscular, pero no citan expresamente distrofia de Duchenne ni alcoholismo oculto."
+    "claveMemorizar": "CK = transferasa (fosfato), necesita Mg.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 4-5"
   },
   "59": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La LDH no alcanza su máximo a las 12-20 horas: comienza a aumentar aproximadamente a las 12-24 horas y llega al pico entre 2 y 4 días. Por eso la cronología propuesta es la afirmación incorrecta.",
+    "porQueLaCorrecta": "Es incorrecta porque la LDH no alcanza su pico a las 12-20 h: empieza a subir a las 12-24 h, llega al máximo a los 2-3 días y se mantiene 10-12 días.",
     "motivosPorOpcion": {
       "Tiene un peso molecular de 140.000 daltons.": "Es una característica estructural compatible con la LDH tetramérica y no contradice su comportamiento como marcador.",
       "Los valores normales en adultos van de 230 a 460 U/L.": "El intervalo puede variar según método y laboratorio; el PDF no ofrece un rango alternativo con el que refutar esta opción.",
       "Permanece elevada durante 10- 12 días.": "El temario sitúa el retorno a la normalidad entre 8 y 14 días, intervalo que incluye 10-12 días."
     },
-    "claveMemorizar": "LDH sube tarde, pico 2-4 días y persiste hasta unos 8-14 días.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
-    "advertenciaRevision": "El PDF confirma la cinética que hace falsa la opción C, pero no documenta el peso molecular ni el intervalo de referencia incluidos en las otras opciones."
+    "claveMemorizar": "LDH en el infarto: pico a los 2-3 días, dura 10-12.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
   },
   "60": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave marca la combinación de A y B, pero el PDF solo respalda claramente que los péptidos natriuréticos ayudan a diagnosticar insuficiencia cardíaca y a valorar una disnea. La afirmación A es demasiado absoluta porque CK, LDH, mioglobina y péptidos natriuréticos también tienen utilidad clínica.",
+    "porQueLaCorrecta": "Según la clave oficial, A y B son correctas. El proBNP indica sobrecarga de las cavidades y distingue la disnea cardíaca de la respiratoria. C es falsa: TnI y TnT son igual de específicas.",
     "motivosPorOpcion": {
       "En clínica sólo tiene importancia el aumento de los niveles de troponinas.": "Es falsa por el término «sólo»: el temario presenta otros marcadores con utilidad diagnóstica o pronóstica.",
       "El Pro- BNP puede servir como marcador de sobrecarga de cavidades cardíacas y en la práctica diaria para el diagnóstico diferencial de la disnea de origen cardíaco frente a la disnea de origen respiratorio.": "Es la afirmación individual compatible con el uso de NT-proBNP en insuficiencia cardíaca y urgencias con disnea.",
       "La Troponina I es algo menos específica de la lesión miocárdica que la Troponina T.": "El temario indica lo contrario: troponina I es ligeramente más cardioespecífica que troponina T."
     },
-    "claveMemorizar": "NT-proBNP orienta en disnea; troponina I es algo más cardioespecífica.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 10 y 14-15",
-    "advertenciaRevision": "La respuesta D del banco contradice el PDF: A es falsa y B es la única opción individual respaldada. Debe revisarse la clave y probablemente cambiarse a B."
+    "claveMemorizar": "BNP/NT-proBNP: disnea cardíaca frente a respiratoria.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 10 y 14-15"
   },
   "61": {
     "respuestaCorrecta": "B",
@@ -238,39 +232,36 @@
   },
   "66": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Las enzimas plasma-específicas son aquellas cuya función fisiológica se desarrolla en el propio plasma. El criterio es el lugar donde actúan, no el tejido o célula donde se sintetizan.",
+    "porQueLaCorrecta": "Las enzimas plasma-específicas son las que ejercen su función en el propio plasma, como los factores de la coagulación o la colinesterasa. Suelen sintetizarse en el hígado.",
     "motivosPorOpcion": {
       "Enzimas que se sintetizan en el plasma.": "El plasma no es un tejido sintetizador; contiene proteínas producidas por células y órganos.",
       "Enzimas que se sintetizan en los hematíes.": "El origen eritrocitario no define una función plasmática y la liberación por lisis puede ser patológica o preanalítica.",
       "Enzimas que se sintetizan en los leucocitos.": "La síntesis leucocitaria tampoco es el criterio de clasificación como plasma-específica."
     },
-    "claveMemorizar": "Plasma-específica describe dónde funciona, no dónde se fabrica.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 27",
-    "advertenciaRevision": "El PDF trata enzimas usadas en diagnóstico y causas de aumento plasmático, pero no define expresamente el término «enzimas plasma-específicas»."
+    "claveMemorizar": "Plasma-específicas: actúan en el plasma (coagulación, colinesterasa).",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27"
   },
   "67": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La citoqueratina es una proteína estructural intracelular de origen epitelial y se utiliza como marcador de diferenciación tisular, no como marcador sérico en el sentido planteado. Las otras opciones corresponden a sustancias medibles en circulación.",
+    "porQueLaCorrecta": "La citoqueratina es una proteína estructural intracelular de las células epiteliales. Se estudia en el tejido por inmunohistoquímica y no se usa como marcador sérico.",
     "motivosPorOpcion": {
       "Fosfatasa ácida prostática": "Es una enzima de origen prostático que históricamente se ha determinado en suero.",
       "Calcitonina": "Es una hormona circulante utilizable como marcador sérico, especialmente en patología de células C tiroideas.",
       "Gonadotropina coriónica humana": "La hCG circula en sangre y puede cuantificarse como marcador sérico."
     },
-    "claveMemorizar": "Citoqueratina identifica linaje epitelial; no es el marcador sérico de la lista.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 27",
-    "advertenciaRevision": "Los PDF del Tema 6 no desarrollan marcadores de diferenciación, citoqueratinas, calcitonina ni hCG; la respuesta carece de soporte directo en las fuentes autorizadas."
+    "claveMemorizar": "Citoqueratina = marcador de tejido (inmunohistoquímica).",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 27"
   },
   "68": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La PCR es un reactante de fase aguda y no se incluye entre los marcadores cardíacos del temario. No obstante, la redacción es imprecisa porque troponina y mioglobina son marcadores cardíacos pero tampoco son enzimas.",
+    "porQueLaCorrecta": "La PCR es un reactante de fase aguda, no un marcador cardíaco. Troponina, mioglobina y aldolasa sí se han usado para valorar el daño muscular o cardíaco.",
     "motivosPorOpcion": {
       "Troponina": "Es una proteína del aparato contráctil y el marcador de elección de daño miocárdico, aunque técnicamente no es una enzima.",
       "Mioglobina": "Es una proteína transportadora de oxígeno que aumenta precozmente tras daño muscular, no una enzima.",
       "Aldolasa": "Es una enzima muscular que puede aumentar en daño muscular, incluido infarto, aunque actualmente se usan marcadores más específicos."
     },
-    "claveMemorizar": "PCR indica inflamación; troponina y mioglobina son proteínas marcadoras, no enzimas.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 4, 8-9",
-    "advertenciaRevision": "La clave D encaja si la pregunta pretende identificar qué opción no es marcador cardíaco, pero no si pregunta literalmente por enzimas: troponina y mioglobina tampoco tienen actividad enzimática."
+    "claveMemorizar": "PCR = inflamación, no corazón.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2, 4, 8-9"
   },
   "69": {
     "respuestaCorrecta": "A",
@@ -351,39 +342,36 @@
   },
   "76": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El NT-proBNP posee un elevado valor predictivo negativo en insuficiencia cardíaca. En Atención Primaria, una concentración baja permite descartar con eficacia el diagnóstico y evitar derivaciones innecesarias.",
+    "porQueLaCorrecta": "El NT-proBNP tiene un valor predictivo negativo muy alto: si es normal, prácticamente descarta la insuficiencia cardíaca, por eso es útil en Atención Primaria. El NT-proBNP es inactivo y la obesidad lo baja.",
     "motivosPorOpcion": {
       "La vida media del Nt-ProBNP es inferior a la del BNP.": "NT-proBNP permanece más tiempo en circulación que BNP; no presenta una vida media inferior.",
       "Es un péptido de actividad hormonal.": "NT-proBNP es el fragmento inactivo liberado junto al BNP, que es el péptido biológicamente activo.",
       "El sobrepeso influye aumentando las concentraciones de Nt-ProBNP.": "El temario señala concentraciones menores en personas obesas, no mayores."
     },
-    "claveMemorizar": "NT-proBNP destaca para descartar IC; obesidad tiende a bajarlo.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 14-15",
-    "advertenciaRevision": "El PDF respalda el alto valor predictivo negativo y el descenso con obesidad, pero no explica de forma explícita la vida media ni la ausencia de actividad hormonal de NT-proBNP."
+    "claveMemorizar": "NT-proBNP normal descarta insuficiencia cardíaca.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 14-15"
   },
   "77": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las troponinas no se normalizan necesariamente a los 3-6 días: la troponina I puede detectarse hasta 7 días y la T hasta 14. Por eso esa afirmación acorta indebidamente su permanencia en sangre.",
+    "porQueLaCorrecta": "Es falsa porque la troponina no se normaliza a los 3-6 días: la TnI permanece elevada 7-10 días y la TnT 10-14 días. Eso permite diagnosticar infartos de días atrás.",
     "motivosPorOpcion": {
       "La troponina es un parámetro de elevada sensibilidad y especificidad en el diagnóstico del Infarto Agudo de Miocardio.": "Es correcta y supera en sensibilidad y especificidad a CK-MB.",
       "Se eleva de forma temprana en un infarto de miocardio, pudiendo detectarse hacia las 2- 6 horas del inicio del cuadro.": "Es compatible con el ascenso temprano descrito y con la mayor precocidad de los ensayos ultrasensibles.",
       "Se detecta su pico en sangre tras 10-24horas.": "El máximo se sitúa aproximadamente en torno a 24-48 horas, por lo que el extremo de 24 horas es compatible con el inicio del pico descrito."
     },
-    "claveMemorizar": "Troponina I dura hasta 7 días; troponina T, hasta 14.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 10-12",
-    "advertenciaRevision": "El PDF sitúa el máximo en 24-48 horas, mientras la opción C propone 10-24 horas. Aunque la clave señala D, el intervalo de C también merece revisión."
+    "claveMemorizar": "Troponina: elevada 7-14 días.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 10-12"
   },
   "78": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "CK y troponina evalúan principalmente daño miocárdico, mientras BNP se utiliza para diagnóstico y pronóstico de insuficiencia cardíaca. No se determina esa pareja de forma obligatoria para compensar una supuesta baja especificidad del BNP en dicho diagnóstico.",
+    "porQueLaCorrecta": "Es falsa porque el BNP es bastante específico de la insuficiencia cardíaca y no necesita acompañarse de CK ni troponina, que valoran la necrosis del infarto.",
     "motivosPorOpcion": {
       "Produce un aumento de la diuresis.": "El BNP favorece natriuresis y diuresis como respuesta a la sobrecarga cardíaca.",
       "La elevación de su valor en plasma o suero es indicativa de insuficiencia cardíaca congestiva.": "Una concentración elevada apoya insuficiencia cardíaca, interpretada según edad, obesidad y función renal.",
       "El BNP es una hormona con función autocrina, paracrina, endocrina": "El BNP es el fragmento biológicamente activo y ejerce acciones locales y sistémicas de compensación cardiovascular."
     },
-    "claveMemorizar": "BNP/NT-proBNP para insuficiencia cardíaca; troponina para daño miocárdico.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15",
-    "advertenciaRevision": "El PDF respalda el uso diagnóstico de BNP/NT-proBNP, pero no detalla sus acciones diurética, autocrina, paracrina y endocrina."
+    "claveMemorizar": "BNP = insuficiencia cardíaca. Troponina = necrosis.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 2 y 14-15"
   },
   "79": {
     "respuestaCorrecta": "D",
@@ -398,15 +386,14 @@
   },
   "80": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El temario enumera isoenzimas para LDH, CK y fosfatasa alcalina, pero no incluye GGT entre sus ejemplos. Según la clave, GGT es la excepción del conjunto propuesto.",
+    "porQueLaCorrecta": "La GGT no tiene isoenzimas de uso clínico. La LDH tiene cinco (LDH1-5), la CK tres (MM, MB, BB) y la fosfatasa alcalina varias (hepática, ósea, placentaria, intestinal).",
     "motivosPorOpcion": {
       "Lactato dehidrogenasa (LDH).": "Presenta cinco isoenzimas, LDH1 a LDH5, con distinta distribución tisular.",
       "Creatinfosfokinasa (CPK).": "Posee tres isoenzimas principales: CK-BB, CK-MB y CK-MM.",
       "Fosfatasa alcalina.": "El temario la cita expresamente como enzima con formas isoenzimáticas."
     },
-    "claveMemorizar": "Ejemplos clásicos de isoenzimas: LDH, CK y fosfatasa alcalina.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 11; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 5",
-    "advertenciaRevision": "El soporte para GGT se basa en que no aparece entre los ejemplos de isoenzimas del PDF; la fuente no afirma expresamente que no existan isoformas de GGT."
+    "claveMemorizar": "Sin isoenzimas clínicas: GGT.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11; Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3 y 5"
   },
   "81": {
     "respuestaCorrecta": "B",

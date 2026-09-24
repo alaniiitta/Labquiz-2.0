@@ -23,15 +23,14 @@
   },
   "3": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La agregación forma un tapón plaquetario inicial e inestable y el temario sitúa esta fase en un intervalo breve de 3 a 10 minutos. Diez minutos es, por tanto, el límite superior del intervalo indicado.",
+    "porQueLaCorrecta": "La agregación plaquetaria forma el tapón plaquetario inicial (inestable) en unos pocos minutos, hasta unos 10. Después la fibrina lo consolida.",
     "motivosPorOpcion": {
       "20 minutos.": "Supera el máximo de 10 minutos que el temario atribuye a la fase de agregación plaquetaria.",
       "30 minutos.": "Corresponde a una duración demasiado prolongada para la formación rápida del tapón plaquetario primario.",
       "40 minutos.": "No encaja con una fase inicial de la hemostasia que el PDF describe como muy breve, de 3 a 10 minutos."
     },
-    "claveMemorizar": "Agregación plaquetaria: fase breve, de 3 a 10 minutos.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 7",
-    "advertenciaRevision": "El PDF ofrece un intervalo de 3-10 minutos, no una duración fija de 10 minutos; la opción A solo coincide con su límite superior."
+    "claveMemorizar": "Agregación plaquetaria: tapón inicial en ~10 min.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 7"
   },
   "4": {
     "respuestaCorrecta": "B",
@@ -101,15 +100,14 @@
   },
   "10": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Los trastornos adquiridos pueden aparecer por múltiples procesos y tratamientos a lo largo de la vida, por lo que en conjunto superan en frecuencia a los déficits hereditarios raros. Además, suelen comprometer varios componentes y producir sangrado en distintas localizaciones.",
+    "porQueLaCorrecta": "Los trastornos adquiridos (hepatopatía, déficit de vitamina K, anticoagulantes, CID) son mucho más frecuentes que los congénitos. Suelen afectar a varios factores y sangrar en varios sitios.",
     "motivosPorOpcion": {
       "Suelen afectar a un solo factor.": "La afectación aislada de un factor orienta más a un déficit congénito; los procesos adquiridos pueden alterar simultáneamente síntesis, consumo o inhibición de varios factores.",
       "En ellos el sangrado suele aparecer en un solo sitio.": "Una alteración sistémica de la coagulación no queda limitada necesariamente a una única localización anatómica.",
       "Todas son falsas.": "La afirmación sobre la mayor frecuencia de los trastornos adquiridos invalida esta opción global."
     },
-    "claveMemorizar": "Adquiridas: más frecuentes y a menudo multifactoriales; congénitas: déficit específico.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 33-34",
-    "advertenciaRevision": "El PDF diferencia alteraciones congénitas y adquiridas, pero no afirma expresamente que las adquiridas sean más frecuentes ni desarrolla el patrón comparativo completo de este ítem."
+    "claveMemorizar": "Adquiridos: más frecuentes, varios factores, varios sitios.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 33-34"
   },
   "11": {
     "respuestaCorrecta": "C",
@@ -135,15 +133,14 @@
   },
   "13": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El factor VII es el componente vitamina K dependiente característico de la vía extrínseca y el TP es especialmente sensible a su actividad. Su descenso se manifiesta precozmente en situaciones que reducen los factores vitamina K dependientes.",
+    "porQueLaCorrecta": "El factor VII tiene la vida media más corta de todos los factores (4-6 h). Por eso, con los anticumarínicos el TP es lo primero que se alarga.",
     "motivosPorOpcion": {
       "Factor II.": "La protrombina permanece varios días en circulación según el temario, por lo que no explica la alteración más temprana del TP.",
       "Factor IX.": "Es un factor vitamina K dependiente de la vía intrínseca y no es el principal responsable de la sensibilidad precoz del TP.",
       "Factor VIII.": "Es un cofactor de la vía intrínseca y no pertenece al grupo de factores vitamina K dependientes."
     },
-    "claveMemorizar": "Factor VII: vía extrínseca y respuesta temprana del TP.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 14, 18 y 53",
-    "advertenciaRevision": "El PDF relaciona el factor VII con la alteración temprana del TP, pero no aporta una tabla de vidas medias que demuestre de forma explícita que sea el más corto entre las cuatro opciones."
+    "claveMemorizar": "Factor VII: vida media más corta (4-6 h) → TP.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 14, 18 y 53"
   },
   "14": {
     "respuestaCorrecta": "C",
@@ -191,15 +188,14 @@
   },
   "18": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El tiempo de trombina es sensible a la etapa fibrinógeno-fibrina y a la heparina, mientras que la reptilasa forma fibrina sin verse influida por heparina. Compararlos permite reconocer si el alargamiento del tramo final se debe al anticoagulante.",
+    "porQueLaCorrecta": "El tiempo de trombina se alarga con la heparina y con los productos de degradación de la fibrina de los trombolíticos. El de reptilasa no se afecta por la heparina, así que juntos distinguen las dos causas.",
     "motivosPorOpcion": {
       "TT (Tiempo de trombina).": "El TT aislado puede prolongarse por heparina o por alteraciones del fibrinógeno, de modo que no permite distinguir ambas causas.",
       "Tiempo de reptilase.": "La reptilasa evita la interferencia de heparina, pero por sí sola no cuantifica el efecto anticoagulante ni sustituye el seguimiento fibrinolítico.",
       "TP (Tiempo de protrombina).": "El TP se usa principalmente para antagonistas de vitamina K y no es la prueba específica de control de la heparina."
     },
-    "claveMemorizar": "TT sensible a heparina; reptilasa no sensible: la comparación ayuda al diagnóstico diferencial.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54-55, 65 y 70-71",
-    "advertenciaRevision": "La clave del banco no coincide con la monitorización descrita en el PDF: la heparina no fraccionada se controla con TTPA y los trombolíticos con fibrinógeno; TT y reptilasa se presentan como pruebas comparativas de la vía común."
+    "claveMemorizar": "TT largo + reptilasa normal = heparina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54-55, 65 y 70-71"
   },
   "19": {
     "respuestaCorrecta": "B",
@@ -401,15 +397,14 @@
   },
   "37": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Una determinación funcional cromogénica usa un sustrato que libera un compuesto coloreado al ser hidrolizado, permitiendo cuantificar actividad enzimática. La clave del banco identifica S-223822 como el reactivo asociado al estudio de ATIII.",
+    "porQueLaCorrecta": "La antitrombina III se mide por un método cromogénico: se añade trombina y un sustrato cromogénico (de la serie S-2238) que libera color. Cuanta más antitrombina hay, menos color aparece.",
     "motivosPorOpcion": {
       "A-523.": "El PDF no reconoce este código como sustrato cromogénico para la determinación funcional de antitrombina III.",
       "L-43652514.": "Esta designación no aparece vinculada en el temario a un ensayo funcional de antitrombina III.",
       "Ninguna es cierta.": "La clave del banco asigna un sustrato concreto, aunque el PDF disponible no permite verificar su código."
     },
-    "claveMemorizar": "Ensayo cromogénico: la actividad enzimática se traduce en liberación de color.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 62 y 67",
-    "advertenciaRevision": "El PDF menciona la antitrombina III funcional y explica el principio de los métodos cromogénicos, pero no contiene el código «S-223822» ni permite distinguirlo de las otras opciones. Deben revisarse la clave y la posible errata del reactivo."
+    "claveMemorizar": "ATIII: método cromogénico con sustrato S-2238.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 62 y 67"
   },
   "38": {
     "respuestaCorrecta": "D",

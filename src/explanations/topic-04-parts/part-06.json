@@ -1,15 +1,14 @@
 {
   "181": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las pruebas químicas como el guayaco detectan la actividad seudoperoxidasa del grupo hemo y pueden reaccionar con componentes dietéticos, por lo que requieren controlar la dieta antes de recoger la muestra.",
+    "porQueLaCorrecta": "Los métodos químicos (guayaco) detectan cualquier peroxidasa, también la de carne, verduras o fármacos. Por eso exigen dieta los 3 días previos; los inmunológicos, más sensibles y específicos, no.",
     "motivosPorOpcion": {
       "Actualmente la colonoscopia es la prueba recomendada para el cribado de cáncer colorrectal en población general.": "La colonoscopia es la prueba confirmatoria tras un cribado positivo, no la prueba inicial de cribado poblacional descrita en el temario.",
       "Es muy específica de enfermedad inflamatoria intestinal.": "La sangre oculta puede aparecer por múltiples lesiones digestivas y no identifica específicamente una enfermedad inflamatoria intestinal.",
       "La sensibilidad analítica de los métodos químicos suele ser superior a la de los métodos inmunológicos.": "El temario atribuye mayor sensibilidad y especificidad a los métodos inmunológicos que a los químicos."
     },
-    "claveMemorizar": "Guayaco: dieta controlada; inmunológico: mayor sensibilidad y especificidad.",
-    "fuente": "Tema 4 F. digestiva, pp. 25-28",
-    "advertenciaRevision": "El PDF exige controlar la dieta los días previos, pero no especifica que deban ser exactamente 3 días."
+    "claveMemorizar": "Guayaco: dieta 3 días. Inmunológico: sin dieta y más sensible.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-28"
   },
   "182": {
     "respuestaCorrecta": "C",
@@ -24,15 +23,14 @@
   },
   "183": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Un valor negativo de actividad enzimática es fisiológicamente inverosímil y obliga primero a revisar la curva de reacción y las alarmas del analizador para detectar un fallo analítico antes de actuar sobre la muestra o informar.",
+    "porQueLaCorrecta": "Una actividad enzimática negativa es imposible: indica un problema analítico. Lo primero es revisar la curva de reacción y las alarmas, por ejemplo por agotamiento de sustrato si la amilasa es muy alta.",
     "motivosPorOpcion": {
       "Pedir que extraigan un nuevo espécimen.": "Una nueva extracción solo estaría justificada después de descartar problemas de reacción, medición o identificación en el análisis ya realizado.",
       "Informar como resultado < 1 UI/L.": "Convertir un resultado negativo anómalo en un límite informable ocultaría una posible incidencia analítica sin investigarla.",
       "Calibrar y pasar controles a la amilasa.": "La calibración y los controles pueden ser necesarios si la revisión revela un problema sistemático, pero no preceden a comprobar la curva y las alarmas de esa medición."
     },
-    "claveMemorizar": "Resultado imposible: revisar primero curva y alarmas.",
-    "fuente": "Tema 4 F. digestiva, pp. 48 y 50",
-    "advertenciaRevision": "El PDF relaciona amilasa elevada con pancreatitis aguda, pero no describe la actuación técnica ante un resultado negativo ni el orden de revisión del analizador."
+    "claveMemorizar": "Resultado imposible → revisa curva y alarmas antes de nada.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 50"
   },
   "184": {
     "respuestaCorrecta": "A",
@@ -57,15 +55,14 @@
   },
   "186": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La afirmación es incorrecta porque Sudán III tiñe de rojo las gotas de grasa, no de azul. La microscopía con este colorante es una prueba cualitativa para detectar lípidos fecales.",
+    "porQueLaCorrecta": "Es incorrecta porque el Sudán III tiñe los lípidos de rojo-naranja, no de azul. La esteatorrea sí indica malabsorción, se estudia al microscopio y aparece en el tránsito acelerado.",
     "motivosPorOpcion": {
       "Su presencia indica trastornos de malabsorción.": "La esteatorrea refleja una excreción fecal excesiva de grasa y constituye un signo de malabsorción lipídica.",
       "Las muestras de casos sospechosos pueden evaluarse microscópicamente.": "Una suspensión de heces teñida con Sudán III permite observar microscópicamente gotas de grasa.",
       "Se muestra en el tránsito intestinal acelerado.": "Un tránsito acelerado puede reducir el tiempo disponible para digestión y absorción y contribuir a la presencia de nutrientes no absorbidos en heces."
     },
-    "claveMemorizar": "Sudán III tiñe la grasa de rojo, no de azul.",
-    "fuente": "Tema 4 F. digestiva, pp. 32 y 34",
-    "advertenciaRevision": "El PDF vincula explícitamente la esteatorrea con malabsorción y la tinción roja con Sudán III, pero no afirma de forma directa que el tránsito acelerado produzca esteatorrea."
+    "claveMemorizar": "Sudán III = rojo-naranja, nunca azul.",
+    "fuente": "Tema 4 F. digestiva, pp. 32 y 34"
   },
   "187": {
     "respuestaCorrecta": "C",
@@ -80,15 +77,14 @@
   },
   "188": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La afirmación es incorrecta porque Van de Kamer cuantifica grasa fecal, mientras que la elastasa se determina como enzima pancreática en heces. Son pruebas con analitos y objetivos distintos.",
+    "porQueLaCorrecta": "Es incorrecta porque la elastasa I se mide en heces por ELISA. Van de Kamer es una titulación que cuantifica grasa fecal, no enzimas.",
     "motivosPorOpcion": {
       "La prueba es específica para diferenciar las causas pancreáticas de las no pancreáticas en pacientes con esteatorrea.": "Una elastasa fecal disminuida orienta a insuficiencia pancreática exocrina y ayuda a separar ese origen de causas intestinales de esteatorrea.",
       "Es una enzima producida por el páncreas.": "La elastasa forma parte de las enzimas del jugo pancreático y puede detectarse en heces.",
       "Es un indicador muy sensible de la insuficiencia pancreática exocrina.": "La disminución de enzimas pancreáticas fecales es sugerente de insuficiencia exocrina, especialmente cuando esta es grave."
     },
-    "claveMemorizar": "Elastasa evalúa páncreas; Van de Kamer cuantifica grasa.",
-    "fuente": "Tema 4 F. digestiva, pp. 32-33 y 52",
-    "advertenciaRevision": "El PDF respalda el uso de elastasa fecal para función pancreática exocrina, pero no cuantifica su sensibilidad ni declara literalmente su capacidad diferencial en pacientes con esteatorrea."
+    "claveMemorizar": "Elastasa fecal = ELISA. Van de Kamer = grasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 32-33 y 52"
   },
   "189": {
     "respuestaCorrecta": "B",
@@ -103,15 +99,14 @@
   },
   "190": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La falta de llegada de bilis al intestino impide formar pigmentos fecales y origina heces hipocólicas o acólicas, de aspecto claro, blanquecino o grisáceo. En terminología clínica, ese aspecto puede describirse como color arcilla.",
+    "porQueLaCorrecta": "Las heces arcillosas o acólicas aparecen cuando falta bilis en el intestino. El sangrado alto da heces negras (melena), el carbón las oscurece y el color pardo lo da la estercobilina.",
     "motivosPorOpcion": {
       "El sangrado del tracto gastrointestinal superior origina heces de color rojo.": "La sangre procedente del tracto superior suele digerirse y producir melenas negras; el rojo vivo orienta a sangrado distal.",
       "El color verde de las heces puede deberse a la ingesta de carbón vegetal.": "El carbón vegetal se asocia a heces negras, mientras que el verde se relaciona en el temario con verduras o antibióticos.",
       "El color pardo de las heces se debe a la biliverdina.": "La tonalidad parda normal se atribuye a la estercobilina, no a la biliverdina."
     },
-    "claveMemorizar": "Sin bilis: heces claras o acólicas; sangrado alto: negras.",
-    "fuente": "Tema 4 F. digestiva, p. 21",
-    "advertenciaRevision": "Existe una contradicción terminológica interna: el PDF asocia la ausencia de bilis con heces claras, blanquecinas o grisáceas, pero en la misma página denomina 'amarillentas (arcillosas)' a las heces con esteatorrea. La clave C requiere revisión frente a la redacción exacta del temario."
+    "claveMemorizar": "Heces arcilla = sin bilis. Negras = sangrado alto.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
   },
   "191": {
     "respuestaCorrecta": "A",
@@ -137,15 +132,14 @@
   },
   "193": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La D-xilosa se absorbe en la mucosa intestinal proximal y la fracción absorbida se elimina por orina. El protocolo del temario recoge la orina durante las 5-6 horas posteriores a la ingesta.",
+    "porQueLaCorrecta": "En la prueba de la D-xilosa se dan 25 g en ayunas y se recoge la orina de 5 horas. Una excreción baja indica malabsorción de la mucosa intestinal, no pancreática.",
     "motivosPorOpcion": {
       "1 hora.": "A los 60 minutos se obtiene la muestra sanguínea, pero la recogida urinaria continúa durante varias horas.",
       "12 horas.": "El intervalo descrito para la orina es de 5-6 horas, por lo que una recogida de 12 horas no corresponde al protocolo.",
       "24 horas.": "La prueba de D-xilosa no requiere la recogida urinaria de 24 horas indicada en otros estudios de absorción."
     },
-    "claveMemorizar": "D-xilosa: sangre a 60 min y orina durante 5-6 h.",
-    "fuente": "Tema 4 F. digestiva, p. 30",
-    "advertenciaRevision": "El PDF describe una dosis de 10 mg/kg en suspensión al 5 %, no la ingesta fija de 25 g incluida en el enunciado; sí respalda la recogida urinaria de 5-6 horas."
+    "claveMemorizar": "D-xilosa: 25 g, orina de 5 h, valora la mucosa.",
+    "fuente": "Tema 4 F. digestiva, p. 30"
   },
   "194": {
     "respuestaCorrecta": "C",
@@ -204,15 +198,14 @@
   },
   "199": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Los anticuerpos frente a gliadina nativa tienen menor rendimiento diagnóstico que los ensayos actuales y no forman parte del cribado serológico inicial descrito. El temario prioriza antitransglutaminasa IgA junto con IgA total y contempla péptidos de gliadina deaminados, que no equivalen a gliadina nativa.",
+    "porQueLaCorrecta": "Los anticuerpos antigliadina nativa ya no se recomiendan por su baja sensibilidad y especificidad. Hoy se piden antitransglutaminasa IgA con IgA total, y los antiendomisio para confirmar.",
     "motivosPorOpcion": {
       "Los anticuerpos antitransglutaminasa IgA.": "Son la prueba de cribado serológico indicada en pacientes con producción normal de IgA.",
       "Los anticuerpos antiendomisio.": "Los EMA-IgA forman parte de los anticuerpos asociados al diagnóstico de enfermedad celíaca.",
       "La IgA total.": "La IgA total se mide junto con antitransglutaminasa IgA para detectar un déficit que podría causar resultados falsamente negativos."
     },
-    "claveMemorizar": "Cribado celíaco: tTG-IgA + IgA total; no AGA nativa rutinaria.",
-    "fuente": "Tema 4 F. digestiva, p. 42",
-    "advertenciaRevision": "El PDF enumera las pruebas recomendadas y menciona anticuerpos contra péptidos de gliadina deaminados, pero no declara expresamente que la antigliadina nativa no deba solicitarse sistemáticamente."
+    "claveMemorizar": "Celiaquía: antitransglutaminasa IgA + IgA total. Antigliadina nativa, fuera.",
+    "fuente": "Tema 4 F. digestiva, p. 42"
   },
   "200": {
     "respuestaCorrecta": "D",
@@ -227,27 +220,25 @@
   },
   "201": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La inmunoluminiscencia combina el reconocimiento específico de hemoglobina humana por anticuerpos con una señal luminosa generada por luminol y peróxido. Al reconocer la fracción humana de la hemoglobina evita interferencias alimentarias propias de los métodos químicos.",
+    "porQueLaCorrecta": "La inmunoluminiscencia usa anticuerpos monoclonales específicos de la hemoglobina humana y luminol con peróxido para generar luz. Como solo reconoce Hb humana, no necesita dieta previa.",
     "motivosPorOpcion": {
       "Enzimoinmunoanalisis.": "Un enzimoinmunoanálisis genera una señal mediante una enzima marcadora, mientras el enunciado describe específicamente una reacción luminiscente con luminol.",
       "Método tradicional.": "Los métodos químicos tradicionales explotan la actividad seudoperoxidasa del hemo y sí pueden exigir control dietético.",
       "Técnicas inmunoquímicas.": "Es una categoría amplia basada en reacción antígeno-anticuerpo, pero la adición de luminol identifica de forma más concreta la modalidad de inmunoluminiscencia."
     },
-    "claveMemorizar": "Anticuerpo + luminol = inmunoluminiscencia.",
-    "fuente": "Tema 4 F. digestiva, pp. 25-28",
-    "advertenciaRevision": "El PDF explica los métodos químicos e inmunológicos, pero no menciona luminol ni describe una técnica de inmunoluminiscencia; la distinción específica de la respuesta D no queda sustentada directamente."
+    "claveMemorizar": "Luminol + anticuerpo = inmunoluminiscencia, sin dieta.",
+    "fuente": "Tema 4 F. digestiva, pp. 25-28"
   },
   "202": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La galactosa es un monosacárido de seis átomos de carbono, es decir, una aldohexosa. Junto con la glucosa constituye la lactosa.",
+    "porQueLaCorrecta": "La galactosa es un monosacárido de 6 carbonos, una hexosa, como la glucosa. Unidas forman la lactosa, que es un disacárido.",
     "motivosPorOpcion": {
       "Una pentosa.": "Las pentosas contienen cinco carbonos, mientras que la galactosa contiene seis.",
       "Una triosa.": "Las triosas tienen tres carbonos y son intermediarios metabólicos mucho más pequeños que la galactosa.",
       "Un disacárido": "La galactosa es un monosacárido; el disacárido lactosa se forma por glucosa y galactosa."
     },
-    "claveMemorizar": "Galactosa: monosacárido aldohexosa de la lactosa.",
-    "fuente": "Tema 4 F. digestiva, pp. 3 y 36",
-    "advertenciaRevision": "El PDF identifica galactosa como componente de la lactosa y como sustancia reductora, pero no afirma explícitamente que sea una hexosa."
+    "claveMemorizar": "Galactosa = hexosa; glucosa + galactosa = lactosa.",
+    "fuente": "Tema 4 F. digestiva, pp. 3 y 36"
   },
   "203": {
     "respuestaCorrecta": "B",
@@ -383,26 +374,24 @@
   },
   "215": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La galactosa es una aldohexosa, es decir, un monosacárido con seis carbonos. Se combina con glucosa para formar el disacárido lactosa.",
+    "porQueLaCorrecta": "La galactosa es un monosacárido de 6 carbonos, una hexosa, como la glucosa. Unidas forman la lactosa, que es un disacárido.",
     "motivosPorOpcion": {
       "Una pentosa.": "Una pentosa posee cinco carbonos y la galactosa posee seis.",
       "Una triosa.": "Una triosa contiene tres carbonos, por lo que no corresponde a la estructura de la galactosa.",
       "Un disacárido.": "La galactosa es una unidad monosacárida; forma parte de la lactosa, que sí es un disacárido."
     },
-    "claveMemorizar": "Galactosa = aldohexosa; glucosa + galactosa = lactosa.",
-    "fuente": "Tema 4 F. digestiva, pp. 3 y 36",
-    "advertenciaRevision": "El PDF muestra que la galactosa integra la lactosa y la incluye entre las sustancias reductoras, pero no la clasifica explícitamente como hexosa."
+    "claveMemorizar": "Galactosa = hexosa; glucosa + galactosa = lactosa.",
+    "fuente": "Tema 4 F. digestiva, pp. 3 y 36"
   },
   "216": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El páncreas exocrino produce y libera alfa-amilasa para digerir almidón, por lo que es uno de los tejidos con mayor concentración de esta enzima. También existe una isoenzima salival, pero esa localización no figura entre las opciones.",
+    "porQueLaCorrecta": "La alfa-amilasa se produce sobre todo en el páncreas (isoenzima P) y en las glándulas salivares (isoenzima S). De las opciones, el páncreas es el que tiene más concentración.",
     "motivosPorOpcion": {
       "Hígado": "El hígado no es la fuente principal de alfa-amilasa; una hepatopatía puede acompañarse de cambios séricos sin convertirlo en el tejido de mayor concentración.",
       "Músculo": "El músculo se evalúa con enzimas como creatinacinasa y no concentra alfa-amilasa digestiva.",
       "Hueso": "El tejido óseo se asocia a marcadores como fosfatasa alcalina, no a una alta concentración de alfa-amilasa."
     },
-    "claveMemorizar": "Alfa-amilasa: origen pancreático y salival.",
-    "fuente": "Tema 4 F. digestiva, pp. 16-17 y 50",
-    "advertenciaRevision": "El PDF confirma amilasa pancreática y salival, pero no compara cuantitativamente sus concentraciones con hígado, músculo y hueso."
+    "claveMemorizar": "Amilasa: páncreas (P) y saliva (S).",
+    "fuente": "Tema 4 F. digestiva, pp. 16-17 y 50"
   }
 }

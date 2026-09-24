@@ -45,15 +45,14 @@
   },
   "53": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En intercambio catiónico la fase estacionaria retiene especies con carga positiva; a pH alcalino la albúmina presenta una carga negativa intensa y queda poco retenida. Por ello se espera que eluya antes que las globulinas propuestas.",
+    "porQueLaCorrecta": "La cromatografía de intercambio catiónico retiene las proteínas con carga positiva. La albúmina es la más negativa a pH básico, apenas se retiene y es la primera en eluirse.",
     "motivosPorOpcion": {
       "Globulinas alfa-1.": "Su comportamiento de carga permite una retención mayor que la de la albúmina en las condiciones planteadas.",
       "Globulinas alfa-2.": "No son la fracción con menor interacción catiónica entre las opciones y eluyen después de la albúmina.",
       "Beta-globulinas.": "Su movilidad y carga no les confieren la elución inicial frente a la albúmina fuertemente aniónica."
     },
-    "claveMemorizar": "Intercambiador catiónico retiene cationes; la albúmina alcalina es muy negativa.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8",
-    "advertenciaRevision": "El PDF explica la electroforesis y la carga negativa de las proteínas a pH 8,6, pero no describe la cromatografía de intercambio catiónico ni el orden de elución."
+    "claveMemorizar": "Intercambio catiónico: la albúmina (muy negativa) sale primero.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8"
   },
   "54": {
     "respuestaCorrecta": "A",
@@ -68,15 +67,14 @@
   },
   "55": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La alfa-2-macroglobulina no figura en la relación del temario de reactantes positivos ni negativos de fase aguda. Su función destacada es inhibir proteasas, como la plasmina.",
+    "porQueLaCorrecta": "La alfa-2 macroglobulina, un inhibidor de proteasas, no se considera reactante de fase aguda. Alfa-1 antitripsina, alfa-1 glicoproteína ácida y antiquimiotripsina sí suben en la inflamación.",
     "motivosPorOpcion": {
       "Alfa-1 antitripsina.": "Es un reactante positivo y aumenta al activarse la respuesta inflamatoria.",
       "Alfa-1 glicoproteína ácida.": "El orosomucoide está incluido expresamente entre los reactantes positivos.",
       "Antiquimiotripsina.": "La alfa-1-antiquimiotripsina también aparece en la lista de proteínas que aumentan en fase aguda."
     },
-    "claveMemorizar": "Alfa-2-macroglobulina inhibe proteasas, pero no integra la lista de reactantes de fase aguda del temario.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 19",
-    "advertenciaRevision": "El PDF omite la alfa-2-macroglobulina de ambas listas de reactantes, pero no afirma expresamente que su concentración no varíe ante la inflamación."
+    "claveMemorizar": "Alfa-2 macroglobulina: no es reactante de fase aguda.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 10 y 19"
   },
   "56": {
     "respuestaCorrecta": "A",
@@ -91,15 +89,14 @@
   },
   "57": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La bioquímica clínica aplica determinaciones químicas y bioquímicas de laboratorio a la prevención, diagnóstico, seguimiento y tratamiento de enfermedades. Su objeto une la medición analítica con la decisión clínica.",
+    "porQueLaCorrecta": "La bioquímica clínica aplica métodos químicos y bioquímicos de laboratorio al diagnóstico, seguimiento, tratamiento, prevención e investigación de la enfermedad. Es la definición literal de la pregunta.",
     "motivosPorOpcion": {
       "La Fisiopatología": "Estudia los mecanismos funcionales alterados por la enfermedad, pero no designa específicamente la disciplina analítica de laboratorio.",
       "La Patología Molecular": "Se centra en cambios moleculares asociados a enfermedad y no abarca por definición todo el trabajo químico del laboratorio clínico.",
       "La Farmacología": "Analiza fármacos y sus efectos en el organismo, no el conjunto de pruebas bioquímicas para diagnóstico y seguimiento."
     },
-    "claveMemorizar": "Bioquímica clínica: química del laboratorio aplicada a decisiones sanitarias.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 1-2",
-    "advertenciaRevision": "Los dos PDF del Tema 5 desarrollan pruebas bioquímicas, pero no contienen esta definición formal de Bioquímica Clínica."
+    "claveMemorizar": "Bioquímica clínica = química de laboratorio al servicio del diagnóstico.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 1-2"
   },
   "58": {
     "respuestaCorrecta": "A",
@@ -191,15 +188,14 @@
   },
   "66": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El piridoxal es cofactor necesario para medir la actividad de ALT/GPT; su déficit puede disminuirla. Por eso esta situación es la excepción frente a los cuadros propuestos con elevación enzimática.",
+    "porQueLaCorrecta": "La ALT necesita piridoxal fosfato (vitamina B6) como cofactor. Con déficit de piridoxal su actividad medida baja, así que es la excepción. En obesidad, leucemia y preeclampsia suele aumentar.",
     "motivosPorOpcion": {
       "Obesidad": "Puede acompañarse de lesión hepatocelular metabólica y liberación de ALT a sangre.",
       "Leucemia Linfoblástica aguda": "La afectación hepática o el contexto terapéutico pueden elevar transaminasas, por lo que no representa la excepción del banco.",
       "Preclampsia grave": "El daño hepático de formas graves puede producir elevación de transaminasas."
     },
-    "claveMemorizar": "Sin piridoxal puede medirse menos actividad ALT.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 39",
-    "advertenciaRevision": "El PDF confirma que el déficit de piridoxal disminuye la actividad, pero no documenta la elevación de ALT en obesidad, leucemia linfoblástica aguda y preeclampsia grave."
+    "claveMemorizar": "ALT necesita B6: déficit de piridoxal → ALT baja.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 39"
   },
   "67": {
     "respuestaCorrecta": "A",
@@ -368,15 +364,14 @@
   },
   "82": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "En el recién nacido la capacidad hepática de conjugar bilirrubina todavía es inmadura, por lo que puede acumularse fracción indirecta. Este mecanismo explica la ictericia neonatal fisiológica más frecuente.",
+    "porQueLaCorrecta": "En el recién nacido la glucuronil transferasa hepática es inmadura, así que conjuga mal la bilirrubina y se acumula la indirecta. Es la ictericia fisiológica del neonato.",
     "motivosPorOpcion": {
       "Obstrucción de la vía biliar intrahepática.": "Una obstrucción produciría un patrón patológico con retención predominante de bilirrubina conjugada.",
       "Aumento de la producción de bilirrubina.": "Puede contribuir a la carga neonatal, pero el banco identifica como causa principal la conjugación hepática inmadura.",
       "Todas son falsas.": "La inmadurez de conjugación ofrece un mecanismo válido y coherente con hiperbilirrubinemia indirecta."
     },
-    "claveMemorizar": "Ictericia fisiológica neonatal: conjugación hepática inmadura.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31",
-    "advertenciaRevision": "El PDF indica que la ictericia del recién nacido es frecuente y relaciona la conjugación ineficiente con bilirrubina indirecta, pero no atribuye de forma explícita el cuadro neonatal a inmadurez del sistema."
+    "claveMemorizar": "Ictericia neonatal = conjugación inmadura, bilirrubina indirecta.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31"
   },
   "83": {
     "respuestaCorrecta": "C",
@@ -501,27 +496,25 @@
   },
   "94": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La hipocolia o acolia aparece cuando llega poca o ninguna bilis al intestino, de modo que faltan pigmentos que coloreen las heces. El banco la asocia tanto a obstrucción como a determinados cuadros hepatíticos.",
+    "porQueLaCorrecta": "La acolia aparece cuando no llega bilis al intestino: en ictericias obstructivas y en hepatitis con colestasis. En la hemólisis llega más bilirrubina, así que las heces son más oscuras (hipercolia).",
     "motivosPorOpcion": {
       "Ictericias por hemólisis": "En la hemólisis aumenta la producción de bilirrubina y urobilinógeno; no se bloquea primariamente la llegada de bilis al intestino.",
       "Ictericias obstructivas": "La obstrucción sí puede causar heces pálidas, pero el banco considera además la opción de hepatitis.",
       "Hepatitis": "Una alteración hepatocelular grave puede reducir la excreción biliar, aunque esta opción aislada no recoge la causa obstructiva."
     },
-    "claveMemorizar": "Heces sin color indican poca bilis o pigmento biliar intestinal.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31 y 44",
-    "advertenciaRevision": "El PDF permite relacionar la obstrucción con menor llegada de bilis y menciona heces poco coloreadas en cirrosis, pero no afirma que acolia/hipocolia sea propia de la hepatitis; la clave combinada D requiere revisión."
+    "claveMemorizar": "Acolia: obstrucción o hepatitis. Hemólisis: heces oscuras.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31 y 44"
   },
   "95": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La enfermedad celíaca puede asociarse a fosfatasa alcalina baja en contextos de malabsorción y déficit nutricional. Se diferencia de procesos con aumento por actividad ósea o colestasis.",
+    "porQueLaCorrecta": "La fosfatasa alcalina baja por malnutrición y déficit de zinc o magnesio, como en la celiaquía. Paget, cirrosis biliar e hiperparatiroidismo la elevan (hueso o colestasis).",
     "motivosPorOpcion": {
       "Enfermedad de Paget": "El remodelado óseo intenso aumenta la actividad de la isoenzima ósea de ALP.",
       "Cirrosis biliar": "La afectación colestásica eleva ALP por lesión u obstrucción canalicular.",
       "Hiperparatiroidismo primario": "El recambio óseo estimulado puede aumentar ALP en vez de disminuirla."
     },
-    "claveMemorizar": "ALP baja puede acompañar malabsorción; ALP alta aparece en hueso activo y colestasis.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35-37 y 41",
-    "advertenciaRevision": "El PDF explica las elevaciones óseas y colestásicas de ALP, pero no documenta su disminución en enfermedad celíaca."
+    "claveMemorizar": "FA baja: malnutrición (celiaquía). Paget y colestasis la suben.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35-37 y 41"
   },
   "96": {
     "respuestaCorrecta": "D",

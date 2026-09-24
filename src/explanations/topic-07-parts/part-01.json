@@ -1,15 +1,14 @@
 {
   "1": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El tiempo de retención mide cuánto tarda un compuesto desde que se introduce en el sistema hasta que alcanza el detector. Depende de su reparto entre la fase móvil y la fase estacionaria.",
+    "porQueLaCorrecta": "El tiempo de retención es lo que tarda una sustancia desde que se inyecta hasta que sale de la columna y llega al detector. Es característico de cada compuesto y sirve para identificarlo.",
     "motivosPorOpcion": {
       "Tiempo de reacción": "Describe la duración de una transformación química, no el desplazamiento de un analito por una columna.",
       "Tiempo de latencia": "Es un término general para un retraso, pero no el parámetro cromatográfico definido para identificar la salida de un compuesto.",
       "Tiempo de intercambio": "El intercambio puede ser un mecanismo de separación, aunque no da nombre al tiempo de elución observado."
     },
-    "claveMemorizar": "Retención = tiempo desde la inyección hasta el pico del analito.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 68",
-    "advertenciaRevision": "La página citada presenta los parámetros cromatográficos; conviene cotejar la numeración si se sustituye la edición del PDF."
+    "claveMemorizar": "Tiempo de retención = identifica el compuesto.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 68"
   },
   "2": {
     "respuestaCorrecta": "D",
@@ -156,15 +155,14 @@
   },
   "15": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El número de platos teóricos expresa cuánto se ensancha una banda durante su paso por la columna. Una columna más eficiente genera picos más estrechos y un número de platos mayor.",
+    "porQueLaCorrecta": "La eficacia de una columna se mide con el número de platos teóricos: cuantos más platos, picos más estrechos y mejor separación. La resolución mide la separación entre dos picos concretos.",
     "motivosPorOpcion": {
       "Factor de retención entre la fase móvil y la estacionaria": "Describe cuánto se retiene un analito, pero no cuantifica directamente el ensanchamiento de su banda.",
       "Resolución": "Mide la separación conseguida entre dos picos y depende también de selectividad y retención.",
       "Cociente entre tiempos de retención": "Comparar tiempos puede informar de retención relativa, pero omite la anchura de los picos necesaria para evaluar eficiencia."
     },
-    "claveMemorizar": "Eficiencia de columna = número de platos teóricos.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 70-71",
-    "advertenciaRevision": "El concepto se localiza en el bloque de cromatografía del PDF; revisar la paginación si cambia la versión del documento."
+    "claveMemorizar": "Eficacia = platos teóricos. Separar dos picos = resolución.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 70-71"
   },
   "16": {
     "respuestaCorrecta": "D",
@@ -223,27 +221,25 @@
   },
   "21": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El esquema básico de HPLC incluye depósitos de fase móvil, bomba, sistema de inyección, columna y detector. Un horno no es imprescindible para que el cromatógrafo líquido funcione.",
+    "porQueLaCorrecta": "Los componentes básicos de un HPLC son el reservorio de fase móvil, la bomba, el inyector, la columna y el detector. El horno es opcional; el horno imprescindible es el de la cromatografía de gases.",
     "motivosPorOpcion": {
       "Reservorio de la fase móvil.": "Almacena los disolventes que la bomba hará circular por el sistema.",
       "Bomba impulsora.": "Genera el caudal a alta presión necesario para atravesar el relleno de la columna.",
       "Detector.": "Registra los analitos cuando eluyen y convierte su presencia en una señal cromatográfica."
     },
-    "claveMemorizar": "HPLC básico: reservorio, bomba, inyector, columna y detector.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 73-74",
-    "advertenciaRevision": "Muchos equipos HPLC actuales sí incorporan un compartimento u horno termostatizado para la columna; la respuesta solo es defendible si se pregunta por componentes básicos imprescindibles."
+    "claveMemorizar": "HPLC: reservorio, bomba, inyector, columna, detector.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 73-74"
   },
   "22": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Los rayos gamma tienen frecuencia y energía muy altas y longitud de onda muy corta. Por ello no pueden clasificarse como las radiaciones menos energéticas.",
+    "porQueLaCorrecta": "Es incorrecta porque los rayos gamma son las radiaciones más energéticas (menor longitud de onda y mayor frecuencia). Las menos energéticas son las ondas de radio.",
     "motivosPorOpcion": {
       "Las radiaciones más energéticas son las de menor longitud de onda y mayor frecuencia.": "La energía del fotón aumenta con la frecuencia y disminuye al crecer la longitud de onda.",
       "Las radiaciones más energéticas son capaces de inducir en la materia transformándose en nucleares.": "Aunque la redacción es defectuosa, alude a que las radiaciones de energía extrema pueden provocar procesos nucleares.",
       "La fluorescencia es un fenómeno de emisión atómica.": "La fluorescencia estudiada en el temario se presenta como emisión molecular, de modo que esta frase tampoco es correcta en sentido general."
     },
-    "claveMemorizar": "Gamma: λ mínima, frecuencia y energía máximas.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 2-5 y 27-32",
-    "advertenciaRevision": "El ítem tiene dos afirmaciones problemáticas: C es inequívocamente falsa, pero D también contradice la clasificación de la fluorescencia como emisión molecular."
+    "claveMemorizar": "Gamma = máxima energía. Radio = mínima.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 2-5 y 27-32"
   },
   "23": {
     "respuestaCorrecta": "C",
@@ -269,15 +265,14 @@
   },
   "25": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La resolución cromatográfica relaciona la distancia entre los máximos de dos picos con sus anchuras. Indica si ambos componentes pueden distinguirse y cuantificarse por separado.",
+    "porQueLaCorrecta": "La resolución mide la capacidad de separar dos picos: relaciona la distancia entre sus máximos con su anchura. Una resolución de 1,5 o más indica picos bien separados.",
     "motivosPorOpcion": {
       "El tiempo de retención.": "Ubica un pico en el cromatograma, pero un tiempo aislado no informa de cuánto se solapa con otro.",
       "Los platos teóricos.": "Cuantifican la eficiencia y el ensanchamiento de un pico individual, no la separación final de una pareja por sí solos.",
       "Ninguna de las anteriores es correcta.": "Sí existe un parámetro específico entre las opciones: la resolución."
     },
-    "claveMemorizar": "Separación entre dos picos = resolución.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 70-71",
-    "advertenciaRevision": "La fuente pertenece al bloque cromatográfico; confirmar la página si se actualiza el PDF."
+    "claveMemorizar": "Resolución: separación de dos picos (≥ 1,5 = completa).",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 70-71"
   },
   "26": {
     "respuestaCorrecta": "C",
@@ -292,15 +287,14 @@
   },
   "27": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En la pesada por sustitución se determina la masa transferida a partir de la diferencia entre pesadas del recipiente antes y después de retirar la sustancia. El método de Borda se encuadra en este procedimiento.",
+    "porQueLaCorrecta": "El método de Borda es una doble pesada por sustitución: se equilibra el objeto con una tara y después se sustituye por pesas conocidas. Así se anula el error de los brazos desiguales de la balanza.",
     "motivosPorOpcion": {
       "Un método de pesada directa": "La pesada directa obtiene la masa colocando el objeto sobre la balanza, sin calcular la cantidad retirada de un recipiente.",
       "Un método de doble pesada": "La doble pesada es una estrategia metrológica diferente y no define la transferencia por diferencia atribuida a Borda.",
       "Ninguna es correcta": "La pesada por sustitución sí aparece entre las alternativas y corresponde a la clasificación solicitada."
     },
-    "claveMemorizar": "Borda = pesada por sustitución, calculada por diferencia.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 7",
-    "advertenciaRevision": "No se recuperó una mención textual inequívoca al nombre «método Borda» durante la extracción; revisar esta asociación en el PDF original."
+    "claveMemorizar": "Borda = pesada por sustitución.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 7"
   },
   "28": {
     "respuestaCorrecta": "C",
@@ -337,15 +331,14 @@
   },
   "31": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Los solutos disminuyen el punto de congelación del agua en proporción al número total de partículas osmóticamente activas. El osmómetro obtiene la osmolalidad midiendo ese descenso crioscópico.",
+    "porQueLaCorrecta": "El osmómetro de congelación mide el descenso del punto de congelación de la muestra, que es proporcional al número de partículas disueltas (osmolalidad).",
     "motivosPorOpcion": {
       "Isoelectroenfoque": "Separa moléculas anfóteras en un gradiente de pH hasta alcanzar su punto isoeléctrico.",
       "Electrodo diferencial": "Mide diferencias de potencial o actividad iónica, no el conjunto de partículas osmóticamente activas por crioscopía.",
       "Cromatografía HPLC": "Separa componentes por su interacción con fases móvil y estacionaria, no determina directamente la osmolalidad."
     },
-    "claveMemorizar": "Osmómetro clínico: descenso del punto de congelación.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 13",
-    "advertenciaRevision": "La extracción realizada no mostró de forma inequívoca el apartado de osmometría; comprobar en el PDF la página exacta y el principio crioscópico."
+    "claveMemorizar": "Osmómetro: descenso del punto de congelación.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 13"
   },
   "32": {
     "respuestaCorrecta": "C",
@@ -371,15 +364,14 @@
   },
   "34": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Los objetivos se distinguen por su aumento y por parámetros ópticos ligados a su distancia focal. Una distancia focal menor permite que el objetivo forme una imagen con mayor ampliación.",
+    "porQueLaCorrecta": "Los objetivos se clasifican por su distancia focal (y por su aumento): a menor distancia focal, mayor aumento. Por ejemplo: 10x seco, 40x seco y 100x de inmersión.",
     "motivosPorOpcion": {
       "El ocular.": "El ocular aporta una ampliación adicional, pero la clasificación por distancia focal señalada se aplica al conjunto de objetivos intercambiables.",
       "El condensador.": "Se caracteriza por concentrar y regular la iluminación, no por ser la serie de lentes que selecciona el aumento de observación.",
       "La fuente de luz.": "Se clasifica por su tipo de emisión y región espectral, no por una distancia focal."
     },
-    "claveMemorizar": "Objetivo: menor focal, mayor aumento.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18",
-    "advertenciaRevision": "El PDF describe los objetivos y sus aumentos, pero la extracción no mostró literalmente una clasificación «según su distancia focal»."
+    "claveMemorizar": "Objetivo: menor distancia focal = más aumento.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17-18"
   },
   "35": {
     "respuestaCorrecta": "D",
@@ -394,15 +386,14 @@
   },
   "36": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La cromatografía de interacción hidrófoba separa proteínas por diferencias en las zonas apolares expuestas en su superficie. Las proteínas más hidrófobas interactúan con mayor intensidad con la fase estacionaria.",
+    "porQueLaCorrecta": "La cromatografía de interacción hidrofóbica separa las proteínas según su polaridad, es decir, según las zonas apolares de su superficie. El intercambio iónico separa por carga y la afinidad, por unión específica.",
     "motivosPorOpcion": {
       "Disminución de la solubilidad.": "La precipitación puede fraccionar proteínas, pero es una separación global por solubilidad y no una cromatografía selectiva de polaridad superficial.",
       "Cromatografía de intercambio de iones.": "Separa principalmente según la carga neta y la interacción electrostática con la matriz.",
       "Cromatografía de afinidad.": "Utiliza reconocimiento específico entre una proteína y un ligando, no la polaridad como criterio general."
     },
-    "claveMemorizar": "Polaridad/hidrofobicidad → cromatografía de interacción hidrófoba.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 76-77",
-    "advertenciaRevision": "La página corresponde al bloque de tipos cromatográficos; revisar la paginación si cambia la edición."
+    "claveMemorizar": "Polaridad → interacción hidrofóbica. Carga → intercambio iónico.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 76-77"
   },
   "37": {
     "respuestaCorrecta": "B",
@@ -461,27 +452,25 @@
   },
   "42": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Magnético, de bandeja y orbital designan mecanismos reales de agitación de laboratorio. Por tanto, ninguno de los tres debe excluirse.",
+    "porQueLaCorrecta": "Todos son agitadores de laboratorio: el magnético (con imán), el de bandeja o balanceo y el orbital (movimiento circular).",
     "motivosPorOpcion": {
       "Magnético.": "Hace girar una barra imantada dentro del recipiente mediante un campo magnético rotatorio.",
       "De bandeja.": "Mueve una plataforma donde se fijan varios recipientes y permite su agitación conjunta.",
       "Orbital.": "Desplaza la plataforma en una trayectoria circular para mezclar líquidos de manera uniforme."
     },
-    "claveMemorizar": "Agitadores: magnético, bandeja y orbital son tipos válidos.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 9",
-    "advertenciaRevision": "La extracción no recuperó el listado completo de agitadores; confirmar los tres nombres en la página indicada."
+    "claveMemorizar": "Agitadores: magnético, de bandeja, orbital.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 9"
   },
   "43": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El motor transmite el giro mediante un eje al rotor o cabezal que sostiene los tubos. Los tres son elementos estructurales necesarios del conjunto centrífugo.",
+    "porQueLaCorrecta": "Todos son correctos: una centrífuga tiene un motor que hace girar un eje, y este mueve el rotor o cabezal donde se colocan los tubos.",
     "motivosPorOpcion": {
       "Rotor o Cabezal.": "Aloja los recipientes y gira con ellos, pero es solo uno de los componentes enumerados.",
       "Eje de centrifuga.": "Conecta el accionamiento con el rotor y transmite el movimiento, sin constituir por sí solo el equipo.",
       "Motor.": "Aporta la energía mecánica, pero necesita eje y rotor para aplicar la aceleración a las muestras."
     },
-    "claveMemorizar": "Centrífuga: motor → eje → rotor.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 60-61",
-    "advertenciaRevision": "La extracción no mostró directamente el esquema de componentes; revisar la paginación del bloque de centrifugación."
+    "claveMemorizar": "Centrífuga: motor + eje + rotor.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 60-61"
   },
   "44": {
     "respuestaCorrecta": "D",
@@ -496,15 +485,14 @@
   },
   "45": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La electroforesis capilar automatiza la inyección y separación de volúmenes pequeños bajo campos eléctricos elevados. Las fracciones se detectan directamente por absorbancia UV, por lo que no requieren la tinción de un soporte sólido.",
+    "porQueLaCorrecta": "La electroforesis capilar no usa colorantes: las fracciones se detectan directamente por absorbancia ultravioleta. Sí usa voltaje elevado y está automatizada con volúmenes mínimos.",
     "motivosPorOpcion": {
       "Automatización total y volúmenes muy reducidos de muestra": "Son ventajas características del formato capilar y reducen manipulación y consumo de muestra.",
       "Un elevado voltaje": "El capilar permite aplicar campos altos y disipar con eficacia el calor generado.",
       "Medida de fracciones por espectrofotometría directa en la zona ultravioleta": "La ventana óptica del capilar posibilita registrar las zonas separadas sin una tinción posterior."
     },
-    "claveMemorizar": "Capilar: alto voltaje, poca muestra, detección UV y sin tinción.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 55-56",
-    "advertenciaRevision": "La página se asigna al apartado de electroforesis capilar; verificarla si el PDF se repagina."
+    "claveMemorizar": "Electroforesis capilar: sin tinción, detección UV.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 55-56"
   },
   "46": {
     "respuestaCorrecta": "C",

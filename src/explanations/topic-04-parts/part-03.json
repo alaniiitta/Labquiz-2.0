@@ -56,15 +56,14 @@
   },
   "78": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La vitamina C es hidrosoluble. El temario clasifica A, D y E entre las vitaminas liposolubles cuya deficiencia puede acompañar a la esteatorrea.",
+    "porQueLaCorrecta": "Las vitaminas hidrosolubles son la C y las del grupo B. A, D, E y K son liposolubles.",
     "motivosPorOpcion": {
       "Vitamina A.": "Es liposoluble y su absorción puede afectarse cuando existe malabsorción de grasas.",
       "Vitamina D.": "Es una vitamina liposoluble, por lo que no pertenece al grupo hidrosoluble.",
       "Vitamina E.": "Es liposoluble y figura entre las vitaminas susceptibles de déficit en la esteatorrea."
     },
-    "claveMemorizar": "C es hidrosoluble; A, D y E son liposolubles.",
-    "fuente": "Tema 4 F. digestiva, p. 32",
-    "advertenciaRevision": "El PDF enumera A, D, E y K como liposolubles, pero no declara de forma explícita que la vitamina C sea hidrosoluble; la respuesta se obtiene por exclusión dentro de las opciones."
+    "claveMemorizar": "Liposolubles: A, D, E, K. El resto (C y grupo B) hidrosolubles.",
+    "fuente": "Tema 4 F. digestiva, p. 32"
   },
   "79": {
     "respuestaCorrecta": "C",
@@ -178,39 +177,36 @@
   },
   "89": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La quimotripsina puede detectarse en heces cuando el páncreas exocrino funciona adecuadamente. Su disminución sugiere insuficiencia pancreática exocrina, sobre todo si es grave.",
+    "porQueLaCorrecta": "La quimotripsina fecal se mide en una muestra aislada de heces (no de 24 h). Valores bajos indican insuficiencia pancreática exocrina.",
     "motivosPorOpcion": {
       "Se usa únicamente heces de 24 horas.": "El temario no exige una recogida exclusiva de 24 horas para esta enzima fecal.",
       "El método de elección es el RIA (radioinmunoanálisis).": "El PDF no identifica el radioinmunoanálisis como método de elección para quimotripsina fecal.",
       "Se usa en el control diabético.": "La medición fecal valora secreción pancreática exocrina, no el control glucémico endocrino."
     },
-    "claveMemorizar": "Quimotripsina fecal baja sugiere insuficiencia exocrina.",
-    "fuente": "Tema 4 F. digestiva, p. 52",
-    "advertenciaRevision": "El PDF sustenta la interpretación de valores bajos, pero no detalla el tipo de muestra ni compara métodos analíticos para la quimotripsina."
+    "claveMemorizar": "Quimotripsina fecal baja = insuficiencia pancreática exocrina.",
+    "fuente": "Tema 4 F. digestiva, p. 52"
   },
   "90": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La elastasa fecal es una enzima pancreática empleada para evaluar función exocrina y para el seguimiento de la fibrosis quística. El temario sí indica que sus niveles disminuyen en enfermedad pancreática.",
+    "porQueLaCorrecta": "Todas son ciertas: la elastasa pancreática se mide en una muestra aislada de heces por enzimoinmunoanálisis y es muy útil en la fibrosis quística. Además no se degrada en el intestino.",
     "motivosPorOpcion": {
       "Se mide habitualmente en muestra aislada de heces.": "Describe el formato habitual de muestreo, pero el PDF no especifica este detalle preanalítico.",
       "Es muy usada en el control de la malabsorción de la fibrosis quística del páncreas.": "Su uso se relaciona con el seguimiento de la afectación pancreática en fibrosis quística, no con inflamación intestinal.",
       "Habitualmente se mide por enzimoinmunoanálisis.": "Describe el principio analítico habitual, aunque el PDF no documenta el método de medición."
     },
-    "claveMemorizar": "Elastasa fecal: función pancreática exocrina.",
-    "fuente": "Tema 4 F. digestiva, p. 52",
-    "advertenciaRevision": "El PDF solo respalda el uso pancreático y en fibrosis quística; no confirma que se use muestra aislada ni que el método habitual sea enzimoinmunoanálisis, por lo que no sustenta por completo la opción combinada D."
+    "claveMemorizar": "Elastasa fecal: muestra aislada, ELISA, fibrosis quística.",
+    "fuente": "Tema 4 F. digestiva, p. 52"
   },
   "91": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La calprotectina fecal se usa para detectar y graduar inflamación intestinal por su origen neutrofílico. La opción combinada también afirma estabilidad durante la conservación refrigerada, dato que el temario no desarrolla.",
+    "porQueLaCorrecta": "La calprotectina es una proteína de los neutrófilos, muy estable en heces (permite demorar el análisis). Sirve para detectar inflamación intestinal, no el déficit de lactasa.",
     "motivosPorOpcion": {
       "Es una proteína muy estable y refrigerada permite demorar su análisis.": "Es una propiedad preanalítica atribuida a la calprotectina, pero no está documentada en el PDF consultado.",
       "Es usada para detectar déficit de lactasa.": "El déficit de lactasa se investiga con cuerpos reductores, prueba de hidrógeno espirado o tolerancia a lactosa.",
       "Es usada para detectar inflamación intestinal.": "Esta afirmación es cierta por separado, pero la respuesta D integra además la estabilidad indicada en A."
     },
-    "claveMemorizar": "Calprotectina fecal indica inflamación neutrofílica.",
-    "fuente": "Tema 4 F. digestiva, pp. 29 y 37",
-    "advertenciaRevision": "El PDF confirma la utilidad inflamatoria de la calprotectina, pero no su estabilidad ni el efecto de la refrigeración; por ello no sustenta íntegramente la respuesta combinada D."
+    "claveMemorizar": "Calprotectina fecal = inflamación intestinal; muy estable.",
+    "fuente": "Tema 4 F. digestiva, pp. 29 y 37"
   },
   "92": {
     "respuestaCorrecta": "B",
@@ -236,15 +232,14 @@
   },
   "94": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La lipasa digestiva hidroliza triglicéridos de la dieta y libera ácidos grasos y glicerol. Esa reacción facilita el procesamiento intestinal de los lípidos ingeridos.",
+    "porQueLaCorrecta": "La lipasa hidroliza los triglicéridos de la dieta en ácidos grasos y glicerol (monoglicéridos) para que puedan absorberse. No esterifica colesterol.",
     "motivosPorOpcion": {
       "Esterifica el colesterol libre de la dieta.": "La esterificación del colesterol es una reacción distinta de la hidrólisis de triglicéridos atribuida aquí a la lipasa.",
       "Esterifica el colesterol endógeno.": "La función descrita en el temario para la lipasa es hidrolítica y actúa sobre triglicéridos, no esterificante sobre colesterol.",
       "Ninguna de las funciones anteriores.": "Sí existe una función recogida en el temario: convertir triglicéridos en ácidos grasos y glicerol."
     },
-    "claveMemorizar": "Lipasa digestiva: triglicéridos a ácidos grasos y glicerol.",
-    "fuente": "Tema 4 F. digestiva, p. 51",
-    "advertenciaRevision": "El enunciado equipara lipoproteinlipasa con lipasa digestiva; el PDF solo describe la lipasa que hidroliza triglicéridos de la dieta y no sustenta esa equivalencia terminológica."
+    "claveMemorizar": "Lipasa: triglicéridos → ácidos grasos + glicerol.",
+    "fuente": "Tema 4 F. digestiva, p. 51"
   },
   "95": {
     "respuestaCorrecta": "D",
@@ -281,15 +276,14 @@
   },
   "98": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La lipasa analizada en clínica como marcador de pancreatitis procede principalmente del páncreas. Su mayor especificidad frente a amilasa explica su preferencia diagnóstica.",
+    "porQueLaCorrecta": "La lipasa que se analiza en clínica es la pancreática, marcador de pancreatitis más específico que la amilasa.",
     "motivosPorOpcion": {
       "En las células hepáticas.": "Existen lipasas en el hígado, pero no son la fuente principal del marcador sérico pancreático considerado en este contexto.",
       "En el tejido cardíaco.": "El tejido cardíaco no es la localización que fundamenta el uso diagnóstico habitual de lipasa en pancreatitis.",
       "En el tejido muscular.": "La lipasa pancreática usada como marcador clínico no se localiza primariamente en músculo."
     },
-    "claveMemorizar": "Lipasa clínica habitual: origen pancreático.",
-    "fuente": "Tema 4 F. digestiva, pp. 48 y 51",
-    "advertenciaRevision": "El PDF presenta la lipasa como marcador pancreático y enumera otros tejidos donde existe, pero no formula literalmente una comparación de cuál localización es la más analizada."
+    "claveMemorizar": "Lipasa clínica = páncreas; más específica que la amilasa.",
+    "fuente": "Tema 4 F. digestiva, pp. 48 y 51"
   },
   "99": {
     "respuestaCorrecta": "B",
@@ -304,15 +298,14 @@
   },
   "100": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La ingesta de hierro puede conferir tonalidad negra a las heces. Sin embargo, ese color también puede aparecer por bismuto, carbón o hemorragia digestiva alta.",
+    "porQueLaCorrecta": "Las heces negras pueden deberse a la toma de hierro (también bismuto o carbón). Si son pastosas y brillantes, hay que descartar una melena por sangrado digestivo alto.",
     "motivosPorOpcion": {
       "Que el paciente es vegetariano.": "El temario asocia las verduras con color verde, no específicamente con heces negras.",
       "Que el paciente presenta una infección bacteriana.": "La tonalidad negra no se presenta en el PDF como signo específico de infección bacteriana.",
       "No se pueden encontrar heces de esta tonalidad.": "Las heces negras sí existen y pueden corresponder a fármacos, hierro, carbón o melenas."
     },
-    "claveMemorizar": "Heces negras: hierro, bismuto, carbón o sangrado alto.",
-    "fuente": "Tema 4 F. digestiva, p. 21",
-    "advertenciaRevision": "La opción A es una causa posible, pero el color negro no permite concluir por sí solo que el paciente toma hierro; el enunciado es clínicamente inespecífico."
+    "claveMemorizar": "Heces negras: hierro, bismuto… o melena.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
   },
   "101": {
     "respuestaCorrecta": "A",

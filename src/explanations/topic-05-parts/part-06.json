@@ -1,15 +1,14 @@
 {
   "241": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El VHB es un virus de ADN perteneciente a la familia Hepadnavirus. Esta combinación de genoma y familia coincide literalmente con el temario.",
+    "porQueLaCorrecta": "El VHB es el único virus de ADN de las hepatitis y pertenece a los Hepadnavirus. Según la clave oficial, A y C no valen por errores en el nombre de la familia («Picarnavirus», «flavivilidae»).",
     "motivosPorOpcion": {
       "El virus de la hepatitis A es un virus ARN y pertenece a la familia de los Picarnavirus.": "El VHA sí es de ARN, pero el temario denomina a su familia Picornavirus, no «Picarnavirus».",
       "El virus de la hepatitis C es un virus ARN y pertenece a la familia de los flavivilidae.": "El VHC sí es de ARN, pero la denominación escrita «flavivilidae» no coincide con Flavivirus/Flaviviridae.",
       "Todas son correctas.": "No todas son literalmente correctas porque A y C contienen denominaciones taxonómicas erróneas."
     },
-    "claveMemorizar": "VHB: ADN y Hepadnavirus; VHA y VHC: ARN.",
-    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 2-5",
-    "advertenciaRevision": "La clave B depende de interpretar literalmente las erratas «Picarnavirus» y «flavivilidae»; corregidas esas erratas, A y C también expresarían conceptos respaldados por el PDF."
+    "claveMemorizar": "VHB = ADN, Hepadnavirus. Los demás virus de hepatitis son ARN.",
+    "fuente": "Tema 5.2. Enfermedades víricas hepáticas v2.pdf, pp. 2-5"
   },
   "242": {
     "respuestaCorrecta": "D",
@@ -24,15 +23,14 @@
   },
   "243": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La albúmina constituye una banda propia y las inmunoglobulinas forman el componente principal de la región gamma. Ambas se reconocen en el patrón electroforético sérico.",
+    "porQueLaCorrecta": "El proteinograma separa albúmina, alfa-1, alfa-2, beta y gamma. La albúmina forma su propia banda y las inmunoglobulinas forman la zona gamma; las demás proteínas no se ven como banda propia.",
     "motivosPorOpcion": {
       "La transferrina.": "La transferrina contribuye a la fracción beta, pero el proteinograma básico informa fracciones y no identifica por sí solo esta proteína individual.",
       "La ceruloplasmina.": "La ceruloplasmina migra dentro de alfa-2 y no suele distinguirse como banda individual en el patrón básico.",
       "La ferritina.": "La ferritina no figura entre las bandas electroforéticas principales del proteinograma descrito."
     },
-    "claveMemorizar": "Proteinograma: albúmina, alfa-1, alfa-2, beta y gamma; Ig predominan en gamma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7 y 10",
-    "advertenciaRevision": "El PDF también sitúa transferrina y ceruloplasmina dentro de fracciones del proteinograma; la pregunta solo es inequívoca si «se observa» significa una banda o componente claramente reconocible."
+    "claveMemorizar": "Proteinograma: albúmina + globulinas (gamma = inmunoglobulinas).",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7 y 10"
   },
   "244": {
     "respuestaCorrecta": "C",
@@ -46,15 +44,14 @@
   },
   "245": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La GGT se eleva en alteraciones hepatobiliares, alcoholismo y por inducción farmacológica, pero no en patología ósea. Esto ayuda a distinguir un origen hepático de una elevación de fosfatasa alcalina.",
+    "porQueLaCorrecta": "La GGT no está en el hueso, por eso no sube en la patología ósea. Aumenta en la enfermedad hepatobiliar, el alcohol y los fármacos inductores, y también puede subir en insuficiencia renal o EPOC.",
     "motivosPorOpcion": {
       "Enfermedad hepática.": "La GGT se localiza en el sistema hepatobiliar y aumenta en daño canalicular o colestasis.",
       "Insuficiencia renal.": "La GGT también está presente en riñón, por lo que esta opción no ofrece la exclusión característica de la patología ósea.",
       "EPOC.": "La EPOC puede coexistir con inducción enzimática u otras alteraciones; no es la excepción diagnóstica específica señalada por el temario."
     },
-    "claveMemorizar": "ALP ósea puede subir; GGT no sube por patología ósea.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 37",
-    "advertenciaRevision": "El PDF afirma explícitamente que la GGT no aumenta en patología ósea, pero no documenta de forma directa su aumento en EPOC o insuficiencia renal."
+    "claveMemorizar": "FA alta + GGT normal → origen óseo.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 37"
   },
   "246": {
     "respuestaCorrecta": "B",
@@ -224,25 +221,23 @@
   },
   "261": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En hepatopatías crónicas como la cirrosis puede observarse aumento policlonal de gammaglobulinas junto con descenso de albúmina. Este patrón refleja activación inmunitaria y pérdida de capacidad sintética.",
+    "porQueLaCorrecta": "En las hepatopatías crónicas (cirrosis) las gammaglobulinas aumentan de forma policlonal, mientras baja la albúmina. Puede verse el puente beta-gamma.",
     "motivosPorOpcion": {
       "Disminuidas.": "El patrón clásico descrito para cirrosis muestra hipergammaglobulinemia, no una reducción global de la fracción gamma.",
       "No se alteran.": "Las gammaglobulinas sí pueden modificar el proteinograma en hepatopatía crónica."
     },
-    "claveMemorizar": "Cirrosis: gamma aumentada y albúmina disminuida.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 43",
-    "advertenciaRevision": "El PDF respalda el aumento en cirrosis, pero «enfermedad hepática» es una categoría demasiado amplia para afirmar que siempre aumentan."
+    "claveMemorizar": "Hepatopatía: gammaglobulinas ↑, albúmina ↓.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 43"
   },
   "262": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La enfermedad de Wilson se debe a una alteración de ATP7B que provoca acumulación de cobre, sobre todo en hígado y cerebro. El cobre es, por tanto, el analito característico.",
+    "porQueLaCorrecta": "En la enfermedad de Wilson, un defecto del gen ATP7B impide eliminar el cobre por la bilis. El cobre se acumula en hígado, cerebro y córnea (anillo de Kayser-Fleischer) y sube en orina.",
     "motivosPorOpcion": {
       "Hierro.": "La acumulación de hierro caracteriza la hemocromatosis, no la enfermedad de Wilson.",
       "Bilirubina.": "La bilirrubina puede aumentar si existe lesión hepática, pero no define el defecto metabólico de Wilson."
     },
-    "claveMemorizar": "Wilson = ATP7B y acumulación de cobre.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 17",
-    "advertenciaRevision": "El PDF describe aumento del cobre corporal y recomienda cobre hepático; el cobre sérico total no necesariamente está elevado porque puede disminuir la ceruloplasmina."
+    "claveMemorizar": "Wilson = acúmulo de cobre.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 17"
   },
   "263": {
     "respuestaCorrecta": "B",
@@ -257,15 +252,14 @@
   },
   "264": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La hepatitis aguda produce un patrón hepatocelular con elevación marcada de AST y ALT. Puede acompañarse de una elevación menor de fosfatasa alcalina que en un patrón colestásico.",
+    "porQueLaCorrecta": "La hepatitis aguda da un patrón de citólisis: AST y ALT muy elevadas, con fosfatasa alcalina solo moderadamente aumentada. Si predominara la FA, sería un patrón colestásico.",
     "motivosPorOpcion": {
       "Un aumento elevado de Aspartato aminotransferasa (AST) y Alanina aminotransferasa (ALT); y un detrimento de la actividad de la fosfatasa alcalina plasmática.": "La lesión hepatocelular no se define por una disminución de fosfatasa alcalina.",
       "Un aumento moderado de Aspartato aminotransferasa (AST), así como de Alanina aminotransferasa (ALT), que no sobrepasan las 50 U/L.": "Una hepatitis aguda suele causar incrementos de transaminasas claramente superiores a una elevación moderada limitada a 50 U/L.",
       "Un aumento moderado de Aspartato aminotransferasa (ALT), que no sobrepasan las 50 U/L; y un detrimento de la actividad de la fosfatasa alcalina.": "Combina una elevación demasiado pequeña de transaminasas con una disminución de ALP que no caracteriza la hepatitis aguda."
     },
-    "claveMemorizar": "Hepatitis aguda: transaminasas muy altas; ALP, como mucho, moderada.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 41; Tema 5.2. Enfermedades víricas hepáticas v2.pdf, p. 2",
-    "advertenciaRevision": "Los PDF respaldan la elevación de AST/ALT en hepatitis y el patrón hepatocelular, pero no especifican literalmente el aumento moderado de fosfatasa alcalina en hepatitis aguda."
+    "claveMemorizar": "Hepatitis aguda: transaminasas muy altas, FA moderada.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 41; Tema 5.2. Enfermedades víricas hepáticas v2.pdf, p. 2"
   },
   "265": {
     "respuestaCorrecta": "B",
@@ -357,15 +351,14 @@
   },
   "273": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La GGT tiene especial relevancia diagnóstica por su concentración y localización hepatobiliar, sobre todo en la membrana canalicular y microsomas del hepatocito.",
+    "porQueLaCorrecta": "La GGT abunda en los tejidos con función secretora o absortiva: riñón, páncreas e hígado. De las opciones, el hígado es donde su concentración es más relevante clínicamente.",
     "motivosPorOpcion": {
       "Músculo esquelético.": "El músculo esquelético no figura entre las fuentes principales de GGT del temario.",
       "Páncreas.": "El páncreas contiene GGT, pero no es la fuente sérica de referencia en el estudio hepatobiliar.",
       "Eritrocitos.": "Los eritrocitos no se describen como tejido de alta concentración de GGT."
     },
-    "claveMemorizar": "GGT sérica: orientación hepatobiliar.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 37",
-    "advertenciaRevision": "El PDF enumera GGT en hígado, riñón y páncreas, pero no aporta concentraciones comparativas que demuestren literalmente que el hígado tenga la máxima."
+    "claveMemorizar": "GGT: riñón, páncreas e hígado; no músculo ni hematíes.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 35 y 37"
   },
   "274": {
     "respuestaCorrecta": "C",
@@ -413,26 +406,24 @@
   },
   "278": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Una agresión tóxica aguda puede causar necrosis hepatocelular extensa y liberar grandes cantidades de AST y ALT, generando incrementos mayores que los procesos crónicos o predominantemente colestásicos.",
+    "porQueLaCorrecta": "La hepatitis tóxica aguda (por ejemplo, por paracetamol) produce necrosis masiva y transaminasas de miles de U/L. Cirrosis biliar y coledocolitiasis dan patrón colestásico y la autoinmune, subidas moderadas.",
     "motivosPorOpcion": {
       "Cirrosis biliar.": "Predomina el patrón colestásico con GGT y fosfatasa alcalina, no las máximas elevaciones de transaminasas.",
       "Coledocolitiasis.": "La obstrucción del colédoco produce principalmente un patrón colestásico.",
       "Hepatitis crónica autoinmune.": "Puede elevar transaminasas, pero el carácter crónico no suele producir los picos de una necrosis tóxica aguda."
     },
-    "claveMemorizar": "Necrosis hepatocelular aguda: transaminasas muy elevadas.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 41-43",
-    "advertenciaRevision": "El PDF diferencia patrones hepatocelular y colestásico, pero no compara explícitamente la magnitud de transaminasas en estas cuatro enfermedades."
+    "claveMemorizar": "Transaminasas en miles → hepatitis tóxica aguda.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 41-43"
   },
   "279": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "En electroforesis, la movilidad de las proteínas depende de sus propiedades eléctricas y del medio de separación; la opción combina carga con tamaño como determinantes físicos de la migración.",
+    "porQueLaCorrecta": "En la electroforesis las proteínas migran en un campo eléctrico según su carga neta y su tamaño (y forma). A pH 8,6 todas son negativas y van hacia el ánodo.",
     "motivosPorOpcion": {
       "Aminoácidos aromáticos de las proteínas.": "Los aminoácidos aromáticos explican absorción ultravioleta, no la separación electroforética en fracciones.",
       "Solubilidad en buffer neutro.": "La electroforesis descrita se realiza a pH alcalino y separa por movilidad eléctrica, no por solubilidad en tampón neutro."
     },
-    "claveMemorizar": "Electroforesis: movilidad ligada a carga y características del soporte/molécula.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8",
-    "advertenciaRevision": "El PDF indica que a pH 8,6 las proteínas tienen carga negativa, pero no afirma expresamente que el proteinograma sérico las separe por tamaño; en electroforesis libre o capilar predomina la relación carga/tamaño y la movilidad electroforética."
+    "claveMemorizar": "Electroforesis: separa por carga y tamaño.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7-8"
   },
   "280": {
     "respuestaCorrecta": "A",
@@ -446,15 +437,14 @@
   },
   "281": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Gilbert y Crigler-Najjar reducen la conjugación hepática y elevan bilirrubina no conjugada. La ictericia asociada a lactancia materna también puede implicar menor conjugación o mayor circulación enterohepática, por lo que las tres encajan en el enunciado.",
+    "porQueLaCorrecta": "Todas son ciertas: Gilbert (leve), Crigler-Najjar (grave) y la ictericia por lactancia materna reducen la conjugación con ácido glucurónico. En todas sube la bilirrubina no conjugada (indirecta).",
     "motivosPorOpcion": {
       "Ictericia producida por la lactancia materna.": "Es un contexto válido de hiperbilirrubinemia indirecta neonatal, pero no es el único propuesto.",
       "Enfermedad de Gilbert.": "Es una causa hereditaria de conjugación reducida y bilirrubina indirecta elevada.",
       "Enfermedad de Crigler-Najjar.": "El déficit grave o parcial de UDP-glucuronil transferasa eleva bilirrubina no conjugada."
     },
-    "claveMemorizar": "Conjugación deficiente = bilirrubina indirecta alta.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 28 y 32",
-    "advertenciaRevision": "El PDF respalda Gilbert y Crigler-Najjar, pero no menciona la ictericia por lactancia materna."
+    "claveMemorizar": "Fallo de conjugación = bilirrubina indirecta: Gilbert, Crigler-Najjar, lactancia.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 28 y 32"
   },
   "282": {
     "respuestaCorrecta": "C",
@@ -469,27 +459,25 @@
   },
   "283": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El hígado almacena glucógeno, pero el músculo también dispone de reservas de glucógeno. Por ello este almacenamiento no es exclusivo del hígado.",
+    "porQueLaCorrecta": "El glucógeno también se almacena en el músculo, así que no es exclusivo del hígado. La glucuronidación de bilirrubina, las sales biliares y el ciclo de la urea sí son funciones hepáticas propias.",
     "motivosPorOpcion": {
       "Glucuronación de bilirrubina.": "La conjugación de bilirrubina con ácido glucurónico se presenta como una función del hepatocito necesaria para su eliminación.",
       "Síntesis de sales biliares.": "Los ácidos biliares primarios se sintetizan en hepatocitos a partir de colesterol.",
       "Ciclo de la urea.": "El temario atribuye al hígado la conversión del amonio tóxico en urea mediante este ciclo."
     },
-    "claveMemorizar": "Glucógeno: hígado y músculo; bilis, bilirrubina y urea: funciones hepáticas clave.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4-5, 23 y 26-28",
-    "advertenciaRevision": "El PDF confirma el almacenamiento hepático de glucógeno, pero no menciona explícitamente que el músculo también lo almacene ni demuestra la exclusividad absoluta de las otras funciones."
+    "claveMemorizar": "Glucógeno: hígado y músculo.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4-5, 23 y 26-28"
   },
   "284": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La hepatitis alcohólica se asocia con AST mayor que ALT, típicamente AST/ALT > 2. La opción invierte el cociente al afirmar ALT/AST > 2.",
+    "porQueLaCorrecta": "Es falsa porque en la hepatitis alcohólica el cociente típico es AST/ALT > 2, no ALT/AST. Las demás son ciertas: AST/ALT < 1 en hepatitis vírica, FA y GGT en colestasis, y LDH con bilirrubina indirecta en hemólisis.",
     "motivosPorOpcion": {
       "Ratio AST/ALT < 1 es compatible con hepatitis viral o de causa tóxica.": "En muchas lesiones hepatocelulares no alcohólicas predomina ALT, haciendo el cociente AST/ALT menor de 1.",
       "GGT y fosfatasa alcalina elevada, junto con una discreta elevación de las transaminasas, permiten pensar en un patrón colestásico.": "El patrón colestásico se define por elevación predominante de GGT y ALP.",
       "LDH elevada junto a una hiperbilirrubinemia indirecta es compatible con anemia hemolítica.": "La hemólisis libera LDH y aumenta la producción de bilirrubina no conjugada."
     },
-    "claveMemorizar": "Alcohol: AST/ALT > 2, no ALT/AST > 2.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31 y 41-42",
-    "advertenciaRevision": "El PDF respalda de forma directa el patrón alcohólico y colestásico; la asociación completa entre LDH e hiperbilirrubinemia indirecta en hemólisis se deduce de apartados separados."
+    "claveMemorizar": "Alcohol: AST/ALT > 2.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 30-31 y 41-42"
   },
   "285": {
     "respuestaCorrecta": "B",
@@ -515,26 +503,24 @@
   },
   "287": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El cribado CONUT integra albúmina sérica, colesterol total y recuento total de linfocitos para estimar desnutrición hospitalaria.",
+    "porQueLaCorrecta": "El índice CONUT cribada la desnutrición hospitalaria con tres parámetros: albúmina sérica, colesterol total y recuento de linfocitos.",
     "motivosPorOpcion": {
       "Albúmina, Prealbúmina, Colesterol.": "Sustituye erróneamente el recuento linfocitario por prealbúmina.",
       "Prealbúmina, Colesterol, linfocitos.": "CONUT utiliza albúmina, no prealbúmina, como componente proteico.",
       "Albúmina, Colesterol.": "Omite el componente inmunológico aportado por el recuento de linfocitos."
     },
-    "claveMemorizar": "CONUT: albúmina + colesterol + linfocitos.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15",
-    "advertenciaRevision": "El PDF nombra el índice CONUT, pero no detalla sus tres parámetros; la composición de la respuesta no queda sustentada íntegramente en los PDF permitidos."
+    "claveMemorizar": "CONUT = albúmina + colesterol + linfocitos.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15"
   },
   "288": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La malnutrición puede deprimir la inmunidad celular y reducir el recuento total de linfocitos; un valor inferior a 1500 se usa como señal de riesgo nutricional.",
+    "porQueLaCorrecta": "La desnutrición deprime la inmunidad celular: un recuento total de linfocitos por debajo de 1.500/µL indica malnutrición. Lo que se asocia es la falta de respuesta retardada (anergia), no su presencia.",
     "motivosPorOpcion": {
       "El índice de CD3/CD4 (>50).": "Ese cociente y ese umbral no constituyen el indicador nutricional estándar descrito por el recuento linfocitario total.",
       "Presencia de respuesta de inmunidad celular retardada, se han relacionado con la malnutrición.": "La malnutrición se relaciona con disminución o ausencia de respuesta cutánea retardada, no con su presencia conservada.",
       "El aumento en el recuento total de linfocitos (>10.500).": "La malnutrición se asocia con linfopenia, mientras que un recuento elevado orienta a otros procesos."
     },
-    "claveMemorizar": "Malnutrición inmunológica: linfocitos totales disminuidos.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15",
-    "advertenciaRevision": "El PDF solo menciona CONUT y no aporta el umbral de 1500 linfocitos ni los parámetros de inmunidad celular retardada; esta respuesta requiere revisión con una fuente nutricional adicional."
+    "claveMemorizar": "Linfocitos < 1.500 = desnutrición.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 15"
   }
 }

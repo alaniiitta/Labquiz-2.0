@@ -12,15 +12,14 @@
   },
   "102": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La lámpara de tungsteno se emplea como fuente continua en la región visible, por lo que es adecuada para mediciones por encima del ultravioleta próximo. Las fuentes de hidrógeno y deuterio se reservan para la región UV.",
+    "porQueLaCorrecta": "La lámpara de tungsteno (wolframio) emite en el visible e infrarrojo cercano, por encima de unos 320-350 nm. Para el ultravioleta se usan las de deuterio o hidrógeno.",
     "motivosPorOpcion": {
       "Arco de mercurio": "Puede emitir en la región visible, pero el temario identifica el filamento de tungsteno como la fuente continua característica para espectrofotometría visible.",
       "Deuterio": "Es una fuente para la región ultravioleta, especialmente útil a longitudes de onda más cortas.",
       "Hidrógeno": "También se clasifica como fuente ultravioleta y no como la fuente habitual de la región indicada."
     },
-    "claveMemorizar": "Visible: tungsteno; UV: hidrógeno o deuterio.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 13",
-    "advertenciaRevision": "El PDF asigna tungsteno a la región visible e hidrógeno/deuterio a UV, pero no fija literalmente el umbral de 320 nm."
+    "claveMemorizar": "Visible = tungsteno. Ultravioleta = deuterio.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 13"
   },
   "103": {
     "respuestaCorrecta": "C",
@@ -68,39 +67,36 @@
   },
   "107": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El ruido de fondo describe fluctuaciones o señales ajenas al analito; el chequeo debe cuantificar cuánto se separa una señal del fondo instrumental. Esa diferencia condiciona la capacidad de detectar señales pequeñas.",
+    "porQueLaCorrecta": "El chequeo del ruido de fondo cuantifica la señal del equipo que se distingue del fondo instrumental. Así se sabe a partir de qué nivel una lectura es una señal real.",
     "motivosPorOpcion": {
       "El valor físico que mide un el equipo": "Eso corresponde a la magnitud analítica medida de forma ordinaria, no específicamente al ruido basal.",
       "Que la media del blanco sea correcta": "La media del blanco informa del nivel basal o sesgo, mientras que el ruido se relaciona con su variabilidad y la distinción de una señal.",
       "Que el equipo no tiene lectura en ese chequeo": "Un instrumento puede presentar señal basal aun sin analito; exigir lectura exactamente nula no cuantifica el ruido."
     },
-    "claveMemorizar": "Ruido = variación del fondo; señal detectable = diferencia respecto a ese fondo.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 12 y 18",
-    "advertenciaRevision": "Los PDF explican el ajuste del fondo y la conversión de señal por el detector, pero no describen literalmente este chequeo de ruido ni la redacción de la opción C."
+    "claveMemorizar": "Ruido de fondo: separar la señal real del fondo.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 12 y 18"
   },
   "108": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Si el sustrato se agota, la reacción deja de generar señal proporcional aunque todavía haya analito por medir. La respuesta fotométrica se aplana y la concentración calculada queda por debajo de la real.",
+    "porQueLaCorrecta": "Si el sustrato se agota, la reacción deja de avanzar aunque quede analito, así que la señal se aplana y la concentración sale menor que la real. Hay que diluir la muestra y repetir.",
     "motivosPorOpcion": {
       "Un valor de la concentración mayor que la real": "El agotamiento limita la formación de producto y reduce la señal, por lo que no produce una sobreestimación por este mecanismo.",
       "Un valor de la concentración igual que la real": "Al perderse la proporcionalidad entre señal y cantidad de analito, el resultado ya no representa fielmente la concentración.",
       "Ninguna de las anteriores": "La limitación de sustrato sí tiene una dirección previsible: genera una respuesta insuficiente y una infravaloración."
     },
-    "claveMemorizar": "Agotamiento de sustrato → señal insuficiente → resultado falsamente bajo.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 11",
-    "advertenciaRevision": "El PDF trata desviaciones de la ley de Beer, pero no desarrolla explícitamente el agotamiento de sustrato en métodos fotométricos."
+    "claveMemorizar": "Agotamiento de sustrato → resultado falsamente bajo → diluir.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 11"
   },
   "109": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "En microscopía electrónica de transmisión la muestra debe ser ultrafina y contrastarse con sustancias de alto número atómico que dispersen electrones. El tetróxido de osmio fija y aporta contraste lipídico, y el acetato de uranilo aumenta el contraste electrónico de las secciones.",
+    "porQueLaCorrecta": "El acetato de uranilo y el tetróxido de osmio son metales pesados que fijan y contrastan las muestras ultrafinas del microscopio electrónico de transmisión, porque dispersan los electrones.",
     "motivosPorOpcion": {
       "El microscopio de campo oscuro": "Trabaja con luz oblicua y muestras habitualmente frescas sin teñir; no requiere contraste con metales pesados.",
       "El microscopio de contraste de fase": "Convierte diferencias de fase causadas por índices de refracción y permite observar muestras sin tinción.",
       "El microscopio de campo luminoso": "Emplea luz visible y colorantes ópticos ordinarios, no la preparación con compuestos electrodensos propia de microscopía electrónica."
     },
-    "claveMemorizar": "TEM: cortes ultrafinos y contraste con sustancias electrodensas.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-35",
-    "advertenciaRevision": "El PDF exige sustancias especiales que dispersen electrones, pero el texto extraíble no nombra acetato de uranilo ni tetróxido de osmio."
+    "claveMemorizar": "Uranilo y osmio = contraste en microscopía electrónica.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 33-35"
   },
   "110": {
     "respuestaCorrecta": "D",
@@ -115,15 +111,14 @@
   },
   "111": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El filtro de excitación selecciona la banda capaz de excitar el fluorocromo antes de que la radiación alcance la muestra. Es propio del sistema óptico de fluorescencia, que separa la radiación excitadora de la emitida.",
+    "porQueLaCorrecta": "El filtro de excitación es exclusivo del microscopio de fluorescencia: deja pasar solo la longitud de onda que excita al fluorocromo. El filtro de barrera deja pasar la luz emitida.",
     "motivosPorOpcion": {
       "El microscopio de campo oscuro": "Su componente distintivo es un condensador que envía iluminación oblicua, no un filtro para excitar fluorocromos.",
       "El microscopio de contraste de fase": "Utiliza diafragma anular y elementos de fase para convertir diferencias de fase en intensidad.",
       "El microscopio de campo luminoso": "Forma la imagen con luz transmitida convencional y no necesita seleccionar una banda de excitación fluorescente."
     },
-    "claveMemorizar": "Fluorescencia: filtro de excitación antes de la muestra y filtro de emisión después.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32",
-    "advertenciaRevision": "El PDF desarrolla fluorocromos, fuentes y emisión en fluorescencia, pero el texto extraíble de esas páginas no menciona literalmente el filtro de excitación."
+    "claveMemorizar": "Fluorescencia: filtro de excitación + filtro de barrera.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32"
   },
   "112": {
     "respuestaCorrecta": "C",
@@ -171,15 +166,14 @@
   },
   "116": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Interpretando 50X como el aumento del objetivo y usando el ocular habitual de 10X, el aumento total es 50 × 10 = 500. El aumento total siempre resulta del producto del objetivo por el ocular.",
+    "porQueLaCorrecta": "El aumento total es el del objetivo por el del ocular. Con un objetivo de 50x y el ocular habitual de 10x: 50 × 10 = 500 aumentos.",
     "motivosPorOpcion": {
       "50 aumentos": "Sería el aumento aportado solo por el objetivo, sin multiplicarlo por el ocular de 10X.",
       "5000 aumentos": "Ese valor exigiría un ocular de 100X, no el ocular habitual de 10X descrito en el temario.",
       "100 aumentos": "No resulta del producto de un objetivo de 50X por un ocular de 10X."
     },
-    "claveMemorizar": "Aumento total = objetivo × ocular; 50X × 10X = 500X.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 20",
-    "advertenciaRevision": "El enunciado dice «microscopio de 50X», lo que normalmente designaría 50 aumentos totales; la clave 500 solo se sostiene si 50X se interpreta como el objetivo y se presupone un ocular de 10X."
+    "claveMemorizar": "Aumento total = objetivo × ocular.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 17 y 20"
   },
   "117": {
     "respuestaCorrecta": "D",
@@ -227,15 +221,14 @@
   },
   "121": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La electroforesis capilar utiliza conductos de diámetro interno muy pequeño, habitualmente dentro del intervalo de decenas de micrómetros. Afirmar que se realiza en capilares de más de 100 µm no caracteriza la técnica habitual.",
+    "porQueLaCorrecta": "Es falsa porque los capilares de la electroforesis capilar son finísimos, de unos 25-100 µm de diámetro interno, no de más de 100. Usa poco volumen de muestra y separa con gran eficacia.",
     "motivosPorOpcion": {
       "Se aplica para la separación de proteínas en fluidos biológicos.": "Las proteínas se encuentran entre las macromoléculas que pueden separarse mediante electroforesis capilar.",
       "Utiliza un menor volumen de muestra.": "El pequeño diámetro del capilar permite trabajar con volúmenes reducidos.",
       "Mejor eficiencia de la separación.": "El flujo electroosmótico y la disipación eficiente del calor favorecen separaciones de alta eficiencia."
     },
-    "claveMemorizar": "Electroforesis capilar: diámetro pequeño, poco volumen y alta eficiencia.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 58",
-    "advertenciaRevision": "El PDF explica el flujo electroosmótico y los analitos separables, pero no especifica el diámetro de los capilares, el volumen de muestra ni cuantifica la eficiencia."
+    "claveMemorizar": "Electroforesis capilar: capilares de 25-100 µm.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 58"
   },
   "122": {
     "respuestaCorrecta": "D",
@@ -404,15 +397,14 @@
   },
   "137": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El espectrofotómetro incorpora un sistema que selecciona una longitud de onda y un detector que convierte la radiación transmitida en señal eléctrica. La opción alude de forma imprecisa a ese conjunto selector-detector.",
+    "porQueLaCorrecta": "El espectrofotómetro tiene una fuente de radiación, un selector de longitud de onda (monocromador) y un detector que mide la luz transmitida. 20 Hz-20 kHz es el rango del sonido audible.",
     "motivosPorOpcion": {
       "No necesitan de una fuente de energía radiante": "La fuente de radiación es uno de los componentes básicos del instrumento.",
       "Detecta frecuencias entre 20 Hz y 20 KHz": "Ese intervalo corresponde a frecuencias audibles, no a radiación UV-visible o infrarroja.",
       "Es parte de un cromatógrado": "Un detector espectrofotométrico puede acoplarse a cromatografía, pero el espectrofotómetro es también un instrumento independiente."
     },
-    "claveMemorizar": "Espectrofotómetro: fuente → selector de λ → cubeta → detector.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 13-18",
-    "advertenciaRevision": "El PDF separa el selector de longitud de onda del detector: el primero restringe λ y el segundo convierte la radiación transmitida en señal. «Detector de longitud de onda» no es una denominación precisa."
+    "claveMemorizar": "Espectrofotómetro: fuente + monocromador + detector.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 13-18"
   },
   "138": {
     "respuestaCorrecta": "A",
@@ -515,15 +507,14 @@
   },
   "147": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Aumentar demasiado el potencial eleva la corriente y el calentamiento del sistema, lo que puede evaporar tampón, desnaturalizar componentes y distorsionar la migración. El voltaje debe optimizarse, no maximizarse sin límite.",
+    "porQueLaCorrecta": "Un voltaje demasiado alto aumenta la corriente y el calor (efecto Joule), lo que deforma las bandas y puede desnaturalizar las proteínas. La carga depende del pH y el tamaño influye en la migración.",
     "motivosPorOpcion": {
       "La carga neta no depende del pH del medio.": "En moléculas anfotéricas, el pH determina si la carga neta es positiva, negativa o nula.",
       "El gel de agarosa es el soporte que menos prestaciones presenta.": "La agarosa es un soporte no selectivo útil y el temario atribuye los inconvenientes más marcados al papel, no establece esa inferioridad general.",
       "La estructura y tamaño de las sustancias a separar no es influyente en el proceso electroforético.": "Tamaño y forma afectan al coeficiente de fricción y, por tanto, a la velocidad de migración."
     },
-    "claveMemorizar": "Voltaje excesivo → calentamiento → migración defectuosa.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 53-54",
-    "advertenciaRevision": "El PDF indica que más voltaje aumenta la separación y que la temperatura puede desnaturalizar o evaporar disolvente, pero no enlaza explícitamente un potencial excesivo con esos problemas."
+    "claveMemorizar": "Electroforesis: demasiado voltaje = calor = bandas deformadas.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 53-54"
   },
   "148": {
     "respuestaCorrecta": "C",
@@ -538,15 +529,14 @@
   },
   "149": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El aumento de temperatura favorece desactivaciones no radiativas y reduce el rendimiento fluorescente. El oxígeno disuelto también actúa como desactivador por colisiones, de modo que ambos factores disminuyen la intensidad.",
+    "porQueLaCorrecta": "La fluorescencia disminuye (quenching) al subir la temperatura, porque aumentan las colisiones que disipan la energía, y en presencia de oxígeno disuelto, que es un desactivador. La rigidez y los anillos aromáticos la aumentan.",
     "motivosPorOpcion": {
       "Analitos de estructura aromática y elevada rigidez estructural.": "La aromaticidad y la rigidez suelen favorecer la fluorescencia al limitar pérdidas de energía por movimientos internos.",
       "Analitos de estructura aromática y que poseen un anillo heterocíclico.": "La aromaticidad puede sostener transiciones fluorescentes; la presencia de un heterociclo no constituye por sí sola la pareja de factores de desactivación descrita.",
       "La disminución de la temperatura de la disolución y la presencia de nitrógeno atmosférico disuelto en el medio.": "Bajar la temperatura reduce colisiones desactivadoras y el nitrógeno es mucho menos eficaz como apagador que el oxígeno."
     },
-    "claveMemorizar": "Fluorescencia baja con temperatura alta y oxígeno disuelto.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 30",
-    "advertenciaRevision": "La página presenta los factores que condicionan la emisión de forma gráfica, pero el texto extraído mediante pdfjs-dist no conserva la lista y no permite verificar literalmente temperatura y oxígeno."
+    "claveMemorizar": "Menos fluorescencia: calor y oxígeno disuelto.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, p. 30"
   },
   "150": {
     "respuestaCorrecta": "C",

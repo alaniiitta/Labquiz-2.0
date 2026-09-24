@@ -23,27 +23,25 @@
   },
   "135": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La proporción entre citrato y sangre debe permanecer en 1:9, por lo que el tubo debe llenarse exactamente hasta la marca. Tanto el defecto como el exceso de muestra alteran esa relación teórica y justifican rechazarla.",
+    "porQueLaCorrecta": "El tubo de citrato debe llenarse hasta la marca para mantener la proporción 1:9 de citrato y sangre. Tanto si falta volumen como si sobra, la muestra se rechaza.",
     "motivosPorOpcion": {
       "Que el volumen extraído supera la marca del tubo.": "Describe solo uno de los dos sentidos en los que se pierde la proporción nominal entre anticoagulante y sangre.",
       "Menos volumen del marcado en el tubo.": "El llenado insuficiente deja citrato en exceso y prolonga los tiempos, pero la respuesta combinada también contempla el sobrellenado.",
       "El volumen de muestra extraído no interfiere en la realización de la muestra": "El volumen sí importa porque determina la relación 1:9; el PDF advierte expresamente que llenar de menos prolonga los tiempos."
     },
-    "claveMemorizar": "Tubo de coagulación: citrato:sangre 1:9 y llenado hasta la marca.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 35",
-    "advertenciaRevision": "El PDF exige llenado hasta la marca y documenta el efecto del volumen insuficiente, pero no describe de forma expresa el sobrellenado como criterio de exclusión."
+    "claveMemorizar": "Citrato: llenado exacto, proporción 1:9.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 35"
   },
   "136": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El fibrinógeno se determina en plasma, ya que el suero carece de él. La opción A es la única que combina el tipo de muestra adecuado con un intervalo próximo al recogido en el temario.",
+    "porQueLaCorrecta": "El fibrinógeno se mide en plasma (el suero no tiene) y su valor normal es de unos 1,5-3,5 g/L (150-350 mg/dL).",
     "motivosPorOpcion": {
       "Estudio de fibrinógeno en suero 0-1 g/L.": "El suero se obtiene después de coagular la sangre y carece de fibrinógeno, por lo que no es la muestra para establecer su intervalo plasmático.",
       "Estudio de fibrinógeno en plasma 0-120 mg/dL.": "Ese intervalo queda por debajo de los 150-450 mg/dL que el PDF considera normales.",
       "Estudio de fibrinógeno en suero 400-550 mg/dL.": "Además de usar suero, propone concentraciones incompatibles con la ausencia de fibrinógeno en esa muestra."
     },
-    "claveMemorizar": "Fibrinógeno: presente en plasma, ausente en suero; PDF: 150-450 mg/dL.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13 y 56",
-    "advertenciaRevision": "La respuesta oficial indica 1,5-3,5 g/L, mientras que el PDF fija 150-450 mg/dL, equivalentes a 1,5-4,5 g/L."
+    "claveMemorizar": "Fibrinógeno: plasma, 1,5-3,5 g/L.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13 y 56"
   },
   "137": {
     "respuestaCorrecta": "A",
@@ -58,15 +56,14 @@
   },
   "138": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El ácido acetilsalicílico figura entre los fármacos antiagregantes plaquetarios. La respuesta oficial concreta que su efecto sobre la agregación es irreversible durante la vida funcional de las plaquetas afectadas.",
+    "porQueLaCorrecta": "La aspirina inhibe de forma irreversible la ciclooxigenasa plaquetaria. El efecto dura toda la vida de la plaqueta (7-10 días), hasta que se renuevan.",
     "motivosPorOpcion": {
       "Produce una alteración en la secreción plaquetaria.": "La opción desplaza el efecto preguntado hacia la secreción, mientras que el banco identifica como rasgo principal la inhibición irreversible de la agregación.",
       "Provoca la agregación plaquetaria masiva durante las primeras horas de su ingestión.": "Es contrario a su clasificación como antiagregante: no promueve una agregación masiva.",
       "Ninguna es cierta.": "No puede ser válida porque el propio temario clasifica la aspirina como antiagregante plaquetario."
     },
-    "claveMemorizar": "Aspirina: antiagregante plaquetario, no proagregante.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 64",
-    "advertenciaRevision": "El PDF clasifica la aspirina como antiagregante, pero no desarrolla explícitamente la irreversibilidad ni su duración."
+    "claveMemorizar": "Aspirina: bloquea la COX de forma irreversible, 7-10 días.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 64"
   },
   "139": {
     "respuestaCorrecta": "B",
@@ -125,15 +122,14 @@
   },
   "144": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La reptilasa no se ve influida por la heparina, mientras que el TT sí se prolonga en su presencia. Por ello, un TT alargado con tiempo de reptilasa normal orienta a interferencia por heparina.",
+    "porQueLaCorrecta": "La reptilasa no se afecta por la heparina y el tiempo de trombina sí. Un TT alargado con reptilasa normal indica heparina.",
     "motivosPorOpcion": {
       "Déficit de factores de la vía común.": "La comparación TT-reptilasa se centra en la etapa fibrinógeno-fibrina y no identifica de forma general todos los déficits de la vía común.",
       "Anticoagulante lúpico.": "Se detecta con pruebas dependientes de fosfolípidos, especialmente variantes del APTT, no mediante la diferencia entre TT y reptilasa.",
       "Déficit de factores de contacto.": "Los factores de contacto se exploran con pruebas de la vía intrínseca como el TTPA."
     },
-    "claveMemorizar": "Heparina: TT alargado y reptilasa normal.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54-55 y 65",
-    "advertenciaRevision": "El enunciado atribuye la detección de heparina al alargamiento del tiempo de reptilasa, pero el PDF afirma lo contrario: la reptilasa no se ve influida por heparina; la clave diagnóstica es TT prolongado con reptilasa normal."
+    "claveMemorizar": "TT largo + reptilasa normal = heparina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54-55 y 65"
   },
   "145": {
     "respuestaCorrecta": "B",
@@ -236,15 +232,14 @@
   },
   "154": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El método de Clauss determina fibrinógeno funcional midiendo el tiempo de formación de fibrina tras añadir exceso de trombina. No mide el factor X, de modo que la afirmación D es la falsa.",
+    "porQueLaCorrecta": "Es falsa porque el método de Clauss mide el fibrinógeno funcional (factor I), no el factor X. Se añade trombina en exceso y se mide el tiempo de coagulación.",
     "motivosPorOpcion": {
       "Un estudio para el diagnóstico de la trombofilia debe realizarse al menos tres meses después de un episodio trombótico.": "No contradice la finalidad del estudio de trombofilia, aunque el PDF no concreta ese plazo temporal.",
       "Las trombopenias son la causa más frecuente de sangrado.": "El temario afirma expresamente que la trombopenia es la causa más frecuente de sangrado.",
       "La hemofilia A y B se heredan mediante un rasgo recesivo ligado al cromosoma X.": "Las hemofilias clásicas se describen con herencia recesiva ligada al cromosoma X."
     },
-    "claveMemorizar": "Clauss mide fibrinógeno funcional, no factor X.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 7, 56 y 74",
-    "advertenciaRevision": "El PDF usado no especifica que el estudio de trombofilia deba posponerse exactamente tres meses tras el episodio trombótico."
+    "claveMemorizar": "Clauss = fibrinógeno.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 7, 56 y 74"
   },
   "155": {
     "respuestaCorrecta": "A",
@@ -270,15 +265,14 @@
   },
   "157": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La técnica manual del tiempo de coagulación consiste en mantener sangre en tubos de vidrio a 37 °C e inclinarlos hasta observar el coágulo. El temario la denomina técnica del tubo inclinado.",
+    "porQueLaCorrecta": "La técnica manual clásica es la del tubo inclinado (Lee-White): la sangre se incuba a 37 °C y se inclina el tubo periódicamente hasta que se forma el coágulo.",
     "motivosPorOpcion": {
       "La curva de formación del coágulo.": "La representación de una curva corresponde a instrumentación o tromboelastografía, no al método manual descrito.",
       "El método de adherencia.": "La adherencia no es el nombre del procedimiento manual empleado para cronometrar la coagulación.",
       "La técnica de estabilización.": "No figura entre las técnicas manuales descritas para medir el tiempo de coagulación."
     },
-    "claveMemorizar": "Método manual clásico: tubo inclinado a 37 °C.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 50",
-    "advertenciaRevision": "El PDF identifica el tubo inclinado como técnica manual, pero señala que está en desuso; por ello, 'más utilizada' puede resultar una formulación desactualizada."
+    "claveMemorizar": "Técnica manual: tubo inclinado (Lee-White).",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 50"
   },
   "158": {
     "respuestaCorrecta": "C",
@@ -414,27 +408,25 @@
   },
   "170": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La respuesta D es la clave oficial del banco, pero el PDF de Tema 9 no trata el sistema RhD, sus variantes ni su frecuencia en población caucásica. No es posible justificar didácticamente el porcentaje usando únicamente esta fuente.",
+    "porQueLaCorrecta": "El fenotipo D débil aparece en un 0,2-1 % de los caucásicos RhD positivos. El D débil tiene todos los epítopos con menor densidad y rara vez hace anti-D; el D parcial es el que carece de epítopos y sí puede hacerlo.",
     "motivosPorOpcion": {
       "Las variantes DEL representan un nivel de expresión de antígeno D normal pero sumamente defectuoso, es decir, la densidad de antígeno D en la membrana eritroide es normal pero su expresión está cualitativamente muy alterada.": "El PDF de coagulación no define variantes DEL ni aporta criterios con los que evaluar esta afirmación.",
       "En las variantes RhD débil no se expresan la totalidad de los epítopos. La mayoría de individuos portadores de un D débil desarrollan un aloanti D al entrar en contacto, por transfusión o gestación, con hematíes D positivo.": "El temario fuente no explica epítopos RhD débiles ni aloimunización anti-D, por lo que no respalda este distractor.",
       "En el caso de las variantes D parcial, la densidad de antígeno D en la membrana eritrocitaria está disminuida y la mayoría no presentan riesgo de sensibilización anti D.": "Las variantes D parcial y su riesgo de sensibilización no aparecen en ninguna página del PDF autorizado."
     },
-    "claveMemorizar": "Pregunta fuera del temario de coagulación: revisar contra una fuente de inmunohematología.",
-    "fuente": "Tema 9 Coagulación v3.pdf, revisión completa pp. 1-76",
-    "advertenciaRevision": "Sin soporte en la fuente permitida: la pregunta pertenece a inmunohematología/RhD y el PDF Tema 9 Coagulación no contiene información para confirmar la respuesta D ni refutar sus distractores."
+    "claveMemorizar": "D débil: menos antígeno. D parcial: faltan epítopos (riesgo de anti-D).",
+    "fuente": "Tema 9 Coagulación v3.pdf, revisión completa pp. 1-76"
   },
   "171": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La plasmina se genera al activar el plasminógeno, hidroliza la red de fibrina y posee actividad proteolítica sobre otras proteínas. Las tres proposiciones describen facetas compatibles de la enzima fibrinolítica.",
+    "porQueLaCorrecta": "Todas son ciertas: la plasmina se forma al activarse el plasminógeno, degrada la fibrina del coágulo y es poco específica, así que también ataca al fibrinógeno y a los factores V y VIII.",
     "motivosPorOpcion": {
       "Se obtiene tras la activación del plasminógeno.": "Es cierta, pero solo explica el origen de la plasmina y no sus acciones incluidas en las otras afirmaciones.",
       "Destruye los coágulos de fibrina.": "Es cierta porque hidroliza la red de fibrina, aunque la opción conjunta recoge además su formación y menor especificidad.",
       "Es un enzima poco específico que puede atacar a diversos factores como el factor V y el factor VIII.": "Describe su amplitud proteolítica, pero por sí sola no integra las otras propiedades verdaderas."
     },
-    "claveMemorizar": "Plasminógeno activado → plasmina → degradación de fibrina.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 9",
-    "advertenciaRevision": "El PDF confirma la activación del plasminógeno y la degradación de fibrina, pero no explicita en esa sección el ataque de la plasmina a los factores V y VIII."
+    "claveMemorizar": "Plasmina: degrada fibrina (y fibrinógeno, V y VIII).",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 9"
   },
   "172": {
     "respuestaCorrecta": "C",
@@ -460,38 +452,35 @@
   },
   "174": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El fibrinógeno es una glucoproteína formada por cadenas Aα, Bβ y γ; la descripción estructural habitual las organiza en pares. Es el factor I y la trombina lo transforma en fibrina.",
+    "porQueLaCorrecta": "El fibrinógeno es una glucoproteína formada por tres pares de cadenas (Aα, Bβ, γ). Es el factor I, está en el plasma (no en el suero) y la trombina lo convierte en fibrina.",
     "motivosPorOpcion": {
       "Es un factor de coagulación presente en el suero.": "El PDF señala que está presente en plasma y ausente en suero porque se consume durante la coagulación.",
       "Es el factor II de la coagulación.": "El fibrinógeno es el factor I; el factor II es la protrombina.",
       "No es sensible a la trombina.": "La trombina escinde fibrinopéptidos del fibrinógeno para generar monómeros de fibrina."
     },
-    "claveMemorizar": "Fibrinógeno = factor I plasmático; cadenas Aα, Bβ y γ; sensible a trombina.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13-14",
-    "advertenciaRevision": "El PDF enumera tres tipos de cadenas (Aα, Bβ y γ), pero el texto extraído no especifica expresamente que existan dos copias de cada una; el término 'tres pares' no queda completamente documentado en la fuente."
+    "claveMemorizar": "Fibrinógeno: factor I, 3 pares de cadenas.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13-14"
   },
   "175": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Si el plasma carece del factor que una prueba necesita, la formación del coágulo se retrasa y el tiempo se alarga, no se acorta. Por eso D es la afirmación falsa.",
+    "porQueLaCorrecta": "Es falso porque si falta un factor necesario para la prueba, el coágulo tarda más en formarse y el tiempo se alarga, no se acorta.",
     "motivosPorOpcion": {
       "Cada prueba está diseñada para que la formación del coágulo dependa de un factor o grupo de factores.": "Las distintas pruebas añaden activadores específicos para explorar vías o etapas concretas de la coagulación.",
       "El instrumento utilizado es el coagulómetro.": "Las determinaciones cronométricas automatizadas registran el tiempo de formación del coágulo con un coagulómetro.",
       "La mayoría de ellas necesita el uso de una solución de cloruro cálcico para poner en marcha el proceso coagulatorio.": "El plasma citratado debe recalcificarse; pruebas como TTPA y TP añaden calcio para iniciar la reacción medida."
     },
-    "claveMemorizar": "Déficit de factor = tarda más en coagular = tiempo prolongado.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 51-57",
-    "advertenciaRevision": "El PDF describe pruebas cronométricas, activadores y recalcificación, pero el texto extraído no nombra de forma explícita el instrumento 'coagulómetro'."
+    "claveMemorizar": "Falta de factor = tiempo alargado.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 49 y 51-57"
   },
   "176": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La agregación une plaquetas entre sí y forma el tapón inicial, predominantemente plaquetario. El banco denomina trombo blanco a ese entramado, antes de que la fibrina atrape células y consolide el coágulo.",
+    "porQueLaCorrecta": "El trombo blanco está formado sobre todo por plaquetas agregadas (típico de las arterias). El trombo rojo tiene fibrina y hematíes atrapados (típico de las venas).",
     "motivosPorOpcion": {
       "Trombo rojo.": "Implica una red de fibrina con abundantes células atrapadas y no el entramado inicial constituido principalmente por plaquetas agregadas.",
       "Trombo rosáceo.": "No es una categoría descrita para la fase de agregación plaquetaria.",
       "Trombo TVP.": "TVP designa una localización clínica de trombosis venosa profunda, no el nombre morfológico del tapón plaquetario."
     },
-    "claveMemorizar": "Agregación plaquetaria = tapón inicial o trombo blanco.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 7-8",
-    "advertenciaRevision": "El PDF describe un trombo inicial e inestable formado por plaquetas y su posterior refuerzo con fibrina, pero no utiliza expresamente la denominación 'trombo blanco'."
+    "claveMemorizar": "Trombo blanco = plaquetas. Rojo = fibrina y hematíes.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 7-8"
   }
 }

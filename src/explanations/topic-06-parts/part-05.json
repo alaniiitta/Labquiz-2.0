@@ -78,15 +78,14 @@
   },
   "184": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Una misma magnitud puede presentar distintos tiempos de estabilidad según la matriz, el método, la temperatura y otras condiciones preanalíticas. Por tanto, la estabilidad no es una propiedad temporal única e independiente del procesamiento.",
+    "porQueLaCorrecta": "La estabilidad de una magnitud depende de la matriz, la temperatura, el recipiente y el método. Por eso una misma magnitud puede tener tiempos de estabilidad distintos, y eso influye en la calidad del resultado.",
     "motivosPorOpcion": {
       "La estabilidad de una magnitud bioquímica es independiente del método de medida.": "Un método puede tolerar o detectar de forma distinta los cambios del analito, por lo que la estabilidad declarada debe vincularse al procedimiento.",
       "La estabilidad de una magnitud bioquímica es independiente de las condiciones de conservación.": "Temperatura, tiempo, luz y conservación pueden modificar el analito o la muestra.",
       "No influye en la calidad de los resultados de esa magnitud.": "La degradación previa al análisis introduce sesgo y afecta directamente a la calidad del resultado."
     },
-    "claveMemorizar": "La estabilidad depende de muestra, método, tiempo y conservación.",
-    "fuente": "Tema 6.1. Enzimas.pdf, pp. 25-26",
-    "advertenciaRevision": "Los PDF de Tema 6 explican métodos y condiciones de ensayo, pero no desarrollan de forma expresa la estabilidad preanalítica ni sus tiempos."
+    "claveMemorizar": "Estabilidad: depende de conservación y método.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 25-26"
   },
   "185": {
     "respuestaCorrecta": "D",
@@ -112,16 +111,15 @@
   },
   "187": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La rabdomiólisis libera componentes musculares y eleva CK, LDH, GOT y mioglobina; además puede causar daño renal con aumento de creatinina. El hematocrito no es un producto liberado por la destrucción del miocito.",
+    "porQueLaCorrecta": "En la rabdomiólisis se rompe el músculo y se liberan CK, LDH, GOT y mioglobina; esta daña el riñón y sube la creatinina. El hematocrito no aumenta por la rabdomiólisis.",
     "motivosPorOpcion": {
       "CK": "Es abundante en músculo y su aumento es uno de los hallazgos bioquímicos centrales de la lesión muscular.",
       "LDH": "La lisis celular libera LDH, una enzima ampliamente distribuida.",
       "GOT": "La AST/GOT también está presente en músculo y aumenta tras destrucción muscular.",
       "Creatinina": "Puede aumentar si la mioglobinuria de la rabdomiólisis provoca lesión renal y reduce la filtración."
     },
-    "claveMemorizar": "Rabdomiólisis: CK muy alta, mioglobina, LDH, GOT, K y P elevados.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4",
-    "advertenciaRevision": "El PDF enumera CK, LDH y GOT elevadas y advierte del daño renal por mioglobina, pero no menciona expresamente hematocrito ni creatinina."
+    "claveMemorizar": "Rabdomiólisis: CK muy alta, mioglobina, creatinina ↑.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 4"
   },
   "188": {
     "respuestaCorrecta": "D",
@@ -213,15 +211,14 @@
   },
   "196": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El temario fija precisión óptima con CV menor del 10 % en el percentil 99, considera menos útiles los ensayos con CV de 10-20 % y no aceptables los superiores al 20 %. Esto respalda A y C, pero no demuestra toda la afirmación B.",
+    "porQueLaCorrecta": "Todas son ciertas: según la cuarta definición universal del infarto (2018), el CV óptimo en el percentil 99 es menor o igual al 10 %. Si supera el 10 % cuesta ver cambios y si supera el 20 % no debe usarse.",
     "motivosPorOpcion": {
       "La precisión óptima del test (coeficiente de variación al percentil 99 del límite superior de referencia) debe definirse como 10 %.": "Coincide aproximadamente con el criterio del PDF, que exige CV inferior al 10 % para precisión óptima.",
       "Los test con precisión no óptima (CV > 10% al percentil 99 del límite superior de referencia) hacen más difícil determinar cambios significativos, pero no producen falsos negativos.": "La imprecisión dificulta distinguir variaciones reales, pero el PDF no garantiza que nunca ocasione falsos negativos.",
       "No se deben utilizar test con CV > 20% al percentil 99 del límite superior de referencia.": "El documento clasifica como no aceptables los ensayos con imprecisión superior al 20 %."
     },
-    "claveMemorizar": "Troponina en p99: CV <10 % óptimo; 10-20 % menos útil; >20 % no aceptable.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 12",
-    "advertenciaRevision": "La respuesta «Todas son ciertas» no queda plenamente respaldada: el PDF no afirma que un CV >10 % nunca produzca falsos negativos y formula el umbral óptimo como CV <10 %, no exactamente 10 %."
+    "claveMemorizar": "Troponina: CV ≤ 10 % en el p99; > 20 % no válido.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 12"
   },
   "197": {
     "respuestaCorrecta": "A",
@@ -302,15 +299,14 @@
   },
   "204": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La LDH es un indicador inespecífico de lisis celular porque se distribuye ampliamente. Puede elevarse en daño cardiovascular y en enfermedades hematológicas, y su distribución también permite aumentos en patología pulmonar.",
+    "porQueLaCorrecta": "La LDH está en casi todos los tejidos, así que sube en patologías cardiovasculares (infarto), pulmonares (embolia, neumonía) y hematológicas (hemólisis, leucemias). Es muy inespecífica.",
     "motivosPorOpcion": {
       "Cardiovasculares.": "El IAM libera LDH cardíaca, especialmente LDH1, por lo que esta asociación es verdadera pero incompleta.",
       "Pulmonares.": "El pulmón contiene LDH y su lesión puede elevarla; la opción aislada no recoge el resto de tejidos afectados.",
       "Hematológicas.": "El temario cita anemia megaloblástica y cáncer oncohematológico, pero no son las únicas causas."
     },
-    "claveMemorizar": "LDH elevada = lisis celular; alta sensibilidad y baja especificidad tisular.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
-    "advertenciaRevision": "El PDF respalda la amplia distribución de LDH y cita patologías cardíacas y hematológicas, pero no menciona expresamente patologías pulmonares."
+    "claveMemorizar": "LDH: inespecífica, sube con cualquier lisis celular.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
   },
   "205": {
     "respuestaCorrecta": "A",
@@ -402,51 +398,47 @@
   },
   "213": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La afirmación es incorrecta porque la LDH posee cinco isoenzimas, LDH1 a LDH5, con distinta distribución tisular.",
+    "porQueLaCorrecta": "Es incorrecta porque la LDH tiene cinco isoenzimas (LDH1-5): LDH1 cardíaca y eritrocitaria, LDH5 hepática y muscular. Convierte piruvato en lactato y la hemólisis la eleva.",
     "motivosPorOpcion": {
       "Presenta niveles elevados en la cirrosis": "La lesión hepática puede liberar LDH, aunque su falta de especificidad limita el valor diagnóstico aislado.",
       "La hemolisis interfiere en su medición": "Los eritrocitos contienen LDH; su rotura libera enzima y puede elevar falsamente la actividad de la muestra.",
       "Cataliza la reacción en la que el piruvato pasa a lactato": "La reacción lactato-piruvato es reversible y utiliza el par NAD+/NADH."
     },
-    "claveMemorizar": "LDH tiene cinco isoenzimas y cataliza lactato reversible a piruvato.",
-    "fuente": "Tema 6.1. Enzimas.pdf, p. 11; Tema 6.2. Enzimas cardiacas v2.pdf, p. 3",
-    "advertenciaRevision": "Los PDF confirman isoenzimas y reacción de LDH, pero no mencionan expresamente cirrosis ni la interferencia por hemólisis."
+    "claveMemorizar": "LDH: 5 isoenzimas; LDH1 corazón, LDH5 hígado.",
+    "fuente": "Tema 6.1. Enzimas.pdf, p. 11; Tema 6.2. Enzimas cardiacas v2.pdf, p. 3"
   },
   "214": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La neumonía sin daño miocárdico asociado es la opción menos directamente relacionada con aumento de troponina. Síndrome coronario agudo y miocarditis lesionan miocardio, y la insuficiencia cardíaca grave también puede elevarla.",
+    "porQueLaCorrecta": "La troponina sube cuando hay daño del miocardio: síndrome coronario agudo, miocarditis o insuficiencia cardíaca grave. Una neumonía, sin afectación cardíaca, es la situación menos probable.",
     "motivosPorOpcion": {
       "Síndrome Coronario Agudo": "La isquemia con necrosis miocárdica libera troponina y constituye su indicación diagnóstica principal.",
       "Insuficiencia cardiaca grave": "El estrés y daño miocárdico en insuficiencia avanzada pueden producir elevaciones de troponina.",
       "Miocarditis": "La inflamación del miocardio lesiona cardiomiocitos y libera sus troponinas."
     },
-    "claveMemorizar": "Troponina indica daño miocárdico, no exclusivamente IAM.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-12",
-    "advertenciaRevision": "El PDF enumera numerosas causas no isquémicas de troponina elevada, incluida insuficiencia cardíaca, pero no menciona neumonía ni miocarditis de forma expresa."
+    "claveMemorizar": "Troponina = daño miocárdico, sea cual sea la causa.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 9-12"
   },
   "215": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Una miocardiopatía secundaria a una enfermedad metabólica sistémica se adquiere como consecuencia de esa enfermedad. En cambio, tetralogía de Fallot y comunicaciones interauricular e interventricular son malformaciones estructurales congénitas.",
+    "porQueLaCorrecta": "La miocardiopatía por una enfermedad metabólica sistémica es adquirida. La tetralogía de Fallot y las comunicaciones interventricular e interauricular son cardiopatías congénitas.",
     "motivosPorOpcion": {
       "Tetralogía de Fallot.": "Es una cardiopatía congénita compuesta por cuatro anomalías anatómicas.",
       "Comunicación interventricular (CIV).": "Es un defecto congénito del tabique que comunica ambos ventrículos.",
       "Comunicación interauricular.": "Es una abertura congénita en el tabique entre las aurículas."
     },
-    "claveMemorizar": "Fallot, CIV y CIA son congénitas; una miocardiopatía metabólica sistémica es secundaria.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 16-18",
-    "advertenciaRevision": "El PDF solo repasa anatomía cardíaca y no desarrolla la clasificación congénita de estas patologías; la clave no puede verificarse directamente con los PDF permitidos."
+    "claveMemorizar": "Congénitas: Fallot, CIV, CIA.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 16-18"
   },
   "216": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La secuencia clásica propuesta es CK, AST y LDH: CK comienza a aumentar desde 3-12 horas, AST desde unas 6 horas y LDH desde 12-24 horas. Sus intervalos se solapan, pero LDH es claramente la más tardía.",
+    "porQueLaCorrecta": "En el infarto la secuencia clásica de elevación es CK (4-6 h), luego AST (6-8 h) y por último LDH (12-24 h), que también es la que más dura.",
     "motivosPorOpcion": {
       "CK, LDH y AST.": "Coloca LDH antes de AST pese a que el inicio descrito para LDH es más tardío.",
       "AST, CK y LDH.": "Invierte CK y AST respecto al orden clásico, aunque sus ventanas iniciales pueden solaparse.",
       "AST, LDH y CK.": "Sitúa CK al final cuando su elevación precede claramente a LDH."
     },
-    "claveMemorizar": "Secuencia enzimática clásica del IAM: CK, AST, LDH.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-6",
-    "advertenciaRevision": "El PDF aporta ventanas cinéticas solapadas, pero no enuncia literalmente la secuencia CK-AST-LDH; CK y AST pueden empezar dentro de intervalos coincidentes."
+    "claveMemorizar": "Infarto: CK → AST → LDH.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2.pdf, pp. 3-6"
   },
   "217": {
     "respuestaCorrecta": "A",
@@ -461,15 +453,14 @@
   },
   "218": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La clave del banco llama a Km «constante de reacción», pero el modelo la define con precisión como la concentración de sustrato a la que la velocidad es Vmax/2. Ninguna opción expresa correctamente esa definición.",
+    "porQueLaCorrecta": "La Km (constante de Michaelis) es una constante de la reacción: la concentración de sustrato a la que la velocidad es la mitad de la máxima. Cuanto menor es la Km, mayor es la afinidad.",
     "motivosPorOpcion": {
       "Es la velocidad máxima.": "Vmax es el límite de velocidad con la enzima saturada y es un parámetro distinto de Km.",
       "Es la pendiente de la recta.": "La curva de Michaelis-Menten es hiperbólica; Km no es una pendiente.",
       "Es la mitad de la velocidad máxima.": "Km es una concentración de sustrato, mientras que Vmax/2 es la velocidad alcanzada cuando [S] = Km."
     },
-    "claveMemorizar": "Km no es una velocidad: es [S] cuando v = Vmax/2.",
-    "fuente": "Tema 6.1. Enzimas.pdf, pp. 17-18",
-    "advertenciaRevision": "La respuesta A es imprecisa y contradice la definición del PDF. La pregunta no contiene una opción plenamente correcta y debería corregirse."
+    "claveMemorizar": "Km = [sustrato] a Vmax/2; Km baja = alta afinidad.",
+    "fuente": "Tema 6.1. Enzimas.pdf, pp. 17-18"
   },
   "219": {
     "respuestaCorrecta": "D",

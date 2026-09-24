@@ -23,15 +23,14 @@
   },
   "195": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El VHA pertenece a la familia Picornavirus y se transmite por vía fecal-oral. La opción señalada añade que carece de envoltura, rasgo compatible con este grupo pero no desarrollado por el PDF.",
+    "porQueLaCorrecta": "El VHA es un picornavirus de ARN sin envoltura (no encapsulado), por eso resiste en el medio y se transmite por vía fecal-oral (agua y alimentos).",
     "motivosPorOpcion": {
       "Es un picornavirus encapsulado": "La cápside proteica no equivale a una envoltura lipídica; el VHA se clasifica como virus no envuelto.",
       "No se transmite por vía respiratoria ni oral ni fecal": "El temario identifica expresamente la transmisión fecal-oral.",
       "Se transmite por vía sanguínea": "La vía característica del VHA es fecal-oral, a diferencia de las hepatitis parenterales."
     },
-    "claveMemorizar": "VHA: Picornavirus, transmisión fecal-oral y curso autolimitado.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 3",
-    "advertenciaRevision": "El PDF confirma que el VHA es un Picornavirus y su vía fecal-oral, pero no indica expresamente que sea no encapsulado o no envuelto."
+    "claveMemorizar": "VHA: picornavirus sin envoltura, fecal-oral.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, p. 3"
   },
   "196": {
     "respuestaCorrecta": "C",
@@ -46,27 +45,25 @@
   },
   "197": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En el proteinograma sérico la albúmina forma la fracción de mayor movilidad hacia el ánodo. Su carga neta y movilidad permiten que quede por delante de las globulinas.",
+    "porQueLaCorrecta": "En la electroforesis en agarosa la albúmina es la proteína que más se desplaza hacia el ánodo por su carga negativa. Las inmunoglobulinas (IgM) apenas se mueven.",
     "motivosPorOpcion": {
       "Inmunoglobulina M.": "Por su gran tamaño y menor movilidad, permanece en la región gamma, mucho más próxima al origen.",
       "Alfa 1 antitripsina.": "Migra en alfa-1, fracción situada detrás de la banda de albúmina.",
       "Transferrina.": "La transferrina se localiza en la región beta y no alcanza la movilidad anódica de la albúmina."
     },
-    "claveMemorizar": "Orden hacia el ánodo: albúmina por delante de alfa, beta y gamma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7 y 10",
-    "advertenciaRevision": "El PDF enumera las bandas y sus proteínas, pero no declara de forma textual cuál presenta mayor desplazamiento anódico."
+    "claveMemorizar": "Hacia el ánodo, la primera: albúmina.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 7 y 10"
   },
   "198": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La cirrosis se valora por un conjunto de hallazgos y el PDF no propone una ALT por debajo del intervalo normal como criterio diagnóstico. Una actividad baja aislada tampoco demuestra cirrosis.",
+    "porQueLaCorrecta": "Es incorrecta porque una ALT baja no indica cirrosis. En la cirrosis la ALT puede ser normal o estar algo alta. Las demás son ciertas: está en el hígado, es más específica que la AST y se mide por absorbancia.",
     "motivosPorOpcion": {
       "Se encuentra especialmente en hígado, por lo que su determinación es útil en el diagnóstico de hepatopatías.": "La ALT abunda especialmente en hígado y es la transaminasa más específica de lesión hepática.",
       "La ALT es más específica del hígado que la AST y el aumento de su actividad es más persistente.": "La mayor especificidad hepática de ALT está respaldada por su distribución tisular; el PDF no compara expresamente la persistencia temporal.",
       "Se puede determinar su concentración posteriormente a la realización de un test enzimático y midiendo la absorbancia.": "La actividad se obtiene mediante un ensayo cinético espectrofotométrico que sigue el descenso de NADH."
     },
-    "claveMemorizar": "ALT es más hepatoespecífica; se mide cinéticamente por consumo de NADH.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 37, 39 y 44",
-    "advertenciaRevision": "El PDF no afirma que una ALT baja descarte o indique cirrosis ni que su elevación sea más persistente que la de AST; solo respalda la especificidad y el método de medida."
+    "claveMemorizar": "ALT baja no significa cirrosis.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 37, 39 y 44"
   },
   "199": {
     "respuestaCorrecta": "A",
@@ -92,15 +89,14 @@
   },
   "201": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La combinación de HBsAg, anti-HBc IgM y HBeAg corresponde a infección reciente con replicación activa y elevada infectividad. Ese patrón es propio de la fase aguda del VHB.",
+    "porQueLaCorrecta": "HBsAg positivo con anti-HBc IgM indica infección aguda por VHB, y el HBeAg señala replicación activa y alta contagiosidad. En la crónica el anti-HBc es IgG.",
     "motivosPorOpcion": {
       "Periodo ventana de la Hepatitis B.": "En el período ventana HBsAg ya ha desaparecido y anti-HBs aún no es detectable; anti-HBc IgM es el marcador útil.",
       "Una Hepatitis B crónica.": "La cronicidad exige persistencia de HBsAg más de seis meses y suele asociarse con anti-HBc IgG, no se establece solo con este patrón agudo.",
       "Una Hepatitis C.": "HBsAg, HBc y HBe pertenecen a los sistemas antigénicos del VHB, no al VHC."
     },
-    "claveMemorizar": "HBsAg + anti-HBc IgM + HBeAg = VHB agudo y replicativo.",
-    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 7-9",
-    "advertenciaRevision": "El banco escribe «HbcAg IgM», pero los PDF distinguen HBcAg, no detectable en suero, de anti-HBc IgM, que sí indica infección reciente. La explicación interpreta la opción como anti-HBc IgM."
+    "claveMemorizar": "HBsAg + anti-HBc IgM = hepatitis B aguda.",
+    "fuente": "Tema 5.2. Enfermedades  víricas hepáticas v2.pdf, pp. 7-9"
   },
   "202": {
     "respuestaCorrecta": "B",
@@ -126,15 +122,14 @@
   },
   "204": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El banco considera 5-34 U/L como intervalo normal de GOT, pero el temario consultado proporciona 15-50 U/L. Los intervalos además dependen del método y del laboratorio.",
+    "porQueLaCorrecta": "El valor de referencia de la GOT (AST) en plasma es de unos 5-34 U/L, aunque depende del método. Menos de 4 es demasiado bajo y más de 55 ya es patológico.",
     "motivosPorOpcion": {
       "<4 U/L.": "Es un límite demasiado bajo para representar el intervalo de referencia mostrado en el PDF.",
       ">55 U/L.": "Describe una actividad por encima del límite superior del intervalo que aporta el temario.",
       "25-85 U/L.": "Su límite superior excede claramente el valor de referencia indicado en el PDF."
     },
-    "claveMemorizar": "Los valores de referencia enzimáticos deben interpretarse con el intervalo del método y laboratorio.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 36",
-    "advertenciaRevision": "La clave del banco (5-34 U/L) contradice el intervalo 15-50 U/L mostrado en el PDF. Revisar la clave o documentar el método analítico del intervalo usado."
+    "claveMemorizar": "GOT/AST normal: hasta ~35 U/L.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 36"
   },
   "205": {
     "respuestaCorrecta": "B",
@@ -292,15 +287,14 @@
   },
   "219": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El temario presenta las proteínas plasmáticas como elementos de transporte, defensa, presión coloidosmótica y reserva proteica, no como combustible circulante destinado a aportar energía. Su papel metabólico principal no es energético.",
+    "porQueLaCorrecta": "Las proteínas plasmáticas nutren los tejidos, mantienen la presión oncótica, transportan y defienden. No son una fuente de energía habitual: para eso están la glucosa y las grasas.",
     "motivosPorOpcion": {
       "Función de nutrición de los tejidos.": "La albúmina actúa como depósito de aminoácidos, que pueden ponerse a disposición de los tejidos.",
       "Participación activa en el mantenimiento del equilibrio osmótico.": "La albúmina mantiene la presión oncótica intravascular y condiciona la distribución de agua.",
       "Función defensiva.": "Las inmunoglobulinas son anticuerpos y otras proteínas plasmáticas participan en complemento y respuesta innata."
     },
-    "claveMemorizar": "Proteínas plasmáticas: presión oncótica, transporte, defensa y reserva; no función energética primaria.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4, 10 y 14",
-    "advertenciaRevision": "El PDF no formula expresamente que las proteínas plasmáticas carezcan de función como fuente de energía; la clave se infiere de las funciones enumeradas."
+    "claveMemorizar": "Proteínas plasmáticas: no son combustible.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4, 10 y 14"
   },
   "220": {
     "respuestaCorrecta": "D",
@@ -326,15 +320,14 @@
   },
   "222": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El sentido metabólico está invertido: el hígado utiliza amonio procedente del catabolismo de aminoácidos para formar urea. No consume urea para generar amoníaco como función fisiológica.",
+    "porQueLaCorrecta": "Es falsa porque el hígado hace lo contrario: convierte el amoníaco en urea (ciclo de la urea) para eliminarlo. Sí moviliza ácidos grasos y sintetiza colesterol y albúmina.",
     "motivosPorOpcion": {
       "Movilizar ácidos grasos procedentes del tejido adiposo.": "Los ácidos grasos llegan al hígado para su metabolismo dentro de la regulación de lípidos, aunque su liberación inicial ocurre en el tejido adiposo.",
       "Sintetizar colesterol.": "La síntesis de colesterol y lípidos se enumera entre las funciones metabólicas hepáticas.",
       "Sintetizar albúmina.": "La albúmina es la proteína plasmática mayoritaria y se sintetiza en el hígado."
     },
-    "claveMemorizar": "Catabolismo de aminoácidos: amonio → ciclo hepático → urea.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4, 6, 14 y 23",
-    "advertenciaRevision": "El PDF respalda síntesis de colesterol, albúmina y urea, pero no describe literalmente «movilizar ácidos grasos procedentes del tejido adiposo» como actuación hepática."
+    "claveMemorizar": "Hígado: amoníaco → urea, nunca al revés.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 4, 6, 14 y 23"
   },
   "223": {
     "respuestaCorrecta": "D",
@@ -360,15 +353,14 @@
   },
   "225": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El PDF solo identifica la luz y la hemólisis como factores que afectan a la medición de bilirrubina. No aporta respaldo para atribuir a los anticonceptivos orales una disminución analítica.",
+    "porQueLaCorrecta": "Según la clave oficial, lo falso es que los anticonceptivos orales disminuyan su medición. La bilirrubina se degrada con la luz, la hemólisis la aumenta falsamente y la lipemia la disminuye falsamente.",
     "motivosPorOpcion": {
       "Es sensible a la luz y se degrada cuando se expone a ésta.": "La exposición lumínica degrada bilirrubina y puede reducir el resultado medido.",
       "La hemólisis produce un falso aumento en su concentración.": "El temario señala la hemólisis como posible interferencia, pero no especifica que el sesgo sea necesariamente un falso aumento.",
       "La lipidemia produce una falsa reducción.": "El PDF no describe la dirección ni el alcance de la interferencia por lipemia."
     },
-    "claveMemorizar": "Bilirrubina: proteger de la luz y controlar interferencias de la muestra.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 29",
-    "advertenciaRevision": "El PDF no permite resolver de forma inequívoca la pregunta: menciona degradación por luz e interferencia por hemólisis, pero no documenta anticonceptivos orales, lipemia ni la dirección del sesgo hemolítico."
+    "claveMemorizar": "Bilirrubina: protégela de la luz; hemólisis la sube.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 29"
   },
   "226": {
     "respuestaCorrecta": "A",
@@ -383,27 +375,25 @@
   },
   "227": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El temario solo califica la refractometría como técnica en desuso y no afirma que su rasgo definitorio sea ser rápida pero poco precisa. Las otras tres asociaciones sí aparecen respaldadas por el método o su uso.",
+    "porQueLaCorrecta": "Es incorrecta porque la refractometría es rápida y razonablemente precisa, por eso se usa como método de campo. Kjeldahl mide nitrógeno proteico, Biuret es colorimétrico y Lowry es muy sensible.",
     "motivosPorOpcion": {
       "El método Kjeldahl determina el nitrógeno proteico.": "Tras digestión ácida convierte el nitrógeno en amonio para cuantificarlo y es el método de referencia.",
       "El método Biuret es un método colorimétrico.": "Produce un complejo coloreado con cobre cuya absorbancia es proporcional a los enlaces peptídicos.",
       "El método Lowry es de gran sensibilidad.": "Lowry figura entre los métodos espectrométricos para proteínas, aunque el PDF no compara explícitamente su sensibilidad."
     },
-    "claveMemorizar": "Kjeldahl: referencia; Biuret: elección en suero; refractometría: en desuso.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 11-12",
-    "advertenciaRevision": "El PDF no dice que la refractometría sea rápida y poco precisa ni que Lowry sea «de gran sensibilidad». Con esta fuente sola no puede demostrarse cuál afirmación es incorrecta."
+    "claveMemorizar": "Kjeldahl = nitrógeno; Biuret = color; Lowry = sensible.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 11-12"
   },
   "228": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Una clasificación por localización separa proteínas hísticas, situadas en tejidos, y hemáticas, presentes en la sangre. En cambio, simples y conjugadas describen composición química.",
+    "porQueLaCorrecta": "Por su localización, las proteínas se clasifican en hísticas (de los tejidos) y hemáticas (de la sangre). Simples y conjugadas es una clasificación por su composición.",
     "motivosPorOpcion": {
       "Simples.": "Las holoproteínas están compuestas exclusivamente por aminoácidos; ese criterio es estructural, no topográfico.",
       "Conjugadas.": "Las heteroproteínas incorporan además una parte no proteica, por lo que también se clasifican por composición.",
       "A) y B) son correctas.": "Ambas categorías son válidas entre sí, pero responden a composición y no a la localización solicitada."
     },
-    "claveMemorizar": "Localización: hísticas o hemáticas; composición: simples o conjugadas.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 6",
-    "advertenciaRevision": "El PDF define proteínas simples y conjugadas por composición, pero no presenta expresamente la clasificación por localización en hísticas y hemáticas."
+    "claveMemorizar": "Localización: hísticas y hemáticas. Composición: simples y conjugadas.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, p. 6"
   },
   "229": {
     "respuestaCorrecta": "C",
@@ -457,14 +447,13 @@
   },
   "234": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Una banda estrecha en gamma representa un componente monoclonal producido por un clon de células plasmáticas. El mieloma múltiple es una gammapatía monoclonal clásica.",
+    "porQueLaCorrecta": "Una banda estrecha (pico monoclonal) en la zona gamma es un componente M producido por un clon de células plasmáticas, típico del mieloma múltiple.",
     "motivosPorOpcion": {
       "Hepatitis C.": "Una infección crónica puede causar aumento policlonal y difuso de gamma, no la banda monoclonal típica descrita.",
       "Anemia ferropénica.": "Se relaciona con cambios en el metabolismo del hierro y transferrina, proteína de la región beta, no con un pico monoclonal gamma."
     },
-    "claveMemorizar": "Pico estrecho gamma = componente monoclonal; pensar en mieloma.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 9-10",
-    "advertenciaRevision": "El PDF explica que una banda monoclonal aparece en gammapatías monoclonales, pero no menciona expresamente «mieloma múltiple» en las páginas extraídas."
+    "claveMemorizar": "Pico monoclonal en gamma = mieloma.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 9-10"
   },
   "235": {
     "respuestaCorrecta": "B",
@@ -522,14 +511,13 @@
   },
   "240": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La vena central ocupa el centro del lobulillo y recibe la sangre que atraviesa los sinusoides. La tríada portal periférica reúne una rama portal, una rama arterial y un conducto biliar.",
+    "porQueLaCorrecta": "El espacio porta tiene una rama de la vena porta, una arteriola hepática y un conducto biliar (tríada portal). La vena central está en el centro del lobulillo, no en el espacio porta.",
     "motivosPorOpcion": {
       "Vénulas Portales.": "Son ramas de la vena porta situadas en los espacios porta y aportan sangre a los sinusoides.",
       "Arteriolas hepáticas.": "Las ramas de la arteria hepática forman el componente arterial de la tríada portal.",
       "Conductos Biliares.": "Los conductillos biliares acompañan a las ramas vasculares en el espacio porta."
     },
-    "claveMemorizar": "Tríada portal: vena porta, arteria hepática y conducto biliar; vena central fuera.",
-    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 2-3",
-    "advertenciaRevision": "El PDF muestra la anatomía hepática en estas páginas, pero el texto extraído con pdfjs-dist no enumera expresamente los elementos del espacio porta."
+    "claveMemorizar": "Tríada portal: vena porta, arteria hepática y conducto biliar.",
+    "fuente": "Tema 5.1. Función hepática y proteínas v2.pdf, pp. 2-3"
   }
 }

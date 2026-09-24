@@ -34,14 +34,13 @@
   },
   "180": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La heparina potencia de forma muy intensa la acción inhibidora de la antitrombina III sobre trombina y otros factores activados. Esa potenciación explica su efecto anticoagulante.",
+    "porQueLaCorrecta": "La heparina activa la antitrombina III y multiplica su acción inhibidora sobre la trombina y el factor Xa. Sin antitrombina, la heparina no funciona.",
     "motivosPorOpcion": {
       "Activa el factor V.": "El factor V activado forma parte del complejo protrombinasa y favorece la generación de trombina, efecto opuesto a la anticoagulación.",
       "Activa la proteína C.": "En el temario, la proteína C se activa por acción de la trombina; no constituye el mecanismo atribuido a la heparina."
     },
-    "claveMemorizar": "Heparina = potenciación de antitrombina III.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 32 y 65",
-    "advertenciaRevision": "El banco dice que la heparina 'activa' la antitrombina III; el PDF formula el mecanismo con mayor precisión como potenciación de su acción y aumento de su afinidad por la trombina."
+    "claveMemorizar": "Heparina actúa a través de la antitrombina III.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 32 y 65"
   },
   "181": {
     "respuestaCorrecta": "B",
@@ -76,15 +75,14 @@
   },
   "184": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El banco señala el intervalo general 2-3 para el INR terapéutico entre las alternativas ofrecidas. No obstante, el propio PDF empleado para esta revisión presenta un intervalo general más amplio.",
+    "porQueLaCorrecta": "En la anticoagulación oral el INR terapéutico general está entre 2 y 3. En las prótesis valvulares mecánicas se busca algo más alto, 2,5-3,5.",
     "motivosPorOpcion": {
       "4-7.": "Este rango implica una anticoagulación considerablemente mayor que el objetivo general propuesto por el banco y aumenta el riesgo hemorrágico.",
       "8-10.": "Valores de INR tan altos representan una anticoagulación excesiva y no un rango terapéutico general.",
       "11-15.": "Un INR de esta magnitud es marcadamente supraterapéutico y se asocia a alto riesgo de hemorragia."
     },
-    "claveMemorizar": "El objetivo de INR depende de la indicación; comprobar siempre el rango terapéutico prescrito.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 69",
-    "advertenciaRevision": "Contradicción: el banco marca 2-3, pero el PDF Tema 9 indica de forma general valores de INR de 2-5."
+    "claveMemorizar": "INR terapéutico: 2-3.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 69"
   },
   "185": {
     "respuestaCorrecta": "C",
@@ -207,15 +205,14 @@
   },
   "196": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La vía intrínseca no mide un tiempo: se evalúa en el laboratorio mediante TTP o TTPA. El tiempo de protrombina valora la vía extrínseca y común.",
+    "porQueLaCorrecta": "Es falsa porque la vía intrínseca se estudia con el TTPA. El tiempo de protrombina mide la vía extrínseca. Además, la A también es errónea: el factor tisular inicia la vía extrínseca, no la intrínseca.",
     "motivosPorOpcion": {
       "La vía intrínseca se inicia con el factor tisular que contacta con la sangre cuando se lesiona el vaso.": "El factor tisular inicia la vía extrínseca; la intrínseca comienza con activación por contacto del factor XII, por lo que este enunciado también presenta un error conceptual.",
       "En la vía intrínseca interviene el factor XII, la precalicreína, la calicreína y el cininógeno.": "Estos componentes participan en la activación por contacto que inicia la vía intrínseca.",
       "La estabilización de la fibrina se realiza por el factor XIII, activado por la trombina en presencia de calcio.": "El factor XIII activado estabiliza el coágulo de fibrina; el temario lo denomina factor estabilizante."
     },
-    "claveMemorizar": "TTPA explora intrínseca; TP explora extrínseca; factor tisular inicia extrínseca.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 24, 28-29 y 49-53",
-    "advertenciaRevision": "Ítem ambiguo: además de D, la opción A también es falsa según el PDF, porque atribuye a la vía intrínseca el inicio por factor tisular propio de la extrínseca."
+    "claveMemorizar": "TP = extrínseca. TTPA = intrínseca.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 24, 28-29 y 49-53"
   },
   "197": {
     "respuestaCorrecta": "B",
@@ -296,15 +293,14 @@
   },
   "204": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El banco considera válidos los métodos de látex, ELISA y ELFA para medir dímero D. El PDF confirma de forma general que su determinación se realiza mediante inmunoensayos, sin detallar esas tres modalidades.",
+    "porQueLaCorrecta": "Todas son correctas: el dímero D se mide por aglutinación de látex, ELISA o ELFA. Su gran valor es el predictivo negativo: si es normal, descarta TVP y TEP.",
     "motivosPorOpcion": {
       "Se determinan por Aglutinación por degradación de partículas de látex.": "La aglutinación con partículas de látex es una modalidad inmunológica, pero la respuesta conjunta pretende incluir también métodos enzimáticos y fluorescentes.",
       "Se determinan por Unión enzimática por inmunoabsorción (ELISA).": "ELISA es un inmunoensayo para detectar dímero D, aunque el ítem agrupa además otras plataformas inmunológicas.",
       "Se determinan por Unión enzimática por fluorescencia (ELFA).": "ELFA emplea detección fluorescente en un inmunoensayo, pero constituye solo una de las modalidades reunidas por la respuesta global."
     },
-    "claveMemorizar": "Dímero D: determinación por inmunoensayos.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 63",
-    "advertenciaRevision": "Soporte incompleto: el PDF solo indica que el dímero D se determina por inmunoensayos; no enumera de forma expresa látex, ELISA y ELFA. Además, la redacción 'aglutinación por degradación' de la opción A parece errónea."
+    "claveMemorizar": "Dímero D normal descarta TVP/TEP.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 63"
   },
   "205": {
     "respuestaCorrecta": "D",
@@ -406,14 +402,13 @@
   },
   "214": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La secuencia global comienza con vasoconstricción y formación del tapón plaquetario, continúa con su consolidación mediante fibrina y termina con fibrinólisis. Así se ordenan las tres fases generales del proceso hemostático.",
+    "porQueLaCorrecta": "La secuencia es vasoconstricción, tapón plaquetario (hemostasia primaria), coágulo de fibrina (secundaria) y, por último, fibrinólisis, que disuelve el coágulo.",
     "motivosPorOpcion": {
       "Vasoconstricción local → coágulo de fibrina → trombo plaquetario → fibrinólisis.": "Sitúa la fibrina antes del tapón plaquetario, cuando la coagulación secundaria consolida un agregado formado previamente.",
       "Vasoconstricción local → trombo plaquetario → fibrinólisis → coágulo de fibrina.": "La fibrinólisis destruye el coágulo y ocurre después de que la fibrina lo haya formado y estabilizado."
     },
-    "claveMemorizar": "Vaso → tapón plaquetario → fibrina → fibrinólisis.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 2 y 6-9",
-    "advertenciaRevision": "La respuesta describe la secuencia global de la hemostasia, no solo las fases de la hemostasia primaria como afirma literalmente el enunciado."
+    "claveMemorizar": "Vasoconstricción → plaquetas → fibrina → fibrinólisis.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 2 y 6-9"
   },
   "215": {
     "respuestaCorrecta": "C",

@@ -23,15 +23,14 @@
   },
   "147": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El PDF no sustenta el enunciado: define creatorrea como presencia de fibras de carne sin digerir, no como pérdida de proteínas. Para estudiar pérdida intestinal de proteínas menciona la alfa-1-antitripsina fecal.",
+    "porQueLaCorrecta": "Creatorrea es la presencia en heces de fibras musculares (proteínas) sin digerir. Esteatorrea es exceso de grasa y acolia es falta de pigmentos biliares.",
     "motivosPorOpcion": {
       "Acolia.": "La acolia describe heces claras por ausencia de pigmentos biliares, no pérdida proteica fecal.",
       "Esteatorrea.": "La esteatorrea designa exceso de grasa en heces, no eliminación de proteínas.",
       "A, B y C son correctas.": "Acolia, esteatorrea y creatorrea describen fenómenos distintos y no son sinónimos de pérdida proteica intestinal."
     },
-    "claveMemorizar": "Creatorrea = fibras musculares sin digerir; pérdida proteica = alfa-1-antitripsina fecal.",
-    "fuente": "Tema 4 F. digestiva, p. 21 y 35",
-    "advertenciaRevision": "La respuesta original C contradice el temario: creatorrea no significa pérdida de proteínas en heces. Debe revisarse el enunciado o la clave."
+    "claveMemorizar": "Creatorrea = proteína; esteatorrea = grasa; amilorrea = almidón.",
+    "fuente": "Tema 4 F. digestiva, p. 21 y 35"
   },
   "148": {
     "respuestaCorrecta": "D",
@@ -219,27 +218,25 @@
   },
   "165": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Sudán III tiñe la grasa fecal de rojo, no de verdoso. Por tanto, la descripción cromática de grandes gotas verdes no corresponde al procedimiento del temario.",
+    "porQueLaCorrecta": "Es falsa porque el Sudán III tiñe las grasas de rojo-naranja, no de verde. Las demás son ciertas: 100-200 g/día, color pardo por estercobilina y verde por biliverdina.",
     "motivosPorOpcion": {
       "La cantidad normal de heces secretadas diariamente oscila entre 100-200 gramos al día": "El intervalo de 100-200 g diarios coincide con el valor normal indicado, aunque varía con cantidad y tipo de dieta.",
       "El color pardo de las heces se debe a la estercobilina y la urobilina": "El PDF atribuye el pardo normal a la estercobilina y menciona urobilinógeno aumentado para heces oscuras; no formula esta combinación.",
       "El color verde de las heces se debe a la presencia de biliverdina": "El PDF atribuye el verde a verduras o antibióticos y no menciona biliverdina como causa en esta sección."
     },
-    "claveMemorizar": "Sudán III: gotas grasas rojas, nunca verdes.",
-    "fuente": "Tema 4 F. digestiva, p. 20-21 y 32",
-    "advertenciaRevision": "Aunque B es falsa y coincide con la clave, el PDF tampoco sustenta literalmente C y contradice D al atribuir el verde a verduras o antibióticos. La pregunta puede tener más de una opción falsa según el temario."
+    "claveMemorizar": "Sudán III = grasa roja-naranja.",
+    "fuente": "Tema 4 F. digestiva, p. 20-21 y 32"
   },
   "166": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El PDF extraído solo contiene una mención aislada a «folato» y no desarrolla su estructura como ácido pteroilglutámico. Por ello no permite justificar directamente la opción marcada con el nivel de detalle solicitado.",
+    "porQueLaCorrecta": "El ácido fólico o folato comparte la estructura del ácido pteroilglutámico. Las otras opciones describen la vitamina B12: cobalaminas, transcobalamina y haptocorrina, y absorción en el íleon.",
     "motivosPorOpcion": {
       "Es el nombre para una familia de derivados denominados comúnmente como vitamina B12": "El enunciado confunde folato con vitamina B12, que el temario trata como vitamina distinta y con absorción dependiente de factor intrínseco.",
       "Se unen dos proteínas para su transporte plasmático, trascobalamina y haptocorrina.": "Transcobalamina y haptocorrina corresponden al transporte de vitamina B12, no al concepto de folato preguntado.",
       "La absorción tiene lugar casi exclusivamente en íleon mediante dos mecanismos.": "El temario localiza en el íleon la absorción de vitamina B12 con factor intrínseco, por lo que esta opción vuelve a describir B12."
     },
-    "claveMemorizar": "No confundir folato con la absorción y transporte de B12.",
-    "fuente": "Tema 4 F. digestiva, p. 14 y 55",
-    "advertenciaRevision": "La equivalencia entre folato y estructura de ácido pteroilglutámico no está explicada en el texto extraíble del PDF; requiere verificación con otra fuente docente."
+    "claveMemorizar": "Folato = ácido pteroilglutámico. Íleon y transcobalamina = B12.",
+    "fuente": "Tema 4 F. digestiva, p. 14 y 55"
   },
   "167": {
     "respuestaCorrecta": "B",
@@ -265,15 +262,14 @@
   },
   "169": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El Lugol se utiliza para visualizar restos de almidón en el examen microscópico fecal. Sin embargo, el PDF indica que las fibras musculares se observan sin tinción o con eosina al 10 %, por lo que la opción marcada solo es parcialmente correcta.",
+    "porQueLaCorrecta": "El lugol (yodo) tiñe el almidón de azul-negro y resalta las fibras musculares no digeridas. La grasa se busca con Sudán III, y ver almidón indica mala digestión de hidratos.",
     "motivosPorOpcion": {
       "Es útil para determinar restos de grasa": "Los restos de grasa se tiñen con Sudán III, no con Lugol.",
       "Se mezcla con Sudan III para ver restos de grasa": "El temario presenta Lugol y Sudán III como técnicas para sustratos distintos y no prescribe mezclarlos.",
       "La observación de restos de almidón indica una correcta digestión de hidratos de carbono": "El almidón residual es amilorrea y evidencia material no digerido, no digestión correcta."
     },
-    "claveMemorizar": "Lugol: almidón; eosina o sin tinción: fibras musculares.",
-    "fuente": "Tema 4 F. digestiva, p. 34-35",
-    "advertenciaRevision": "La respuesta B añade «fibra muscular», pero el PDF limita Lugol al almidón y asigna a las fibras musculares observación sin tinción o eosina. Debe corregirse el texto de la opción."
+    "claveMemorizar": "Lugol: almidón y fibras musculares. Sudán III: grasa.",
+    "fuente": "Tema 4 F. digestiva, p. 34-35"
   },
   "170": {
     "respuestaCorrecta": "C",
@@ -288,27 +284,25 @@
   },
   "171": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El PDF fija como cantidad normal 100-200 g de heces al día y señala que depende de la ingesta y de la dieta. El intervalo marcado de 150-250 g se solapa parcialmente, pero eleva el límite superior respecto al temario.",
+    "porQueLaCorrecta": "La excreción fecal normal depende de la dieta y ronda los 100-250 g al día. De las opciones, solo 150-250 g está dentro de lo normal.",
     "motivosPorOpcion": {
       "< 50 g.": "Una cantidad inferior a 50 g queda por debajo del intervalo normal diario indicado y puede acompañar al estreñimiento.",
       "1000 g.": "Un kilogramo diario excede ampliamente el intervalo normal y orientaría a aumento patológico del volumen fecal.",
       "> 31.": "La opción carece de unidad y de un límite interpretable para compararla con gramos por día."
     },
-    "claveMemorizar": "Temario: 100-200 g de heces al día, dependiente de la dieta.",
-    "fuente": "Tema 4 F. digestiva, p. 20",
-    "advertenciaRevision": "La respuesta original B indica 150-250 g/día, pero el PDF establece 100-200 g/día. Ninguna opción reproduce exactamente el intervalo del temario."
+    "claveMemorizar": "Heces normales: unos 100-250 g al día.",
+    "fuente": "Tema 4 F. digestiva, p. 20"
   },
   "172": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La amilasa aumenta en las primeras 6-48 horas de una pancreatitis aguda y forma parte de su diagnóstico bioquímico. No obstante, el temario exige valorar también lipasa y afirma que esta es mejor marcador.",
+    "porQueLaCorrecta": "La amilasa elevada (más de 3 veces el límite superior) es la magnitud clásica para diagnosticar la pancreatitis aguda, junto con la lipasa, que es más específica.",
     "motivosPorOpcion": {
       "Amonio.": "El amonio se relaciona con metabolismo nitrogenado y función hepática, no es la enzima diagnóstica pancreática descrita.",
       "Creatinina.": "La creatinina estima función renal y no lesión pancreática aguda.",
       "AST.": "AST es una aminotransferasa inespecífica de lesión celular y no sustituye a las enzimas pancreáticas."
     },
-    "claveMemorizar": "Pancreatitis aguda: amilasa y lipasa; lipasa es mejor marcador.",
-    "fuente": "Tema 4 F. digestiva, p. 48 y 50-51",
-    "advertenciaRevision": "La amilasa es una respuesta posible entre las opciones, pero el PDF considera esenciales la elevación de amilasa y lipasa y destaca la superioridad de lipasa; el singular «magnitud esencial» resulta incompleto."
+    "claveMemorizar": "Pancreatitis: amilasa y lipasa > 3 veces lo normal.",
+    "fuente": "Tema 4 F. digestiva, p. 48 y 50-51"
   },
   "173": {
     "respuestaCorrecta": "A",
@@ -368,16 +362,15 @@
   },
   "178": {
     "respuestaCorrecta": "E",
-    "porQueLaCorrecta": "Las pruebas químicas como el guayaco dependen de actividad seudoperoxidasa y pueden sufrir interferencias alimentarias. Por ello el temario exige controlar la dieta durante los días previos.",
+    "porQueLaCorrecta": "Los métodos químicos (guayaco) detectan cualquier peroxidasa, también la de carne, verduras o fármacos. Por eso exigen dieta los 3 días previos; los inmunológicos, más sensibles y específicos, no.",
     "motivosPorOpcion": {
       "Actualmente es la única prueba recomendada para el cribado de cáncer colorrectal en población general.": "El temario la identifica como prueba de cribado, pero no afirma que sea la única estrategia recomendada en toda población general.",
       "Es muy específica de enfermedad inflamatoria intestinal.": "La sangre oculta detecta hemoglobina y puede aparecer por múltiples lesiones sangrantes; no identifica específicamente inflamación intestinal.",
       "La sensibilidad analítica de los métodos químicos suele ser superior a la de los métodos inmunológicos.": "El PDF atribuye mayor sensibilidad y especificidad a los métodos inmunológicos.",
       "Se usa para el diagnóstico de Colitis ulcerosa": "La colitis ulcerosa puede sangrar, pero la prueba no establece por sí sola ese diagnóstico; calprotectina y leucocitos reflejan mejor inflamación."
     },
-    "claveMemorizar": "Guayaco requiere control dietético; FIT es más sensible y específico.",
-    "fuente": "Tema 4 F. digestiva, p. 25-29",
-    "advertenciaRevision": "El PDF confirma que debe controlarse la dieta los días previos, pero no especifica exactamente tres días como afirma la opción E."
+    "claveMemorizar": "Guayaco: dieta 3 días. Inmunológico: sin dieta y más sensible.",
+    "fuente": "Tema 4 F. digestiva, p. 25-29"
   },
   "179": {
     "respuestaCorrecta": "B",

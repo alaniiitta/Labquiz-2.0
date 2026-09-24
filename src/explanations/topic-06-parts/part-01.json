@@ -45,15 +45,14 @@
   },
   "5": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Las troponinas cardíacas son muy específicas, pero el temario sitúa su aumento habitual entre 3 y 12 horas, no necesariamente dentro de las dos primeras. La afirmación une una propiedad verdadera con un tiempo demasiado precoz.",
+    "porQueLaCorrecta": "Es falsa porque la troponina es cardioespecífica, pero no suele detectarse en las 2 primeras horas: empieza a subir a las 3-6 h. El marcador más precoz es la mioglobina.",
     "motivosPorOpcion": {
       "El marcador de preferencia del IAM es la Troponina.": "Troponina I o T es la magnitud de elección para el infarto agudo de miocardio.",
       "El IAM refleja la pérdida de células cardiacas (necrosis).": "La lesión miocárdica libera componentes intracelulares al plasma, fundamento de la medición de biomarcadores.",
       "Ante la ausencia de medición de troponina, la CK-MB masa es el mejor indicador.": "CK-MB posee alta sensibilidad y especificidad y fue el marcador alternativo clásico antes del predominio de la troponina."
     },
-    "claveMemorizar": "Troponina: elección en IAM; elevación habitual desde 3-12 h.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2, 6, 9-10",
-    "advertenciaRevision": "El PDF confirma que la detección habitual no se fija en las primeras dos horas, pero no formula expresamente la recomendación alternativa de CK-MB masa cuando no hay troponina."
+    "claveMemorizar": "Troponina: sube a las 3-6 h. Mioglobina: la más precoz.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2, 6, 9-10"
   },
   "6": {
     "respuestaCorrecta": "B",
@@ -68,27 +67,25 @@
   },
   "7": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Las constantes de equilibrio se representan de forma general con K. Una constante resume la relación entre especies cuando las velocidades directa e inversa se igualan.",
+    "porQueLaCorrecta": "Las constantes de equilibrio y de disociación se representan con la letra K (por ejemplo, Km o Kd). Describen el punto en que las reacciones directa e inversa se igualan.",
     "motivosPorOpcion": {
       "S": "S se usa habitualmente para representar el sustrato, no una constante de equilibrio.",
       "P": "P identifica el producto en el esquema de reacción enzimática, no la constante.",
       "T": "T no es la notación general empleada en el temario para el equilibrio químico."
     },
-    "claveMemorizar": "K representa una constante; S, sustrato; P, producto.",
-    "fuente": "Tema 6.1. Enzimas, pp. 2-3",
-    "advertenciaRevision": "El PDF usa K para la constante de equilibrio, pero no define específicamente una «constante de disociación para alcanzar el punto de equilibrio»."
+    "claveMemorizar": "Constante de equilibrio = K.",
+    "fuente": "Tema 6.1. Enzimas, pp. 2-3"
   },
   "8": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "El ejercicio puede liberar enzimas abundantes en músculo, como CK, LDH y aldolasa. La piruvato kinasa no se presenta en el temario como una elevación sérica muscular característica del esfuerzo.",
+    "porQueLaCorrecta": "El ejercicio intenso libera enzimas musculares: CK, LDH y aldolasa. La piruvato kinasa es sobre todo eritrocitaria y no sube con el ejercicio.",
     "motivosPorOpcion": {
       "Creatina kinasa.": "CK-MM abunda en músculo esquelético y aumenta ante daño o estrés muscular.",
       "Lactato deshidrogenasa.": "La LDH está ampliamente distribuida y puede elevarse por lisis de células musculares.",
       "Aldolasa.": "El temario incluye la aldolasa entre las enzimas liberadas en destrucción muscular."
     },
-    "claveMemorizar": "Esfuerzo muscular: pueden subir CK, LDH y aldolasa.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 3-5",
-    "advertenciaRevision": "El PDF relaciona CK, LDH y aldolasa con destrucción muscular, pero no compara directamente las cuatro enzimas tras ejercicio ni menciona la piruvato kinasa."
+    "claveMemorizar": "Ejercicio: ↑ CK, LDH y aldolasa.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 3-5"
   },
   "9": {
     "respuestaCorrecta": "D",
@@ -114,15 +111,14 @@
   },
   "11": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Las enzimas diagnósticas suelen encontrarse dentro de las células y pasan al plasma cuando existe lesión o aumento de liberación. Por eso es falsa la inversión de ese gradiente de concentración.",
+    "porQueLaCorrecta": "Es falsa porque la mayoría de las enzimas están mucho más concentradas dentro de las células que en el plasma. Por eso su aumento en plasma indica lesión celular.",
     "motivosPorOpcion": {
       "Son catalizadores con alta especificidad por su substrato.": "La complementariedad del sitio activo confiere especificidad por sustrato y tipo de reacción.",
       "Como catalizadores están presentes en cantidad mínima y pueden saturarse": "Pequeñas cantidades catalizan reacciones y, con sustrato abundante, todos los sitios activos pueden quedar ocupados.",
       "Los inhibidores no competitivos reducen la capacidad de la enzima para convertir el substrato en producto.": "Al disminuir Vmax, queda reducida la capacidad catalítica total aunque el sustrato aún pueda unirse."
     },
-    "claveMemorizar": "Enzimas celulares altas en plasma suelen indicar liberación tisular.",
-    "fuente": "Tema 6.1. Enzimas, pp. 3-6, 15 y 21",
-    "advertenciaRevision": "El PDF explica la liberación plasmática por muerte celular, pero no compara de forma literal las concentraciones intracelulares y plasmáticas de la mayoría de enzimas."
+    "claveMemorizar": "Enzimas: dentro de la célula; en plasma = lesión.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3-6, 15 y 21"
   },
   "12": {
     "respuestaCorrecta": "C",
@@ -137,15 +133,14 @@
   },
   "13": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "NT-proBNP presenta mayor estabilidad analítica que BNP en suero y plasma, de modo que la frase invierte la relación. Ambos proceden del procesamiento de proBNP y se usan en insuficiencia cardíaca.",
+    "porQueLaCorrecta": "Es incorrecta porque es al revés: el NT-proBNP es más estable que el BNP en suero y plasma y tiene una vida media más larga. Por eso se usa más en el laboratorio.",
     "motivosPorOpcion": {
       "Los péptidos natriuréticos actúan sobre el glomérulo renal.": "Su acción renal favorece natriuresis y diuresis, parte de la respuesta frente a sobrecarga de volumen.",
       "En circulación se detectan fragmentos de BNP y de NT- proBNP.": "El procesamiento de proBNP libera BNP biológicamente activo y el fragmento amino-terminal medible.",
       "Existe un péptido natriurético de tipo D, llamado DNP.": "DNP es una denominación reconocida dentro de la familia de péptidos natriuréticos, aunque no es el marcador clínico principal."
     },
-    "claveMemorizar": "NT-proBNP es más estable; BNP es el péptido activo.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15",
-    "advertenciaRevision": "El PDF vincula BNP y NT-proBNP con insuficiencia cardíaca, pero el texto extraído no documenta su estabilidad, fragmentos circulantes, acción glomerular ni DNP."
+    "claveMemorizar": "NT-proBNP: más estable y vida media más larga que el BNP.",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15"
   },
   "14": {
     "respuestaCorrecta": "B",
@@ -204,15 +199,14 @@
   },
   "19": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "En ELISA, una enzima se acopla al sistema de reconocimiento y transforma un sustrato en una señal medible. RIA sustituye ese sistema de revelado por un marcador radiactivo.",
+    "porQueLaCorrecta": "El ELISA usa como marcador una enzima (peroxidasa o fosfatasa alcalina) que transforma un sustrato en un producto coloreado. El RIA usa un isótopo radiactivo.",
     "motivosPorOpcion": {
       "Un isótopo aglutinante": "La aglutinación es un fenómeno de agregación de partículas y no define el marcador de un inmunoensayo enzimático.",
       "Un isótopo de la fracción del complemento": "ELISA no depende de marcar radiactivamente componentes del complemento.",
       "Una hemaglutinina": "Una hemaglutinina produce agregación de eritrocitos, pero no genera la señal enzimática característica de ELISA."
     },
-    "claveMemorizar": "RIA revela con radioisótopo; ELISA, con enzima.",
-    "fuente": "Tema 6.1. Enzimas, p. 25",
-    "advertenciaRevision": "El PDF menciona el inmunoensayo para medir proteínas, pero no explica ni compara las técnicas RIA y ELISA."
+    "claveMemorizar": "ELISA = enzima. RIA = radioisótopo.",
+    "fuente": "Tema 6.1. Enzimas, p. 25"
   },
   "20": {
     "respuestaCorrecta": "C",
@@ -227,15 +221,14 @@
   },
   "21": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Las isoenzimas tienen estructuras o secuencias diferentes, pero conservan la capacidad de catalizar la misma reacción. Su distribución por tejidos permite inferir el origen de una elevación sérica.",
+    "porQueLaCorrecta": "Las isoenzimas son proteínas distintas, codificadas por genes diferentes, que catalizan la misma reacción. Su distribución en los tejidos permite saber el origen de una elevación (por ejemplo, CK-MB = corazón).",
     "motivosPorOpcion": {
       "Enzimas iguales que catalizan distintas reacciones.": "Las isoenzimas no son moléculas iguales y comparten reacción catalizada, no reacciones distintas.",
       "Modificaciones postraduccionales de las enzimas.": "Una modificación posterior a la traducción puede generar formas moleculares, pero no define por sí sola una isoenzima codificada de manera diferente.",
       "La misma molécula de enzima que se expresa en distintos tejidos.": "La localización puede variar, pero las isoenzimas son formas estructuralmente distintas, no una única molécula idéntica."
     },
-    "claveMemorizar": "Isoenzimas: estructura distinta, misma reacción, distribución tisular diferente.",
-    "fuente": "Tema 6.1. Enzimas, p. 11",
-    "advertenciaRevision": "El PDF confirma diferencias de secuencia y una misma reacción, pero no declara literalmente que todas las isoenzimas estén codificadas por genes distintos."
+    "claveMemorizar": "Isoenzimas: distinta proteína, misma reacción.",
+    "fuente": "Tema 6.1. Enzimas, p. 11"
   },
   "22": {
     "respuestaCorrecta": "A",
@@ -261,27 +254,25 @@
   },
   "24": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "proBNP es el precursor liberado por el corazón ante tensión de la pared y da lugar a BNP y NT-proBNP. Por eso sus productos se emplean como marcadores de insuficiencia cardíaca.",
+    "porQueLaCorrecta": "El proBNP se sintetiza en el corazón, sobre todo en los ventrículos, cuando se distiende la pared. Se escinde en BNP (activo) y NT-proBNP (inactivo).",
     "motivosPorOpcion": {
       "Bazo.": "El bazo participa en funciones hematológicas e inmunitarias, no es la fuente principal del precursor natriurético cardíaco.",
       "Hígado.": "El hígado sintetiza numerosas proteínas plasmáticas, pero proBNP se vincula a la respuesta del tejido cardíaco.",
       "Riñón.": "La función renal modifica las concentraciones circulantes de NT-proBNP por su eliminación, pero eso no convierte al riñón en su lugar principal de síntesis."
     },
-    "claveMemorizar": "proBNP nace en corazón; el riñón influye en su concentración.",
-    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15",
-    "advertenciaRevision": "El PDF asigna BNP/NT-proBNP a insuficiencia cardíaca y señala el efecto de la función renal, pero el texto extraído no afirma explícitamente el órgano principal de síntesis de proBNP."
+    "claveMemorizar": "proBNP = corazón (ventrículos distendidos).",
+    "fuente": "Tema 6.2. Enzimas cardiacas v2, pp. 2 y 14-15"
   },
   "25": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La actividad puede obtenerse siguiendo desaparición de sustrato, aparición de producto o una reacción indicadora, con lecturas finales o cinéticas. Según el diseño, esto admite cálculo espectrofotométrico, calibración o medición indirecta.",
+    "porQueLaCorrecta": "Todas son correctas: con el ΔA/min se calcula la actividad aplicando Lambert-Beer con el coeficiente de extinción, con una recta de calibrado o midiendo indirectamente el sustrato.",
     "motivosPorOpcion": {
       "Mediante la aplicación de una variante de la ley de Lambert-Beer.": "La absorbancia puede convertirse en concentración cuando se conoce la respuesta espectrofotométrica del compuesto medido.",
       "Mediante la construcción de una recta de calibrado.": "Una calibración relaciona señales conocidas con concentración o actividad y permite interpolar la muestra.",
       "Con medidas indirectas de la concentración de sustrato.": "Las reacciones auxiliares e indicadoras permiten inferir actividad a partir de un compuesto medible relacionado con el sustrato."
     },
-    "claveMemorizar": "Actividad enzimática: medir sustrato, producto o reacción acoplada.",
-    "fuente": "Tema 6.1. Enzimas, p. 25",
-    "advertenciaRevision": "El PDF respalda los principios de medida directa e indirecta, pero no enumera literalmente la ley de Lambert-Beer ni la recta de calibrado en esta sección."
+    "claveMemorizar": "Actividad enzimática: ΔA/min + Lambert-Beer o calibración.",
+    "fuente": "Tema 6.1. Enzimas, p. 25"
   },
   "26": {
     "respuestaCorrecta": "B",
@@ -351,15 +342,14 @@
   },
   "32": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Un activador favorece una conformación catalíticamente eficaz y eleva la velocidad de reacción. En términos energéticos, facilita que más moléculas alcancen el estado de transición.",
+    "porQueLaCorrecta": "Los activadores aumentan la velocidad de la reacción enzimática, porque facilitan la catálisis y bajan aún más la energía de activación. Las formas precursoras inactivas son los zimógenos.",
     "motivosPorOpcion": {
       "Formas precursoras inactivas de las enzimas.": "Esa definición corresponde a zimógenos o proenzimas, que requieren un cambio estructural para activarse.",
       "Sustancias que disminuyen la velocidad de la reacción al disminuir aún más la energía de activación.": "Disminuir la barrera energética favorece la reacción; una reducción de velocidad describiría inhibición, no activación.",
       "Ninguna es correcta.": "Sí existe una opción coherente con el aumento de actividad producido por activadores."
     },
-    "claveMemorizar": "Activador acelera; inhibidor frena; zimógeno aún no cataliza.",
-    "fuente": "Tema 6.1. Enzimas, pp. 3, 9 y 12",
-    "advertenciaRevision": "El PDF indica que efectores alostéricos pueden activar enzimas y que las enzimas reducen la energía de activación, pero no define al activador exactamente con la frase del banco."
+    "claveMemorizar": "Activador ↑ velocidad. Zimógeno = precursor inactivo.",
+    "fuente": "Tema 6.1. Enzimas, pp. 3, 9 y 12"
   },
   "33": {
     "respuestaCorrecta": "C",
@@ -396,15 +386,14 @@
   },
   "36": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Muchas proteasas se sintetizan como zimógenos para evitar que degraden proteínas en el tejido que las produce. Una activación estructural posterior restringe su acción al lugar y momento adecuados.",
+    "porQueLaCorrecta": "Las enzimas proteolíticas (pepsina, tripsina, quimotripsina) se sintetizan como proenzimas o zimógenos inactivos para no digerir el tejido que las produce. Se activan en su lugar de acción.",
     "motivosPorOpcion": {
       "Almidón.": "El almidón es un polisacárido que actúa como sustrato de amilasas, no una clase de enzimas precursoras.",
       "Bacterias.": "Las bacterias son organismos y no una categoría enzimática definida por activación de zimógenos.",
       "Levaduras.": "Las levaduras son hongos unicelulares, no formas precursoras de enzimas."
     },
-    "claveMemorizar": "Proteasas digestivas: se fabrican inactivas para evitar autodigestión.",
-    "fuente": "Tema 6.1. Enzimas, p. 12",
-    "advertenciaRevision": "El PDF define proenzima o zimógeno como precursor inactivo, pero no ofrece en esa página el ejemplo específico de las enzimas proteolíticas."
+    "claveMemorizar": "Proteasas = zimógenos (pepsinógeno, tripsinógeno).",
+    "fuente": "Tema 6.1. Enzimas, p. 12"
   },
   "37": {
     "respuestaCorrecta": "D",
@@ -452,27 +441,25 @@
   },
   "41": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La apoenzima aporta la estructura proteica y la coenzima orgánica completa la maquinaria catalítica. Al asociarse forman la holoenzima activa.",
+    "porQueLaCorrecta": "La holoenzima es la enzima completa y activa: la apoenzima (parte proteica) más la coenzima o cofactor. Ninguna de las dos sola es activa.",
     "motivosPorOpcion": {
       "Holoenzima = apoenzima + isoenzima": "Una isoenzima es una variante catalítica completa, no el componente auxiliar que activa una apoenzima.",
       "Holoenzima = coenzima + isoenzima": "La definición requiere una apoenzima como parte proteica; una isoenzima no la sustituye.",
       "Holoenzima = enzima + isoenzima": "Sumar dos formas enzimáticas no describe la asociación entre proteína y cofactor."
     },
-    "claveMemorizar": "Holo = apo + cofactor; si el cofactor es orgánico, coenzima.",
-    "fuente": "Tema 6.1. Enzimas, p. 10",
-    "advertenciaRevision": "El PDF da la fórmula general «holoenzima = apoenzima + cofactor»; la opción del banco usa el caso particular coenzima y omite otros cofactores posibles, como iones metálicos."
+    "claveMemorizar": "Holoenzima = apoenzima + coenzima.",
+    "fuente": "Tema 6.1. Enzimas, p. 10"
   },
   "42": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La ECA sérica puede reflejar la actividad granulomatosa de la sarcoidosis y se utiliza como apoyo en su seguimiento. No es suficientemente específica para establecer por sí sola el diagnóstico.",
+    "porQueLaCorrecta": "En la sarcoidosis, los granulomas producen enzima convertidora de angiotensina (ECA), cuyo nivel sérico refleja la actividad de la enfermedad y sirve para seguirla.",
     "motivosPorOpcion": {
       "PCR.": "La PCR mide inflamación sistémica y puede variar por numerosas causas, sin representar específicamente actividad granulomatosa de sarcoidosis.",
       "Gammaglobulinas.": "Una hipergammaglobulinemia indica estimulación inmunitaria amplia y no constituye el marcador bioquímico seleccionado para actividad.",
       "Ninguna de las anteriores.": "La ECA sí tiene utilidad clínica como marcador complementario de actividad de la enfermedad."
     },
-    "claveMemorizar": "Sarcoidosis: ECA para apoyo y seguimiento, no diagnóstico aislado.",
-    "fuente": "Tema 6.1. Enzimas, p. 27",
-    "advertenciaRevision": "El PDF enumera la ECA entre las enzimas de interés diagnóstico, pero no menciona la sarcoidosis ni demuestra su utilidad como marcador de actividad."
+    "claveMemorizar": "Sarcoidosis = ECA elevada.",
+    "fuente": "Tema 6.1. Enzimas, p. 27"
   },
   "43": {
     "respuestaCorrecta": "D",

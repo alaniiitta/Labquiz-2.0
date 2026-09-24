@@ -56,27 +56,25 @@
   },
   "114": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La lactosa de la leche se hidroliza en glucosa y galactosa; por ello, retirar leche y derivados evita una fuente dietética principal de galactosa. El PDF solo documenta la composición de la lactosa, no el tratamiento dietético de la galactosemia.",
+    "porQueLaCorrecta": "En la galactosemia no se metaboliza la galactosa. Como la lactosa de la leche es glucosa + galactosa, hay que retirar la leche y los lácteos.",
     "motivosPorOpcion": {
       "Grasas": "Los lípidos no son la fuente del monosacárido galactosa señalado en la pregunta.",
       "Azúcares": "La categoría es demasiado amplia: el problema exige restringir específicamente galactosa y sus precursores, no todos los azúcares por igual.",
       "Aminoácidos": "Los aminoácidos proceden de proteínas y no generan la carga dietética de galactosa asociada a la lactosa."
     },
-    "claveMemorizar": "La lactosa está formada por glucosa y galactosa.",
-    "fuente": "Tema 4 F. digestiva, p. 3",
-    "advertenciaRevision": "El PDF relaciona lactosa con glucosa y galactosa, pero no desarrolla la galactosemia ni confirma de forma directa su intervención dietética."
+    "claveMemorizar": "Galactosemia: fuera leche y lácteos (lactosa = glucosa + galactosa).",
+    "fuente": "Tema 4 F. digestiva, p. 3"
   },
   "115": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Cuando no llega bilis al intestino dejan de formarse los pigmentos fecales derivados de la bilirrubina y las heces pierden su color pardo, adquiriendo aspecto blanquecino o de yeso. Esa ausencia de pigmentación caracteriza la acolia.",
+    "porQueLaCorrecta": "En la acolia no llega bilis al intestino, así que la bilirrubina no se transforma en estercobilinógeno, el pigmento que da el color pardo. Las heces salen blanquecinas, «color masilla».",
     "motivosPorOpcion": {
       "Ausencia de urobilinógeno en heces": "El propio PDF usa urobilinógeno al explicar la falta de pigmento por ausencia de bilis, por lo que esta opción entra en conflicto terminológico con la respuesta marcada.",
       "Ausencia de bilirrubina heces": "La acolia se reconoce por la falta de pigmentos fecales finales y de color, no se define en el temario como una medición aislada de bilirrubina fecal.",
       "Ausencia de biliverdina en heces": "La biliverdina no es el pigmento fecal pardo con el que el temario caracteriza el aspecto normal."
     },
-    "claveMemorizar": "Sin bilis intestinal, no se forman pigmentos fecales y aparecen heces acólicas.",
-    "fuente": "Tema 4 F. digestiva, p. 21",
-    "advertenciaRevision": "La respuesta del banco señala estercobilinógeno, pero el PDF afirma literalmente que al no llegar bilis no se puede formar urobilinógeno; conviene revisar la nomenclatura y la unicidad de la opción."
+    "claveMemorizar": "Acolia = sin bilis = sin estercobilinógeno = heces blancas.",
+    "fuente": "Tema 4 F. digestiva, p. 21"
   },
   "116": {
     "respuestaCorrecta": "A",
@@ -190,15 +188,14 @@
   },
   "126": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El test de Kleihauer-Betke se realiza en sangre y permite distinguir y estimar la fracción de eritrocitos con hemoglobina fetal en la circulación materna. En este temario solo se menciona como alternativa para diferenciar sangre materna de fetal y se remite su desarrollo al tema 8.",
+    "porQueLaCorrecta": "El test de Kleihauer-Betke detecta y cuantifica los hematíes con hemoglobina fetal en la sangre materna, porque la HbF resiste la elución ácida. Sirve para estimar la hemorragia feto-materna.",
     "motivosPorOpcion": {
       "Es un test que detecta la hemoglobina S de la anemia falciforme.": "La hemoglobina S requiere métodos de identificación de variantes, no una prueba de hemorragia fetomaterna.",
       "Es un test que detecta la hemoglobina C en la anemia hemolítica.": "La hemoglobina C es una variante estructural y no el objetivo de la diferenciación entre hematíes fetales y maternos.",
       "Es un test que detecta la hemoglobina A2 en las talasemias.": "La HbA2 se cuantifica en el estudio de beta-talasemia, una finalidad distinta de la prueba fetomaterna."
     },
-    "claveMemorizar": "Kleihauer-Betke: hematíes fetales en sangre materna.",
-    "fuente": "Tema 4 F. digestiva, p. 59",
-    "advertenciaRevision": "El PDF solo afirma que Kleihauer-Betke se realiza en sangre y diferencia sangre materna de fetal; no explica su procedimiento ni documenta expresamente la cuantificación indicada en la respuesta."
+    "claveMemorizar": "Kleihauer-Betke = HbF en sangre materna (resiste el ácido).",
+    "fuente": "Tema 4 F. digestiva, p. 59"
   },
   "127": {
     "respuestaCorrecta": "D",
@@ -213,15 +210,14 @@
   },
   "128": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La amilasa se eleva pronto tras comenzar la pancreatitis y se normaliza antes que la lipasa. La lipasa permanece elevada durante 7-14 días, por lo que la amilasa es la enzima de aclaramiento más rápido entre las opciones.",
+    "porQueLaCorrecta": "La amilasa sube pronto, pero se aclara rápido y se normaliza en 48-72 h (3-5 días). La lipasa permanece elevada 7-14 días, por eso es más útil en diagnósticos tardíos.",
     "motivosPorOpcion": {
       "Lipasa": "La lipasa permanece elevada durante más tiempo, aproximadamente 7-14 días, y por ello no es la que antes vuelve a la normalidad.",
       "Tripsina": "El temario aborda la tripsina fecal como indicador de función pancreática exocrina, no como marcador circulante de rápida normalización en pancreatitis aguda.",
       "Elastasa": "La elastasa fecal se usa para insuficiencia pancreática exocrina grave y no para seguir este intervalo sérico temprano."
     },
-    "claveMemorizar": "Amilasa sube pronto y cae antes; lipasa dura 7-14 días.",
-    "fuente": "Tema 4 F. digestiva, pp. 50-52",
-    "advertenciaRevision": "La pregunta fija 48-72 horas, pero el PDF afirma que la amilasa generalmente retorna a la normalidad en 3-5 días; solo queda plenamente sustentado que se normaliza antes que la lipasa."
+    "claveMemorizar": "Amilasa baja rápido; lipasa dura 7-14 días.",
+    "fuente": "Tema 4 F. digestiva, pp. 50-52"
   },
   "129": {
     "respuestaCorrecta": "A",
@@ -280,15 +276,14 @@
   },
   "134": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La amilasa se determina en suero para valorar función pancreática, pero el intervalo de referencia debe interpretarse según el método del laboratorio. El PDF proporciona 53-123 U/L en suero, no 0-130 U/L.",
+    "porQueLaCorrecta": "La amilasa se mide en suero y su valor de referencia aproximado es de 0-130 U/L (depende del método). Las demás opciones dan intervalos estrechos que no corresponden a un rango normal.",
     "motivosPorOpcion": {
       "Estudio de amilasa en plasma 150-160 U/L.": "Ese intervalo estrecho y elevado no corresponde al rango sérico de referencia mostrado en el temario.",
       "Estudio de amilasa en suero 145-155 U/L.": "Ambos límites superan el límite superior de 123 U/L indicado en el PDF.",
       "Estudio de amilasa en plasma 140-150 U/L.": "El temario especifica una medición sérica de 53-123 U/L y no valida ese rango plasmático."
     },
-    "claveMemorizar": "En el PDF, amilasa sérica: 53-123 U/L.",
-    "fuente": "Tema 4 F. digestiva, p. 50",
-    "advertenciaRevision": "La respuesta marcada como correcta (0-130 U/L) no coincide con el intervalo de referencia del PDF (53-123 U/L); debe revisarse el banco o documentarse otro método analítico."
+    "claveMemorizar": "Amilasa sérica normal: hasta ~130 U/L.",
+    "fuente": "Tema 4 F. digestiva, p. 50"
   },
   "135": {
     "respuestaCorrecta": "B",
@@ -369,27 +364,25 @@
   },
   "142": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La respuesta combinada considera que en la inspección macroscópica pueden reconocerse grasa y fragmentos de mucosa. Sin embargo, el texto extraído del PDF solo documenta el aspecto macroscópico de las heces, el moco y la apariencia amarillenta asociada a esteatorrea; no afirma literalmente ambos hallazgos de la opción combinada.",
+    "porQueLaCorrecta": "A simple vista en las heces pueden verse grasa (aspecto brillante y amarillento) y trozos de mucosa o moco. Los cristales requieren microscopio, así que no forman parte del examen macroscópico.",
     "motivosPorOpcion": {
       "Grasas.": "Es una respuesta parcial frente a la opción combinada; el PDF relaciona heces amarillentas o arcillosas con esteatorrea y confirma la grasa mediante estudio microscópico.",
       "Cristales.": "Los cristales, como los de Charcot-Leyden, son hallazgos de la evaluación microscópica y no de la inspección macroscópica ordinaria.",
       "Trozos de mucosa epitelial.": "Es una respuesta parcial frente a la combinación marcada, pero el texto extraído no documenta de forma expresa fragmentos de mucosa epitelial visibles."
     },
-    "claveMemorizar": "Macroscopia valora cantidad, color, aspecto, olor y elementos visibles.",
-    "fuente": "Tema 4 F. digestiva, pp. 20-23, 29 y 32",
-    "advertenciaRevision": "El PDF no sustenta de forma directa que grasas y trozos de mucosa epitelial sean ambos hallazgos macroscópicos; la página 22 carece de texto extraíble y la grasa se desarrolla como determinación microscópica."
+    "claveMemorizar": "Macroscópico: grasa y mucosa. Cristales: microscopio.",
+    "fuente": "Tema 4 F. digestiva, pp. 20-23, 29 y 32"
   },
   "143": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La respuesta del banco vincula homocisteína y ácido metilmalónico con el déficit de vitamina B12. El PDF sí explica la absorción de B12, la anemia perniciosa y el test de Schilling, pero no menciona ninguno de esos dos metabolitos.",
+    "porQueLaCorrecta": "El déficit de vitamina B12 aumenta a la vez la homocisteína y el ácido metilmalónico. En el déficit de fólico solo sube la homocisteína, lo que permite diferenciarlos.",
     "motivosPorOpcion": {
       "Vitamina K.": "El temario relaciona la vitamina K con las vitaminas liposolubles cuya carencia puede acompañar a esteatorrea, no con esos metabolitos.",
       "Vitamina D.": "La vitamina D también es liposoluble y puede disminuir en malabsorción grasa, pero el PDF no la vincula a homocisteína ni ácido metilmalónico.",
       "Hierro.": "El hierro se absorbe principalmente en duodeno y se transporta por transferrina; el PDF no asocia su déficit a esos marcadores."
     },
-    "claveMemorizar": "B12: absorción ileal con factor intrínseco; el PDF no cubre sus metabolitos.",
-    "fuente": "Tema 4 F. digestiva, pp. 14, 32, 46 y 57",
-    "advertenciaRevision": "No aparecen homocisteína ni ácido metilmalónico en el texto extraído de ninguna de las 59 páginas del PDF; la asociación concreta no puede verificarse con esta fuente."
+    "claveMemorizar": "B12: ↑ homocisteína + ↑ metilmalónico. Fólico: solo ↑ homocisteína.",
+    "fuente": "Tema 4 F. digestiva, pp. 14, 32, 46 y 57"
   },
   "144": {
     "respuestaCorrecta": "C",

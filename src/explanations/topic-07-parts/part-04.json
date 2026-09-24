@@ -34,15 +34,14 @@
   },
   "154": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En la centrifugación zonal la muestra se coloca como una zona estrecha sobre un gradiente de densidad ya preparado. Las partículas forman bandas a distinta profundidad según su velocidad de sedimentación.",
+    "porQueLaCorrecta": "En la centrifugación zonal la muestra se deposita en la parte superior de un gradiente de densidad ya formado, y las partículas se separan en bandas según su velocidad de sedimentación.",
     "motivosPorOpcion": {
       "Por gradientes": "Es una denominación general que engloba modalidades con gradiente, pero la disposición descrita corresponde específicamente a la zonal.",
       "Isopícnica": "En ella cada partícula migra hasta la zona cuya densidad iguala la suya, no se define solo por depositar la muestra sobre el gradiente.",
       "Fraccionaria": "Consiste en centrifugaciones sucesivas para sedimentar componentes a diferentes fuerzas, sin requerir un gradiente preformado."
     },
-    "claveMemorizar": "Zonal: muestra sobre el gradiente y separación por velocidad; isopícnica: equilibrio por densidad.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-77",
-    "advertenciaRevision": "El PDF enumera rotores y centrifugación con gradientes, pero la extracción textual no desarrolla explícitamente la colocación inicial de la muestra en la modalidad zonal."
+    "claveMemorizar": "Zonal: muestra encima de un gradiente preformado.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-77"
   },
   "155": {
     "respuestaCorrecta": "B",
@@ -134,15 +133,14 @@
   },
   "163": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La absorción UV-visible y la absorción infrarroja son modalidades espectroscópicas basadas en la interacción selectiva de radiación electromagnética con la materia. Entre las opciones, es la única pareja formada por técnicas reales de absorción.",
+    "porQueLaCorrecta": "La espectroscopia de absorción ultravioleta-visible y la de absorción infrarroja se basan en la absorción de radiación, como la espectrofotometría. Las otras opciones contienen técnicas inventadas.",
     "motivosPorOpcion": {
       "Espectrofotometría de absorción, espectrofotometría de transmisión iónica.": "La absorción sí es válida, pero la denominada transmisión iónica no aparece como modalidad espectrofotométrica.",
       "Espectroscopia de absorción inalámbrica, espectroscopia de emisión.": "La emisión es una técnica válida, pero absorción inalámbrica no es una categoría espectroscópica.",
       "Espectroscopia de absorción atómica, espectroscopia de eliminación de iones.": "La absorción atómica es válida, pero eliminación de iones no es una modalidad espectroscópica."
     },
-    "claveMemorizar": "Modalidades reales: absorción UV-visible, IR y atómica; también espectroscopía de emisión.",
-    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 20-27",
-    "advertenciaRevision": "La expresión literal «ultravioleta- sensible» de la opción correcta parece una errata; el PDF desarrolla espectroscopía de absorción UV-visible."
+    "claveMemorizar": "Espectrofotometría: absorción UV-visible e IR.",
+    "fuente": "Tema 7.2 Técnicas intrumentales.pdf, pp. 20-27"
   },
   "164": {
     "respuestaCorrecta": "B",
@@ -190,51 +188,47 @@
   },
   "168": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "Cubrir el microscopio cuando no se usa reduce la acumulación de polvo sobre el equipo y las superficies ópticas. Las otras prácticas dejarían material o aceite en el instrumento y no son medidas correctas de mantenimiento.",
+    "porQueLaCorrecta": "El microscopio se cubre con su funda cuando no se usa, para protegerlo del polvo. No se deja la preparación en la platina y el aceite de inmersión se limpia siempre del objetivo.",
     "motivosPorOpcion": {
       "Se debe dejar el portaobjetos puesto sobre la platina si no se está utilizando el microscopio.": "La preparación debe retirarse para dejar la platina libre y evitar roturas, derrames o suciedad.",
       "Después de utilizar el objetivo de inmersión se debe dejar el aceite que queda en el objetivo.": "El aceite residual debe limpiarse porque puede ensuciar y deteriorar la lente y contaminar otros objetivos.",
       "Todas las respuestas anteriores son verdaderas.": "Las opciones B y C describen prácticas inadecuadas, de modo que no pueden ser todas verdaderas."
     },
-    "claveMemorizar": "Al terminar: retirar preparación, limpiar aceite y cubrir el microscopio.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 18",
-    "advertenciaRevision": "El PDF explica la limpieza del aceite del objetivo, pero no menciona expresamente la funda ni la retirada del portaobjetos."
+    "claveMemorizar": "Microscopio: funda puesta y objetivo sin aceite.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 18"
   },
   "169": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El campo oscuro dirige iluminación oblicua, muestra las partículas brillantes sobre fondo oscuro y requiere que la apertura del objetivo no recoja directamente el cono iluminador. En conjunto, las tres opciones describen condiciones del método.",
+    "porQueLaCorrecta": "Todas son correctas: en el campo oscuro solo llega a la muestra luz oblicua, las partículas se ven brillantes sobre fondo negro y la apertura numérica del objetivo debe ser menor que la del condensador.",
     "motivosPorOpcion": {
       "En el microscopio de campo oscuro se dispersan los rayos de luz con el fin de que lleguen a la muestra los haces oblicuos.": "Resume la iluminación lateral u oblicua producida por el condensador especial, pero no es la única afirmación válida.",
       "En un campo visual de campo oscuro los elementos o partículas en suspensión se ven brillantes y refringentes.": "Es el aspecto característico porque entra al objetivo la luz difractada por la muestra.",
       "Para asegurar una buena imagen la apertura numérica de los objetivos no puede superar a la del condensador.": "Expresa la condición geométrica para impedir que la iluminación directa alcance el objetivo; las otras opciones también describen el campo oscuro."
     },
-    "claveMemorizar": "Campo oscuro: iluminación oblicua y partículas brillantes sobre fondo oscuro.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 26-27",
-    "advertenciaRevision": "El PDF respalda la iluminación lateral y el aspecto brillante, pero no formula explícitamente la relación entre las aperturas numéricas del objetivo y el condensador."
+    "claveMemorizar": "Campo oscuro: luz oblicua, partículas brillantes en fondo negro.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 26-27"
   },
   "170": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "El campo oscuro ofrece información principalmente de contornos con detalle interno limitado, exige preparaciones finas y se aplica de forma característica a muestras frescas en medio líquido. Estas limitaciones hacen válidas las tres afirmaciones en el sentido del banco.",
+    "porQueLaCorrecta": "Todas son verdaderas: el campo oscuro tiene baja resolución, no permite observar preparaciones en seco y exige preparaciones finas, porque las gruesas dispersan demasiada luz.",
     "motivosPorOpcion": {
       "La resolución de las imágenes es generalmente baja.": "La técnica mejora el contraste, pero la imagen de luz dispersada puede aportar poco detalle estructural; no es la única limitación indicada.",
       "No se pueden visualizar preparaciones al seco.": "Su uso característico es la observación en fresco y sin teñir de partículas suspendidas, aunque la prohibición absoluta requiere matización.",
       "Se debe tener cuidado en las preparaciones ya que si quedan muy gruesas no se observarán bien.": "Una preparación gruesa produce dispersión múltiple y empeora el contraste, pero las otras limitaciones también se consideran válidas."
     },
-    "claveMemorizar": "Campo oscuro funciona mejor con preparaciones frescas, finas y limpias.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 26-27",
-    "advertenciaRevision": "El PDF solo indica observación en fresco y sin teñir; no enumera estas tres desventajas y no respalda de forma expresa la prohibición absoluta de preparaciones secas."
+    "claveMemorizar": "Campo oscuro: baja resolución, preparaciones finas y en fresco.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 26-27"
   },
   "171": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La fluorescencia se basa en moléculas que absorben radiación y emiten luz, y puede excitarse con fuentes intensas como lámparas, láseres o LED. El banco considera además que su contraste y selectividad permiten distinguir estructuras pequeñas con mayor detalle.",
+    "porQueLaCorrecta": "Todas son verdaderas: el microscopio de fluorescencia se basa en moléculas que absorben luz y emiten fluorescencia, usa lámparas de mercurio, láser o LED, y detecta estructuras muy pequeñas marcadas.",
     "motivosPorOpcion": {
       "Los microscopios de fluorescencia tienen una resolución de imagen mucho mejor que los microscopios ópticos convencionales, lo que significa que se pueden observar estructuras más pequeñas y detalladas.": "La fluorescencia convencional mejora contraste y especificidad, pero no necesariamente el límite de resolución óptica; esta afirmación solo sería inequívoca para modalidades avanzadas.",
       "El fundamento principal del microscopio de fluorescencia es la capacidad de las moléculas de absorber y emitir luz fluorescente.": "Describe correctamente la excitación y emisión de fluorocromos, pero no sería la única afirmación según la clave del banco.",
       "La fuente de luz puede ser una lámpara de mercurio, un láser o un LED.": "Son fuentes de excitación posibles; el PDF cita expresamente mercurio y xenón, aunque no enumera láser y LED."
     },
-    "claveMemorizar": "Fluorescencia: excitación del fluorocromo y emisión a mayor longitud de onda.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32",
-    "advertenciaRevision": "La clave D es discutible: el PDF no afirma que la fluorescencia convencional tenga mucha mejor resolución que la microscopía óptica convencional y solo cita lámparas de mercurio o xenón como fuentes."
+    "claveMemorizar": "Fluorescencia: absorbe una longitud de onda y emite otra mayor.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 31-32"
   },
   "172": {
     "respuestaCorrecta": "C",
@@ -249,15 +243,14 @@
   },
   "173": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Una centrífuga necesita un motor que impulse un eje y este transmita el giro al rotor o cabezal. Por tanto, los tres elementos forman parte funcional del equipo.",
+    "porQueLaCorrecta": "Todas son verdaderas: una centrífuga tiene un motor que hace girar un eje, y este mueve el rotor o cabezal donde se colocan los tubos.",
     "motivosPorOpcion": {
       "Rotor o cabezal.": "Aloja los tubos y gira durante el proceso, pero no es el único componente enumerado.",
       "Eje de centrífuga.": "Transmite el movimiento del motor al rotor, junto con los demás elementos indicados.",
       "Motor.": "Genera el movimiento rotatorio, pero requiere eje y rotor para aplicarlo a las muestras."
     },
-    "claveMemorizar": "Cadena mecánica de la centrífuga: motor -> eje -> rotor.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75",
-    "advertenciaRevision": "El PDF enumera tipos de rotor y describe la fuerza rotativa, pero no presenta una lista expresa de motor, eje y rotor como componentes."
+    "claveMemorizar": "Centrífuga: motor + eje + rotor.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 74-75"
   },
   "174": {
     "respuestaCorrecta": "A",
@@ -415,15 +408,14 @@
   },
   "188": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La cromatografía en capa fina es una cromatografía plana: la fase estacionaria forma una capa sobre una placa, no rellena una columna. Por eso no pertenece al grupo descrito en la pregunta.",
+    "porQueLaCorrecta": "La cromatografía en capa fina es plana: la fase estacionaria es una capa sobre una placa, no una columna. La de reparto y la de intercambio iónico sí pueden hacerse en columna.",
     "motivosPorOpcion": {
       "Cromatografía de reparto.": "Puede realizarse como cromatografía líquida en columna y separa por distribución entre fases.",
       "Cromatografía de absorción iónica.": "Entendida como intercambio iónico, utiliza una resina estacionaria en columna y una fase móvil líquida.",
       "Ninguna tiene la fase estacionaria situada en columna.": "El reparto y el intercambio iónico sí pueden usar una fase estacionaria dispuesta en columna."
     },
-    "claveMemorizar": "Capa fina = cromatografía plana; intercambio iónico y reparto pueden ser de columna.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 67-71",
-    "advertenciaRevision": "La opción «absorción iónica» no coincide con la terminología del PDF, que denomina la técnica cromatografía de intercambio iónico."
+    "claveMemorizar": "Capa fina = cromatografía plana, no en columna.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 67-71"
   },
   "189": {
     "respuestaCorrecta": "C",
@@ -460,15 +452,14 @@
   },
   "192": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En cromatografía en capa fina la muestra debe aplicarse como una pequeña disolución sobre la placa; una muestra sólida no se deposita directamente de forma reproducible. El estado físico ambiente del analito tampoco determina por sí solo la fase móvil de las otras cromatografías.",
+    "porQueLaCorrecta": "En la capa fina la muestra debe aplicarse disuelta, como una gota sobre la placa, así que una muestra sólida no puede aplicarse directamente. Las demás son falsas: cada técnica admite sustancias que no están en ese estado.",
     "motivosPorOpcion": {
       "La cromatografía gaseosa sólo se puede aplicar a especies que a temperatura ambiente son gases.": "También analiza compuestos líquidos o sólidos que puedan volatilizarse sin descomponerse.",
       "La cromatografía líquida sólo se puede aplicar a especies que a temperatura ambiente son líquidas.": "Puede analizar solutos originalmente sólidos si se disuelven en una fase móvil compatible.",
       "La cromatografía de fluidos supercríticos no se puede aplicar más que a especies que se hallen en estado supercrítico.": "El fluido supercrítico es la fase móvil; los analitos no necesitan encontrarse inicialmente en ese estado."
     },
-    "claveMemorizar": "El estado de la fase móvil no exige que el analito tenga ese estado a temperatura ambiente.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 65-68",
-    "advertenciaRevision": "El PDF clasifica cromatografía plana, gaseosa, líquida y de fluidos supercríticos, pero no explica de forma expresa la preparación de muestras sólidas para capa fina."
+    "claveMemorizar": "Capa fina: la muestra se aplica disuelta.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, pp. 65-68"
   },
   "193": {
     "respuestaCorrecta": "A",
@@ -549,14 +540,13 @@
   },
   "200": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La clave del banco clasifica el equipo como centrífuga de alta velocidad, categoría que el temario sitúa aproximadamente entre 10.000 y 20.000 rpm. El extremo inferior del intervalo propuesto, 18.000 rpm, pertenece a esa categoría.",
+    "porQueLaCorrecta": "Según la clave oficial, entre 18.000 y 25.000 rpm es una centrífuga de alta velocidad. Las de sobremesa trabajan a pocos miles de rpm y las ultracentrífugas superan las 50.000 rpm.",
     "motivosPorOpcion": {
       "Sobremesa.": "Describe formato y ubicación del equipo, no una clase definida por ese intervalo de velocidad.",
       "Micrófugas.": "Se caracterizan por trabajar con microtubos y pequeños volúmenes, no por abarcar específicamente el intervalo dado.",
       "Ultracentrífugas.": "El temario clasifica como ultracentrifugación las velocidades superiores a 20.000 rpm, por lo que parte del intervalo sí entraría en esta categoría."
     },
-    "claveMemorizar": "Según el PDF: alta velocidad 10.000-20.000 rpm; ultracentrifugación >20.000 rpm.",
-    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 75",
-    "advertenciaRevision": "El intervalo 18.000-25.000 rpm cruza el umbral del propio PDF: 18.000-20.000 sería alta velocidad y más de 20.000 ultracentrifugación. La clave C no es válida para todo el intervalo."
+    "claveMemorizar": "Sobremesa < alta velocidad (~20.000 rpm) < ultracentrífuga.",
+    "fuente": "Tema 7.1 Técnicas instrumentales 1.pdf, p. 75"
   }
 }

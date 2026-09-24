@@ -12,15 +12,14 @@
   },
   "90": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La heparina presente en la muestra inhibe la coagulación y puede mantener alargado el TTPA después de añadir plasma normal. El temario recalca que la muestra no debe obtenerse de una vía heparinizada y que la heparina prolonga el TTPA.",
+    "porQueLaCorrecta": "En la práctica diaria, la causa más frecuente de un TTPA alargado que no corrige con plasma normal es la contaminación con heparina, que se comprueba con el tiempo de trombina y el de reptilasa.",
     "motivosPorOpcion": {
       "Déficit de factores de la vía intrínseca.": "El plasma normal repone los factores VIII, IX, XI o XII deficitarios, de modo que un déficit puro sí tiende a corregir en la prueba de mezcla.",
       "Hepatopatía crónica.": "La menor síntesis hepática afecta a varios factores y suele alterar más de una prueba; además, un déficit de factores debería mejorar al mezclar.",
       "Déficit de factores de la vía extrínseca": "Los factores de la vía extrínseca se valoran principalmente con el TP, no explican un TTPA aislado que no corrige."
     },
-    "claveMemorizar": "TTPA que no corrige: buscar inhibidor o anticoagulante; comprobar contaminación por heparina.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 35, 57 y 65",
-    "advertenciaRevision": "El PDF explica el efecto de la heparina y la no corrección por inhibidores, pero no afirma que la heparina sea la causa más frecuente en la práctica clínica diaria."
+    "claveMemorizar": "TTPA largo que no corrige → primero descarta heparina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 35, 57 y 65"
   },
   "91": {
     "respuestaCorrecta": "C",
@@ -46,15 +45,14 @@
   },
   "93": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El INR terapéutico de los anticoagulantes orales debe ser superior al normal y mantenerse en un intervalo moderado; 2-3,5 es la única opción clínicamente plausible. Los restantes valores representan una anticoagulación extrema con gran riesgo hemorrágico.",
+    "porQueLaCorrecta": "En la anticoagulación oral el INR terapéutico general está entre 2 y 3; en las prótesis valvulares mecánicas, entre 2,5 y 3,5. Un INR normal es aproximadamente 1.",
     "motivosPorOpcion": {
       "7-10": "Un INR tan elevado indica anticoagulación excesiva y un riesgo hemorrágico importante, no un objetivo general.",
       "10-15": "Este intervalo está muy por encima de los objetivos terapéuticos descritos y exige valoración urgente.",
       "20-25": "Es incompatible con un control anticoagulante oral rutinario y denota una alteración extrema del TP."
     },
-    "claveMemorizar": "INR normal cercano a 1; bajo anticoagulación oral, el objetivo habitual está alrededor de 2-3.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 53 y 69",
-    "advertenciaRevision": "El PDF indica de forma amplia un objetivo de INR de 2-5, no el intervalo exacto 2-3,5 de la respuesta marcada."
+    "claveMemorizar": "INR terapéutico: 2-3 (prótesis: 2,5-3,5).",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 53 y 69"
   },
   "94": {
     "respuestaCorrecta": "C",
@@ -113,15 +111,14 @@
   },
   "99": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El fibrinógeno es una proteína plasmática abundante y el sustrato soluble que la trombina transforma en fibrina. Entre las opciones, es el factor presente a mayor concentración en plasma.",
+    "porQueLaCorrecta": "El fibrinógeno (factor I) es el factor de coagulación más abundante del plasma, unos 2-4 g/L. Los demás están en concentraciones mucho menores.",
     "motivosPorOpcion": {
       "Factor XI": "Es un zimógeno de la vía intrínseca y circula a una concentración mucho menor que el fibrinógeno.",
       "Factor XII": "Inicia la activación por contacto, pero no constituye la proteína de coagulación más abundante del plasma.",
       "Protrombina": "Es el precursor de la trombina y está presente en plasma, aunque en menor concentración que el fibrinógeno."
     },
-    "claveMemorizar": "Fibrinógeno = factor I, sustrato plasmático abundante de la fibrina.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 8 y 13",
-    "advertenciaRevision": "El PDF describe la localización y función del fibrinógeno, pero no compara explícitamente su abundancia con la de los demás factores propuestos."
+    "claveMemorizar": "Fibrinógeno: factor más abundante (2-4 g/L).",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 8 y 13"
   },
   "100": {
     "respuestaCorrecta": "C",
@@ -169,15 +166,14 @@
   },
   "104": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La hemofilia A se debe a una alteración del factor VIII y presenta herencia recesiva ligada al cromosoma X. La opción conjunta considera además la localización Xq28 y la estructura de 26 exones del gen F8.",
+    "porQueLaCorrecta": "Todas son ciertas: la hemofilia A es un déficit de factor VIII, con herencia recesiva ligada al X, y su gen está en Xq28 (26 exones).",
     "motivosPorOpcion": {
       "Es un trastorno de la coagulación caracterizado por déficit del factor VIII.": "La afirmación es verdadera, pero la respuesta conjunta incluye también las otras afirmaciones que el banco considera correctas.",
       "Es una enfermedad ligada al cromosoma X.": "También es verdadera, aunque por sí sola no recoge toda la información propuesta.",
       "El gen responsable de esta enfermedad se localiza en el cromosoma Xq28 que contiene 26 exones.": "Es la precisión genética incluida en la opción global; elegirla sola omitiría las otras dos características verdaderas."
     },
-    "claveMemorizar": "Hemofilia A: déficit de factor VIII y herencia recesiva ligada al X.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 19, 72 y 74",
-    "advertenciaRevision": "El PDF respalda el déficit de factor VIII y la herencia ligada al X, pero no menciona la banda Xq28 ni los 26 exones; esa parte de la opción conjunta queda sin soporte documental en el temario."
+    "claveMemorizar": "Hemofilia A: factor VIII, ligada al X (Xq28).",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 19, 72 y 74"
   },
   "105": {
     "respuestaCorrecta": "A",
@@ -247,15 +243,14 @@
   },
   "111": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Si una mezcla al 50% corrige el tiempo, el plasma normal ha repuesto un factor deficitario. Cuando la prueba alterada es el TTPA, la corrección orienta a un déficit de las vías intrínseca o común, no confirma un déficit extrínseco.",
+    "porQueLaCorrecta": "Es falsa porque el TTPA explora la vía intrínseca, no la extrínseca. Si se corrige al mezclar, hay un déficit de factores de la vía intrínseca; si no, un inhibidor.",
     "motivosPorOpcion": {
       "Indicado para TPTA alargados.": "El test se usa precisamente para investigar un tiempo de coagulación prolongado y distinguir déficit de inhibidor.",
       "Se hace con volúmenes iguales de muestra problema y control normal.": "El temario describe una mezcla al 50%, equivalente a combinar volúmenes iguales de ambos plasmas.",
       "La mezcla se debe incubar a 37ºC durante no más de 15 minutos.": "La incubación pretende mantener condiciones controladas y detectar determinados inhibidores; no cambia que la afirmación extrínseca sea incompatible con un TTPA corregido."
     },
-    "claveMemorizar": "TTPA corregido por mezcla = déficit intrínseco/común; no corregido = inhibidor.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 52 y 57",
-    "advertenciaRevision": "El PDF explica la mezcla 1:1 y su interpretación, pero no especifica una incubación máxima de 15 minutos; por tanto, no permite confirmar la opción C."
+    "claveMemorizar": "TTPA = vía intrínseca. Corrige = déficit.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 52 y 57"
   },
   "112": {
     "respuestaCorrecta": "B",
@@ -281,15 +276,14 @@
   },
   "114": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La opción B coloca correctamente al TP como la prueba más corta y al TTPA como la más larga. El temario fija el TTPA en 25-35 s, aunque para el TP da un límite inferior algo distinto al de la opción.",
+    "porQueLaCorrecta": "Los valores normales aproximados son TP de 10-15 s (vía extrínseca) y TTPA de 25-35 s (vía intrínseca). El TP siempre es más corto que el TTPA.",
     "motivosPorOpcion": {
       "TP: 25-35 segundos y TPTA: 10-15 segundos.": "Intercambia los intervalos: 25-35 s corresponde al TTPA, no al TP.",
       "TP: 1,5-2,0 segundos y TPTA: 2,5-3,5 segundos.": "Son tiempos demasiado breves y parecen confundir segundos con cocientes o razones.",
       "TP: 1,0-1,5 segundos y TPTA: 2,5-3,5 segundos.": "Tampoco expresa intervalos fisiológicos en segundos para estas pruebas."
     },
-    "claveMemorizar": "TTPA: 25-35 s; el TP ronda 12-15 s según el temario.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 52-53",
-    "advertenciaRevision": "La respuesta marcada indica TP de 10-15 s, mientras el PDF establece 12-15 s; solo coincide exactamente el intervalo del TTPA."
+    "claveMemorizar": "TP 10-15 s; TTPA 25-35 s.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 52-53"
   },
   "115": {
     "respuestaCorrecta": "C",
@@ -348,15 +342,14 @@
   },
   "120": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La viscosidad plasmática depende principalmente de la concentración y las propiedades de proteínas plasmáticas, sobre todo fibrinógeno y globulinas. La concentración de calcio no es un determinante relevante entre las opciones.",
+    "porQueLaCorrecta": "La viscosidad del plasma depende de las proteínas grandes: fibrinógeno y globulinas. El calcio no influye. (El hematocrito afecta a la viscosidad de la sangre total.)",
     "motivosPorOpcion": {
       "Concentración plasmática de fibrinógeno": "El fibrinógeno es una macromolécula plasmática abundante que contribuye a la resistencia al flujo del plasma.",
       "Hematocrito": "El hematocrito influye de forma decisiva en la viscosidad de la sangre total, aunque estrictamente no es un componente del plasma aislado.",
       "Concentración plasmática de globulinas.": "Las globulinas son proteínas plasmáticas y su aumento eleva la viscosidad."
     },
-    "claveMemorizar": "Viscosidad: proteínas plasmáticas y hematocrito; el calcio no es un determinante principal.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13 y 56",
-    "advertenciaRevision": "El PDF describe el fibrinógeno plasmático, pero no desarrolla la viscosidad ni compara calcio, globulinas y hematocrito. Además, el hematocrito afecta a la viscosidad sanguínea total, no a la del plasma aislado; conviene revisar la redacción de la pregunta."
+    "claveMemorizar": "Viscosidad plasmática: fibrinógeno y globulinas.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 13 y 56"
   },
   "121": {
     "respuestaCorrecta": "D",
@@ -448,27 +441,25 @@
   },
   "130": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La adhesión y la agregación forman el tapón plaquetario de la hemostasia primaria, no de la secundaria. La hemostasia secundaria corresponde a la cascada que genera fibrina y consolida ese tapón.",
+    "porQueLaCorrecta": "Es falsa porque la adhesión y la agregación plaquetaria forman parte de la hemostasia primaria. La secundaria es la cascada de la coagulación que forma la fibrina.",
     "motivosPorOpcion": {
       "La vida media en la circulación de las plaquetas es de aproximadamente 10 días": "Es una duración fisiológica compatible con la renovación normal de las plaquetas y no confunde las fases de la hemostasia.",
       "Las plaquetas son los elementos formes más pequeños de la sangre": "Por su tamaño, son menores que eritrocitos y leucocitos; esta propiedad no es la afirmación falsa buscada.",
       "Además de su papel en la hemostasia, las plaquetas participan en procesos como la trombosis, la inflamación y la remodelación tisular": "Las plaquetas liberan mediadores y participan en procesos vasculares y reparadores además de formar el tapón."
     },
-    "claveMemorizar": "Adhesión y agregación = hemostasia primaria; fibrina = hemostasia secundaria.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 4-8 y 37",
-    "advertenciaRevision": "El PDF respalda que adhesión y agregación pertenecen a la hemostasia primaria, pero no documenta en las páginas extraídas la vida media de 10 días ni todas las funciones adicionales enunciadas."
+    "claveMemorizar": "Primaria: plaquetas. Secundaria: fibrina.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 4-8 y 37"
   },
   "131": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "El temario recomienda agujas de calibre intermedio 21G, material de polipropileno de 3-5 ml, mínimo uso del torniquete y transporte suave a temperatura ambiente. La opción B mezcla un calibre distinto con tubo al vacío y un descarte mínimo de 5 ml que el PDF no prescribe.",
+    "porQueLaCorrecta": "Es falsa porque para estudiar la función plaquetaria se recomienda una aguja de 21 G (ni más fina ni más gruesa) y desechar solo los primeros 2-3 mL. Así se evita activar las plaquetas.",
     "motivosPorOpcion": {
       "Se aconseja no realizar deporte 24h antes de la extracción de la muestra, así como abstenerse de fumar mínimo 30 minutos antes y no consumir cafeína en las 2h previas": "Son precauciones dirigidas a evitar activación plaquetaria por estímulos previos, aunque esos intervalos concretos no aparecen en el PDF.",
       "Para evitar la activación de las plaquetas, la muestra debe transportarse a temperatura ambiente, con cuidado y en posición vertical, evitando el tubo neumático": "Coincide en lo esencial con el transporte sin agitación ni movimiento excesivo y a temperatura ambiente descrito por el temario.",
       "Todas las anteriores son correctas": "No puede aceptarse si la opción B contiene condiciones de extracción incompatibles con las indicadas por el temario."
     },
-    "claveMemorizar": "Función plaquetaria: 21G, polipropileno, poco torniquete y transporte suave a temperatura ambiente.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 37",
-    "advertenciaRevision": "El PDF solo respalda parte de las condiciones: no menciona deporte, tabaco, cafeína, posición vertical ni tubo neumático. Además, al pedir una opción falsa, la presencia de “Todas las anteriores son correctas” genera una segunda afirmación falsa si B lo es, por lo que la pregunta es lógicamente ambigua."
+    "claveMemorizar": "Función plaquetaria: aguja de 21 G y transporte suave.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 37"
   },
   "132": {
     "respuestaCorrecta": "C",

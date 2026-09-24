@@ -342,27 +342,25 @@
   },
   "76": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "La clave del banco marca «Todas son ciertas», pero el temario define el anticoagulante lúpico como una inmunoglobulina IgM o IgG dirigida frente a fosfolípidos que prolonga pruebas dependientes de fosfolípidos in vitro. Esa descripción no permite validar conjuntamente las tres afirmaciones propuestas.",
+    "porQueLaCorrecta": "Según la clave oficial, todas son ciertas: el anticoagulante lúpico es un anticuerpo contra fosfolípidos de membrana, inhibe el paso de protrombina a trombina in vitro y aparece en un tercio de los lupus. In vivo favorece la trombosis.",
     "motivosPorOpcion": {
       "Es un anticuerpo antimembrana citoplasmático.": "El PDF lo presenta como anticuerpo antifosfolipídico; «antimembrana citoplasmático» no es la caracterización empleada y resulta imprecisa.",
       "Inhibe el paso de protrombina a trombina.": "La interferencia descrita es con fosfolípidos cofactores de las pruebas; no se define como una inhibición específica y directa de esa única conversión.",
       "Está presente en una tercera parte de los enfermos de Lupus eritematoso sistémico.": "El PDF explica su asociación histórica con el lupus, pero no aporta en las páginas dedicadas al anticoagulante lúpico la frecuencia exacta de un tercio."
     },
-    "claveMemorizar": "Anticoagulante lúpico: antifosfolípido, trombótico in vivo y prolongador de tiempos in vitro.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 58-59",
-    "advertenciaRevision": "La respuesta D del banco no está respaldada por el PDF: al menos A y B son formulaciones imprecisas o contradictorias con el mecanismo descrito, y la frecuencia de C no aparece en el temario. Debe revisarse la pregunta y su clave."
+    "claveMemorizar": "Anticoagulante lúpico: alarga el TTPA in vitro, trombosis in vivo.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 58-59"
   },
   "77": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La opción truncada «Dímero-» parece referirse al dímero D, una prueba de degradación de fibrina que el temario expresa en plasma. El suero se obtiene tras consumir fibrinógeno y formar el coágulo, por lo que no es la muestra indicada para esta determinación hemostática.",
+    "porQueLaCorrecta": "El dímero D se mide en plasma citratado. En el suero se ha formado el coágulo y se han consumido el fibrinógeno y la fibrina, así que no sirve. PCR, litio y bilirrubina sí se miden en suero.",
     "motivosPorOpcion": {
       "PCR.": "La proteína C reactiva puede determinarse habitualmente en suero porque no requiere conservar los factores de coagulación.",
       "Litio.": "La concentración de litio terapéutico se mide de forma habitual en suero, evitando tubos que contengan litio como anticoagulante.",
       "D) Bilirrubina.": "La bilirrubina es una magnitud bioquímica medible en suero si la muestra se protege de la luz."
     },
-    "claveMemorizar": "Dímero D se informa en plasma citratado; PCR, litio y bilirrubina admiten suero.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 45 y 63",
-    "advertenciaRevision": "El texto de la opción correcta está incompleto («Dímero-») y la opción D incluye su propia etiqueta («D) Bilirrubina.»). La explicación asume que C significa dímero D; conviene corregir el banco."
+    "claveMemorizar": "Dímero D: plasma citratado, no suero.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 45 y 63"
   },
   "78": {
     "respuestaCorrecta": "C",
@@ -388,15 +386,14 @@
   },
   "80": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "Los anticoagulantes orales se emplean para prevenir o tratar fenómenos tromboembólicos y para reducir el riesgo asociado a prótesis valvulares mecánicas. Por ese marco terapéutico, las tres situaciones enumeradas son indicaciones reconocibles.",
+    "porQueLaCorrecta": "Todas son correctas: los anticoagulantes orales se usan para tratar y prevenir la trombosis venosa profunda y el tromboembolismo pulmonar, y en las prótesis valvulares mecánicas.",
     "motivosPorOpcion": {
       "Trombosis venosa profunda (TVP).": "Es una indicación tromboembólica válida, pero no es la única de la lista.",
       "Tromboembolismo pulmonar(TEP).": "También requiere anticoagulación para evitar progresión y recurrencia, aunque la pregunta incluye otras indicaciones.",
       "Prótesis valvular mecánica.": "Las prótesis mecánicas tienen riesgo trombótico y suelen precisar anticoagulación prolongada, pero las opciones A y B también son válidas."
     },
-    "claveMemorizar": "Anticoagulación oral: TVP, TEP y prevención trombótica en válvula mecánica.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 64 y 68-69",
-    "advertenciaRevision": "Las páginas citadas describen los tipos, mecanismo y monitorización de los anticoagulantes, pero no enumeran de forma explícita las tres indicaciones clínicas de la pregunta. La clave se conserva conforme al banco."
+    "claveMemorizar": "Anticoagulantes orales: TVP, TEP, prótesis valvular, fibrilación auricular.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 64 y 68-69"
   },
   "81": {
     "respuestaCorrecta": "B",
@@ -422,15 +419,14 @@
   },
   "83": {
     "respuestaCorrecta": "D",
-    "porQueLaCorrecta": "En una deficiencia de factor VIII, mezclar el plasma problema al 50% con plasma normal aporta el factor ausente y debe corregir el tiempo alterado. La falta de corrección orientaría a un inhibidor, por lo que afirmar que las pruebas no se modifican es falso para la hemofilia A congénita sin inhibidor.",
+    "porQueLaCorrecta": "Es falsa porque en la hemofilia A el plasma normal aporta el factor VIII que falta y el TTPA se corrige. Si no se corrigiera, habría un inhibidor.",
     "motivosPorOpcion": {
       "Se debe a un déficit de factor VIII.": "Es la definición etiológica de la hemofilia A que recoge el temario.",
       "Se hereda como un rasgo recesivo ligado al cromosoma X.": "Ese es el patrón hereditario clásico explicado para la hemofilia.",
       "Su incidencia se estima en 1 caso por cada 5000 recién nacidos vivos.": "La cifra es compatible con la frecuencia habitualmente atribuida a la hemofilia A y no contradice su descripción como la hemofilia más prevalente."
     },
-    "claveMemorizar": "Prueba de mezcla corrige déficit; no corrige inhibidor.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 57 y 72-74",
-    "advertenciaRevision": "El PDF fundamenta el déficit de VIII, la herencia y la corrección en la prueba de mezcla, pero no aporta en esas páginas la incidencia exacta de 1/5000 usada en la opción C."
+    "claveMemorizar": "Test de mezcla: corrige = déficit; no corrige = inhibidor.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 57 y 72-74"
   },
   "84": {
     "respuestaCorrecta": "A",

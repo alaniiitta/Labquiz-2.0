@@ -89,15 +89,14 @@
   },
   "229": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "La alteración tiroidea relacionada con hiperhomocisteinemia es el hipotiroidismo, no el hipertiroidismo. Por tanto, la afirmación propuesta invierte la asociación.",
+    "porQueLaCorrecta": "Es incorrecta porque la homocisteína sube en el hipotiroidismo, no en el hipertiroidismo. También aumenta con la edad, es mayor en hombres y sube con el déficit de B6, B12 y fólico.",
     "motivosPorOpcion": {
       "La homocisteína aumenta con la edad.": "La concentración tiende a elevarse con la edad por cambios metabólicos, nutricionales y renales.",
       "Los hombres presentan valores más elevados que las mujeres premenopáusicas.": "Antes de la menopausia las mujeres suelen presentar valores inferiores, relacionados en parte con diferencias hormonales y de masa muscular.",
       "El déficit de las vitaminas B⁶, B¹² o el ácido fólico origina hiperhomocisteinemia": "Estas vitaminas participan como cofactores en la remetilación o transulfuración de la homocisteína; su déficit dificulta su metabolismo."
     },
-    "claveMemorizar": "Hiperhomocisteinemia adquirida: hipotiroidismo y déficits de B6, B12 o folato.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 34",
-    "advertenciaRevision": "El PDF respalda la asociación con hipotiroidismo y antagonistas del folato, pero no documenta en esa página las diferencias por edad, sexo ni todos los déficits vitamínicos citados."
+    "claveMemorizar": "Homocisteína ↑: edad, hombres, hipotiroidismo, déficit de B6, B12 y fólico.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 34"
   },
   "230": {
     "respuestaCorrecta": "B",
@@ -200,15 +199,14 @@
   },
   "239": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La proteína C se sintetiza en el hígado y es vitamina K dependiente, de modo que la opción que afirma síntesis renal y ausencia de dependencia vitamínica es incorrecta.",
+    "porQueLaCorrecta": "Es incorrecta porque la proteína C se sintetiza en el hígado y depende de la vitamina K. Es un anticoagulante natural que la trombina activa y que también favorece la fibrinólisis.",
     "motivosPorOpcion": {
       "Es una proteína plasmática.": "Circula en plasma como un zimógeno anticoagulante antes de su activación.",
       "Facilita la lisis del coágulo.": "La proteína C activada favorece un entorno profibrinolítico al reducir inhibidores de la fibrinólisis, además de su acción anticoagulante.",
       "Su cimógeno es activado por la trombina.": "La trombina unida a trombomodulina activa el zimógeno proteína C."
     },
-    "claveMemorizar": "Proteína C: hepática, vitamina K dependiente y activada por trombina.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12 y 32",
-    "advertenciaRevision": "El PDF confirma síntesis hepática, dependencia de vitamina K y activación por trombina, pero no desarrolla de forma explícita la afirmación sobre facilitar la lisis del coágulo."
+    "claveMemorizar": "Proteína C: hepática y dependiente de vitamina K.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 12 y 32"
   },
   "240": {
     "respuestaCorrecta": "D",
@@ -234,27 +232,25 @@
   },
   "242": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La hiperhomocisteinemia adquirida puede aparecer por causas patológicas, fármacos antagonistas del folato o carencias nutricionales de folato y vitamina B12. No obedece a una mutación heredada única.",
+    "porQueLaCorrecta": "La hiperhomocisteinemia adquirida se debe a causas nutricionales (falta de B12 y fólico), a fármacos o a enfermedades, y favorece la trombosis. La congénita se debe a defectos enzimáticos.",
     "motivosPorOpcion": {
       "Hiperhomocisteinemia congénita.": "La forma congénita se debe a defectos hereditarios de enzimas del metabolismo de la homocisteína, no a carencias o fármacos adquiridos.",
       "Disfibrinogenemia.": "Es una alteración cualitativa del fibrinógeno y no deriva de una ingesta insuficiente de B12 o folato.",
       "Síndrome nefrótico.": "Puede crear hipercoagulabilidad por pérdida urinaria de anticoagulantes naturales, pero no define la alteración metabólica descrita."
     },
-    "claveMemorizar": "B12 y folato bajos elevan homocisteína de forma adquirida.",
-    "fuente": "Tema 9 Coagulación v3.pdf, p. 34",
-    "advertenciaRevision": "El PDF relaciona la hiperhomocisteinemia adquirida con insuficiencia renal, hipotiroidismo y antagonistas del folato, pero no menciona expresamente en el fragmento la ingesta escasa de vitamina B12."
+    "claveMemorizar": "Hiperhomocisteinemia adquirida: falta de B12 y fólico.",
+    "fuente": "Tema 9 Coagulación v3.pdf, p. 34"
   },
   "243": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Un coágulo parcial consume factores y altera de forma impredecible los tiempos, por lo que debe inspeccionarse y descartarse antes de validar un TTPA anormalmente corto.",
+    "porQueLaCorrecta": "Un TTPA acortado suele deberse a una activación in vitro de la muestra durante la extracción. Antes de validar hay que descartar un coágulo en el tubo.",
     "motivosPorOpcion": {
       "Descartar la contaminación por heparina realizando la prueba trombina/Reptilase.": "La heparina prolongaría el TTPA y el TT; no explica un TTPA acortado.",
       "Realizar la prueba dímero-D.": "El dímero D evalúa degradación de fibrina y no resuelve primero la posible invalidez preanalítica de la muestra.",
       "Realizar la prueba fibrinógeno.": "Un fibrinógeno elevado puede acortar pruebas en inflamación, pero antes hay que excluir una muestra coagulada."
     },
-    "claveMemorizar": "Resultado incoherente o acortado: revisar primero coágulos y fase preanalítica.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 35-36",
-    "advertenciaRevision": "El PDF describe la obtención y preparación preanalítica del plasma, pero no formula de manera explícita este algoritmo ante TP normal y TTPA acortado."
+    "claveMemorizar": "TTPA acortado → sospecha muestra activada o coagulada.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 35-36"
   },
   "244": {
     "respuestaCorrecta": "B",
@@ -280,27 +276,25 @@
   },
   "246": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "La hiperfibrinólisis reduce o degrada fibrinógeno y fibrina, de modo que tras añadir trombina la formación de un coágulo detectable se retrasa y el TT se alarga.",
+    "porQueLaCorrecta": "El tiempo de trombina se alarga en la hiperfibrinólisis, porque hay menos fibrinógeno y más productos de degradación que interfieren. También se alarga con la heparina y no depende de la vitamina K.",
     "motivosPorOpcion": {
       "Cuantifica el tiempo que tarda en formarse el coágulo cuando añadimos calcio al plasma citratado.": "El TT se inicia añadiendo trombina al plasma pobre en plaquetas; la mera recalcificación corresponde a otra prueba global.",
       "Se acorta el tiempo en presencia de heparina.": "La heparina potencia la inhibición de trombina y prolonga marcadamente el TT.",
       "Se utiliza para cuantificar factores vitamina K- dependientes": "Los factores vitamina K dependientes se valoran principalmente mediante TP o ensayos específicos, no con el TT."
     },
-    "claveMemorizar": "TT: conversión fibrinógeno-fibrina; se prolonga con heparina, poco fibrinógeno o fibrinólisis.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54, 56 y 65",
-    "advertenciaRevision": "El PDF define el TT y documenta su prolongación por heparina y alteraciones del fibrinógeno, pero no afirma literalmente que la hiperfibrinólisis prolongue el TT."
+    "claveMemorizar": "TT largo: heparina, poco fibrinógeno, hiperfibrinólisis.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 54, 56 y 65"
   },
   "247": {
     "respuestaCorrecta": "B",
-    "porQueLaCorrecta": "Los cumarínicos antagonizan la vitamina K; administrarla permite recuperar la síntesis funcional de los factores afectados y revertir su efecto, con la rapidez condicionada por la gravedad clínica.",
+    "porQueLaCorrecta": "Los cumarínicos (acenocumarol, warfarina) antagonizan la vitamina K. Ante una sobredosis se administra vitamina K, que restaura la síntesis de los factores II, VII, IX y X.",
     "motivosPorOpcion": {
       "Ácido acetil salicílico": "Es un antiagregante y aumentaría el riesgo hemorrágico en vez de corregir la anticoagulación por cumarínicos.",
       "Heparina de bajo peso molecular": "Es otro anticoagulante, con acción predominante anti-Xa, y no neutraliza el efecto antivitamina K.",
       "Acenocumarol": "Es precisamente un derivado cumarínico antivitamina K, por lo que agravaría la sobredosificación."
     },
-    "claveMemorizar": "Sobredosis de cumarínicos: vitamina K; valorar concentrado de complejo protrombínico si hay hemorragia grave.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 68-69",
-    "advertenciaRevision": "El PDF explica el mecanismo antivitamina K y el riesgo hemorrágico, pero no especifica el protocolo de reversión de una sobredosis."
+    "claveMemorizar": "Sobredosis de cumarínicos → vitamina K.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 68-69"
   },
   "248": {
     "respuestaCorrecta": "D",
@@ -381,15 +375,14 @@
   },
   "255": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "El factor de von Willebrand une la GPIb plaquetaria al subendotelio y permite la adhesión; además, su actividad se evidencia por aglutinación dependiente de ristocetina. Entre las opciones, esta función plaquetaria hace que A sea la más próxima.",
+    "porQueLaCorrecta": "El factor de von Willebrand une las plaquetas (receptor GPIb) al subendotelio dañado, favoreciendo su adhesión y agregación. También transporta y protege el factor VIII.",
     "motivosPorOpcion": {
       "Inhibe la coagulación.": "El factor de von Willebrand no es un anticoagulante; transporta y estabiliza el factor VIII.",
       "Favorece la fibrinolisis.": "No activa el plasminógeno ni degrada fibrina; su función pertenece a la hemostasia primaria y al transporte de VIII.",
       "Estabiliza el coagulo de fibrina.": "El entrecruzamiento que estabiliza la red de fibrina corresponde al factor XIII."
     },
-    "claveMemorizar": "FvW: adhesión plaquetaria mediante GPIb y transporte del factor VIII.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 6, 19 y 47",
-    "advertenciaRevision": "La clave usa «agregación», pero el PDF atribuye al FvW principalmente adhesión plaquetaria y aglutinación con ristocetina; la formulación de la opción es imprecisa."
+    "claveMemorizar": "Von Willebrand: pega plaquetas y protege el factor VIII.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 6, 19 y 47"
   },
   "256": {
     "respuestaCorrecta": "A",
@@ -415,15 +408,14 @@
   },
   "258": {
     "respuestaCorrecta": "A",
-    "porQueLaCorrecta": "La hemofilia B es un déficit del factor IX de la coagulación secundaria; las plaquetas pueden agregarse normalmente porque el defecto no está en su función.",
+    "porQueLaCorrecta": "La hemofilia B es un déficit de factor IX, de la coagulación, y no afecta a las plaquetas. La enfermedad de von Willebrand y la aspirina sí alteran la función plaquetaria.",
     "motivosPorOpcion": {
       "Enfermedad de Von Willebrand.": "El déficit de FvW altera la adhesión y la respuesta dependiente de ristocetina, por lo que afecta pruebas de función plaquetaria.",
       "Tratamiento con aspirina.": "La aspirina inhibe irreversiblemente la ciclooxigenasa plaquetaria y reduce la agregación dependiente de tromboxano A2.",
       "Está alterada en todas.": "La agregación no tiene por qué alterarse en un déficit aislado de factor IX, así que no todas las situaciones son equivalentes."
     },
-    "claveMemorizar": "Hemofilia B: coagulación secundaria alterada, función plaquetaria conservada.",
-    "fuente": "Tema 9 Coagulación v3.pdf, pp. 64 y 72",
-    "advertenciaRevision": "El PDF identifica la hemofilia B como déficit de factor IX y la aspirina como antiagregante, pero no muestra un patrón comparativo completo de agregometría para las tres situaciones."
+    "claveMemorizar": "Hemofilia = coagulación. Plaquetas normales.",
+    "fuente": "Tema 9 Coagulación v3.pdf, pp. 64 y 72"
   },
   "259": {
     "respuestaCorrecta": "D",
