@@ -1,0 +1,1277 @@
+{
+  "1": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La calcitonina la secretan las células C (parafoliculares) del tiroides y baja el calcio.",
+    "claveMemorizar": "Calcitonina: tiroides (células C)."
+  },
+  "2": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La enfermedad de Graves-Basedow es autoinmune (anticuerpos estimulantes del receptor de TSH) y es la causa más frecuente de hipertiroidismo, con oftalmopatía y mixedema pretibial.",
+    "claveMemorizar": "Hipertiroidismo más frecuente: Graves."
+  },
+  "3": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El bocio simple aumenta el tamaño del tiroides con función normal (eutiroidismo). Graves y adenoma tóxico cursan con hipertiroidismo.",
+    "claveMemorizar": "Bocio simple = eutiroideo."
+  },
+  "4": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La aldosterona la estimulan la angiotensina II, la hiperpotasemia y la ACTH. Una bajada de potasio no la estimula, la frena.",
+    "claveMemorizar": "Aldosterona: ↑ con angiotensina II y K⁺ alto."
+  },
+  "5": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La aldosterona aumenta la reabsorción de sodio (y agua) en el túbulo distal y colector, e intercambia por K⁺ y H⁺.",
+    "claveMemorizar": "Aldosterona: reabsorbe Na⁺."
+  },
+  "6": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las hormonas son mensajeros químicos: sustancias químicas que actúan a distancia sobre células diana.",
+    "claveMemorizar": "Hormona = mensajero químico."
+  },
+  "7": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hipófisis está en la silla turca del hueso esfenoides.",
+    "claveMemorizar": "Hipófisis: silla turca."
+  },
+  "8": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos antimicrosomales (antiperoxidasa, anti-TPO) en título alto son típicos de la tiroiditis de Hashimoto.",
+    "claveMemorizar": "Anti-TPO alto = Hashimoto."
+  },
+  "9": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TSH estimula la síntesis y secreción de hormonas tiroideas (T4, T3).",
+    "claveMemorizar": "TSH → tiroides."
+  },
+  "10": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La enfermedad de Addison (insuficiencia suprarrenal primaria) cursa con déficit de cortisol (y aldosterona) y ACTH elevada.",
+    "claveMemorizar": "Addison: cortisol↓, ACTH↑."
+  },
+  "11": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ACTH estimula la síntesis de glucocorticoides (cortisol) en la corteza suprarrenal.",
+    "claveMemorizar": "ACTH → cortisol."
+  },
+  "12": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PTH regula el metabolismo fosfocálcico: sube el calcio y baja el fósforo.",
+    "claveMemorizar": "PTH: calcio↑, fósforo↓."
+  },
+  "13": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La progesterona es esteroidea (deriva del colesterol). TSH, vasopresina y GH son peptídicas o proteicas.",
+    "claveMemorizar": "Esteroide: progesterona."
+  },
+  "14": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El estado de vitamina D se valora con la 25(OH)D (calcidiol), de vida media larga. La 1,25(OH)₂D está muy regulada y no refleja los depósitos.",
+    "claveMemorizar": "Reserva de vitamina D: 25(OH)D."
+  },
+  "15": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos antiperoxidasa (anti-TPO) aparecen en ~90% de las tiroiditis autoinmunes (Hashimoto).",
+    "claveMemorizar": "Hashimoto: anti-TPO (~90%)."
+  },
+  "16": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para VMA, catecolaminas y metanefrinas en orina de 24 h se añade HCl 6N al recipiente. El pH ácido estabiliza las catecolaminas.",
+    "claveMemorizar": "Catecolaminas en orina: añadir HCl."
+  },
+  "17": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acromegalia la GH no se suprime tras una sobrecarga oral de glucosa (lo normal es que baje). Es la prueba diagnóstica.",
+    "claveMemorizar": "Acromegalia: GH no se suprime con glucosa."
+  },
+  "18": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La TSH es el marcador más sensible de función tiroidea: cambia mucho ante pequeñas variaciones de T4.",
+    "claveMemorizar": "Más sensible: TSH."
+  },
+  "19": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "ACTH alta con cortisol bajo, hiponatremia, hiperpotasemia, hipotensión y debilidad: enfermedad de Addison (insuficiencia suprarrenal primaria).",
+    "claveMemorizar": "ACTH↑ + cortisol↓ + Na↓ K↑ = Addison."
+  },
+  "20": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las hormonas tiroideas activan receptores nucleares (no los inactivan) y aumentan la transcripción génica. La mayor parte de la T4 se convierte en T3 en los tejidos.",
+    "claveMemorizar": "Hormona tiroidea: activa receptores nucleares."
+  },
+  "21": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las hormonas tiroideas actúan sobre receptores nucleares: su efecto empieza lento y dura mucho. Gran parte de la T4 se convierte en T3.",
+    "claveMemorizar": "Tiroideas: inicio lento, efecto prolongado."
+  },
+  "22": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La T3 libre aumenta en el hipertiroidismo.",
+    "claveMemorizar": "T3 libre↑ = hipertiroidismo."
+  },
+  "23": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ácido vanilmandélico (VMA) es el principal producto final del metabolismo de adrenalina y noradrenalina.",
+    "claveMemorizar": "Catecolaminas → VMA."
+  },
+  "24": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La aldosterona es la mineralcorticoide que favorece la reabsorción renal de sodio. En Addison falta y aparecen hiponatremia e hiperpotasemia.",
+    "claveMemorizar": "Mineralcorticoide = aldosterona."
+  },
+  "25": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El síndrome de Cushing es el exceso mantenido de glucocorticoides (cortisol) en sangre.",
+    "claveMemorizar": "Cushing = exceso de cortisol."
+  },
+  "26": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el feto predomina la T4; la conversión a T3 es limitada y aumenta la T3 inversa.",
+    "claveMemorizar": "Feto: sobre todo T4."
+  },
+  "27": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cortisol es esteroide, no proteína. AFP, CEA e inmunoglobulinas son proteicos.",
+    "claveMemorizar": "Cortisol: no proteico."
+  },
+  "28": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ACTH estimula la corteza suprarrenal.",
+    "claveMemorizar": "ACTH → corteza suprarrenal."
+  },
+  "29": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH la secreta el hipotálamo, no la hipófisis. ACTH, prolactina y GH son hipofisarias.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "30": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El método de Pisano es un método colorimétrico clásico para el ácido vanilmandélico en orina.",
+    "claveMemorizar": "Pisano → VMA."
+  },
+  "31": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Por retroalimentación negativa, T3 y T4 bajas elevan la TSH. La TSH es pulsátil y circadiana.",
+    "claveMemorizar": "T3/T4 bajas → TSH alta."
+  },
+  "32": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ADH disminuye la producción de orina aumentando la reabsorción de agua en el túbulo distal y colector (acuaporinas). La clave lo formula como reabsorción de Na.",
+    "claveMemorizar": "ADH: menos orina, más reabsorción de agua."
+  },
+  "33": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La cortisona es un esteroide derivado del colesterol.",
+    "claveMemorizar": "Cortisona: esteroide."
+  },
+  "34": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prolactina la segrega la hipófisis anterior (células lactotropas).",
+    "claveMemorizar": "Prolactina: adenohipófisis."
+  },
+  "35": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los folículos tiroideos sintetizan tiroxina (T4) y triyodotironina (T3). La calcitonina es de las células C.",
+    "claveMemorizar": "Folículos: T4 y T3."
+  },
+  "36": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TSH tiene una cadena alfa común (con LH, FSH, hCG) y una cadena beta específica que le da su actividad.",
+    "claveMemorizar": "Especificidad de TSH: cadena β."
+  },
+  "37": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La médula suprarrenal secreta catecolaminas (adrenalina y noradrenalina). La corteza produce glucocorticoides, mineralcorticoides y andrógenos.",
+    "claveMemorizar": "Médula = catecolaminas."
+  },
+  "38": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Ante hiperprolactinemia hay que descartar la macroprolactina (complejo con IgG, poco activo) precipitando con PEG. La prolactina sale de la adenohipófisis, sube en el embarazo y afecta a la fertilidad.",
+    "claveMemorizar": "Hiperprolactinemia: descartar macroprolactina."
+  },
+  "39": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ADH se regula sobre todo por la osmolaridad plasmática: al subir, se libera. Por eso B es falsa.",
+    "claveMemorizar": "ADH responde a la osmolaridad."
+  },
+  "40": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La GH, por ser pulsátil, se estudia con pruebas dinámicas: estimulación (hipoglucemia insulínica, arginina) y supresión (glucosa).",
+    "claveMemorizar": "GH: pruebas dinámicas."
+  },
+  "41": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Hipotiroidismo subclínico: TSH elevada con T4 libre normal.",
+    "claveMemorizar": "TSH↑ + T4 normal = subclínico."
+  },
+  "42": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La secreción de estradiol depende sobre todo de la FSH (aromatasa de la granulosa), aunque la LH aporta andrógenos precursores. Por eso la clave marca D como falsa.",
+    "claveMemorizar": "Estradiol: sobre todo FSH."
+  },
+  "43": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El DHEA-S es el principal andrógeno suprarrenal, contribuye a los caracteres sexuales secundarios y se pide en hirsutismo y virilización.",
+    "claveMemorizar": "DHEA-S: andrógeno suprarrenal."
+  },
+  "44": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La patología tiroidea se estudia con TSH, T4, T3 y anticuerpos antitiroideos.",
+    "claveMemorizar": "Tiroides: TSH, T4, T3, anticuerpos."
+  },
+  "45": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ACTH estimula la síntesis de glucocorticoides.",
+    "claveMemorizar": "ACTH → glucocorticoides."
+  },
+  "46": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El déficit de ADH (o la resistencia a ella) causa diabetes insípida: poliuria de orina diluida.",
+    "claveMemorizar": "Falta de ADH = diabetes insípida."
+  },
+  "47": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los mediadores químicos del sistema endocrino son las hormonas.",
+    "claveMemorizar": "Mediadores endocrinos = hormonas."
+  },
+  "48": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la función endocrina la hormona viaja por la sangre hasta células diana alejadas. La paracrina actúa sobre vecinas y la autocrina, sobre la propia célula.",
+    "claveMemorizar": "Endocrina: a distancia por la sangre."
+  },
+  "49": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hipo o hiperfunción se estudia con pruebas de estimulación (para hipofunción) y de supresión (para hiperfunción).",
+    "claveMemorizar": "Hipofunción → estimular. Hiperfunción → suprimir."
+  },
+  "50": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los esteroides sexuales son progestágenos, estrógenos y andrógenos.",
+    "claveMemorizar": "Esteroides sexuales: los tres."
+  },
+  "51": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La tiroglobulina es la proteína del coloide que se yoda en sus tirosinas para formar T3 y T4.",
+    "claveMemorizar": "Tiroglobulina fija yodo."
+  },
+  "52": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mayor parte de la testosterona circula unida a SHBG y albúmina; solo ~2% está libre. Por eso A es falsa.",
+    "claveMemorizar": "Testosterona: casi toda unida (SHBG)."
+  },
+  "53": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH estimula también la secreción de prolactina (por eso el hipotiroidismo primario puede elevarla).",
+    "claveMemorizar": "TRH ↑ prolactina."
+  },
+  "54": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el hipogonadismo primario (testicular) la testosterona está baja y LH y FSH suben por falta de retroalimentación.",
+    "claveMemorizar": "Fallo testicular: testosterona↓, LH/FSH↑."
+  },
+  "55": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ACTH (hormona adrenocorticotropa) estimula los glucocorticoides.",
+    "claveMemorizar": "ACTH → glucocorticoides."
+  },
+  "56": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el hiperaldosteronismo primario (Conn) se retiene sodio (normal-alto) y se pierde potasio: hipopotasemia con hipertensión.",
+    "claveMemorizar": "Conn: Na⁺ normal/↑, K⁺↓."
+  },
+  "57": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los IECA bloquean la formación de angiotensina II: se pierde la retroalimentación y sube la renina. Mucho sodio y la hipertensión la frenan.",
+    "claveMemorizar": "IECA → renina↑."
+  },
+  "58": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El SIADH se caracteriza por hiponatremia dilucional, euvolemia, orina concentrada (osmolalidad urinaria > plasmática) y sodio urinario >20-40.",
+    "claveMemorizar": "SIADH: hiponatremia, orina concentrada."
+  },
+  "59": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Secreción ectópica: hormona producida por un tumor no endocrino (p. ej. ACTH por carcinoma microcítico de pulmón).",
+    "claveMemorizar": "Ectópica = tumor que fabrica hormona."
+  },
+  "60": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cortisol es un esteroide. GH y oxitocina son peptídicas y la melatonina es derivada de aminoácido.",
+    "claveMemorizar": "Cortisol = esteroide."
+  },
+  "61": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El mecanismo de control hormonal más frecuente es la retroalimentación negativa.",
+    "claveMemorizar": "Control hormonal: feedback negativo."
+  },
+  "62": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el hiperparatiroidismo primario hay exceso de PTH con calcio normal o elevado (y fósforo bajo).",
+    "claveMemorizar": "HPT primario: PTH↑ + Ca↑."
+  },
+  "63": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En pacientes ambulatorios la causa más frecuente de hipercalcemia es el hiperparatiroidismo primario. En hospitalizados, el cáncer.",
+    "claveMemorizar": "Hipercalcemia ambulatoria: hiperparatiroidismo."
+  },
+  "64": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El calcio iónico lo regulan la PTH, la vitamina D activa (calcitriol) y la calcitonina.",
+    "claveMemorizar": "Calcio: PTH (+ vitamina D, calcitonina)."
+  },
+  "65": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PTH se mide para ver si responde bien al calcio, diferenciar causas de hiper o hipocalcemia y, durante la cirugía, comprobar que se ha extirpado la glándula responsable (PTH intraoperatoria).",
+    "claveMemorizar": "PTH: diagnóstico y control quirúrgico."
+  },
+  "66": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Metanefrinas y VMA urinarios valoran la médula suprarrenal: catecolaminas y feocromocitoma.",
+    "claveMemorizar": "Metanefrinas/VMA → suprarrenal (médula)."
+  },
+  "67": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hiperprolactinemia puede deberse a prolactinoma, hipotiroidismo primario (por la TRH) o fármacos, y causa infertilidad en ambos sexos.",
+    "claveMemorizar": "Prolactina↑: prolactinoma, hipotiroidismo; infertilidad."
+  },
+  "68": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH se produce en el hipotálamo.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "69": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La tiroglobulina es la proteína precursora de las hormonas tiroideas.",
+    "claveMemorizar": "Precursora: tiroglobulina."
+  },
+  "70": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tiroxina (T4) es la tetrayodotironina: tiene 4 átomos de yodo.",
+    "claveMemorizar": "T4 = tetrayodotironina."
+  },
+  "71": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La T3 activa se forma sobre todo por desyodación periférica de la tiroxina (T4).",
+    "claveMemorizar": "T3 ← T4."
+  },
+  "72": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La aldosterona está controlada por el sistema renina-angiotensina y regula el sodio, el potasio y la presión arterial.",
+    "claveMemorizar": "Aldosterona ← renina-angiotensina."
+  },
+  "73": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TSH se produce en la hipófisis anterior.",
+    "claveMemorizar": "TSH: hipófisis."
+  },
+  "74": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hCG se mide en suero y orina. Tiene 2 subunidades, su pico es a las 8-10 semanas y es útil en el embarazo ectópico.",
+    "claveMemorizar": "hCG: suero u orina."
+  },
+  "75": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cortisol alto frena por retroalimentación la CRH hipotalámica (y la ACTH).",
+    "claveMemorizar": "Cortisol↑ → CRH↓."
+  },
+  "76": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El feocromocitoma es el tumor funcional de la médula suprarrenal y secreta catecolaminas.",
+    "claveMemorizar": "Médula suprarrenal: feocromocitoma."
+  },
+  "77": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La LH desencadena la ovulación y estimula la formación del cuerpo lúteo en la segunda mitad del ciclo.",
+    "claveMemorizar": "LH: ovulación y cuerpo lúteo."
+  },
+  "78": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Hipotiroidismo primario: el fallo es del tiroides, así que la TSH está elevada y la T4 baja.",
+    "claveMemorizar": "Hipotiroidismo primario: TSH↑, T4↓."
+  },
+  "79": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El coloide folicular está formado principalmente por tiroglobulina.",
+    "claveMemorizar": "Coloide = tiroglobulina."
+  },
+  "80": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La procalcitonina es el precursor de la calcitonina, hormona del metabolismo fosfocálcico (también es marcador de sepsis).",
+    "claveMemorizar": "Procalcitonina → calcitonina."
+  },
+  "81": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el feto predomina la T4; la conversión a T3 es limitada y aumenta la T3 inversa.",
+    "claveMemorizar": "Feto: sobre todo T4."
+  },
+  "82": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ACTH estimula la corteza suprarrenal.",
+    "claveMemorizar": "ACTH → corteza suprarrenal."
+  },
+  "83": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH la secreta el hipotálamo, no la hipófisis. ACTH, prolactina y GH son hipofisarias.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "84": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Por retroalimentación negativa, T3 y T4 bajas elevan la TSH. La TSH es pulsátil y circadiana.",
+    "claveMemorizar": "T3/T4 bajas → TSH alta."
+  },
+  "85": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Más del 99% de la tiroxina circula unida a proteínas: TBG, transtiretina y albúmina. Solo la fracción libre es activa.",
+    "claveMemorizar": "T4: casi toda unida (TBG)."
+  },
+  "86": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cortisol se secreta por la ACTH, con ritmo circadiano (pico matutino), y aumenta con el estrés.",
+    "claveMemorizar": "Cortisol: ACTH, ritmo circadiano, estrés."
+  },
+  "87": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el embarazo estrógenos y progesterona (placentarios) aumentan muchísimo y caen bruscamente tras el parto. Esa caída permite la lactancia.",
+    "claveMemorizar": "Embarazo: estrógenos y progesterona muy altos."
+  },
+  "88": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "FSH y LH son gonadotropinas de la hipófisis anterior. Estrógenos y progesterona son ováricos.",
+    "claveMemorizar": "Hipófisis: FSH y LH."
+  },
+  "89": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el fallo ovárico primario los estrógenos bajan y FSH y LH suben por falta de retroalimentación.",
+    "claveMemorizar": "Fallo ovárico: FSH/LH↑, estrógenos↓."
+  },
+  "90": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH es hipotalámica, no hipofisaria.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "91": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "T4 y T3 bajas estimulan la TSH por retroalimentación negativa.",
+    "claveMemorizar": "T4/T3↓ → TSH↑."
+  },
+  "92": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH la secreta el hipotálamo, no la hipófisis. ACTH, prolactina y GH son hipofisarias.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "93": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Por retroalimentación negativa, T3 y T4 bajas elevan la TSH. La TSH es pulsátil y circadiana.",
+    "claveMemorizar": "T3/T4 bajas → TSH alta."
+  },
+  "94": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hormonas tiroideas elevadas en suero = hipertiroidismo.",
+    "claveMemorizar": "T4/T3↑ = hipertiroidismo."
+  },
+  "95": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Ante hipogonadismo, alteraciones menstruales o infertilidad se mide prolactina: la hiperprolactinemia frena la GnRH.",
+    "claveMemorizar": "Infertilidad/amenorrea → prolactina."
+  },
+  "96": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Retroalimentación negativa: cuando sube el cortisol, disminuye la secreción de ACTH.",
+    "claveMemorizar": "Cortisol↑ → ACTH↓."
+  },
+  "97": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los autoantígenos tiroideos principales son tiroglobulina, peroxidasa tiroidea (TPO) y receptor de TSH.",
+    "claveMemorizar": "Autoantígenos: Tg, TPO, receptor TSH."
+  },
+  "98": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PTH regula los niveles de calcio en sangre.",
+    "claveMemorizar": "PTH → calcio."
+  },
+  "99": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La cortisona/cortisol se produce en la corteza (cápsula) suprarrenal.",
+    "claveMemorizar": "Cortisol: corteza suprarrenal."
+  },
+  "100": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El feocromocitoma aumenta la excreción urinaria de catecolaminas y sus metabolitos (metanefrinas, VMA). El carcinoide eleva el 5-HIAA.",
+    "claveMemorizar": "Catecolaminas en orina↑ = feocromocitoma."
+  },
+  "101": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos antitiroglobulina aparecen típicamente en la tiroiditis de Hashimoto (junto a anti-TPO).",
+    "claveMemorizar": "Anti-Tg → Hashimoto."
+  },
+  "102": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la insuficiencia cardiaca congestiva se retiene agua libre (ADH, renina) y aparece hiponatremia dilucional: baja la osmolalidad. Diabetes insípida, deshidratación y coma hiperosmolar la elevan.",
+    "claveMemorizar": "ICC → hiponatremia dilucional."
+  },
+  "103": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tiroxina es la T4.",
+    "claveMemorizar": "Tiroxina = T4."
+  },
+  "104": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El cribado inicial de disfunción tiroidea se hace con TSH sola; si está alterada, se añade T4 libre.",
+    "claveMemorizar": "Cribado tiroideo: TSH."
+  },
+  "105": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la menopausia cae la producción ovárica de estrógenos y suben de forma continua FSH y LH (sobre todo FSH).",
+    "claveMemorizar": "Menopausia: FSH/LH↑."
+  },
+  "106": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la enfermedad de Addison disminuye la secreción de cortisol.",
+    "claveMemorizar": "Addison: cortisol↓."
+  },
+  "107": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si la TSH está alterada, el siguiente paso es la T4 libre (LT4).",
+    "claveMemorizar": "TSH alterada → T4 libre."
+  },
+  "108": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las catecolaminas son de la médula suprarrenal. La corteza produce aldosterona, cortisol y andrógenos (androstenodiona).",
+    "claveMemorizar": "Catecolaminas: médula."
+  },
+  "109": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el embarazo ectópico la hCG suele estar más baja de lo esperado para la edad gestacional y no se duplica cada 48 h.",
+    "claveMemorizar": "Ectópico: hCG baja, sin duplicarse."
+  },
+  "110": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La aldosterona favorece la reabsorción de Na⁺ y la excreción de K⁺ y H⁺.",
+    "claveMemorizar": "Aldosterona: retiene Na⁺."
+  },
+  "111": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la Addison primaria disminuyen cortisol, aldosterona y andrógenos, y la ACTH aumenta.",
+    "claveMemorizar": "Addison primaria: cortisol↓, ACTH↑."
+  },
+  "112": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las TSI (inmunoglobulinas estimulantes del tiroides, anti-receptor de TSH) son diagnósticas de la enfermedad de Graves.",
+    "claveMemorizar": "TSI = Graves."
+  },
+  "113": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cribado general de disfunción tiroidea se hace con TSH.",
+    "claveMemorizar": "Cribado: TSH."
+  },
+  "114": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El yodo se almacena en el coloide incorporado a la tiroglobulina.",
+    "claveMemorizar": "Yodo almacenado: tiroglobulina."
+  },
+  "115": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para el feocromocitoma se recomiendan las metanefrinas fraccionadas (plasma u orina de 24 h), las más sensibles.",
+    "claveMemorizar": "Feocromocitoma: metanefrinas."
+  },
+  "116": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ADH se sintetiza en el hipotálamo y se libera en la neurohipófisis (posterior), no en la anterior.",
+    "claveMemorizar": "ADH: neurohipófisis."
+  },
+  "117": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hiperplasia suprarrenal congénita es autosómica recesiva y su forma más frecuente es el déficit de 21-hidroxilasa (17-OH-progesterona alta, andrógenos altos, a veces pérdida salina).",
+    "claveMemorizar": "HSC: déficit de 21-hidroxilasa."
+  },
+  "118": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El neuroblastoma produce catecolaminas, sobre todo dopamina, y sus metabolitos (HVA, VMA).",
+    "claveMemorizar": "Neuroblastoma: dopamina, HVA."
+  },
+  "119": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "T3 = triyodotironina.",
+    "claveMemorizar": "T3 = triyodotironina."
+  },
+  "120": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prolactina estimula la producción de leche. La oxitocina la expulsa.",
+    "claveMemorizar": "Prolactina: produce leche."
+  },
+  "121": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tratamiento con GH se vigila con la IGF-I, estable y reflejo de la acción de la GH.",
+    "claveMemorizar": "Seguimiento de GH: IGF-I."
+  },
+  "122": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hormona antimülleriana (AMH) es un marcador de reserva ovárica, no un anticuerpo antitiroideo.",
+    "claveMemorizar": "AMH: reserva ovárica."
+  },
+  "123": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el hipotiroidismo primario la TSH está alta y T3 y T4 bajas.",
+    "claveMemorizar": "Hipotiroidismo primario: TSH↑, T4↓."
+  },
+  "124": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La TRH (hormona liberadora de tirotropina) es hipotalámica, no hipofisaria.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "125": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El estrés eleva catecolaminas, cortisol y prolactina. La TSH no aumenta; incluso tiende a bajar.",
+    "claveMemorizar": "Estrés: no sube la TSH."
+  },
+  "126": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El déficit de ADH (diabetes insípida) produce poliuria intensa de orina diluida, con tendencia a hipernatremia.",
+    "claveMemorizar": "Déficit de ADH → poliuria."
+  },
+  "127": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ACTH regula la secreción de glucocorticoides.",
+    "claveMemorizar": "ACTH → glucocorticoides."
+  },
+  "128": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En infertilidad femenina se cuantifican las hormonas hipofisarias FSH y LH.",
+    "claveMemorizar": "Infertilidad: FSH y LH."
+  },
+  "129": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las hormonas tiroideas son T3 (triyodotironina) y T4 (tiroxina).",
+    "claveMemorizar": "Hormonas tiroideas: T3 y T4."
+  },
+  "130": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La coriogonadotropina (hCG) la produce la placenta (trofoblasto).",
+    "claveMemorizar": "hCG: placenta."
+  },
+  "131": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los folículos tiroideos sintetizan T4 y T3.",
+    "claveMemorizar": "T4 y T3."
+  },
+  "132": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ACTH estimula la corteza suprarrenal.",
+    "claveMemorizar": "ACTH → corteza suprarrenal."
+  },
+  "133": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La testosterona elevada en mujeres puede indicar tumores ováricos (o suprarrenales) productores de andrógenos, además del SOP.",
+    "claveMemorizar": "Testosterona↑ en mujer: tumor ovárico/SOP."
+  },
+  "134": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La TSH se estimula con la TRH y se inhibe con las hormonas tiroideas, la somatostatina y la dopamina.",
+    "claveMemorizar": "TSH: TRH (+), T4/T3, somatostatina, dopamina (−)."
+  },
+  "135": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las catecolaminas no son de urgencias: se estudian de forma programada. Glucosa, iones y urea sí lo son.",
+    "claveMemorizar": "Catecolaminas: no urgentes."
+  },
+  "136": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mayoría de la hormona tiroidea circula unida a proteínas, no libre. La fracción libre se mide porque es la activa.",
+    "claveMemorizar": "Hormona tiroidea: >99% unida."
+  },
+  "137": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En un sujeto normal, la restricción hídrica estimula la ADH y la orina se concentra (aumenta la osmolalidad urinaria).",
+    "claveMemorizar": "Deshidratación normal → orina concentrada."
+  },
+  "138": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tiroxina es la T4.",
+    "claveMemorizar": "Tiroxina = T4."
+  },
+  "139": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El síndrome de Addison es un déficit hormonal (cortisol, aldosterona). Hipertiroidismo, prolactinoma y SIADH son excesos.",
+    "claveMemorizar": "Addison = déficit."
+  },
+  "140": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La TRH no es hipofisaria: es hipotalámica.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "141": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tiroxina (T4) es la tetrayodotironina: tiene 4 átomos de yodo.",
+    "claveMemorizar": "T4 = tetrayodotironina."
+  },
+  "142": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ADH no está en la adenohipófisis: se almacena en la neurohipófisis.",
+    "claveMemorizar": "ADH: neurohipófisis."
+  },
+  "143": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el Cushing el cortisol no se suprime tras la dexametasona. Si se suprime es normal, así que B es la incorrecta.",
+    "claveMemorizar": "Cushing: no suprime con dexametasona."
+  },
+  "144": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La causa más común de hipotiroidismo primario (en zonas con yodo suficiente) es la tiroiditis de Hashimoto.",
+    "claveMemorizar": "Hipotiroidismo: Hashimoto."
+  },
+  "145": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PTH se sintetiza en las paratiroides, eleva el calcio sanguíneo y aumenta la eliminación renal de fósforo.",
+    "claveMemorizar": "PTH: Ca↑, fosfaturia."
+  },
+  "146": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La forma activa de la vitamina D es el 1,25-dihidroxicolecalciferol (calcitriol).",
+    "claveMemorizar": "Activa: 1,25-(OH)₂D₃."
+  },
+  "147": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las hormonas tiroideas circulan unidas a proteínas hepáticas. La TBG es la de mayor afinidad, luego transtiretina y albúmina.",
+    "claveMemorizar": "Mayor afinidad: TBG."
+  },
+  "148": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ACTH es una hormona peptídica hipofisaria que regula la síntesis y secreción de cortisol.",
+    "claveMemorizar": "ACTH → cortisol."
+  },
+  "149": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para valorar la vitamina D se mide la 25-hidroxivitamina D.",
+    "claveMemorizar": "Vitamina D: 25-OH-D."
+  },
+  "150": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hCG la produce el sincitiotrofoblasto (trofoblasto).",
+    "claveMemorizar": "hCG: trofoblasto."
+  },
+  "151": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las glándulas endocrinas no tienen conductos: vierten sus hormonas directamente a la sangre. Las de secreción externa sí tienen conductos.",
+    "claveMemorizar": "Endocrinas: sin conductos."
+  },
+  "152": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las somatomedinas (IGF-1) se sintetizan sobre todo en el hígado por estímulo de la GH.",
+    "claveMemorizar": "Somatomedinas: hígado."
+  },
+  "153": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La oxitocina produce contracción del músculo liso uterino (parto) y mioepitelial (eyección de leche).",
+    "claveMemorizar": "Oxitocina: contracción uterina."
+  },
+  "154": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave, las hormonas peptídicas pequeñas suelen ser octapéptidos (angiotensina II). La oxitocina y la ADH son nonapéptidos.",
+    "claveMemorizar": "Péptidos hormonales pequeños (clave): octapéptidos."
+  },
+  "155": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Glándula pituitaria es sinónimo de hipófisis.",
+    "claveMemorizar": "Pituitaria = hipófisis."
+  },
+  "156": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ICSH (hormona estimulante de las células intersticiales) es la LH en el varón: estimula las células de Leydig a producir testosterona.",
+    "claveMemorizar": "ICSH = LH → testosterona."
+  },
+  "157": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La STH (somatotropina, GH) actúa sobre casi todos los tejidos del cuerpo (crecimiento, metabolismo).",
+    "claveMemorizar": "STH (GH): acción general."
+  },
+  "158": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El factor liberador de tirotropina es la TRH.",
+    "claveMemorizar": "Libera TSH: TRH."
+  },
+  "159": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cortisol inhibe la ACTH por retroalimentación negativa. La oxitocina es de la hipófisis posterior, la vasopresina retiene agua y la acromegalia se debe a exceso de GH.",
+    "claveMemorizar": "Cortisol frena la ACTH."
+  },
+  "160": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El síndrome de Cushing se debe a exceso de cortisol, no a déficit (déficit = Addison).",
+    "claveMemorizar": "Cushing: exceso de cortisol."
+  },
+  "161": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El exceso de hormona tiroidea baja el colesterol: aumenta los receptores de LDL y su catabolismo. Sube el metabolismo, la frecuencia cardiaca y la glucólisis.",
+    "claveMemorizar": "Hipertiroidismo: colesterol↓."
+  },
+  "162": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PTH (sube el calcio) es la antagonista de la calcitonina (lo baja).",
+    "claveMemorizar": "PTH vs calcitonina."
+  },
+  "163": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El principal glucocorticoide es el cortisol.",
+    "claveMemorizar": "Glucocorticoide principal: cortisol."
+  },
+  "164": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El hiperparatiroidismo primario cursa con hipercalcemia e hipofosfatemia.",
+    "claveMemorizar": "HPT primario: Ca↑, P↓."
+  },
+  "165": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PTH regula el calcio sanguíneo.",
+    "claveMemorizar": "PTH → calcio."
+  },
+  "166": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PTH mantiene la concentración de calcio iónico extracelular.",
+    "claveMemorizar": "PTH: calcio iónico."
+  },
+  "167": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las hormonas sexuales son esteroideas (derivan del colesterol). Se sintetizan en gónadas y suprarrenal bajo control hipotálamo-hipofisario.",
+    "claveMemorizar": "Hormonas sexuales: esteroides."
+  },
+  "168": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Hipotiroidismo primario: TSH elevada y T4 disminuida.",
+    "claveMemorizar": "TSH↑ + T4↓."
+  },
+  "169": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En las pruebas de hCG en orina pueden dar falsos positivos la proteinuria, la hematuria y algunos fármacos como la metadona.",
+    "claveMemorizar": "Falsos + de hCG: proteinuria, hematuria, fármacos."
+  },
+  "170": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El déficit de GH en la infancia origina enanismo hipofisario. El exceso da gigantismo o acromegalia.",
+    "claveMemorizar": "Déficit de GH = enanismo."
+  },
+  "171": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aldosterona es el mineralcorticoide que reabsorbe sodio.",
+    "claveMemorizar": "Aldosterona: Na⁺."
+  },
+  "172": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la Addison (insuficiencia primaria) sube la ACTH y baja el cortisol.",
+    "claveMemorizar": "Addison: ACTH↑, cortisol↓."
+  },
+  "173": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PTH se ha medido clásicamente por radioinmunoanálisis. Hoy se usan inmunoensayos (IRMA, quimioluminiscencia) de PTH intacta.",
+    "claveMemorizar": "PTH: inmunoanálisis (RIA)."
+  },
+  "174": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Hipotiroidismo primario: TSH elevada y T4 disminuida.",
+    "claveMemorizar": "TSH↑ + T4↓."
+  },
+  "175": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un cortisol muy alto frena por retroalimentación la CRH (y la ACTH).",
+    "claveMemorizar": "Cortisol↑ → CRH↓."
+  },
+  "176": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave, la PTH «disminuye la absorción de calcio en el hueso». En realidad la PTH moviliza calcio del hueso hacia la sangre, reabsorbe calcio en el riñón y aumenta la eliminación de fósforo por la orina.",
+    "claveMemorizar": "PTH: saca calcio del hueso, fosfaturia."
+  },
+  "177": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La médula suprarrenal sintetiza adrenalina (y noradrenalina). Cortisol y aldosterona son corticales.",
+    "claveMemorizar": "Médula: adrenalina."
+  },
+  "178": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La GH es hiperglucemiante (antagoniza la insulina) y lipolítica. Se libera en la adenohipófisis y su exceso causa acromegalia.",
+    "claveMemorizar": "GH: sube la glucosa."
+  },
+  "179": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Con TSH elevada se mide la T4 libre para confirmar y clasificar el hipotiroidismo.",
+    "claveMemorizar": "TSH↑ → T4 libre."
+  },
+  "180": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La paratohormona regula el metabolismo del calcio. La fosfatasa alcalina es una enzima, no una hormona.",
+    "claveMemorizar": "Calcio → PTH."
+  },
+  "181": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Por estructura, las hormonas son peptídicas, esteroideas, derivadas de aminoácidos o de ácidos grasos (eicosanoides). No hay hormonas derivadas de la glucosa.",
+    "claveMemorizar": "Hormonas: péptidos, esteroides, aminas, eicosanoides."
+  },
+  "182": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En un ELISA: inmunorreacción (unión antígeno-anticuerpo) → separación (lavado) → reacción indicadora (sustrato y color).",
+    "claveMemorizar": "ELISA: unir → lavar → revelar."
+  },
+  "183": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La TRH es hipotalámica. GH, ACTH y PRL son hipofisarias.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "184": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Porfirinas, vitamina D, bilirrubina y vitaminas A, B₁₂ y folato son fotosensibles: se protegen de la luz.",
+    "claveMemorizar": "Porfirinas y vitamina D: proteger de la luz."
+  },
+  "185": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ácido vanilmandélico es el principal producto terminal de adrenalina y noradrenalina.",
+    "claveMemorizar": "Catecolaminas → VMA."
+  },
+  "186": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La función placentaria se valora con el estriol, que necesita la unidad fetoplacentaria.",
+    "claveMemorizar": "Función placentaria: estriol."
+  },
+  "187": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La corteza suprarrenal produce mineralocorticoides (glomerular), glucocorticoides (fascicular) y andrógenos (reticular).",
+    "claveMemorizar": "Corteza: mineralo-, gluco- y andrógenos."
+  },
+  "188": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La GH es de la adenohipófisis. Oxitocina y ADH se liberan en la neurohipófisis.",
+    "claveMemorizar": "GH: adenohipófisis."
+  },
+  "189": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PTH regula el metabolismo calcio-fósforo.",
+    "claveMemorizar": "PTH: calcio-fósforo."
+  },
+  "190": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La TRH se genera en el hipotálamo.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "191": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las catecolaminas proceden de la médula, no de la corteza.",
+    "claveMemorizar": "Catecolaminas: médula."
+  },
+  "192": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El SIADH se debe a un exceso (no déficit) de ADH: retiene agua, produce hiponatremia dilucional y reduce la diuresis.",
+    "claveMemorizar": "SIADH = exceso de ADH."
+  },
+  "193": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las paratiroides (PTH) regulan el calcio, el fósforo y el magnesio.",
+    "claveMemorizar": "Calcio/fósforo → paratiroides."
+  },
+  "194": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "TSH baja con T3 libre alta (T4 normal) sugiere hipertiroidismo (tirotoxicosis por T3).",
+    "claveMemorizar": "TSH↓ + T3↑ = hipertiroidismo."
+  },
+  "195": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La clasificación autocrina, paracrina o endocrina se refiere a cómo actúan: sobre la propia célula, sobre vecinas o a distancia. La clave lo llama «su función».",
+    "claveMemorizar": "Auto/para/endocrina: modo de acción."
+  },
+  "196": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cortisol es una hormona esteroidea (deriva del colesterol). Su exceso causa Cushing y su déficit, Addison.",
+    "claveMemorizar": "Cortisol: esteroide."
+  },
+  "197": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La tiroxina también se llama tetrayodotironina (T4).",
+    "claveMemorizar": "Tiroxina = tetrayodotironina."
+  },
+  "198": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El hipertiroidismo se caracteriza por alta producción de T3 y T4.",
+    "claveMemorizar": "Hipertiroidismo: T3/T4↑."
+  },
+  "199": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Hipotiroidismo primario: el fallo es del tiroides, así que la TSH está elevada y la T4 baja.",
+    "claveMemorizar": "Hipotiroidismo primario: TSH↑, T4↓."
+  },
+  "200": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El exceso de PTH produce hipercalcemia.",
+    "claveMemorizar": "PTH↑ → hipercalcemia."
+  },
+  "201": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Epinefrina = adrenalina.",
+    "claveMemorizar": "Epinefrina = adrenalina."
+  },
+  "202": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PTH mantiene la concentración de calcio iónico extracelular.",
+    "claveMemorizar": "PTH: calcio iónico."
+  },
+  "203": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La acromegalia (adulto) y el gigantismo (niño) se deben a exceso de GH.",
+    "claveMemorizar": "Acromegalia/gigantismo: GH↑."
+  },
+  "204": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La melatonina, de la glándula pineal, regula el ciclo vigilia-sueño.",
+    "claveMemorizar": "Sueño → melatonina."
+  },
+  "205": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El yodo es imprescindible para la síntesis de T3 y T4.",
+    "claveMemorizar": "Hormona tiroidea: yodo."
+  },
+  "206": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La prolactina estimula la producción de leche en la lactancia.",
+    "claveMemorizar": "Lactancia → prolactina."
+  },
+  "207": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El mejor indicador del estado de vitamina D es la 25(OH)D total (D2 + D3).",
+    "claveMemorizar": "Estado vitamina D: 25(OH)D."
+  },
+  "208": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En adultos, el exceso de GH causa acromegalia: engrosamiento óseo, prognatismo, manos y pies grandes.",
+    "claveMemorizar": "GH↑ en adulto = acromegalia."
+  },
+  "209": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La HbA1c se cuantifica habitualmente por HPLC.",
+    "claveMemorizar": "HbA1c → HPLC."
+  },
+  "210": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Testosterona, cortisol y progesterona son esteroides.",
+    "claveMemorizar": "Esteroides: sexuales y corticoides."
+  },
+  "211": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PTH es la hormona clave del metabolismo fosfocálcico, tiene una vida media de 2-4 min y se sintetiza como preprohormona en las paratiroides.",
+    "claveMemorizar": "PTH: vida media corta (2-4 min)."
+  },
+  "212": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PTH intraoperatoria (vida media corta) confirma rápido que se ha extirpado el tejido hiperfuncionante. Según la clave, su ventaja es reducir costes y días de hospitalización.",
+    "claveMemorizar": "PTH intraoperatoria: cirugía más dirigida."
+  },
+  "213": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La función tiroidea se controla con la TSH.",
+    "claveMemorizar": "Función tiroidea → TSH."
+  },
+  "214": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La macroprolactina (prolactina unida a IgG, de alto peso molecular) se detecta precipitando con polietilenglicol. Puede causar hiperprolactinemia aparente.",
+    "claveMemorizar": "Macroprolactina: precipitar con PEG."
+  },
+  "215": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El factor liberador de ACTH (CRH) lo secreta el hipotálamo.",
+    "claveMemorizar": "CRH: hipotálamo."
+  },
+  "216": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el hipotiroidismo primario falla la propia tiroides.",
+    "claveMemorizar": "Primario = fallo tiroideo."
+  },
+  "217": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PTH se ha determinado clásicamente por radioinmunoanálisis.",
+    "claveMemorizar": "PTH: inmunoanálisis."
+  },
+  "218": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La LH induce la secreción de testosterona en las células de Leydig.",
+    "claveMemorizar": "LH → testosterona."
+  },
+  "219": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La adrenalina es de la médula, no de la corteza.",
+    "claveMemorizar": "Adrenalina: médula."
+  },
+  "220": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el hipotiroidismo primario sin tratar la TSH está elevada y T3 y T4 libres disminuidas.",
+    "claveMemorizar": "TSH↑, T4L↓."
+  },
+  "221": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La vasopresina (ADH) se libera en la neurohipófisis, no en la adenohipófisis.",
+    "claveMemorizar": "Vasopresina: neurohipófisis."
+  },
+  "222": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La TSH aumenta en el hipotiroidismo primario. La calcitonina sube en el carcinoma medular y los anticuerpos aumentan en la autoinmunidad.",
+    "claveMemorizar": "Hipotiroidismo primario: TSH↑."
+  },
+  "223": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las catecolaminas se miden por cromatografía líquida (HPLC con detección electroquímica o masas).",
+    "claveMemorizar": "Catecolaminas → HPLC."
+  },
+  "224": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El principal glucocorticoide es el cortisol.",
+    "claveMemorizar": "Glucocorticoide: cortisol."
+  },
+  "225": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La TSH es la prueba más sensible para detectar pronto hiper e hipotiroidismo.",
+    "claveMemorizar": "Más sensible: TSH."
+  },
+  "226": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "GH elevada en adultos = acromegalia.",
+    "claveMemorizar": "GH↑ = acromegalia."
+  },
+  "227": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La angiotensina II es el principal estímulo de la aldosterona en la zona glomerular (junto con el K⁺).",
+    "claveMemorizar": "Aldosterona ← angiotensina II."
+  },
+  "228": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "T4 libre alta con TSH baja confirma hipertiroidismo primario.",
+    "claveMemorizar": "T4L↑ + TSH↓ = hipertiroidismo."
+  },
+  "229": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una progesterona elevada en la fase lútea (día 21) confirma que hubo ovulación.",
+    "claveMemorizar": "Ovulación: progesterona en fase lútea."
+  },
+  "230": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El déficit de GH se valora con IGF-I, IGFBP-3 y pruebas de estimulación (clonidina, hipoglucemia). La IGF-II depende poco de la GH.",
+    "claveMemorizar": "Déficit de GH: IGF-I, IGFBP-3."
+  },
+  "231": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La diabetes insípida central es un déficit total o parcial de síntesis o secreción de ADH. Da poliuria de orina diluida, a menudo de inicio brusco.",
+    "claveMemorizar": "DI central: falta ADH."
+  },
+  "232": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La vasopresina se libera en la neurohipófisis (se sintetiza en el hipotálamo).",
+    "claveMemorizar": "Neurohipófisis: vasopresina y oxitocina."
+  },
+  "233": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La copeptina, fragmento del precursor de la vasopresina y más estable, se usa para diagnosticar la diabetes insípida.",
+    "claveMemorizar": "Copeptina → diabetes insípida."
+  },
+  "234": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hipotiroidismo subclínico: TSH aumentada con T3 y T4 libres normales.",
+    "claveMemorizar": "Subclínico: TSH↑, T4L normal."
+  },
+  "235": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la diabetes insípida central la orina es muy diluida (sodio urinario bajo) y el sodio sérico tiende a subir. La vasopresina está baja.",
+    "claveMemorizar": "DI central: orina diluida, Na urinario↓."
+  },
+  "236": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la enfermedad de Graves los anticuerpos contra el receptor de TSH estimulan el tiroides: son los patogénicos.",
+    "claveMemorizar": "Graves: anti-receptor de TSH."
+  },
+  "237": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La segunda hidroxilación (1-α) de la vitamina D ocurre en el riñón.",
+    "claveMemorizar": "1-hidroxilación: riñón."
+  },
+  "238": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave, la IGF-1 se usa porque no varía con la nutrición ni la pubertad. En realidad sí varía con ellas; su ventaja real es que no es pulsátil y refleja la secreción integrada de GH.",
+    "claveMemorizar": "IGF-1: estable, refleja la GH."
+  },
+  "239": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Adrenalina, noradrenalina y dopamina son catecolaminas. La metanefrina (metadrenalina) es un metabolito.",
+    "claveMemorizar": "Metanefrina: metabolito, no catecolamina."
+  },
+  "240": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La TRH se produce en el hipotálamo. TSH, ACTH y FSH son hipofisarias.",
+    "claveMemorizar": "TRH: hipotálamo."
+  },
+  "241": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El SIADH afecta a la ADH (neurohipófisis o secreción ectópica). Acromegalia, Cushing y prolactinoma son de la adenohipófisis.",
+    "claveMemorizar": "SIADH: no adenohipófisis."
+  },
+  "242": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El exceso de cortisol produce Cushing, no Addison (déficit).",
+    "claveMemorizar": "Cortisol↑ = Cushing."
+  },
+  "243": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El cortisol se sintetiza en la corteza (cápsula) suprarrenal.",
+    "claveMemorizar": "Cortisol: suprarrenal."
+  },
+  "244": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la menopausia la progesterona no aumenta: no hay ovulación ni cuerpo lúteo. Suben FSH y LH y baja el estradiol.",
+    "claveMemorizar": "Menopausia: progesterona baja."
+  },
+  "245": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cortisol libre urinario requiere extracción previa con disolvente orgánico para eliminar interferencias en el inmunoensayo. Se mide por inmunoensayo o LC-MS y muchos fármacos interfieren.",
+    "claveMemorizar": "Cortisol libre urinario: extracción previa."
+  },
+  "246": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La enfermedad de Addison autoinmune destruye la corteza suprarrenal.",
+    "claveMemorizar": "Destrucción suprarrenal = Addison."
+  },
+  "247": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El 11-desoxicortisol es un esteroide precursor del cortisol. Vasopresina, FSH y ACTH son peptídicas.",
+    "claveMemorizar": "11-desoxicortisol: esteroide."
+  },
+  "248": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el hipotiroidismo secundario (hipofisario) la TSH está baja o inapropiadamente normal y la T4 también baja.",
+    "claveMemorizar": "Secundario: TSH↓ + T4↓."
+  },
+  "249": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La CRH la segrega el hipotálamo.",
+    "claveMemorizar": "CRH: hipotálamo."
+  },
+  "250": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La β-hCG alcanza su pico máximo hacia las semanas 8-10 de gestación.",
+    "claveMemorizar": "Pico de hCG: semanas 8-10."
+  },
+  "251": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el síndrome de Cushing el exceso de cortisol (efecto mineralocorticoide) produce hipopotasemia. Quemaduras, aplastamiento y hemólisis liberan K⁺.",
+    "claveMemorizar": "Cushing → hipopotasemia."
+  },
+  "252": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hCG sube hasta el primer trimestre (máximo hacia las 8-12 semanas) y luego desciende.",
+    "claveMemorizar": "hCG máxima: hasta la semana 12."
+  },
+  "253": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La insuficiencia ovárica no eleva la prolactina. Prolactinoma, hipotiroidismo (por la TRH) y enfermedad hipotalámica (menos dopamina) sí.",
+    "claveMemorizar": "Prolactina↑: prolactinoma, hipotiroidismo, hipotálamo."
+  },
+  "254": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La tiroglobulina es el marcador del carcinoma diferenciado (papilar y folicular). El medular se sigue con calcitonina y CEA.",
+    "claveMemorizar": "Medular: calcitonina, no tiroglobulina."
+  },
+  "255": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la enfermedad de Graves el autoanticuerpo va contra el receptor de TSH.",
+    "claveMemorizar": "Graves: anti-receptor de TSH."
+  }
+}
