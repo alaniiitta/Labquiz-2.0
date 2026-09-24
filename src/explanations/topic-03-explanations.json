@@ -224,49 +224,1394 @@
     "porQueLaCorrecta": "La orina para anormales y sedimento es estable solo unas 2 horas a temperatura ambiente. Después se lisan las células y se multiplican las bacterias.",
     "claveMemorizar": "Orina para sedimento: < 2 h a temperatura ambiente."
   },
+  "46": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las tiras reactivas se leen por reflectancia: el lector mide la luz que refleja cada almohadilla según la intensidad del color. La clave oficial la llama «refractancia».",
+    "claveMemorizar": "Tiras reactivas: lectura por reflectancia."
+  },
+  "47": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La proteína de Bence Jones está formada por cadenas ligeras libres (kappa o lambda) de inmunoglobulinas monoclonales.",
+    "claveMemorizar": "Bence Jones = cadenas ligeras."
+  },
+  "48": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cilindros céreos indican estasis tubular prolongada y aparecen en la enfermedad renal crónica avanzada y grave.",
+    "claveMemorizar": "Céreos = insuficiencia renal crónica grave."
+  },
+  "49": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La almohadilla de proteínas de la tira (error proteico del indicador) es mucho más sensible a la albúmina que a las globulinas o a las cadenas ligeras.",
+    "claveMemorizar": "La tira detecta sobre todo albúmina."
+  },
+  "50": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El umbral renal de la glucosa ronda los 180 mg/dL: por encima de esa glucemia, el túbulo no la reabsorbe toda y aparece glucosuria.",
+    "claveMemorizar": "Umbral renal de glucosa: ~180 mg/dL."
+  },
+  "51": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los fosfatos amorfos precipitan en orina alcalina, no en ácida. Uratos amorfos, oxalato cálcico y tirosina se forman en pH ácido.",
+    "claveMemorizar": "Orina ácida: uratos y ácido úrico. Alcalina: fosfatos."
+  },
   "52": {
     "respuestaCorrecta": "B",
     "porQueLaCorrecta": "Un porcentaje alto de hematíes dismórficos (deformados al atravesar el glomérulo) indica que la hematuria es de origen glomerular.",
     "claveMemorizar": "Hematíes dismórficos = hematuria glomerular."
+  },
+  "53": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ácido úrico precipita en medio ácido. Añadir hidróxido sódico alcaliniza la orina de 24 h y lo mantiene disuelto.",
+    "claveMemorizar": "Ácido úrico en orina de 24 h: alcalinizar (NaOH)."
+  },
+  "54": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La beta-2 microglobulina se filtra libremente y el túbulo la reabsorbe casi por completo. Si aparece en orina, indica fallo tubular; es el marcador clásico de proteinuria tubular.",
+    "claveMemorizar": "Proteinuria tubular = beta-2 microglobulina."
+  },
+  "55": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Microhematuria con proteinuria y cilindros hemáticos indica lesión glomerular (glomerulonefritis). Los cilindros hemáticos confirman el origen renal del sangrado.",
+    "claveMemorizar": "Hematuria + proteinuria + cilindros hemáticos = glomérulo."
+  },
+  "56": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La tira de proteínas puede dar falsos positivos (orinas muy alcalinas, antisépticos), así que un positivo debe confirmarse con un método específico (ácido sulfosalicílico o cuantitativo).",
+    "claveMemorizar": "Tira de proteínas positiva: confirmar."
+  },
+  "57": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las proteínas de bajo peso molecular (beta-2 microglobulina, alfa-1 microglobulina) aparecen en la orina cuando falla la reabsorción tubular: indican enfermedad túbulo-intersticial.",
+    "claveMemorizar": "Proteínas pequeñas en orina = túbulo-intersticio."
+  },
+  "58": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "De arriba abajo, la vía urinaria es: pelvis renal, uréteres, vejiga y uretra.",
+    "claveMemorizar": "Pelvis → uréter → vejiga → uretra."
+  },
+  "59": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cilindros se forman en los túbulos renales (con proteína de Tamm-Horsfall como matriz), así que su presencia indica que el origen es renal.",
+    "claveMemorizar": "Cilindros = origen renal."
+  },
+  "60": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las catecolaminas de la orina de 24 h se conservan con ácido clorhídrico (pH 2-3), porque se oxidan en medio neutro o alcalino.",
+    "claveMemorizar": "Catecolaminas: orina de 24 h con HCl."
+  },
+  "61": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cristales de tirosina forman acúmulos de agujas finas (en haces o rosetas). Aparecen en enfermedades hepáticas graves y en la tirosinemia.",
+    "claveMemorizar": "Tirosina = agujas en haces."
+  },
+  "62": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El filtrado glomerular normal de un adulto sano es de unos 125 mL/min (unos 180 L al día).",
+    "claveMemorizar": "Filtrado glomerular normal: ~125 mL/min."
+  },
+  "63": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La esterasa leucocitaria de la tira detecta una enzima de los granulocitos: si es positiva, hay leucocitos en la orina (piuria).",
+    "claveMemorizar": "Esterasa positiva = leucocitos."
+  },
+  "64": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mioglobina en orina procede de la destrucción del músculo esquelético: hace sospechar rabdomiólisis, que puede dañar el riñón.",
+    "claveMemorizar": "Mioglobinuria = rabdomiólisis."
+  },
+  "65": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las células del epitelio de transición (vejiga) son redondeadas u ovaladas, con un núcleo central grande. Las escamosas son grandes, planas y de núcleo pequeño.",
+    "claveMemorizar": "Transición: redondas, núcleo grande. Escamosas: planas, núcleo pequeño."
   },
   "66": {
     "respuestaCorrecta": "A",
     "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
     "claveMemorizar": "Proteinuria → busca cilindros."
   },
+  "67": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el sedimento se ven elementos formes: células, cilindros, cristales, levaduras. Los cuerpos cetónicos están disueltos y se detectan con la tira reactiva.",
+    "claveMemorizar": "Cetonas: en la tira, no en el microscopio."
+  },
+  "68": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteinuria de Bence Jones (cadenas ligeras) se asocia al mieloma múltiple y a otras gammapatías monoclonales.",
+    "claveMemorizar": "Bence Jones = mieloma."
+  },
+  "69": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque la tira reactiva de proteínas detecta sobre todo albúmina y a menudo no ve las cadenas ligeras de Bence Jones. Se identifican con electroforesis e inmunofijación.",
+    "claveMemorizar": "Bence Jones: la tira no la detecta; usa inmunofijación."
+  },
+  "70": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La densidad de la orina se mide con urinómetro, refractómetro o tira reactiva. El crioscopio (osmómetro de congelación) mide la osmolalidad.",
+    "claveMemorizar": "Densidad: urinómetro, refractómetro, tira. Crioscopio: osmolalidad."
+  },
+  "71": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cristales en tapa de ataúd son de fosfato triple, que solo se forma en orina alcalina. Con pH 5,5 no cuadra ninguno de los propuestos: por eso la respuesta es «ninguno».",
+    "claveMemorizar": "Fosfato triple solo en orina alcalina."
+  },
+  "72": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es errónea porque las catecolaminas no se conservan congeladas, sino acidificadas con ácido clorhídrico. El oxalato también con HCl, el cortisol refrigerado y las porfirinas con carbonato sódico.",
+    "claveMemorizar": "Catecolaminas: HCl. Porfirinas: carbonato sódico."
+  },
+  "73": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para saber si una proteinuria es tubular se mide la beta-2 microglobulina junto con la albúmina. Si predomina la beta-2, el origen es tubular; si predomina la albúmina, glomerular.",
+    "claveMemorizar": "Albúmina = glomérulo. Beta-2 microglobulina = túbulo."
+  },
+  "74": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Bilirrubina y urobilinógeno altos a la vez en orina indican enfermedad hepática (hepatocelular). En la obstrucción biliar el urobilinógeno baja y en la hemólisis no hay bilirrubina en orina.",
+    "claveMemorizar": "Bilirrubina + urobilinógeno ↑ = hígado."
+  },
+  "75": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las células del epitelio de transición (vejiga) son redondeadas u ovaladas, con un núcleo central grande. Las escamosas son grandes, planas y de núcleo pequeño.",
+    "claveMemorizar": "Transición: redondas, núcleo grande."
+  },
   "76": {
     "respuestaCorrecta": "A",
     "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
     "claveMemorizar": "Proteinuria → busca cilindros."
+  },
+  "77": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Al microscopio, los hematíes se diferencian de los leucocitos porque no tienen núcleo. Los leucocitos son mayores, nucleados y granulosos.",
+    "claveMemorizar": "Hematíe sin núcleo; leucocito con núcleo."
+  },
+  "78": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La glucosa no es un elemento del sedimento y no debe estar en la orina normal. Algún cilindro hialino, células escamosas y 2-5 leucocitos por campo pueden ser normales.",
+    "claveMemorizar": "Sedimento normal: algún hialino, escamosas, pocos leucocitos."
+  },
+  "79": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de Jaffé (picrato alcalino) se usa para medir la creatinina.",
+    "claveMemorizar": "Jaffé = creatinina."
+  },
+  "80": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La urea sérica normal está entre unos 12 y 54 mg/dL (depende del laboratorio). Es el producto final del metabolismo de las proteínas.",
+    "claveMemorizar": "Urea normal: ~12-54 mg/dL."
+  },
+  "81": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La creatinina refleja mejor la función renal que la urea, porque depende menos de la dieta, el catabolismo proteico o la hidratación.",
+    "claveMemorizar": "Función renal: creatinina mejor que urea."
+  },
+  "82": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteinuria de Bence Jones es la eliminación de cadenas ligeras libres de inmunoglobulinas por la orina, típica del mieloma múltiple.",
+    "claveMemorizar": "Bence Jones = cadenas ligeras en orina."
+  },
+  "83": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ácido úrico cristaliza en orinas ácidas. Carbonato cálcico, fosfato amorfo y fosfato cálcico aparecen en orinas alcalinas.",
+    "claveMemorizar": "Orina ácida: ácido úrico."
+  },
+  "84": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los nitritos indican bacterias: las enterobacterias reducen los nitratos de la orina a nitritos.",
+    "claveMemorizar": "Nitritos = bacterias."
   },
   "85": {
     "respuestaCorrecta": "B",
     "porQueLaCorrecta": "La proteína de Bence Jones son cadenas ligeras libres monoclonales, que no aparecen en personas sanas. Es típica del mieloma múltiple.",
     "claveMemorizar": "Bence Jones = cadenas ligeras = mieloma."
   },
+  "86": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hay varias correctas: en el sedimento pueden aparecer células escamosas (descamativas), de transición y células redondas (tubulares renales).",
+    "claveMemorizar": "Células epiteliales: escamosas, de transición, tubulares."
+  },
   "87": {
     "respuestaCorrecta": "B",
     "porQueLaCorrecta": "En la técnica de Jaffé la creatinina reacciona con el picrato alcalino y forma un complejo rojo-anaranjado, que se mide por colorimetría.",
     "claveMemorizar": "Jaffé: creatinina + picrato alcalino = rojo."
+  },
+  "88": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de Griess detecta nitritos: forman un colorante azoico rosado con los reactivos. Es la base de la almohadilla de nitritos de la tira.",
+    "claveMemorizar": "Griess = nitritos."
+  },
+  "89": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El sedimento urinario puede leerse de forma automatizada con microscopía automática sobre orina centrifugada, que capta imágenes y clasifica las partículas.",
+    "claveMemorizar": "Sedimento automatizado: microscopía automática (o citometría)."
+  },
+  "90": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En orinas alcalinas aparecen cristales de fosfatos (fosfato cálcico, fosfato triple, fosfatos amorfos). Uratos, ácido úrico y oxalato son de orinas ácidas.",
+    "claveMemorizar": "Orina alcalina: fosfatos."
+  },
+  "91": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la ecuación CKD-EPI usa creatinina sérica, edad, sexo y, en la versión clásica, raza.",
+    "claveMemorizar": "CKD-EPI: creatinina, edad, sexo, raza."
+  },
+  "92": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, ante sospecha de daño tubular se determina la beta-2 microglobulina, que el túbulo dañado no reabsorbe. Su medición más útil es en orina.",
+    "claveMemorizar": "Daño tubular: beta-2 microglobulina."
+  },
+  "93": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La creatinina refleja mejor la función renal que la urea, porque depende menos de la dieta, el catabolismo proteico o la hidratación.",
+    "claveMemorizar": "Función renal: creatinina mejor que urea."
+  },
+  "94": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La orina tiene urea y creatinina muchísimo más altas que cualquier otro líquido corporal. Medirlas confirma si una muestra dudosa es orina.",
+    "claveMemorizar": "¿Es orina? Urea y creatinina muy altas."
+  },
+  "95": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cilindros granulosos gruesos se forman al empezar la descomposición de las células atrapadas en el cilindro. Si siguen degenerando, pasan a granulosos finos y después a céreos.",
+    "claveMemorizar": "Celular → granuloso grueso → fino → céreo."
+  },
+  "96": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque los cristales de ácido úrico son frecuentes en orinas ácidas normales y no siempre indican una urgencia. Son amarillentos y pueden verse en la gota.",
+    "claveMemorizar": "Ácido úrico: amarillo, orina ácida, a menudo sin importancia."
+  },
+  "97": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque la urea aumenta en la insuficiencia renal, no disminuye. Procede del catabolismo de los aminoácidos y se mide, por ejemplo, con la reacción de Berthelot.",
+    "claveMemorizar": "Insuficiencia renal: urea ↑."
+  },
+  "98": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La poliuria es un volumen de orina mayor de 2.000 mL en 24 h. Oliguria: menos de 400-500 mL. Anuria: menos de 100 mL.",
+    "claveMemorizar": "Poliuria > 2 L; oliguria < 400 mL; anuria < 100 mL."
+  },
+  "99": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prueba de Benedict detecta azúcares reductores como la glucosa: el cobre se reduce y cambia de azul a rojo ladrillo.",
+    "claveMemorizar": "Benedict = azúcares reductores (glucosa)."
+  },
+  "100": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La presencia de hemoglobina libre en la orina se llama hemoglobinuria (por hemólisis intravascular). La de hematíes es hematuria.",
+    "claveMemorizar": "Hemoglobinuria = Hb libre. Hematuria = hematíes."
+  },
+  "101": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un adulto produce normalmente entre 1 y 1,5 litros de orina al día.",
+    "claveMemorizar": "Diuresis normal: 1-1,5 L/día."
+  },
+  "102": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la nefrona está formada por el corpúsculo renal (glomérulo con arteriolas aferente y eferente, y cápsula de Bowman), el túbulo proximal, el asa de Henle y el túbulo distal.",
+    "claveMemorizar": "Nefrona: glomérulo + Bowman + proximal + Henle + distal."
+  },
+  "103": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En orinas alcalinas los fosfatos precipitan y dan turbidez blanquecina, que desaparece al acidificar con ácido acético. Los uratos precipitan en orinas ácidas (color rosado).",
+    "claveMemorizar": "Turbidez blanca en orina alcalina = fosfatos."
+  },
+  "104": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cristales de oxalato cálcico pueden aparecer de forma fisiológica tras comer alimentos ricos en oxalato (espinacas, tomate, vitamina C). Aparecen en orina ácida o neutra y tienen forma de sobre de carta.",
+    "claveMemorizar": "Oxalato cálcico: sobre de carta, por la dieta."
+  },
+  "105": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En un diabético, los cuerpos cetónicos en orina indican que, por falta de insulina, las células queman ácidos grasos. Es un signo de descompensación (riesgo de cetoacidosis).",
+    "claveMemorizar": "Cetonuria en diabético: se queman grasas por falta de insulina."
+  },
+  "106": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La anuria es la ausencia (o casi) de diuresis: menos de 100 mL de orina al día.",
+    "claveMemorizar": "Anuria: < 100 mL/día."
+  },
+  "107": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los nitritos en orina indican bacterias: las enterobacterias reducen los nitratos a nitritos.",
+    "claveMemorizar": "Nitritos = bacterias."
+  },
+  "108": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La presencia de glucosa en la orina se llama glucosuria. La glucemia es la glucosa en sangre.",
+    "claveMemorizar": "Glucosuria = glucosa en orina."
+  },
+  "109": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En orinas ácidas aparecen cristales de ácido úrico. El fosfato amónico magnésico, el biurato amónico y el carbonato cálcico son de orinas alcalinas.",
+    "claveMemorizar": "Orina ácida: ácido úrico."
+  },
+  "110": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la mioglobina aparece en la orina cuando se destruye músculo, como en el síndrome de aplastamiento, las quemaduras o el infarto de miocardio.",
+    "claveMemorizar": "Mioglobinuria = destrucción muscular."
+  },
+  "111": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de Biuret sirve para cuantificar proteínas: los enlaces peptídicos forman un complejo coloreado con el cobre en medio alcalino.",
+    "claveMemorizar": "Biuret = proteínas."
+  },
+  "112": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial todas son correctas: la reacción usa medio alcalino y Cu²⁺, el reactivo se llama «de Biuret» (por la molécula biuret, que se forma al calentar urea a 180 °C) y péptidos y proteínas dan tonos distintos.",
+    "claveMemorizar": "Biuret: cobre en medio alcalino."
+  },
+  "113": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, el complejo de cobre(II) de la reacción de Biuret es azul; en la práctica se ve violeta o azul-violáceo, más intenso cuantas más proteínas hay.",
+    "claveMemorizar": "Biuret: complejo azul-violeta."
+  },
+  "114": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el análisis químico de la orina (tira reactiva) detecta fácilmente proteinuria, glucosuria y cetonuria.",
+    "claveMemorizar": "Tira: proteínas, glucosa, cetonas y más."
+  },
+  "115": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteinuria es el signo más frecuente de enfermedad renal en el análisis de orina. Glucosuria y cetonuria suelen ser de origen metabólico.",
+    "claveMemorizar": "Enfermedad renal: proteinuria."
+  },
+  "116": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cálculos renales más frecuentes son los de oxalato cálcico (alrededor del 70-80 %). Les siguen los de fosfato, ácido úrico, estruvita y cistina.",
+    "claveMemorizar": "Cálculos más frecuentes: oxalato cálcico."
+  },
+  "117": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El reactivo de Ehrlich (p-dimetilaminobenzaldehído) detecta el urobilinógeno, con el que forma un color rojo.",
+    "claveMemorizar": "Ehrlich = urobilinógeno."
+  },
+  "118": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de Rothera usa nitroprusiato y detecta cuerpos cetónicos (acetoacetato y acetona), con color violeta.",
+    "claveMemorizar": "Rothera = cuerpos cetónicos."
+  },
+  "119": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los riñones reciben unos 1.200 mL de sangre por minuto, alrededor del 20-25 % del gasto cardíaco. De ese flujo se filtran unos 125 mL/min de plasma.",
+    "claveMemorizar": "Flujo sanguíneo renal: ~1.200 mL/min."
+  },
+  "120": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si se añade un conservante a la orina de 24 h hay que anotarlo en el recipiente, porque puede ser corrosivo (ácidos) e interferir en otras determinaciones.",
+    "claveMemorizar": "Conservante en orina: anotarlo siempre."
+  },
+  "121": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los hematíes de la orina pueden confundirse con levaduras, que también son pequeñas y redondeadas. Las levaduras gemelan y no se lisan con ácido acético.",
+    "claveMemorizar": "Hematíes se confunden con levaduras."
+  },
+  "122": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, no se deben lavar los genitales con clorhexidina: basta con agua y jabón y aclarar bien. Los restos de antiséptico pueden inhibir el crecimiento de las bacterias en el cultivo.",
+    "claveMemorizar": "Recogida de orina: agua y jabón, sin antiséptico."
+  },
+  "123": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La polaquiuria es orinar muchas veces al día, aunque el volumen total sea normal. La poliuria es un volumen total aumentado.",
+    "claveMemorizar": "Polaquiuria = muchas veces. Poliuria = mucho volumen."
+  },
+  "124": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la orina turbia puede deberse a bacterias, cristales (fosfatos, uratos) o leucocitos.",
+    "claveMemorizar": "Orina turbia: bacterias, cristales o leucocitos."
+  },
+  "125": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: puede haber hemoglobinuria por anemia hemolítica, por ejercicio físico intenso (hemoglobinuria de la marcha) y por lesión renal con lisis de hematíes.",
+    "claveMemorizar": "Hemoglobinuria: hemólisis, ejercicio intenso, lesión renal."
+  },
+  "126": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los filamentos de moco son normales en la orina, sobre todo en mujeres. No indican infección por sí solos.",
+    "claveMemorizar": "Moco en orina: normal."
+  },
+  "127": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La proteinuria ortostática aparece en jóvenes al estar de pie durante el día y desaparece al acostarse. Es benigna y se comprueba con la primera orina de la mañana, que sale negativa.",
+    "claveMemorizar": "Ortostática: de pie sí, tumbado no."
+  },
+  "128": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: los cuerpos cetónicos son el ácido acetoacético, el ácido beta-hidroxibutírico y la acetona, derivados de la oxidación de los ácidos grasos.",
+    "claveMemorizar": "Cetonas: acetoacético, beta-hidroxibutírico, acetona."
+  },
+  "129": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la prueba del azul de metileno (Franklin), la bilirrubina de la orina hace virar el reactivo de azul a verde.",
+    "claveMemorizar": "Azul de metileno + bilirrubina: azul → verde."
+  },
+  "130": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hemoglobina aparece en la orina cuando se destruyen hematíes (hemólisis) dentro de los vasos o en la propia orina. No es normal.",
+    "claveMemorizar": "Hemoglobinuria = hematíes destruidos."
   },
   "131": {
     "respuestaCorrecta": "B",
     "porQueLaCorrecta": "Al microscopio, los hematíes se diferencian de los leucocitos porque no tienen núcleo. Los leucocitos son mayores, nucleados y granulosos.",
     "claveMemorizar": "Hematíe sin núcleo; leucocito con núcleo."
   },
+  "132": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La primera orina de la mañana se prefiere porque está más concentrada (tiene mayor osmolalidad, no menor), con más elementos químicos y formes, y menos influida por la dieta.",
+    "claveMemorizar": "Primera orina: la más concentrada."
+  },
+  "133": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La oliguria es una disminución del volumen de orina: menos de 400-500 mL al día. La ausencia de orina es anuria.",
+    "claveMemorizar": "Oliguria: < 400 mL/día."
+  },
+  "134": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los hematíes dismórficos se deforman al atravesar la membrana glomerular: indican hematuria de origen glomerular.",
+    "claveMemorizar": "Hematíes dismórficos = glomérulo."
+  },
+  "135": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque la ecuación de Schwartz es la de los niños. En los adultos se usa sobre todo CKD-EPI (antes MDRD).",
+    "claveMemorizar": "Adultos: CKD-EPI. Niños: Schwartz."
+  },
+  "136": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En orinas alcalinas aparecen cristales de fosfato amónico magnésico (fosfato triple, estruvita). Oxalato, ácido úrico y tirosina son de orinas ácidas.",
+    "claveMemorizar": "Orina alcalina: fosfato triple."
+  },
+  "137": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La reacción de Brand (cianuro-nitroprusiato) detecta cistina y homocistina en orina: da color rojo-violeta. Sirve para el cribado de la cistinuria.",
+    "claveMemorizar": "Brand = cistina."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La cistatina C la producen todas las células a ritmo constante y se filtra libremente, así que es un marcador del filtrado glomerular que no depende de la masa muscular.",
+    "claveMemorizar": "Cistatina C = filtrado glomerular."
+  },
+  "139": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La uremia post-renal se debe a una obstrucción de la salida de la orina, como la hipertrofia benigna de próstata. La glomerulonefritis es causa renal.",
+    "claveMemorizar": "Post-renal = obstrucción (próstata, cálculos)."
+  },
+  "140": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el embarazo baja el umbral renal de la glucosa y puede haber glucosuria con glucemia normal. En las diabetes la glucosuria aparece por hiperglucemia.",
+    "claveMemorizar": "Glucosuria con glucemia normal: embarazo."
+  },
+  "141": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, una tira positiva para sangre sin hematíes en el sedimento puede deberse a interferencias. Lo habitual es por hemoglobina o mioglobina libre o por hematíes lisados; el ácido ascórbico en realidad da falsos negativos.",
+    "claveMemorizar": "Tira de sangre + sin hematíes: Hb o mioglobina libre, o interferencia."
+  },
   "142": {
     "respuestaCorrecta": "C",
     "porQueLaCorrecta": "La orina para anormales y sedimento es estable solo unas 2 horas a temperatura ambiente. Después se lisan las células y se multiplican las bacterias.",
     "claveMemorizar": "Orina para sedimento: < 2 h a temperatura ambiente."
+  },
+  "143": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La proteína de Bence Jones está formada por cadenas ligeras libres (kappa o lambda) de inmunoglobulinas monoclonales.",
+    "claveMemorizar": "Bence Jones = cadenas ligeras."
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La microalbuminuria (albúmina en orina de 30-300 mg/día) es el marcador más precoz de nefropatía diabética y permite detectar el daño renal a tiempo.",
+    "claveMemorizar": "Nefropatía diabética precoz = microalbuminuria."
+  },
+  "145": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la proteinuria glomerular no selectiva el daño es mayor y se pierden albúmina y también proteínas grandes (IgG, alfa-2 macroglobulina, transferrina). La selectiva pierde sobre todo albúmina.",
+    "claveMemorizar": "No selectiva: albúmina + proteínas grandes."
+  },
+  "146": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque las fibras textiles se confunden con cilindros, no con levaduras. Las cremas pueden parecer cilindros céreos y las Trichomonas inmóviles, leucocitos.",
+    "claveMemorizar": "Fibras textiles ≈ cilindros."
+  },
+  "147": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La IgM es una molécula muy grande (pentámero, unos 900 kDa) que no atraviesa el glomérulo, ni siquiera dañado. IgG, IgA y las cadenas ligeras sí pueden aparecer en orina.",
+    "claveMemorizar": "IgM: demasiado grande para filtrarse."
+  },
+  "148": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En niños de 2 a 18 años, el consenso SEQC-AENP (2013) recomienda la ecuación de Schwartz-IDMS con creatinina trazable (métodos enzimáticos).",
+    "claveMemorizar": "Niños: Schwartz-IDMS."
+  },
+  "149": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Bilirrubina positiva con urobilinógeno indetectable indica colestasis (obstrucción biliar): la bilirrubina conjugada pasa a la orina, pero no llega al intestino para formar urobilinógeno.",
+    "claveMemorizar": "Bilirrubina + y urobilinógeno 0 = colestasis."
+  },
+  "150": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La osmolalidad depende solo del número de partículas disueltas por kg de agua, no de su tamaño ni de su carga. Es una propiedad coligativa.",
+    "claveMemorizar": "Osmolalidad = número de partículas."
+  },
+  "151": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los osmómetros recomendados miden el descenso del punto de congelación, que es proporcional al número de partículas disueltas.",
+    "claveMemorizar": "Osmolalidad: descenso crioscópico."
+  },
+  "152": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En orinas alcalinas los fosfatos precipitan y dan turbidez blanca. Los uratos precipitan en orinas ácidas.",
+    "claveMemorizar": "Turbidez blanca en orina alcalina = fosfatos."
+  },
+  "153": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los nitritos en orina indican bacteriuria: las enterobacterias reducen los nitratos a nitritos. Normalmente no hay nitritos.",
+    "claveMemorizar": "Nitritos = bacterias."
+  },
+  "154": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El urobilinógeno se oxida a urobilina con la luz, así que la orina expuesta da falsos negativos. La bilirrubina también es fotosensible.",
+    "claveMemorizar": "Luz: destruye urobilinógeno y bilirrubina."
+  },
+  "155": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque en la orina de 24 h se desecha la primera orina del primer día y se recoge la primera del segundo día. La afirmación lo dice al revés.",
+    "claveMemorizar": "Orina de 24 h: desechar la 1.ª del día 1; recoger la 1.ª del día 2."
+  },
+  "156": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En las orinas básicas (alcalinas) predominan los fosfatos, sobre todo el fosfato amónico-magnésico. Oxalato, uratos y ácido úrico son de orinas ácidas.",
+    "claveMemorizar": "Orina alcalina: fosfatos."
+  },
+  "157": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para valorar la función renal se miden los productos nitrogenados que elimina el riñón: urea, creatinina, ácido úrico y amonio.",
+    "claveMemorizar": "Función renal: urea, creatinina, ácido úrico, amonio."
+  },
+  "158": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cilindros se forman con proteína (Tamm-Horsfall) que precipita en los túbulos. Su presencia se asocia a aumento de proteínas y a enfermedad renal.",
+    "claveMemorizar": "Cilindros = proteína precipitada en el túbulo."
+  },
+  "159": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Solo algunas bacterias (sobre todo enterobacterias) transforman los nitratos en nitritos. Por eso un nitrito negativo no descarta una infección.",
+    "claveMemorizar": "Nitritos negativos no descartan ITU."
+  },
+  "160": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El pH de la orina es la clave para identificar cristales: en orina ácida aparecen ácido úrico, uratos y oxalato; en alcalina, fosfatos y carbonatos.",
+    "claveMemorizar": "Cristales: primero mira el pH."
+  },
+  "161": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cilindros hialinos están formados por proteína de Tamm-Horsfall, sin inclusiones. Son transparentes, de bordes lisos y extremos redondeados, y pueden verse en personas sanas.",
+    "claveMemorizar": "Hialino = Tamm-Horsfall puro, transparente."
+  },
+  "162": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cuerpos cetónicos en orina aparecen cuando se queman grasas por falta de glucosa disponible: ayuno, desnutrición, vómitos o diabetes descompensada.",
+    "claveMemorizar": "Cetonuria: ayuno, desnutrición o diabetes."
+  },
+  "163": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la orina de 24 h se desecha la primera micción del primer día y se recoge toda la orina posterior, incluida la primera micción de la mañana siguiente.",
+    "claveMemorizar": "Orina de 24 h: desechar la 1.ª del día 1; recoger la 1.ª del día 2."
+  },
+  "164": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falso porque los cristales de cistina (placas hexagonales, en orina ácida) se disuelven en amoníaco, que es una base. En ácido acético no se disuelven.",
+    "claveMemorizar": "Cistina: hexágonos, se disuelve en amoníaco."
+  },
+  "165": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La brushita (fosfato cálcico) cristaliza en orinas alcalinas o neutras. Oxalato cálcico y uratos aparecen en orinas ácidas.",
+    "claveMemorizar": "Brushita = fosfato cálcico = orina alcalina."
+  },
+  "166": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cilindros hialinos son homogéneos, transparentes, de configuración lisa y extremos redondeados. El aspecto rugoso es de los granulosos y el céreo, de los céreos.",
+    "claveMemorizar": "Hialino: liso y transparente."
+  },
+  "167": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque los cilindros hialinos sí son transparentes, tanto que cuesta verlos: se usa luz atenuada o contraste de fases.",
+    "claveMemorizar": "Hialinos: transparentes (baja la luz)."
+  },
+  "168": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El aclaramiento renal es el volumen de plasma que el riñón deja totalmente libre de una sustancia por unidad de tiempo (mL/min).",
+    "claveMemorizar": "Aclaramiento = mL de plasma depurados por minuto."
+  },
+  "169": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Piuria con bacterias y cilindros leucocitarios indica pielonefritis: los cilindros prueban que la infección afecta al riñón. En la cistitis no hay cilindros.",
+    "claveMemorizar": "Cilindros leucocitarios = pielonefritis."
+  },
+  "170": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los fosfatos amorfos precipitan en orina alcalina, no en ácida. Uratos amorfos, oxalato cálcico y ácido úrico se forman en pH ácido.",
+    "claveMemorizar": "Orina ácida: uratos y ácido úrico. Alcalina: fosfatos."
+  },
+  "171": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El síndrome nefrótico se define por una proteinuria intensa, de más de 3,5 g/24 h, con hipoalbuminemia, edemas e hiperlipidemia.",
+    "claveMemorizar": "Nefrótico: proteinuria > 3,5 g/día."
+  },
+  "172": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El test de Hoesch (reactivo de Ehrlich en medio ácido) detecta rápidamente porfobilinógeno en orina y se usa en urgencias ante sospecha de porfiria aguda.",
+    "claveMemorizar": "Porfobilinógeno urgente: test de Hoesch."
+  },
+  "173": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las catecolaminas de la orina de 24 h se acidifican con ácido clorhídrico, porque se oxidan en medio neutro o alcalino.",
+    "claveMemorizar": "Catecolaminas: acidificar con HCl."
+  },
+  "174": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque los cilindros hialinos no tienen relación con la glucosuria. Están formados por proteína (Tamm-Horsfall) y material mucoide, con longitud variable y bordes regulares.",
+    "claveMemorizar": "Hialinos: proteína; nada que ver con la glucosa."
+  },
+  "175": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la tira reactiva, la almohadilla de cuerpos cetónicos (nitroprusiato) vira a color púrpura o violeta cuando hay cetonas.",
+    "claveMemorizar": "Cetonas en tira: púrpura."
+  },
+  "176": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Cualquiera de ellas puede enturbiar la orina recién emitida: bacterias, cambios de pH que precipitan cristales o muchos hematíes o leucocitos.",
+    "claveMemorizar": "Orina turbia: bacterias, cristales o células."
+  },
+  "177": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un pH urinario bajo (ácido) aparece en la diabetes descompensada (cetoacidosis), la acidosis metabólica o las dietas ricas en proteínas. Las infecciones por gérmenes ureolíticos alcalinizan la orina.",
+    "claveMemorizar": "Orina ácida: diabetes (cetoacidosis). Alcalina: infección por Proteus."
+  },
+  "178": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: se recomienda la primera orina de la mañana, refrigerarla a 2-8 °C si se demora y usar bolsas con adhesivo hipoalergénico en los niños.",
+    "claveMemorizar": "Orina: 1.ª de la mañana; si se demora, 2-8 °C."
+  },
+  "179": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En orina ácida pueden aparecer cristales de oxalato cálcico (también en neutra). Carbonato cálcico, fosfato triple y fosfatos cálcicos son de orinas alcalinas.",
+    "claveMemorizar": "Orina ácida: oxalato cálcico, ácido úrico."
+  },
+  "180": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para estimar el filtrado glomerular (CKD-EPI, MDRD) se necesitan la creatinina sérica, la edad y el sexo.",
+    "claveMemorizar": "Filtrado estimado: creatinina + edad + sexo."
+  },
+  "181": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un adulto sano elimina menos de 150 mg de proteínas en la orina de 24 h. Por encima hay proteinuria.",
+    "claveMemorizar": "Proteinuria normal: < 150 mg/24 h."
+  },
+  "182": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los nitritos en orina indican bacteriuria: las enterobacterias reducen los nitratos a nitritos. Normalmente no hay nitritos.",
+    "claveMemorizar": "Nitritos = bacterias."
+  },
+  "183": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El color es una característica macroscópica: se ve a simple vista, igual que el olor, el volumen o el aspecto. Cilindros y fórmula requieren microscopio y el pH, medición química.",
+    "claveMemorizar": "Macroscópico: color, aspecto, olor, volumen."
+  },
+  "184": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La densidad urinaria normal en la primera orina de la mañana está entre 1,010 y 1,030 (expresada como 1010-1030).",
+    "claveMemorizar": "Densidad urinaria: 1,010-1,030."
+  },
+  "185": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Se usa la primera orina de la mañana porque es la más concentrada: acumula más elementos químicos y formes y detecta mejor las alteraciones.",
+    "claveMemorizar": "Primera orina: la más concentrada."
+  },
+  "186": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La presencia de proteínas en la orina se llama proteinuria.",
+    "claveMemorizar": "Proteinuria = proteínas en orina."
+  },
+  "187": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La orina se forma en el riñón y sigue por el uréter, la vejiga y la uretra hasta el exterior.",
+    "claveMemorizar": "Riñón → uréter → vejiga → uretra."
+  },
+  "188": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las proteínas en orina se miden habitualmente por turbidimetría (ácido sulfosalicílico, tricloroacético o cloruro de bencetonio) o con colorantes (rojo de pirogalol).",
+    "claveMemorizar": "Proteínas en orina: turbidimetría."
+  },
+  "189": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La orina de 24 h se usa sobre todo en bioquímica del metabolismo intermedio para cuantificar sustancias (proteínas, creatinina, calcio, hormonas).",
+    "claveMemorizar": "Orina de 24 h: bioquímica cuantitativa."
+  },
+  "190": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El olor característico de la orina se debe a los ácidos volátiles que contiene. Si se deja reposar, huele a amoníaco por la acción de las bacterias sobre la urea.",
+    "claveMemorizar": "Olor de orina: ácidos volátiles."
+  },
+  "191": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En orinas alcalinas aparecen cristales de fosfato amónico magnésico (fosfato triple, estruvita). Oxalato, ácido úrico y tirosina son de orinas ácidas.",
+    "claveMemorizar": "Orina alcalina: fosfato triple."
+  },
+  "192": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La osmolaridad es el número de osmoles de soluto por litro de disolución. La osmolalidad es por kilogramo de disolvente.",
+    "claveMemorizar": "Osmolaridad: por litro. Osmolalidad: por kg."
+  },
+  "193": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cilindros céreos son los de mayor índice de refracción: homogéneos, brillantes y de bordes quebrados. Indican insuficiencia renal avanzada.",
+    "claveMemorizar": "Céreos: los más refringentes."
+  },
+  "194": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En orinas alcalinas los fosfatos precipitan y dan turbidez blanquecina, que desaparece al acidificar con ácido acético. Los uratos precipitan en orinas ácidas (color rosado).",
+    "claveMemorizar": "Turbidez blanca en orina alcalina = fosfatos."
+  },
+  "195": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las células del epitelio de transición son redondeadas u ovaladas, con un núcleo central grande. Las escamosas son planas y poligonales, con núcleo pequeño.",
+    "claveMemorizar": "Transición: redondas, núcleo grande."
+  },
+  "196": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El oxalato cálcico cristaliza en orinas ácidas o neutras. El ácido úrico lo hace en ácidas y los fosfatos amorfos y el fosfato cálcico, en alcalinas.",
+    "claveMemorizar": "Oxalato: ácida o neutra."
+  },
+  "197": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El olor afrutado de la orina se debe a la acetona, típica de la cetoacidosis diabética con acetonuria.",
+    "claveMemorizar": "Olor afrutado = acetona = cetoacidosis."
+  },
+  "198": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La mayoría de analizadores de orina leen las tiras reactivas por espectrofotometría de reflectancia: miden la luz que refleja cada almohadilla.",
+    "claveMemorizar": "Urianálisis: reflectancia."
+  },
+  "199": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los hematíes dismórficos se deforman al atravesar la membrana glomerular: indican hematuria de origen glomerular.",
+    "claveMemorizar": "Hematíes dismórficos = glomérulo."
+  },
+  "200": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas ellas: la tira de sangre detecta la actividad peroxidasa del grupo hemo, así que es positiva con hematíes intactos, hemoglobina y mioglobina libre.",
+    "claveMemorizar": "Tira de sangre: hematíes, Hb o mioglobina."
+  },
+  "201": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el bebé, tras lavar la zona perineal, se coloca una bolsa colectora estéril adhesiva y se retira en cuanto orina. Para cultivo es mejor sondaje o punción suprapúbica.",
+    "claveMemorizar": "Bebé: lavado + bolsa colectora estéril."
+  },
+  "202": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El aclaramiento mide los mililitros de plasma (sangre) que el riñón deja libres de una sustancia por unidad de tiempo.",
+    "claveMemorizar": "Aclaramiento = mL de plasma depurados por minuto."
+  },
+  "203": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El carbonato cálcico cristaliza en orinas alcalinas, no en ácidas. Uratos amorfos, ácido úrico y oxalato cálcico sí aparecen en orinas ácidas.",
+    "claveMemorizar": "Carbonato cálcico = orina alcalina."
+  },
+  "204": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las células escamosas son grandes, planas y poligonales, con núcleo pequeño y redondo y citoplasma amplio. Proceden de la uretra y la vagina.",
+    "claveMemorizar": "Escamosa: grande, poligonal, núcleo pequeño."
+  },
+  "205": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La orina tiene urea y creatinina muchísimo más altas que cualquier otro líquido corporal. Medirlas confirma si una muestra dudosa es orina.",
+    "claveMemorizar": "¿Es orina? Urea y creatinina."
+  },
+  "206": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cristales en tapa de ataúd son de fosfato amónico magnésico (fosfato triple), tanto en orina como en heces. Los de Charcot-Leyden son bipiramidales, de eosinófilos.",
+    "claveMemorizar": "Tapa de ataúd = fosfato amónico magnésico."
+  },
+  "207": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para valorar la función renal en urgencias se piden creatinina, urea y sodio (iones). El ácido úrico no es una prueba urgente.",
+    "claveMemorizar": "Renal urgente: creatinina, urea, iones."
+  },
+  "208": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si la orina sin conservante pasa más de 2 horas a temperatura ambiente, lo que más la altera es la proliferación de bacterias, que cambian el pH, consumen glucosa y dan falsos nitritos.",
+    "claveMemorizar": "Orina > 2 h sin frío: crecen las bacterias."
+  },
+  "209": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La orina de 24 h es necesaria para cuantificar analitos que varían a lo largo del día. Debe recogerse según las instrucciones y medirse el volumen total.",
+    "claveMemorizar": "Orina de 24 h: cuantificar, midiendo el volumen."
+  },
+  "210": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el síndrome nefrótico unas fracciones bajan (albúmina, gammaglobulinas, que se pierden por orina) y otras suben (alfa-2 macroglobulina y beta, que son grandes y no se filtran).",
+    "claveMemorizar": "Nefrótico: albúmina ↓, alfa-2 ↑."
+  },
+  "211": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cuerpos cetónicos son el ácido beta-hidroxibutírico, el acetoacético y la acetona. El etanodioico es el ácido oxálico.",
+    "claveMemorizar": "Cetonas: beta-hidroxibutírico, acetoacético, acetona."
+  },
+  "212": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La creatina se forma con glicina, arginina y metionina y se almacena en el músculo. Su producto de degradación, la creatinina, se excreta por la orina.",
+    "claveMemorizar": "Músculo: creatina → creatinina."
+  },
+  "213": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La válvula sigmoide está en el corazón (aórtica y pulmonar), no en la nefrona. La nefrona tiene glomérulo, cápsula de Bowman y túbulos.",
+    "claveMemorizar": "Nefrona: glomérulo, Bowman, túbulos."
+  },
+  "214": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La cetonuria es la aparición de cuerpos cetónicos detectables en la orina.",
+    "claveMemorizar": "Cetonuria = cetonas en orina."
+  },
+  "215": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: en el sedimento urinario pueden verse células (hematíes, leucocitos, epiteliales), cilindros y cristales, además de bacterias y levaduras.",
+    "claveMemorizar": "Sedimento: células, cilindros, cristales."
+  },
+  "216": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En los niños se usa la ecuación de Schwartz, que estima el filtrado con la creatinina y la talla. Cockcroft-Gault y MDRD son para adultos.",
+    "claveMemorizar": "Niños: Schwartz (creatinina + talla)."
+  },
+  "217": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La anuria es la práctica ausencia de producción de orina: menos de 100 mL al día.",
+    "claveMemorizar": "Anuria: < 100 mL/día."
+  },
+  "218": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las porfirinurias dan orina rojiza u oscura (color vino de Oporto), no blanca. La orina lechosa se debe a piuria intensa, quiluria (linfa) o precipitación de cristales como en la hiperoxaluria.",
+    "claveMemorizar": "Porfiria: orina roja. Lechosa: pus, quilo o cristales."
+  },
+  "219": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La reacción de Ehrlich (p-dimetilaminobenzaldehído) se usa en la tira para medir el urobilinógeno.",
+    "claveMemorizar": "Ehrlich = urobilinógeno."
+  },
+  "220": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El oxalato cálcico monohidratado (whewellita) predomina en orinas ácidas. Hidroxiapatita, fosfato cálcico y fosfato amónico-magnésico son de orinas alcalinas.",
+    "claveMemorizar": "Orina ácida: oxalato cálcico, ácido úrico, uratos."
+  },
+  "221": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La glucosa aparece en la orina cuando la glucemia supera el umbral renal, de unos 180 mg/dL. No aparece siempre en los diabéticos, solo si superan ese umbral.",
+    "claveMemorizar": "Umbral renal de glucosa: ~180 mg/dL."
+  },
+  "222": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "A pH 6,9 (ligeramente ácido o neutro) aún pueden aparecer cristales de ácido úrico, oxalato cálcico y uratos amorfos. Fosfatos y biurato amónico necesitan orina alcalina.",
+    "claveMemorizar": "pH ácido o neutro: úrico, oxalato, uratos."
+  },
+  "223": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las catecolaminas son inestables en la orina (se oxidan) y requieren añadir conservante ácido (HCl) al recipiente antes de recoger la orina de 24 h.",
+    "claveMemorizar": "Catecolaminas: HCl en el recipiente."
+  },
+  "224": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tiras de orina de 11 parámetros incorporan el cociente albúmina/creatinina, útil para cribar la microalbuminuria en una muestra aislada.",
+    "claveMemorizar": "Tira de 11 parámetros: albúmina/creatinina."
+  },
+  "225": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La osmolalidad sérica se calcula con sodio, glucosa y urea: 2 × Na + glucosa/18 + urea/6 (con urea en mg/dL, o BUN/2,8).",
+    "claveMemorizar": "Osmolalidad calculada: 2 Na + glucosa/18 + urea/6."
+  },
+  "226": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La tira de orina no detecta bacterias directamente: las sugiere por los nitritos. Glucosa, leucocitos (esterasa) y proteínas sí son almohadillas de la tira.",
+    "claveMemorizar": "Bacterias: no hay almohadilla (se infieren por nitritos)."
+  },
+  "227": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El carbonato cálcico cristaliza en orinas alcalinas. Cistina y ácido úrico aparecen en orinas ácidas.",
+    "claveMemorizar": "Carbonato cálcico = orina alcalina."
+  },
+  "228": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los nitritos indican infección bacteriana en la orina: las enterobacterias reducen los nitratos a nitritos.",
+    "claveMemorizar": "Nitritos = bacterias."
+  },
+  "229": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El oxalato cálcico dihidratado se ve al microscopio como cristales incoloros en forma de sobre de carta (bipiramidales). La tapa de ataúd es del fosfato triple.",
+    "claveMemorizar": "Sobre de carta = oxalato cálcico."
+  },
+  "230": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la enfermedad renal, al disminuir el filtrado, se acumulan en la sangre los productos nitrogenados: suben la urea y la creatinina.",
+    "claveMemorizar": "Enfermedad renal: urea y creatinina ↑."
+  },
+  "231": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La osmolaridad es la concentración de solutos (osmoles o milimoles) por litro de disolución. La osmolalidad es por kilogramo de disolvente.",
+    "claveMemorizar": "Osmolaridad: por litro. Osmolalidad: por kg."
+  },
+  "232": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En orina ácida predominan los cristales de oxalato cálcico, ácido úrico y uratos. Apatitas, brushita y estruvita aparecen en orinas alcalinas.",
+    "claveMemorizar": "Orina ácida: oxalato, úrico, uratos."
+  },
+  "233": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El aclaramiento de creatinina se calcula con la creatinina de la orina de 24 h (y su volumen) y la creatinina en suero: (U × V) / P.",
+    "claveMemorizar": "Aclaramiento: orina de 24 h + suero."
+  },
+  "234": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cilindros se forman en los túbulos renales (con proteína de Tamm-Horsfall como matriz), así que su presencia indica que el origen es renal.",
+    "claveMemorizar": "Cilindros = origen renal."
+  },
+  "235": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cristales de ácido úrico tienen formas variables: romboides, rectángulos o prismas, de color amarillo o ámbar. El sobre de carta es del oxalato cálcico.",
+    "claveMemorizar": "Ácido úrico: rombos amarillos."
+  },
+  "236": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cristales de colesterol son placas planas y transparentes con una esquina recortada (bordes irregulares). Se asocian al síndrome nefrótico.",
+    "claveMemorizar": "Colesterol: placas con muesca."
+  },
+  "237": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La proteína de Tamm-Horsfall (uromodulina) es la glicoproteína que forma la matriz de todos los cilindros. La secretan las células del asa de Henle.",
+    "claveMemorizar": "Matriz del cilindro: Tamm-Horsfall."
+  },
+  "238": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tiras reactivas de orina se leen por fotometría de reflectancia: el lector mide la luz reflejada por cada almohadilla coloreada.",
+    "claveMemorizar": "Tira de orina: reflectancia."
+  },
+  "239": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La densidad urinaria aumenta con la glucosuria, porque la glucosa añade solutos. En la diabetes insípida la orina está muy diluida y la densidad es baja.",
+    "claveMemorizar": "Glucosuria sube la densidad; diabetes insípida la baja."
+  },
+  "240": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La estruvita (fosfato amónico magnésico) aparece en orinas alcalinas. La whewellita y la weddellita (oxalato cálcico) y el ácido úrico aparecen en orinas ácidas.",
+    "claveMemorizar": "Estruvita = orina alcalina."
+  },
+  "241": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En orina ácida pueden verse uratos amorfos (sedimento rosado). Fosfato amónico magnésico, carbonato cálcico y fosfatos amorfos son de orinas alcalinas.",
+    "claveMemorizar": "Orina ácida: uratos amorfos."
+  },
+  "242": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La proteinuria de Bence Jones (cadenas ligeras) se asocia al mieloma múltiple.",
+    "claveMemorizar": "Bence Jones = mieloma."
+  },
+  "243": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
+    "claveMemorizar": "Proteinuria → busca cilindros."
+  },
+  "244": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El oxalato cálcico dihidratado (weddellita) forma cristales bipiramidales, en diamante o sobre de carta, en orinas ácidas. El monohidratado suele ser ovalado o en pesa de gimnasia.",
+    "claveMemorizar": "Diamante o sobre de carta = oxalato cálcico dihidratado."
+  },
+  "245": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La descamación abundante de células de transición aparece cuando se irrita el urotelio: cistitis, cálculos, sondajes o tumores.",
+    "claveMemorizar": "Muchas células de transición: cistitis o cálculos."
+  },
+  "246": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de Benedict detecta hidratos de carbono reductores (glucosa, galactosa, lactosa): el cobre se reduce y el color cambia de azul a rojo.",
+    "claveMemorizar": "Benedict = azúcares reductores."
+  },
+  "247": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cristales en tapa de ataúd son de fosfato triple (fosfato amónico magnésico, estruvita), típicos de orinas alcalinas.",
+    "claveMemorizar": "Tapa de ataúd = fosfato triple."
+  },
+  "248": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cálculos renales se analizan sobre todo por espectroscopia infrarroja, que identifica los compuestos (oxalato, ácido úrico, estruvita…) por su espectro.",
+    "claveMemorizar": "Cálculos: espectroscopia infrarroja."
+  },
+  "249": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La presencia de proteínas en la orina se llama proteinuria.",
+    "claveMemorizar": "Proteinuria = proteínas en orina."
+  },
+  "250": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un adulto sano elimina de media entre 1.200 y 1.500 mL de orina al día.",
+    "claveMemorizar": "Diuresis normal: 1,2-1,5 L/día."
+  },
+  "251": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Con sangre rigurosamente normal, una glucosuria aislada en un niño sano es compatible con glucosuria renal benigna (umbral renal bajo). No hay infección (nitritos y leucocitos negativos) y la densidad es normal.",
+    "claveMemorizar": "Glucosuria con glucemia normal: glucosuria renal benigna."
+  },
+  "252": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El sistemático de orina con tiras se basa en la fotometría de reflectancia: el lector mide la luz reflejada por cada almohadilla coloreada.",
+    "claveMemorizar": "Tira de orina: reflectancia."
+  },
+  "253": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En una infección urinaria la tira da positivos los nitritos (bacterias) y los leucocitos (esterasa leucocitaria).",
+    "claveMemorizar": "ITU en tira: nitritos + leucocitos."
+  },
+  "254": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cociente albúmina/creatinina en una muestra aislada permite cribar la microalbuminuria, porque corrige la concentración de la orina sin tener que recoger 24 h.",
+    "claveMemorizar": "Albúmina/creatinina = cribado de microalbuminuria."
+  },
+  "255": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una plataforma automatizada de orinas tiene analizador de tiras, módulo óptico de sedimento y almacenamiento. No lleva módulo de tinción, porque el sedimento se analiza sin teñir.",
+    "claveMemorizar": "Plataforma de orinas: tiras + sedimento + almacén; sin tinción."
+  },
+  "256": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el análisis de orina informa del equilibrio ácido-base (pH), de infecciones (bacterias, hongos, parásitos) y de enfermedades metabólicas (glucosa, cetonas, aminoácidos).",
+    "claveMemorizar": "Orina: ácido-base, infecciones y metabolismo."
+  },
+  "257": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Ácido úrico, leucina y cistina cristalizan en orinas ácidas, así que ninguno aparece en una orina alcalina. En la alcalina aparecen fosfatos y carbonatos.",
+    "claveMemorizar": "Úrico, leucina y cistina: orina ácida."
+  },
+  "258": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El aclaramiento de creatinina necesita orina de 24 h (con su volumen) y una muestra de sangre para la creatinina sérica.",
+    "claveMemorizar": "Aclaramiento: orina de 24 h + sangre."
+  },
+  "259": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La osmolalidad de la orina se mide con un osmómetro de descenso del punto de congelación: cuantas más partículas disueltas, más baja la temperatura a la que congela.",
+    "claveMemorizar": "Osmolalidad: descenso crioscópico."
   },
   "260": {
     "respuestaCorrecta": "C",
     "porQueLaCorrecta": "En una infección urinaria la tira reactiva da positivos los leucocitos (esterasa leucocitaria) y los nitritos, porque muchas bacterias (enterobacterias) reducen los nitratos a nitritos.",
     "claveMemorizar": "ITU en tira: leucocitos + nitritos."
   },
+  "261": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la insuficiencia renal crónica el riñón no elimina productos nitrogenados ni potasio: suben la creatinina, la urea y el potasio.",
+    "claveMemorizar": "Insuficiencia renal crónica: creatinina, urea y potasio ↑."
+  },
+  "262": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cilindros hemáticos son moldes de proteína con hematíes atrapados en su interior. Indican sangrado glomerular (glomerulonefritis).",
+    "claveMemorizar": "Cilindro hemático = proteína + hematíes atrapados."
+  },
+  "263": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La osmolalidad de la orina se mide con un osmómetro de descenso del punto de congelación: cuantas más partículas disueltas, más baja la temperatura a la que congela.",
+    "claveMemorizar": "Osmolalidad: descenso crioscópico."
+  },
+  "264": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La almohadilla de sangre detecta la actividad peroxidasa del hemo: es positiva con hematíes, hemoglobina libre y mioglobina. Un nitrito negativo no descarta una infección.",
+    "claveMemorizar": "Tira de sangre: hematíes, Hb o mioglobina."
+  },
+  "265": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La orina se forma en el riñón y sigue por el uréter, la vejiga y la uretra hasta el exterior.",
+    "claveMemorizar": "Riñón → uréter → vejiga → uretra."
+  },
+  "266": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La osmolaridad en orina aleatoria no necesita preparación especial del paciente. Las pruebas de concentración (restricción hídrica) sí la requieren.",
+    "claveMemorizar": "Osmolaridad urinaria: sin preparación."
+  },
+  "267": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el síndrome nefrótico el glomérulo deja pasar las proteínas de menor tamaño (albúmina) y retiene las grandes (alfa-2 macroglobulina, que incluso sube).",
+    "claveMemorizar": "Nefrótico: se pierde la albúmina, se retienen las grandes."
+  },
+  "268": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La tira de orina no detecta bacterias directamente: las sugiere por los nitritos. Glucosa, leucocitos (esterasa) y proteínas sí son almohadillas de la tira.",
+    "claveMemorizar": "Bacterias: no hay almohadilla (se infieren por nitritos)."
+  },
+  "269": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, las catecolaminas son fotosensibles y el recipiente debe protegerse de la luz, además de acidificarse con HCl.",
+    "claveMemorizar": "Catecolaminas: HCl y protegidas de la luz."
+  },
+  "270": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cilindros céreos son de tamaño variable, bordes con hendiduras o quebrados, color amarillento y muy refringentes. Indican insuficiencia renal avanzada.",
+    "claveMemorizar": "Céreos: hendiduras, refringentes = insuficiencia renal crónica."
+  },
+  "271": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cristales de cistina (placas hexagonales) aparecen en orina ácida. Indican cistinuria, un defecto hereditario de reabsorción tubular.",
+    "claveMemorizar": "Cistina: hexágonos en orina ácida = cistinuria."
+  },
+  "272": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una orina turbia no es necesariamente patológica: puede deberse a cristales amorfos (uratos en orina ácida, fosfatos en alcalina), moco o refrigeración.",
+    "claveMemorizar": "Orina turbia ≠ enfermedad."
+  },
+  "273": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La incapacidad del riñón para concentrar o diluir la orina (isostenuria, densidad fija en torno a 1,010) es característica de la enfermedad renal avanzada.",
+    "claveMemorizar": "Densidad fija (isostenuria) = riñón enfermo."
+  },
+  "274": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las células de 13-20 µm, redondeadas, con núcleo central que ocupa casi la mitad de la célula, son de epitelio de transición. Una por campo es normal.",
+    "claveMemorizar": "Transición: redondas, núcleo grande central."
+  },
+  "275": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El urato amónico (biurato amónico, «manzana espinosa») cristaliza en orinas alcalinas. Ácido úrico, tirosina y cistina aparecen en orinas ácidas.",
+    "claveMemorizar": "Biurato amónico = orina alcalina."
+  },
+  "276": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque el porfobilinógeno no se conserva con ácido, sino con carbonato sódico (medio alcalino) y protegido de la luz. El vanilmandélico sí va con HCl.",
+    "claveMemorizar": "Porfirinas y porfobilinógeno: carbonato sódico."
+  },
+  "277": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Se usa la primera orina de la mañana porque es la más concentrada: acumula más elementos químicos y formes y detecta mejor las alteraciones.",
+    "claveMemorizar": "Primera orina: la más concentrada."
+  },
+  "278": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un adulto elimina de media entre 1.200 y 1.500 mL de orina al día.",
+    "claveMemorizar": "Diuresis normal: 1,2-1,5 L/día."
+  },
+  "279": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cilindros céreos son muy refringentes, homogéneos y de bordes bien definidos (a menudo con hendiduras). Los hialinos son transparentes y poco refringentes.",
+    "claveMemorizar": "Céreo: refringente y de bordes nítidos."
+  },
+  "280": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La osmolalidad mide la concentración de la orina con más exactitud que la densidad, porque solo depende del número de partículas y no de su tamaño o naturaleza. No es un análisis de rutina.",
+    "claveMemorizar": "Osmolalidad: más exacta que la densidad."
+  },
   "281": {
     "respuestaCorrecta": "D",
     "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
     "claveMemorizar": "Proteinuria → busca cilindros."
+  },
+  "282": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para cuantificar proteínas, azúcares y otros componentes de la orina lo más adecuado es la orina de 24 h, porque su excreción varía a lo largo del día.",
+    "claveMemorizar": "Cuantificar en orina: 24 h."
+  },
+  "283": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La cistina cristaliza en orinas ácidas, así que no se ve en orina alcalina. Fosfato cálcico, fosfato amónico magnésico y carbonato cálcico sí son de orinas alcalinas.",
+    "claveMemorizar": "Cistina: orina ácida."
+  },
+  "284": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La insuficiencia cardíaca puede producir una proteinuria transitoria, que desaparece al compensarse. Síndrome nefrótico, glomerulonefritis y nefropatía membranosa dan proteinuria persistente.",
+    "claveMemorizar": "Proteinuria transitoria: fiebre, ejercicio, insuficiencia cardíaca."
+  },
+  "285": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque los cristales de tirosina (finas agujas en gavillas o rosetas) aparecen en orina ácida, no alcalina. Las demás descripciones son correctas.",
+    "claveMemorizar": "Tirosina: agujas en orina ácida."
+  },
+  "286": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cristales de tirosina tienen importante significado clínico: indican hepatopatía grave o tirosinemia. Fosfato triple, fosfato cálcico y biurato amónico suelen ser banales.",
+    "claveMemorizar": "Tirosina y leucina en orina = hígado grave."
+  },
+  "287": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La proteína de Tamm-Horsfall (uromodulina) es una glucoproteína que secretan las células tubulares renales (rama ascendente del asa de Henle). Forma la matriz de los cilindros.",
+    "claveMemorizar": "Tamm-Horsfall: la segrega el túbulo."
+  },
+  "288": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Hematíes dismórficos con acantocitos y cilindros hemáticos indican sangrado glomerular: son muy sugestivos de glomerulonefritis aguda o crónica.",
+    "claveMemorizar": "Dismórficos + acantocitos + cilindros hemáticos = glomerulonefritis."
+  },
+  "289": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Proteinuria intensa, hipoalbuminemia y lípidos en el sedimento (cuerpos ovales grasos, gotas de grasa) son característicos del síndrome nefrótico.",
+    "claveMemorizar": "Nefrótico: proteinuria masiva + grasa en el sedimento."
+  },
+  "290": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque por la orina solo pasa la bilirrubina conjugada (directa). En la obstrucción biliar sube la conjugada en orina; la no conjugada no se filtra.",
+    "claveMemorizar": "En orina solo aparece bilirrubina conjugada."
+  },
+  "291": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el síndrome nefrótico típico hay cilindros hialinos y granulosos y cuerpos grasos ovales, pero no suele haber hematíes. La hematuria es propia del síndrome nefrítico.",
+    "claveMemorizar": "Nefrótico: grasa y cilindros. Nefrítico: hematíes."
+  },
+  "292": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los métodos enzimáticos de creatinina son los más exactos: sufren menos interferencias que el Jaffé (glucosa, cetonas, bilirrubina) en cualquiera de sus variantes.",
+    "claveMemorizar": "Creatinina más exacta: método enzimático."
+  },
+  "293": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La creatinina procede de la creatina muscular, así que su excreción se correlaciona sobre todo con la masa muscular.",
+    "claveMemorizar": "Creatinina ∝ masa muscular."
+  },
+  "294": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un porcentaje de acantocitos (células G1) igual o superior al 5 % indica lesión glomerular.",
+    "claveMemorizar": "Acantocitos ≥ 5 % = hematuria glomerular."
+  },
+  "295": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la hematuria glomerular predominan los hematíes dismórficos, no los isomórficos (que indican sangrado de la vía urinaria). Además, la orina es oscura, sin coágulos y con proteinuria.",
+    "claveMemorizar": "Glomerular: dismórficos, sin coágulos, con proteinuria."
+  },
+  "296": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque al congelarse la muestra se libera calor de fusión, no se absorbe. Ese calor eleva la temperatura hasta la meseta del punto de congelación, que es la que se mide.",
+    "claveMemorizar": "Osmómetro: al congelar se libera calor; se mide la meseta."
+  },
+  "297": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El túbulo proximal reabsorbe la mayor parte del agua filtrada (en torno al 65-70 %), además de glucosa, aminoácidos y bicarbonato.",
+    "claveMemorizar": "Túbulo proximal: reabsorbe ~2/3 del agua."
+  },
+  "298": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falso porque en condiciones normales los cuerpos cetónicos se forman en pequeñas cantidades. Solo aumentan mucho en ayuno, diabetes descompensada o dietas sin hidratos.",
+    "claveMemorizar": "Cuerpos cetónicos: normalmente muy pocos."
+  },
+  "299": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, la litiasis renal no se considera un factor de riesgo de daño renal crónico como la diabetes, la hipertensión o la edad avanzada.",
+    "claveMemorizar": "Riesgo de daño renal: diabetes, HTA, edad."
+  },
+  "300": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El azul de metileno es una tinción simple que permite ver la morfología general de los microorganismos del sedimento. Sternheimer-Malbin tiñe células y cilindros y Sudán III, grasa.",
+    "claveMemorizar": "Microorganismos: azul de metileno. Grasa: Sudán III."
+  },
+  "301": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cristales incoloros en forma de sobre de carta u octaedros son de oxalato cálcico dihidratado. El ácido úrico es amarillo y romboidal.",
+    "claveMemorizar": "Sobre de carta = oxalato cálcico."
+  },
+  "302": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de Nessler mide la urea: la ureasa la convierte en amoníaco, que forma un color amarillo-naranja con el reactivo. Es un método a punto final.",
+    "claveMemorizar": "Nessler: urea (vía amoníaco), punto final."
+  },
+  "303": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El uromucoide es una proteína: otro nombre de la proteína de Tamm-Horsfall (uromodulina), que forma la matriz de los cilindros.",
+    "claveMemorizar": "Uromucoide = proteína de Tamm-Horsfall."
+  },
+  "304": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La troponina es un marcador cardíaco que se mide en sangre, no en orina. Nitritos, cuerpos cetónicos y proteínas forman parte del análisis de orina convencional.",
+    "claveMemorizar": "Troponina: sangre, no orina."
+  },
+  "305": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ácido láctico no contiene nitrógeno: procede de la glucólisis anaerobia. Urea, creatinina y ácido úrico son compuestos nitrogenados no proteicos.",
+    "claveMemorizar": "Nitrogenados no proteicos: urea, creatinina, úrico."
+  },
+  "306": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la anemia hemolítica se produce mucha bilirrubina no conjugada, que no pasa a la orina, pero en el intestino se forma mucho urobilinógeno: urobilinógeno alto sin bilirrubina.",
+    "claveMemorizar": "Hemólisis: urobilinógeno ↑, bilirrubina en orina negativa."
+  },
+  "307": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, en la proteinuria glomerular el proteinograma de orina muestra un aumento de la concentración total de proteínas, con predominio de albúmina.",
+    "claveMemorizar": "Proteinuria glomerular: mucha proteína, sobre todo albúmina."
+  },
+  "308": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque los cristales de ácido úrico son frecuentes en orinas ácidas normales y no siempre indican una urgencia. Son amarillentos y pueden verse en la gota.",
+    "claveMemorizar": "Ácido úrico: amarillo, orina ácida, a menudo sin importancia."
+  },
+  "309": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ácido tricloroacético precipita las proteínas: la turbidez resultante se usa para detectarlas o cuantificarlas en orina.",
+    "claveMemorizar": "Tricloroacético = proteínas (turbidez)."
+  },
+  "310": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La reabsorción es el paso de sustancias desde la luz del túbulo hacia el intersticio y los capilares. La secreción es el camino inverso.",
+    "claveMemorizar": "Reabsorción: túbulo → sangre. Secreción: sangre → túbulo."
+  },
+  "311": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La almohadilla de pH de las tiras usa indicadores como el rojo de metilo y el azul de bromotimol, que cambian de color de naranja a azul según el pH.",
+    "claveMemorizar": "pH en tira: rojo de metilo + azul de bromotimol."
+  },
+  "312": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cilindros céreos indican daño renal grave: estasis tubular prolongada e insuficiencia renal crónica avanzada.",
+    "claveMemorizar": "Céreos = daño renal grave."
+  },
+  "313": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Rojo Congo, azul de bromocresol, fenolftaleína y azul de timol cambian de color según el pH: son indicadores ácido-base. El piruvato y la tinta china no lo son.",
+    "claveMemorizar": "Indicadores: rojo Congo, bromocresol, fenolftaleína, timol."
+  },
+  "314": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la deshidratación o tras ejercicio pueden verse cilindros hialinos (y algún granuloso) sin enfermedad renal, si no hay proteinuria. Leucocitarios, hemáticos, epiteliales y céreos son patológicos.",
+    "claveMemorizar": "Hialinos (y algún granuloso): pueden ser fisiológicos."
+  },
+  "315": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La osmolalidad urinaria normal de un adulto oscila ampliamente según la hidratación, aproximadamente entre 300 y 1.200 mOsm/kg (se expresa por kg).",
+    "claveMemorizar": "Osmolalidad urinaria: ~300-1.200 mOsm/kg."
+  },
+  "316": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La urea se sintetiza en el hígado, en el ciclo de la urea, a partir del amoníaco de los aminoácidos. El riñón solo la elimina.",
+    "claveMemorizar": "Urea: se fabrica en el hígado."
+  },
+  "317": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de Nessler mide la urea: la ureasa la convierte en amoníaco, que forma un color amarillo-naranja con el reactivo. Es un método a punto final.",
+    "claveMemorizar": "Nessler: urea (vía amoníaco), punto final."
+  },
+  "318": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En un medio hipotónico entra agua en el hematíe, que se hincha (y puede lisarse). En medio hipertónico se arruga (crenado).",
+    "claveMemorizar": "Hipotónico: hematíe hinchado. Hipertónico: crenado."
+  },
+  "319": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La urea sube con el catabolismo proteico excesivo (fiebre, quemaduras, corticoides, sangrado digestivo) y con la insuficiencia renal. Baja en el embarazo, la hemodilución y el fallo hepático.",
+    "claveMemorizar": "Urea ↑: catabolismo proteico o riñón. Urea ↓: hígado."
+  },
+  "320": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tiras reactivas en sistemas automatizados se leen por fotometría de reflectancia.",
+    "claveMemorizar": "Tira de orina: reflectancia."
+  },
+  "321": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El oxalato cálcico dihidratado predomina en orinas ácidas o neutras. Estruvita, brushita e hidroxiapatita son de orinas alcalinas.",
+    "claveMemorizar": "Oxalato cálcico: ácida. Fosfatos: alcalina."
+  },
+  "322": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, la orina verdosa se asocia a infección urinaria (por ejemplo, por Pseudomonas). También pueden causarla la biliverdina o fármacos como el azul de metileno.",
+    "claveMemorizar": "Orina verdosa: Pseudomonas, biliverdina o fármacos."
+  },
+  "323": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Se rechaza la orina que llega en un recipiente cualquiera: debe ser un contenedor estéril y adecuado. Venir bien identificada, recogida tras lavar los genitales o con bolsa en niños es lo correcto.",
+    "claveMemorizar": "Orina en recipiente no estéril = rechazo."
   }
 }

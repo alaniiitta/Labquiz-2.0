@@ -282,13 +282,13 @@
       "question": "En la técnica colorimétrica para la determinación de la creatinina:",
       "options": {
         "A": "La creatinina reacciona con el picrato alcalino formando un complejo azulado.",
-        "B": "La creatinina reacciona con el picrato alcalino",
+        "B": "La creatinina reacciona con el picrato alcalino formando un complejo rojizo.",
         "C": "La creatinina reacciona con el citrato ácido formando un complejo azulado.",
         "D": "La creatinina reacciona con el citrato alcalino formando un complejo rojizo."
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "La creatinina reacciona con el picrato alcalino"
+      "correctText": "La creatinina reacciona con el picrato alcalino formando un complejo rojizo."
     },
     {
       "id": 23,
@@ -1127,13 +1127,13 @@
       "question": "En la técnica colorimétrica para la determinación de la creatinina:",
       "options": {
         "A": "La creatinina reacciona con el picrato alcalino formando un complejo azulado.",
-        "B": "La creatinina reacciona con el picrato alcalino",
+        "B": "La creatinina reacciona con el picrato alcalino formando un complejo rojizo.",
         "C": "La creatinina reacciona con el citrato ácido formando un complejo azulado.",
         "D": "La creatinina reacciona con el citrato alcalino formando un complejo rojizo"
       },
       "page": 9,
       "correctAnswer": "B",
-      "correctText": "La creatinina reacciona con el picrato alcalino"
+      "correctText": "La creatinina reacciona con el picrato alcalino formando un complejo rojizo."
     },
     {
       "id": 88,
@@ -2130,7 +2130,7 @@
         "A": "Se encuentren en orinas ácidas",
         "B": "Tengan forma de placas hexagonales",
         "C": "Sean insolubles en amoníaco",
-        "D": "Sean insolubles en ácido acético Explicación: recordar que bases diluyen a ácidos y viceversa."
+        "D": "Sean insolubles en ácido acético."
       },
       "page": 16,
       "correctAnswer": "C",
@@ -3357,7 +3357,8 @@
         "A": "Cromatografía líquida de alta resolución",
         "B": "Isoelectroenfoque",
         "C": "Descenso del punto de congelación",
-        "D": "Sin una osmolaridad en suero, no tiene significación clínica E) Todas son falsas"
+        "D": "Sin una osmolaridad en suero, no tiene significación clínica",
+        "E": "Todas son falsas"
       },
       "page": 25,
       "correctAnswer": "C",
@@ -3370,7 +3371,8 @@
         "A": "Glucosa y nitritos",
         "B": "Hematies y glucosa",
         "C": "Leucocitos y nitritos",
-        "D": "Hematíes y cuerpos cetónicos E) Glucosa y cuerpos cetónicos"
+        "D": "Hematíes y cuerpos cetónicos",
+        "E": "Glucosa y cuerpos cetónicos"
       },
       "page": 25,
       "correctAnswer": "C",
@@ -3383,11 +3385,12 @@
         "A": "Aumento niveles de creatinina, urea y niveles iónicos.",
         "B": "Aumento de los niveles de creatinina y urea y disminución de niveles de potasio.",
         "C": "Disminución de los niveles de creatinina, urea y sodio.",
-        "D": "Aumento de niveles de creatinina y urea, aumento de niveles de potasio. E) Disminución de niveles de creatinina y urea, aumento de niveles de potasio"
+        "D": "Aumento de niveles de creatinina y urea, aumento de niveles de potasio.",
+        "E": "Disminución de niveles de creatinina y urea, aumento de niveles de potasio"
       },
       "page": 25,
       "correctAnswer": "D",
-      "correctText": "Aumento de niveles de creatinina y urea, aumento de niveles de potasio. E) Disminución de niveles de creatinina y urea, aumento de niveles de potasio"
+      "correctText": "Aumento de niveles de creatinina y urea, aumento de niveles de potasio."
     },
     {
       "id": 262,
