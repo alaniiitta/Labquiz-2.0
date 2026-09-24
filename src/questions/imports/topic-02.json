@@ -23,12 +23,12 @@
       "options": {
         "A": "Son similares a la glucosa del paciente.",
         "B": "Son inferiores a 50 mg/dl.",
-        "C": "Presentan una diferencia con la glucemia del",
+        "C": "Presentan una diferencia con la glucemia del paciente superior a 10 mg/dl.",
         "D": "El líquido sinovial no debe de tener glucosa."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "Presentan una diferencia con la glucemia del"
+      "correctText": "Presentan una diferencia con la glucemia del paciente superior a 10 mg/dl."
     },
     {
       "id": 3,
@@ -151,14 +151,14 @@
       "id": 12,
       "question": "Los criterios de Light:",
       "options": {
-        "A": "Utilizan parámetros bioquímicos LDH, proteínas",
-        "B": "Son una herramienta para descartar outliers en",
+        "A": "Utilizan parámetros bioquímicos LDH, proteínas totales y albúmina para diferenciar el líquido pleural entre exudado y trasudado.",
+        "B": "Son una herramienta para descartar outliers en tratamiento estadístico de datos.",
         "C": "No se pueden utilizar en pacientes pediátricos.",
         "D": "Utilizan, entre otros, los parámetros bioquímicos AST, Albúmina y bilirrubina para calcular el grado de gravedad de la cirrosis hepática."
       },
       "page": 1,
       "correctAnswer": "A",
-      "correctText": "Utilizan parámetros bioquímicos LDH, proteínas"
+      "correctText": "Utilizan parámetros bioquímicos LDH, proteínas totales y albúmina para diferenciar el líquido pleural entre exudado y trasudado."
     },
     {
       "id": 13,
@@ -191,13 +191,13 @@
       "question": "¿Cuál de los siguientes métodos no se emplea para la determinación de proteínas en LCR?",
       "options": {
         "A": "Lowry.",
-        "B": "Precipitación con ácido sulfosalicílico + sulfato",
+        "B": "Precipitación con ácido sulfosalicílico + sulfato tricloroacético.",
         "C": "Precipitación con tricloroacético.",
         "D": "Fijación de colorantes."
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Precipitación con ácido sulfosalicílico + sulfato"
+      "correctText": "Precipitación con ácido sulfosalicílico + sulfato tricloroacético."
     },
     {
       "id": 16,
@@ -229,14 +229,14 @@
       "id": 18,
       "question": "En la diferenciación del líquido pleural, según los criterios de Light:",
       "options": {
-        "A": "Es un exudado cuando la concentración de",
+        "A": "Es un exudado cuando la concentración de proteínas del líquido esta aumentada.",
         "B": "Es un exudado cuando la concentración de LDH del líquido esta disminuida en referencia al valor en suero.",
         "C": "Es un trasudado cuando la concentración de proteínas del líquido esta aumentada.",
         "D": "Es un trasudado cuando la concentración de LDH del líquido esta aumentada en referencia al valor en suero."
       },
       "page": 2,
       "correctAnswer": "A",
-      "correctText": "Es un exudado cuando la concentración de"
+      "correctText": "Es un exudado cuando la concentración de proteínas del líquido esta aumentada."
     },
     {
       "id": 19,
@@ -438,13 +438,13 @@
       "question": "En líquido pleural señale lo falso:",
       "options": {
         "A": "En líquidos hemorrágicos pueden solicitar hematocrito.",
-        "B": "La medida del pH, no requiere condiciones",
+        "B": "La medida del pH, no requiere condiciones extremas de conservación (anaerobiosis, frío).",
         "C": "La lactato deshidrogenasa (LDH) es muy solicitada, unida a la de sangre.",
         "D": "En ocasiones tiene justificación solicitar bilirrubina y colesterol junto a la del suero."
       },
       "page": 3,
       "correctAnswer": "B",
-      "correctText": "La medida del pH, no requiere condiciones"
+      "correctText": "La medida del pH, no requiere condiciones extremas de conservación (anaerobiosis, frío)."
     },
     {
       "id": 35,
@@ -464,13 +464,13 @@
       "question": "De las siguientes respuestas, señale lo correcto en líquido cefalorraquídeo:",
       "options": {
         "A": "El retraso en el análisis no afecta a los niveles de lactato.",
-        "B": "Si hemático y el sobrenadante es xantocrómico",
+        "B": "Si hemático y el sobrenadante es xantocrómico orienta a hemorragia previa.",
         "C": "Los valores normales de las proteínas son la mitad de las de sangre.",
         "D": "En líquidos hemáticos es conveniente añadir heparina."
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "Si hemático y el sobrenadante es xantocrómico"
+      "correctText": "Si hemático y el sobrenadante es xantocrómico orienta a hemorragia previa."
     },
     {
       "id": 37,
@@ -515,27 +515,27 @@
       "id": 40,
       "question": "En el estudio del líquido sinovial señale lo falso:",
       "options": {
-        "A": "En líquidos normales la mayoría de los leucocitos",
+        "A": "En líquidos normales la mayoría de los leucocitos son polimorfonucleares.",
         "B": "En líquidos hemorrágicos, pueden lisarse los hematíes para poder contar los leucocitos.",
         "C": "Observar cristales de urato monosódico es indicativo de artritis gotosa.",
         "D": "La alta viscosidad es debida a la concentración relativamente alta de ácido hialurónico."
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "En líquidos normales la mayoría de los leucocitos"
+      "correctText": "En líquidos normales la mayoría de los leucocitos son polimorfonucleares."
     },
     {
       "id": 41,
       "question": "En el estudio del líquido sinovial señale lo falso:",
       "options": {
         "A": "La microscopía de polarización es usada en la identificación de algunos cristales.",
-        "B": "En ayunas la glucosa en sangre es el doble que en",
+        "B": "En ayunas la glucosa en sangre es el doble que en líquido sinovial.",
         "C": "Si usamos anticoagulantes, la heparina sódica es el anticoagulante de elección.",
         "D": "El líquido sinovial es un ultra-filtrado del plasma, excepto el ácido hialurónico que es producido por las células sinoviales."
       },
       "page": 4,
       "correctAnswer": "B",
-      "correctText": "En ayunas la glucosa en sangre es el doble que en"
+      "correctText": "En ayunas la glucosa en sangre es el doble que en líquido sinovial."
     },
     {
       "id": 42,
@@ -751,12 +751,12 @@
       "options": {
         "A": "Líquido cefalorraquídeo total.",
         "B": "Sedimento del líquido cefalorraquídeo.",
-        "C": "El sobrenadante del líquido cefalorraquídeo",
+        "C": "El sobrenadante del líquido cefalorraquídeo centrifugado.",
         "D": "Todas son falsas"
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "El sobrenadante del líquido cefalorraquídeo"
+      "correctText": "El sobrenadante del líquido cefalorraquídeo centrifugado."
     },
     {
       "id": 59,
@@ -775,14 +775,14 @@
       "id": 60,
       "question": "Señala la respuesta CORRECTA sobre los líquidos pleurales:",
       "options": {
-        "A": "Un derrame pleural se diferencia entre trasudado",
+        "A": "Un derrame pleural se diferencia entre trasudado y exudado.",
         "B": "El trasudado es un líquido con elevada concentración de proteínas.",
         "C": "El exudado es un líquido con baja concentración de proteínas.",
         "D": "Su color normal es verde amarillento y abundante."
       },
       "page": 6,
       "correctAnswer": "A",
-      "correctText": "Un derrame pleural se diferencia entre trasudado"
+      "correctText": "Un derrame pleural se diferencia entre trasudado y exudado."
     },
     {
       "id": 61,
@@ -1191,14 +1191,14 @@
       "id": 92,
       "question": "Respecto al LCR, señale la FALSA:",
       "options": {
-        "A": "En recién nacidos hay menos proteínas que en",
+        "A": "En recién nacidos hay menos proteínas que en adultos debido a que la barrera hematoencefálica es más madura.",
         "B": "El LCR es un ultrafiltrado del plasma.",
         "C": "Se reabsorbe por las vellosidades aracnoideas.",
         "D": "El LCR se produce en su mayor parte en los plexos coroideos."
       },
       "page": 9,
       "correctAnswer": "A",
-      "correctText": "En recién nacidos hay menos proteínas que en"
+      "correctText": "En recién nacidos hay menos proteínas que en adultos debido a que la barrera hematoencefálica es más madura."
     },
     {
       "id": 93,
@@ -1362,12 +1362,12 @@
       "options": {
         "A": "El primer tubo para estudio microbiológico -el segundo para estudio bioquímico - el tercer tubo para el recuento celular.",
         "B": "El primer tubo para el recuento celular - el segundo para estudio microbiológico - el tercer tubo para estudio bioquímico.",
-        "C": "El primer tubo para estudio bioquímico - el",
+        "C": "El primer tubo para estudio bioquímico - el segundo para estudio microbiológico - el tercer tubo para el recuento celular.",
         "D": "El primer tubo para estudio bioquímico - el segundo para el recuento celular - el tercer tubo para estudio microbiológico."
       },
       "page": 10,
       "correctAnswer": "C",
-      "correctText": "El primer tubo para estudio bioquímico - el"
+      "correctText": "El primer tubo para estudio bioquímico - el segundo para estudio microbiológico - el tercer tubo para el recuento celular."
     },
     {
       "id": 106,
@@ -1660,13 +1660,13 @@
       "question": "Respecto a los criterios de Light, ¿cuál de las siguientes afirmaciones es la CORRECTA?",
       "options": {
         "A": "Actualmente no tienen utilidad.",
-        "B": "Clasifican los derrames pleurales en exudados y",
+        "B": "Clasifican los derrames pleurales en exudados y trasudados.",
         "C": "Son de gran utilidad en la valoración del líquido cefalorraquídeo.",
         "D": "Se usan en el diagnóstico de la neurosífilis."
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "Clasifican los derrames pleurales en exudados y"
+      "correctText": "Clasifican los derrames pleurales en exudados y trasudados."
     },
     {
       "id": 129,
@@ -1738,13 +1738,13 @@
       "question": "Señale la respuesta FALSA con respecto al líquido pleural",
       "options": {
         "A": "En líquidos hemorrágicos se puede solicitar el hematocrito.",
-        "B": "La medida del pH no requiere que la muestra se",
+        "B": "La medida del pH no requiere que la muestra se encuentre en condiciones de anaerobiosis.",
         "C": "La determinación de LDH y proteínas en plasma y líquido pleural ayuda en la clasificación del líquido pleural en trasudado o exudado.",
         "D": "Si se sospecha un quilotórax, se puede solicitar el estudio de triglicéridos en la muestra de líquido pleural."
       },
       "page": 13,
       "correctAnswer": "B",
-      "correctText": "La medida del pH no requiere que la muestra se"
+      "correctText": "La medida del pH no requiere que la muestra se encuentre en condiciones de anaerobiosis."
     },
     {
       "id": 135,
@@ -1803,13 +1803,13 @@
       "question": "Señala la afirmación correcta con respecto a cómo debe ser el líquido cefalorraquídeo",
       "options": {
         "A": "El líquido cefalorraquídeo es de aspecto amarillento con presencia de algunos sedimentos.",
-        "B": "El líquido cefalorraquídeo es de aspecto claro,",
+        "B": "El líquido cefalorraquídeo es de aspecto claro, incoloro con una viscosidad similar a la del agua.",
         "C": "El líquido cefalorraquídeo es de aspecto claro e incoloro con presencia de pequeños sedimentos.",
         "D": "El líquido cefalorraquídeo es de aspecto amarillento y no presentar sedimentos."
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "El líquido cefalorraquídeo es de aspecto claro,"
+      "correctText": "El líquido cefalorraquídeo es de aspecto claro, incoloro con una viscosidad similar a la del agua."
     },
     {
       "id": 140,
@@ -1828,14 +1828,14 @@
       "id": 141,
       "question": "Señala la opción incorrecta al hablar de la determinación cualitativa de globulinas en una muestra de líquido cefalorraquídeo",
       "options": {
-        "A": "Su investigación se realiza por diferentes",
-        "B": "Para su investigación la Reacción Pandy es la más",
-        "C": "Durante la técnica de Reacción Pandy en un tubo",
+        "A": "Su investigación se realiza por diferentes reacciones que dan resultados negativos en globulinas aumentadas y positivas en concentraciones normales.",
+        "B": "Para su investigación la Reacción Pandy es la más frecuente y utilizada por lo sencilla y la pequeña cantidad de líquido cefalorraquídeo que se emplea.",
+        "C": "Durante la técnica de Reacción Pandy en un tubo se coloca 1cc de Reactivo Pandy, se agrega 1 gota de líquido cefalorraquídeo y se procede a su lectura a los 3 minutos.",
         "D": "Todas son incorrectas."
       },
       "page": 14,
       "correctAnswer": "A",
-      "correctText": "Su investigación se realiza por diferentes"
+      "correctText": "Su investigación se realiza por diferentes reacciones que dan resultados negativos en globulinas aumentadas y positivas en concentraciones normales."
     },
     {
       "id": 142,
@@ -1843,12 +1843,12 @@
       "options": {
         "A": "En el caso que no se pueda enviar a laboratorio, la muestra debe refrigerarse o congelarse.",
         "B": "Si se solicita un estudio serológico del LCR es necesario conservar la muestra en nevera a 10ºC.",
-        "C": "El transporte puede realizarse en un tubo de",
+        "C": "El transporte puede realizarse en un tubo de ensayo estéril.",
         "D": "En el caso que no se pueda enviar a laboratorio se debe inyectar parte de la muestra del LCR en un frasco de hemocultivo y refrigerar."
       },
       "page": 14,
       "correctAnswer": "C",
-      "correctText": "El transporte puede realizarse en un tubo de"
+      "correctText": "El transporte puede realizarse en un tubo de ensayo estéril."
     },
     {
       "id": 143,
@@ -1880,14 +1880,14 @@
       "id": 145,
       "question": "Recibe una muestra para análisis de proteína beta traza en el laboratorio, ¿para qué se utiliza?:",
       "options": {
-        "A": "Para la diferenciación de LCR de otro líquido en",
+        "A": "Para la diferenciación de LCR de otro líquido en secreciones óticas o nasales.",
         "B": "Se relaciona con el diagnóstico de tuberculosis.",
         "C": "Para el diagnóstico diferencial de la esclerosis múltiple.",
         "D": "Es una parte del proteinograma."
       },
       "page": 15,
       "correctAnswer": "A",
-      "correctText": "Para la diferenciación de LCR de otro líquido en"
+      "correctText": "Para la diferenciación de LCR de otro líquido en secreciones óticas o nasales."
     },
     {
       "id": 146,
@@ -2287,13 +2287,13 @@
       "question": "De las siguientes afirmaciones referidas a la toma de muestras de LCR, una de ellas es cierta:",
       "options": {
         "A": "La punción se debe realizar en la región cervical.",
-        "B": "La muestra se debe recoger en 3 tubos, y enviar al",
+        "B": "La muestra se debe recoger en 3 tubos, y enviar al laboratorio de Microbiología el más turbio.",
         "C": "Es imprescindibles obtener 10cc para un estudio rutinario.",
         "D": "Todas las afirmaciones anteriores son ciertas."
       },
       "page": 17,
       "correctAnswer": "B",
-      "correctText": "La muestra se debe recoger en 3 tubos, y enviar al"
+      "correctText": "La muestra se debe recoger en 3 tubos, y enviar al laboratorio de Microbiología el más turbio."
     },
     {
       "id": 178,
@@ -2314,12 +2314,12 @@
       "options": {
         "A": "El análisis celular del LCR puede demorarse hasta 48 horas si la muestra se mantiene refrigerada.",
         "B": "Una vez extraído el LCR debe enviarse preferentemente al laboratorio por el sistema de tubo neumático para que llegue rápido y pueda analizarse cuanto antes.",
-        "C": "Los tubos de LCR deben marcarse de acuerdo a su",
+        "C": "Los tubos de LCR deben marcarse de acuerdo a su secuencia de recolección, y es recomendable que el primer tubo se utilice para el análisis bioquímico y serológico y los tubos siguientes para el análisis microbiológico y celular respectivamente.",
         "D": "Para que el recuento celular sea fiable son necesarios un mínimo de 10 ml de LCR E) Si la muestra está hemática, se devolverá para que extraigan nueva muestra."
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "Los tubos de LCR deben marcarse de acuerdo a su"
+      "correctText": "Los tubos de LCR deben marcarse de acuerdo a su secuencia de recolección, y es recomendable que el primer tubo se utilice para el análisis bioquímico y serológico y los tubos siguientes para el análisis microbiológico y celular respectivamente."
     },
     {
       "id": 180,
@@ -2353,12 +2353,12 @@
       "options": {
         "A": "Para el estudio microbiológico del LCR, es recomendable que la muestra haya sido recolectada antes de la instauración del tratamiento antibiótico, y en máximas condiciones de asepsia para evitar la contaminación con microorganismos de la piel.",
         "B": "El tubo para la recolección de la muestra debe ser estéril y sin anticoagulante.",
-        "C": "El procesamiento de la muestra tiene que ser",
+        "C": "El procesamiento de la muestra tiene que ser inmediato, salvo si se sospecha de meningitis bacteriana.",
         "D": "La tinción de Gram permite orientar el diagnóstico en caso de meningitis bacteriana."
       },
       "page": 18,
       "correctAnswer": "C",
-      "correctText": "El procesamiento de la muestra tiene que ser"
+      "correctText": "El procesamiento de la muestra tiene que ser inmediato, salvo si se sospecha de meningitis bacteriana."
     },
     {
       "id": 183,
@@ -2391,26 +2391,26 @@
       "question": "Niño de 10 años de edad que llega a urgencias de nuestro hospital con fiebre de 39,8º C de pocas horas de evolución, rigidez de nuca, somnolencia y vómitos. Ante la clínica sugerente de meningitis aguda se realiza una punción lumbar, y nos envían 3 tubos con líquido cefalorraquídeo (LCR) de aspecto turbio al Laboratorio, para realizar recuento celular, estudio bioquímico y microbiológico. Con respecto al recuento celular, señalar la respuesta FALSA:",
       "options": {
         "A": "Se puede realizar en cámara o en un sistema automatizado validado para líquidos.",
-        "B": "Se recomienda hacer diluciones del líquido para",
+        "B": "Se recomienda hacer diluciones del líquido para mejor exactitud.",
         "C": "Los analizadores pueden ocasionar recuentos diferenciales alterados ante la presencia de células atípicas.",
         "D": "El recuento celular en líquidos biológicos es un aspecto muy importante para el diagnóstico."
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Se recomienda hacer diluciones del líquido para"
+      "correctText": "Se recomienda hacer diluciones del líquido para mejor exactitud."
     },
     {
       "id": 186,
       "question": "En meningitis de origen bacteriano, es frecuente encontrar en LCR:",
       "options": {
-        "A": "Aumento de la concentración de proteínas y",
+        "A": "Aumento de la concentración de proteínas y disminución de los niveles de glucosa.",
         "B": "Aumento de la glucosa y disminución de la concentración de proteínas.",
         "C": "Aumento de los leucocitos a expensas de los linfocitos.",
         "D": "Aumento de la concentración de glucosa, disminución de la concentración de proteínas y aumento de los leucocitos polimorfonucleares."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Aumento de la concentración de proteínas y"
+      "correctText": "Aumento de la concentración de proteínas y disminución de los niveles de glucosa."
     },
     {
       "id": 187,
@@ -2573,13 +2573,13 @@
       "question": "Señale la afirmación cierta respecto de las bandas oligoclonales en LCR en esclerosis múltiple:",
       "options": {
         "A": "Existe correlación entre la presencia de bandas y el proceso desmielinizante.",
-        "B": "Las Bandas pueden estar presentes aunque el nivel",
+        "B": "Las Bandas pueden estar presentes aunque el nivel de inmunoglobulinas en LCR sea normal.",
         "C": "Una vez que la respuesta oligoclonal está establecida se mantiene al menos 3-5 años en el paciente.",
         "D": "Más del 50% de los pacientes con esclerosis múltiple presentan bandas oligoglonales en el líquido cefalorraquídeo indicando una síntesis intratecal de inmunoglobulinas."
       },
       "page": 20,
       "correctAnswer": "B",
-      "correctText": "Las Bandas pueden estar presentes aunque el nivel"
+      "correctText": "Las Bandas pueden estar presentes aunque el nivel de inmunoglobulinas en LCR sea normal."
     },
     {
       "id": 200,
@@ -2832,14 +2832,14 @@
       "id": 219,
       "question": "En relación con los líquidos pleurales, ¿cuál de las siguientes afirmaciones es correcta?",
       "options": {
-        "A": "Los criterios de Light sirven para diferenciar entre",
+        "A": "Los criterios de Light sirven para diferenciar entre trasudados y exudados.",
         "B": "En condiciones normales, el espacio pleural contiene de 1 a 20 ml de fluido.",
         "C": "Un derrame pleural es siempre un trasudado.",
         "D": "Las respuestas b) y c) son correctas."
       },
       "page": 23,
       "correctAnswer": "A",
-      "correctText": "Los criterios de Light sirven para diferenciar entre"
+      "correctText": "Los criterios de Light sirven para diferenciar entre trasudados y exudados."
     },
     {
       "id": 220,

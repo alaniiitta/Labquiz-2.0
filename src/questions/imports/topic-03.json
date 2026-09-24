@@ -23,12 +23,12 @@
       "options": {
         "A": "El tiempo no se tiene en cuenta.",
         "B": "8 horas.",
-        "C": "El mínimo y si no conservar en nevera como",
+        "C": "El mínimo y si no conservar en nevera como máximo 24 horas.",
         "D": "Aproximadamente 3 horas."
       },
       "page": 1,
       "correctAnswer": "C",
-      "correctText": "El mínimo y si no conservar en nevera como"
+      "correctText": "El mínimo y si no conservar en nevera como máximo 24 horas."
     },
     {
       "id": 3,
@@ -48,13 +48,13 @@
       "question": "Se conoce como recuento de Addis:",
       "options": {
         "A": "Un método de numeración cualitativo de los hematíes, leucocitos y cilindros en una muestra de orina.",
-        "B": "Un método de enumeración cuantitativo de los",
+        "B": "Un método de enumeración cuantitativo de los hematíes, leucocitos y cilindros en una muestra de orina.",
         "C": "Un método cualitativo para detectar cilindros.",
         "D": "Un método para determinar cualitativamente hematuria."
       },
       "page": 1,
       "correctAnswer": "B",
-      "correctText": "Un método de enumeración cuantitativo de los"
+      "correctText": "Un método de enumeración cuantitativo de los hematíes, leucocitos y cilindros en una muestra de orina."
     },
     {
       "id": 5,
@@ -126,13 +126,13 @@
       "question": "Los cilindros hemáticos:",
       "options": {
         "A": "Están compuestos fundamentalmente de proteínas sin inclusiones.",
-        "B": "Son un signo de lesión a nivel del parénquima",
+        "B": "Son un signo de lesión a nivel del parénquima renal.",
         "C": "Su presencia en el sedimento no tiene significación clínica.",
         "D": "Son los cilindros más abundantes de la orina."
       },
       "page": 1,
       "correctAnswer": "B",
-      "correctText": "Son un signo de lesión a nivel del parénquima"
+      "correctText": "Son un signo de lesión a nivel del parénquima renal."
     },
     {
       "id": 11,
@@ -165,13 +165,13 @@
       "question": "Respecto a la presencia de hematíes dismórficos en la orina:",
       "options": {
         "A": "Suele deberse a errores preanalíticos.",
-        "B": "Su presencia en un % elevado indica un origen",
+        "B": "Su presencia en un % elevado indica un origen glomerular de la hematuria.",
         "C": "Su presencia en un % elevado indica hematuria no glomerular.",
         "D": "No tienen significado clínico."
       },
       "page": 2,
       "correctAnswer": "B",
-      "correctText": "Su presencia en un % elevado indica un origen"
+      "correctText": "Su presencia en un % elevado indica un origen glomerular de la hematuria."
     },
     {
       "id": 14,
@@ -192,12 +192,12 @@
       "options": {
         "A": "El aclaramiento de creatinina en orina de 24 horas.",
         "B": "La estimación a partir de la cretinina sérica, peso y edad por la ecuación de Cokcroft-Gault.",
-        "C": "La ecuación CKD-EPI obtenida a partir de la",
+        "C": "La ecuación CKD-EPI obtenida a partir de la creatinina sérica estandarizada.",
         "D": "La ecuación MDRD estimada a partir de la concentración de creatinina sérica no estandarizada"
       },
       "page": 2,
       "correctAnswer": "C",
-      "correctText": "La ecuación CKD-EPI obtenida a partir de la"
+      "correctText": "La ecuación CKD-EPI obtenida a partir de la creatinina sérica estandarizada."
     },
     {
       "id": 16,
@@ -398,27 +398,27 @@
       "id": 31,
       "question": "En el estudio microscópico del sedimento urinario señale lo correcto:",
       "options": {
-        "A": "El uso de contraste de fases es recomendable en",
+        "A": "El uso de contraste de fases es recomendable en la diferenciación de hematíes.",
         "B": "Los cristales de colesterol nunca se observan en orina.",
         "C": "No existen microscopios específicos para formas cristalinas.",
         "D": "En ocasiones podemos buscar cristales en orina de 24 horas."
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "El uso de contraste de fases es recomendable en"
+      "correctText": "El uso de contraste de fases es recomendable en la diferenciación de hematíes."
     },
     {
       "id": 32,
       "question": "En los análisis de orina señale lo falso:",
       "options": {
-        "A": "Los cristales de tirosina tiene forma de tapa de",
+        "A": "Los cristales de tirosina tiene forma de tapa de ataúd.",
         "B": "El pH la orina nos ayuda a identificar cristales en la misma.",
         "C": "La acción ureolítica de bacterias, puede generar cristales en orina si se demora análisis.",
         "D": "La medida de oxalato nos ayuda a identificar riesgo de litiasis."
       },
       "page": 4,
       "correctAnswer": "A",
-      "correctText": "Los cristales de tirosina tiene forma de tapa de"
+      "correctText": "Los cristales de tirosina tiene forma de tapa de ataúd."
     },
     {
       "id": 33,
@@ -517,12 +517,12 @@
       "options": {
         "A": "Los cristales de ácido úrico son típicos de orinas alcalinas.",
         "B": "Los cristales de fosfato de calcio tienen forma hexagonal.",
-        "C": "Las células del epitelio de transición tienen forma",
+        "C": "Las células del epitelio de transición tienen forma variada (piriformes, redondeadas y, en raqueta).",
         "D": "Ninguno es cierto."
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "Las células del epitelio de transición tienen forma"
+      "correctText": "Las células del epitelio de transición tienen forma variada (piriformes, redondeadas y, en raqueta)."
     },
     {
       "id": 41,
@@ -530,12 +530,12 @@
       "options": {
         "A": "Es la única alteración en la orina",
         "B": "Sólo ocurre en mujeres embarazadas",
-        "C": "Es fundamentalmente por proteínas de bajo peso",
+        "C": "Es fundamentalmente por proteínas de bajo peso molecular",
         "D": "Sólo hay inmunoglobulinas en la orina"
       },
       "page": 5,
       "correctAnswer": "C",
-      "correctText": "Es fundamentalmente por proteínas de bajo peso"
+      "correctText": "Es fundamentalmente por proteínas de bajo peso molecular"
     },
     {
       "id": 42,
@@ -672,13 +672,13 @@
       "question": "Respecto a la presencia de hematíes dismórficos en la orina:",
       "options": {
         "A": "Suele deberse a errores preanalíticos.",
-        "B": "Su presencia en un % elevado indica un origen",
+        "B": "Su presencia en un % elevado indica un origen glomerular de la hematuria.",
         "C": "Su presencia en un % elevado indica hematuria no glomerular.",
         "D": "No tiene significado clínico."
       },
       "page": 6,
       "correctAnswer": "B",
-      "correctText": "Su presencia en un % elevado indica un origen"
+      "correctText": "Su presencia en un % elevado indica un origen glomerular de la hematuria."
     },
     {
       "id": 53,
@@ -725,12 +725,12 @@
       "options": {
         "A": "El área de la tira reactiva es más sensible a globulinas que a albúmina.",
         "B": "Un resultado negativo puede descartar la presencia de proteínas.",
-        "C": "Los resultados deben confirmarse con una",
+        "C": "Los resultados deben confirmarse con una prueba más específica para evitar falsos positivos.",
         "D": "Los resultados deben confirmarse con una prueba más específica para evitar falsos negativos"
       },
       "page": 6,
       "correctAnswer": "C",
-      "correctText": "Los resultados deben confirmarse con una"
+      "correctText": "Los resultados deben confirmarse con una prueba más específica para evitar falsos positivos."
     },
     {
       "id": 57,
@@ -840,14 +840,14 @@
       "id": 65,
       "question": "Cuando observamos al microscopio un sedimento urinario. ¿Qué forma describen las células del epitelio de transición o procedentes de la vejiga?",
       "options": {
-        "A": "De forma redondeada y oval y con un gran",
+        "A": "De forma redondeada y oval y con un gran núcleo central",
         "B": "Con forma poligonal o de “raqueta”",
         "C": "No se les podría definir con una forma correcta",
         "D": "Son células grandes, aplanadas, con un gran citoplasma y un pequeño núcleo."
       },
       "page": 7,
       "correctAnswer": "A",
-      "correctText": "De forma redondeada y oval y con un gran"
+      "correctText": "De forma redondeada y oval y con un gran núcleo central"
     },
     {
       "id": 66,
@@ -1061,14 +1061,14 @@
       "id": 82,
       "question": "La proteinuria de Bence - jones es:",
       "options": {
-        "A": "La excreción urinaria de cadenas ligeras de",
+        "A": "La excreción urinaria de cadenas ligeras de inmunoglobulinas.",
         "B": "La presencia de leucina en orina.",
         "C": "La excreción patológica de albúmina.",
         "D": "La presencia de cilindros hialinos en orina."
       },
       "page": 8,
       "correctAnswer": "A",
-      "correctText": "La excreción urinaria de cadenas ligeras de"
+      "correctText": "La excreción urinaria de cadenas ligeras de inmunoglobulinas."
     },
     {
       "id": 83,
@@ -1154,12 +1154,12 @@
       "options": {
         "A": "Inmunodifusión radial.",
         "B": "Cromatografía.",
-        "C": "Microscopía",
+        "C": "Microscopía automática sobre orina centrifugada.",
         "D": "Quimioluminiscencia."
       },
       "page": 9,
       "correctAnswer": "C",
-      "correctText": "Microscopía"
+      "correctText": "Microscopía automática sobre orina centrifugada."
     },
     {
       "id": 90,
@@ -1230,14 +1230,14 @@
       "id": 95,
       "question": "Los cilindros granulosos gruesos:",
       "options": {
-        "A": "Aparecen al comienzo de la descomposición",
+        "A": "Aparecen al comienzo de la descomposición celular.",
         "B": "Son similares a los hialinos.",
         "C": "Son pequeños.",
         "D": "Todas son ciertas."
       },
       "page": 10,
       "correctAnswer": "A",
-      "correctText": "Aparecen al comienzo de la descomposición"
+      "correctText": "Aparecen al comienzo de la descomposición celular."
     },
     {
       "id": 96,
@@ -1894,13 +1894,13 @@
       "question": "Sobre contaminantes y elementos formes de la orina que pueden dificultar o confundir en la observación del sedimento, señale la proposición FALSA:",
       "options": {
         "A": "Restos de cremas pueden ser confundidos con cilindros céreos.",
-        "B": "Fibras textiles pueden ser confundidas con",
+        "B": "Fibras textiles pueden ser confundidas con levaduras.",
         "C": "Trichomonas vaginalis inmóviles en las que no se aprecie flagelo pueden parecer leucocitos.",
         "D": "Gránulos de polen o esporas de hongos pueden ser desconocidos para observadores no expertos."
       },
       "page": 14,
       "correctAnswer": "B",
-      "correctText": "Fibras textiles pueden ser confundidas con"
+      "correctText": "Fibras textiles pueden ser confundidas con levaduras."
     },
     {
       "id": 147,
@@ -2012,12 +2012,12 @@
       "options": {
         "A": "Generalmente se recomienda recoger la primera orina de la mañana.",
         "B": "Si se demora la entrega al laboratorio tras su recogida, la muestra debe estar refrigerada entre 2- 8 ºC.",
-        "C": "En la recogida de orina de 24 h, se recogerá toda",
+        "C": "En la recogida de orina de 24 h, se recogerá toda la orina del primer día, desde la primera obtenida de la mañana durante las 24 h siguientes, hasta la primera del segundo día que se desechará.",
         "D": "En pacientes pediátricos se deben usar bolsas colectoras con adhesivos hipoalergénicos."
       },
       "page": 15,
       "correctAnswer": "C",
-      "correctText": "En la recogida de orina de 24 h, se recogerá toda"
+      "correctText": "En la recogida de orina de 24 h, se recogerá toda la orina del primer día, desde la primera obtenida de la mañana durante las 24 h siguientes, hasta la primera del segundo día que se desechará."
     },
     {
       "id": 156,
@@ -2181,12 +2181,12 @@
       "options": {
         "A": "La cantidad de una sustancia eliminada por el riñón en un tiempo dado.",
         "B": "La eliminación de un volumen determinado de líquido en un tiempo dado.",
-        "C": "El volumen plasmático, del cual el riñón elimina",
+        "C": "El volumen plasmático, del cual el riñón elimina por completo una sustancia en un tiempo dado.",
         "D": "La capacidad de secreción del sistema renal."
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "El volumen plasmático, del cual el riñón elimina"
+      "correctText": "El volumen plasmático, del cual el riñón elimina por completo una sustancia en un tiempo dado."
     },
     {
       "id": 169,
@@ -2492,13 +2492,13 @@
       "question": "¿Qué es la osmolaridad?",
       "options": {
         "A": "Es el número de osmoles de soluto en 1 kg de disolvente",
-        "B": "Es el número de osmoles de soluto en 1 L de",
+        "B": "Es el número de osmoles de soluto en 1 L de disolución",
         "C": "Es el número de osmoles de diluyente en 1 kg de disolución",
         "D": "Es el número de osmoles de diluyente en 1 L de disolución"
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Es el número de osmoles de soluto en 1 L de"
+      "correctText": "Es el número de osmoles de soluto en 1 L de disolución"
     },
     {
       "id": 193,
@@ -2530,27 +2530,27 @@
       "id": 195,
       "question": "Cuando observamos al microscopio un sedimento urinario, ¿qué forma tienen las células del epitelio de transición?",
       "options": {
-        "A": "Forma redondeada u oval y con un gran núcleo",
+        "A": "Forma redondeada u oval y con un gran núcleo central.",
         "B": "Forma poligonal",
         "C": "Forma aplanada con un gran citoplasma y un pequeño núcleo",
         "D": "No tienen una forma concreta."
       },
       "page": 19,
       "correctAnswer": "A",
-      "correctText": "Forma redondeada u oval y con un gran núcleo"
+      "correctText": "Forma redondeada u oval y con un gran núcleo central."
     },
     {
       "id": 196,
       "question": "Respecto a la cristaluria, señale la respuesta correcta:",
       "options": {
         "A": "El ácido úrico puede cristalizar en orinas alcalinas o neutras.",
-        "B": "Los cristales de oxalato cálcico generalmente",
+        "B": "Los cristales de oxalato cálcico generalmente aparecen en orinas ácidas o pH neutro.",
         "C": "Los cristales de fosfatos amorfos generalmente se observan en orinas ácidas.",
         "D": "Los cristales de fosfato cálcico son muy frecuentes encontrarlos en orina normal ácida o neutra."
       },
       "page": 19,
       "correctAnswer": "B",
-      "correctText": "Los cristales de oxalato cálcico generalmente"
+      "correctText": "Los cristales de oxalato cálcico generalmente aparecen en orinas ácidas o pH neutro."
     },
     {
       "id": 197,
@@ -2647,14 +2647,14 @@
       "id": 204,
       "question": "¿Cómo se observan las células del epitelio escamoso en el sedimento urinario?",
       "options": {
-        "A": "con núcleo pequeño redondo, citoplasma",
+        "A": "con núcleo pequeño redondo, citoplasma extenso y aspecto poligonal.",
         "B": "células pequeñas y redondeadas.",
         "C": "aparecen en raras ocasiones y son difíciles de identificar.",
         "D": "poseen núcleo grande, casi igual al citoplasma."
       },
       "page": 20,
       "correctAnswer": "A",
-      "correctText": "con núcleo pequeño redondo, citoplasma"
+      "correctText": "con núcleo pequeño redondo, citoplasma extenso y aspecto poligonal."
     },
     {
       "id": 205,
@@ -2714,12 +2714,12 @@
       "options": {
         "A": "Se puede recoger según considere el paciente, pero solo durante 24 horas.",
         "B": "Solo es de utilidad para confirmar la presencia o ausencia de un analito.",
-        "C": "Es necesaria para cuantificar analitos que varían",
+        "C": "Es necesaria para cuantificar analitos que varían en función del metabolismo corporal.",
         "D": "No es imprescindible cuantificar el volumen de la muestra recogida."
       },
       "page": 20,
       "correctAnswer": "C",
-      "correctText": "Es necesaria para cuantificar analitos que varían"
+      "correctText": "Es necesaria para cuantificar analitos que varían en función del metabolismo corporal."
     },
     {
       "id": 210,
@@ -2777,14 +2777,14 @@
       "id": 214,
       "question": "La cetonuria es:",
       "options": {
-        "A": "Aparición de cuerpos cetónicos detectables en",
+        "A": "Aparición de cuerpos cetónicos detectables en orina.",
         "B": "Ausencia de cuerpos cetónicos en orina.",
         "C": "Disminución de glucosa en orina.",
         "D": "Ausencia de cuerpos cetónicos en sangre."
       },
       "page": 21,
       "correctAnswer": "A",
-      "correctText": "Aparición de cuerpos cetónicos detectables en"
+      "correctText": "Aparición de cuerpos cetónicos detectables en orina."
     },
     {
       "id": 215,
@@ -3252,12 +3252,12 @@
       "options": {
         "A": "Recomendaría realizar un cultivo de orina por la alta sospecha de posible infección urinaria.",
         "B": "Recomendaría cuantificar proteínas en orina para descartar un cuadro febril.",
-        "C": "No haría nada porque los resultados son",
+        "C": "No haría nada porque los resultados son compatibles con la normalidad.",
         "D": "Sospecharía una diabetes insípida por tener la densidad baja."
       },
       "page": 24,
       "correctAnswer": "C",
-      "correctText": "No haría nada porque los resultados son"
+      "correctText": "No haría nada porque los resultados son compatibles con la normalidad."
     },
     {
       "id": 252,
@@ -3394,13 +3394,13 @@
       "question": "Los cilindros hemáticos en un sedimento urinario:",
       "options": {
         "A": "Son formaciones proteicas de hematíes y leucocitos.",
-        "B": "Son formaciones proteicas en cuyo interior se",
+        "B": "Son formaciones proteicas en cuyo interior se han quedado atrapados hematíes.",
         "C": "Son hematíes con morfología anormal.",
         "D": "Ninguna de las respuestas anteriores es cierta."
       },
       "page": 25,
       "correctAnswer": "B",
-      "correctText": "Son formaciones proteicas en cuyo interior se"
+      "correctText": "Son formaciones proteicas en cuyo interior se han quedado atrapados hematíes."
     },
     {
       "id": 263,
@@ -3571,12 +3571,12 @@
       "options": {
         "A": "Ácido clorhídrico para determinación de ácido vanilmandélico.",
         "B": "Carbonato sódico para determinación de porfirinas.",
-        "C": "Ácido clorhídrico para determinación de",
+        "C": "Ácido clorhídrico para determinación de porfobilinógeno.",
         "D": "Ácido acético para determinación de ácido homovanílico."
       },
       "page": 27,
       "correctAnswer": "C",
-      "correctText": "Ácido clorhídrico para determinación de"
+      "correctText": "Ácido clorhídrico para determinación de porfobilinógeno."
     },
     {
       "id": 277,
@@ -3621,14 +3621,14 @@
       "id": 280,
       "question": "La medida de la osmolalidad de la orina:",
       "options": {
-        "A": "Es una medida de la concentración más exacta",
+        "A": "Es una medida de la concentración más exacta que la densidad.",
         "B": "Depende tanto del número como de la naturaleza de las partículas en disolución.",
         "C": "Se realiza generalmente en el análisis de orina rutinario.",
         "D": "Consiste en medir el número de osmoles que hay en 100 ml de disolución."
       },
       "page": 27,
       "correctAnswer": "A",
-      "correctText": "Es una medida de la concentración más exacta"
+      "correctText": "Es una medida de la concentración más exacta que la densidad."
     },
     {
       "id": 281,
@@ -3688,12 +3688,12 @@
       "options": {
         "A": "Los cristales provocados por la administración de ampicilina por dosis altas son incoloros con aspecto de prismas largos que forman racimos, gavillas y dan un pH ácido.",
         "B": "Los cristales de biurato de amonio dan el aspecto de orina “vieja” de color amarillo oscuro o marrón con esferas o “manzanas espinosas” (esferas con cuernos) que da un pH alcalino.",
-        "C": "Los cristales de tirosina son incoloros o",
+        "C": "Los cristales de tirosina son incoloros o amarillentos, aparece negro al enfocar; con un pH alcalino y la forma característica es en finas agujas sedosas agrupadas en gavillas o rosetas.",
         "D": "Los cristales de cistina son incoloros, con un pH ácido, presentan formas de placas hexagonales, a menudo laminadas, rápidamente destruidas por bacterias; puede confundirse con ácido úrico, pero la cistina es soluble en ácido clorhídrico diluido"
       },
       "page": 28,
       "correctAnswer": "C",
-      "correctText": "Los cristales de tirosina son incoloros o"
+      "correctText": "Los cristales de tirosina son incoloros o amarillentos, aparece negro al enfocar; con un pH alcalino y la forma característica es en finas agujas sedosas agrupadas en gavillas o rosetas."
     },
     {
       "id": 286,
@@ -3714,12 +3714,12 @@
       "options": {
         "A": "Su concentración sérica se encuentra elevada en alteraciones glomerulares.",
         "B": "No es una proteína encontrada en personas.",
-        "C": "Es una glucoproteína secretada por las células",
+        "C": "Es una glucoproteína secretada por las células tubulares renales.",
         "D": "Su defecto induce la formación de cristales de oxalato cálcico en orina."
       },
       "page": 28,
       "correctAnswer": "C",
-      "correctText": "Es una glucoproteína secretada por las células"
+      "correctText": "Es una glucoproteína secretada por las células tubulares renales."
     },
     {
       "id": 288,
@@ -3831,12 +3831,12 @@
       "options": {
         "A": "El descenso del punto de congelación es proporcional al número de partículas en la disolución.",
         "B": "La muestra se debe enfriar a una temperatura aproximada de – 7ºC.",
-        "C": "La temperatura del baño hace que se congele la",
+        "C": "La temperatura del baño hace que se congele la muestra y la sonda térmica detecta el calor de fusión que se absorbe y que es proporcional al descenso del punto de congelación.",
         "D": "Tras la congelación se libera el calor de fusión provocando una elevación de temperatura hasta el punto en que coexisten muestra sólida y líquida en equilibrio en el punto de congelación."
       },
       "page": 29,
       "correctAnswer": "C",
-      "correctText": "La temperatura del baño hace que se congele la"
+      "correctText": "La temperatura del baño hace que se congele la muestra y la sonda térmica detecta el calor de fusión que se absorbe y que es proporcional al descenso del punto de congelación."
     },
     {
       "id": 297,
@@ -4050,14 +4050,14 @@
       "id": 313,
       "question": "Son indicadores ácido-base:",
       "options": {
-        "A": "Rojo Congo, azul de bromocresol, fenolftaleína,",
+        "A": "Rojo Congo, azul de bromocresol, fenolftaleína, azul de timol",
         "B": "Piruvato, naranja de metal, rojo Congo",
         "C": "Azul de bromocresol, naranja de metilo, rojo Congo y tinta china",
         "D": "Rojo Congo, azul de bromocresol, fenolftaleína, azul de timol y piruvato"
       },
       "page": 31,
       "correctAnswer": "A",
-      "correctText": "Rojo Congo, azul de bromocresol, fenolftaleína,"
+      "correctText": "Rojo Congo, azul de bromocresol, fenolftaleína, azul de timol"
     },
     {
       "id": 314,
