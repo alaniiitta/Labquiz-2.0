@@ -137,3 +137,12 @@ Si se responde todo el banco, `progress` ocupa unos **2,5 MB**. Cabe en el lími
 4. Guardar el test en curso (#3) y avisar si falla el guardado (#8).
 5. Dividir el código por temas y dejar de copiar al build los PDFs que no se usan (#9).
 6. Limpiar el código muerto, el `.zip` y actualizar el README.
+
+---
+
+## Verificación de los temas 1–3 contra los PDF (tercera ronda)
+
+- **Respuestas correctas:** se han comprobado las 941 preguntas de los temas 1, 2 y 3 contra el resaltado amarillo del PDF original. **Ninguna respuesta correcta es distinta.** 878 se compararon automáticamente; 60 más con una búsqueda del enunciado directamente en el texto del PDF, y las 3 restantes (tema 3 #163, #221 y #267) mirando la imagen de la página.
+- **Opciones cortadas:** se han completado con el texto del PDF 73 opciones que estaban cortadas a mitad de frase (en algunos casos, la propia respuesta correcta). En el tema 3 #163 dos opciones se veían idénticas.
+- **Tema 3 #274:** tenía una opción «D» falsa hecha con trozos de las opciones B y C. Queda con sus 3 opciones reales.
+- **Pendiente:** en el tema 2, las preguntas #178 y #180 tienen una 5.ª opción («E) …») pegada al final de la opción D.

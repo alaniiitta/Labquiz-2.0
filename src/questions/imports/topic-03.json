@@ -970,14 +970,14 @@
       "id": 75,
       "question": "Cuando observamos al microscopio u sedimento urinario ¿Qué forma describen las células del epitelio de transición o procedentes de la vejiga?:",
       "options": {
-        "A": "De forma redondeada u oval y con un gran",
+        "A": "De forma redondeada u oval y con un gran núcleo central.",
         "B": "Con forma poligonal o de “raqueta”",
         "C": "no se les podría definir con una forma concreta.",
         "D": "Son células grandes, aplanadas, con un gran citoplasma y un pequeño núcleo."
       },
       "page": 8,
       "correctAnswer": "A",
-      "correctText": "De forma redondeada u oval y con un gran"
+      "correctText": "De forma redondeada u oval y con un gran núcleo central."
     },
     {
       "id": 76,
@@ -1752,12 +1752,12 @@
       "options": {
         "A": "Son una medida indirecta del aclaramiento de creatinina.",
         "B": "Son útiles en los casos en que la recogida de orina de 24 horas sea dificultosa.",
-        "C": "La más utilizada en adultos es la ecuación de",
+        "C": "La más utilizada en adultos es la ecuación de Schwartz.",
         "D": "Sobrestiman la filtración glomerular a niveles bajos."
       },
       "page": 13,
       "correctAnswer": "C",
-      "correctText": "La más utilizada en adultos es la ecuación de"
+      "correctText": "La más utilizada en adultos es la ecuación de Schwartz."
     },
     {
       "id": 136,
@@ -2063,13 +2063,13 @@
       "question": "Respecto a los nitritos en orina:",
       "options": {
         "A": "Si existe bacteriuria tiene que haber nitritos (+).",
-        "B": "Algunas bacterias son capaces de transformar los",
+        "B": "Algunas bacterias son capaces de transformar los nitratos a nitritos.",
         "C": "Indican hematuria.",
         "D": "Indican presencia de levaduras."
       },
       "page": 15,
       "correctAnswer": "B",
-      "correctText": "Algunas bacterias son capaces de transformar los"
+      "correctText": "Algunas bacterias son capaces de transformar los nitratos a nitritos."
     },
     {
       "id": 160,
@@ -2116,12 +2116,12 @@
       "options": {
         "A": "Se desecha la primera micción del día, y a partir de ahí, recoge toda la orina de ese día hasta las 12 pm.",
         "B": "Se recoge la orina desde la primera micción del día hasta la primera micción de la mañana siguiente.",
-        "C": "Se desecha la primera micción del día, y a partir",
+        "C": "Se desecha la primera micción del día, y a partir de ahí, se recoge toda la orina de ese día, incluida la primera micción de la mañana siguiente.",
         "D": "Se recoge la orina desde la primera micción del día y se desecha la primera micción de la mañana siguiente."
       },
       "page": 16,
       "correctAnswer": "C",
-      "correctText": "Se desecha la primera micción del día, y a partir"
+      "correctText": "Se desecha la primera micción del día, y a partir de ahí, se recoge toda la orina de ese día, incluida la primera micción de la mañana siguiente."
     },
     {
       "id": 164,
@@ -2623,12 +2623,12 @@
       "options": {
         "A": "Los mililitros de orina liberada de una sustancia eliminada por el riñón en la unidad de tiempo.",
         "B": "Los mililitros de orina que elimina el riñón en un minuto.",
-        "C": "Los mililitros de sangre que serían liberados de",
+        "C": "Los mililitros de sangre que serían liberados de una sustancia eliminada por el riñón en la unidad de tiempo.",
         "D": "Los mililitros de sustancia eliminada por el riñón en un minuto."
       },
       "page": 20,
       "correctAnswer": "C",
-      "correctText": "Los mililitros de sangre que serían liberados de"
+      "correctText": "Los mililitros de sangre que serían liberados de una sustancia eliminada por el riñón en la unidad de tiempo."
     },
     {
       "id": 203,
@@ -2869,24 +2869,24 @@
       "question": "La glucosa en orina:",
       "options": {
         "A": "Siempre aparece en personas diabéticas.",
-        "B": "Aparece si la concentración de glucosa en sangre",
+        "B": "Aparece si la concentración de glucosa en sangre es mayor de 180 mg/dl.",
         "C": "Depende del filtrado glomerular."
       },
       "page": 21,
       "correctAnswer": "B",
-      "correctText": "Aparece si la concentración de glucosa en sangre"
+      "correctText": "Aparece si la concentración de glucosa en sangre es mayor de 180 mg/dl."
     },
     {
       "id": 222,
       "question": "¿Qué tipo de cristales podríamos encontrar en el sedimento urinario de una orina con un pH de 6,9?:",
       "options": {
-        "A": "Cristales de ácido úrico, de oxalato cálcico y",
+        "A": "Cristales de ácido úrico, de oxalato cálcico y uratos amorfos.",
         "B": "Cristales de ácido úrico, fosfatos amorfos y fosfato triple.",
         "C": "Cristales de ácido úrico, fosfato de calcio y biurato de amonio."
       },
       "page": 22,
       "correctAnswer": "A",
-      "correctText": "Cristales de ácido úrico, de oxalato cálcico y"
+      "correctText": "Cristales de ácido úrico, de oxalato cálcico y uratos amorfos."
     },
     {
       "id": 223,
@@ -3457,13 +3457,13 @@
       "id": 267,
       "question": "En el síndrome nefrótico:",
       "options": {
-        "A": "Se perderán las proteínas de menor tamaño y se",
+        "A": "Se perderán las proteínas de menor tamaño y se retendrán las de mayor tamaño.",
         "B": "Las proteínas totales no se verán afectadas.",
         "C": "Se observa una hipogammaglobulinemia."
       },
       "page": 26,
       "correctAnswer": "A",
-      "correctText": "Se perderán las proteínas de menor tamaño y se"
+      "correctText": "Se perderán las proteínas de menor tamaño y se retendrán las de mayor tamaño."
     },
     {
       "id": 268,
@@ -3544,13 +3544,12 @@
       "question": "En la observación al microscopio del sedimento de orina, se observan algunas células de unos 13-20 μm, redondeadas, que presentan un núcleo visible y centrado que ocupa casi la mitad del citoplasma ligeramente granuloso. ¿Qué son?",
       "options": {
         "A": "Células epiteliales planas de epitelio escamoso. Son células que se encuentran con gran frecuencia.",
-        "B": "Células de epitelio de transición o de vías",
-        "C": "Células epiteliales renales o células epiteliales",
-        "D": "célula /campo 40x, y algo más en niños y ancianos. tubulares. Son las células que conforman el epitelio monoestratificado que tapiza los túbulos renales. La presencia de 1 célula /campo 40x suele significar daño tubular."
+        "B": "Células de epitelio de transición o de vías urinarias. Es normal observar la presencia de 1 célula /campo 40x, y algo más en niños y ancianos.",
+        "C": "Células epiteliales renales o células epiteliales tubulares. Son las células que conforman el epitelio monoestratificado que tapiza los túbulos renales. La presencia de 1 célula /campo 40x suele significar daño tubular."
       },
       "page": 27,
       "correctAnswer": "B",
-      "correctText": "Células de epitelio de transición o de vías"
+      "correctText": "Células de epitelio de transición o de vías urinarias. Es normal observar la presencia de 1 célula /campo 40x, y algo más en niños y ancianos."
     },
     {
       "id": 275,

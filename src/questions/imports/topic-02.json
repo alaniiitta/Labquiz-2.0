@@ -2088,24 +2088,24 @@
       "question": "Con respecto a la obtención, transporte y procesamiento de una muestra de líquido cefalorraquídeo, señala la respuesta correcta:",
       "options": {
         "A": "Si la muestra no puede procesarse al momento, se debe refrigerar para su correcta conservación.",
-        "B": "Se debe procesar inmediatamente, a temperatura",
+        "B": "Se debe procesar inmediatamente, a temperatura ambiente.",
         "C": "El procesamiento debe llevarse a cabo en una cabina de bioseguridad de tipo I."
       },
       "page": 16,
       "correctAnswer": "B",
-      "correctText": "Se debe procesar inmediatamente, a temperatura"
+      "correctText": "Se debe procesar inmediatamente, a temperatura ambiente."
     },
     {
       "id": 162,
       "question": "En la meningitis aséptica:",
       "options": {
         "A": "Los valores de proteínas están disminuidos.",
-        "B": "Los valores de glucosa están en el rango de la",
+        "B": "Los valores de glucosa están en el rango de la normalidad.",
         "C": "El líquido cefalorraquídeo tiene un aspecto blanquecino."
       },
       "page": 16,
       "correctAnswer": "B",
-      "correctText": "Los valores de glucosa están en el rango de la"
+      "correctText": "Los valores de glucosa están en el rango de la normalidad."
     },
     {
       "id": 163,
@@ -2626,12 +2626,12 @@
       "options": {
         "A": "Se obtiene por extracción aséptica tras punción lumbar.",
         "B": "Se recoge en recipiente estéril.",
-        "C": "Se elige el tubo extraído en primer lugar o el de",
+        "C": "Se elige el tubo extraído en primer lugar o el de aspecto menos turbio.",
         "D": "Se recomienda la siembra en agar sangre, agar chocolate y medios de enriquecimiento."
       },
       "page": 21,
       "correctAnswer": "C",
-      "correctText": "Se elige el tubo extraído en primer lugar o el de"
+      "correctText": "Se elige el tubo extraído en primer lugar o el de aspecto menos turbio."
     },
     {
       "id": 204,
