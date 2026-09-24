@@ -1,0 +1,1587 @@
+{
+  "1": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un padre A puede ser AO y una madre B puede ser BO. Los hijos pueden heredar A+B (AB), A+O (A), O+B (B) u O+O (O): cualquier grupo.",
+    "claveMemorizar": "A × B (heterocigotos) → A, B, AB u O."
+  },
+  "2": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los concentrados de hematíes y la sangre total se conservan en frigoríficos controlados entre 2 y 6 °C.",
+    "claveMemorizar": "Hematíes: 2-6 °C."
+  },
+  "3": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aféresis extrae sangre, separa sus componentes con una máquina, se queda con el que se necesita (plaquetas, plasma…) y devuelve el resto al donante.",
+    "claveMemorizar": "Aféresis: separar y devolver el resto."
+  },
+  "4": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El grupo AB no tiene anticuerpos ABO (ni anti-A ni anti-B) en su plasma, por eso puede recibir hematíes de cualquier grupo ABO: es el receptor universal.",
+    "claveMemorizar": "AB: sin anticuerpos → receptor universal de hematíes."
+  },
+  "5": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un Du (D débil) positivo tiene el antígeno D, aunque expresado débilmente. Como donante se considera Rh positivo.",
+    "claveMemorizar": "Du positivo = Rh positivo (D débil)."
+  },
+  "6": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falso porque el fenotipo Dd (heterocigoto) tiene antígeno D y es Rh positivo. Solo el dd es Rh negativo. Los anticuerpos Rh son IgG calientes y no hay aglutininas naturales.",
+    "claveMemorizar": "Rh negativo = dd. Dd y DD = positivo."
+  },
+  "7": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para evitar que una madre Rh negativa se sensibilice tras un parto de un hijo Rh positivo, se le administra inmunoglobulina anti-D en las primeras 72 horas.",
+    "claveMemorizar": "Anti-D posparto: antes de 72 h."
+  },
+  "8": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un Coombs directo positivo indica anticuerpos pegados a los hematíes y confirma una anemia hemolítica inmune. B12, fólico y receptor soluble de transferrina orientan a otros tipos de anemia.",
+    "claveMemorizar": "Anemia hemolítica inmune: Coombs directo +."
+  },
+  "9": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Coombs directo detecta anticuerpos (o complemento) ya pegados in vivo a la superficie de los hematíes. El indirecto busca anticuerpos libres en el suero.",
+    "claveMemorizar": "Directo: en el hematíe. Indirecto: en el suero."
+  },
+  "10": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los concentrados de hematíes se conservan entre +2 y +6 °C.",
+    "claveMemorizar": "Hematíes: 2-6 °C."
+  },
+  "11": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las plaquetas se conservan a 22 ± 2 °C con agitación continua (para que no se agreguen) y caducan en unos 5 días (hasta 7 con sistemas de reducción de patógenos).",
+    "claveMemorizar": "Plaquetas: 22 °C, agitación, 5 días."
+  },
+  "12": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falso porque las plaquetas sí pueden causar reacciones transfusionales (febriles, alérgicas, sépticas). También pueden obtenerse de varias donaciones, transmitir infecciones y conviene que sean Rh compatibles.",
+    "claveMemorizar": "Plaquetas: sí causan reacciones (sobre todo sépticas)."
+  },
+  "13": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En un adulto, un concentrado de hematíes sube la hemoglobina alrededor de 1 g/dL (1-1,5 g/dL) y el hematocrito un 3 %.",
+    "claveMemorizar": "1 concentrado ≈ +1 g/dL de Hb."
+  },
+  "14": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El antígeno D es el más inmunógeno del sistema Rh: un Rh negativo expuesto a él se sensibiliza con mucha frecuencia.",
+    "claveMemorizar": "El más inmunógeno: antígeno D."
+  },
+  "15": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un concentrado de hematíes suele transfundirse en 60-120 minutos y nunca en más de 4 horas desde que sale de la nevera.",
+    "claveMemorizar": "Hematíes: 1-2 h (máximo 4 h)."
+  },
+  "16": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una unidad de plasma fresco se transfunde en unos 20-30 minutos, más rápido que los hematíes.",
+    "claveMemorizar": "Plasma: 20-30 min."
+  },
+  "17": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La reacción transfusional más frecuente es la reacción febril no hemolítica, por citocinas o anticuerpos contra los leucocitos del donante.",
+    "claveMemorizar": "Más frecuente: febril no hemolítica."
+  },
+  "18": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, la opción menos importante es la D, porque plantea no hacer estudio microbiológico. En una reacción transfusional sí se repiten grupo, Rh y anticuerpos en las muestras previa y nueva, se hace Coombs directo y se cultiva si se sospecha sepsis.",
+    "claveMemorizar": "Reacción transfusional: grupo, anticuerpos, Coombs directo y cultivo."
+  },
+  "19": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En una reacción transfusional se pide hemograma (EDTA), orina (hemoglobinuria), coagulación (CID) y bioquímica (bilirrubina, LDH, función renal) para detectar hemólisis y complicaciones.",
+    "claveMemorizar": "Reacción transfusional: hemograma, orina, coagulación, bioquímica."
+  },
+  "20": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El suero fisiológico (NaCl 0,9 %) es una solución salina, no un derivado del plasma. Albúmina, inmunoglobulina anti-D y factores de coagulación sí son hemoderivados.",
+    "claveMemorizar": "Hemoderivados: albúmina, inmunoglobulinas, factores."
+  },
+  "21": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La etiqueta del componente sanguíneo lleva el centro de procedencia, el nombre del producto, el anticoagulante o conservante, el grupo y la caducidad. El Coombs directo no se incluye.",
+    "claveMemorizar": "Etiqueta: centro, producto, anticoagulante, grupo, caducidad."
+  },
+  "22": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los anticuerpos completos (IgM) aglutinan por sí solos los hematíes con su antígeno en medio salino. Los incompletos (IgG) necesitan antiglobulina o potenciadores.",
+    "claveMemorizar": "Completos (IgM) aglutinan solos. Incompletos (IgG), no."
+  },
+  "23": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos incompletos suelen ser IgG: se unen al hematíe pero no lo aglutinan solos, así que necesitan la prueba de Coombs.",
+    "claveMemorizar": "Incompletos = IgG = Coombs."
+  },
+  "24": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de Coombs detecta anticuerpos antieritrocitarios, clásicamente los anti-Rh (IgG). Se usa en la enfermedad hemolítica del recién nacido y en pruebas pretransfusionales.",
+    "claveMemorizar": "Coombs: anticuerpos contra hematíes (anti-Rh)."
+  },
+  "25": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El grupo A tiene antígeno A en sus hematíes (y anticuerpos anti-B en el suero). El AB no tiene anticuerpos y el O no tiene antígenos A ni B.",
+    "claveMemorizar": "Grupo = antígeno del hematíe; anticuerpos contra el que falta."
+  },
+  "26": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En una donación de sangre total se extraen unos 450 mL (± 10 %).",
+    "claveMemorizar": "Donación: ~450 mL."
+  },
+  "27": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las plaquetas de donante único (aféresis) se reservan para pacientes aloinmunizados (con anticuerpos HLA), porque exponen a menos donantes y permiten seleccionar compatibles.",
+    "claveMemorizar": "Plaquetas de donante único: pacientes aloinmunizados."
+  },
+  "28": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, las plaquetas en incubador a 22 °C y con agitación pueden usarse durante unos 5-7 días (la clave dice 6).",
+    "claveMemorizar": "Plaquetas: 5-7 días a 22 °C con agitación."
+  },
+  "29": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un Coombs directo positivo significa que los hematíes del paciente tienen anticuerpos (o complemento) pegados in vivo.",
+    "claveMemorizar": "Coombs directo + = anticuerpos en el hematíe."
+  },
+  "30": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un Coombs indirecto positivo significa que hay anticuerpos libres en el suero del paciente capaces de unirse a hematíes.",
+    "claveMemorizar": "Coombs indirecto + = anticuerpos en el suero."
+  },
+  "31": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Si va a transfundirse más adelante, hay que repetir el estudio de anticuerpos irregulares con una muestra reciente, porque puede haber desarrollado anticuerpos nuevos (por embarazo o transfusiones).",
+    "claveMemorizar": "Nueva transfusión: repetir escrutinio de anticuerpos."
+  },
+  "32": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El grupo AB es el receptor universal de hematíes, porque no tiene anticuerpos anti-A ni anti-B en su plasma.",
+    "claveMemorizar": "Receptor universal: AB. Donante universal: O negativo."
+  },
+  "33": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La incompatibilidad Rh ocurre cuando una madre Rh negativa (rh) gesta un feto Rh positivo. Se sensibiliza y sus anti-D (IgG) atraviesan la placenta en siguientes embarazos.",
+    "claveMemorizar": "Madre Rh− con feto Rh+."
+  },
+  "34": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "No es cierta porque los hematíes se lavan con suero salino (no con agua destilada, que los hemolizaría) para eliminar la IgG libre, que neutralizaría el suero de Coombs.",
+    "claveMemorizar": "Coombs: lavar con salino, nunca con agua."
+  },
+  "35": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la aglutinación, el anticuerpo específico se llama aglutinina y el antígeno de la partícula, aglutinógeno.",
+    "claveMemorizar": "Aglutinina = anticuerpo. Aglutinógeno = antígeno."
+  },
+  "36": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El genotipo BO expresa el antígeno B: el gen O es amorfo y no produce antígeno.",
+    "claveMemorizar": "BO = grupo B (O es silencioso)."
+  },
+  "37": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El grupo A₂B tiene antígenos A₂ y B, así que no forma anti-B ni anti-A. Algunos individuos A₂ o A₂B forman anti-A₁, que reacciona con los hematíes A₁.",
+    "claveMemorizar": "A₂ y A₂B pueden tener anti-A₁."
+  },
+  "38": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El efecto adverso no inmunitario más frecuente tras una transfusión es la sobrecarga de volumen (TACO), sobre todo en ancianos y cardiópatas.",
+    "claveMemorizar": "No inmune más frecuente: sobrecarga circulatoria."
+  },
+  "39": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un concentrado Rh negativo con Du (D débil) positivo tiene antígeno D, así que como donación se considera Rh positivo.",
+    "claveMemorizar": "Donante D débil = Rh positivo."
+  },
+  "40": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos naturales del sistema ABO son predominantemente IgM: aglutinan en frío y a temperatura ambiente y activan el complemento.",
+    "claveMemorizar": "Anticuerpos ABO: IgM naturales."
+  },
+  "41": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son verdaderas: los antígenos ABO son azúcares terminales de oligosacáridos de la membrana, se diferencian en el azúcar final y el B termina en galactosa (el A, en N-acetilgalactosamina).",
+    "claveMemorizar": "A: N-acetilgalactosamina. B: galactosa. O: sustancia H."
+  },
+  "42": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si el Coombs indirecto es positivo hay anticuerpos irregulares en el suero, y hay que identificarlos con un panel de hematíes.",
+    "claveMemorizar": "Coombs indirecto + → identificar el anticuerpo."
+  },
+  "43": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las bolsas actuales usan CPD como anticoagulante y SAG-Manitol como solución aditiva para conservar los hematíes hasta 42 días.",
+    "claveMemorizar": "Bolsas: CPD + SAG-Manitol (42 días)."
+  },
+  "44": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El grupo sanguíneo se determina viendo los aglutinógenos (antígenos) en la superficie del hematíe (prueba hemática) y las aglutininas (anticuerpos) en el suero (prueba sérica).",
+    "claveMemorizar": "Grupo: antígenos en el hematíe + anticuerpos en el suero."
+  },
+  "45": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Si aglutinan los reactivos anti-A, anti-B y anti-D, los hematíes tienen antígenos A, B y D: el grupo es AB positivo.",
+    "claveMemorizar": "Aglutina anti-A + anti-B + anti-D = AB+."
+  },
+  "46": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un paciente A con positividad frente a células A₁ en el grupo sérico, Coombs indirecto negativo y pruebas cruzadas positivas con A+ sugiere un anti-A₁: es un A₂ con anticuerpo contra A₁.",
+    "claveMemorizar": "A con suero que reacciona con A₁ → sospecha anti-A₁."
+  },
+  "47": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para transfundir plasma lo importante es la compatibilidad ABO: se eligen unidades isogrupo siempre que sea posible. Los anticuerpos antieritrocitarios del paciente (anti-Jka) no afectan al plasma.",
+    "claveMemorizar": "Plasma: compatibilidad ABO (isogrupo)."
+  },
+  "48": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las unidades de sangre Du positivas se clasifican como Rh positivas, para no inmunizar a receptores Rh negativos.",
+    "claveMemorizar": "Donación Du+ = Rh+."
+  },
+  "49": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, ninguna es correcta. La adenina se añade para que los hematíes regeneren ATP y vivan más, pero con CPDA la conservación llega a 35 días; los 42 días se alcanzan con SAG-Manitol.",
+    "claveMemorizar": "Adenina: ATP para el hematíe."
+  },
+  "50": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Al descongelar lentamente el plasma fresco congelado, la fracción que precipita es el crioprecipitado (rico en fibrinógeno, factor VIII, von Willebrand y XIII). Como no figura en las opciones, la respuesta es «ninguna».",
+    "claveMemorizar": "Crioprecipitado: fibrinógeno, VIII, von Willebrand, XIII."
+  },
+  "51": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los granulocitos obtenidos por aféresis no se pueden conservar: deben transfundirse lo antes posible, como máximo en 24 horas.",
+    "claveMemorizar": "Granulocitos: transfundir cuanto antes."
+  },
+  "52": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el suero aglutina solo los hematíes A, contiene anti-A: el paciente es del grupo B.",
+    "claveMemorizar": "Suero con anti-A = grupo B."
+  },
+  "53": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las plaquetas se transportan a una temperatura lo más cercana posible a 22 °C. El frío las activa y acorta su supervivencia.",
+    "claveMemorizar": "Plaquetas: 22 °C, nunca frías."
+  },
+  "54": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, es incorrecta la D: el Coombs directo detecta anticuerpos pegados a los hematíes, no en el plasma. (La A también es discutible: el Coombs indirecto no fenotipa.)",
+    "claveMemorizar": "Coombs directo: anticuerpos en el hematíe."
+  },
+  "55": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una persona es Rh negativa cuando no tiene antígeno D: fenotipo dce/dce (cde/cde). Cualquier D mayúscula indica Rh positivo.",
+    "claveMemorizar": "Rh negativo: sin D (dce/dce)."
+  },
+  "56": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El donante universal de hematíes es el grupo O Rh negativo: no tiene antígenos A, B ni D que puedan ser atacados por los anticuerpos del receptor.",
+    "claveMemorizar": "Donante universal: O negativo."
+  },
+  "57": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los concentrados de hematíes se conservan entre 2 y 6 °C y, con solución aditiva SAG-Manitol, caducan a los 42 días.",
+    "claveMemorizar": "Hematíes: 2-6 °C, 42 días."
+  },
+  "58": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, los antígenos Rh son lipoproteínas de la membrana. Son proteínas transmembrana (no azúcares como los ABO), asociadas a lípidos.",
+    "claveMemorizar": "Rh: proteínas de membrana. ABO: azúcares."
+  },
+  "59": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos ABO son IgM naturales (aparecen sin exposición previa) y aglutinantes. Por ser IgM no atraviesan la placenta.",
+    "claveMemorizar": "ABO: IgM naturales, aglutinantes."
+  },
+  "60": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo se hace con los hematíes del paciente, lavados, a los que se añade suero antiglobulina.",
+    "claveMemorizar": "Coombs directo: hematíes del paciente."
+  },
+  "61": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma fresco congelado se separa y congela en las primeras horas tras la extracción (clásicamente antes de 6 h; hasta 24 h según el método), para conservar los factores lábiles V y VIII.",
+    "claveMemorizar": "Plasma fresco: congelar pronto (factores V y VIII)."
+  },
+  "62": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El crioprecipitado se obtiene descongelando lentamente (a 1-6 °C) el plasma fresco congelado, centrifugando y recogiendo el precipitado.",
+    "claveMemorizar": "Crioprecipitado: plasma fresco descongelado en frío."
+  },
+  "63": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los anticuerpos Rh son inmunes (aparecen tras transfusión o embarazo), generalmente IgG, y aglutinan poco en medio salino, por lo que requieren Coombs.",
+    "claveMemorizar": "Anti-Rh: inmunes, IgG, necesitan Coombs."
+  },
+  "64": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un Coombs directo positivo indica que los hematíes del paciente están sensibilizados: tienen anticuerpos o complemento pegados.",
+    "claveMemorizar": "Coombs directo + = hematíes sensibilizados."
+  },
+  "65": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El antígeno Cellano (k minúscula) pertenece al sistema Kell, cuyo antígeno principal es K (Kell).",
+    "claveMemorizar": "Cellano = k del sistema Kell."
+  },
+  "66": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El D débil (Du) se detecta con la prueba de antiglobulina indirecta: se incuban los hematíes con anti-D a 37 °C y se añade suero de Coombs.",
+    "claveMemorizar": "D débil: Coombs indirecto con anti-D."
+  },
+  "67": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las plaquetas se conservan a 22 °C en agitación continua. En frío se activan y se eliminan rápido tras transfundirse.",
+    "claveMemorizar": "Plaquetas: 22 °C con agitación."
+  },
+  "68": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El Coombs directo es imprescindible para diagnosticar una anemia hemolítica autoinmune: demuestra los anticuerpos pegados a los hematíes del paciente.",
+    "claveMemorizar": "Anemia hemolítica autoinmune: Coombs directo."
+  },
+  "69": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de antiglobulina directa detecta anticuerpos pegados al hematíe (enfermedad hemolítica del recién nacido, autoinmune, reacción transfusional). Los anticuerpos libres en plasma se buscan con el Coombs indirecto.",
+    "claveMemorizar": "PAD (directa): anticuerpos en el hematíe, no en el plasma."
+  },
+  "70": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los tubos sucios pueden producir aglutinación inespecífica y un falso positivo. Olvidar el reactivo, incubar o centrifugar poco y lavar en exceso dan falsos negativos.",
+    "claveMemorizar": "Tubo sucio → falso positivo."
+  },
+  "71": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una PAD (Coombs directo) positiva en una anemia hemolítica confirma su origen inmune: anemia hemolítica autoinmune. El favismo, el sangrado y la talasemia dan Coombs negativo.",
+    "claveMemorizar": "Hemólisis + Coombs directo + = autoinmune."
+  },
+  "72": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la anemia hemolítica autoinmune por anticuerpos fríos el responsable es la IgM, que fija complemento. Por eso el Coombs directo suele ser positivo para C3d.",
+    "claveMemorizar": "Anticuerpos fríos: IgM + complemento."
+  },
+  "73": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Si los hematíes aglutinan con anti-A, anti-B y anti-AB, tienen antígenos A y B: el grupo es AB.",
+    "claveMemorizar": "Aglutina anti-A y anti-B = AB."
+  },
+  "74": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el suero aglutina solo los hematíes B, contiene anti-B: el paciente es del grupo A.",
+    "claveMemorizar": "Suero con anti-B = grupo A."
+  },
+  "75": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El grupo O tiene más sustancia H, porque no la transforma en antígeno A ni B. Orden: O > A₂ > B > A₁ > A₁B.",
+    "claveMemorizar": "Más sustancia H: grupo O."
+  },
+  "76": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El sistema ABO lo descubrió Karl Landsteiner en 1900 (Premio Nobel en 1930).",
+    "claveMemorizar": "ABO: Landsteiner (1900)."
+  },
+  "77": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Siempre que el grupo hemático y el sérico no coincidan hay que investigar la discrepancia antes de asignar el grupo. Ninguna prueba prevalece sobre la otra.",
+    "claveMemorizar": "Discrepancia de grupo: investigarla siempre."
+  },
+  "78": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una centrifugación correcta no causa discrepancias. Sí pueden causarlas los tubos sucios, los hematíes con anticuerpos adheridos o los subgrupos débiles de A o B.",
+    "claveMemorizar": "Discrepancias: subgrupos, anticuerpos, errores técnicos."
+  },
+  "79": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todos son procedimientos correctos ante una discrepancia: repetir las pruebas, lavar bien los hematíes y pedir una nueva muestra. Por eso ninguno es incorrecto.",
+    "claveMemorizar": "Discrepancia: repetir, lavar, nueva muestra."
+  },
+  "80": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los anticuerpos que causan la enfermedad hemolítica del recién nacido son IgG, porque son los únicos que atraviesan la placenta.",
+    "claveMemorizar": "Enfermedad hemolítica del RN: IgG (atraviesa la placenta)."
+  },
+  "81": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El grupo AB no tiene anti-A ni anti-B, así que puede recibir hematíes de cualquier grupo ABO: A, B, AB u O.",
+    "claveMemorizar": "AB: receptor universal."
+  },
+  "82": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo detecta anticuerpos incompletos (IgG) o complemento ya unidos a la membrana del hematíe.",
+    "claveMemorizar": "Coombs directo: anticuerpos en la membrana."
+  },
+  "83": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las personas del grupo A tienen antígeno A en sus hematíes y, de forma natural, anticuerpos anti-B en el suero.",
+    "claveMemorizar": "Grupo A → anti-B."
+  },
+  "84": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El antígeno D del sistema Rh es el más inmunogénico de los antígenos eritrocitarios (después de A y B).",
+    "claveMemorizar": "El más inmunógeno: D."
+  },
+  "85": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todos modifican la caducidad de los hematíes: irradiarlos la reduce (unos 28 días), y lavarlos o abrir el sistema obliga a usarlos en unas 24 horas.",
+    "claveMemorizar": "Irradiar, lavar o abrir el sistema acorta la caducidad."
+  },
+  "86": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El crioprecipitado se prepara a partir de plasma fresco congelado, descongelándolo en frío.",
+    "claveMemorizar": "Crioprecipitado ← plasma fresco congelado."
+  },
+  "87": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La solución aditiva SAG-Manitol (suero salino, adenina, glucosa y manitol) permite conservar los concentrados de hematíes hasta 42 días, más que ACD, CPD o CPD-adenina.",
+    "claveMemorizar": "SAG-Manitol: 42 días."
+  },
+  "88": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas según la clave oficial: durante la conservación en frío se pierde la función de las plaquetas y los granulocitos y los factores lábiles de la coagulación. Los hematíes pierden además 2,3-DPG y potasio.",
+    "claveMemorizar": "Conservación en frío: plaquetas, granulocitos y factores dejan de ser útiles."
+  },
+  "89": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el suero aglutina solo los hematíes B, contiene anti-B: el paciente es del grupo A.",
+    "claveMemorizar": "Suero con anti-B = grupo A."
+  },
+  "90": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El grupo AB es receptor universal porque su plasma no tiene anticuerpos anti-A ni anti-B.",
+    "claveMemorizar": "AB: sin anti-A ni anti-B."
+  },
+  "91": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sangre total en CPD-Adenina (CPDA-1) se conserva a 2-6 °C durante 35 días. Con CPD solo son 21 días.",
+    "claveMemorizar": "CPD: 21 días. CPDA: 35. SAG-Manitol: 42."
+  },
+  "92": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo se hace con los hematíes del paciente, lavados, a los que se añade suero antiglobulina.",
+    "claveMemorizar": "Coombs directo: hematíes del paciente."
+  },
+  "93": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma fresco congelado no contiene hematíes ni (prácticamente) plaquetas. Debe ser compatible ABO con el receptor.",
+    "claveMemorizar": "Plasma: sin células; compatibilidad ABO."
+  },
+  "94": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Solo se puede transfundir sangre cuyos hematíes no tengan antígenos (aglutinógenos) contra los que el receptor tenga anticuerpos (aglutininas). Los aglutinógenos están en el hematíe y el donante universal es O negativo.",
+    "claveMemorizar": "Transfusión: los anticuerpos del receptor no deben reconocer al donante."
+  },
+  "95": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los anticuerpos del sistema Lewis son IgM naturales y reaccionan en frío, por lo que rara vez tienen importancia clínica.",
+    "claveMemorizar": "Lewis: IgM, fríos, poco relevantes."
+  },
+  "96": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el grupo sérico se enfrentan el suero del paciente y hematíes conocidos (A₁ y B). Si hay aglutinación, el suero tiene anticuerpos contra esos hematíes.",
+    "claveMemorizar": "Grupo sérico: aglutinación = anticuerpos."
+  },
+  "97": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "De las opciones, la CPD-adenina es la que conserva más tiempo la sangre para transfundir (35 días). La heparina y el fluoruro no se usan para conservar sangre.",
+    "claveMemorizar": "CPD-adenina: 35 días."
+  },
+  "98": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El grupo O no presenta antígenos A ni B en sus hematíes (solo sustancia H) y tiene anticuerpos anti-A y anti-B.",
+    "claveMemorizar": "Grupo O: sin antígenos A ni B."
+  },
+  "99": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El sistema ABO lo descubrió Karl Landsteiner en 1900.",
+    "claveMemorizar": "ABO: Landsteiner."
+  },
+  "100": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la prueba cruzada mayor se mezclan los hematíes del donante con el suero del paciente, para ver si este tiene anticuerpos contra ellos.",
+    "claveMemorizar": "Prueba cruzada: hematíes del donante + suero del paciente."
+  },
+  "101": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El Coombs directo detecta anticuerpos ya fijados al hematíe y se usa en el diagnóstico de la enfermedad hemolítica del recién nacido. Por eso A y C son correctas.",
+    "claveMemorizar": "Coombs directo: hematíe sensibilizado (RN, autoinmune)."
+  },
+  "102": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los anticuerpos Rh son inmunes: aparecen tras exposición (transfusión o embarazo). El más frecuente y grave es el anti-D, y sí atraviesan la placenta (IgG).",
+    "claveMemorizar": "Anti-Rh: inmunes, IgG, atraviesan la placenta."
+  },
+  "103": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El receptor universal es AB Rh positivo: no tiene anti-A ni anti-B y, al ser Rh positivo, puede recibir también sangre Rh negativa o positiva.",
+    "claveMemorizar": "Receptor universal: AB+."
+  },
+  "104": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los anticuerpos del sistema Lewis son IgM que actúan en frío (a unos 22 °C) y rara vez son peligrosos en la transfusión. Kell, Duffy y Kidd sí dan anticuerpos IgG peligrosos.",
+    "claveMemorizar": "Lewis: fríos e inocuos. Kell, Duffy, Kidd: peligrosos."
+  },
+  "105": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los concentrados de plaquetas se conservan a 22 °C en agitación continua.",
+    "claveMemorizar": "Plaquetas: 22 °C con agitación."
+  },
+  "106": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falso porque un concentrado de hematíes tiene un volumen de unos 250-350 mL. Los 450 mL corresponden a la donación de sangre total. Hematocrito 60-80 %; 35-42 días a 4 °C; años a -80 °C.",
+    "claveMemorizar": "Concentrado de hematíes: ~300 mL."
+  },
+  "107": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la donación son obligatorias las pruebas de VHB, VHC, VIH y sífilis. El herpes zóster no se estudia.",
+    "claveMemorizar": "Donación: VHB, VHC, VIH, sífilis."
+  },
+  "108": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el banco de huesos, los tejidos se conservan congelados a unos -80 °C, lo que permite mantenerlos durante años.",
+    "claveMemorizar": "Banco de huesos: -80 °C."
+  },
+  "109": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La prueba de Coombs también se llama prueba de la antiglobulina humana, porque usa un suero con anticuerpos contra las inmunoglobulinas humanas.",
+    "claveMemorizar": "Coombs = antiglobulina humana."
+  },
+  "110": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El donante universal de hematíes es el grupo O Rh negativo.",
+    "claveMemorizar": "Donante universal: O negativo."
+  },
+  "111": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Si aglutinan anti-A, anti-B y anti-D, los hematíes tienen antígenos A, B y D: el grupo es AB positivo.",
+    "claveMemorizar": "Aglutina anti-A + anti-B + anti-D = AB+."
+  },
+  "112": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los antígenos eritrocitarios se detectan determinando el grupo ABO y Rh (y otros fenotipos) con antisueros específicos. El Coombs busca anticuerpos.",
+    "claveMemorizar": "Antígenos: tipaje. Anticuerpos: Coombs."
+  },
+  "113": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sangre se fracciona en sus componentes (hematíes, plasma, plaquetas) por centrifugación diferencial, según sus distintas densidades y velocidades de sedimentación.",
+    "claveMemorizar": "Fraccionar sangre: centrifugación diferencial."
+  },
+  "114": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un Coombs indirecto positivo indica anticuerpos irregulares libres en el suero del paciente (aloanticuerpos contra antígenos eritrocitarios).",
+    "claveMemorizar": "Coombs indirecto + = anticuerpos irregulares."
+  },
+  "115": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prueba cruzada mayor detecta anticuerpos del receptor contra los hematíes del donante: se mezclan los hematíes del donante con el suero del receptor.",
+    "claveMemorizar": "Cruzada mayor: suero del receptor contra hematíes del donante."
+  },
+  "116": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la eritroblastosis fetal la madre produce anticuerpos IgG contra los hematíes del feto. Son los únicos que atraviesan la placenta.",
+    "claveMemorizar": "Eritroblastosis fetal: IgG maternas."
+  },
+  "117": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque la gravedad de la reacción hemolítica aguda sí depende del volumen de sangre incompatible transfundido. Suele deberse a incompatibilidad ABO y lo primero es parar la transfusión.",
+    "claveMemorizar": "Hemolítica aguda: más volumen = más grave; parar ya."
+  },
+  "118": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El antígeno Duffy (Fy) es el receptor por el que Plasmodium vivax entra en el hematíe. Las personas Fy(a−b−) son resistentes a esa malaria.",
+    "claveMemorizar": "Duffy = receptor de P. vivax."
+  },
+  "119": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un receptor AB negativo puede recibir hematíes de cualquier grupo ABO (no tiene anti-A ni anti-B), pero Rh negativos: AB−, A−, B− y O−.",
+    "claveMemorizar": "AB−: cualquier ABO, pero Rh negativo."
+  },
+  "120": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hematíes que aglutinan con anti-A y anti-AB, no con anti-B ni anti-D, y suero con anti-B (aglutina hematíes B): grupo A Rh negativo.",
+    "claveMemorizar": "Antígeno A, anti-B en suero, sin D = A−."
+  },
+  "121": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un receptor A solo puede recibir hematíes A u O, porque tiene anti-B. El donante B puede dar a B y AB; el AB solo a AB.",
+    "claveMemorizar": "Receptor A: hematíes A u O."
+  },
+  "122": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, todas son ciertas: el «grupo» de una persona depende de sus antígenos eritrocitarios, leucocitarios y HLA. En transfusión, el grupo sanguíneo propiamente dicho es el eritrocitario.",
+    "claveMemorizar": "Grupo sanguíneo: antígenos de los hematíes (y HLA en leucocitos)."
+  },
+  "123": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El antígeno K (Kell) es el más inmunógeno de su sistema y, tras el D, uno de los más inmunógenos. Sus anticuerpos causan reacciones transfusionales y enfermedad hemolítica del recién nacido.",
+    "claveMemorizar": "Kell: K muy inmunógeno."
+  },
+  "124": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un padre A puede ser AO y una madre B puede ser BO. Los hijos pueden heredar A+B (AB), A+O (A), O+B (B) u O+O (O): cualquier grupo.",
+    "claveMemorizar": "A × B (heterocigotos) → A, B, AB u O."
+  },
+  "125": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para tratar a los quemados se cultiva piel: injertos de piel o queratinocitos cultivados que cubren las zonas quemadas.",
+    "claveMemorizar": "Quemados: cultivo de piel."
+  },
+  "126": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un Coombs directo positivo confirma que una anemia hemolítica es de origen inmune. B12 y fólico estudian anemias megaloblásticas y el test de Schiller es ginecológico.",
+    "claveMemorizar": "Anemia hemolítica inmune: Coombs directo."
+  },
+  "127": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo investiga la presencia de anticuerpos (o complemento) pegados en la superficie de los hematíes.",
+    "claveMemorizar": "Coombs directo: anticuerpos en el hematíe."
+  },
+  "128": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos incompletos suelen ser IgG: se unen al hematíe pero no lo aglutinan solos, así que necesitan la prueba de Coombs.",
+    "claveMemorizar": "Incompletos = IgG."
+  },
+  "129": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los concentrados de hematíes se conservan entre +2 y +6 °C.",
+    "claveMemorizar": "Hematíes: 2-6 °C."
+  },
+  "130": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el suero aglutina solo los hematíes B, contiene anti-B: el paciente es del grupo A.",
+    "claveMemorizar": "Suero con anti-B = grupo A."
+  },
+  "131": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El grupo A tiene antígeno A en sus hematíes y aglutinina anti-B en el suero.",
+    "claveMemorizar": "Grupo A → anti-B."
+  },
+  "132": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El plasma fresco congelado almacenado a menos de -65 °C puede conservarse hasta 7 años. Se descongela a 37 °C en baño controlado, nunca en microondas.",
+    "claveMemorizar": "Plasma fresco: < -65 °C hasta 7 años (< -25 °C, 3 años)."
+  },
+  "133": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hematíes con antígeno B (anti-B y anti-AB positivos) y suero que aglutina los hematíes A (tiene anti-A): grupo B. Las dos pruebas concuerdan.",
+    "claveMemorizar": "Antígeno B + anti-A en suero = grupo B."
+  },
+  "134": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "ACD, CPD y CPDA son anticoagulantes-conservantes aptos para los hematíes. «PDCAT» no es un conservante de sangre.",
+    "claveMemorizar": "Conservantes: ACD, CPD, CPDA, SAG-Manitol."
+  },
+  "135": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo detecta los anticuerpos adheridos a la membrana de los hematíes. El indirecto detecta anticuerpos libres en el suero.",
+    "claveMemorizar": "Directo: pegados. Indirecto: libres."
+  },
+  "136": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de Coombs directa busca anticuerpos unidos a la membrana del eritrocito. Antes de transfundir se hace el Coombs indirecto (escrutinio de anticuerpos), no el directo.",
+    "claveMemorizar": "Coombs directo: anticuerpos en el eritrocito."
+  },
+  "137": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para que haya incompatibilidad fetomaterna Rh, la madre tiene que ser Rh negativa y el feto Rh positivo (heredado del padre).",
+    "claveMemorizar": "Incompatibilidad Rh: madre Rh−, feto Rh+."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las personas AB positivo pueden recibir hematíes de todos los grupos ABO, tanto Rh positivos como negativos: son receptores universales.",
+    "claveMemorizar": "AB+: receptor universal."
+  },
+  "139": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La donación de sangre sirve para obtener concentrados de hematíes, plasma, plaquetas y factores de coagulación. No se usa para obtener hormonas.",
+    "claveMemorizar": "Donación: hematíes, plasma, plaquetas, factores."
+  },
+  "140": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para donar sangre o componentes hay que pesar al menos 50 kg.",
+    "claveMemorizar": "Donante: ≥ 50 kg."
+  },
+  "141": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prueba cruzada mayor enfrenta los hematíes del donante con el suero del receptor, para detectar anticuerpos del receptor contra ellos.",
+    "claveMemorizar": "Cruzada mayor: hematíes donante + suero receptor."
+  },
+  "142": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticoagulantes no suelen causar discrepancias entre grupo hemático y sérico. Sí las causan los inmunosupresores y la edad menor de 6 meses (pocos anticuerpos) o las proteínas monoclonales (rouleaux).",
+    "claveMemorizar": "Discrepancias: pocos anticuerpos, rouleaux, subgrupos."
+  },
+  "143": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aféresis extrae sangre, separa sus componentes, retiene los que se necesitan y devuelve el resto al donante o paciente.",
+    "claveMemorizar": "Aféresis: separar y devolver el resto."
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la primera transfusión Rh positiva a un Rh negativo no hay reacción inmediata (no tiene anti-D), pero el receptor se sensibiliza y forma anti-D, peligrosos en transfusiones o embarazos futuros.",
+    "claveMemorizar": "Primera exposición Rh: sensibiliza, no reacciona."
+  },
+  "145": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Fenotipar hematíes es identificar los antígenos de su superficie enfrentándolos con antisueros específicos. Por eso A y C son correctas.",
+    "claveMemorizar": "Fenotipar: antígenos del hematíe con antisueros."
+  },
+  "146": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo detecta anticuerpos incompletos (IgG) o complemento ya unidos a la membrana del hematíe.",
+    "claveMemorizar": "Coombs directo: anticuerpos en la membrana."
+  },
+  "147": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sangre se fracciona en sus componentes (hematíes, plasma, plaquetas) por centrifugación diferencial, según sus distintas densidades y velocidades de sedimentación.",
+    "claveMemorizar": "Fraccionar sangre: centrifugación diferencial."
+  },
+  "148": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los casos más graves de enfermedad hemolítica del recién nacido se deben al sistema Rh (anti-D). La del ABO es más frecuente pero leve.",
+    "claveMemorizar": "Enfermedad hemolítica grave: Rh (anti-D)."
+  },
+  "149": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque en el primer trimestre el escrutinio de anticuerpos irregulares se hace a todas las gestantes, no solo a las Rh negativas: hay otros anticuerpos peligrosos (Kell, c, E…).",
+    "claveMemorizar": "Embarazo: grupo, Rh y anticuerpos irregulares a todas."
+  },
+  "150": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "«MSM» y «Kiddy» no son antígenos eritrocitarios (los reales son MNS y Kidd). Kell, Duffy, Lewis y Rh sí lo son.",
+    "claveMemorizar": "Sistemas reales: ABO, Rh, Kell, Duffy, Kidd, MNS, Lewis."
+  },
+  "151": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En plasma la compatibilidad es la inversa que en hematíes: un receptor A puede recibir plasma A o AB (sin anti-A). El Rh no importa en el plasma.",
+    "claveMemorizar": "Plasma para A: A o AB (cualquier Rh)."
+  },
+  "152": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es incorrecta porque el Coombs directo detecta anticuerpos unidos a los hematíes, no libres en el plasma. Se indica en la anemia hemolítica autoinmune y en la del recién nacido.",
+    "claveMemorizar": "Coombs directo: no mide anticuerpos libres."
+  },
+  "153": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El fenotipo Bombay es homocigoto hh: no fabrica sustancia H, así que no puede formar antígenos A ni B. Tiene anti-H, anti-A y anti-B.",
+    "claveMemorizar": "Bombay = hh (sin sustancia H)."
+  },
+  "154": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la población caucásica el orden de frecuencia es O ≈ A > B > AB. En España A y O rondan el 45 % cada uno, B un 8 % y AB un 3 %.",
+    "claveMemorizar": "Frecuencia: O, A, B, AB."
+  },
+  "155": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "«Martin» no es un sistema de grupo sanguíneo. Lutheran, Diego y Lewis sí lo son.",
+    "claveMemorizar": "Martin no existe como grupo sanguíneo."
+  },
+  "156": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas lo son: Rh (RH), Kell (KEL) y Duffy (FY) son sistemas de grupo sanguíneo reconocidos por la ISBT.",
+    "claveMemorizar": "Rh, Kell, Duffy: sistemas sanguíneos."
+  },
+  "157": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: el Coombs indirecto detecta anticuerpos en el plasma, se usa para fenotipar antígenos débiles (D débil) y es la base de la prueba cruzada.",
+    "claveMemorizar": "Coombs indirecto: escrutinio, fenotipo y cruzadas."
+  },
+  "158": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si en placa aglutina con anti-A y anti-B, los hematíes tienen ambos antígenos: grupo AB.",
+    "claveMemorizar": "Aglutina anti-A y anti-B = AB."
+  },
+  "159": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falsa porque, si se detecta un anticuerpo irregular, se transfunden hemocomponentes que carezcan del antígeno correspondiente, no «del anticuerpo».",
+    "claveMemorizar": "Anticuerpo anti-X → transfundir hematíes X negativos."
+  },
+  "160": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falsa porque los Bombay no pueden recibir sangre O: tienen anti-H, que destruye los hematíes O (muy ricos en H). Solo pueden recibir sangre Bombay.",
+    "claveMemorizar": "Bombay: solo sangre Bombay."
+  },
+  "161": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Dos padres A pueden ser AO. Sus hijos pueden ser AA o AO (grupo A) u OO (grupo O).",
+    "claveMemorizar": "A × A → A u O."
+  },
+  "162": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los D débiles (Du) se tratan como Rh positivos al donar (pueden sensibilizar) y como Rh negativos al recibir (por prudencia).",
+    "claveMemorizar": "D débil: donante Rh+, receptor Rh−."
+  },
+  "163": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El grupo AB es el receptor universal de hematíes, porque no tiene anti-A ni anti-B.",
+    "claveMemorizar": "Receptor universal: AB."
+  },
+  "164": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para fenotipar el Rh en tubo se usa una suspensión de hematíes al 3-5 % en suero salino.",
+    "claveMemorizar": "Suspensión de hematíes: 3-5 %."
+  },
+  "165": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El antígeno Cellano (k) pertenece al sistema Kell.",
+    "claveMemorizar": "Cellano = Kell (k)."
+  },
+  "166": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si los hematíes son M positivos y N negativos, solo tienen el alelo M: genotipo homocigoto MM.",
+    "claveMemorizar": "M+ N− = MM."
+  },
+  "167": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, los anticuerpos ABO son mayoritariamente IgG. Ojo: lo habitual es que sean IgM naturales (como dicen otras preguntas de este tema), aunque las personas del grupo O tienen también anti-A,B de tipo IgG.",
+    "claveMemorizar": "ABO: sobre todo IgM (en el grupo O también IgG)."
+  },
+  "168": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los antígenos leucocitarios son el sistema HLA (antígenos leucocitarios humanos), clave en trasplantes y en la transfusión de plaquetas.",
+    "claveMemorizar": "Antígenos leucocitarios = HLA."
+  },
+  "169": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo se hace con los hematíes del paciente, lavados, a los que se añade suero antiglobulina.",
+    "claveMemorizar": "Coombs directo: hematíes del paciente."
+  },
+  "170": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La prueba cruzada mayor detecta anticuerpos del receptor contra los hematíes del donante.",
+    "claveMemorizar": "Cruzada mayor: suero del receptor contra hematíes del donante."
+  },
+  "171": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las plaquetas se conservan a 22 °C en agitación continua. En frío se activan y se eliminan rápido tras transfundirse.",
+    "claveMemorizar": "Plaquetas: 22 °C con agitación."
+  },
+  "172": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Al D parcial le faltan epítopos del antígeno D: como receptor se trata como Rh negativo (puede formar anti-D) y como donante, como Rh positivo (puede sensibilizar).",
+    "claveMemorizar": "D parcial: recibe Rh−, dona Rh+."
+  },
+  "173": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma fresco congelado se separa y congela en las primeras horas tras la extracción (clásicamente antes de 6 h), para conservar los factores lábiles V y VIII.",
+    "claveMemorizar": "Plasma fresco: congelar en < 6 h."
+  },
+  "174": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, el plasma fresco congelado a menos de -65 °C puede conservarse hasta 3 años (otras fuentes dan hasta 7). Se descongela a 37 °C en baño, nunca en microondas.",
+    "claveMemorizar": "Plasma: congelado años; descongelar a 37 °C."
+  },
+  "175": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Coombs directo es la prueba básica para estudiar los procesos hemolíticos inmunes: demuestra anticuerpos o complemento sobre los hematíes.",
+    "claveMemorizar": "Hemólisis inmune: Coombs directo."
+  },
+  "176": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La inmunoglobulina anti-D se administra a madres Rh negativas no sensibilizadas (sin anti-D propio), en la semana 28 y tras el parto de un hijo Rh positivo. No previene la incompatibilidad ABO.",
+    "claveMemorizar": "Anti-D: madre Rh− no sensibilizada."
+  },
+  "177": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para determinar el Rh se enfrentan los hematíes del paciente con suero anti-D: si aglutinan, es Rh positivo.",
+    "claveMemorizar": "Rh: hematíes + anti-D."
+  },
+  "178": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Coombs directo es la prueba básica para estudiar los procesos hemolíticos inmunes: demuestra anticuerpos o complemento sobre los hematíes.",
+    "claveMemorizar": "Hemólisis inmune: Coombs directo."
+  },
+  "179": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La inmunoglobulina anti-D se administra a una madre Rh negativa con hijo Rh positivo, para evitar que se sensibilice. Si ya tiene anti-D, no sirve.",
+    "claveMemorizar": "Madre Rh− + hijo Rh+ → anti-D."
+  },
+  "180": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Coombs directo estudia los anticuerpos pegados a los hematíes.",
+    "claveMemorizar": "Coombs directo: anticuerpos en el hematíe."
+  },
+  "181": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La púrpura postransfusional es una reacción retardada: aparece a los 5-10 días por anticuerpos antiplaquetarios. Las reacciones alérgicas, la anafilaxia y la sobrecarga son agudas.",
+    "claveMemorizar": "Púrpura postransfusional: retardada (5-10 días)."
+  },
+  "182": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La reacción septicémica se debe a la contaminación bacteriana del componente: no es inmunológica. Las hemolíticas, alérgicas y anafilácticas sí lo son.",
+    "claveMemorizar": "Séptica: no inmune (contaminación)."
+  },
+  "183": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Coombs indirecto se basa en una hemaglutinación: la antiglobulina une los hematíes sensibilizados y los aglutina.",
+    "claveMemorizar": "Coombs: hemaglutinación."
+  },
+  "184": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La seguridad transfusional empieza con la selección del donante (entrevista, exploración y criterios de exclusión), antes incluso de extraer la sangre.",
+    "claveMemorizar": "Seguridad transfusional: empieza en el donante."
+  },
+  "185": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para un A negativo: hematíes A− (u O−), plaquetas preferiblemente A− y plasma A o AB (sin anti-A). La C es la única combinación totalmente compatible.",
+    "claveMemorizar": "Hematíes: sin antígenos que ataque el receptor. Plasma: sin anticuerpos contra el receptor."
+  },
+  "186": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El estudio pretransfusional incluye grupo ABO y Rh, escrutinio de anticuerpos irregulares (Coombs indirecto) y, si procede, prueba cruzada.",
+    "claveMemorizar": "Pretransfusional: grupo, Rh, escrutinio de anticuerpos."
+  },
+  "187": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Coombs indirecto se basa en una hemaglutinación: la antiglobulina une los hematíes sensibilizados y los aglutina.",
+    "claveMemorizar": "Coombs: hemaglutinación."
+  },
+  "188": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si a los hematíes de una donación se les quita la mayor parte del plasma y la capa leucocitaria (buffy coat) y se añade solución aditiva, son «hematíes sin capa leucocitaria en solución aditiva».",
+    "claveMemorizar": "Sin buffy coat + solución aditiva."
+  },
+  "189": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un aloanticuerpo es el que forma una persona contra un antígeno que no tiene (por transfusión o embarazo). Un autoanticuerpo va contra un antígeno propio.",
+    "claveMemorizar": "Aloanticuerpo: contra lo ajeno. Autoanticuerpo: contra lo propio."
+  },
+  "190": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba de Coombs detecta anticuerpos antieritrocitarios, clásicamente los anti-Rh (IgG). Se usa en la enfermedad hemolítica del recién nacido y en pruebas pretransfusionales.",
+    "claveMemorizar": "Coombs: anticuerpos contra hematíes (anti-Rh)."
+  },
+  "191": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para obtener plaquetas de sangre total se centrifuga primero a poca velocidad (se obtiene plasma rico en plaquetas) y después a mucha velocidad (se concentran las plaquetas).",
+    "claveMemorizar": "Plaquetas: centrifugación lenta y luego rápida."
+  },
+  "192": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Testar cada día los antisueros con hematíes conocidos (positivo y negativo) comprueba su especificidad: que reaccionan solo con el antígeno que deben.",
+    "claveMemorizar": "Control de antisueros: especificidad."
+  },
+  "193": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hemaglutinación detecta los antígenos presentes en el hematíe, es decir, el fenotipo. El genotipo requiere estudios moleculares o deducirlo.",
+    "claveMemorizar": "Hemaglutinación = fenotipo."
+  },
+  "194": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En los menores de 4 meses, si el estudio inicial no muestra anticuerpos, no hace falta repetir la prueba cruzada en cada transfusión: su sistema inmune todavía no forma aloanticuerpos.",
+    "claveMemorizar": "Menores de 4 meses: sin repetir cruzadas."
+  },
+  "195": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según Landsteiner, se tienen anticuerpos contra los antígenos ABO que faltan. Si no tiene ningún anticuerpo ABO, sus hematíes tienen A y B: es AB.",
+    "claveMemorizar": "Sin anticuerpos ABO = AB."
+  },
+  "196": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El reactivo de Coombs poliespecífico contiene anti-IgG y anti-C3d, para detectar hematíes recubiertos de IgG o de complemento.",
+    "claveMemorizar": "Coombs poliespecífico: anti-IgG + anti-C3d."
+  },
+  "197": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El efecto dosis es que los hematíes homocigotos (MM) tienen más antígeno y reaccionan con más fuerza que los heterocigotos (MN).",
+    "claveMemorizar": "Efecto dosis: homocigoto reacciona más."
+  },
+  "198": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "«Duke» no es un sistema de grupo sanguíneo (Duke es una prueba de tiempo de hemorragia). Duffy, Lewis y Kell sí lo son.",
+    "claveMemorizar": "Duke = tiempo de hemorragia, no grupo."
+  },
+  "199": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El receptor universal del sistema ABO es el grupo AB, que no tiene anti-A ni anti-B.",
+    "claveMemorizar": "Receptor universal: AB."
+  },
+  "200": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prueba de Coombs detecta anticuerpos antieritrocitarios, clásicamente los anti-Rh (IgG). Se usa en la enfermedad hemolítica del recién nacido y en pruebas pretransfusionales.",
+    "claveMemorizar": "Coombs: anticuerpos contra hematíes (anti-Rh)."
+  },
+  "201": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El sistema ABO se basa en dos antígenos principales (A y B), formados por azúcares unidos a glucolípidos y glucoproteínas de la membrana del hematíe.",
+    "claveMemorizar": "ABO: antígenos A y B (azúcares)."
+  },
+  "202": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un A positivo puede donar hematíes a receptores que toleren el antígeno A y el D: A+ y AB+. De las opciones, AB positivo.",
+    "claveMemorizar": "A+ dona a A+ y AB+."
+  },
+  "203": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El grupo sérico (prueba inversa) se hace enfrentando el suero del paciente con hematíes reactivos A₁ y B conocidos, para detectar sus anticuerpos.",
+    "claveMemorizar": "Grupo sérico: suero + hematíes A₁ y B."
+  },
+  "204": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los genes del sistema Rh (RHD y RHCE) están en el cromosoma 1. La respuesta secundaria es de IgG y el escrutinio de anticuerpos es clave en transfusión.",
+    "claveMemorizar": "Rh: cromosoma 1."
+  },
+  "205": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falsa la A: el recién nacido no produce aloanticuerpos en sus primeros meses. Carece de anticuerpos ABO propios (solo tiene IgG maternas), y por eso la D es la correcta.",
+    "claveMemorizar": "Neonato: sin anticuerpos ABO propios ni aloanticuerpos."
+  },
+  "206": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el suero de un A conocido reacciona con hematíes A y B, puede haber un aloanticuerpo (como anti-M) contra otro antígeno presente en los hematíes reactivos. Inmunodepresión o transfusión O no lo explican.",
+    "claveMemorizar": "Reacción sérica inesperada: aloanticuerpo irregular."
+  },
+  "207": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma descongelado a 37 °C y guardado a 2-6 °C puede usarse hasta 5 días, salvo para reponer factores lábiles (V y VIII), que se pierden. No se puede recongelar.",
+    "claveMemorizar": "Plasma descongelado: 5 días (no para factores lábiles)."
+  },
+  "208": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Ninguna es aguda: la aloinmunización, la púrpura postransfusional y la enfermedad injerto contra huésped aparecen días o semanas después (reacciones retardadas).",
+    "claveMemorizar": "Retardadas: aloinmunización, púrpura, EICH."
+  },
+  "209": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Se irradian los hematíes para prevenir la enfermedad injerto contra huésped en pacientes de riesgo: linfoma de Hodgkin, transfusión intrauterina y trasplante alogénico. El recién nacido sin otros factores no lo necesita.",
+    "claveMemorizar": "Irradiar: Hodgkin, intrauterina, trasplante (no todo neonato)."
+  },
+  "210": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si el suero aglutina solo los hematíes A, contiene anti-A: el paciente es del grupo B.",
+    "claveMemorizar": "Suero con anti-A = grupo B."
+  },
+  "211": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo detecta los anticuerpos adheridos a la membrana de los hematíes del paciente.",
+    "claveMemorizar": "Coombs directo: anticuerpos en el hematíe."
+  },
+  "212": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una persona es Rh negativa cuando no tiene antígeno D: genotipo dce/dce (cde/cde).",
+    "claveMemorizar": "Rh negativo: sin D."
+  },
+  "213": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la prueba cruzada mayor se enfrentan el suero del receptor y los hematíes del donante.",
+    "claveMemorizar": "Cruzada mayor: suero receptor + hematíes donante."
+  },
+  "214": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: el Bombay (hh) no tiene antígenos ABO; el grupo O tiene anti-A, anti-B y anti-A,B; y el primer antígeno Rh descubierto fue el D, que define al Rh positivo.",
+    "claveMemorizar": "Bombay: sin ABO. O: anti-A, anti-B, anti-A,B."
+  },
+  "215": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La reacción septicémica se debe a la contaminación bacteriana del componente: no es inmunológica. Las hemolíticas, alérgicas y anafilácticas sí lo son.",
+    "claveMemorizar": "Séptica: no inmune (contaminación)."
+  },
+  "216": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un recién nacido A positivo de madre O, con Coombs directo positivo y sin anticuerpos irregulares en la madre, tiene enfermedad hemolítica por anti-A (IgG del grupo O materno), no por anti-D.",
+    "claveMemorizar": "Madre O + hijo A + Coombs directo + = incompatibilidad ABO."
+  },
+  "217": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, los hematíes se conservan entre 2 y 6 °C durante 28 días. Con SAG-Manitol pueden llegar a 42 días. Las plaquetas van a 22 °C y los hematíes no se agitan.",
+    "claveMemorizar": "Hematíes: 2-6 °C (28-42 días)."
+  },
+  "218": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los casos más graves de enfermedad hemolítica del recién nacido se deben al sistema Rh (anti-D).",
+    "claveMemorizar": "Enfermedad hemolítica grave: Rh."
+  },
+  "219": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El fenotipo Rh completo determina qué antígenos del sistema (D, C, c, E, e) tiene el paciente en la membrana de sus hematíes.",
+    "claveMemorizar": "Fenotipo Rh: D, C, c, E, e."
+  },
+  "220": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los anticuerpos ABO son sobre todo IgM naturales y aglutinantes, pero también hay IgG (sobre todo en el grupo O) que sí atraviesan la placenta.",
+    "claveMemorizar": "ABO: IgM naturales + IgG (grupo O)."
+  },
+  "221": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El antígeno K es el más inmunógeno del sistema Kell.",
+    "claveMemorizar": "Kell: K."
+  },
+  "222": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la madre, el Coombs indirecto detecta anticuerpos inmunes libres en su suero dirigidos contra antígenos fetales (por ejemplo, anti-D).",
+    "claveMemorizar": "Coombs indirecto materno: anticuerpos contra el feto."
+  },
+  "223": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prueba básica para estudiar los procesos hemolíticos inmunes es el Coombs directo.",
+    "claveMemorizar": "Hemólisis inmune: Coombs directo."
+  },
+  "224": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una reacción que aparece a los pocos minutos de empezar la transfusión (escalofríos, fiebre) es una reacción aguda (en menos de 24 h). Hay que parar la transfusión y estudiarla.",
+    "claveMemorizar": "< 24 h = aguda: parar la transfusión."
+  },
+  "225": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si hay panaglutinina en la antiglobulina directa, los hematíes del paciente están recubiertos de anticuerpos, así que el autocontrol (sus hematíes con su suero) será positivo.",
+    "claveMemorizar": "Panaglutinina con PAD + → autocontrol positivo."
+  },
+  "226": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hematíes con antígeno B (anti-B y anti-AB positivos) y suero que aglutina hematíes A (tiene anti-A): grupo B. Las dos pruebas concuerdan.",
+    "claveMemorizar": "Antígeno B + anti-A en suero = B."
+  },
+  "227": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bolsas de donación llevan anticoagulantes a base de citrato sódico (CPD). No se usan EDTA ni heparina.",
+    "claveMemorizar": "Bolsas de sangre: citrato (CPD)."
+  },
+  "228": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las plaquetas se transportan entre 20 y 24 °C, nunca en frío, porque el frío las activa y acorta su supervivencia.",
+    "claveMemorizar": "Plaquetas: 20-24 °C."
+  },
+  "229": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La plasmaféresis extrae selectivamente plasma del donante y le devuelve el resto de componentes (hematíes, plaquetas).",
+    "claveMemorizar": "Plasmaféresis: se queda el plasma, devuelve el resto."
+  },
+  "230": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si no se puede confirmar el grupo del receptor y hay urgencia, se entregan hematíes O negativos, compatibles con cualquier receptor.",
+    "claveMemorizar": "Grupo desconocido urgente: O negativo."
+  },
+  "231": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El buffy coat es la capa blanquecina entre hematíes y plasma tras centrifugar: contiene leucocitos y plaquetas.",
+    "claveMemorizar": "Buffy coat = leucocitos + plaquetas."
+  },
+  "232": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, las reacciones hipotensivas no son de origen inmunológico (se relacionan con bradicinina). La hemolítica aguda, la lesión pulmonar (TRALI) y la febril sí lo son.",
+    "claveMemorizar": "No inmunes: hipotensiva, sobrecarga, séptica."
+  },
+  "233": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El fenotipo silencioso del sistema Duffy es Fy(a−b−): no expresa ningún antígeno Duffy. Es frecuente en población africana y protege frente a Plasmodium vivax.",
+    "claveMemorizar": "Duffy silencioso: Fy(a−b−)."
+  },
+  "234": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una persona AB tiene antígenos A y B en sus hematíes y ningún anticuerpo ABO en el plasma. (Los anticuerpos siempre están en el plasma, no en los hematíes.)",
+    "claveMemorizar": "AB: sin anticuerpos ABO."
+  },
+  "235": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un B positivo puede donar hematíes a quien tolere el antígeno B y el D: B+ y AB+.",
+    "claveMemorizar": "B+ dona a B+ y AB+."
+  },
+  "236": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La enfermedad hemolítica del recién nacido la producen anticuerpos IgG, los únicos que atraviesan la placenta.",
+    "claveMemorizar": "EHRN: IgG."
+  },
+  "237": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La inmunoglobulina anti-D se administra a una madre Rh negativa con hijo Rh positivo, para evitar que se sensibilice. Si ya tiene anti-D, no sirve.",
+    "claveMemorizar": "Madre Rh− + hijo Rh+ → anti-D."
+  },
+  "238": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el suero aglutina solo los hematíes A, contiene anti-A: el paciente es del grupo B.",
+    "claveMemorizar": "Suero con anti-A = grupo B."
+  },
+  "239": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El genotipo BO expresa el antígeno B (O es silencioso), y Rr lleva un alelo Rh positivo dominante: fenotipo B Rh positivo.",
+    "claveMemorizar": "BO Rr = B Rh+."
+  },
+  "240": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los antígenos Lewis no los fabrica el hematíe: se sintetizan en los tejidos, circulan en plasma y saliva y se adsorben a la membrana del hematíe.",
+    "claveMemorizar": "Lewis: en plasma y secreciones."
+  },
+  "241": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque los componentes irradiados se conservan igual que los no irradiados (los hematíes, a 2-6 °C). La irradiación (mínimo 25 Gy) no cambia la temperatura de conservación.",
+    "claveMemorizar": "Irradiados: misma conservación; hematíes hasta 14 días tras irradiar."
+  },
+  "242": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, ninguna es correcta. La norma de referencia sobre requisitos técnicos de la hemodonación y los centros de transfusión es el RD 1088/2005, pero la clave no lo acepta en esta pregunta.",
+    "claveMemorizar": "Hemodonación: RD 1088/2005."
+  },
+  "243": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si hay que transfundir hematíes sin cruzar y sin grupo confirmado, se envían O negativos, compatibles con cualquier receptor.",
+    "claveMemorizar": "Sin cruzar ni grupo: O negativo."
+  },
+  "244": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En plasma de extrema urgencia con grupo desconocido se usa el grupo AB, que no tiene anti-A ni anti-B: es el donante universal de plasma.",
+    "claveMemorizar": "Plasma universal: AB."
+  },
+  "245": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Aunque haya datos históricos, siempre se comprueba el grupo ABO y Rh en la muestra pretransfusional actual, para detectar errores de identificación.",
+    "claveMemorizar": "Siempre confirmar el grupo en la muestra actual."
+  },
+  "246": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un paciente O no tiene antígenos A ni B, así que puede recibir plasma O, A o B. El plasma AB se reserva para urgencias extremas o receptores AB.",
+    "claveMemorizar": "Receptor O: acepta plasma de cualquier grupo."
+  },
+  "247": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Con el grupo ya confirmado (O positivo), se transfunden hematíes O positivos. El O negativo se reserva para urgencias extremas o receptores O negativos.",
+    "claveMemorizar": "Grupo conocido: isogrupo; guardar el O−."
+  },
+  "248": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si una gestante sale Rh negativa, se completa el estudio con la determinación del D débil (Du) antes de catalogarla definitivamente.",
+    "claveMemorizar": "Rh negativo: confirmar con D débil."
+  },
+  "249": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una mujer O negativa en edad fértil solo debe recibir hematíes O negativos: O por su anti-A y anti-B, y Rh negativo para no sensibilizarla al D.",
+    "claveMemorizar": "Mujer O−: solo O−."
+  },
+  "250": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, recibirá la profilaxis anti-D hacia la semana 28 de gestación. (Ojo: si la madre ya tiene un anti-D inmune, la profilaxis no sirve; solo previene la sensibilización.)",
+    "claveMemorizar": "Profilaxis anti-D: semana 28 y tras el parto."
+  },
+  "251": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El D débil (Du) se trata como Rh positivo al donar (puede sensibilizar) y como Rh negativo al recibir (por prudencia).",
+    "claveMemorizar": "D débil: dona Rh+, recibe Rh−."
+  },
+  "252": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un Du positivo significa que tiene antígeno D, aunque débil: se considera Rh positivo.",
+    "claveMemorizar": "Du+ = D débil = Rh+."
+  },
+  "253": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hemaglutinación es una aglutinación directa: los anticuerpos reaccionan con antígenos naturales de la superficie del hematíe.",
+    "claveMemorizar": "Hemaglutinación = aglutinación directa."
+  },
+  "254": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La aféresis es la donación de un componente concreto (plaquetas, plasma, granulocitos) mediante un separador celular que devuelve el resto al donante.",
+    "claveMemorizar": "Aféresis: separador celular."
+  },
+  "255": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La refractariedad plaquetaria (las transfusiones de plaquetas dejan de subir la cifra) es una complicación a largo plazo por aloinmunización HLA. Las infecciones víricas se clasifican aparte.",
+    "claveMemorizar": "A largo plazo: refractariedad plaquetaria por HLA."
+  },
+  "256": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: el Coombs directo sirve para estudiar anemias hemolíticas, investigar reacciones transfusionales y diagnosticar la enfermedad hemolítica del recién nacido.",
+    "claveMemorizar": "Coombs directo: autoinmune, transfusional y RN."
+  },
+  "257": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Si los hematíes aglutinan con anti-A, anti-B y anti-AB, tienen antígenos A y B: el grupo es AB.",
+    "claveMemorizar": "Aglutina anti-A y anti-B = AB."
+  },
+  "258": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El plasma en cuarentena se retiene hasta repetir las pruebas infecciosas en una nueva donación del mismo donante, pasado el periodo ventana. Si salen negativas, se libera.",
+    "claveMemorizar": "Cuarentena: esperar al periodo ventana y repetir serologías."
+  },
+  "259": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, las plaquetas se conservan unos 6 días (habitualmente 5, hasta 7 con reducción de patógenos) a 22 °C en agitación.",
+    "claveMemorizar": "Plaquetas: 5-7 días."
+  },
+  "260": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Coombs directo investiga la presencia de anticuerpos en la superficie de los hematíes.",
+    "claveMemorizar": "Coombs directo: anticuerpos en el hematíe."
+  },
+  "261": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los frigoríficos de concentrados de hematíes y sangre total deben mantenerse entre 2 y 6 °C.",
+    "claveMemorizar": "Hematíes: 2-6 °C."
+  },
+  "262": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: ante un anti-C se confirma que la paciente es C negativa, se comprueba que las bolsas incompatibles son C positivas y se buscan hematíes C negativos que den cruzada negativa.",
+    "claveMemorizar": "Anti-X: paciente X−, transfundir X− con cruzada negativa."
+  },
+  "263": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo en sangre del recién nacido demuestra anticuerpos maternos sobre sus hematíes y confirma la enfermedad hemolítica del recién nacido.",
+    "claveMemorizar": "EHRN: Coombs directo en el neonato."
+  },
+  "264": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una vez descongelado, el plasma debe transfundirse en unas 24 horas si se necesitan los factores lábiles (V y VIII) en buen estado.",
+    "claveMemorizar": "Plasma descongelado: < 24 h para factores lábiles."
+  },
+  "265": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según el proceso asistencial andaluz, de sangre de cordón se determinan el grupo ABO, el Rh y el Coombs directo del recién nacido.",
+    "claveMemorizar": "Cordón: ABO, Rh y Coombs directo."
+  },
+  "266": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La ictericia por incompatibilidad Rh ocurre cuando la madre es Rh negativa y el recién nacido Rh positivo. La ABO puede afectar ya al primer hijo.",
+    "claveMemorizar": "Rh: madre Rh− y RN Rh+."
+  },
+  "267": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según el proceso asistencial andaluz, el Coombs indirecto (escrutinio de anticuerpos) se hace a todas las gestantes en la semana 9-10, sean Rh positivas o negativas.",
+    "claveMemorizar": "Coombs indirecto: a todas las gestantes (sem. 9-10)."
+  },
+  "268": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La isoinmunización Rh produce en el feto una hemólisis importante, anemia grave e ictericia intensa. Se debe a IgG anti-D, suele afectar a embarazos posteriores y sí tiene tratamiento.",
+    "claveMemorizar": "Isoinmunización Rh: hemólisis grave por IgG anti-D."
+  },
+  "269": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El estudio pretransfusional incluye grupo ABO y Rh, escrutinio de anticuerpos irregulares (Coombs indirecto) y, si procede, prueba cruzada.",
+    "claveMemorizar": "Pretransfusional: grupo, Rh, escrutinio de anticuerpos."
+  },
+  "270": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La prueba cruzada mayor enfrenta el suero del receptor con los eritrocitos del donante.",
+    "claveMemorizar": "Cruzada mayor: suero receptor + hematíes donante."
+  },
+  "271": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Al extraer la muestra pretransfusional hay que identificar activamente al receptor y comprobar que coincide con la petición. También se registra quién extrae y cuándo; sin trazabilidad, la muestra no vale.",
+    "claveMemorizar": "Muestra pretransfusional: identificación activa."
+  },
+  "272": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La petición de transfusión debe indicar el componente solicitado, el número de unidades o volumen y el grado de urgencia (además de los datos del paciente).",
+    "claveMemorizar": "Petición: componente, cantidad y urgencia."
+  },
+  "273": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los concentrados deben inspeccionarse justo antes de salir del servicio de transfusión (color, coágulos, integridad). Los coágulos son motivo de rechazo y el grupo desconocido urgente recibe O.",
+    "claveMemorizar": "Inspeccionar la unidad antes de que salga."
+  },
+  "274": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para determinar el Rh se enfrentan los hematíes del paciente con suero anti-D: si aglutinan, es Rh positivo.",
+    "claveMemorizar": "Rh: hematíes + anti-D."
+  },
+  "275": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: el Coombs indirecto detecta anticuerpos en el plasma, permite fenotipar antígenos y sirve para identificar la especificidad de anticuerpos.",
+    "claveMemorizar": "Coombs indirecto: anticuerpos en plasma."
+  },
+  "276": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para transfundir plasma se tipifica el grupo ABO y Rh del receptor y se eligen unidades compatibles, empezando por las de caducidad más próxima. No hace falta escrutinio de anticuerpos.",
+    "claveMemorizar": "Plasma: grupo ABO/Rh y unidades compatibles."
+  },
+  "277": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falso porque el grupo AB no tiene anticuerpos anti-A ni anti-B en el plasma. El O negativo es donante universal y el AB positivo, receptor universal.",
+    "claveMemorizar": "AB: sin anti-A ni anti-B."
+  },
+  "278": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El grupo O tiene más sustancia H, porque no la transforma en antígeno A ni B. Orden: O > A₂ > B > A₁ > A₁B.",
+    "claveMemorizar": "Más sustancia H: grupo O."
+  },
+  "279": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El antígeno D es el más inmunógeno del sistema Rh: un Rh negativo expuesto a él se sensibiliza con mucha frecuencia.",
+    "claveMemorizar": "El más inmunógeno: antígeno D."
+  },
+  "280": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs directo detecta inmunoglobulinas y complemento sobre la membrana del eritrocito, y es imprescindible en las anemias hemolíticas inmunes.",
+    "claveMemorizar": "Coombs directo: IgG y C3 sobre el hematíe."
+  },
+  "281": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la prueba cruzada se incuba el suero del paciente con los hematíes del donante a 37 °C y después se hace la prueba de antiglobulina (Coombs) para ver anticuerpos IgG.",
+    "claveMemorizar": "Cruzada: 37 °C + antiglobulina."
+  },
+  "282": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un A negativo puede donar hematíes a A+ y AB+, porque sus hematíes (A, sin D) no serán atacados por ellos. Un A+ no puede donar a un Rh negativo.",
+    "claveMemorizar": "Rh negativo puede dar a Rh positivo, no al revés."
+  },
+  "283": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque los anticuerpos Kidd sí pueden fijar el complemento y causan reacciones hemolíticas retardadas graves. El resto de afirmaciones es cierto.",
+    "claveMemorizar": "Kidd: fija complemento, reacciones retardadas."
+  },
+  "284": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Coombs indirecto detecta anticuerpos libres en el suero dirigidos contra antígenos eritrocitarios. Ver si los hematíes están recubiertos in vivo corresponde al directo.",
+    "claveMemorizar": "Indirecto: anticuerpos libres en suero."
+  },
+  "285": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En una urgencia extrema se transfunden de inmediato hematíes del grupo O (preferiblemente O negativo), que no tienen antígenos A ni B.",
+    "claveMemorizar": "Extrema urgencia: hematíes O."
+  },
+  "286": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs indirecto detecta anticuerpos irregulares libres en el plasma.",
+    "claveMemorizar": "Anticuerpos irregulares: Coombs indirecto."
+  },
+  "287": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La solución SAG-Manitol permite la caducidad más larga de los concentrados de hematíes: 42 días.",
+    "claveMemorizar": "SAG-Manitol: 42 días."
+  },
+  "288": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un pool de plaquetas sin inactivar de patógenos es viable 5 días, por el riesgo de proliferación bacteriana a 22 °C.",
+    "claveMemorizar": "Plaquetas sin inactivar: 5 días."
+  },
+  "289": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: el Coombs directo se usa en la enfermedad hemolítica del recién nacido, en las reacciones postransfusionales y para detectar anticuerpos fijados a los hematíes.",
+    "claveMemorizar": "Coombs directo: RN, transfusión, autoinmune."
+  },
+  "290": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un receptor A puede recibir plasma AB (no tiene anti-A) si no hay plasma A. El plasma O o B tiene anti-A.",
+    "claveMemorizar": "Plasma para A: A o AB."
+  },
+  "291": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Coombs indirecto se hace para detectar anticuerpos en el suero.",
+    "claveMemorizar": "Coombs indirecto: anticuerpos en suero."
+  },
+  "292": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Coombs directo se usa para diagnosticar una reacción hemolítica transfusional inmediata: detecta anticuerpos del receptor sobre los hematíes transfundidos. Buscar anticuerpos libres o la sensibilización materna es del indirecto.",
+    "claveMemorizar": "Reacción transfusional: Coombs directo."
+  },
+  "293": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La gammaglobulina anti-D posparto está indicada en madre Rh negativa con hijo Rh positivo y Coombs directo negativo (no sensibilizada).",
+    "claveMemorizar": "Anti-D: madre Rh−, hijo Rh+, sin sensibilización."
+  },
+  "294": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Después de los anticuerpos ABO y Rh, el anticuerpo inmune que más se detecta es el anti-K (Kell).",
+    "claveMemorizar": "Tras ABO y Rh: anti-K."
+  },
+  "295": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es incorrecta porque los anticuerpos Kell sí causan enfermedad hemolítica del recién nacido (y anemia fetal grave). Son IgG, el antígeno K es poco frecuente y se detectan en el escrutinio.",
+    "claveMemorizar": "Anti-K: sí causa EHRN."
+  },
+  "296": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El fenotipo D débil aparece en un 0,2-1 % de los caucásicos RhD positivos. El D débil tiene todos los epítopos con menor densidad; el D parcial carece de epítopos y sí puede formar anti-D.",
+    "claveMemorizar": "D débil: 0,2-1 % de los caucásicos."
+  },
+  "297": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque el anticuerpo más frecuente en la trombocitopenia fetal neonatal aloinmune es el anti-HPA-1a, seguido del anti-HPA-5b, no el anti-HPA-15.",
+    "claveMemorizar": "TFNA: anti-HPA-1a."
+  },
+  "298": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Coombs indirecto se hace con el plasma (o suero) del paciente, enfrentado a hematíes reactivos. Detecta sobre todo IgG.",
+    "claveMemorizar": "Coombs indirecto: plasma del paciente."
+  },
+  "299": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El fenotipo Fy(a−b−) carece del receptor Duffy que usa Plasmodium vivax para entrar en el hematíe, así que es resistente a esa malaria.",
+    "claveMemorizar": "Fy(a−b−): resistente a P. vivax."
+  },
+  "300": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El grupo O puede recibir plasma de cualquier grupo, porque sus hematíes no tienen antígenos A ni B que el plasma pueda atacar.",
+    "claveMemorizar": "Plasma: el O acepta de todos."
+  },
+  "301": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un cambio de grupo de A negativo a AB positivo no se explica por transfusiones, embarazos ni abortos: indica un problema de identificación de la muestra, así que hay que pedir otra.",
+    "claveMemorizar": "Grupo distinto al histórico: sospecha error de identificación."
+  },
+  "302": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El escrutinio de anticuerpos irregulares se hace con el Coombs indirecto.",
+    "claveMemorizar": "Escrutinio: Coombs indirecto."
+  },
+  "303": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Coombs directo está indicado cuando se sospecha anemia hemolítica autoinmune. No detecta anticuerpos libres, no se incuba (ya están unidos) y sí detecta complemento.",
+    "claveMemorizar": "Coombs directo: anemia hemolítica autoinmune."
+  },
+  "304": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma fresco congelado aporta todos los factores de coagulación y corrige rápido una coagulopatía en una hemorragia grave. Hirudina y antitrombina son anticoagulantes.",
+    "claveMemorizar": "Coagulopatía con sangrado: plasma fresco."
+  },
+  "305": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las inmunoglobulinas son proteínas plasmáticas: se obtienen fraccionando el plasma.",
+    "claveMemorizar": "Inmunoglobulinas ← plasma."
+  },
+  "306": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El antígeno Jka pertenece al sistema Kidd (Jk).",
+    "claveMemorizar": "Jk = Kidd."
+  },
+  "307": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, un A positivo puede recibir plaquetas de cualquier grupo ABO y Rh. En la práctica se prefieren ABO compatibles y, en mujeres fértiles Rh negativas, Rh negativas.",
+    "claveMemorizar": "Plaquetas: preferible isogrupo, pero se aceptan otros."
+  },
+  "308": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los concentrados de hematíes se conservan entre 2 y 6 °C durante 21-42 días según el conservante (CPD, CPDA o SAG-Manitol).",
+    "claveMemorizar": "Hematíes: 2-6 °C, 21-42 días."
+  },
+  "309": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la población caucásica el orden de frecuencia es O ≈ A > B > AB. En España A y O rondan el 45 % cada uno, B un 8 % y AB un 3 %.",
+    "claveMemorizar": "Frecuencia: O, A, B, AB."
+  },
+  "310": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los pools de plaquetas se almacenan a 22 ± 2 °C en agitación continua, con una viabilidad máxima de 5 días desde la donación.",
+    "claveMemorizar": "Plaquetas: 22 °C, agitación, 5 días."
+  },
+  "311": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los anticuerpos del sistema Kell suelen ser IgG inmunes, capaces de causar reacciones transfusionales y enfermedad hemolítica del recién nacido.",
+    "claveMemorizar": "Kell: IgG."
+  },
+  "312": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, los antígenos Rh son lipoproteínas: proteínas transmembrana asociadas a lípidos (a diferencia de los ABO, que son azúcares).",
+    "claveMemorizar": "Rh: proteínas de membrana."
+  },
+  "313": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque AA, AB, BB, AO, BO y OO son genotipos, no fenotipos. Los fenotipos son A, B, AB y O. A y B son codominantes, O es amorfo y el Bombay es hh.",
+    "claveMemorizar": "Genotipos: AA, AO… Fenotipos: A, B, AB, O."
+  },
+  "314": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una historia de coagulopatía hemorrágica excluye de forma permanente. La fiebre, las vacunas atenuadas y el embarazo excluyen solo temporalmente.",
+    "claveMemorizar": "Coagulopatía: exclusión permanente."
+  },
+  "315": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los granulocitos deben transfundirse cuanto antes; si hay que guardarlos, se hace a 22 ± 2 °C, sin agitar y menos de 24 horas.",
+    "claveMemorizar": "Granulocitos: 22 °C, < 24 h."
+  },
+  "316": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un concentrado de hematíes se hemoliza por las tres causas: infundirlo junto con ciertos fármacos, mezclarlo con soluciones hipotónicas (agua destilada) o calentarlo a más de 50 °C.",
+    "claveMemorizar": "Hemólisis del concentrado: fármacos, hipotónicos, calor."
+  },
+  "317": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un concentrado de hematíes se hemoliza por las tres causas: infundirlo junto con ciertos fármacos, mezclarlo con soluciones hipotónicas (agua destilada) o calentarlo a más de 50 °C.",
+    "claveMemorizar": "Hemólisis del concentrado: fármacos, hipotónicos, calor."
+  }
+}
