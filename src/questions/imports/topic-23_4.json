@@ -1,0 +1,68 @@
+{
+  "tema": 23,
+  "titulo": "Estadística",
+  "source_file": "23. Test estadisticas (respuestas).pdf",
+  "total_questions": 5,
+  "questions": [
+    {
+      "id": 5,
+      "question": "Los test paramétricos se utilizan cuando la distribución de los datos es",
+      "options": {
+        "A": "Chi cuadrado",
+        "B": "Poisson",
+        "C": "Normal",
+        "D": "Exponencial"
+      },
+      "correctAnswer": "C",
+      "correctText": "Normal"
+    },
+    {
+      "id": 6,
+      "question": "Dentro de los conceptos estadísticos básicos, se define como Media:",
+      "options": {
+        "A": "La diferencia entre el valor mayor y el menor de un conjunto de dates.",
+        "B": "Valor que tiene mayor frecuencia en un conjunto de datos.",
+        "C": "Media aritmética donde se suma todos los datos y se divide por el número total de ellos.",
+        "D": "La suma de frecuencia de los valores menores o iguales a un valor dado."
+      },
+      "correctAnswer": "C",
+      "correctText": "Media aritmética donde se suma todos los datos y se divide por el número total de ellos."
+    },
+    {
+      "id": 7,
+      "question": "Con relación al valor del coeficiente de correlación entre dos variables:",
+      "options": {
+        "A": "Un valor negativo indica que ambas variables aumentan o disminuyen juntas",
+        "B": "Puede tener valores desde - 1 hasta +1, donde el signo indica la dirección de la relación entre las dos variables",
+        "C": "Un valor positivo indica que cuando una variable aumenta la otra disminuye",
+        "D": "Un valor de 1 indica que no existe relación lineal"
+      },
+      "correctAnswer": "B",
+      "correctText": "Puede tener valores desde - 1 hasta +1, donde el signo indica la dirección de la relación entre las dos variables"
+    },
+    {
+      "id": 9,
+      "question": "Señale lo falso:",
+      "options": {
+        "A": "Si una variable cualitativa solo acepta dos posibilidades se llamará dicotómica",
+        "B": "El número de hijos es una variable cuantitativa discreta",
+        "C": "Las variables cualitativas proporcionan más información que las cuantitativas",
+        "D": "El nivel de colesterol es una variable cuantitativa continua"
+      },
+      "correctAnswer": "C",
+      "correctText": "Las variables cualitativas proporcionan más información que las cuantitativas"
+    },
+    {
+      "id": 10,
+      "question": "Los grupos de elementos extraídos de una población de igual configuración es:",
+      "options": {
+        "A": "La muestra de registro.",
+        "B": "La muestra representativa .",
+        "C": "La muestra de tiempo.",
+        "D": "Nada de lo anterior"
+      },
+      "correctAnswer": "B",
+      "correctText": "La muestra representativa ."
+    }
+  ]
+}

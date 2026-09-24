@@ -19,6 +19,26 @@ Las comprobaciones de datos se hicieron cargando los módulos reales de la app c
 
 ---
 
+## ✅ Estado de las correcciones (segunda ronda)
+
+| # | Punto | Estado |
+|---|---|---|
+| 1 | Barajado de opciones que citan letras | ✅ Corregido. `npm run check:data` lo comprueba |
+| 2 | Navegación a «Test» | ✅ Corregido: el menú, «Ver todos», los estados vacíos y «Hacer test» de cada tema abren el test que corresponde |
+| 3 | Test en curso | ✅ Se guarda en el navegador y el selector ofrece «Continuar / Descartar». Si alguna pregunta cambió en el banco, se descarta |
+| 4 | Temas 21–23 | ✅ Convertidos a JSON: 21 (103, con 21.2 Fármacos), 22 (124) y 23 (500). Ver la nota de abajo |
+| 6 | «Temas iniciados» incoherente | ✅ Ahora se calcula igual en Inicio y en Progreso |
+| 8 | Fallo al guardar el progreso | ✅ Se muestra un aviso con acceso a la copia de seguridad |
+| — | Explicaciones del tema 1 | ✅ Se muestran «Ojo en el examen» y el motivo de cada opción incorrecta, también con las opciones barajadas |
+| — | Accesibilidad | ✅ `aria-label` en el menú móvil y las tarjetas de resumen se pueden usar con el teclado |
+| 5, 7, 9 y resto | Duplicados, auto-aprendida, tamaño del bundle, código muerto… | ⏸️ Pendientes. Cambian datos o la estructura, así que se decidirán aparte |
+
+**Corrección a la primera versión de este informe (punto 4):** decía que el lector de PDF extraía bien los temas 21 y 22, pero no era así. La comprobación tenía un error (`null >= 0` es `true` en JavaScript). En realidad, alrededor del **85 % de las preguntas se quedaban sin respuesta correcta**, así que cualquier respuesta se marcaba como fallada. La causa estaba en `pdfReader.js`: no restauraba el color de relleno después de `save/restore` y perdía casi todos los resaltados amarillos. Ya está corregido, el lector descarta las preguntas que no tienen exactamente una opción resaltada, y `scripts/import-pdf-topics.mjs` genera los JSON. Algunas preguntas no se pueden extraer por la maquetación del PDF (por ejemplo, unas 70 del tema 22). También se ha excluido una pregunta que depende de una imagen (pictograma).
+
+> Si ya practicaste los temas 21 o 22, puede que algunas preguntas aparezcan en «Preguntas falladas» por culpa de este error. El progreso se ha conservado tal cual. Puedes quitarlas con «Marcar como aprendida».
+
+---
+
 ## 🔴 Prioridad alta (dan respuestas incorrectas o rompen la navegación)
 
 ### 1. Se barajan opciones que hacen referencia a otras por letra

@@ -1,0 +1,512 @@
+{
+  "tema": 21,
+  "titulo": "Drogas de abuso",
+  "source_file": "Test tema 21.1 Drogas de abuso (respuestas).pdf",
+  "total_questions": 42,
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuál de las siguientes sustancias no se considera un estimulante del Sistema Nervioso Central?:",
+      "options": {
+        "A": "Anfetaminas.",
+        "B": "Nicotina.",
+        "C": "Opio.",
+        "D": "Tricíclicos."
+      },
+      "correctAnswer": "C",
+      "correctText": "Opio."
+    },
+    {
+      "id": 2,
+      "question": "La vida media de la cocaína en sangre es de:",
+      "options": {
+        "A": "1 día.",
+        "B": "2-5 días.",
+        "C": "1 - 2 horas.",
+        "D": "Una semana."
+      },
+      "correctAnswer": "C",
+      "correctText": "1 - 2 horas."
+    },
+    {
+      "id": 3,
+      "question": "El consumo de tabaco altera el análisis sanguíneo provocando:",
+      "options": {
+        "A": "Aumento de lactato.",
+        "B": "Disminución de la carboxihemoglobina.",
+        "C": "Disminución en el contaje de leucocitos.",
+        "D": "Aumento de la albúmina."
+      },
+      "correctAnswer": "A",
+      "correctText": "Aumento de lactato."
+    },
+    {
+      "id": 4,
+      "question": "El problema común en el método de detección de los estimulantes es:",
+      "options": {
+        "A": "Es la obtención de falsos positivos por la posibilidad de reacciones cruzadas.",
+        "B": "Es que sea necesaria la detección de un número elevado de ellos en las muestras.",
+        "C": "Se metabolizan muy rápido a compuestos activos.",
+        "D": "Las muestras son sangre, orina y cabellos."
+      },
+      "correctAnswer": "A",
+      "correctText": "Es la obtención de falsos positivos por la posibilidad de reacciones cruzadas."
+    },
+    {
+      "id": 5,
+      "question": "De las siguientes drogas, ¿cuál no pertenece al tipo de los opiáceos?",
+      "options": {
+        "A": "Heroína.",
+        "B": "Codeína.",
+        "C": "Mescalina.",
+        "D": "Metadona."
+      },
+      "correctAnswer": "C",
+      "correctText": "Mescalina."
+    },
+    {
+      "id": 6,
+      "question": "La muestra biológica más utilizada en el análisis de drogas de abuso es:",
+      "options": {
+        "A": "El suero.",
+        "B": "El plasma.",
+        "C": "La orina.",
+        "D": "La saliva."
+      },
+      "correctAnswer": "C",
+      "correctText": "La orina."
+    },
+    {
+      "id": 7,
+      "question": "En cuanto al modelo de informe de laboratorio para la determinación de drogas de abuso por inmunoanálisis, ¿cuál de las siguientes afirmaciones es correcta?:",
+      "options": {
+        "A": "Se debe informar mediante resultados cuantitativos",
+        "B": "No se debe informar el método utilizado",
+        "C": "Es conveniente adjuntar qué sustancias pueden dar resultado positivo mediante reacción cruzada",
+        "D": "No se debe informar del valor discriminante"
+      },
+      "correctAnswer": "C",
+      "correctText": "Es conveniente adjuntar qué sustancias pueden dar resultado positivo mediante reacción cruzada"
+    },
+    {
+      "id": 8,
+      "question": "Dentro de las principales drogas de abuso están:",
+      "options": {
+        "A": "En los alucinógenos: cocaína.",
+        "B": "En los opiáceos: codeína.",
+        "C": "En los estimulantes: alcohol.",
+        "D": "En las depresoras: tabaco."
+      },
+      "correctAnswer": "B",
+      "correctText": "En los opiáceos: codeína."
+    },
+    {
+      "id": 9,
+      "question": "La vía de administración de las anfetaminas es:",
+      "options": {
+        "A": "Oral.",
+        "B": "Oral, inyección e inhalación.",
+        "C": "Fumada y oral.",
+        "D": "Ninguna es correcta."
+      },
+      "correctAnswer": "B",
+      "correctText": "Oral, inyección e inhalación."
+    },
+    {
+      "id": 10,
+      "question": "En cuanto a la terminología relativa a drogas de abuso, se define como deterioro acusado y progresivo de la memoria para los hechos recientes a:",
+      "options": {
+        "A": "Consumo perjudicial.",
+        "B": "Trastorno psicótico.",
+        "C": "Síndrome de abstinencia.",
+        "D": "Síndrome amnésico."
+      },
+      "correctAnswer": "D",
+      "correctText": "Síndrome amnésico."
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál es el mejor método para confirmar la presencia de metabolitos de heroína en orina?:",
+      "options": {
+        "A": "Inmunoanálisis.",
+        "B": "Cromatografía en capa fina.",
+        "C": "Cromatografía de gases y espectrofotometría de masas.",
+        "D": "Prueba de color. Test tema 21.1: Drogas de abuso"
+      },
+      "correctAnswer": "C",
+      "correctText": "Cromatografía de gases y espectrofotometría de masas."
+    },
+    {
+      "id": 12,
+      "question": "Los consumidores crónicos de cannabis pueden dar positivo en su orina hasta:",
+      "options": {
+        "A": "Dos días después de su último consumo.",
+        "B": "Cinco días después de su último consumo.",
+        "C": "Ocho días después de su último consumo.",
+        "D": "Cuatro semanas después de su último consumo."
+      },
+      "correctAnswer": "D",
+      "correctText": "Cuatro semanas después de su último consumo."
+    },
+    {
+      "id": 13,
+      "question": "La solicitud de la determinación de drogas de abuso en orina mediante inmunoanálisis en el contexto de la urgencia médica se realiza para:",
+      "options": {
+        "A": "Confirmar una impresión diagnóstica",
+        "B": "Descartar su presencia en orina",
+        "C": "Conocer el grado de intoxicación del paciente,",
+        "D": "Confirmar su presencia en orina"
+      },
+      "correctAnswer": "B",
+      "correctText": "Descartar su presencia en orina"
+    },
+    {
+      "id": 14,
+      "question": "En la determinación de drogas de abuso, la identificación del paciente pertenece a la fase...",
+      "options": {
+        "A": "Post-analítica.",
+        "B": "Analítica.",
+        "C": "Pre - analítica.",
+        "D": "Ninguna es correcta."
+      },
+      "correctAnswer": "C",
+      "correctText": "Pre - analítica."
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál de estas drogas es un depresor del Sistema Nervioso Central (SNC)?:",
+      "options": {
+        "A": "Alcohol etílico.",
+        "B": "Marihuana.",
+        "C": "Mescalina.",
+        "D": "Ninguna es correcta."
+      },
+      "correctAnswer": "A",
+      "correctText": "Alcohol etílico."
+    },
+    {
+      "id": 16,
+      "question": "¿Qué droga de abuso de las siguientes puede ser detectada en orina durante un mayor período de tiempo?",
+      "options": {
+        "A": "Heroína",
+        "B": "Morfina",
+        "C": "Cocaína",
+        "D": "Cánnabis (THC)"
+      },
+      "correctAnswer": "D",
+      "correctText": "Cánnabis (THC)"
+    },
+    {
+      "id": 17,
+      "question": "Los metabolitos de los opiáceos se pueden detectar en orina durante:",
+      "options": {
+        "A": "3 días.",
+        "B": "5 días.",
+        "C": "7 días.",
+        "D": "Sólo el día de la ingesta."
+      },
+      "correctAnswer": "A",
+      "correctText": "3 días."
+    },
+    {
+      "id": 18,
+      "question": "En el análisis de sustancias de abuso en orina mediante métodos de inmunoanálisis, la presencia de efedrina puede ocasionar un resultado falso positivo por reacción cruzada con:",
+      "options": {
+        "A": "Cocaína.",
+        "B": "Anfetamina.",
+        "C": "Benzodiacepinas.",
+        "D": "Opiáceos"
+      },
+      "correctAnswer": "B",
+      "correctText": "Anfetamina."
+    },
+    {
+      "id": 19,
+      "question": "¿Cuál es la muestra de elección por razones técnicas y prácticas en el screening de las drogas de abuso?:",
+      "options": {
+        "A": "Sangre.",
+        "B": "Orina.",
+        "C": "Saliva.",
+        "D": "Heces."
+      },
+      "correctAnswer": "B",
+      "correctText": "Orina."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué drogas de abuso se determinan en el laboratorio?",
+      "options": {
+        "A": "Benzodiacepinas.",
+        "B": "Cocaína.",
+        "C": "Opiáceos.",
+        "D": "Todas son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 21,
+      "question": "Qué tipo de muestra es más usada para la determinación de las drogas y sus metabolitos",
+      "options": {
+        "A": "Orina.",
+        "B": "Plasma.",
+        "C": "Todas son falsas.",
+        "D": "Suero."
+      },
+      "correctAnswer": "A",
+      "correctText": "Orina."
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál es la muestra de elección por razones técnicas y prácticas en el cribado de las drogas de abuso en el laboratorio clínico?",
+      "options": {
+        "A": "Sangre.",
+        "B": "Orina.",
+        "C": "Saliva.",
+        "D": "Heces. Test tema 21.1: Drogas de abuso"
+      },
+      "correctAnswer": "B",
+      "correctText": "Orina."
+    },
+    {
+      "id": 23,
+      "question": "Los resultados de un análisis confirmatorio de drogas de abuso nos dan información de:",
+      "options": {
+        "A": "Informan de manera cualitativa (positivo o negativo) acerca de la droga detectada.",
+        "B": "Informan de manera cuantitativa acerca de la droga detectada y sus metabolitos.",
+        "C": "Informan de man era cualitativa y cuantitativa acerca de la droga detectada y sus metabolitos.",
+        "D": "Informan de los factores biológicos relacionados con el genotipo."
+      },
+      "correctAnswer": "C",
+      "correctText": "Informan de man era cualitativa y cuantitativa acerca de la droga detectada y sus metabolitos."
+    },
+    {
+      "id": 24,
+      "question": "¿Cuál es la muestra de elección por razones técnicas y prácticas en el cribado de las drogas de abuso?:",
+      "options": {
+        "A": "Sangre.",
+        "B": "Orina.",
+        "C": "Saliva.",
+        "D": "Heces."
+      },
+      "correctAnswer": "B",
+      "correctText": "Orina."
+    },
+    {
+      "id": 25,
+      "question": "La concentración de etanol en suero se puede determinar por métodos:",
+      "options": {
+        "A": "Enzimáticos.",
+        "B": "Cromatografía de gases.",
+        "C": "Métodos acoplados enzimáticos / oxidación electroquímica.",
+        "D": "Todas son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 26,
+      "question": "¿Qué método enzimático se utiliza para la determinación del etanol?:",
+      "options": {
+        "A": "Alcohol oxidasa.",
+        "B": "Aldehído oxidasa.",
+        "C": "Alcohol deshidrogenasa.",
+        "D": "Aldehído deshidrogenasa."
+      },
+      "correctAnswer": "C",
+      "correctText": "Alcohol deshidrogenasa."
+    },
+    {
+      "id": 27,
+      "question": "Ante una sospecha de adulteración de la muestra de orina, para la determinación de drogas de abuso, ¿qué parámetro nos indicaría que la muestra NO es orina?:",
+      "options": {
+        "A": "Una creatinina en orina inferior a 5 mg/dl.",
+        "B": "Un PH entre 4,5 y 8.",
+        "C": "Una creatinina en orina superior a 20 mg/dl.",
+        "D": "Un color de la orina amarillo ocre."
+      },
+      "correctAnswer": "A",
+      "correctText": "Una creatinina en orina inferior a 5 mg/dl."
+    },
+    {
+      "id": 28,
+      "question": "La muestra biológica más utilizada para la detección de drogas de abuso por el método de inmunoanálisis es:",
+      "options": {
+        "A": "Plasma.",
+        "B": "Orina.",
+        "C": "Suero.",
+        "D": "Saliva."
+      },
+      "correctAnswer": "B",
+      "correctText": "Orina."
+    },
+    {
+      "id": 29,
+      "question": "En un test inmunocromatográfico competitivo para la determinación cualitativa de metabolitos de drogas en orina, la aparición de una línea coloreada en la región del test y del área de control, indica:",
+      "options": {
+        "A": "Test positivo.",
+        "B": "Test negativo.",
+        "C": "Test no válido.",
+        "D": "Existencia de adulterantes en la orina."
+      },
+      "correctAnswer": "B",
+      "correctText": "Test negativo."
+    },
+    {
+      "id": 30,
+      "question": "¿Cuál de estas drogas es un estimulador del Sistema Nervioso Central (SNC)?",
+      "options": {
+        "A": "Benzodiazepinas.",
+        "B": "Alcohol.",
+        "C": "Anfetaminas.",
+        "D": "Psilobicina."
+      },
+      "correctAnswer": "C",
+      "correctText": "Anfetaminas."
+    },
+    {
+      "id": 32,
+      "question": "En la determinación de la dosis letal media ¿sobre qué porcentaje de la población de prueba se debe producir el efecto evaluado?",
+      "options": {
+        "A": "5 %de los individuos a los que se administra.",
+        "B": "50% de los individuos a los que se administra. Test tema 21.1: Drogas de abuso",
+        "C": "95% de los individuos a los que se administra.",
+        "D": "Ninguno de ellos."
+      },
+      "correctAnswer": "B",
+      "correctText": "50% de los individuos a los que se administra. Test tema 21.1: Drogas de abuso"
+    },
+    {
+      "id": 33,
+      "question": "En el cribado de sustancia de abuso, solo una afirmación es correcta:",
+      "options": {
+        "A": "La inmunocromatografía en capa fina presenta una baja sensibilidad para minimizar los falsos negativos.",
+        "B": "Se puede utilizar una inmunocromatografía en capa fina.",
+        "C": "Los test de enzimoinmunoanálisis usados para tóxicos son altamente específicos lo que imposibilita la aparición de falsos positivos.",
+        "D": "Es necesario un detector de gases acoplado a la espectrofotometría de masas para confirmar resultados negativos."
+      },
+      "correctAnswer": "B",
+      "correctText": "Se puede utilizar una inmunocromatografía en capa fina."
+    },
+    {
+      "id": 35,
+      "question": "En cuanto al cribado de Drogas de Abuso en orina, es cierto que:",
+      "options": {
+        "A": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta especificidad analítica.",
+        "B": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta sensibilidad analítica .",
+        "C": "El intervalo de tiempo de detección de estas sustancias es ilimitado desde que se produce el consumo.",
+        "D": "Los resultados obtenidos por métodos de cribado se pueden considerar definitivos y, por tanto, diagnósticos."
+      },
+      "correctAnswer": "B",
+      "correctText": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta sensibilidad analítica ."
+    },
+    {
+      "id": 37,
+      "question": "Mujer de 74 años, que es llevada a Urgencias por su hijo, que refiere haberla encontrado en casa en estado de sedación, somnolienta que apenas responde a estímulos, falta de coordinación motora e incapacidad para hablar. Se le pregunta a su hijo sobre la medicación que toma su madre y refiere tratamiento para el colesterol, la tensión arterial y que, tras fallecimiento de su padre, toma algo para la ansiedad y dormir mejor. Se le toma una muestra de orina y sangre, solicitándose bioquímica básica en suero y un test de drogas. ¿Qué método básico es el más ampliamente utilizado para screening de drogas de abuso en orina, en laboratorio de urgencias?",
+      "options": {
+        "A": "Cromatografía de gases-Espectrometría de masas (GC-MS).",
+        "B": "Gasometría.",
+        "C": "Inmunoensayo múltiple enzimático (EMIT).",
+        "D": "Inmunocromatografia."
+      },
+      "correctAnswer": "D",
+      "correctText": "Inmunocromatografia."
+    },
+    {
+      "id": 38,
+      "question": "Señale algún inconveniente en el uso de técnicas de screening de drogas en orina:",
+      "options": {
+        "A": "Facilidad de ejecución.",
+        "B": "Rapidez de resultados.",
+        "C": "Buena relación coste-efectividad.",
+        "D": "Reacciones cruzadas (falsos positivos)."
+      },
+      "correctAnswer": "D",
+      "correctText": "Reacciones cruzadas (falsos positivos)."
+    },
+    {
+      "id": 39,
+      "question": "Si se obtiene un resultado positivo para una droga en un test de screening de orina, basado en la competición del antígeno “marcado” y “no marcado” por el sitio de unión a un anticuerpo específico, ¿qué observamos? Test tema 21.1: Drogas de abuso",
+      "options": {
+        "A": "Una línea continua en la ventana T de muestra y una línea continua en la ventana C de control.",
+        "B": "Una sola línea continua en la ventana C de control.",
+        "C": "No aparece ninguna línea en el test.",
+        "D": "Una línea discontinua en la ventana C de control."
+      },
+      "correctAnswer": "B",
+      "correctText": "Una sola línea continua en la ventana C de control."
+    },
+    {
+      "id": 40,
+      "question": "La definición del cut-off de una técnica analítica es:",
+      "options": {
+        "A": "El valor del control alto.",
+        "B": "El valor del control bajo.",
+        "C": "El punto de corte (concentración de la droga en la muestra) a partir del cual se considera el resultado positivo.",
+        "D": "El método analítico del autoanalizador."
+      },
+      "correctAnswer": "C",
+      "correctText": "El punto de corte (concentración de la droga en la muestra) a partir del cual se considera el resultado positivo."
+    },
+    {
+      "id": 41,
+      "question": "El consumo continuado de drogas puede llegar a producir:",
+      "options": {
+        "A": "Daños orgánicos y cerebrales.",
+        "B": "Dependencia física y psicológica.",
+        "C": "Conductas compulsivas, agresivas o violentas.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son correctas."
+    },
+    {
+      "id": 42,
+      "question": "La solicitud de la determinación de drogas de abuso en orina mediante inmunoanálisis en el contexto de urgencia médica tiene como finalidad:",
+      "options": {
+        "A": "Confirmar su presencia en orina.",
+        "B": "Descartar su presencia en orina.",
+        "C": "Determinar el grado de intoxicación del paciente.",
+        "D": "No se debe utilizar esta prueba en urgencias."
+      },
+      "correctAnswer": "B",
+      "correctText": "Descartar su presencia en orina."
+    },
+    {
+      "id": 43,
+      "question": "El periodo de tiempo en el que es detectable la presencia en orina de una droga de abuso tras su consumo se puede definir como:",
+      "options": {
+        "A": "Sensibilidad de la prueba",
+        "B": "Especificidad de la prueba",
+        "C": "Ventana de positividad",
+        "D": "Cribado"
+      },
+      "correctAnswer": "C",
+      "correctText": "Ventana de positividad"
+    },
+    {
+      "id": 44,
+      "question": "Indique cuál de los siguientes agentes farmacológicos puede ser causa de resultados falsos positivos para anfetaminas en el cribado de drogas de abuso en orina:",
+      "options": {
+        "A": "Clomipramina.",
+        "B": "Amoxicilina.",
+        "C": "Ibuprofeno.",
+        "D": "Ranitidina."
+      },
+      "correctAnswer": "D",
+      "correctText": "Ranitidina."
+    },
+    {
+      "id": 45,
+      "question": "¿Qué métodos en análisis presuntivos se usan para detección de benzodiazepinas?",
+      "options": {
+        "A": "GC-MS",
+        "B": "LC-MS/MS",
+        "C": "Inmunoanálisis o HPLC",
+        "D": "GC-MS o LC-MS/MS"
+      },
+      "correctAnswer": "C",
+      "correctText": "Inmunoanálisis o HPLC"
+    }
+  ]
+}

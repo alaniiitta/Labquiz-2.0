@@ -33,6 +33,7 @@ export default function ExplanationDisplay({ structured, fallback, correctAnswer
     porQueLaCorrecta,
     motivosPorOpcion,
     claveMemorizar,
+    ojoEnElExamen,
     fuente,
     advertenciaRevision,
   } = structured;
@@ -59,6 +60,12 @@ export default function ExplanationDisplay({ structured, fallback, correctAnswer
       {motivoDeLaSeleccion && (
         <p className="explanationWrong">
           <strong>Por qué tu opción no es correcta:</strong> {motivoDeLaSeleccion}
+        </p>
+      )}
+
+      {ojoEnElExamen && (
+        <p className="explanationWarning">
+          <strong>Ojo en el examen:</strong> {ojoEnElExamen}
         </p>
       )}
 

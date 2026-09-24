@@ -27,8 +27,10 @@ export const loadUserData = () => {
 export const saveUserData = (userData) => {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(userData));
+    return true;
   } catch (error) {
     console.error("No se pudo guardar el progreso", error);
+    return false;
   }
 };
 

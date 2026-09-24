@@ -1,0 +1,740 @@
+{
+  "tema": 21,
+  "titulo": "Fármacos",
+  "source_file": "Test tema 21.2 Fármacos (respuestas).pdf",
+  "total_questions": 61,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Las técnicas analíticas para monitorización de fármacos pueden ser:",
+      "options": {
+        "A": "Inmunoensayos.",
+        "B": "Técnicas cromatográficas.",
+        "C": "Inmunonefelométricas.",
+        "D": "Todas son verdaderas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas son verdaderas."
+    },
+    {
+      "id": 2,
+      "question": "El movimiento de un fármaco desde el sitio de administración al torrente sanguíneo se denomina:",
+      "options": {
+        "A": "Absorción.",
+        "B": "Distribución.",
+        "C": "Liberación.",
+        "D": "Excreción."
+      },
+      "correctAnswer": "A",
+      "correctText": "Absorción."
+    },
+    {
+      "id": 3,
+      "question": "La digoxina:",
+      "options": {
+        "A": "Presenta una relación dosis-concentración muy estable.",
+        "B": "Es un fármaco psicoactivo.",
+        "C": "Tiene un estrecho margen terapéutico.",
+        "D": "No presenta efectos secundarios lesivos."
+      },
+      "correctAnswer": "C",
+      "correctText": "Tiene un estrecho margen terapéutico."
+    },
+    {
+      "id": 4,
+      "question": "Se recomienda la monitorización de un fármaco cuando:",
+      "options": {
+        "A": "La ventana terapéutica es amplia.",
+        "B": "No presenta toxicidad.",
+        "C": "Se observa la respuesta terapéutica esperada.",
+        "D": "Se observa gr an variabilidad individual en la farmacocinética."
+      },
+      "correctAnswer": "D",
+      "correctText": "Se observa gr an variabilidad individual en la farmacocinética."
+    },
+    {
+      "id": 5,
+      "question": "No se recomienda la monitorización de un fármaco cuando",
+      "options": {
+        "A": "Se sospecha incumplimiento del tratamiento.",
+        "B": "Se sospechan interacciones con otros medicamentos.",
+        "C": "Se sospechan posibles síntomas de toxicidad.",
+        "D": "Termine el tratamiento."
+      },
+      "correctAnswer": "D",
+      "correctText": "Termine el tratamiento."
+    },
+    {
+      "id": 6,
+      "question": "La finalidad de la monitorización de fármacos en terapéutica o control del tratamiento farmacológico es:",
+      "options": {
+        "A": "Obtener información sobre las acciones de los fármacos en el ser humano mediante la investigación clínica.",
+        "B": "Desarrollo de programas de farmacovigilancia.",
+        "C": "Individualizar el tratamiento farmacológico, adaptándolo a las necesidades de cada paciente.",
+        "D": "Sistematizar la investigación clínica."
+      },
+      "correctAnswer": "C",
+      "correctText": "Individualizar el tratamiento farmacológico, adaptándolo a las necesidades de cada paciente."
+    },
+    {
+      "id": 7,
+      "question": "La ciclosporina, es un fármaco que se utiliza en la monitorización del tratamiento de:",
+      "options": {
+        "A": "Trasplantes.",
+        "B": "Trastornos bipolares",
+        "C": "Como broncodilatador.",
+        "D": "Tratamiento de crisis epilépticas"
+      },
+      "correctAnswer": "A",
+      "correctText": "Trasplantes."
+    },
+    {
+      "id": 8,
+      "question": "Se recomienda la monitorización de un fármaco cuando:",
+      "options": {
+        "A": "Su ventana terapéutica es reducida y bien definida.",
+        "B": "Se sospecha incumplimiento del tratamiento.",
+        "C": "Existen otras patologías que pueden modificar la respuesta.",
+        "D": "Todas son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 9,
+      "question": "La absorción de un fármaco es su acceso a la circulación sistémica, fenómeno que depende de:",
+      "options": {
+        "A": "Factores biológicos, fisiológicos y/o patológicos.",
+        "B": "Del examen citológico realizado.",
+        "C": "Del examen químico.",
+        "D": "Del examen microbiológico."
+      },
+      "correctAnswer": "A",
+      "correctText": "Factores biológicos, fisiológicos y/o patológicos."
+    },
+    {
+      "id": 10,
+      "question": "La monitorización de la concentración plasmática de un fármaco es útil por:",
+      "options": {
+        "A": "La escasa variabilidad interindividual",
+        "B": "El estrecho margen terapéutico",
+        "C": "Excelente correlación dosis eficacia-terapéutica",
+        "D": "El escaso coste de los reactivos"
+      },
+      "correctAnswer": "B",
+      "correctText": "El estrecho margen terapéutico"
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál es la muestra más utilizada en monitorización de fármacos?:",
+      "options": {
+        "A": "Orina.",
+        "B": "Suero. Test tema 21.2: Fármacos",
+        "C": "Sangre total",
+        "D": "Cualquiera de los anteriores"
+      },
+      "correctAnswer": "B",
+      "correctText": "Suero. Test tema 21.2: Fármacos"
+    },
+    {
+      "id": 12,
+      "question": "En la monitorización de un fármaco. ¿Qué se considera un estado de equilibrio estacionario?:",
+      "options": {
+        "A": "Ingestión y excreción constantes.",
+        "B": "Se alcanza entre 4 y 5 veces el tiempo de semivida de eliminación del fármaco.",
+        "C": "Las dos anteriores son ciertas .",
+        "D": "Niveles plasmáticos no constantes del fármaco."
+      },
+      "correctAnswer": "C",
+      "correctText": "Las dos anteriores son ciertas ."
+    },
+    {
+      "id": 13,
+      "question": "El principal órgano excretor de fármacos y sus metabolitos es:",
+      "options": {
+        "A": "Hígado.",
+        "B": "Intestino.",
+        "C": "Vesícula biliar.",
+        "D": "Riñón."
+      },
+      "correctAnswer": "D",
+      "correctText": "Riñón."
+    },
+    {
+      "id": 14,
+      "question": "La característica principal dentro de la farmacología general de las drogas de abuso, que se define como” a su paso por el organismo, se convierte en una sustancia de hidrosolubilidad creciente con el objeto de ser eliminada vía renal”, corresponde con:",
+      "options": {
+        "A": "Distribución.",
+        "B": "Absorción.",
+        "C": "Eliminación.",
+        "D": "Metabolismo."
+      },
+      "correctAnswer": "D",
+      "correctText": "Metabolismo."
+    },
+    {
+      "id": 15,
+      "question": "Las técnicas analíticas de monitorización de fármacos pueden ser:",
+      "options": {
+        "A": "Enzimoinmunoanálisis.",
+        "B": "Inmunoensayos.",
+        "C": "Cromatografía.",
+        "D": "Todas son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 16,
+      "question": "La farmacocinética estudia:",
+      "options": {
+        "A": "Todo lo relacionado con el origen de los fármacos naturales.",
+        "B": "Las acciones y los efectos de los fármacos.",
+        "C": "Los procesos y factores que determina n la cantidad de fármaco presente en el sitio en que debe ejercer su efecto biológico en cada momento, a partir de su administración.",
+        "D": "Ninguna es correcta."
+      },
+      "correctAnswer": "C",
+      "correctText": "Los procesos y factores que determina n la cantidad de fármaco presente en el sitio en que debe ejercer su efecto biológico en cada momento, a partir de su administración."
+    },
+    {
+      "id": 17,
+      "question": "Las bases farmacocinéticas para la utilización de fármacos son:",
+      "options": {
+        "A": "Absorción y eliminación.",
+        "B": "Absorción, distribución y eliminación.",
+        "C": "Absorción, eliminación y excreción.",
+        "D": "Eliminación y excreción."
+      },
+      "correctAnswer": "B",
+      "correctText": "Absorción, distribución y eliminación."
+    },
+    {
+      "id": 18,
+      "question": "El margen de concentración del fármaco en el que se ha demostrado que es eficaz y tiene menor tasa de efectos adversos, se denomina:",
+      "options": {
+        "A": "Intervalo ter apéutico.",
+        "B": "Vida media.",
+        "C": "Concentración valle.",
+        "D": "Aclaración plasmática."
+      },
+      "correctAnswer": "A",
+      "correctText": "Intervalo ter apéutico."
+    },
+    {
+      "id": 19,
+      "question": "Es un fármaco antipsicótico:",
+      "options": {
+        "A": "Amoxicilina.",
+        "B": "Fenobarbital.",
+        "C": "Digoxina.",
+        "D": "Litio."
+      },
+      "correctAnswer": "D",
+      "correctText": "Litio."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué metodología en la monitorización de fármacos inmunosupresores es la técnica de referencia por presentar menos reacciones cruzadas con los metabolitos?:",
+      "options": {
+        "A": "L a cromatografía líquida de alta resolución acoplada a la espectrometría de masas.",
+        "B": "La cromatografía liquida de alta resolución acoplada a un detector ultravioleta.",
+        "C": "El inmunoensayo.",
+        "D": "Ninguna de las anteriores."
+      },
+      "correctAnswer": "A",
+      "correctText": "L a cromatografía líquida de alta resolución acoplada a la espectrometría de masas."
+    },
+    {
+      "id": 21,
+      "question": "En farmacocinética se denomina Concentración Mínima Eficaz (CME) a:",
+      "options": {
+        "A": "Aquella concentración a partir de la que se inicia el efecto tóxico Test tema 21.2: Fármacos",
+        "B": "Máximo nivel de concentración plasmática del fármaco que representa el momento en el que los procesos de absorción y eliminación se igualan",
+        "C": "Aquella concentración por encima de la cual suele observarse el efecto terapéutico",
+        "D": "Espacio de tiempo entre el momento de la administración y el comienzo del efecto terapéutico"
+      },
+      "correctAnswer": "C",
+      "correctText": "Aquella concentración por encima de la cual suele observarse el efecto terapéutico"
+    },
+    {
+      "id": 22,
+      "question": "La digoxina es:",
+      "options": {
+        "A": "Un inmunosupresor",
+        "B": "Un cardiotrópico",
+        "C": "Un anticonvulsivo",
+        "D": "Un antibiótico"
+      },
+      "correctAnswer": "B",
+      "correctText": "Un cardiotrópico"
+    },
+    {
+      "id": 23,
+      "question": "¿Qué parámetro bioquímico debe acompañar a la determinación de los niveles séricos de digoxina y por tanto formar parte del protocolo de monitorización de dicho fármaco?:",
+      "options": {
+        "A": "Calcio",
+        "B": "Magnesio",
+        "C": "Potasio",
+        "D": "Todos los anteriores"
+      },
+      "correctAnswer": "D",
+      "correctText": "Todos los anteriores"
+    },
+    {
+      "id": 24,
+      "question": "Son fármacos antineoplásicos:",
+      "options": {
+        "A": "Lidocaína",
+        "B": "Metotrexato",
+        "C": "Digoxina",
+        "D": "Haloperidol"
+      },
+      "correctAnswer": "B",
+      "correctText": "Metotrexato"
+    },
+    {
+      "id": 25,
+      "question": "¿Cuál de estas afirmaciones es correcta, respecto a la monitorización de aminoglicósidos?",
+      "options": {
+        "A": "Hay que esperar 12 horas después de la administración de estos fármacos.",
+        "B": "Se determinan en orina.",
+        "C": "Se miden concentraciones pico y valle.",
+        "D": "No se monitorizan frecuentemente."
+      },
+      "correctAnswer": "C",
+      "correctText": "Se miden concentraciones pico y valle."
+    },
+    {
+      "id": 26,
+      "question": "¿Cuál de estos fármacos es un antibiótico que tiene actividad inmunosupresora?:",
+      "options": {
+        "A": "Metotrexato.",
+        "B": "Sirolimus.",
+        "C": "Valproato.",
+        "D": "Clozapina."
+      },
+      "correctAnswer": "B",
+      "correctText": "Sirolimus."
+    },
+    {
+      "id": 27,
+      "question": "En un paciente con trastorno bipolar, ¿cuál de estas determinaciones de fármacos se solicitarán?:",
+      "options": {
+        "A": "Antidepresivos tricíclicos.",
+        "B": "Clozapina.",
+        "C": "Litio.",
+        "D": "Fenobarbital."
+      },
+      "correctAnswer": "C",
+      "correctText": "Litio."
+    },
+    {
+      "id": 28,
+      "question": "¿Cuál de los siguientes fármacos NO está indicado como inmunosupresor?:",
+      "options": {
+        "A": "Ciclosporina.",
+        "B": "Amitriptilina.",
+        "C": "Tacrolimus.",
+        "D": "Micofenolato"
+      },
+      "correctAnswer": "B",
+      "correctText": "Amitriptilina."
+    },
+    {
+      "id": 29,
+      "question": "¿Cuál de estas drogas es un potente inhibidor reversible, selectivo y no competitivo de la enzima inosina monofosfato deshidrogenasa y utilizado contra el rechazo en los trasplantes de órganos?:",
+      "options": {
+        "A": "Ciclosporina.",
+        "B": "Ácido micofenólico.",
+        "C": "Tacrolimus.",
+        "D": "Everolimus"
+      },
+      "correctAnswer": "B",
+      "correctText": "Ácido micofenólico."
+    },
+    {
+      "id": 30,
+      "question": "El tacrolimus es:",
+      "options": {
+        "A": "Una enzima",
+        "B": "Un fármaco cardíaco",
+        "C": "Un fármaco ansiolítico",
+        "D": "Un fárma co antineoplásico"
+      },
+      "correctAnswer": "D",
+      "correctText": "Un fárma co antineoplásico"
+    },
+    {
+      "id": 31,
+      "question": "De los fármacos que figuran a continuación. ¿En cuál se realiza una medición de valle y otra de pico?:",
+      "options": {
+        "A": "Digoxina",
+        "B": "Ácido valproico",
+        "C": "A mikacina",
+        "D": "Litio"
+      },
+      "correctAnswer": "C",
+      "correctText": "A mikacina"
+    },
+    {
+      "id": 32,
+      "question": "¿Cuál de los siguientes componentes es un alcaloide de la familia metilxantina que interviene en la estimulación del Sistema Nervioso Central?: Test tema 21.2: Fármacos",
+      "options": {
+        "A": "Paracetamol.",
+        "B": "Teofilina.",
+        "C": "Digoxina.",
+        "D": "Fenobarbital."
+      },
+      "correctAnswer": "B",
+      "correctText": "Teofilina."
+    },
+    {
+      "id": 33,
+      "question": "Adalimumab es un anticuerpo monoclonal:",
+      "options": {
+        "A": "Antagonista del TNF - alfa.",
+        "B": "Que actúa como antagonista de la IL-6.",
+        "C": "IgG1 específico para el antígeno CD-52.",
+        "D": "Quimérico que actúa inhibiendo el factor de crecimiento endotelial vascular (VEGF)."
+      },
+      "correctAnswer": "A",
+      "correctText": "Antagonista del TNF - alfa."
+    },
+    {
+      "id": 34,
+      "question": "Si un fármaco se administra por vía intravenosa, ¿cuál de las siguientes fases farmacocinéticas no es aplicable?",
+      "options": {
+        "A": "Absorción",
+        "B": "Distribución",
+        "C": "Metabolismo",
+        "D": "Eliminación"
+      },
+      "correctAnswer": "A",
+      "correctText": "Absorción"
+    },
+    {
+      "id": 35,
+      "question": "La excreción de un fármaco hace referencia a",
+      "options": {
+        "A": "La distribución desde la circulación sanguínea hasta los tejidos corporales.",
+        "B": "A la eliminación del fármaco del organismo.",
+        "C": "A la transformación del fármaco.",
+        "D": "Ninguna es correcta."
+      },
+      "correctAnswer": "B",
+      "correctText": "A la eliminación del fármaco del organismo."
+    },
+    {
+      "id": 36,
+      "question": "¿Cómo se denomina la concentración sérica del fármaco asociada con la aparición de toxicidad?",
+      "options": {
+        "A": "CME.",
+        "B": "CEM.",
+        "C": "CIM.",
+        "D": "CMT."
+      },
+      "correctAnswer": "D",
+      "correctText": "CMT."
+    },
+    {
+      "id": 37,
+      "question": "No es un factor fisiopatológico que afectan al metabolismo y excreción de un fármaco",
+      "options": {
+        "A": "Insuficiencia renal.",
+        "B": "Nefropatía.",
+        "C": "Insuficiencia cardiaca.",
+        "D": "Insuficiencia hepática."
+      },
+      "correctAnswer": "C",
+      "correctText": "Insuficiencia cardiaca."
+    },
+    {
+      "id": 38,
+      "question": "¿Cuál de las siguientes técnicas es la más adecuada para técnica de referencia en moléculas como fármacos y hormonas?",
+      "options": {
+        "A": "Espectrometría de absorción atómica",
+        "B": "Espectrometría de emisión",
+        "C": "Espectrometría de reflectancia",
+        "D": "Espectrometría de masas"
+      },
+      "correctAnswer": "D",
+      "correctText": "Espectrometría de masas"
+    },
+    {
+      "id": 39,
+      "question": "¿Qué tipo de muestra NO se utiliza habitualmente para la monitorización de fármacos?:",
+      "options": {
+        "A": "Orina.",
+        "B": "Sangre total.",
+        "C": "Plasma.",
+        "D": "Suero."
+      },
+      "correctAnswer": "A",
+      "correctText": "Orina."
+    },
+    {
+      "id": 41,
+      "question": "No es un factor fisiopatológico que afecta al metabolismo y excreción de un fármaco:",
+      "options": {
+        "A": "Insuficiencia renal.",
+        "B": "Insuficiencia hepática.",
+        "C": "Insuficiencia cardíaca.",
+        "D": "Nefropatía."
+      },
+      "correctAnswer": "C",
+      "correctText": "Insuficiencia cardíaca."
+    },
+    {
+      "id": 43,
+      "question": "La ciclosporina, es un fármaco que se utiliza en la monitorización de:",
+      "options": {
+        "A": "Psicoactivos.",
+        "B": "Antiepilépticos.",
+        "C": "Inmunosupresores .",
+        "D": "Antiasmáticos."
+      },
+      "correctAnswer": "C",
+      "correctText": "Inmunosupresores ."
+    },
+    {
+      "id": 46,
+      "question": "¿Cuál es la asociación correcta?",
+      "options": {
+        "A": "Farmacogenética - estudio la relación entre el polimorfismo genético y la respuesta individual a los fármacos",
+        "B": "Farmacogenética- estudio del proceso ADME (absorción, distribución, metabolismo y excreción)",
+        "C": "Farmacocinética- estudio de la acción y efectos que los medicamentos tienen en el organismo",
+        "D": "Farmacodinamia- estudio la relación entre el polimorfismo genético y la respuesta individual a los fármacos"
+      },
+      "correctAnswer": "A",
+      "correctText": "Farmacogenética - estudio la relación entre el polimorfismo genético y la respuesta individual a los fármacos"
+    },
+    {
+      "id": 47,
+      "question": "¿Cuál de las siguientes afirmaciones es FALSA?",
+      "options": {
+        "A": "Como regla general la concentración máxima se solicita 15-30 min después de la administración intravenosa del fármaco, excepto en fármacos de distribución lenta.",
+        "B": "La concentración mínima se mide inmediatamente antes de la siguiente dosis.",
+        "C": "La extracción de la muestra conviene hacerla a través de la vía del paciente por la que se ha administrado el fármaco objeto de monitorización.",
+        "D": "La determinación de la concentración del fármaco puede hacerse en plasma, suero o sangre total."
+      },
+      "correctAnswer": "C",
+      "correctText": "La extracción de la muestra conviene hacerla a través de la vía del paciente por la que se ha administrado el fármaco objeto de monitorización."
+    },
+    {
+      "id": 48,
+      "question": "Sobre la farmacocinética, señale la afirmación correcta:",
+      "options": {
+        "A": "Establece la relación entre la concentración del fármaco en el receptor y el efecto farmacológico.",
+        "B": "Determina la relación entre la dosis administrada y la concentración plasmática.",
+        "C": "Es difícil de prever ya que no depende de las variaciones farmacogenómicas.",
+        "D": "Se determina como concentración máxima, pico, únicamente en sangre total."
+      },
+      "correctAnswer": "B",
+      "correctText": "Determina la relación entre la dosis administrada y la concentración plasmática."
+    },
+    {
+      "id": 49,
+      "question": "En la monitorización de fármacos, salvo excepciones, ¿cuál es el momento adecuado de la toma de muestra tras alcanzar el estado estacionario?",
+      "options": {
+        "A": "Extracción tras administrar la primera dosis de fármaco al paciente",
+        "B": "Niveles valle (j usto antes de la siguien te dosis) que en la mayoría de los fármacos son los que proporcionan la concentración valle del estado estacionario",
+        "C": "No es relevante cuándo realizar la extracción de la muestra para conocer si los niveles están dentro de rango terapéutico",
+        "D": "Ninguna es correcta"
+      },
+      "correctAnswer": "B",
+      "correctText": "Niveles valle (j usto antes de la siguien te dosis) que en la mayoría de los fármacos son los que proporcionan la concentración valle del estado estacionario"
+    },
+    {
+      "id": 50,
+      "question": "En la profilaxis del rechazo de trasplantes, se monitorizan algunos fármacos denominados inmunosupresores. ¿Cuál de los siguientes fármacos NO se considera un inmunosupresor?",
+      "options": {
+        "A": "Ciclosporina.",
+        "B": "Sirolimus.",
+        "C": "Tacrolimus. Test tema 21.2: Fármacos",
+        "D": "Infliximab."
+      },
+      "correctAnswer": "D",
+      "correctText": "Infliximab."
+    },
+    {
+      "id": 51,
+      "question": "¿Cuál de los siguientes fármacos se caracteriza por presentar un gran volumen de distribución, superior al resto de los fármacos?",
+      "options": {
+        "A": "Digoxina.",
+        "B": "Teofilina.",
+        "C": "Vancomicina.",
+        "D": "Fenotoína."
+      },
+      "correctAnswer": "A",
+      "correctText": "Digoxina."
+    },
+    {
+      "id": 52,
+      "question": "La determinación de niveles de digoxina es conveniente acompañarla de la determinación de:",
+      "options": {
+        "A": "Fenobarbital.",
+        "B": "Glucosa.",
+        "C": "GGT.",
+        "D": "Potasio."
+      },
+      "correctAnswer": "D",
+      "correctText": "Potasio."
+    },
+    {
+      "id": 53,
+      "question": "Los medicamentos susceptibles de monitorización farmacológica se consideran que deben cumplir alguna de las siguientes características. ¿Cuál es la falsa?",
+      "options": {
+        "A": "Falta de relación entre la dosis y el efecto farmacológico",
+        "B": "Margen terapéutico estrecho",
+        "C": "Tratamientos a corto plazo",
+        "D": "Toxicidad no bien definida"
+      },
+      "correctAnswer": "C",
+      "correctText": "Tratamientos a corto plazo"
+    },
+    {
+      "id": 54,
+      "question": "¿Cuál de los siguientes fármacos es cardioactivo?",
+      "options": {
+        "A": "Tobramicina",
+        "B": "Valproato",
+        "C": "Carbamazepina",
+        "D": "Digoxina"
+      },
+      "correctAnswer": "D",
+      "correctText": "Digoxina"
+    },
+    {
+      "id": 55,
+      "question": "La medida de los siguientes fármacos se realiza en sangre total:",
+      "options": {
+        "A": "Tacrolimus.",
+        "B": "Ciclosporina.",
+        "C": "Everolimus.",
+        "D": "Todas las anteriores son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas."
+    },
+    {
+      "id": 56,
+      "question": "No es una característica que debe cumplir un fármaco susceptible de monitorización farmacológica:",
+      "options": {
+        "A": "Tratamientos cortos.",
+        "B": "Margen terapéutico estrecho.",
+        "C": "Amplia variabilidad interindividual.",
+        "D": "Toxicidad no bien definida."
+      },
+      "correctAnswer": "A",
+      "correctText": "Tratamientos cortos."
+    },
+    {
+      "id": 57,
+      "question": "En el tratamiento con metrotexato, señale la opción falsa:",
+      "options": {
+        "A": "El mejor indicador de su eficacia y seguridad son sus concentraciones plasmáticas.",
+        "B": "Es necesario prolongar el tiempo de monitorización cuando se comprueba que su eliminación está comprometida.",
+        "C": "Su eliminación es independiente del pH de la orina.",
+        "D": "Se administra a dosis altas en el tratamiento de algunas neoplasias malignas, como linfoma, leucemia linfática aguda y osteosarcoma."
+      },
+      "correctAnswer": "C",
+      "correctText": "Su eliminación es independiente del pH de la orina."
+    },
+    {
+      "id": 58,
+      "question": "¿Qué factor influye en la monitorización de un fármaco?",
+      "options": {
+        "A": "Fijación a proteínas plasmáticas.",
+        "B": "Absorción del fármaco.",
+        "C": "Metabolismo del fármaco.",
+        "D": "Todos son factores que influyen en la monitorización."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todos son factores que influyen en la monitorización."
+    },
+    {
+      "id": 59,
+      "question": "La actividad de salud pública que tiene como objetivo identificar, cuantificar, evaluar y prevenir los riesgos asociados al uso de los medicamentos una vez comercializados se denomina:",
+      "options": {
+        "A": "Farmacocinética",
+        "B": "Farmacopea",
+        "C": "Farmacovigilancia",
+        "D": "Farmacoepidemiologia"
+      },
+      "correctAnswer": "C",
+      "correctText": "Farmacovigilancia"
+    },
+    {
+      "id": 60,
+      "question": "Los efectos perjudiciales de un fármaco sobre un organismo o tejido debidos a una dosis excesiva, a la ingestión de un fármaco pensado para un uso externo y a la acumulación del medicamente en la Test tema 21.2: Fármacos sangre debido a una alteración del metabolismo o la excreción, se denomina:",
+      "options": {
+        "A": "Alergia a los fármacos",
+        "B": "Tolerancia farmacológica",
+        "C": "Reacción anafiláctica",
+        "D": "Toxicidad farmacológica"
+      },
+      "correctAnswer": "D",
+      "correctText": "Toxicidad farmacológica"
+    },
+    {
+      "id": 61,
+      "question": "Toda materia, cualquiera que sea su origen (humano, animal, vegetal, químico o de otro tipo) a la que se le atribuye una actividad apropiada para constituir un medicamento, se conoce como:",
+      "options": {
+        "A": "Medicamento genérico",
+        "B": "Excipiente",
+        "C": "Principio activo",
+        "D": "Placebo"
+      },
+      "correctAnswer": "C",
+      "correctText": "Principio activo"
+    },
+    {
+      "id": 62,
+      "question": "Respecto a la digoxina, señale afirmación correcta:",
+      "options": {
+        "A": "Tiene un amplio margen terapéutico, no es necesaria la monitorización de sus concentraciones en sangre",
+        "B": "Los niveles se pueden ver modificados por factores como la edad, función renal y función tiroidea",
+        "C": "Es un antibiótico de alta toxicidad por lo que debe ser monitorizado en las concentraciones pico y valle",
+        "D": "Se analiza siempre en sangre total"
+      },
+      "correctAnswer": "B",
+      "correctText": "Los niveles se pueden ver modificados por factores como la edad, función renal y función tiroidea"
+    },
+    {
+      "id": 63,
+      "question": "¿Cuál de estas afirmaciones es correcta, respecto a la monitorización de aminoglicósidos?:",
+      "options": {
+        "A": "Hay que esperar 12 horas después de la administración de estos fármacos.",
+        "B": "Se determinan en orina.",
+        "C": "Se miden concentraciones pico y valle.",
+        "D": "No se monitorizan frecuentemente."
+      },
+      "correctAnswer": "C",
+      "correctText": "Se miden concentraciones pico y valle."
+    },
+    {
+      "id": 64,
+      "question": "Hablamos de ... a la disciplina que tiene como objetivo definir los determinantes genéticos individuales que condicionan los efectos de los fármacos:",
+      "options": {
+        "A": "Farmacogenómica",
+        "B": "Farmacología",
+        "C": "Proteómica",
+        "D": "Farmacogenética"
+      },
+      "correctAnswer": "D",
+      "correctText": "Farmacogenética"
+    },
+    {
+      "id": 65,
+      "question": "Si en el estado estacionario la concentración de fármaco es demasiado alta la decisión más adecuada es:",
+      "options": {
+        "A": "Disminuir el intervalo entre dosis",
+        "B": "Disminuir la dosis",
+        "C": "Disminuir el intervalo entre dosis y la dosis",
+        "D": "Cambiar la vía de administración"
+      },
+      "correctAnswer": "B",
+      "correctText": "Disminuir la dosis"
+    }
+  ]
+}

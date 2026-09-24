@@ -9,7 +9,7 @@ import {parsePdfQuestions} from "./pdfPipeline.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
-import {createBackup,loadUserData,parseBackup,saveUserData} from "./lib/storage.js";
+import {clearTestSession,createBackup,loadSavedTest,loadUserData,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
@@ -46,14 +46,34 @@ const getSyllabusPdfs=id=>Object.entries(syllabusPdfFiles)
 const getAllQuestions=()=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id})));
 const getFailedQuestions=progress=>getAllQuestions().filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
 const getFavoriteQuestions=favorites=>getAllQuestions().filter(question=>favorites.includes(getQuestionIdForProgress(question)));
+const sameAnswerSet=(a=[],b=[])=>a.length===b.length&&[...a].sort().join("\u0000")===[...b].sort().join("\u0000");
+// Recupera el test en curso solo si todas sus preguntas siguen en el banco sin cambios.
+const loadResumableTest=()=>{
+ const session=loadSavedTest();
+ if(!session||!Array.isArray(session.questions)||!session.questions.length||!["topic","failed","mixed"].includes(session.mode)) return null;
+ const bankById=new Map(getAllQuestions().map(question=>[getQuestionIdForProgress(question),question]));
+ const questions=session.questions.map(saved=>{
+  const current=bankById.get(getQuestionIdForProgress(saved));
+  if(!current||current.question!==saved.question||!sameAnswerSet(current.answers,saved.answers)) return null;
+  const correctAnswer=saved.answers.indexOf(current.answers[current.correctAnswer]);
+  return correctAnswer<0?null:{...current,answers:saved.answers,correctAnswer};
+ });
+ if(questions.some(question=>!question)) return null;
+ const index=Math.min(Math.max(0,Number(session.index)||0),questions.length-1);
+ const answers=Object.fromEntries(Object.entries(session.answers??{}).filter(([key,value])=>Number(key)<questions.length&&Number.isInteger(value)));
+ return {mode:session.mode,topicId:session.topicId??null,questions,index,answers};
+};
 
 function App(){
  const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[userData,setUserData]=useState(loadUserData);
- const go=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
- const openTest=(topicId,mode="topic",questionIds=null,questionCount=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,sessionId:config.sessionId+1}));go("test")};
+ const show=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
+ const openTest=(topicId,mode="topic",questionIds=null,questionCount=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,sessionId:config.sessionId+1}));show("test")};
+ // ir a "test" sin configuración abre siempre el selector de temas, no el último test
+ const go=p=>p==="test"?openTest(null):show(p);
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
  const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
- useEffect(()=>saveUserData(userData),[userData]);
+ const [saveFailed,setSaveFailed]=useState(false);
+ useEffect(()=>setSaveFailed(!saveUserData(userData)),[userData]);
  useEffect(()=>{document.documentElement.dataset.theme=userData.theme??"light"},[userData.theme]);
  return <div className="app">
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
@@ -63,10 +83,11 @@ function App(){
    ].map(([id,label,Icon])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)}><Icon/><span>{label}</span></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
-  <main className={page==="test"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" onClick={()=>setMobile(true)}><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
+  <main className={page==="test"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" type="button" onClick={()=>setMobile(true)} aria-label="Abrir menú"><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
+  {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
-  {page==="topic"&&selected&&<TopicPage topic={selected} pdfs={getSyllabusPdfs(selected.id)} go={go}/>}
+  {page==="topic"&&selected&&<TopicPage topic={selected} pdfs={getSyllabusPdfs(selected.id)} go={go} onStartTest={()=>openTest(selected.id)}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>openTest(null,"mixed",null,count)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
@@ -138,10 +159,10 @@ function TopicRow({t,onClick}){return <button className="topicRow" onClick={onCl
 function SummaryPage({openTopic}){const [q,setQ]=useState("");const filtered=topics.filter(t=>t.title.toLowerCase().includes(q.toLowerCase()));return <div>
  <div className="pageIntro"><p>Selecciona un tema para consultar su contenido.</p><div className="search"><Search/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Buscar tema..."/></div></div>
  <div className="filterRow"><span>{topics.length} temas</span></div>
- <div className="resumeGrid">{filtered.map(t=>{const summary=getSummary(t.id);return <article className="resumeCard" key={t.id} onClick={()=>openTopic(t)}><div className="resumeTop"><span className="num">{String(t.id).padStart(2,"0")}</span></div><h3>{t.title}</h3><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p><div className="resumeLinks"><span>Banco del tema</span><ChevronRight/></div></article>})}</div>
+ <div className="resumeGrid">{filtered.map(t=>{const summary=getSummary(t.id);return <article className="resumeCard" key={t.id} role="button" tabIndex={0} onClick={()=>openTopic(t)} onKeyDown={e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openTopic(t)}}}><div className="resumeTop"><span className="num">{String(t.id).padStart(2,"0")}</span></div><h3>{t.title}</h3><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p><div className="resumeLinks"><span>Banco del tema</span><ChevronRight/></div></article>})}</div>
  </div>}
 
-function TopicPage({topic,pdfs,go}){const summary=getSummary(topic.id);return <div>
+function TopicPage({topic,pdfs,go,onStartTest}){const summary=getSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
  <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}{pdfs.length>0&&<div className="topicPdfLinks">{pdfs.map(pdf=><a className="topicPdfLink" href={pdf.url} target="_blank" rel="noreferrer" key={pdf.url}><BookOpen/><span><b>Abrir temario PDF</b><small>{pdf.title}</small></span></a>)}</div>}</div></section>
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
@@ -152,7 +173,7 @@ function TopicPage({topic,pdfs,go}){const summary=getSummary(topic.id);return <d
   <h3>⭐ Preguntas que debes dominar</h3><div className="questionStrip">Añade aquí las preguntas estrella del tema.</div>
   <h3>🧠 Reglas mnemotécnicas</h3>{summary?.mnemonics?.length>0?<ul className="mnemonicList">{summary.mnemonics.map(rule=><li key={rule}>{formatEmphasis(rule)}</li>)}</ul>:<div className="questionStrip">Espacio preparado para tus reglas y trucos de memoria.</div>}
  </article>
- <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={()=>go("test")}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("review")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
+ <aside className="topicActions"><div className="card"><h3>¿Qué hacemos ahora?</h3><button className="action" onClick={onStartTest}><Brain/><div><b>Hacer test</b><small>Preguntas disponibles del tema</small></div><ChevronRight/></button><button className="action"><Star/><div><b>Marcar para repasar</b><small>Guardar este tema</small></div></button><button className="action" onClick={()=>go("wrong")}><RotateCcw/><div><b>Repasar errores</b><small>Solo preguntas falladas</small></div></button></div></aside></div>
  </div>}
 
 const crossTopicCopy={
@@ -160,13 +181,15 @@ const crossTopicCopy={
  mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"}
 };
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,mode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
+ const [mode,setMode]=useState(initialMode);
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
+ const [savedTest,setSavedTest]=useState(()=>initialMode==="topic"&&!initialTopicId?loadResumableTest():null);
  const [questionCount,setQuestionCount]=useState(20);
  const isCrossTopic=mode==="failed"||mode==="mixed";
  const [testQuestions,setTestQuestions]=useState(()=>{
-  if(mode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
-  if(mode==="mixed") return selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20).map(question=>shuffleQuestionOptions(question));
+  if(initialMode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
+  if(initialMode==="mixed") return selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20).map(question=>shuffleQuestionOptions(question));
   return initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[];
  });
  const [i,setI]=useState(0);
@@ -183,7 +206,8 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const score=testQuestions.reduce((total,question,index)=>total+(answersByIndex[index]===question.correctAnswer?1:0),0);
  const isFavorite=q?favorites.includes(getQuestionIdForProgress(q)):false;
  const isLearned=q?questionProgress[getQuestionIdForProgress(q)]?.marcadaAprendida===true:false;
- const structuredExplanation=q?explainQuestion(q,q.topicId??currentTopic?.id):null;
+ const originalAnswers=q?getQuestionBank(q.topicId??currentTopic?.id).find(question=>question.id===q.id)?.answers:null;
+ const structuredExplanation=q?explainQuestion(q,q.topicId??currentTopic?.id,originalAnswers??q.answers):null;
 
  const startTopicTest=topicId=>{
   const questions=(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId}));
@@ -216,6 +240,26 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   setTestQuestions([]);
  };
 
+ // guarda el test en curso para poder continuarlo al volver o tras recargar la página
+ useEffect(()=>{
+  if(done){clearTestSession();return;}
+  if(!testQuestions.length||!Object.keys(answersByIndex).length) return;
+  saveTestSession({mode,topicId:selectedTopicId,questions:testQuestions.map(({id,number,topicId,question,answers})=>({id,number,topicId,question,answers})),index:i,answers:answersByIndex,savedAt:Date.now()});
+ },[mode,selectedTopicId,testQuestions,i,answersByIndex,done]);
+
+ const resumeSavedTest=()=>{
+  if(!savedTest) return;
+  setMode(savedTest.mode);
+  setSelectedTopicId(savedTest.topicId);
+  setTestQuestions(savedTest.questions);
+  setI(savedTest.index);
+  setAnswersByIndex(savedTest.answers);
+  setDone(false);
+  setSavedTest(null);
+ };
+
+ const discardSavedTest=()=>{clearTestSession();setSavedTest(null)};
+
  const handleAnswer=(answerIndex)=>{
   if(!q || showResult) return;
   setAnswersByIndex(answers=>({...answers,[i]:answerIndex}));
@@ -234,7 +278,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const handlePrevious=()=>setI(index=>Math.max(0,index-1));
 
  if(!isCrossTopic&&!selectedTopicId){
-   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div><div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:getPdfUrl(topic.id)?"PDF disponible":"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
+   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{savedTest.mode==="failed"?"Preguntas falladas":savedTest.mode==="mixed"?"Repaso general":`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:getPdfUrl(topic.id)?"PDF disponible":"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
  }
 
  if(loading){
@@ -285,7 +329,7 @@ function ProgressPage({progress,onStart}){
  const globalMastery=totalQuestions?Math.round(available.reduce((total,topic)=>total+topic.mastery*topic.total,0)/totalQuestions):0;
  const accuracy=attempts?Math.round(correct/attempts*100):0;
  return <div className="progressPage">
-  <section className="progressOverview"><div><span className="eyebrow">DOMINIO GLOBAL</span><strong>{globalMastery}%</strong><p>Tu dominio aumenta al consolidar preguntas de cada tema.</p></div><div className="progressSummary"><div><b>{answered.toLocaleString("es-ES")}</b><small>Preguntas practicadas</small></div><div><b>{accuracy}%</b><small>Aciertos totales</small></div><div><b>{available.filter(topic=>topic.mastery>0).length}</b><small>Temas iniciados</small></div></div></section>
+  <section className="progressOverview"><div><span className="eyebrow">DOMINIO GLOBAL</span><strong>{globalMastery}%</strong><p>Tu dominio aumenta al consolidar preguntas de cada tema.</p></div><div className="progressSummary"><div><b>{answered.toLocaleString("es-ES")}</b><small>Preguntas practicadas</small></div><div><b>{accuracy}%</b><small>Aciertos totales</small></div><div><b>{available.filter(topic=>topic.answered>0).length}</b><small>Temas iniciados</small></div></div></section>
   <section className="progressTopics" aria-labelledby="topic-progress-title"><div className="progressSectionTitle"><div><span className="eyebrow">POR TEMA</span><h2 id="topic-progress-title">Tu avance</h2></div><small>{answered} de {totalQuestions.toLocaleString("es-ES")} preguntas practicadas</small></div><div className="progressTopicList">{topicProgress.map(topic=><article className="progressTopic" key={topic.id}><span className="progressTopicNumber">{String(topic.id).padStart(2,"0")}</span><div className="progressTopicBody"><div className="progressTopicHeading"><div><h3>{topic.title}</h3><small>{topic.total?`${topic.answered} de ${topic.total.toLocaleString("es-ES")} preguntas · ${topic.attempts?Math.round(topic.correct/topic.attempts*100):0}% aciertos`:"Banco pendiente"}</small></div><strong>{topic.mastery}%</strong></div><div className="progressTrack" role="progressbar" aria-label={`Dominio de ${topic.title}`} aria-valuemin="0" aria-valuemax="100" aria-valuenow={topic.mastery}><i style={{width:`${topic.mastery}%`}}/></div></div>{topic.total>0&&<button className="progressPractice" onClick={()=>onStart(topic.id)} title={`Practicar ${topic.title}`}><ChevronRight/></button>}</article>)}</div></section>
  </div>
 }

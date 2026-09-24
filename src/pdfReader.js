@@ -26,17 +26,29 @@ function getPathRect(pathArgs) {
 
 function getYellowRects(operatorList) {
   const rectangles = [];
+  // save/restore devuelven el color de relleno anterior: sin esta pila se pierde el amarillo
+  // en cuanto se pinta texto negro entre dos resaltados.
+  const fillStack = [];
   let yellowFill = false;
 
   operatorList.fnArray.forEach((fn, index) => {
+    if (fn === OPS.save) {
+      fillStack.push(yellowFill);
+      return;
+    }
+    if (fn === OPS.restore) {
+      yellowFill = fillStack.pop() ?? false;
+      return;
+    }
     if (fn === OPS.setFillRGBColor) {
       yellowFill = JSON.stringify(operatorList.argsArray[index]) === '["#ffff00"]';
       return;
     }
 
-    if (yellowFill && fn === OPS.constructPath) {
+    // los trazados que solo recortan (endPath) no pintan nada
+    if (yellowFill && fn === OPS.constructPath && operatorList.argsArray[index]?.[0] !== OPS.endPath) {
       const rect = getPathRect(operatorList.argsArray[index]);
-        if (rect && Math.abs(rect[2] - rect[0]) < 500 && Math.abs(rect[3] - rect[1]) < 500) rectangles.push([...rect]);
+      if (rect && Math.abs(rect[2] - rect[0]) < 500 && Math.abs(rect[3] - rect[1]) < 500) rectangles.push([...rect]);
     }
   });
 
@@ -181,6 +193,7 @@ export function parseQuestionsFromPdfPages(pages = []) {
           correctAnswer: null,
           explanation: '',
           optionLines: [],
+          highlightedOptions: new Set(),
         };
         currentOption = null;
         return;
@@ -193,11 +206,12 @@ export function parseQuestionsFromPdfPages(pages = []) {
         currentOption = optionIndex;
         currentQuestion.answers[optionIndex] = normalizeQuestionText(optionMatch[2]);
         currentQuestion.optionLines[optionIndex] = { pageIndex, line: cleanLine };
-        if (lineIsHighlighted(cleanLine, page.yellowRects)) currentQuestion.correctAnswer = optionIndex;
+        if (lineIsHighlighted(cleanLine, page.yellowRects)) currentQuestion.highlightedOptions.add(optionIndex);
         return;
       }
 
       if (currentOption !== null) {
+        if (lineIsHighlighted(cleanLine, page.yellowRects)) currentQuestion.highlightedOptions.add(currentOption);
         currentQuestion.answers[currentOption] = normalizeQuestionText(`${currentQuestion.answers[currentOption]} ${cleanLine.text}`);
       } else {
         currentQuestion.question = normalizeQuestionText(`${currentQuestion.question} ${cleanLine.text}`);
@@ -208,12 +222,17 @@ export function parseQuestionsFromPdfPages(pages = []) {
 
   if (currentQuestion && currentQuestion.answers.every(Boolean)) questions.push(currentQuestion);
 
-  return questions.map(({ optionLines, number, ...question }) => ({
-    id: number,
-    number,
-    ...question,
-    explanation: question.explanation || 'Respuesta identificada automáticamente por el resaltado amarillo del PDF.',
-  }));
+  // solo se aceptan preguntas con exactamente una opción resaltada: sin respuesta fiable
+  // la pregunta se marcaría siempre como fallada
+  return questions
+    .filter(({ highlightedOptions }) => highlightedOptions.size === 1)
+    .map(({ optionLines, highlightedOptions, number, ...question }) => ({
+      id: number,
+      number,
+      ...question,
+      correctAnswer: [...highlightedOptions][0],
+      explanation: question.explanation || 'Respuesta identificada automáticamente por el resaltado amarillo del PDF.',
+    }));
 }
 
 export function parseQuestionsFromPdfText(rawText = '') {

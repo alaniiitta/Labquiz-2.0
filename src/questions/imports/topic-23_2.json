@@ -1,0 +1,476 @@
+{
+  "tema": 23,
+  "titulo": "Principales riesgos y medidas de prevención",
+  "source_file": "23. Test Principales riesgos y medidas de prevención (Respuestas).pdf",
+  "total_questions": 39,
+  "questions": [
+    {
+      "id": 1,
+      "question": "El radioinmunoanálisis utiliza isotopos radioactivos y precisa cuantificar la radiactividad emitida. Los isotopos utilizados al desintegrarse emiten:",
+      "options": {
+        "A": "Radiación beta.",
+        "B": "Radiación alfa.",
+        "C": "Radiación gamma y beta.",
+        "D": "Radiación gamma y alfa."
+      },
+      "correctAnswer": "C",
+      "correctText": "Radiación gamma y beta."
+    },
+    {
+      "id": 2,
+      "question": "En cuanto a las normas generales de bioseguridad, señale la respuesta correcta",
+      "options": {
+        "A": "Manipular todas las muestras como si fueran potencialmente infecciosas.",
+        "B": "Desinfectar y limpiar las superficies y los equipos de trabajo en caso de contaminación.",
+        "C": "No guardar alimentos en los equipos donde se refrigeran sustancias potencialmente contaminantes o químicas.",
+        "D": "Todas las respuestas son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas son correctas."
+    },
+    {
+      "id": 3,
+      "question": "Respecto al uso de reactivos químicos en el laboratorio, las medidas de seguridad que se deben adoptar para su manejo se pueden encontrar en:",
+      "options": {
+        "A": "La etiqueta.",
+        "B": "La ficha de seguridad.",
+        "C": "El procedimiento de trabajo.",
+        "D": "Hay más de una respuesta correcta."
+      },
+      "correctAnswer": "D",
+      "correctText": "Hay más de una respuesta correcta."
+    },
+    {
+      "id": 4,
+      "question": "En cuanto a medidas de prevención:",
+      "options": {
+        "A": "En el laboratorio se deben tener todas las fichas de datos de seguridad de todos los productos que se utilizan.",
+        "B": "Se denomina riesgo en seguridad, al riesgo relacionado con el puesto de trabajo y los equipos que se manejan.",
+        "C": "Es imprescindible que los profesionales de los laboratorios conozcan los potenciales riesgos asociados a su entorno de trabajo.",
+        "D": "Todas las respuestas anteriores son ciertas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas las respuestas anteriores son ciertas."
+    },
+    {
+      "id": 5,
+      "question": "Entre las recomendaciones generales en la prevención y protección personal, no se encuentra:",
+      "options": {
+        "A": "El uso de guantes es importante cuando se manipula material biológico.",
+        "B": "No es necesario quitarse los guantes antes de descolgar el teléfono.",
+        "C": "Es necesario mantener el orden en el puesto de trabajo.",
+        "D": "Hay que seguir el protocolo de lavado de higiene de manos"
+      },
+      "correctAnswer": "B",
+      "correctText": "No es necesario quitarse los guantes antes de descolgar el teléfono."
+    },
+    {
+      "id": 6,
+      "question": "¿Qué tipo de sustancias químicas no son potencialmente peligrosas en el laboratorio?",
+      "options": {
+        "A": "Tolueno.",
+        "B": "Bromuro de etidio.",
+        "C": "Ácido clorhídrico.",
+        "D": "Isótonas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Isótonas."
+    },
+    {
+      "id": 7,
+      "question": "Con respecto a las medidas de seguridad en el manejo de muestras, señale la opción falsa",
+      "options": {
+        "A": "No hay que considerar a todas las muestras como potencialmente infecciosas.",
+        "B": "Utilice siempre guantes cuando extraiga y maneje muestras biológicas.",
+        "C": "Los tubos de recolección de muestras que contienen sangre y que van a desecharse deben colocarse en contenedores de desechos biopeligrosos.",
+        "D": "Debemos ser cuidadosos en el manejo de agujas de punción y evitar reencapuchar las agujas."
+      },
+      "correctAnswer": "A",
+      "correctText": "No hay que considerar a todas las muestras como potencialmente infecciosas."
+    },
+    {
+      "id": 8,
+      "question": "Si un agente citostático contacta directamente con la piel de la persona que lo manipula, se lavará inmediatamente la zona afectada con agua y jabón durante:",
+      "options": {
+        "A": "Unos 2 minutos",
+        "B": "Unos 5 minutos",
+        "C": "Unos 10 minutos",
+        "D": "No hace falta lavarse"
+      },
+      "correctAnswer": "C",
+      "correctText": "Unos 10 minutos"
+    },
+    {
+      "id": 11,
+      "question": "En los productos químicos con el etiquetado se asignan unas características de peligro, entre las que se encuentran las propiedades fisicoquímicas, no es una de ellas:",
+      "options": {
+        "A": "Inflamable.",
+        "B": "Corrosivo.",
+        "C": "Comburente.",
+        "D": "Explosivo. Comentario. Corrosivo sería en función de sus propiedades toxicológicas"
+      },
+      "correctAnswer": "B",
+      "correctText": "Corrosivo."
+    },
+    {
+      "id": 13,
+      "question": "En un laboratorio se manejan continuamente reactivos químicos y biológicos, ¿en cuántas clases principales se clasifican los productos químicos inflamables?",
+      "options": {
+        "A": "En 2: inflamación espontánea y no espontánea.",
+        "B": "En 3: riesgo bajo, riesgo medio y riesgo alto.",
+        "C": "En 4: clase A, clase B, clase C y clase D.",
+        "D": "En 5: clase 1, clase 11, clase 111, clase IV y clase V."
+      },
+      "correctAnswer": "C",
+      "correctText": "En 4: clase A, clase B, clase C y clase D."
+    },
+    {
+      "id": 14,
+      "question": "Respecto al material de vidrio utilizado en los laboratorios, señale la respuesta incorrecta",
+      "options": {
+        "A": "Posee una gran resistencia frente al agua, ácidos y bases.",
+        "B": "Es menos resistente que el plástico.",
+        "C": "Es muy estable.",
+        "D": "Es transparente."
+      },
+      "correctAnswer": "B",
+      "correctText": "Es menos resistente que el plástico."
+    },
+    {
+      "id": 15,
+      "question": "Los reactivos químicos, se clasifican como productos químicos de “Clase C” cuando su punto de inflamación:",
+      "options": {
+        "A": "Está comprendido entre 38 ºC y 55 ºC.",
+        "B": "Es superior a 100 ºC.",
+        "C": "Está comprendido entre 55 ºC y 100 ºC.",
+        "D": "Es inferior a 55 ºC."
+      },
+      "correctAnswer": "C",
+      "correctText": "Está comprendido entre 55 ºC y 100 ºC."
+    },
+    {
+      "id": 16,
+      "question": "Los productos inflamables, no deben almacenarse con:",
+      "options": {
+        "A": "Ácidos fuertes.",
+        "B": "Comburentes.",
+        "C": "Reductores.",
+        "D": "Bases fuertes."
+      },
+      "correctAnswer": "B",
+      "correctText": "Comburentes."
+    },
+    {
+      "id": 17,
+      "question": "Ante un pinchazo con una aguja de una gasometría de un recién nacido, ¿qué hay que hacer?",
+      "options": {
+        "A": "Desinfectar con povidona yodada (Betadine®).",
+        "B": "Poner inmediatamente los guantes.",
+        "C": "Nada, ya que es un paciente sin riesgo.",
+        "D": "Promover el sangrado y lavar con agua y jabón."
+      },
+      "correctAnswer": "D",
+      "correctText": "Promover el sangrado y lavar con agua y jabón."
+    },
+    {
+      "id": 19,
+      "question": "Señale la respuesta falsa. Los productos químicos:",
+      "options": {
+        "A": "Deben considerarse como potencialmente peligrosos",
+        "B": "No deben considerarse como potencialmente peligrosos",
+        "C": "Los orgánicos deben manejarse en vitrina de gases",
+        "D": "Algunos son mutágenos o cancerígenos"
+      },
+      "correctAnswer": "B",
+      "correctText": "No deben considerarse como potencialmente peligrosos"
+    },
+    {
+      "id": 20,
+      "question": "Los agentes químicos se clasifican según los efectos sobre la salud en: (Señale la respuesta incorrecta)",
+      "options": {
+        "A": "Carcinogénicos.",
+        "B": "Mutagénicos. : TEMA 23 Principales riesgos y prevención",
+        "C": "Tóxicos para la reproducción.",
+        "D": "Corrosivos."
+      },
+      "correctAnswer": "D",
+      "correctText": "Corrosivos."
+    },
+    {
+      "id": 21,
+      "question": "Dentro de las incompatibilidades de almacenamiento de reactivos químicos, cuales de estos reactivos si pueden estar almacenados juntos:",
+      "options": {
+        "A": "Comburentes y tóxicos.",
+        "B": "Explosivos y nocivos.",
+        "C": "Corrosivos y tóxicos.",
+        "D": "Inflamables y comburentes."
+      },
+      "correctAnswer": "C",
+      "correctText": "Corrosivos y tóxicos."
+    },
+    {
+      "id": 22,
+      "question": "Respecto a las sustancias tóxicas, señale la respuesta correcta:",
+      "options": {
+        "A": "Las sustancias y preparados que, en contacto con tejidos vivos, pueden ejercer una acción destructiva de los mismos.",
+        "B": "Las sustancias y preparados que por contacto breve, prolongado o repetido con la piel o las mucosas puedan provocar una reacción inflamatoria.",
+        "C": "Potencialmente pueden provocar lesiones graves e incluso la muerte ya sea por inhalación, ingestión o contacto con la piel.",
+        "D": "Ninguna es correcta."
+      },
+      "correctAnswer": "C",
+      "correctText": "Potencialmente pueden provocar lesiones graves e incluso la muerte ya sea por inhalación, ingestión o contacto con la piel."
+    },
+    {
+      "id": 23,
+      "question": "Si en la etiqueta de un producto químico observamos el pictograma “Xn”, indica que dicho producto es:",
+      "options": {
+        "A": "Nocivo.",
+        "B": "Irritante.",
+        "C": "Tóxico.",
+        "D": "Corrosivo."
+      },
+      "correctAnswer": "A",
+      "correctText": "Nocivo."
+    },
+    {
+      "id": 24,
+      "question": "Una de las siguientes medidas disminuye el riesgo de contaminación en los laboratorios. Señálela:",
+      "options": {
+        "A": "Uso de cortinas y persianas.",
+        "B": "Uniones cóncavas entresuelo, paredes y techo.",
+        "C": "Existencia de multitud de mobiliario propio del laboratorio.",
+        "D": "Paredes y techos rugosos."
+      },
+      "correctAnswer": "B",
+      "correctText": "Uniones cóncavas entresuelo, paredes y techo."
+    },
+    {
+      "id": 25,
+      "question": "De las siguientes recomendaciones con relación a los riesgos biológicos, ¿cuál es falsa?:",
+      "options": {
+        "A": "Lavarse las manos siempre que se cambien los guantes.",
+        "B": "Desechar de forma adecuada todo el material cortante.",
+        "C": "Utilizar etiquetas de alarma en las muestras de los pacientes.",
+        "D": "Minimizar los goteos y salpicaduras."
+      },
+      "correctAnswer": "C",
+      "correctText": "Utilizar etiquetas de alarma en las muestras de los pacientes."
+    },
+    {
+      "id": 26,
+      "question": "Ante una muestra cuya peligrosidad es desconocida:",
+      "options": {
+        "A": "Desactivaremos la muestra antes de procesarla.",
+        "B": "Es criterio de exclusión de la muestra.",
+        "C": "Adoptaremos las medidas de seguridad correspondientes al mayor riesgo.",
+        "D": "Todas las respuestas anteriores son correctas."
+      },
+      "correctAnswer": "C",
+      "correctText": "Adoptaremos las medidas de seguridad correspondientes al mayor riesgo."
+    },
+    {
+      "id": 27,
+      "question": "Si en el etiquetado de un producto químico nos aparece un pictograma con forma de X acompañada de las letras Xn nos está indicando que el citado producto es:",
+      "options": {
+        "A": "Nocivo.",
+        "B": "Tóxico.",
+        "C": "Comburente.",
+        "D": "Irritante."
+      },
+      "correctAnswer": "A",
+      "correctText": "Nocivo."
+    },
+    {
+      "id": 28,
+      "question": "¿Cuál de las siguientes técnicas no debe realizarse en una cabina de seguridad biológica?:",
+      "options": {
+        "A": "Resiembra de hemocultivos.",
+        "B": "Manipulación de sustancias químicas volátiles tóxicas.",
+        "C": "Descontaminación de muestras para micobacterias.",
+        "D": "Inoculación de cultivos celulares para cultivo de virus."
+      },
+      "correctAnswer": "B",
+      "correctText": "Manipulación de sustancias químicas volátiles tóxicas."
+    },
+    {
+      "id": 29,
+      "question": "¿Qué tipo de sustancias químicas NO son potencialmente peligrosas en el laboratorio?:",
+      "options": {
+        "A": "Tolueno.",
+        "B": "Bromuro de etidio.",
+        "C": "Ácido clorhídrico.",
+        "D": "lsótonas."
+      },
+      "correctAnswer": "D",
+      "correctText": "lsótonas."
+    },
+    {
+      "id": 30,
+      "question": "De los siguientes trabajos, ¿Cuál de ellos produce carga física por movimientos de repetición?:",
+      "options": {
+        "A": "Limpieza de material",
+        "B": "Preparación de reactivos",
+        "C": "Pipeteo : TEMA 23 Principales riesgos y prevención",
+        "D": "Tallado"
+      },
+      "correctAnswer": "C",
+      "correctText": "Pipeteo : TEMA 23 Principales riesgos y prevención"
+    },
+    {
+      "id": 31,
+      "question": "En la organización de los recursos materiales en un almacén, ¿dónde se deben colocar los productos inflamables?:",
+      "options": {
+        "A": "En baldas abiertas",
+        "B": "En cajas",
+        "C": "En bolsas de frío",
+        "D": "En armarios protegidos"
+      },
+      "correctAnswer": "D",
+      "correctText": "En armarios protegidos"
+    },
+    {
+      "id": 32,
+      "question": "De las siguientes opciones, ¿Cuál es un riesgo profesional por agentes físicos?:",
+      "options": {
+        "A": "Estrés laboral crónico",
+        "B": "Patología producida por el ruido",
+        "C": "Mononucleosis infecciosa",
+        "D": "Resinas acrílicas y epoxis"
+      },
+      "correctAnswer": "B",
+      "correctText": "Patología producida por el ruido"
+    },
+    {
+      "id": 33,
+      "question": "Según la normativa aplicable en prevención de riesgos laborales la temperatura adecuada de los locales donde se realicen trabajos ligeros estará comprendida entre:",
+      "options": {
+        "A": "17 y 27 ºC.",
+        "B": "15 y 30 ºC.",
+        "C": "14 y 25 ºC.",
+        "D": "19 y 21 ºC."
+      },
+      "correctAnswer": "C",
+      "correctText": "14 y 25 ºC."
+    },
+    {
+      "id": 34,
+      "question": "Un producto que implica riesgo en su manipulación por ser muy tóxico, reactivo o contaminante se clasifica coma",
+      "options": {
+        "A": "Fotosensible",
+        "B": "termolábil",
+        "C": "Higroscópico",
+        "D": "Peligroso"
+      },
+      "correctAnswer": "D",
+      "correctText": "Peligroso"
+    },
+    {
+      "id": 35,
+      "question": "En la clasificación IARC para agentes carcinógenos, les nitratos y nitritos se clasifican dentro del grupo 2A, eso quiere decir que:",
+      "options": {
+        "A": "El agente es carcinógeno para humanos. Hay suficiente evidencia científica en humanos.",
+        "B": "El agente es probablemente carcinógeno. Las evidencias son limitadas en humanos, pero suficientes en animales.",
+        "C": "El agente es posiblemente carcinógeno en humanos. Las evidencias son inadecuadas en humanos pero insuficientes en animales.",
+        "D": "El agente no está clasificado como agente carcinógeno en humanos. Las evidencias son inadecuadas en humanos e inadecuadas o limitadas en animales."
+      },
+      "correctAnswer": "B",
+      "correctText": "El agente es probablemente carcinógeno. Las evidencias son limitadas en humanos, pero suficientes en animales."
+    },
+    {
+      "id": 36,
+      "question": "¿Qué tipo de sustancias no son potencialmente peligrosas en el laboratorio?",
+      "options": {
+        "A": "Tolueno.",
+        "B": "Diclorometano.",
+        "C": "Ácido clorhídrico.",
+        "D": "Peróxido de Hidrógeno."
+      },
+      "correctAnswer": "D",
+      "correctText": "Peróxido de Hidrógeno."
+    },
+    {
+      "id": 37,
+      "question": "Si tenemos una muestra clínica de la que no se dispone de la información suficiente para llevar a cabo a una evaluación apropiada de los riesgos, ¿Qué medida sería insuficiente?",
+      "options": {
+        "A": "Las prácticas y los procedimientos básicos de contención del nivel de bioseguridad 1 deben ser el requisito mínimo para la manipulación de muestras.",
+        "B": "Las prácticas y los procedimientos básicos de contención del nivel de bioseguridad 2 deben ser el requisito mínimo para la manipulación de muestras.",
+        "C": "El transporte de muestras debe respetar las normas y reglamentos nacionales o internacionales.",
+        "D": "Deben adoptarse precauciones normalizadas y emplearse protecciones de barrera (guantes, batas, protección ocular) cada vez que se obtengan muestras de pacientes."
+      },
+      "correctAnswer": "A",
+      "correctText": "Las prácticas y los procedimientos básicos de contención del nivel de bioseguridad 1 deben ser el requisito mínimo para la manipulación de muestras."
+    },
+    {
+      "id": 39,
+      "question": "¿Cómo se define la exposición sufrida por un trabajador con sangre, tejidos o fluidos potencialmente infecciosos?",
+      "options": {
+        "A": "Accidente de riesgo microbiológico.",
+        "B": "Accidente de riesgo biológico.",
+        "C": "Circunstancia bacteriológica.",
+        "D": "Incidente biológico."
+      },
+      "correctAnswer": "B",
+      "correctText": "Accidente de riesgo biológico."
+    },
+    {
+      "id": 40,
+      "question": "¿A qué riesgos están expuestos los trabajadores de un hospital?",
+      "options": {
+        "A": "Riesgos biológicos y psíquicos.",
+        "B": "Riesgos biológicos y químicos.",
+        "C": "Riesgos psicosociales.",
+        "D": "Todos ellos."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todos ellos."
+    },
+    {
+      "id": 41,
+      "question": "No es un riesgo físico:",
+      "options": {
+        "A": "Calor excesivo.",
+        "B": "Descargas eléctricas.",
+        "C": "Gases anestésicos.",
+        "D": "Ninguna respuesta es correcta."
+      },
+      "correctAnswer": "C",
+      "correctText": "Gases anestésicos."
+    },
+    {
+      "id": 42,
+      "question": "En caso de accidente biológico, ¿cuánto tiempo se recomienda limpiar la herida bajo el agua?",
+      "options": {
+        "A": "2 o 3 minutos induciendo el sangrado.",
+        "B": "Hasta que deje de sangrar la herida.",
+        "C": "2 o tres minutos restregando suavemente la herida.",
+        "D": "No está recomendado limpiar con agua."
+      },
+      "correctAnswer": "A",
+      "correctText": "2 o 3 minutos induciendo el sangrado."
+    },
+    {
+      "id": 43,
+      "question": "Entre las acciones inmediatas a realizar en una herida como consecuencia de un accidente laboral con riesgo de exposición a sangre contaminada, señale la opción INCORRECTA:",
+      "options": {
+        "A": "Desechar en el contenedor destinado a tal efecto el objeto con el que se ha producido el accidente",
+        "B": "Frotar la herida con agua y jabón",
+        "C": "Favorecer la hemorragia",
+        "D": "Quitarse los guantes"
+      },
+      "correctAnswer": "B",
+      "correctText": "Frotar la herida con agua y jabón"
+    },
+    {
+      "id": 44,
+      "question": "Una de las siguientes afirmaciones no forma parte de las normas para prevenir accidentes con riesgo biológico:",
+      "options": {
+        "A": "Las agujas, una vez utilizadas, se reencapuchan y se tiran en contenedores rígidos de bioseguridad, para evitar pinchazos accidentales",
+        "B": "Las lesiones cutáneas, cortes y heridas, han de cubrirse antes de iniciar la actividad laboral",
+        "C": "Todos los pacientes deben considerarse potencialmente infecciosos y, por tanto, adoptar las medidas de protección universal, con todos y cada uno de ellos",
+        "D": "El vehículo de transmisión más importante es la sangre y sus derivados. Y el personal con mayor riesgo es el expuesto a un accidente con aguja hueca"
+      },
+      "correctAnswer": "A",
+      "correctText": "Las agujas, una vez utilizadas, se reencapuchan y se tiran en contenedores rígidos de bioseguridad, para evitar pinchazos accidentales"
+    }
+  ]
+}

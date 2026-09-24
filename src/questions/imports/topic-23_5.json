@@ -1,0 +1,140 @@
+{
+  "tema": 23,
+  "titulo": "Titulación ácido-base y gravimetría",
+  "source_file": "23. titulación acido base y gravimetría (respuestas).pdf",
+  "total_questions": 11,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Respecto a las volumetrías, las valoraciones por sustitución se basan en:",
+      "options": {
+        "A": "En la sustitución de un color por otro",
+        "B": "En la precipitación de un ion por otro",
+        "C": "En la sustitución de un ion por otro",
+        "D": "En la atomización de un ion por otro"
+      },
+      "correctAnswer": "C",
+      "correctText": "En la sustitución de un ion por otro"
+    },
+    {
+      "id": 2,
+      "question": "Entre el material volumétrico usado en los laboratorios se diferencia aquel que mide el líquido contenido de aquel otro que mide el líquido vertido. El matraz aforado es un ejemplo de:",
+      "options": {
+        "A": "Material que mide el líquido vertido.",
+        "B": "Material que mide el líquido contenido.",
+        "C": "No es un ejemplo de material volumétrico.",
+        "D": "Material que al igual que las probetas miden el líquido contenido."
+      },
+      "correctAnswer": "B",
+      "correctText": "Material que mide el líquido contenido."
+    },
+    {
+      "id": 3,
+      "question": "Señale la afirmación correcta sobre el análisis volumétrico:",
+      "options": {
+        "A": "Las reacciones volumétricas son un tipo de reacciones gravimétricas basadas en la medida de volumen de reactivo necesario para reaccionar con el analito.",
+        "B": "El permanganato potásico se utiliza como indicador en volumetrías de tipo redox.",
+        "C": "La alcalimetría consiste en una valoración de un ácido mediante una disolución, de concentración conocida, de una base.",
+        "D": "Se caracterizan por ser reacciones lentas, en las que la cantidad de reactivo conocido y la sustancia problema son equivalentes."
+      },
+      "correctAnswer": "B",
+      "correctText": "El permanganato potásico se utiliza como indicador en volumetrías de tipo redox."
+    },
+    {
+      "id": 4,
+      "question": "¿Qué proceso tiene lugar cuando se realiza una valoración ácido-base?:",
+      "options": {
+        "A": "Ionización",
+        "B": "Neutralización",
+        "C": "Tamponación",
+        "D": "Disociación"
+      },
+      "correctAnswer": "B",
+      "correctText": "Neutralización"
+    },
+    {
+      "id": 6,
+      "question": "¿Cuántos tipos de coprecipitación existen?",
+      "options": {
+        "A": "Tres",
+        "B": "Cuatro",
+        "C": "Dos",
+        "D": "Uno"
+      },
+      "correctAnswer": "B",
+      "correctText": "Cuatro"
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál de las siguientes características tiene que cumplir un analito para poderlo determinar mediante gravimetría?",
+      "options": {
+        "A": "Ser insoluble",
+        "B": "Ser soluble",
+        "C": "Que tenga precipitación no selectiva",
+        "D": "No ser completamente puro"
+      },
+      "correctAnswer": "A",
+      "correctText": "Ser insoluble"
+    },
+    {
+      "id": 8,
+      "question": "Una balanza debe ser",
+      "options": {
+        "A": "Exacta.",
+        "B": "Precisa.",
+        "C": "Sensible.",
+        "D": "Todas son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas son correctas."
+    },
+    {
+      "id": 9,
+      "question": "Respecto a las diluciones, señale la afirmación incorrecta:",
+      "options": {
+        "A": "En las diluciones seriadas el factor de dilución es el mismo en cada paso de la dilución.",
+        "B": "El número de volúmenes al que se lleva un volumen determinado de disolución para preparar una dilución se denomina factor de dilución.",
+        "C": "Una sustancia se considera insoluble cuando se solubilidad es menor a 0,1 μg de soluto por cada 100 g de disolvente.",
+        "D": "La solubilidad es igual a la masa del soluto (en g) dividido entre la masa del disolvente (en g) y multiplicado por 100."
+      },
+      "correctAnswer": "C",
+      "correctText": "Una sustancia se considera insoluble cuando se solubilidad es menor a 0,1 μg de soluto por cada 100 g de disolvente."
+    },
+    {
+      "id": 10,
+      "question": "De las siguientes respuestas, ¿cuál no es un método gravimétrico?:",
+      "options": {
+        "A": "El que usa reactivos químicos para la precipitación.",
+        "B": "El que usa la electricidad para la precipitación.",
+        "C": "El método de volatilización.",
+        "D": "El método de filtración."
+      },
+      "correctAnswer": "D",
+      "correctText": "El método de filtración."
+    },
+    {
+      "id": 11,
+      "question": "Respecto a la balanza como instrumento de laboratorio es falso que:",
+      "options": {
+        "A": "Miden la masa de un cuerpo o sustancia.",
+        "B": "Compara la masa que se requiere determinar con una masa patrón.",
+        "C": "Se consideran balanzas de precisión las que tienen una división de escala entre 1 g y 0,001 g.",
+        "D": "Se consideran balanzas de precisión las que tienen una división de escala entre 1 g y 0,001 μg."
+      },
+      "correctAnswer": "D",
+      "correctText": "Se consideran balanzas de precisión las que tienen una división de escala entre 1 g y 0,001 μg."
+    },
+    {
+      "id": 12,
+      "question": "En los métodos electrogravim é tricos:",
+      "options": {
+        "A": "Se pesa el depósito formado sobre el electrodo de trabajo.",
+        "B": "Se mide la intensidad de corriente necesaria.",
+        "C": "Se mide la intensidad en función del potencial aplicado.",
+        "D": "Se aplican medidas de conductividad en soluciones problema"
+      },
+      "correctAnswer": "A",
+      "correctText": "Se pesa el depósito formado sobre el electrodo de trabajo."
+    }
+  ]
+}

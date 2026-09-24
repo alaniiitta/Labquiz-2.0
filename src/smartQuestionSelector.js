@@ -92,9 +92,13 @@ function shuffle(items, random) {
 // Detecta opciones que hacen referencia a otras por letra ("A y C son correctas")
 // o por posición ("todas las anteriores", "las dos anteriores"): barajarlas rompería su sentido.
 const SELF_REFERENTIAL_OPTION_PATTERN = /\b[a-d]\)?\s*(?:[y,]|\bo\b)\s*[a-d]\)?\s*(?:son|es)?\s*(?:correcta|correctas|cierta|ciertas|falsa|falsas|verdadera|verdaderas)\b|\banterior(?:es)?\b/i;
+// Listas de letras en mayúscula: "B y C", "A, B, y C son ciertos", "A o D", "B e C"...
+// Un falso positivo solo evita barajar esa pregunta, así que se prefiere ser amplio.
+const LETTER_LIST_OPTION_PATTERN = /\b[A-D]\)?\s*(?:,\s*(?:y|e|o)?|y|e|o)\s*\b[A-D]\b/;
 
 function hasSelfReferentialOption(options) {
-  return options.some((text) => typeof text === "string" && SELF_REFERENTIAL_OPTION_PATTERN.test(text));
+  return options.some((text) => typeof text === "string"
+    && (SELF_REFERENTIAL_OPTION_PATTERN.test(text) || LETTER_LIST_OPTION_PATTERN.test(text)));
 }
 
 export function selectSmartQuestions(allQuestions = [], userProgress = {}, count = 30, topicFilter = null, random = Math.random, now = Date.now()) {
