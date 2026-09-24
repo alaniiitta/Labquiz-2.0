@@ -1,0 +1,1117 @@
+{
+  "1": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El lactato se extrae sin torniquete o soltándolo enseguida: la isquemia local lo eleva falsamente. La muestra se toma en reposo, en frío y se analiza pronto.",
+    "claveMemorizar": "Lactato: sin torniquete."
+  },
+  "2": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El pH arterial normal es 7,35-7,45.",
+    "claveMemorizar": "pH arterial: 7,35-7,45."
+  },
+  "3": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La gasometría arterial se hace habitualmente en la arteria radial: accesible, superficial y con circulación colateral cubital (test de Allen).",
+    "claveMemorizar": "Gasometría → radial (Allen)."
+  },
+  "4": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hay alcalosis (alcalemia) cuando el pH arterial supera 7,45.",
+    "claveMemorizar": "pH >7,45 = alcalosis."
+  },
+  "5": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La acidosis metabólica puede tener anión gap normal (hiperclorémica), como en la diarrea o la acidosis tubular renal. Por eso D es falsa.",
+    "claveMemorizar": "Acidosis metabólica: gap alto o normal."
+  },
+  "6": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un anión tiene carga negativa: se desplaza hacia el polo positivo (ánodo).",
+    "claveMemorizar": "Anión → ánodo (+)."
+  },
+  "7": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El pH lo regulan los tampones, el pulmón (CO₂), el riñón (H⁺, HCO₃⁻) y en parte el hígado. La médula ósea no.",
+    "claveMemorizar": "pH: tampones, pulmón, riñón."
+  },
+  "8": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "H⁺ aumentado (pH bajo) con pCO₂ elevada de inicio es acidosis respiratoria.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "9": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El anión gap (Na⁺ − Cl⁻ − HCO₃⁻) estima los aniones no medidos: sulfatos, fosfatos, proteínas, lactato, cetoácidos.",
+    "claveMemorizar": "Anión gap = aniones no medidos."
+  },
+  "10": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El sistema bicarbonato/ácido carbónico es el tampón extracelular más importante: es abierto, porque el pulmón regula el CO₂ y el riñón el HCO₃⁻.",
+    "claveMemorizar": "Tampón principal: bicarbonato."
+  },
+  "11": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La alcalosis metabólica se debe a un exceso primario de bicarbonato (o pérdida de H⁺, como en los vómitos).",
+    "claveMemorizar": "Alcalosis metabólica: HCO₃⁻↑ primario."
+  },
+  "12": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La afinidad de la hemoglobina por el O₂ depende de pO₂, pCO₂ y pH (efecto Bohr), además de temperatura y 2,3-DPG.",
+    "claveMemorizar": "Afinidad Hb-O₂: pO₂, pCO₂, pH."
+  },
+  "13": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El pH de la muestra cambia con el tiempo hasta el análisis (metabolismo celular), el anticoagulante (exceso de heparina) y el transporte (aire, temperatura).",
+    "claveMemorizar": "pH: tiempo, anticoagulante, transporte."
+  },
+  "14": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La gasometría completa (pO₂) requiere sangre arterial.",
+    "claveMemorizar": "Gases → sangre arterial."
+  },
+  "15": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La acidosis respiratoria (bronconeumonía con hipoventilación) cursa con pCO₂ elevada y pH bajo.",
+    "claveMemorizar": "Acidosis respiratoria: pCO₂↑."
+  },
+  "16": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el pulmón no elimina CO₂, este se acumula y produce acidosis respiratoria.",
+    "claveMemorizar": "Retener CO₂ = acidosis respiratoria."
+  },
+  "17": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Rabdomiólisis, acidosis láctica y tolueno (en la fase inicial) aumentan el anión gap. Según la clave, la perfusión renal reducida no es una causa de acidosis con gap aumentado.",
+    "claveMemorizar": "Gap alto: láctica, cetoacidosis, tóxicos, insuficiencia renal."
+  },
+  "18": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "pH >7,45 es alcalosis y <7,35 acidosis, pero puede haber trastornos mixtos o compensados con pH normal.",
+    "claveMemorizar": "pH normal no excluye trastorno."
+  },
+  "19": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El electrodo de Clark tiene cátodo de platino, ánodo de Ag/AgCl, electrolito de KCl y membrana permeable al O₂. La solución de bicarbonato es del electrodo de pCO₂ (Severinghaus).",
+    "claveMemorizar": "Bicarbonato → Severinghaus, no Clark."
+  },
+  "20": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El pH de la muestra cambia con el tiempo, la actividad de anhidrasa carbónica y el metabolismo de los hematíes, y el anticoagulante.",
+    "claveMemorizar": "pH: tiempo, hematíes, anticoagulante."
+  },
+  "21": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El anión gap refleja los aniones no medidos habitualmente.",
+    "claveMemorizar": "Anión gap: aniones no medidos."
+  },
+  "22": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "H⁺ aumentado (pH bajo) con pCO₂ elevada de inicio es acidosis respiratoria.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "23": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La gasometría se procesa la primera: los gases y el pH cambian en minutos. Debe analizarse antes de 15-30 min, o en hielo.",
+    "claveMemorizar": "Gasometría: prioridad."
+  },
+  "24": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hemólisis libera potasio y LDH (muy abundantes en el hematíe) y eleva falsamente ambos.",
+    "claveMemorizar": "Hemólisis → K⁺ y LDH↑."
+  },
+  "25": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH normal en gasometría es 7,35-7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "26": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH neutro es 7 (a 25 °C).",
+    "claveMemorizar": "Neutro = 7."
+  },
+  "27": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La acidosis es un exceso de hidrogeniones (H⁺).",
+    "claveMemorizar": "Acidosis = exceso de H⁺."
+  },
+  "28": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la acidosis metabólica el pulmón compensa hiperventilando (respiración de Kussmaul) para eliminar CO₂.",
+    "claveMemorizar": "Acidosis metabólica → hiperventilación."
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El fosfomolibdato mide el fósforo: el fosfato forma un complejo con molibdato que se lee por espectrofotometría (UV directo o tras reducción).",
+    "claveMemorizar": "Fosfomolibdato → fósforo por espectrofotometría."
+  },
+  "30": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El magnesio es el cuarto catión más abundante del organismo y el segundo intracelular, tras el potasio.",
+    "claveMemorizar": "Mg: segundo catión intracelular."
+  },
+  "31": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El pH arterial normal es 7,35-7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "32": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El citrato sódico aporta sodio y altera los electrolitos: no sirve para medir Na⁺ y K⁺. Se usa en coagulación, VSG y función plaquetaria.",
+    "claveMemorizar": "Citrato sódico: no para Na⁺/K⁺."
+  },
+  "33": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El sodio plasmático normal ronda los 140 mEq/L (135-145).",
+    "claveMemorizar": "Na⁺: ~140."
+  },
+  "34": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hay pseudohiperfosfatemia por hemólisis, ictericia o lipemia, algunos fármacos (liposomales) y paraproteínas que interfieren en el método.",
+    "claveMemorizar": "Pseudohiperfosfatemia: índices, fármacos, paraproteínas."
+  },
+  "35": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El sodio sérico normal es 135-145 mEq/L (mmol/L).",
+    "claveMemorizar": "Na⁺: 135-145 mEq/L."
+  },
+  "36": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el raquitismo (déficit de vitamina D) se absorbe poco calcio y aparece hipocalciuria. Hiperparatiroidismo, hipertiroidismo y mieloma dan hipercalciuria.",
+    "claveMemorizar": "Raquitismo → hipocalciuria."
+  },
+  "37": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La gasometría puede hacerse basal, tras esfuerzo o respirando mezclas enriquecidas en O₂.",
+    "claveMemorizar": "Gasometría: basal, esfuerzo, con O₂."
+  },
+  "38": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para valorar el equilibrio ácido-base hacen falta pH (H⁺), bicarbonato y pCO₂.",
+    "claveMemorizar": "Ácido-base: pH, HCO₃⁻, pCO₂."
+  },
+  "39": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El calcio es el ion (mineral) más abundante del organismo: la mayor parte está en el hueso.",
+    "claveMemorizar": "Ion más abundante: calcio (hueso)."
+  },
+  "40": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hipernatremia = sodio sérico elevado (>145 mEq/L).",
+    "claveMemorizar": "Hipernatremia = Na⁺↑."
+  },
+  "41": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los tampones fisiológicos son bicarbonato, fosfato, hemoglobina y proteínas. La «hemoxiglobina» no existe como tampón.",
+    "claveMemorizar": "Tampones: bicarbonato, fosfato, Hb, proteínas."
+  },
+  "42": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH arterial normal es 7,35-7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "43": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los ácidos aportan hidrogeniones (H⁺) al medio (Brønsted: donan protones).",
+    "claveMemorizar": "Ácido = da H⁺."
+  },
+  "44": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El electrodo de Clark es amperométrico: el O₂ que atraviesa la membrana se reduce en el cátodo de platino y la corriente es proporcional a la pO₂.",
+    "claveMemorizar": "Clark: reducción del O₂ (amperométrico)."
+  },
+  "45": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La anhidrasa carbónica cataliza la conversión del ácido carbónico en CO₂ y agua. Un tampón es un ácido donador de protones más su base conjugada; el principal es el bicarbonato y también actúan dentro de las células.",
+    "claveMemorizar": "Anhidrasa carbónica: H₂CO₃ ⇄ CO₂ + H₂O."
+  },
+  "46": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El anión gap bajo se debe sobre todo a hipoalbuminemia, pero también a hiponatremia (según la clave), paraproteínas catiónicas o aumento de cationes no medidos.",
+    "claveMemorizar": "Gap bajo: hipoalbuminemia, hiponatremia."
+  },
+  "47": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El potasio no es un sistema amortiguador. Bicarbonato, fosfato y hemoglobina sí.",
+    "claveMemorizar": "Potasio ≠ tampón."
+  },
+  "48": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acidosis metabólica el pulmón hiperventila para bajar la pCO₂.",
+    "claveMemorizar": "Acidosis metabólica → hiperventilar."
+  },
+  "49": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "H⁺ aumentado (pH bajo) con pCO₂ elevada de inicio es acidosis respiratoria.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "50": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "pH bajo con HCO₃⁻ bajo y pCO₂ normal (aún sin compensar) es acidosis metabólica.",
+    "claveMemorizar": "pH↓ + HCO₃⁻↓ = acidosis metabólica."
+  },
+  "51": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La fracción inspirada de O₂ del aire ambiente es del 21%.",
+    "claveMemorizar": "FiO₂ del aire: 21%."
+  },
+  "52": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El exceso de base no se mide con un electrodo: se calcula. Los electrodos miden pH, pCO₂ y pO₂.",
+    "claveMemorizar": "Exceso de base: calculado."
+  },
+  "53": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La acidosis metabólica da respiración rápida y profunda (Kussmaul), no lenta y superficial. En la cetoacidosis hay aliento afrutado.",
+    "claveMemorizar": "Acidosis metabólica: Kussmaul."
+  },
+  "54": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Mucha concentración de H⁺ significa solución ácida, con pH inferior a 7.",
+    "claveMemorizar": "Muchos H⁺ = pH <7."
+  },
+  "55": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hipernatremia = aumento del sodio sérico.",
+    "claveMemorizar": "Hipernatremia = Na⁺↑."
+  },
+  "56": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "pH alto con HCO₃⁻ alto es alcalosis metabólica.",
+    "claveMemorizar": "pH↑ + HCO₃⁻↑ = alcalosis metabólica."
+  },
+  "57": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hemólisis libera el potasio intracelular (unas 25 veces más concentrado en el hematíe) y eleva falsamente el K⁺.",
+    "claveMemorizar": "Hemólisis → K⁺↑."
+  },
+  "58": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los gases se miden en sangre total heparinizada (heparina de litio balanceada), sin separar plasma.",
+    "claveMemorizar": "Gasometría: sangre total con heparina."
+  },
+  "59": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "pH >7,45 es alcalosis y <7,35 acidosis, pero puede haber trastornos mixtos o compensados con pH normal.",
+    "claveMemorizar": "pH normal no excluye trastorno."
+  },
+  "60": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la acidosis metabólica pH y bicarbonato están disminuidos.",
+    "claveMemorizar": "Acidosis metabólica: pH↓, HCO₃⁻↓."
+  },
+  "61": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El electrodo de Severinghaus mide la pCO₂: el CO₂ difunde a una solución de bicarbonato y cambia su pH.",
+    "claveMemorizar": "Severinghaus = pCO₂."
+  },
+  "62": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El bicarbonato se calcula (Henderson-Hasselbalch) a partir de pH y pCO₂. pH, pCO₂ y pO₂ se miden con electrodos.",
+    "claveMemorizar": "HCO₃⁻: calculado."
+  },
+  "63": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "pH = −log[H⁺]: a mayor pH, menor concentración de protones. pH <7 es ácido.",
+    "claveMemorizar": "pH alto = pocos H⁺."
+  },
+  "64": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El pH puede medirse en sangre arterial, venosa o plasma, según el contexto (con valores de referencia distintos).",
+    "claveMemorizar": "pH: arterial, venosa o plasma."
+  },
+  "65": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los niños en crecimiento tienen el fósforo más alto, no más bajo. Por eso A es la incorrecta.",
+    "claveMemorizar": "Niños: fósforo más alto."
+  },
+  "66": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La vitamina D se hidroxila en el hígado (25-OH) y la segunda hidroxilación (1-α) ocurre en el riñón y forma calcitriol.",
+    "claveMemorizar": "1-hidroxilación: riñón."
+  },
+  "67": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El sodio es el principal determinante de la osmolalidad plasmática (Osm ≈ 2·Na + glucosa/18 + urea/6).",
+    "claveMemorizar": "Osmolalidad: sodio."
+  },
+  "68": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la alcalosis metabólica pH y bicarbonato están elevados.",
+    "claveMemorizar": "Alcalosis metabólica: pH↑, HCO₃⁻↑."
+  },
+  "69": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El anión gap sirve para el diagnóstico diferencial de la acidosis metabólica (gap elevado frente a normal o hiperclorémica).",
+    "claveMemorizar": "Anión gap → acidosis metabólica."
+  },
+  "70": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El calcio total se interpreta según las proteínas (albúmina), o se mide el calcio iónico. El hipoparatiroidismo da hipocalcemia, la acidosis aumenta el calcio iónico y la calcitonina lo baja.",
+    "claveMemorizar": "Calcio total: corregir por albúmina."
+  },
+  "71": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La acidosis respiratoria se produce por pCO₂ elevada (hipoventilación).",
+    "claveMemorizar": "Acidosis respiratoria = pCO₂↑."
+  },
+  "72": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si se retrasa el procesado, el potasio se eleva falsamente, sobre todo a 4 °C: el frío inhibe la bomba Na⁺/K⁺ y el K⁺ sale del hematíe.",
+    "claveMemorizar": "K⁺ falso alto: frío + retraso."
+  },
+  "73": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hemoglobina unida a CO es carboxihemoglobina. La metahemoglobina tiene hierro férrico y la carbaminohemoglobina lleva CO₂.",
+    "claveMemorizar": "Hb + CO = carboxihemoglobina."
+  },
+  "74": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El potasio es el principal catión intracelular.",
+    "claveMemorizar": "Intracelular: K⁺."
+  },
+  "75": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La pCO₂ arterial normal es 35-45 mmHg.",
+    "claveMemorizar": "pCO₂: 35-45 mmHg."
+  },
+  "76": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La acidosis respiratoria se debe a hipoventilación alveolar: sube la pCO₂ y baja el pH.",
+    "claveMemorizar": "Acidosis respiratoria = hipoventilación."
+  },
+  "77": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El riñón regula el pH reabsorbiendo bicarbonato, excretando H⁺ como amonio y acidificando los fosfatos urinarios (acidez titulable).",
+    "claveMemorizar": "Riñón: HCO₃⁻, NH₄⁺, fosfatos."
+  },
+  "78": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH se mide con electrodo de vidrio (potenciométrico). Severinghaus mide pCO₂ y Clark, pO₂.",
+    "claveMemorizar": "pH → electrodo de vidrio."
+  },
+  "79": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hiperventilación elimina CO₂ y produce alcalosis respiratoria, no acidosis. Las demás afirmaciones son ciertas.",
+    "claveMemorizar": "Hiperventilar = alcalosis respiratoria."
+  },
+  "80": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La alcalosis respiratoria cursa con pH alto, pCO₂ baja y bicarbonato que baja como compensación.",
+    "claveMemorizar": "Alcalosis respiratoria: pH↑, pCO₂↓."
+  },
+  "81": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El potasio es el principal catión intracelular.",
+    "claveMemorizar": "Intracelular: K⁺."
+  },
+  "82": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "pH alto con HCO₃⁻ alto y pCO₂ normal (sin compensar) es alcalosis metabólica.",
+    "claveMemorizar": "pH↑ + HCO₃⁻↑ = alcalosis metabólica."
+  },
+  "83": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El sodio es el principal catión extracelular.",
+    "claveMemorizar": "Extracelular: Na⁺."
+  },
+  "84": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la alcalosis metabólica el K⁺ entra en las células (se intercambia por H⁺) y se pierde por orina: hipopotasemia. Insuficiencia renal, hemólisis y déficit de insulina elevan el potasio.",
+    "claveMemorizar": "Alcalosis → hipopotasemia."
+  },
+  "85": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El anión gap representa la suma de aniones no medidos habitualmente, que son muchos y están en baja proporción.",
+    "claveMemorizar": "Anión gap: aniones no medidos."
+  },
+  "86": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El tampón bicarbonato actúa sobre todo en el líquido extracelular (sangre).",
+    "claveMemorizar": "Bicarbonato: extracelular."
+  },
+  "87": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La sangre venosa sirve para valorar el equilibrio ácido-base (pH, HCO₃⁻), pero no la oxigenación, que requiere sangre arterial.",
+    "claveMemorizar": "Venosa: ácido-base, no oxigenación."
+  },
+  "88": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La saturación de O₂ es el porcentaje de hemoglobina ocupada por O₂ respecto a la capacidad máxima de unión.",
+    "claveMemorizar": "SatO₂ = Hb con O₂ / capacidad total."
+  },
+  "89": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "pCO₂ alta con pH 7,1 es acidosis respiratoria.",
+    "claveMemorizar": "CO₂↑ + pH↓ = acidosis respiratoria."
+  },
+  "90": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las sustancias que aportan H⁺ al disociarse son ácidos.",
+    "claveMemorizar": "Aporta H⁺ = ácido."
+  },
+  "91": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La constante de disociación se representa con K (Ka para ácidos, Kb para bases).",
+    "claveMemorizar": "Constante de disociación = K."
+  },
+  "92": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El agua es anfótera (anfolito): puede comportarse como ácido o como base.",
+    "claveMemorizar": "Agua: anfótera."
+  },
+  "93": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El bicarbonato actúa como base conjugada que capta H⁺, no como sal neutra. Es extracelular y está muy concentrado.",
+    "claveMemorizar": "Bicarbonato: base que capta H⁺."
+  },
+  "94": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para el anión gap se usan los aniones medidos: cloro y bicarbonato (Na⁺ − [Cl⁻ + HCO₃⁻]). El sodio es un catión.",
+    "claveMemorizar": "Gap: Na⁺ − Cl⁻ − HCO₃⁻."
+  },
+  "95": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El anión gap normal ronda 8-12 mEq/L; la clave da 10-12.",
+    "claveMemorizar": "Anión gap: ~10-12."
+  },
+  "96": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El primer mecanismo en actuar ante una acidosis metabólica es el tampón bicarbonato (inmediato). Después viene la respiración (minutos-horas) y luego el riñón (días).",
+    "claveMemorizar": "Orden: tampones → pulmón → riñón."
+  },
+  "97": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acidosis respiratoria el CO₂ no puede taparse con bicarbonato: lo amortiguan sobre todo los tampones celulares, como hemoglobina y proteínas.",
+    "claveMemorizar": "Acidosis respiratoria: tampones celulares (Hb)."
+  },
+  "98": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH se mide por potenciometría: la diferencia de potencial entre un electrodo indicador (vidrio) y otro de referencia.",
+    "claveMemorizar": "pH: diferencia de potencial."
+  },
+  "99": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las tiras de orina miden el pH con indicadores mixtos: rojo de metilo y azul de bromotimol.",
+    "claveMemorizar": "pH en tira: rojo de metilo + azul de bromotimol."
+  },
+  "100": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La saturación de transferrina es un parámetro del hierro, no de la gasometría.",
+    "claveMemorizar": "Gases: pH, pCO₂, pO₂."
+  },
+  "101": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El test de Allen comprueba que la arteria cubital suplirá a la mano si se daña la radial: circulación colateral de ambas arterias.",
+    "claveMemorizar": "Allen: circulación colateral radial-cubital."
+  },
+  "102": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La pO₂ arterial normal es 80-100 mmHg (unos 90).",
+    "claveMemorizar": "pO₂: ~90 mmHg."
+  },
+  "103": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La pCO₂ normal ronda 40 mmHg (35-45).",
+    "claveMemorizar": "pCO₂: ~40 mmHg."
+  },
+  "104": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la acidosis metabólica el K⁺ sale de las células y suele haber hiperpotasemia, no hipopotasemia. pH, HCO₃⁻ y pCO₂ (compensadora) bajan.",
+    "claveMemorizar": "Acidosis → hiperpotasemia."
+  },
+  "105": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El CO₂ difunde unas 20 veces más rápido que el O₂ porque es mucho más soluble.",
+    "claveMemorizar": "CO₂ difunde más: más soluble."
+  },
+  "106": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un tampón tiene máxima capacidad amortiguadora cuando pH = pKa (ácido y base conjugada a partes iguales).",
+    "claveMemorizar": "Máxima capacidad: pH = pKa."
+  },
+  "107": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "H⁺ aumentado con pCO₂ elevada de inicio es acidosis respiratoria.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "108": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El sodio es el que más contribuye a la osmolalidad plasmática.",
+    "claveMemorizar": "Osmolalidad: sodio."
+  },
+  "109": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El lactato no es un tampón fisiológico importante; su acumulación produce acidosis. Bicarbonato, proteínas y fosfato sí son tampones.",
+    "claveMemorizar": "Lactato ≠ tampón."
+  },
+  "110": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La metahemoglobina tiene el hierro oxidado a férrico (Fe³⁺) y no transporta O₂.",
+    "claveMemorizar": "Fe³⁺ = metahemoglobina."
+  },
+  "111": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El sodio es el principal catión extracelular.",
+    "claveMemorizar": "Extracelular: Na⁺."
+  },
+  "112": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una partícula con carga positiva es un catión (va al cátodo).",
+    "claveMemorizar": "Positivo = catión."
+  },
+  "113": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "pH alto con HCO₃⁻ alto es alcalosis metabólica.",
+    "claveMemorizar": "pH↑ + HCO₃⁻↑ = alcalosis metabólica."
+  },
+  "114": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El calcio circula en parte unido a albúmina: el calcio total se valora junto a las proteínas (o se corrige o mide el iónico).",
+    "claveMemorizar": "Calcio: valorar con proteínas."
+  },
+  "115": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El pH depende de la temperatura: el pH-metro debe compensarla. Se calibra con patrones, se lava con agua destilada y se guarda en KCl.",
+    "claveMemorizar": "pH-metro: temperatura importa."
+  },
+  "116": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La acidosis metabólica se compensa con hiperventilación. El riñón retiene bicarbonato y excreta ácido.",
+    "claveMemorizar": "Acidosis metabólica → hiperventilación."
+  },
+  "117": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las burbujas de aire alteran pO₂, pCO₂ y pH: esas muestras no se analizan. Se analizan antes de 30 min, hay valores críticos y FiO₂ y temperatura influyen en los cálculos.",
+    "claveMemorizar": "Gasometría con burbujas: rechazar."
+  },
+  "118": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La intoxicación por CO se diagnostica midiendo carboxihemoglobina por cooximetría. La pO₂ y la saturación calculada pueden salir normales.",
+    "claveMemorizar": "Intoxicación CO → COHb."
+  },
+  "119": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La amilasa es una enzima, no un sistema amortiguador. Los tampones son fosfato, bicarbonato-carbónico y proteínas.",
+    "claveMemorizar": "Amilasa ≠ tampón."
+  },
+  "120": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acidosis respiratoria el pH baja por el aumento de la pCO₂. En las demás opciones el sentido del pH está invertido.",
+    "claveMemorizar": "pCO₂↑ → pH↓."
+  },
+  "121": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El hiato aniónico es una aproximación matemática de la diferencia entre cationes y aniones medidos habitualmente (Na⁺ − Cl⁻ − HCO₃⁻).",
+    "claveMemorizar": "Hiato aniónico: cálculo, no ion."
+  },
+  "122": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las bases aportan OH⁻ o captan H⁺. Los ácidos aportan H⁺, y el catión va al cátodo (polo negativo), no al ánodo.",
+    "claveMemorizar": "Base: da OH⁻ o capta H⁺."
+  },
+  "123": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La alteración metabólica se debe a cambios del bicarbonato. La causada por el CO₂ es la respiratoria.",
+    "claveMemorizar": "Metabólica = HCO₃⁻. Respiratoria = CO₂."
+  },
+  "124": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El electrodo de referencia habitual es de calomelanos saturado (o Ag/AgCl), con potencial constante.",
+    "claveMemorizar": "Referencia: calomelanos o Ag/AgCl."
+  },
+  "125": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En gases sanguíneos se miden pH, pCO₂ y pO₂.",
+    "claveMemorizar": "Gases: pH, pCO₂, pO₂."
+  },
+  "126": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma es ~90% agua con proteínas, sales, nutrientes, hormonas y gases. Contiene fibrinógeno; el suero no.",
+    "claveMemorizar": "Plasma: 90% agua."
+  },
+  "127": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Se punciona sobre todo la radial (también braquial y femoral), principalmente para gasometrías, y la muestra se procesa de inmediato.",
+    "claveMemorizar": "Punción arterial: radial, gasometría, inmediata."
+  },
+  "128": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hiperventilación elimina CO₂ y produce alcalosis respiratoria, no acidosis. Las demás afirmaciones son ciertas.",
+    "claveMemorizar": "Hiperventilar = alcalosis respiratoria."
+  },
+  "129": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "pH bajo y pCO₂ alta indican acidosis respiratoria.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "130": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La compensación pulmonar es rápida (minutos). En la acidosis se hiperventila y en la alcalosis se hipoventila para ajustar la pCO₂.",
+    "claveMemorizar": "Pulmón: compensación rápida."
+  },
+  "131": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La pO₂ es lo que más difiere entre sangre arterial (~95) y venosa (~40 mmHg). pH, pCO₂ y CO₂ total varían poco.",
+    "claveMemorizar": "Arterial vs venosa: pO₂."
+  },
+  "132": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El pH arterial normal es 7,35-7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "133": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La arteria pulmonar lleva sangre desoxigenada del ventrículo derecho a los pulmones.",
+    "claveMemorizar": "Arteria pulmonar: sangre sin oxígeno."
+  },
+  "134": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cloro (Cl⁻) es un anión. Potasio, sodio y calcio son cationes.",
+    "claveMemorizar": "Cloro = anión."
+  },
+  "135": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El magnesio se mide en arritmias refractarias, diarreas, alcoholismo o hipopotasemia refractaria. La hiperpotasemia no es indicación típica.",
+    "claveMemorizar": "Mg: arritmias, diarrea, alcohol, hipoK."
+  },
+  "136": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hiperfosfatemia tiende a bajar el calcio (fósforo y calcio suelen ir en sentido opuesto). Hiperparatiroidismo, mieloma y cáncer de mama o pulmón dan hipercalcemia.",
+    "claveMemorizar": "Fósforo↑ → calcio↓."
+  },
+  "137": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cáncer de mama produce hipercalcemia (metástasis óseas), no hipocalcemia. Insuficiencia renal, pancreatitis e hipoparatiroidismo dan hipocalcemia.",
+    "claveMemorizar": "Cáncer de mama → hipercalcemia."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La albúmina es el anión no medido que más contribuye al anión gap. Por eso la hipoalbuminemia lo reduce.",
+    "claveMemorizar": "Gap: sobre todo albúmina."
+  },
+  "139": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un potasio de 3 mEq/L está bajo (normal 3,5-5,0). Na⁺ 135, Ca 9,5 y Cl⁻ 100 son normales.",
+    "claveMemorizar": "K⁺ normal: 3,5-5,0."
+  },
+  "140": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El lactato elevado predice la gravedad (sepsis, shock) y se mide urgente. Se produce por glucólisis anaerobia y valores >4 mmol/L son de mal pronóstico.",
+    "claveMemorizar": "Lactato↑ = gravedad."
+  },
+  "141": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El pH del líquido pleural se mide como una gasometría: jeringa heparinizada, sin aire y transportada en frío.",
+    "claveMemorizar": "pH pleural: en frío, como gasometría."
+  },
+  "142": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Antes de puncionar la radial se hace el test de Allen.",
+    "claveMemorizar": "Radial → test de Allen."
+  },
+  "143": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La gasometría se recoge en jeringa con heparina (de litio balanceada).",
+    "claveMemorizar": "Gasometría: jeringa heparinizada."
+  },
+  "144": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Al inicio de la alcalosis respiratoria sube el pH y baja la pCO₂, con bicarbonato aún normal.",
+    "claveMemorizar": "Alcalosis respiratoria aguda: pH↑, pCO₂↓."
+  },
+  "145": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "pH 7,6 con HCO₃⁻ alto (30) es alcalosis metabólica. La pCO₂ de 50 es la compensación respiratoria (hipoventilación).",
+    "claveMemorizar": "pH↑ + HCO₃⁻↑ (+ pCO₂↑ compensadora) = alcalosis metabólica."
+  },
+  "146": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La pO₂ se mide con el electrodo de Clark.",
+    "claveMemorizar": "pO₂ → Clark."
+  },
+  "147": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La osmolalidad plasmática baja con hiponatremia. La hiperglucemia y la hipernatremia la elevan.",
+    "claveMemorizar": "Hiponatremia → osmolalidad↓."
+  },
+  "148": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El exceso de base no se mide con un electrodo: se calcula. Los electrodos miden pH, pCO₂ y pO₂.",
+    "claveMemorizar": "Exceso de base: calculado."
+  },
+  "149": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la alcalosis metabólica se compensa reteniendo CO₂ por hipoventilación.",
+    "claveMemorizar": "Alcalosis metabólica → hipoventilar."
+  },
+  "150": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave, las proteínas plasmáticas son el tampón de especial interés a nivel tisular.",
+    "claveMemorizar": "Tampón tisular: proteínas."
+  },
+  "151": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Más del 99% del calcio del organismo está en huesos y dientes.",
+    "claveMemorizar": "Calcio: >95% en hueso."
+  },
+  "152": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la acidosis respiratoria baja el pH sanguíneo. La pCO₂ y el ácido carbónico suben.",
+    "claveMemorizar": "Acidosis respiratoria: pH↓."
+  },
+  "153": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La pO₂ arterial normal en el adulto es 80-100 mmHg.",
+    "claveMemorizar": "pO₂: 80-100 mmHg."
+  },
+  "154": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Hiperpotasemia (hiperkalemia) es potasio >5-5,5 mEq/L; 6,5 es claramente elevado.",
+    "claveMemorizar": "K⁺ >5,5 = hiperpotasemia."
+  },
+  "155": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El potasio es el principal catión intracelular.",
+    "claveMemorizar": "Intracelular: K⁺."
+  },
+  "156": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "A menor Ka, menor disociación y ácido más débil. A mayor Kb, base más fuerte.",
+    "claveMemorizar": "Ka pequeña = ácido débil."
+  },
+  "157": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La pCO₂ refleja la ventilación alveolar: alta si hay hipoventilación, baja si hay hiperventilación. La pO₂ informa de la oxigenación.",
+    "claveMemorizar": "pCO₂ = ventilación."
+  },
+  "158": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la alcalosis respiratoria el pH está alto y la pCO₂ baja.",
+    "claveMemorizar": "Alcalosis respiratoria: pH↑, pCO₂↓."
+  },
+  "159": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El potasio es el principal ion intracelular.",
+    "claveMemorizar": "Intracelular: K⁺."
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La acidosis metabólica se compensa con hiperventilación.",
+    "claveMemorizar": "Acidosis metabólica → hiperventilar."
+  },
+  "161": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La gasometría (pH, pCO₂, HCO₃⁻) es la prueba fundamental del equilibrio ácido-base.",
+    "claveMemorizar": "Ácido-base → gasometría."
+  },
+  "162": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El EDTA quela el calcio: da valores falsamente bajísimos. Sirven suero o plasma con heparina.",
+    "claveMemorizar": "Calcio: nunca EDTA."
+  },
+  "163": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "pH 7,29 con pCO₂ alta (55) es acidosis respiratoria. El HCO₃⁻ algo alto (27,5) es compensación renal inicial.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "164": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La gasometría se extrae con heparina de litio balanceada con calcio, que no altera el calcio iónico.",
+    "claveMemorizar": "Gasometría: heparina de litio balanceada."
+  },
+  "165": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El bicarbonato no se mide directamente en gasometría: se calcula a partir de pH y pCO₂ (Henderson-Hasselbalch).",
+    "claveMemorizar": "HCO₃⁻: calculado."
+  },
+  "166": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La anhidrasa carbónica (con zinc) cataliza CO₂ + H₂O ⇄ H₂CO₃ y es clave en el equilibrio ácido-base.",
+    "claveMemorizar": "Anhidrasa carbónica → ácido-base."
+  },
+  "167": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El pH arterial normal es 7,35-7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "168": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El manganeso (oligoelemento) se mide por espectrofotometría de absorción atómica con atomización electrotérmica (cámara de grafito), muy sensible.",
+    "claveMemorizar": "Metales traza → absorción atómica electrotérmica."
+  },
+  "169": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El anión gap bajo se debe sobre todo a hipoalbuminemia, pero también a hiponatremia (según la clave), paraproteínas catiónicas o aumento de cationes no medidos.",
+    "claveMemorizar": "Gap bajo: hipoalbuminemia, hiponatremia."
+  },
+  "170": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La alcalosis metabólica cursa con bicarbonato elevado.",
+    "claveMemorizar": "HCO₃⁻↑ = alcalosis metabólica."
+  },
+  "171": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El pH sanguíneo normal está entre 7,35 y 7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "172": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Por la curva de disociación de la hemoglobina, con PaO₂ >60 mmHg la saturación supera el 90%. Por debajo cae bruscamente.",
+    "claveMemorizar": "PaO₂ 60 ≈ SatO₂ 90%."
+  },
+  "173": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "pH bajo (7,33) con bicarbonato bajo es acidosis metabólica. La pCO₂ baja es la compensación respiratoria.",
+    "claveMemorizar": "pH↓ + HCO₃⁻↓ (pCO₂↓) = acidosis metabólica."
+  },
+  "174": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un tampón funciona bien en pKa ± 1, no ± 10. Las demás afirmaciones son correctas.",
+    "claveMemorizar": "Tampón útil: pKa ± 1."
+  },
+  "175": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Menos ventilación alveolar, CO₂ alto y pH bajo definen la acidosis respiratoria.",
+    "claveMemorizar": "Hipoventilación = acidosis respiratoria."
+  },
+  "176": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las burbujas de aire alteran pH, pCO₂ y pO₂: no se procesan. La gasometría se analiza en unos 30 min y la hemólisis sí interfiere (K⁺).",
+    "claveMemorizar": "Gasometría con burbujas: rechazar."
+  },
+  "177": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la acidosis respiratoria no compensada baja el pH porque sube la pCO₂.",
+    "claveMemorizar": "Acidosis respiratoria: pCO₂↑ → pH↓."
+  },
+  "178": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El anión gap representa aniones no medidos (proteínas, fosfatos, sulfatos, lactato). Es normal en unos 8-12 y es cationes menos aniones, no al revés.",
+    "claveMemorizar": "Gap: aniones no medidos."
+  },
+  "179": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El pH arterial normal es 7,35-7,45.",
+    "claveMemorizar": "pH: 7,35-7,45."
+  },
+  "180": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El pH se mide con electrodo de vidrio.",
+    "claveMemorizar": "pH → vidrio."
+  },
+  "181": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Alcalosis metabólica: pH y HCO₃⁻ aumentados, con pCO₂ normal o aumentada por compensación.",
+    "claveMemorizar": "Alcalosis metabólica: pH↑, HCO₃⁻↑, pCO₂ normal/↑."
+  },
+  "182": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La presión parcial de oxígeno se mide en sangre arterial.",
+    "claveMemorizar": "pO₂ → sangre arterial."
+  },
+  "183": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la alcalosis respiratoria el CO₂ está bajo y el pH alto.",
+    "claveMemorizar": "CO₂↓ + pH↑ = alcalosis respiratoria."
+  },
+  "184": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La clave da PO₂ ~70 mmHg con PCO₂ baja o normal, patrón obstructivo (CPT y VR altos, CV y FEV₁ bajos). Ojo: en EPOC avanzada la PCO₂ suele estar elevada.",
+    "claveMemorizar": "EPOC: obstructivo, VR↑, FEV₁↓."
+  },
+  "185": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El EDTA quela el calcio: no se usa para medirlo. Sirven tubo seco o heparina de litio.",
+    "claveMemorizar": "Calcio: nunca EDTA."
+  },
+  "186": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acidosis metabólica baja el bicarbonato y, por compensación respiratoria, también el ácido carbónico (pCO₂).",
+    "claveMemorizar": "Acidosis metabólica compensada: HCO₃⁻↓ y pCO₂↓."
+  },
+  "187": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La glándula pineal no regula el calcio. La hipocalcemia se debe a déficit de vitamina D, hipoparatiroidismo o malabsorción.",
+    "claveMemorizar": "Hipocalcemia: vitamina D, PTH, malabsorción."
+  },
+  "188": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la alcalosis respiratoria sin compensar el pH sube, la pCO₂ baja y el bicarbonato baja ligeramente por el equilibrio químico. Según la clave: pH↑, HCO₃⁻↓, pCO₂↓.",
+    "claveMemorizar": "Alcalosis respiratoria: pH↑, pCO₂↓."
+  },
+  "189": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los amortiguadores también se llaman tampones o buffers.",
+    "claveMemorizar": "Amortiguador = buffer."
+  },
+  "190": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las burbujas de aire alteran los resultados de la gasometría. Homogeneizar la muestra y procesarla junto al paciente es correcto.",
+    "claveMemorizar": "Burbujas = error en gasometría."
+  },
+  "191": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los gases en sangre se extraen en jeringa heparinizada.",
+    "claveMemorizar": "Gases: jeringa heparinizada."
+  },
+  "192": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "A temperatura ambiente las células siguen consumiendo O₂ y produciendo CO₂: sube la pCO₂, baja el pH y baja la pO₂.",
+    "claveMemorizar": "Gasometría sin hielo: pCO₂↑, pH↓, pO₂↓."
+  },
+  "193": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "pH bajo con pCO₂ alta sugiere acidosis respiratoria.",
+    "claveMemorizar": "pH↓ + pCO₂↑ = acidosis respiratoria."
+  },
+  "194": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La gasometría incluye pH, pCO₂, pO₂ y HCO₃⁻ calculado. El calcio (iónico) puede añadirse en algunos equipos, pero no forma parte de la gasometría básica.",
+    "claveMemorizar": "Gasometría: pH, pCO₂, pO₂, HCO₃⁻."
+  },
+  "195": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Bicarbonato alto con potasio normal o alto sugiere compensación renal de una acidosis respiratoria. En la alcalosis metabólica primaria suele haber hipopotasemia.",
+    "claveMemorizar": "HCO₃⁻↑ con K⁺ normal → acidosis respiratoria compensada."
+  },
+  "196": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Alcalosis respiratoria: pH >7,45 con pCO₂ baja.",
+    "claveMemorizar": "pH >7,45 + pCO₂↓."
+  },
+  "197": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un pH bajo reduce la afinidad de la hemoglobina por el O₂ (efecto Bohr): la curva se desplaza a la derecha y cede más O₂ a los tejidos.",
+    "claveMemorizar": "pH↓ → Hb suelta más O₂ (Bohr)."
+  },
+  "198": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Salicilatos, etanol, metanol y etilenglicol producen acidosis metabólica con anión gap elevado.",
+    "claveMemorizar": "Tóxicos → acidosis metabólica con gap alto."
+  },
+  "199": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La acidosis respiratoria se produce por pCO₂ elevada (hipoventilación).",
+    "claveMemorizar": "Acidosis respiratoria = pCO₂↑."
+  },
+  "200": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tampón bicarbonato-ácido carbónico es el de mayor capacidad en plasma.",
+    "claveMemorizar": "Mayor capacidad: bicarbonato."
+  },
+  "201": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los diuréticos del asa (furosemida) aumentan la excreción de calcio y pueden bajarlo. Las tiazidas sí elevan el calcio.",
+    "claveMemorizar": "Diurético del asa → calcio↓."
+  },
+  "202": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "pH 7,25 con HCO₃⁻ 15 y pCO₂ 35 (apenas compensada) es acidosis metabólica descompensada. La opción C tiene más compensación.",
+    "claveMemorizar": "Descompensada: pH claramente bajo."
+  },
+  "203": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Con hipoproteinemia o hiperlipidemia la potenciometría directa es la mejor: mide la actividad en agua plasmática sin diluir y evita la pseudohiponatremia de los métodos indirectos.",
+    "claveMemorizar": "Lípidos/proteínas alterados → potenciometría directa."
+  },
+  "204": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acidosis metabólica compensada bajan pH, bicarbonato y pCO₂ (hiperventilación compensadora).",
+    "claveMemorizar": "Acidosis metabólica compensada: todo baja."
+  },
+  "205": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una gasometría procesada una hora después, sin hielo, no es estable (pO₂, pCO₂, pH alterados). Se rechaza.",
+    "claveMemorizar": "Gasometría de 1 h sin frío: rechazar."
+  },
+  "206": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Lactato y piruvato se transportan en hielo: la glucólisis de los hematíes los modifica rápido.",
+    "claveMemorizar": "Lactato/piruvato: en hielo."
+  },
+  "207": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la acidosis metabólica el pulmón responde hiperventilando.",
+    "claveMemorizar": "Acidosis metabólica → hiperventilación."
+  },
+  "208": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los gasómetros miden con electrodos pH, pCO₂ y pO₂. El resto (HCO₃⁻, exceso de base) se calcula.",
+    "claveMemorizar": "Medidos: pH, pCO₂, pO₂."
+  },
+  "209": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El pH se mide con electrodo de vidrio.",
+    "claveMemorizar": "pH → vidrio."
+  },
+  "210": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "pH 7,3 con HCO₃⁻ 15 y pCO₂ 30 (compensación) es acidosis metabólica. Clínica compatible con intoxicación por metanol: visión borrosa.",
+    "claveMemorizar": "pH↓ + HCO₃⁻↓ = acidosis metabólica."
+  },
+  "211": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El lactato refleja la disponibilidad de O₂ en los tejidos: sube con la hipoperfusión y el metabolismo anaerobio.",
+    "claveMemorizar": "Lactato = oxigenación tisular."
+  },
+  "212": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "pCO₂ muy alta (70) con HCO₃⁻ muy alto (39) y pH casi normal (7,36) es acidosis respiratoria crónica compensada (EPOC).",
+    "claveMemorizar": "pCO₂↑ + HCO₃⁻↑ + pH casi normal = acidosis respiratoria compensada."
+  },
+  "213": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la alcalosis metabólica el pH está elevado. La compensación es hipoventilar (sube la pCO₂), no hiperventilar.",
+    "claveMemorizar": "Alcalosis metabólica: pH↑."
+  },
+  "214": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una molécula anfótera puede actuar como ácido o como base.",
+    "claveMemorizar": "Anfótera: ácido o base."
+  },
+  "215": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El organismo mantiene pH, pCO₂ y HCO₃⁻ con tampones, ventilación alveolar (CO₂) y riñón (HCO₃⁻, H⁺).",
+    "claveMemorizar": "Tampones + pulmón + riñón."
+  },
+  "216": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Na⁺, Cl⁻ y K⁺ son los electrolitos principales del equilibrio hidroelectrolítico.",
+    "claveMemorizar": "Na⁺, Cl⁻, K⁺."
+  },
+  "217": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave, la permeabilidad selectiva de las membranas regula la distribución de agua y electrolitos entre compartimentos. Riñón, hormonas y sed también participan.",
+    "claveMemorizar": "Membranas selectivas regulan el reparto."
+  },
+  "218": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El lactato se extrae sin torniquete o soltándolo enseguida: la isquemia local lo eleva falsamente. La muestra se toma en reposo, en frío y se analiza pronto.",
+    "claveMemorizar": "Lactato: sin torniquete."
+  },
+  "219": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un tampón es un ácido débil en solución con su base conjugada (sal).",
+    "claveMemorizar": "Tampón: ácido débil + su sal."
+  },
+  "220": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las sustancias que actúan como ácido y como base son anfóteras; la clave las llama «anfitrópicas».",
+    "claveMemorizar": "Ácido y base a la vez = anfótera."
+  },
+  "221": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El lactato es un buen indicador pronóstico en sepsis y shock séptico. Se produce en anaerobiosis: la acidosis láctica tipo A es por hipoxia tisular y la tipo B, sin hipoxia (neoplasias, fármacos).",
+    "claveMemorizar": "Lactato: pronóstico en sepsis."
+  },
+  "222": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los ácidos fijos (no volátiles) vienen del metabolismo proteico (sulfúrico, fosfórico) y de la oxidación incompleta de grasas e hidratos (cetoácidos, lactato).",
+    "claveMemorizar": "Ácidos fijos: metabolismo, proteínas, oxidación incompleta."
+  },
+  "223": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El lactato es un buen indicador pronóstico en sepsis y shock séptico. Se produce en anaerobiosis: la acidosis láctica tipo A es por hipoxia tisular y la tipo B, sin hipoxia (neoplasias, fármacos).",
+    "claveMemorizar": "Lactato: pronóstico en sepsis."
+  }
+}
