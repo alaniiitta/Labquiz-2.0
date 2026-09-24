@@ -1,4 +1,5 @@
 import topic01 from "./topic-01-explanations.json";
+import topic01Extra from "./topic-01-extra-explanations.json";
 import topic02 from "./topic-02-explanations.json";
 import topic03 from "./topic-03-explanations.json";
 import topic04Part01 from "./topic-04-parts/part-01.json";
@@ -45,7 +46,7 @@ import topic09Part05 from "./topic-09-parts/part-05.json";
 import topic09Part06 from "./topic-09-parts/part-06.json";
 
 const explanationsByTopic = {
-  "tema-01": topic01["tema-01"],
+  "tema-01": { ...topic01Extra, ...topic01["tema-01"] },
   "tema-02": topic02,
   "tema-03": topic03,
   "tema-04": {

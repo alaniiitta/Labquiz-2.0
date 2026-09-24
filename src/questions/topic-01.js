@@ -69,7 +69,7 @@ const questions = [
     "number": 6,
     "question": "El control de calidad externo consiste en:",
     "answers": [
-      "Analizar unas muestras conociendo los resultados esperados. _______________________________________________________________________________________",
+      "Analizar unas muestras conociendo los resultados esperados.",
       "Analizar muestras de las cuales se desconocen los resultados que debemos obtener.",
       "Pasarlo cada día, antes de empezar la rutina de trabajo.",
       "No se emplean controles externos, salvo los internos."
@@ -210,7 +210,7 @@ const questions = [
   {
     "id": 17,
     "number": 17,
-    "question": "Las gráficas de control estadístico o gráficas de Levy- Jenning para los resultados analíticos son _______________________________________________________________________________________ imprescindibles en el laboratorio clínico para conocer:",
+    "question": "Las gráficas de control estadístico o gráficas de Levy- Jenning para los resultados analíticos son imprescindibles en el laboratorio clínico para conocer:",
     "answers": [
       "La exactitud y precisión entre pruebas de los resultados analíticos obtenidos con un mismo suero control.",
       "La exactitud y precisión día a día de los resultados analíticos obtenidos con un mismo suero control.",
@@ -329,7 +329,7 @@ const questions = [
     "number": 26,
     "question": "Para cuantificar el tiempo de respuesta se pueden usar los parámetros estadísticos siguientes, EXCEPTO:",
     "answers": [
-      "Percentiles (generalmente 90 o 95) _______________________________________________________________________________________",
+      "Percentiles (generalmente 90 o 95)",
       "Proporción de resultados entregados en un tiempo inferior al marcado",
       "Desviación típica",
       "Mediana"
@@ -447,7 +447,7 @@ const questions = [
     "question": "En relación con la calibración de equipos, ¿cuál de las siguientes afirmaciones es correcta?",
     "answers": [
       "Se entiende por calibración la comparación de un sistema de medición frente a estándares conocidos.",
-      "Tiene que haber un plan de calibración de equipos que defina la actividad a realizar y su periodicidad. _______________________________________________________________________________________",
+      "Tiene que haber un plan de calibración de equipos que defina la actividad a realizar y su periodicidad.",
       "Deberán calibrarse los equipos de medición y ensayo que lo precisan antes de su puesta en servicio.",
       "Todas las respuestas son correctas."
     ],
@@ -566,7 +566,7 @@ const questions = [
       "El EDTA constituye actualmente un anticoagulante de elección en hematología.",
       "Es aconsejable mantener a 4° C las muestras de sangre durante su transporte, para preservar los niveles de potasio.",
       "La hemólisis es la salida de componentes de los eritrocitos, al plasma o al suero, por lo que aumentan las concentraciones de sodio.",
-      "Todas las respuestas son correctas. _______________________________________________________________________________________"
+      "Todas las respuestas son correctas."
     ],
     "correctAnswer": 0,
     "explanation": ""
@@ -709,7 +709,7 @@ const questions = [
       "Capítulo de la Norma ISO 9001:2008 aplicada.",
       "Objeto.",
       "Descripción del procedimiento.",
-      "Responsabilidades. _______________________________________________________________________________________"
+      "Responsabilidades."
     ],
     "correctAnswer": 0,
     "explanation": ""
@@ -826,7 +826,7 @@ const questions = [
       "Han de describirse los procedimientos documentados de las técnicas que se llevan a cabo en el laboratorio.",
       "Cualquier trabajador que se incorpore por primera vez precisa un periodo de adaptación y formación.",
       "Seguir un plan de mantenimiento periódico y controles de calidad.",
-      "Todas están incluidas. _______________________________________________________________________________________"
+      "Todas están incluidas."
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -969,7 +969,7 @@ const questions = [
       "Suero lipémico",
       "Fármacos",
       "Hemólisis",
-      "Color de la piel _______________________________________________________________________________________"
+      "Color de la piel"
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -1112,7 +1112,7 @@ const questions = [
       "Grado de consecución de los objetivos propuestos al mínimo coste posible.",
       "Mide lo apropiado de los servicios que se ofertan en relación a las necesidades.",
       "Grado de consecución de los objetivos propuestos sin tener en cuenta el coste empleado.",
-      "Se refiere a la posibilidad real de disponer del personal o del servicio que se presta en el momento en el que se precise. _______________________________________________________________________________________"
+      "Se refiere a la posibilidad real de disponer del personal o del servicio que se presta en el momento en el que se precise."
     ],
     "correctAnswer": 0,
     "explanation": ""
@@ -1241,7 +1241,7 @@ const questions = [
     "answers": [
       "Evitar contaminación.",
       "Evitar formación de cristales.",
-      "Evitar liberación de bilirrubina. _______________________________________________________________________________________",
+      "Evitar liberación de bilirrubina.",
       "Evitar formación de fibrina."
     ],
     "correctAnswer": 3,
@@ -1384,7 +1384,7 @@ const questions = [
     "answers": [
       "Determinación cuantitativa de hemoglobina, bilirrubina y lípidos presentes en una muestra de suero.",
       "Un conjunto de pruebas que se pueden realizar en un analizador de bioquímica.",
-      "Un registro de calibraciones específicas de lote. _______________________________________________________________________________________",
+      "Un registro de calibraciones específicas de lote.",
       "Un listado de conservantes que se pueden utilizar para mantener las muestras de suero durante más tiempo."
     ],
     "correctAnswer": 0,
@@ -1538,7 +1538,7 @@ const questions = [
     "number": 119,
     "question": "¿Para qué se utiliza el protocolo de Westgard o Multirregla de Shewart?:",
     "answers": [
-      "Para valorar un proceso analítico fuera de control. _______________________________________________________________________________________",
+      "Para valorar un proceso analítico fuera de control.",
       "Para realizar una intercomparativa de resultados entre dos analizadores.",
       "Para realizar estudio estadístico sobre la calidad en el laboratorio.",
       "para comparar la concentración exacta de un analito entre diferentes autoanalizadores."
@@ -1653,7 +1653,7 @@ const questions = [
   {
     "id": 128,
     "number": 128,
-    "question": "¿Cuál es la diferencia entre suero y plasma? _______________________________________________________________________________________",
+    "question": "¿Cuál es la diferencia entre suero y plasma?",
     "answers": [
       "El proceso de obtención de cada uno de ellos.",
       "La presencia de fibrinógeno.",
@@ -1773,7 +1773,7 @@ const questions = [
     "question": "¿Qué es el procesamiento de la muestra?:",
     "answers": [
       "Es el período comprendido entre la recogida de la muestra y la llegada al laboratorio, incluyendo sus actividades.",
-      "Las actividades llevadas a cabo desde la información dada al paciente para la recogida de la muestra y su entrega en el laboratorio. _______________________________________________________________________________________",
+      "Las actividades llevadas a cabo desde la información dada al paciente para la recogida de la muestra y su entrega en el laboratorio.",
       "Las actividades llevadas a cabo en el período comprendido entre su obtención y su análisis real.",
       "Las respuestas B y C son correctas."
     ],
@@ -1892,7 +1892,7 @@ const questions = [
       "Desviación estándar y coeficiente de variación",
       "Error aleatorio",
       "Error total",
-      "Error sistemático _______________________________________________________________________________________"
+      "Error sistemático"
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -2017,7 +2017,7 @@ const questions = [
   {
     "id": 156,
     "number": 156,
-    "question": "¿Con qué parámetro valoramos a la dispersión de la muestra?: _______________________________________________________________________________________",
+    "question": "¿Con qué parámetro valoramos a la dispersión de la muestra?:",
     "answers": [
       "Media",
       "Mediana",
@@ -2100,7 +2100,7 @@ const questions = [
       "10 mL de lejía y 200 mL de H2O.",
       "10 mL de lejía y hasta 200 mL de H2O.",
       "4,65 mL de lejía y hasta 200 mL de H2O.",
-      "9,3 mL de lejía y hasta 200 mL de H2O. Comentario: el peso atómico lo daban para liar. La concentración volumen/volumen es volumen de soluto entre volumen de disolvente, todo ello multiplicado x 100 para expresarlo en porcentaje. Había que buscar aquella qiue daba 5%, es decir, (10/200)*100 = 5%."
+      "9,3 mL de lejía y hasta 200 mL de H2O."
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -2147,7 +2147,7 @@ const questions = [
   {
     "id": 166,
     "number": 166,
-    "question": "Con respecto a las muestras sanguíneas _______________________________________________________________________________________",
+    "question": "Con respecto a las muestras sanguíneas",
     "answers": [
       "Un transporte rápido y una temperatura de almacenaje adecuada mejoran la fiabilidad de los resultados de laboratorio.",
       "La sangre capilar se utiliza en aquellos casos en que la analítica se va a realizar por micrométodos, muy útil sobre todo en niños.",
@@ -2251,7 +2251,7 @@ const questions = [
   {
     "id": 174,
     "number": 174,
-    "question": "En el laboratorio debe existir un registro actualizado de todos los equipos de medición y ensayo. Este registro se compone de los siguientes datos: _______________________________________________________________________________________",
+    "question": "En el laboratorio debe existir un registro actualizado de todos los equipos de medición y ensayo. Este registro se compone de los siguientes datos:",
     "answers": [
       "Nombre del equipo, del fabricante y ubicación habitual.",
       "Fecha de recepción y puesta en servicio.",
@@ -2383,7 +2383,7 @@ const questions = [
     "number": 184,
     "question": "La norma que estandariza los recipientes de un solo uso para la recogida de muestras de sangre venosa es:",
     "answers": [
-      "UNE-EN ISO 6710. _______________________________________________________________________________________",
+      "UNE-EN ISO 6710.",
       "UNE-EN ISO 6170.",
       "UNE-EN ISO 6711.",
       "UNE-EN ISO 6715."
@@ -2516,7 +2516,7 @@ const questions = [
       "Intervalo de probabilidad del 99%.",
       "Intervalo de probabilidad del 95%.",
       "Intervalo de confianza del 95%.",
-      "Intervalo de confianza del 99%. _______________________________________________________________________________________"
+      "Intervalo de confianza del 99%."
     ],
     "correctAnswer": 2,
     "explanation": ""
@@ -2607,7 +2607,7 @@ const questions = [
       "36.5 g.",
       "0.0365 mg.",
       "0.0365 g.",
-      "365 mg. Comentario: moles (g)/peso molecular. 0,0365 / 36,5 = 0,001 moles. No dice el volumen disolución, pero si se asume que es 1 L. 0,001/1= 0,001M =1mM. No está del todo bien expresada: o bien en el enunciado debería poner mmol, o bien tendrían que dar el volumen de disolución para calcularlo en M. Se podría tratar de impugnar"
+      "365 mg."
     ],
     "correctAnswer": 2,
     "explanation": ""
@@ -2620,7 +2620,7 @@ const questions = [
       "1:20.",
       "1:10.",
       "1:5.",
-      "1:200. Comentario: qué poco os gustan los numeritos jeje 900 microlitros=0,9 ml. Si mezclas 0,1 ml suero con 0,9 ml solución salina, estás haciendo una dilución 1/10. Si de esa dilución coges 500 microlitros y lo mezclas con 500 microlitros, estás haciendo una dilución 1/2. Total= 1/10 x 1/2= 1/20"
+      "1:200."
     ],
     "correctAnswer": 0,
     "explanation": ""
@@ -2631,7 +2631,7 @@ const questions = [
     "question": "No se considera como líquido corporal:",
     "answers": [
       "Sangre.",
-      "Orina. _______________________________________________________________________________________",
+      "Orina.",
       "Células.",
       "LCR."
     ],
@@ -2659,7 +2659,7 @@ const questions = [
       "1 litro.",
       "1 mililitro y enrasamos con agua hasta 100 ml.",
       "10 mililitros y enrasamos con agua hasta 100 ml.",
-      "100 mililitros. Comentario: en este caso 1 mol de HCl tiene 1 equivalentes gramos (tiene 1 H+). 0,1N/1=0,1 Molar. Como tengo la misma concentración inicial que final, el volumen es el mismo, 100 ml"
+      "100 mililitros."
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -2672,7 +2672,7 @@ const questions = [
       "Especificidad.",
       "Sensibilidad.",
       "Eficacia.",
-      "Eficiencia. Comentario: regla SE. Sensibilidad=Enfermos"
+      "Eficiencia."
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -2698,7 +2698,7 @@ const questions = [
       "0,1 Molar.",
       "0,05 Molar.",
       "0,025 Molar.",
-      "0,005 Molar. Comentario : 1 mol de H₂SO₄ tiene 2 equivalentes gramos (tiene 2 H+), la molaridad será la mitad al dividir 0,5 entre 2 (nº equivalentes gramos). La fórmula sería N= M x nº equivalentes gramo"
+      "0,005 Molar."
     ],
     "correctAnswer": 2,
     "explanation": ""
@@ -2745,7 +2745,7 @@ const questions = [
   {
     "id": 212,
     "number": 212,
-    "question": "Para establecer el nivel de precisión que los laboratorios deben alcanzar, se han desarrollado _______________________________________________________________________________________ diversos criterios y métodos a lo largo del tiempo. Señale cuál de los siguientes NO es uno de ellos:",
+    "question": "Para establecer el nivel de precisión que los laboratorios deben alcanzar, se han desarrollado diversos criterios y métodos a lo largo del tiempo. Señale cuál de los siguientes NO es uno de ellos:",
     "answers": [
       "Criterio de Tonks",
       "Método de Youden",
@@ -2893,7 +2893,7 @@ const questions = [
       "La moda es 5 y la mediana 2,5.",
       "La moda es 1 y la mediana 2,5.",
       "La moda es 2,5 y la mediana 2,6.",
-      "La moda es 1 y la mediana 2,6. Comentario. La moda es valor que más se repite (1) y la mediana el valor que divide a la serie en partes iguales. Para calcularla primero se ponen en orden: 0, 1, 1, 1, 2, 3, 3, 4, 5, 6. Como es una serie de un nº par de números, la división estaría entre el 2 y el 3. Por ello sería (2+3)/2= 2,5. Así se dejarían 4,5 nº por debajo y 4,5 por arriba. Vimos un ejemplo de esto en el foro"
+      "La moda es 1 y la mediana 2,6."
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -2927,7 +2927,7 @@ const questions = [
   {
     "id": 231,
     "number": 231,
-    "question": "¿Qué norma internacional de calidad para un laboratorio de análisis y de calibración, tiene en _______________________________________________________________________________________ cuenta las fases de pre-analítica, analítica y post- analítica?",
+    "question": "¿Qué norma internacional de calidad para un laboratorio de análisis y de calibración, tiene en cuenta las fases de pre-analítica, analítica y post- analítica?",
     "answers": [
       "ISO 17025.",
       "ISO 15189.",
@@ -3075,7 +3075,7 @@ const questions = [
       "Suero.",
       "Plasma citratado.",
       "Plasma EDTA 3K y citrato.",
-      "Plasma EDTA y aprotinina. Comentario: es una hormona lábil, que requiere su extracción en plasma y rápida congelación. La mayoría de las veces se extrae con EDTA, pero el tubo recomendado es tubo EDTA aprotinina (tapón rosA). _______________________________________________________________________________________ Recuerda que es el tubo recomendado para hormonas lábiles."
+      "Plasma EDTA y aprotinina."
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -3127,7 +3127,7 @@ const questions = [
       "Varianza",
       "Desviación típica o estándar",
       "Moda",
-      "Covarianza o Pearson _______________________________________________________________________________________"
+      "Covarianza o Pearson"
     ],
     "correctAnswer": 2,
     "explanation": ""
@@ -3265,7 +3265,7 @@ const questions = [
   {
     "id": 263,
     "number": 263,
-    "question": "¿Qué es un control externo? _______________________________________________________________________________________",
+    "question": "¿Qué es un control externo?",
     "answers": [
       "Es un control de valor conocido con el que comparamos los resultados con otros laboratorios con condiciones iguales a las nuestras",
       "En un control de valor desconocido con el que comparamos los resultados con otros laboratorios con condiciones iguales a las nuestras",
@@ -3361,7 +3361,7 @@ const questions = [
       "Proporcionar a los pacientes un ambiente ordenado, limpio y seguro.",
       "Evaluar la coherencia y fiabilidad de los resultados obtenidos en los análisis utilizando aplicaciones informáticas.",
       "Tener a cargo el control de los archivos de las historias clínicas.",
-      "Para la realización de las técnicas no se seguirán los protocolos normalizados de trabajo (PNT) ni se cumplirán las normas de calidad. _______________________________________________________________________________________"
+      "Para la realización de las técnicas no se seguirán los protocolos normalizados de trabajo (PNT) ni se cumplirán las normas de calidad."
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -3478,7 +3478,7 @@ const questions = [
       "El intervalo de concentración más fiable de medida para la determinación analítica del analito.",
       "La concentración mínima de un analito que puede ser cuantificada en una matriz real.",
       "La dispersión de estos resultados alrededor de su media.",
-      "La diferencia (en porcentaje) entre la concentración medida de un analito en una muestra fortificada (a la que se le ha agregado una cantidad conocida de estándar) y la concentración medida en la misma _______________________________________________________________________________________ muestra sin fortificar, dividido por la concentración de sustancia agregada. E) La concentración máxima de un analito que puede ser cuantificada en una matriz real."
+      "La diferencia (en porcentaje) entre la concentración medida de un analito en una muestra fortificada (a la que se le ha agregado una cantidad conocida de estándar) y la concentración medida en la misma muestra sin fortificar, dividido por la concentración de sustancia agregada. E) La concentración máxima de un analito que puede ser cuantificada en una matriz real."
     ],
     "correctAnswer": 0,
     "explanation": ""
@@ -3517,7 +3517,7 @@ const questions = [
       "250 ml de suero y 750 de diluyente",
       "200 ml de suero y 800 de diluyente",
       "150 ml de suero y 850 de diluyente",
-      "210 ml de suero y 790 de diluyente Comentario: sería 200/(800+200), que es lo mismo que 200/1000 que es lo mismo que 1/"
+      "210 ml de suero y 790 de diluyente"
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -3530,7 +3530,7 @@ const questions = [
       "100 microlitros de muestra en 700 microlitros de diluyente.",
       "40 microlitros de muestra en 760 microlitros de diluyente.",
       "10 microlitros de muestra en 790 microlitros de diluyente.",
-      "20 microlitros de muestra en 780 microlitros de diluyente. Comentario: sería 20/ (780+20) es decir 20/800 que es lo mismo que 1/40"
+      "20 microlitros de muestra en 780 microlitros de diluyente."
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -3590,12 +3590,12 @@ const questions = [
   {
     "id": 288,
     "number": 288,
-    "question": "La desviación estándar de un nivel de control de calidad de sodio, en el que la media es 144 mEq/l y el rango 129-159 mEq/l es: _______________________________________________________________________________________",
+    "question": "La desviación estándar de un nivel de control de calidad de sodio, en el que la media es 144 mEq/l y el rango 129-159 mEq/l es:",
     "answers": [
       "7.5",
       "15",
       "30",
-      "5 Comentario: Finalmente dieron la D, pero no estoy de acuerdo. La media es 144 para calcular cuál es la desviación estándar se coge uno de los dos valores del extremo del intervalo y se resta, y luego se divide entre 2. Por ejemplo, 159-144= 15. 15/2= 7,5. Dieron la D al considerar 3 desviaciones estándar. 15/3= 5"
+      "5"
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -3621,7 +3621,7 @@ const questions = [
       "100 microlitros de muestra en 700 microlitros de diluyente.",
       "40 microlitros de muestra en 760 microlitros de diluyente.",
       "10 microlitros de muestra en 790 microlitros de diluyente",
-      "20 microlitros de muestra en 780 microlitros de diluyente. Comentario. Sería 20/ (780+20) que son 20/800 que es lo mismo que 1/40. ¡Hay que hacer las cuentas en papel en el examen!"
+      "20 microlitros de muestra en 780 microlitros de diluyente."
     ],
     "correctAnswer": 3,
     "explanation": ""
@@ -3658,7 +3658,7 @@ const questions = [
     "question": "En la implantación de un sistema de comunicación de Valores Críticos en el Laboratorio, es FALSO que:",
     "answers": [
       "Sólo es necesario consensuar el protocolo con los clínicos de Atención Primaria, ya que los de Especializada pueden consultar con mayor precocidad la evolución del paciente.",
-      "El sistema de elaboración e implantación de un procedimiento de valores críticos puede confeccionarse a través de la información obtenida de _______________________________________________________________________________________ encuestas, cuestionarios, reuniones y/o creación de comités responsables.",
+      "El sistema de elaboración e implantación de un procedimiento de valores críticos puede confeccionarse a través de la información obtenida de encuestas, cuestionarios, reuniones y/o creación de comités responsables.",
       "Es el Laboratorio quién tiene la responsabilidad de coordinar el proceso.",
       "Se debe tener en cuenta las características de la institución a la que pertenece el laboratorio clínico."
     ],
@@ -3686,7 +3686,7 @@ const questions = [
       "25 μL de suero y 475 μL de diluyente.",
       "20 μL de suero y 480 μL de diluyente.",
       "30 μL de suero y 470 μL de diluyente.",
-      "15 μL de suero y 485 μL de diluyente. Comentario: qué poco os gustan los números. 20/ (480+20) serían 20/500 que es lo mismo que 1/25"
+      "15 μL de suero y 485 μL de diluyente."
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -3707,7 +3707,7 @@ const questions = [
   {
     "id": 312,
     "number": 312,
-    "question": "¿Cómo se denomina el proceso por el que un organismo autorizado evalúa, verifica y reconoce formalmente que una entidad es competente para realizar unas tareas perfectamente especificadas?: _______________________________________________________________________________________",
+    "question": "¿Cómo se denomina el proceso por el que un organismo autorizado evalúa, verifica y reconoce formalmente que una entidad es competente para realizar unas tareas perfectamente especificadas?:",
     "answers": [
       "Acreditación.",
       "Auditoría.",
@@ -3738,7 +3738,7 @@ const questions = [
       "El ácido cítrico-(citrato)-dextrosa (ACD) se recomienda para la realización de estudios inmunofenotípicos leucocitarios y cultivos de médula ósea.",
       "El citrato sódico es un anticoagulante fisiológico, recomendable para la realización de la extensión sanguínea.",
       "La heparina es un anticoagulante fisiológico, recomendable para la realización de la extensión sanguínea",
-      "El oxalato sódico es un anticoagulante recomendado para las pruebas de hemostasia. Explicación: la más falsa es la c, pero todas las demás opciones están cogidas con pinzas. La considero impugnable. Al final no la impugnaron en el examen"
+      "El oxalato sódico es un anticoagulante recomendado para las pruebas de hemostasia."
     ],
     "correctAnswer": 2,
     "explanation": ""
@@ -3798,7 +3798,7 @@ const questions = [
   {
     "id": 319,
     "number": 319,
-    "question": "Los resultados obtenidos al pesor un objeto de 5 gramos con 2 balanzas distintas se expresan en la tabla adjunta. Indique cuál de las siguientes afirmaciones es correcta: Balanza 1 Balanza 2 Medición 1 1g 8g _______________________________________________________________________________________ Medición 2 9g 7,7g Medición 3 7g 7,5g Medición 4 3g 8,1g",
+    "question": "Los resultados obtenidos al pesor un objeto de 5 gramos con 2 balanzas distintas se expresan en la tabla adjunta. Indique cuál de las siguientes afirmaciones es correcta: Balanza 1 Balanza 2 Medición 1 1g 8g Medición 2 9g 7,7g Medición 3 7g 7,5g Medición 4 3g 8,1g",
     "answers": [
       "La balanza 1 es imprecisa y exacta.",
       "La balanza 2 es precisa pero inexacta.",
@@ -3891,7 +3891,7 @@ const questions = [
     "number": 327,
     "question": "Señala la respuesta correcta en relación con la sensibilidad:",
     "answers": [
-      "Es la proporción de individuos enfermos con prueba positiva. _______________________________________________________________________________________",
+      "Es la proporción de individuos enfermos con prueba positiva.",
       "Es la proporción de individuos sanos con prueba negativa.",
       "Cuando un signo, síntoma o prueba diagnóstica posee alta sensibilidad (mayor de 95%) la obtención de un resultado negativo o normal descarta con confianza el diagnóstico de enfermedad.",
       "A y C son correctas."
@@ -4008,7 +4008,7 @@ const questions = [
     "number": 336,
     "question": "¿A cuántos litros (L) equivale un femtolitro?",
     "answers": [
-      "10ˉ¹² L. _______________________________________________________________________________________",
+      "10ˉ¹² L.",
       "10ˉ¹⁵ L.",
       "10ˉ⁶ L.",
       "10ˉ¹⁸ L."
@@ -4097,7 +4097,7 @@ const questions = [
   {
     "id": 346,
     "number": 346,
-    "question": "El procedimiento por el que un organismo rector reconoce formalmente que un organismo o una _______________________________________________________________________________________ persona es competente para llevar a cabo tareas específicas se denomina:",
+    "question": "El procedimiento por el que un organismo rector reconoce formalmente que un organismo o una persona es competente para llevar a cabo tareas específicas se denomina:",
     "answers": [
       "Acreditación.",
       "Certificación.",
@@ -4216,7 +4216,7 @@ const questions = [
     "number": 355,
     "question": "Si se realizan 10 determinaciones de Calcio en una única muestra de suero, los resultados no serán todos iguales debido a:",
     "answers": [
-      "Inexactitud _______________________________________________________________________________________",
+      "Inexactitud",
       "Error sistemático",
       "Interferencias",
       "Error aleatorio"
@@ -4307,7 +4307,7 @@ const questions = [
     "number": 362,
     "question": "La implementación de un sistema de gestión de control de calidad basado en los Internacional Estándar (ISO) constituye una herramienta para evaluar y controlar los sistemas de POCT. Señale la respuesta CORRECTA.",
     "answers": [
-      "La norma internacional ISO 22870 proporciona requerimientos específicos aplicables a los sistemas _______________________________________________________________________________________ de POCT, constituyendo un complemento a los requisitos propuestos en la ISO 15189.",
+      "La norma internacional ISO 22870 proporciona requerimientos específicos aplicables a los sistemas de POCT, constituyendo un complemento a los requisitos propuestos en la ISO 15189.",
       "La norma internacional ISO 22880 proporciona requerimientos específicos aplicables a los sistemas de POCT, constituyendo un complemento a los requisitos propuestos en la ISO 15189.",
       "La norma internacional ISO 22890 proporciona requerimientos específicos aplicables a los sistemas de POCT, constituyendo un complemento a los requisitos propuestos en la ISO 15189.",
       "La norma internacional ISO 22850 proporciona requerimientos específicos aplicables a los sistemas de POCT, constituyendo un complemento a los requisitos propuestos en la ISO 15189."
@@ -4398,7 +4398,7 @@ const questions = [
     "number": 369,
     "question": "En el proceso de revisión y validación, se denomina “delta check” a:",
     "answers": [
-      "Los valores de referencia (valores normales) en función de la edad y el sexo. _______________________________________________________________________________________",
+      "Los valores de referencia (valores normales) en función de la edad y el sexo.",
       "La diferencia critica entre dos resultados.",
       "Cambio de valor respecto a otro anterior en un periodo de tiempo.",
       "Los valores de pánico (valores muy altos o muy bajos)."
@@ -4502,7 +4502,7 @@ const questions = [
     "number": 378,
     "question": "¿Qué es la eficacia?:",
     "answers": [
-      "Relación existente entre los esfuerzos y los recursos utilizados. _______________________________________________________________________________________",
+      "Relación existente entre los esfuerzos y los recursos utilizados.",
       "Grado de consecución de los objetivos propuestos sin tener en cuenta el coste empleado.",
       "Sistema que mide lo apropiado de los servicios que se ofertan en relación a las necesidades de la población que se atiende.",
       "Posibilidad real de disponer de personal o del servicio en el momento preciso"
@@ -4687,7 +4687,7 @@ const questions = [
       "Análisis de la estructura, del proceso y de los resultados.",
       "Gestión del riesgo y promoción de productos y servicios.",
       "Sistematización de indicadores y estándares para la evaluación de la calidad.",
-      "Planificación, control y mejora de la calidad. _______________________________________________________________________________________"
+      "Planificación, control y mejora de la calidad."
     ],
     "correctAnswer": 0,
     "explanation": ""
@@ -4778,7 +4778,7 @@ const questions = [
       "Especificidad es la capacidad de la prueba para detectar la enfermedad en sujetos enfermos",
       "Especificidad es la capacidad de la prueba para detectar la ausencia de la enfermedad en sujetos sanos.",
       "Especificidad plantea el problema de discriminar el origen tumoral benigno o maligno ante la verificación de un incremento en el marcador",
-      "Todas son falsas. _______________________________________________________________________________________"
+      "Todas son falsas."
     ],
     "correctAnswer": 1,
     "explanation": ""
@@ -4906,7 +4906,7 @@ const questions = [
     "question": "En cuanto al transporte de muestras, señale la incorrecta.",
     "answers": [
       "Se recomienda que los recipientes primarios se transporten en posición vertical, con el tapón en la parte superior.",
-      "Resguardar las muestras de la luz, ya que muchas de las propiedades son fotosensibles. _______________________________________________________________________________________",
+      "Resguardar las muestras de la luz, ya que muchas de las propiedades son fotosensibles.",
       "Se recomienda que las muestras estén en continua agitación para evitar su coagulación.",
       "Registrar incidencias durante el transporte."
     ],
@@ -5038,7 +5038,7 @@ const questions = [
       "Sensibilidad.",
       "Selectividad.",
       "Especificidad.",
-      "Robustez. _______________________________________________________________________________________"
+      "Robustez."
     ],
     "correctAnswer": 0,
     "explanation": ""

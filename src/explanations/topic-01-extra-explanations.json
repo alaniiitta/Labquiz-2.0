@@ -1,0 +1,1932 @@
+{
+  "6": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el control de calidad externo el laboratorio analiza muestras de un organismo externo sin conocer el resultado esperado. Después se compara con otros laboratorios, lo que evalúa la exactitud.",
+    "claveMemorizar": "Control externo: muestras «ciegas», compara con otros laboratorios."
+  },
+  "7": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un sistema de gestión certificado debe revisarse al menos una vez al año (revisión por la dirección y auditorías internas). La certificación no exime de revisarlo.",
+    "claveMemorizar": "Revisión del sistema de calidad: al menos anual."
+  },
+  "8": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una interferencia es la presencia de una sustancia (hemoglobina, lípidos, bilirrubina, fármacos) que altera la medición de un analito concreto.",
+    "claveMemorizar": "Interferencia: sustancia que falsea la medida de un analito."
+  },
+  "9": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Lo primero al recibir muestras es comprobar que coinciden la solicitud, la muestra y la identificación del paciente. Sin eso no se puede seguir.",
+    "claveMemorizar": "Recepción: primero, identificación correcta."
+  },
+  "10": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todos son motivos de rechazo: tubos sin etiqueta o mal identificados, peticiones incompletas y falta de correspondencia entre tubo y petición.",
+    "claveMemorizar": "Rechazo: mala identificación o petición incompleta."
+  },
+  "11": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un laboratorio funciona bien si optimiza sus recursos y coordina sus actividades. Ambas son necesarias.",
+    "claveMemorizar": "Organización: optimizar y coordinar."
+  },
+  "12": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Se rechaza la orina que llega en un recipiente cualquiera: debe ser un contenedor estéril y adecuado. Venir bien identificada, recogida tras lavar los genitales o con bolsa en niños es lo correcto.",
+    "claveMemorizar": "Orina en recipiente no estéril = rechazo."
+  },
+  "13": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El tubo de hemograma (EDTA) no se centrifuga, porque se analiza sangre total con sus células. Los de bioquímica y coagulación sí, para obtener suero o plasma.",
+    "claveMemorizar": "Hemograma (EDTA): sangre total, sin centrifugar."
+  },
+  "14": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para la bioquímica basal el paciente debe estar en ayunas de unas 8-12 horas (la clave dice 10). Así se evitan las alteraciones de la glucosa, los lípidos y otros analitos por la comida.",
+    "claveMemorizar": "Bioquímica basal: ayuno de 8-12 h."
+  },
+  "15": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una solución al 10 % p/v contiene 10 g de soluto en un volumen final de 100 mL de solución, no 10 g más 100 mL de disolvente.",
+    "claveMemorizar": "% p/v = gramos en 100 mL de solución final."
+  },
+  "16": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La desviación estándar mide la dispersión de los resultados, es decir, la precisión (o imprecisión). La exactitud se valora comparando con el valor verdadero.",
+    "claveMemorizar": "Desviación estándar = precisión."
+  },
+  "17": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las gráficas de Levey-Jennings representan día a día los resultados de un mismo control frente a su media y desviación estándar. Así se vigilan la exactitud y la precisión.",
+    "claveMemorizar": "Levey-Jennings: control interno día a día."
+  },
+  "18": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para registrar el control de calidad se usan las gráficas de Levey-Jennings, Youden y CuSum. El teorema de Bayes es una herramienta de probabilidad, no una gráfica de control.",
+    "claveMemorizar": "Gráficas de control: Levey-Jennings, Youden, CuSum."
+  },
+  "19": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El valor predictivo positivo es la probabilidad de tener la enfermedad cuando la prueba sale positiva.",
+    "claveMemorizar": "VPP = P(enfermo | positivo)."
+  },
+  "20": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La gráfica de Youden se diseñó para el control externo: representa los resultados de dos muestras a la vez y permite comparar laboratorios y distinguir errores sistemáticos de aleatorios.",
+    "claveMemorizar": "Youden = control externo."
+  },
+  "21": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La LDH es de las más afectadas por la hemólisis, porque está muy concentrada en los hematíes (unas 150 veces más que en el plasma). También el potasio y la AST.",
+    "claveMemorizar": "Hemólisis: LDH, potasio y AST ↑."
+  },
+  "22": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El lactato se recoge en tubo de tapón gris (fluoruro sódico/oxalato), porque el fluoruro frena la glucólisis y evita que las células sigan produciendo lactato.",
+    "claveMemorizar": "Glucosa y lactato: tapón gris (fluoruro)."
+  },
+  "23": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una inexactitud constante, que desvía siempre los resultados en el mismo sentido, es un sesgo o error sistemático.",
+    "claveMemorizar": "Sesgo = error sistemático."
+  },
+  "24": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La exactitud es el grado en que una medida se aproxima al valor verdadero. La precisión es cuánto se parecen entre sí medidas repetidas.",
+    "claveMemorizar": "Exactitud = cerca del valor real. Precisión = repetibilidad."
+  },
+  "25": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La acreditación es el reconocimiento formal, por un organismo autorizado (ENAC en España), de que un laboratorio es técnicamente competente para tareas concretas. La certificación garantiza que se cumplen unos requisitos.",
+    "claveMemorizar": "Acreditación = competencia técnica (ENAC)."
+  },
+  "26": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El tiempo de respuesta se cuantifica con la mediana, los percentiles (90 o 95) y la proporción de resultados entregados a tiempo. La desviación típica no se usa, porque la distribución no es normal.",
+    "claveMemorizar": "Tiempo de respuesta: mediana y percentiles."
+  },
+  "27": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El control de calidad externo sirve para evaluar el programa de calidad interno, ver la dispersión de resultados entre laboratorios y ayudar a elegir métodos.",
+    "claveMemorizar": "Control externo: comparar laboratorios y evaluar el interno."
+  },
+  "28": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La especificidad es la proporción de verdaderos negativos entre todos los sanos: VN / (VN + FP).",
+    "claveMemorizar": "Especificidad = VN / sanos."
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque las curvas ROC no dan rangos de referencia. Representan sensibilidad frente a 1 − especificidad y muestran el rendimiento y la capacidad discriminante de una prueba.",
+    "claveMemorizar": "Curva ROC: sensibilidad vs 1 − especificidad."
+  },
+  "30": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La validación técnica comprueba el control de calidad, las alarmas y la aceptación de los controles. Decidir ampliar pruebas forma parte de la validación clínica o facultativa.",
+    "claveMemorizar": "Técnica: controles y alarmas. Clínica: ampliar pruebas."
+  },
+  "31": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El manual de calidad es el documento que recoge la política y los objetivos de calidad y la organización general del sistema del laboratorio.",
+    "claveMemorizar": "Manual de calidad = política y objetivos."
+  },
+  "32": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El primer principio de la gestión de la calidad según ISO 9001 es el enfoque al cliente: satisfacer sus necesidades y expectativas.",
+    "claveMemorizar": "ISO 9001: enfoque al cliente."
+  },
+  "33": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El valor predictivo positivo aumenta con la prevalencia de la enfermedad: si la enfermedad es más frecuente, un positivo es más probablemente verdadero.",
+    "claveMemorizar": "Prevalencia ↑ → VPP ↑, VPN ↓."
+  },
+  "34": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La desviación estándar es una medida de dispersión: indica cuánto se alejan los datos de la media. La media y la mediana son de tendencia central.",
+    "claveMemorizar": "Desviación estándar = dispersión."
+  },
+  "35": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: calibrar es comparar un sistema con patrones conocidos, debe existir un plan de calibración con su periodicidad y los equipos se calibran antes de usarse.",
+    "claveMemorizar": "Calibración: patrones, plan y antes de usar."
+  },
+  "36": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una dilución 1/20 significa 1 parte de muestra en 20 partes totales: 10 µL de muestra + 190 µL de diluyente (volumen final de 200 µL).",
+    "claveMemorizar": "Dilución 1/20: 1 de muestra + 19 de diluyente."
+  },
+  "37": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El error sistemático afecta a la exactitud (no a la precisión), es predecible y se corrige calibrando el equipo.",
+    "claveMemorizar": "Error sistemático: exactitud; se corrige calibrando."
+  },
+  "38": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La precisión es la reproducibilidad: el grado de acuerdo entre medidas repetidas de la misma muestra. La aproximación al valor verdadero es la exactitud.",
+    "claveMemorizar": "Precisión = reproducibilidad."
+  },
+  "39": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Al repetir la misma medida 20 veces, las pequeñas diferencias entre resultados se deben al error aleatorio, que es impredecible y afecta a la precisión.",
+    "claveMemorizar": "Variación entre repeticiones = error aleatorio."
+  },
+  "40": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falso que la calidad se centre solo en la fase analítica: abarca todo el proceso (preanalítica, analítica y postanalítica), implica a todos los profesionales y se integra en la gestión clínica.",
+    "claveMemorizar": "Calidad: todo el proceso, no solo el análisis."
+  },
+  "41": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los laboratorios clínicos se acreditan según la norma UNE-EN ISO 15189 (versión vigente de 2022), específica de laboratorios clínicos.",
+    "claveMemorizar": "Laboratorio clínico: ISO 15189."
+  },
+  "42": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el transporte debe hacerse en un tiempo adecuado a la petición, de forma segura para el personal y el público, y a la temperatura y con los conservantes indicados.",
+    "claveMemorizar": "Transporte: a tiempo, seguro y a la temperatura correcta."
+  },
+  "43": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La fase preanalítica incluye la solicitud, la preparación del paciente, la extracción y el transporte de las muestras. El informe y la validación son de las fases analítica y postanalítica.",
+    "claveMemorizar": "Preanalítica: hasta que la muestra llega al análisis."
+  },
+  "44": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El EDTA es el anticoagulante de elección en hematología porque conserva bien la morfología celular. Refrigerar la sangre sube el potasio y la hemólisis no aumenta el sodio.",
+    "claveMemorizar": "Hematología: EDTA."
+  },
+  "45": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son motivos de rechazo: una muestra mal rotulada, derramada o con el volante sin cumplimentar.",
+    "claveMemorizar": "Rechazo: mal identificada, derramada o petición incompleta."
+  },
+  "46": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El coeficiente de variación es una medida de dispersión relativa (desviación estándar / media × 100). Moda, media y mediana son medidas de tendencia central.",
+    "claveMemorizar": "CV = dispersión. Media, mediana, moda = tendencia central."
+  },
+  "47": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La moda es el valor que más se repite en una distribución.",
+    "claveMemorizar": "Moda = el más frecuente."
+  },
+  "48": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una dilución 1/20 se prepara con 1 volumen de orina y 19 volúmenes de agua destilada (20 volúmenes en total).",
+    "claveMemorizar": "Dilución 1/20: 1 + 19."
+  },
+  "49": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El error aleatorio se debe a causas accidentales difíciles de identificar y puede afectar a cualquier resultado. Afecta a la precisión.",
+    "claveMemorizar": "Error aleatorio: impredecible → precisión."
+  },
+  "50": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las gráficas de Levey-Jennings son las más usadas para el control de calidad interno: representan los valores del control frente a su media y sus límites de ±2 y ±3 DE.",
+    "claveMemorizar": "Control interno: Levey-Jennings."
+  },
+  "51": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, un error sistemático se define por la inexactitud y la precisión: los resultados son precisos (repetibles) pero se desvían del valor verdadero.",
+    "claveMemorizar": "Error sistemático: preciso pero inexacto."
+  },
+  "52": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La norma vigente de acreditación específica para laboratorios clínicos es la UNE-EN ISO 15189:2022.",
+    "claveMemorizar": "Laboratorio clínico: ISO 15189:2022."
+  },
+  "53": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La moda es el valor que más se repite. En la serie 2,10 / 2,00 / 2,05 / 2,07 / 2,00, el valor 2,00 aparece dos veces.",
+    "claveMemorizar": "Moda = el más repetido."
+  },
+  "54": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque los indicadores de calidad se refieren a todos los procesos (estratégicos, operativos y de soporte), no solo a los operativos.",
+    "claveMemorizar": "Indicadores: para todos los procesos."
+  },
+  "55": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un procedimiento normalizado de trabajo (PNT) incluye objeto, alcance, responsabilidades y descripción del procedimiento. No necesita citar el capítulo de la ISO 9001 aplicado.",
+    "claveMemorizar": "PNT: objeto, responsabilidades, procedimiento."
+  },
+  "56": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La especificidad es la proporción de resultados negativos en las personas sin la enfermedad: VN / (VN + FP). La proporción de positivos en enfermos es la sensibilidad.",
+    "claveMemorizar": "Especificidad = negativos en sanos."
+  },
+  "57": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para la glucosa se prefiere plasma con oxalato-fluoruro, porque el fluoruro inhibe la glucólisis y evita que las células consuman glucosa mientras se transporta la muestra.",
+    "claveMemorizar": "Glucosa: fluoruro (tapón gris)."
+  },
+  "58": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Asignar mal el valor de los calibradores desplaza todos los resultados en el mismo sentido: es un error sistemático.",
+    "claveMemorizar": "Calibración errónea = error sistemático."
+  },
+  "59": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todos son criterios de rechazo: muestra mal identificada, suero hemolizado para LDH (la hemólisis la eleva falsamente) y urocultivo en recipiente no estéril.",
+    "claveMemorizar": "Rechazo: identificación, hemólisis que interfiere, recipiente inadecuado."
+  },
+  "60": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una solución 1 M contiene 1 mol por litro. Como el peso molecular del NaOH es 40, se pesan 40 g y se enrasa con agua hasta 1.000 mL.",
+    "claveMemorizar": "1 M = peso molecular en g por litro."
+  },
+  "61": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La densidad es masa dividida por volumen (kg/m³ o g/mL).",
+    "claveMemorizar": "Densidad = masa / volumen."
+  },
+  "62": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El plasma contiene fibrinógeno y los demás factores de la coagulación. El suero es lo que queda tras coagular: no tiene fibrinógeno.",
+    "claveMemorizar": "Plasma = suero + fibrinógeno."
+  },
+  "63": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para acreditar su calidad y competencia técnica, un laboratorio clínico debe cumplir la norma UNE-EN ISO 15189. La ISO 9001 solo certifica la gestión.",
+    "claveMemorizar": "Acreditar laboratorio clínico: ISO 15189."
+  },
+  "64": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas están incluidas: el aseguramiento de la calidad exige procedimientos documentados, formación del personal nuevo, mantenimiento periódico y controles de calidad.",
+    "claveMemorizar": "Aseguramiento de calidad: documentos, formación, mantenimiento, controles."
+  },
+  "65": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La desviación estándar es la medida de dispersión de los datos respecto a la media. La varianza es su cuadrado.",
+    "claveMemorizar": "Desviación estándar = dispersión respecto a la media."
+  },
+  "66": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una lambda (λ) es una antigua unidad de volumen equivalente a un microlitro (µL).",
+    "claveMemorizar": "1 lambda = 1 µL."
+  },
+  "67": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El tubo de suero no lleva anticoagulante (a veces lleva activador de la coagulación y gel): la sangre coagula y se obtiene el suero al centrifugar.",
+    "claveMemorizar": "Suero: tubo sin anticoagulante."
+  },
+  "68": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El límite de confianza del 95 % es la media ± 2 DE: 50 ± 10, es decir, de 40 a 60. El 62 queda fuera y se rechaza.",
+    "claveMemorizar": "95 % = media ± 2 DE."
+  },
+  "69": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Disminuir el gasto no es un objetivo directo de un sistema de gestión de la calidad ISO. Sus objetivos son la satisfacción del cliente, detectar y corregir errores y definir funciones.",
+    "claveMemorizar": "ISO: satisfacción del cliente y mejora, no ahorrar."
+  },
+  "70": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El manual de calidad debe incluir la política de calidad, las responsabilidades y la identificación de los documentos del sistema. Los manuales de los equipos del fabricante no forman parte de él.",
+    "claveMemorizar": "Manual de calidad: política, responsabilidades y documentos."
+  },
+  "71": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Reconstituir mal los calibradores produce un error sistemático (afecta a la exactitud), no una pérdida de precisión. Pipeteo, homogeneización y temperatura sí afectan a la precisión.",
+    "claveMemorizar": "Calibradores mal preparados = error sistemático."
+  },
+  "72": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El mantenimiento preventivo son las operaciones periódicas y programadas para evitar averías. Corregir fallos es mantenimiento correctivo.",
+    "claveMemorizar": "Preventivo = programado. Correctivo = reparar."
+  },
+  "73": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El coeficiente de variación expresa la desviación estándar como porcentaje de la media (DE / media × 100). Así permite comparar la precisión de series con concentraciones distintas.",
+    "claveMemorizar": "CV = DE / media × 100."
+  },
+  "74": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un método analítico debe ser preciso (resultados repetibles) y exacto (cercanos al valor verdadero).",
+    "claveMemorizar": "Método ideal: preciso y exacto."
+  },
+  "75": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El color de la piel del paciente no interfiere en el análisis. La lipemia, los fármacos y la hemólisis sí son interferencias frecuentes.",
+    "claveMemorizar": "Interferencias: hemólisis, lipemia, ictericia, fármacos."
+  },
+  "76": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una dilución 1:10 es 1 parte de muestra en 10 totales. Con 0,1 mL (100 µL) de suero se añaden 900 µL de diluyente, hasta un volumen final de 1 mL.",
+    "claveMemorizar": "1:10 → 1 de muestra + 9 de diluyente."
+  },
+  "77": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para obtener suero no se usa anticoagulante: se deja coagular la sangre y se centrifuga.",
+    "claveMemorizar": "Suero: sin anticoagulante."
+  },
+  "78": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El gráfico CuSum (sumas acumuladas) es un gráfico de control que detecta pequeños errores sistemáticos que se van acumulando. Las otras opciones son inventadas.",
+    "claveMemorizar": "CuSum: detecta tendencias sistemáticas."
+  },
+  "79": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las muestras entre laboratorios se transportan en cajas herméticas o neveras, con triple envase, para proteger al personal y conservar la muestra.",
+    "claveMemorizar": "Transporte: contenedores herméticos y triple envase."
+  },
+  "80": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La repetibilidad es la concordancia entre resultados obtenidos en las mismas condiciones (mismo operador, equipo y día). La reproducibilidad es en condiciones distintas.",
+    "claveMemorizar": "Repetibilidad: mismas condiciones."
+  },
+  "81": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ISO 9001 certifica que una organización cumple los requisitos de un sistema de gestión de la calidad.",
+    "claveMemorizar": "Certificación de gestión: ISO 9001."
+  },
+  "82": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la fiabilidad de un método se asocia a su reproducibilidad, su precisión y su estabilidad en el tiempo.",
+    "claveMemorizar": "Fiabilidad: reproducible, precisa y estable."
+  },
+  "83": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Calibrar es el conjunto de operaciones que relacionan los valores que da un equipo de medida con los valores conocidos de los patrones.",
+    "claveMemorizar": "Calibración: equipo frente a patrón."
+  },
+  "84": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La reproducibilidad es una forma de precisión: el grado de acuerdo entre resultados de la misma muestra en condiciones distintas.",
+    "claveMemorizar": "Reproducibilidad = precisión."
+  },
+  "85": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La desviación estándar es la raíz cuadrada de la varianza.",
+    "claveMemorizar": "DE = √varianza."
+  },
+  "86": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La eficiencia es alcanzar los objetivos al menor coste posible. La eficacia es lograrlos sin tener en cuenta el coste.",
+    "claveMemorizar": "Eficiencia: objetivos al mínimo coste."
+  },
+  "87": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una disolución 1 M contiene 1 mol por litro. Como el peso molecular del ácido sulfúrico es 98, se pesan 98 g y se enrasa hasta 1.000 mL.",
+    "claveMemorizar": "1 M = peso molecular en g por litro."
+  },
+  "88": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "1,1 g/L son 1.100 mg/L, es decir, 110 mg/dL (1 L = 10 dL).",
+    "claveMemorizar": "g/L × 100 = mg/dL."
+  },
+  "89": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La precisión es la cercanía de una serie de mediciones entre sí, alrededor de su valor medio. No habla del valor verdadero, que corresponde a la exactitud.",
+    "claveMemorizar": "Precisión: agrupación alrededor de la media."
+  },
+  "90": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si falla el control interno, se suspende la entrega de resultados de esa serie hasta encontrar y corregir la causa. No se repite el control hasta que salga bien.",
+    "claveMemorizar": "Fallo de control: parar resultados y buscar la causa."
+  },
+  "91": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la bioquímica de urgencias se usa plasma con heparina de litio: no hace falta esperar a que coagule y se ahorra tiempo. El EDTA y el citrato alteran muchas determinaciones.",
+    "claveMemorizar": "Bioquímica urgente: heparina de litio."
+  },
+  "92": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la flebotomía la aguja se introduce con el bisel hacia arriba y un ángulo bajo, de unos 15° (hasta 30°), para no atravesar la vena.",
+    "claveMemorizar": "Venopunción: ángulo de ~15°, bisel arriba."
+  },
+  "93": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son criterios de exclusión: envase no adecuado, envase no identificado y transporte inadecuado.",
+    "claveMemorizar": "Rechazo: envase, identificación o transporte incorrectos."
+  },
+  "94": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las reglas de Westgard combinan varias reglas para detectar tanto el error aleatorio (como 1-3s o R-4s) como el sistemático (2-2s, 4-1s, 10x).",
+    "claveMemorizar": "Westgard: error aleatorio y sistemático."
+  },
+  "95": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La exposición a la luz no produce hemólisis (degrada la bilirrubina). La hemólisis se debe a extracción difícil, tardar en centrifugar, cambios bruscos de temperatura o agitación.",
+    "claveMemorizar": "Hemólisis: extracción difícil, retraso, frío o calor, agitación."
+  },
+  "96": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hay que esperar a que la sangre coagule por completo antes de centrifugar, para que no se forme fibrina después en el suero y obstruya los analizadores.",
+    "claveMemorizar": "Suero: coagulación completa antes de centrifugar."
+  },
+  "97": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los POCT dan resultados rápidos junto al paciente y pueden usarlos personas no expertas, pero su calidad analítica no es mayor que la del laboratorio central; suele ser menor.",
+    "claveMemorizar": "POCT: rápido, pero no más preciso."
+  },
+  "98": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La eficiencia relaciona los resultados obtenidos con los recursos y costes empleados.",
+    "claveMemorizar": "Eficiencia = resultados / costes."
+  },
+  "99": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El error total combina la imprecisión (coeficiente de variación) y el error sistemático o sesgo: ET = sesgo + 1,65 × CV.",
+    "claveMemorizar": "Error total = sesgo + 1,65 × CV."
+  },
+  "100": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El intervalo de referencia incluye al 95 % central de los sanos. Queda un 2,5 % por encima del límite superior y otro 2,5 % por debajo del inferior.",
+    "claveMemorizar": "Intervalo de referencia: 95 %; 2,5 % a cada lado."
+  },
+  "101": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El valor predictivo positivo es la proporción de verdaderos positivos entre todos los positivos: VP / (VP + FP).",
+    "claveMemorizar": "VPP = VP / (VP + FP)."
+  },
+  "102": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ISO 15189 acredita la competencia técnica y la calidad de los laboratorios clínicos. La ISO 9001 certifica la gestión y la 14001, la gestión ambiental.",
+    "claveMemorizar": "Competencia del laboratorio clínico: ISO 15189."
+  },
+  "103": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La especificidad es la proporción de verdaderos negativos entre todos los sanos: VN / (VN + FP).",
+    "claveMemorizar": "Especificidad = VN / (VN + FP)."
+  },
+  "104": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El coeficiente de variación es la desviación estándar expresada como porcentaje de la media.",
+    "claveMemorizar": "CV = DE / media × 100."
+  },
+  "105": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En España, la acreditación según la ISO 15189 solo la otorga ENAC (Entidad Nacional de Acreditación).",
+    "claveMemorizar": "ISO 15189 en España: solo ENAC."
+  },
+  "106": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, las interferencias de la muestra no forman parte de la fase preanalítica, porque su efecto se produce durante la medición. La preparación del paciente y el transporte sí son preanalíticos.",
+    "claveMemorizar": "Preanalítica: paciente, extracción, transporte."
+  },
+  "107": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los índices séricos son la medida semicuantitativa automática de hemólisis (hemoglobina), ictericia (bilirrubina) y lipemia (lípidos) de una muestra de suero, para detectar interferencias.",
+    "claveMemorizar": "Índices séricos: H (hemólisis), I (ictericia), L (lipemia)."
+  },
+  "108": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La sensibilidad es la probabilidad de obtener un resultado positivo en un enfermo: VP / (VP + FN).",
+    "claveMemorizar": "Sensibilidad = positivos en enfermos."
+  },
+  "109": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para un cribado se elige una prueba muy sensible, que no deje escapar enfermos (pocos falsos negativos). Los positivos se confirman después con una prueba específica.",
+    "claveMemorizar": "Cribado: alta sensibilidad. Confirmación: alta especificidad."
+  },
+  "110": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El rango de medida es el intervalo entre los valores mínimo y máximo que un equipo puede leer con fiabilidad.",
+    "claveMemorizar": "Rango de medida: mínimo y máximo medibles."
+  },
+  "111": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La glucosa basal puede medirse en suero, sin anticoagulante (mejor aún con fluoruro). El tiempo de protrombina necesita citrato y la VSG y la hemoglobina, sangre anticoagulada.",
+    "claveMemorizar": "Glucosa: vale suero. TP: citrato. Hb: EDTA."
+  },
+  "112": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ayuno prolongado aumenta la bilirrubina no conjugada (se nota sobre todo en el síndrome de Gilbert). La glucosa y los triglicéridos, en cambio, bajan.",
+    "claveMemorizar": "Ayuno prolongado: bilirrubina ↑."
+  },
+  "113": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: si se extrae del brazo de la vía, la sangre se contamina con suero glucosado (glucosa ↑ y dilución de iones) y con heparina (TTPA o cefalina alargado).",
+    "claveMemorizar": "Extraer del brazo de la vía: contaminación → nunca."
+  },
+  "114": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hemólisis no disminuye ninguna de ellas: la LDH, la GOT (AST) y la GPT (ALT) están dentro de los hematíes y la hemólisis las aumenta falsamente.",
+    "claveMemorizar": "Hemólisis: LDH, AST y ALT ↑."
+  },
+  "115": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: los envases deben ser estériles cuando se precise, permitir recoger la muestra con la mínima manipulación y cerrar herméticamente.",
+    "claveMemorizar": "Envase: estéril, fácil de usar y hermético."
+  },
+  "116": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La gasometría se recoge en jeringa con heparina (de litio o balanceada), sin burbujas de aire y en anaerobiosis. El EDTA alteraría los iones.",
+    "claveMemorizar": "Gasometría: jeringa heparinizada, sin aire."
+  },
+  "117": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La eficiencia relaciona los resultados obtenidos con los costes que genera el servicio.",
+    "claveMemorizar": "Eficiencia = resultados / costes."
+  },
+  "118": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El valor predictivo negativo es la probabilidad de que una persona con la prueba negativa esté realmente sana: VN / (VN + FN).",
+    "claveMemorizar": "VPN = P(sano | negativo)."
+  },
+  "119": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las multirreglas de Westgard (Shewhart) se usan para decidir si un proceso analítico está fuera de control, según cómo se sitúan los controles respecto a la media y las DE.",
+    "claveMemorizar": "Westgard: ¿proceso fuera de control?"
+  },
+  "120": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El coeficiente de variación es un índice de dispersión relativa (DE / media × 100), expresado en porcentaje. Por eso permite comparar la variabilidad de variables distintas.",
+    "claveMemorizar": "CV: dispersión relativa en %, compara variables."
+  },
+  "121": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La desviación típica es una medida de dispersión. Media, moda y mediana son medidas de tendencia central.",
+    "claveMemorizar": "Dispersión: desviación típica, varianza, CV, rango."
+  },
+  "122": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según el modelo de Donabedian, la calidad se valora desde la estructura, el proceso y los resultados. La «instrucción» no es uno de esos enfoques.",
+    "claveMemorizar": "Donabedian: estructura, proceso, resultados."
+  },
+  "123": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hemólisis eleva falsamente la LDH, porque los hematíes la contienen en gran cantidad. Si se pide LDH en una muestra hemolizada, hay que solicitar una nueva muestra.",
+    "claveMemorizar": "LDH + hemólisis = nueva muestra."
+  },
+  "124": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La sensibilidad es la capacidad de una prueba para detectar la enfermedad cuando está presente: la proporción de positivos entre los enfermos.",
+    "claveMemorizar": "Sensibilidad: detecta al enfermo."
+  },
+  "125": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El manual de calidad es el documento básico del sistema de gestión de la calidad: resume sus procedimientos y cómo interactúan los procesos. El sistema debe estar documentado.",
+    "claveMemorizar": "Manual de calidad: documento base del sistema."
+  },
+  "126": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un procedimiento normalizado de trabajo (PNT) es una herramienta de normalización: describe paso a paso cómo se hace una tarea para que todos la hagan igual.",
+    "claveMemorizar": "PNT: estandariza cómo se trabaja."
+  },
+  "127": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Aplicar las normas ISO (certificarse o acreditarse) es voluntario para los laboratorios, aunque se valora mucho.",
+    "claveMemorizar": "Normas ISO: voluntarias."
+  },
+  "128": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La diferencia es el fibrinógeno: el plasma lo contiene y el suero no, porque se ha consumido al formarse el coágulo.",
+    "claveMemorizar": "Plasma = suero + fibrinógeno."
+  },
+  "129": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La mayoría de los errores del laboratorio (alrededor del 60-70 %) se producen en la fase preanalítica: identificación, extracción, tubo equivocado, transporte.",
+    "claveMemorizar": "Más errores: fase preanalítica."
+  },
+  "130": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La gráfica de Levey-Jennings permite ver de un vistazo si un control está dentro de sus límites (±2 y ±3 DE) y si hay tendencias o desplazamientos.",
+    "claveMemorizar": "Levey-Jennings: control de un vistazo."
+  },
+  "131": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una dilución 1/40 es 1 parte de muestra en 40 partes totales: 1 de suero + 39 de suero fisiológico.",
+    "claveMemorizar": "Dilución 1/n: 1 de muestra + (n − 1) de diluyente."
+  },
+  "132": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En un cribado de VIH se prioriza la sensibilidad para no perder ningún infectado, aunque haya falsos positivos (se confirman después). La técnica del 98 % de sensibilidad es la adecuada.",
+    "claveMemorizar": "Cribado: máxima sensibilidad."
+  },
+  "133": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las gráficas de Levey-Jennings muestran día a día la exactitud y la precisión de los resultados de un mismo control.",
+    "claveMemorizar": "Levey-Jennings: mismo control, día a día."
+  },
+  "134": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La eficacia es el grado en que se consiguen los objetivos en condiciones ideales, sin tener en cuenta el coste. Si se añade el coste, es eficiencia.",
+    "claveMemorizar": "Eficacia: objetivos sin mirar el coste."
+  },
+  "135": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el transporte de muestras biológicas hay que controlar tres variables: trazabilidad, tiempo y temperatura.",
+    "claveMemorizar": "Transporte: trazabilidad, tiempo, temperatura."
+  },
+  "136": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "GLP (Good Laboratory Practice) significa buenas prácticas de laboratorio: normas de calidad para organizar y documentar los estudios de laboratorio.",
+    "claveMemorizar": "GLP = buenas prácticas de laboratorio."
+  },
+  "137": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El procesamiento de la muestra incluye las actividades entre su obtención y su análisis: centrifugar, alicuotar, conservar y distribuir.",
+    "claveMemorizar": "Procesamiento: de la extracción al análisis."
+  },
+  "138": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La exactitud es la aproximación de una medida a su valor real o verdadero. La concordancia entre medidas repetidas es la precisión.",
+    "claveMemorizar": "Exactitud: cerca del valor real."
+  },
+  "139": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En una conexión unidireccional la información solo va en un sentido: del analizador al sistema informático del laboratorio (envía resultados, pero no recibe peticiones).",
+    "claveMemorizar": "Unidireccional: analizador → SIL. Bidireccional: en los dos sentidos."
+  },
+  "140": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El color amarillo-verdoso de los sueros ictéricos se debe a la bilirrubina elevada.",
+    "claveMemorizar": "Suero ictérico = bilirrubina."
+  },
+  "141": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La efectividad es el beneficio que produce una tecnología sanitaria en condiciones reales de uso. La eficacia es en condiciones ideales.",
+    "claveMemorizar": "Efectividad: condiciones reales. Eficacia: ideales."
+  },
+  "142": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El sesgo es la media de los errores: (4 + 0 − 4 + 3 − 3) / 5 = 0. Los errores se compensan: no hay sesgo, aunque sí dispersión.",
+    "claveMemorizar": "Sesgo = media de los errores."
+  },
+  "143": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La especificidad se calcula con los verdaderos negativos y los falsos positivos: VN / (VN + FP).",
+    "claveMemorizar": "Especificidad = VN / (VN + FP)."
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falso porque el tubo de citrato se llena antes que el de EDTA. Orden: hemocultivo, citrato, suero, heparina, EDTA y fluoruro; así el EDTA no contamina la coagulación.",
+    "claveMemorizar": "Orden: hemocultivo → citrato → suero → heparina → EDTA → fluoruro."
+  },
+  "145": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La eficacia es el grado de consecución de los objetivos sin tener en cuenta el coste.",
+    "claveMemorizar": "Eficacia: objetivos sin mirar el coste."
+  },
+  "146": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un error debido a factores incontrolables del procedimiento es un error aleatorio. Es impredecible y afecta a la precisión.",
+    "claveMemorizar": "Incontrolable e impredecible = error aleatorio."
+  },
+  "147": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para la VSG se usa el tubo de tapón negro, con citrato sódico en proporción 1:4. El azul (citrato 1:9) es para coagulación.",
+    "claveMemorizar": "VSG: tapón negro (citrato 1:4)."
+  },
+  "148": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El tubo de citrato sódico (tapón azul) se usa para obtener plasma y hacer pruebas de coagulación. El EDTA es para hematimetría y el tubo sin aditivos, para suero.",
+    "claveMemorizar": "Citrato (azul) = coagulación."
+  },
+  "149": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Con sueros intravenosos hay que seguir técnicas definidas: extraer del brazo contrario o, si no se puede, parar la perfusión y desechar la primera sangre, para no contaminar la muestra.",
+    "claveMemorizar": "Con vía: brazo contrario o parar y desechar."
+  },
+  "150": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La especificidad es la capacidad de una prueba de dar negativo en un sano, es decir, el porcentaje de verdaderos negativos entre los sanos. Por eso A y B son correctas.",
+    "claveMemorizar": "Especificidad = negativos en sanos."
+  },
+  "151": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El mantenimiento preventivo se hace de forma programada para evitar fallos, deterioro o averías. El que se hace tras una avería es el correctivo.",
+    "claveMemorizar": "Preventivo = programado."
+  },
+  "152": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En una disolución, el soluto es la sustancia que está en menor proporción. El disolvente está en mayor proporción.",
+    "claveMemorizar": "Soluto: menor proporción. Disolvente: mayor."
+  },
+  "153": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La norma que acredita la calidad y la competencia de los laboratorios clínicos es la ISO 15189.",
+    "claveMemorizar": "Laboratorio clínico: ISO 15189."
+  },
+  "154": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La especificidad mide la capacidad de una prueba para descartar la enfermedad cuando está ausente (negativo en sanos). Una sensibilidad alta reduce los falsos negativos, no los positivos.",
+    "claveMemorizar": "Especificidad: descarta en sanos."
+  },
+  "155": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Que un método sea reproducible, rápido, sencillo, use poco reactivo y tenga reactivos estables son requisitos del método en la fase analítica.",
+    "claveMemorizar": "Requisitos del método: fase analítica."
+  },
+  "156": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La dispersión de los datos se valora con la desviación estándar (también varianza, rango o CV). Media y mediana son medidas de tendencia central.",
+    "claveMemorizar": "Dispersión: desviación estándar."
+  },
+  "157": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El citrato sódico se usa como anticoagulante en las pruebas de coagulación (1:9) y en la VSG (1:4), porque captura el calcio de forma reversible.",
+    "claveMemorizar": "Citrato = coagulación."
+  },
+  "158": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La UNE-EN ISO 15189 es la norma de acreditación específica de los laboratorios clínicos. La ISO 9001 es de gestión, la 14001 ambiental y la 50001 energética.",
+    "claveMemorizar": "Laboratorio clínico: ISO 15189."
+  },
+  "159": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque la hemólisis sí aumenta la AST, que está dentro de los hematíes. El ejercicio intenso también la sube, la comida no la afecta y un valor inesperado se confirma con otra muestra.",
+    "claveMemorizar": "Hemólisis ↑ AST."
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Al centrifugar sangre con citrato (anticoagulante) se obtiene plasma, que conserva los factores de la coagulación. Sin anticoagulante se obtendría suero.",
+    "claveMemorizar": "Con anticoagulante → plasma. Sin él → suero."
+  },
+  "161": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Se aplica C1 × V1 = C2 × V2: 30 % × V1 = 6 % × 100 mL, así que V1 = 20 mL. Se toman 20 mL de la solución al 30 % y se enrasa con agua hasta 100 mL.",
+    "claveMemorizar": "Diluciones: C1 × V1 = C2 × V2."
+  },
+  "162": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un 5 % v/v significa 5 mL de soluto por cada 100 mL de disolución final. Para 200 mL: 10 mL de lejía y agua hasta 200 mL. Los pesos atómicos no hacen falta.",
+    "claveMemorizar": "% v/v = mL de soluto en 100 mL finales."
+  },
+  "163": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la fase preanalítica incluye la solicitud, la obtención de la muestra, su identificación, el transporte, la recepción y la clasificación.",
+    "claveMemorizar": "Preanalítica: de la solicitud a la clasificación."
+  },
+  "164": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son verdaderas: el tipo de muestra depende del parámetro y del método, algunas muestras requieren condiciones especiales de conservación y envío, y debe haber un protocolo preanalítico.",
+    "claveMemorizar": "Muestra según prueba, con protocolo preanalítico."
+  },
+  "165": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la punción venosa es la más habitual porque es menos traumática, permite obtener suficiente volumen y es fácil de realizar.",
+    "claveMemorizar": "Venopunción: fácil, segura y con volumen suficiente."
+  },
+  "166": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el transporte rápido y a buena temperatura da resultados más fiables, la sangre capilar se usa en micrométodos (niños) y la vena más usada está en la flexura del codo.",
+    "claveMemorizar": "Flexura del codo: cefálica, mediana, basílica."
+  },
+  "167": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque el torniquete se retira en cuanto la sangre empieza a fluir, antes de sacar la aguja y sin mantenerlo más de 1 minuto. Si no, provoca hemoconcentración y hematoma.",
+    "claveMemorizar": "Torniquete: < 1 min; retirarlo antes de sacar la aguja."
+  },
+  "168": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: una muestra se acepta si llega en el contenedor adecuado, en el tiempo y la temperatura establecidos, y correctamente identificada.",
+    "claveMemorizar": "Aceptar: contenedor, tiempo, temperatura e identificación correctos."
+  },
+  "169": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el manual debe indicar el contenedor de cada muestra, la temperatura de transporte y la preparación del paciente para cada prueba.",
+    "claveMemorizar": "Manual preanalítico: contenedor, temperatura y preparación."
+  },
+  "170": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El tapón verde lleva heparina (de litio o sódica). Gris: fluoruro-oxalato; morado: EDTA; azul: citrato.",
+    "claveMemorizar": "Verde = heparina."
+  },
+  "171": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son criterios de rechazo: tubo sin identificar, muestra coagulada para pruebas en sangre total y jeringa de gasometría con burbujas de aire.",
+    "claveMemorizar": "Rechazo: sin identificar, coagulada, gases con aire."
+  },
+  "172": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para las pruebas de coagulación se usa citrato sódico en proporción 1:9 (1 parte de citrato por 9 de sangre). La proporción 1:4 es para la VSG.",
+    "claveMemorizar": "Coagulación: citrato 1:9. VSG: 1:4."
+  },
+  "173": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el análisis se retrasa, las muestras de sangre se refrigeran en general entre 4 y 8 °C (nevera).",
+    "claveMemorizar": "Refrigerar: 4-8 °C (2-8 °C)."
+  },
+  "174": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el registro de equipos incluye nombre, fabricante y ubicación, fechas de recepción y puesta en marcha, y el historial de mantenimientos.",
+    "claveMemorizar": "Registro de equipos: identificación, fechas y mantenimientos."
+  },
+  "175": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son verdaderas: acreditar un laboratorio reduce riesgos, compromete a todo el personal con la calidad y aporta evaluaciones periódicas externas.",
+    "claveMemorizar": "Acreditación: menos riesgos, compromiso y evaluación externa."
+  },
+  "176": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calidad es responsabilidad de todo el personal del laboratorio, no solo de la dirección.",
+    "claveMemorizar": "Calidad: cosa de todos."
+  },
+  "177": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la ISO 15189 recoge los requisitos de los laboratorios clínicos, incluido el control de las fases pre, analítica y post, y la gestión de riesgos.",
+    "claveMemorizar": "ISO 15189: todo el proceso y los riesgos."
+  },
+  "178": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el aseguramiento de la calidad son las acciones planificadas que dan confianza en el producto, incluyen la mejora continua y promueven el control de calidad interno.",
+    "claveMemorizar": "Aseguramiento: acciones planificadas para garantizar la calidad."
+  },
+  "179": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un indicador es una medida cuantitativa que permite evaluar la calidad de un proceso (por ejemplo, % de muestras rechazadas o tiempo de respuesta).",
+    "claveMemorizar": "Indicador = medida cuantitativa de calidad."
+  },
+  "180": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La exactitud es la aproximación de una medida al valor verdadero. La precisión es la concordancia entre medidas repetidas.",
+    "claveMemorizar": "Exactitud: cerca del valor real."
+  },
+  "181": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, el grado de cumplimiento de los objetivos planificados es la efectividad (resultados en condiciones reales). La eficiencia añade los costes.",
+    "claveMemorizar": "Efectividad: cumplir objetivos en la práctica."
+  },
+  "182": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "AENOR es la entidad que certifica en España (por ejemplo, la ISO 9001). ENAC acredita y la ISO elabora las normas.",
+    "claveMemorizar": "Certifica: AENOR. Acredita: ENAC."
+  },
+  "183": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El mantenimiento de los analizadores se realiza según instrucciones escritas, basadas en las del fabricante. Mantenimiento y calibración son actividades distintas.",
+    "claveMemorizar": "Mantenimiento: siguiendo instrucciones escritas."
+  },
+  "184": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La norma UNE-EN ISO 6710 regula los recipientes de un solo uso para recoger sangre venosa (incluido el código de colores de los tapones).",
+    "claveMemorizar": "Tubos de extracción: ISO 6710."
+  },
+  "185": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tubo para pruebas de coagulación lleva citrato sódico (tapón azul claro).",
+    "claveMemorizar": "Coagulación: citrato (tapón azul)."
+  },
+  "186": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque el suero no contiene fibrinógeno: se consume al formarse el coágulo. El plasma supone un 55-60 % de la sangre y contiene los factores de la coagulación.",
+    "claveMemorizar": "Suero = plasma sin fibrinógeno."
+  },
+  "187": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: la calidad del laboratorio se mide por la resolución de incidencias, el cumplimiento de plazos y la fiabilidad de los resultados.",
+    "claveMemorizar": "Calidad: incidencias, plazos y fiabilidad."
+  },
+  "188": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un error sistemático desplaza todas las mediciones en el mismo sentido y magnitud, como un sesgo de +2 DE en todos los resultados. Un error puntual en una sola muestra es aleatorio.",
+    "claveMemorizar": "Todas desviadas igual = sistemático."
+  },
+  "189": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un suero turbio u opalescente por exceso de lipoproteínas (quilomicrones, triglicéridos) es un suero lipémico.",
+    "claveMemorizar": "Turbio lechoso = lipémico. Amarillo = ictérico. Rojo = hemolizado."
+  },
+  "190": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una aguja obstruida en el analizador al pipetear es un error analítico. No identificar la muestra, congelarla por error o usar el tubo equivocado son errores preanalíticos.",
+    "claveMemorizar": "Fallo del analizador = error analítico."
+  },
+  "191": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ISO 15189 es exclusiva de los laboratorios clínicos. La 17025 es para laboratorios de ensayo y calibración en general, y la 9001 y la 45001 valen para cualquier organización.",
+    "claveMemorizar": "Solo laboratorio clínico: ISO 15189."
+  },
+  "192": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La eficiencia relaciona la calidad obtenida con los recursos y costes empleados.",
+    "claveMemorizar": "Eficiencia = calidad / costes."
+  },
+  "193": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para controlar el proceso de medida con materiales de control se usan las gráficas de Levey-Jennings y CuSum, interpretadas con reglas (como las de Westgard).",
+    "claveMemorizar": "Control interno: Levey-Jennings y CuSum."
+  },
+  "194": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La media ± 2 DE (exactamente 1,96) delimita el intervalo de confianza del 95 %. Con ± 3 DE se cubre aproximadamente el 99,7 %.",
+    "claveMemorizar": "± 2 DE = 95 %; ± 3 DE = 99,7 %."
+  },
+  "195": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Fluoruro, oxalato y EDTA anticoagulan porque captan el calcio. La heparina actúa de otra forma: potencia la antitrombina III.",
+    "claveMemorizar": "Heparina: vía antitrombina, no calcio."
+  },
+  "196": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una dilución 1/100 es 1 parte de suero en 100 totales: 10 µL de suero + 990 µL de agua (volumen final de 1.000 µL).",
+    "claveMemorizar": "1/100: 1 + 99."
+  },
+  "197": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un sistema de gestión de calidad implica a todo el servicio de laboratorio, no a una persona concreta.",
+    "claveMemorizar": "Gestión de calidad: todo el servicio."
+  },
+  "198": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El error total combina la imprecisión (coeficiente de variación) y el error sistemático o sesgo: ET = sesgo + 1,65 × CV.",
+    "claveMemorizar": "Error total = sesgo + 1,65 × CV."
+  },
+  "199": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si la concentración supera el intervalo lineal de la curva de calibración, la muestra se diluye y el resultado se multiplica por el factor de dilución.",
+    "claveMemorizar": "Fuera de linealidad → diluir."
+  },
+  "200": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El procesamiento de muestras es el periodo entre la recepción de la muestra y su análisis: centrifugar, alicuotar, clasificar y conservar.",
+    "claveMemorizar": "Procesamiento: de la recepción al análisis."
+  },
+  "201": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, 1 mmol de NaCl pesa 36,5 mg = 0,0365 g (moles × masa molecular). El enunciado dice «1 mM» (concentración) cuando quiere decir 1 mmol.",
+    "claveMemorizar": "Masa = moles × masa molecular."
+  },
+  "202": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el primer tubo: 0,1 mL de suero + 0,9 mL de salino = dilución 1/10. Se retiran 500 µL y se añaden 500 µL de salino: se diluye a la mitad, 1/10 × 1/2 = 1/20.",
+    "claveMemorizar": "Diluciones seguidas: se multiplican los factores."
+  },
+  "203": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las células no son un líquido corporal. Sangre, orina y LCR sí lo son.",
+    "claveMemorizar": "Líquidos corporales: sangre, orina, LCR, serosos…"
+  },
+  "204": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Obtener una alta calidad en la toma de muestras es un medio, no el objetivo del análisis. Los objetivos son diagnosticar, descartar patologías y ayudar al tratamiento.",
+    "claveMemorizar": "Objetivo del análisis: diagnosticar y tratar."
+  },
+  "205": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el HCl, 1 mol libera 1 H⁺, así que molaridad y normalidad coinciden: 0,1 M = 0,1 N. Como la concentración no cambia, se toman directamente 100 mL.",
+    "claveMemorizar": "Normalidad = molaridad × H⁺ intercambiables."
+  },
+  "206": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sensibilidad es la capacidad de una prueba para detectar la enfermedad (positiva en enfermos).",
+    "claveMemorizar": "SEnsibilidad = Enfermos."
+  },
+  "207": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un PNT es un documento escrito que describe paso a paso cómo se hace una actividad concreta. Complementa al manual de calidad y fija cómo, quién y cuándo se realiza. Por eso B y C son correctas.",
+    "claveMemorizar": "PNT: cómo, quién y cuándo se hace una tarea."
+  },
+  "208": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El H₂SO₄ tiene 2 H⁺, así que N = M × 2. Para 0,05 N hace falta 0,05 / 2 = 0,025 M.",
+    "claveMemorizar": "Normalidad = molaridad × número de H⁺."
+  },
+  "209": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El gráfico de Levey-Jennings pone los días en el eje X y los valores del control, con su media y ± 1, 2 y 3 DE, en el eje Y.",
+    "claveMemorizar": "Levey-Jennings: días en X, media ± DE en Y."
+  },
+  "210": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La heparina inhibe la trombina (y el factor Xa) potenciando la antitrombina III. EDTA, citrato y ACD anticoagulan porque captan el calcio.",
+    "claveMemorizar": "Heparina: inhibe la trombina vía antitrombina."
+  },
+  "211": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La LDH se libera en gran cantidad de los hematíes, así que la hemólisis produce una interferencia importante en su medición. El sodio y el calcio apenas se afectan.",
+    "claveMemorizar": "Hemólisis: LDH (y potasio) muy alterados."
+  },
+  "212": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El nivel de precisión exigible se fija con criterios como Tonks, Aspen (variabilidad biológica) o Six Sigma. El método de Youden es una gráfica de control externo.",
+    "claveMemorizar": "Especificaciones de calidad: Tonks, Aspen, Six Sigma."
+  },
+  "213": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los POCT miden parámetros urgentes y sencillos junto al paciente: glucosa, hematocrito, gasometría (SO₂). La vitamina B12 requiere inmunoanálisis en el laboratorio central.",
+    "claveMemorizar": "POCT: glucosa, gases, hematocrito; no B12."
+  },
+  "214": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Durante el transporte y la conservación de muestras biológicas hay que controlar la trazabilidad, el tiempo y la temperatura.",
+    "claveMemorizar": "Transporte: trazabilidad, tiempo, temperatura."
+  },
+  "215": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son causas frecuentes de rechazo: hemólisis, lipemia y contenedor inapropiado. La hemólisis es la más frecuente.",
+    "claveMemorizar": "Rechazo: hemólisis (la más frecuente), lipemia, tubo incorrecto."
+  },
+  "216": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La exactitud es el grado en que una medida se aproxima al valor real.",
+    "claveMemorizar": "Exactitud: cerca del valor real."
+  },
+  "217": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El prefijo pico (p) equivale a 10⁻¹². Las opciones de la pregunta dan otras potencias (10⁻³ mili, 10⁻⁶ micro, 10⁻⁹ nano), así que ninguna es correcta.",
+    "claveMemorizar": "mili 10⁻³, micro 10⁻⁶, nano 10⁻⁹, pico 10⁻¹²."
+  },
+  "218": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque todas las muestras deben considerarse potencialmente contaminantes (precauciones universales). Además hay que identificar al paciente, comprobar la preparación y cerrar bien los envases.",
+    "claveMemorizar": "Toda muestra es potencialmente infecciosa."
+  },
+  "219": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La especificidad analítica es la capacidad de una prueba de no dar positivo en muestras que no contienen el analito (no reaccionar con otras sustancias).",
+    "claveMemorizar": "Especificidad: sin analito, negativo."
+  },
+  "220": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los controles de calidad interno y externo forman parte de la fase analítica, porque vigilan la medición.",
+    "claveMemorizar": "Controles de calidad: fase analítica."
+  },
+  "226": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El suero no contiene fibrinógeno, porque se ha consumido al formarse el coágulo. El plasma sí lo contiene, junto con los demás factores.",
+    "claveMemorizar": "Suero: sin fibrinógeno."
+  },
+  "227": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La formación del personal en el mantenimiento de los equipos es vital para que funcionen correctamente. El técnico también tiene competencias en el mantenimiento, no solo el fabricante.",
+    "claveMemorizar": "Mantenimiento: personal formado."
+  },
+  "228": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Ordenados: 0, 1, 1, 1, 2, 3, 3, 4, 5, 6. La moda es 1 (se repite tres veces). Con 10 datos, la mediana es la media de los dos centrales: (2 + 3) / 2 = 2,5.",
+    "claveMemorizar": "Mediana con n par: media de los dos centrales."
+  },
+  "229": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La precisión es el grado de ausencia de error aleatorio: cuanto menor es el error aleatorio, más concordantes son las medidas repetidas.",
+    "claveMemorizar": "Precisión = poco error aleatorio."
+  },
+  "230": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sensibilidad es la probabilidad de que la prueba sea positiva cuando existe la enfermedad.",
+    "claveMemorizar": "Sensibilidad = positivo en enfermos."
+  },
+  "231": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ISO 15189 es la norma de los laboratorios clínicos y contempla las fases preanalítica, analítica y postanalítica. La ISO 17025 no incluye la preanalítica clínica.",
+    "claveMemorizar": "Pre, analítica y post: ISO 15189."
+  },
+  "232": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una disolución es una mezcla homogénea de dos o más sustancias (soluto y disolvente). Diluir es rebajar su concentración.",
+    "claveMemorizar": "Disolución = mezcla homogénea."
+  },
+  "233": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El error de método es inherente al propio método analítico, por ejemplo por su falta de especificidad. No depende del técnico ni del equipo.",
+    "claveMemorizar": "Error de método: propio del método."
+  },
+  "234": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para obtener suero hay que esperar a que la sangre coagule (unos 30 minutos) y después centrifugar.",
+    "claveMemorizar": "Suero: esperar al coágulo y centrifugar."
+  },
+  "235": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, la sensibilidad analítica es la capacidad de un método para distinguir dos señales o concentraciones muy parecidas del mismo analito (la pendiente de la curva de calibración).",
+    "claveMemorizar": "Sensibilidad analítica: distingue concentraciones cercanas."
+  },
+  "236": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el laboratorio, la fase preanalítica incluye identificar, manipular, clasificar, alicuotar y distribuir las muestras.",
+    "claveMemorizar": "Preanalítica: identificar → alicuotar → distribuir."
+  },
+  "237": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La mayoría de los errores del laboratorio se producen en la fase preanalítica (alrededor del 60-70 %).",
+    "claveMemorizar": "Más errores: fase preanalítica."
+  },
+  "238": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La media es el promedio de un conjunto de datos: la suma de todos dividida por el número de datos.",
+    "claveMemorizar": "Media = promedio."
+  },
+  "239": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: las auditorías son procesos independientes y sistemáticos de control de la calidad, que pueden ser internas o externas.",
+    "claveMemorizar": "Auditorías: internas o externas, independientes."
+  },
+  "240": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El citrato sódico se usa en los tubos para pruebas de coagulación (tapón azul).",
+    "claveMemorizar": "Citrato = coagulación."
+  },
+  "241": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una dilución 1/6 es 1 parte de muestra en 6 partes totales. Con 20 µL de muestra y 100 µL de diluyente el total es 120 µL: 20 / 120 = 1/6.",
+    "claveMemorizar": "Dilución = muestra / volumen total."
+  },
+  "242": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La ACTH es una hormona muy lábil: se extrae en plasma con EDTA y aprotinina (inhibidor de proteasas, tapón rosa), en frío, y se centrifuga y congela rápido.",
+    "claveMemorizar": "ACTH: EDTA + aprotinina, en frío."
+  },
+  "249": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La UNE-EN ISO 17025 es la norma de acreditación de los laboratorios de ensayo y calibración. Los laboratorios clínicos se acreditan con la ISO 15189.",
+    "claveMemorizar": "17025: ensayo y calibración. 15189: clínicos."
+  },
+  "250": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque una calibración incorrecta causa un error sistemático, no aleatorio. El error aleatorio se debe a la imprecisión (por ejemplo, el pipeteo) y disminuye al repetir los análisis.",
+    "claveMemorizar": "Calibración mala = sistemático. Pipeteo irregular = aleatorio."
+  },
+  "251": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque el error sistemático tiene una causa identificable y corregible (por ejemplo, calibrando). El que no puede controlarse es el aleatorio.",
+    "claveMemorizar": "Sistemático: identificable y corregible."
+  },
+  "252": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La moda es una medida de tendencia central, como la media y la mediana. Varianza y desviación típica son de dispersión, y la covarianza mide relación entre variables.",
+    "claveMemorizar": "Tendencia central: media, mediana, moda."
+  },
+  "253": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hacer alícuotas es repartir la muestra en varios tubos para poder hacer distintos análisis en diferentes secciones o equipos.",
+    "claveMemorizar": "Alícuota: repartir la muestra."
+  },
+  "254": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Poner a punto, verificar y mantener los equipos es un objetivo del proceso analítico.",
+    "claveMemorizar": "Equipos a punto: proceso analítico."
+  },
+  "255": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una dilución 1:10 con volumen final de 1 mL: 0,1 mL de suero + 0,9 mL de diluyente.",
+    "claveMemorizar": "1:10 en 1 mL: 0,1 + 0,9."
+  },
+  "256": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La mediana es una medida de tendencia central: el valor que divide los datos ordenados en dos mitades. El CV y la desviación estándar son de dispersión y el percentil, de posición.",
+    "claveMemorizar": "Tendencia central: media, mediana, moda."
+  },
+  "257": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El EDTA anticoagula porque quela (captura) el calcio de forma irreversible, y el calcio es necesario para la coagulación.",
+    "claveMemorizar": "EDTA: quela el calcio."
+  },
+  "258": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la OMS, las muestras de pacientes que se transportan al laboratorio son sustancias infecciosas de categoría B (UN 3373). La A es para agentes muy peligrosos.",
+    "claveMemorizar": "Muestras clínicas: categoría B (UN 3373)."
+  },
+  "259": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En un tubo seco para bioquímica es normal que la sangre esté coagulada: así se obtiene el suero. En cambio, se rechazan un EDTA coagulado, un tubo sin identificar y un citrato a medio llenar.",
+    "claveMemorizar": "Tubo seco coagulado = normal."
+  },
+  "260": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un laboratorio CORE es un gran laboratorio central automatizado que concentra la mayoría de las pruebas habituales (bioquímica, hematología, coagulación).",
+    "claveMemorizar": "CORE: laboratorio central automatizado."
+  },
+  "261": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La certificación (ISO 9001) informa sobre el sistema de gestión de calidad de una organización. La acreditación (ISO 15189) reconoce su competencia técnica para actividades concretas.",
+    "claveMemorizar": "Certificación = gestión. Acreditación = competencia técnica."
+  },
+  "262": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La ISO 15189:2022 se aplica específicamente a los laboratorios clínicos.",
+    "claveMemorizar": "ISO 15189 = laboratorios clínicos."
+  },
+  "263": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El control externo es una muestra de valor desconocido para el laboratorio, cuyos resultados se comparan con los de otros laboratorios con métodos similares.",
+    "claveMemorizar": "Control externo: valor desconocido."
+  },
+  "264": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una comunicación deficiente de los resultados (por ejemplo, no avisar de un valor crítico) es un error postanalítico que puede comprometer la seguridad del paciente. Las demás son preanalíticas.",
+    "claveMemorizar": "Postanalítico: informe y comunicación de resultados."
+  },
+  "265": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El laboratorio debe tener un programa de control de calidad interno que evalúe continuamente su trabajo. No se validan resultados con controles fuera de límites ni se usan controles caducados.",
+    "claveMemorizar": "Control interno: continuo, nunca validar con controles fuera."
+  },
+  "266": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el control de calidad externo una entidad independiente envía el mismo material de control a todos los laboratorios a la vez. Estos lo analizan sin conocer el resultado y lo remiten.",
+    "claveMemorizar": "Control externo: material simultáneo, resultado desconocido."
+  },
+  "267": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La acreditación es el reconocimiento formal, por un organismo nacional (ENAC), de que una entidad es competente para realizar tareas específicas.",
+    "claveMemorizar": "Acreditación = reconocimiento de competencia (ENAC)."
+  },
+  "268": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las porfirinas no son una determinación urgente: se estudian de forma programada. Troponina, drogas de abuso y hemograma sí forman parte de la cartera de urgencias.",
+    "claveMemorizar": "Urgencias: troponina, tóxicos, hemograma. Porfirinas no."
+  },
+  "269": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El error aleatorio es el grado de discordancia entre medidas repetidas del mismo analito. Se debe a factores no controlables, reduce la precisión y no se corrige calibrando.",
+    "claveMemorizar": "Aleatorio: discordancia entre repeticiones."
+  },
+  "270": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Entre las competencias del técnico superior de laboratorio está evaluar la coherencia y fiabilidad de los resultados con aplicaciones informáticas, siempre siguiendo los PNT y las normas de calidad.",
+    "claveMemorizar": "TSLDC: valida la coherencia de resultados."
+  },
+  "271": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El autoanalizador aumenta la precisión, la rapidez y la reproducibilidad, y reduce el error humano. Que aumente el error por factor humano no es una ventaja.",
+    "claveMemorizar": "Autoanalizador: menos error humano."
+  },
+  "272": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: la hemoglobina muy baja, las hiper e hipoglucemias graves y la hiperpotasemia son valores críticos que se comunican de inmediato tras comprobarlos.",
+    "claveMemorizar": "Valor crítico: comprobar y avisar ya."
+  },
+  "273": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un concentrado de hematíes se hemoliza por las tres causas: infundirlo junto con ciertos fármacos, mezclarlo con soluciones hipotónicas (agua destilada) o calentarlo a más de 50 °C.",
+    "claveMemorizar": "Hemólisis del concentrado: fármacos, hipotónicos, calor."
+  },
+  "274": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son criterios de rechazo: tubo y volante que no coinciden, envase inadecuado y muestra sin identificar.",
+    "claveMemorizar": "Rechazo: identificación o envase incorrectos."
+  },
+  "275": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque conviene usar controles independientes del proveedor de los reactivos: los del mismo fabricante pueden enmascarar errores del sistema.",
+    "claveMemorizar": "Control interno: mejor de un proveedor independiente."
+  },
+  "276": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El error aleatorio se produce por la imprecisión del procedimiento: factores no controlables que hacen variar el resultado en cualquier sentido.",
+    "claveMemorizar": "Error aleatorio = imprecisión."
+  },
+  "277": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El sistema de comunicación de valores críticos debe evaluarse y monitorizarse. Además hay que confirmar la recepción, definir quién recibe y consensuar la lista con los clínicos.",
+    "claveMemorizar": "Valores críticos: protocolo consensuado, registrado y evaluado."
+  },
+  "278": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: la hemoglobina muy baja, las glucemias extremas, la hiponatremia y la hiperpotasemia son valores críticos que se comunican de inmediato tras comprobarlos.",
+    "claveMemorizar": "Valor crítico: comprobar y avisar ya."
+  },
+  "279": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El intervalo de linealidad es el rango de concentraciones en el que la respuesta del método es proporcional y la medida es fiable. Fuera de él hay que diluir o usar otra técnica.",
+    "claveMemorizar": "Linealidad: rango de medida fiable."
+  },
+  "280": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La especificidad analítica es la capacidad de un método para medir solo el componente buscado, sin interferencias de otras sustancias.",
+    "claveMemorizar": "Especificidad: mide solo lo que quiere."
+  },
+  "281": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La exactitud es la concordancia de nuestro resultado con el valor verdadero.",
+    "claveMemorizar": "Exactitud = cerca del valor verdadero."
+  },
+  "282": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una dilución 1/5 en 1 mL de volumen final es 200 µL de suero + 800 µL de diluyente: 200 / 1.000 = 1/5. Las opciones dicen «ml», pero se refieren a microlitros.",
+    "claveMemorizar": "Dilución 1/5: 1 + 4."
+  },
+  "283": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una dilución 1/40 en 800 µL finales es 800 / 40 = 20 µL de muestra + 780 µL de diluyente.",
+    "claveMemorizar": "Volumen de muestra = volumen final / factor de dilución."
+  },
+  "284": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tubo de coagulación lleva citrato sódico. El hemograma se hace con EDTA K2 o K3 (no «K7»), la bioquímica también puede hacerse en plasma heparinizado y el tapón azul lleva citrato, no heparina.",
+    "claveMemorizar": "Coagulación: citrato (azul)."
+  },
+  "285": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El mantenimiento (preventivo) es el conjunto de operaciones periódicas y programadas sobre un equipo para evitar fallos, deterioros o averías.",
+    "claveMemorizar": "Mantenimiento preventivo: programado."
+  },
+  "286": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son criterios de rechazo, porque impiden identificar sin error al paciente: datos ilegibles, falta de datos mínimos o solicitud sin número de muestra.",
+    "claveMemorizar": "Sin identificación inequívoca = rechazo."
+  },
+  "287": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La especificidad analítica es la capacidad de un método para medir solo el componente buscado, sin interferencias de otras sustancias.",
+    "claveMemorizar": "Especificidad: mide solo lo que quiere."
+  },
+  "288": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, el rango de 129-159 corresponde a la media ± 3 DE: la mitad del rango es 15, y 15 / 3 = 5. Si el rango fuera ± 2 DE, saldría 7,5.",
+    "claveMemorizar": "Rango de control = media ± n DE → DE = semirrango / n."
+  },
+  "289": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque no hay un tope fijo de 6 horas: el tiempo máximo depende de la estabilidad de cada magnitud. Sí hay que sujetar el contenedor, evitar movimientos bruscos y llevar desinfectante.",
+    "claveMemorizar": "Transporte: el tiempo depende de cada analito."
+  },
+  "290": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Una dilución 1/40 en 800 µL finales es 800 / 40 = 20 µL de muestra + 780 µL de diluyente.",
+    "claveMemorizar": "Volumen de muestra = volumen final / factor de dilución."
+  },
+  "291": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Ante una hiperpotasemia crítica, sin otros datos que la expliquen, lo primero es comprobar la calidad de la muestra y descartar hemólisis, que libera potasio de los hematíes. Si es real, se comunica de inmediato.",
+    "claveMemorizar": "K⁺ muy alto: primero descarta hemólisis."
+  },
+  "292": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El protocolo de valores críticos debe definir quién comunica, quién recibe, por qué vía, cómo se registra (también si falla) y cómo se evalúa periódicamente.",
+    "claveMemorizar": "Valores críticos: quién, a quién, cómo, registro y evaluación."
+  },
+  "293": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falso porque el protocolo debe consensuarse con todos los clínicos, de Atención Primaria y de Especializada. Lo coordina el laboratorio y se adapta a cada institución.",
+    "claveMemorizar": "Valores críticos: consenso con todos los clínicos."
+  },
+  "294": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: el control interno asegura la fiabilidad de los resultados, se hace en la fase analítica y evalúa la calidad de forma continua.",
+    "claveMemorizar": "Control interno: fase analítica, continuo."
+  },
+  "295": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una dilución 1:25 en 500 µL finales: 500 / 25 = 20 µL de suero + 480 µL de diluyente.",
+    "claveMemorizar": "Volumen de muestra = volumen final / factor."
+  },
+  "311": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El procedimiento normalizado de trabajo (PNT) describe de forma ordenada y detallada cómo se hace una actividad técnica rutinaria, para que todos la realicen igual.",
+    "claveMemorizar": "PNT: el paso a paso de una técnica."
+  },
+  "312": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La acreditación es el proceso por el que un organismo autorizado (ENAC) reconoce formalmente que una entidad es competente para tareas específicas.",
+    "claveMemorizar": "Acreditación = competencia técnica."
+  },
+  "313": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fiabilidad de los análisis depende sobre todo de elegir bien la muestra y de recogerla, transportarla y conservarla correctamente (fase preanalítica).",
+    "claveMemorizar": "Fiabilidad: muestra correcta y bien tratada."
+  },
+  "314": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, es incorrecta la C: la heparina no es adecuada para la extensión de sangre porque da un fondo azulado y altera la tinción. La propia pregunta tiene otras opciones discutibles.",
+    "claveMemorizar": "Extensión de sangre: EDTA, no heparina."
+  },
+  "315": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque las copias autorizadas de los PNT deben estar disponibles cerca del puesto de trabajo y distribuirse al personal que los usa.",
+    "claveMemorizar": "PNT: accesibles en el puesto de trabajo."
+  },
+  "316": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los ensayos de aptitud (intercomparación) son ejercicios en los que varios laboratorios analizan muestras de referencia para evaluar la calidad de sus resultados. Son una forma de control externo.",
+    "claveMemorizar": "Ensayos de aptitud = control externo interlaboratorio."
+  },
+  "317": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, la afirmación incorrecta es la A. El gráfico CuSum (sumas acumuladas) destaca mejor los errores sistemáticos que el de Levey-Jennings y usa la «máscara en V».",
+    "claveMemorizar": "CuSum: sumas acumuladas, detecta sesgos pequeños."
+  },
+  "318": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La dirección de calidad debe asegurarse de que se establecen, implantan y mantienen los procesos del sistema de gestión de la calidad.",
+    "claveMemorizar": "Dirección de calidad: que el sistema funcione."
+  },
+  "319": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La balanza 2 da valores muy parecidos entre sí (7,5-8,1 g), así que es precisa, pero lejos del valor real (5 g), así que es inexacta. La balanza 1 es imprecisa (valores de 1 a 9 g).",
+    "claveMemorizar": "Resultados agrupados pero lejos del real = preciso e inexacto."
+  },
+  "321": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque la heparina no quela el calcio: actúa potenciando la antitrombina III. Por eso es el anticoagulante de elección para la bioquímica en plasma (salvo la heparina de litio para medir litio).",
+    "claveMemorizar": "Heparina: no quela el calcio; potencia la antitrombina."
+  },
+  "322": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El suero no contiene fibrinógeno, porque se ha consumido al formarse el coágulo. El plasma sí lo contiene.",
+    "claveMemorizar": "Suero: sin fibrinógeno."
+  },
+  "323": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque todas las muestras deben considerarse potencialmente contaminantes (precauciones universales).",
+    "claveMemorizar": "Toda muestra es potencialmente infecciosa."
+  },
+  "324": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, el orden es rojo (suero), azul (citrato), verde (heparina), violeta (EDTA) y gris (fluoruro). La recomendación actual (CLSI) pone el citrato antes que el suero, pero siempre con EDTA y fluoruro al final.",
+    "claveMemorizar": "EDTA y fluoruro siempre al final."
+  },
+  "325": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El correcto funcionamiento del sistema de gestión de la calidad es responsabilidad de todos los miembros del laboratorio.",
+    "claveMemorizar": "Calidad: cosa de todos."
+  },
+  "326": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un indicador de calidad debe ser específico (medir exactamente lo que se quiere), además de objetivo, válido, fiable y sencillo.",
+    "claveMemorizar": "Indicador: específico, objetivo y medible."
+  },
+  "327": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La sensibilidad es la proporción de enfermos con prueba positiva. Si una prueba es muy sensible (más del 95 %), un resultado negativo descarta la enfermedad con confianza. Por eso A y C son correctas.",
+    "claveMemorizar": "Muy sensible + negativo = descarta."
+  },
+  "328": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la ISO 15189 exige personal cualificado, instalaciones y equipos adecuados y control de las fases preanalítica, analítica y postanalítica.",
+    "claveMemorizar": "ISO 15189: personal, instalaciones y procesos."
+  },
+  "329": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El error aleatorio afecta al resultado en cualquier sentido, por exceso o por defecto, y es impredecible. El que tiene una dirección fija es el sistemático.",
+    "claveMemorizar": "Aleatorio: en cualquier sentido."
+  },
+  "330": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los problemas metabólicos no son una causa de hemólisis de la muestra. Sí lo son la extracción difícil, el choque térmico y tardar en centrifugar.",
+    "claveMemorizar": "Hemólisis in vitro: extracción, temperatura, retraso."
+  },
+  "331": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El uso de reactivos mal reconstituidos o conservados es un error de la fase analítica. Centrifugar o alicuotar mal, no seguir las instrucciones previas y registrar mal la petición son errores preanalíticos.",
+    "claveMemorizar": "Reactivos mal preparados = error analítico."
+  },
+  "332": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque la ISO 15189 no es una certificación, sino una acreditación: valora la competencia técnica. En España solo la otorga ENAC.",
+    "claveMemorizar": "ISO 15189 = acreditación (ENAC)."
+  },
+  "333": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es incorrecta porque los errores sistemáticos se reproducen siempre en la misma dirección (sesgo), no en direcciones distintas. Pueden ser instrumentales, teóricos o personales.",
+    "claveMemorizar": "Sistemático: siempre en la misma dirección."
+  },
+  "334": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La recepción de las muestras es una actividad de la fase preanalítica. Preparar reactivos, procesar y calibrar forman parte de la fase analítica.",
+    "claveMemorizar": "Recepción de muestras: preanalítica."
+  },
+  "335": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque una disolución diluida tiene poca cantidad de soluto respecto al disolvente. Si el soluto predomina, está concentrada.",
+    "claveMemorizar": "Diluida: poco soluto. Concentrada: mucho soluto."
+  },
+  "336": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un femtolitro (fL) equivale a 10⁻¹⁵ L. Es la unidad del volumen corpuscular medio (VCM) de los hematíes.",
+    "claveMemorizar": "fL = 10⁻¹⁵ L (unidad del VCM)."
+  },
+  "337": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El suero no contiene fibrinógeno, porque se ha consumido al formarse el coágulo. El plasma sí lo contiene, junto con los demás factores de la coagulación.",
+    "claveMemorizar": "Suero: sin fibrinógeno."
+  },
+  "338": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El coeficiente de variación relaciona la desviación estándar con la media: CV = DE / media × 100.",
+    "claveMemorizar": "CV = DE / media × 100."
+  },
+  "342": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El valor predictivo negativo es la probabilidad de no tener la enfermedad cuando la prueba es negativa: VN / (VN + FN).",
+    "claveMemorizar": "VPN = P(sano | negativo)."
+  },
+  "343": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La prevalencia es la frecuencia (proporción) de una enfermedad en una población en un momento dado. Los casos nuevos en un periodo son la incidencia.",
+    "claveMemorizar": "Prevalencia: casos existentes. Incidencia: casos nuevos."
+  },
+  "344": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una curva ROC representa la sensibilidad frente a 1 − especificidad. Cuanto más se acerca a la esquina superior izquierda, mejor exactitud diagnóstica tiene la prueba. No depende de la prevalencia.",
+    "claveMemorizar": "ROC cerca de la esquina superior izquierda = mejor prueba."
+  },
+  "345": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para certificarse (sistema de gestión de la calidad), un laboratorio implanta la ISO 9001:2015. Para acreditarse usaría la ISO 15189, y la 22870 es para los POCT.",
+    "claveMemorizar": "Certificar: ISO 9001. Acreditar: ISO 15189."
+  },
+  "346": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La acreditación es el reconocimiento formal, por un organismo autorizado, de que alguien es competente para tareas específicas.",
+    "claveMemorizar": "Acreditación = competencia."
+  },
+  "347": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La precisión se valora con la desviación estándar y el coeficiente de variación de medidas repetidas. La concordancia con el valor verdadero es la exactitud y se relaciona con el error sistemático.",
+    "claveMemorizar": "Precisión: DE y CV."
+  },
+  "348": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque el control de calidad interno detecta tanto errores sistemáticos (inexactitud) como aleatorios (imprecisión), por ejemplo con las reglas de Westgard.",
+    "claveMemorizar": "Control interno: detecta errores sistemáticos y aleatorios."
+  },
+  "349": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En los sistemas POCT los errores menos frecuentes son los analíticos: la mayoría son preanalíticos (muestra, identificación) y postanalíticos (registro de resultados).",
+    "claveMemorizar": "POCT: casi todos los errores, pre y post."
+  },
+  "350": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Precisamente una ventaja de los POCT es que no requieren transportar ni manipular la muestra. Sus inconvenientes son la menor exactitud, la formación del personal y el registro de resultados.",
+    "claveMemorizar": "POCT: sin transporte (ventaja)."
+  },
+  "351": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El principal motivo para implantar pruebas POCT es reducir el tiempo de respuesta cuando el resultado inmediato cambia la decisión clínica.",
+    "claveMemorizar": "POCT: por el tiempo de respuesta."
+  },
+  "352": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, el mayor inconveniente de las pruebas en el lugar de atención al paciente (POCT) es su coste por determinación, mucho mayor que en el laboratorio central.",
+    "claveMemorizar": "POCT: caro por prueba."
+  },
+  "353": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La efectividad es el beneficio que produce una intervención en las condiciones reales de la práctica habitual. La eficacia se mide en condiciones ideales.",
+    "claveMemorizar": "Efectividad: condiciones reales."
+  },
+  "354": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un resultado crítico debe comunicarse rápidamente al responsable del paciente y registrarse en el sistema informático (quién, a quién y cuándo), esté o no ingresado.",
+    "claveMemorizar": "Valor crítico: comunicar ya y registrar."
+  },
+  "355": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Al repetir la medida 10 veces en la misma muestra, las pequeñas diferencias se deben al error aleatorio (imprecisión).",
+    "claveMemorizar": "Variación entre repeticiones = error aleatorio."
+  },
+  "356": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El tiempo de respuesta inadecuado es un indicador de la fase postanalítica. Identificación incorrecta y petición ilegible son preanalíticos; la transcripción, según el momento.",
+    "claveMemorizar": "Tiempo de respuesta: indicador postanalítico."
+  },
+  "357": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cuartiles (y percentiles) son medidas de posición. La media es de tendencia central; varianza y CV, de dispersión.",
+    "claveMemorizar": "Posición: cuartiles y percentiles."
+  },
+  "358": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, es falso que un valor crítico deba comunicarse siempre: no se comunica, por ejemplo, si ya es conocido y esperado en ese paciente. Deben definirse límites, categorías y tiempos.",
+    "claveMemorizar": "Valores críticos: lista con límites, unidades y tiempos."
+  },
+  "359": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque el tubo de suero con gel se extrae antes que el EDTA, no después. El EDTA va casi al final para no contaminar los demás tubos con potasio y quelante.",
+    "claveMemorizar": "Orden: hemocultivo → citrato → suero → heparina → EDTA → fluoruro."
+  },
+  "360": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La sensibilidad es verdaderos positivos entre el total de enfermos (VP + FN), multiplicado por 100.",
+    "claveMemorizar": "Sensibilidad = VP / enfermos × 100."
+  },
+  "361": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La certificación ISO 9001 demuestra que el sistema de gestión de calidad cumple la norma. La acreditación demuestra la competencia técnica para actividades concretas.",
+    "claveMemorizar": "Certificación = gestión. Acreditación = competencia."
+  },
+  "362": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La norma ISO 22870 recoge los requisitos específicos de los POCT y complementa a la ISO 15189.",
+    "claveMemorizar": "POCT: ISO 22870."
+  },
+  "363": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque el tiempo y las condiciones de archivo dependen de cada muestra y prueba, no son iguales para todas. Sí se guardan indefinidamente las muestras de interés clínico o de investigación.",
+    "claveMemorizar": "Archivo de muestras: condiciones según cada muestra."
+  },
+  "364": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un valor de referencia es el resultado obtenido al medir una magnitud en un individuo de referencia de la muestra de referencia. El intervalo de referencia es el rango entre los límites.",
+    "claveMemorizar": "Valor de referencia: resultado en un individuo de referencia."
+  },
+  "365": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todos ellos: para establecer valores de referencia se controlan los factores biológicos, los metodológicos y la preparación del individuo (dieta, ayuno, fármacos, ritmos, ejercicio, estrés).",
+    "claveMemorizar": "Valores de referencia: controlar biología, método y preparación."
+  },
+  "366": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los valores de referencia deben establecerse (o verificarse) cuando se introduce una magnitud nueva o se cambia de método.",
+    "claveMemorizar": "Nuevo analito o nuevo método → nuevos valores de referencia."
+  },
+  "367": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El intervalo de referencia suele comprender el 95 % central de los resultados de la población de referencia, entre los percentiles 2,5 y 97,5.",
+    "claveMemorizar": "Intervalo de referencia: 95 % central."
+  },
+  "368": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las pruebas reflejas son las que el sistema informático del laboratorio genera automáticamente según reglas (por ejemplo, TSH alta → T4 libre).",
+    "claveMemorizar": "Prueba refleja: automática por regla informática."
+  },
+  "369": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El «delta check» compara un resultado con el anterior del mismo paciente en un periodo de tiempo. Un cambio excesivo alerta de un posible error o de un cambio clínico.",
+    "claveMemorizar": "Delta check: comparar con el resultado previo."
+  },
+  "370": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El límite de detección es el valor más pequeño que se puede distinguir del blanco con una probabilidad determinada.",
+    "claveMemorizar": "Límite de detección: lo mínimo distinguible del blanco."
+  },
+  "371": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La precisión es la reproducibilidad: el grado de acuerdo entre medidas repetidas de la misma muestra. La aproximación al valor verdadero es la exactitud.",
+    "claveMemorizar": "Precisión = reproducibilidad."
+  },
+  "372": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La «sustancia biológica, categoría B» corresponde al número ONU 3373. La categoría A (infecciosa para humanos) es la ONU 2814.",
+    "claveMemorizar": "Categoría B: UN 3373. Categoría A: UN 2814."
+  },
+  "373": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En España el transporte por carretera de muestras biológicas lo regula el acuerdo ADR, de obligado cumplimiento.",
+    "claveMemorizar": "Transporte de muestras: ADR."
+  },
+  "375": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, es falso que el recipiente secundario deba etiquetarse con su contenido: la identificación y las etiquetas van en el embalaje exterior (terciario). El primario y el secundario deben ser herméticos.",
+    "claveMemorizar": "Triple envase: primario y secundario estancos; etiqueta fuera."
+  },
+  "376": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un error constante y siempre en el mismo sentido es un error sistemático (sesgo).",
+    "claveMemorizar": "Mismo sentido siempre = sistemático."
+  },
+  "377": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La eficiencia busca conseguir los mejores resultados con los menores costes posibles.",
+    "claveMemorizar": "Eficiencia: máximo resultado, mínimo coste."
+  },
+  "378": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La eficacia es el grado de consecución de los objetivos sin tener en cuenta el coste.",
+    "claveMemorizar": "Eficacia: objetivos sin mirar el coste."
+  },
+  "379": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El valor predictivo negativo es la probabilidad de que una persona con prueba negativa esté realmente sana.",
+    "claveMemorizar": "VPN = P(sano | negativo)."
+  },
+  "380": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La eficiencia relaciona el coste de una actividad con el efecto que produce sobre la salud.",
+    "claveMemorizar": "Eficiencia = efecto / coste."
+  },
+  "381": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La eficiencia mide el grado de consecución de los objetivos al menor coste posible.",
+    "claveMemorizar": "Eficiencia: objetivos al menor coste."
+  },
+  "382": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La especificidad es la proporción de individuos sanos que tienen la prueba negativa.",
+    "claveMemorizar": "Especificidad = negativos en sanos."
+  },
+  "383": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El modelo EFQM de calidad total se basa en conceptos fundamentales de excelencia y sirve para autoevaluarse. Puede aplicarse a laboratorios, pero no se certifica ni se acredita.",
+    "claveMemorizar": "EFQM: excelencia y autoevaluación."
+  },
+  "384": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La auditoría de tercera parte la hace un organismo externo independiente: es la auditoría de certificación. La de primera parte es la interna.",
+    "claveMemorizar": "Tercera parte = certificación (externa)."
+  },
+  "385": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El diagrama de Pareto ordena los problemas por frecuencia o impacto para centrarse en los «pocos vitales» (el 20 % de causas que produce el 80 % de los efectos). El de Ishikawa busca causas.",
+    "claveMemorizar": "Pareto: priorizar (80/20). Ishikawa: causas."
+  },
+  "388": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El modelo europeo de excelencia en la gestión de la calidad es el EFQM (European Foundation for Quality Management).",
+    "claveMemorizar": "Modelo europeo de excelencia = EFQM."
+  },
+  "390": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ciclo de Deming (PDCA) tiene cuatro etapas: planificar, hacer, verificar y actuar.",
+    "claveMemorizar": "PDCA: planificar, hacer, verificar, actuar."
+  },
+  "391": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El modelo EFQM de excelencia puede aplicarse a cualquier organización, sea cual sea su tamaño, sector o antigüedad.",
+    "claveMemorizar": "EFQM: vale para cualquier organización."
+  },
+  "392": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Donabedian evalúa la calidad asistencial mediante estructura, proceso y resultado. «Procedimiento» no es uno de sus tres elementos.",
+    "claveMemorizar": "Donabedian: estructura, proceso, resultado."
+  },
+  "394": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ciclo de Deming sigue este orden: planificación, intervención (hacer), verificación y actuación, y vuelve a empezar.",
+    "claveMemorizar": "PDCA: planificar → hacer → verificar → actuar."
+  },
+  "395": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es falsa porque el indicador es una unidad de medida; las normas previamente establecidas como referencia de buena calidad son los criterios y estándares. El estándar es el nivel óptimo del criterio.",
+    "claveMemorizar": "Criterio: qué medir. Indicador: cómo medirlo. Estándar: nivel óptimo."
+  },
+  "396": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La estrategia de Donabedian para evaluar la calidad asistencial analiza la estructura, el proceso y los resultados.",
+    "claveMemorizar": "Donabedian: estructura, proceso, resultado."
+  },
+  "397": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, el principal motor de los programas de mejora de la calidad es la motivación de los profesionales.",
+    "claveMemorizar": "Mejora de la calidad: profesionales motivados."
+  },
+  "398": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los indicadores de calidad asistencial suelen ser cuantitativos (porcentajes, tasas, tiempos) y se usan de forma continua para medir.",
+    "claveMemorizar": "Indicadores: cuantitativos."
+  },
+  "399": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La equidad busca reducir las desigualdades sociales en salud: que todos tengan las mismas oportunidades según sus necesidades.",
+    "claveMemorizar": "Equidad: menos desigualdades en salud."
+  },
+  "400": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si el tubo de EDTA potásico se llena antes que el de heparina de litio, el EDTA arrastrado contamina la muestra de bioquímica y da un potasio falsamente elevado (y un calcio bajo).",
+    "claveMemorizar": "EDTA antes de tiempo → K⁺ falsamente alto."
+  },
+  "401": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es incorrecta porque el manual de calidad debe estar accesible para todo el personal del laboratorio. Incluye la política de calidad, la estructura documental y la dirección.",
+    "claveMemorizar": "Manual de calidad: accesible a todos."
+  },
+  "402": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es incorrecta porque sí hay que verificar que el paciente ha seguido las instrucciones previas (ayuno, dieta, horario). También se confirma la identidad, la asepsia y la trazabilidad.",
+    "claveMemorizar": "Antes de extraer: comprobar la preparación del paciente."
+  },
+  "403": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La especificidad es la capacidad de una prueba para detectar la ausencia de la enfermedad en los sanos (dar negativo). Detectar la enfermedad en enfermos es la sensibilidad.",
+    "claveMemorizar": "Especificidad: negativo en sanos."
+  },
+  "404": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque la capacidad real de mejorar la salud en la práctica es la efectividad. La eficacia es el beneficio en condiciones ideales.",
+    "claveMemorizar": "Eficacia: ideal. Efectividad: real."
+  },
+  "405": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La «sustancia biológica, categoría B» corresponde al número ONU 3373.",
+    "claveMemorizar": "Categoría B: UN 3373."
+  },
+  "406": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El analito es el componente que se quiere medir en una muestra (por ejemplo, glucosa). El espécimen o muestra es el material biológico que lo contiene.",
+    "claveMemorizar": "Analito = lo que se mide."
+  },
+  "407": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El error sistemático puede ser constante (la misma cantidad en todas las medidas) o proporcional (aumenta con la concentración). Es predecible y no se mide con DE ni CV, que miden el aleatorio.",
+    "claveMemorizar": "Sistemático: constante o proporcional."
+  },
+  "408": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La desviación estándar mide la dispersión de medidas repetidas, es decir, la imprecisión o error aleatorio de un método.",
+    "claveMemorizar": "DE = imprecisión (error aleatorio)."
+  },
+  "409": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Con carácter general, la sangre debe centrifugarse para separar el suero en un máximo de 2 horas (120 minutos) tras la extracción. Si no, las células alteran la glucosa, el potasio y otros analitos.",
+    "claveMemorizar": "Separar el suero antes de 2 h."
+  },
+  "410": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ISO/IEC 17025 establece los requisitos de competencia de los laboratorios de ensayo y calibración.",
+    "claveMemorizar": "ISO 17025: laboratorios de ensayo y calibración."
+  },
+  "411": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los programas de garantía externa de la calidad evalúan los resultados del control de calidad externo, comparando entre laboratorios.",
+    "claveMemorizar": "Garantía externa = control externo."
+  },
+  "412": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El mantenimiento correctivo es la intervención que se hace cuando se detecta un fallo, avería o mal funcionamiento del equipo, para repararlo.",
+    "claveMemorizar": "Correctivo: reparar tras la avería."
+  },
+  "413": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Es incorrecta porque las muestras no deben agitarse durante el transporte, ya que la agitación produce hemólisis. Se transportan en vertical, protegidas de la luz y registrando incidencias.",
+    "claveMemorizar": "Transporte: vertical, sin agitar, sin luz."
+  },
+  "414": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hemólisis altera la LDH, el potasio y la AST, que salen del hematíe. La proteína C reactiva no se ve afectada de forma relevante.",
+    "claveMemorizar": "Hemólisis: LDH, K⁺, AST. PCR no."
+  },
+  "415": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La diálisis separa moléculas con una membrana semipermeable que deja pasar las pequeñas y retiene las grandes. La C describe la filtración o cromatografía y la D, la electroforesis.",
+    "claveMemorizar": "Diálisis = membrana semipermeable."
+  },
+  "416": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La exactitud es la concordancia entre el valor medido y el valor verdadero.",
+    "claveMemorizar": "Exactitud = valor medido ≈ valor verdadero."
+  },
+  "417": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hasta un 60-70 % de los errores del laboratorio se producen en la fase preanalítica.",
+    "claveMemorizar": "60-70 % de errores: preanalítica."
+  },
+  "418": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave oficial, una disolución 1 M contiene 1 mol de soluto por litro. En rigor, es por litro de disolución, no de disolvente; por kilogramo de disolvente sería la molalidad.",
+    "claveMemorizar": "Molaridad: moles por litro de disolución."
+  },
+  "419": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La molalidad es el número de moles de soluto por kilogramo de disolvente. La molaridad es por litro de disolución.",
+    "claveMemorizar": "Molalidad: mol/kg de disolvente. Molaridad: mol/L."
+  },
+  "420": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un error al transcribir el resultado es postanalítico. El pipeteo, el reactivo o calibrador inadecuado y los fallos eléctricos del equipo son errores analíticos.",
+    "claveMemorizar": "Transcripción = postanalítico."
+  },
+  "421": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La sensibilidad es la capacidad de una prueba para detectar la enfermedad (dar positivo en los enfermos).",
+    "claveMemorizar": "Sensibilidad = detecta enfermos."
+  },
+  "422": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque la curva de calibrado sí debe representarse: señal frente a concentración de los patrones. Se prepara un blanco y varios patrones, y se mide la señal de todos.",
+    "claveMemorizar": "Calibrado: blanco + patrones, señal frente a concentración."
+  },
+  "423": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La sensibilidad analítica es la capacidad de un método para distinguir pequeñas variaciones en la concentración de un analito (pendiente de la curva de calibración).",
+    "claveMemorizar": "Sensibilidad analítica: detecta pequeños cambios."
+  },
+  "424": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Desarrollar técnicas de liderazgo no es un objetivo de la fase postanalítica. Esa fase se ocupa de revisar y validar resultados, gestionar datos con programas informáticos y resolver incidencias.",
+    "claveMemorizar": "Postanalítica: validar, informar y gestionar datos."
+  },
+  "425": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el control de calidad externo una entidad independiente envía el mismo material a todos los laboratorios a la vez. Estos lo analizan sin conocer el resultado y lo remiten para compararlo.",
+    "claveMemorizar": "Control externo: material simultáneo, resultado desconocido."
+  },
+  "426": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: tapón morado = EDTA, azul claro = citrato y rojo = sin anticoagulante (suero).",
+    "claveMemorizar": "Morado EDTA, azul citrato, rojo suero, verde heparina, gris fluoruro."
+  }
+}
