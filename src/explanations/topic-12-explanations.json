@@ -1,0 +1,312 @@
+{
+  "1": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El látex del factor reumatoide usa partículas de látex recubiertas con IgG humana: el factor reumatoide (anti-IgG) las aglutina.",
+    "claveMemorizar": "FR en látex: partículas con IgG."
+  },
+  "2": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La aglutinación de látex es semicuantitativa. La PCR se cuantifica por inmunonefelometría, turbidimetría, RIA o enzimoinmunoensayo.",
+    "claveMemorizar": "PCR cuantitativa: nefelometría o turbidimetría."
+  },
+  "3": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para detectar anticuerpos se usa sobre todo suero: no tiene fibrinógeno ni anticoagulantes que interfieran.",
+    "claveMemorizar": "Anticuerpos: suero."
+  },
+  "4": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La seroconversión es la aparición de anticuerpos específicos en un paciente que antes no los tenía. Un aumento de 4 veces el título es otro criterio (seroincremento).",
+    "claveMemorizar": "Seroconversión: negativo → positivo."
+  },
+  "5": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos monoclonales proceden de un único clon de linfocitos B, reconocen un solo epítopo y evitan las reacciones cruzadas. No son más sensibles ni más baratos que los policlonales.",
+    "claveMemorizar": "Monoclonal: un clon B, un epítopo, sin cruces."
+  },
+  "6": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fijación del complemento no usa ninguna molécula marcada: se revela con hematíes y hemólisis. RIA y enzimoinmunoanálisis sí son inmunoensayos marcados.",
+    "claveMemorizar": "Sin marcaje: fijación del complemento, aglutinación, precipitación."
+  },
+  "7": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La inmunodifusión radial es cuantitativa: el diámetro del halo de precipitación es proporcional a la concentración del antígeno. Las demás son cualitativas.",
+    "claveMemorizar": "Inmunodifusión radial: cuantitativa (halo)."
+  },
+  "8": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: marcar con fluorocromos, isótopos o enzimas permite localizar el antígeno o anticuerpo y detectarlo en cantidades mínimas.",
+    "claveMemorizar": "Marcas: fluorescencia, isótopo, enzima."
+  },
+  "9": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La tripsina (y otras enzimas proteolíticas) quita los residuos de ácido siálico de la membrana del hematíe, reduce su carga negativa y los acerca, facilitando la aglutinación por IgG.",
+    "claveMemorizar": "Enzimas: quitan ácido siálico → aglutinación más fácil."
+  },
+  "10": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La aglutinación no usa molécula marcada: se ve directamente el agregado de partículas. RIA, EIA y fluoroinmunoensayo sí usan marcas.",
+    "claveMemorizar": "Aglutinación: sin marcaje."
+  },
+  "11": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: la unión antígeno-anticuerpo es no covalente y se basa en fuerzas electrostáticas, de Van der Waals, puentes de hidrógeno e interacciones hidrofóbicas.",
+    "claveMemorizar": "Unión Ag-Ac: no covalente (varias fuerzas débiles)."
+  },
+  "12": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la fijación del complemento, si hay anticuerpos se forma el complejo antígeno-anticuerpo, que consume el complemento y deja de lisar los hematíes. Sin hemólisis = prueba positiva.",
+    "claveMemorizar": "Fijación del complemento: no hemólisis = anticuerpos presentes."
+  },
+  "13": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: la serología sirve para diagnosticar enfermedades e infecciones y para conocer la prevalencia de infecciones en una población.",
+    "claveMemorizar": "Serología: diagnóstico y epidemiología."
+  },
+  "14": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque los antígenos suelen ser moléculas de alto peso molecular. Las pequeñas (haptenos) no inducen respuesta por sí solas.",
+    "claveMemorizar": "Antígenos: grandes. Haptenos: pequeños."
+  },
+  "15": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: en el laboratorio se usan reacciones de precipitación, de aglutinación y de fijación del complemento, además de técnicas marcadas.",
+    "claveMemorizar": "Ag-Ac: precipitación, aglutinación, fijación del complemento."
+  },
+  "16": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las pruebas rápidas de antígenos (neumococo y Legionella en orina, Plasmodium, VRS) se basan en la inmunocromatografía de flujo lateral.",
+    "claveMemorizar": "Pruebas rápidas: inmunocromatografía."
+  },
+  "17": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es incorrecta porque el ELISA no se expresa en miliequivalentes por litro (unidad de iones), sino en densidad óptica, índice o unidades de concentración.",
+    "claveMemorizar": "ELISA: densidad óptica o índice, no mEq/L."
+  },
+  "18": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave oficial, la prozona ocurre por exceso de antígeno. Ojo: clásicamente la prozona es el exceso de anticuerpo (falso negativo en muestras muy concentradas) y la postzona, el exceso de antígeno.",
+    "claveMemorizar": "Prozona: exceso de anticuerpo → falso negativo (clásico)."
+  },
+  "19": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un antígeno soluble no aglutina por sí solo. Se detecta por inhibición de la aglutinación: bloquea el anticuerpo e impide que aglutine partículas recubiertas del mismo antígeno.",
+    "claveMemorizar": "Antígeno soluble: inhibición de la aglutinación."
+  },
+  "20": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la precipitación los antígenos son solubles: al unirse al anticuerpo forman un complejo insoluble que precipita. Si son particulados, hay aglutinación.",
+    "claveMemorizar": "Precipitación: antígeno soluble."
+  },
+  "21": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La avidez es la fuerza total con que un anticuerpo multivalente se une a un antígeno multivalente. La afinidad es la fuerza de una sola unión.",
+    "claveMemorizar": "Afinidad: una unión. Avidez: fuerza total."
+  },
+  "22": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: el ELISA usa conjugado (anticuerpo con enzima), cromógeno (sustrato que da color) y solución de parada (ácido sulfúrico).",
+    "claveMemorizar": "ELISA: conjugado + cromógeno + parada."
+  },
+  "23": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El ELISA es un enzimoinmunoanálisis heterogéneo: necesita lavados para separar lo unido de lo libre. El EMIT es homogéneo, el DELFIA fluorescente y el IRMA radiactivo.",
+    "claveMemorizar": "ELISA: heterogéneo. EMIT: homogéneo."
+  },
+  "24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ELISA usa como marcador una enzima (peroxidasa o fosfatasa alcalina); el RIA, un isótopo radiactivo.",
+    "claveMemorizar": "ELISA = enzima. RIA = isótopo."
+  },
+  "25": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fotometría de llama mide electrolitos (Na, K), no se usa en serología. Enzimoinmunoanálisis, quimioluminiscencia e inmunofluorescencia sí.",
+    "claveMemorizar": "Serología: EIA, quimioluminiscencia, IFI."
+  },
+  "26": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el RIA se usa sobre todo radiación gamma (por ejemplo, del yodo-125), que se mide con contadores gamma.",
+    "claveMemorizar": "RIA: emisores gamma (¹²⁵I)."
+  },
+  "27": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el RIA se trabaja con isótopos emisores gamma (como el ¹²⁵I) y beta (como el ³H o el ¹⁴C).",
+    "claveMemorizar": "RIA: gamma y beta."
+  },
+  "28": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las sondas de hibridación se marcan clásicamente con fósforo-32, un emisor beta que se incorpora a los ácidos nucleicos.",
+    "claveMemorizar": "Sondas: ³²P."
+  },
+  "29": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ELISA sustituye el isótopo del RIA por una enzima como marcador.",
+    "claveMemorizar": "ELISA = enzima."
+  },
+  "30": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el RIA los emisores habituales son gamma (¹²⁵I) y beta (³H).",
+    "claveMemorizar": "RIA: gamma y beta."
+  },
+  "31": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La inmunofijación identifica proteínas específicas separadas por electroforesis, por ejemplo el tipo de cadena pesada y ligera de un componente monoclonal.",
+    "claveMemorizar": "Inmunofijación: identificar proteínas (componente M)."
+  },
+  "32": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Es falsa porque la avidez de la IgG aumenta (no disminuye) con el tiempo desde la infección. Una avidez baja indica infección reciente, lo que es útil en la toxoplasmosis del embarazo.",
+    "claveMemorizar": "Avidez baja = infección reciente."
+  },
+  "33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la aglutinación directa se prefieren anticuerpos IgM, porque su estructura pentamérica une muchas partículas.",
+    "claveMemorizar": "Aglutinación: IgM."
+  },
+  "34": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: el sarampión, la rubéola y la hepatitis E se diagnostican por serología (IgM específica).",
+    "claveMemorizar": "Sarampión, rubéola, hepatitis E: serología."
+  },
+  "35": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El «inmunoensayo por decantación» no existe. La reacción antígeno-anticuerpo se revela con fijación del complemento, enzimoinmunoensayo o inmunofluorescencia.",
+    "claveMemorizar": "Revelar Ag-Ac: complemento, ELISA, IFI."
+  },
+  "36": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el enzimoinmunoanálisis homogéneo (como el EMIT) no hace falta separar lo unido de lo libre: la unión cambia directamente la actividad de la enzima.",
+    "claveMemorizar": "Homogéneo: sin separación."
+  },
+  "37": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la fijación del complemento, si hay anticuerpos se forma el complejo antígeno-anticuerpo, que consume el complemento y deja de lisar los hematíes. Sin hemólisis = prueba positiva.",
+    "claveMemorizar": "Fijación del complemento: no hemólisis = anticuerpos presentes."
+  },
+  "38": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El trazador o marca es la sustancia (enzima, isótopo, fluorocromo) que pone de manifiesto la reacción antígeno-anticuerpo.",
+    "claveMemorizar": "Trazador = marca que revela la reacción."
+  },
+  "39": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el enzimoinmunoanálisis homogéneo (como el EMIT) no hace falta separar lo unido de lo libre: la unión cambia directamente la actividad de la enzima.",
+    "claveMemorizar": "Homogéneo: sin separación."
+  },
+  "40": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En urgencias, la gripe se diagnostica rápido detectando antígenos víricos por inmunocromatografía (o, mejor, PCR rápida). El cultivo y la serología son lentos.",
+    "claveMemorizar": "Gripe urgente: antígeno por inmunocromatografía."
+  },
+  "41": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La diferencia fundamental es el tamaño del antígeno: soluble en la precipitación y particulado (células, látex) en la aglutinación.",
+    "claveMemorizar": "Soluble: precipitación. Particulado: aglutinación."
+  },
+  "42": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el enzimoinmunoensayo el marcador es una enzima.",
+    "claveMemorizar": "EIA: enzima."
+  },
+  "43": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La inmunonefelometría mide la luz dispersada por pequeños complejos antígeno-anticuerpo en suspensión, demasiado pequeños para precipitar.",
+    "claveMemorizar": "Nefelometría: luz dispersada."
+  },
+  "44": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el ELISA sándwich la actividad enzimática es directamente proporcional a la concentración del analito, porque queda atrapado entre dos anticuerpos. En los competitivos es inversa.",
+    "claveMemorizar": "Sándwich: señal ∝ concentración."
+  },
+  "45": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falso porque la última dilución positiva es el título, no el índice. El índice es el cociente entre la señal de la muestra y la del calibrador (positivo si es mayor que 1).",
+    "claveMemorizar": "Título: última dilución positiva. Índice: muestra / calibrador."
+  },
+  "46": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los marcadores tumorales se miden habitualmente por técnicas inmunoquímicas (inmunoensayos), a menudo por quimioluminiscencia.",
+    "claveMemorizar": "Marcadores tumorales: inmunoensayo."
+  },
+  "47": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si el anticuerpo que reconoce al antígeno está marcado con fluoresceína, es inmunofluorescencia directa. En la indirecta se marca un segundo anticuerpo (antiglobulina).",
+    "claveMemorizar": "Directa: anticuerpo marcado. Indirecta: antiglobulina marcada."
+  },
+  "48": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La reacción antígeno-anticuerpo se caracteriza por su especificidad y su afinidad (y avidez). Por eso A y B son correctas.",
+    "claveMemorizar": "Ag-Ac: especificidad y afinidad."
+  },
+  "49": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El RIA es un inmunoensayo que usa un antígeno (o anticuerpo) marcado con un isótopo radiactivo.",
+    "claveMemorizar": "RIA: marca radiactiva."
+  },
+  "50": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los anticuerpos totales (sin distinguir clase) se miden con técnicas como la aglutinación o la fijación del complemento. IgM e IgG pueden medirse por varias técnicas, no solo una.",
+    "claveMemorizar": "Anticuerpos totales: aglutinación o complemento."
+  },
+  "51": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave oficial, la respuesta es precipitación. Ojo: lo habitual es que los antígenos particulados (grandes) produzcan aglutinación y los solubles, precipitación.",
+    "claveMemorizar": "Soluble: precipitación. Particulado: aglutinación."
+  },
+  "52": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La inmunofluorescencia es una técnica, no una característica de la reacción antígeno-anticuerpo. Sus características son la especificidad, la afinidad y la avidez.",
+    "claveMemorizar": "Ag-Ac: especificidad, afinidad, avidez."
+  },
+  "53": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La IgE total y específica se cuantifican por inmunoanálisis (enzimoinmunoanálisis o fluoroinmunoensayo).",
+    "claveMemorizar": "IgE: inmunoanálisis."
+  },
+  "54": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las sondas de ADN detectan el genoma del virus (diagnóstico directo), no anticuerpos, así que no sirven para estudiar seroconversión. IFI, inmunoanálisis y Western blot sí.",
+    "claveMemorizar": "Seroconversión: técnicas de anticuerpos, no sondas."
+  },
+  "55": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El epítopo es la parte del antígeno que reconoce su anticuerpo específico.",
+    "claveMemorizar": "Epítopo: la zona reconocida."
+  },
+  "56": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la hemaglutinación el antígeno está en la membrana del hematíe (natural o fijado artificialmente).",
+    "claveMemorizar": "Hemaglutinación: antígeno en la membrana del hematíe."
+  },
+  "57": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La anemia hemolítica autoinmune se confirma con la prueba de antiglobulina directa (Coombs directo), que demuestra anticuerpos fijados en los hematíes.",
+    "claveMemorizar": "AHAI: Coombs directo."
+  },
+  "58": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Añadir un ligero exceso de reactivo precipitante disminuye la solubilidad del precipitado (efecto del ion común) y favorece que precipite por completo.",
+    "claveMemorizar": "Exceso de precipitante: menos solubilidad."
+  },
+  "59": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el ELISA la molécula de marcaje es una enzima.",
+    "claveMemorizar": "ELISA: enzima."
+  },
+  "60": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hay más de una correcta: la unión antígeno-anticuerpo puede producir precipitación, aglutinación y neutralización.",
+    "claveMemorizar": "Ag-Ac: precipita, aglutina o neutraliza."
+  },
+  "61": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el ELISA se usa el conjugado: un anticuerpo (o antígeno) unido a una enzima. Los radioisótopos son del RIA y los fluorocromos, de la inmunofluorescencia.",
+    "claveMemorizar": "ELISA: conjugado enzimático."
+  },
+  "62": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas: en el enzimoinmunoanálisis competitivo el analito de la muestra compite con un análogo marcado con enzima por los sitios de unión de un anticuerpo de alta afinidad.",
+    "claveMemorizar": "Competitivo: analito y marcado compiten."
+  }
+}
