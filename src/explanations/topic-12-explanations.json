@@ -86,8 +86,8 @@
   },
   "18": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "Según la clave oficial, la prozona ocurre por exceso de antígeno. Ojo: clásicamente la prozona es el exceso de anticuerpo (falso negativo en muestras muy concentradas) y la postzona, el exceso de antígeno.",
-    "claveMemorizar": "Prozona: exceso de anticuerpo → falso negativo (clásico)."
+    "porQueLaCorrecta": "En inmunoensayos (sándwich, turbidimetría) un exceso de antígeno satura ambos anticuerpos y no se forman complejos: la señal cae y el resultado sale falsamente bajo (efecto gancho o prozona).",
+    "claveMemorizar": "Prozona/efecto gancho: exceso de Ag → falso bajo → diluir."
   },
   "19": {
     "respuestaCorrecta": "D",
@@ -308,5 +308,220 @@
     "respuestaCorrecta": "D",
     "porQueLaCorrecta": "Todas: en el enzimoinmunoanálisis competitivo el analito de la muestra compite con un análogo marcado con enzima por los sitios de unión de un anticuerpo de alta afinidad.",
     "claveMemorizar": "Competitivo: analito y marcado compiten."
+  },
+  "63": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La zona de equivalencia es la proporción Ag/Ac óptima: se forma la red máxima de inmunocomplejos y la precipitación es máxima.",
+    "claveMemorizar": "Equivalencia = máxima precipitación."
+  },
+  "64": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La línea de control debe aparecer siempre. Si solo aparece la línea de prueba sin la de control, el test no es válido y hay que repetirlo.",
+    "claveMemorizar": "Sin línea control = test inválido."
+  },
+  "65": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La glucosa-oxidasa es un método enzimático colorimétrico, sin anticuerpos. RIA, ELISA y FPIA usan reacción antígeno-anticuerpo.",
+    "claveMemorizar": "Glucosa oxidasa: enzimático, no inmunoquímico."
+  },
+  "66": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los marcadores cardiacos (troponina, CK-MB masa, mioglobina) se miden por inmunoanálisis con marcaje enzimático o quimioluminiscente.",
+    "claveMemorizar": "Troponina/CK-MB masa → inmunoanálisis."
+  },
+  "67": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El lector de microplacas mide la absorbancia del color producido en cada pocillo de ELISA: es un espectrofotómetro/fotómetro.",
+    "claveMemorizar": "Lector ELISA = espectrofotómetro."
+  },
+  "68": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la IF directa el anticuerpo específico lleva ya el fluorocromo y se une directamente al antígeno. La indirecta usa un segundo anticuerpo antiglobulina marcado.",
+    "claveMemorizar": "IF directa: Ac primario marcado. Indirecta: antiglobulina marcada."
+  },
+  "69": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "EMIT es homogéneo: la unión del anticuerpo modifica la actividad enzimática y no hay que separar fracción libre y ligada. ELISA y RIA necesitan separación (heterogéneos).",
+    "claveMemorizar": "EMIT = homogéneo, sin lavado."
+  },
+  "70": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Quimioluminiscencia: una reacción química produce una molécula en estado excitado que emite luz al volver al estado fundamental. No requiere luz de excitación.",
+    "claveMemorizar": "Quimioluminiscencia: la energía la da la reacción química."
+  },
+  "71": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La aglutinación indirecta (pasiva) necesita un soporte o transportador (látex, hematíes) al que se fija el antígeno soluble. Sin él no se ven grumos.",
+    "claveMemorizar": "Aglutinación indirecta = Ag sobre partícula transportadora."
+  },
+  "72": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la inmunodifusión antígeno y anticuerpo solubles difunden en gel y forman líneas o anillos de precipitado en la zona de equivalencia.",
+    "claveMemorizar": "Inmunodifusión = precipitación en gel."
+  },
+  "73": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fijación del complemento es una técnica clásica sin marcaje: detecta la reacción por la hemólisis de un sistema indicador. FIA y RIA usan marcadores.",
+    "claveMemorizar": "Fijación del complemento: no marcada, revela con hemólisis."
+  },
+  "74": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "EIA (enzimoinmunoanálisis): el marcador es una enzima que transforma un sustrato en producto medible. RIA usa isótopo y FIA fluorocromo.",
+    "claveMemorizar": "E de EIA = Enzima."
+  },
+  "75": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La inmunocromatografía (test rápido de flujo lateral) hace migrar la muestra por una membrana de nitrocelulosa y revela el complejo Ag-Ac como una línea coloreada.",
+    "claveMemorizar": "Línea coloreada en nitrocelulosa = inmunocromatografía."
+  },
+  "76": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La serología se hace sobre todo en suero, obtenido de sangre venosa. LCR y otros líquidos se usan solo en casos concretos.",
+    "claveMemorizar": "Serología = suero (sangre)."
+  },
+  "77": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La inmunonefelometría mide la luz dispersada por inmunocomplejos en solución líquida, no en gel. Las otras tres son precipitaciones en gel.",
+    "claveMemorizar": "Nefelometría: en líquido, no en gel."
+  },
+  "78": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Seroconversión: aparición de anticuerpos específicos en un paciente que antes era seronegativo. Indica infección o vacunación reciente.",
+    "claveMemorizar": "Seroconversión: de negativo a positivo."
+  },
+  "79": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La sensibilidad del EIA mejora amplificando la señal de una misma concentración de Ag o Ac, mejorando la detección y reduciendo el ruido de fondo. Mezclar concentraciones no aporta nada.",
+    "claveMemorizar": "Más sensibilidad = amplificar señal y bajar ruido."
+  },
+  "80": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los test de antígeno de flujo lateral detectan proteínas del patógeno (p. ej. SARS-CoV-2 en exudado nasofaríngeo). Los que detectan anticuerpos son test serológicos.",
+    "claveMemorizar": "Test de antígeno → proteínas del microorganismo."
+  },
+  "81": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las dosis altas de biotina interfieren en los inmunoensayos que usan el sistema biotina-estreptavidina. No afecta a todos los analizadores: depende del método.",
+    "claveMemorizar": "Biotina en dosis altas interfiere con estreptavidina-biotina."
+  },
+  "82": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aglutinación es la unión de anticuerpos con antígenos particulados (células, partículas) que forma grumos visibles. La precipitación es con antígenos solubles.",
+    "claveMemorizar": "Particulado → aglutinación. Soluble → precipitación."
+  },
+  "83": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En ELISA el marcador es una enzima (peroxidasa, fosfatasa alcalina) que genera color al actuar sobre el sustrato. El colorante es el producto, no el marcador.",
+    "claveMemorizar": "ELISA: marcador = enzima."
+  },
+  "84": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un antígeno es cualquier sustancia reconocida como extraña que induce una respuesta inmune o reacciona con anticuerpos. La opción A define un anticuerpo.",
+    "claveMemorizar": "Antígeno: lo reconocido. Anticuerpo: lo producido."
+  },
+  "85": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La avidez de la IgG aumenta con el tiempo por maduración de la afinidad. Avidez alta indica una infección de hace más de unos meses; avidez baja, infección reciente.",
+    "claveMemorizar": "Avidez alta = infección antigua."
+  },
+  "86": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el efecto prozona o gancho el exceso de analito satura el sistema. Al diluir la muestra se recupera la proporción adecuada y la señal real.",
+    "claveMemorizar": "Prozona → diluir la muestra."
+  },
+  "87": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La aglutinación es más sensible que la precipitación: basta menos anticuerpo para ver grumos, porque las partículas amplifican la reacción.",
+    "claveMemorizar": "Aglutinación > precipitación en sensibilidad."
+  },
+  "88": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La IgM aparece primero, en la fase aguda, y suele desaparecer en unos meses (hasta 4-6). Es marcador de infección reciente.",
+    "claveMemorizar": "IgM: fase aguda, dura meses."
+  },
+  "89": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La biotina libre ocupa los sitios de la estreptavidina de la fase sólida e impide que se fijen los anticuerpos biotinilados. Da falsos bajos en sándwich y falsos altos en competitivos.",
+    "claveMemorizar": "Biotina bloquea la estreptavidina: sándwich↓, competitivo↑."
+  },
+  "90": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el EIA la enzima transforma un sustrato en un producto coloreado cuya absorbancia se mide por fotometría.",
+    "claveMemorizar": "EIA → color → fotometría."
+  },
+  "91": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los autoanticuerpos y los anticuerpos heterófilos (p. ej. HAMA) pueden unirse a los reactivos y dar falsos resultados. Son las interferencias típicas del inmunoanálisis.",
+    "claveMemorizar": "Heterófilos + autoanticuerpos = interferencias."
+  },
+  "92": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las inmunoglobulinas y el complemento (C3, C4) se cuantifican por nefelometría, o turbidimetría, y clásicamente por inmunodifusión radial de Mancini.",
+    "claveMemorizar": "Igs y complemento: nefelometría / IDR."
+  },
+  "93": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La electroinmunodifusión (rocket de Laurell) hace migrar el antígeno por electroforesis en un gel que contiene el anticuerpo. Se forman cohetes de altura proporcional a la concentración.",
+    "claveMemorizar": "Rocket de Laurell = electroinmunodifusión."
+  },
+  "94": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las partículas alfa son las menos penetrantes (las para un papel), las beta penetran algo más y los rayos gamma son los más penetrantes (requieren plomo).",
+    "claveMemorizar": "Penetración: α < β < γ."
+  },
+  "95": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Según la clave, B es la incorrecta: en la reacción secundaria los complejos no se disuelven, sino que se agregan y dan fenómenos visibles (aglutinación, precipitación).",
+    "claveMemorizar": "Primaria: unión invisible. Secundaria: fenómeno visible."
+  },
+  "96": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El EIA usa una enzima que produce un color medible por colorimetría. El RIA mide radiactividad y el FIA fluorescencia.",
+    "claveMemorizar": "Color → EIA."
+  },
+  "97": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es al revés: la avidez de la IgG aumenta con el tiempo. Avidez baja = infección reciente; alta = infección antigua.",
+    "claveMemorizar": "Más tiempo → más avidez."
+  },
+  "98": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ELISPOT es más sensible que el ELISA: detecta células secretoras individuales. El IGRA usa ELISA de IFN-γ y la citometría detecta citoquinas intracelulares.",
+    "claveMemorizar": "ELISPOT > ELISA en sensibilidad."
+  },
+  "99": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En inmunoensayos la prozona o efecto gancho se debe a concentraciones muy altas de antígeno, que dan resultados falsamente bajos. Se corrige diluyendo.",
+    "claveMemorizar": "Exceso de Ag → falso bajo → diluir."
+  },
+  "100": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "ELISA = Enzyme-Linked ImmunoSorbent Assay: el marcador es una enzima.",
+    "claveMemorizar": "ELISA = enzimático."
+  },
+  "101": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En ELISA primero ocurre la inmunorreacción, después se lavan los no unidos (separación) y por último se añade el sustrato (reacción indicadora).",
+    "claveMemorizar": "ELISA: unir → lavar → revelar."
+  },
+  "102": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La serología es un diagnóstico indirecto: detecta anticuerpos específicos en el suero del paciente. Sondas, tinciones y cultivos son métodos directos.",
+    "claveMemorizar": "Serología = buscar anticuerpos."
+  },
+  "103": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fijación del complemento y la inhibición de la hemaglutinación son técnicas serológicas clásicas en virología. La serología se hace en suero, sin anticoagulante, y la IgM distingue la fase aguda.",
+    "claveMemorizar": "Serología viral clásica: FC e IHA."
+  },
+  "104": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La IgM marca la infección aguda, así que hay que extraer la muestra en la fase aguda. Para ver seroconversión de IgG se comparan sueros pareados, de fase aguda y de convalecencia.",
+    "claveMemorizar": "IgM → fase aguda. IgG → sueros pareados."
+  },
+  "105": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El título es la mayor dilución de suero que aún da reacción positiva. Expresa semicuantitativamente la cantidad de anticuerpo.",
+    "claveMemorizar": "Título = última dilución positiva."
   }
 }
