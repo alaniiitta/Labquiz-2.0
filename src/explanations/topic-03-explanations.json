@@ -1,0 +1,272 @@
+{
+  "1": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En una infección urinaria la tira reactiva da positivos los leucocitos (esterasa leucocitaria) y los nitritos, porque muchas bacterias (enterobacterias) reducen los nitratos a nitritos.",
+    "claveMemorizar": "ITU en tira: leucocitos + nitritos."
+  },
+  "2": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La orina para cultivo debe procesarse cuanto antes (idealmente en menos de 2 h). Si no es posible, se refrigera y se procesa como máximo en 24 h. A 39 °C las bacterias se multiplican y falsean el recuento.",
+    "claveMemorizar": "Urocultivo: procesar ya o en nevera hasta 24 h."
+  },
+  "3": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para conservar orina se usan ácido bórico, ácido acético, ácido clorhídrico o fluoruro sódico, entre otros. «Oxalatonaf» no es un conservante de orina.",
+    "claveMemorizar": "Conservantes de orina: bórico, acético, clorhídrico, fluoruro."
+  },
+  "4": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El recuento de Addis cuantifica los hematíes, leucocitos y cilindros eliminados en orina en un tiempo determinado (clásicamente 12 h). Es un método cuantitativo.",
+    "claveMemorizar": "Addis = recuento cuantitativo del sedimento."
+  },
+  "5": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los nitritos en orina indican bacteriuria: las enterobacterias (como E. coli) reducen los nitratos de la orina a nitritos.",
+    "claveMemorizar": "Nitritos positivos = bacterias."
+  },
+  "6": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cilindros céreos son los de mayor índice de refracción: son homogéneos, brillantes y de bordes quebrados. Indican estasis tubular prolongada e insuficiencia renal avanzada.",
+    "claveMemorizar": "Céreos: los más refringentes = insuficiencia renal crónica."
+  },
+  "7": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La reacción de Jaffé mide la creatinina: con picrato en medio alcalino forma un complejo rojo-anaranjado.",
+    "claveMemorizar": "Jaffé = creatinina + picrato alcalino."
+  },
+  "8": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Es falsa porque la primera etapa en la formación de la orina es la filtración glomerular. Después vienen la reabsorción y la secreción tubulares.",
+    "claveMemorizar": "Orina: filtración → reabsorción → secreción."
+  },
+  "9": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: las pruebas de función renal sirven para detectar una lesión renal, localizarla (glomérulo o túbulo) y cuantificar su gravedad.",
+    "claveMemorizar": "Función renal: detectar, localizar y cuantificar."
+  },
+  "10": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cilindros hemáticos se forman cuando los hematíes quedan atrapados en el túbulo. Indican sangrado de origen renal (parénquima), típico de la glomerulonefritis.",
+    "claveMemorizar": "Cilindros hemáticos = glomerulonefritis."
+  },
+  "11": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los nitritos aparecen en la orina por crecimiento bacteriano: las bacterias gramnegativas reducen los nitratos a nitritos.",
+    "claveMemorizar": "Nitritos = bacterias."
+  },
+  "12": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El método de Biuret mide proteínas: los enlaces peptídicos forman un complejo violeta con el cobre en medio alcalino.",
+    "claveMemorizar": "Biuret = proteínas (cobre, medio alcalino, violeta)."
+  },
+  "13": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un porcentaje alto de hematíes dismórficos (deformados al atravesar el glomérulo) indica que la hematuria es de origen glomerular.",
+    "claveMemorizar": "Hematíes dismórficos = hematuria glomerular."
+  },
+  "14": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ácido para-aminohipúrico (PAH) se filtra y se secreta casi por completo en un solo paso, así que su aclaramiento mide el flujo plasmático renal efectivo.",
+    "claveMemorizar": "PAH = flujo plasmático renal. Inulina = filtrado."
+  },
+  "15": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las guías actuales recomiendan estimar el filtrado glomerular con la ecuación CKD-EPI a partir de creatinina sérica estandarizada. Cockcroft-Gault y MDRD han quedado en desuso.",
+    "claveMemorizar": "Filtrado glomerular: CKD-EPI."
+  },
+  "16": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cilindros de células epiteliales tubulares, los céreos y los leucocitarios indican enfermedad renal. Los hialinos pueden verse en personas sanas (ejercicio, deshidratación).",
+    "claveMemorizar": "Hialinos pueden ser normales; los demás, patológicos."
+  },
+  "17": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Al paciente hay que explicarle cómo recoger la orina de 24 h (desechar la primera micción y recoger todo hasta la primera del día siguiente) y dónde entregarla.",
+    "claveMemorizar": "Orina de 24 h: explicar recogida y entrega."
+  },
+  "18": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La reacción de Biuret usa cobre en medio alcalino (no ácido) y mide proteínas. En la orina tiene poca sensibilidad, porque las proteínas urinarias están muy diluidas.",
+    "claveMemorizar": "Biuret: poco sensible en orina."
+  },
+  "19": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cristales de indinavir (antirretroviral) son de origen medicamentoso. El biurato amónico y la 2,8-dihidroxiadenina son metabólicos.",
+    "claveMemorizar": "Cristales por fármacos: indinavir, sulfamidas, aciclovir."
+  },
+  "20": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La vitamina C se metaboliza en parte a oxalato. Un exceso aumenta la oxaluria y favorece los cristales (y cálculos) de oxalato cálcico.",
+    "claveMemorizar": "Mucha vitamina C → oxalato cálcico."
+  },
+  "21": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La proteína de Bence Jones son cadenas ligeras libres monoclonales, que no aparecen en personas sanas. Es típica del mieloma múltiple.",
+    "claveMemorizar": "Bence Jones = cadenas ligeras = mieloma."
+  },
+  "22": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la técnica de Jaffé la creatinina reacciona con el picrato alcalino y forma un complejo rojo-anaranjado, que se mide por colorimetría.",
+    "claveMemorizar": "Jaffé: creatinina + picrato alcalino = rojo."
+  },
+  "23": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
+    "claveMemorizar": "Proteinuria → busca cilindros."
+  },
+  "24": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Al microscopio, los hematíes se diferencian de los leucocitos porque no tienen núcleo. Los leucocitos son mayores, nucleados y granulosos.",
+    "claveMemorizar": "Hematíe sin núcleo; leucocito con núcleo."
+  },
+  "25": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En un sedimento normal puede haber algún leucocito, algún hematíe y células epiteliales. Los cilindros (salvo algún hialino aislado) no deben aparecer.",
+    "claveMemorizar": "Sedimento normal: sin cilindros."
+  },
+  "26": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cristales de fosfato triple (fosfato amónico-magnésico, estruvita) tienen forma de tapa de ataúd. Aparecen en orinas alcalinas, a menudo con infección por Proteus.",
+    "claveMemorizar": "Tapa de ataúd = fosfato triple (orina alcalina)."
+  },
+  "27": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El glomérulo es el filtro de la nefrona: un ovillo de capilares donde se filtra el plasma. La cápsula de Bowman recoge el filtrado.",
+    "claveMemorizar": "Filtro de la nefrona = glomérulo."
+  },
+  "28": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La densidad urinaria normal en la primera orina de la mañana está entre 1,010 y 1,030 (expresada como 1010-1030).",
+    "claveMemorizar": "Densidad urinaria: 1,010-1,030."
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave oficial, la nefropatía diabética avanzada cursa con proteinuria de unos 3 g/día. Empieza como microalbuminuria, que es su marcador precoz.",
+    "claveMemorizar": "Nefropatía diabética: microalbuminuria → proteinuria franca."
+  },
+  "30": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los hematíes de la orina pueden confundirse con levaduras, que también son pequeñas y redondeadas. Las levaduras gemelan y no se lisan con ácido acético.",
+    "claveMemorizar": "Hematíes se confunden con levaduras."
+  },
+  "31": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El microscopio de contraste de fases es recomendable para estudiar los hematíes de la orina, sobre todo para ver su dismorfia.",
+    "claveMemorizar": "Hematíes dismórficos: contraste de fases."
+  },
+  "32": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Es falsa porque los cristales en tapa de ataúd son de fosfato triple. La tirosina forma agujas finas en haces o rosetas.",
+    "claveMemorizar": "Tapa de ataúd = fosfato triple. Tirosina = agujas."
+  },
+  "33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La orina de 24 h se usa en determinaciones cuantitativas metabólicas (proteínas, creatinina, calcio, hormonas), porque evita las variaciones a lo largo del día.",
+    "claveMemorizar": "Orina de 24 h = cuantificar."
+  },
+  "34": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son ciertas: la fiebre, el estrés y el ejercicio intenso pueden producir proteinurias transitorias y benignas, que desaparecen al cesar la causa.",
+    "claveMemorizar": "Proteinuria transitoria: fiebre, estrés, ejercicio."
+  },
+  "35": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La orina para medir proteínas es estable 7 días a 2-8 °C y, si hay que congelarla, debe hacerse a -70 °C o menos. No se añaden conservantes.",
+    "claveMemorizar": "Proteínas en orina: 7 días en nevera o -70 °C."
+  },
+  "36": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las ecuaciones de estimación (Cockcroft-Gault, MDRD) usan creatinina sérica, edad, sexo y datos antropométricos. No necesitan creatinina en orina, que sí requiere el aclaramiento.",
+    "claveMemorizar": "Filtrado estimado: sin orina (solo creatinina sérica)."
+  },
+  "37": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El nitroprusiato sódico (reacción de Legal) detecta los cuerpos cetónicos (acetoacetato y acetona) en la tira reactiva.",
+    "claveMemorizar": "Nitroprusiato = cuerpos cetónicos."
+  },
+  "38": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El tetraclorofenol-tetrabromosulfoftaleína es el indicador del «error proteico»: cambia de color con las proteínas (sobre todo albúmina) de la orina.",
+    "claveMemorizar": "Tira: error proteico del indicador = proteínas."
+  },
+  "39": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las proteínas urinarias se cuantifican por turbidimetría, nefelometría o fijación a colorantes. La inmunofluorescencia indirecta detecta anticuerpos, no cuantifica proteínas.",
+    "claveMemorizar": "Proteínas en orina: turbidimetría, nefelometría, colorantes."
+  },
+  "40": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las células del epitelio de transición (vías urinarias) tienen formas variadas: piriformes, redondeadas o en raqueta. El ácido úrico cristaliza en orina ácida.",
+    "claveMemorizar": "Epitelio de transición: piriformes o en raqueta."
+  },
+  "41": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una proteinuria selectiva está formada sobre todo por proteínas de bajo peso molecular, como la albúmina, sin proteínas grandes como las inmunoglobulinas. Indica lesión glomerular leve.",
+    "claveMemorizar": "Selectiva: solo proteínas pequeñas (albúmina)."
+  },
+  "42": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la acidosis tubular renal el túbulo no elimina bien los hidrogeniones, así que la orina es inapropiadamente alcalina a pesar de la acidosis en sangre.",
+    "claveMemorizar": "Acidosis tubular: orina alcalina."
+  },
+  "43": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Piuria con bacterias y cilindros leucocitarios indica pielonefritis: los cilindros prueban que la infección afecta al riñón. En la cistitis no hay cilindros.",
+    "claveMemorizar": "Cilindros leucocitarios = pielonefritis."
+  },
+  "44": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Todas son correctas: la tira reactiva de sangre detecta la actividad peroxidasa del hemo, así que es positiva con hematíes, hemoglobina libre y mioglobina.",
+    "claveMemorizar": "Tira de sangre: hematíes, hemoglobina o mioglobina."
+  },
+  "45": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La orina para anormales y sedimento es estable solo unas 2 horas a temperatura ambiente. Después se lisan las células y se multiplican las bacterias.",
+    "claveMemorizar": "Orina para sedimento: < 2 h a temperatura ambiente."
+  },
+  "52": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un porcentaje alto de hematíes dismórficos (deformados al atravesar el glomérulo) indica que la hematuria es de origen glomerular.",
+    "claveMemorizar": "Hematíes dismórficos = hematuria glomerular."
+  },
+  "66": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
+    "claveMemorizar": "Proteinuria → busca cilindros."
+  },
+  "76": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
+    "claveMemorizar": "Proteinuria → busca cilindros."
+  },
+  "85": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La proteína de Bence Jones son cadenas ligeras libres monoclonales, que no aparecen en personas sanas. Es típica del mieloma múltiple.",
+    "claveMemorizar": "Bence Jones = cadenas ligeras = mieloma."
+  },
+  "87": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la técnica de Jaffé la creatinina reacciona con el picrato alcalino y forma un complejo rojo-anaranjado, que se mide por colorimetría.",
+    "claveMemorizar": "Jaffé: creatinina + picrato alcalino = rojo."
+  },
+  "131": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Al microscopio, los hematíes se diferencian de los leucocitos porque no tienen núcleo. Los leucocitos son mayores, nucleados y granulosos.",
+    "claveMemorizar": "Hematíe sin núcleo; leucocito con núcleo."
+  },
+  "142": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La orina para anormales y sedimento es estable solo unas 2 horas a temperatura ambiente. Después se lisan las células y se multiplican las bacterias.",
+    "claveMemorizar": "Orina para sedimento: < 2 h a temperatura ambiente."
+  },
+  "260": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En una infección urinaria la tira reactiva da positivos los leucocitos (esterasa leucocitaria) y los nitritos, porque muchas bacterias (enterobacterias) reducen los nitratos a nitritos.",
+    "claveMemorizar": "ITU en tira: leucocitos + nitritos."
+  },
+  "281": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Ante una proteinuria hay que buscar cilindros en el sedimento, porque se forman con proteína en los túbulos e indican que el origen es renal.",
+    "claveMemorizar": "Proteinuria → busca cilindros."
+  }
+}
