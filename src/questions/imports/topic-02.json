@@ -1529,14 +1529,14 @@
       "id": 118,
       "question": "Es indicativo de meningitis bacteriana cuando en el análisis bioquímico y en el recuento celular del LCR obtenemos los siguientes resultados:",
       "options": {
-        "A": "Disminución de la glucosa, aumento de las",
-        "B": "Glucosa normal, proteínas normales y, en el",
-        "C": "Aumento de la glucosa, proteínas normales y, en el",
+        "A": "Disminución de la glucosa, aumento de las proteínas y, en el recuento de las células se observa un aumento de leucocitos con predominio de neutrófilos.",
+        "B": "Glucosa normal, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de linfocitos.",
+        "C": "Aumento de la glucosa, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de neutrófilos.",
         "D": "Aumento de la glucosa, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de linfocitos."
       },
       "page": 11,
       "correctAnswer": "A",
-      "correctText": "Disminución de la glucosa, aumento de las"
+      "correctText": "Disminución de la glucosa, aumento de las proteínas y, en el recuento de las células se observa un aumento de leucocitos con predominio de neutrófilos."
     },
     {
       "id": 119,
@@ -1557,12 +1557,12 @@
       "options": {
         "A": "1º pruebas microbiológicas, 2º recuento celular y diferencial, 3º pruebas bioquímicas e inmunológicas.",
         "B": "1º recuento celular y diferencial, 2º pruebas bioquímicas e inmunológicas, 3º pruebas microbiológicas.",
-        "C": "1º pruebas bioquímicas e inmunológicas, 2º",
+        "C": "1º pruebas bioquímicas e inmunológicas, 2º pruebas microbiológicas, 3º recuento celular y diferencial.",
         "D": "No importa el orden, el LCR se obtiene en tres tubos estériles."
       },
       "page": 12,
       "correctAnswer": "C",
-      "correctText": "1º pruebas bioquímicas e inmunológicas, 2º"
+      "correctText": "1º pruebas bioquímicas e inmunológicas, 2º pruebas microbiológicas, 3º recuento celular y diferencial."
     },
     {
       "id": 121,
@@ -1620,14 +1620,14 @@
       "id": 125,
       "question": "Es indicativo de meningitis bacteriana cuando en el análisis bioquímico y en el recuento celular del LCR obtenemos los siguientes resultados:",
       "options": {
-        "A": "Disminución de la glucosa, aumento de las",
-        "B": "Glucosa normal, proteínas normales y, en el",
-        "C": "Aumento de la glucosa, proteínas normales y, en el",
+        "A": "Disminución de la glucosa, aumento de las proteínas y, en el recuento de las células se observa un aumento de leucocitos con predominio de neutrófilos.",
+        "B": "Glucosa normal, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de linfocitos.",
+        "C": "Aumento de la glucosa, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de neutrófilos.",
         "D": "Aumento de la glucosa, proteínas normales y, en el recuento de las células se observa un aumento de leucocitos con predominio de linfocitos."
       },
       "page": 12,
       "correctAnswer": "A",
-      "correctText": "Disminución de la glucosa, aumento de las"
+      "correctText": "Disminución de la glucosa, aumento de las proteínas y, en el recuento de las células se observa un aumento de leucocitos con predominio de neutrófilos."
     },
     {
       "id": 126,
@@ -1635,12 +1635,12 @@
       "options": {
         "A": "1º pruebas microbiológicas, 2º recuento celular y diferencial, 3º pruebas bioquímicas e inmunológicas.",
         "B": "1º recuento celular y diferencial, 2º pruebas bioquímicas e inmunológicas, 3º pruebas microbiológicas.",
-        "C": "1º pruebas bioquímicas e inmunológicas, 2º",
+        "C": "1º pruebas bioquímicas e inmunológicas, 2º pruebas microbiológicas, 3º recuento celular y diferencial.",
         "D": "No importa el orden, el LCR se obtiene en tres tubos estériles."
       },
       "page": 12,
       "correctAnswer": "C",
-      "correctText": "1º pruebas bioquímicas e inmunológicas, 2º"
+      "correctText": "1º pruebas bioquímicas e inmunológicas, 2º pruebas microbiológicas, 3º recuento celular y diferencial."
     },
     {
       "id": 127,
@@ -2302,7 +2302,8 @@
         "A": "Es compatible con un sangrado patológico, como una hemorragia subaracnoidea.",
         "B": "Sugiere concentraciones elevadas de bilirrubina en el LCR.",
         "C": "Sugiere concentraciones elevadas de proteínas en el LCR.",
-        "D": "Punción lumbar traumática, la extracción del líquido ha sido dificultosa. E) Error de identificación del paciente"
+        "D": "Punción lumbar traumática, la extracción del líquido ha sido dificultosa.",
+        "E": "Error de identificación del paciente"
       },
       "page": 18,
       "correctAnswer": "D",
@@ -2315,7 +2316,8 @@
         "A": "El análisis celular del LCR puede demorarse hasta 48 horas si la muestra se mantiene refrigerada.",
         "B": "Una vez extraído el LCR debe enviarse preferentemente al laboratorio por el sistema de tubo neumático para que llegue rápido y pueda analizarse cuanto antes.",
         "C": "Los tubos de LCR deben marcarse de acuerdo a su secuencia de recolección, y es recomendable que el primer tubo se utilice para el análisis bioquímico y serológico y los tubos siguientes para el análisis microbiológico y celular respectivamente.",
-        "D": "Para que el recuento celular sea fiable son necesarios un mínimo de 10 ml de LCR E) Si la muestra está hemática, se devolverá para que extraigan nueva muestra."
+        "D": "Para que el recuento celular sea fiable son necesarios un mínimo de 10 ml de LCR",
+        "E": "Si la muestra está hemática, se devolverá para que extraigan nueva muestra."
       },
       "page": 18,
       "correctAnswer": "C",
@@ -2328,7 +2330,8 @@
         "A": "Tubo con anticoagulante",
         "B": "Tubo sin anticoagulante",
         "C": "No importa el tipo de tubo siempre que vengan varios.",
-        "D": "Tubo EDTA E) Todas son falsas."
+        "D": "Tubo EDTA",
+        "E": "Todas son falsas."
       },
       "page": 18,
       "correctAnswer": "B",
@@ -2379,12 +2382,12 @@
       "options": {
         "A": "El análisis celular del LCR puede demorarse hasta 48 horas si la muestra se mantiene refrigerada.",
         "B": "Una vez extraído el LCR debe enviarse preferentemente al laboratorio por el sistema de tubo neumático para que llegue rápido y pueda analizarse cuanto antes.",
-        "C": "Los tubos de LCR deben marcarse de acuerdo a su",
+        "C": "Los tubos de LCR deben marcarse de acuerdo a su secuencia de recolección, y es recomendable que el primer tubo se utilice para el análisis bioquímico y serológico y los tubos siguientes para el análisis microbiológico y celular respectivamente.",
         "D": "Para que el recuento celular sea fiable son necesarios un mínimo de 10 ml de LCR."
       },
       "page": 19,
       "correctAnswer": "C",
-      "correctText": "Los tubos de LCR deben marcarse de acuerdo a su"
+      "correctText": "Los tubos de LCR deben marcarse de acuerdo a su secuencia de recolección, y es recomendable que el primer tubo se utilice para el análisis bioquímico y serológico y los tubos siguientes para el análisis microbiológico y celular respectivamente."
     },
     {
       "id": 185,
@@ -2806,14 +2809,14 @@
       "id": 217,
       "question": "Cuando la muestra de líquido pleural llega al laboratorio de hematología, ¿cómo se ha de proceder?",
       "options": {
-        "A": "Medir la concentración de leucocitos y, si es inferior a 2 x 107 leucocitos/L, realizar el recuento diferencial.",
-        "B": "Medir la concentración de leucocitos y, si es",
-        "C": "No procesarlo si hay presencia de hematíes y/o",
+        "A": "Medir la concentración de leucocitos y, si es inferior a 2 x 10⁷ leucocitos/L, realizar el recuento diferencial.",
+        "B": "Medir la concentración de leucocitos y, si es superior a 0,25 x 10⁹ leucocitos/L, realizar el recuento diferencial.",
+        "C": "No procesarlo si hay presencia de hematíes y/o está turbio.",
         "D": "Si existen microcoágulos en la muestra, se puede procesar en los contadores automáticos."
       },
       "page": 22,
       "correctAnswer": "B",
-      "correctText": "Medir la concentración de leucocitos y, si es"
+      "correctText": "Medir la concentración de leucocitos y, si es superior a 0,25 x 10⁹ leucocitos/L, realizar el recuento diferencial."
     },
     {
       "id": 218,
