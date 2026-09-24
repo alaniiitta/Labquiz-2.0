@@ -1,0 +1,1657 @@
+{
+  "1": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la anafase los centrómeros se dividen y las cromátidas hermanas migran a polos opuestos.",
+    "claveMemorizar": "Anafase: se separan las cromátidas."
+  },
+  "2": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El ADN se replica en la fase S (síntesis) de la interfase.",
+    "claveMemorizar": "Replicación: fase S."
+  },
+  "3": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El uracilo es propio del ARN. El ADN tiene adenina, guanina, citosina y timina.",
+    "claveMemorizar": "Uracilo = ARN."
+  },
+  "4": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los intrones son secuencias no codificantes dentro de un gen que se eliminan del ARN durante el splicing. Los exones sí quedan en el ARNm maduro.",
+    "claveMemorizar": "Intrón: no codifica, se elimina."
+  },
+  "5": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PCR replica ADN in vitro con una polimerasa termoestable, sin vectores ni bacterias (a diferencia de la clonación).",
+    "claveMemorizar": "PCR: replicación in vitro sin bacterias."
+  },
+  "6": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la PCR anidada el producto de una primera PCR sirve de molde para una segunda con cebadores internos. Aumenta sensibilidad y especificidad.",
+    "claveMemorizar": "Producto como molde = PCR anidada."
+  },
+  "7": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El síndrome de Klinefelter (47,XXY) causa hipogonadismo y esterilidad por fallo de la espermatogénesis.",
+    "claveMemorizar": "XXY = Klinefelter."
+  },
+  "8": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los espermatozoides son haploides (23 cromosomas).",
+    "claveMemorizar": "Gametos: haploides."
+  },
+  "9": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La intercinesis es el breve periodo entre la meiosis I y la II, sin replicación de ADN.",
+    "claveMemorizar": "Entre meiosis I y II = intercinesis."
+  },
+  "10": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la telofase II las dos células se dividen y quedan cuatro células haploides.",
+    "claveMemorizar": "Telofase II: 4 células."
+  },
+  "11": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cromosomas homólogos llevan los mismos genes (alelos iguales o distintos): uno de origen materno y otro paterno.",
+    "claveMemorizar": "Mismos genes = homólogos."
+  },
+  "12": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Homocigoto: tiene dos alelos iguales para un gen, uno en cada cromosoma homólogo.",
+    "claveMemorizar": "Homocigoto: alelos iguales."
+  },
+  "13": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El Southern blot localiza secuencias concretas en el ADN genómico: electroforesis, transferencia a membrana e hibridación con sonda.",
+    "claveMemorizar": "Southern = ADN."
+  },
+  "14": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ARN mensajero es el intermediario entre el gen (ADN) y la proteína.",
+    "claveMemorizar": "ADN → ARNm → proteína."
+  },
+  "15": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aneuploidía es la ganancia o pérdida de uno o más cromosomas (trisomías, monosomías).",
+    "claveMemorizar": "Cromosoma de más o de menos = aneuploidía."
+  },
+  "16": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El síndrome de Down es la trisomía 21 (el autosoma más pequeño). Puede ser libre, por translocación robertsoniana o en mosaico.",
+    "claveMemorizar": "Down = trisomía 21."
+  },
+  "17": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El cariotipo en sangre usa heparina de litio o sodio: mantiene los linfocitos vivos para cultivarlos. El EDTA los inhibe.",
+    "claveMemorizar": "Cariotipo: heparina."
+  },
+  "18": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El termociclador cambia la temperatura en cada fase de la PCR.",
+    "claveMemorizar": "PCR → termociclador."
+  },
+  "19": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una mutación que afecta a un solo gen es una mutación génica (puntual).",
+    "claveMemorizar": "Un gen = mutación génica."
+  },
+  "20": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar ADN."
+  },
+  "21": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Extracción de ácidos nucleicos: primero se lisa la célula, luego se desproteiniza y después se comprueba la pureza (A260/A280).",
+    "claveMemorizar": "Lisar → desproteinizar → comprobar."
+  },
+  "22": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La astringencia (stringency) es la exigencia de las condiciones de hibridación, que determina la afinidad o especificidad de la sonda por su diana.",
+    "claveMemorizar": "Astringencia: especificidad sonda-diana."
+  },
+  "23": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cebadores son oligonucleótidos que hibridan con el ADN desnaturalizado. Se usan dos (uno por cadena) y en exceso.",
+    "claveMemorizar": "Cebadores: 2, en exceso."
+  },
+  "24": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave, el cromosoma 16 es submetacéntrico. Pertenece al grupo E, que muchos textos describen como metacéntrico o submetacéntrico.",
+    "claveMemorizar": "Cromosoma 16: grupo E."
+  },
+  "25": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La colchicina impide formar el huso y detiene las células en metafase, cuando los cromosomas se ven mejor.",
+    "claveMemorizar": "Colchicina: bloqueo en metafase."
+  },
+  "26": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La solución hipotónica (KCl) hincha las células y dispersa los cromosomas en la extensión.",
+    "claveMemorizar": "Hipotónica: hincha y dispersa."
+  },
+  "27": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la fase S se duplican el ADN y las histonas. La separación de las cromátidas ocurre en la anafase, no en la S.",
+    "claveMemorizar": "Cromátidas se separan en anafase."
+  },
+  "28": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El array CGH trabaja con ADN extraído, no necesita cromosomas metafásicos ni cultivo celular. Tiene mucha más resolución que el cariotipo.",
+    "claveMemorizar": "Array CGH: sin metafases."
+  },
+  "29": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cebadores definen la secuencia y el tamaño del fragmento amplificado y son el punto de inicio de la ADN polimerasa.",
+    "claveMemorizar": "Cebadores: definen y arrancan la PCR."
+  },
+  "30": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una no disyunción deja un gameto con un cromosoma de más o de menos: el cigoto es aneuploide.",
+    "claveMemorizar": "No disyunción → aneuploide."
+  },
+  "31": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Si ambos padres son portadores (Aa) de una enfermedad recesiva, cada hijo tiene un 25% de riesgo, sin importar el sexo.",
+    "claveMemorizar": "Autosómica recesiva: 25% por hijo."
+  },
+  "32": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una deleción es la pérdida de uno o más nucleótidos de una secuencia. La inserción los añade.",
+    "claveMemorizar": "Deleción = pérdida."
+  },
+  "33": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La meiosis I es reduccional: el número de cromosomas pasa de diploide a haploide.",
+    "claveMemorizar": "Meiosis I: reduce a la mitad."
+  },
+  "34": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cariotipo es la constitución cromosómica de un individuo (número y morfología).",
+    "claveMemorizar": "Cariotipo: el conjunto de cromosomas."
+  },
+  "35": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un alelo es cada una de las variantes de secuencia de ADN que puede ocupar un locus.",
+    "claveMemorizar": "Alelo: variante en un locus."
+  },
+  "36": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Extracción directa de ADN: lisis celular, lavado y elución del ADN purificado.",
+    "claveMemorizar": "Lisis → lavado → elución."
+  },
+  "37": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Southern blot separa fragmentos de ADN. Northern es para ARN y Western, para proteínas.",
+    "claveMemorizar": "Southern: ADN."
+  },
+  "38": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La hibridación in situ fluorescente (FISH) marca regiones cromosómicas con sondas fluorescentes. Existen bandas NOR, no «tinción NUR».",
+    "claveMemorizar": "FISH: marcaje con sondas."
+  },
+  "39": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La euploidía es el número de cromosomas múltiplo exacto del haploide: 46,XY es normal. 45,X y 47,XXY son aneuploidías.",
+    "claveMemorizar": "46,XY = euploide."
+  },
+  "40": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los satélites de los acrocéntricos contienen genes ribosomales (NOR): se estudian con tinción de plata (bandas NOR).",
+    "claveMemorizar": "Satélites → bandas NOR."
+  },
+  "41": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Klinefelter es 47,XXY.",
+    "claveMemorizar": "Klinefelter = 47,XXY."
+  },
+  "42": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas C tiñen la heterocromatina constitutiva (centrómeros, Yq, 1q, 9q, 16q).",
+    "claveMemorizar": "Bandas C: centrómeros."
+  },
+  "43": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Cada ciclo de PCR: desnaturalización (~95 °C) → hibridación de cebadores (~55-65 °C) → extensión (72 °C).",
+    "claveMemorizar": "PCR: desnaturalizar, hibridar, extender."
+  },
+  "44": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hibridación se basa en la complementariedad de bases del ADN (A-T, G-C).",
+    "claveMemorizar": "Hibridación: bases complementarias."
+  },
+  "45": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La Taq polimerasa (de Thermus aquaticus, termoestable) incorpora los dNTP en la PCR.",
+    "claveMemorizar": "PCR: Taq polimerasa."
+  },
+  "46": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR genera muchas copias de un segmento de ADN seleccionado (para ARN se necesita RT-PCR).",
+    "claveMemorizar": "PCR: copias de ADN."
+  },
+  "47": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un cambio en la secuencia del ADN es una mutación.",
+    "claveMemorizar": "Cambio en el ADN = mutación."
+  },
+  "48": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El X frágil se debe a la expansión del triplete CGG en el gen FMR1 (>200 repeticiones).",
+    "claveMemorizar": "X frágil: CGG."
+  },
+  "49": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un gameto anómalo por no disyunción da un cigoto aneuploide.",
+    "claveMemorizar": "No disyunción → aneuploidía."
+  },
+  "50": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los telómeros son las estructuras de los extremos de los cromosomas y los protegen.",
+    "claveMemorizar": "Extremo cromosómico = telómero."
+  },
+  "51": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las trisomías en líquido amniótico se estudian por FISH, cariotipo o QF-PCR (rápida).",
+    "claveMemorizar": "Trisomías: FISH, cariotipo, QF-PCR."
+  },
+  "52": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Hemicigosis: solo hay una copia de un gen o segmento en vez de dos (como los genes del X en varones).",
+    "claveMemorizar": "Hemicigoto: una sola copia."
+  },
+  "53": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un isocromosoma pierde un brazo y duplica el otro (p. ej. i(Xq) en el Turner).",
+    "claveMemorizar": "Isocromosoma: dos brazos iguales."
+  },
+  "54": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Klinefelter = 47,XXY.",
+    "claveMemorizar": "Klinefelter: 47,XXY."
+  },
+  "55": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La penetrancia es la probabilidad de que un genotipo manifieste el fenotipo. La expresividad es el grado en que se manifiesta.",
+    "claveMemorizar": "Penetrancia: probabilidad de expresarse."
+  },
+  "56": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR anidada aumenta sensibilidad y especificidad con dos rondas y dos pares de cebadores. Según la clave, tiene bajo índice de contaminación; en la práctica abrir el tubo entre rondas aumenta ese riesgo.",
+    "claveMemorizar": "PCR anidada: 2 rondas, más sensible."
+  },
+  "57": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La heparina inhibe la Taq polimerasa: no sirve para PCR. Para PCR se usa EDTA.",
+    "claveMemorizar": "PCR: nunca heparina."
+  },
+  "58": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Southern: transferencia de ADN separado por electroforesis a una membrana y detección con sonda marcada.",
+    "claveMemorizar": "ADN a membrana = Southern."
+  },
+  "59": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PCR anidada reamplifica un fragmento obtenido en una PCR previa, con cebadores internos.",
+    "claveMemorizar": "Anidada: reamplificar."
+  },
+  "60": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR múltiple amplifica varios fragmentos del mismo ADN en un mismo tubo con varios pares de cebadores.",
+    "claveMemorizar": "Multiplex: varios cebadores, un tubo."
+  },
+  "61": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La transcriptasa inversa sintetiza ADN (ADNc) a partir de ARN.",
+    "claveMemorizar": "Transcriptasa inversa: ARN → ADN."
+  },
+  "62": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los fragmentos de ADN se separan por electroforesis (agarosa, poliacrilamida, capilar).",
+    "claveMemorizar": "Separar ADN → electroforesis."
+  },
+  "63": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cebadores definen la secuencia y el tamaño amplificados y sirven de inicio a la polimerasa.",
+    "claveMemorizar": "Cebadores: todo lo anterior."
+  },
+  "64": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el ADN la citosina se aparea con la guanina (y A con T). El azúcar es desoxirribosa, no hay uracilo y es una molécula estable.",
+    "claveMemorizar": "C-G y A-T."
+  },
+  "65": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un nucleótido de ADN está formado por grupo fosfato, desoxirribosa y base nitrogenada.",
+    "claveMemorizar": "Nucleótido: fosfato + azúcar + base."
+  },
+  "66": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Cuando el ribosoma lee el ARNm y sintetiza la proteína se produce la traducción.",
+    "claveMemorizar": "Ribosoma lee ARNm = traducción."
+  },
+  "67": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El locus es la posición específica de un gen en un cromosoma.",
+    "claveMemorizar": "Posición del gen = locus."
+  },
+  "68": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La unión de gametos con alelos idénticos da genotipos homocigotos.",
+    "claveMemorizar": "Alelos iguales = homocigoto."
+  },
+  "69": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las alteraciones del número de cromosomas son mutaciones genómicas. Las cromosómicas son estructurales.",
+    "claveMemorizar": "Número de cromosomas = genómica."
+  },
+  "70": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La translocación es el paso de un segmento cromosómico a otro lugar del genoma.",
+    "claveMemorizar": "Segmento que cambia de sitio = translocación."
+  },
+  "71": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cariotipo es la ordenación de los cromosomas en metafase, cuando están más condensados.",
+    "claveMemorizar": "Cariotipo: metafase."
+  },
+  "72": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Primera ley de Mendel (uniformidad): la F1 del cruce de dos razas puras es uniforme.",
+    "claveMemorizar": "1.ª ley: uniformidad de la F1."
+  },
+  "73": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La trisomía 18 es el síndrome de Edwards. La 13 es Patau y la 21, Down.",
+    "claveMemorizar": "Trisomía 18 = Edwards."
+  },
+  "74": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El bromuro de etidio se intercala en el ADN y fluoresce con luz UV en geles de agarosa (hoy también SYBR Safe, GelRed).",
+    "claveMemorizar": "Ver ADN en gel: bromuro de etidio."
+  },
+  "75": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar."
+  },
+  "76": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las pirimidinas son citosina, timina y uracilo. Adenina y guanina son purinas.",
+    "claveMemorizar": "Pirimidinas: C, T, U."
+  },
+  "77": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El X frágil es una mutación dinámica por expansión del triplete CGG.",
+    "claveMemorizar": "X frágil: expansión CGG."
+  },
+  "78": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El objetivo de la PCR es amplificar una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar ADN."
+  },
+  "79": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "47,XXY = síndrome de Klinefelter.",
+    "claveMemorizar": "47,XXY = Klinefelter."
+  },
+  "80": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la extracción fenol-cloroformo, las proteínas pasan a la fase fenólica y los ácidos nucleicos quedan en la acuosa: no se disuelven en fenol. Luego se precipitan con etanol.",
+    "claveMemorizar": "Fenol-cloroformo: ADN en fase acuosa."
+  },
+  "81": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar ADN."
+  },
+  "82": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la metafase los cromosomas están más condensados y alineados: se identifican y diferencian con tinción.",
+    "claveMemorizar": "Identificar cromosomas: metafase."
+  },
+  "83": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Southern blot identifica secuencias específicas de ADN.",
+    "claveMemorizar": "Southern = ADN."
+  },
+  "84": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las purinas son adenina y guanina. Citosina y timina son pirimidinas.",
+    "claveMemorizar": "Purinas: A y G."
+  },
+  "85": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los exones son las secuencias codificantes que quedan en el ARNm maduro.",
+    "claveMemorizar": "Exones codifican."
+  },
+  "86": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La QF-PCR (PCR cuantitativa fluorescente de microsatélites) diagnostica aneuploidías en 24-48 h. Las trisomías vienen de no disyunciones. La cifra del 75% de muertes embrionarias es la afirmación falsa (se atribuye ~50%).",
+    "claveMemorizar": "QF-PCR: aneuploidías rápidas."
+  },
+  "87": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la desnaturalización el calor (~94-97 °C) rompe los puentes de hidrógeno y separa las hebras. La unión de cebadores es la hibridación.",
+    "claveMemorizar": "Desnaturalización: ~95 °C, separa hebras."
+  },
+  "88": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar ADN."
+  },
+  "89": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fitohemaglutinina es mitógena: estimula la división de los linfocitos T en cultivo para obtener metafases.",
+    "claveMemorizar": "Mitógeno: fitohemaglutinina."
+  },
+  "90": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cromosomas se identifican individualmente en metafase.",
+    "claveMemorizar": "Cromosomas: metafase."
+  },
+  "91": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La FISH detecta translocaciones, aneuploidías y poliploidías, además de microdeleciones.",
+    "claveMemorizar": "FISH: translocaciones, aneuploidías…"
+  },
+  "92": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En PCR en tiempo real la amplificación y la detección son simultáneas, se usan fluorocromos que se unen al ADN bicatenario (SYBR Green) y el producto específico da un pico en la curva de fusión. La clave solo da por buena la C.",
+    "claveMemorizar": "qPCR: curva de fusión con pico característico."
+  },
+  "93": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Si los dos alelos de un locus son idénticos, el individuo es homocigoto.",
+    "claveMemorizar": "Alelos idénticos = homocigoto."
+  },
+  "94": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cromosomas son visibles al microscopio durante la mitosis y la meiosis, no solo en la meiosis.",
+    "claveMemorizar": "Cromosomas visibles en mitosis y meiosis."
+  },
+  "95": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El síndrome del maullido de gato (cri du chat) es una deleción de 5p: alteración estructural, no numérica.",
+    "claveMemorizar": "Maullido de gato = deleción 5p."
+  },
+  "96": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El síndrome de Turner (45,X) es una monosomía (2n−1): fenotipo femenino, talla baja y disgenesia gonadal.",
+    "claveMemorizar": "Turner = 45,X (2n−1)."
+  },
+  "97": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La desnaturalización separa la doble cadena de ADN.",
+    "claveMemorizar": "Desnaturalizar = separar hebras."
+  },
+  "98": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La hibridación se controla con la temperatura, la concentración de formamida y la fuerza iónica (astringencia).",
+    "claveMemorizar": "Hibridación: temperatura, formamida, sales."
+  },
+  "99": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Northern blot detecta ARN (mensajero) y su tamaño.",
+    "claveMemorizar": "Northern = ARN."
+  },
+  "100": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar ADN."
+  },
+  "101": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mitosis separa los cromosomas en dos juegos idénticos.",
+    "claveMemorizar": "Dos células iguales = mitosis."
+  },
+  "102": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las bandas G se obtienen con tratamiento proteolítico (tripsina) y tinción de Giemsa.",
+    "claveMemorizar": "Bandas G: tripsina + Giemsa."
+  },
+  "103": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas Q usan quinacrina (fluorescente).",
+    "claveMemorizar": "Quinacrina = bandas Q."
+  },
+  "104": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cariotipo fetal es diagnóstico prenatal: se hace en líquido amniótico o vellosidad corial, sobre todo si hay anomalías ecográficas.",
+    "claveMemorizar": "Cariotipo fetal: amniocentesis."
+  },
+  "105": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La colchicina destruye los microtúbulos del huso y detiene la mitosis en metafase.",
+    "claveMemorizar": "Colchicina: detiene en metafase."
+  },
+  "106": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El índice centromérico es la longitud del brazo corto dividida entre la longitud total. Clasifica los cromosomas en metacéntricos, submetacéntricos y acrocéntricos.",
+    "claveMemorizar": "Índice centromérico: p / total."
+  },
+  "107": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ADN se replica en la fase S.",
+    "claveMemorizar": "Replicación: S."
+  },
+  "108": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La deleción es la pérdida de un fragmento cromosómico.",
+    "claveMemorizar": "Pérdida de fragmento = deleción."
+  },
+  "109": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La PCR se realiza en un termociclador.",
+    "claveMemorizar": "PCR → termociclador."
+  },
+  "110": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El consejo genético se ofrece antes, después o sin prueba genética. No tiene sentido solo antes.",
+    "claveMemorizar": "Consejo genético: antes y después."
+  },
+  "111": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La hibridación se basa en la complementariedad de bases del ADN (A-T, G-C).",
+    "claveMemorizar": "Hibridación: bases complementarias."
+  },
+  "112": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La translocación intercambia segmentos entre cromosomas no homólogos.",
+    "claveMemorizar": "Intercambio entre no homólogos = translocación."
+  },
+  "113": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las bandas G se obtienen con tratamiento proteolítico (tripsina) y tinción de Giemsa.",
+    "claveMemorizar": "Bandas G: tripsina + Giemsa."
+  },
+  "114": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La mitosis separa los cromosomas en dos juegos idénticos.",
+    "claveMemorizar": "Dos células iguales = mitosis."
+  },
+  "115": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Western blot (inmunoblot) separa proteínas por peso molecular en electroforesis, las transfiere y las detecta con anticuerpos.",
+    "claveMemorizar": "Proteínas por peso + anticuerpo = Western."
+  },
+  "116": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un microarray es un ensayo de hibridación sobre soporte sólido (chip) con miles de sondas.",
+    "claveMemorizar": "Microarray: hibridación en chip."
+  },
+  "117": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un cambio en el número de copias de un cromosoma (trisomía, monosomía) es una aneuploidía.",
+    "claveMemorizar": "Aneuploidía: cromosoma de más o de menos."
+  },
+  "118": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Según la clave, la PCR no se usa para detectar alteraciones cromosómicas (para eso está la citogenética), aunque la QF-PCR sí detecta aneuploidías. Sí sirve para mutaciones, oncogenes y patógenos.",
+    "claveMemorizar": "PCR: mutaciones, oncogenes, patógenos."
+  },
+  "119": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La FISH es una técnica citogenética de hibridación con sondas que detecta anomalías cromosómicas. La clave marca como incorrecta que detecte variaciones en el número de copias de genes.",
+    "claveMemorizar": "FISH: anomalías cromosómicas con sondas."
+  },
+  "120": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La timina no forma parte del ARN: en él la sustituye el uracilo.",
+    "claveMemorizar": "ARN: sin timina."
+  },
+  "121": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La FISH detecta alteraciones del ADN (cromosómicas) con sondas fluorescentes.",
+    "claveMemorizar": "FISH: sondas fluorescentes sobre ADN."
+  },
+  "122": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Western blot detecta proteínas.",
+    "claveMemorizar": "Western = proteínas."
+  },
+  "123": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La trisomía 18 causa el síndrome de Edwards.",
+    "claveMemorizar": "Trisomía 18 = Edwards."
+  },
+  "124": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Si la mutación no viene de la madre, lo más probable es que venga del padre. Hay que estudiarlo antes que a los hermanos.",
+    "claveMemorizar": "Madre negativa → estudiar al padre."
+  },
+  "125": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El aCGH se basa en la hibridación competitiva de ADN del paciente y ADN control, marcados con distintos fluorocromos y en cantidades equimolares. Tiene mucha más resolución que el cariotipo.",
+    "claveMemorizar": "aCGH: hibridación competitiva paciente/control."
+  },
+  "126": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tripsina rompe las uniones celulares y despega las células al hacer el subcultivo.",
+    "claveMemorizar": "Subcultivo → tripsina."
+  },
+  "127": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El asesoramiento genético incluye anamnesis y árbol de 3 generaciones, conocer los modificadores de la expresión y una estrategia de confirmación molecular.",
+    "claveMemorizar": "Asesoramiento: historia, árbol, estrategia."
+  },
+  "128": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La MLPA detecta deleciones y duplicaciones (número de copias) y metilación o imprinting. No detecta reordenamientos equilibrados.",
+    "claveMemorizar": "MLPA: no ve translocaciones equilibradas."
+  },
+  "129": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Isocromosoma: un brazo duplicado y el otro perdido.",
+    "claveMemorizar": "Isocromosoma."
+  },
+  "130": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ribosa es una pentosa (5 carbonos). Glucosa y galactosa son hexosas.",
+    "claveMemorizar": "Ribosa = pentosa."
+  },
+  "131": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las mutaciones pueden ser génicas (un gen), cromosómicas (estructura) o genómicas (número).",
+    "claveMemorizar": "Mutaciones: génicas, cromosómicas, genómicas."
+  },
+  "132": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR se usa para obtener copias de un fragmento de ADN.",
+    "claveMemorizar": "PCR: copias de ADN."
+  },
+  "133": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El aumento o la disminución de cromosomas individuales es una aneuploidía.",
+    "claveMemorizar": "Aneuploidía."
+  },
+  "134": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Turner es 45,X.",
+    "claveMemorizar": "Turner = 45,X."
+  },
+  "135": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Las bandas Q (quinacrina) hacen muy fluorescente el Yq distal: identifican el cromosoma Y.",
+    "claveMemorizar": "Cromosoma Y → bandas Q."
+  },
+  "136": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cloruro de magnesio (Mg²⁺) es cofactor esencial de la Taq polimerasa. Su concentración se ajusta para optimizar la PCR.",
+    "claveMemorizar": "PCR: optimizar el MgCl₂."
+  },
+  "137": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los exones codifican las proteínas.",
+    "claveMemorizar": "Exones."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Extensiones de metafases: sacrificio (colchicina y recogida) → choque hipotónico → fijación (Carnoy) → extensión.",
+    "claveMemorizar": "Sacrificio, hipotónico, fijación, extensión."
+  },
+  "139": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En los microarrays la sonda está fija al soporte y se marca la muestra. En el Southern (ADN) se fija la muestra y se marca la sonda.",
+    "claveMemorizar": "Microarray: sonda en el soporte."
+  },
+  "140": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los ácidos nucleicos absorben al máximo a 260 nm. Las proteínas, a 280 nm.",
+    "claveMemorizar": "ADN: 260 nm."
+  },
+  "141": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para cultivar linfocitos se usa sangre heparinizada.",
+    "claveMemorizar": "Cultivo de linfocitos: heparina."
+  },
+  "142": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un cromosoma 21 extra es el síndrome de Down.",
+    "claveMemorizar": "+21 = Down."
+  },
+  "143": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "46,XX es el cariotipo femenino normal.",
+    "claveMemorizar": "46,XX = mujer normal."
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PCR se hace en un termociclador.",
+    "claveMemorizar": "Termociclador."
+  },
+  "145": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La PCR necesita cebadores, Taq polimerasa, dNTP, tampón (con Mg²⁺) y ciclos de temperatura. Amplifica ADN.",
+    "claveMemorizar": "PCR: cebadores, Taq, dNTP, tampón."
+  },
+  "146": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Para extraer ADN se usa sangre con EDTA: no inhibe la PCR, a diferencia de la heparina.",
+    "claveMemorizar": "ADN → EDTA."
+  },
+  "147": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cariotipo se estudia en metafase.",
+    "claveMemorizar": "Cariotipo: metafase."
+  },
+  "148": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La FISH mapea el material genético de las células con sondas fluorescentes.",
+    "claveMemorizar": "FISH = sondas fluorescentes."
+  },
+  "149": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Western blot se usa para confirmar el VIH.",
+    "claveMemorizar": "Western blot → VIH."
+  },
+  "150": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La profundidad de cobertura es el número de veces que cada base aparece en las lecturas (reads) de secuenciación.",
+    "claveMemorizar": "Cobertura: veces que se lee cada base."
+  },
+  "151": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La enfermedad de Huntington se debe a la expansión del triplete CAG. La anemia falciforme es una mutación puntual.",
+    "claveMemorizar": "Huntington: expansión CAG."
+  },
+  "152": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los ácidos nucleicos son cadenas de nucleótidos unidos por enlaces covalentes fosfodiéster.",
+    "claveMemorizar": "Nucleótidos unidos por enlace fosfodiéster."
+  },
+  "153": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ARN suele ser monocatenario, no de doble cadena. Tiene ribosa y uracilo y es poco estable.",
+    "claveMemorizar": "ARN: monocatenario."
+  },
+  "154": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ARNm se forma en el núcleo y se traduce en el citoplasma (ribosomas).",
+    "claveMemorizar": "ARNm: actúa en el citoplasma."
+  },
+  "155": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ADN y el ARN son ambos ácidos nucleicos. Por eso C es falsa. (A también lo es: el ADN es doble y el ARN simple.)",
+    "claveMemorizar": "ADN y ARN: ácidos nucleicos."
+  },
+  "156": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Secuenciar el genoma da la secuencia de nucleótidos.",
+    "claveMemorizar": "Secuencia = nucleótidos."
+  },
+  "157": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Uracilo (ARN) y timina (ADN) no aparecen juntos en el mismo ácido nucleico.",
+    "claveMemorizar": "U en ARN, T en ADN."
+  },
+  "158": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La enfermedad de Wilson se debe a mutaciones en ATP7B (acumulación de cobre), no a expansión de tripletes.",
+    "claveMemorizar": "Wilson: no es por tripletes."
+  },
+  "159": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas C tiñen la heterocromatina constitutiva.",
+    "claveMemorizar": "Bandas C: heterocromatina."
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El análisis cromosómico se hace en metafase.",
+    "claveMemorizar": "Metafase."
+  },
+  "161": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La trisomía 18 es el síndrome de Edwards.",
+    "claveMemorizar": "Edwards = trisomía 18."
+  },
+  "162": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una mutación puede cambiar la proteína y causar enfermedad, aunque también puede ser silenciosa.",
+    "claveMemorizar": "Mutación: puede cambiar la proteína."
+  },
+  "163": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los arrays SNP/CNV detectan deleciones, duplicaciones, pérdida de heterocigosidad y disomía uniparental. No ven reordenamientos equilibrados.",
+    "claveMemorizar": "Arrays: no ven lo equilibrado."
+  },
+  "164": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La fibrosis quística (gen CFTR) es autosómica recesiva.",
+    "claveMemorizar": "Fibrosis quística: AR."
+  },
+  "165": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El Southern blot permite localizar un gen o secuencia en fragmentos de ADN con una sonda.",
+    "claveMemorizar": "Southern: localizar secuencias de ADN."
+  },
+  "166": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Muchas proteínas mitocondriales las codifican genes nucleares: las enfermedades mitocondriales pueden heredarse de forma autosómica o ligada al X, además de por vía materna (ADNmt).",
+    "claveMemorizar": "Mitocondriales: también herencia nuclear (incluso ligada al X)."
+  },
+  "167": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el árbol genealógico el varón es un cuadrado y la mujer, un círculo.",
+    "claveMemorizar": "Cuadrado = varón."
+  },
+  "168": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calidad de la NGS depende de la muestra (conservación, pureza) y de la cobertura. El tiempo que se tarde no la condiciona.",
+    "claveMemorizar": "NGS: muestra y cobertura."
+  },
+  "169": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Northern blot detecta ARNm, así que sirve para estudiar la expresión génica.",
+    "claveMemorizar": "Northern → expresión génica."
+  },
+  "170": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La mayoría de las mutaciones son recesivas y deletéreas, pero son la base de la variabilidad y la evolución.",
+    "claveMemorizar": "Mutaciones: recesivas, deletéreas, motor evolutivo."
+  },
+  "171": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En la fase S se sintetiza el ADN.",
+    "claveMemorizar": "S = síntesis de ADN."
+  },
+  "172": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la meiosis una célula diploide da cuatro células haploides.",
+    "claveMemorizar": "Meiosis: 1 diploide → 4 haploides."
+  },
+  "173": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El bandeo G (Giemsa) es el más usado en citogenética.",
+    "claveMemorizar": "Bandeo habitual: G."
+  },
+  "174": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "PCR: desnaturalización → anillamiento → extensión.",
+    "claveMemorizar": "Desnaturalizar, anillar, extender."
+  },
+  "175": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Todas las NGS comparten la secuenciación masiva en paralelo de muchos fragmentos en poco tiempo. Química y amplificación varían según la plataforma.",
+    "claveMemorizar": "NGS: secuenciación masiva en paralelo."
+  },
+  "176": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Ct (ciclo umbral) es el ciclo en que la fluorescencia supera el umbral. A menor Ct, más cantidad inicial de diana.",
+    "claveMemorizar": "Ct bajo = mucha diana."
+  },
+  "177": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Ganar o perder cromosomas sueltos (no dotaciones completas) es aneuploidía.",
+    "claveMemorizar": "Aneuploidía."
+  },
+  "178": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los cromosomas acrocéntricos humanos son 13, 14, 15, 21, 22 (e Y).",
+    "claveMemorizar": "Acrocéntricos: 13-15, 21, 22."
+  },
+  "179": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El Southern blot transfiere los fragmentos de ADN (cortados con enzimas de restricción) desde el gel a una membrana. Northern (ARN) y Western (proteínas) son distintos, y la PCR ha desplazado a estos métodos.",
+    "claveMemorizar": "Southern: ADN restringido a membrana."
+  },
+  "180": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Sí se puede extraer ADN de saliva (células epiteliales) y de pelo con raíz.",
+    "claveMemorizar": "ADN también de saliva y pelo."
+  },
+  "181": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR es muy sensible y requiere personal experto. Puede dar falsos positivos (contaminación, reacciones cruzadas) y falsos negativos (condiciones mal ajustadas).",
+    "claveMemorizar": "PCR: falsos + y −."
+  },
+  "182": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la PCR se amplifica una secuencia de ADN.",
+    "claveMemorizar": "PCR = amplificación."
+  },
+  "183": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Etapas de la PCR: desnaturalización, hibridación y elongación.",
+    "claveMemorizar": "Desnaturalizar, hibridar, elongar."
+  },
+  "184": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un codón codifica un solo aminoácido (código no ambiguo). Un aminoácido sí puede tener varios codones.",
+    "claveMemorizar": "Un codón = un aminoácido."
+  },
+  "185": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La NGS obtiene millones de secuencias en un solo ensayo. Necesita bioinformática compleja y genera variantes de significado incierto.",
+    "claveMemorizar": "NGS: millones de lecturas."
+  },
+  "186": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La RT-PCR amplifica ARN: primero se sintetiza ADNc con transcriptasa inversa y luego se amplifica por PCR.",
+    "claveMemorizar": "RT-PCR: ARN → ADNc → PCR."
+  },
+  "187": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fase M es la más corta del ciclo: la célula, con el material ya duplicado, se divide en dos hijas idénticas.",
+    "claveMemorizar": "Fase M: corta, divide la célula."
+  },
+  "188": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la metafase los cromosomas están totalmente condensados y alineados en el plano ecuatorial.",
+    "claveMemorizar": "Metafase: placa ecuatorial."
+  },
+  "189": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Aneuploidía: ganar o perder uno o más cromosomas, no una dotación completa.",
+    "claveMemorizar": "Aneuploidía ≠ poliploidía."
+  },
+  "190": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El bandeo G desnaturaliza proteínas con tripsina y tiñe con Giemsa.",
+    "claveMemorizar": "G = tripsina + Giemsa."
+  },
+  "191": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Alelos idénticos = homocigoto.",
+    "claveMemorizar": "Homocigoto."
+  },
+  "192": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cromosoma 15 es del grupo D (13-15, acrocéntricos grandes). El grupo G son 21, 22 e Y.",
+    "claveMemorizar": "Grupo D: 13, 14, 15."
+  },
+  "193": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas G son las más habituales en clínica.",
+    "claveMemorizar": "Bandas G."
+  },
+  "194": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La secuencia codificante es el exón.",
+    "claveMemorizar": "Exón."
+  },
+  "195": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El aumento o la disminución de cromosomas sueltos es aneuploidía.",
+    "claveMemorizar": "Aneuploidía."
+  },
+  "196": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los didesoxinucleótidos no tienen 3'-OH: al incorporarse, la ADN polimerasa no puede seguir y la cadena se termina.",
+    "claveMemorizar": "ddNTP: terminan la cadena."
+  },
+  "197": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ADN mitocondrial es bicatenario, circular y de herencia materna.",
+    "claveMemorizar": "ADNmt: circular, bicatenario, materno."
+  },
+  "198": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fitohemaglutinina estimula la división de los linfocitos T.",
+    "claveMemorizar": "PHA → linfocitos T."
+  },
+  "199": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En los submetacéntricos el centrómero está desplazado: el brazo p (corto) es menor que el q.",
+    "claveMemorizar": "Submetacéntrico: p < q."
+  },
+  "200": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las bandas G se obtienen con tripsina y Giemsa.",
+    "claveMemorizar": "Bandas G: tripsina + Giemsa."
+  },
+  "201": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La tripsina despega y disocia las células en el subcultivo.",
+    "claveMemorizar": "Subcultivo: tripsina."
+  },
+  "202": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La citogenética usa cromosomas en metafase.",
+    "claveMemorizar": "Metafase."
+  },
+  "203": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La primera etapa de la PCR es la desnaturalización (~94 °C).",
+    "claveMemorizar": "1.º desnaturalización (94 °C)."
+  },
+  "204": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Sanger sintetiza hebras marcadas que difieren en longitud en un nucleótido (terminación con ddNTP).",
+    "claveMemorizar": "Sanger: fragmentos de 1 en 1 nucleótido."
+  },
+  "205": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Hoy existe automatización en cultivo, captura de imágenes y cariotipado por software. No es todo manual.",
+    "claveMemorizar": "Cariotipo: parcialmente automatizado."
+  },
+  "206": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR obtiene muchas réplicas de un segmento de ADN.",
+    "claveMemorizar": "PCR: réplicas de ADN."
+  },
+  "207": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Mg²⁺ es cofactor de la polimerasa. Si se aumenta en exceso, se pierde especificidad (más productos inespecíficos), no se gana.",
+    "claveMemorizar": "Mg²⁺ alto → menos especificidad."
+  },
+  "208": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para la PCR hace falta un termociclador.",
+    "claveMemorizar": "PCR → termociclador."
+  },
+  "209": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Las células linfoides crecen en suspensión, sin necesidad de adherirse.",
+    "claveMemorizar": "Linfocitos: cultivo en suspensión."
+  },
+  "210": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un gen es la unidad funcional de herencia: la secuencia de ADN, con regiones reguladoras, necesaria para un producto funcional. No es «un cromosoma codificante».",
+    "claveMemorizar": "Gen ≠ cromosoma."
+  },
+  "211": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El uracilo es propio del ARN. El ADN tiene adenina, guanina, citosina y timina.",
+    "claveMemorizar": "Uracilo = ARN."
+  },
+  "212": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Northern detecta ARN.",
+    "claveMemorizar": "Northern = ARN."
+  },
+  "213": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El ADN se extrae por salting-out, fenol-cloroformo o columnas de sílice. El acético-metanol es el fijador de citogenética (Carnoy).",
+    "claveMemorizar": "Acético-metanol: fijador, no extracción."
+  },
+  "214": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR necesita polimerasa, cebadores, dNTP, tampón y MgCl₂. El cloruro de zinc no.",
+    "claveMemorizar": "PCR: MgCl₂, no ZnCl₂."
+  },
+  "215": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La ADN polimerasa de la PCR (Taq) es termoestable: resiste los ciclos de 94 °C.",
+    "claveMemorizar": "Taq: termoestable."
+  },
+  "216": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Northern, microarrays y FISH son técnicas de hibridación. La «hibridación picnométrica» no existe (el picnómetro mide densidades).",
+    "claveMemorizar": "Picnometría ≠ hibridación."
+  },
+  "217": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La morfología cromosómica se estudia en metafase.",
+    "claveMemorizar": "Metafase."
+  },
+  "218": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las alteraciones cromosómicas son numéricas o estructurales. ISCN es la nomenclatura.",
+    "claveMemorizar": "Numéricas y estructurales."
+  },
+  "219": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Para cultivo citogenético sirven líquido amniótico, vellosidad corial y sangre periférica (y médula, tejidos).",
+    "claveMemorizar": "Citogenética: amniótico, corion, sangre."
+  },
+  "220": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR es un método de amplificación de ácidos nucleicos, muy sensible y específico.",
+    "claveMemorizar": "PCR: amplificación."
+  },
+  "221": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El código es degenerado: un aminoácido puede estar codificado por varios codones (61 codones para 20 aminoácidos).",
+    "claveMemorizar": "Degenerado: varios codones por aminoácido."
+  },
+  "222": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Daltonismo y hemofilia A son recesivas ligadas al X. La fibrosis quística es autosómica recesiva.",
+    "claveMemorizar": "Ligadas al X: daltonismo, hemofilia."
+  },
+  "223": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Con dos portadores de una enfermedad autosómica recesiva, cada hijo (o hija) tiene un 25% de riesgo.",
+    "claveMemorizar": "AR: 25%."
+  },
+  "224": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La FISH también se aplica a núcleos en interfase y a tejidos, no solo a cromosomas metafásicos.",
+    "claveMemorizar": "FISH: también en interfase."
+  },
+  "225": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El uracilo no está en el ADN.",
+    "claveMemorizar": "Uracilo: solo ARN."
+  },
+  "226": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El huso mitótico se forma en la profase.",
+    "claveMemorizar": "Huso: profase."
+  },
+  "227": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Aneuploidías y poliploidías son alteraciones numéricas. Translocaciones, deleciones e inversiones son estructurales.",
+    "claveMemorizar": "Numéricas: aneuploidía, poliploidía."
+  },
+  "228": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En biología molecular se necesitan controles positivos y negativos en cada técnica y zonas separadas (pre y post-PCR). Hay que cambiar de guantes a menudo.",
+    "claveMemorizar": "Biología molecular: controles + zonas separadas."
+  },
+  "229": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ADN se extrae sobre todo de sangre total con EDTA.",
+    "claveMemorizar": "ADN: sangre EDTA."
+  },
+  "230": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El Southern detecta ADN, no ARN. Tras la electroforesis se desnaturaliza con base fuerte y se transfiere a membrana.",
+    "claveMemorizar": "Southern: ADN."
+  },
+  "231": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La ADN ligasa une el extremo 3' de un fragmento con el 5' de otro (enlace fosfodiéster).",
+    "claveMemorizar": "Unir fragmentos = ligasa."
+  },
+  "232": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El ADN ramificado (bDNA) amplifica la señal, no la diana. PCR y desplazamiento de hebra amplifican la diana.",
+    "claveMemorizar": "bDNA: amplifica la señal."
+  },
+  "233": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La temperatura de incubación influye en el crecimiento y también en el pH del medio (equilibrio CO₂/bicarbonato).",
+    "claveMemorizar": "Temperatura afecta también al pH."
+  },
+  "234": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En la NGS se fragmenta el ADN y se le añaden adaptadores, sin pasarlo a ARN.",
+    "claveMemorizar": "NGS: ADN + adaptadores."
+  },
+  "235": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La PCR requiere MgCl₂ como cofactor de la polimerasa.",
+    "claveMemorizar": "PCR: MgCl₂."
+  },
+  "236": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La integridad del ADN genómico se comprueba en gel de agarosa de baja concentración (~0,8%): una banda nítida de alto peso sin barrido.",
+    "claveMemorizar": "Integridad del ADN: agarosa 0,8%."
+  },
+  "237": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El ADN tiene adenina, guanina, citosina y timina.",
+    "claveMemorizar": "ADN: A, G, C, T."
+  },
+  "238": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ARN se sigue extrayendo con fenol-cloroformo (TRIzol, guanidinio-fenol-cloroformo).",
+    "claveMemorizar": "ARN: fenol-cloroformo."
+  },
+  "239": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Uno o más cromosomas de más en un par es aneuploidía (trisomía).",
+    "claveMemorizar": "Cromosoma de más = aneuploidía."
+  },
+  "240": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La morfología de los cromosomas se estudia con microscopio óptico de campo claro (y fluorescencia), no con microscopía electrónica de contraste de fases.",
+    "claveMemorizar": "Cromosomas: microscopio óptico."
+  },
+  "241": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El aumento o la disminución de cromosomas sueltos es aneuploidía.",
+    "claveMemorizar": "Aneuploidía."
+  },
+  "242": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar ADN."
+  },
+  "243": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Maxam-Gilbert se basa en la rotura química (no física) del ADN en bases específicas. Sanger usa síntesis enzimática y hoy está automatizado con fluorescencia.",
+    "claveMemorizar": "Maxam-Gilbert: rotura química."
+  },
+  "244": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR se hace en un termociclador.",
+    "claveMemorizar": "Termociclador."
+  },
+  "245": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas C tiñen la heterocromatina constitutiva.",
+    "claveMemorizar": "Bandas C."
+  },
+  "246": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La secuencia codificante del ADN se llama exón.",
+    "claveMemorizar": "Exón."
+  },
+  "247": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La uniformidad de la F1 es la primera ley de Mendel.",
+    "claveMemorizar": "1.ª ley: uniformidad."
+  },
+  "248": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR multiplex amplifica varios fragmentos en la misma reacción.",
+    "claveMemorizar": "Multiplex."
+  },
+  "249": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una sonda es una población homogénea de moléculas de ácido nucleico de secuencia conocida y marcada, que hibrida con su diana complementaria.",
+    "claveMemorizar": "Sonda: secuencia conocida y marcada."
+  },
+  "250": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cromosoma 15 es del grupo D (13-15, acrocéntricos grandes). El grupo G son 21, 22 e Y.",
+    "claveMemorizar": "Grupo D: 13, 14, 15."
+  },
+  "251": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas G son las más habituales en clínica.",
+    "claveMemorizar": "Bandas G."
+  },
+  "252": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar."
+  },
+  "253": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una PCR suele constar de 20-40 ciclos. Nunca supera los 100 °C y dura horas, no días.",
+    "claveMemorizar": "PCR: 20-40 ciclos."
+  },
+  "254": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "PCR: desnaturalización → hibridación → extensión.",
+    "claveMemorizar": "Desnaturalizar, hibridar, extender."
+  },
+  "255": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ARN se genera por transcripción del ADN (en el núcleo, en eucariotas).",
+    "claveMemorizar": "ARN ← transcripción del ADN."
+  },
+  "256": {
+    "respuestaCorrecta": "E",
+    "porQueLaCorrecta": "Todos son necesarios: dNTP, MgCl₂, tampón y ADN polimerasa (más cebadores y molde).",
+    "claveMemorizar": "PCR: todos esos reactivos."
+  },
+  "257": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ARN mensajero es el intermediario entre el gen (ADN) y la proteína.",
+    "claveMemorizar": "ADN → ARNm → proteína."
+  },
+  "258": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El síndrome de Edwards es la trisomía del autosoma 18, no una aneuploidía de cromosomas sexuales.",
+    "claveMemorizar": "Edwards: autosoma 18."
+  },
+  "259": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La aneuploidía es la ganancia o pérdida de uno o más cromosomas (trisomías, monosomías).",
+    "claveMemorizar": "Cromosoma de más o de menos = aneuploidía."
+  },
+  "260": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El uracilo es propio del ARN. El ADN tiene adenina, guanina, citosina y timina.",
+    "claveMemorizar": "Uracilo = ARN."
+  },
+  "261": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El ARN mensajero es el intermediario entre el gen (ADN) y la proteína.",
+    "claveMemorizar": "ADN → ARNm → proteína."
+  },
+  "262": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR amplifica una secuencia específica de ADN.",
+    "claveMemorizar": "PCR = amplificar."
+  },
+  "263": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La translocación reubica un fragmento cromosómico en otro lugar del genoma. La pérdida es deleción, la repetición es duplicación y el cambio de orientación, inversión.",
+    "claveMemorizar": "Translocación: el fragmento cambia de sitio."
+  },
+  "264": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Klinefelter = 47,XXY (un X adicional).",
+    "claveMemorizar": "47,XXY."
+  },
+  "265": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La colchicina inhibe el huso mitótico y detiene las células en metafase.",
+    "claveMemorizar": "Colchicina: bloquea el huso."
+  },
+  "266": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La trisomía más frecuente en nacidos vivos es la 21 (síndrome de Down), ~1/700.",
+    "claveMemorizar": "Trisomía más frecuente: 21."
+  },
+  "267": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la nomenclatura ISCN, el varón normal es 46,XY (con coma).",
+    "claveMemorizar": "Varón normal: 46,XY."
+  },
+  "268": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ADN polimerasa es una enzima que sintetiza ADN. Los cebadores son oligonucleótidos.",
+    "claveMemorizar": "ADN polimerasa = enzima."
+  },
+  "269": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cromosoma Filadelfia es un cromosoma 22 acortado por la translocación t(9;22) (BCR-ABL), típica de la leucemia mieloide crónica.",
+    "claveMemorizar": "Filadelfia: der(22), t(9;22)."
+  },
+  "270": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En la desnaturalización se separan las dos hebras del ADN.",
+    "claveMemorizar": "Desnaturalizar: separar hebras."
+  },
+  "271": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El suero no tiene células: no sirve para el cariotipo. Se usa sangre heparinizada, vellosidad corial o médula ósea.",
+    "claveMemorizar": "Cariotipo: nunca suero."
+  },
+  "272": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Una alteración de línea germinal es constitucional: identificada una vez, no hace falta repetir el análisis. Los test también sirven en preimplantación y para detectar portadores.",
+    "claveMemorizar": "Germinal: no se repite."
+  },
+  "273": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La meiosis ocurre en células germinales, no somáticas.",
+    "claveMemorizar": "Meiosis: células germinales."
+  },
+  "274": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El Prader-Willi se debe sobre todo a una deleción paterna de 15q11-q13 (alteración estructural). Klinefelter, Edwards y Patau son numéricas.",
+    "claveMemorizar": "Prader-Willi: deleción 15q."
+  },
+  "275": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "47,XY,+21 es un varón con síndrome de Down.",
+    "claveMemorizar": "+21 = Down."
+  },
+  "276": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los alelos son las distintas variantes de un gen.",
+    "claveMemorizar": "Alelo: variante de un gen."
+  },
+  "277": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El fenotipo es la manifestación observable del genotipo en un ambiente concreto.",
+    "claveMemorizar": "Fenotipo = genotipo + ambiente."
+  },
+  "278": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La transcriptasa inversa sintetiza ADN (ADNc) a partir de ARN.",
+    "claveMemorizar": "Transcriptasa inversa: ARN → ADN."
+  },
+  "279": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El EDTA quela el Mg²⁺ que necesitan las nucleasas: las inhibe y protege el ADN.",
+    "claveMemorizar": "EDTA: inhibe las nucleasas."
+  },
+  "280": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una pareja sana con un hijo con fibrosis quística son portadores. Cada nuevo hijo tiene un 25% de riesgo.",
+    "claveMemorizar": "Portadores AR: 25%."
+  },
+  "281": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La mayoría de los errores innatos del metabolismo (defectos enzimáticos) son autosómicos recesivos.",
+    "claveMemorizar": "Errores innatos: AR."
+  },
+  "282": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La TP-PCR (PCR con cebador en el triplete) detecta expansiones de trinucleótidos grandes (X frágil, Steinert) que la PCR convencional no amplifica.",
+    "claveMemorizar": "Expansión de tripletes → TP-PCR."
+  },
+  "283": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un cociente A260/A280 de 1,3 (lo ideal es ~1,8) indica contaminación por proteínas.",
+    "claveMemorizar": "260/280 bajo = proteínas."
+  },
+  "284": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los cebadores hibridan en el extremo 3' de cada hebra molde, no en el 5'.",
+    "claveMemorizar": "Cebadores: extremo 3'."
+  },
+  "285": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El CGH-array usa ADN extraído: no necesita metafases.",
+    "claveMemorizar": "CGH-array: sin metafases."
+  },
+  "286": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La Tm es la temperatura a la que la mitad de los cebadores están unidos a su diana. Depende de cada cebador y no es la temperatura de desnaturalización.",
+    "claveMemorizar": "Tm: mitad de cebadores unidos."
+  },
+  "287": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CGH-array detecta ganancias y pérdidas, pero no alteraciones balanceadas (translocaciones recíprocas, inversiones).",
+    "claveMemorizar": "CGH-array: no ve lo balanceado."
+  },
+  "288": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CGH-array no detecta triploidías: compara proporciones y todo sale equilibrado. Sí detecta trisomías, monosomías parciales y translocaciones no balanceadas.",
+    "claveMemorizar": "CGH-array: no ve triploidías."
+  },
+  "289": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Con ambos padres portadores de delF508, el riesgo de otro hijo afecto es del 25%.",
+    "claveMemorizar": "25%."
+  },
+  "290": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "45,X es el síndrome de Turner.",
+    "claveMemorizar": "45,X = Turner."
+  },
+  "291": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En las plataformas NGS actuales los nucleótidos se marcan con fluorescencia (en otras se detectan cambios de pH).",
+    "claveMemorizar": "NGS: marcaje fluorescente."
+  },
+  "292": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Sanger-Coulson se basa en la síntesis enzimática de una cadena complementaria con cebador, dNTP y ddNTP terminadores.",
+    "claveMemorizar": "Sanger: síntesis enzimática."
+  },
+  "293": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El MgCl₂ es el cofactor que optimiza la PCR (estabiliza la unión cebador-molde y activa la polimerasa).",
+    "claveMemorizar": "PCR: MgCl₂."
+  },
+  "294": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El laboratorio de PCR necesita al menos sala pre-PCR y post-PCR, con flujo unidireccional de pre a post para evitar contaminar con amplicones.",
+    "claveMemorizar": "Flujo: pre-PCR → post-PCR."
+  },
+  "295": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La PCR en tiempo real puede ser multiplex (varias dianas con fluorocromos distintos) y cuantificar. No todas las dianas se amplifican con igual eficacia.",
+    "claveMemorizar": "qPCR: multiplex y cuantitativa."
+  },
+  "296": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La transcripción tiene tres fases: iniciación, elongación y terminación.",
+    "claveMemorizar": "Transcripción: inicio, elongación, fin."
+  },
+  "297": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La solución de Carnoy (metanol:ácido acético 3:1) fija los cromosomas con varios lavados.",
+    "claveMemorizar": "Carnoy = fijador."
+  },
+  "298": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Según la clave, los fungicidas inhiben el crecimiento celular. Suero, antibióticos (que evitan contaminación) y fitohemaglutinina (mitógeno) lo favorecen.",
+    "claveMemorizar": "Fungicidas: inhiben (clave)."
+  },
+  "299": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Klinefelter = 47,XXY.",
+    "claveMemorizar": "47,XXY."
+  },
+  "300": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Las alteraciones estructurales surgen de roturas cromosómicas mal reparadas. La robertsoniana une acrocéntricos, la recíproca intercambia segmentos y la equilibrada no gana ni pierde material.",
+    "claveMemorizar": "Estructurales: roturas + reunión anómala."
+  },
+  "301": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR multiplex amplifica varios fragmentos en la misma reacción.",
+    "claveMemorizar": "Multiplex."
+  },
+  "302": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fitohemaglutinina (lectina) estimula la proliferación de los linfocitos T.",
+    "claveMemorizar": "PHA → linfocitos T."
+  },
+  "303": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una hebra de ADN tiene un extremo 5'-fosfato y otro 3'-hidroxilo, no al revés.",
+    "claveMemorizar": "Extremos: 5'-P y 3'-OH."
+  },
+  "304": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La unión de los cebadores a sus secuencias complementarias es la hibridación (anillamiento).",
+    "claveMemorizar": "Cebadores se unen = hibridación."
+  },
+  "305": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cromosomas 19 y 20 (grupo F) son metacéntricos pequeños.",
+    "claveMemorizar": "Grupo F (19-20): metacéntricos pequeños."
+  },
+  "306": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "r(22) indica un cromosoma 22 en anillo en una mujer.",
+    "claveMemorizar": "r = anillo."
+  },
+  "307": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un nucleótido tiene base nitrogenada, pentosa y ácido fosfórico.",
+    "claveMemorizar": "Nucleótido: base + pentosa + fosfato."
+  },
+  "308": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El Southern blot usa una sonda de ADN marcada para detectar la secuencia diana.",
+    "claveMemorizar": "Southern: sonda de ADN."
+  },
+  "309": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La RT-PCR convierte ARNm en ADNc con transcriptasa inversa y lo amplifica.",
+    "claveMemorizar": "ARNm → ADN: RT-PCR."
+  },
+  "310": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Ciclo de PCR: desnaturalización → hibridación → elongación.",
+    "claveMemorizar": "Desnaturalizar, hibridar, elongar."
+  },
+  "311": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La PCR es un método genotípico: detecta el material genético.",
+    "claveMemorizar": "PCR: genotípica."
+  },
+  "312": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En técnicas moleculares se amplifica la diana (PCR), la sonda o la señal (bDNA). La sensibilidad a antibióticos no se amplifica.",
+    "claveMemorizar": "Se amplifica diana, sonda o señal."
+  },
+  "313": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Metacéntrico: centrómero en el centro (brazos iguales).",
+    "claveMemorizar": "Metacéntrico: centrómero central."
+  },
+  "314": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La traducción convierte en proteína el mensaje del ARNm en los ribosomas.",
+    "claveMemorizar": "Traducción: ARNm → proteína."
+  },
+  "315": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los cambios en el número de cromosomas son aneuploidías y poliploidías.",
+    "claveMemorizar": "Numéricas: aneuploidía y poliploidía."
+  },
+  "316": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La translocación robertsoniana equilibrada deja 45 cromosomas, pero con el material genético completo. Según la clave, no altera el número normal de cromosomas en sentido funcional.",
+    "claveMemorizar": "Robertsoniana: estructural."
+  },
+  "317": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En la vellosidad corial pueden hacerse cultivos directos: las células se dividen espontáneamente, sin mitógeno. La afirmación B es la incorrecta.",
+    "claveMemorizar": "Vellosidad corial: cultivo directo, sin mitógeno."
+  },
+  "318": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La primera generación del cruce de dos líneas consanguíneas son los híbridos F1.",
+    "claveMemorizar": "F1 de dos líneas puras = híbridos F1."
+  },
+  "319": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas NOR (regiones organizadoras nucleolares, tinción de plata) son un tipo de bandeo cromosómico.",
+    "claveMemorizar": "Bandeo NOR."
+  },
+  "320": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los desoxirribonucleótidos llevan desoxirribosa y forman el ADN, no el ARN.",
+    "claveMemorizar": "Desoxirribonucleótidos → ADN."
+  },
+  "321": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cloruro de sodio no es un componente típico de la PCR (sí el MgCl₂ y a veces KCl en el tampón).",
+    "claveMemorizar": "PCR: MgCl₂, no NaCl."
+  },
+  "322": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El aumento o la disminución de cromosomas sueltos es aneuploidía.",
+    "claveMemorizar": "Aneuploidía."
+  },
+  "323": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Las bandas G son las más habituales en clínica.",
+    "claveMemorizar": "Bandas G."
+  },
+  "324": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La PCR multiplex amplifica varios fragmentos en la misma reacción.",
+    "claveMemorizar": "Multiplex."
+  },
+  "325": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cromosoma 15 es del grupo D.",
+    "claveMemorizar": "Grupo D: 13-15."
+  },
+  "326": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La colchicina inhibe el huso mitótico y detiene las células en metafase.",
+    "claveMemorizar": "Colchicina: bloquea el huso."
+  },
+  "327": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La biopsia corial es la técnica invasiva más precoz (semanas 10-13).",
+    "claveMemorizar": "Diagnóstico prenatal más precoz: biopsia corial."
+  },
+  "328": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La intercinesis es el breve periodo entre la meiosis I y la II, sin replicación de ADN.",
+    "claveMemorizar": "Entre meiosis I y II = intercinesis."
+  },
+  "329": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La fecundación de un óvulo por dos espermatozoides (dispermia) produce triploidía.",
+    "claveMemorizar": "Dos espermatozoides = dispermia."
+  },
+  "330": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La identificación fenotípica usa morfología, fisiología y composición química. Detectar ácidos nucleicos es identificación genotípica.",
+    "claveMemorizar": "Ácidos nucleicos = genotípico."
+  },
+  "331": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los cultivos para cariotipo se incuban a 37 °C.",
+    "claveMemorizar": "Cultivo de cariotipo: 37 °C."
+  }
+}
