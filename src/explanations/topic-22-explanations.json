@@ -1,0 +1,622 @@
+{
+  "1": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La fosfatasa ácida prostática (PAP) es una enzima usada como marcador. El CEA es glucoproteína y calcitonina y gastrina, hormonas.",
+    "claveMemorizar": "Marcador enzimático: PAP."
+  },
+  "2": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los antígenos oncofetales son el CEA y la AFP: normales en tejido fetal y reaparecen en tumores.",
+    "claveMemorizar": "Oncofetales: CEA y AFP."
+  },
+  "3": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La AFP aumenta en el hepatocarcinoma (hepatoma) y en tumores germinales no seminomatosos.",
+    "claveMemorizar": "AFP↑: hepatocarcinoma."
+  },
+  "4": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los oncogenes son genes alterados (a partir de protooncogenes) que codifican proteínas anómalas y promueven la proliferación tumoral.",
+    "claveMemorizar": "Oncogén: gen alterado → proteína anómala."
+  },
+  "5": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La β-HCG es una hormona glucoproteica, no una enzima. PAP y NSE sí son enzimas (la clave incluye también el PHI).",
+    "claveMemorizar": "β-HCG: hormona."
+  },
+  "6": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el cáncer de hígado se usan AFP (hepatocarcinoma primario) y CEA (metástasis hepáticas de adenocarcinomas).",
+    "claveMemorizar": "Hígado: AFP y CEA."
+  },
+  "13": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "AFP y CEA son antígenos oncofetales.",
+    "claveMemorizar": "Oncofetales: AFP y CEA."
+  },
+  "14": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 19.9 aumenta (no disminuye) en hepatopatías, pancreatitis e ictericia obstructiva. Además está presente en tejidos fetales.",
+    "claveMemorizar": "CA 19.9 sube en colestasis y hepatopatía."
+  },
+  "15": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el cáncer de mama se estudian receptores de estrógenos y progesterona (y HER2) para pronóstico y tratamiento. El CA 125 es de ovario.",
+    "claveMemorizar": "Mama: receptores hormonales."
+  },
+  "23": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La ferritina es un marcador asociado (reactante de fase aguda), no producido por el tumor. CEA, CA 19.9 y AFP son derivados del tumor.",
+    "claveMemorizar": "Ferritina: marcador asociado."
+  },
+  "24": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una calcitonina elevada es muy específica del cáncer medular de tiroides (células C).",
+    "claveMemorizar": "Calcitonina → carcinoma medular."
+  },
+  "25": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteína S100 se usa en el seguimiento del melanoma maligno.",
+    "claveMemorizar": "S100 → melanoma."
+  },
+  "26": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "CA 125 y HE4 combinados (índice ROMA) aumentan la sensibilidad para el cáncer de ovario.",
+    "claveMemorizar": "CA 125 + HE4 → ovario."
+  },
+  "27": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 19.9 es útil en el adenocarcinoma de páncreas (y vías biliares).",
+    "claveMemorizar": "CA 19.9 → páncreas."
+  },
+  "34": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el síndrome carcinoide el marcador principal es el ácido 5-hidroxiindolacético (5-HIAA) en orina, metabolito de la serotonina.",
+    "claveMemorizar": "Carcinoide → 5-HIAA en orina."
+  },
+  "35": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En cáncer de pulmón se usan NSE y proGRP (microcítico), SCC (escamoso), CYFRA 21-1 y CEA. La AFP no se usa.",
+    "claveMemorizar": "Pulmón: NSE, proGRP, SCC, CYFRA."
+  },
+  "36": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 19.9 es el marcador de mayor eficacia en el cáncer de páncreas.",
+    "claveMemorizar": "Páncreas → CA 19.9."
+  },
+  "44": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 15.3 es un antígeno mucínico (MUC1). PSA es enzima, CEA glucoproteína oncofetal y β-HCG hormona.",
+    "claveMemorizar": "Mucinas: CA 15.3, CA 125, CA 19.9."
+  },
+  "45": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un marcador aislado tiene valor limitado. Hay que descartar patologías benignas que lo eleven y tener en cuenta las interferencias técnicas.",
+    "claveMemorizar": "Marcadores: interpretar en contexto."
+  },
+  "46": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El marcador de elección del hepatocarcinoma es la AFP.",
+    "claveMemorizar": "Hepatocarcinoma → AFP."
+  },
+  "52": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el cáncer de próstata el cociente PSA libre/total disminuye. En la hiperplasia benigna predomina el PSA libre.",
+    "claveMemorizar": "PSA libre/total bajo → cáncer."
+  },
+  "53": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los marcadores útiles en clínica tienen niveles que evolucionan en paralelo a la enfermedad. Ninguno es totalmente específico ni exclusivo del tumor.",
+    "claveMemorizar": "Buen marcador: sigue la evolución."
+  },
+  "54": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el cáncer gástrico se solicitan CA 19.9, CA 72.4 y CEA. La clave escribe «CEA 19,9» en vez de CA 19.9.",
+    "claveMemorizar": "Gástrico: CA 72.4, CA 19.9, CEA."
+  },
+  "55": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El PSA es el marcador más usado en cáncer de próstata.",
+    "claveMemorizar": "Próstata → PSA."
+  },
+  "63": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El cribado precoz del cáncer de colon se hace con sangre oculta en heces (inmunológica).",
+    "claveMemorizar": "Colon: sangre oculta en heces."
+  },
+  "64": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El HE4 es más específico que el CA 125 en cáncer de ovario porque se eleva menos en patología benigna, como la endometriosis.",
+    "claveMemorizar": "HE4 > CA 125 en especificidad."
+  },
+  "65": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 15.3 se usa en el seguimiento del cáncer de mama.",
+    "claveMemorizar": "CA 15.3 → mama."
+  },
+  "73": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En los tumores germinales no seminomatosos se usan AFP y β-HCG (más LDH).",
+    "claveMemorizar": "Germinal no seminoma: AFP + β-HCG."
+  },
+  "74": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La β2-microglobulina se usa en neoplasias linfoides: mieloma múltiple (pronóstico) y leucemias o linfomas.",
+    "claveMemorizar": "β2-microglobulina: mieloma, linfomas."
+  },
+  "75": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La enolasa neuronal específica (NSE) es un marcador del cáncer de pulmón microcítico (y del neuroblastoma).",
+    "claveMemorizar": "Microcítico → NSE."
+  },
+  "76": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Hay virus carcinogénicos: VPH (cérvix), VHB y VHC (hígado), VEB (linfomas), HTLV-1.",
+    "claveMemorizar": "Hay virus oncogénicos."
+  },
+  "84": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El TPA (antígeno polipeptídico tisular) es una citoqueratina, igual que el CYFRA 21-1.",
+    "claveMemorizar": "Citoqueratinas: TPA, CYFRA 21-1."
+  },
+  "85": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La utilidad más aceptada de los marcadores es el seguimiento: respuesta al tratamiento y detección de recidivas. No sirven para cribado general.",
+    "claveMemorizar": "Marcadores: seguimiento."
+  },
+  "86": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El PSA es el marcador más útil en el seguimiento del cáncer de próstata.",
+    "claveMemorizar": "Próstata → PSA."
+  },
+  "87": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 125 se usa para el seguimiento del cáncer de ovario.",
+    "claveMemorizar": "CA 125 → ovario."
+  },
+  "92": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 125 es un marcador de ovario, no de melanoma (melanoma: S100).",
+    "claveMemorizar": "CA 125 ≠ melanoma."
+  },
+  "93": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 15.3 puede dar falsos positivos en la anemia megaloblástica por déficit de vitamina B12.",
+    "claveMemorizar": "CA 15.3: falso + en déficit de B12."
+  },
+  "94": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El HE4 se usa en cáncer de ovario (y endometrio), no en próstata. La insuficiencia renal lo eleva falsamente.",
+    "claveMemorizar": "HE4: ovario; sube en insuficiencia renal."
+  },
+  "95": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La proteína S-100 es el marcador de elección del melanoma.",
+    "claveMemorizar": "Melanoma → S-100."
+  },
+  "96": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Un marcador tumoral es una sustancia relacionada con la presencia o progresión de una neoplasia. Es útil sobre todo para monitorizar la respuesta; no es la prueba ideal de diagnóstico.",
+    "claveMemorizar": "Marcador: presencia/progresión y monitorización."
+  },
+  "97": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Un PSA total >10 ng/mL da la mayor probabilidad de cáncer. Un % de PSA libre alto (>25%) orienta a benignidad.",
+    "claveMemorizar": "PSA >10 = alta probabilidad."
+  },
+  "98": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para cáncer de hígado: AFP y CEA.",
+    "claveMemorizar": "Hígado: AFP y CEA."
+  },
+  "99": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La aflatoxina (de Aspergillus flavus en alimentos) se asocia al hepatocarcinoma.",
+    "claveMemorizar": "Aflatoxina → hepatocarcinoma."
+  },
+  "100": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El PSA es el marcador del seguimiento del cáncer de próstata.",
+    "claveMemorizar": "PSA."
+  },
+  "101": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 125 se usa en el seguimiento del cáncer de ovario.",
+    "claveMemorizar": "CA 125 → ovario."
+  },
+  "102": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 15.3 se usa en el seguimiento del cáncer de mama (la clave escribe «CEA 15.3»).",
+    "claveMemorizar": "Mama → CA 15.3."
+  },
+  "103": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La NSE está en hematíes y plaquetas: la hemólisis la eleva falsamente. «Indiferencia» debe leerse como interferencia.",
+    "claveMemorizar": "Hemólisis → NSE falsamente alta."
+  },
+  "104": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La proteína S100 se usa en el seguimiento del melanoma maligno.",
+    "claveMemorizar": "S100 → melanoma."
+  },
+  "105": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La calcitonina elevada es muy específica del cáncer medular de tiroides.",
+    "claveMemorizar": "Calcitonina → medular."
+  },
+  "106": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 125 puede estar elevado en endometriosis, menstruación, embarazo o derrames (falsos positivos).",
+    "claveMemorizar": "CA 125: sube en endometriosis."
+  },
+  "107": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un marcador elevado no indica siempre neoplasia: hay patologías benignas que lo elevan. Tampoco uno normal la descarta.",
+    "claveMemorizar": "Marcador alto ≠ cáncer seguro."
+  },
+  "108": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El feocromocitoma es el tumor funcional de la médula suprarrenal (secreta catecolaminas).",
+    "claveMemorizar": "Médula suprarrenal: feocromocitoma."
+  },
+  "109": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El PSA es el marcador más usado en cáncer de próstata.",
+    "claveMemorizar": "Próstata → PSA."
+  },
+  "110": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La AFP está presente y elevada en el carcinoma hepatocelular.",
+    "claveMemorizar": "Hepatocarcinoma: AFP."
+  },
+  "111": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El CA 125 es útil en el diagnóstico y el control del cáncer de ovario.",
+    "claveMemorizar": "Ovario: CA 125."
+  },
+  "112": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El CEA es un marcador inespecífico: se eleva en muchos adenocarcinomas y en situaciones benignas (tabaco, hepatopatía, EII).",
+    "claveMemorizar": "CEA: inespecífico."
+  },
+  "113": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La β-HCG es un antígeno oncoplacentario (normal en placenta). CEA y AFP son oncofetales y el CA 125, mucínico.",
+    "claveMemorizar": "Oncoplacentario: β-HCG."
+  },
+  "114": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "En el cáncer de ovario se usan CA 125 y HE4.",
+    "claveMemorizar": "Ovario: CA 125 + HE4."
+  },
+  "115": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calcitonina se usa si se sospecha cáncer (medular) de tiroides.",
+    "claveMemorizar": "Calcitonina → tiroides medular."
+  },
+  "116": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los marcadores que informan de la evolución o de la respuesta al tratamiento se llaman marcadores de evolución (seguimiento).",
+    "claveMemorizar": "Evolución/respuesta = marcadores de seguimiento."
+  },
+  "117": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cortisol es esteroide, no proteína. CEA, inmunoglobulinas y AFP son proteicos.",
+    "claveMemorizar": "Cortisol: no proteico."
+  },
+  "118": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En cáncer de ovario se usan CA 125 y HE4.",
+    "claveMemorizar": "Ovario: CA 125 y HE4."
+  },
+  "119": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Tras exploraciones o manipulaciones (tacto rectal, biopsia) algunos marcadores como el PSA suben transitoriamente. No se deben medir en ese momento.",
+    "claveMemorizar": "Tras manipulación: esperar para medir."
+  },
+  "120": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el cáncer de próstata se usan PSA y, clásicamente, PAP (fosfatasa ácida prostática).",
+    "claveMemorizar": "Próstata: PSA (y PAP)."
+  },
+  "121": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Que los niveles de un marcador tiendan a bajar sugiere respuesta al tratamiento, no patología neoplásica. La C es incorrecta.",
+    "claveMemorizar": "Marcador que baja = buena respuesta."
+  },
+  "122": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El CA 15.3 normal suele ser <30-35 U/mL.",
+    "claveMemorizar": "CA 15.3: <35 U/mL."
+  },
+  "123": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El cáncer primitivo de hígado (hepatocarcinoma) usa la AFP.",
+    "claveMemorizar": "Hígado primario → AFP."
+  },
+  "124": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "BRCA1 y BRCA2 identifican el cáncer de mama (y ovario) hereditario. Técnicamente son genes supresores, aunque la pregunta los llama oncogenes.",
+    "claveMemorizar": "Mama hereditario: BRCA1/2."
+  },
+  "125": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los marcadores tumorales se miden por inmunoensayo (ELISA, RIA; hoy quimioluminiscencia).",
+    "claveMemorizar": "Marcadores: inmunoensayos."
+  },
+  "126": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Para el cáncer de hígado: AFP y CEA.",
+    "claveMemorizar": "AFP y CEA."
+  },
+  "127": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 125 es una mucina (MUC16).",
+    "claveMemorizar": "CA 125 = mucina."
+  },
+  "128": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El aumento de mitosis es una alteración nuclear de la célula neoplásica. Las demás afectan a la membrana o a los receptores.",
+    "claveMemorizar": "Célula tumoral: más mitosis."
+  },
+  "129": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Una β-HCG positiva en un varón sugiere tumor germinal testicular (coriocarcinoma, no seminomatoso).",
+    "claveMemorizar": "β-HCG + en varón → tumor testicular."
+  },
+  "130": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El CA 125 es marcador de cáncer de ovario.",
+    "claveMemorizar": "CA 125 → ovario."
+  },
+  "131": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El PSA también aumenta en la hiperplasia benigna de próstata, en la prostatitis y tras manipulaciones.",
+    "claveMemorizar": "PSA↑ también en HBP."
+  },
+  "132": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calcitonina se usa en el diagnóstico y seguimiento del cáncer medular de tiroides.",
+    "claveMemorizar": "Medular → calcitonina."
+  },
+  "133": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Ante sospecha de hepatocarcinoma se mide alfafetoproteína.",
+    "claveMemorizar": "Hepatocarcinoma → AFP."
+  },
+  "138": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El CA 125 es el marcador más adecuado para el cáncer de ovario seroso.",
+    "claveMemorizar": "Ovario seroso → CA 125."
+  },
+  "139": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El proPSA ([-2]proPSA) es una isoforma precursora del PSA libre. Se usa en el índice PHI para mejorar la especificidad.",
+    "claveMemorizar": "proPSA: forma de PSA libre (PHI)."
+  },
+  "140": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "Los marcadores ayudan en el estadiaje, en la predicción y el seguimiento de la respuesta y en la detección de recurrencias.",
+    "claveMemorizar": "Estadiaje, respuesta, recurrencia."
+  },
+  "141": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 125 se asocia a tumores de ovario.",
+    "claveMemorizar": "Ovario → CA 125."
+  },
+  "142": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "HER-2/neu es un oncogén que codifica un receptor transmembrana con actividad tirosina quinasa, sobreexpresado en ~20% de los cánceres de mama (diana del trastuzumab).",
+    "claveMemorizar": "HER2: mama, diana de trastuzumab."
+  },
+  "143": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El PSA es el más específico para la próstata: específico de órgano, no de cáncer.",
+    "claveMemorizar": "PSA: específico de próstata."
+  },
+  "144": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Los marcadores no son exclusivos de neoplasias: pueden subir en procesos benignos.",
+    "claveMemorizar": "Marcadores: no exclusivos de cáncer."
+  },
+  "145": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un marcador negativo no excluye la neoplasia: hay tumores no secretores o en fase inicial.",
+    "claveMemorizar": "Marcador normal no descarta."
+  },
+  "146": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "En el seguimiento del cáncer de mama tras tratamiento se usan CA 15.3 y CEA.",
+    "claveMemorizar": "Mama: CA 15.3 + CEA."
+  },
+  "147": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 15.3 se asocia a tumores de mama.",
+    "claveMemorizar": "Mama → CA 15.3."
+  },
+  "148": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El cáncer medular de tiroides se relaciona con la calcitonina.",
+    "claveMemorizar": "Medular → calcitonina."
+  },
+  "149": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El algoritmo ROMA combina CA 125 y HE4 (según estado menopáusico).",
+    "claveMemorizar": "ROMA: CA 125 + HE4."
+  },
+  "150": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Para el cáncer de próstata se usa el PSA.",
+    "claveMemorizar": "Próstata → PSA."
+  },
+  "151": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Un marcador elevado no indica siempre neoplasia: hay patologías benignas que lo elevan. Tampoco uno normal la descarta.",
+    "claveMemorizar": "Marcador alto ≠ cáncer seguro."
+  },
+  "152": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El CEA es el marcador más elevado en el adenocarcinoma colorrectal.",
+    "claveMemorizar": "Colorrectal → CEA."
+  },
+  "155": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CEA es una glucoproteína presente en carcinomas colorrectales y sus metástasis. Debe su nombre al tejido embrionario (intestinal fetal) y es poco específico.",
+    "claveMemorizar": "CEA: colorrectal."
+  },
+  "156": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La AFP la sintetizan el saco vitelino y el hígado fetal, no las suprarrenales. Se usa en cribado prenatal y en hepatocarcinoma.",
+    "claveMemorizar": "AFP: saco vitelino e hígado fetal."
+  },
+  "157": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Ante sospecha de hepatocarcinoma, el marcador de elección es la AFP.",
+    "claveMemorizar": "AFP."
+  },
+  "158": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El marcador de elección en carcinomas ováricos es el CA 125.",
+    "claveMemorizar": "Ovario → CA 125."
+  },
+  "159": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La fosfatasa ácida es más abundante en la próstata.",
+    "claveMemorizar": "Fosfatasa ácida: próstata."
+  },
+  "160": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El PSA es el marcador específico de la próstata.",
+    "claveMemorizar": "PSA."
+  },
+  "161": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "La calcitonina es el marcador del carcinoma medular. La tiroglobulina sirve para el carcinoma diferenciado.",
+    "claveMemorizar": "Medular: calcitonina. Diferenciado: tiroglobulina."
+  },
+  "162": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "En el cáncer medular de tiroides la calcitonina tiene la mayor sensibilidad y especificidad (el CEA la complementa).",
+    "claveMemorizar": "Medular: calcitonina."
+  },
+  "163": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CA 19.9 no está elevado en todos los cánceres de páncreas: los individuos Lewis negativos (~5-10%) no lo producen.",
+    "claveMemorizar": "CA 19.9: no todos lo elevan (Lewis −)."
+  },
+  "166": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La calcitonina es un marcador de alta sensibilidad y especificidad (cáncer medular).",
+    "claveMemorizar": "Calcitonina: muy específica."
+  },
+  "167": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El SCC se usa en carcinomas escamosos (epidermoides): cérvix, pulmón, cabeza y cuello, esófago.",
+    "claveMemorizar": "SCC → carcinomas escamosos."
+  },
+  "168": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "La β-HCG es un antígeno oncoplacentario.",
+    "claveMemorizar": "β-HCG: oncoplacentario."
+  },
+  "169": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "La proteína S-100 se produce en melanomas.",
+    "claveMemorizar": "Melanoma → S-100."
+  },
+  "170": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "En el cáncer de próstata el cociente PSA libre/total disminuye. En la hiperplasia benigna predomina el PSA libre.",
+    "claveMemorizar": "PSA libre/total bajo → cáncer."
+  },
+  "171": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Ante sospecha de tumor carcinoide (neuroendocrino) se solicita cromogranina A (y 5-HIAA).",
+    "claveMemorizar": "Carcinoide → cromogranina A."
+  },
+  "174": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El HE4 es útil sobre todo como marcador de cáncer de ovario.",
+    "claveMemorizar": "HE4 → ovario."
+  },
+  "175": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La β-HCG tiene alta sensibilidad y especificidad en tumores trofoblásticos y germinales.",
+    "claveMemorizar": "β-HCG: muy sensible y específica."
+  },
+  "176": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El índice ROMA usa CA 125 y HE4.",
+    "claveMemorizar": "ROMA: CA 125 + HE4."
+  },
+  "177": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "El ADN tumoral circulante se estudia en plasma (tubos EDTA o específicos). El suero tiene más ADN liberado por los leucocitos al coagular.",
+    "claveMemorizar": "ctDNA → plasma."
+  },
+  "178": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "BRCA1 se estudia en la susceptibilidad al cáncer hereditario de mama (y ovario).",
+    "claveMemorizar": "BRCA1 → mama/ovario."
+  },
+  "179": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CYFRA 21-1 es un fragmento de la citoqueratina 19.",
+    "claveMemorizar": "CYFRA 21-1: citoqueratina."
+  },
+  "180": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La hemólisis eleva sobre todo la NSE, presente en los hematíes.",
+    "claveMemorizar": "Hemólisis → NSE↑."
+  },
+  "181": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Una mujer joven con varios familiares con cáncer de mama y ovario sugiere síndrome de mama-ovario hereditario: se estudia BRCA1 (y BRCA2).",
+    "claveMemorizar": "Mama + ovario familiar → BRCA."
+  },
+  "183": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El CA 19.9 es un antígeno carbohidratado (sialil-Lewis a). AFP, β-HCG y PSA son proteicos.",
+    "claveMemorizar": "CA 19.9: carbohidrato."
+  },
+  "184": {
+    "respuestaCorrecta": "D",
+    "porQueLaCorrecta": "El marcador más usado en el cáncer medular de tiroides es la calcitonina.",
+    "claveMemorizar": "Calcitonina."
+  },
+  "186": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CEA es una glucoproteína oncofetal, no un antígeno mucínico. CA 125, CA 19.9 y MCA sí lo son.",
+    "claveMemorizar": "CEA: no mucínico."
+  },
+  "187": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "El CA 125 no es marcador del neuroblastoma (que usa NSE y catecolaminas). Además el neuroblastoma es del sistema nervioso simpático periférico.",
+    "claveMemorizar": "Neuroblastoma: NSE, no CA 125."
+  },
+  "188": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "El CEA es un marcador tumoral. Antifosfolípidos, cistatina C y mioglobina no lo son.",
+    "claveMemorizar": "CEA = marcador tumoral."
+  },
+  "190": {
+    "respuestaCorrecta": "A",
+    "porQueLaCorrecta": "Los marcadores tumorales son antígenos, hormonas, enzimas u oncofetales. Los electrolitos no.",
+    "claveMemorizar": "Electrolitos ≠ marcadores."
+  },
+  "191": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Un CEA que se normalizó tras la cirugía y luego sube 10 veces sugiere recidiva del tumor.",
+    "claveMemorizar": "CEA que vuelve a subir = recidiva."
+  },
+  "192": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "Los protooncogenes alterados por mutación, amplificación o reordenamiento se convierten en oncogenes.",
+    "claveMemorizar": "Protooncogén alterado = oncogén."
+  },
+  "193": {
+    "respuestaCorrecta": "C",
+    "porQueLaCorrecta": "Según la clave, la tiroglobulina no está aumentada en la nefrosis (se pierden proteínas por orina). Ojo: la pregunta parece confundir tiroglobulina con TBG, que sube en embarazo y hepatitis y baja en el síndrome nefrótico.",
+    "claveMemorizar": "Síndrome nefrótico: pierde proteínas."
+  }
+}

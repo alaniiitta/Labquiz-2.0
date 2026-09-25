@@ -128,25 +128,25 @@
       "id": 24,
       "question": "Concentraciones elevadas de los siguientes marcadores tumorales en suero son de muy elevada especificidad con el tumor asociado:",
       "options": {
-        "A": "C alcitonina y cáncer medular de tiroides.",
-        "B": "Antígeno carcinoembrionario (CEA) y cáncerhepático.",
+        "A": "Calcitonina y cáncer medular de tiroides.",
+        "B": "Antígeno carcinoembrionario (CEA) y cáncer hepático.",
         "C": "Alfafetoproteína (AFP) y carcinoma renal.",
         "D": "Ninguno de los anteriores."
       },
       "correctAnswer": "A",
-      "correctText": "C alcitonina y cáncer medular de tiroides."
+      "correctText": "Calcitonina y cáncer medular de tiroides."
     },
     {
       "id": 25,
-      "question": "La proteína S100 (deriva su nombre por ser soluble en sulfato amónico) y utilizada cómo marcador tumoral, es útil en:",
+      "question": "La proteína S100 (deriva su nombre por ser soluble en sulfato amónico) y utilizada como marcador tumoral, es útil en:",
       "options": {
-        "A": "S eguimiento del tumor de piel melanoma maligno.",
+        "A": "Seguimiento del tumor de piel melanoma maligno.",
         "B": "Tumores de páncreas.",
         "C": "Tumores de hígado.",
         "D": "En ninguno de los tumores anteriores."
       },
       "correctAnswer": "A",
-      "correctText": "S eguimiento del tumor de piel melanoma maligno."
+      "correctText": "Seguimiento del tumor de piel melanoma maligno."
     },
     {
       "id": 26,
@@ -190,11 +190,11 @@
       "options": {
         "A": "Enolasa neuronal específica.",
         "B": "SCC (antígeno asociado al carcinoma de células escamosas).",
-        "C": "Alfafetoproteína .",
+        "C": "Alfafetoproteína.",
         "D": "Precursor del péptido liberador de la gastrina (proGRP)."
       },
       "correctAnswer": "C",
-      "correctText": "Alfafetoproteína ."
+      "correctText": "Alfafetoproteína."
     },
     {
       "id": 36,
@@ -227,10 +227,10 @@
         "A": "El hallazgo de concentraciones elevadas de cualquier marcador, de forma aislada, tiene valor limitado.",
         "B": "Para mejorar la especificidad es necesario descartar las patologías benignas que puedan incrementar el marcador tumoral.",
         "C": "Hay que considerar las posibles interferencias técnicas.",
-        "D": "Todas son correctas ."
+        "D": "Todas son correctas."
       },
       "correctAnswer": "D",
-      "correctText": "Todas son correctas ."
+      "correctText": "Todas son correctas."
     },
     {
       "id": 46,
@@ -250,11 +250,11 @@
       "options": {
         "A": "Densidad de antígeno prostático específico.",
         "B": "Antígeno prostático específico total.",
-        "C": "Fracción de antígeno prostático específico libre/Antígeno prostático especí fico total.",
+        "C": "Fracción de antígeno prostático específico libre/Antígeno prostático específico total.",
         "D": "Todos los anteriores aumentan en el cáncer de próstata."
       },
       "correctAnswer": "C",
-      "correctText": "Fracción de antígeno prostático específico libre/Antígeno prostático especí fico total."
+      "correctText": "Fracción de antígeno prostático específico libre/Antígeno prostático específico total."
     },
     {
       "id": 53,
@@ -282,7 +282,7 @@
     },
     {
       "id": 55,
-      "question": "EI marcador tumoral más utilizado para el diagnóstico de cáncer prostático es:",
+      "question": "El marcador tumoral más utilizado para el diagnóstico de cáncer prostático es:",
       "options": {
         "A": "TPA.",
         "B": "AFP.",
@@ -464,7 +464,7 @@
       "id": 95,
       "question": "De los siguientes, ¿cuál es el marcador tumoral de elección para el melanoma?",
       "options": {
-        "A": "SCC Test temas 22 Marcadores tumorales",
+        "A": "SCC",
         "B": "CEA",
         "C": "HE4",
         "D": "S - 100"
@@ -516,10 +516,10 @@
         "A": "Monóxido de carbono.",
         "B": "Nitritos.",
         "C": "Benzopireno.",
-        "D": "Afla toxina."
+        "D": "Aflatoxina."
       },
       "correctAnswer": "D",
-      "correctText": "Afla toxina."
+      "correctText": "Aflatoxina."
     },
     {
       "id": 100,
@@ -563,11 +563,11 @@
       "options": {
         "A": "CEA (antígeno carcinoembrionario",
         "B": "AFP (alfafetoproteína)",
-        "C": "NSE (enolasa específica neur onal)",
+        "C": "NSE (enolasa específica neuronal)",
         "D": "Ninguno de los anteriores se ve afectado por la hemólisis de la muestra"
       },
       "correctAnswer": "C",
-      "correctText": "NSE (enolasa específica neur onal)"
+      "correctText": "NSE (enolasa específica neuronal)"
     },
     {
       "id": 104,
@@ -588,7 +588,7 @@
         "A": "Calcitonina y cáncer medular de tiroides",
         "B": "CEA y Hepatocarcinoma",
         "C": "AFP y carcinoma renal",
-        "D": "PCA y cáncer de pulmón Test temas 22 Marcadores tumorales"
+        "D": "PCA y cáncer de pulmón"
       },
       "correctAnswer": "A",
       "correctText": "Calcitonina y cáncer medular de tiroides"
@@ -672,10 +672,10 @@
         "A": "Se encuentra niveles séricos elevados únicamente en pacientes con cáncer de mama.",
         "B": "Se encuentra niveles séricos elevados únicamente en pacientes con cáncer de ovario.",
         "C": "Es un marcador muy sensible y específico.",
-        "D": "Es un marcador inespecífic o de tumor."
+        "D": "Es un marcador inespecífico de tumor."
       },
       "correctAnswer": "D",
-      "correctText": "Es un marcador inespecífic o de tumor."
+      "correctText": "Es un marcador inespecífico de tumor."
     },
     {
       "id": 113,
@@ -718,12 +718,12 @@
       "question": "Los marcadores tumorales que nos ofrecen información sobre la evolución de la enfermedad o la respuesta tumoral a un determinado tratamiento se denominan:",
       "options": {
         "A": "Marcadores terapéuticos.",
-        "B": "Marcadores de evolución. Test temas 22 Marcadores tumorales",
+        "B": "Marcadores de evolución.",
         "C": "Marcadores diagnósticos.",
         "D": "Marcadores genómicos."
       },
       "correctAnswer": "B",
-      "correctText": "Marcadores de evolución. Test temas 22 Marcadores tumorales"
+      "correctText": "Marcadores de evolución."
     },
     {
       "id": 117,
@@ -852,7 +852,7 @@
         "A": "Fosfatasa Alcalina.",
         "B": "Ferritina",
         "C": "CA 125.",
-        "D": "S100. Test temas 22 Marcadores tumorales"
+        "D": "S100."
       },
       "correctAnswer": "C",
       "correctText": "CA 125."
@@ -874,12 +874,12 @@
       "question": "Cuando un test rápido inmunocromatográfico cualitativo para la detección de Beta-HCG es positivo en hombres, es indicativo de:",
       "options": {
         "A": "Tumores prostáticos.",
-        "B": "Tumores germinales testiculares .",
+        "B": "Tumores germinales testiculares.",
         "C": "Tumores mamarios masculinos.",
         "D": "Insuficiencia renal aguda."
       },
       "correctAnswer": "B",
-      "correctText": "Tumores germinales testiculares ."
+      "correctText": "Tumores germinales testiculares."
     },
     {
       "id": 130,
@@ -947,7 +947,7 @@
       "options": {
         "A": "Un precursor de PSA unido a antiquimiotripsina.",
         "B": "Una forma de PSA libre.",
-        "C": "Un precursor de PSA unido a alfa-2- macroglobulina. Test temas 22 Marcadores tumorales",
+        "C": "Un precursor de PSA unido a alfa-2- macroglobulina.",
         "D": "Un precursor de PSA unido a albúmina."
       },
       "correctAnswer": "B",
@@ -1068,7 +1068,7 @@
         "A": "CA 125 y HE - 4.",
         "B": "HE-4 y CA 15.3.",
         "C": "CA 15.3 y PSA.",
-        "D": "PSA y CEA. Test temas 22 Marcadores tumorales"
+        "D": "PSA y CEA."
       },
       "correctAnswer": "A",
       "correctText": "CA 125 y HE - 4."
@@ -1173,13 +1173,13 @@
       "id": 160,
       "question": "¿Cuál es el principal marcador tumoral específico de la próstata?",
       "options": {
-        "A": "Cromogranina A. Test temas 22 Marcadores tumorales",
-        "B": "PSA .",
+        "A": "Cromogranina A.",
+        "B": "PSA.",
         "C": "CYFRA 21-1.",
         "D": "S-100."
       },
       "correctAnswer": "B",
-      "correctText": "PSA ."
+      "correctText": "PSA."
     },
     {
       "id": 161,
@@ -1272,7 +1272,7 @@
         "A": "Densidad de antígeno prostático específico.",
         "B": "Antígeno prostático específico total.",
         "C": "Fracción de antígeno prostático específico libre/Antígeno prostático específico total.",
-        "D": "Todos los anteriores aumentan en el cáncer de próstata. Test temas 22 Marcadores tumorales"
+        "D": "Todos los anteriores aumentan en el cáncer de próstata."
       },
       "correctAnswer": "C",
       "correctText": "Fracción de antígeno prostático específico libre/Antígeno prostático específico total."
@@ -1375,7 +1375,7 @@
     },
     {
       "id": 181,
-      "question": "Una mujer de 33 años consulta por un nódulo mamario que se diagnostica de carcinoma ductal. Su madre a los 50 años y su hermana a los 40 han tenido cáncer de mama. Su tía materna a los 45 y su abuela a los 55 han tenido cáncer de ovario. ¿Qué estudio solicitaría?: Test temas 22 Marcadores tumorales",
+      "question": "Una mujer de 33 años consulta por un nódulo mamario que se diagnostica de carcinoma ductal. Su madre a los 50 años y su hermana a los 40 han tenido cáncer de mama. Su tía materna a los 45 y su abuela a los 55 han tenido cáncer de ovario. ¿Qué estudio solicitaría?:",
       "options": {
         "A": "BCRA1.",
         "B": "her2.",
@@ -1471,7 +1471,7 @@
     },
     {
       "id": 192,
-      "question": "Los genes que han sufrido variaciones en la secuencia de nucleótidos por mutación, amplificación o reordenamiento cromosómico se llaman: Test temas 22 Marcadores tumorales",
+      "question": "Los genes que han sufrido variaciones en la secuencia de nucleótidos por mutación, amplificación o reordenamiento cromosómico se llaman:",
       "options": {
         "A": "Protooncogenes.",
         "B": "Oncogenes.",
