@@ -107,7 +107,7 @@
         "A": "Inflamable.",
         "B": "Corrosivo.",
         "C": "Comburente.",
-        "D": "Explosivo. Comentario. Corrosivo sería en función de sus propiedades toxicológicas"
+        "D": "Explosivo."
       },
       "correctAnswer": "B",
       "correctText": "Corrosivo."
@@ -189,7 +189,7 @@
       "question": "Los agentes químicos se clasifican según los efectos sobre la salud en: (Señale la respuesta incorrecta)",
       "options": {
         "A": "Carcinogénicos.",
-        "B": "Mutagénicos. : TEMA 23 Principales riesgos y prevención",
+        "B": "Mutagénicos.",
         "C": "Tóxicos para la reproducción.",
         "D": "Corrosivos."
       },
@@ -310,11 +310,11 @@
       "options": {
         "A": "Limpieza de material",
         "B": "Preparación de reactivos",
-        "C": "Pipeteo : TEMA 23 Principales riesgos y prevención",
+        "C": "Pipeteo",
         "D": "Tallado"
       },
       "correctAnswer": "C",
-      "correctText": "Pipeteo : TEMA 23 Principales riesgos y prevención"
+      "correctText": "Pipeteo"
     },
     {
       "id": 31,

@@ -1,5 +1,7 @@
 // Genera los bancos JSON de los temas 21-23 a partir de los PDFs con respuestas resaltadas.
 // Uso: node scripts/import-pdf-topics.mjs
+// OJO: sobrescribe los JSON de los temas 21-23 y deshace las correcciones manuales
+// (palabras partidas, espacios) hechas después sobre ellos. Revisar el diff tras ejecutarlo.
 // Solo se importan preguntas con exactamente una opción resaltada en amarillo.
 import fs from "node:fs";
 import { extractPdfPages, parseQuestionsFromPdfPages } from "../src/pdfReader.js";
@@ -20,6 +22,8 @@ const NOISE = [
   /\s*_{3,}/g,
   /\s*Test tema \d+(?:\.\d+)?:\s*(?:Drogas de abuso|Fármacos)/gi,
   /\s*Test temas? 22 Marcadores tumorales/gi,
+  /\s*:?\s*TEMA 23 (?:BALEARES: BIOÉTICA Y SECRETO PROFESIONAL|Principales riesgos y prevención)/gi,
+  /\s*Comentario\..*$/g,
 ];
 const REQUIRES_IMAGE = /\b(?:este|esta|la siguiente|el siguiente)\s+(?:pictograma|imagen|figura|gráfico|dibujo)\b/i;
 const clean = (text) => NOISE.reduce((value, pattern) => value.replace(pattern, " "), text).replace(/\s+/g, " ").trim();
