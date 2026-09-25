@@ -170,10 +170,36 @@
 .vsum .ir{grid-template-columns:1fr 26px auto}}
 .vsum{max-width:980px;margin:0 auto;padding:0;border-radius:18px}
 .vsum .chips{top:0}
-:root[data-theme="dark"] .vsum{padding:14px;border:1px solid var(--line)}
 .vsum h2{scroll-margin-top:64px}
 .vsum{min-width:0;width:100%}
 .vsum svg[role="img"]{max-width:680px;margin-left:auto;margin-right:auto}
 .vsum .chips{margin:0 -2px;padding:10px 2px 10px;border-bottom:1px solid var(--line);box-shadow:0 8px 14px -12px rgba(34,55,60,.35);scrollbar-width:none}
 .vsum .chips::-webkit-scrollbar{display:none}
 .vsum .chip.active{background:var(--primary);border-color:var(--primary);color:#fff}
+/* Integración con la página: sin fondo propio, sigue el tema claro/oscuro de la app */
+.vsum{background:transparent}
+:root[data-theme="dark"] .vsum{--bg:#171b19;--card:#202622;--text:#dce2dd;--muted:#929d97;--line:#39413d;--primary:#75a59c;--soft:#2a3430;--gold:#c5aa62;--danger:#d08a81;--ok:#7fb894;--intr:#7fa6d4;--extr:#d09a74;--comun:#a393d6;--shadow:0 12px 32px rgba(0,0,0,.2)}
+:root[data-theme="dark"] .vsum :is(.step,.fx,.d,.ic,.tc,.ib,.ir,.st,.cloud,.fact,.drug),:root[data-theme="dark"] .vsum [style*="background:#fff"]{background:#252c28!important}
+:root[data-theme="dark"] .vsum .step .t{background:#252c28}
+:root[data-theme="dark"] .vsum :is(.idea,.mn){background:#353022;color:#e9dfbf}
+:root[data-theme="dark"] .vsum .mn .big{color:#d9c07a}
+:root[data-theme="dark"] .vsum :is(.trap .no,.dc,.d .miss,.ir .tgt){background:#382825}
+:root[data-theme="dark"] .vsum :is(.dc h4,.ir .tgt,.d .miss){color:#e2a79f}
+:root[data-theme="dark"] .vsum .dc{border-color:#5a3b37}
+:root[data-theme="dark"] .vsum .trap .yes{background:#25372d}
+:root[data-theme="dark"] .vsum .res[style*="#e8f3ec"]{background:#25372d!important}
+:root[data-theme="dark"] .vsum .res[style*="#fbecea"]{background:#382825!important}
+:root[data-theme="dark"] .vsum .up{background:#4a2c28;color:#f0b3aa}
+:root[data-theme="dark"] .vsum .nn{background:#243a2d;color:#9fd1b1}
+:root[data-theme="dark"] .vsum .phase div[style*="#ece6f7"]{background:#2f2940!important;color:#c3b6ec!important}
+:root[data-theme="dark"] .vsum .phase div[style*="#fff3d6"]{background:#353022!important;color:#e0c77e!important}
+:root[data-theme="dark"] .vsum .phase div[style*="#e8f3ec"]{background:#25372d!important;color:#9fd1b1!important}
+:root[data-theme="dark"] .vsum .cloud span[style*="#ece7f8"]{background:#2f2940!important;color:#cfc4f2!important}
+:root[data-theme="dark"] .vsum .cloud span[style*="#f7e6db"]{background:#3a2c22!important;color:#e7b894!important}
+:root[data-theme="dark"] .vsum .vback{color:#fff}
+:root[data-theme="dark"] .vsum .vback{background:#466f68}
+:root[data-theme="dark"] .vsum .chip.active{background:#466f68;border-color:#466f68}
+/* Las ilustraciones van sobre una lámina clara para que se lean igual en modo oscuro */
+:root[data-theme="dark"] .vsum :is(svg[role="img"],.tc svg,.drug svg,.node svg){background:#f7f4ee;border-radius:12px;padding:6px}
+:root[data-theme="dark"] .vsum .step svg{padding:0;border-radius:0}
+:root[data-theme="dark"] .vsum :is(.pt,h2 .n,.step .t .k){background:#466f68;color:#f1f4f2}

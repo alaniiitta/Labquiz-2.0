@@ -172,7 +172,7 @@ function VisualSummary({html}){const ref=useRef(null);
 
 function TopicPage({topic,go,onStartTest}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
- <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}</div></section>
+ <header className="topicHeader"><div><span className="topicEyebrow">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2></div><button className="topicTestButton" onClick={onStartTest}><Brain/><span>Hacer test</span></button></header>
  {visual?<div className="visualLayout"><VisualSummary html={visual}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
    {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
