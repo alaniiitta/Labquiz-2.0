@@ -154,10 +154,10 @@ function HomePage({go,openTest,progress}){
 function Stat({icon,value,label}){return <div className="stat"><span>{icon}</span><strong>{value}</strong><small>{label}</small></div>}
 function TopicRow({t,onClick}){return <button className="topicRow" onClick={onClick}><div className="num">{String(t.id).padStart(2,"0")}</div><div className="topicInfo"><b>{t.title}</b><small>Banco de preguntas</small></div></button>}
 
-function SummaryPage({openTopic}){const [q,setQ]=useState("");const filtered=topics.filter(t=>t.title.toLowerCase().includes(q.toLowerCase()));return <div>
- <div className="pageIntro"><p>Selecciona un tema para consultar su contenido.</p><div className="search"><Search/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Buscar tema..."/></div></div>
- <div className="filterRow"><span>{topics.length} temas</span></div>
- <div className="resumeGrid">{filtered.map(t=>{const summary=getSummary(t.id);return <article className="resumeCard" key={t.id} role="button" tabIndex={0} onClick={()=>openTopic(t)} onKeyDown={e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openTopic(t)}}}><div className="resumeTop"><span className="num">{String(t.id).padStart(2,"0")}</span></div><h3>{t.title}</h3><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p><div className="resumeLinks"><span>Banco del tema</span><ChevronRight/></div></article>})}</div>
+function SummaryPage({openTopic}){const [q,setQ]=useState("");const term=q.trim().toLowerCase();const filtered=topics.filter(t=>!term||t.title.toLowerCase().includes(term)||String(t.id).padStart(2,"0").includes(term));const visualCount=topics.filter(t=>getVisualSummary(t.id)).length;return <div>
+ <div className="sumTools"><div className="search"><Search/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Buscar tema o número..."/></div><span className="sumCount">{topics.length} temas · {visualCount} con resumen visual</span></div>
+ <div className="sumList">{filtered.map(t=>{const visual=getVisualSummary(t.id),summary=getSummary(t.id),count=getQuestionBank(t.id).length;return <button className={"sumRow"+(visual?"":" pending")} key={t.id} onClick={()=>openTopic(t)}><span className="num">{String(t.id).padStart(2,"0")}</span><span className="sumInfo"><b>{t.title}</b><small>{visual?<span className="sumTag">Resumen visual</span>:<span className="sumTag off">{summary?"Resumen breve":"Pendiente"}</span>}{count} preguntas</small></span><ChevronRight/></button>})}</div>
+ {!filtered.length&&<p className="sumEmpty">No hay temas que coincidan con «{q}».</p>}
  </div>}
 
 function VisualSummary({html}){const ref=useRef(null);
