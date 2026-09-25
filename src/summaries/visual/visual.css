@@ -246,3 +246,8 @@
 :root[data-theme="dark"] .vsum .matrix td[style*="#dbe9f4"]{background:#23324a!important;color:#a9c4ea!important}
 :root[data-theme="dark"] .vsum :is(.box,.gi) :is(h4,b)[style*="color"]{filter:brightness(1.7)}
 :root[data-theme="dark"] .vsum .box h4[style*="#1d1233"]{color:#cfc4f2!important;filter:none}
+.vsum .blk.g{background:linear-gradient(135deg,#2f6e4a,#5fa37a)}
+.vsum .blk.o{background:linear-gradient(135deg,#9a4f22,#e0a85a)}
+.vsum .chip:is(.cg,.co)::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.vsum .chip.cg::before{background:#3f8a5f}
+.vsum .chip.co::before{background:#c77a3a}
