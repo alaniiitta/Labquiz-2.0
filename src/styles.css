@@ -140,3 +140,6 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .sumEmpty{color:var(--muted);font-size:13px}
 :root[data-theme="dark"] .sumTag{background:#243a2d;color:#9fd1b1}
 @media(max-width:700px){.sumList{grid-template-columns:minmax(0,1fr);gap:6px}.sumInfo b{white-space:normal}.sumTools{gap:8px}.sumTools .search{flex-basis:100%;max-width:none}}
+.meter{display:flex;align-items:center;gap:8px;margin-top:6px}.meterBar{flex:1;max-width:220px;height:7px;border-radius:99px;background:#e8e4dc;display:flex;overflow:hidden}.meterBar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#3d7f8c,var(--primary))}
+.meter em{flex:none;width:78px;white-space:nowrap;font-style:normal;font-size:11.5px;font-weight:800;color:var(--primary)}.meter em.off{color:var(--muted);font-weight:650}
+:root[data-theme="dark"] .meterBar{background:#2e3a3d}
