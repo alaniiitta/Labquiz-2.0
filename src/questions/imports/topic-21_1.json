@@ -131,7 +131,7 @@
         "A": "Inmunoanálisis.",
         "B": "Cromatografía en capa fina.",
         "C": "Cromatografía de gases y espectrofotometría de masas.",
-        "D": "Prueba de color. Test tema 21.1: Drogas de abuso"
+        "D": "Prueba de color."
       },
       "correctAnswer": "C",
       "correctText": "Cromatografía de gases y espectrofotometría de masas."
@@ -263,7 +263,7 @@
         "A": "Sangre.",
         "B": "Orina.",
         "C": "Saliva.",
-        "D": "Heces. Test tema 21.1: Drogas de abuso"
+        "D": "Heces."
       },
       "correctAnswer": "B",
       "correctText": "Orina."
@@ -274,11 +274,11 @@
       "options": {
         "A": "Informan de manera cualitativa (positivo o negativo) acerca de la droga detectada.",
         "B": "Informan de manera cuantitativa acerca de la droga detectada y sus metabolitos.",
-        "C": "Informan de man era cualitativa y cuantitativa acerca de la droga detectada y sus metabolitos.",
+        "C": "Informan de manera cualitativa y cuantitativa acerca de la droga detectada y sus metabolitos.",
         "D": "Informan de los factores biológicos relacionados con el genotipo."
       },
       "correctAnswer": "C",
-      "correctText": "Informan de man era cualitativa y cuantitativa acerca de la droga detectada y sus metabolitos."
+      "correctText": "Informan de manera cualitativa y cuantitativa acerca de la droga detectada y sus metabolitos."
     },
     {
       "id": 24,
@@ -369,12 +369,12 @@
       "question": "En la determinación de la dosis letal media ¿sobre qué porcentaje de la población de prueba se debe producir el efecto evaluado?",
       "options": {
         "A": "5 %de los individuos a los que se administra.",
-        "B": "50% de los individuos a los que se administra. Test tema 21.1: Drogas de abuso",
+        "B": "50% de los individuos a los que se administra.",
         "C": "95% de los individuos a los que se administra.",
         "D": "Ninguno de ellos."
       },
       "correctAnswer": "B",
-      "correctText": "50% de los individuos a los que se administra. Test tema 21.1: Drogas de abuso"
+      "correctText": "50% de los individuos a los que se administra."
     },
     {
       "id": 33,
@@ -393,12 +393,12 @@
       "question": "En cuanto al cribado de Drogas de Abuso en orina, es cierto que:",
       "options": {
         "A": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta especificidad analítica.",
-        "B": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta sensibilidad analítica .",
+        "B": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta sensibilidad analítica.",
         "C": "El intervalo de tiempo de detección de estas sustancias es ilimitado desde que se produce el consumo.",
         "D": "Los resultados obtenidos por métodos de cribado se pueden considerar definitivos y, por tanto, diagnósticos."
       },
       "correctAnswer": "B",
-      "correctText": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta sensibilidad analítica ."
+      "correctText": "Los métodos de cribado (inmunoanálisis) deben ofrecer una alta sensibilidad analítica."
     },
     {
       "id": 37,
@@ -426,7 +426,7 @@
     },
     {
       "id": 39,
-      "question": "Si se obtiene un resultado positivo para una droga en un test de screening de orina, basado en la competición del antígeno “marcado” y “no marcado” por el sitio de unión a un anticuerpo específico, ¿qué observamos? Test tema 21.1: Drogas de abuso",
+      "question": "Si se obtiene un resultado positivo para una droga en un test de screening de orina, basado en la competición del antígeno “marcado” y “no marcado” por el sitio de unión a un anticuerpo específico, ¿qué observamos?",
       "options": {
         "A": "Una línea continua en la ventana T de muestra y una línea continua en la ventana C de control.",
         "B": "Una sola línea continua en la ventana C de control.",

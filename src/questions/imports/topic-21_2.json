@@ -47,10 +47,10 @@
         "A": "La ventana terapéutica es amplia.",
         "B": "No presenta toxicidad.",
         "C": "Se observa la respuesta terapéutica esperada.",
-        "D": "Se observa gr an variabilidad individual en la farmacocinética."
+        "D": "Se observa gran variabilidad individual en la farmacocinética."
       },
       "correctAnswer": "D",
-      "correctText": "Se observa gr an variabilidad individual en la farmacocinética."
+      "correctText": "Se observa gran variabilidad individual en la farmacocinética."
     },
     {
       "id": 5,
@@ -129,12 +129,12 @@
       "question": "¿Cuál es la muestra más utilizada en monitorización de fármacos?:",
       "options": {
         "A": "Orina.",
-        "B": "Suero. Test tema 21.2: Fármacos",
+        "B": "Suero.",
         "C": "Sangre total",
         "D": "Cualquiera de los anteriores"
       },
       "correctAnswer": "B",
-      "correctText": "Suero. Test tema 21.2: Fármacos"
+      "correctText": "Suero."
     },
     {
       "id": 12,
@@ -142,11 +142,11 @@
       "options": {
         "A": "Ingestión y excreción constantes.",
         "B": "Se alcanza entre 4 y 5 veces el tiempo de semivida de eliminación del fármaco.",
-        "C": "Las dos anteriores son ciertas .",
+        "C": "Las dos anteriores son ciertas.",
         "D": "Niveles plasmáticos no constantes del fármaco."
       },
       "correctAnswer": "C",
-      "correctText": "Las dos anteriores son ciertas ."
+      "correctText": "Las dos anteriores son ciertas."
     },
     {
       "id": 13,
@@ -212,13 +212,13 @@
       "id": 18,
       "question": "El margen de concentración del fármaco en el que se ha demostrado que es eficaz y tiene menor tasa de efectos adversos, se denomina:",
       "options": {
-        "A": "Intervalo ter apéutico.",
+        "A": "Intervalo terapéutico.",
         "B": "Vida media.",
         "C": "Concentración valle.",
         "D": "Aclaración plasmática."
       },
       "correctAnswer": "A",
-      "correctText": "Intervalo ter apéutico."
+      "correctText": "Intervalo terapéutico."
     },
     {
       "id": 19,
@@ -236,19 +236,19 @@
       "id": 20,
       "question": "¿Qué metodología en la monitorización de fármacos inmunosupresores es la técnica de referencia por presentar menos reacciones cruzadas con los metabolitos?:",
       "options": {
-        "A": "L a cromatografía líquida de alta resolución acoplada a la espectrometría de masas.",
+        "A": "La cromatografía líquida de alta resolución acoplada a la espectrometría de masas.",
         "B": "La cromatografía liquida de alta resolución acoplada a un detector ultravioleta.",
         "C": "El inmunoensayo.",
         "D": "Ninguna de las anteriores."
       },
       "correctAnswer": "A",
-      "correctText": "L a cromatografía líquida de alta resolución acoplada a la espectrometría de masas."
+      "correctText": "La cromatografía líquida de alta resolución acoplada a la espectrometría de masas."
     },
     {
       "id": 21,
       "question": "En farmacocinética se denomina Concentración Mínima Eficaz (CME) a:",
       "options": {
-        "A": "Aquella concentración a partir de la que se inicia el efecto tóxico Test tema 21.2: Fármacos",
+        "A": "Aquella concentración a partir de la que se inicia el efecto tóxico",
         "B": "Máximo nivel de concentración plasmática del fármaco que representa el momento en el que los procesos de absorción y eliminación se igualan",
         "C": "Aquella concentración por encima de la cual suele observarse el efecto terapéutico",
         "D": "Espacio de tiempo entre el momento de la administración y el comienzo del efecto terapéutico"
@@ -359,10 +359,10 @@
         "A": "Una enzima",
         "B": "Un fármaco cardíaco",
         "C": "Un fármaco ansiolítico",
-        "D": "Un fárma co antineoplásico"
+        "D": "Un fármaco antineoplásico"
       },
       "correctAnswer": "D",
-      "correctText": "Un fárma co antineoplásico"
+      "correctText": "Un fármaco antineoplásico"
     },
     {
       "id": 31,
@@ -370,15 +370,15 @@
       "options": {
         "A": "Digoxina",
         "B": "Ácido valproico",
-        "C": "A mikacina",
+        "C": "Amikacina",
         "D": "Litio"
       },
       "correctAnswer": "C",
-      "correctText": "A mikacina"
+      "correctText": "Amikacina"
     },
     {
       "id": 32,
-      "question": "¿Cuál de los siguientes componentes es un alcaloide de la familia metilxantina que interviene en la estimulación del Sistema Nervioso Central?: Test tema 21.2: Fármacos",
+      "question": "¿Cuál de los siguientes componentes es un alcaloide de la familia metilxantina que interviene en la estimulación del Sistema Nervioso Central?:",
       "options": {
         "A": "Paracetamol.",
         "B": "Teofilina.",
@@ -490,11 +490,11 @@
       "options": {
         "A": "Psicoactivos.",
         "B": "Antiepilépticos.",
-        "C": "Inmunosupresores .",
+        "C": "Inmunosupresores.",
         "D": "Antiasmáticos."
       },
       "correctAnswer": "C",
-      "correctText": "Inmunosupresores ."
+      "correctText": "Inmunosupresores."
     },
     {
       "id": 46,
@@ -537,12 +537,12 @@
       "question": "En la monitorización de fármacos, salvo excepciones, ¿cuál es el momento adecuado de la toma de muestra tras alcanzar el estado estacionario?",
       "options": {
         "A": "Extracción tras administrar la primera dosis de fármaco al paciente",
-        "B": "Niveles valle (j usto antes de la siguien te dosis) que en la mayoría de los fármacos son los que proporcionan la concentración valle del estado estacionario",
+        "B": "Niveles valle (justo antes de la siguiente dosis) que en la mayoría de los fármacos son los que proporcionan la concentración valle del estado estacionario",
         "C": "No es relevante cuándo realizar la extracción de la muestra para conocer si los niveles están dentro de rango terapéutico",
         "D": "Ninguna es correcta"
       },
       "correctAnswer": "B",
-      "correctText": "Niveles valle (j usto antes de la siguien te dosis) que en la mayoría de los fármacos son los que proporcionan la concentración valle del estado estacionario"
+      "correctText": "Niveles valle (justo antes de la siguiente dosis) que en la mayoría de los fármacos son los que proporcionan la concentración valle del estado estacionario"
     },
     {
       "id": 50,
@@ -550,7 +550,7 @@
       "options": {
         "A": "Ciclosporina.",
         "B": "Sirolimus.",
-        "C": "Tacrolimus. Test tema 21.2: Fármacos",
+        "C": "Tacrolimus.",
         "D": "Infliximab."
       },
       "correctAnswer": "D",
@@ -666,7 +666,7 @@
     },
     {
       "id": 60,
-      "question": "Los efectos perjudiciales de un fármaco sobre un organismo o tejido debidos a una dosis excesiva, a la ingestión de un fármaco pensado para un uso externo y a la acumulación del medicamente en la Test tema 21.2: Fármacos sangre debido a una alteración del metabolismo o la excreción, se denomina:",
+      "question": "Los efectos perjudiciales de un fármaco sobre un organismo o tejido debidos a una dosis excesiva, a la ingestión de un fármaco pensado para un uso externo y a la acumulación del medicamento en la sangre debido a una alteración del metabolismo o la excreción, se denomina:",
       "options": {
         "A": "Alergia a los fármacos",
         "B": "Tolerancia farmacológica",

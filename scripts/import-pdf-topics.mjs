@@ -18,6 +18,7 @@ const sources = [
 const NOISE = [
   /\s*(?:PREGUNTAS|RESPUESTAS) DE EX[ÁA]MENES OFICIALES(?:\s+TEMAS?\s+[\d.]+\s*:\s*\S+)?/gi,
   /\s*_{3,}/g,
+  /\s*Test tema \d+(?:\.\d+)?:\s*(?:Drogas de abuso|Fármacos|Marcadores tumorales)/gi,
 ];
 const REQUIRES_IMAGE = /\b(?:este|esta|la siguiente|el siguiente)\s+(?:pictograma|imagen|figura|gráfico|dibujo)\b/i;
 const clean = (text) => NOISE.reduce((value, pattern) => value.replace(pattern, " "), text).replace(/\s+/g, " ").trim();
