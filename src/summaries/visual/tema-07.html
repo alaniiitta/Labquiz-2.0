@@ -1,0 +1,261 @@
+<nav class="chips"><a class="chip" href="#vs-s1">La luz</a><a class="chip" href="#vs-s2">Espectrofotometría</a><a class="chip" href="#vs-s3">Emisión</a><a class="chip" href="#vs-s4">Turbidimetría</a><a class="chip" href="#vs-s5">Microscopio</a><a class="chip" href="#vs-s6">Electroquímica</a><a class="chip" href="#vs-s7">Electroforesis</a><a class="chip" href="#vs-s8">Cromatografía</a><a class="chip" href="#vs-s9">Otras</a><a class="chip" href="#vs-s10">Trampas</a><a class="chip" href="#vs-s11">Autotest</a></nav>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+ <linearGradient id="gSpec7" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7a3fbf"/><stop offset=".17" stop-color="#3b55d9"/><stop offset=".34" stop-color="#2fa3d9"/><stop offset=".5" stop-color="#3fbf5a"/><stop offset=".66" stop-color="#f2e23a"/><stop offset=".82" stop-color="#f29a2e"/><stop offset="1" stop-color="#d9352e"/></linearGradient>
+ <radialGradient id="gLamp7" cx="40%" cy="35%" r="65%"><stop offset="0" stop-color="#fffbe0"/><stop offset=".6" stop-color="#ffd54a"/><stop offset="1" stop-color="#d9a400"/></radialGradient>
+ <linearGradient id="gBeam7" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffe27a" stop-opacity=".95"/><stop offset="1" stop-color="#ffe27a" stop-opacity=".35"/></linearGradient>
+ <g id="lamp7"><circle r="11" fill="url(#gLamp7)" filter="url(#sh)"/></g>
+ <g id="det7"><rect x="-10" y="-10" width="20" height="20" rx="4" fill="#37474f" filter="url(#sh)"/><circle r="4" fill="#7de0a6"/></g>
+ <g id="cuv7"><rect x="-10" y="-22" width="20" height="44" rx="3" fill="#eef5fb" stroke="#8fb3de" stroke-width="1.4"/><rect x="-8" y="-8" width="16" height="28" fill="#b9a4e3" opacity=".75"/></g>
+</defs></svg>
+
+<h2 id="vs-s1"><span class="n">1</span> La luz: espectro y energía</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 110" role="img" aria-label="Espectro electromagnético: UV, visible e infrarrojo">
+ <rect x="10" y="30" width="60" height="30" rx="6" fill="#5b3f9f"/><rect x="72" y="30" width="190" height="30" fill="url(#gSpec7)" filter="url(#sh)"/><rect x="264" y="30" width="66" height="30" rx="6" fill="#8a2a24"/>
+ <g font-size="9.5" font-weight="900" fill="#fff" text-anchor="middle"><text x="40" y="49">UV</text><text x="297" y="49">IR</text></g>
+ <g font-size="8.5" font-weight="800" text-anchor="middle" fill="#17252b"><text x="40" y="76">10-380 nm</text><text x="167" y="76">VISIBLE ≈ 380-780 nm</text><text x="297" y="76">780 nm-1 mm</text></g>
+ <text x="80" y="22" font-size="8" fill="#3b55d9" font-weight="800">azul (λ corta)</text><text x="256" y="22" font-size="8" fill="#d9352e" font-weight="800" text-anchor="end">rojo (λ larga)</text>
+ <path d="M30 96h280" stroke="#718087" stroke-width="1.4" marker-end="url(#ar)"/><text x="170" y="92" font-size="8" text-anchor="middle" fill="#718087">↑ longitud de onda → ↓ energía (ecuación de Planck)</text>
+</svg>
+<div class="facts">
+ <div class="fact gold"><b>Transmitancia</b> T = luz que sale / luz que entra. <b>Absorbancia</b> A = −log T.</div>
+ <div class="fact"><b>Ley de Beer</b>: A = ε · longitud de la cubeta (cm) · concentración (mol/L). La absorbancia es <b>directamente proporcional</b> a la concentración. Vale para soluciones <b>diluidas</b> y luz <b>monocromática</b>.</div>
+</div>
+</div>
+
+<h2 id="vs-s2"><span class="n">2</span> El espectrofotómetro por dentro</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 130" role="img" aria-label="Componentes del espectrofotómetro: fuente, selector de longitud de onda, cubeta y detector">
+ <path d="M30 56h80" stroke="url(#gBeam7)" stroke-width="10"/><path d="M120 46l10 10-10 10" fill="none"/>
+ <use href="#lamp7" x="24" y="56"/>
+ <g transform="translate(120,56)" filter="url(#sh)"><path d="M-14 16L0-18 14 16z" fill="#dfeaf2" stroke="#8fb3de" stroke-width="1.4"/></g>
+ <path d="M132 50L200 40" stroke="#3b55d9" stroke-width="3"/><path d="M132 54L200 56" stroke="#3fbf5a" stroke-width="3"/><path d="M132 58L200 72" stroke="#d9352e" stroke-width="3"/>
+ <rect x="196" y="36" width="6" height="16" fill="#37474f"/><rect x="196" y="60" width="6" height="16" fill="#37474f"/>
+ <path d="M202 56h40" stroke="#3fbf5a" stroke-width="4" opacity=".8"/>
+ <use href="#cuv7" x="252" y="56"/><path d="M262 56h30" stroke="#3fbf5a" stroke-width="3" opacity=".5"/><use href="#det7" x="306" y="56"/>
+ <g font-size="8.5" font-weight="900" text-anchor="middle" fill="#245b67"><text x="28" y="94">1 · FUENTE</text><text x="152" y="100">2 · SELECTOR DE λ</text><text x="248" y="94">3 · CUBETA</text><text x="310" y="94">4 · DETEC-</text><text x="310" y="104">TOR</text></g>
+ <text x="152" y="112" font-size="7.5" text-anchor="middle" fill="#718087">prisma o red de difracción + rendija</text>
+</svg>
+<table class="mtab">
+ <tr><td>Fuente</td><td><b>Continua</b>: tungsteno o tungsteno-halógeno (visible), <b>deuterio</b> o hidrógeno (UV), Nernst y Globar (IR), arco de xenón, argón o mercurio. <b>Discontinua</b>: <b>lámpara de cátodo hueco</b>, láser</td></tr>
+ <tr><td>Selector de λ</td><td><b>Filtro</b> (de interferencia o absorción) → <b>fotómetro</b> · <b>Monocromador</b> (prisma o red de difracción) → <b>espectrofotómetro</b></td></tr>
+ <tr><td>Cubeta</td><td>UV: <b>cuarzo</b> o sílice fundida · visible: vidrio o plástico · IR: NaCl, KBr, AgCl</td></tr>
+ <tr><td>Detector</td><td>UV-visible (fotones): fotocélula, fototubo, <b>fotomultiplicador</b>, multicanal · IR (térmicos): bolómetro, termopar, Golay, piroeléctrico</td></tr>
+</table>
+<div class="facts">
+ <div class="fact"><b>Grupos auxocromos</b>: no absorben por sí solos, pero cambian la absorción del cromóforo. En intensidad: <b>hipercrómico / hipocrómico</b>. En longitud de onda: <b>batocrómico</b> (hacia el rojo) / <b>hipsocrómico</b> (hacia el azul).</div>
+</div>
+</div>
+
+<h2 id="vs-s3"><span class="n">3</span> Absorción frente a emisión</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 140" role="img" aria-label="En absorción la fuente y el detector están en línea; en emisión y fluorescencia, a 90 grados">
+ <text x="80" y="14" font-size="9.5" font-weight="900" text-anchor="middle" fill="#245b67">ABSORCIÓN</text>
+ <path d="M24 60h108" stroke="url(#gBeam7)" stroke-width="8"/><use href="#lamp7" x="18" y="60"/><use href="#cuv7" x="80" y="60"/><use href="#det7" x="140" y="60"/>
+ <text x="80" y="100" font-size="8" text-anchor="middle" fill="#718087">fuente y detector EN LÍNEA</text>
+ <text x="256" y="14" font-size="9.5" font-weight="900" text-anchor="middle" fill="#6b5aa6">EMISIÓN · FLUORESCENCIA</text>
+ <path d="M196 60h60" stroke="#8f7ad6" stroke-width="7" opacity=".8"/><circle cx="190" cy="60" r="11" fill="#7a5fd0" filter="url(#sh)"/><use href="#cuv7" x="256" y="60"/>
+ <path d="M256 84v26" stroke="#3fbf5a" stroke-width="6" opacity=".8"/><use href="#det7" x="256" y="118"/>
+ <path d="M270 72q20 10 30 36" stroke="#718087" fill="none" stroke-dasharray="3 3"/><text x="304" y="100" font-size="8.5" font-weight="900" fill="#c0392b">90°</text>
+ <text x="190" y="132" font-size="8" text-anchor="middle" fill="#718087">NUNCA en línea</text>
+</svg>
+<div class="two">
+ <div class="box"><h4>Absorción atómica</h4><p>La muestra se <b>vaporiza</b> en un <b>atomizador</b>. Fuente: <b>lámpara de cátodo hueco</b> (luz monocromática del elemento).</p></div>
+ <div class="box"><h4>Fotometría de llama (emisión)</h4><p>Los átomos excitados en la llama emiten luz. Patrón interno de <b>litio</b>. <b>Sodio → amarillo</b> · potasio → violeta.</p></div>
+ <div class="box"><h4>Fluorescencia</h4><p>Singlete → singlete: <b>se apaga al cortar la fuente</b>. La favorecen estructuras <b>rígidas</b> (anillos aromáticos, dobles enlaces), <b>frío</b>, poco oxígeno y viscosidad alta.</p></div>
+ <div class="box"><h4>Fosforescencia</h4><p>Triplete → singlete: <b>dura un poco más</b> tras cortar la fuente.</p></div>
+</div>
+<div class="facts">
+ <div class="fact gold"><b>Desplazamiento de Stokes</b>: la luz emitida tiene <b>mayor λ</b> (menos energía) que la absorbida. En emisión, subir la intensidad de la fuente mejora la sensibilidad.</div>
+</div>
+</div>
+
+<h2 id="vs-s4"><span class="n">4</span> Turbidimetría, nefelometría y reflectancia</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 150" role="img" aria-label="Turbidimetría: detector en línea mide la luz que atraviesa; nefelometría: detector a 90 grados mide la luz dispersada">
+ <text x="80" y="14" font-size="9.5" font-weight="900" text-anchor="middle" fill="#245b67">TURBIDIMETRÍA</text>
+ <path d="M24 60h108" stroke="url(#gBeam7)" stroke-width="8"/><use href="#lamp7" x="18" y="60"/>
+ <g transform="translate(80,60)"><rect x="-14" y="-24" width="28" height="48" rx="3" fill="#f4efe4" stroke="#b9a58a"/><g fill="#b9a58a"><circle cx="-6" cy="-10" r="2.4"/><circle cx="5" cy="-4" r="2.8"/><circle cx="-4" cy="8" r="2.6"/><circle cx="6" cy="12" r="2.2"/></g></g>
+ <use href="#det7" x="140" y="60"/>
+ <text x="80" y="102" font-size="8" text-anchor="middle" fill="#17252b">mide la luz que <tspan font-weight="900">ATRAVIESA</tspan></text><text x="80" y="114" font-size="8" text-anchor="middle" fill="#718087">detector en línea (180°)</text><text x="80" y="126" font-size="8" text-anchor="middle" fill="#718087">soluciones concentradas</text>
+ <text x="256" y="14" font-size="9.5" font-weight="900" text-anchor="middle" fill="#6b5aa6">NEFELOMETRÍA</text>
+ <path d="M196 60h74" stroke="url(#gBeam7)" stroke-width="8"/><use href="#lamp7" x="190" y="60"/>
+ <g transform="translate(256,60)"><rect x="-14" y="-24" width="28" height="48" rx="3" fill="#f4efe4" stroke="#b9a58a"/><g fill="#b9a58a"><circle cx="-6" cy="-10" r="2.4"/><circle cx="5" cy="-4" r="2.8"/><circle cx="-4" cy="8" r="2.6"/><circle cx="6" cy="12" r="2.2"/></g></g>
+ <g stroke="#f2c93a" stroke-width="1.6" opacity=".9"><path d="M262 64l20 26M252 66l-10 24M266 54l22-10"/></g>
+ <use href="#det7" x="286" y="100"/>
+ <text x="256" y="126" font-size="8" text-anchor="middle" fill="#17252b">mide la luz <tspan font-weight="900">DISPERSADA</tspan> (90°)</text><text x="256" y="138" font-size="8" text-anchor="middle" fill="#718087">más sensible · diluidas</text>
+</svg>
+<div class="facts">
+ <div class="fact"><b>Inmunonefelometría</b>: proteínas individuales (inmunoglobulinas, ceruloplasmina…) y concentraciones bajas.</div>
+ <div class="fact"><b>Fotometría de reflectancia</b>: la de las <b>tiras de orina</b>. La relación con la concentración <b>no es lineal</b> (es logarítmica).</div>
+ <div class="fact">Refractometría: <b>ley de Snell</b>.</div>
+</div>
+</div>
+
+<h2 id="vs-s5"><span class="n">5</span> El microscopio</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 240" role="img" aria-label="Microscopio óptico con sus partes señaladas">
+ <defs><linearGradient id="gMet7" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5b6a72"/><stop offset=".4" stop-color="#b8c4ca"/><stop offset="1" stop-color="#46525a"/></linearGradient><linearGradient id="gBody7" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e9eef1"/><stop offset=".4" stop-color="#ffffff"/><stop offset="1" stop-color="#c9d3d8"/></linearGradient></defs>
+ <g filter="url(#sh)">
+  <rect x="100" y="206" width="130" height="18" rx="8" fill="url(#gBody7)" stroke="#9aa6ab"/>
+  <path d="M190 206V110q0-40-30-60" stroke="url(#gBody7)" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M190 206V110q0-40-30-60" stroke="#9aa6ab" stroke-width="1" fill="none"/>
+  <rect x="120" y="14" width="18" height="30" rx="3" fill="url(#gMet7)" transform="rotate(-20 129 29)"/>
+  <rect x="126" y="40" width="30" height="46" rx="5" fill="url(#gBody7)" stroke="#9aa6ab" transform="rotate(-20 141 63)"/>
+  <path d="M130 92h40l-4 10h-32z" fill="url(#gMet7)"/>
+  <rect x="134" y="102" width="7" height="18" fill="url(#gMet7)"/><rect x="150" y="102" width="7" height="22" fill="#c9a44a"/><rect x="160" y="102" width="6" height="14" fill="url(#gMet7)"/>
+  <rect x="104" y="134" width="96" height="8" rx="2" fill="#37474f"/><rect x="118" y="130" width="40" height="4" fill="#dfeaf2" stroke="#8fb3de" stroke-width=".6"/>
+  <rect x="126" y="146" width="36" height="10" rx="3" fill="url(#gMet7)"/>
+  <circle cx="144" cy="192" r="10" fill="#ffd54a"/>
+  <circle cx="196" cy="150" r="11" fill="url(#gMet7)"/><circle cx="196" cy="174" r="7" fill="url(#gMet7)"/>
+ </g>
+ <path d="M144 182v-24" stroke="#ffe27a" stroke-width="5" opacity=".7"/>
+ <g font-size="8.5" fill="#17252b">
+  <path class="lead" d="M126 22L70 14"/><text x="68" y="12" font-weight="900" text-anchor="end">ocular</text><text x="68" y="22" text-anchor="end" fill="#718087">10×</text>
+  <path class="lead" d="M152 112L70 70"/><text x="68" y="66" font-weight="900" text-anchor="end">objetivos</text><text x="68" y="76" text-anchor="end" fill="#718087">(revólver)</text>
+  <path class="lead" d="M108 138L70 124"/><text x="68" y="122" font-weight="900" text-anchor="end">platina</text><text x="68" y="132" text-anchor="end" fill="#718087">+ carro</text>
+  <path class="lead" d="M128 151L70 164"/><text x="68" y="162" font-weight="900" text-anchor="end">condensador</text><text x="68" y="172" text-anchor="end" fill="#718087">concentra la luz</text>
+  <path class="lead" d="M134 194L70 204"/><text x="68" y="204" font-weight="900" text-anchor="end">fuente de luz</text>
+  <path class="lead" d="M207 150L240 136"/><text x="242" y="134" font-weight="900">macrométrico</text>
+  <path class="lead" d="M203 174L240 170"/><text x="242" y="168" font-weight="900">micrométrico</text>
+  <path class="lead" d="M200 90L240 80"/><text x="242" y="78" font-weight="900">brazo</text><text x="242" y="88" fill="#718087">(asa o columna)</text>
+  <text x="242" y="218" font-weight="900">pie</text>
+ </g>
+</svg>
+<div class="fms">
+ <div class="fm"><small>Aumento total</small><div class="v" style="font-size:16px">ocular × objetivo</div><span class="f">10 × 100 = 1.000 (aceite)</span></div>
+ <div class="fm"><small>Límite de resolución</small><div class="v" style="font-size:16px">d = 0,61 λ / n·sen α</div><span class="f">cuanto MENOR, mejor</span></div>
+</div>
+<div class="facts">
+ <div class="fact gold">Para ver mejor (bajar d): <b>λ más corta</b>, <b>n mayor</b> (aceite de inmersión) o <b>apertura numérica</b> (n·sen α) mayor. <b>Alto poder</b> de resolución = <b>bajo límite</b> de resolución.</div>
+ <div class="fact">El <b>diafragma</b> regula el cono de luz; el <b>carro</b> desliza la preparación sobre la platina.</div>
+</div>
+<table class="mtab" style="margin-top:10px">
+ <tr><td>Campo claro</td><td>El de rutina</td></tr>
+ <tr><td>Campo oscuro</td><td>Condensador especial · microorganismos <b>sin teñir</b> (espiroquetas)</td></tr>
+ <tr><td>Contraste de fases</td><td>Diferencias en el <b>índice de refracción</b> · sedimento de orina</td></tr>
+ <tr><td>Luz polarizada</td><td><b>Cristales</b> del líquido sinovial</td></tr>
+ <tr><td>Fluorescencia</td><td>Fluorocromos, filtro de excitación</td></tr>
+ <tr><td>Electrónico (transmisión y barrido)</td><td>Trabaja en <b>vacío</b>, muestra deshidratada y ultrafina · permite ver <b>virus</b></td></tr>
+</table>
+</div>
+
+<h2 id="vs-s6"><span class="n">6</span> Técnicas electroquímicas</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 150" role="img" aria-label="Celda electroquímica: en el ánodo oxidación, en el cátodo reducción">
+ <path d="M60 50v80q0 10 10 10h200q10 0 10-10V50" fill="#e8f3fb" stroke="#8fb3de" stroke-width="2"/>
+ <rect x="62" y="70" width="216" height="68" fill="#cfe3f5" opacity=".6"/>
+ <g filter="url(#sh)"><rect x="96" y="30" width="16" height="92" rx="3" fill="#c0392b"/><rect x="228" y="30" width="16" height="92" rx="3" fill="#2a5282"/></g>
+ <path d="M104 30V14h132v16" stroke="#37474f" stroke-width="2" fill="none"/><rect x="152" y="4" width="36" height="18" rx="4" fill="#37474f"/><text x="170" y="17" font-size="8" font-weight="900" text-anchor="middle" fill="#7de0a6">V</text>
+ <text x="104" y="84" font-size="13" font-weight="900" text-anchor="middle" fill="#fff">+</text><text x="236" y="84" font-size="14" font-weight="900" text-anchor="middle" fill="#fff">−</text>
+ <g font-size="9" font-weight="900"><circle cx="140" cy="96" r="8" fill="#6aa9d8"/><text x="140" y="100" text-anchor="middle" fill="#fff">−</text><circle cx="200" cy="112" r="8" fill="#e0a85a"/><text x="200" y="116" text-anchor="middle" fill="#fff">+</text></g>
+ <path d="M132 96h-14" stroke="#6aa9d8" stroke-width="2" marker-end="url(#ar)"/><path d="M208 112h14" stroke="#e0a85a" stroke-width="2" marker-end="url(#ar)"/>
+ <text x="104" y="148" font-size="8.5" font-weight="900" text-anchor="middle" fill="#c0392b">ÁNODO · oxidación</text><text x="236" y="148" font-size="8.5" font-weight="900" text-anchor="middle" fill="#2a5282">CÁTODO · reducción</text>
+ <text x="20" y="96" font-size="7.5" fill="#718087" text-anchor="middle">aniones</text><text x="20" y="106" font-size="7.5" fill="#718087" text-anchor="middle">→ ánodo</text><text x="318" y="96" font-size="7.5" fill="#718087" text-anchor="middle">cationes</text><text x="318" y="106" font-size="7.5" fill="#718087" text-anchor="middle">→ cátodo</text>
+</svg>
+<table class="mtab">
+ <tr><td>Potenciometría</td><td>Diferencia de <b>potencial</b> (fuerza electromotriz) · <b>ecuación de Nernst</b> · pH, Na⁺</td></tr>
+ <tr><td>Coulombimetría</td><td><b>Cantidad de carga</b> · cloro</td></tr>
+ <tr><td>Amperometría</td><td><b>Intensidad de corriente</b> · O₂</td></tr>
+ <tr><td>Otras</td><td>Electrogravimetría, polarografía, conductimetría</td></tr>
+</table>
+<div class="two" style="margin-top:10px">
+ <div class="box"><h4>Electrodos de medida</h4><p><b>Vidrio</b> → pH y Na⁺ · <b>Clark</b> → pO₂ (polarografía, subtipo de voltamperometría) · <b>Severinghaus</b> → pCO₂</p></div>
+ <div class="box"><h4>Electrodos de referencia</h4><p><b>Plata/cloruro de plata</b> · <b>calomelanos</b> (mercurio) · hidrógeno</p></div>
+</div>
+<div class="facts">
+ <div class="fact">Estas técnicas miden <b>actividades</b>, no concentraciones.</div>
+ <div class="fact warn">La <b>potenciometría indirecta</b> (muestra diluida) da valores <b>falsamente bajos</b> en muestras lipémicas, con muchas proteínas o viscosas.</div>
+</div>
+</div>
+
+<h2 id="vs-s7"><span class="n">7</span> Electroforesis</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 130" role="img" aria-label="Gel de electroforesis con bandas que migran hacia el ánodo">
+ <defs><linearGradient id="gGel7" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e3eef7"/><stop offset="1" stop-color="#cfe0ee"/></linearGradient></defs>
+ <rect x="40" y="20" width="260" height="84" rx="8" fill="url(#gGel7)" stroke="#8fb3de" stroke-width="1.5" filter="url(#sh)"/>
+ <g fill="#37474f"><rect x="270" y="30" width="6" height="14" rx="1"/><rect x="270" y="54" width="6" height="14" rx="1"/><rect x="270" y="78" width="6" height="14" rx="1"/></g>
+ <g fill="#3d2a78"><rect x="80" y="31" width="5" height="12" rx="2"/><rect x="150" y="31" width="5" height="12" rx="2"/><rect x="220" y="31" width="5" height="12" rx="2"/><rect x="110" y="55" width="5" height="12" rx="2" opacity=".7"/><rect x="190" y="55" width="5" height="12" rx="2"/><rect x="60" y="79" width="5" height="12" rx="2"/><rect x="170" y="79" width="5" height="12" rx="2" opacity=".6"/></g>
+ <text x="22" y="66" font-size="16" font-weight="900" fill="#c0392b" text-anchor="middle">+</text><text x="318" y="66" font-size="18" font-weight="900" fill="#2a5282" text-anchor="middle">−</text>
+ <text x="273" y="16" font-size="8" text-anchor="middle" fill="#718087">pocillos</text><path d="M250 118H70" stroke="#718087" stroke-width="1.4" marker-end="url(#ar)"/><text x="160" y="128" font-size="8" text-anchor="middle" fill="#718087">las moléculas negativas corren hacia el ánodo (+)</text>
+</svg>
+<div class="two">
+ <div class="box"><h4>Soportes SELECTIVOS (carga + tamaño)</h4><p>Gel de almidón, <b>gel de poliacrilamida</b>. Con <b>SDS</b> (SDS-PAGE) separa <b>solo por tamaño</b>.</p></div>
+ <div class="box"><h4>Soportes NO selectivos (solo carga)</h4><p>Papel, <b>gel de agarosa</b>, agar, acetato de celulosa.</p></div>
+</div>
+<div class="facts">
+ <div class="fact">La movilidad depende de: <b>carga</b>, voltaje, pH, fuerza iónica del tampón, fricción, tiempo, temperatura y flujo electroosmótico.</div>
+ <div class="fact gold"><b>Isoelectroenfoque</b>: gradiente de pH; cada proteína se para en su <b>punto isoeléctrico</b> (carga neta 0). <b>Electroforesis capilar</b>: flujo electroosmótico.</div>
+</div>
+</div>
+
+<h2 id="vs-s8"><span class="n">8</span> Cromatografía</h2>
+<div class="vcard">
+<p style="margin:0 0 10px;font-size:14px">Separa según la distinta afinidad entre una <b>fase móvil</b> y una <b>fase estacionaria</b>.</p>
+<svg viewBox="0 0 340 170" role="img" aria-label="Cromatograma con tiempo muerto y tiempo de retención, y columna de exclusión molecular">
+ <path d="M20 130H200M20 130V20" stroke="#718087" stroke-width="1.4" fill="none"/>
+ <path d="M20 130h24l4-18 4 18h40c8 0 10-80 18-80s10 80 18 80h14c6 0 8-50 14-50s8 50 14 50h24" stroke="#245b67" stroke-width="2.4" fill="none"/>
+ <path d="M48 130v12M110 50v92" stroke="#c96e61" stroke-dasharray="3 2"/>
+ <text x="48" y="152" font-size="8" font-weight="800" text-anchor="middle" fill="#c96e61">Tm</text><text x="110" y="152" font-size="8" font-weight="800" text-anchor="middle" fill="#c96e61">Tr</text>
+ <text x="110" y="166" font-size="7.5" text-anchor="middle" fill="#718087">tiempo →</text>
+ <text x="30" y="118" font-size="7.5" fill="#718087">tiempo muerto</text><text x="130" y="44" font-size="7.5" fill="#245b67" font-weight="800">pico</text>
+ <g transform="translate(240,10)">
+  <rect x="0" y="0" width="54" height="130" rx="8" fill="#f3efe4" stroke="#b9a58a" stroke-width="1.5" filter="url(#sh)"/>
+  <g fill="#e2d6bf" stroke="#b9a58a" stroke-width=".7"><circle cx="12" cy="20" r="8"/><circle cx="30" cy="16" r="8"/><circle cx="46" cy="24" r="7"/><circle cx="16" cy="44" r="8"/><circle cx="36" cy="40" r="8"/><circle cx="12" cy="68" r="8"/><circle cx="32" cy="64" r="8"/><circle cx="46" cy="78" r="7"/><circle cx="20" cy="90" r="8"/><circle cx="38" cy="98" r="8"/><circle cx="14" cy="114" r="8"/><circle cx="36" cy="120" r="7"/></g>
+  <g fill="#c0392b"><circle cx="24" cy="108" r="5"/><circle cx="26" cy="84" r="5"/></g><g fill="#3b55d9"><circle cx="30" cy="52" r="2"/><circle cx="22" cy="30" r="2"/><circle cx="14" cy="56" r="2"/></g>
+  <text x="27" y="146" font-size="8" font-weight="900" text-anchor="middle" fill="#245b67">EXCLUSIÓN</text><text x="27" y="158" font-size="7.5" text-anchor="middle" fill="#718087">grandes salen antes</text>
+ </g>
+</svg>
+<table class="mtab">
+ <tr><td>Fase normal</td><td>Móvil <b>apolar</b> / estacionaria <b>polar</b> → sale primero el <b>menos polar</b> · separa compuestos polares</td></tr>
+ <tr><td>Fase inversa</td><td>Móvil <b>polar</b> / estacionaria <b>apolar</b> → sale primero el <b>más polar</b> · separa compuestos apolares</td></tr>
+ <tr><td>HPLC</td><td>Alta resolución; fase móvil líquida</td></tr>
+ <tr><td>Tipos</td><td>De reparto, de adsorción, de <b>intercambio iónico</b> (purificar agua) y de <b>exclusión molecular</b> (tamizado o permeación): <b>las moléculas grandes salen antes</b></td></tr>
+</table>
+<div class="facts">
+ <div class="fact"><b>Tiempo de retención (Tr)</b>: desde que se inyecta hasta el máximo del pico. <b>Tiempo muerto (Tm)</b>: lo que tarda una sustancia no retenida (el frente del disolvente).</div>
+ <div class="fact">En capa fina: <b>Rf</b> = distancia de la sustancia / distancia del disolvente.</div>
+ <div class="fact gold">Cuantos más <b>platos teóricos</b>, mejor (más eficaz) la columna.</div>
+</div>
+</div>
+
+<h2 id="vs-s9"><span class="n">9</span> Otras técnicas</h2>
+<div class="two">
+ <div class="box"><h4>🌀 Centrifugación</h4><p>Separa por <b>densidad</b>. Fuerza centrífuga relativa:</p><p style="text-align:center"><b>g = 1,118 × 10⁻⁵ × radio (cm) × rpm²</b></p></div>
+ <div class="box"><h4>❄️ Osmometría</h4><p>Osmolalidad por <b>descenso crioscópico</b> (punto de congelación). Es una propiedad <b>coligativa</b>: depende del <b>número</b> de partículas.</p></div>
+</div>
+
+<h2 id="vs-s10"><span class="n">10</span> Trampas de examen</h2>
+<div class="traps">
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>La nefelometría mide la luz que atraviesa la muestra</div><div class="yes"><b>✓ CORRECTO</b>Esa es la <b>turbidimetría</b>; la nefelometría mide la luz <b>dispersada</b> (90°)</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Alto límite de resolución = mejor microscopio</div><div class="yes"><b>✓ CORRECTO</b>Mejor = <b>bajo límite</b> y <b>alto poder</b> de resolución</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>En el ánodo hay reducción</div><div class="yes"><b>✓ CORRECTO</b>Ánodo: <b>oxidación</b> (pierde e⁻). Cátodo: <b>reducción</b> (gana e⁻)</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>En exclusión molecular salen antes las moléculas pequeñas</div><div class="yes"><b>✓ CORRECTO</b>Las <b>grandes</b> salen antes (no entran en los poros)</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>En fase inversa sale primero el menos polar</div><div class="yes"><b>✓ CORRECTO</b>En fase inversa sale primero el <b>más polar</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>En fluorescencia la luz emitida tiene menor λ</div><div class="yes"><b>✓ CORRECTO</b>Emitida → <b>mayor λ</b> (desplazamiento de Stokes)</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Para UV sirven las cubetas de plástico</div><div class="yes"><b>✓ CORRECTO</b>UV → <b>cuarzo</b>; vidrio y plástico solo para el visible</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>La reflectancia es lineal con la concentración</div><div class="yes"><b>✓ CORRECTO</b>Es <b>logarítmica</b>, no lineal</div></div>
+</div>
+
+<h2><span class="n">★</span> Trucos para memorizar</h2>
+<div class="mnemo">
+ <div class="mn"><div class="big">AnOx · RedCat</div><p><b>An</b>odo = <b>Ox</b>idación · <b>Red</b>ucción = <b>Cát</b>odo</p></div>
+ <div class="mn"><div class="big">NEFELO = NIEBLA</div><p>Nefelometría: mira la luz que se «desvía» por la niebla (90°)</p></div>
+ <div class="mn"><div class="big">BATO → rojo</div><p><b>Bato</b>crómico: se va al rojo (más λ) · <b>hipso</b>crómico: al azul</p></div>
+ <div class="mn"><div class="big">Litio = Llama</div><p>Patrón interno de la fotometría de llama</p></div>
+ <div class="mn"><div class="big">Clark = O₂ · Severinghaus = CO₂</div><p>Los electrodos de la gasometría</p></div>
+</div>
+
+<h2 id="vs-s11"><span class="n">11</span> ¿Te lo sabes? <small style="font-weight:500;color:var(--muted);font-size:13px">toca la tarjeta</small></h2>
+<div class="flash">
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Ley de Beer</div><div class="face vback">A = ε · l · c</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Rango del visible</div><div class="face vback">≈ 380-780 nm</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Fuente de la absorción atómica</div><div class="face vback">Lámpara de cátodo hueco</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Técnica de la tira de orina</div><div class="face vback">Fotometría de reflectancia</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Técnica que mide la cantidad de carga</div><div class="face vback">Coulombimetría (Cl⁻)</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Electroforesis solo por tamaño</div><div class="face vback">SDS-PAGE</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Microscopio para cristales</div><div class="face vback">Luz polarizada</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Medida de la osmolalidad</div><div class="face vback">Descenso crioscópico</div></div></label>
+</div>
+<p class="hint">Cuando acabes, pulsa «Hacer test» para practicar las preguntas del tema.</p>
