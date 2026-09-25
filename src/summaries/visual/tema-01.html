@@ -1,0 +1,248 @@
+<nav class="chips"><a class="chip" href="#vs-s1">Calibración</a><a class="chip" href="#vs-s2">Errores</a><a class="chip" href="#vs-s3">Control de calidad</a><a class="chip" href="#vs-s4">Pruebas diagnósticas</a><a class="chip" href="#vs-s5">Estadística</a><a class="chip" href="#vs-s6">Soluciones</a><a class="chip" href="#vs-s7">Preanalítica</a><a class="chip" href="#vs-s8">Calidad y normas</a><a class="chip" href="#vs-s9">Trampas</a><a class="chip" href="#vs-s10">Autotest</a></nav>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+ <g id="tb1"><path d="M0 12V52a8 8 0 0 0 16 0V12z" fill="#fbfbfb" stroke="#a3b0b5" stroke-width="1.2"/><path d="M1 22V52a7 7 0 0 0 14 0V22z" fill="url(#gBlood)"/><rect x="2.5" y="14" width="2.4" height="38" rx="1" fill="#fff" opacity=".6"/><rect x="-2" y="2" width="20" height="11" rx="3" fill="currentColor"/><rect x="-2" y="2" width="20" height="11" rx="3" fill="url(#pRidge)"/><rect x="-2" y="2" width="20" height="3" rx="1.5" fill="#fff" opacity=".35"/></g>
+ <radialGradient id="gTgt" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f3efe6"/></radialGradient>
+</defs></svg>
+
+<h2 id="vs-s1"><span class="n">1</span> Calibración y rango de medida</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 200" role="img" aria-label="Rectas de calibración: más pendiente, más sensibilidad; rango de medida">
+ <rect x="44" y="30" width="206" height="140" fill="#e8f3ec"/>
+ <path d="M40 14V174H330" stroke="#718087" stroke-width="1.4" fill="none"/>
+ <text x="14" y="94" font-size="8.5" fill="#718087" transform="rotate(-90 14 94)" text-anchor="middle">señal del analizador</text><text x="185" y="190" font-size="8.5" fill="#718087" text-anchor="middle">concentración (calibradores)</text>
+ <path d="M40 170L250 30" stroke="#245b67" stroke-width="3"/><path d="M40 170L310 110" stroke="#b0643a" stroke-width="3" stroke-dasharray="6 4"/>
+ <g fill="#245b67"><circle cx="82" cy="142" r="3.5"/><circle cx="124" cy="114" r="3.5"/><circle cx="166" cy="86" r="3.5"/><circle cx="208" cy="58" r="3.5"/></g>
+ <text class="lbl" x="112" y="24" font-size="8.5">más pendiente = MÁS sensible</text><text class="lbl" x="226" y="100" font-size="8.5" style="fill:#b0643a">menos sensible</text>
+ <text x="96" y="52" font-size="9" font-weight="800" text-anchor="middle" fill="#3f8a5f">RANGO DE MEDIDA</text>
+ <rect x="254" y="36" width="80" height="36" rx="8" fill="#fbecea"/><text x="294" y="51" font-size="8.5" font-weight="800" text-anchor="middle" fill="#a8483b">por encima:</text><text x="294" y="64" font-size="8.5" text-anchor="middle" fill="#a8483b">DILUIR</text>
+ <rect x="46" y="176" width="0" height="0"/>
+</svg>
+<div class="facts">
+ <div class="fact"><b>Calibración</b>: operaciones que relacionan los valores de unos <b>materiales de referencia</b> con la señal que generan en el analizador.</div>
+ <div class="fact warn">Un error en la calibración produce un <b>error sistemático</b>.</div>
+ <div class="fact"><b>Rango de medida</b>: intervalo en el que se puede dar resultado. Si lo supera → <b>diluir</b>. Si es muy bajo → informar como <b>indetectable</b> o concentrar la muestra.</div>
+</div>
+</div>
+
+<h2 id="vs-s2"><span class="n">2</span> Exactitud, precisión y errores</h2>
+<div class="gallery" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))">
+ <div class="gi"><svg viewBox="0 0 100 86" aria-hidden="true"><circle cx="50" cy="43" r="38" fill="url(#gTgt)" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="26" fill="none" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="13" fill="#f6d7d1" stroke="#c96e61" stroke-width="1.5"/><g fill="#245b67"><circle cx="48" cy="42" r="2.6"/><circle cx="52" cy="44" r="2.6"/><circle cx="50" cy="40" r="2.6"/><circle cx="47" cy="46" r="2.6"/><circle cx="53" cy="41" r="2.6"/></g></svg><b style="color:var(--ok)">Exacto y preciso</b><small>lo ideal</small></div>
+ <div class="gi"><svg viewBox="0 0 100 86" aria-hidden="true"><circle cx="50" cy="43" r="38" fill="url(#gTgt)" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="26" fill="none" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="13" fill="#f6d7d1" stroke="#c96e61" stroke-width="1.5"/><g fill="#245b67"><circle cx="70" cy="22" r="2.6"/><circle cx="73" cy="25" r="2.6"/><circle cx="68" cy="26" r="2.6"/><circle cx="72" cy="20" r="2.6"/><circle cx="75" cy="23" r="2.6"/></g></svg><b>Preciso, NO exacto</b><small><b>error sistemático</b> (sesgo) · se corrige calibrando</small></div>
+ <div class="gi"><svg viewBox="0 0 100 86" aria-hidden="true"><circle cx="50" cy="43" r="38" fill="url(#gTgt)" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="26" fill="none" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="13" fill="#f6d7d1" stroke="#c96e61" stroke-width="1.5"/><g fill="#245b67"><circle cx="30" cy="30" r="2.6"/><circle cx="68" cy="58" r="2.6"/><circle cx="36" cy="64" r="2.6"/><circle cx="66" cy="26" r="2.6"/><circle cx="50" cy="43" r="2.6"/></g></svg><b>Exacto de media, NO preciso</b><small><b>error aleatorio</b> · mucha dispersión (CV)</small></div>
+ <div class="gi"><svg viewBox="0 0 100 86" aria-hidden="true"><circle cx="50" cy="43" r="38" fill="url(#gTgt)" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="26" fill="none" stroke="#c96e61" stroke-width="1.5"/><circle cx="50" cy="43" r="13" fill="#f6d7d1" stroke="#c96e61" stroke-width="1.5"/><g fill="#245b67"><circle cx="72" cy="18" r="2.6"/><circle cx="80" cy="36" r="2.6"/><circle cx="62" cy="14" r="2.6"/><circle cx="84" cy="24" r="2.6"/><circle cx="70" cy="32" r="2.6"/></g></svg><b style="color:var(--danger)">Ni exacto ni preciso</b><small>los dos errores a la vez</small></div>
+</div>
+<div class="two" style="margin-top:10px">
+ <div class="box" style="border-left:5px solid var(--comun)"><h4>Error ALEATORIO (indeterminado)</h4><p>Impredecible, de causa difícil de saber. Da <b>falta de precisión</b>. Se mide con la dispersión: <b>coeficiente de variación</b> (mejor) y desviación estándar.</p></div>
+ <div class="box" style="border-left:5px solid var(--extr)"><h4>Error SISTEMÁTICO (determinado)</h4><p>Resultados precisos pero <b>inexactos</b>. Se mide con el <b>sesgo</b> (error absoluto y relativo) y se <b>corrige con la calibración</b>.</p></div>
+</div>
+<div class="facts">
+ <div class="fact gold"><b>Error total</b> = error aleatorio (CV) + error sistemático.</div>
+ <div class="fact"><b>Exactitud</b>: cercanía al valor verdadero. <b>Precisión</b>: cercanía de las medidas entre sí → <b>repetibilidad</b> (mismas condiciones) y <b>reproducibilidad</b> (condiciones distintas).</div>
+ <div class="fact"><b>Sensibilidad analítica</b>: capacidad de detectar el valor más pequeño de la magnitud (y la pendiente de la recta).</div>
+ <div class="fact"><b>Límite de detección</b>: el valor mínimo distinto del blanco. <b>Límite de cuantificación</b>: el valor mínimo con una precisión aceptable (en general, CV &lt;10 %).</div>
+</div>
+
+<h2 id="vs-s3"><span class="n">3</span> Control de calidad</h2>
+<div class="vcard">
+<div class="two">
+ <div class="box" style="border-left:5px solid var(--primary)"><h4>INTERNO · intralaboratorio</h4><p>Se <b>conoce</b> el valor que debe dar. Si falla, se busca la causa <b>antes</b> de dar resultados. Vigila exactitud, precisión y error total <b>a lo largo del tiempo</b>.</p><p>Gráficas: <b>Levey-Jennings</b>, radar, <b>multirreglas de Westgard</b> y <b>Cusum</b> (plantilla en V).</p></div>
+ <div class="box" style="border-left:5px solid var(--gold)"><h4>EXTERNO · interlaboratorio</h4><p>Ensayo de aptitud: <b>no se conoce</b> el valor. Mide el error total <b>en un momento</b> y compara con otros laboratorios.</p><p>Gráfica: <b>Youden</b>.</p></div>
+</div>
+<h3 class="sub">Gráfica de Levey-Jennings con las reglas de Westgard</h3>
+<svg viewBox="0 0 340 200" role="img" aria-label="Gráfica de Levey-Jennings con violaciones de las reglas de Westgard">
+ <rect x="40" y="29" width="292" height="22" fill="#fbecea"/><rect x="40" y="139" width="292" height="22" fill="#fbecea"/><rect x="40" y="51" width="292" height="88" fill="#e8f3ec"/>
+ <g stroke="#c96e61" stroke-width="1" stroke-dasharray="4 3"><path d="M40 29h292M40 161h292"/></g><g stroke="#e4bd55" stroke-width="1" stroke-dasharray="4 3"><path d="M40 51h292M40 139h292"/></g><g stroke="#9aa6ab" stroke-width=".8" stroke-dasharray="2 3"><path d="M40 73h292M40 117h292"/></g><path d="M40 95h292" stroke="#245b67" stroke-width="1.4"/>
+ <g font-size="8" font-weight="800" text-anchor="end" fill="#718087"><text x="36" y="32">+3 DE</text><text x="36" y="54">+2 DE</text><text x="36" y="76">+1 DE</text><text x="36" y="98" fill="#245b67">media</text><text x="36" y="120">−1 DE</text><text x="36" y="142">−2 DE</text><text x="36" y="164">−3 DE</text></g>
+ <path d="M48 91 62 108 77 75 91 102 106 64 120 22 135 93 149 113 164 44 178 40 193 88 207 106 222 47 236 146 251 86 265 99 280 69 294 66 309 71 323 64" stroke="#245b67" stroke-width="1.2" fill="none" opacity=".5"/>
+ <g fill="#245b67"><circle cx="48" cy="91" r="3"/><circle cx="62" cy="108" r="3"/><circle cx="77" cy="75" r="3"/><circle cx="91" cy="102" r="3"/><circle cx="106" cy="64" r="3"/><circle cx="135" cy="93" r="3"/><circle cx="149" cy="113" r="3"/><circle cx="193" cy="88" r="3"/><circle cx="207" cy="106" r="3"/><circle cx="251" cy="86" r="3"/><circle cx="265" cy="99" r="3"/></g>
+ <g fill="#c0392b"><circle cx="120" cy="22" r="3.6"/><circle cx="164" cy="44" r="3.6"/><circle cx="178" cy="40" r="3.6"/><circle cx="222" cy="47" r="3.6"/><circle cx="236" cy="146" r="3.6"/></g>
+ <g fill="#b0643a"><circle cx="280" cy="69" r="3.6"/><circle cx="294" cy="66" r="3.6"/><circle cx="309" cy="71" r="3.6"/><circle cx="323" cy="64" r="3.6"/></g>
+ <g font-size="8.5" font-weight="900"><text x="120" y="14" text-anchor="middle" fill="#c0392b">1₃s</text><text x="171" y="24" text-anchor="middle" fill="#c0392b">2₂s</text><text x="229" y="184" text-anchor="middle" fill="#c0392b">R₄s</text><text x="301" y="52" text-anchor="middle" fill="#b0643a">4₁s</text></g>
+ <path d="M222 51v91" stroke="#c0392b" stroke-width="1" stroke-dasharray="2 2"/>
+ <text x="186" y="196" font-size="8" text-anchor="middle" fill="#718087">días (una medida de control por serie)</text>
+</svg>
+<table class="mtab">
+ <tr><td>1₂s</td><td>Un control pasa de <b>±2 DE</b> → aviso (se suele aceptar media ± 2 DE)</td></tr>
+ <tr><td>1₃s</td><td>Un control pasa de <b>±3 DE</b> → rechazo</td></tr>
+ <tr><td>2₂s</td><td><b>Dos seguidos</b> pasan de 2 DE</td></tr>
+ <tr><td>R₄s</td><td>Dos seguidos separados entre sí <b>4 DE</b> (uno arriba, otro abajo)</td></tr>
+ <tr><td>4₁s</td><td><b>Cuatro seguidos</b> pasan de 1 DE por el mismo lado</td></tr>
+ <tr><td>10x</td><td><b>Diez seguidos</b> al mismo lado de la media</td></tr>
+</table>
+<p class="hint">Las reglas de Westgard detectan error aleatorio (1₃s, R₄s) y sistemático (2₂s, 4₁s, 10x).</p>
+</div>
+
+<h2 id="vs-s4"><span class="n">4</span> Pruebas diagnósticas</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 176" role="img" aria-label="Tabla de contingencia: verdaderos y falsos positivos y negativos">
+ <text x="200" y="14" font-size="10" font-weight="900" text-anchor="middle" fill="#245b67">Estado real del paciente</text>
+ <text x="150" y="32" font-size="9.5" font-weight="800" text-anchor="middle" fill="#c0392b">ENFERMOS</text><text x="260" y="32" font-size="9.5" font-weight="800" text-anchor="middle" fill="#3f8a5f">SANOS</text>
+ <text x="14" y="98" font-size="10" font-weight="900" text-anchor="middle" fill="#245b67" transform="rotate(-90 14 98)">Resultado</text>
+ <text x="58" y="68" font-size="9.5" font-weight="800" text-anchor="middle" fill="#17252b">Positivo +</text><text x="58" y="128" font-size="9.5" font-weight="800" text-anchor="middle" fill="#17252b">Negativo −</text>
+ <g filter="url(#sh)"><rect x="96" y="40" width="108" height="54" rx="10" fill="#3f8a5f"/><rect x="206" y="40" width="108" height="54" rx="10" fill="#e8a99c"/><rect x="96" y="96" width="108" height="54" rx="10" fill="#e8a99c"/><rect x="206" y="96" width="108" height="54" rx="10" fill="#3f8a5f"/></g>
+ <g font-size="15" font-weight="900" text-anchor="middle" fill="#fff"><text x="150" y="70">VP</text><text x="260" y="126">VN</text></g><g font-size="15" font-weight="900" text-anchor="middle" fill="#7a2a20"><text x="260" y="70">FP</text><text x="150" y="126">FN</text></g>
+ <g font-size="7.5" text-anchor="middle"><text x="150" y="84" fill="#e8f3ec">verdadero positivo</text><text x="260" y="84" fill="#7a2a20">falso positivo</text><text x="150" y="140" fill="#7a2a20">falso negativo</text><text x="260" y="140" fill="#e8f3ec">verdadero negativo</text></g>
+ <path d="M150 156v10M260 156v10" stroke="#718087"/><text x="150" y="174" font-size="8.5" font-weight="800" text-anchor="middle" fill="#c0392b">Sensibilidad</text><text x="260" y="174" font-size="8.5" font-weight="800" text-anchor="middle" fill="#3f8a5f">Especificidad</text>
+</svg>
+<div class="fms">
+ <div class="fm"><small>Sensibilidad</small><div class="v" style="font-size:16px">VP / (VP + FN)</div><span class="f">acierta en ENFERMOS</span></div>
+ <div class="fm"><small>Especificidad</small><div class="v" style="font-size:16px">VN / (VN + FP)</div><span class="f">acierta en SANOS</span></div>
+ <div class="fm"><small>VPP</small><div class="v" style="font-size:16px">VP / (VP + FP)</div><span class="f">¿el + está enfermo?</span></div>
+ <div class="fm"><small>VPN</small><div class="v" style="font-size:16px">VN / (VN + FN)</div><span class="f">¿el − está sano?</span></div>
+</div>
+<div class="facts">
+ <div class="fact gold"><b>Regla SE</b>: <b>S</b>ensibilidad → <b>E</b>nfermos · e<b>S</b>pecificidad → <b>S</b>anos. Sensibilidad y especificidad van <b>del paciente al resultado</b>; los valores predictivos, <b>del resultado al paciente</b>.</div>
+ <div class="fact">Para <b>cribar</b> se elige alta <b>sensibilidad</b> (pocos falsos negativos); para <b>confirmar</b>, alta <b>especificidad</b> (pocos falsos positivos).</div>
+ <div class="fact"><b>Curva ROC</b>: sensibilidad frente a (1 − especificidad). Cuanta más <b>área bajo la curva</b> (AUC), mejor discrimina la prueba.</div>
+ <div class="fact"><b>Intervalo de referencia</b>: el 95 % central de una población de referencia. <b>Delta check</b>: diferencia relevante entre dos resultados seguidos del mismo paciente.</div>
+ <div class="fact warn"><b>Valores críticos</b>: ponen en peligro la vida si no se actúa ya. Necesitan un protocolo para comunicarlos rápido.</div>
+</div>
+</div>
+
+<h2 id="vs-s5"><span class="n">5</span> Estadística básica</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 150" role="img" aria-label="Campana de Gauss con media y desviaciones estándar">
+ <defs><clipPath id="bell"><path d="M20 130C80 130 110 126 130 96 150 60 160 22 170 22S190 60 210 96 260 130 320 130Z"/></clipPath></defs>
+ <g clip-path="url(#bell)"><rect x="20" y="0" width="300" height="140" fill="#fbecea"/><rect x="80" y="0" width="180" height="140" fill="#fff3d6"/><rect x="125" y="0" width="90" height="140" fill="#d6ece0"/></g>
+ <path d="M20 130C80 130 110 126 130 96 150 60 160 22 170 22S190 60 210 96 260 130 320 130" stroke="#245b67" stroke-width="2.4" fill="none"/>
+ <path d="M170 18v112" stroke="#245b67" stroke-width="1.4" stroke-dasharray="3 3"/><path d="M14 130h312" stroke="#718087"/>
+ <g font-size="8.5" text-anchor="middle" fill="#17252b" font-weight="800"><text x="170" y="142">media</text><text x="125" y="142">−1 DE</text><text x="215" y="142">+1 DE</text><text x="80" y="142">−2 DE</text><text x="260" y="142">+2 DE</text></g>
+ <text x="170" y="112" font-size="9" font-weight="900" text-anchor="middle" fill="#2f6e4a">68 %</text><text x="272" y="40" font-size="8.5" font-weight="800" fill="#17252b">±1 DE → 68 %</text><text x="272" y="54" font-size="8.5" font-weight="800" fill="#8a6a12">±2 DE → 95 %</text><text x="272" y="68" font-size="8.5" font-weight="800" fill="#a8483b">±3 DE → 99,7 %</text>
+</svg>
+<div class="fms">
+ <div class="fm"><small>Centralización</small><div class="v" style="font-size:15px">media · mediana · moda</div><p>moda = el valor más repetido; mediana = divide en dos mitades</p></div>
+ <div class="fm"><small>Posición («-iles»)</small><div class="v" style="font-size:15px">cuartiles · deciles · percentiles</div></div>
+ <div class="fm"><small>Dispersión</small><div class="v" style="font-size:15px">rango · DE · varianza · CV</div><p>DE = raíz cuadrada de la varianza</p></div>
+ <div class="fm"><small>Coeficiente de variación</small><div class="v" style="font-size:16px">CV = DE / media × 100</div><p>sin unidades: compara la precisión de parámetros distintos</p></div>
+</div>
+</div>
+
+<h2 id="vs-s6"><span class="n">6</span> Unidades, soluciones y diluciones</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 92" role="img" aria-label="Escalera de prefijos: mili, micro, nano, pico, femto">
+ <g font-weight="900" text-anchor="middle">
+  <rect x="6" y="10" width="60" height="70" rx="10" fill="#245b67"/><text x="36" y="40" font-size="12" fill="#fff">mili</text><text x="36" y="62" font-size="13" fill="#e4bd55">10⁻³</text>
+  <rect x="72" y="18" width="60" height="62" rx="10" fill="#2f7382"/><text x="102" y="44" font-size="12" fill="#fff">micro</text><text x="102" y="64" font-size="13" fill="#e4bd55">10⁻⁶</text>
+  <rect x="138" y="26" width="60" height="54" rx="10" fill="#3b8a99"/><text x="168" y="48" font-size="12" fill="#fff">nano</text><text x="168" y="68" font-size="13" fill="#e4bd55">10⁻⁹</text>
+  <rect x="204" y="34" width="60" height="46" rx="10" fill="#5aa0ad"/><text x="234" y="53" font-size="12" fill="#fff">pico</text><text x="234" y="71" font-size="13" fill="#fff4cf">10⁻¹²</text>
+  <rect x="270" y="42" width="60" height="38" rx="10" fill="#7fb7c2"/><text x="300" y="58" font-size="12" fill="#fff">femto</text><text x="300" y="74" font-size="13" fill="#fff4cf">10⁻¹⁵</text>
+ </g>
+</svg>
+<div class="fms">
+ <div class="fm"><small>Molaridad (M)</small><div class="v" style="font-size:15px">moles / L de disolución</div></div>
+ <div class="fm"><small>Molalidad (m)</small><div class="v" style="font-size:15px">moles / kg de disolvente</div></div>
+ <div class="fm"><small>Normalidad (ácido)</small><div class="v" style="font-size:15px">N = M × nº H⁺</div></div>
+ <div class="fm"><small>Moles</small><div class="v" style="font-size:15px">gramos / peso molecular</div><p>1 M de NaOH (PM 40) = 40 g en 1 L</p></div>
+ <div class="fm"><small>Diluir una solución</small><div class="v" style="font-size:15px">C₁ × V₁ = C₂ × V₂</div></div>
+</div>
+<h3 class="sub">Dilución 1:10</h3>
+<svg viewBox="0 0 340 118" role="img" aria-label="Dilución 1:10: 1 parte de muestra más 9 de diluyente">
+ <g transform="translate(40,10)"><path d="M0 0V70a14 14 0 0 0 28 0V0z" fill="#fbfbfb" stroke="#a3b0b5" stroke-width="1.4"/><path d="M1 64V70a13 13 0 0 0 26 0V64z" fill="#e0643a"/><text x="14" y="100" font-size="9" font-weight="800" text-anchor="middle" fill="#17252b">1 muestra</text></g>
+ <text x="100" y="54" font-size="20" font-weight="900" fill="#245b67" text-anchor="middle">+</text>
+ <g transform="translate(126,10)"><path d="M0 0V70a14 14 0 0 0 28 0V0z" fill="#fbfbfb" stroke="#a3b0b5" stroke-width="1.4"/><path d="M1 16V70a13 13 0 0 0 26 0V16z" fill="#cfe3f5"/><text x="14" y="100" font-size="9" font-weight="800" text-anchor="middle" fill="#17252b">9 diluyente</text></g>
+ <path d="M172 50h34" stroke="#718087" stroke-width="2" marker-end="url(#ar)"/>
+ <g transform="translate(222,10)"><path d="M0 0V70a14 14 0 0 0 28 0V0z" fill="#fbfbfb" stroke="#a3b0b5" stroke-width="1.4"/><path d="M1 10V70a13 13 0 0 0 26 0V10z" fill="#f3c7b6"/><text x="14" y="100" font-size="9" font-weight="800" text-anchor="middle" fill="#17252b">10 en total</text></g>
+ <text x="300" y="46" font-size="12" font-weight="900" text-anchor="middle" fill="#c0392b">1:10</text><text x="300" y="60" font-size="8" text-anchor="middle" fill="#718087">el denominador</text><text x="300" y="70" font-size="8" text-anchor="middle" fill="#718087">es el TOTAL</text>
+</svg>
+<div class="facts">
+ <div class="fact gold">Truco para no fallar: multiplica numerador y denominador por lo mismo. 1:10 → 0,1 mL de muestra + 0,9 mL de diluyente (el denominador es disolvente + muestra).</div>
+ <div class="fact"><b>Ósmosis</b>: el agua pasa de la solución <b>más diluida</b> a la <b>más concentrada</b> para igualarlas.</div>
+</div>
+</div>
+
+<h2 id="vs-s7"><span class="n">7</span> Preanalítica: tubos y muestras</h2>
+<div class="vcard">
+<h3 class="sub" style="margin-top:0">Orden de extracción</h3>
+<svg viewBox="0 0 340 154" role="img" aria-label="Orden de llenado de los tubos de extracción">
+ <g transform="translate(14,18)"><rect x="0" y="10" width="30" height="62" rx="8" fill="#fbfbfb" stroke="#a3b0b5" stroke-width="1.4"/><rect x="2" y="30" width="26" height="40" rx="6" fill="#f3e6c8"/><rect x="6" y="0" width="18" height="12" rx="3" fill="#8a6a12"/><text x="15" y="56" font-size="7" font-weight="900" text-anchor="middle" fill="#8a6a12">🦠</text></g>
+ <use href="#tb1" x="70" y="18" style="color:#8ec1ea"/><use href="#tb1" x="122" y="18" style="color:#d83a2f"/><use href="#tb1" x="174" y="18" style="color:#3f8a5f"/><use href="#tb1" x="226" y="18" style="color:#8a5bbf"/><use href="#tb1" x="278" y="18" style="color:#8c979c"/>
+ <g font-size="11" font-weight="900" text-anchor="middle" fill="#fff"><circle cx="29" cy="10" r="8" fill="#245b67"/><text x="29" y="14">1</text><circle cx="78" cy="10" r="8" fill="#245b67"/><text x="78" y="14">2</text><circle cx="130" cy="10" r="8" fill="#245b67"/><text x="130" y="14">3</text><circle cx="182" cy="10" r="8" fill="#245b67"/><text x="182" y="14">4</text><circle cx="234" cy="10" r="8" fill="#245b67"/><text x="234" y="14">5</text><circle cx="286" cy="10" r="8" fill="#245b67"/><text x="286" y="14">6</text></g>
+ <g font-size="8.5" font-weight="800" text-anchor="middle" fill="#17252b"><text x="29" y="104">Hemo-</text><text x="29" y="114">cultivos</text><text x="78" y="104">Citrato</text><text x="130" y="104">Suero</text><text x="182" y="104">Heparina</text><text x="234" y="104">EDTA</text><text x="286" y="104">Fluoruro</text></g>
+ <g font-size="7.5" text-anchor="middle" fill="#718087"><text x="78" y="116">azul claro</text><text x="78" y="126">coagulación</text><text x="130" y="116">rojo/amarillo</text><text x="130" y="126">sin anticoag.</text><text x="182" y="116">verde</text><text x="182" y="126">bioquímica</text><text x="234" y="116">lila</text><text x="234" y="126">hemograma</text><text x="290" y="116">gris</text><text x="290" y="126">glucosa</text><text x="290" y="136">y lactato</text></g>
+ <path d="M14 146h312" stroke="#718087" stroke-width="1.4" marker-end="url(#ar)"/>
+</svg>
+<div class="facts">
+ <div class="fact"><b>Citrato</b> (azul claro): coagulación, <b>1 : 9</b>. Hay que enrasarlo bien y sacarlo antes que cualquier otro tubo con anticoagulante. No confundir con el citrato de la <b>VSG</b> (tapón negro, 1 : 4).</div>
+ <div class="fact"><b>EDTA</b> (lila): hemograma y biología molecular · <b>heparina</b> (verde): bioquímica y cariotipo · <b>oxalato-fluoruro</b> (gris): frena la glucólisis → glucosa y lactato · <b>aprotinina</b> (rosa): hormonas inestables (ACTH).</div>
+ <div class="fact warn">Casi todos los anticoagulantes funcionan <b>quelando el calcio</b>, <b>excepto la heparina</b> (actúa vía antitrombina). El calcio se puede medir en suero porque en la coagulación se gasta muy poco.</div>
+ <div class="fact"><b>Hemólisis</b>: altera potasio, LDH, enolasa, renina… <b>Índices</b> del analizador: hemólisis 550-600 nm · ictericia 450 nm · lipemia (turbidez).</div>
+</div>
+<h3 class="sub">Transporte de muestras: triple envase</h3>
+<svg viewBox="0 0 340 150" role="img" aria-label="Triple envase para muestras biológicas UN 3373">
+ <rect x="12" y="14" width="180" height="124" rx="10" fill="#e9dcc3" stroke="#b89a66" stroke-width="2"/>
+ <rect x="36" y="32" width="132" height="90" rx="14" fill="#dcecf7" stroke="#8fb3de" stroke-width="2" stroke-dasharray="6 3"/>
+ <rect x="56" y="48" width="92" height="60" rx="10" fill="#fff" stroke="#d9c9a6"/>
+ <g transform="translate(78,50)"><use href="#tb1" style="color:#d83a2f"/></g><g transform="translate(108,50)"><use href="#tb1" style="color:#8a5bbf"/></g>
+ <g transform="translate(160,32) rotate(45)"><rect x="-15" y="-15" width="30" height="30" fill="#fff" stroke="#17252b" stroke-width="1.6"/></g><text x="160" y="34" font-size="7" font-weight="900" text-anchor="middle" fill="#17252b">UN</text><text x="160" y="42" font-size="7" font-weight="900" text-anchor="middle" fill="#17252b">3373</text>
+ <g font-size="8.5" fill="#17252b"><path class="lead" d="M148 70l56-24"/><text x="206" y="40" font-weight="800">1.º primario</text><text x="206" y="51" fill="#718087">el tubo, estanco</text>
+ <path class="lead" d="M168 96l36-8"/><text x="206" y="82" font-weight="800">2.º secundario</text><text x="206" y="93" fill="#718087">estanco + absorbente</text>
+ <path class="lead" d="M192 124l12-2"/><text x="206" y="120" font-weight="800">3.º exterior</text><text x="206" y="131" fill="#718087">rígido y etiquetado</text></g>
+</svg>
+<div class="facts">
+ <div class="fact gold">Muestras biológicas <b>categoría B</b> · número ONU <b>3373</b> · instrucción de embalaje <b>P650</b> · normativa <b>ADR</b>.</div>
+ <div class="fact"><b>POCT</b>: pruebas «a la cabecera del paciente», con resultado rápido. Su norma de acreditación específica es la <b>ISO 22870:2017</b>.</div>
+</div>
+</div>
+
+<h2 id="vs-s8"><span class="n">8</span> Calidad y normas</h2>
+<div class="vcard">
+<div class="two">
+ <div class="box"><h4>Modelo de Donabedian</h4><div class="labs"><span class="lb eq">ESTRUCTURA</span><span class="lb eq">PROCESO</span><span class="lb eq">RESULTADOS</span></div><p>Los tres pilares de la calidad de la atención médica.</p></div>
+ <div class="box"><h4>Ciclo de Deming (PDCA)</h4>
+  <svg viewBox="0 0 200 120" aria-hidden="true" style="max-width:220px;margin:0 auto">
+   <g transform="translate(100,60)"><path d="M0-52A52 52 0 0 1 52 0H0z" fill="#245b67"/><path d="M52 0A52 52 0 0 1 0 52V0z" fill="#3f8a5f"/><path d="M0 52A52 52 0 0 1-52 0H0z" fill="#e4bd55"/><path d="M-52 0A52 52 0 0 1 0-52V0z" fill="#c96e61"/><circle r="18" fill="#fff"/>
+   <g font-size="9.5" font-weight="900" fill="#fff" text-anchor="middle"><text x="24" y="-22">PLAN</text><text x="24" y="30">DO</text><text x="-24" y="30" fill="#5a4210">CHECK</text><text x="-24" y="-22">ACT</text></g><text y="4" font-size="9" font-weight="900" text-anchor="middle" fill="#245b67">↻</text></g>
+  </svg></div>
+</div>
+<table class="mtab" style="margin-top:10px">
+ <tr><td>ISO 9001:2015</td><td><b>Certificación</b> de sistemas de gestión de la calidad (cualquier empresa)</td></tr>
+ <tr><td>ISO 15189:2022</td><td><b>Acreditación</b>, exclusiva del <b>laboratorio clínico</b>: evalúa la <b>competencia técnica</b></td></tr>
+ <tr><td>ISO 22870:2017</td><td>Acreditación específica de los <b>POCT</b></td></tr>
+ <tr><td>ISO 17025</td><td>Laboratorios de <b>ensayo y calibración</b></td></tr>
+ <tr><td>Modelo EFQM</td><td>Modelo europeo de excelencia; <b>no normativo</b>; calidad total</td></tr>
+</table>
+<div class="fms" style="margin-top:10px">
+ <div class="fm"><small>Eficacia</small><div class="v" style="font-size:15px">en condiciones IDEALES</div></div>
+ <div class="fm"><small>Efectividad</small><div class="v" style="font-size:15px">en condiciones REALES</div></div>
+ <div class="fm"><small>Eficiencia</small><div class="v" style="font-size:15px">relacionada con el COSTE</div></div>
+</div>
+<div class="facts">
+ <div class="fact"><b>Indicador</b>: medida cuantitativa que permite controlar y valorar un proceso.</div>
+ <div class="fact gold">Truco: «en cien<b>cia</b> hay que gastarse pasta» → efi<b>ciencia</b> = coste. «Efecti<b>vi</b>dad = <b>vi</b>da real».</div>
+</div>
+</div>
+
+<h2 id="vs-s9"><span class="n">9</span> Trampas de examen</h2>
+<div class="traps">
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>El error sistemático se detecta con el coeficiente de variación</div><div class="yes"><b>✓ CORRECTO</b>El CV mide el error <b>aleatorio</b>; el sistemático se mide con el <b>sesgo</b> y se corrige calibrando</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Youden sirve para el control interno</div><div class="yes"><b>✓ CORRECTO</b>Youden → control <b>externo</b>. Levey-Jennings, Westgard, Cusum → <b>interno</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>En el control externo se conoce el valor que debe dar</div><div class="yes"><b>✓ CORRECTO</b>Se conoce en el <b>interno</b>; en el externo, no</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Para cribar se busca alta especificidad</div><div class="yes"><b>✓ CORRECTO</b>Cribado → alta <b>sensibilidad</b>; confirmación → alta <b>especificidad</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>La heparina anticoagula quelando el calcio</div><div class="yes"><b>✓ CORRECTO</b>Es la excepción: actúa con la <b>antitrombina</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>El CV es una medida de tendencia central</div><div class="yes"><b>✓ CORRECTO</b>Es de <b>dispersión</b>; las de tendencia central son media, mediana y moda</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>La ISO 15189 certifica el laboratorio</div><div class="yes"><b>✓ CORRECTO</b>La 15189 <b>acredita</b> (competencia técnica); la 9001 <b>certifica</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Dilución 1:10 = 1 mL de muestra + 10 mL de diluyente</div><div class="yes"><b>✓ CORRECTO</b>1 + <b>9</b>: el 10 es el volumen <b>total</b></div></div>
+</div>
+<p class="hint">Ojo: alguna pregunta antigua del banco da el orden rojo → azul → verde → lila → gris. El orden actual pone el citrato (azul) antes que el suero.</p>
+
+<h2><span class="n">★</span> Trucos para memorizar</h2>
+<div class="mnemo">
+ <div class="mn"><div class="big">SE</div><p><b>S</b>ensibilidad → <b>E</b>nfermos · e<b>S</b>pecificidad → <b>S</b>anos</p></div>
+ <div class="mn"><div class="big">P-D-C-A</div><p>Deming: Plan, Do, Check, Act</p></div>
+ <div class="mn"><div class="big">AcreditaZión</div><p>15189 → acreditación (la de la Z, la del laboratorio clínico)</p></div>
+ <div class="mn"><div class="big">m-µ-n-p-f</div><p>mili 10⁻³ · micro 10⁻⁶ · nano 10⁻⁹ · pico 10⁻¹² · femto 10⁻¹⁵: bajan de 3 en 3</p></div>
+</div>
+
+<h2 id="vs-s10"><span class="n">10</span> ¿Te lo sabes? <small style="font-weight:500;color:var(--muted);font-size:13px">toca la tarjeta</small></h2>
+<div class="flash">
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">¿Qué error corrige la calibración?</div><div class="face vback">El sistemático</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Fórmula del coeficiente de variación</div><div class="face vback">DE / media × 100</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Regla 1₃s</div><div class="face vback">Un control fuera de ±3 DE → rechazo</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Gráfica del control externo</div><div class="face vback">Youden</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Intervalo de referencia</div><div class="face vback">El 95 % central de la población</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Nº ONU de la categoría B</div><div class="face vback">UN 3373 · embalaje P650</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Tubo para glucosa y lactato</div><div class="face vback">Oxalato-fluoruro (gris)</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Norma de los POCT</div><div class="face vback">ISO 22870:2017</div></div></label>
+</div>
+<p class="hint">Cuando acabes, pulsa «Hacer test» para practicar las preguntas del tema.</p>
