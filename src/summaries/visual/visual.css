@@ -174,3 +174,6 @@
 .vsum h2{scroll-margin-top:64px}
 .vsum{min-width:0;width:100%}
 .vsum svg[role="img"]{max-width:680px;margin-left:auto;margin-right:auto}
+.vsum .chips{margin:0 -2px;padding:10px 2px 10px;border-bottom:1px solid var(--line);box-shadow:0 8px 14px -12px rgba(34,55,60,.35);scrollbar-width:none}
+.vsum .chips::-webkit-scrollbar{display:none}
+.vsum .chip.active{background:var(--primary);border-color:var(--primary);color:#fff}

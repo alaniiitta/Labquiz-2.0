@@ -14,7 +14,6 @@ import {clearTestSession,createBackup,loadSavedTest,loadUserData,parseBackup,sav
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
-const syllabusPdfFiles=import.meta.glob("/pdfs/temarios/*.pdf",{query:"?url",import:"default",eager:true});
 
 const topics=[
  {id:1,title:"Conceptos generales"}, {id:2,title:"Líquidos biológicos"},
@@ -42,9 +41,6 @@ const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filt
 });
 const getPdfUrl=id=>Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${String(id).padStart(2,"0")}(?:\\D|$)` ,"i").test(path))?.[1]
     ?? Object.entries(pdfFiles).find(([path])=>new RegExp(`(?:tema|topic)[-_\\s]*${id}(?:\\D|$)` ,"i").test(path))?.[1];
-const getSyllabusPdfs=id=>Object.entries(syllabusPdfFiles)
- .filter(([path])=>new RegExp(`/Tema\\s+${id}(?:\\.|\\s)`,"i").test(path))
- .map(([path,url])=>({url,title:path.split("/").pop().replace(/\.pdf$/i,"")}));
 const getAllQuestions=()=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id})));
 const getFailedQuestions=progress=>getAllQuestions().filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
 const getFavoriteQuestions=favorites=>getAllQuestions().filter(question=>favorites.includes(getQuestionIdForProgress(question)));
@@ -89,7 +85,7 @@ function App(){
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage openTopic={t=>{setSelected(t);go("topic")}}/>}
-  {page==="topic"&&selected&&<TopicPage topic={selected} pdfs={getSyllabusPdfs(selected.id)} go={go} onStartTest={()=>openTest(selected.id)}/>}
+  {page==="topic"&&selected&&<TopicPage topic={selected} go={go} onStartTest={()=>openTest(selected.id)}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>openTest(null,"mixed",null,count)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
@@ -167,11 +163,16 @@ function SummaryPage({openTopic}){const [q,setQ]=useState("");const filtered=top
 function VisualSummary({html}){const ref=useRef(null);
  // Los índices del resumen son enlaces "#vs-sN": se desplaza dentro de la página sin tocar la URL.
  const onClick=e=>{const link=e.target.closest?.('a[href^="#vs-"]');if(!link)return;e.preventDefault();ref.current?.querySelector(link.getAttribute("href"))?.scrollIntoView({behavior:"smooth",block:"start"})};
+ // Marca en la barra fija la pestaña del bloque que se está leyendo.
+ useEffect(()=>{const root=ref.current;if(!root||!("IntersectionObserver" in window))return;
+  const setActive=id=>root.querySelectorAll(".chips a").forEach(a=>{const on=a.getAttribute("href")===`#${id}`;a.classList.toggle("active",on);if(on){const bar=a.parentElement;bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:"smooth"})}});
+  const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(visible)setActive(visible.target.id)},{rootMargin:"-70px 0px -65% 0px"});
+  root.querySelectorAll('h2[id^="vs-"]').forEach(h=>observer.observe(h));return()=>observer.disconnect()},[html]);
  return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={{__html:visualSummaryDefs+html}}/>}
 
-function TopicPage({topic,pdfs,go,onStartTest}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
+function TopicPage({topic,go,onStartTest}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
- <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}{pdfs.length>0&&<div className="topicPdfLinks">{pdfs.map(pdf=><a className="topicPdfLink" href={pdf.url} target="_blank" rel="noreferrer" key={pdf.url}><BookOpen/><span><b>Abrir temario PDF</b><small>{pdf.title}</small></span></a>)}</div>}</div></section>
+ <section className="topicHero"><div><span className="badge">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2><p>{summary?.intro ?? "Contenido pendiente de añadir."}</p>{summary?.status&&<p className="topicStatus">{summary.status}</p>}</div></section>
  {visual?<div className="visualLayout"><VisualSummary html={visual}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
    {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
