@@ -1,0 +1,130 @@
+<nav class="chips"><a class="chip" href="#vs-s1">Ag-Ac</a><a class="chip" href="#vs-s2">Precipitación</a><a class="chip" href="#vs-s3">Aglutinación</a><a class="chip" href="#vs-s4">Inmunoensayos</a><a class="chip" href="#vs-s5">Radiactividad</a><a class="chip" href="#vs-s6">Interpretar</a><a class="chip" href="#vs-s7">Trampas</a><a class="chip" href="#vs-s8">Autotest</a></nav>
+
+<h2 id="vs-s1"><span class="n">1</span> La unión antígeno-anticuerpo</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 180" role="img" aria-label="Curva de precipitación: prozona, zona de equivalencia y postzona">
+ <path d="M30 14V150H330" stroke="#718087" stroke-width="1.4" fill="none"/>
+ <text x="14" y="84" font-size="8.5" fill="#718087" transform="rotate(-90 14 84)" text-anchor="middle">precipitado / señal</text><text x="270" y="164" font-size="8.5" fill="#718087" text-anchor="middle">cantidad de antígeno →</text>
+ <rect x="30" y="14" width="80" height="136" fill="#dbe9f4" opacity=".6"/><rect x="110" y="14" width="90" height="136" fill="#e8f3ec" opacity=".8"/><rect x="200" y="14" width="130" height="136" fill="#fbecea" opacity=".7"/>
+ <path d="M30 148C70 146 90 70 130 36S180 36 200 60 270 140 330 146" stroke="#245b67" stroke-width="3" fill="none"/>
+ <g font-size="8.5" font-weight="900" text-anchor="middle"><text x="70" y="28" fill="#2a5282">exceso de Ac</text><text x="265" y="28" fill="#a8483b">exceso de Ag</text></g>
+ <text x="265" y="42" font-size="8" text-anchor="middle" fill="#a8483b">efecto prozona / Hook</text><text x="265" y="54" font-size="7.5" text-anchor="middle" fill="#718087">falso negativo → diluir</text>
+ <text x="155" y="164" font-size="8.5" text-anchor="middle" fill="#2f6e4a" font-weight="900">EQUIVALENCIA</text><text x="155" y="175" font-size="7.5" text-anchor="middle" fill="#2f6e4a" font-weight="700">zona óptima (máximo)</text>
+</svg>
+<div class="facts">
+ <div class="fact">Los inmunoensayos se basan en la <b>especificidad</b> de la unión Ag-Ac.</div>
+ <div class="fact warn"><b>Efecto prozona (o Hook)</b>: con el complejo saturado, la señal sale falsamente baja. En los exámenes se da por bueno que ocurre con <b>exceso de antígeno</b> (tu temario explica que el término se usa para las dos zonas). Se soluciona <b>diluyendo</b>.</div>
+ <div class="fact gold"><b>Avidez</b> (se mide con <b>urea</b>): baja → infección <b>reciente</b> (&lt;6 meses); alta → antigua. <b>Afinidad</b>: fuerza con un solo epítopo.</div>
+</div>
+</div>
+
+<h2 id="vs-s2"><span class="n">2</span> Precipitación: antígenos solubles</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 158" role="img" aria-label="Doble difusión de Ouchterlony: identidad, identidad parcial y no identidad">
+ <defs><radialGradient id="gAgar" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#f7f4ea"/><stop offset="1" stop-color="#e6dfc8"/></radialGradient></defs>
+ <g font-size="8.5" font-weight="900" text-anchor="middle">
+  <g transform="translate(58,62)"><circle r="46" fill="url(#gAgar)" stroke="#c9b58f" filter="url(#sh)"/><circle cy="18" r="7" fill="#fff" stroke="#9aa6ab"/><circle cx="-18" cy="-16" r="7" fill="#fff" stroke="#9aa6ab"/><circle cx="18" cy="-16" r="7" fill="#fff" stroke="#9aa6ab"/><path d="M-14 2Q0-20 14 2" stroke="#8a6a12" stroke-width="2.4" fill="none"/></g>
+  <text x="58" y="126" fill="#3f8a5f">IDENTIDAD</text>
+  <g transform="translate(170,62)"><circle r="46" fill="url(#gAgar)" stroke="#c9b58f" filter="url(#sh)"/><circle cy="18" r="7" fill="#fff" stroke="#9aa6ab"/><circle cx="-18" cy="-16" r="7" fill="#fff" stroke="#9aa6ab"/><circle cx="18" cy="-16" r="7" fill="#fff" stroke="#9aa6ab"/><path d="M-12-2L0-12 12-2" stroke="#8a6a12" stroke-width="2.4" fill="none"/><path d="M0-12l8-10" stroke="#8a6a12" stroke-width="2.4"/></g>
+  <text x="170" y="126" fill="#b8860b">PARCIAL</text><text x="170" y="137" font-size="7.5" fill="#b8860b">(espolón)</text>
+  <g transform="translate(282,62)"><circle r="46" fill="url(#gAgar)" stroke="#c9b58f" filter="url(#sh)"/><circle cy="18" r="7" fill="#fff" stroke="#9aa6ab"/><circle cx="-18" cy="-16" r="7" fill="#fff" stroke="#9aa6ab"/><circle cx="18" cy="-16" r="7" fill="#fff" stroke="#9aa6ab"/><path d="M-16 4L8-18M16 4L-8-18" stroke="#8a6a12" stroke-width="2.4"/></g>
+  <text x="282" y="126" fill="#c0392b">NO IDENTIDAD</text><text x="282" y="137" font-size="7.5" fill="#c0392b">(se cruzan)</text>
+ </g>
+ <text x="170" y="152" font-size="7.5" text-anchor="middle" fill="#718087">pocillo de abajo: anticuerpo · pocillos de arriba: antígenos</text>
+</svg>
+<table class="mtab">
+ <tr><td>Inmunodifusión radial simple (Mancini)</td><td>El diámetro del anillo es proporcional a la concentración</td></tr>
+ <tr><td>Doble difusión (Ouchterlony)</td><td>Compara antígenos: si las líneas se <b>cruzan</b> → no hay identidad</td></tr>
+ <tr><td>Inmunoelectroforesis e <b>inmunofijación</b></td><td>La inmunofijación identifica <b>bandas monoclonales</b> (mieloma)</td></tr>
+ <tr><td>Inmunocromatografía</td><td>Tests rápidos (embarazo)</td></tr>
+ <tr><td>Nefelometría y turbidimetría</td><td>Precipitación en líquido medida con luz</td></tr>
+</table>
+</div>
+
+<h2 id="vs-s3"><span class="n">3</span> Aglutinación y fijación del complemento</h2>
+<div class="two">
+ <div class="box"><h4>Aglutinación</h4><p>Antígenos <b>particulados</b> (células, partículas de látex). Grupos sanguíneos, factor reumatoide (látex).</p></div>
+ <div class="box"><h4>Fijación del complemento</h4><p>Si hay unión Ag-Ac, el complemento se gasta y <b>no hay hemólisis</b> → resultado <b>positivo</b>. Si hay hemólisis → negativo.</p></div>
+</div>
+
+<h2 id="vs-s4"><span class="n">4</span> Inmunoensayos con marcaje</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 170" role="img" aria-label="ELISA sándwich frente a ensayo competitivo y sus curvas de señal">
+ <defs><g id="y12"><path d="M0 0v-12M0-12l-7-8M0-12l7-8" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"/></g></defs>
+ <text x="84" y="14" font-size="9.5" font-weight="900" text-anchor="middle" fill="#245b67">SÁNDWICH (no competitivo)</text>
+ <rect x="20" y="92" width="128" height="8" rx="2" fill="#b9a58a"/>
+ <g style="color:#3b6ea5"><use href="#y12" x="50" y="92"/><use href="#y12" x="84" y="92"/><use href="#y12" x="118" y="92"/></g>
+ <g fill="#c0392b"><circle cx="50" cy="66" r="5"/><circle cx="84" cy="66" r="5"/></g>
+ <g stroke="#3f8a5f" stroke-width="3" stroke-linecap="round" fill="none"><path d="M50 38v14M50 52l-7 8M50 52l7 8"/><path d="M84 38v14M84 52l-7 8M84 52l7 8"/></g>
+ <g fill="#e4bd55"><circle cx="50" cy="33" r="5"/><circle cx="84" cy="33" r="5"/></g>
+ <g font-size="7" fill="#718087"><text x="94" y="36">enzima</text><text x="92" y="58">Ac marcado</text></g>
+ <text x="84" y="116" font-size="8" text-anchor="middle" fill="#17252b">más analito → <tspan font-weight="900">más señal</tspan></text>
+ <path d="M40 158V130M40 158h90" stroke="#9aa6ab" fill="none"/><path d="M40 156C70 150 100 136 128 130" stroke="#3f8a5f" stroke-width="2.4" fill="none"/>
+ <text x="256" y="14" font-size="9.5" font-weight="900" text-anchor="middle" fill="#6b5aa6">COMPETITIVO</text>
+ <rect x="192" y="92" width="128" height="8" rx="2" fill="#b9a58a"/>
+ <g style="color:#3b6ea5"><use href="#y12" x="222" y="92"/><use href="#y12" x="256" y="92"/><use href="#y12" x="290" y="92"/></g>
+ <g fill="#c0392b"><circle cx="222" cy="66" r="5"/><circle cx="256" cy="66" r="5"/></g>
+ <circle cx="290" cy="66" r="5" fill="#c0392b" stroke="#e4bd55" stroke-width="3"/>
+ <text x="256" y="116" font-size="8" text-anchor="middle" fill="#17252b">más analito → <tspan font-weight="900">menos señal</tspan></text>
+ <path d="M212 158V130M212 158h90" stroke="#9aa6ab" fill="none"/><path d="M212 132C240 136 270 150 300 156" stroke="#c0392b" stroke-width="2.4" fill="none"/>
+ <g font-size="7.5" fill="#718087"><circle cx="190" cy="40" r="4" fill="#c0392b"/><text x="198" y="43">analito</text><circle cx="250" cy="40" r="4" fill="#c0392b" stroke="#e4bd55" stroke-width="2"/><text x="258" y="43">Ag marcado</text></g>
+</svg>
+<table class="mtab">
+ <tr><td>RIA</td><td>Marcaje <b>radiactivo</b> (γ o β) · detector de <b>centelleo</b> · <b>competitivo</b></td></tr>
+ <tr><td>IRMA</td><td>Radiactivo <b>no competitivo</b> (sándwich)</td></tr>
+ <tr><td>ELISA</td><td>La unión se revela con una <b>reacción enzimática</b></td></tr>
+ <tr><td>Homogéneo / heterogéneo</td><td>Homogéneo: <b>sin lavado</b> ni separación · heterogéneo: <b>con lavado</b></td></tr>
+ <tr><td>Detección primaria / secundaria</td><td>Primaria: mide el complejo Ag-Ac (ELISA, RIA) · secundaria: mide su efecto visible (aglutinación, precipitación), <b>menos sensible</b></td></tr>
+</table>
+</div>
+
+<h2 id="vs-s5"><span class="n">5</span> Radiaciones</h2>
+<div class="vcard">
+<svg viewBox="0 0 340 130" role="img" aria-label="Penetración de las radiaciones alfa, beta y gamma: papel, aluminio y plomo">
+ <defs><linearGradient id="gAl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b8c4ca"/><stop offset=".5" stop-color="#eef2f4"/><stop offset="1" stop-color="#9aa6ab"/></linearGradient><linearGradient id="gPb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#46525a"/><stop offset=".5" stop-color="#7b878e"/><stop offset="1" stop-color="#37424a"/></linearGradient></defs>
+ <g filter="url(#sh)"><rect x="118" y="14" width="6" height="100" fill="#fbf8f1" stroke="#c9b58f"/><rect x="190" y="14" width="12" height="100" fill="url(#gAl)"/><rect x="266" y="14" width="30" height="100" rx="3" fill="url(#gPb)"/></g>
+ <g font-size="8" font-weight="800" text-anchor="middle" fill="#718087"><text x="121" y="126">papel</text><text x="196" y="126">aluminio</text><text x="281" y="126">plomo</text></g>
+ <g stroke-width="3" fill="none" stroke-linecap="round"><path d="M20 34h94" stroke="#c0392b"/><path d="M20 64q10-8 20 0t20 0 20 0 20 0 20 0 20 0 20 0 20 0" stroke="#e0a85a"/><path d="M20 94q6-6 12 0t12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0 12 0" stroke="#3b6ea5"/></g>
+ <g font-size="11" font-weight="900"><text x="8" y="38" fill="#c0392b">α</text><text x="8" y="68" fill="#b8860b">β</text><text x="8" y="98" fill="#2a5282">γ</text></g>
+</svg>
+<div class="facts">
+ <div class="fact"><b>α</b>: muy ionizante, poco penetrante (la para un papel) · <b>β</b>: intermedia (la para el aluminio) · <b>γ</b>: poco ionizante, muy penetrante (necesita plomo).</div>
+ <div class="fact gold">En el RIA se usan <b>γ o β</b>, nunca α.</div>
+</div>
+</div>
+
+<h2 id="vs-s6"><span class="n">6</span> Interpretar la serología</h2>
+<div class="fms">
+ <div class="fm"><small>Seroconversión</small><div class="v" style="font-size:15px">de negativo a positivo</div></div>
+ <div class="fm"><small>Seroincremento</small><div class="v" style="font-size:15px">título × 4 o más</div><span class="f">entre dos muestras</span></div>
+ <div class="fm"><small>Avidez baja</small><div class="v" style="font-size:15px">infección reciente</div><span class="f">&lt; 6 meses</span></div>
+</div>
+
+<h2 id="vs-s7"><span class="n">7</span> Trampas de examen</h2>
+<div class="traps">
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>La precipitación usa antígenos particulados</div><div class="yes"><b>✓ CORRECTO</b>Precipitación: Ag <b>solubles</b> · aglutinación: Ag <b>particulados</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Fijación del complemento: hemólisis = positivo</div><div class="yes"><b>✓ CORRECTO</b>Positivo = <b>sin hemólisis</b> (el complemento se gastó)</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>En el competitivo, más analito da más señal</div><div class="yes"><b>✓ CORRECTO</b>Da <b>menos</b> señal; en el sándwich, más</div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>El ensayo homogéneo necesita lavado</div><div class="yes"><b>✓ CORRECTO</b>El que lava es el <b>heterogéneo</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>La radiación α es la más penetrante</div><div class="yes"><b>✓ CORRECTO</b>La α la para un papel; la más penetrante es la <b>γ</b></div></div>
+ <div class="trap"><div class="no"><b>✗ TRAMPA</b>Avidez alta = infección reciente</div><div class="yes"><b>✓ CORRECTO</b>Reciente = avidez <b>baja</b></div></div>
+</div>
+
+<h2><span class="n">★</span> Trucos para memorizar</h2>
+<div class="mnemo">
+ <div class="mn"><div class="big">Precipita = Poca partícula</div><p>Precipitación con Ag solubles</p></div>
+ <div class="mn"><div class="big">×4</div><p>Seroincremento significativo: el título se multiplica por 4</p></div>
+ <div class="mn"><div class="big">RIA compite · IRMA no</div><p>RIA competitivo · IRMA no competitivo</p></div>
+ <div class="mn"><div class="big">papel · aluminio · plomo</div><p>α · β · γ</p></div>
+</div>
+
+<h2 id="vs-s8"><span class="n">8</span> ¿Te lo sabes? <small style="font-weight:500;color:var(--muted);font-size:13px">toca la tarjeta</small></h2>
+<div class="flash">
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Zona óptima de la reacción Ag-Ac</div><div class="face vback">Zona de equivalencia</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">¿Cómo se corrige el efecto prozona?</div><div class="face vback">Diluyendo la muestra</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Inmunodifusión radial simple</div><div class="face vback">Mancini</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Técnica para caracterizar una banda monoclonal</div><div class="face vback">Inmunofijación</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">Detector del RIA</div><div class="face vback">Contador de centelleo</div></div></label>
+ <label class="fc"><input type="checkbox"><div class="inner"><div class="face front">¿Con qué se mide la avidez?</div><div class="face vback">Con urea</div></div></label>
+</div>
+<p class="hint">Cuando acabes, pulsa «Hacer test» para practicar las preguntas del tema.</p>
