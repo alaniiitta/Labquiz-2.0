@@ -82,6 +82,33 @@ export const clearTestSession = () => {
   }
 };
 
+// Simulacro de examen en curso (se guarda aparte del test normal: tiene su propio reloj).
+export const EXAM_SESSION_KEY = "labquiz.exam-session.v1";
+
+export const loadSavedExam = () => {
+  try {
+    return JSON.parse(localStorage.getItem(EXAM_SESSION_KEY) || "null");
+  } catch {
+    return null;
+  }
+};
+
+export const saveExamSession = (session) => {
+  try {
+    localStorage.setItem(EXAM_SESSION_KEY, JSON.stringify(session));
+  } catch (error) {
+    console.error("No se pudo guardar el examen en curso", error);
+  }
+};
+
+export const clearExamSession = () => {
+  try {
+    localStorage.removeItem(EXAM_SESSION_KEY);
+  } catch (error) {
+    console.error("No se pudo limpiar el examen en curso", error);
+  }
+};
+
 // Traslada el progreso y los favoritos de preguntas repetidas (ya retiradas del banco)
 // a la pregunta que se conserva. Si las dos tienen progreso, suma los intentos.
 export const migrateDuplicateProgress = (userData, aliases) => {

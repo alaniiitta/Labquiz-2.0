@@ -8,7 +8,7 @@ import React from "react";
  * @param {object|null} props.structured - Explanation object from explainQuestion()
  * @param {string} props.fallback - Plain-text fallback when no structured data exists
  * @param {string} props.correctAnswerText - Human-readable text of the correct answer
- * @param {boolean} props.isCorrect - Whether the user answered correctly
+ * @param {boolean|null} props.isCorrect - Whether the user answered correctly (null: left blank)
  */
 export default function ExplanationDisplay({ structured, fallback, correctAnswerText, isCorrect }) {
   const explanation = structured?.porQueLaCorrecta || fallback;
@@ -16,8 +16,8 @@ export default function ExplanationDisplay({ structured, fallback, correctAnswer
 
   return (
     <div className="explanationBlock">
-      <p className={isCorrect ? "testStatus success" : "testStatus error"}>
-        {isCorrect ? "✅ Correcto" : "❌ Incorrecto"}
+      <p className={isCorrect == null ? "testStatus" : isCorrect ? "testStatus success" : "testStatus error"}>
+        {isCorrect == null ? "⚪ En blanco (no resta)" : isCorrect ? "✅ Correcto" : "❌ Incorrecto"}
       </p>
       <p>
         <strong>Respuesta correcta:</strong> {correctAnswerText}
