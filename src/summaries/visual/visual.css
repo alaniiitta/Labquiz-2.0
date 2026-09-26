@@ -251,3 +251,5 @@
 .vsum .chip:is(.cg,.co)::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .vsum .chip.cg::before{background:#3f8a5f}
 .vsum .chip.co::before{background:#c77a3a}
+:root[data-theme="dark"] .vsum .matrix td[style*="#fdf3e6"]{background:#3d2f1f!important;color:#f0c08a!important}
+:root[data-theme="dark"] .vsum .matrix td[style*="#eef0f1"]{background:#2a3336!important;color:#b9c6ca!important}
