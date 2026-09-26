@@ -13,6 +13,7 @@ import {explainQuestion} from "./lib/explainQuestion.js";
 import {clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex,highlightTerms} from "./lib/summaryLinks.js";
+import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 
@@ -37,6 +38,30 @@ const getSummary=id=>summaryBank[getTopicKey(id)];
 const getVisualSummary=id=>visualSummaryBank[getTopicKey(id)]
 // apartados del resumen visual y qué preguntas del banco explica cada uno
 const getSummaryIndex=topicId=>{const html=getVisualSummary(topicId);if(!html)return null;return buildTopicIndex(topicId,html,getQuestionBank(topicId).map(question=>({...question,topicId})),getQuestionIdForProgress,question=>explainQuestion(question,topicId))};
+// dificultad estimada de cada pregunta de un tema (percentil en el banco, 0 = la más fácil)
+const difficultyCache=new Map();
+const getTopicDifficulty=topicId=>{
+ if(difficultyCache.has(topicId)) return difficultyCache.get(topicId);
+ const questions=getQuestionBank(topicId).map(question=>({...question,topicId}));
+ const index=getSummaryIndex(topicId);
+ const best=questions.map(question=>index?.byQuestion.get(getQuestionIdForProgress(question))?.[0]?.score??0);
+ const sorted=[...best].sort((a,b)=>a-b);
+ const coverage=score=>!index?null:score===0?0:sorted.findIndex(value=>value>=score)/sorted.length;
+ const table=new Map(questions.map((question,i)=>[getQuestionIdForProgress(question),bankPercentile(intrinsicScore(question)+coverageTerm(coverage(best[i])))]));
+ difficultyCache.set(topicId,table);
+ return table;
+};
+const getQuestionDifficulty=(question,progress={},estimatedOnly=false)=>{
+ if(question?.topicId==null) return null;
+ const id=getQuestionIdForProgress(question);
+ const percentile=getTopicDifficulty(question.topicId).get(id);
+ return percentile==null?null:difficultyFor(percentile,estimatedOnly?null:progress[id]);
+};
+function DifficultyMeter({difficulty}){
+ if(!difficulty) return null;
+ const hint=difficulty.personal?"Dificultad ajustada con tus respuestas":"Dificultad estimada";
+ return <span className={`diffMeter ${difficulty.id}`} title={hint} aria-label={`${hint}: ${difficulty.label}`}><span className="diffBars" aria-hidden="true">{[1,2,3].map(bar=><i key={bar} className={bar<=difficulty.bars?"on":""}/>)}</span>{difficulty.label}</span>;
+}
 const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filter(Boolean).map((part,index)=>{
  if(part.startsWith("**")&&part.endsWith("**")) return <strong key={index}>{part.slice(2,-2)}</strong>;
  if(part.startsWith("__")&&part.endsWith("__")) return <u key={index}>{part.slice(2,-2)}</u>;
@@ -98,7 +123,7 @@ const loadResumableExam=()=>{
  return {questions,answers,flags,index:Math.min(Math.max(0,Number(session.index)||0),questions.length-1),startedAt:session.startedAt,deadline:session.deadline};
 };
 const formatClock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),sec=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(sec).padStart(2,"0")}`};
-const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2});
+const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
 
 function App(){
  const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[focusSection,setFocusSection]=useState(null),[examConfig,setExamConfig]=useState({resume:false,sessionId:0}),[userData,setUserData]=useState(()=>migrateDuplicateProgress(loadUserData(),duplicateAliases));
@@ -248,6 +273,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [savedTest,setSavedTest]=useState(()=>initialMode==="topic"&&!initialTopicId?loadResumableTest():null);
  const [questionCount,setQuestionCount]=useState(20);
+ const [onlyHard,setOnlyHard]=useState(false);
  const isCrossTopic=mode==="failed"||mode==="mixed";
  const [testQuestions,setTestQuestions]=useState(()=>{
   if(initialMode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
@@ -282,7 +308,9 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  useEffect(()=>{if(!sheet)return;const onKey=e=>{if(e.key==="Escape")setSheet(null)};window.addEventListener("keydown",onKey);return()=>window.removeEventListener("keydown",onKey)},[sheet]);
 
  const startTopicTest=topicId=>{
-  const questions=(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId}));
+  let questions=(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId}));
+  // «solo difíciles»: las que la estimación, ajustada con tus respuestas, marca como difíciles
+  if(onlyHard){const hard=questions.filter(question=>getQuestionDifficulty(question,questionProgress)?.id==="hard");if(hard.length)questions=hard;}
   setSelectedTopicId(topicId);
   setTestQuestions(selectSmartQuestions(questions,questionProgress,questionCount).map(question=>shuffleQuestionOptions(question)));
   setI(0);
@@ -350,7 +378,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const handlePrevious=()=>setI(index=>Math.max(0,index-1));
 
  if(!isCrossTopic&&!selectedTopicId){
-   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{savedTest.mode==="failed"?"Preguntas falladas":savedTest.mode==="mixed"?"Repaso general":`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:getPdfUrl(topic.id)?"PDF disponible":"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
+   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{savedTest.mode==="failed"?"Preguntas falladas":savedTest.mode==="mixed"?"Repaso general":`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:getPdfUrl(topic.id)?"PDF disponible":"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
  }
 
  if(loading){
@@ -365,7 +393,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p className="resultPct">{Math.round(score/totalQuestions*100)} % de aciertos</p><p>{label?.startsWith("Simulacro")?"Has terminado el simulacro de examen.":"Has completado una selección inteligente de este banco."}</p><button className="primary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Elegir otro tema"}</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/>{linkedSection&&<button type="button" className="summaryLinkButton" onClick={()=>setSheet({topicId:questionTopicId,section:linkedSection,sections:linkedSections,defs:summaryIndex.defs,terms:summaryIndex.termsByQuestion.get(linkedId)??[]})}><BookOpen/><span>Ver en el resumen<small>{linkedSection.title}</small></span></button>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div>{sheet&&<SummarySheet sheet={sheet} onClose={()=>setSheet(null)} onSwitch={section=>setSheet(current=>({...current,section}))} onOpenFull={()=>onOpenSummary?.(sheet.topicId,sheet.section.id)}/>}</div>;
+ return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/>{linkedSection&&<button type="button" className="summaryLinkButton" onClick={()=>setSheet({topicId:questionTopicId,section:linkedSection,sections:linkedSections,defs:summaryIndex.defs,terms:summaryIndex.termsByQuestion.get(linkedId)??[]})}><BookOpen/><span>Ver en el resumen<small>{linkedSection.title}</small></span></button>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div>{sheet&&<SummarySheet sheet={sheet} onClose={()=>setSheet(null)} onSwitch={section=>setSheet(current=>({...current,section}))} onOpenFull={()=>onOpenSummary?.(sheet.topicId,sheet.section.id)}/>}</div>;
 }
 
 // Simulacro en modo examen real: sin soluciones hasta entregar, con reloj y penalización por fallo.
@@ -421,8 +449,11 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
    if(Object.prototype.hasOwnProperty.call(answers,index)){if(answers[index]===question.correctAnswer){correct++;entry.correct++}else{wrong++;entry.wrong++}}
    byTopic.set(question.topicId,entry);
   });
+  // por dificultad estimada (sin tus respuestas, para que no cambie al entregar)
+  const levels=["easy","medium","hard"].map(id=>({id,total:0,correct:0,wrong:0}));
+  questions.forEach((question,index)=>{const level=levels.find(entry=>entry.id===getQuestionDifficulty(question,{},true)?.id);if(!level)return;level.total++;if(Object.prototype.hasOwnProperty.call(answers,index)){if(answers[index]===question.correctAnswer)level.correct++;else level.wrong++}});
   const net=correct-wrong*EXAM_PENALTY;
-  return {correct,wrong,blank:total-correct-wrong,net,grade:Math.max(0,net)/total*10,topics:[...byTopic.values()].map(entry=>({...entry,net:entry.correct-entry.wrong*EXAM_PENALTY})).sort((a,b)=>a.net/a.total-b.net/b.total)};
+  return {correct,wrong,blank:total-correct-wrong,net,levels:levels.filter(level=>level.total),grade:Math.max(0,net)/total*10,topics:[...byTopic.values()].map(entry=>({...entry,net:entry.correct-entry.wrong*EXAM_PENALTY})).sort((a,b)=>a.net/a.total-b.net/b.total)};
  },[questions,answers,total]);
 
  const q=questions[i];
@@ -446,6 +477,7 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
     <div className="bl"><b>{results.blank}</b><span>En blanco</span><small>0</small></div>
    </div>
    <p className="examFormula">Aciertos − fallos ÷ 4 · tiempo usado {formatClock(used)} de 1:30:00</p>
+   <div className="examLevels"><span className="reviewSetupLabel">Por dificultad</span>{results.levels.map(level=><div key={level.id} className="examLevelRow"><DifficultyMeter difficulty={{id:level.id,label:{easy:"Fáciles",medium:"Medias",hard:"Difíciles"}[level.id],bars:{easy:1,medium:2,hard:3}[level.id]}}/><small>{level.correct}✓ {level.wrong}✗ {level.total-level.correct-level.wrong}○ de {level.total}</small><b>{formatScore(level.correct-level.wrong*EXAM_PENALTY)}</b></div>)}{(()=>{const hard=results.levels.find(level=>level.id==="hard");return hard&&hard.wrong*EXAM_PENALTY>hard.correct*0.5?<p className="examTip">Pierdes muchos puntos en las difíciles: si dudas entre varias opciones, mejor dejarla en blanco.</p>:null})()}</div>
    <div className="examTopics"><span className="reviewSetupLabel">Por temas (de peor a mejor)</span>{results.topics.map(entry=><div key={entry.topicId} className="examTopicRow"><span>T{String(entry.topicId).padStart(2,"0")}</span><em>{topics.find(topic=>topic.id===entry.topicId)?.title}</em><small>{entry.correct}✓ {entry.wrong}✗ {entry.total-entry.correct-entry.wrong}○</small><i><b style={{width:`${Math.max(0,entry.net)/entry.total*100}%`}}/></i></div>)}</div>
    <button className="primary" onClick={()=>{setPhase("review");goTo(0)}}>Revisar el examen</button>
    <button className="secondary" onClick={()=>go("review")}>Volver a Repaso</button>
@@ -470,7 +502,7 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
   </div>
   {showGrid&&<div className="examGrid">{questions.map((question,index)=><button key={index} type="button" onClick={()=>goTo(index)} className={[index===i?"current":"",reviewing?status(index):Object.prototype.hasOwnProperty.call(answers,index)?"answered":"",flags.includes(index)?"flagged":""].join(" ")} aria-label={`Pregunta ${index+1}`}>{index+1}</button>)}</div>}
   <div className="testCard">
-   <span className="badge">Tema {String(q.topicId).padStart(2,"0")}</span>
+   <div className="qTags"><span className="badge">Tema {String(q.topicId).padStart(2,"0")}</span><DifficultyMeter difficulty={getQuestionDifficulty(q,questionProgress)}/></div>
    <h2>{i+1}. {q.question}</h2>
    <div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":"Si no la sabes, déjala en blanco: no resta."}</p>}
