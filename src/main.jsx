@@ -12,6 +12,7 @@ import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
 import {clearTestSession,createBackup,loadSavedTest,loadUserData,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
+import {buildTopicIndex} from "./lib/summaryLinks.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
 
@@ -33,7 +34,9 @@ const topics=[
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
 const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
 const getSummary=id=>summaryBank[getTopicKey(id)];
-const getVisualSummary=id=>visualSummaryBank[getTopicKey(id)];
+const getVisualSummary=id=>visualSummaryBank[getTopicKey(id)]
+// apartados del resumen visual y qué preguntas del banco explica cada uno
+const getSummaryIndex=topicId=>{const html=getVisualSummary(topicId);if(!html)return null;return buildTopicIndex(topicId,html,getQuestionBank(topicId).map(question=>({...question,topicId})),getQuestionIdForProgress)};
 const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filter(Boolean).map((part,index)=>{
  if(part.startsWith("**")&&part.endsWith("**")) return <strong key={index}>{part.slice(2,-2)}</strong>;
  if(part.startsWith("__")&&part.endsWith("__")) return <u key={index}>{part.slice(2,-2)}</u>;
@@ -63,9 +66,11 @@ const loadResumableTest=()=>{
 };
 
 function App(){
- const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[userData,setUserData]=useState(loadUserData);
+ const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[focusSection,setFocusSection]=useState(null),[userData,setUserData]=useState(loadUserData);
  const show=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
- const openTest=(topicId,mode="topic",questionIds=null,questionCount=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,sessionId:config.sessionId+1}));show("test")};
+ const openTest=(topicId,mode="topic",questionIds=null,questionCount=null,label=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,label,sessionId:config.sessionId+1}));show("test")};
+ // abre el resumen de un tema colocado en un apartado concreto
+ const openSummaryAt=(topicId,sectionId=null)=>{setSelected(topics.find(t=>t.id===topicId));setFocusSection(sectionId);show("topic")};
  // ir a "test" sin configuración abre siempre el selector de temas, no el último test
  const go=p=>p==="test"?openTest(null):show(p);
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
@@ -84,9 +89,9 @@ function App(){
   <main className={page==="test"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" type="button" onClick={()=>setMobile(true)} aria-label="Abrir menú"><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
-  {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>{setSelected(t);go("topic")}}/>}
-  {page==="topic"&&selected&&<TopicPage topic={selected} go={go} onStartTest={()=>openTest(selected.id)}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
+  {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
+  {page==="topic"&&selected&&<TopicPage topic={selected} go={go} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label)=>openTest(selected.id,"topic",ids,null,label)}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} onOpenSummary={openSummaryAt} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>openTest(null,"mixed",null,count)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
@@ -162,20 +167,26 @@ function SummaryPage({openTopic,progress}){const [q,setQ]=useState("");const ter
  {!filtered.length&&<p className="sumEmpty">No hay temas que coincidan con «{q}».</p>}
  </div>}
 
-function VisualSummary({html}){const ref=useRef(null);
+function VisualSummary({html,topicId,focus,onPractice}){const ref=useRef(null);
+ const index=useMemo(()=>topicId?getSummaryIndex(topicId):null,[topicId,html]);
+ // bajo cada apartado con preguntas asociadas, un botón para practicarlo
+ const content=useMemo(()=>{if(!index||!onPractice)return html;return html.replace(/(<h2 id="(vs-s\d+)">[\s\S]*?<\/h2>)/g,(full,heading,id)=>{const count=index.bySection.get(id)?.length??0;return count>=3?`${heading}<button type="button" class="practiceSec" data-practice="${id}">▶ Practicar este apartado · ${count} preguntas</button>`:full})},[html,index,onPractice]);
  // Los índices del resumen son enlaces "#vs-sN": se desplaza dentro de la página sin tocar la URL.
- const onClick=e=>{const link=e.target.closest?.('a[href^="#vs-"]');if(!link)return;e.preventDefault();ref.current?.querySelector(link.getAttribute("href"))?.scrollIntoView({behavior:"smooth",block:"start"})};
+ const onClick=e=>{const practice=e.target.closest?.("[data-practice]");if(practice&&index){const section=index.sections.find(s=>s.id===practice.dataset.practice);onPractice?.(index.bySection.get(practice.dataset.practice)??[],section?.title);return}
+  const link=e.target.closest?.('a[href^="#vs-"]');if(!link)return;e.preventDefault();ref.current?.querySelector(link.getAttribute("href"))?.scrollIntoView({behavior:"smooth",block:"start"})};
+ // si se llega desde un test, baja directamente al apartado
+ useEffect(()=>{if(!focus)return;const timer=setTimeout(()=>ref.current?.querySelector(`#${focus}`)?.scrollIntoView({block:"start"}),60);return()=>clearTimeout(timer)},[focus,html]);
  // Marca en la barra fija la pestaña del bloque que se está leyendo.
  useEffect(()=>{const root=ref.current;if(!root||!("IntersectionObserver" in window))return;
   const setActive=id=>root.querySelectorAll(".chips a").forEach(a=>{const on=a.getAttribute("href")===`#${id}`;a.classList.toggle("active",on);if(on){const bar=a.parentElement;bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:"smooth"})}});
   const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(visible)setActive(visible.target.id)},{rootMargin:"-70px 0px -65% 0px"});
   root.querySelectorAll('h2[id^="vs-"]').forEach(h=>observer.observe(h));return()=>observer.disconnect()},[html]);
- return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={{__html:visualSummaryDefs+html}}/>}
+ return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={{__html:visualSummaryDefs+content}}/>}
 
-function TopicPage({topic,go,onStartTest}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
+function TopicPage({topic,go,focusSection,onStartTest,onPractice}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
  <header className="topicHeader"><div><span className="topicEyebrow">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2></div><button className="topicTestButton" onClick={onStartTest}><Brain/><span>Hacer test</span></button></header>
- {visual?<div className="visualLayout"><VisualSummary html={visual}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
+ {visual?<div className="visualLayout"><VisualSummary html={visual} topicId={topic.id} focus={focusSection} onPractice={onPractice}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
    {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
    {summary.keyFacts?.length>0&&<section className="summarySection keyFacts"><h4>⭐ Datos y valores que debes saber sí o sí</h4><ul>{summary.keyFacts.map(fact=><li key={fact}>{formatEmphasis(fact)}</li>)}</ul></section>}
@@ -194,7 +205,7 @@ const crossTopicCopy={
  mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"}
 };
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,onOpenSummary,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
  const [mode,setMode]=useState(initialMode);
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [savedTest,setSavedTest]=useState(()=>initialMode==="topic"&&!initialTopicId?loadResumableTest():null);
@@ -203,7 +214,11 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const [testQuestions,setTestQuestions]=useState(()=>{
   if(initialMode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="mixed") return selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20).map(question=>shuffleQuestionOptions(question));
-  return initialTopicId?selectSmartQuestions(getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId})),questionProgress,20).map(question=>shuffleQuestionOptions(question)):[];
+  if(!initialTopicId) return [];
+  let pool=getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId}));
+  // test de un apartado del resumen: solo sus preguntas
+  if(initialQuestionIds?.length){const ids=new Set(initialQuestionIds);pool=pool.filter(question=>ids.has(getQuestionIdForProgress(question)))}
+  return selectSmartQuestions(pool,questionProgress,initialQuestionIds?.length?Math.min(20,pool.length):20).map(question=>shuffleQuestionOptions(question));
  });
  const [i,setI]=useState(0);
  const [answersByIndex,setAnswersByIndex]=useState({});
@@ -220,6 +235,11 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const isFavorite=q?favorites.includes(getQuestionIdForProgress(q)):false;
  const isLearned=q?questionProgress[getQuestionIdForProgress(q)]?.marcadaAprendida===true:false;
  const structuredExplanation=q?explainQuestion(q,q.topicId??currentTopic?.id):null;
+ const [sheet,setSheet]=useState(null);
+ const questionTopicId=q?(q.topicId??currentTopic?.id):null;
+ const summaryIndex=q&&questionTopicId?getSummaryIndex(questionTopicId):null;
+ const linkedSection=summaryIndex?summaryIndex.sections.find(section=>section.id===summaryIndex.byQuestion.get(getQuestionIdForProgress({...q,topicId:questionTopicId}))):null;
+ useEffect(()=>{if(!sheet)return;const onKey=e=>{if(e.key==="Escape")setSheet(null)};window.addEventListener("keydown",onKey);return()=>window.removeEventListener("keydown",onKey)},[sheet]);
 
  const startTopicTest=topicId=>{
   const questions=(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId}));
@@ -305,8 +325,15 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p>Has completado una selección inteligente de este banco.</p><button className="primary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Elegir otro tema"}</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{currentTopic.title.toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/></div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/>{linkedSection&&<button type="button" className="summaryLinkButton" onClick={()=>setSheet({topicId:questionTopicId,section:linkedSection,defs:summaryIndex.defs})}><BookOpen/><span>Ver en el resumen<small>{linkedSection.title}</small></span></button>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div>{sheet&&<SummarySheet sheet={sheet} onClose={()=>setSheet(null)} onOpenFull={()=>onOpenSummary?.(sheet.topicId,sheet.section.id)}/>}</div>;
 }
+
+// hoja con un apartado del resumen, sin salir del test
+function SummarySheet({sheet,onClose,onOpenFull}){const topic=topics.find(t=>t.id===sheet.topicId);return <div className="sheetBackdrop" onClick={onClose}><div className="sheet" role="dialog" aria-modal="true" aria-label={`Resumen: ${sheet.section.title}`} onClick={e=>e.stopPropagation()}>
+ <div className="sheetHead"><div><small>TEMA {String(sheet.topicId).padStart(2,"0")} · {topic?.title}</small><b>{sheet.section.title}</b></div><button type="button" className="sheetClose" onClick={onClose} aria-label="Cerrar"><X/></button></div>
+ <div className="sheetBody"><div className="vsum" dangerouslySetInnerHTML={{__html:visualSummaryDefs+sheet.defs+sheet.section.html}}/></div>
+ <div className="sheetFoot"><button type="button" className="secondary" onClick={onClose}>Volver</button><button type="button" className="primary" onClick={onOpenFull}><BookOpen/> Resumen completo</button></div>
+</div></div>}
 
 function ReviewPage({go,onStart}){
  const [count,setCount]=useState(20);
