@@ -10,8 +10,18 @@ export const EMPTY_USER_DATA = {
   favorites: [],
   history: [],
   progress: {},
+  // aclaraciones propias por pregunta: { [id de progreso]: { text, updatedAt } }
+  notes: {},
   streak: 0,
 };
+
+const isPlainObject = (value) => !!value && typeof value === "object" && !Array.isArray(value);
+// Solo conserva aclaraciones con texto; descarta lo que no tenga la forma esperada.
+export const sanitizeNotes = (notes) => Object.fromEntries(
+  Object.entries(isPlainObject(notes) ? notes : {})
+    .filter(([, note]) => isPlainObject(note) && typeof note.text === "string" && note.text.trim())
+    .map(([id, note]) => [id, { text: note.text, updatedAt: Number(note.updatedAt) || 0 }]),
+);
 
 export const loadUserData = () => {
   try {
@@ -55,6 +65,7 @@ export const parseBackup = (content) => {
     ...data,
     progress: data.progress,
     favorites: Array.isArray(data.favorites) ? data.favorites : [],
+    notes: sanitizeNotes(data.notes),
   };
 };
 
@@ -115,7 +126,8 @@ export const migrateDuplicateProgress = (userData, aliases) => {
   const entries = Object.entries(aliases ?? {});
   const progress = userData?.progress ?? {};
   const favorites = Array.isArray(userData?.favorites) ? userData.favorites : [];
-  if (!entries.some(([removed]) => progress[removed] || favorites.includes(removed))) return userData;
+  const notes = isPlainObject(userData?.notes) ? userData.notes : {};
+  if (!entries.some(([removed]) => progress[removed] || favorites.includes(removed) || notes[removed])) return userData;
 
   const nextProgress = { ...progress };
   entries.forEach(([removed, kept]) => {
@@ -139,5 +151,14 @@ export const migrateDuplicateProgress = (userData, aliases) => {
     delete nextProgress[removed];
   });
   const nextFavorites = [...new Set(favorites.map((id) => aliases[id] ?? id))];
-  return { ...userData, progress: nextProgress, favorites: nextFavorites };
+  // una aclaración de una pregunta repetida pasa a la que se conserva (si esa no tenía ya una, se unen)
+  const nextNotes = { ...notes };
+  entries.forEach(([removed, kept]) => {
+    const old = nextNotes[removed];
+    if (!old) return;
+    const current = nextNotes[kept];
+    nextNotes[kept] = current ? { text: `${current.text}\n\n${old.text}`, updatedAt: Math.max(current.updatedAt ?? 0, old.updatedAt ?? 0) } : old;
+    delete nextNotes[removed];
+  });
+  return { ...userData, progress: nextProgress, favorites: nextFavorites, notes: nextNotes };
 };
