@@ -159,3 +159,5 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .sheetAlt{display:flex;flex-wrap:wrap;align-items:center;gap:6px}.sheetAlt button{padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--primary);font-weight:750;font-size:12px}
 mark.hl,.vsum mark.hl{background:#fbe39a;color:inherit;border-radius:3px;padding:0 2px;box-shadow:0 0 0 1px #f0cf63}
 :root[data-theme="dark"] mark.hl,:root[data-theme="dark"] .vsum mark.hl{background:#6b5a1c;color:#fff4cf;box-shadow:none}
+.vsum .hlFocus{outline:2px solid #e4bd55;outline-offset:3px;border-radius:12px;animation:hlPulse 1.6s ease-out 1}
+@keyframes hlPulse{0%{outline-color:rgba(228,189,85,0)}30%{outline-color:#e4bd55}100%{outline-color:#e4bd55}}

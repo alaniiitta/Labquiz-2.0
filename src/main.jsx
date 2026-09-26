@@ -333,7 +333,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
 // hoja con un apartado del resumen, sin salir del test
 function SummarySheet({sheet,onClose,onSwitch,onOpenFull}){const topic=topics.find(t=>t.id===sheet.topicId);const bodyRef=useRef(null);const [found,setFound]=useState(true);
  // resalta en el apartado las palabras clave de la pregunta y baja a la primera
- useEffect(()=>{const body=bodyRef.current;if(!body)return;body.scrollTop=0;const first=highlightTerms(body.querySelector(".vsum"),sheet.terms);setFound(!!first);if(first){const top=first.getBoundingClientRect().top-body.getBoundingClientRect().top;if(top>body.clientHeight*.6)body.scrollTop=top-body.clientHeight*.3}},[sheet.section.id]);
+ useEffect(()=>{const body=bodyRef.current;if(!body)return;body.scrollTop=0;const focus=highlightTerms(body.querySelector(".vsum"),sheet.terms);setFound(!!focus);if(focus){focus.classList.add("hlFocus");const top=focus.getBoundingClientRect().top-body.getBoundingClientRect().top;if(top>body.clientHeight*.45)body.scrollTop=top-body.clientHeight*.2}},[sheet.section.id]);
  const others=(sheet.sections??[]).filter(section=>section.id!==sheet.section.id);
  return <div className="sheetBackdrop" onClick={onClose}><div className="sheet" role="dialog" aria-modal="true" aria-label={`Resumen: ${sheet.section.title}`} onClick={e=>e.stopPropagation()}>
  <div className="sheetHead"><div><small>TEMA {String(sheet.topicId).padStart(2,"0")} · {topic?.title}</small><b>{sheet.section.title}</b></div><button type="button" className="sheetClose" onClick={onClose} aria-label="Cerrar"><X/></button></div>

@@ -136,6 +136,7 @@ export function highlightTerms(root, terms) {
  const nodes = [];
  while (walker.nextNode()) nodes.push(walker.currentNode);
  let first = null;
+ const marks = [];
  nodes.forEach(node => {
   const text = node.nodeValue;
   // versión sin tildes con la misma longitud para poder mapear posiciones
@@ -154,10 +155,22 @@ export function highlightTerms(root, terms) {
    mark.textContent = text.slice(from, to);
    fragment.append(mark);
    first ??= mark;
+   marks.push(mark);
    cursor = to;
   });
   if (cursor < text.length) fragment.append(text.slice(cursor));
   node.replaceWith(fragment);
  });
- return first;
+ // el bloque (tarjeta, fila, recuadro…) con más palabras clave distintas es el más relevante
+ const blocks = new Map();
+ marks.forEach(mark => {
+  const block = mark.closest(".fact,.fm,.box,.trap,.mn,.gi,tr,li,p") ?? mark;
+  const words = blocks.get(block) ?? new Set();
+  words.add(plain(mark.textContent).slice(0, 6));
+  blocks.set(block, words);
+ });
+ let best = null;
+ let bestCount = 0;
+ blocks.forEach((words, block) => { if (words.size > bestCount) { best = block; bestCount = words.size; } });
+ return best ?? first;
 }
