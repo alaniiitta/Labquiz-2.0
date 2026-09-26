@@ -27,7 +27,7 @@ const topics=[
  {id:17,title:"Metabolismo de hidratos de carbono"}, {id:18,title:"Hormonas"},
  {id:19,title:"Genética"}, {id:20,title:"Reproducción y cribados"},
  {id:21,title:"Drogas de abuso y fármacos"}, {id:22,title:"Marcadores tumorales"},
- {id:23,title:"Técnicas de laboratorio"}
+ {id:23,title:"Epidemiología, bioética y estadística"}
 ];
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
