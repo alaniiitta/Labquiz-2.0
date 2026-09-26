@@ -161,3 +161,6 @@ mark.hl,.vsum mark.hl{background:#fbe39a;color:inherit;border-radius:3px;padding
 :root[data-theme="dark"] mark.hl,:root[data-theme="dark"] .vsum mark.hl{background:#6b5a1c;color:#fff4cf;box-shadow:none}
 .vsum .hlFocus{outline:2px solid #e4bd55;outline-offset:3px;border-radius:12px;animation:hlPulse 1.6s ease-out 1}
 @keyframes hlPulse{0%{outline-color:rgba(228,189,85,0)}30%{outline-color:#e4bd55}100%{outline-color:#e4bd55}}
+.reviewSetup .examRow{grid-template-columns:repeat(2,minmax(0,1fr))}.examRow button{display:flex;align-items:center;justify-content:center;gap:8px}.examRow svg{width:17px;color:var(--gold)}
+.examNote{margin:-4px 0 0;font-size:13px;color:var(--muted);line-height:1.45}
+.resultPct{margin:4px 0 0!important;font-weight:800;color:var(--primary)}
