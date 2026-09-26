@@ -155,3 +155,7 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .vsum .practiceSec{display:inline-flex;align-items:center;gap:6px;margin:-2px 0 12px;padding:7px 13px;border-radius:999px;border:1px solid var(--primary);background:transparent;color:var(--primary);font:inherit;font-size:13px;font-weight:800;cursor:pointer}
 .vsum .practiceSec:hover{background:var(--soft)}
 .testMeta b{white-space:nowrap;flex:none}
+.sheetInfo{display:flex;flex-direction:column;gap:6px;padding:8px 16px;border-bottom:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+.sheetAlt{display:flex;flex-wrap:wrap;align-items:center;gap:6px}.sheetAlt button{padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--primary);font-weight:750;font-size:12px}
+mark.hl,.vsum mark.hl{background:#fbe39a;color:inherit;border-radius:3px;padding:0 2px;box-shadow:0 0 0 1px #f0cf63}
+:root[data-theme="dark"] mark.hl,:root[data-theme="dark"] .vsum mark.hl{background:#6b5a1c;color:#fff4cf;box-shadow:none}
