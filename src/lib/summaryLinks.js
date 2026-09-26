@@ -11,7 +11,8 @@ const STOPWORDS = new Set(("para como cual cuales cuando donde entre esta este e
  + "utiliza utilizan utilizado utilizada emplea empleado usado usada caso casos forma tipo tipos valor valores prueba pruebas "
  + "paciente pacientes muestra muestras método métodos mayor menor principal principales característica características "
  + "denomina llama conoce produce producen causa causado debe deben tras antes después mismo misma cada dentro fuera "
- + "respecto relación general frecuente frecuentes importante nivel niveles alta alto baja bajo diferentes distintos").split(" "));
+ + "respecto relación general frecuente frecuentes importante nivel niveles alta alto baja bajo diferentes distintos "
+ + "temario dato datos generalmente además poco mucho semana semanas mujer hombre años días horas última último ellos ellas").split(" "));
 
 const plain = text => text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const stripTags = html => html.replace(/<(style|script)[\s\S]*?<\/\1>/g, " ").replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ");
@@ -117,7 +118,7 @@ export function buildTopicIndex(topicId, html, questions, getId, getExplanation 
   byQuestion.set(id, ranked.filter(entry => entry.score >= best.score * 0.6).slice(0, 3));
   bySection.get(best.id).push(id);
   // términos distintivos (en pocos apartados) para resaltarlos al abrir el resumen
-  termsByQuestion.set(id, [...terms.keys()].map(term => term.replace(/^#/, "")).filter(term => !term.startsWith("=") && (df.get(term) ?? 0) > 0 && (df.get(term) ?? 0) <= Math.max(2, total * 0.2)));
+  termsByQuestion.set(id, [...terms.keys()].map(term => term.replace(/^#/, "")).filter(term => !term.startsWith("=") && !/^\d+$/.test(term) && (df.get(term) ?? 0) > 0 && (df.get(term) ?? 0) <= Math.max(2, total * 0.2)));
  }
  const index = { html, count: questions.length, defs, sections, byQuestion, bySection, termsByQuestion };
  cache.set(topicId, index);
