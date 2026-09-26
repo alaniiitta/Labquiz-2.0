@@ -81,3 +81,36 @@ export const clearTestSession = () => {
     console.error("No se pudo limpiar el test en curso", error);
   }
 };
+
+// Traslada el progreso y los favoritos de preguntas repetidas (ya retiradas del banco)
+// a la pregunta que se conserva. Si las dos tienen progreso, suma los intentos.
+export const migrateDuplicateProgress = (userData, aliases) => {
+  const entries = Object.entries(aliases ?? {});
+  const progress = userData?.progress ?? {};
+  const favorites = Array.isArray(userData?.favorites) ? userData.favorites : [];
+  if (!entries.some(([removed]) => progress[removed] || favorites.includes(removed))) return userData;
+
+  const nextProgress = { ...progress };
+  entries.forEach(([removed, kept]) => {
+    const old = nextProgress[removed];
+    if (!old) return;
+    const current = nextProgress[kept];
+    if (!current) {
+      nextProgress[kept] = old;
+    } else {
+      const latest = (old.ultimaVezVista ?? 0) > (current.ultimaVezVista ?? 0) ? old : current;
+      const maxDate = (a, b) => (Math.max(a ?? 0, b ?? 0) || null);
+      nextProgress[kept] = {
+        ...latest,
+        vecesVista: (current.vecesVista ?? 0) + (old.vecesVista ?? 0),
+        vecesAcertada: (current.vecesAcertada ?? 0) + (old.vecesAcertada ?? 0),
+        vecesFallada: (current.vecesFallada ?? 0) + (old.vecesFallada ?? 0),
+        ultimaVezAcertada: maxDate(current.ultimaVezAcertada, old.ultimaVezAcertada),
+        ultimaVezFallada: maxDate(current.ultimaVezFallada, old.ultimaVezFallada),
+      };
+    }
+    delete nextProgress[removed];
+  });
+  const nextFavorites = [...new Set(favorites.map((id) => aliases[id] ?? id))];
+  return { ...userData, progress: nextProgress, favorites: nextFavorites };
+};

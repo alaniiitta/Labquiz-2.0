@@ -3,14 +3,14 @@ import {createRoot} from "react-dom/client";
 import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass} from "lucide-react";
 import "./styles.css";
 
-import questionBank from "./questions";
+import questionBank,{duplicateAliases} from "./questions";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
 import {parsePdfQuestions} from "./pdfPipeline.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
-import {clearTestSession,createBackup,loadSavedTest,loadUserData,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
+import {clearTestSession,createBackup,loadSavedTest,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex} from "./lib/summaryLinks.js";
 
@@ -66,7 +66,7 @@ const loadResumableTest=()=>{
 };
 
 function App(){
- const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[focusSection,setFocusSection]=useState(null),[userData,setUserData]=useState(loadUserData);
+ const [page,setPage]=useState("home"),[selected,setSelected]=useState(null),[mobile,setMobile]=useState(false),[testConfig,setTestConfig]=useState({topicId:null,mode:"topic",questionIds:null,sessionId:0}),[focusSection,setFocusSection]=useState(null),[userData,setUserData]=useState(()=>migrateDuplicateProgress(loadUserData(),duplicateAliases));
  const show=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  const openTest=(topicId,mode="topic",questionIds=null,questionCount=null,label=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,label,sessionId:config.sessionId+1}));show("test")};
  // abre el resumen de un tema colocado en un apartado concreto
@@ -97,7 +97,7 @@ function App(){
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
-  {page==="settings"&&<SettingsPage userData={userData} onRestore={setUserData} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
+  {page==="settings"&&<SettingsPage userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
   </main>
  </div>
 }
