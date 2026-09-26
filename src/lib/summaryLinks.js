@@ -97,7 +97,6 @@ export function buildTopicIndex(topicId, html, questions, getId, getExplanation 
 
  const byQuestion = new Map();
  const bySection = new Map(candidates.map(section => [section.id, []]));
- const termsByQuestion = new Map();
  for (const question of questions) {
   const terms = questionTerms(question, getExplanation(question), explanationWeight, keyWeight);
   const ranked = candidates.map(section => {
@@ -117,60 +116,9 @@ export function buildTopicIndex(topicId, html, questions, getId, getExplanation 
   const id = getId(question);
   byQuestion.set(id, ranked.filter(entry => entry.score >= best.score * 0.6).slice(0, 3));
   bySection.get(best.id).push(id);
-  // términos distintivos (en pocos apartados) para resaltarlos al abrir el resumen
-  termsByQuestion.set(id, [...terms.keys()].map(term => term.replace(/^#/, "")).filter(term => !term.startsWith("=") && !/^\d+$/.test(term) && (df.get(term) ?? 0) > 0 && (df.get(term) ?? 0) <= Math.max(2, total * 0.2)));
  }
- const index = { html, count: questions.length, defs, sections, byQuestion, bySection, termsByQuestion };
+ const index = { html, count: questions.length, defs, sections, byQuestion, bySection };
  cache.set(topicId, index);
  return index;
 }
 
-// Envuelve en <mark> las palabras de un nodo que empiezan por alguno de los términos.
-export function highlightTerms(root, terms) {
- const words = (terms ?? []).map(term => term.replace(/[^a-z0-9]/g, "")).filter(word => word.length >= 3);
- if (!root || !words.length) return null;
- const pattern = new RegExp(`\\b(?:${words.join("|")})[a-z0-9]*`, "g");
- const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-  acceptNode: node => node.parentElement?.closest("svg,mark,h2,script,style") || !node.nodeValue.trim() ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT,
- });
- const nodes = [];
- while (walker.nextNode()) nodes.push(walker.currentNode);
- let first = null;
- const marks = [];
- nodes.forEach(node => {
-  const text = node.nodeValue;
-  // versión sin tildes con la misma longitud para poder mapear posiciones
-  const flat = [...text].map(ch => plain(ch)[0] ?? ch).join("").replace(/y/g, "i").replace(/k/g, "c");
-  const ranges = [];
-  let m;
-  pattern.lastIndex = 0;
-  while ((m = pattern.exec(flat))) ranges.push([m.index, m.index + m[0].length]);
-  if (!ranges.length || flat.length !== text.length) return;
-  const fragment = document.createDocumentFragment();
-  let cursor = 0;
-  ranges.forEach(([from, to]) => {
-   if (from > cursor) fragment.append(text.slice(cursor, from));
-   const mark = document.createElement("mark");
-   mark.className = "hl";
-   mark.textContent = text.slice(from, to);
-   fragment.append(mark);
-   first ??= mark;
-   marks.push(mark);
-   cursor = to;
-  });
-  if (cursor < text.length) fragment.append(text.slice(cursor));
-  node.replaceWith(fragment);
- });
- // el bloque (tarjeta, fila, recuadro…) con más palabras clave distintas es el más relevante
- const blocks = new Map();
- marks.forEach(mark => {
-  const block = mark.closest(".fact,.fm,.box,.trap,.mn,.gi,tr,li,p") ?? mark;
-  const words = blocks.get(block) ?? new Set();
-  words.add(plain(mark.textContent).slice(0, 6));
-  blocks.set(block, words);
- });
- let best = null;
- let bestCount = 0;
- blocks.forEach((words, block) => { if (words.size > bestCount) { best = block; bestCount = words.size; } });
- return best ?? first;
-}

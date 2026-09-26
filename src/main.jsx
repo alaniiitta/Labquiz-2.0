@@ -12,7 +12,7 @@ import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
 import {clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
-import {buildTopicIndex,highlightTerms} from "./lib/summaryLinks.js";
+import {buildTopicIndex} from "./lib/summaryLinks.js";
 import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
 const pdfFiles=import.meta.glob("/pdfs/*.pdf",{query:"?url",import:"default",eager:true});
@@ -153,9 +153,9 @@ function App(){
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage topic={selected} go={go} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label)=>openTest(selected.id,"topic",ids,null,label)}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} onOpenSummary={openSummaryAt} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
-  {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} go={go} onOpenSummary={openSummaryAt} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite}/>}
+  {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
@@ -268,7 +268,7 @@ const crossTopicCopy={
  mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"}
 };
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,onOpenSummary,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned}){
  const [mode,setMode]=useState(initialMode);
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [savedTest,setSavedTest]=useState(()=>initialMode==="topic"&&!initialTopicId?loadResumableTest():null);
@@ -299,13 +299,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const isFavorite=q?favorites.includes(getQuestionIdForProgress(q)):false;
  const isLearned=q?questionProgress[getQuestionIdForProgress(q)]?.marcadaAprendida===true:false;
  const structuredExplanation=q?explainQuestion(q,q.topicId??currentTopic?.id):null;
- const [sheet,setSheet]=useState(null);
  const questionTopicId=q?(q.topicId??currentTopic?.id):null;
- const summaryIndex=q&&questionTopicId?getSummaryIndex(questionTopicId):null;
- const linkedId=q&&questionTopicId?getQuestionIdForProgress({...q,topicId:questionTopicId}):null;
- const linkedSections=summaryIndex?(summaryIndex.byQuestion.get(linkedId)??[]).map(entry=>summaryIndex.sections.find(section=>section.id===entry.id)).filter(Boolean):[];
- const linkedSection=linkedSections[0]??null;
- useEffect(()=>{if(!sheet)return;const onKey=e=>{if(e.key==="Escape")setSheet(null)};window.addEventListener("keydown",onKey);return()=>window.removeEventListener("keydown",onKey)},[sheet]);
 
  const startTopicTest=topicId=>{
   let questions=(loadedQuestions[topicId]??getQuestionBank(topicId)).map(question=>({...question,topicId}));
@@ -393,11 +387,11 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p className="resultPct">{Math.round(score/totalQuestions*100)} % de aciertos</p><p>{label?.startsWith("Simulacro")?"Has terminado el simulacro de examen.":"Has completado una selección inteligente de este banco."}</p><button className="primary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Elegir otro tema"}</button></div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/>{linkedSection&&<button type="button" className="summaryLinkButton" onClick={()=>setSheet({topicId:questionTopicId,section:linkedSection,sections:linkedSections,defs:summaryIndex.defs,terms:summaryIndex.termsByQuestion.get(linkedId)??[]})}><BookOpen/><span>Ver en el resumen<small>{linkedSection.title}</small></span></button>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div>{sheet&&<SummarySheet sheet={sheet} onClose={()=>setSheet(null)} onSwitch={section=>setSheet(current=>({...current,section}))} onOpenFull={()=>onOpenSummary?.(sheet.topicId,sheet.section.id)}/>}</div>;
+ return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/></div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div></div>;
 }
 
 // Simulacro en modo examen real: sin soluciones hasta entregar, con reloj y penalización por fallo.
-function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,favorites=[],onToggleFavorite}){
+function ExamPage({go,resume,questionProgress={},onProgressChange,favorites=[],onToggleFavorite}){
  const [exam]=useState(()=>{
   const saved=resume?loadResumableExam():null;
   if(saved) return saved;
@@ -415,7 +409,6 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
  const [finish,setFinish]=useState(null);
  const [showGrid,setShowGrid]=useState(false);
  const [confirming,setConfirming]=useState(false);
- const [sheet,setSheet]=useState(null);
  const finishedRef=useRef(false);
  const remaining=deadline-now;
  const answeredCount=Object.keys(answers).length;
@@ -438,7 +431,6 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
  useEffect(()=>{if(phase!=="exam")return;const timer=setInterval(()=>setNow(Date.now()),1000);return()=>clearInterval(timer)},[phase]);
  useEffect(()=>{if(phase==="exam"&&remaining<=0)submit(true)},[phase,remaining]);
  useEffect(()=>{if(phase==="exam"&&!finishedRef.current)saveExamSession({questions:questions.map(({id,number,topicId,question,answers})=>({id,number,topicId,question,answers})),answers,flags,index:i,startedAt,deadline,savedAt:Date.now()})},[phase,answers,flags,i]);
- useEffect(()=>{if(!sheet)return;const onKey=e=>{if(e.key==="Escape")setSheet(null)};window.addEventListener("keydown",onKey);return()=>window.removeEventListener("keydown",onKey)},[sheet]);
 
  const results=useMemo(()=>{
   let correct=0,wrong=0;
@@ -485,11 +477,7 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
  }
 
  const reviewing=phase==="review";
- const questionTopicId=q.topicId;
- const summaryIndex=reviewing?getSummaryIndex(questionTopicId):null;
  const linkedId=getQuestionIdForProgress(q);
- const linkedSections=summaryIndex?(summaryIndex.byQuestion.get(linkedId)??[]).map(entry=>summaryIndex.sections.find(section=>section.id===entry.id)).filter(Boolean):[];
- const linkedSection=linkedSections[0]??null;
  const isFavorite=favorites.includes(linkedId);
  const lowTime=!reviewing&&remaining<=5*60*1000;
  const blank=total-answeredCount;
@@ -506,7 +494,7 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
    <h2>{i+1}. {q.question}</h2>
    <div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":"Si no la sabes, déjala en blanco: no resta."}</p>}
-   {reviewing&&<div className="testFeedback"><ExplanationDisplay structured={explainQuestion(q,q.topicId)} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={hasAnswer?selected===q.correctAnswer:null}/>{linkedSection&&<button type="button" className="summaryLinkButton" onClick={()=>setSheet({topicId:questionTopicId,section:linkedSection,sections:linkedSections,defs:summaryIndex.defs,terms:summaryIndex.termsByQuestion.get(linkedId)??[]})}><BookOpen/><span>Ver en el resumen<small>{linkedSection.title}</small></span></button>}</div>}
+   {reviewing&&<div className="testFeedback"><ExplanationDisplay structured={explainQuestion(q,q.topicId)} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={hasAnswer?selected===q.correctAnswer:null}/></div>}
    <div className="testActions">
     <button className="secondary" onClick={()=>goTo(Math.max(0,i-1))} disabled={i===0}><ArrowLeft/> Anterior</button>
     {reviewing?<button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button>:<button className={flags.includes(i)?"secondary favoriteAction active":"secondary favoriteAction"} onClick={toggleFlag}><Flag fill={flags.includes(i)?"currentColor":"none"}/> {flags.includes(i)?"Marcada":"Marcar"}</button>}
@@ -520,21 +508,10 @@ function ExamPage({go,resume,onOpenSummary,questionProgress={},onProgressChange,
    <p>Te quedan <b>{formatClock(remaining)}</b>. Después verás la nota y las soluciones.</p>
    <div className="testActions"><button className="secondary" onClick={()=>setConfirming(false)}>Seguir</button><button className="primary" onClick={()=>submit(false)}>Entregar</button></div>
   </div></div>}
-  {sheet&&<SummarySheet sheet={sheet} onClose={()=>setSheet(null)} onSwitch={section=>setSheet(current=>({...current,section}))} onOpenFull={()=>onOpenSummary?.(sheet.topicId,sheet.section.id)}/>}
+  
  </div>;
 }
 
-// hoja con un apartado del resumen, sin salir del test
-function SummarySheet({sheet,onClose,onSwitch,onOpenFull}){const topic=topics.find(t=>t.id===sheet.topicId);const bodyRef=useRef(null);const [found,setFound]=useState(true);
- // resalta en el apartado las palabras clave de la pregunta y baja a la primera
- useEffect(()=>{const body=bodyRef.current;if(!body)return;body.scrollTop=0;const focus=highlightTerms(body.querySelector(".vsum"),sheet.terms);setFound(!!focus);if(focus){focus.classList.add("hlFocus");const top=focus.getBoundingClientRect().top-body.getBoundingClientRect().top;if(top>body.clientHeight*.45)body.scrollTop=top-body.clientHeight*.2}},[sheet.section.id]);
- const others=(sheet.sections??[]).filter(section=>section.id!==sheet.section.id);
- return <div className="sheetBackdrop" onClick={onClose}><div className="sheet" role="dialog" aria-modal="true" aria-label={`Resumen: ${sheet.section.title}`} onClick={e=>e.stopPropagation()}>
- <div className="sheetHead"><div><small>TEMA {String(sheet.topicId).padStart(2,"0")} · {topic?.title}</small><b>{sheet.section.title}</b></div><button type="button" className="sheetClose" onClick={onClose} aria-label="Cerrar"><X/></button></div>
- {(others.length>0||found)&&<div className="sheetInfo">{found&&<span className="sheetHint"><mark className="hl">Resaltado</mark> lo relacionado con la pregunta</span>}{others.length>0&&<span className="sheetAlt">También en: {others.map(section=><button type="button" key={section.id} onClick={()=>onSwitch(section)}>{section.title}</button>)}</span>}</div>}
- <div className="sheetBody" ref={bodyRef}><div className="vsum" key={sheet.section.id} dangerouslySetInnerHTML={{__html:visualSummaryDefs+sheet.defs+sheet.section.html}}/></div>
- <div className="sheetFoot"><button type="button" className="secondary" onClick={onClose}>Volver</button><button type="button" className="primary" onClick={onOpenFull}><BookOpen/> Resumen completo</button></div>
-</div></div>}
 
 function ReviewPage({go,onStart,onResumeExam}){
  const [count,setCount]=useState(20);
