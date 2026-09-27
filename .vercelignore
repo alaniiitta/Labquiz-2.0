@@ -1,0 +1,6 @@
+# Lo que la web no necesita para construirse: no se sube a Vercel
+pdfs/
+scripts/
+AUDITORIA.md
+README-pdfs.md
+*.zip
