@@ -12,10 +12,18 @@ import { mergeUserData } from "../src/lib/syncMerge.js";
 const CODE = /^[A-Z2-9]{4}(-[A-Z2-9]{4}){4}$/;
 const MAX_BYTES = 2_000_000;
 
-const redisConfig = () => ({
- url: process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL,
- token: process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN,
-});
+// Vercel crea las variables al conectar la base de datos; según cómo se conecte llevan
+// un prefijo (p. ej. STORAGE_KV_REST_API_URL), así que se buscan por el final del nombre.
+const redisConfig = () => {
+ const env = process.env;
+ for (const [urlSuffix, tokenSuffix] of [["KV_REST_API_URL", "KV_REST_API_TOKEN"], ["UPSTASH_REDIS_REST_URL", "UPSTASH_REDIS_REST_TOKEN"]]) {
+  const urlKey = Object.keys(env).find(key => (key === urlSuffix || key.endsWith(`_${urlSuffix}`)) && env[key]);
+  if (!urlKey) continue;
+  const token = env[urlKey.slice(0, urlKey.length - urlSuffix.length) + tokenSuffix];
+  if (token) return { url: env[urlKey], token };
+ }
+ return { url: null, token: null };
+};
 
 async function redis(command) {
  const { url, token } = redisConfig();
