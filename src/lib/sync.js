@@ -26,9 +26,11 @@ export const saveSyncSettings = settings => {
 };
 
 export class SyncError extends Error {
- constructor(kind) {
+ constructor(kind, detail = null) {
   super(kind);
   this.kind = kind;
+  // si falta la base de datos: nombres de las variables que ve el servidor (para diagnosticar)
+  this.detail = detail;
  }
 }
 
@@ -44,7 +46,7 @@ async function call(payload) {
   throw new SyncError("offline");
  }
  const body = await response.json().catch(() => ({}));
- if (!response.ok) throw new SyncError(body.error || (response.status === 404 ? "not-configured" : "error"));
+ if (!response.ok) throw new SyncError(body.error || (response.status === 404 ? "not-configured" : "error"), Array.isArray(body.seen) ? body.seen : null);
  return body;
 }
 

@@ -1,5 +1,5 @@
 // Cuenta de usuario y sincronización del progreso entre dispositivos (función de Vercel).
-// Guarda los datos en Upstash Redis (plan gratuito, conectado desde Vercel → Storage).
+// Guarda los datos en Redis (Upstash o Redis, plan gratuito, conectado desde Vercel → Storage).
 //
 // POST /api/sync con { action, ... }:
 //   register { user, password }  → crea la cuenta y devuelve { user, token }
@@ -20,21 +20,33 @@ const MAX_FAILS = 10;
 const FAIL_WINDOW_S = 15 * 60;
 const SESSION_TTL_S = 365 * 24 * 60 * 60;
 
-// Vercel crea las variables al conectar la base de datos; según cómo se conecte llevan
-// un prefijo (p. ej. STORAGE_KV_REST_API_URL), así que se buscan por el final del nombre.
-const redisConfig = () => {
- const env = process.env;
+// Vercel crea las variables al conectar la base de datos. Según el proveedor son de tipo
+// REST (Upstash: KV_REST_API_URL + KV_REST_API_TOKEN) o una URL redis:// (Redis: REDIS_URL),
+// y a veces llevan un prefijo (p. ej. STORAGE_REDIS_URL), así que se buscan por el final del nombre.
+const findEnv = suffix => Object.keys(process.env).find(key => (key === suffix || key.endsWith(`_${suffix}`)) && process.env[key]);
+
+const restConfig = () => {
  for (const [urlSuffix, tokenSuffix] of [["KV_REST_API_URL", "KV_REST_API_TOKEN"], ["UPSTASH_REDIS_REST_URL", "UPSTASH_REDIS_REST_TOKEN"]]) {
-  const urlKey = Object.keys(env).find(key => (key === urlSuffix || key.endsWith(`_${urlSuffix}`)) && env[key]);
+  const urlKey = findEnv(urlSuffix);
   if (!urlKey) continue;
-  const token = env[urlKey.slice(0, urlKey.length - urlSuffix.length) + tokenSuffix];
-  if (token) return { url: env[urlKey], token };
+  const token = process.env[urlKey.slice(0, urlKey.length - urlSuffix.length) + tokenSuffix];
+  if (token) return { url: process.env[urlKey], token };
  }
- return { url: null, token: null };
+ return null;
 };
 
-async function redis(command) {
- const { url, token } = redisConfig();
+const redisUrl = () => {
+ const key = findEnv("REDIS_URL") ?? findEnv("KV_URL");
+ const value = key ? process.env[key] : null;
+ return value && /^rediss?:\/\//.test(value) ? value : null;
+};
+
+const isConfigured = () => !!(restConfig() || redisUrl());
+
+// Nombres (nunca valores) de las variables que parecen de base de datos, para diagnosticar.
+const seenVariables = () => Object.keys(process.env).filter(key => /REDIS|UPSTASH|(^|_)KV_/.test(key)).sort();
+
+async function restCommand({ url, token }, command) {
  const response = await fetch(url, {
   method: "POST",
   headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
@@ -43,6 +55,27 @@ async function redis(command) {
  const body = await response.json().catch(() => ({}));
  if (!response.ok || body.error) throw new Error(body.error || `Redis respondió ${response.status}`);
  return body.result;
+}
+
+// Conexión redis:// reutilizada entre llamadas mientras la función siga «caliente».
+let clientPromise = null;
+async function tcpClient(url) {
+ if (!clientPromise) {
+  clientPromise = import("redis").then(async ({ createClient }) => {
+   const client = createClient({ url, socket: { connectTimeout: 5000, reconnectStrategy: retries => (retries > 2 ? false : 200) } });
+   client.on("error", error => console.error("redis", error.message));
+   await client.connect();
+   return client;
+  }).catch(error => { clientPromise = null; throw error; });
+ }
+ return clientPromise;
+}
+
+async function redis(command) {
+ const rest = restConfig();
+ if (rest) return restCommand(rest, command);
+ const client = await tcpClient(redisUrl());
+ return client.sendCommand(command.map(String));
 }
 
 const sha256 = text => createHash("sha256").update(text).digest("hex");
@@ -128,8 +161,11 @@ export default async function handler(req, res) {
   res.setHeader("Allow", "POST");
   return res.status(405).json({ error: "method-not-allowed" });
  }
- const { url, token } = redisConfig();
- if (!url || !token) return res.status(503).json({ error: "not-configured" });
+ if (!isConfigured()) {
+  const seen = seenVariables();
+  console.error("sync: sin base de datos; variables vistas:", seen.join(", ") || "ninguna");
+  return res.status(503).json({ error: "not-configured", seen });
+ }
  try {
   const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body ?? {});
   const action = actions[body.action];

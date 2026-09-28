@@ -775,7 +775,10 @@ function SyncCard({sync}){
   if(mode==="register"&&password.length<MIN_PASSWORD){setError(accountErrors["weak-password"]);return;}
   setBusy(true);setError(null);
   try{await sync.signIn(mode,name,password);setMode(null);setPassword("");}
-  catch(err){setError(accountErrors[err?.kind]??"No se pudo completar. Vuelve a intentarlo.");}
+  catch(err){
+   const base=accountErrors[err?.kind]??"No se pudo completar. Vuelve a intentarlo.";
+   setError(err?.kind==="not-configured"&&err.detail?`${base} ${err.detail.length?`Variables que ve Vercel: ${err.detail.join(", ")}.`:"Vercel no ve ninguna variable de base de datos: conéctala al proyecto y haz Redeploy."}`:base);
+  }
   finally{setBusy(false);}
  };
 
