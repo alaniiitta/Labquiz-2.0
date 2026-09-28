@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,Link2} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff} from "lucide-react";
 import "./styles.css";
 
 import questionBank,{duplicateAliases} from "./questions";
@@ -12,7 +12,7 @@ import {explainQuestion} from "./lib/explainQuestion.js";
 import {clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex} from "./lib/summaryLinks.js";
-import {generateSyncCode,loadSyncSettings,normalizeSyncCode,pushSync,saveSyncSettings} from "./lib/sync.js";
+import {MIN_PASSWORD,USER_PATTERN,loadSyncSettings,loginAccount,logoutAccount,pushSync,registerAccount,saveSyncSettings} from "./lib/sync.js";
 import {mergeUserData,syncSignature} from "./lib/syncMerge.js";
 import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
@@ -684,8 +684,8 @@ function SettingsPage({sync,userData,onRestore,onThemeChange}){
  </div>
 }
 
-// Sincronización automática con la nube: al abrir, al volver a la app, al recuperar la
-// conexión y unos segundos después de cada cambio. Une los datos, nunca los sustituye.
+// Sincronización automática con la nube (con tu cuenta): al abrir, al volver a la app,
+// al recuperar la conexión y unos segundos después de cada cambio. Une los datos, nunca los sustituye.
 function useSync(userData,setUserData){
  const [settings,setSettings]=useState(()=>loadSyncSettings());
  const [status,setStatus]=useState(settings?"idle":"off");
@@ -694,79 +694,112 @@ function useSync(userData,setUserData){
  const pendingRef=useRef(false);
  dataRef.current=userData;
 
- const syncNow=async(code=settings?.code)=>{
-  if(!code) return;
+ const syncNow=async(account=settings)=>{
+  if(!account?.token) return;
   if(runningRef.current){pendingRef.current=true;return;}
   runningRef.current=true;
   setStatus("syncing");
   try{
-   const record=await pushSync(code,dataRef.current);
+   const record=await pushSync(account.token,dataRef.current);
    const remoteSignature=syncSignature(record.data);
    setUserData(local=>{
     const merged=mergeUserData(local,record.data);
     return syncSignature(merged)===syncSignature(local)?local:{...merged,theme:local.theme};
    });
-   const next={code,lastSyncAt:Date.now(),lastSignature:remoteSignature};
+   const next={...account,lastSyncAt:Date.now(),lastSignature:remoteSignature};
    saveSyncSettings(next);setSettings(next);setStatus("ok");
   }catch(error){
-   setStatus(error?.kind==="offline"||!navigator.onLine?"offline":error?.kind==="not-configured"?"not-configured":"error");
+   // la sesión ya no es válida (p. ej. se cerró desde otro sitio): hay que volver a entrar
+   if(error?.kind==="unauthorized"){saveSyncSettings(null);setSettings(null);setStatus("expired");}
+   else setStatus(error?.kind==="offline"||!navigator.onLine?"offline":error?.kind==="not-configured"?"not-configured":"error");
   }finally{
    runningRef.current=false;
-   if(pendingRef.current){pendingRef.current=false;setTimeout(()=>syncNow(code),500);}
+   if(pendingRef.current){pendingRef.current=false;setTimeout(()=>syncNow(),500);}
   }
  };
 
  // tras cada cambio local (espera 3 s para agrupar varias respuestas seguidas)
  useEffect(()=>{
-  if(!settings?.code) return;
+  if(!settings?.token) return;
   if(syncSignature(userData)===settings.lastSignature) return;
   const timer=setTimeout(()=>syncNow(),3000);
   return ()=>clearTimeout(timer);
- },[userData,settings?.code]);
+ },[userData,settings?.token]);
 
  useEffect(()=>{
-  if(!settings?.code) return;
+  if(!settings?.token) return;
   syncNow();
   const onVisible=()=>{if(document.visibilityState==="visible")syncNow()};
   const onOnline=()=>syncNow();
   document.addEventListener("visibilitychange",onVisible);
   window.addEventListener("online",onOnline);
   return()=>{document.removeEventListener("visibilitychange",onVisible);window.removeEventListener("online",onOnline)};
- },[settings?.code]);
+ },[settings?.token]);
 
- const link=code=>{const next={code,lastSyncAt:null,lastSignature:null};saveSyncSettings(next);setSettings(next);setStatus("idle");};
- const unlink=()=>{saveSyncSettings(null);setSettings(null);setStatus("off");};
- return {code:settings?.code??null,lastSyncAt:settings?.lastSyncAt??null,status,syncNow:()=>syncNow(),create:()=>link(generateSyncCode()),join:input=>{const code=normalizeSyncCode(input);if(code)link(code);return !!code},unlink};
+ // crea la cuenta o entra; lanza SyncError con el motivo si no se puede
+ const signIn=async(mode,user,password)=>{
+  const result=await (mode==="register"?registerAccount:loginAccount)(user,password);
+  const account={user:result.user,token:result.token,lastSyncAt:null,lastSignature:null};
+  saveSyncSettings(account);setSettings(account);setStatus("idle");
+ };
+ const signOut=async()=>{const token=settings?.token;saveSyncSettings(null);setSettings(null);setStatus("off");if(token)await logoutAccount(token);};
+ return {user:settings?.user??null,lastSyncAt:settings?.lastSyncAt??null,status,syncNow:()=>syncNow(),signIn,signOut};
 }
 
 const timeAgo=ms=>{if(!ms)return "todavía no";const minutes=Math.round((Date.now()-ms)/60000);if(minutes<1)return "hace un momento";if(minutes<60)return `hace ${minutes} min`;const hours=Math.round(minutes/60);if(hours<24)return `hace ${hours} h`;return new Date(ms).toLocaleDateString("es-ES",{day:"numeric",month:"short"});};
 
+const accountErrors={
+ "invalid-user":"El usuario debe tener entre 3 y 30 caracteres: letras sin tilde, números, punto, guion o guion bajo.",
+ "weak-password":`La contraseña debe tener al menos ${MIN_PASSWORD} caracteres.`,
+ "user-taken":"Ese usuario ya existe. Si es tuyo, pulsa «Iniciar sesión».",
+ "bad-credentials":"Usuario o contraseña incorrectos.",
+ "too-many":"Demasiados intentos fallidos. Espera 15 minutos y vuelve a probar.",
+ "offline":"Sin conexión a internet. Inténtalo cuando tengas conexión.",
+ "not-configured":"Falta conectar la base de datos en Vercel (Storage).",
+};
+
 function SyncCard({sync}){
- const [joining,setJoining]=useState(false);
- const [input,setInput]=useState("");
- const [invalid,setInvalid]=useState(false);
- const [copied,setCopied]=useState(false);
+ const [mode,setMode]=useState(null);
+ const [user,setUser]=useState("");
+ const [password,setPassword]=useState("");
+ const [showPassword,setShowPassword]=useState(false);
+ const [error,setError]=useState(null);
+ const [busy,setBusy]=useState(false);
  const [,tick]=useState(0);
  useEffect(()=>{const timer=setInterval(()=>tick(n=>n+1),30000);return()=>clearInterval(timer)},[]);
- if(!sync.code) return <section className="settingsCard syncCard">
-  <div className="settingsCardText"><h3><Cloud/> Sincronizar entre dispositivos</h3><p>Estudia en el móvil y en el iPad con el mismo progreso, favoritos y aclaraciones. Se unen automáticamente: no se pierde lo que hagas en cada uno.</p>
-   {joining&&<form className="syncJoin" onSubmit={e=>{e.preventDefault();const ok=sync.join(input);setInvalid(!ok);if(ok)setJoining(false)}}>
-    <input value={input} onChange={e=>{setInput(e.target.value);setInvalid(false)}} placeholder="XXXX-XXXX-XXXX-XXXX-XXXX" autoCapitalize="characters" autoCorrect="off" spellCheck={false} aria-label="Código de sincronización" autoFocus/>
-    <button className="primary" type="submit"><Link2/> Enlazar</button><button className="secondary" type="button" onClick={()=>{setJoining(false);setInvalid(false)}}>Cancelar</button>
-    {invalid&&<small className="syncError">El código no es válido: son 20 letras y números (con o sin guiones).</small>}
+
+ const submit=async e=>{
+  e.preventDefault();
+  const name=user.trim().toLowerCase();
+  if(!USER_PATTERN.test(name)){setError(accountErrors["invalid-user"]);return;}
+  if(mode==="register"&&password.length<MIN_PASSWORD){setError(accountErrors["weak-password"]);return;}
+  setBusy(true);setError(null);
+  try{await sync.signIn(mode,name,password);setMode(null);setPassword("");}
+  catch(err){setError(accountErrors[err?.kind]??"No se pudo completar. Vuelve a intentarlo.");}
+  finally{setBusy(false);}
+ };
+
+ if(!sync.user) return <section className="settingsCard syncCard">
+  <div className="settingsCardText"><h3><UserRound/> Tu cuenta</h3><p>Entra con tu usuario en el móvil y en el iPad para estudiar con el mismo progreso, favoritos y aclaraciones. Se unen automáticamente: no se pierde lo que hagas en cada uno.</p>
+   {sync.status==="expired"&&<p className="syncStatus error"><CloudOff/>Tu sesión se cerró. Vuelve a iniciar sesión.</p>}
+   {mode&&<form className="accountForm" onSubmit={submit}>
+    <b className="accountTitle">{mode==="register"?"Crear cuenta":"Iniciar sesión"}</b>
+    <label>Usuario<input value={user} onChange={e=>{setUser(e.target.value);setError(null)}} autoComplete="username" autoCapitalize="none" autoCorrect="off" spellCheck={false} placeholder="p. ej. alana" autoFocus/></label>
+    <label>Contraseña<span className="pwWrap"><input type={showPassword?"text":"password"} value={password} onChange={e=>{setPassword(e.target.value);setError(null)}} autoComplete={mode==="register"?"new-password":"current-password"} placeholder={mode==="register"?`Mínimo ${MIN_PASSWORD} caracteres`:""}/><button type="button" className="pwToggle" onClick={()=>setShowPassword(v=>!v)} aria-label={showPassword?"Ocultar contraseña":"Mostrar contraseña"}>{showPassword?<EyeOff/>:<Eye/>}</button></span></label>
+    {mode==="register"&&<small className="syncHint">No hay recuperación por email: apunta la contraseña o deja que el iPhone la guarde. Si la olvidas, tu progreso sigue en tus dispositivos y puedes crear otra cuenta.</small>}
+    {error&&<small className="syncError" role="alert">{error}</small>}
+    <div className="accountActions"><button className="secondary" type="button" onClick={()=>{setMode(null);setError(null)}}>Cancelar</button><button className="primary" type="submit" disabled={busy}>{busy?"Un momento…":mode==="register"?"Crear cuenta":"Entrar"}</button></div>
    </form>}
   </div>
-  {!joining&&<div className="settingsActions"><button className="primary" type="button" onClick={sync.create}><Cloud/> Activar en este dispositivo</button><button className="secondary" type="button" onClick={()=>setJoining(true)}><Link2/> Tengo un código</button></div>}
+  {!mode&&<div className="settingsActions"><button className="primary" type="button" onClick={()=>{setMode("register");setError(null)}}><UserRound/> Crear cuenta</button><button className="secondary" type="button" onClick={()=>{setMode("login");setError(null)}}><LogIn/> Iniciar sesión</button></div>}
  </section>;
- const statusText={idle:"Preparando…",syncing:"Sincronizando…",ok:`Sincronizado ${timeAgo(sync.lastSyncAt)}`,offline:"Sin conexión: se sincronizará al volver a tener internet",error:"No se pudo sincronizar. Se volverá a intentar.",["not-configured"]:"Falta conectar la base de datos en Vercel (Storage)."}[sync.status];
- const copy=()=>{try{navigator.clipboard?.writeText(sync.code).then(()=>{setCopied(true);setTimeout(()=>setCopied(false),2000)},()=>{})}catch{}};
+
+ const statusText={idle:"Preparando…",syncing:"Sincronizando…",ok:`Sincronizado ${timeAgo(sync.lastSyncAt)}`,offline:"Sin conexión: se sincronizará al volver a tener internet",error:"No se pudo sincronizar. Se volverá a intentar.",["not-configured"]:accountErrors["not-configured"]}[sync.status];
  return <section className="settingsCard syncCard on">
-  <div className="settingsCardText"><h3><Cloud/> Sincronización activada</h3><p>En el otro dispositivo, entra en Configuración → <b>Tengo un código</b> y escribe:</p>
-   <button type="button" className="syncCode" onClick={copy} title="Copiar código">{sync.code}<Copy/></button>{copied&&<small className="syncHint">Código copiado</small>}
+  <div className="settingsCardText"><h3><UserRound/> Tu cuenta</h3><p>Sesión iniciada como <b>{sync.user}</b>. En el otro dispositivo, entra en Configuración → <b>Iniciar sesión</b> con el mismo usuario.</p>
    <p className={`syncStatus ${sync.status}`}>{sync.status==="offline"||sync.status==="error"||sync.status==="not-configured"?<CloudOff/>:<Cloud/>}{statusText}</p>
-   <small className="syncHint">Guarda el código en un lugar seguro: quien lo tenga puede ver y cambiar tu progreso.</small>
   </div>
-  <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>{if(window.confirm("Este dispositivo dejará de sincronizarse. Tu progreso se queda guardado aquí. ¿Continuar?"))sync.unlink()}}>Desvincular</button></div>
+  <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>{if(window.confirm("¿Cerrar sesión en este dispositivo? Tu progreso se queda guardado aquí y en tu cuenta."))sync.signOut()}}><LogOut/> Cerrar sesión</button></div>
  </section>;
 }
 

@@ -1,16 +1,24 @@
-// Sincronización del progreso entre dispositivos (función de Vercel).
+// Cuenta de usuario y sincronización del progreso entre dispositivos (función de Vercel).
 // Guarda los datos en Upstash Redis (plan gratuito, conectado desde Vercel → Storage).
-// Cada grupo de dispositivos comparte un código secreto; en la base de datos solo se
-// guarda su huella (SHA-256), nunca el código.
 //
-//   GET  /api/sync?code=XXXX-...   → { data, updatedAt }  (data = null si aún no hay nada)
-//   POST /api/sync { code, data }  → une lo recibido con lo guardado y devuelve el resultado
+// POST /api/sync con { action, ... }:
+//   register { user, password }  → crea la cuenta y devuelve { user, token }
+//   login    { user, password }  → devuelve { user, token }
+//   sync     { token, data }     → une lo recibido con lo guardado y devuelve { data, updatedAt }
+//   logout   { token }           → cierra esa sesión
+//
+// La contraseña se guarda cifrada con scrypt (sal propia por usuario) y las sesiones
+// solo por su huella SHA-256: en la base de datos no hay nada que se pueda reutilizar.
 
-import { createHash } from "node:crypto";
+import { createHash, randomBytes, scrypt, timingSafeEqual } from "node:crypto";
 import { mergeUserData } from "../src/lib/syncMerge.js";
 
-const CODE = /^[A-Z2-9]{4}(-[A-Z2-9]{4}){4}$/;
+const USER = /^[a-z0-9._-]{3,30}$/;
+const MIN_PASSWORD = 6;
 const MAX_BYTES = 2_000_000;
+const MAX_FAILS = 10;
+const FAIL_WINDOW_S = 15 * 60;
+const SESSION_TTL_S = 365 * 24 * 60 * 60;
 
 // Vercel crea las variables al conectar la base de datos; según cómo se conecte llevan
 // un prefijo (p. ej. STORAGE_KV_REST_API_URL), así que se buscan por el final del nombre.
@@ -37,43 +45,97 @@ async function redis(command) {
  return body.result;
 }
 
-const keyFor = code => `labquiz:sync:${createHash("sha256").update(code).digest("hex")}`;
+const sha256 = text => createHash("sha256").update(text).digest("hex");
+const keys = {
+ user: user => `labquiz:user:${user}`,
+ data: user => `labquiz:data:${user}`,
+ session: token => `labquiz:session:${sha256(token)}`,
+ fails: user => `labquiz:fails:${user}`,
+};
 
-async function load(key) {
- const raw = await redis(["GET", key]);
- return raw ? JSON.parse(raw) : null;
+const hashPassword = (password, salt) => new Promise((resolve, reject) =>
+ scrypt(password, salt, 64, (error, key) => error ? reject(error) : resolve(key)));
+
+const normalizeUser = value => String(value ?? "").trim().toLowerCase();
+
+async function newSession(user) {
+ const token = randomBytes(32).toString("base64url");
+ await redis(["SET", keys.session(token), user, "EX", SESSION_TTL_S]);
+ return token;
 }
+
+async function register(body) {
+ const user = normalizeUser(body.user);
+ const password = String(body.password ?? "");
+ if (!USER.test(user)) return [400, { error: "invalid-user" }];
+ if (password.length < MIN_PASSWORD) return [400, { error: "weak-password" }];
+ const salt = randomBytes(16);
+ const hash = await hashPassword(password, salt);
+ const record = JSON.stringify({ salt: salt.toString("base64"), hash: hash.toString("base64"), createdAt: Date.now() });
+ // NX: solo se crea si el usuario no existe todavía
+ const created = await redis(["SET", keys.user(user), record, "NX"]);
+ if (created !== "OK") return [409, { error: "user-taken" }];
+ return [200, { user, token: await newSession(user) }];
+}
+
+async function login(body) {
+ const user = normalizeUser(body.user);
+ const password = String(body.password ?? "");
+ if (!USER.test(user) || !password) return [401, { error: "bad-credentials" }];
+ const fails = Number(await redis(["GET", keys.fails(user)])) || 0;
+ if (fails >= MAX_FAILS) return [429, { error: "too-many" }];
+ const raw = await redis(["GET", keys.user(user)]);
+ const stored = raw ? JSON.parse(raw) : null;
+ const expected = stored ? Buffer.from(stored.hash, "base64") : null;
+ const actual = await hashPassword(password, stored ? Buffer.from(stored.salt, "base64") : randomBytes(16));
+ if (!expected || expected.length !== actual.length || !timingSafeEqual(expected, actual)) {
+  await redis(["INCR", keys.fails(user)]);
+  await redis(["EXPIRE", keys.fails(user), FAIL_WINDOW_S]);
+  return [401, { error: "bad-credentials" }];
+ }
+ await redis(["DEL", keys.fails(user)]);
+ return [200, { user, token: await newSession(user) }];
+}
+
+async function sessionUser(token) {
+ if (typeof token !== "string" || token.length < 20) return null;
+ return await redis(["GET", keys.session(token)]);
+}
+
+async function sync(body) {
+ const user = await sessionUser(body.token);
+ if (!user) return [401, { error: "unauthorized" }];
+ if (!body.data || typeof body.data !== "object" || Array.isArray(body.data)) return [400, { error: "bad-data" }];
+ const raw = await redis(["GET", keys.data(user)]);
+ const stored = raw ? JSON.parse(raw) : null;
+ const record = { data: mergeUserData(body.data, stored?.data ?? {}), updatedAt: Date.now() };
+ const serialized = JSON.stringify(record);
+ if (serialized.length > MAX_BYTES) return [413, { error: "too-large" }];
+ await redis(["SET", keys.data(user), serialized]);
+ return [200, { user, ...record }];
+}
+
+async function logout(body) {
+ if (typeof body.token === "string" && body.token) await redis(["DEL", keys.session(body.token)]);
+ return [200, { ok: true }];
+}
+
+const actions = { register, login, sync, logout };
 
 export default async function handler(req, res) {
  res.setHeader("Cache-Control", "no-store");
+ if (req.method !== "POST") {
+  res.setHeader("Allow", "POST");
+  return res.status(405).json({ error: "method-not-allowed" });
+ }
  const { url, token } = redisConfig();
  if (!url || !token) return res.status(503).json({ error: "not-configured" });
-
  try {
-  if (req.method === "GET") {
-   const code = String(req.query?.code ?? "").toUpperCase();
-   if (!CODE.test(code)) return res.status(400).json({ error: "bad-code" });
-   const stored = await load(keyFor(code));
-   return res.status(200).json(stored ?? { data: null, updatedAt: null });
-  }
-
-  if (req.method === "POST") {
-   const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body ?? {});
-   const code = String(body.code ?? "").toUpperCase();
-   if (!CODE.test(code)) return res.status(400).json({ error: "bad-code" });
-   if (!body.data || typeof body.data !== "object" || Array.isArray(body.data)) return res.status(400).json({ error: "bad-data" });
-   const key = keyFor(code);
-   const stored = await load(key);
-   const merged = stored?.data ? mergeUserData(body.data, stored.data) : mergeUserData(body.data, {});
-   const record = { data: merged, updatedAt: Date.now() };
-   const serialized = JSON.stringify(record);
-   if (serialized.length > MAX_BYTES) return res.status(413).json({ error: "too-large" });
-   await redis(["SET", key, serialized]);
-   return res.status(200).json(record);
-  }
-
-  res.setHeader("Allow", "GET, POST");
-  return res.status(405).json({ error: "method-not-allowed" });
+  const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body ?? {});
+  const action = actions[body.action];
+  if (!action) return res.status(400).json({ error: "bad-action" });
+  const [status, payload] = await action(body);
+  return res.status(status).json(payload);
  } catch (error) {
   console.error("sync", error);
   return res.status(500).json({ error: "server-error" });

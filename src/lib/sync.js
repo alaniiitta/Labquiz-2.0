@@ -1,28 +1,16 @@
-// Cliente de la sincronización entre dispositivos (ver api/sync.js).
-export const SYNC_KEY = "labquiz.sync.v1";
+// Cliente de la cuenta y la sincronización entre dispositivos (ver api/sync.js).
+export const SYNC_KEY = "labquiz.account.v1";
+const LEGACY_SYNC_KEY = "labquiz.sync.v1";
 
-// Sin I, O, 0 ni 1 para que el código no se preste a confusión al copiarlo a mano.
-const ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-const CODE = /^[A-Z2-9]{4}(-[A-Z2-9]{4}){4}$/;
-
-export function generateSyncCode() {
- const bytes = new Uint8Array(20);
- crypto.getRandomValues(bytes);
- const chars = [...bytes].map(byte => ALPHABET[byte % ALPHABET.length]).join("");
- return chars.match(/.{4}/g).join("-");
-}
-
-// Acepta el código con o sin guiones, en minúsculas o con espacios.
-export function normalizeSyncCode(input) {
- const chars = String(input ?? "").toUpperCase().replace(/[^A-Z0-9]/g, "");
- const code = (chars.match(/.{1,4}/g) ?? []).join("-");
- return CODE.test(code) ? code : null;
-}
+export const USER_PATTERN = /^[a-z0-9._-]{3,30}$/;
+export const MIN_PASSWORD = 6;
 
 export const loadSyncSettings = () => {
  try {
+  // el código de sincronización anterior nunca llegó a guardar nada en la nube: se descarta
+  localStorage.removeItem(LEGACY_SYNC_KEY);
   const saved = JSON.parse(localStorage.getItem(SYNC_KEY) || "null");
-  return saved && CODE.test(saved.code ?? "") ? saved : null;
+  return saved && typeof saved.token === "string" && typeof saved.user === "string" ? saved : null;
  } catch {
   return null;
  }
@@ -33,31 +21,40 @@ export const saveSyncSettings = settings => {
   if (settings) localStorage.setItem(SYNC_KEY, JSON.stringify(settings));
   else localStorage.removeItem(SYNC_KEY);
  } catch (error) {
-  console.error("No se pudo guardar la configuración de sincronización", error);
+  console.error("No se pudo guardar la sesión", error);
  }
 };
 
 export class SyncError extends Error {
- constructor(kind, message) {
-  super(message ?? kind);
+ constructor(kind) {
+  super(kind);
   this.kind = kind;
  }
 }
 
-// Sube los datos locales; el servidor los une con los guardados y devuelve el resultado.
-export async function pushSync(code, data) {
+async function call(payload) {
  let response;
  try {
   response = await fetch("/api/sync", {
    method: "POST",
    headers: { "Content-Type": "application/json" },
-   body: JSON.stringify({ code, data }),
+   body: JSON.stringify(payload),
   });
  } catch {
   throw new SyncError("offline");
  }
  const body = await response.json().catch(() => ({}));
- if (response.status === 503 && body.error === "not-configured") throw new SyncError("not-configured");
- if (!response.ok || !body.data) throw new SyncError("error", body.error);
+ if (!response.ok) throw new SyncError(body.error || (response.status === 404 ? "not-configured" : "error"));
+ return body;
+}
+
+export const registerAccount = (user, password) => call({ action: "register", user, password });
+export const loginAccount = (user, password) => call({ action: "login", user, password });
+export const logoutAccount = token => call({ action: "logout", token }).catch(() => null);
+
+// Sube los datos locales; el servidor los une con los guardados y devuelve el resultado.
+export async function pushSync(token, data) {
+ const body = await call({ action: "sync", token, data });
+ if (!body.data) throw new SyncError("error");
  return body;
 }
