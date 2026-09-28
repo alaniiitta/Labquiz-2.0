@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,Link2} from "lucide-react";
 import "./styles.css";
 
 import questionBank,{duplicateAliases} from "./questions";
@@ -12,6 +12,8 @@ import {explainQuestion} from "./lib/explainQuestion.js";
 import {clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex} from "./lib/summaryLinks.js";
+import {generateSyncCode,loadSyncSettings,normalizeSyncCode,pushSync,saveSyncSettings} from "./lib/sync.js";
+import {mergeUserData,syncSignature} from "./lib/syncMerge.js";
 import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
 
@@ -160,10 +162,12 @@ function App(){
  const openSummaryAt=(topicId,sectionId=null)=>{setSelected(topics.find(t=>t.id===topicId));setFocusSection(sectionId);show("topic")};
  // ir a "test" sin configuración abre siempre el selector de temas, no el último test
  const go=p=>p==="test"?openTest(null):show(p);
- const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);return {...data,favorites:data.favorites.includes(id)?data.favorites.filter(favoriteId=>favoriteId!==id):[...data.favorites,id]}});
+ // cada alta o baja de favoritos lleva fecha para poder unirlas entre dispositivos
+ const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);const on=!data.favorites.includes(id);return {...data,favorites:on?[...data.favorites,id]:data.favorites.filter(favoriteId=>favoriteId!==id),favoriteChanges:{...(data.favoriteChanges??{}),[id]:{on,at:Date.now()}}}});
  const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
  // guarda (o borra, si queda vacía) la aclaración propia de una pregunta
- const saveNote=(question,text)=>setUserData(data=>{const id=getQuestionIdForProgress(question);const notes={...(data.notes??{})};if(text.trim())notes[id]={text:text.trim(),updatedAt:Date.now()};else delete notes[id];return {...data,notes}});
+ const saveNote=(question,text)=>setUserData(data=>{const id=getQuestionIdForProgress(question);const notes={...(data.notes??{})};const noteDeletions={...(data.noteDeletions??{})};if(text.trim())notes[id]={text:text.trim(),updatedAt:Date.now()};else{delete notes[id];noteDeletions[id]=Date.now()}return {...data,notes,noteDeletions}});
+ const sync=useSync(userData,setUserData);
  const [saveFailed,setSaveFailed]=useState(false);
  useEffect(()=>setSaveFailed(!saveUserData(userData)),[userData]);
  useEffect(()=>{document.documentElement.dataset.theme=userData.theme??"light"},[userData.theme]);
@@ -188,7 +192,7 @@ function App(){
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
-  {page==="settings"&&<SettingsPage userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
+  {page==="settings"&&<SettingsPage sync={sync} userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
   </main>
  </div>
 }
@@ -636,7 +640,7 @@ function ProgressPage({progress,onStart}){
  </div>
 }
 
-function SettingsPage({userData,onRestore,onThemeChange}){
+function SettingsPage({sync,userData,onRestore,onThemeChange}){
  const importInput=useRef(null);
  const [message,setMessage]=useState(null);
  const progressCount=Object.keys(userData.progress??{}).length;
@@ -673,10 +677,97 @@ function SettingsPage({userData,onRestore,onThemeChange}){
  return <div className="settingsPage">
   <section className="settingsIntro"><span className="settingsIcon"><ShieldCheck/></span><div><span className="eyebrow">DATOS Y SEGURIDAD</span><h2>Protege tu progreso</h2><p>Descarga una copia para recuperar tus datos si cambias de móvil, navegador o borras los datos del sitio.</p></div></section>
   <section className="settingsCard themeSetting"><div className="settingsCardText"><h3>Modo noche</h3><p>Reduce el brillo de la interfaz para estudiar con poca luz.</p></div><div className="themeControl"><Sun/><button className="themeSwitch" type="button" role="switch" aria-checked={userData.theme==="dark"} aria-label="Activar modo noche" onClick={()=>onThemeChange(userData.theme==="dark"?"light":"dark")}><span/></button><Moon/></div></section>
+  <SyncCard sync={sync}/>
   <section className="settingsCard"><div className="settingsCardText"><h3>Copia de seguridad</h3><p>Incluye tu dominio por tema, respuestas, preguntas falladas y favoritas.</p><div className="backupSummary"><span><b>{progressCount}</b> preguntas con actividad</span><span><b>{favoritesCount}</b> favoritas</span></div></div><div className="settingsActions"><button className="primary" onClick={exportBackup}><Download/> Descargar copia</button><button className="secondary" onClick={()=>importInput.current?.click()}><Upload/> Restaurar copia</button><input ref={importInput} className="backupFileInput" type="file" accept="application/json,.json" onChange={importBackup}/></div></section>
   {message&&<div className={`backupMessage ${message.type}`} role="status">{message.text}</div>}
   <section className="settingsNotice"><h3>Dónde guardarla</h3><p>En iPhone, elige <b>Guardar en Archivos</b> y selecciona iCloud Drive. La copia contiene datos de estudio, pero no contraseñas ni información bancaria.</p></section>
  </div>
+}
+
+// Sincronización automática con la nube: al abrir, al volver a la app, al recuperar la
+// conexión y unos segundos después de cada cambio. Une los datos, nunca los sustituye.
+function useSync(userData,setUserData){
+ const [settings,setSettings]=useState(()=>loadSyncSettings());
+ const [status,setStatus]=useState(settings?"idle":"off");
+ const dataRef=useRef(userData);
+ const runningRef=useRef(false);
+ const pendingRef=useRef(false);
+ dataRef.current=userData;
+
+ const syncNow=async(code=settings?.code)=>{
+  if(!code) return;
+  if(runningRef.current){pendingRef.current=true;return;}
+  runningRef.current=true;
+  setStatus("syncing");
+  try{
+   const record=await pushSync(code,dataRef.current);
+   const remoteSignature=syncSignature(record.data);
+   setUserData(local=>{
+    const merged=mergeUserData(local,record.data);
+    return syncSignature(merged)===syncSignature(local)?local:{...merged,theme:local.theme};
+   });
+   const next={code,lastSyncAt:Date.now(),lastSignature:remoteSignature};
+   saveSyncSettings(next);setSettings(next);setStatus("ok");
+  }catch(error){
+   setStatus(error?.kind==="offline"||!navigator.onLine?"offline":error?.kind==="not-configured"?"not-configured":"error");
+  }finally{
+   runningRef.current=false;
+   if(pendingRef.current){pendingRef.current=false;setTimeout(()=>syncNow(code),500);}
+  }
+ };
+
+ // tras cada cambio local (espera 3 s para agrupar varias respuestas seguidas)
+ useEffect(()=>{
+  if(!settings?.code) return;
+  if(syncSignature(userData)===settings.lastSignature) return;
+  const timer=setTimeout(()=>syncNow(),3000);
+  return ()=>clearTimeout(timer);
+ },[userData,settings?.code]);
+
+ useEffect(()=>{
+  if(!settings?.code) return;
+  syncNow();
+  const onVisible=()=>{if(document.visibilityState==="visible")syncNow()};
+  const onOnline=()=>syncNow();
+  document.addEventListener("visibilitychange",onVisible);
+  window.addEventListener("online",onOnline);
+  return()=>{document.removeEventListener("visibilitychange",onVisible);window.removeEventListener("online",onOnline)};
+ },[settings?.code]);
+
+ const link=code=>{const next={code,lastSyncAt:null,lastSignature:null};saveSyncSettings(next);setSettings(next);setStatus("idle");};
+ const unlink=()=>{saveSyncSettings(null);setSettings(null);setStatus("off");};
+ return {code:settings?.code??null,lastSyncAt:settings?.lastSyncAt??null,status,syncNow:()=>syncNow(),create:()=>link(generateSyncCode()),join:input=>{const code=normalizeSyncCode(input);if(code)link(code);return !!code},unlink};
+}
+
+const timeAgo=ms=>{if(!ms)return "todavía no";const minutes=Math.round((Date.now()-ms)/60000);if(minutes<1)return "hace un momento";if(minutes<60)return `hace ${minutes} min`;const hours=Math.round(minutes/60);if(hours<24)return `hace ${hours} h`;return new Date(ms).toLocaleDateString("es-ES",{day:"numeric",month:"short"});};
+
+function SyncCard({sync}){
+ const [joining,setJoining]=useState(false);
+ const [input,setInput]=useState("");
+ const [invalid,setInvalid]=useState(false);
+ const [copied,setCopied]=useState(false);
+ const [,tick]=useState(0);
+ useEffect(()=>{const timer=setInterval(()=>tick(n=>n+1),30000);return()=>clearInterval(timer)},[]);
+ if(!sync.code) return <section className="settingsCard syncCard">
+  <div className="settingsCardText"><h3><Cloud/> Sincronizar entre dispositivos</h3><p>Estudia en el móvil y en el iPad con el mismo progreso, favoritos y aclaraciones. Se unen automáticamente: no se pierde lo que hagas en cada uno.</p>
+   {joining&&<form className="syncJoin" onSubmit={e=>{e.preventDefault();const ok=sync.join(input);setInvalid(!ok);if(ok)setJoining(false)}}>
+    <input value={input} onChange={e=>{setInput(e.target.value);setInvalid(false)}} placeholder="XXXX-XXXX-XXXX-XXXX-XXXX" autoCapitalize="characters" autoCorrect="off" spellCheck={false} aria-label="Código de sincronización" autoFocus/>
+    <button className="primary" type="submit"><Link2/> Enlazar</button><button className="secondary" type="button" onClick={()=>{setJoining(false);setInvalid(false)}}>Cancelar</button>
+    {invalid&&<small className="syncError">El código no es válido: son 20 letras y números (con o sin guiones).</small>}
+   </form>}
+  </div>
+  {!joining&&<div className="settingsActions"><button className="primary" type="button" onClick={sync.create}><Cloud/> Activar en este dispositivo</button><button className="secondary" type="button" onClick={()=>setJoining(true)}><Link2/> Tengo un código</button></div>}
+ </section>;
+ const statusText={idle:"Preparando…",syncing:"Sincronizando…",ok:`Sincronizado ${timeAgo(sync.lastSyncAt)}`,offline:"Sin conexión: se sincronizará al volver a tener internet",error:"No se pudo sincronizar. Se volverá a intentar.",["not-configured"]:"Falta conectar la base de datos en Vercel (Storage)."}[sync.status];
+ const copy=()=>{try{navigator.clipboard?.writeText(sync.code).then(()=>{setCopied(true);setTimeout(()=>setCopied(false),2000)},()=>{})}catch{}};
+ return <section className="settingsCard syncCard on">
+  <div className="settingsCardText"><h3><Cloud/> Sincronización activada</h3><p>En el otro dispositivo, entra en Configuración → <b>Tengo un código</b> y escribe:</p>
+   <button type="button" className="syncCode" onClick={copy} title="Copiar código">{sync.code}<Copy/></button>{copied&&<small className="syncHint">Código copiado</small>}
+   <p className={`syncStatus ${sync.status}`}>{sync.status==="offline"||sync.status==="error"||sync.status==="not-configured"?<CloudOff/>:<Cloud/>}{statusText}</p>
+   <small className="syncHint">Guarda el código en un lugar seguro: quien lo tenga puede ver y cambiar tu progreso.</small>
+  </div>
+  <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>{if(window.confirm("Este dispositivo dejará de sincronizarse. Tu progreso se queda guardado aquí. ¿Continuar?"))sync.unlink()}}>Desvincular</button></div>
+ </section>;
 }
 
 function SimulacrumPage({go}){return <div><section className="simHero"><Trophy/><h2>Simulacro de oposición</h2><p>El simulacro estará disponible cuando haya preguntas cargadas.</p><button className="secondary" onClick={()=>go("test")}>Ver temas disponibles</button></section></div>}

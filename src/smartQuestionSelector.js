@@ -151,7 +151,8 @@ export function markQuestionAsLearned(question, userProgress = {}) {
   const id = getQuestionId(question);
   const current = userProgress[id];
   if (!current || !isQuestionCurrentlyFailed(current)) return userProgress;
-  return { ...userProgress, [id]: { ...current, marcadaAprendida: true, pendienteRecuperacion: false } };
+  // actualizadoEn: para que la marca gane al sincronizar con otro dispositivo
+  return { ...userProgress, [id]: { ...current, marcadaAprendida: true, pendienteRecuperacion: false, actualizadoEn: Date.now() } };
 }
 
 export function selectQuestionsByMode(allQuestions = [], userProgress = {}, count = 30, mode = "smart", topicFilter = null, random = Math.random, now = Date.now()) {
