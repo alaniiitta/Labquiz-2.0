@@ -96,9 +96,13 @@ const SELF_REFERENTIAL_OPTION_PATTERN = /\b[a-d]\)?\s*(?:[y,]|\bo\b)\s*[a-d]\)?\
 // Un falso positivo solo evita barajar esa pregunta, así que se prefiere ser amplio.
 const LETTER_LIST_OPTION_PATTERN = /\b[A-D]\)?\s*(?:,\s*(?:y|e|o)?|y|e|o)\s*\b[A-D]\b/;
 
+// Listas de letras en minúscula en cualquier posición: "Son correctas las respuestas a y c",
+// "Son correctas a y b", "a, b y d".
+const LOWERCASE_LETTER_LIST_PATTERN = /(?:^|[\s(])[a-d]\)?(?:\s*,\s*[a-d]\)?)*\s*(?:,|\by\b|\be\b|\bo\b)\s*[a-d]\)?(?=[\s.,;:)]|$)/;
+
 function hasSelfReferentialOption(options) {
   return options.some((text) => typeof text === "string"
-    && (SELF_REFERENTIAL_OPTION_PATTERN.test(text) || LETTER_LIST_OPTION_PATTERN.test(text)));
+    && (SELF_REFERENTIAL_OPTION_PATTERN.test(text) || LETTER_LIST_OPTION_PATTERN.test(text) || LOWERCASE_LETTER_LIST_PATTERN.test(text)));
 }
 
 export function selectSmartQuestions(allQuestions = [], userProgress = {}, count = 30, topicFilter = null, random = Math.random, now = Date.now()) {
