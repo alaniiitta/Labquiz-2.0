@@ -98,6 +98,8 @@ const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filt
 });
 const getAllQuestions=()=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id})));
 // simulacro: preguntas repartidas entre temas en proporción al tamaño de cada banco
+// baraja una copia (Fisher-Yates) para repetir un test en otro orden
+const shuffledCopy=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
 const SIMULACRUM_MIN=60;
 // examen real: solo el simulacro de 100 (1 h 30 min, cada 4 fallos restan 1 acierto, las en blanco no restan)
 const EXAM_COUNT=100;
@@ -157,7 +159,8 @@ function App(){
  const show=p=>{setPage(p);setMobile(false);window.scrollTo(0,0)};
  const openTest=(topicId,mode="topic",questionIds=null,questionCount=null,label=null)=>{setTestConfig(config=>({topicId,mode,questionIds,questionCount,label,sessionId:config.sessionId+1}));show("test")};
  // simulacro de 100 preguntas en modo examen real (nuevo o continuando el guardado)
- const openExam=(resume=false)=>{setExamConfig(config=>({resume,sessionId:config.sessionId+1}));show("exam")};
+ // questions: para repetir un simulacro con las mismas preguntas
+ const openExam=(resume=false,questions=null)=>{setExamConfig(config=>({resume,questions,sessionId:config.sessionId+1}));show("exam")};
  // abre el resumen de un tema colocado en un apartado concreto
  const openSummaryAt=(topicId,sectionId=null)=>{setSelected(topics.find(t=>t.id===topicId));setFocusSection(sectionId);show("topic")};
  // ir a "test" sin configuración abre siempre el selector de temas, no el último test
@@ -186,7 +189,7 @@ function App(){
   {page==="topic"&&selected&&<TopicPage topic={selected} go={go} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label)=>openTest(selected.id,"topic",ids,null,label)}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
-  {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote}/>}
+  {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
@@ -373,6 +376,9 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
 
  const discardSavedTest=()=>{clearTestSession();setSavedTest(null)};
 
+ // vuelve a empezar con estas preguntas, en otro orden y con las opciones barajadas de nuevo
+ const restartWith=questions=>{setTestQuestions(shuffledCopy(questions).map(question=>shuffleQuestionOptions(question)));setI(0);setAnswersByIndex({});setDone(false);window.scrollTo(0,0);};
+
  const handleAnswer=(answerIndex)=>{
   if(!q || showResult) return;
   setAnswersByIndex(answers=>({...answers,[i]:answerIndex}));
@@ -400,20 +406,29 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  }
 
  if(done){
-  return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p className="resultPct">{Math.round(score/totalQuestions*100)} % de aciertos</p><p>{label?.startsWith("Simulacro")?"Has terminado el simulacro de examen.":"Has completado una selección inteligente de este banco."}</p><button className="primary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>Crear otro test</button><button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Elegir otro tema"}</button></div>;
+  const failedQuestions=testQuestions.filter((question,index)=>Object.prototype.hasOwnProperty.call(answersByIndex,index)&&answersByIndex[index]!==question.correctAnswer);
+  return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p className="resultPct">{Math.round(score/totalQuestions*100)} % de aciertos</p><p>{label?.startsWith("Simulacro")?"Has terminado el simulacro de examen.":"Has completado una selección inteligente de este banco."}</p>
+   <div className="resultActions">
+    <button className="primary" onClick={()=>restartWith(testQuestions)}><RotateCcw/> Repetir el mismo test</button>
+    {failedQuestions.length>0&&<button className="secondary" onClick={()=>restartWith(failedQuestions)}><Target/> Repetir solo las {failedQuestions.length} falladas</button>}
+    <button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Crear otro test"}</button>
+    {!isCrossTopic&&<button className="secondary" onClick={onChangeTopic}>Elegir otro tema</button>}
+   </div>
+  </div>;
  }
 
  return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}</button>)}</div>{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/><AskClaudeButton key={i} question={q} topicId={questionTopicId} selected={selectedAnswer}/>{questionTopicId&&<NoteEditor key={`note-${i}`} question={{...q,topicId:questionTopicId}} note={notes[getQuestionIdForProgress({...q,topicId:questionTopicId})]} onSave={onSaveNote}/>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div></div>;
 }
 
 // Simulacro en modo examen real: sin soluciones hasta entregar, con reloj y penalización por fallo.
-function ExamPage({go,resume,questionProgress={},onProgressChange,favorites=[],onToggleFavorite,notes={},onSaveNote}){
+function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,questionProgress={},onProgressChange,favorites=[],onToggleFavorite,notes={},onSaveNote}){
  const [exam]=useState(()=>{
   const saved=resume?loadResumableExam():null;
   if(saved) return saved;
   clearExamSession();
   const startedAt=Date.now();
-  return {questions:selectSimulacrumQuestions(EXAM_COUNT,questionProgress).map(question=>shuffleQuestionOptions(question)),answers:{},flags:[],index:0,startedAt,deadline:startedAt+EXAM_DURATION};
+  const base=repeatQuestions?.length?shuffledCopy(repeatQuestions):selectSimulacrumQuestions(EXAM_COUNT,questionProgress);
+  return {questions:base.map(question=>shuffleQuestionOptions(question)),answers:{},flags:[],index:0,startedAt,deadline:startedAt+EXAM_DURATION};
  });
  const {questions,startedAt,deadline}=exam;
  const total=questions.length;
@@ -487,8 +502,12 @@ function ExamPage({go,resume,questionProgress={},onProgressChange,favorites=[],o
    <p className="examFormula">Aciertos − fallos ÷ 4 · tiempo usado {formatClock(used)} de 1:30:00</p>
    <div className="examLevels"><span className="reviewSetupLabel">Por dificultad</span>{results.levels.map(level=><div key={level.id} className="examLevelRow"><DifficultyMeter difficulty={{id:level.id,label:{easy:"Fáciles",medium:"Medias",hard:"Difíciles"}[level.id],bars:{easy:1,medium:2,hard:3}[level.id]}}/><small>{level.correct}✓ {level.wrong}✗ {level.total-level.correct-level.wrong}○ de {level.total}</small><b>{formatScore(level.correct-level.wrong*EXAM_PENALTY)}</b></div>)}{(()=>{const hard=results.levels.find(level=>level.id==="hard");return hard&&hard.wrong*EXAM_PENALTY>hard.correct*0.5?<p className="examTip">Pierdes muchos puntos en las difíciles: si dudas entre varias opciones, mejor dejarla en blanco.</p>:null})()}</div>
    <div className="examTopics"><span className="reviewSetupLabel">Por temas (de peor a mejor)</span>{results.topics.map(entry=><div key={entry.topicId} className="examTopicRow"><span>T{String(entry.topicId).padStart(2,"0")}</span><em>{topics.find(topic=>topic.id===entry.topicId)?.title}</em><small>{entry.correct}✓ {entry.wrong}✗ {entry.total-entry.correct-entry.wrong}○</small><i><b style={{width:`${Math.max(0,entry.net)/entry.total*100}%`}}/></i></div>)}</div>
-   <button className="primary" onClick={()=>{setPhase("review");goTo(0)}}>Revisar el examen</button>
-   <button className="secondary" onClick={()=>go("review")}>Volver a Repaso</button>
+   <div className="resultActions">
+    <button className="primary" onClick={()=>{setPhase("review");goTo(0)}}>Revisar el examen</button>
+    <button className="secondary" onClick={()=>onRepeat?.(questions)}><RotateCcw/> Repetir el mismo examen</button>
+    {results.wrong>0&&<button className="secondary" onClick={()=>onPracticeFailed?.(questions.filter((question,index)=>status(index)==="wrong").map(question=>getQuestionIdForProgress(question)))}><Target/> Practicar las {results.wrong} falladas</button>}
+    <button className="secondary" onClick={()=>go("review")}>Volver a Repaso</button>
+   </div>
   </div>;
  }
 

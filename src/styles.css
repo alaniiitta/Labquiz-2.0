@@ -239,3 +239,5 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 @media(min-width:480px){
  .testMain .testActions{position:sticky;bottom:0;z-index:3;margin-left:-8px;margin-right:-8px;padding:10px 8px calc(10px + env(safe-area-inset-bottom));background:var(--card);border-radius:0 0 14px 14px;box-shadow:0 -10px 14px -12px rgba(23,37,43,.25)}
 }
+/* acciones al terminar un test */
+.resultActions{display:grid;gap:8px;max-width:360px;margin:18px auto 0}.resultActions button{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin:0!important;min-height:46px}.resultActions svg{width:17px}
