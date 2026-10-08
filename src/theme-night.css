@@ -1,0 +1,56 @@
+/* Modo noche · ciruela y malva, a juego con el modo día.
+   Generado a partir de las reglas del modo noche de styles.css: los grises verdosos pasan a
+   grises ciruela con el mismo brillo; verde de acierto, rojo de fallo y ocre se mantienen. */
+:root[data-theme="dark"]{color-scheme:dark;--bg:#1b1719;--card:#262024;--text:#e2dce0;--muted:#9d9298;--line:#41393e;--primary:#a57591;--primary2:#b88ea6;--soft:#342a30;--gold:#c5aa62;--nav:#181215;--danger:#c77d74;--shadow:0 12px 32px rgba(0,0,0,.2)}
+:root[data-theme="dark"] .hero,:root[data-theme="dark"] .homeStart,:root[data-theme="dark"] .progressOverview,:root[data-theme="dark"] .settingsIntro{background:linear-gradient(120deg,#31282d,#252023)}
+:root[data-theme="dark"] .continueSection{background:#31282d}
+:root[data-theme="dark"] .topicSelectCard{background:#241e21;color:#d2cbcf}
+:root[data-theme="dark"] .topicSelectCard .badge{background:#332b30;color:#a6919d}
+:root[data-theme="dark"] .topicSelectCard h3{color:#d9d3d6}
+:root[data-theme="dark"] .answers button:not(.correct):not(.incorrect){border-color:#3d3439;background:#231d20;color:#d2cbcf}
+:root[data-theme="dark"] .answers button:not(.correct):not(.incorrect)>span{background:#342b30;color:#b9aeb4}
+:root[data-theme="dark"] .answers button:not(.correct):not(.incorrect):hover{border-color:#53484e;background:#2a2327}
+:root[data-theme="dark"] .testFeedback{background:#221c1f}
+:root[data-theme="dark"] .primary,:root[data-theme="dark"] .launchButton,:root[data-theme="dark"] .homePrimaryAction{background:#6f465e;color:#f4f1f3}
+:root[data-theme="dark"] .primary:hover,:root[data-theme="dark"] .launchButton:hover,:root[data-theme="dark"] .homePrimaryAction:hover{background:#7d526b}
+:root[data-theme="dark"] .topicMastery>i,:root[data-theme="dark"] .progressTrack{background:#393136}
+:root[data-theme="dark"] .secondary{background:#2c2529}
+:root[data-theme="dark"] .secondary:hover{background:#352c31}
+:root[data-theme="dark"] .homeQuickAction:hover,:root[data-theme="dark"] .homeTopicButton:hover,:root[data-theme="dark"] .topicSelectCard:hover{border-color:#61525b}
+:root[data-theme="dark"] .quickAction:hover,:root[data-theme="dark"] .homeTopic:hover{border-color:#584b53}
+:root[data-theme="dark"] .heroOrb{background:rgba(255,255,255,.06)}
+:root[data-theme="dark"] .priority,:root[data-theme="dark"] .badge{background:#332f27;color:#b8a67e}
+:root[data-theme="dark"] .priority.alta{background:#382b29;color:#bd9690}
+:root[data-theme="dark"] .priority.media{background:#352930;color:#ae91a2}
+:root[data-theme="dark"] .priority.baja{background:#302f2b;color:#aaa59c}
+:root[data-theme="dark"] .topicHero,:root[data-theme="dark"] .reviewHero,:root[data-theme="dark"] .simHero{background:linear-gradient(135deg,#31282d,#252023)}
+:root[data-theme="dark"] .placeholder,:root[data-theme="dark"] .questionStrip{border-color:#50464c;background:#2a2428}
+:root[data-theme="dark"] .progressLine{background:#373034}
+:root[data-theme="dark"] .mobileMenu:hover{border-color:#584b53;background:#3b3036}
+:root[data-theme="dark"] .nav button{border-color:#392e34;background:#292025;color:#c8bdc3}
+:root[data-theme="dark"] .nav button.active,:root[data-theme="dark"] .nav button:hover{border-color:#56464f;background:#44353e;color:#e6e0e3}
+:root[data-theme="dark"] .sidecard{border-color:#3b3036;background:#241b20}
+:root[data-theme="dark"] .sidebar.open .close{border-color:#493c44;background:#31262c;color:#d4cbd0;box-shadow:0 5px 14px rgba(0,0,0,.18)}
+:root[data-theme="dark"] .sidebar.open .close:hover{border-color:#60525a;background:#3c3037}
+:root[data-theme="dark"] .summarySection{background:#262024}
+:root[data-theme="dark"] .summarySection strong,:root[data-theme="dark"] .summarySection u,:root[data-theme="dark"] .mnemonicList strong,:root[data-theme="dark"] .mnemonicList u{color:#f2eef0}
+:root[data-theme="dark"] .summarySection.keyFacts{background:#342a30;border-color:#4a3a43}
+:root[data-theme="dark"] .summarySection.keyFacts li{color:#f2eef0}
+:root[data-theme="dark"] .summarySection.commonMistakes{background:#332524;border-color:#5c3e3a}
+:root[data-theme="dark"] .summarySection.commonMistakes h4{color:#d6a7a2}
+:root[data-theme="dark"] .themeSwitch{border-color:#50464c;background:#3c3439}
+:root[data-theme="dark"] .themeSwitch span{background:#ccc5c9}
+:root[data-theme="dark"] .themeSwitch[aria-checked="true"]{border-color:#8f667e;background:#7b526a}
+:root[data-theme="dark"] .saveWarning{border-color:#7a4a45;background:#3a2826;color:#f0c4be}
+:root[data-theme="dark"] .topicTestButton{background:#6f465e;color:#f4f1f3}
+:root[data-theme="dark"] .topicTestButton:hover{background:#7d526b}
+:root[data-theme="dark"] .sumTag{background:#3a2431;color:#9fd1b1}
+:root[data-theme="dark"] .meterBar{background:#3d2e37}
+:root[data-theme="dark"] .answers button.picked{background:#36242e}
+:root[data-theme="dark"] .answers button.picked>span{color:#11201b}
+:root[data-theme="dark"] .noteAnswer{color:#7fcfa2}
+/* colores escritos fuera de las reglas del modo noche */
+:root[data-theme="dark"] .homeCountdown{border-color:#41393e;background:linear-gradient(120deg,#2b2227,#3b2d35)}
+:root[data-theme="dark"] .countdownInfo p,:root[data-theme="dark"] .countdownBlock small{color:#b5a8af}
+:root[data-theme="dark"] .countdownBlock{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.09)}
+:root[data-theme="dark"] .sidecard small{color:#a99ca3}
