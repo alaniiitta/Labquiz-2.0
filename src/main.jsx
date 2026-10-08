@@ -2,7 +2,7 @@ import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
 import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff} from "lucide-react";
 import "./styles.css";
-import "./theme-autumn.css";
+import "./theme-day.css";
 
 import questionBank,{duplicateAliases} from "./questions";
 import summaryBank from "./summaries/index.js";

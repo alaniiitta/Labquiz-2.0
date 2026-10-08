@@ -1,0 +1,47 @@
+/* Modo día · Malva suave. Tonos apagados, menú claro y un solo color principal; el rosa solo como acento.
+   Solo afecta al modo día: el modo noche conserva sus colores. */
+:root:not([data-theme="dark"]){--bg:#f8f4f3;--card:#fffcfb;--text:#3a2f34;--muted:#806f77;--line:#ece0e2;--primary:#85617a;--primary2:#6c4d62;--soft:#f3e9ef;--gold:#bf9a66;--nav:#f2ecee;--danger:#b4554a;--shadow:0 12px 32px rgba(90,60,75,.08)}
+:root:not([data-theme="dark"]) body{background:var(--bg)}
+/* menú lateral claro: sin bloques oscuros junto al fondo */
+:root:not([data-theme="dark"]) .sidebar{color:#43353c;border-right:1px solid #e8dde1}
+:root:not([data-theme="dark"]) .logo{background:var(--primary);color:#fff}:root:not([data-theme="dark"]) .brand b{color:var(--primary)}
+:root:not([data-theme="dark"]) .nav button{border-color:#e8dde1;background:#faf6f7;color:#43353c}
+:root:not([data-theme="dark"]) .nav button:hover{border-color:#e8dde1;background:#ede2e7;color:#43353c}
+:root:not([data-theme="dark"]) .nav button.active{border-color:#f2dadf;background:#f2dadf;color:#5e3d4a}
+:root:not([data-theme="dark"]) .sidecard{background:#faf6f7;border-color:#e8dde1}:root:not([data-theme="dark"]) .sidecard strong{color:#43353c}:root:not([data-theme="dark"]) .sidecard small{color:#806f77}:root:not([data-theme="dark"]) .sidecard svg{color:var(--primary)}
+:root:not([data-theme="dark"]) .sidebar.open .close{border-color:#e8dde1;background:#faf6f7;color:#43353c}:root:not([data-theme="dark"]) .sidebar.open .close:hover{background:#ede2e7;border-color:var(--primary)}
+:root:not([data-theme="dark"]) .mobileMenu{border-color:var(--line);background:var(--card);color:var(--primary)}:root:not([data-theme="dark"]) .mobileMenu:hover{background:var(--soft);border-color:var(--primary)}
+:root:not([data-theme="dark"]) .secondary{border-color:var(--line);color:var(--primary)}
+/* cabeceras: degradado muy suave */
+:root:not([data-theme="dark"]) .hero{background:linear-gradient(135deg,#f2e6ec,#f6eee8);border-color:var(--line)}
+:root:not([data-theme="dark"]) .topicHero{background:linear-gradient(135deg,#f2e6ec,#f6eee8);border-color:var(--line)}
+:root:not([data-theme="dark"]) .reviewHero{background:linear-gradient(135deg,#f2e6ec,#f6eee8);border-color:var(--line)}
+:root:not([data-theme="dark"]) .simHero{background:linear-gradient(135deg,#f2e6ec,#f6eee8);border-color:var(--line)}
+:root:not([data-theme="dark"]) .homeStart{border-color:var(--line);background:linear-gradient(120deg,#f2e6ec 0%,#f8f4f3 75%)}
+:root:not([data-theme="dark"]) .progressOverview{border-color:var(--line);background:linear-gradient(120deg,#f2e6ec 0%,#f8f4f3 75%)}
+:root:not([data-theme="dark"]) .settingsIntro{border-color:var(--line);background:linear-gradient(120deg,#f2e6ec 0%,#f8f4f3 75%)}
+:root:not([data-theme="dark"]) .continueSection{background:#f2e6ec;border-color:var(--line)}:root:not([data-theme="dark"]) .progressSummary{border-color:var(--line)}
+:root:not([data-theme="dark"]) .hero p,:root:not([data-theme="dark"]) .pageIntro p,:root:not([data-theme="dark"]) .topicHero p,:root:not([data-theme="dark"]) .reviewHero p,:root:not([data-theme="dark"]) .simHero p,:root:not([data-theme="dark"]) .continueSection p{color:var(--muted)}
+/* cuenta atrás clara */
+:root:not([data-theme="dark"]) .homeCountdown{border-color:var(--line);background:linear-gradient(120deg,#f2e6ec,#fffcfb)}
+:root:not([data-theme="dark"]) .countdownInfo h3{color:var(--text)}:root:not([data-theme="dark"]) .countdownInfo p,:root:not([data-theme="dark"]) .countdownBlock small{color:var(--muted)}:root:not([data-theme="dark"]) .homeCountdown .eyebrow{color:var(--primary)}
+:root:not([data-theme="dark"]) .countdownBlock{background:var(--card);border-color:var(--line)}:root:not([data-theme="dark"]) .countdownBlock strong{color:var(--primary)}
+:root:not([data-theme="dark"]) .homePrimaryAction{box-shadow:0 8px 18px rgba(90,60,75,.08)}:root:not([data-theme="dark"]) .homePrimaryAction small{color:rgba(255,255,255,.82)}:root:not([data-theme="dark"]) .homePrimaryAction>span{background:rgba(255,255,255,.16)}:root:not([data-theme="dark"]) .launchButton{box-shadow:0 8px 18px rgba(90,60,75,.08)}
+/* barras, números e iconos: neutros */
+:root:not([data-theme="dark"]) .progressLine,:root:not([data-theme="dark"]) .bar,:root:not([data-theme="dark"]) .miniProgress>span,:root:not([data-theme="dark"]) .topicMastery>i,:root:not([data-theme="dark"]) .progressTrack{background:#ece2e5}
+:root:not([data-theme="dark"]) .num,:root:not([data-theme="dark"]) .topicNumber,:root:not([data-theme="dark"]) .progressTopicNumber,:root:not([data-theme="dark"]) .progressPractice,:root:not([data-theme="dark"]) .homeTopicButton>span,:root:not([data-theme="dark"]) .homeMetric>span,:root:not([data-theme="dark"]) .homeQuickIcon,:root:not([data-theme="dark"]) .avatar{background:#f3ecef;color:var(--primary)}
+:root:not([data-theme="dark"]) .homeQuickAction.failed .homeQuickIcon{background:#fbeeec;color:#b4554a}:root:not([data-theme="dark"]) .homeQuickAction.favorite .homeQuickIcon{background:#f7efdf;color:#9a7535}
+:root:not([data-theme="dark"]) .homeQuickAction:hover,:root:not([data-theme="dark"]) .homeTopicButton:hover,:root:not([data-theme="dark"]) .quickAction:hover{border-color:#e8dde1}
+:root:not([data-theme="dark"]) .badge,:root:not([data-theme="dark"]) .priority{background:#f3ecef;color:#6e5c65}
+:root:not([data-theme="dark"]) .reviewCountRow button,:root:not([data-theme="dark"]) .choiceRow button{border-color:var(--line)}:root:not([data-theme="dark"]) .reviewCountRow button.selected,:root:not([data-theme="dark"]) .choiceRow button.selected{border-color:var(--primary);background:var(--soft);color:var(--primary)}
+/* test: neutro, para que destaque la pregunta */
+:root:not([data-theme="dark"]) .testFeedback{background:#f8f4f3}
+:root:not([data-theme="dark"]) .answers button:not(.correct):not(.incorrect):not(.picked)>span{background:#f3ecef;color:#6e5c65}
+:root:not([data-theme="dark"]) .answers button:not(.correct):not(.incorrect):not(.picked):hover{background:var(--soft);border-color:var(--primary)}
+:root:not([data-theme="dark"]) .answers button.correct{background:#ebf4ee;border-color:#3f7d57;color:#2f5f3f}:root:not([data-theme="dark"]) .answers button.correct>span{background:#d5e8dc;color:#2f5f3f}
+:root:not([data-theme="dark"]) .answers button.incorrect{background:#fbeeec;border-color:#b4554a}
+:root:not([data-theme="dark"]) .testStatus.success,:root:not([data-theme="dark"]) .noteAnswer,:root:not([data-theme="dark"]) .syncStatus svg{color:#3f7d57}:root:not([data-theme="dark"]) .testStatus.error{color:#b4554a}
+:root:not([data-theme="dark"]) .examScore .ok b,:root:not([data-theme="dark"]) .examScore .ok small{color:#3f7d57}:root:not([data-theme="dark"]) .examGrid button.right{background:#ebf4ee;border-color:#3f7d57;color:#2f5f3f}
+:root:not([data-theme="dark"]) .askClaudeButton{background:var(--card);border-color:var(--line);color:var(--primary)}:root:not([data-theme="dark"]) .askClaudeButton:hover{background:var(--soft);border-color:var(--primary)}
+:root:not([data-theme="dark"]) .diffMeter.hard{color:var(--primary)}
+:root:not([data-theme="dark"]) .topicSetup select:focus{box-shadow:0 0 0 3px rgba(90,60,75,.08)}
