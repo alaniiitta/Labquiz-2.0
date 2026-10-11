@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive} from "lucide-react";
 import "./styles.css";
 import "./theme-day.css";
 import "./theme-night.css";
@@ -699,6 +699,7 @@ function SettingsPage({sync,userData,onRestore,onThemeChange}){
   <section className="settingsIntro"><span className="settingsIcon"><ShieldCheck/></span><div><span className="eyebrow">DATOS Y SEGURIDAD</span><h2>Protege tu progreso</h2><p>Descarga una copia para recuperar tus datos si cambias de móvil, navegador o borras los datos del sitio.</p></div></section>
   <section className="settingsCard themeSetting"><div className="settingsCardText"><h3>Modo noche</h3><p>Reduce el brillo de la interfaz para estudiar con poca luz.</p></div><div className="themeControl"><Sun/><button className="themeSwitch" type="button" role="switch" aria-checked={userData.theme==="dark"} aria-label="Activar modo noche" onClick={()=>onThemeChange(userData.theme==="dark"?"light":"dark")}><span/></button><Moon/></div></section>
   <SyncCard sync={sync}/>
+  <StorageCard/>
   <section className="settingsCard"><div className="settingsCardText"><h3>Copia de seguridad</h3><p>Incluye tu dominio por tema, respuestas, preguntas falladas y favoritas.</p><div className="backupSummary"><span><b>{progressCount}</b> preguntas con actividad</span><span><b>{favoritesCount}</b> favoritas</span></div></div><div className="settingsActions"><button className="primary" onClick={exportBackup}><Download/> Descargar copia</button><button className="secondary" onClick={()=>importInput.current?.click()}><Upload/> Restaurar copia</button><input ref={importInput} className="backupFileInput" type="file" accept="application/json,.json" onChange={importBackup}/></div></section>
   {message&&<div className={`backupMessage ${message.type}`} role="status">{message.text}</div>}
   <section className="settingsNotice"><h3>Dónde guardarla</h3><p>En iPhone, elige <b>Guardar en Archivos</b> y selecciona iCloud Drive. La copia contiene datos de estudio, pero no contraseñas ni información bancaria.</p></section>
@@ -824,6 +825,44 @@ function SyncCard({sync}){
    <p className={`syncStatus ${sync.status}`}>{sync.status==="offline"||sync.status==="error"||sync.status==="not-configured"?<CloudOff/>:<Cloud/>}{statusText}</p>
   </div>
   <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>{if(window.confirm("¿Cerrar sesión en este dispositivo? Tu progreso se queda guardado aquí y en tu cuenta."))sync.signOut()}}><LogOut/> Cerrar sesión</button></div>
+ </section>;
+}
+
+// Qué ocupa espacio en este dispositivo (lo que la página guarda en el navegador).
+// El navegador guarda el texto en UTF-16: cada carácter son 2 bytes. Safari deja unos 5 MB por web.
+const BROWSER_LIMIT=5*1024*1024;
+const formatBytes=bytes=>bytes<1024?`${bytes} B`:bytes<1024*1024?`${(bytes/1024).toLocaleString("es-ES",{maximumFractionDigits:bytes<10240?1:0})} KB`:`${(bytes/1024/1024).toLocaleString("es-ES",{maximumFractionDigits:2})} MB`;
+const readStorageUsage=()=>{
+ const size=text=>(text?.length??0)*2;
+ const rows=[];
+ try{
+  const raw=localStorage.getItem("labquiz.learning.v2");
+  let main={};try{main=JSON.parse(raw||"{}")}catch{}
+  const part=(...keys)=>size(JSON.stringify(Object.fromEntries(keys.filter(key=>main[key]!=null).map(key=>[key,main[key]]))));
+  const progress=part("progress","progressFormat"),notes=part("notes","noteDeletions"),favorites=part("favorites","favoriteChanges");
+  rows.push({label:"Tu progreso",detail:`${Object.keys(main.progress??{}).length.toLocaleString("es-ES")} preguntas practicadas`,bytes:progress});
+  rows.push({label:"Aclaraciones",detail:`${Object.keys(main.notes??{}).length} guardadas`,bytes:notes});
+  rows.push({label:"Favoritos",detail:`${(main.favorites??[]).length} preguntas`,bytes:favorites});
+  rows.push({label:"Ajustes y contadores",detail:"modo noche, estadísticas",bytes:Math.max(0,size(raw)-progress-notes-favorites)});
+  const known={"labquiz.account.v1":["Sesión de tu cuenta","usuario y última sincronización"],"labquiz.test-session.v1":["Test a medias","para poder continuarlo"],"labquiz.exam-session.v1":["Simulacro a medias","para poder continuarlo"]};
+  let others=0;
+  for(let i=0;i<localStorage.length;i++){const key=localStorage.key(i);if(key==="labquiz.learning.v2")continue;const bytes=size(key)+size(localStorage.getItem(key));if(known[key])rows.push({label:known[key][0],detail:known[key][1],bytes});else others+=bytes;}
+  if(others)rows.push({label:"Otros restos",detail:"datos sueltos de versiones anteriores",bytes:others});
+ }catch{}
+ return rows.sort((a,b)=>b.bytes-a.bytes);
+};
+function StorageCard(){
+ const [rows,setRows]=useState(()=>readStorageUsage());
+ const refresh=()=>setRows(readStorageUsage());
+ const total=rows.reduce((sum,row)=>sum+row.bytes,0);
+ const percent=Math.min(100,total/BROWSER_LIMIT*100);
+ return <section className="settingsCard storageCard">
+  <div className="settingsCardText"><h3><HardDrive/> Espacio en este dispositivo</h3><p>Lo que la página guarda en el navegador. Las preguntas y los resúmenes no cuentan: vienen con la página.</p>
+   <div className="storageTotal"><b>{formatBytes(total)}</b><span>de unos 5 MB disponibles · {percent<1?"menos del 1":Math.round(percent)} %</span></div>
+   <i className="storageBar"><em style={{width:`${Math.max(percent,1)}%`}}/></i>
+   <ul className="storageList">{rows.map(row=><li key={row.label}><span><b>{row.label}</b><small>{row.detail}</small></span><em>{formatBytes(row.bytes)}</em></li>)}</ul>
+  </div>
+  <div className="settingsActions"><button className="secondary" type="button" onClick={refresh}><RefreshCw/> Actualizar</button></div>
  </section>;
 }
 
