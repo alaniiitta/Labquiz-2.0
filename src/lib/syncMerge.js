@@ -90,3 +90,18 @@ export function syncSignature(data) {
  const normalized = sortKeys({ ...payload, favorites: [...(payload.favorites ?? [])].sort() });
  return JSON.stringify(normalized);
 }
+
+// Huella corta de los datos (para saber si hay cambios sin guardar una segunda copia completa,
+// que en el navegador del iPhone/iPad ocupaba tanto como el propio progreso).
+export function syncFingerprint(data) {
+ const text = syncSignature(data);
+ let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+ for (let i = 0; i < text.length; i++) {
+  const c = text.charCodeAt(i);
+  h1 = Math.imul(h1 ^ c, 2654435761);
+  h2 = Math.imul(h2 ^ c, 1597334677);
+ }
+ h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+ h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+ return `${text.length.toString(36)}-${(h2 >>> 0).toString(36)}${(h1 >>> 0).toString(36)}`;
+}

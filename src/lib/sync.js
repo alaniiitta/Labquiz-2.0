@@ -10,7 +10,13 @@ export const loadSyncSettings = () => {
   // el código de sincronización anterior nunca llegó a guardar nada en la nube: se descarta
   localStorage.removeItem(LEGACY_SYNC_KEY);
   const saved = JSON.parse(localStorage.getItem(SYNC_KEY) || "null");
-  return saved && typeof saved.token === "string" && typeof saved.user === "string" ? saved : null;
+  if (!saved || typeof saved.token !== "string" || typeof saved.user !== "string") return null;
+  // versiones anteriores guardaban aquí una copia completa del progreso: se cambia por la huella corta
+  if (typeof saved.lastSignature === "string" && saved.lastSignature.length > 64) {
+   saved.lastSignature = null;
+   localStorage.setItem(SYNC_KEY, JSON.stringify(saved));
+  }
+  return saved;
  } catch {
   return null;
  }

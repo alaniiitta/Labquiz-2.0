@@ -15,7 +15,7 @@ import {clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTe
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex} from "./lib/summaryLinks.js";
 import {MIN_PASSWORD,USER_PATTERN,loadSyncSettings,loginAccount,logoutAccount,pushSync,registerAccount,saveSyncSettings} from "./lib/sync.js";
-import {mergeUserData,syncSignature} from "./lib/syncMerge.js";
+import {mergeUserData,syncFingerprint,syncSignature} from "./lib/syncMerge.js";
 import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
 
@@ -722,7 +722,7 @@ function useSync(userData,setUserData){
   setStatus("syncing");
   try{
    const record=await pushSync(account.token,dataRef.current);
-   const remoteSignature=syncSignature(record.data);
+   const remoteSignature=syncFingerprint(record.data);
    setUserData(local=>{
     const merged=mergeUserData(local,record.data);
     return syncSignature(merged)===syncSignature(local)?local:{...merged,theme:local.theme};
@@ -742,7 +742,7 @@ function useSync(userData,setUserData){
  // tras cada cambio local (espera 3 s para agrupar varias respuestas seguidas)
  useEffect(()=>{
   if(!settings?.token) return;
-  if(syncSignature(userData)===settings.lastSignature) return;
+  if(syncFingerprint(userData)===settings.lastSignature) return;
   const timer=setTimeout(()=>syncNow(),3000);
   return ()=>clearTimeout(timer);
  },[userData,settings?.token]);
