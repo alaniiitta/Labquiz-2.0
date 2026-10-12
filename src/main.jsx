@@ -272,7 +272,15 @@ function VisualSummary({html,topicId,focus,onPractice}){const ref=useRef(null);
  // bajo cada apartado con preguntas asociadas, un botón para practicarlo
  const content=useMemo(()=>{if(!index||!onPractice)return html;return html.replace(/(<h2 id="(vs-s\d+)">[\s\S]*?<\/h2>)/g,(full,heading,id)=>{const count=index.bySection.get(id)?.length??0;return count>=3?`${heading}<button type="button" class="practiceSec" data-practice="${id}">▶ Practicar este apartado · ${count} preguntas</button>`:full})},[html,index,onPractice]);
  // Los índices del resumen son enlaces "#vs-sN": se desplaza dentro de la página sin tocar la URL.
- const onClick=e=>{const practice=e.target.closest?.("[data-practice]");if(practice&&index){const section=index.sections.find(s=>s.id===practice.dataset.practice);onPractice?.(index.bySection.get(practice.dataset.practice)??[],section?.title);return}
+ // «Practicar este apartado»: cada botón escucha su propio toque (en iOS, delegar el clic en el
+ // contenedor no siempre llega cuando el botón está dentro de HTML insertado).
+ const practiceRef=useRef(null);
+ practiceRef.current=id=>{if(!index)return;const section=index.sections.find(s=>s.id===id);onPractice?.(index.bySection.get(id)??[],section?.title)};
+ useEffect(()=>{const root=ref.current;if(!root)return;
+  const buttons=[...root.querySelectorAll("[data-practice]")];
+  const handlers=buttons.map(button=>{const handler=e=>{e.preventDefault();e.stopPropagation();practiceRef.current?.(button.dataset.practice)};button.addEventListener("click",handler);return handler});
+  return()=>buttons.forEach((button,i)=>button.removeEventListener("click",handlers[i]))},[content]);
+ const onClick=e=>{if(e.target.closest?.("[data-practice]"))return;
   const link=e.target.closest?.('a[href^="#vs-"]');if(!link)return;e.preventDefault();ref.current?.querySelector(link.getAttribute("href"))?.scrollIntoView({behavior:"smooth",block:"start"})};
  // si se llega desde un test, baja directamente al apartado
  useEffect(()=>{if(!focus)return;const timer=setTimeout(()=>ref.current?.querySelector(`#${focus}`)?.scrollIntoView({block:"start"}),60);return()=>clearTimeout(timer)},[focus,html]);

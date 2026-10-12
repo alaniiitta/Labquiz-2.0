@@ -45,3 +45,5 @@
 :root:not([data-theme="dark"]) .askClaudeButton{background:var(--card);border-color:var(--line);color:var(--primary)}:root:not([data-theme="dark"]) .askClaudeButton:hover{background:var(--soft);border-color:var(--primary)}
 :root:not([data-theme="dark"]) .diffMeter.hard{color:var(--primary)}
 :root:not([data-theme="dark"]) .topicSetup select:focus{box-shadow:0 0 0 3px rgba(90,60,75,.08)}
+/* resúmenes: fondo, textos y color principal de la app (los dibujos y bloques de color no cambian) */
+:root:not([data-theme="dark"]) .vsum.vsum{--bg:#f8f4f3;--card:#fffcfb;--text:#3a2f34;--muted:#806f77;--line:#ece0e2;--primary:#85617a;--soft:#f3e9ef}

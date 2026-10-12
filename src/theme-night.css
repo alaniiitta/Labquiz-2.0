@@ -54,3 +54,6 @@
 :root[data-theme="dark"] .countdownInfo p,:root[data-theme="dark"] .countdownBlock small{color:#b5a8af}
 :root[data-theme="dark"] .countdownBlock{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.09)}
 :root[data-theme="dark"] .sidecard small{color:#a99ca3}
+/* resúmenes: fondo, textos y color principal de la app (los dibujos y bloques de color no cambian) */
+:root[data-theme="dark"] .vsum.vsum{--bg:#1b1719;--card:#262024;--text:#e2dce0;--muted:#9d9298;--line:#41393e;--primary:#a57591;--soft:#342a30}
+:root[data-theme="dark"] .vsum.vsum :is(.pt,h2 .n,.step .t .k){background:#6f4e62;color:#f4eef1}
