@@ -276,7 +276,8 @@ function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=us
   const withButtons=html.replace(/(<h2 id="(vs-s\d+)">[\s\S]*?<\/h2>)/g,(full,heading,id)=>{
    const ids=index.bySection.get(id)??[];const count=ids.length;if(count<3)return full;
    const seen=ids.filter(questionId=>(progress[questionId]?.vecesVista??0)>0).length;const complete=seen===count;if(complete)done.add(id);
-   return `${heading}<button type="button" class="practiceSec${complete?" complete":""}" data-practice="${id}" style="--done:${Math.round(seen/count*100)}%" aria-label="${complete?"Apartado hecho":"Practicar este apartado"}: ${seen} de ${count} preguntas hechas">${complete?"✓ Apartado hecho":"▶ Practicar este apartado"} · <b>${seen}/${count}</b> hechas</button>`;
+   const title=complete?heading.replace(/<\/h2>$/,'<span class="secStar" title="Apartado completado" aria-label="Apartado completado">★</span></h2>'):heading;
+   return `${title}<button type="button" class="practiceSec${complete?" complete":""}" data-practice="${id}" style="--done:${Math.round(seen/count*100)}%" aria-label="${complete?"Apartado completado":"Practicar este apartado"}: ${seen} de ${count} preguntas hechas">${complete?"<span class=\"secStarMini\">★</span> Apartado completado":"▶ Practicar este apartado"} · <b>${seen}/${count}</b> hechas</button>`;
   });
   return withButtons.replace(/<a class="chip" href="#(vs-s\d+)">/g,(full,id)=>done.has(id)?`<a class="chip secDone" href="#${id}">`:full);
  },[html,index,onPractice,progress]);
