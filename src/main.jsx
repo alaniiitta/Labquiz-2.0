@@ -283,13 +283,29 @@ function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=us
   return withButtons.replace(/<a class="chip" href="#(vs-s\d+)">/g,(full,id)=>done.has(id)?`<a class="chip secDone" href="#${id}">`:full);
  },[html,index,onPractice,progress]);
  // Los índices del resumen son enlaces "#vs-sN": se desplaza dentro de la página sin tocar la URL.
- // «Practicar este apartado»: cada botón escucha su propio toque (en iOS, delegar el clic en el
- // contenedor no siempre llega cuando el botón está dentro de HTML insertado).
+ // «Practicar este apartado»: en iOS el toque no siempre llega a convertirse en clic (si la página aún
+ // se estaba desplazando, o en HTML insertado), así que también se atiende el propio toque. El contenedor
+ // no se sustituye nunca, por eso las escuchas van en él y siguen valiendo aunque cambie el contenido.
  const practiceRef=useRef(null);
+ // un mismo toque puede llegar por varias vías: solo cuenta una vez
+ const lastPracticeRef=useRef(0);
+ const firePractice=button=>{const now=Date.now();if(now-lastPracticeRef.current<700)return;lastPracticeRef.current=now;practiceRef.current?.(button.dataset.practice)};
  practiceRef.current=id=>{if(!index)return;const section=index.sections.find(s=>s.id===id);onPractice?.(index.bySection.get(id)??[],section?.title,id)};
  useEffect(()=>{const root=ref.current;if(!root)return;
+  let start=null;
+  const onTouchStart=e=>{const touch=e.touches[0];start=e.target.closest?.("[data-practice]")&&touch?{x:touch.clientX,y:touch.clientY}:null};
+  const onTouchEnd=e=>{const button=e.target.closest?.("[data-practice]");const touch=e.changedTouches[0];
+   if(!button||!start||!touch)return;const moved=Math.hypot(touch.clientX-start.x,touch.clientY-start.y);start=null;
+   if(moved>12)return;e.preventDefault();firePractice(button)};
+  const onClick=e=>{const button=e.target.closest?.("[data-practice]");if(!button)return;e.preventDefault();e.stopPropagation();firePractice(button)};
+  root.addEventListener("touchstart",onTouchStart,{passive:true});
+  root.addEventListener("touchend",onTouchEnd,{passive:false});
+  root.addEventListener("click",onClick);
+  return()=>{root.removeEventListener("touchstart",onTouchStart);root.removeEventListener("touchend",onTouchEnd);root.removeEventListener("click",onClick)}},[]);
+ // y además cada botón escucha su propio clic, por si el del contenedor no llega
+ useEffect(()=>{const root=ref.current;if(!root)return;
   const buttons=[...root.querySelectorAll("[data-practice]")];
-  const handlers=buttons.map(button=>{const handler=e=>{e.preventDefault();e.stopPropagation();practiceRef.current?.(button.dataset.practice)};button.addEventListener("click",handler);return handler});
+  const handlers=buttons.map(button=>{const handler=e=>{e.preventDefault();e.stopPropagation();firePractice(button)};button.addEventListener("click",handler);return handler});
   return()=>buttons.forEach((button,i)=>button.removeEventListener("click",handlers[i]))},[content]);
  const onClick=e=>{if(e.target.closest?.("[data-practice]"))return;
   const link=e.target.closest?.('a[href^="#vs-"]');if(!link)return;e.preventDefault();ref.current?.querySelector(link.getAttribute("href"))?.scrollIntoView({behavior:"smooth",block:"start"})};
