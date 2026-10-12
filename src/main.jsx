@@ -188,7 +188,7 @@ function App(){
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
-  {page==="topic"&&selected&&<TopicPage topic={selected} go={go} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label)=>openTest(selected.id,"topic",ids,null,label)}/>}
+  {page==="topic"&&selected&&<TopicPage topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label)=>openTest(selected.id,"topic",ids,null,label)}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote}/>}
@@ -267,10 +267,19 @@ function SummaryPage({openTopic,progress}){const [q,setQ]=useState("");const ter
  {!filtered.length&&<p className="sumEmpty">No hay temas que coincidan con «{q}».</p>}
  </div>}
 
-function VisualSummary({html,topicId,focus,onPractice}){const ref=useRef(null);
+function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=useRef(null);
  const index=useMemo(()=>topicId?getSummaryIndex(topicId):null,[topicId,html]);
- // bajo cada apartado con preguntas asociadas, un botón para practicarlo
- const content=useMemo(()=>{if(!index||!onPractice)return html;return html.replace(/(<h2 id="(vs-s\d+)">[\s\S]*?<\/h2>)/g,(full,heading,id)=>{const count=index.bySection.get(id)?.length??0;return count>=3?`${heading}<button type="button" class="practiceSec" data-practice="${id}">▶ Practicar este apartado · ${count} preguntas</button>`:full})},[html,index,onPractice]);
+ // bajo cada apartado con preguntas asociadas, un botón para practicarlo con cuántas llevas hechas;
+ // si están todas, el botón y la pestaña de arriba lo marcan con ✓
+ const content=useMemo(()=>{if(!index||!onPractice)return html;
+  const done=new Set();
+  const withButtons=html.replace(/(<h2 id="(vs-s\d+)">[\s\S]*?<\/h2>)/g,(full,heading,id)=>{
+   const ids=index.bySection.get(id)??[];const count=ids.length;if(count<3)return full;
+   const seen=ids.filter(questionId=>(progress[questionId]?.vecesVista??0)>0).length;const complete=seen===count;if(complete)done.add(id);
+   return `${heading}<button type="button" class="practiceSec${complete?" complete":""}" data-practice="${id}" style="--done:${Math.round(seen/count*100)}%" aria-label="${complete?"Apartado hecho":"Practicar este apartado"}: ${seen} de ${count} preguntas hechas">${complete?"✓ Apartado hecho":"▶ Practicar este apartado"} · <b>${seen}/${count}</b> hechas</button>`;
+  });
+  return withButtons.replace(/<a class="chip" href="#(vs-s\d+)">/g,(full,id)=>done.has(id)?`<a class="chip secDone" href="#${id}">`:full);
+ },[html,index,onPractice,progress]);
  // Los índices del resumen son enlaces "#vs-sN": se desplaza dentro de la página sin tocar la URL.
  // «Practicar este apartado»: cada botón escucha su propio toque (en iOS, delegar el clic en el
  // contenedor no siempre llega cuando el botón está dentro de HTML insertado).
@@ -291,10 +300,10 @@ function VisualSummary({html,topicId,focus,onPractice}){const ref=useRef(null);
   root.querySelectorAll('h2[id^="vs-"]').forEach(h=>observer.observe(h));return()=>observer.disconnect()},[html]);
  return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={{__html:visualSummaryDefs+content}}/>}
 
-function TopicPage({topic,go,focusSection,onStartTest,onPractice}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
+function TopicPage({topic,go,progress,focusSection,onStartTest,onPractice}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
  <header className="topicHeader"><div><span className="topicEyebrow">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2></div><button className="topicTestButton" onClick={onStartTest}><Brain/><span>Hacer test</span></button></header>
- {visual?<div className="visualLayout"><VisualSummary html={visual} topicId={topic.id} focus={focusSection} onPractice={onPractice}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
+ {visual?<div className="visualLayout"><VisualSummary html={visual} topicId={topic.id} progress={progress} focus={focusSection} onPractice={onPractice}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
    {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
    {summary.keyFacts?.length>0&&<section className="summarySection keyFacts"><h4>⭐ Datos y valores que debes saber sí o sí</h4><ul>{summary.keyFacts.map(fact=><li key={fact}>{formatEmphasis(fact)}</li>)}</ul></section>}

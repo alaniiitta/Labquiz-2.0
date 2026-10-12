@@ -248,3 +248,9 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .storageList{list-style:none;margin:0;padding:0;display:grid;gap:2px}.storageList li{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line)}.storageList li span{min-width:0}.storageList b,.storageList small{display:block}.storageList b{font-size:13px;color:var(--text)}.storageList small{font-size:11px;color:var(--muted)}.storageList em{font-style:normal;font-weight:800;font-size:13px;color:var(--text);white-space:nowrap}
 @media(max-width:600px){.storageCard{flex-direction:column;align-items:stretch}.storageCard .settingsActions{min-width:0}}
 .vsum .practiceSec{touch-action:manipulation;-webkit-tap-highlight-color:transparent;position:relative;z-index:1}
+/* progreso de cada apartado del resumen */
+.vsum .practiceSec{overflow:hidden;isolation:isolate}
+.vsum .practiceSec::before{content:"";position:absolute;inset:0;width:var(--done,0%);background:var(--soft);z-index:-1;transition:width .3s ease}
+.vsum .practiceSec b{font-weight:900}
+.vsum .practiceSec.complete{background:var(--soft);border-style:solid}
+.vsum .chip.secDone::before{content:"✓ ";font-weight:900}
