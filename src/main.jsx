@@ -316,7 +316,10 @@ function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=us
   const setActive=id=>root.querySelectorAll(".chips a").forEach(a=>{const on=a.getAttribute("href")===`#${id}`;a.classList.toggle("active",on);if(on){const bar=a.parentElement;bar.scrollTo({left:a.offsetLeft-bar.clientWidth/2+a.offsetWidth/2,behavior:"smooth"})}});
   const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(visible)setActive(visible.target.id)},{rootMargin:"-70px 0px -65% 0px"});
   root.querySelectorAll('h2[id^="vs-"]').forEach(h=>observer.observe(h));return()=>observer.disconnect()},[html]);
- return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={{__html:visualSummaryDefs+content}}/>}
+ // React vuelve a escribir todo el HTML si este objeto cambia, aunque el texto sea el mismo: se guarda
+ // para no sustituir los botones (p. ej. al acabar de sincronizar) justo cuando se están tocando
+ const inner=useMemo(()=>({__html:visualSummaryDefs+content}),[content]);
+ return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={inner}/>}
 
 function TopicPage({topic,go,progress,focusSection,onStartTest,onPractice}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
