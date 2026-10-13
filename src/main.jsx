@@ -6,6 +6,7 @@ import "./theme-day.css";
 import "./theme-night.css";
 
 import questionBank,{duplicateAliases} from "./questions";
+import {examScopes} from "./questions/examScopes.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
@@ -35,17 +36,33 @@ const topics=[
 ];
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
-const getQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
+const fullQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
+// Recortes del temario activados (p. ej. Hormonas: solo tiroides). Las preguntas que quedan fuera
+// no se borran ni pierden su progreso: solo dejan de salir en los tests mientras esté activado.
+let activeScopes={},activeScopeKey="";
+const scopedBanks=new Map();
+const applyExamScopes=config=>{
+ const next=Object.fromEntries(Object.entries(examScopes).filter(([topicId])=>config?.[topicId]?.on).map(([topicId,scope])=>[topicId,scope.ids]));
+ const key=Object.keys(next).sort().join(",");
+ if(key===activeScopeKey) return;
+ activeScopes=next;activeScopeKey=key;scopedBanks.clear();
+};
+const getQuestionBank=id=>{
+ const scope=activeScopes[id];if(!scope) return fullQuestionBank(id);
+ if(!scopedBanks.has(id)) scopedBanks.set(id,fullQuestionBank(id).filter(question=>scope.has(question.id)));
+ return scopedBanks.get(id);
+};
 const getSummary=id=>summaryBank[getTopicKey(id)];
 const getVisualSummary=id=>visualSummaryBank[getTopicKey(id)]
 // apartados del resumen visual y qué preguntas del banco explica cada uno
-const getSummaryIndex=topicId=>{const html=getVisualSummary(topicId);if(!html)return null;return buildTopicIndex(topicId,html,getQuestionBank(topicId).map(question=>({...question,topicId})),getQuestionIdForProgress,question=>explainQuestion(question,topicId))};
-// dificultad estimada de cada pregunta de un tema (percentil en el banco, 0 = la más fácil)
+const getSummaryIndex=(topicId,full=false)=>{const html=getVisualSummary(topicId);if(!html)return null;return buildTopicIndex(topicId,html,(full?fullQuestionBank:getQuestionBank)(topicId).map(question=>({...question,topicId})),getQuestionIdForProgress,question=>explainQuestion(question,topicId))};
+// dificultad estimada de cada pregunta de un tema (percentil en el banco, 0 = la más fácil);
+// se calcula siempre con el tema completo para que no cambie al activar un recorte
 const difficultyCache=new Map();
 const getTopicDifficulty=topicId=>{
  if(difficultyCache.has(topicId)) return difficultyCache.get(topicId);
- const questions=getQuestionBank(topicId).map(question=>({...question,topicId}));
- const index=getSummaryIndex(topicId);
+ const questions=fullQuestionBank(topicId).map(question=>({...question,topicId}));
+ const index=getSummaryIndex(topicId,true);
  const best=questions.map(question=>index?.byQuestion.get(getQuestionIdForProgress(question))?.[0]?.score??0);
  const sorted=[...best].sort((a,b)=>a-b);
  const coverage=score=>!index?null:score===0?0:sorted.findIndex(value=>value>=score)/sorted.length;
@@ -98,7 +115,8 @@ const formatEmphasis=text=>String(text).split(/(\*\*[^*]+\*\*|__[^_]+__)/g).filt
  if(part.startsWith("__")&&part.endsWith("__")) return <u key={index}>{part.slice(2,-2)}</u>;
  return part;
 });
-const getAllQuestions=()=>topics.flatMap(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id})));
+// full: incluye también lo que deja fuera un recorte (aclaraciones, favoritas, tests guardados)
+const getAllQuestions=(full=false)=>topics.flatMap(topic=>(full?fullQuestionBank:getQuestionBank)(topic.id).map(question=>({...question,topicId:topic.id})));
 // simulacro: preguntas repartidas entre temas en proporción al tamaño de cada banco
 // baraja una copia (Fisher-Yates) para repetir un test en otro orden
 const shuffledCopy=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
@@ -119,12 +137,12 @@ const selectSimulacrumQuestions=(count,progress)=>{
  return picked;
 };
 const getFailedQuestions=progress=>getAllQuestions().filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
-const getFavoriteQuestions=favorites=>getAllQuestions().filter(question=>favorites.includes(getQuestionIdForProgress(question)));
+const getFavoriteQuestions=favorites=>getAllQuestions(true).filter(question=>favorites.includes(getQuestionIdForProgress(question)));
 const sameAnswerSet=(a=[],b=[])=>a.length===b.length&&[...a].sort().join("\u0000")===[...b].sort().join("\u0000");
 // Recupera el test en curso solo si todas sus preguntas siguen en el banco sin cambios.
 const restoreSavedQuestions=saved=>{
  if(!Array.isArray(saved)||!saved.length) return null;
- const bankById=new Map(getAllQuestions().map(question=>[getQuestionIdForProgress(question),question]));
+ const bankById=new Map(getAllQuestions(true).map(question=>[getQuestionIdForProgress(question),question]));
  const questions=saved.map(item=>{
   const current=bankById.get(getQuestionIdForProgress(item));
   if(!current||current.question!==item.question||!sameAnswerSet(current.answers,item.answers)) return null;
@@ -173,6 +191,8 @@ function App(){
  const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
  // guarda (o borra, si queda vacía) la aclaración propia de una pregunta
  const saveNote=(question,text)=>setUserData(data=>{const id=getQuestionIdForProgress(question);const notes={...(data.notes??{})};const noteDeletions={...(data.noteDeletions??{})};if(text.trim())notes[id]={text:text.trim(),updatedAt:Date.now()};else{delete notes[id];noteDeletions[id]=Date.now()}return {...data,notes,noteDeletions}});
+ applyExamScopes(userData.examScopes);
+ const setExamScope=(topicId,on)=>setUserData(data=>({...data,examScopes:{...(data.examScopes??{}),[topicId]:{on,at:Date.now()}}}));
  const sync=useSync(userData,setUserData);
  const [saveFailed,setSaveFailed]=useState(false);
  useEffect(()=>setSaveFailed(!saveUserData(userData)),[userData]);
@@ -189,7 +209,7 @@ function App(){
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
   {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
-  {page==="topic"&&selected&&<TopicPage topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
+  {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote}/>}
   {page==="review"&&<ReviewPage go={go} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote}/>}
@@ -198,7 +218,7 @@ function App(){
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
-  {page==="settings"&&<SettingsPage sync={sync} userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
+  {page==="settings"&&<SettingsPage onExamScope={setExamScope} sync={sync} userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
   </main>
  </div>
 }
@@ -269,7 +289,7 @@ function SummaryPage({openTopic,progress}){const [q,setQ]=useState("");const ter
  </div>}
 
 function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=useRef(null);
- const index=useMemo(()=>topicId?getSummaryIndex(topicId):null,[topicId,html]);
+ const index=useMemo(()=>topicId?getSummaryIndex(topicId):null,[topicId,html,activeScopeKey]);
  // bajo cada apartado con preguntas asociadas, un botón para practicarlo con cuántas llevas hechas;
  // si están todas, el botón y la pestaña de arriba lo marcan con ✓
  const content=useMemo(()=>{if(!index||!onPractice)return html;
@@ -321,9 +341,17 @@ function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=us
  const inner=useMemo(()=>({__html:visualSummaryDefs+content}),[content]);
  return <div className="vsum" ref={ref} onClick={onClick} dangerouslySetInnerHTML={inner}/>}
 
-function TopicPage({topic,go,progress,focusSection,onStartTest,onPractice}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
+// Interruptor de un recorte del temario (p. ej. Hormonas: solo tiroides)
+function ExamScopeSwitch({topicId,scopes,onChange,className="scopeBanner"}){const scope=examScopes[topicId];if(!scope)return null;
+ const on=!!scopes?.[topicId]?.on;const total=fullQuestionBank(topicId).length;const inScope=fullQuestionBank(topicId).filter(question=>scope.ids.has(question.id)).length;
+ const title=topics.find(t=>t.id===Number(topicId))?.title;
+ return <section className={className}><div className="settingsCardText"><h3>{title}: {scope.label.toLowerCase()}</h3><p>{on?`Los tests de este tema solo usan las ${inScope} preguntas de tiroides (de ${total}). Las demás no se borran: vuelven al desactivarlo.`:`Actívalo para practicar solo las ${inScope} preguntas de tiroides y saltarte las otras ${total-inScope}.`}</p></div>
+  <button className="themeSwitch" type="button" role="switch" aria-checked={on} aria-label={scope.label} onClick={()=>onChange(topicId,!on)}><span/></button></section>}
+
+function TopicPage({topic,go,progress,focusSection,onStartTest,onPractice,examScopeConfig,onExamScope}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>
  <button className="back" onClick={()=>go("summaries")}><ArrowLeft/> Volver a resúmenes</button>
  <header className="topicHeader"><div><span className="topicEyebrow">TEMA {String(topic.id).padStart(2,"0")}</span><h2>{topic.title}</h2></div><button className="topicTestButton" onClick={onStartTest}><Brain/><span>Hacer test</span></button></header>
+ <ExamScopeSwitch topicId={topic.id} scopes={examScopeConfig} onChange={onExamScope}/>
  {visual?<div className="visualLayout"><VisualSummary html={visual} topicId={topic.id} progress={progress} focus={focusSection} onPractice={onPractice}/><TopicActions go={go} onStartTest={onStartTest}/></div>:
  <div className="topicLayout"><article className="studyCard"><h3>📌 Resumen esencial</h3>{summary?<div className="summaryContent">
    {summary.sections.map(section=><section className="summarySection" key={section.heading}><h4>{section.heading}</h4><ul>{section.points.map(point=><li key={point}>{formatEmphasis(point)}</li>)}</ul></section>)}
@@ -353,7 +381,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const isCrossTopic=mode==="failed"||mode==="mixed"||mode==="notes";
  const [testQuestions,setTestQuestions]=useState(()=>{
   if(initialMode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
-  if(initialMode==="notes"){const ids=new Set(initialQuestionIds??[]);const pool=getAllQuestions().filter(question=>ids.has(getQuestionIdForProgress(question)));return selectSmartQuestions(pool,questionProgress,pool.length).map(question=>shuffleQuestionOptions(question));}
+  if(initialMode==="notes"){const ids=new Set(initialQuestionIds??[]);const pool=getAllQuestions(true).filter(question=>ids.has(getQuestionIdForProgress(question)));return selectSmartQuestions(pool,questionProgress,pool.length).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="mixed") return ((initialQuestionCount??20)>=SIMULACRUM_MIN?selectSimulacrumQuestions(initialQuestionCount,questionProgress):selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20)).map(question=>shuffleQuestionOptions(question));
   if(!initialTopicId) return [];
   let pool=getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId}));
@@ -592,7 +620,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
 function ReviewPage({go,onStart,onResumeExam}){
  const [count,setCount]=useState(20);
  const [savedExam,setSavedExam]=useState(()=>loadResumableExam());
- const totalAvailable=useMemo(()=>getAllQuestions().length,[]);
+ const totalAvailable=useMemo(()=>getAllQuestions().length,[activeScopeKey]);
  if(!totalAvailable) return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando haya preguntas cargadas en los temas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
  const isExam=count>=SIMULACRUM_MIN;
  return <div className="reviewPage">
@@ -658,7 +686,7 @@ function NoteEditor({question,note,onSave}){
 function NotesPage({notes,onSaveNote,onStart,go}){
  const [query,setQuery]=useState("");
  const [copiedTopic,setCopiedTopic]=useState(null);
- const entries=useMemo(()=>{const byId=new Map(getAllQuestions().map(question=>[getQuestionIdForProgress(question),question]));return Object.entries(notes).map(([id,note])=>({id,note,question:byId.get(id)})).filter(entry=>entry.question)},[notes]);
+ const entries=useMemo(()=>{const byId=new Map(getAllQuestions(true).map(question=>[getQuestionIdForProgress(question),question]));return Object.entries(notes).map(([id,note])=>({id,note,question:byId.get(id)})).filter(entry=>entry.question)},[notes]);
  if(!entries.length) return <div><div className="reviewHero"><NotebookPen/><h2>Tus aclaraciones</h2><p>Después de responder una pregunta, toca «Guardar aclaración» para pegar lo que te explique Claude o escribir tu propia nota. Aparecerán aquí, ordenadas por tema.</p><button className="primary" onClick={()=>go("test")}>Hacer un test</button></div></div>;
  const needle=query.trim().toLocaleLowerCase("es");
  const visible=needle?entries.filter(({note,question})=>[note.text,question.question,question.answers[question.correctAnswer]].join(" ").toLocaleLowerCase("es").includes(needle)):entries;
@@ -700,7 +728,7 @@ function ProgressPage({progress,onStart}){
  </div>
 }
 
-function SettingsPage({sync,userData,onRestore,onThemeChange}){
+function SettingsPage({sync,userData,onRestore,onThemeChange,onExamScope}){
  const importInput=useRef(null);
  const [message,setMessage]=useState(null);
  const progressCount=Object.keys(userData.progress??{}).length;
@@ -737,6 +765,7 @@ function SettingsPage({sync,userData,onRestore,onThemeChange}){
  return <div className="settingsPage">
   <section className="settingsIntro"><span className="settingsIcon"><ShieldCheck/></span><div><span className="eyebrow">DATOS Y SEGURIDAD</span><h2>Protege tu progreso</h2><p>Descarga una copia para recuperar tus datos si cambias de móvil, navegador o borras los datos del sitio.</p></div></section>
   <section className="settingsCard themeSetting"><div className="settingsCardText"><h3>Modo noche</h3><p>Reduce el brillo de la interfaz para estudiar con poca luz.</p></div><div className="themeControl"><Sun/><button className="themeSwitch" type="button" role="switch" aria-checked={userData.theme==="dark"} aria-label="Activar modo noche" onClick={()=>onThemeChange(userData.theme==="dark"?"light":"dark")}><span/></button><Moon/></div></section>
+  {Object.keys(examScopes).map(topicId=><ExamScopeSwitch key={topicId} className="settingsCard scopeSetting" topicId={topicId} scopes={userData.examScopes} onChange={onExamScope}/>)}
   <SyncCard sync={sync}/>
   <StorageCard/>
   <section className="settingsCard"><div className="settingsCardText"><h3>Copia de seguridad</h3><p>Incluye tu dominio por tema, respuestas, preguntas falladas y favoritas.</p><div className="backupSummary"><span><b>{progressCount}</b> preguntas con actividad</span><span><b>{favoritesCount}</b> favoritas</span></div></div><div className="settingsActions"><button className="primary" onClick={exportBackup}><Download/> Descargar copia</button><button className="secondary" onClick={()=>importInput.current?.click()}><Upload/> Restaurar copia</button><input ref={importInput} className="backupFileInput" type="file" accept="application/json,.json" onChange={importBackup}/></div></section>

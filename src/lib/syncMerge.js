@@ -4,6 +4,7 @@
 // - progress: por pregunta gana la versión más reciente (última respuesta o última marca).
 // - favorites: cada alta o baja lleva fecha (favoriteChanges); gana el cambio más reciente.
 // - notes: por pregunta gana la más reciente; un borrado (noteDeletions) gana si es posterior.
+// - examScopes (recortes del temario): por tema gana el cambio más reciente.
 // - El tema claro/oscuro es de cada dispositivo y no se sincroniza.
 
 const isObject = value => !!value && typeof value === "object" && !Array.isArray(value);
@@ -61,6 +62,14 @@ function mergeNotes(a, b) {
  return { notes, noteDeletions };
 }
 
+function mergeScopes(a, b) {
+ const scopes = { ...(isObject(a?.examScopes) ? a.examScopes : {}) };
+ Object.entries(isObject(b?.examScopes) ? b.examScopes : {}).forEach(([topicId, change]) => {
+  if (isObject(change) && (!isObject(scopes[topicId]) || (Number(change.at) || 0) > (Number(scopes[topicId].at) || 0))) scopes[topicId] = change;
+ });
+ return scopes;
+}
+
 // Datos que viajan a la nube (sin preferencias propias del dispositivo).
 export function syncPayload(data) {
  const { theme, ...rest } = isObject(data) ? data : {};
@@ -78,6 +87,7 @@ export function mergeUserData(a, b) {
   progress: mergeProgress(isObject(left.progress) ? left.progress : {}, isObject(right.progress) ? right.progress : {}),
   ...mergeFavorites(left, right),
   ...mergeNotes(left, right),
+  examScopes: mergeScopes(left, right),
  };
 }
 

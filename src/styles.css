@@ -257,3 +257,8 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .vsum h2 .secStar{display:inline-grid;place-items:center;width:26px;height:26px;margin-left:8px;border-radius:50%;background:#f7e2a8;color:#b9821c;font-size:16px;line-height:1;vertical-align:middle;box-shadow:0 2px 6px rgba(185,130,28,.25)}
 .vsum .practiceSec .secStarMini{color:#d9a535;font-size:15px}
 :root[data-theme="dark"] .vsum h2 .secStar{background:#4a3b1c;color:#f0c75e;box-shadow:none}:root[data-theme="dark"] .vsum .practiceSec .secStarMini,:root[data-theme="dark"] .vsum .chip.secDone::after{color:#f0c75e}
+/* recorte del temario (p. ej. Hormonas: solo tiroides) */
+.scopeBanner{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 16px;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.scopeBanner h3,.scopeSetting h3{margin:0 0 4px;font-size:15px}.scopeBanner p{margin:0;font-size:13px;color:var(--muted);line-height:1.4}
+.scopeBanner .themeSwitch,.scopeSetting .themeSwitch{flex:0 0 50px}
+@media(max-width:700px){.scopeSetting{flex-direction:row!important;align-items:center!important}}
