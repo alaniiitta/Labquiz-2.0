@@ -6,7 +6,7 @@ import "./theme-day.css";
 import "./theme-night.css";
 
 import questionBank,{duplicateAliases} from "./questions";
-import {examScopes} from "./questions/examScopes.js";
+import {examScopes,isInScope,isScopeOn} from "./questions/examScopes.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
@@ -42,14 +42,14 @@ const fullQuestionBank=id=>(questionBank[getTopicKey(id)] ?? []);
 let activeScopes={},activeScopeKey="";
 const scopedBanks=new Map();
 const applyExamScopes=config=>{
- const next=Object.fromEntries(Object.entries(examScopes).filter(([topicId])=>config?.[topicId]?.on).map(([topicId,scope])=>[topicId,scope.ids]));
+ const next=Object.fromEntries(Object.entries(examScopes).filter(([topicId,scope])=>isScopeOn(scope,config?.[topicId])).map(([topicId,scope])=>[topicId,scope]));
  const key=Object.keys(next).sort().join(",");
  if(key===activeScopeKey) return;
  activeScopes=next;activeScopeKey=key;scopedBanks.clear();
 };
 const getQuestionBank=id=>{
  const scope=activeScopes[id];if(!scope) return fullQuestionBank(id);
- if(!scopedBanks.has(id)) scopedBanks.set(id,fullQuestionBank(id).filter(question=>scope.has(question.id)));
+ if(!scopedBanks.has(id)) scopedBanks.set(id,fullQuestionBank(id).filter(question=>isInScope(scope,question)));
  return scopedBanks.get(id);
 };
 const getSummary=id=>summaryBank[getTopicKey(id)];
@@ -343,9 +343,9 @@ function VisualSummary({html,topicId,progress={},focus,onPractice}){const ref=us
 
 // Interruptor de un recorte del temario (p. ej. Hormonas: solo tiroides)
 function ExamScopeSwitch({topicId,scopes,onChange,className="scopeBanner"}){const scope=examScopes[topicId];if(!scope)return null;
- const on=!!scopes?.[topicId]?.on;const total=fullQuestionBank(topicId).length;const inScope=fullQuestionBank(topicId).filter(question=>scope.ids.has(question.id)).length;
+ const on=isScopeOn(scope,scopes?.[topicId]);const total=fullQuestionBank(topicId).length;const inScope=fullQuestionBank(topicId).filter(question=>isInScope(scope,question)).length;
  const title=topics.find(t=>t.id===Number(topicId))?.title;
- return <section className={className}><div className="settingsCardText"><h3>{title}: {scope.label.toLowerCase()}</h3><p>{on?`Los tests de este tema solo usan las ${inScope} preguntas de tiroides (de ${total}). Las demás no se borran: vuelven al desactivarlo.`:`Actívalo para practicar solo las ${inScope} preguntas de tiroides y saltarte las otras ${total-inScope}.`}</p></div>
+ return <section className={className}><div className="settingsCardText"><h3>{title}: {scope.label.charAt(0).toLowerCase()+scope.label.slice(1)}</h3><p>{on?`Los tests de este tema solo usan las ${inScope} preguntas ${scope.unit} (de ${total}). Las demás no se borran: vuelven al desactivarlo.`:`Actívalo para practicar solo las ${inScope} preguntas ${scope.unit} y saltarte las otras ${total-inScope}.`}</p></div>
   <button className="themeSwitch" type="button" role="switch" aria-checked={on} aria-label={scope.label} onClick={()=>onChange(topicId,!on)}><span/></button></section>}
 
 function TopicPage({topic,go,progress,focusSection,onStartTest,onPractice,examScopeConfig,onExamScope}){const summary=getSummary(topic.id);const visual=getVisualSummary(topic.id);return <div>

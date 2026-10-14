@@ -1,0 +1,811 @@
+{
+  "tema": 20,
+  "titulo": "Cribados",
+  "source_file": "Test tema 20.3 Cribados (respuestas).pdf",
+  "total_questions": 67,
+  "questions": [
+    {
+      "id": 1,
+      "question": "La amniocentesis precoz se realiza:",
+      "options": {
+        "A": "Entre la 14 y 18 semana.",
+        "B": "A partir de la 12 semana.",
+        "C": "Entre la 9 y 12 semana de gestación.",
+        "D": "A partir de la 17 semana."
+      },
+      "correctAnswer": "A",
+      "correctText": "Entre la 14 y 18 semana."
+    },
+    {
+      "id": 2,
+      "question": "En la prueba del triple marcador, puede ser indicativo de Síndrome de Down:",
+      "options": {
+        "A": "Niveles elevados de AFP y estriol.",
+        "B": "Niveles elevados de AFP y estriol, junto a niveles bajos de HCG.",
+        "C": "Niveles elevados de HCG en combinación con la edad materna.",
+        "D": "Niveles bajos de AFP y estriol, nivel alto de HCG y edad materna."
+      },
+      "correctAnswer": "D",
+      "correctText": "Niveles bajos de AFP y estriol, nivel alto de HCG y edad materna."
+    },
+    {
+      "id": 3,
+      "question": "El médico le ofrece la posibilidad de visualizar directamente al feto vía transabdominal, con objeto de obtener tejidos fetales y visualizar anomalías, denominándose esta prueba:",
+      "options": {
+        "A": "Cordocentesis.",
+        "B": "Biopsia corial.",
+        "C": "Fetoscopia.",
+        "D": "Amnioscopia."
+      },
+      "correctAnswer": "C",
+      "correctText": "Fetoscopia."
+    },
+    {
+      "id": 4,
+      "question": "El cribado de aneuploidías en el primer trimestre del embarazo incluye las siguientes pruebas bioquímicas:",
+      "options": {
+        "A": "BETA-HCG y Estradiol.",
+        "B": "Proteína A asociada al embarazo (PAPP-A) y BETA-HCG libre.",
+        "C": "BETA-HCG libre y estradiol.",
+        "D": "BETA-HCG total y alfafetoproteína."
+      },
+      "correctAnswer": "B",
+      "correctText": "Proteína A asociada al embarazo (PAPP-A) y BETA-HCG libre."
+    },
+    {
+      "id": 5,
+      "question": "¿Qué metabolito se eleva en los pacientes afectados de fibrosis quística?:",
+      "options": {
+        "A": "Glucosa.",
+        "B": "Tripsina inmunorreactiva.",
+        "C": "Ácidos grasos de cadena larga.",
+        "D": "Fenilalanina."
+      },
+      "correctAnswer": "B",
+      "correctText": "Tripsina inmunorreactiva."
+    },
+    {
+      "id": 6,
+      "question": "Las analíticas de SCREENING se conocen, también, como:",
+      "options": {
+        "A": "Análisis elemental de orina",
+        "B": "Hepatopatías",
+        "C": "Pruebas de presunción",
+        "D": "Análisis rutinario"
+      },
+      "correctAnswer": "C",
+      "correctText": "Pruebas de presunción"
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál de estos especímenes se usa para el diagnóstico prenatal de una anomalía cromosómica mediante la técnica NIPT?",
+      "options": {
+        "A": "Folículo piloso materno.",
+        "B": "ADN fetal en plasma materno.",
+        "C": "Líquido amniótico paterno.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "correctAnswer": "B",
+      "correctText": "ADN fetal en plasma materno."
+    },
+    {
+      "id": 8,
+      "question": "Las enfermedades que forman parte del cribado neonatal son:",
+      "options": {
+        "A": "Enfermedades no hereditarias.",
+        "B": "Enfermedades congénitas.",
+        "C": "Una de las técnicas usadas para su análisis es la espectrometría de campo oscuro.",
+        "D": "Ninguna de las anteriores es correcta."
+      },
+      "correctAnswer": "B",
+      "correctText": "Enfermedades congénitas."
+    },
+    {
+      "id": 9,
+      "question": "El formulario para realizar la prueba del talón será entregado:",
+      "options": {
+        "A": "Al Jefe de personal que será el responsable de rellenarlo.",
+        "B": "La familia que será la que lo lleve al lugar donde se realice la extracción.",
+        "C": "Estará en stock en el centro sanitario y se rellenará de forma directa.",
+        "D": "A la matrona encargada de la madre."
+      },
+      "correctAnswer": "B",
+      "correctText": "La familia que será la que lo lleve al lugar donde se realice la extracción."
+    },
+    {
+      "id": 10,
+      "question": "La fenilcetonuria es una enfermedad metabólica producida por la mutación de un gen que produce:",
+      "options": {
+        "A": "Tirosin quinasa",
+        "B": "Fenilalaina hidroxilasa",
+        "C": "Tirosina deaminasa",
+        "D": "Fenilalanina descaboxilasa"
+      },
+      "correctAnswer": "B",
+      "correctText": "Fenilalaina hidroxilasa"
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál de estas afirmaciones es FALSA respecto a la fenilcetonuria?:",
+      "options": {
+        "A": "Se debe a una deficiencia de fenilalanina hidroxilasa.",
+        "B": "La herencia es autosómica dominante.",
+        "C": "Su incidencia en la población española es de 1:9000.",
+        "D": "El ratio Phe/Tyr tiene mayor eficacia diagnóstica que la sola medición de Phe."
+      },
+      "correctAnswer": "B",
+      "correctText": "La herencia es autosómica dominante."
+    },
+    {
+      "id": 12,
+      "question": "En qué tipo de muestras biológicas se realizan las pruebas de \"screening neonatal\".",
+      "options": {
+        "A": "Punción venosa",
+        "B": "Punción arterial",
+        "C": "Orina impregnada en papel de filtro",
+        "D": "Punción venosa en el talón del recién nacido"
+      },
+      "correctAnswer": "D",
+      "correctText": "Punción venosa en el talón del recién nacido"
+    },
+    {
+      "id": 13,
+      "question": "A qué edad del recién nacido se debe de hacer preferentemente la toma de muestra para el cribado neonatal:",
+      "options": {
+        "A": "Nada más nacer.",
+        "B": "A las 48 horas de vida siempre que el neonato haya ingerido leche.",
+        "C": "A las 72 horas de vida.",
+        "D": "A los 5 días de vida para asegurar la lactancia."
+      },
+      "correctAnswer": "B",
+      "correctText": "A las 48 horas de vida siempre que el neonato haya ingerido leche."
+    },
+    {
+      "id": 14,
+      "question": "A qué población de neonatos va dirigido el screening neonatal:",
+      "options": {
+        "A": "A recién nacidos de bajo peso y/o de menos de 36 semanas de gestación.",
+        "B": "A todos los recién nacidos de la población en estudio.",
+        "C": "A los recién nacidos con factores de riesgo por historia familiar.",
+        "D": "Todas las anteriores son correctas."
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas."
+    },
+    {
+      "id": 15,
+      "question": "La realización del screening poblacional se lleva a cabo para:",
+      "options": {
+        "A": "Prevención de posibles anomalías congénitas.",
+        "B": "Detección precoz de anomalías congénitas.",
+        "C": "Evitar posibles daños cerebrales en el recién nacido.",
+        "D": "Todas las anteriores son correctas"
+      },
+      "correctAnswer": "D",
+      "correctText": "Todas las anteriores son correctas"
+    },
+    {
+      "id": 16,
+      "question": "Entre las enfermedades hereditarias incluidas en el screening neonatal en la prueba talón, se incluye:",
+      "options": {
+        "A": "Fibrosis Quística.",
+        "B": "Síndrome de X Frágil.",
+        "C": "Trombofilia Hereditaria.",
+        "D": "Hemocromatosis."
+      },
+      "correctAnswer": "A",
+      "correctText": "Fibrosis Quística."
+    },
+    {
+      "id": 17,
+      "question": "En los lactantes la punción cutánea para extracción de sangre capilar se suele realizar en:",
+      "options": {
+        "A": "Lóbulo auricular.",
+        "B": "Parte anterior de la tibia.",
+        "C": "Partes exteriores del talón.",
+        "D": "En lactantes está contraindicada la punción capilar por riesgo de lesiones."
+      },
+      "correctAnswer": "C",
+      "correctText": "Partes exteriores del talón."
+    },
+    {
+      "id": 18,
+      "question": "La presencia de hemoglobina S en la sangre del recién nacido es el principal marcador para detectar en el cribado neonatal:",
+      "options": {
+        "A": "Anemia falciforme.",
+        "B": "Anemia ferropénica.",
+        "C": "Talasemia.",
+        "D": "Anemia megaloblástica."
+      },
+      "correctAnswer": "A",
+      "correctText": "Anemia falciforme."
+    },
+    {
+      "id": 19,
+      "question": "No es una enfermedad endocrino-metabólica congénita en el recién nacido:",
+      "options": {
+        "A": "Homocisteinuria.",
+        "B": "Galactosemia.",
+        "C": "Hiperprolactinemia.",
+        "D": "Acidemia isovalérica."
+      },
+      "correctAnswer": "C",
+      "correctText": "Hiperprolactinemia."
+    },
+    {
+      "id": 20,
+      "question": "Los neonatos con fibrosis quística presentan en sangre:",
+      "options": {
+        "A": "Un aumento de la galactosa.",
+        "B": "La tripsina inmunorreactiva elevada.",
+        "C": "Un defecto de los aminoácidos leucina e isoleucina.",
+        "D": "Un defecto del aminoácido valina."
+      },
+      "correctAnswer": "B",
+      "correctText": "La tripsina inmunorreactiva elevada."
+    },
+    {
+      "id": 21,
+      "question": "El marcador bioquímico para la detección de la fenilcetonuria es:",
+      "options": {
+        "A": "Isoleucina.",
+        "B": "Fenilalanina.",
+        "C": "Leucina.",
+        "D": "Acetilcisteína."
+      },
+      "correctAnswer": "B",
+      "correctText": "Fenilalanina."
+    },
+    {
+      "id": 22,
+      "question": "La prueba del talón al recién nacido se debe hacer:",
+      "options": {
+        "A": "Nada más nacer.",
+        "B": "A las 48 horas de vida.",
+        "C": "Transcurridas las 72 horas de vida, si no ha ingerido leche.",
+        "D": "A los 10 días de vida para asegurar la lactancia."
+      },
+      "correctAnswer": "B",
+      "correctText": "A las 48 horas de vida."
+    },
+    {
+      "id": 23,
+      "question": "¿Cuál, de los siguientes marcadores bioquímicos, no se incluye entre las pruebas del cribado prenatal?",
+      "options": {
+        "A": "Estradiol.",
+        "B": "PAPP-A.",
+        "C": "AFP.",
+        "D": "beta-HCG."
+      },
+      "correctAnswer": "A",
+      "correctText": "Estradiol."
+    },
+    {
+      "id": 24,
+      "question": "La fenilalanina se utiliza como marcador bioquímico, en el cribado neonatal, para la detección de:",
+      "options": {
+        "A": "Homocistinuria.",
+        "B": "Fenilcetonuria.",
+        "C": "Hipotiroidismo congénito.",
+        "D": "Fibrosis quística."
+      },
+      "correctAnswer": "B",
+      "correctText": "Fenilcetonuria."
+    },
+    {
+      "id": 25,
+      "question": "En el cribado de trisomía 21 en el primer trimestre:",
+      "options": {
+        "A": "El riesgo aumenta si aumenta la HGC beta libre y disminuye la PAPP-A.",
+        "B": "El riesgo aumenta si aumenta la HGC beta libre y aumenta la PAPP-A.",
+        "C": "El riesgo aumenta si disminuye la HGC beta libre y aumenta la PAPP-A.",
+        "D": "El riesgo aumenta si disminuye la HGC beta libre y disminuye la PAPP-A."
+      },
+      "correctAnswer": "A",
+      "correctText": "El riesgo aumenta si aumenta la HGC beta libre y disminuye la PAPP-A."
+    },
+    {
+      "id": 26,
+      "question": "¿Cuál de las siguientes afirmaciones sobre la fibrosis quística es Falsa?:",
+      "options": {
+        "A": "Su detección está incluida en el cribado neonatal en el SNS.",
+        "B": "La mutación más frecuente es la f508.",
+        "C": "El gen implicado en la enfermedad es el CTFR.",
+        "D": "Los pacientes tienen muy disminuido el cloro en sudor."
+      },
+      "correctAnswer": "D",
+      "correctText": "Los pacientes tienen muy disminuido el cloro en sudor."
+    },
+    {
+      "id": 27,
+      "question": "En la actualidad, en el screening neonatal además de la fenilcetonuria, ¿qué otra enfermedad es estudiada?:",
+      "options": {
+        "A": "Hipotiroidismo.",
+        "B": "Celiaquía.",
+        "C": "Galactorrea.",
+        "D": "Hipertiroidismo."
+      },
+      "correctAnswer": "A",
+      "correctText": "Hipotiroidismo."
+    },
+    {
+      "id": 28,
+      "question": "Señale la afirmación NO correcta respecto a las técnicas de secuenciación masiva para el cribado prenatal no invasivo:",
+      "options": {
+        "A": "Precisan al menos de una fracción de ADN fetal circulante del 4%.",
+        "B": "Sólo están validadas para las trisomías 21, 18 y 13.",
+        "C": "Son técnicas de cribado, pero se pueden emplear para el diagnóstico.",
+        "D": "Mejoran la sensibilidad diagnóstica de la trisomía 21 frente al cribado ecográfico/bioquímico."
+      },
+      "correctAnswer": "C",
+      "correctText": "Son técnicas de cribado, pero se pueden emplear para el diagnóstico."
+    },
+    {
+      "id": 29,
+      "question": "En el caso de un programa de cribado de una determinada enfermedad mediante un test de laboratorio, ¿cuál le parece que debe ser la característica más importante que debe cumplir este test?",
+      "options": {
+        "A": "Gran especificidad del test",
+        "B": "Pocos falsos positivos",
+        "C": "Escasa especificidad del test",
+        "D": "Pocos falsos negativos"
+      },
+      "correctAnswer": "D",
+      "correctText": "Pocos falsos negativos"
+    },
+    {
+      "id": 30,
+      "question": "Cuando se elige una prueba diagnóstica para cribado hay que tener en cuenta que:",
+      "options": {
+        "A": "Una prueba de cribado debe tener alta sensibilidad.",
+        "B": "Una prueba de cribado debe tener alta especificidad.",
+        "C": "El resultado de un cribado es definitivo, no requiere confirmación.",
+        "D": "Los resultados del cribado son independientes de la prevalencia en la población."
+      },
+      "correctAnswer": "A",
+      "correctText": "Una prueba de cribado debe tener alta sensibilidad."
+    },
+    {
+      "id": 31,
+      "question": "Es recomendable incluir a las siguientes enfermedades en los programas de cribado neonatal, ¿cuál de ellas NO?",
+      "options": {
+        "A": "Fenilcetunuria",
+        "B": "Hipotiroidismo congénito",
+        "C": "Intolerancia a la lactosa",
+        "D": "Fibrosis quística"
+      },
+      "correctAnswer": "C",
+      "correctText": "Intolerancia a la lactosa"
+    },
+    {
+      "id": 32,
+      "question": "Con respecto a la AFP, ¿cuál de las siguientes afirmaciones es INCORRECTA?",
+      "options": {
+        "A": "Es una proteína producida en el hígado fetal que puede detectarse en el suero materno.",
+        "B": "Su elevación puede ser debida a la presencia de embarazo gemelar.",
+        "C": "Es utilizada junto al estriol y la HCG en la prueba del triple marcador.",
+        "D": "La determinación de AFP en el suero materno es un método diagnóstico."
+      },
+      "correctAnswer": "D",
+      "correctText": "La determinación de AFP en el suero materno es un método diagnóstico."
+    },
+    {
+      "id": 33,
+      "question": "Podemos definir el screening como:",
+      "options": {
+        "A": "La identificación en fase de latencia de enfermos o personas que pueden enfermar por presentar un factor de riesgo importante.",
+        "B": "Una técnica para detectar la diabetes.",
+        "C": "La realización de pruebas para el diagnóstico definitivo de una enfermedad.",
+        "D": "Una investigación científica para conocer el estado de salud de la población."
+      },
+      "correctAnswer": "A",
+      "correctText": "La identificación en fase de latencia de enfermos o personas que pueden enfermar por presentar un factor de riesgo importante."
+    },
+    {
+      "id": 34,
+      "question": "Son enfermedades que el American College of Medical Genetics recomienda incluir en los programas de cribado neonatal todas menos una:",
+      "options": {
+        "A": "Acidemia metilmalónica",
+        "B": "Fenilcetonuria",
+        "C": "Hipotiroidismo congénito",
+        "D": "Intolerancia a la lactosa"
+      },
+      "correctAnswer": "D",
+      "correctText": "Intolerancia a la lactosa"
+    },
+    {
+      "id": 35,
+      "question": "En la prueba del triple marcador, puede ser indicativo de Síndrome de Down:",
+      "options": {
+        "A": "Niveles elevados de AFP y estriol.",
+        "B": "Niveles elevados de AFP y estriol, junto a niveles bajos de HCG.",
+        "C": "Niveles elevados de HCG en combinación con la edad materna.",
+        "D": "Niveles bajos de AFP y estriol, nivel alto de HCG y edad materna."
+      },
+      "correctAnswer": "D",
+      "correctText": "Niveles bajos de AFP y estriol, nivel alto de HCG y edad materna."
+    },
+    {
+      "id": 36,
+      "question": "La prueba del triple marcador determina:",
+      "options": {
+        "A": "HLP, fosfatasa ácida y prolactina.",
+        "B": "Gonadotropina coriónica, proteína placentaria y AFP.",
+        "C": "HLD, HC y triglicéridos.",
+        "D": "Estriol, AFP y HCG."
+      },
+      "correctAnswer": "D",
+      "correctText": "Estriol, AFP y HCG."
+    },
+    {
+      "id": 37,
+      "question": "La amniocentesis precoz se realiza en la semana de gestación:",
+      "options": {
+        "A": "16.",
+        "B": "20.",
+        "C": "22.",
+        "D": "24."
+      },
+      "correctAnswer": "A",
+      "correctText": "16."
+    },
+    {
+      "id": 38,
+      "question": "¿Cómo se denomina a la prueba neonatal para descartar metabolopatías?:",
+      "options": {
+        "A": "Prueba del talón.",
+        "B": "Prueba del cordón umbilical.",
+        "C": "Prueba de Rh.",
+        "D": "Ninguna de ellas."
+      },
+      "correctAnswer": "A",
+      "correctText": "Prueba del talón."
+    },
+    {
+      "id": 39,
+      "question": "La tripsina inmunorreactiva (TIR) se utiliza como marcador biológico, en el cribado neonatal, para la detección de:",
+      "options": {
+        "A": "Hipotiroidismo congénito.",
+        "B": "Fibrosis quística.",
+        "C": "Fenilcetonuria.",
+        "D": "Homocisteinuria."
+      },
+      "correctAnswer": "B",
+      "correctText": "Fibrosis quística."
+    },
+    {
+      "id": 40,
+      "question": "El cribado de aneuploidías en el primer trimestre de embarazo incluye las siguientes pruebas bioquímicas:",
+      "options": {
+        "A": "Estriol libre y PAPP-A.",
+        "B": "PPA-P y AFP.",
+        "C": "HCGbeta libre y PAPP-A.",
+        "D": "TN y PAPP-A."
+      },
+      "correctAnswer": "C",
+      "correctText": "HCGbeta libre y PAPP-A."
+    },
+    {
+      "id": 41,
+      "question": "¿En qué parte del cuerpo se realiza preferentemente la punción para la extracción de sangre capilar en niños menores de cuatro años?",
+      "options": {
+        "A": "Pulpejo del dedo.",
+        "B": "Talón.",
+        "C": "Lóbulo de la oreja.",
+        "D": "Cuero cabelludo."
+      },
+      "correctAnswer": "B",
+      "correctText": "Talón."
+    },
+    {
+      "id": 42,
+      "question": "La técnica analítica adecuada para medir la relación masa/carga de un analito en una muestra es:",
+      "options": {
+        "A": "Gravimetría.",
+        "B": "Espectrometría de masas.",
+        "C": "Potenciometría.",
+        "D": "Espectrometría de emisión."
+      },
+      "correctAnswer": "B",
+      "correctText": "Espectrometría de masas."
+    },
+    {
+      "id": 43,
+      "question": "Durante el embarazo, en la consulta de Atención Primaria, se ofertará la realización del diagnóstico prenatal de anomalías congénitas. Señale qué hormonas se solicitarán para la realización del cribado de primer trimestre de anomalías congénitas:",
+      "options": {
+        "A": "Gonadotropina Coriónica Beta Libre y La Alfa fetoproteina (AFP)",
+        "B": "Proteína A asociada a la gestación (PAPP-A) y Gonadotropina Coriónica Beta Libre.",
+        "C": "Hormona antimulleriana.",
+        "D": "Cociente Estrógeno/Estriol."
+      },
+      "correctAnswer": "B",
+      "correctText": "Proteína A asociada a la gestación (PAPP-A) y Gonadotropina Coriónica Beta Libre."
+    },
+    {
+      "id": 44,
+      "question": "En la prueba de \"screening neonatal metabólico\" las pautas a seguir son:",
+      "options": {
+        "A": "Se realizará en el momento del nacimiento.",
+        "B": "Se realiza el 3º día de vida (entre las 48 y 72 horas desde el momento del nacimiento).",
+        "C": "Se realiza mediante la punción venosa en el talón del recién nacido.",
+        "D": "Las respuestas B y C son correctas."
+      },
+      "correctAnswer": "B",
+      "correctText": "Se realiza el 3º día de vida (entre las 48 y 72 horas desde el momento del nacimiento)."
+    },
+    {
+      "id": 45,
+      "question": "En relación con las enfermedades que están incluidas en el programa de cribado neonatal de enfermedades endocrinas-metabólicas en Andalucía, señale la respuesta INCORRECTA:",
+      "options": {
+        "A": "Fenilcetonuria.",
+        "B": "Fibrosis quística.",
+        "C": "Hipotiroidismo congénito.",
+        "D": "Lupus eritematoso congénito."
+      },
+      "correctAnswer": "D",
+      "correctText": "Lupus eritematoso congénito."
+    },
+    {
+      "id": 46,
+      "question": "En relación con la toma de muestra para la detección precoz de errores congénitos del metabolismo, señale la afirmación CORRECTA:",
+      "options": {
+        "A": "La muestra se debe recoger del cordón.",
+        "B": "Es necesario que el bebé haya ingerido alimentación proteica mediante lactancia materna o artificial.",
+        "C": "Se realizará mediante una única extracción de sangre periférica obtenida del talón del recién nacido, el 3er día de vida (48‐72 horas), y a ser posible no más tarde del 5º día.",
+        "D": "Las respuestas B y C son ciertas."
+      },
+      "correctAnswer": "B",
+      "correctText": "Es necesario que el bebé haya ingerido alimentación proteica mediante lactancia materna o artificial."
+    },
+    {
+      "id": 47,
+      "question": "De todas estas enfermedades detectables en el cribado neonatal, ¿cuál no se debe a trastornos del metabolismo de los aminoácidos?",
+      "options": {
+        "A": "Citrulinemia",
+        "B": "Aciduria argininosuccínica",
+        "C": "Fenilcetonuria",
+        "D": "Galactosemia clásica"
+      },
+      "correctAnswer": "D",
+      "correctText": "Galactosemia clásica"
+    },
+    {
+      "id": 48,
+      "question": "Para realizar un cribado o “screening” de una enfermedad en una población debemos elegir una prueba diagnóstica que sea:",
+      "options": {
+        "A": "Altamente específica.",
+        "B": "Poco específica.",
+        "C": "Que tenga pocos resultados falsos negativos.",
+        "D": "Que tenga pocos resultados falsos positivos."
+      },
+      "correctAnswer": "C",
+      "correctText": "Que tenga pocos resultados falsos negativos."
+    },
+    {
+      "id": 49,
+      "question": "Con respecto al cribado prenatal no invasivo (NIPT), ¿Cuál de los siguientes factores afecta más a la fracción fetal de cfDNA en la sangre materna?",
+      "options": {
+        "A": "Anomalías fetales",
+        "B": "Edad materna",
+        "C": "Peso materno",
+        "D": "Ninguno de ellos afecta al ser un ensayo altamente específico"
+      },
+      "correctAnswer": "C",
+      "correctText": "Peso materno"
+    },
+    {
+      "id": 50,
+      "question": "El cribado fetal con DNA fetal se realiza:",
+      "options": {
+        "A": "A partir de la décima semana de gestación.",
+        "B": "A partir de la cuarta semana de gestación.",
+        "C": "A los tres meses de la gestación.",
+        "D": "En el segundo día de la gestación"
+      },
+      "correctAnswer": "A",
+      "correctText": "A partir de la décima semana de gestación."
+    },
+    {
+      "id": 51,
+      "question": "En presencia de anomalías del tubo neural encontraremos un aumento en el líquido amniótico de la concentración de:",
+      "options": {
+        "A": "Gonadotropina coriónica humana.",
+        "B": "Alfa-feto proteína.",
+        "C": "Albúmina.",
+        "D": "Gamma globulinas."
+      },
+      "correctAnswer": "B",
+      "correctText": "Alfa-feto proteína."
+    },
+    {
+      "id": 52,
+      "question": "Un resultado positivo en el cribaje de aneuploidías en el primer trimestre de gestación ha de ser confirmado mediante:",
+      "options": {
+        "A": "Cariotipo sangre materna.",
+        "B": "AFP en líquido amniótico.",
+        "C": "Acetil-colina en líquido amniótico.",
+        "D": "Biopsia corial."
+      },
+      "correctAnswer": "D",
+      "correctText": "Biopsia corial."
+    },
+    {
+      "id": 53,
+      "question": "¿Cuáles son los principales marcadores bioquímicos en el cribado del primer trimestre de gestación?",
+      "options": {
+        "A": "Fracción libre de la β-gonadotropina coriónica humana (fβHCG) y Proteína plasmática asociada al embarazo (PAPP-A)",
+        "B": "Alfa-fetoproteína de origen fetal (AFP) y Estriol no conjugado(uE3)",
+        "C": "Proteína plasmática asociada al embarazo (PAPP-A) y Alfa-fetoproteína de origen fetal (AFP)",
+        "D": "Estriol no conjugado (uE3) y Inhibina A"
+      },
+      "correctAnswer": "A",
+      "correctText": "Fracción libre de la β-gonadotropina coriónica humana (fβHCG) y Proteína plasmática asociada al embarazo (PAPP-A)"
+    },
+    {
+      "id": 54,
+      "question": "¿Cuál es el orden lógico de procesos que ocurren en un espectrómetro de masas?:",
+      "options": {
+        "A": "Introducción de la muestra → ionización → análisis de la relación m/q → detección de los iones.",
+        "B": "Ionización → introducción de la muestra → análisis de la relación m/q → detección de los iones.",
+        "C": "Ionización → análisis de la relación m/q → Introducción de la muestra → detección de los iones.",
+        "D": "Introducción de la muestra → análisis de la relación m/q → ionización → detección de los iones."
+      },
+      "correctAnswer": "A",
+      "correctText": "Introducción de la muestra → ionización → análisis de la relación m/q → detección de los iones."
+    },
+    {
+      "id": 55,
+      "question": "Señale la respuesta incorrecta sabre la muestra para el cribado neonatal:",
+      "options": {
+        "A": "En general será sangre obtenida por punción en el talón",
+        "B": "Se obtendrá en las primeras 24 horas de vida",
+        "C": "Tras una transfusión se deberá esperar de 7 a 14 días para su obtención",
+        "D": "No será válida si esta obtenida de catéteres"
+      },
+      "correctAnswer": "B",
+      "correctText": "Se obtendrá en las primeras 24 horas de vida"
+    },
+    {
+      "id": 56,
+      "question": "¿Cuál de las siguientes moléculas NO se emplea en el cribado prenatal del síndrome de Down?:",
+      "options": {
+        "A": "beta-hCG.",
+        "B": "Proteína plasmática A asociada a embarazo (PAPP-A).",
+        "C": "Estradiol.",
+        "D": "alfa-fetoproteína (AFP)."
+      },
+      "correctAnswer": "C",
+      "correctText": "Estradiol."
+    },
+    {
+      "id": 57,
+      "question": "La Cromatografía es una técnica analítica que puede ser empleada en los laboratorios clínicos para la determinación de:",
+      "options": {
+        "A": "Cobre.",
+        "B": "Ferritina.",
+        "C": "Fenilalanina."
+      },
+      "correctAnswer": "C",
+      "correctText": "Fenilalanina."
+    },
+    {
+      "id": 58,
+      "question": "En el screening prenatal de primer trimestre además de la translucencia nucal (TN) se realiza:",
+      "options": {
+        "A": "PAPP-A + f β HCG",
+        "B": "PAPP-A+ T β HCG",
+        "C": "β HCG+AFP",
+        "D": "Estriol, AFP y HCG"
+      },
+      "correctAnswer": "A",
+      "correctText": "PAPP-A + f β HCG"
+    },
+    {
+      "id": 59,
+      "question": "En qué situación está recomendado el Array CGH prenatal:",
+      "options": {
+        "A": "Translucencia nucal aumentada.",
+        "B": "Muerte fetal intrauterina y aborto de segundo trimestre.",
+        "C": "Identificación de un defecto congénito mayor.",
+        "D": "En todas las anteriores."
+      },
+      "correctAnswer": "D",
+      "correctText": "En todas las anteriores."
+    },
+    {
+      "id": 60,
+      "question": "En el cribado neonatal, ¿cuándo debe realizarse preferentemente la extracción de sangre capilar?",
+      "options": {
+        "A": "Recién nacido",
+        "B": "A las 24 horas de vida",
+        "C": "A las 48 horas de vida",
+        "D": "Al mes de vida"
+      },
+      "correctAnswer": "C",
+      "correctText": "A las 48 horas de vida"
+    },
+    {
+      "id": 61,
+      "question": "Respecto al screening neonatal, Indique la respuesta INCORRECTA:",
+      "options": {
+        "A": "Tiene como objetivo identificar los neonatos presuntamente positivos para su clasificación.",
+        "B": "Las pruebas de cribado neonatal tienen en cuenta la edad de la madre.",
+        "C": "Son pruebas de diagnóstico definitivo.",
+        "D": "Los programas de cribado neonatal van dirigidos hacia la identificación presintomática."
+      },
+      "correctAnswer": "C",
+      "correctText": "Son pruebas de diagnóstico definitivo."
+    },
+    {
+      "id": 62,
+      "question": "Marcadores de cribado de aneuploidías de segundo trimestre sugerentes de Síndrome de Down:",
+      "options": {
+        "A": "Niveles bajos de hCG.",
+        "B": "Niveles bajos de hCG y altos de AFP y estriol no conjugado.",
+        "C": "Niveles elevados de hCG y bajos de AFP y estriol.",
+        "D": "Niveles bajos de hCH, estriol y AFP."
+      },
+      "correctAnswer": "C",
+      "correctText": "Niveles elevados de hCG y bajos de AFP y estriol."
+    },
+    {
+      "id": 63,
+      "question": "El porcentaje de ADN fetal libre circulante en la gestante, dependiendo de la edad gestacional y en condiciones normales, comprende",
+      "options": {
+        "A": "Del 1% al 5%.",
+        "B": "Del 10% al 30%.",
+        "C": "Del 3% al 20%.",
+        "D": "Del 15% al 30%."
+      },
+      "correctAnswer": "C",
+      "correctText": "Del 3% al 20%."
+    },
+    {
+      "id": 64,
+      "question": "Con objeto de disminuir los riesgos materno fetales y evitar el estrés de los padres, se da la posibilidad de realizar el diagnóstico prenatal a la mayor brevedad que sería:",
+      "options": {
+        "A": "Cordocentesis.",
+        "B": "Fetoscopia.",
+        "C": "Amniocentesis.",
+        "D": "Biopsia corial."
+      },
+      "correctAnswer": "D",
+      "correctText": "Biopsia corial."
+    },
+    {
+      "id": 65,
+      "question": "En relación al hipotiroidismo congénito en el screening neonatal, señale la respuesta CORRECTA:",
+      "options": {
+        "A": "No tiene gran importancia en el neonato.",
+        "B": "Tiene gran repercusión sobre el desarrollo intelectual del neonato.",
+        "C": "Es la causa de retraso mental prevenible menos frecuente.",
+        "D": "El diagnóstico precoz no mejora notablemente el retraso mental."
+      },
+      "correctAnswer": "B",
+      "correctText": "Tiene gran repercusión sobre el desarrollo intelectual del neonato."
+    },
+    {
+      "id": 66,
+      "question": "Sobre el estudio de la función tiroidea en mujeres gestantes:",
+      "options": {
+        "A": "Se dirige a maximizar el bienestar psico-físico de la mujer gestante.",
+        "B": "Debe valorar los resultados en relación a los intervalos de referencia generales en adultos.",
+        "C": "Solo se recomienda en casos de enfermedad tiroidea de familiares cercanos.",
+        "D": "Está recomendado el cribado universal de disfunción tiroidea en todas las gestantes"
+      },
+      "correctAnswer": "D",
+      "correctText": "Está recomendado el cribado universal de disfunción tiroidea en todas las gestantes"
+    },
+    {
+      "id": 67,
+      "question": "En el caso de un programa de cribado de una determinada enfermedad, ¿Cuál le parece que debe ser la característica más importante del test?",
+      "options": {
+        "A": "Gran especificidad",
+        "B": "Pocos falsos positivos",
+        "C": "Escasa especificidad del test",
+        "D": "Pocos falsos negativos"
+      },
+      "correctAnswer": "D",
+      "correctText": "Pocos falsos negativos"
+    }
+  ]
+}
