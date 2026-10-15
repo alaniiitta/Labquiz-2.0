@@ -253,3 +253,4 @@
 .vsum .chip.co::before{background:#c77a3a}
 :root[data-theme="dark"] .vsum .matrix td[style*="#fdf3e6"]{background:#3d2f1f!important;color:#f0c08a!important}
 :root[data-theme="dark"] .vsum .matrix td[style*="#eef0f1"]{background:#2a3336!important;color:#b9c6ca!important}
+.vsum .mtab.grp td:first-child{width:auto;text-align:center;color:var(--primary);font-size:15px}.vsum .mtab.grp td:nth-child(2){white-space:nowrap;padding-right:10px}
