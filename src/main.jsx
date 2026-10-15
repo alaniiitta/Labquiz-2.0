@@ -147,7 +147,9 @@ const restoreSavedQuestions=saved=>{
   const current=bankById.get(getQuestionIdForProgress(item));
   if(!current||current.question!==item.question||!sameAnswerSet(current.answers,item.answers)) return null;
   const correctAnswer=item.answers.indexOf(current.answers[current.correctAnswer]);
-  return correctAnswer<0?null:{...current,answers:item.answers,correctAnswer};
+  // orden original de cada opción, para que la explicación cite las letras tal como se ven
+  const originalOrder=item.answers.map(answer=>current.answers.indexOf(answer));
+  return correctAnswer<0?null:{...current,answers:item.answers,correctAnswer,originalOrder};
  });
  return questions.some(question=>!question)?null:questions;
 };

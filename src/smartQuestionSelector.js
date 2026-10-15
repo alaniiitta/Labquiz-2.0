@@ -250,7 +250,9 @@ export function shuffleQuestionOptions(question, random = Math.random) {
   // Guard: if mapping failed, return question unchanged
   if (newCorrectIndex === -1) return question;
 
-  return { ...question, [optionsKey]: shuffled.map((item) => item.text), [correctKey]: newCorrectIndex };
+  // originalOrder: posición original de cada opción, para que las explicaciones que citan
+  // una letra («la C es incorrecta») se adapten al nuevo orden
+  return { ...question, [optionsKey]: shuffled.map((item) => item.text), [correctKey]: newCorrectIndex, originalOrder: shuffled.map((item) => item.index) };
 }
 
 export function validateQuestionSync(question) {
