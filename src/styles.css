@@ -263,17 +263,13 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .scopeBanner .themeSwitch,.scopeSetting .themeSwitch{flex:0 0 50px}
 @media(max-width:700px){.scopeSetting{flex-direction:row!important;align-items:center!important}}
 .keyStar{color:var(--gold,#d9a535);font-size:1.15em;font-weight:900}.keyStarNote{margin:6px 2px 0;font-size:12.5px;color:var(--muted)}
-/* ¿Segura o dudando? */
+/* ¿Dudas? (sin tocar = segura) */
 .confRow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:-4px 0 12px}
-.confLabel{display:inline-flex;align-items:center;gap:5px;margin-right:2px;font-size:12px;font-weight:800;color:var(--muted)}
+.confLabel{display:inline-flex;align-items:center;gap:5px;margin-right:2px;font-size:12px;font-weight:600;color:var(--muted)}
 .confLabel svg{width:14px;height:14px}
-.confRow button{-webkit-tap-highlight-color:transparent;min-height:34px;padding:5px 12px;border:1px solid var(--line);border-radius:999px;background:transparent;font-size:12.5px;font-weight:800;color:var(--muted);touch-action:manipulation}
-.confRow button.on{color:var(--text);border-color:currentColor}
-.confRow button.conf-s.on{background:rgba(63,138,95,.13);color:#2f7a52}
-.confRow button.conf-d.on{background:rgba(201,150,40,.15);color:#99700f}
-.confRow button.conf-c.on{background:rgba(150,110,130,.16);color:#7a5368}
+.confRow button{-webkit-tap-highlight-color:transparent;min-height:30px;padding:2px 11px;border:1px solid var(--line);border-radius:999px;background:transparent;font-size:12px;font-weight:700;color:var(--muted);touch-action:manipulation}
+.confRow button.on{background:var(--soft);color:var(--primary);border-color:var(--primary)}
 .confRow.locked button:not(.on){display:none}
-:root[data-theme="dark"] .confRow button.conf-s.on{color:#8fcfa9}:root[data-theme="dark"] .confRow button.conf-d.on{color:#e3c072}:root[data-theme="dark"] .confRow button.conf-c.on{color:#d6aec4}
 .confSummary{display:grid;gap:6px;margin:14px 0 4px;text-align:left}
 .confSummaryRow{display:grid;grid-template-columns:1fr auto auto auto;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;font-size:13px}
 .confSummaryRow small{color:var(--muted)}.confSummaryRow em{font-style:normal;font-weight:800}.confSummaryRow strong{min-width:44px;text-align:right}.confSummaryRow strong.neg{color:var(--danger)}

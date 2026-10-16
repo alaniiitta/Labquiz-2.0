@@ -646,9 +646,12 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
 }
 
 
-// «¿Segura o dudando?»: se marca antes de responder (si no se toca, cuenta como segura)
+// «¿Dudas?»: solo se toca si no estás segura (si no se toca, cuenta como segura).
+// Tocar otra vez el botón marcado lo desmarca.
 function ConfidencePicker({value="s",onChange,locked=false}){
- return <div className={locked?"confRow locked":"confRow"} role="radiogroup" aria-label="¿Cómo de segura estás?"><span className="confLabel"><ShieldQuestion/> {locked?"Respondiste":"¿Segura?"}</span>{CONFIDENCE_LEVELS.map(level=><button key={level.id} type="button" role="radio" aria-checked={value===level.id} className={`conf-${level.id}${value===level.id?" on":""}`} disabled={locked&&value!==level.id} onClick={()=>!locked&&onChange?.(level.id)} title={level.hint}>{level.short}</button>)}</div>;
+ if(locked&&value==="s") return null;
+ const levels=CONFIDENCE_LEVELS.filter(level=>level.id!=="s");
+ return <div className={locked?"confRow locked":"confRow"} role="group" aria-label="¿Dudas con esta pregunta?"><span className="confLabel"><ShieldQuestion/> {locked?"Marcaste":"¿Dudas?"}</span>{levels.map(level=><button key={level.id} type="button" aria-pressed={value===level.id} className={value===level.id?"on":""} disabled={locked&&value!==level.id} onClick={()=>!locked&&onChange?.(value===level.id?"s":level.id)} title={level.hint}>{level.short}</button>)}</div>;
 }
 
 // Resultado de un test o simulacro según la seguridad con la que se respondió
