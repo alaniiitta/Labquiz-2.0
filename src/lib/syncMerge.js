@@ -5,7 +5,11 @@
 // - favorites: cada alta o baja lleva fecha (favoriteChanges); gana el cambio más reciente.
 // - notes: por pregunta gana la más reciente; un borrado (noteDeletions) gana si es posterior.
 // - examScopes (recortes del temario): por tema gana el cambio más reciente.
+// - confidence («¿segura o dudando?»): por pregunta gana la respuesta más reciente.
+// - planChecks (tareas del plan): por día y tarea gana la marca o desmarca más reciente.
 // - El tema claro/oscuro es de cada dispositivo y no se sincroniza.
+
+import { mergeConfidence } from "./confidence.js";
 
 const isObject = value => !!value && typeof value === "object" && !Array.isArray(value);
 
@@ -70,6 +74,20 @@ function mergeScopes(a, b) {
  return scopes;
 }
 
+// { "2026-10-16": { tarea: [hecha, fecha] } }
+function mergePlanChecks(a, b) {
+ const checks = { ...(isObject(a?.planChecks) ? a.planChecks : {}) };
+ Object.entries(isObject(b?.planChecks) ? b.planChecks : {}).forEach(([day, ids]) => {
+  if (!isObject(ids)) return;
+  const current = { ...(isObject(checks[day]) ? checks[day] : {}) };
+  Object.entries(ids).forEach(([task, change]) => {
+   if (Array.isArray(change) && (!Array.isArray(current[task]) || (Number(change[1]) || 0) > (Number(current[task][1]) || 0))) current[task] = change;
+  });
+  checks[day] = current;
+ });
+ return checks;
+}
+
 // Datos que viajan a la nube (sin preferencias propias del dispositivo).
 export function syncPayload(data) {
  const { theme, ...rest } = isObject(data) ? data : {};
@@ -88,6 +106,8 @@ export function mergeUserData(a, b) {
   ...mergeFavorites(left, right),
   ...mergeNotes(left, right),
   examScopes: mergeScopes(left, right),
+  confidence: mergeConfidence(isObject(left.confidence) ? left.confidence : {}, isObject(right.confidence) ? right.confidence : {}),
+  planChecks: mergePlanChecks(left, right),
  };
 }
 

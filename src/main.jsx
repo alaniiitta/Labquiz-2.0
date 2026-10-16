@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive,ScrollText,CalendarDays,Hash,ShieldQuestion,Check} from "lucide-react";
 import "./styles.css";
 import "./theme-day.css";
 import "./theme-night.css";
@@ -8,6 +8,7 @@ import "./theme-night.css";
 import questionBank,{duplicateAliases} from "./questions";
 import {examScopes,isInScope,isScopeOn} from "./questions/examScopes.js";
 import {isDisputedKey} from "./questions/disputedKeys.js";
+import {BREAK_EVEN,CONFIDENCE_LEVELS,confidenceAdvice,confidenceStats,expectedValue,recordConfidence} from "./lib/confidence.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
 import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
@@ -137,6 +138,9 @@ const selectSimulacrumQuestions=(count,progress)=>{
  for(let i=picked.length-1;i>0;i-=1){const j=Math.floor(Math.random()*(i+1));[picked[i],picked[j]]=[picked[j],picked[i]]}
  return picked;
 };
+// «Test de cifras y valores»: preguntas con al menos dos opciones numéricas (semanas, %, mg/dL…)
+const isNumberQuestion=question=>(question.answers??[]).filter(answer=>/\d/.test(answer)).length>=2;
+const getNumberQuestions=()=>getAllQuestions().filter(isNumberQuestion);
 const getFailedQuestions=progress=>getAllQuestions().filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)]));
 const getFavoriteQuestions=favorites=>getAllQuestions(true).filter(question=>favorites.includes(getQuestionIdForProgress(question)));
 const sameAnswerSet=(a=[],b=[])=>a.length===b.length&&[...a].sort().join("\u0000")===[...b].sort().join("\u0000");
@@ -172,7 +176,8 @@ const loadResumableExam=()=>{
  if(!questions) return null;
  const answers=Object.fromEntries(Object.entries(session.answers??{}).filter(([key,value])=>Number(key)<questions.length&&Number.isInteger(value)));
  const flags=(Array.isArray(session.flags)?session.flags:[]).filter(index=>Number.isInteger(index)&&index<questions.length);
- return {questions,answers,flags,index:Math.min(Math.max(0,Number(session.index)||0),questions.length-1),startedAt:session.startedAt,deadline:session.deadline};
+ const confidence=Object.fromEntries(Object.entries(session.confidence??{}).filter(([key,value])=>Number(key)<questions.length&&CONFIDENCE_LEVELS.some(level=>level.id===value)));
+ return {questions,answers,flags,confidence,index:Math.min(Math.max(0,Number(session.index)||0),questions.length-1),startedAt:session.startedAt,deadline:session.deadline};
 };
 const formatClock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),sec=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(sec).padStart(2,"0")}`};
 const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
@@ -196,6 +201,11 @@ function App(){
  const saveNote=(question,text)=>setUserData(data=>{const id=getQuestionIdForProgress(question);const notes={...(data.notes??{})};const noteDeletions={...(data.noteDeletions??{})};if(text.trim())notes[id]={text:text.trim(),updatedAt:Date.now()};else{delete notes[id];noteDeletions[id]=Date.now()}return {...data,notes,noteDeletions}});
  applyExamScopes(userData.examScopes);
  const setExamScope=(topicId,on)=>setUserData(data=>({...data,examScopes:{...(data.examScopes??{}),[topicId]:{on,at:Date.now()}}}));
+ // «¿segura o dudando?»: se guarda la última respuesta de cada pregunta con su seguridad
+ const saveConfidence=entries=>{if(!entries?.length)return;setUserData(data=>{let log=data.confidence??{};entries.forEach(([question,level,correct])=>{log=recordConfidence(log,getQuestionIdForProgress(question),level,correct)});return {...data,confidence:log}})};
+ // tareas del plan marcadas como hechas (por día) y los temas del día
+ const setPlanCheck=(day,task,value)=>setUserData(data=>{const checks={...(data.planChecks??{})};checks[day]={...(checks[day]??{}),[task]:[value,Date.now()]};return {...data,planChecks:checks}});
+ const togglePlanCheck=(day,task)=>setPlanCheck(day,task,!userData.planChecks?.[day]?.[task]?.[0]);
  const sync=useSync(userData,setUserData);
  const [saveFailed,setSaveFailed]=useState(false);
  useEffect(()=>setSaveFailed(!saveUserData(userData)),[userData]);
@@ -204,28 +214,29 @@ function App(){
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
   <button className="close" type="button" onClick={()=>setMobile(false)} aria-label="Cerrar menú"><X/></button>
     <nav className="nav">{[
-    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["wrong","Preguntas falladas",RotateCcw,"Falladas"],["notes","Aclaraciones",NotebookPen],["review","Repaso",Layers3],["progress","Progreso",BarChart3],["settings","Configuración",Settings,"Ajustes"]
+    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["wrong","Preguntas falladas",RotateCcw,"Falladas"],["cheatsheet","Chuleta de fallos",ScrollText,"Chuleta"],["notes","Aclaraciones",NotebookPen],["review","Repaso",Layers3],["progress","Progreso",BarChart3],["settings","Configuración",Settings,"Ajustes"]
    ].map(([id,label,Icon,short])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)} aria-label={label}><Icon/><span>{label}</span><small className="navShort" aria-hidden="true">{short??label}</small></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
   <main className={page==="test"||page==="exam"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" type="button" onClick={()=>setMobile(true)} aria-label="Abrir menú"><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
-  {page==="home"&&<HomePage go={go} openTest={openTest} progress={userData.progress}/>}
+  {page==="home"&&<HomePage go={go} openTest={openTest} openExam={openExam} progress={userData.progress} planChecks={userData.planChecks} onTogglePlan={togglePlanCheck} onSetPlanTopics={(day,ids)=>setPlanCheck(day,"topics",ids)}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote}/>}
-  {page==="review"&&<ReviewPage go={go} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
-  {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
+  {page==="review"&&<ReviewPage go={go} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
+  {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
+  {page==="cheatsheet"&&<CheatSheetPage progress={userData.progress} go={go} onStart={questionIds=>openTest(null,"cheat",questionIds)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
-  {page==="progress"&&<ProgressPage progress={userData.progress} onStart={topicId=>openTest(topicId)}/>}
+  {page==="progress"&&<ProgressPage progress={userData.progress} confidence={userData.confidence??{}} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
   {page==="settings"&&<SettingsPage onExamScope={setExamScope} sync={sync} userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
   </main>
  </div>
 }
-const pageTitle=p=>({summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
+const pageTitle=p=>({cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
 
 function ExamCountdown({go}){
  const [now,setNow]=useState(()=>new Date());
@@ -243,7 +254,7 @@ function ExamCountdown({go}){
  </section>
 }
 
-function HomePage({go,openTest,progress}){
+function HomePage({go,openTest,openExam,progress,planChecks,onTogglePlan,onSetPlanTopics}){
  const availableTopics=topics.filter(topic=>getQuestionBank(topic.id).length);
  const totalQuestions=topics.reduce((total,topic)=>total+getQuestionBank(topic.id).length,0);
  const progressByTopic=availableTopics.map(topic=>{const questions=getQuestionBank(topic.id);return {...getTopicProgress(questions,progress,topic.id),total:questions.length}});
@@ -253,6 +264,7 @@ function HomePage({go,openTest,progress}){
  const featuredTopics=availableTopics.slice(0,6);
  return <div className="homeDashboard">
   <ExamCountdown go={go}/>
+  <StudyPlan progress={progress} planChecks={planChecks} onToggle={onTogglePlan} onSetTopics={onSetPlanTopics} openTest={openTest} openExam={openExam} go={go}/>
   <section className="homeStart">
    <div><span className="eyebrow">SESIÓN DE ESTUDIO</span><h2>¿Qué quieres practicar hoy?</h2><p>Elige un tema y empieza un test con su banco de preguntas.</p></div>
     <button className="homePrimaryAction" onClick={()=>openTest(null)}><span><Brain/></span><div><b>Test por temas</b><small>{availableTopics.length} temas disponibles</small></div><ChevronRight/></button>
@@ -261,6 +273,7 @@ function HomePage({go,openTest,progress}){
    <div className="homeSectionTitle"><div><span className="eyebrow">ACCESOS DIRECTOS</span><h3 id="quick-access-title">Tu estudio, a un toque</h3></div></div>
    <div className="homeQuickGrid">
     <button className="homeQuickAction failed" onClick={()=>go("wrong")}><span className="homeQuickIcon"><RotateCcw/></span><div><b>Preguntas falladas</b><small>Vuelve sobre tus errores</small></div><ChevronRight/></button>
+    <button className="homeQuickAction cheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Las claves de lo que se te escapa</small></div><ChevronRight/></button>
     <button className="homeQuickAction favorite" onClick={()=>go("favorites")}><span className="homeQuickIcon"><Star/></span><div><b>Preguntas favoritas</b><small>Practica las que guardes</small></div><ChevronRight/></button>
     <button className="homeQuickAction progress" onClick={()=>go("progress")}><span className="homeQuickIcon"><BarChart3/></span><div><b>Ver mi progreso</b><small>Consulta tu evolución</small></div><ChevronRight/></button>
    </div>
@@ -372,19 +385,23 @@ function TopicActions({go,onStartTest}){return <aside className="topicActions"><
 const crossTopicCopy={
  failed:{backPage:"wrong",backLabel:"Volver a preguntas falladas",emptyTitle:"No tienes preguntas falladas",emptyText:"Las preguntas que falles aparecerán aquí para volver a practicarlas.",restartLabel:"Volver a falladas"},
  notes:{backPage:"notes",backLabel:"Volver a aclaraciones",emptyTitle:"No tienes aclaraciones",emptyText:"Guarda una aclaración después de responder una pregunta y aparecerá aquí.",restartLabel:"Volver a aclaraciones"},
- mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"}
+ mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"},
+ numbers:{backPage:"review",backLabel:"Volver a Repaso",emptyTitle:"No hay preguntas de cifras",emptyText:"No se han encontrado preguntas con valores numéricos en los temas activos.",restartLabel:"Otro test de cifras"},
+ cheat:{backPage:"cheatsheet",backLabel:"Volver a la chuleta",emptyTitle:"No hay preguntas en la chuleta",emptyText:"Las preguntas que falles aparecerán en la chuleta.",restartLabel:"Volver a la chuleta"}
 };
+const crossTopicTitle={failed:"Preguntas falladas",notes:"Mis aclaraciones",numbers:"Cifras y valores",cheat:"Chuleta de fallos"};
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote,onConfidence}){
  const [mode,setMode]=useState(initialMode);
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [savedTest,setSavedTest]=useState(()=>initialMode==="topic"&&!initialTopicId?loadResumableTest():null);
  const [questionCount,setQuestionCount]=useState(20);
  const [onlyHard,setOnlyHard]=useState(false);
- const isCrossTopic=mode==="failed"||mode==="mixed"||mode==="notes";
+ const isCrossTopic=mode in crossTopicCopy;
  const [testQuestions,setTestQuestions]=useState(()=>{
   if(initialMode==="failed"){const failedQuestions=getFailedQuestions(questionProgress);const selectedFailedQuestions=initialQuestionIds?.length?failedQuestions.filter(question=>initialQuestionIds.includes(getQuestionIdForProgress(question))):failedQuestions;return selectSmartQuestions(selectedFailedQuestions,questionProgress,selectedFailedQuestions.length).map(question=>shuffleQuestionOptions(question));}
-  if(initialMode==="notes"){const ids=new Set(initialQuestionIds??[]);const pool=getAllQuestions(true).filter(question=>ids.has(getQuestionIdForProgress(question)));return selectSmartQuestions(pool,questionProgress,pool.length).map(question=>shuffleQuestionOptions(question));}
+  if(initialMode==="numbers"){const pool=getNumberQuestions();return selectSmartQuestions(pool,questionProgress,Math.min(initialQuestionCount??20,pool.length)).map(question=>shuffleQuestionOptions(question));}
+  if(initialMode==="notes"||initialMode==="cheat"){const ids=new Set(initialQuestionIds??[]);const pool=getAllQuestions(true).filter(question=>ids.has(getQuestionIdForProgress(question)));return selectSmartQuestions(pool,questionProgress,pool.length).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="mixed") return ((initialQuestionCount??20)>=SIMULACRUM_MIN?selectSimulacrumQuestions(initialQuestionCount,questionProgress):selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20)).map(question=>shuffleQuestionOptions(question));
   if(!initialTopicId) return [];
   let pool=getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId}));
@@ -395,8 +412,10 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const [i,setI]=useState(0);
  const [answersByIndex,setAnswersByIndex]=useState({});
  const [done,setDone]=useState(false);
+ // «¿segura o dudando?» de cada pregunta (si no se toca, cuenta como segura)
+ const [confByIndex,setConfByIndex]=useState({});
 
- const currentTopic=mode==="failed"?{id:0,title:"Preguntas falladas"}:mode==="notes"?{id:0,title:"Mis aclaraciones"}:mode==="mixed"?{id:0,title:label?.startsWith("Simulacro")?"Simulacro de examen":"Repaso general"}:selectedTopicId ? topics.find(t=>t.id===selectedTopicId) : null;
+ const currentTopic=crossTopicTitle[mode]?{id:0,title:crossTopicTitle[mode]}:mode==="mixed"?{id:0,title:label?.startsWith("Simulacro")?"Simulacro de examen":"Repaso general"}:selectedTopicId ? topics.find(t=>t.id===selectedTopicId) : null;
  const totalQuestions=testQuestions.length;
  const q=testQuestions[i] ?? null;
  const selectedAnswer=answersByIndex[i] ?? null;
@@ -415,6 +434,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   setTestQuestions(selectSmartQuestions(questions,questionProgress,questionCount).map(question=>shuffleQuestionOptions(question)));
   setI(0);
   setAnswersByIndex({});
+  setConfByIndex({});
   setDone(false);
  };
 
@@ -448,12 +468,13 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const discardSavedTest=()=>{clearTestSession();setSavedTest(null)};
 
  // vuelve a empezar con estas preguntas, en otro orden y con las opciones barajadas de nuevo
- const restartWith=questions=>{setTestQuestions(shuffledCopy(questions).map(question=>shuffleQuestionOptions(question)));setI(0);setAnswersByIndex({});setDone(false);window.scrollTo(0,0);};
+ const restartWith=questions=>{setTestQuestions(shuffledCopy(questions).map(question=>shuffleQuestionOptions(question)));setI(0);setAnswersByIndex({});setConfByIndex({});setDone(false);window.scrollTo(0,0);};
 
  const handleAnswer=(answerIndex)=>{
   if(!q || showResult) return;
   setAnswersByIndex(answers=>({...answers,[i]:answerIndex}));
   onProgressChange?.(recordQuestionAnswer(q,questionProgress,answerIndex===q.correctAnswer,Date.now(),answerIndex));
+  onConfidence?.([[q,confByIndex[i]??"s",answerIndex===q.correctAnswer]]);
  };
 
  const handleNext=()=>{
@@ -468,7 +489,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const handlePrevious=()=>setI(index=>Math.max(0,index-1));
 
  if(!isCrossTopic&&!selectedTopicId){
-   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{savedTest.mode==="failed"?"Preguntas falladas":savedTest.mode==="notes"?"Mis aclaraciones":savedTest.mode==="mixed"?"Repaso general":`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
+   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{crossTopicTitle[savedTest.mode]??(savedTest.mode==="mixed"?"Repaso general":null)??`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
  }
 
 
@@ -479,6 +500,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  if(done){
   const failedQuestions=testQuestions.filter((question,index)=>Object.prototype.hasOwnProperty.call(answersByIndex,index)&&answersByIndex[index]!==question.correctAnswer);
   return <div className="result card"><div className="resultIcon">🏆</div><h2>Sesión terminada</h2><strong>{score}/{totalQuestions}</strong><p className="resultPct">{Math.round(score/totalQuestions*100)} % de aciertos</p><p>{label?.startsWith("Simulacro")?"Has terminado el simulacro de examen.":"Has completado una selección inteligente de este banco."}</p>
+   <ConfidenceSummary questions={testQuestions} answers={answersByIndex} confidence={confByIndex}/>
    <div className="resultActions">
     {returnTo&&<button className="primary" onClick={()=>onReturn?.(returnTo)}><BookOpen/> Volver al apartado «{returnTo.title}»</button>}
     <button className={returnTo?"secondary":"primary"} onClick={()=>restartWith(testQuestions)}><RotateCcw/> Repetir el mismo test</button>
@@ -489,11 +511,11 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   </div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId??currentTopic?.id)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId??currentTopic?.id)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/><AskClaudeButton key={i} question={q} topicId={questionTopicId} selected={selectedAnswer}/>{questionTopicId&&<NoteEditor key={`note-${i}`} question={{...q,topicId:questionTopicId}} note={notes[getQuestionIdForProgress({...q,topicId:questionTopicId})]} onSave={onSaveNote}/>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>returnTo?onReturn?.(returnTo):isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{returnTo?"Volver al resumen":isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{i+1} / {totalQuestions}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><ConfidencePicker value={confByIndex[i]??"s"} onChange={level=>setConfByIndex(current=>({...current,[i]:level}))} locked={showResult}/><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId??currentTopic?.id)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId??currentTopic?.id)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/><AskClaudeButton key={i} question={q} topicId={questionTopicId} selected={selectedAnswer}/>{questionTopicId&&<NoteEditor key={`note-${i}`} question={{...q,topicId:questionTopicId}} note={notes[getQuestionIdForProgress({...q,topicId:questionTopicId})]} onSave={onSaveNote}/>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div><button className="changeTopicButton" onClick={()=>returnTo?onReturn?.(returnTo):isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{returnTo?"Volver al resumen":isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button></div></div>;
 }
 
 // Simulacro en modo examen real: sin soluciones hasta entregar, con reloj y penalización por fallo.
-function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,questionProgress={},onProgressChange,favorites=[],onToggleFavorite,notes={},onSaveNote}){
+function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,questionProgress={},onProgressChange,favorites=[],onToggleFavorite,notes={},onSaveNote,onConfidence}){
  const [exam]=useState(()=>{
   const saved=resume?loadResumableExam():null;
   if(saved) return saved;
@@ -506,6 +528,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
  const total=questions.length;
  const [answers,setAnswers]=useState(exam.answers);
  const [flags,setFlags]=useState(exam.flags);
+ const [confidence,setConfidence]=useState(exam.confidence??{});
  const [i,setI]=useState(exam.index);
  const [phase,setPhase]=useState("exam");
  const [now,setNow]=useState(Date.now());
@@ -524,6 +547,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
   let progress=questionProgress;
   questions.forEach((question,index)=>{if(Object.prototype.hasOwnProperty.call(answers,index))progress=recordQuestionAnswer(question,progress,answers[index]===question.correctAnswer,endedAt,answers[index])});
   onProgressChange?.(progress);
+  onConfidence?.(questions.flatMap((question,index)=>Object.prototype.hasOwnProperty.call(answers,index)?[[question,confidence[index]??"s",answers[index]===question.correctAnswer]]:[]));
   clearExamSession();
   setFinish({auto,endedAt});
   setConfirming(false);setShowGrid(false);
@@ -533,7 +557,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
 
  useEffect(()=>{if(phase!=="exam")return;const timer=setInterval(()=>setNow(Date.now()),1000);return()=>clearInterval(timer)},[phase]);
  useEffect(()=>{if(phase==="exam"&&remaining<=0)submit(true)},[phase,remaining]);
- useEffect(()=>{if(phase==="exam"&&!finishedRef.current)saveExamSession({questions:questions.map(({id,number,topicId,question,answers})=>({id,number,topicId,question,answers})),answers,flags,index:i,startedAt,deadline,savedAt:Date.now()})},[phase,answers,flags,i]);
+ useEffect(()=>{if(phase==="exam"&&!finishedRef.current)saveExamSession({questions:questions.map(({id,number,topicId,question,answers})=>({id,number,topicId,question,answers})),answers,flags,confidence,index:i,startedAt,deadline,savedAt:Date.now()})},[phase,answers,flags,confidence,i]);
 
  const results=useMemo(()=>{
   let correct=0,wrong=0;
@@ -573,6 +597,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
    </div>
    <p className="examFormula">Aciertos − fallos ÷ 4 · tiempo usado {formatClock(used)} de 1:30:00</p>
    <div className="examLevels"><span className="reviewSetupLabel">Por dificultad</span>{results.levels.map(level=><div key={level.id} className="examLevelRow"><DifficultyMeter difficulty={{id:level.id,label:{easy:"Fáciles",medium:"Medias",hard:"Difíciles"}[level.id],bars:{easy:1,medium:2,hard:3}[level.id]}}/><small>{level.correct}✓ {level.wrong}✗ {level.total-level.correct-level.wrong}○ de {level.total}</small><b>{formatScore(level.correct-level.wrong*EXAM_PENALTY)}</b></div>)}{(()=>{const hard=results.levels.find(level=>level.id==="hard");return hard&&hard.wrong*EXAM_PENALTY>hard.correct*0.5?<p className="examTip">Pierdes muchos puntos en las difíciles: si dudas entre varias opciones, mejor dejarla en blanco.</p>:null})()}</div>
+   <ConfidenceSummary questions={questions} answers={answers} confidence={confidence} exam/>
    <div className="examTopics"><span className="reviewSetupLabel">Por temas (de peor a mejor)</span>{results.topics.map(entry=><div key={entry.topicId} className="examTopicRow"><span>T{String(entry.topicId).padStart(2,"0")}</span><em>{topics.find(topic=>topic.id===entry.topicId)?.title}</em><small>{entry.correct}✓ {entry.wrong}✗ {entry.total-entry.correct-entry.wrong}○</small><i><b style={{width:`${Math.max(0,entry.net)/entry.total*100}%`}}/></i></div>)}</div>
    <div className="resultActions">
     <button className="primary" onClick={()=>{setPhase("review");goTo(0)}}>Revisar el examen</button>
@@ -599,6 +624,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
   <div className="testCard">
    <div className="qTags"><span className="badge">Tema {String(q.topicId).padStart(2,"0")}</span><DifficultyMeter difficulty={getQuestionDifficulty(q,questionProgress)}/></div>
    <h2>{i+1}. {q.question}</h2>
+   <ConfidencePicker value={confidence[i]??"s"} onChange={level=>setConfidence(current=>({...current,[i]:level}))} locked={reviewing}/>
    <div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":"Si no la sabes, déjala en blanco: no resta."}</p>}
    {reviewing&&<div className="testFeedback"><ExplanationDisplay structured={explainQuestion(q,q.topicId)} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={hasAnswer?selected===q.correctAnswer:null}/><AskClaudeButton key={i} question={q} topicId={q.topicId} selected={hasAnswer?selected:null}/><NoteEditor key={`note-${i}`} question={q} note={notes[linkedId]} onSave={onSaveNote}/></div>}
@@ -620,7 +646,122 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
 }
 
 
-function ReviewPage({go,onStart,onResumeExam}){
+// «¿Segura o dudando?»: se marca antes de responder (si no se toca, cuenta como segura)
+function ConfidencePicker({value="s",onChange,locked=false}){
+ return <div className={locked?"confRow locked":"confRow"} role="radiogroup" aria-label="¿Cómo de segura estás?"><span className="confLabel"><ShieldQuestion/> {locked?"Respondiste":"¿Segura?"}</span>{CONFIDENCE_LEVELS.map(level=><button key={level.id} type="button" role="radio" aria-checked={value===level.id} className={`conf-${level.id}${value===level.id?" on":""}`} disabled={locked&&value!==level.id} onClick={()=>!locked&&onChange?.(level.id)} title={level.hint}>{level.short}</button>)}</div>;
+}
+
+// Resultado de un test o simulacro según la seguridad con la que se respondió
+function ConfidenceSummary({questions,answers,confidence,exam=false}){
+ const rows=CONFIDENCE_LEVELS.map(level=>{let correct=0,wrong=0;questions.forEach((question,index)=>{if(!Object.prototype.hasOwnProperty.call(answers,index)||(confidence[index]??"s")!==level.id)return;if(answers[index]===question.correctAnswer)correct++;else wrong++});return {...level,correct,wrong,net:correct-wrong*EXAM_PENALTY}}).filter(row=>row.correct+row.wrong);
+ if(!rows.length||(rows.length===1&&rows[0].id==="s")) return null;
+ const blind=rows.find(row=>row.id==="c");
+ return <div className="confSummary"><span className="reviewSetupLabel">Según tu seguridad</span>{rows.map(row=><div key={row.id} className={`confSummaryRow conf-${row.id}`}><b>{row.label}</b><small>{row.correct}✓ {row.wrong}✗</small><em>{Math.round(row.correct/(row.correct+row.wrong)*100)} %</em>{exam&&<strong className={row.net<0?"neg":""}>{row.net>0?"+":""}{formatScore(row.net)}</strong>}</div>)}
+  {exam&&blind&&<p className="examTip">{blind.net<0?<>Las que contestaste <b>a ciegas</b> te restaron {formatScore(-blind.net)} puntos: en blanco habrías sacado más nota.</>:<>Las que contestaste <b>a ciegas</b> te sumaron {formatScore(blind.net)} puntos: arriesgar te salió bien.</>}</p>}
+ </div>;
+}
+
+// ¿Arriesgar o dejar en blanco? Se calcula con todas tus respuestas marcadas
+function ConfidenceCard({log}){
+ const stats=confidenceStats(log);
+ const total=stats.reduce((sum,entry)=>sum+entry.total,0);
+ return <section className="confCard card" aria-labelledby="conf-title">
+  <div className="progressSectionTitle"><div><span className="eyebrow">ESTRATEGIA DE EXAMEN</span><h2 id="conf-title">¿Arriesgar o dejar en blanco?</h2></div><small>{total} respuestas marcadas</small></div>
+  <p className="confIntro">Con 4 opciones y cada 4 fallos restando 1, contestar compensa si aciertas más del {Math.round(BREAK_EVEN*100)} %. Antes de responder, marca si estás <b>segura</b>, <b>dudas entre 2</b> o vas <b>a ciegas</b>, y aquí verás qué te conviene.</p>
+  <div className="confStats">{stats.map(entry=>{const advice=confidenceAdvice(entry);return <div key={entry.id} className={`confStat conf-${entry.id}`}><div><b>{entry.label}</b><small>{entry.total?`${entry.correct} de ${entry.total} acertadas`:"Sin respuestas todavía"}</small></div><strong>{entry.rate==null?"—":`${Math.round(entry.rate*100)} %`}</strong><span className={`confAdvice ${advice.tone}`}>{advice.text}</span>{entry.ev!=null&&entry.total>=5&&<small className="confEv">{entry.ev>=0?"+":"−"}{Math.abs(entry.ev*100).toFixed(0)} puntos por cada 100 que contestes así</small>}</div>})}</div>
+ </section>;
+}
+
+// Chuleta: las claves de las preguntas que has fallado, para repasarlas en pocos minutos
+function CheatSheetPage({progress,go,onStart}){
+ const [scope,setScope]=useState("pending");
+ const [topicFilter,setTopicFilter]=useState("all");
+ const [hidden,setHidden]=useState(false);
+ const [revealed,setRevealed]=useState(()=>new Set());
+ const [limit,setLimit]=useState(40);
+ const items=useMemo(()=>getAllQuestions().map(question=>({question,id:getQuestionIdForProgress(question),state:progress[getQuestionIdForProgress(question)]})).filter(({state})=>(state?.vecesFallada??0)>0&&(scope==="all"||isQuestionCurrentlyFailed(state))).sort((a,b)=>(b.state.vecesFallada-a.state.vecesFallada)||((b.state.ultimaVezVista??0)-(a.state.ultimaVezVista??0))),[progress,scope,activeScopeKey]);
+ const topicIds=[...new Set(items.map(item=>item.question.topicId))].sort((a,b)=>a-b);
+ const shown=items.filter(item=>topicFilter==="all"||item.question.topicId===Number(topicFilter));
+ const toggle=id=>setRevealed(current=>{const next=new Set(current);next.has(id)?next.delete(id):next.add(id);return next});
+ return <div className="cheatPage">
+  <div className="reviewHero"><h2>Lo que se te escapa</h2><p>Cada pregunta que has fallado, con su respuesta y la clave para recordarla. Las que más veces fallas salen primero. Con «Modo tarjeta» se tapan las respuestas para ponerte a prueba.</p></div>
+  <div className="cheatTools">
+   <div className="choiceRow"><button className={scope==="pending"?"selected":""} onClick={()=>{setScope("pending");setLimit(40)}}>Pendientes</button><button className={scope==="all"?"selected":""} onClick={()=>{setScope("all");setLimit(40)}}>Todas las falladas alguna vez</button></div>
+   <div className="cheatRow2"><select value={topicFilter} onChange={e=>{setTopicFilter(e.target.value);setLimit(40)}} aria-label="Filtrar por tema"><option value="all">Todos los temas ({items.length})</option>{topicIds.map(id=><option key={id} value={id}>Tema {String(id).padStart(2,"0")} · {topics.find(t=>t.id===id)?.title} ({items.filter(item=>item.question.topicId===id).length})</option>)}</select>
+   <button type="button" className={hidden?"secondary cheatHide on":"secondary cheatHide"} onClick={()=>{setHidden(value=>!value);setRevealed(new Set())}}>{hidden?<Eye/>:<EyeOff/>}{hidden?"Mostrar respuestas":"Modo tarjeta"}</button></div>
+  </div>
+  {!shown.length?<div className="reviewHero"><p>{scope==="pending"?"No tienes fallos pendientes. Prueba con «Todas las falladas alguna vez».":"Aún no has fallado ninguna pregunta en estos temas."}</p><button className="primary" onClick={()=>go("test")}>Hacer un test</button></div>:<>
+  <div className="cheatList">{shown.slice(0,limit).map(({question,id,state})=>{const explanation=explainQuestion(question,question.topicId);const open=!hidden||revealed.has(id);return <article key={id} className={open?"cheatCard":"cheatCard closed"} onClick={()=>hidden&&toggle(id)}>
+   <div className="wrongQuestionMeta"><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><span>{state.vecesFallada} {state.vecesFallada===1?"fallo":"fallos"}</span></div>
+   <h3>{question.question}</h3>
+   {open?<><p className="cheatAnswer"><Check/> {question.answers[question.correctAnswer]}</p>{explanation?.claveMemorizar&&<p className="cheatKey">⭐ {explanation.claveMemorizar}</p>}</>:<p className="cheatTap">Toca para ver la respuesta</p>}
+  </article>})}</div>
+  {shown.length>limit&&<button className="secondary cheatMore" onClick={()=>setLimit(value=>value+40)}>Ver más ({shown.length-limit} restantes)</button>}
+  <button className="primary cheatPractice" onClick={()=>onStart(shown.slice(0,Math.max(limit,20)).map(item=>item.id))}><Play/> Hacer test con estas {Math.min(shown.length,Math.max(limit,20))}</button></>}
+ </div>;
+}
+
+// Plan hasta el examen: lo que toca hoy según los días que quedan y cómo vas
+const dayKey=date=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`;
+const SIMULACRUM_DAYS=[21,17,14,10,7,4];
+function StudyPlan({progress,planChecks={},onToggle,onSetTopics,openTest,openExam,go}){
+ const today=new Date();today.setHours(0,0,0,0);
+ const examDay=new Date(EXAM_DATE);examDay.setHours(0,0,0,0);
+ const daysLeft=Math.round((examDay-today)/86400000);
+ const key=dayKey(today);
+ const checks=planChecks[key]??{};
+ const all=getAllQuestions();
+ const unseen=all.filter(question=>!((progress[getQuestionIdForProgress(question)]?.vecesVista??0)>0)).length;
+ const failed=getFailedQuestions(progress).length;
+ const answeredToday=Object.values(progress).filter(state=>(state?.ultimaVezVista??0)>=today.getTime()).length;
+ const finalDays=daysLeft<=2;
+ const newPerDay=finalDays?0:Math.ceil(unseen/Math.max(1,daysLeft-2));
+ const dailyTarget=finalDays?Math.max(20,Math.min(failed,80)):Math.min(300,Math.max(60,newPerDay+Math.min(failed,40)));
+ // los 2 temas más flojos se eligen una vez al día (y se guardan para que no cambien al practicarlos)
+ const storedTopics=Array.isArray(checks.topics?.[0])?checks.topics[0]:null;
+ // uno ya empezado en el que vas peor y otro con mucho por ver
+ const weakTopics=useMemo(()=>{if(storedTopics)return storedTopics;
+  const list=topics.map(topic=>{const questions=getQuestionBank(topic.id);return {id:topic.id,total:questions.length,...getTopicProgress(questions,progress,topic.id)}}).filter(topic=>topic.total);
+  const weakest=list.filter(topic=>topic.answered>=10).sort((a,b)=>a.mastery-b.mastery)[0];
+  const leastSeen=list.filter(topic=>topic.id!==weakest?.id).sort((a,b)=>(a.answered/a.total)-(b.answered/b.total)||b.total-a.total)[0];
+  return [weakest,leastSeen].filter(Boolean).map(topic=>topic.id);
+ },[key,storedTopics?.join(",")]);
+ useEffect(()=>{if(!storedTopics&&weakTopics.length&&daysLeft>=0)onSetTopics?.(key,weakTopics)},[key,storedTopics?.join(","),weakTopics.join(",")]);
+ if(daysLeft<0) return null;
+ const nextSim=SIMULACRUM_DAYS.find(day=>day<daysLeft);
+ const tasks=[];
+ if(daysLeft===0) tasks.push({id:"cheat",icon:ScrollText,title:"Un último vistazo a la chuleta",detail:"Solo las claves, sin agobios. ¡Mucha suerte!",action:()=>go("cheatsheet")});
+ else{
+  if(SIMULACRUM_DAYS.includes(daysLeft)) tasks.push({id:"sim",icon:Trophy,title:"Simulacro de 100 · 1 h 30 min",detail:"En condiciones de examen. Marca tu seguridad en cada pregunta.",action:()=>openExam(false)});
+  if(!finalDays) weakTopics.forEach(topicId=>{const topic=topics.find(t=>t.id===topicId);const questions=getQuestionBank(topicId);const {mastery}=getTopicProgress(questions,progress,topicId);const {answered}=getTopicProgress(questions,progress,topicId);const seen=Math.round(answered/questions.length*100);tasks.push({id:`topic-${topicId}`,icon:Brain,title:`Test del tema ${String(topicId).padStart(2,"0")} · ${topic?.title}`,detail:answered>=10&&seen>=15?`Es donde vas peor: dominio ${mastery} %`:`Te queda mucho por ver: llevas el ${seen} % de sus preguntas`,action:()=>openTest(topicId)})});
+  if(failed) tasks.push({id:"failed",icon:RotateCcw,title:"Repasa tus falladas",detail:`${failed} pendientes${finalDays?" · hoy, todas":""}`,action:()=>openTest(null,"failed")});
+  if(!finalDays&&daysLeft%2===0) tasks.push({id:"numbers",icon:Hash,title:"Test de cifras y valores",detail:"20 preguntas con números: valores, semanas, porcentajes",action:()=>openTest(null,"numbers",null,20)});
+  tasks.push({id:"cheat",icon:ScrollText,title:"Chuleta de fallos",detail:finalDays?"Repásala entera, sin preguntas nuevas":"10 minutos en un rato muerto",action:()=>go("cheatsheet")});
+ }
+ const doneCount=tasks.filter(task=>checks[task.id]?.[0]).length;
+ const phase=daysLeft===0?"Día del examen":finalDays?"Fase final: solo repaso":daysLeft<=14?"Fase 2: afianzar y simulacros":"Fase 1: completar el temario";
+ const pct=Math.min(100,Math.round(answeredToday/dailyTarget*100));
+ return <section className="studyPlan card" aria-labelledby="plan-title">
+  <div className="planHead"><span className="planIcon"><CalendarDays/></span><div><span className="eyebrow">PLAN HASTA EL EXAMEN · {daysLeft===0?"HOY":`QUEDAN ${daysLeft} ${daysLeft===1?"DÍA":"DÍAS"}`}</span><h3 id="plan-title">{phase}</h3></div><b className="planDone">{doneCount}/{tasks.length}</b></div>
+  {daysLeft>0&&<div className="planGoal"><div><span>Preguntas de hoy</span><b>{answeredToday} de {dailyTarget}</b></div><i><em style={{width:`${pct}%`}}/></i><small>{finalDays?"Estos días, nada nuevo: falladas y chuleta.":`${unseen.toLocaleString("es-ES")} preguntas sin ver · unas ${newPerDay} nuevas al día para verlas todas antes del repaso final.`}{nextSim&&!SIMULACRUM_DAYS.includes(daysLeft)?` Próximo simulacro: dentro de ${daysLeft-nextSim} ${daysLeft-nextSim===1?"día":"días"}.`:""}</small></div>}
+  <ul className="planTasks">{tasks.map(task=>{const Icon=task.icon;const done=!!checks[task.id]?.[0];return <li key={task.id} className={done?"done":""}><button type="button" className="planCheck" role="checkbox" aria-checked={done} aria-label={`Marcar «${task.title}» como hecha`} onClick={()=>onToggle?.(key,task.id)}>{done&&<Check/>}</button><button type="button" className="planTask" onClick={task.action}><Icon/><div><b>{task.title}</b><small>{task.detail}</small></div><ChevronRight/></button></li>})}</ul>
+ </section>;
+}
+
+// Test de cifras y valores: solo preguntas con números en las opciones
+function NumbersCard({onStart}){
+ const [count,setCount]=useState(20);
+ const available=useMemo(()=>getNumberQuestions().length,[activeScopeKey]);
+ if(!available) return null;
+ return <div className="reviewSetup numbersCard">
+  <span className="reviewSetupLabel"><Hash/> Test de cifras y valores</span>
+  <p className="examNote">Solo preguntas con números en las respuestas: valores de referencia, semanas, porcentajes, temperaturas, tiempos… Hay {available.toLocaleString("es-ES")} en los temas que entran.</p>
+  <div className="reviewCountRow">{[10,20,30,50].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>setCount(value)}>{value}</button>)}</div>
+  <button className="primary" type="button" onClick={()=>onStart?.(count)}>Empezar test de cifras</button>
+ </div>;
+}
+
+function ReviewPage({go,onStart,onResumeExam,onNumbers}){
  const [count,setCount]=useState(20);
  const [savedExam,setSavedExam]=useState(()=>loadResumableExam());
  const totalAvailable=useMemo(()=>getAllQuestions().length,[activeScopeKey]);
@@ -637,6 +778,8 @@ function ReviewPage({go,onStart,onResumeExam}){
    {isExam&&<p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno en el banco.{count===EXAM_COUNT?<> <b>Modo examen real:</b> 1 h 30 min, sin soluciones hasta entregar y cada 4 fallos restan 1 acierto (las en blanco no restan).</>:" Verás la solución de cada pregunta al responderla."}</p>}
    <button className="primary" type="button" onClick={()=>onStart(count)}>{count===EXAM_COUNT?"Empezar examen de 100 · 1 h 30 min":isExam?`Empezar simulacro de ${count}`:"Empezar repaso aleatorio"}</button>
   </div>
+  <NumbersCard onStart={onNumbers}/>
+  <button type="button" className="homeQuickAction cheat reviewCheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Repasa en pocos minutos las claves de lo que has fallado</small></div><ChevronRight/></button>
  </div>;
 }
 
@@ -716,7 +859,7 @@ function NotesPage({notes,onSaveNote,onStart,go}){
 
 function FavoritesPage({favorites,onToggleFavorite,go}){const questions=getFavoriteQuestions(favorites);if(!questions.length)return <div><div className="reviewHero"><Star/><h2>Tus preguntas favoritas</h2><p>Las preguntas que marques como favoritas aparecerán aquí.</p><button className="primary" onClick={()=>go("test")}>Explorar preguntas</button></div></div>;return <div className="favoritesPage"><div className="pageIntro"><div><span className="eyebrow">GUARDADAS</span><h2>Tus preguntas favoritas</h2><p>{questions.length} {questions.length===1?"pregunta guardada":"preguntas guardadas"}</p></div></div><div className="favoriteQuestionList">{questions.map(question=><article className="favoriteQuestion" key={getQuestionIdForProgress(question)}><div><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><h3>{question.question}</h3></div><button className="favoriteRemove" onClick={()=>onToggleFavorite(question)} title="Quitar de favoritos"><Star fill="currentColor"/></button></article>)}</div></div>}
 
-function ProgressPage({progress,onStart}){
+function ProgressPage({progress,confidence={},onStart}){
  const topicProgress=topics.map(topic=>{const questions=getQuestionBank(topic.id);return {...topic,total:questions.length,...getTopicProgress(questions,progress,topic.id)}});
  const available=topicProgress.filter(topic=>topic.total>0);
  const totalQuestions=available.reduce((total,topic)=>total+topic.total,0);
@@ -727,6 +870,7 @@ function ProgressPage({progress,onStart}){
  const accuracy=attempts?Math.round(correct/attempts*100):0;
  return <div className="progressPage">
   <section className="progressOverview"><div><span className="eyebrow">DOMINIO GLOBAL</span><strong>{globalMastery}%</strong><p>Tu dominio aumenta al consolidar preguntas de cada tema.</p></div><div className="progressSummary"><div><b>{answered.toLocaleString("es-ES")}</b><small>Preguntas practicadas</small></div><div><b>{accuracy}%</b><small>Aciertos totales</small></div><div><b>{available.filter(topic=>topic.answered>0).length}</b><small>Temas iniciados</small></div></div></section>
+  <ConfidenceCard log={confidence}/>
   <section className="progressTopics" aria-labelledby="topic-progress-title"><div className="progressSectionTitle"><div><span className="eyebrow">POR TEMA</span><h2 id="topic-progress-title">Tu avance</h2></div><small>{answered} de {totalQuestions.toLocaleString("es-ES")} preguntas practicadas</small></div><div className="progressTopicList">{topicProgress.map(topic=><article className="progressTopic" key={topic.id}><span className="progressTopicNumber">{String(topic.id).padStart(2,"0")}</span><div className="progressTopicBody"><div className="progressTopicHeading"><div><h3>{topic.title}</h3><small>{topic.total?`${topic.answered} de ${topic.total.toLocaleString("es-ES")} preguntas · ${topic.attempts?Math.round(topic.correct/topic.attempts*100):0}% aciertos`:"Banco pendiente"}</small></div><strong>{topic.mastery}%</strong></div><div className="progressTrack" role="progressbar" aria-label={`Dominio de ${topic.title}`} aria-valuemin="0" aria-valuemax="100" aria-valuenow={topic.mastery}><i style={{width:`${topic.mastery}%`}}/></div></div>{topic.total>0&&<button className="progressPractice" onClick={()=>onStart(topic.id)} title={`Practicar ${topic.title}`}><ChevronRight/></button>}</article>)}</div></section>
  </div>
 }
