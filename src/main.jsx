@@ -193,7 +193,8 @@ function App(){
  // abre el resumen de un tema colocado en un apartado concreto
  const openSummaryAt=(topicId,sectionId=null)=>{setSelected(topics.find(t=>t.id===topicId));setFocusSection(sectionId);show("topic")};
  // ir a "test" sin configuración abre siempre el selector de temas, no el último test
- const go=p=>p==="test"?openTest(null):show(p);
+ // «Progreso» ahora está dentro de la página de Test
+ const go=p=>p==="test"||p==="progress"?openTest(null):show(p);
  // cada alta o baja de favoritos lleva fecha para poder unirlas entre dispositivos
  const toggleFavorite=question=>setUserData(data=>{const id=getQuestionIdForProgress(question);const on=!data.favorites.includes(id);return {...data,favorites:on?[...data.favorites,id]:data.favorites.filter(favoriteId=>favoriteId!==id),favoriteChanges:{...(data.favoriteChanges??{}),[id]:{on,at:Date.now()}}}});
  const markLearned=question=>setUserData(data=>({...data,progress:markQuestionAsLearned(question,data.progress)}));
@@ -214,7 +215,7 @@ function App(){
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
   <button className="close" type="button" onClick={()=>setMobile(false)} aria-label="Cerrar menú"><X/></button>
     <nav className="nav">{[
-    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test",Brain],["wrong","Preguntas falladas",RotateCcw,"Falladas"],["cheatsheet","Chuleta de fallos",ScrollText,"Chuleta"],["notes","Aclaraciones",NotebookPen],["review","Repaso",Layers3],["progress","Progreso",BarChart3],["settings","Configuración",Settings,"Ajustes"]
+    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test y progreso",Brain,"Test"],["wrong","Preguntas falladas",RotateCcw,"Falladas"],["cheatsheet","Chuleta de fallos",ScrollText,"Chuleta"],["notes","Aclaraciones",NotebookPen],["review","Repaso",Layers3],["settings","Configuración",Settings,"Ajustes"]
    ].map(([id,label,Icon,short])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)} aria-label={label}><Icon/><span>{label}</span><small className="navShort" aria-hidden="true">{short??label}</small></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
@@ -223,7 +224,7 @@ function App(){
   {page==="home"&&<HomePage go={go} openTest={openTest} openExam={openExam} progress={userData.progress} planChecks={userData.planChecks} onTogglePlan={togglePlanCheck} onSetPlanTopics={(day,ids)=>setPlanCheck(day,"topics",ids)}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}}/>}
   {page==="review"&&<ReviewPage go={go} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} resume={examConfig.resume} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
@@ -236,7 +237,7 @@ function App(){
   </main>
  </div>
 }
-const pageTitle=p=>({cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
+const pageTitle=p=>({cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test y progreso",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
 
 function ExamCountdown({go}){
  const [now,setNow]=useState(()=>new Date());
@@ -391,8 +392,9 @@ const crossTopicCopy={
 };
 const crossTopicTitle={failed:"Preguntas falladas",notes:"Mis aclaraciones",numbers:"Cifras y valores",cheat:"Chuleta de fallos"};
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote,onConfidence}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote,onConfidence,confidenceLog={}}){
  const [mode,setMode]=useState(initialMode);
+ const [topicOrder,setTopicOrder]=useState("number");
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
  const [savedTest,setSavedTest]=useState(()=>initialMode==="topic"&&!initialTopicId?loadResumableTest():null);
  const [questionCount,setQuestionCount]=useState(20);
@@ -489,7 +491,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const handlePrevious=()=>setI(index=>Math.max(0,index-1));
 
  if(!isCrossTopic&&!selectedTopicId){
-   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{crossTopicTitle[savedTest.mode]??(savedTest.mode==="mixed"?"Repaso general":null)??`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><div className="testTopicsGrid">{topics.map(topic=>{const questions=getQuestionBank(topic.id);const questionTotal=questions.length;const topicMastery=getTopicProgress(questions,questionProgress,topic.id);return <button key={topic.id} className="topicSelectCard" onClick={()=>startTopicTest(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3><small>{questionTotal?`${questionTotal.toLocaleString("es-ES")} preguntas disponibles`:"Sin preguntas cargadas"}</small>{questionTotal>0&&<div className="topicMastery"><div><span>{topicMastery.answered} de {questionTotal.toLocaleString("es-ES")} practicadas</span><b>{topicMastery.mastery}%</b></div><i><em style={{width:`${topicMastery.mastery}%`}}/></i></div>}</button>})}</div></div>;
+   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{crossTopicTitle[savedTest.mode]??(savedTest.mode==="mixed"?"Repaso general":null)??`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<ProgressOverview progress={questionProgress}/><div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><TopicsProgressGrid progress={questionProgress} order={topicOrder} onOrder={setTopicOrder} onPick={startTopicTest}/><ConfidenceCard log={confidenceLog}/></div>;
  }
 
 
@@ -861,6 +863,33 @@ function NotesPage({notes,onSaveNote,onStart,go}){
 }
 
 function FavoritesPage({favorites,onToggleFavorite,go}){const questions=getFavoriteQuestions(favorites);if(!questions.length)return <div><div className="reviewHero"><Star/><h2>Tus preguntas favoritas</h2><p>Las preguntas que marques como favoritas aparecerán aquí.</p><button className="primary" onClick={()=>go("test")}>Explorar preguntas</button></div></div>;return <div className="favoritesPage"><div className="pageIntro"><div><span className="eyebrow">GUARDADAS</span><h2>Tus preguntas favoritas</h2><p>{questions.length} {questions.length===1?"pregunta guardada":"preguntas guardadas"}</p></div></div><div className="favoriteQuestionList">{questions.map(question=><article className="favoriteQuestion" key={getQuestionIdForProgress(question)}><div><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span><h3>{question.question}</h3></div><button className="favoriteRemove" onClick={()=>onToggleFavorite(question)} title="Quitar de favoritos"><Star fill="currentColor"/></button></article>)}</div></div>}
+
+// Resumen global de progreso (arriba de la página de Test)
+function ProgressOverview({progress}){
+ const available=topics.map(topic=>{const questions=getQuestionBank(topic.id);return {total:questions.length,...getTopicProgress(questions,progress,topic.id)}}).filter(topic=>topic.total>0);
+ const totalQuestions=available.reduce((total,topic)=>total+topic.total,0);
+ const answered=available.reduce((total,topic)=>total+topic.answered,0);
+ const attempts=available.reduce((total,topic)=>total+topic.attempts,0);
+ const correct=available.reduce((total,topic)=>total+topic.correct,0);
+ const globalMastery=totalQuestions?Math.round(available.reduce((total,topic)=>total+topic.mastery*topic.total,0)/totalQuestions):0;
+ const failed=getFailedQuestions(progress).length;
+ return <section className="testOverview" aria-label="Tu progreso">
+  <div className="testOverviewMain"><span className="eyebrow">DOMINIO GLOBAL</span><strong>{globalMastery}%</strong><i><em style={{width:`${globalMastery}%`}}/></i></div>
+  <div className="testOverviewStats"><div><b>{answered.toLocaleString("es-ES")}</b><small>de {totalQuestions.toLocaleString("es-ES")} vistas</small></div><div><b>{attempts?Math.round(correct/attempts*100):0}%</b><small>aciertos</small></div><div><b>{failed}</b><small>falladas</small></div></div>
+ </section>;
+}
+
+// Temas con su progreso: dominio, preguntas vistas, aciertos y falladas pendientes
+function TopicsProgressGrid({progress,order,onOrder,onPick}){
+ const list=topics.map(topic=>{const questions=getQuestionBank(topic.id);const stats=getTopicProgress(questions,progress,topic.id);const failed=questions.filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress({...question,topicId:topic.id})])).length;return {...topic,total:questions.length,failed,...stats}});
+ const sorted=order==="weak"?[...list].filter(topic=>topic.total).sort((a,b)=>a.mastery-b.mastery||a.answered/a.total-b.answered/b.total):list;
+ return <>
+  <div className="topicOrderRow"><span>Temas</span><div className="choiceRow"><button className={order==="number"?"selected":""} onClick={()=>onOrder("number")}>Por número</button><button className={order==="weak"?"selected":""} onClick={()=>onOrder("weak")}>Peor dominio primero</button></div></div>
+  <div className="testTopicsGrid">{sorted.map(topic=><button key={topic.id} className="topicSelectCard" onClick={()=>onPick(topic.id)}><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span><h3>{topic.title}</h3>{!topic.total?<small>Sin preguntas cargadas</small>:<>
+   <div className="topicStats"><span><b>{topic.answered}</b>/{topic.total.toLocaleString("es-ES")} vistas</span>{topic.attempts>0&&<span><b>{Math.round(topic.correct/topic.attempts*100)}%</b> aciertos</span>}{topic.failed>0&&<span className="failed"><b>{topic.failed}</b> {topic.failed===1?"fallada":"falladas"}</span>}</div>
+   <div className="topicMastery"><div><span>Dominio</span><b>{topic.mastery}%</b></div><i><em style={{width:`${topic.mastery}%`}}/></i></div></>}</button>)}</div>
+ </>;
+}
 
 function ProgressPage({progress,confidence={},onStart}){
  const topicProgress=topics.map(topic=>{const questions=getQuestionBank(topic.id);return {...topic,total:questions.length,...getTopicProgress(questions,progress,topic.id)}});

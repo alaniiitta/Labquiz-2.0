@@ -326,3 +326,18 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .planTask div{min-width:0;flex:1}.planTask b{display:block;font-size:14px}.planTask small{display:block;margin-top:2px;color:var(--muted);font-size:12px}
 .planTasks li.done .planTask b{text-decoration:line-through;color:var(--muted)}
 .homeDashboard>.studyPlan{margin-bottom:18px}
+/* Test y progreso en una sola página */
+.testOverview{display:grid;gap:14px;margin-top:14px;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+@media(min-width:700px){.testOverview{grid-template-columns:1fr 1.4fr;align-items:center}}
+.testOverviewMain strong{display:block;font-size:30px;line-height:1.1;margin:2px 0 8px}
+.testOverviewMain i{display:block;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.testOverviewMain em{display:block;height:100%;border-radius:inherit;background:var(--primary)}
+.testOverviewStats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.testOverviewStats div{padding:10px;border-radius:11px;background:var(--soft);text-align:center}
+.testOverviewStats b{display:block;font-size:18px}.testOverviewStats small{display:block;margin-top:2px;color:var(--muted);font-size:11.5px}
+.topicOrderRow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin:20px 0 10px}
+.topicOrderRow>span{font-size:12px;font-weight:850;text-transform:uppercase;color:var(--muted)}
+.topicOrderRow .choiceRow{display:flex;max-width:none}.topicOrderRow .choiceRow button{-webkit-tap-highlight-color:transparent;min-height:36px;padding:0 12px;font-size:12.5px}
+.topicStats{display:flex;flex-wrap:wrap;gap:4px 12px;color:var(--muted);font-size:12px}
+.topicStats b{color:var(--text)}.topicStats .failed b{color:var(--danger)}
+.testThemeSelector .confCard{margin-top:22px}
