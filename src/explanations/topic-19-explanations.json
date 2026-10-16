@@ -456,8 +456,8 @@
   },
   "92": {
     "respuestaCorrecta": "C",
-    "porQueLaCorrecta": "En PCR en tiempo real la amplificación y la detección son simultáneas, se usan fluorocromos que se unen al ADN bicatenario (SYBR Green) y el producto específico da un pico en la curva de fusión. La clave solo da por buena la C.",
-    "claveMemorizar": "qPCR: curva de fusión con pico característico."
+    "porQueLaCorrecta": "Pregunta dudosa. La clave oficial marca «El producto específico amplificado tiene un pico de separación característico…» (la curva de fusión o melting). Pero las otras dos afirmaciones también son ciertas: en la PCR en tiempo real la amplificación y la detección son simultáneas, y se usan fluorocromos que se unen al ADN de doble hebra (SYBR Green). Por eso «Todas las respuestas son correctas» sería defendible, aunque la clave oficial no la dio por buena.",
+    "claveMemorizar": "qPCR: amplificación y detección a la vez, SYBR Green (ADN bicatenario) y curva de fusión con pico característico. Clave oficial: el pico."
   },
   "93": {
     "respuestaCorrecta": "A",
