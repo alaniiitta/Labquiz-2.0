@@ -19,11 +19,7 @@ const convertQuestions = (source, idFor, explanationFor) => source.questions
 	// descarta preguntas con opciones truncadas/vacías en el JSON fuente
 	.filter((question) => question.answers.every((answer) => answer.trim() !== ""));
 
-// Preguntas cuya clave oficial choca con la de otra pregunta: la respuesta oficial se marca con un
-// asterisco mientras se responde (12 acepta «punción venosa en el talón»; 44 la rechaza).
-const STARRED = new Set(["20.3-12", "20.3-44"]);
-
 export default [
 	...convertQuestions(blockOneTwo, (id) => id, (id) => id),
 	...convertQuestions(blockThree, (id) => `20.3-${id}`, (id) => `3-${id}`),
-].map((question) => (STARRED.has(question.id) ? { ...question, starCorrect: true } : question));
+];
