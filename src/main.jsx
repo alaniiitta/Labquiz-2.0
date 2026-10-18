@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive,ScrollText,CalendarDays,Hash,ShieldQuestion,Check} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive,ScrollText,CalendarDays,Hash,ShieldQuestion,Check,FlaskRound} from "lucide-react";
 import "./styles.css";
 import "./theme-day.css";
 import "./theme-night.css";
@@ -10,6 +10,7 @@ import {examScopes,isInScope,isScopeOn} from "./questions/examScopes.js";
 import {isDisputedKey} from "./questions/disputedKeys.js";
 import {figuresFor} from "./lib/figures.js";
 import {recoverPastExams} from "./lib/recoverExams.js";
+import {METHODS} from "./lib/methods.js";
 import {BREAK_EVEN,CONFIDENCE_LEVELS,confidenceAdvice,confidenceStats,expectedValue,recordConfidence} from "./lib/confidence.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
@@ -249,7 +250,7 @@ function App(){
   <aside className={"sidebar "+(mobile?"open":"")}><div className="brand"><div className="logo">LQ</div><span>LabQuiz <b>2.0</b></span></div>
   <button className="close" type="button" onClick={()=>setMobile(false)} aria-label="Cerrar menú"><X/></button>
     <nav className="nav">{[
-    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test y progreso",Brain,"Test"],["wrong","Preguntas falladas",RotateCcw,"Falladas"],["cheatsheet","Chuleta de fallos",ScrollText,"Chuleta"],["notes","Aclaraciones",NotebookPen],["review","Repaso",Layers3],["exams","Mis simulacros",Trophy,"Simulacros"],["settings","Configuración",Settings,"Ajustes"]
+    ["home","Inicio",Home],["summaries","Resúmenes",BookOpen],["test","Test y progreso",Brain,"Test"],["wrong","Preguntas falladas",RotateCcw,"Falladas"],["cheatsheet","Chuleta de fallos",ScrollText,"Chuleta"],["notes","Aclaraciones",NotebookPen],["methods","Métodos y pruebas",FlaskRound,"Métodos"],["review","Repaso",Layers3],["exams","Mis simulacros",Trophy,"Simulacros"],["settings","Configuración",Settings,"Ajustes"]
    ].map(([id,label,Icon,short])=><button key={id} className={page===id?"active":""} onClick={()=>go(id)} aria-label={label}><Icon/><span>{label}</span><small className="navShort" aria-hidden="true">{short??label}</small></button>)}</nav>
    <div className="sidecard"><FlaskConical/><strong>Tu preparación</strong><small>Construye tu dominio tema a tema.</small></div>
   </aside>
@@ -264,6 +265,7 @@ function App(){
   {page==="exam"&&<ExamPage key={examConfig.sessionId} examCount={examConfig.count??EXAM_COUNT} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
   {page==="exams"&&<ExamsPage deleted={userData.examHistoryDeleted} onStart={count=>count==="resume"?openExam(true):openExam(false,null,null,count)} history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
+  {page==="methods"&&<MethodsPage go={go}/>}
   {page==="cheatsheet"&&<CheatSheetPage progress={userData.progress} go={go} onStart={questionIds=>openTest(null,"cheat",questionIds)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
@@ -273,7 +275,7 @@ function App(){
   </main>
  </div>
 }
-const pageTitle=p=>({exams:"Mis simulacros",cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test y progreso",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
+const pageTitle=p=>({methods:"Métodos y pruebas",exams:"Mis simulacros",cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test y progreso",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
 
 function ExamCountdown({go}){
  const [now,setNow]=useState(()=>new Date());
@@ -886,6 +888,24 @@ function ExamHistory({history,progress,deleted,onReview,go}){
  </div>;
 }
 const EXAM_HISTORY_LIMIT=40;
+
+// Lista de métodos, reacciones, pruebas, tinciones y técnicas del temario, con buscador
+function MethodsPage({go}){
+ const [q,setQ]=useState("");
+ const [topicFilter,setTopicFilter]=useState("all");
+ const plain=text=>String(text).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+ const term=plain(q.trim());
+ const groups=Object.entries(METHODS).map(([topicId,items])=>({topic:topics.find(t=>t.id===Number(topicId)),items:items.filter(([name,detail])=>!term||plain(name).includes(term)||plain(detail).includes(term))})).filter(group=>group.items.length&&(topicFilter==="all"||group.topic.id===Number(topicFilter)));
+ const total=Object.values(METHODS).reduce((sum,items)=>sum+items.length,0);
+ const shown=groups.reduce((sum,group)=>sum+group.items.length,0);
+ return <div className="methodsPage">
+  <p className="methodsIntro">Los <b>{total}</b> métodos, reacciones, pruebas, tinciones y técnicas que salen en el temario y en los tests, con para qué sirve cada uno. Solo lo que entra en el examen.</p>
+  <div className="cheatTools"><div className="search"><Search/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Buscar: Coombs, Gram, Jaffé, glucosa…"/></div>
+   <div className="cheatRow2"><select value={topicFilter} onChange={e=>setTopicFilter(e.target.value)} aria-label="Filtrar por tema"><option value="all">Todos los temas ({shown})</option>{Object.entries(METHODS).map(([topicId,items])=><option key={topicId} value={topicId}>Tema {String(topicId).padStart(2,"0")} · {topics.find(t=>t.id===Number(topicId))?.title} ({items.length})</option>)}</select></div></div>
+  {!groups.length&&<p className="sumEmpty">No hay nada que coincida con «{q}».</p>}
+  {groups.map(({topic,items})=><section key={topic.id} className="methodsGroup"><h3><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span> {topic.title}</h3><ul>{items.map(([name,detail])=><li key={name}><b>{name}</b><span>{detail}</span></li>)}</ul></section>)}
+ </div>;
+}
 
 function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory,examDeleted,progress}){
  const [count,setCount]=useState(20);

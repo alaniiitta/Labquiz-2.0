@@ -387,3 +387,15 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .reviewHero .examStart{justify-content:center;margin-top:14px}.examsPage>.examNote{font-size:12.5px;line-height:1.45;margin-top:12px}
 .result .confSummaryRow strong,.examResult .confSummaryRow strong{display:block;margin:0;font-size:15px;line-height:1.2;color:var(--text)}.result .confSummaryRow strong.neg,.examResult .confSummaryRow strong.neg{color:var(--danger)}.confSummaryRow em{font-size:13px}
 .confSummaryHelp{display:block;margin:-2px 0 2px;color:var(--muted);font-size:12px;line-height:1.4}
+/* Métodos y pruebas */
+.methodsPage .search{display:flex;align-items:center;gap:8px;padding:0 12px;min-height:44px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.methodsPage .search svg{width:17px;color:var(--muted)}.methodsPage .search input{flex:1;min-width:0;border:0;background:transparent;color:var(--text);font:inherit;font-size:16px;outline:none}
+.methodsGroup{margin-top:18px}
+.methodsGroup h3{display:flex;align-items:center;gap:8px;margin:0 0 8px;font-size:16px}
+.methodsGroup ul{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+@media(min-width:900px){.methodsGroup ul{grid-template-columns:1fr 1fr}}
+.methodsGroup li{padding:10px 12px;border:1px solid var(--line);border-radius:11px;background:var(--card)}
+.methodsGroup li b{display:block;font-size:14px;line-height:1.3}.methodsGroup li span{display:block;margin-top:3px;color:var(--muted);font-size:13px;line-height:1.4}
+.methodsIntro{margin:4px 0 12px;color:var(--muted);font-size:14px;line-height:1.45}
+.methodsPage .cheatTools{margin-top:0}
+.methodsPage .search,.methodsPage .cheatRow2,.methodsPage .cheatRow2 select{box-sizing:border-box;width:100%;max-width:100%}
