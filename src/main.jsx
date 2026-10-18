@@ -845,9 +845,9 @@ function ExamRow({entry,score,onReview,onDelete}){
 function StartExamButtons({onStart}){
  const [saved]=useState(()=>loadResumableExam());
  return <div className="examStart">
-  {saved&&<button type="button" className="primary" onClick={()=>onStart?.("resume")}><Play/> {saved.deadline>Date.now()?"Continuar el examen en curso":"Ver la nota del examen sin entregar"}</button>}
-  <button type="button" className={saved?"secondary":"primary"} onClick={()=>onStart?.(EXAM_COUNT)}><Timer/><span><b>Examen de 100</b><small>1 h 30 min · sin soluciones hasta entregar · cada 4 fallos restan 1</small></span></button>
-  <button type="button" className="secondary" onClick={()=>onStart?.(60)}><Trophy/><span><b>Simulacro de 60</b><small>sin reloj · ves la solución de cada pregunta al responder</small></span></button>
+  {saved?<button type="button" className="primary" onClick={()=>onStart?.("resume")}><Play/> {saved.deadline>Date.now()?"Continuar":"Ver nota"}</button>:<button type="button" className="primary" onClick={()=>onStart?.(EXAM_COUNT)} title="1 h 30 min · sin soluciones hasta entregar · cada 4 fallos restan 1"><Timer/> Examen de 100</button>}
+  {saved&&<button type="button" className="secondary" onClick={()=>onStart?.(EXAM_COUNT)} title="1 h 30 min"><Timer/> Examen de 100</button>}
+  <button type="button" className="secondary" onClick={()=>onStart?.(60)} title="Sin reloj · ves la solución al responder"><Trophy/> Simulacro de 60</button>
  </div>;
 }
 
@@ -861,11 +861,11 @@ function ExamsPage({history,progress,onReview,onDelete,onStart,go}){
  const chron=[...shown].reverse();
  const last=chron.length>1?chron[chron.length-1].score.grade-chron[chron.length-2].score.grade:null;
  return <div className="examsPage">
-  <StartExamButtons onStart={onStart}/>
   <section className="testOverview examsOverview" aria-label="Resumen de tus simulacros">
    <div className="testOverviewStats"><div><b>{shown.length}</b><small>{shown.length===1?"simulacro":"simulacros"}</small></div><div><b>{formatScore(Math.round(avg*100)/100)}</b><small>nota media</small></div><div><b>{grades.length?formatScore(Math.round(Math.max(...grades)*100)/100):"—"}</b><small>mejor nota</small></div></div>
    {chron.length>1&&<div className="examTrend" aria-label="Evolución de la nota">{chron.slice(-12).map(row=><i key={row.entry.id} title={`${formatExamDate(row.entry.endedAt)}: ${formatScore(row.score.grade)}`} className={row.score.grade>=5?"pass":""} style={{height:`${Math.max(4,row.score.grade*10)}%`}}/>)}<small>{last==null?"":last>=0?`▲ ${formatScore(Math.round(last*100)/100)} respecto al anterior`:`▼ ${formatScore(Math.round(-last*100)/100)} respecto al anterior`}</small></div>}
   </section>
+  <StartExamButtons onStart={onStart}/>
   <div className="topicOrderRow"><span>Registro</span><div className="choiceRow"><button className={kind==="all"?"selected":""} onClick={()=>setKind("all")}>Todos</button><button className={kind==="exam"?"selected":""} onClick={()=>setKind("exam")}>Examen de 100</button><button className={kind==="sim"?"selected":""} onClick={()=>setKind("sim")}>Simulacros</button></div></div>
   <div className="examHistoryList">{shown.map(({entry,score})=><ExamRow key={entry.id} entry={entry} score={score} onReview={onReview} onDelete={onDelete}/>)}</div>
   <p className="examNote">Se guardan tus {EXAM_HISTORY_LIMIT} últimos simulacros y se sincronizan con tu cuenta.{rows.some(row=>row.entry.recovered)?" Los marcados como «recuperado» son de antes de que existiera este registro: se han reconstruido con tu progreso (preguntas respondidas y si las acertaste).":""}</p>
