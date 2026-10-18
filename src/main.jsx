@@ -9,6 +9,7 @@ import questionBank,{duplicateAliases} from "./questions";
 import {examScopes,isInScope,isScopeOn} from "./questions/examScopes.js";
 import {isDisputedKey} from "./questions/disputedKeys.js";
 import {figuresFor} from "./lib/figures.js";
+import {recoverPastExams} from "./lib/recoverExams.js";
 import {BREAK_EVEN,CONFIDENCE_LEVELS,confidenceAdvice,confidenceStats,expectedValue,recordConfidence} from "./lib/confidence.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
@@ -191,10 +192,15 @@ const restoreExamFromHistory=entry=>{
  const items=Array.isArray(entry.q)?entry.q.map(item=>{const cut=String(item).lastIndexOf("|");return {id:item.slice(0,cut),order:[...item.slice(cut+1)].map(Number)}}):entry.questions;
  const questions=items.map(({id,order})=>{const question=bankById.get(id);if(!question||!Array.isArray(order)||order.length!==question.answers.length)return null;return {...question,answers:order.map(index=>question.answers[index]),correctAnswer:order.indexOf(question.correctAnswer),originalOrder:order}});
  if(questions.some(question=>!question)) return null;
- return {questions,answers:entry.answers??{},flags:entry.flags??[],confidence:entry.confidence??{},scratch:entry.scratch??{},index:0,startedAt:entry.startedAt,deadline:entry.startedAt+EXAM_DURATION,finish:{auto:!!entry.auto,endedAt:entry.endedAt},kind:entry.kind??"exam"};
+ return {questions,answers:entry.answers??{},flags:entry.flags??[],confidence:entry.confidence??{},scratch:entry.scratch??{},index:0,startedAt:entry.startedAt,deadline:entry.startedAt+EXAM_DURATION,finish:{auto:!!entry.auto,endedAt:entry.endedAt},kind:entry.kind??"exam",recovered:!!entry.recovered,nominalTotal:entry.recovered&&entry.kind!=="sim"?Math.max(EXAM_COUNT,questions.length):questions.length};
 };
 // nota de un simulacro guardado (para la lista de Repaso)
-const examEntryScore=entry=>{const restored=restoreExamFromHistory(entry);if(!restored)return null;let correct=0,wrong=0;restored.questions.forEach((question,index)=>{if(!Object.prototype.hasOwnProperty.call(restored.answers,index))return;if(restored.answers[index]===question.correctAnswer)correct++;else wrong++});const net=correct-wrong*EXAM_PENALTY;return {correct,wrong,blank:restored.questions.length-correct-wrong,net,grade:Math.max(0,net)/restored.questions.length*10}};
+const examEntryScore=entry=>{const restored=restoreExamFromHistory(entry);if(!restored)return null;let correct=0,wrong=0;restored.questions.forEach((question,index)=>{if(!Object.prototype.hasOwnProperty.call(restored.answers,index))return;if(restored.answers[index]===question.correctAnswer)correct++;else wrong++});const total=restored.nominalTotal??restored.questions.length;const net=correct-wrong*EXAM_PENALTY;return {correct,wrong,blank:total-correct-wrong,total,net,grade:Math.max(0,net)/total*10}};
+// Simulacros anteriores al registro, reconstruidos a partir del progreso (ver lib/recoverExams.js)
+const recoveredExamEntries=(progress,recorded=[])=>{
+ const bank=new Map(getAllQuestions(true).map(question=>[getQuestionIdForProgress(question),question]));
+ return recoverPastExams(progress,new Set(bank.keys()),recorded).map(({items,...entry})=>({...entry,q:items.map(item=>`${item.id}|${bank.get(item.id).answers.map((answer,index)=>index).join("")}`),answers:Object.fromEntries(items.map((item,index)=>[index,item.failed?-1:bank.get(item.id).correctAnswer])),flags:[],confidence:{},scratch:{}}));
+};
 const formatClock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),sec=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(sec).padStart(2,"0")}`};
 const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
 
@@ -248,10 +254,10 @@ function App(){
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}} onRecordExam={recordExam}/>}
-  {page==="review"&&<ReviewPage go={go} examHistory={userData.examHistory} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
+  {page==="review"&&<ReviewPage go={go} examHistory={userData.examHistory} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
-  {page==="exams"&&<ExamsPage history={userData.examHistory} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
+  {page==="exams"&&<ExamsPage history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
   {page==="cheatsheet"&&<CheatSheetPage progress={userData.progress} go={go} onStart={questionIds=>openTest(null,"cheat",questionIds)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
@@ -619,7 +625,8 @@ function ExamPage({go,resume,historyEntry=null,repeatQuestions=null,onRepeat,onP
   const levels=["easy","medium","hard"].map(id=>({id,total:0,correct:0,wrong:0}));
   questions.forEach((question,index)=>{const level=levels.find(entry=>entry.id===getQuestionDifficulty(question,{},true)?.id);if(!level)return;level.total++;if(Object.prototype.hasOwnProperty.call(answers,index)){if(answers[index]===question.correctAnswer)level.correct++;else level.wrong++}});
   const net=correct-wrong*EXAM_PENALTY;
-  return {correct,wrong,blank:total-correct-wrong,net,levels:levels.filter(level=>level.total),grade:Math.max(0,net)/total*10,topics:[...byTopic.values()].map(entry=>({...entry,net:entry.correct-entry.wrong*EXAM_PENALTY})).sort((a,b)=>a.net/a.total-b.net/b.total)};
+  const nominal=exam.nominalTotal??total;
+  return {correct,wrong,blank:nominal-correct-wrong,net,levels:levels.filter(level=>level.total),grade:Math.max(0,net)/nominal*10,topics:[...byTopic.values()].map(entry=>({...entry,net:entry.correct-entry.wrong*EXAM_PENALTY})).sort((a,b)=>a.net/a.total-b.net/b.total)};
  },[questions,answers,total]);
 
  const q=questions[i];
@@ -635,6 +642,7 @@ function ExamPage({go,resume,historyEntry=null,repeatQuestions=null,onRepeat,onP
   return <div className="result card examResult">
    <div className="resultIcon">🏆</div>
    <h2>{exam.kind==="sim"?`Simulacro de ${total} preguntas`:finish.auto?"Se acabó el tiempo":"Examen entregado"}</h2>
+   {exam.recovered&&<p className="examTip">Recuperado de tu progreso: están las preguntas que respondiste en este simulacro y si las acertaste. No se guardaba qué opción marcaste al fallar ni cuáles dejaste en blanco, y si después volviste a responder alguna, ya cuenta en otro sitio.</p>}
    {historyEntry&&<p className="examFormula">Simulacro del {new Date(finish.endedAt).toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})}</p>}
    <strong>{formatScore(results.grade)}<small> / 10</small></strong>
    <p className="resultPct">Puntuación neta: <b>{formatScore(results.net)}</b> de {total}</p>
@@ -677,6 +685,7 @@ function ExamPage({go,resume,historyEntry=null,repeatQuestions=null,onRepeat,onP
    <div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":"Si no la sabes, déjala en blanco: no resta."}</p>}
    {!reviewing&&<label className="examScratch"><span><Pencil/> Mis notas</span><textarea rows={2} value={scratch[i]??""} onChange={e=>{const text=e.target.value;setScratch(current=>{const next={...current};if(text)next[i]=text;else delete next[i];return next})}} placeholder="Apunta lo que quieras de esta pregunta: lo verás al revisar el examen"/></label>}
+   {reviewing&&exam.recovered&&status(i)==="wrong"&&<p className="examHint">La fallaste en este simulacro (no se guardó qué opción marcaste).</p>}
    {reviewing&&scratch[i]?.trim()&&<div className="examScratchRead"><span><Pencil/> Tu nota durante el examen</span><p>{scratch[i]}</p></div>}
    {reviewing&&<div className="testFeedback"><ExplanationDisplay structured={explainQuestion(q,q.topicId)} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={hasAnswer?selected===q.correctAnswer:null}/><ExplanationFigures question={q} topicId={q.topicId} explanation={explainQuestion(q,q.topicId)}/><AskClaudeButton key={i} question={q} topicId={q.topicId} selected={hasAnswer?selected:null}/><NoteEditor key={`note-${i}`} question={q} note={notes[linkedId]} onSave={onSaveNote}/></div>}
    <div className="testActions">
@@ -823,15 +832,15 @@ function NumbersCard({onStart}){
 }
 
 // Simulacros hechos: evolución de la nota y lista para revisarlos otro día
-const examRows=history=>(history??[]).map(entry=>({entry,score:examEntryScore(entry)})).filter(row=>row.score);
+const examRows=(history,progress)=>[...(history??[]),...(progress?recoveredExamEntries(progress,history??[]):[])].map(entry=>({entry,score:examEntryScore(entry)})).filter(row=>row.score).sort((a,b)=>b.entry.endedAt-a.entry.endedAt);
 const formatExamDate=time=>{const text=new Date(time).toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});return text.charAt(0).toUpperCase()+text.slice(1)};
 function ExamRow({entry,score,onReview,onDelete}){
  const total=score.correct+score.wrong+score.blank;
- return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total}`:"Examen de 100 · 1 h 30 min"}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>{if(window.confirm("¿Borrar este simulacro de tu registro?"))onDelete(entry.id)}}><Trash2/></button>}</div>;
+ return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total}`:"Examen de 100 · 1 h 30 min"}{entry.recovered&&<em className="recoveredTag">recuperado</em>}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&!entry.recovered&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>{if(window.confirm("¿Borrar este simulacro de tu registro?"))onDelete(entry.id)}}><Trash2/></button>}</div>;
 }
-function ExamsPage({history,onReview,onDelete,go}){
+function ExamsPage({history,progress,onReview,onDelete,go}){
  const [kind,setKind]=useState("all");
- const rows=useMemo(()=>examRows(history),[history]);
+ const rows=useMemo(()=>examRows(history,progress),[history,progress]);
  const shown=rows.filter(row=>kind==="all"||(row.entry.kind??"exam")===kind);
  if(!rows.length) return <div className="reviewHero"><h2>Aún no has hecho ningún simulacro</h2><p>Cada simulacro que termines (el examen de 100 con reloj o el de 60) se guarda aquí con su nota para que puedas revisarlo cuando quieras, también desde tus otros dispositivos.</p><button className="primary" onClick={()=>go("review")}>Hacer un simulacro</button></div>;
  const grades=shown.map(row=>row.score.grade);
@@ -845,12 +854,12 @@ function ExamsPage({history,onReview,onDelete,go}){
   </section>
   <div className="topicOrderRow"><span>Registro</span><div className="choiceRow"><button className={kind==="all"?"selected":""} onClick={()=>setKind("all")}>Todos</button><button className={kind==="exam"?"selected":""} onClick={()=>setKind("exam")}>Examen de 100</button><button className={kind==="sim"?"selected":""} onClick={()=>setKind("sim")}>Simulacros</button></div></div>
   <div className="examHistoryList">{shown.map(({entry,score})=><ExamRow key={entry.id} entry={entry} score={score} onReview={onReview} onDelete={onDelete}/>)}</div>
-  <p className="examNote">Se guardan tus {EXAM_HISTORY_LIMIT} últimos simulacros y se sincronizan con tu cuenta.</p>
+  <p className="examNote">Se guardan tus {EXAM_HISTORY_LIMIT} últimos simulacros y se sincronizan con tu cuenta.{rows.some(row=>row.entry.recovered)?" Los marcados como «recuperado» son de antes de que existiera este registro: se han reconstruido con tu progreso (preguntas respondidas y si las acertaste).":""}</p>
  </div>;
 }
 // En Repaso: los 3 últimos y acceso al registro completo
-function ExamHistory({history,onReview,go}){
- const rows=useMemo(()=>examRows(history).slice(0,3),[history]);
+function ExamHistory({history,progress,onReview,go}){
+ const rows=useMemo(()=>examRows(history,progress).slice(0,3),[history,progress]);
  return <div className="reviewSetup examHistory">
   <span className="reviewSetupLabel"><Trophy/> Mis simulacros</span>
   {!rows.length&&<p className="examNote">Aún no tienes ninguno guardado. Cada simulacro que termines (el de 60 o el examen de 100) se guarda aquí con su nota para revisarlo otro día.</p>}
@@ -860,7 +869,7 @@ function ExamHistory({history,onReview,go}){
 }
 const EXAM_HISTORY_LIMIT=40;
 
-function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory}){
+function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory,progress}){
  const [count,setCount]=useState(20);
  const [savedExam,setSavedExam]=useState(()=>loadResumableExam());
  const totalAvailable=useMemo(()=>getAllQuestions().length,[activeScopeKey]);
@@ -868,7 +877,7 @@ function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory}
  const isExam=count>=SIMULACRUM_MIN;
  return <div className="reviewPage">
   <div className="reviewHero"><h2>Repaso general</h2><p>Test que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p></div>
-  <ExamHistory history={examHistory} onReview={onReviewExam} go={go}/>
+  <ExamHistory history={examHistory} progress={progress} onReview={onReviewExam} go={go}/>
   {savedExam&&<div className="resumeTestBanner" role="status"><div><b>{savedExam.deadline>Date.now()?"Tienes un simulacro en curso":"Tu simulacro se quedó sin tiempo"}</b><small>{Object.keys(savedExam.answers).length} de {savedExam.questions.length} respondidas · {savedExam.deadline>Date.now()?`quedan ${formatClock(savedExam.deadline-Date.now())}`:"se entregará con lo que respondiste"}</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={onResumeExam}><Play/> {savedExam.deadline>Date.now()?"Continuar":"Ver nota"}</button><button className="secondary" type="button" onClick={()=>{clearExamSession();setSavedExam(null)}}>Descartar</button></div></div>}
   <div className="reviewSetup">
    <span className="reviewSetupLabel">Repaso rápido</span>
