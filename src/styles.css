@@ -365,6 +365,17 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .examHistory .reviewSetupLabel{display:inline-flex;align-items:center;gap:6px}.examHistory .reviewSetupLabel svg{width:15px}
 .examHistoryRow{display:flex;gap:8px;align-items:stretch}
 .examHistoryOpen{display:flex;align-items:center;gap:10px;flex:1;min-width:0;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text);text-align:left}
-.examHistoryOpen div{flex:1;min-width:0}.examHistoryOpen b{display:block;font-size:14px;text-transform:capitalize}.examHistoryOpen small{display:block;margin-top:2px;color:var(--muted);font-size:12px}
+.examHistoryOpen div{flex:1;min-width:0}.examHistoryOpen b{display:block;font-size:14px}.examHistoryOpen small{display:block;margin-top:2px;color:var(--muted);font-size:12px}
 .examHistoryOpen>span{display:inline-flex;align-items:center;gap:2px;color:var(--primary);font-weight:800;font-size:13px}.examHistoryOpen svg{width:15px}
 .examHistoryDelete{display:grid;place-items:center;width:44px;flex:0 0 44px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--muted)}.examHistoryDelete svg{width:16px}
+/* Mis simulacros */
+.examsOverview{grid-template-columns:1fr!important}
+.examTrend{position:relative;display:flex;align-items:flex-end;gap:5px;height:90px;padding:6px 2px 22px;border-bottom:1px solid var(--line)}
+.examTrend i{flex:1;max-width:28px;border-radius:6px 6px 2px 2px;background:var(--line)}
+.examTrend i.pass{background:var(--primary)}
+.examTrend small{position:absolute;left:0;bottom:2px;color:var(--muted);font-size:11.5px}
+.examHistoryList{display:grid;gap:8px}
+.examGrade{display:grid;place-items:center;min-width:46px;height:40px;padding:0 6px;border-radius:10px;background:var(--soft);font-weight:900;font-size:15px;color:var(--muted)}
+.examGrade.pass{color:var(--primary)}
+.examHistory>button.secondary{display:inline-flex;align-items:center;justify-content:center;gap:4px}.examHistory>button.secondary svg{width:15px}
+.examsPage .topicOrderRow .choiceRow{flex-wrap:wrap}
