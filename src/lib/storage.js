@@ -176,6 +176,40 @@ export const clearExamSession = () => {
   }
 };
 
+// Simulacros de 100 ya entregados, para revisarlos más tarde. Se guarda poco: el id de cada
+// pregunta y el orden en que salieron sus opciones (el texto se recupera del banco).
+export const EXAM_HISTORY_KEY = "labquiz.exam-history.v1";
+export const EXAM_HISTORY_MAX = 5;
+
+export const loadExamHistory = () => {
+  try {
+    const list = JSON.parse(localStorage.getItem(EXAM_HISTORY_KEY) || "[]");
+    return Array.isArray(list) ? list : [];
+  } catch {
+    return [];
+  }
+};
+
+export const saveExamToHistory = (entry) => {
+  const list = [entry, ...loadExamHistory().filter((item) => item.id !== entry.id)].slice(0, EXAM_HISTORY_MAX);
+  try {
+    localStorage.setItem(EXAM_HISTORY_KEY, JSON.stringify(list));
+  } catch (error) {
+    console.error("No se pudo guardar el simulacro en el historial", error);
+  }
+  return list;
+};
+
+export const deleteExamFromHistory = (id) => {
+  const list = loadExamHistory().filter((item) => item.id !== id);
+  try {
+    localStorage.setItem(EXAM_HISTORY_KEY, JSON.stringify(list));
+  } catch (error) {
+    console.error("No se pudo borrar el simulacro del historial", error);
+  }
+  return list;
+};
+
 // Traslada el progreso y los favoritos de preguntas repetidas (ya retiradas del banco)
 // a la pregunta que se conserva. Si las dos tienen progreso, suma los intentos.
 export const migrateDuplicateProgress = (userData, aliases) => {

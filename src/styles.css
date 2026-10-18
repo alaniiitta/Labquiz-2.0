@@ -361,3 +361,10 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .examScratchRead p{margin:0;white-space:pre-wrap;font-size:14px;line-height:1.45}
 .examGrid button.noted{position:relative}
 .examGrid button.noted::after{content:"";position:absolute;top:3px;right:3px;width:6px;height:6px;border-radius:50%;background:var(--gold)}
+/* Historial de simulacros */
+.examHistory .reviewSetupLabel{display:inline-flex;align-items:center;gap:6px}.examHistory .reviewSetupLabel svg{width:15px}
+.examHistoryRow{display:flex;gap:8px;align-items:stretch}
+.examHistoryOpen{display:flex;align-items:center;gap:10px;flex:1;min-width:0;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text);text-align:left}
+.examHistoryOpen div{flex:1;min-width:0}.examHistoryOpen b{display:block;font-size:14px;text-transform:capitalize}.examHistoryOpen small{display:block;margin-top:2px;color:var(--muted);font-size:12px}
+.examHistoryOpen>span{display:inline-flex;align-items:center;gap:2px;color:var(--primary);font-weight:800;font-size:13px}.examHistoryOpen svg{width:15px}
+.examHistoryDelete{display:grid;place-items:center;width:44px;flex:0 0 44px;border:1px solid var(--line);border-radius:12px;background:transparent;color:var(--muted)}.examHistoryDelete svg{width:16px}
