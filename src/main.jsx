@@ -895,7 +895,7 @@ function MethodsPage({go}){
  const [topicFilter,setTopicFilter]=useState("all");
  const plain=text=>String(text).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
  const term=plain(q.trim());
- const groups=Object.entries(METHODS).map(([topicId,items])=>({topic:topics.find(t=>t.id===Number(topicId)),items:items.filter(([name,detail])=>!term||plain(name).includes(term)||plain(detail).includes(term))})).filter(group=>group.items.length&&(topicFilter==="all"||group.topic.id===Number(topicFilter)));
+ const groups=Object.entries(METHODS).map(([topicId,items])=>({topic:topics.find(t=>t.id===Number(topicId)),items:items.filter(([name,detail,sample=""])=>!term||plain(name).includes(term)||plain(detail).includes(term)||plain(sample).includes(term))})).filter(group=>group.items.length&&(topicFilter==="all"||group.topic.id===Number(topicFilter)));
  const total=Object.values(METHODS).reduce((sum,items)=>sum+items.length,0);
  const shown=groups.reduce((sum,group)=>sum+group.items.length,0);
  return <div className="methodsPage">
@@ -903,7 +903,7 @@ function MethodsPage({go}){
   <div className="cheatTools"><div className="search"><Search/><input value={q} onChange={e=>setQ(e.target.value)} placeholder="Buscar: Coombs, Gram, Jaffé, glucosa…"/></div>
    <div className="cheatRow2"><select value={topicFilter} onChange={e=>setTopicFilter(e.target.value)} aria-label="Filtrar por tema"><option value="all">Todos los temas ({shown})</option>{Object.entries(METHODS).map(([topicId,items])=><option key={topicId} value={topicId}>Tema {String(topicId).padStart(2,"0")} · {topics.find(t=>t.id===Number(topicId))?.title} ({items.length})</option>)}</select></div></div>
   {!groups.length&&<p className="sumEmpty">No hay nada que coincida con «{q}».</p>}
-  {groups.map(({topic,items})=><section key={topic.id} className="methodsGroup"><h3><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span> {topic.title}</h3><ul>{items.map(([name,detail])=><li key={name}><b>{name}</b><span>{detail}</span></li>)}</ul></section>)}
+  {groups.map(({topic,items})=><section key={topic.id} className="methodsGroup"><h3><span className="badge">Tema {String(topic.id).padStart(2,"0")}</span> {topic.title}</h3><ul>{items.map(([name,detail,sample])=><li key={name}><b>{name}</b><span>{detail}</span>{sample&&<em className="methodSample"><FlaskConical/> Muestra: {sample}</em>}</li>)}</ul></section>)}
  </div>;
 }
 

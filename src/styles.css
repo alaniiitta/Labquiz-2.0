@@ -399,3 +399,4 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .methodsIntro{margin:4px 0 12px;color:var(--muted);font-size:14px;line-height:1.45}
 .methodsPage .cheatTools{margin-top:0}
 .methodsPage .search,.methodsPage .cheatRow2,.methodsPage .cheatRow2 select{box-sizing:border-box;width:100%;max-width:100%}
+.methodSample{display:flex;gap:5px;margin-top:6px;padding:6px 8px;border-radius:8px;background:var(--soft);color:var(--text);font-style:normal;font-size:12.5px;line-height:1.4}.methodSample svg{width:14px;height:14px;flex:0 0 14px;margin-top:1px;color:var(--primary)}
