@@ -178,7 +178,8 @@ const loadResumableExam=()=>{
  const answers=Object.fromEntries(Object.entries(session.answers??{}).filter(([key,value])=>Number(key)<questions.length&&Number.isInteger(value)));
  const flags=(Array.isArray(session.flags)?session.flags:[]).filter(index=>Number.isInteger(index)&&index<questions.length);
  const confidence=Object.fromEntries(Object.entries(session.confidence??{}).filter(([key,value])=>Number(key)<questions.length&&CONFIDENCE_LEVELS.some(level=>level.id===value)));
- return {questions,answers,flags,confidence,index:Math.min(Math.max(0,Number(session.index)||0),questions.length-1),startedAt:session.startedAt,deadline:session.deadline};
+ const scratch=Object.fromEntries(Object.entries(session.scratch??{}).filter(([key,value])=>Number(key)<questions.length&&typeof value==="string"&&value.trim()));
+ return {questions,answers,flags,confidence,scratch,index:Math.min(Math.max(0,Number(session.index)||0),questions.length-1),startedAt:session.startedAt,deadline:session.deadline};
 };
 const formatClock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),sec=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(sec).padStart(2,"0")}`};
 const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
@@ -533,6 +534,8 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
  const [answers,setAnswers]=useState(exam.answers);
  const [flags,setFlags]=useState(exam.flags);
  const [confidence,setConfidence]=useState(exam.confidence??{});
+ // notas que se apuntan durante el examen en cada pregunta (se leen en la revisión)
+ const [scratch,setScratch]=useState(exam.scratch??{});
  const [i,setI]=useState(exam.index);
  const [phase,setPhase]=useState("exam");
  const [now,setNow]=useState(Date.now());
@@ -561,7 +564,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
 
  useEffect(()=>{if(phase!=="exam")return;const timer=setInterval(()=>setNow(Date.now()),1000);return()=>clearInterval(timer)},[phase]);
  useEffect(()=>{if(phase==="exam"&&remaining<=0)submit(true)},[phase,remaining]);
- useEffect(()=>{if(phase==="exam"&&!finishedRef.current)saveExamSession({questions:questions.map(({id,number,topicId,question,answers})=>({id,number,topicId,question,answers})),answers,flags,confidence,index:i,startedAt,deadline,savedAt:Date.now()})},[phase,answers,flags,confidence,i]);
+ useEffect(()=>{if(phase==="exam"&&!finishedRef.current)saveExamSession({questions:questions.map(({id,number,topicId,question,answers})=>({id,number,topicId,question,answers})),answers,flags,confidence,scratch,index:i,startedAt,deadline,savedAt:Date.now()})},[phase,answers,flags,confidence,scratch,i]);
 
  const results=useMemo(()=>{
   let correct=0,wrong=0;
@@ -602,6 +605,7 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
    <p className="examFormula">Aciertos − fallos ÷ 4 · tiempo usado {formatClock(used)} de 1:30:00</p>
    <div className="examLevels"><span className="reviewSetupLabel">Por dificultad</span>{results.levels.map(level=><div key={level.id} className="examLevelRow"><DifficultyMeter difficulty={{id:level.id,label:{easy:"Fáciles",medium:"Medias",hard:"Difíciles"}[level.id],bars:{easy:1,medium:2,hard:3}[level.id]}}/><small>{level.correct}✓ {level.wrong}✗ {level.total-level.correct-level.wrong}○ de {level.total}</small><b>{formatScore(level.correct-level.wrong*EXAM_PENALTY)}</b></div>)}{(()=>{const hard=results.levels.find(level=>level.id==="hard");return hard&&hard.wrong*EXAM_PENALTY>hard.correct*0.5?<p className="examTip">Pierdes muchos puntos en las difíciles: si dudas entre varias opciones, mejor dejarla en blanco.</p>:null})()}</div>
    <ConfidenceSummary questions={questions} answers={answers} confidence={confidence} exam/>
+   {Object.keys(scratch).length>0&&<p className="examFormula"><Pencil/> Apuntaste notas en {Object.keys(scratch).length} {Object.keys(scratch).length===1?"pregunta":"preguntas"}: las verás al revisar el examen (marcadas con un punto en la cuadrícula).</p>}
    <div className="examTopics"><span className="reviewSetupLabel">Por temas (de peor a mejor)</span>{results.topics.map(entry=><div key={entry.topicId} className="examTopicRow"><span>T{String(entry.topicId).padStart(2,"0")}</span><em>{topics.find(topic=>topic.id===entry.topicId)?.title}</em><small>{entry.correct}✓ {entry.wrong}✗ {entry.total-entry.correct-entry.wrong}○</small><i><b style={{width:`${Math.max(0,entry.net)/entry.total*100}%`}}/></i></div>)}</div>
    <div className="resultActions">
     <button className="primary" onClick={()=>{setPhase("review");goTo(0)}}>Revisar el examen</button>
@@ -624,13 +628,15 @@ function ExamPage({go,resume,repeatQuestions=null,onRepeat,onPracticeFailed,ques
   <div className="examBar">
    <button type="button" className={showGrid?"examGridToggle open":"examGridToggle"} onClick={()=>setShowGrid(open=>!open)} aria-expanded={showGrid}><LayoutGrid/>{reviewing?`${results.correct} ✓ · ${results.wrong} ✗ · ${results.blank} en blanco`:`Pregunta ${i+1} de ${total} · ${answeredCount} respondidas`}</button>
   </div>
-  {showGrid&&<div className="examGrid">{questions.map((question,index)=><button key={index} type="button" onClick={()=>goTo(index)} className={[index===i?"current":"",reviewing?status(index):Object.prototype.hasOwnProperty.call(answers,index)?"answered":"",flags.includes(index)?"flagged":""].join(" ")} aria-label={`Pregunta ${index+1}`}>{index+1}</button>)}</div>}
+  {showGrid&&<div className="examGrid">{questions.map((question,index)=><button key={index} type="button" onClick={()=>goTo(index)} className={[index===i?"current":"",reviewing?status(index):Object.prototype.hasOwnProperty.call(answers,index)?"answered":"",flags.includes(index)?"flagged":"",scratch[index]?.trim()?"noted":""].join(" ")} aria-label={`Pregunta ${index+1}${scratch[index]?.trim()?" (con nota)":""}`}>{index+1}</button>)}</div>}
   <div className="testCard">
    <div className="qTags"><span className="badge">Tema {String(q.topicId).padStart(2,"0")}</span><DifficultyMeter difficulty={getQuestionDifficulty(q,questionProgress)}/></div>
    <h2>{i+1}. {q.question}</h2>
    <ConfidencePicker value={confidence[i]??"s"} onChange={level=>setConfidence(current=>({...current,[i]:level}))} locked={reviewing}/>
    <div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":"Si no la sabes, déjala en blanco: no resta."}</p>}
+   {!reviewing&&<label className="examScratch"><span><Pencil/> Mis notas</span><textarea rows={2} value={scratch[i]??""} onChange={e=>{const text=e.target.value;setScratch(current=>{const next={...current};if(text)next[i]=text;else delete next[i];return next})}} placeholder="Apunta lo que quieras de esta pregunta: lo verás al revisar el examen"/></label>}
+   {reviewing&&scratch[i]?.trim()&&<div className="examScratchRead"><span><Pencil/> Tu nota durante el examen</span><p>{scratch[i]}</p></div>}
    {reviewing&&<div className="testFeedback"><ExplanationDisplay structured={explainQuestion(q,q.topicId)} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={hasAnswer?selected===q.correctAnswer:null}/><ExplanationFigures question={q} topicId={q.topicId} explanation={explainQuestion(q,q.topicId)}/><AskClaudeButton key={i} question={q} topicId={q.topicId} selected={hasAnswer?selected:null}/><NoteEditor key={`note-${i}`} question={q} note={notes[linkedId]} onSave={onSaveNote}/></div>}
    <div className="testActions">
     <button className="secondary" onClick={()=>goTo(Math.max(0,i-1))} disabled={i===0}><ArrowLeft/> Anterior</button>
