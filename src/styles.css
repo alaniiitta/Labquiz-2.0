@@ -381,3 +381,9 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .examsPage .topicOrderRow .choiceRow{flex-wrap:wrap}
 .homeQuickAction.exams .homeQuickIcon{background:#f7efdf;color:#9a7535}:root[data-theme="dark"] .homeQuickAction.exams .homeQuickIcon{background:#3a3222;color:#e3c072}
 .recoveredTag{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;background:var(--soft);color:var(--muted);font-style:normal;font-size:11px;font-weight:800;vertical-align:1px}
+.examStart{display:grid;gap:8px;margin:4px 0 14px}
+@media(min-width:700px){.examStart{grid-template-columns:1fr 1fr}.examStart>button:first-child:nth-last-child(3){grid-column:1/-1}}
+.examStart button{display:flex;align-items:center;gap:12px;min-height:64px;padding:12px 14px;text-align:left}
+.examStart button>svg{width:20px;flex:0 0 20px}
+.examStart button span{display:block}.examStart button b{display:block;font-size:15px}.examStart button small{display:block;margin-top:2px;font-size:12px;font-weight:600;opacity:.8}
+.examsPage .reviewHero .examStart,.reviewHero .examStart{margin-top:14px}

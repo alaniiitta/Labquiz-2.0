@@ -257,7 +257,7 @@ function App(){
   {page==="review"&&<ReviewPage go={go} examHistory={userData.examHistory} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,count>=SIMULACRUM_MIN?`Simulacro · ${count} preguntas`:null)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
-  {page==="exams"&&<ExamsPage history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
+  {page==="exams"&&<ExamsPage onStart={count=>count==="resume"?openExam(true):count===EXAM_COUNT?openExam(false):openTest(null,"mixed",null,count,`Simulacro · ${count} preguntas`)} history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
   {page==="cheatsheet"&&<CheatSheetPage progress={userData.progress} go={go} onStart={questionIds=>openTest(null,"cheat",questionIds)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
@@ -838,16 +838,27 @@ function ExamRow({entry,score,onReview,onDelete}){
  const total=score.correct+score.wrong+score.blank;
  return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total}`:"Examen de 100 · 1 h 30 min"}{entry.recovered&&<em className="recoveredTag">recuperado</em>}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&!entry.recovered&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>{if(window.confirm("¿Borrar este simulacro de tu registro?"))onDelete(entry.id)}}><Trash2/></button>}</div>;
 }
-function ExamsPage({history,progress,onReview,onDelete,go}){
+// Botones para empezar un simulacro desde «Mis simulacros»
+function StartExamButtons({onStart}){
+ const [saved]=useState(()=>loadResumableExam());
+ return <div className="examStart">
+  {saved&&<button type="button" className="primary" onClick={()=>onStart?.("resume")}><Play/> {saved.deadline>Date.now()?"Continuar el examen en curso":"Ver la nota del examen sin entregar"}</button>}
+  <button type="button" className={saved?"secondary":"primary"} onClick={()=>onStart?.(EXAM_COUNT)}><Timer/><span><b>Examen de 100</b><small>1 h 30 min · sin soluciones hasta entregar · cada 4 fallos restan 1</small></span></button>
+  <button type="button" className="secondary" onClick={()=>onStart?.(60)}><Trophy/><span><b>Simulacro de 60</b><small>sin reloj · ves la solución de cada pregunta al responder</small></span></button>
+ </div>;
+}
+
+function ExamsPage({history,progress,onReview,onDelete,onStart,go}){
  const [kind,setKind]=useState("all");
  const rows=useMemo(()=>examRows(history,progress),[history,progress]);
  const shown=rows.filter(row=>kind==="all"||(row.entry.kind??"exam")===kind);
- if(!rows.length) return <div className="reviewHero"><h2>Aún no has hecho ningún simulacro</h2><p>Cada simulacro que termines (el examen de 100 con reloj o el de 60) se guarda aquí con su nota para que puedas revisarlo cuando quieras, también desde tus otros dispositivos.</p><button className="primary" onClick={()=>go("review")}>Hacer un simulacro</button></div>;
+ if(!rows.length) return <div className="reviewHero"><h2>Aún no has hecho ningún simulacro</h2><p>Cada simulacro que termines (el examen de 100 con reloj o el de 60) se guarda aquí con su nota para que puedas revisarlo cuando quieras, también desde tus otros dispositivos.</p><StartExamButtons onStart={onStart}/></div>;
  const grades=shown.map(row=>row.score.grade);
  const avg=grades.length?grades.reduce((a,b)=>a+b,0)/grades.length:0;
  const chron=[...shown].reverse();
  const last=chron.length>1?chron[chron.length-1].score.grade-chron[chron.length-2].score.grade:null;
  return <div className="examsPage">
+  <StartExamButtons onStart={onStart}/>
   <section className="testOverview examsOverview" aria-label="Resumen de tus simulacros">
    <div className="testOverviewStats"><div><b>{shown.length}</b><small>{shown.length===1?"simulacro":"simulacros"}</small></div><div><b>{formatScore(Math.round(avg*100)/100)}</b><small>nota media</small></div><div><b>{grades.length?formatScore(Math.round(Math.max(...grades)*100)/100):"—"}</b><small>mejor nota</small></div></div>
    {chron.length>1&&<div className="examTrend" aria-label="Evolución de la nota">{chron.slice(-12).map(row=><i key={row.entry.id} title={`${formatExamDate(row.entry.endedAt)}: ${formatScore(row.score.grade)}`} className={row.score.grade>=5?"pass":""} style={{height:`${Math.max(4,row.score.grade*10)}%`}}/>)}<small>{last==null?"":last>=0?`▲ ${formatScore(Math.round(last*100)/100)} respecto al anterior`:`▼ ${formatScore(Math.round(-last*100)/100)} respecto al anterior`}</small></div>}
