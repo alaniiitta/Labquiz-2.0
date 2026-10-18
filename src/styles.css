@@ -385,3 +385,5 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .examStart button,.examStart button.primary,.examStart button.secondary{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:0;min-height:42px;height:auto;padding:6px 10px;border-radius:12px;font-size:13.5px;font-weight:800;line-height:1.15;white-space:nowrap}
 .examStart button svg{width:15px;height:15px;flex:0 0 15px}
 .reviewHero .examStart{justify-content:center;margin-top:14px}.examsPage>.examNote{font-size:12.5px;line-height:1.45;margin-top:12px}
+.result .confSummaryRow strong,.examResult .confSummaryRow strong{display:block;margin:0;font-size:15px;line-height:1.2;color:var(--text)}.result .confSummaryRow strong.neg,.examResult .confSummaryRow strong.neg{color:var(--danger)}.confSummaryRow em{font-size:13px}
+.confSummaryHelp{display:block;margin:-2px 0 2px;color:var(--muted);font-size:12px;line-height:1.4}
