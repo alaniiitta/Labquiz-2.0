@@ -260,10 +260,10 @@ function App(){
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}} onRecordExam={recordExam}/>}
-  {page==="review"&&<ReviewPage go={go} examHistory={userData.examHistory} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count>=SIMULACRUM_MIN?openExam(false,null,null,count):openTest(null,"mixed",null,count)} onResumeExam={()=>openExam(true)}/>}
+  {page==="review"&&<ReviewPage go={go} examHistory={userData.examHistory} examDeleted={userData.examHistoryDeleted} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onStart={count=>count>=SIMULACRUM_MIN?openExam(false,null,null,count):openTest(null,"mixed",null,count)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} examCount={examConfig.count??EXAM_COUNT} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
-  {page==="exams"&&<ExamsPage onStart={count=>count==="resume"?openExam(true):openExam(false,null,null,count)} history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
+  {page==="exams"&&<ExamsPage deleted={userData.examHistoryDeleted} onStart={count=>count==="resume"?openExam(true):openExam(false,null,null,count)} history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
   {page==="cheatsheet"&&<CheatSheetPage progress={userData.progress} go={go} onStart={questionIds=>openTest(null,"cheat",questionIds)}/>}
   {page==="wrong"&&<WrongPage progress={userData.progress} onStart={questionIds=>openTest(null,"failed",questionIds)} onMarkLearned={markLearned} go={go}/>}
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
@@ -838,11 +838,12 @@ function NumbersCard({onStart}){
 }
 
 // Simulacros hechos: evolución de la nota y lista para revisarlos otro día
-const examRows=(history,progress)=>[...(history??[]),...(progress?recoveredExamEntries(progress,history??[]):[])].map(entry=>({entry,score:examEntryScore(entry)})).filter(row=>row.score).sort((a,b)=>b.entry.endedAt-a.entry.endedAt);
+// deleted: los borrados (también los recuperados, que no están guardados y se reconstruyen cada vez)
+const examRows=(history,progress,deleted={})=>[...(history??[]),...(progress?recoveredExamEntries(progress,history??[]).filter(entry=>!deleted[entry.id]):[])].map(entry=>({entry,score:examEntryScore(entry)})).filter(row=>row.score).sort((a,b)=>b.entry.endedAt-a.entry.endedAt);
 const formatExamDate=time=>{const text=new Date(time).toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});return text.charAt(0).toUpperCase()+text.slice(1)};
 function ExamRow({entry,score,onReview,onDelete}){
  const total=score.correct+score.wrong+score.blank;
- return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total} (con soluciones)`:`Examen de ${total}`}{entry.recovered&&<em className="recoveredTag">recuperado</em>}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&!entry.recovered&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>{if(window.confirm("¿Borrar este simulacro de tu registro?"))onDelete(entry.id)}}><Trash2/></button>}</div>;
+ return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total} (con soluciones)`:`Examen de ${total}`}{entry.recovered&&<em className="recoveredTag">recuperado</em>}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>{if(window.confirm("¿Borrar este simulacro de tu registro?"))onDelete(entry.id)}}><Trash2/></button>}</div>;
 }
 // Botones para empezar un simulacro desde «Mis simulacros»
 function StartExamButtons({onStart}){
@@ -854,9 +855,9 @@ function StartExamButtons({onStart}){
  </div>;
 }
 
-function ExamsPage({history,progress,onReview,onDelete,onStart,go}){
+function ExamsPage({history,progress,deleted,onReview,onDelete,onStart,go}){
  const [kind,setKind]=useState("all");
- const rows=useMemo(()=>examRows(history,progress),[history,progress]);
+ const rows=useMemo(()=>examRows(history,progress,deleted),[history,progress,deleted]);
  const shown=rows.filter(row=>kind==="all"||(kind==="100"?row.score.total>=EXAM_COUNT:row.score.total<EXAM_COUNT));
  if(!rows.length) return <div className="reviewHero"><h2>Aún no has hecho ningún simulacro</h2><p>Cada examen que termines (de 100 o de 60) se guarda aquí con su nota para que puedas revisarlo cuando quieras, también desde tus otros dispositivos.</p><StartExamButtons onStart={onStart}/></div>;
  const grades=shown.map(row=>row.score.grade);
@@ -875,8 +876,8 @@ function ExamsPage({history,progress,onReview,onDelete,onStart,go}){
  </div>;
 }
 // En Repaso: los 3 últimos y acceso al registro completo
-function ExamHistory({history,progress,onReview,go}){
- const rows=useMemo(()=>examRows(history,progress).slice(0,3),[history,progress]);
+function ExamHistory({history,progress,deleted,onReview,go}){
+ const rows=useMemo(()=>examRows(history,progress,deleted).slice(0,3),[history,progress,deleted]);
  return <div className="reviewSetup examHistory">
   <span className="reviewSetupLabel"><Trophy/> Mis simulacros</span>
   {!rows.length&&<p className="examNote">Aún no tienes ninguno guardado. Cada examen que termines (de 100 o de 60) se guarda aquí con su nota para revisarlo otro día.</p>}
@@ -886,7 +887,7 @@ function ExamHistory({history,progress,onReview,go}){
 }
 const EXAM_HISTORY_LIMIT=40;
 
-function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory,progress}){
+function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory,examDeleted,progress}){
  const [count,setCount]=useState(20);
  const [savedExam,setSavedExam]=useState(()=>loadResumableExam());
  const totalAvailable=useMemo(()=>getAllQuestions().length,[activeScopeKey]);
@@ -894,7 +895,7 @@ function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory,
  const isExam=count>=SIMULACRUM_MIN;
  return <div className="reviewPage">
   <div className="reviewHero"><h2>Repaso general</h2><p>Test que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p></div>
-  <ExamHistory history={examHistory} progress={progress} onReview={onReviewExam} go={go}/>
+  <ExamHistory history={examHistory} progress={progress} deleted={examDeleted} onReview={onReviewExam} go={go}/>
   {savedExam&&<div className="resumeTestBanner" role="status"><div><b>{savedExam.deadline>Date.now()?"Tienes un simulacro en curso":"Tu simulacro se quedó sin tiempo"}</b><small>{Object.keys(savedExam.answers).length} de {savedExam.questions.length} respondidas · {savedExam.deadline>Date.now()?`quedan ${formatClock(savedExam.deadline-Date.now())}`:"se entregará con lo que respondiste"}</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={onResumeExam}><Play/> {savedExam.deadline>Date.now()?"Continuar":"Ver nota"}</button><button className="secondary" type="button" onClick={()=>{clearExamSession();setSavedExam(null)}}>Descartar</button></div></div>}
   <div className="reviewSetup">
    <span className="reviewSetupLabel">Repaso rápido</span>
