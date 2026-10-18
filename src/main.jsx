@@ -298,6 +298,7 @@ function HomePage({go,openTest,openExam,progress,planChecks,onTogglePlan,onSetPl
    <div className="homeSectionTitle"><div><span className="eyebrow">ACCESOS DIRECTOS</span><h3 id="quick-access-title">Tu estudio, a un toque</h3></div></div>
    <div className="homeQuickGrid">
     <button className="homeQuickAction failed" onClick={()=>go("wrong")}><span className="homeQuickIcon"><RotateCcw/></span><div><b>Preguntas falladas</b><small>Vuelve sobre tus errores</small></div><ChevronRight/></button>
+    <button className="homeQuickAction exams" onClick={()=>go("exams")}><span className="homeQuickIcon"><Trophy/></span><div><b>Mis simulacros</b><small>Revisa los que ya has hecho</small></div><ChevronRight/></button>
     <button className="homeQuickAction cheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Las claves de lo que se te escapa</small></div><ChevronRight/></button>
     <button className="homeQuickAction favorite" onClick={()=>go("favorites")}><span className="homeQuickIcon"><Star/></span><div><b>Preguntas favoritas</b><small>Practica las que guardes</small></div><ChevronRight/></button>
     <button className="homeQuickAction progress" onClick={()=>go("progress")}><span className="homeQuickIcon"><BarChart3/></span><div><b>Ver mi progreso</b><small>Consulta tu evolución</small></div><ChevronRight/></button>
@@ -651,7 +652,7 @@ function ExamPage({go,resume,historyEntry=null,repeatQuestions=null,onRepeat,onP
     <button className="primary" onClick={()=>{setPhase("review");goTo(0)}}>Revisar el examen</button>
     <button className="secondary" onClick={()=>onRepeat?.(questions)}><RotateCcw/> Repetir el mismo examen</button>
     {results.wrong>0&&<button className="secondary" onClick={()=>onPracticeFailed?.(questions.filter((question,index)=>status(index)==="wrong").map(question=>getQuestionIdForProgress(question)))}><Target/> Practicar las {results.wrong} falladas</button>}
-    {historyEntry?<button className="secondary" onClick={()=>go("exams")}>Volver a Mis simulacros</button>:<button className="secondary" onClick={()=>go("review")}>Volver a Repaso</button>}
+    {historyEntry?<button className="secondary" onClick={()=>go("exams")}>Volver a Mis simulacros</button>:<><button className="secondary" onClick={()=>go("exams")}><Trophy/> Ver en Mis simulacros</button><button className="secondary" onClick={()=>go("review")}>Volver a Repaso</button></>}
    </div>
   </div>;
  }
@@ -850,11 +851,11 @@ function ExamsPage({history,onReview,onDelete,go}){
 // En Repaso: los 3 últimos y acceso al registro completo
 function ExamHistory({history,onReview,go}){
  const rows=useMemo(()=>examRows(history).slice(0,3),[history]);
- if(!rows.length) return null;
  return <div className="reviewSetup examHistory">
-  <span className="reviewSetupLabel"><Trophy/> Tus últimos simulacros</span>
+  <span className="reviewSetupLabel"><Trophy/> Mis simulacros</span>
+  {!rows.length&&<p className="examNote">Aún no tienes ninguno guardado. Cada simulacro que termines (el de 60 o el examen de 100) se guarda aquí con su nota para revisarlo otro día.</p>}
   {rows.map(({entry,score})=><ExamRow key={entry.id} entry={entry} score={score} onReview={onReview}/>)}
-  <button type="button" className="secondary" onClick={()=>go("exams")}>Ver todos mis simulacros <ChevronRight/></button>
+  {rows.length>0&&<button type="button" className="secondary" onClick={()=>go("exams")}>Ver todos mis simulacros <ChevronRight/></button>}
  </div>;
 }
 const EXAM_HISTORY_LIMIT=40;
@@ -867,6 +868,7 @@ function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory}
  const isExam=count>=SIMULACRUM_MIN;
  return <div className="reviewPage">
   <div className="reviewHero"><h2>Repaso general</h2><p>Test que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p></div>
+  <ExamHistory history={examHistory} onReview={onReviewExam} go={go}/>
   {savedExam&&<div className="resumeTestBanner" role="status"><div><b>{savedExam.deadline>Date.now()?"Tienes un simulacro en curso":"Tu simulacro se quedó sin tiempo"}</b><small>{Object.keys(savedExam.answers).length} de {savedExam.questions.length} respondidas · {savedExam.deadline>Date.now()?`quedan ${formatClock(savedExam.deadline-Date.now())}`:"se entregará con lo que respondiste"}</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={onResumeExam}><Play/> {savedExam.deadline>Date.now()?"Continuar":"Ver nota"}</button><button className="secondary" type="button" onClick={()=>{clearExamSession();setSavedExam(null)}}>Descartar</button></div></div>}
   <div className="reviewSetup">
    <span className="reviewSetupLabel">Repaso rápido</span>
@@ -876,7 +878,6 @@ function ReviewPage({go,onStart,onResumeExam,onNumbers,onReviewExam,examHistory}
    {isExam&&<p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno en el banco.{count===EXAM_COUNT?<> <b>Modo examen real:</b> 1 h 30 min, sin soluciones hasta entregar y cada 4 fallos restan 1 acierto (las en blanco no restan).</>:" Verás la solución de cada pregunta al responderla."}</p>}
    <button className="primary" type="button" onClick={()=>onStart(count)}>{count===EXAM_COUNT?"Empezar examen de 100 · 1 h 30 min":isExam?`Empezar simulacro de ${count}`:"Empezar repaso aleatorio"}</button>
   </div>
-  <ExamHistory history={examHistory} onReview={onReviewExam} go={go}/>
   <NumbersCard onStart={onNumbers}/>
   <button type="button" className="homeQuickAction cheat reviewCheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Repasa en pocos minutos las claves de lo que has fallado</small></div><ChevronRight/></button>
  </div>;

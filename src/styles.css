@@ -379,3 +379,4 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .examGrade.pass{color:var(--primary)}
 .examHistory>button.secondary{display:inline-flex;align-items:center;justify-content:center;gap:4px}.examHistory>button.secondary svg{width:15px}
 .examsPage .topicOrderRow .choiceRow{flex-wrap:wrap}
+.homeQuickAction.exams .homeQuickIcon{background:#f7efdf;color:#9a7535}:root[data-theme="dark"] .homeQuickAction.exams .homeQuickIcon{background:#3a3222;color:#e3c072}
