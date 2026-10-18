@@ -100,7 +100,7 @@ const LETTER_LIST_OPTION_PATTERN = /\b[A-D]\)?\s*(?:,\s*(?:y|e|o)?|y|e|o)\s*\b[A
 // "Son correctas a y b", "a, b y d".
 const LOWERCASE_LETTER_LIST_PATTERN = /(?:^|[\s(])[a-d]\)?(?:\s*,\s*[a-d]\)?)*\s*(?:,|\by\b|\be\b|\bo\b)\s*[a-d]\)?(?=[\s.,;:)]|$)/;
 
-function hasSelfReferentialOption(options) {
+export function hasSelfReferentialOption(options) {
   return options.some((text) => typeof text === "string"
     && (SELF_REFERENTIAL_OPTION_PATTERN.test(text) || LETTER_LIST_OPTION_PATTERN.test(text) || LOWERCASE_LETTER_LIST_PATTERN.test(text)));
 }

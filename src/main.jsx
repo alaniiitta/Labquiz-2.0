@@ -13,7 +13,7 @@ import {recoverPastExams} from "./lib/recoverExams.js";
 import {BREAK_EVEN,CONFIDENCE_LEVELS,confidenceAdvice,confidenceStats,expectedValue,recordConfidence} from "./lib/confidence.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
-import {getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
+import {hasSelfReferentialOption,getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
 import {EXAM_HISTORY_KEY,loadExamHistory,clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
@@ -199,7 +199,10 @@ const examEntryScore=entry=>{const restored=restoreExamFromHistory(entry);if(!re
 // Simulacros anteriores al registro, reconstruidos a partir del progreso (ver lib/recoverExams.js)
 const recoveredExamEntries=(progress,recorded=[])=>{
  const bank=new Map(getAllQuestions(true).map(question=>[getQuestionIdForProgress(question),question]));
- return recoverPastExams(progress,new Set(bank.keys()),recorded).map(({items,...entry})=>({...entry,q:items.map(item=>`${item.id}|${bank.get(item.id).answers.map((answer,index)=>index).join("")}`),answers:Object.fromEntries(items.map((item,index)=>[index,item.failed?-1:bank.get(item.id).correctAnswer])),flags:[],confidence:{},scratch:{}}));
+ return recoverPastExams(progress,new Set(bank.keys()),recorded).map(({items,...entry})=>({...entry,q:items.map(item=>`${item.id}|${bank.get(item.id).answers.map((answer,index)=>index).join("")}`),answers:Object.fromEntries(items.map((item,index)=>{const question=bank.get(item.id);
+  // la opción marcada solo se sabe en las preguntas que no se barajan («todas las anteriores», «A y C»…)
+  const chosenKnown=hasSelfReferentialOption(question.answers)&&Number.isInteger(item.chosen)&&item.chosen<question.answers.length&&item.shownCorrect===question.correctAnswer;
+  return [index,item.failed?(chosenKnown?item.chosen:-1):question.correctAnswer]})),flags:[],confidence:{},scratch:{}}));
 };
 const formatClock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),sec=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(sec).padStart(2,"0")}`};
 const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
@@ -685,7 +688,7 @@ function ExamPage({go,resume,historyEntry=null,repeatQuestions=null,onRepeat,onP
    <div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":"Si no la sabes, déjala en blanco: no resta."}</p>}
    {!reviewing&&<label className="examScratch"><span><Pencil/> Mis notas</span><textarea rows={2} value={scratch[i]??""} onChange={e=>{const text=e.target.value;setScratch(current=>{const next={...current};if(text)next[i]=text;else delete next[i];return next})}} placeholder="Apunta lo que quieras de esta pregunta: lo verás al revisar el examen"/></label>}
-   {reviewing&&exam.recovered&&status(i)==="wrong"&&<p className="examHint">La fallaste en este simulacro (no se guardó qué opción marcaste).</p>}
+   {reviewing&&exam.recovered&&status(i)==="wrong"&&selected===-1&&<p className="examHint">La fallaste en este simulacro (no se guardó qué opción marcaste).</p>}
    {reviewing&&scratch[i]?.trim()&&<div className="examScratchRead"><span><Pencil/> Tu nota durante el examen</span><p>{scratch[i]}</p></div>}
    {reviewing&&<div className="testFeedback"><ExplanationDisplay structured={explainQuestion(q,q.topicId)} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={hasAnswer?selected===q.correctAnswer:null}/><ExplanationFigures question={q} topicId={q.topicId} explanation={explainQuestion(q,q.topicId)}/><AskClaudeButton key={i} question={q} topicId={q.topicId} selected={hasAnswer?selected:null}/><NoteEditor key={`note-${i}`} question={q} note={notes[linkedId]} onSave={onSaveNote}/></div>}
    <div className="testActions">

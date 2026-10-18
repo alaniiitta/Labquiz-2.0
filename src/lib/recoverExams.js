@@ -52,6 +52,6 @@ export function recoverPastExams(progress = {}, knownIds = new Set(), recorded =
     startedAt,
     endedAt,
     // orden original de las opciones; las falladas llevan −1 porque no se sabe qué se marcó
-    items: items.sort((a, b) => a.at - b.at).map((entry) => ({ id: entry.id, failed: entry.failed })),
+    items: items.sort((a, b) => a.at - b.at).map((entry) => ({ id: entry.id, failed: entry.failed, chosen: entry.state.respuestaElegida, shownCorrect: entry.state.respuestaCorrecta })),
   })).sort((a, b) => b.endedAt - a.endedAt);
 }
