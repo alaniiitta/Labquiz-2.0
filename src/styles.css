@@ -410,3 +410,8 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .recoveryCode code{display:block;padding:12px;border:1px dashed var(--primary);border-radius:10px;background:var(--card);font-size:20px;font-weight:800;letter-spacing:.06em;text-align:center;user-select:all;word-break:break-all}
 .accountForm .codeInput{font-family:ui-monospace,Menlo,monospace;letter-spacing:.05em}
 .accountForm .linkButton{justify-self:start;padding:0;border:0;background:none;color:var(--primary);font-size:12px;font-weight:700;text-decoration:underline;min-height:0}
+/* «¿seguro?» propio (dentro de claude.ai no se muestran los del navegador) */
+.confirmOverlay{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;padding:16px;background:rgb(0 0 0 / .45)}
+.confirmBox{width:min(360px,100%);padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);box-shadow:0 18px 40px rgb(0 0 0 / .25)}
+.confirmBox p{margin:0 0 16px;font-size:14px;line-height:1.45}
+.confirmActions{display:flex;justify-content:flex-end;gap:8px}.confirmActions button{min-height:40px;padding:0 14px}

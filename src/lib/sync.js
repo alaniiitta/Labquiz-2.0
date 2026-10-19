@@ -67,7 +67,7 @@ export const logoutAccount = token => call({ action: "logout", token }).catch(()
 // gzip + base64 con las herramientas del navegador (Safari 16.4+); si no las hay, se envía sin comprimir.
 const canCompress = typeof CompressionStream === "function" && typeof DecompressionStream === "function";
 
-async function gzipBase64(text) {
+export async function gzipBase64(text) {
  const stream = new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"));
  const bytes = new Uint8Array(await new Response(stream).arrayBuffer());
  let binary = "";
@@ -75,7 +75,7 @@ async function gzipBase64(text) {
  return btoa(binary);
 }
 
-async function gunzipBase64(base64) {
+export async function gunzipBase64(base64) {
  const bytes = Uint8Array.from(atob(base64), char => char.charCodeAt(0));
  const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
  return new Response(stream).text();

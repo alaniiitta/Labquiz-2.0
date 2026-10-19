@@ -22,6 +22,8 @@ import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex} from "./lib/summaryLinks.js";
 import {MIN_PASSWORD,USER_PATTERN,accountInfo,changePassword,createRecoveryCode,loadSyncSettings,loginAccount,logoutAccount,pushSync,registerAccount,resetPassword,saveSyncSettings} from "./lib/sync.js";
 import {mergeUserData,syncFingerprint,syncSignature} from "./lib/syncMerge.js";
+import {connectClaude,inClaude,pullClaude,pushClaude,saveFileInClaude} from "./lib/claudeSync.js";
+import {askConfirm} from "./lib/confirm.js";
 import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
 
@@ -242,7 +244,9 @@ function App(){
  const deleteExam=id=>setUserData(data=>({...data,examHistory:(data.examHistory??[]).filter(item=>item.id!==id),examHistoryDeleted:{...(data.examHistoryDeleted??{}),[id]:Date.now()}}));
  // los simulacros que versiones anteriores guardaban solo en este dispositivo pasan a la cuenta
  useEffect(()=>{const old=loadExamHistory();if(!old.length)return;setUserData(data=>{const ids=new Set((data.examHistory??[]).map(item=>item.id));return {...data,examHistory:[...(data.examHistory??[]),...old.filter(item=>!ids.has(item.id))].sort((a,b)=>b.endedAt-a.endedAt).slice(0,40)}});try{localStorage.removeItem(EXAM_HISTORY_KEY)}catch{}},[]);
- const sync=useSync(userData,setUserData);
+ const accountSync=useSync(userData,setUserData);
+ const claudeSync=useClaudeSync(userData,setUserData);
+ const sync=claudeSync.active?claudeSync:accountSync;
  const [saveFailed,setSaveFailed]=useState(false);
  useEffect(()=>setSaveFailed(!saveUserData(userData)),[userData]);
  useEffect(()=>{document.documentElement.dataset.theme=userData.theme??"light"},[userData.theme]);
@@ -271,7 +275,7 @@ function App(){
   {page==="favorites"&&<FavoritesPage favorites={userData.favorites} onToggleFavorite={toggleFavorite} go={go}/>}
   {page==="progress"&&<ProgressPage progress={userData.progress} confidence={userData.confidence??{}} onStart={topicId=>openTest(topicId)}/>}
   {page==="simulacrum"&&<SimulacrumPage go={go}/>}
-  {page==="settings"&&<SettingsPage onExamScope={setExamScope} sync={sync} userData={userData} onRestore={data=>setUserData(migrateDuplicateProgress(data,duplicateAliases))} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
+  {page==="settings"&&<SettingsPage onExamScope={setExamScope} sync={sync} userData={userData} onRestore={data=>setUserData(current=>{const restored=migrateDuplicateProgress(data,duplicateAliases);return claudeSync.active?{...mergeUserData(current,restored),theme:current.theme}:restored})} onThemeChange={theme=>setUserData(data=>({...data,theme}))}/>}
   </main>
  </div>
 }
@@ -845,7 +849,7 @@ const examRows=(history,progress,deleted={})=>[...(history??[]),...(progress?rec
 const formatExamDate=time=>{const text=new Date(time).toLocaleDateString("es-ES",{weekday:"short",day:"numeric",month:"short"});return text.charAt(0).toUpperCase()+text.slice(1)};
 function ExamRow({entry,score,onReview,onDelete}){
  const total=score.correct+score.wrong+score.blank;
- return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total} (con soluciones)`:`Examen de ${total}`}{entry.recovered&&<em className="recoveredTag">recuperado</em>}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>{if(window.confirm("¿Borrar este simulacro de tu registro?"))onDelete(entry.id)}}><Trash2/></button>}</div>;
+ return <div className="examHistoryRow"><button type="button" className="examHistoryOpen" onClick={()=>onReview?.(entry)}><span className={`examGrade${score.grade>=5?" pass":""}`}>{formatScore(Math.round(score.grade*100)/100)}</span><div><b>{formatExamDate(entry.endedAt)} · {entry.kind==="sim"?`Simulacro de ${total} (con soluciones)`:`Examen de ${total}`}{entry.recovered&&<em className="recoveredTag">recuperado</em>}</b><small>{score.correct}✓ {score.wrong}✗ {score.blank} en blanco · neta {formatScore(score.net)}</small></div><span>Revisar <ChevronRight/></span></button>{onDelete&&<button type="button" className="examHistoryDelete" aria-label="Borrar este simulacro" onClick={()=>askConfirm("¿Borrar este simulacro de tu registro?").then(ok=>{if(ok)onDelete(entry.id)})}><Trash2/></button>}</div>;
 }
 // Botones para empezar un simulacro desde «Mis simulacros»
 function StartExamButtons({onStart}){
@@ -971,7 +975,7 @@ function NoteEditor({question,note,onSave}){
  </div>;
  if(!note) return <button type="button" className="noteAdd" onClick={start}><NotebookPen/> Guardar aclaración</button>;
  return <div className="noteBox">
-  <div className="noteHead"><span className="noteLabel"><NotebookPen/> Tu aclaración</span><button type="button" onClick={start} aria-label="Editar aclaración"><Pencil/></button><button type="button" onClick={()=>{if(window.confirm("¿Borrar esta aclaración?"))onSave?.(question,"")}} aria-label="Borrar aclaración"><Trash2/></button></div>
+  <div className="noteHead"><span className="noteLabel"><NotebookPen/> Tu aclaración</span><button type="button" onClick={start} aria-label="Editar aclaración"><Pencil/></button><button type="button" onClick={()=>askConfirm("¿Borrar esta aclaración?").then(ok=>{if(ok)onSave?.(question,"")})} aria-label="Borrar aclaración"><Trash2/></button></div>
   <NoteText text={note.text}/>
  </div>;
 }
@@ -1055,12 +1059,17 @@ function SettingsPage({sync,userData,onRestore,onThemeChange,onExamScope}){
  const progressCount=Object.keys(userData.progress??{}).length;
  const favoritesCount=userData.favorites?.length??0;
 
- const exportBackup=()=>{
+ const exportBackup=async()=>{
   const content=JSON.stringify(createBackup(userData),null,2);
+  const filename=`labquiz-copia-${new Date().toISOString().slice(0,10)}.json`;
+  if(inClaude()){
+   try{if(await saveFileInClaude(filename,content)){setMessage({type:"success",text:"Copia creada. Guárdala en Archivos, iCloud Drive o en otro lugar seguro."});return;}}
+   catch(error){if(error?.code==="declined")return;}
+  }
   const url=URL.createObjectURL(new Blob([content],{type:"application/json"}));
   const link=document.createElement("a");
   link.href=url;
-  link.download=`labquiz-copia-${new Date().toISOString().slice(0,10)}.json`;
+  link.download=filename;
   document.body.appendChild(link);
   link.click();
   link.remove();
@@ -1074,7 +1083,7 @@ function SettingsPage({sync,userData,onRestore,onThemeChange,onExamScope}){
   if(!file)return;
   try{
    const restored=parseBackup(await file.text());
-   const confirmed=window.confirm("Esta copia sustituirá el progreso y los favoritos guardados en este navegador. ¿Quieres continuar?");
+   const confirmed=await askConfirm(sync.active?"Se unirá con el progreso que ya tienes aquí: no se pierde nada. ¿Continuar?":"Esta copia sustituirá el progreso y los favoritos guardados en este navegador. ¿Quieres continuar?");
    if(!confirmed)return;
    onRestore(restored);
    setMessage({type:"success",text:"Copia restaurada correctamente. Tu progreso ya está actualizado."});
@@ -1097,6 +1106,62 @@ function SettingsPage({sync,userData,onRestore,onThemeChange,onExamScope}){
 
 // Sincronización automática con la nube (con tu cuenta): al abrir, al volver a la app,
 // al recuperar la conexión y unos segundos después de cada cambio. Une los datos, nunca los sustituye.
+// Sincronización con la cuenta de Claude cuando la app está publicada en claude.ai (ver claudeSync.js).
+function useClaudeSync(userData,setUserData){
+ const active=inClaude();
+ const [status,setStatus]=useState(active?"connecting":"off");
+ const [lastSyncAt,setLastSyncAt]=useState(null);
+ const dataRef=useRef(userData);
+ const fpRef=useRef(null);
+ const runningRef=useRef(false);
+ const pendingRef=useRef(false);
+ dataRef.current=userData;
+
+ const syncNow=async()=>{
+  if(!active) return;
+  if(runningRef.current){pendingRef.current=true;return;}
+  runningRef.current=true;
+  try{
+   const conn=await connectClaude();
+   if(!conn){setStatus("off");return;}
+   setStatus("syncing");
+   const local=dataRef.current;
+   const localFp=syncFingerprint(local);
+   const remote=await pullClaude(conn,fpRef.current);
+   // la nube no ha cambiado desde la última vez y aquí tampoco: nada que hacer
+   if(remote?.same&&localFp===remote.fp){fpRef.current=remote.fp;setStatus("ok");setLastSyncAt(Date.now());return;}
+   const merged=remote&&!remote.same?mergeUserData(local,remote.data):local;
+   const mergedFp=syncFingerprint(merged);
+   fpRef.current=mergedFp===remote?.fp?remote.fp:await pushClaude(conn,merged);
+   if(syncSignature(merged)!==syncSignature(local)) setUserData(current=>({...mergeUserData(current,merged),theme:current.theme}));
+   setStatus("ok");setLastSyncAt(Date.now());
+  }catch(error){
+   console.error("sync claude",error);
+   setStatus("error");
+  }finally{
+   runningRef.current=false;
+   if(pendingRef.current){pendingRef.current=false;setTimeout(()=>syncNow(),500);}
+  }
+ };
+
+ useEffect(()=>{
+  if(!active) return;
+  syncNow();
+  const onVisible=()=>{if(document.visibilityState==="visible"||syncFingerprint(dataRef.current)!==fpRef.current)syncNow()};
+  document.addEventListener("visibilitychange",onVisible);
+  return()=>document.removeEventListener("visibilitychange",onVisible);
+ },[]);
+
+ // tras cada cambio local (espera 20 s para agrupar varias respuestas seguidas)
+ useEffect(()=>{
+  if(!active||fpRef.current==null||syncFingerprint(userData)===fpRef.current) return;
+  const timer=setTimeout(()=>syncNow(),SYNC_DELAY);
+  return ()=>clearTimeout(timer);
+ },[userData]);
+
+ return {active,status,lastSyncAt,syncNow:()=>syncNow()};
+}
+
 // espera tras el último cambio antes de subirlo (agrupa las respuestas de un test)
 const SYNC_DELAY=20000;
 function useSync(userData,setUserData){
@@ -1184,6 +1249,7 @@ const accountErrors={
 };
 
 function SyncCard({sync}){
+ if(sync.active) return <ClaudeSyncCard sync={sync}/>;
  const [mode,setMode]=useState(null);
  const [user,setUser]=useState("");
  const [password,setPassword]=useState("");
@@ -1234,7 +1300,21 @@ function SyncCard({sync}){
    <p className={`syncStatus ${sync.status}`}>{sync.status==="offline"||sync.status==="error"||sync.status==="not-configured"?<CloudOff/>:<Cloud/>}{statusText}</p>
    <AccountSecurity sync={sync} justReset={justReset}/>
   </div>
-  <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>{if(window.confirm("¿Cerrar sesión en este dispositivo? Tu progreso se queda guardado aquí y en tu cuenta."))sync.signOut()}}><LogOut/> Cerrar sesión</button></div>
+  <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>askConfirm("¿Cerrar sesión en este dispositivo? Tu progreso se queda guardado aquí y en tu cuenta.").then(ok=>{if(ok)sync.signOut()})}><LogOut/> Cerrar sesión</button></div>
+ </section>;
+}
+
+// Dentro de claude.ai: el progreso va a tu cuenta de Claude, sin usuario ni contraseña.
+function ClaudeSyncCard({sync}){
+ const [,tick]=useState(0);
+ useEffect(()=>{const timer=setInterval(()=>tick(n=>n+1),30000);return()=>clearInterval(timer)},[]);
+ const statusText={connecting:"Conectando…",syncing:"Sincronizando…",ok:`Sincronizado ${timeAgo(sync.lastSyncAt)}`,error:"No se pudo sincronizar. Se volverá a intentar.",off:"Sin sincronizar: abre la app con tu cuenta de Claude iniciada."}[sync.status];
+ return <section className="settingsCard syncCard on">
+  <div className="settingsCardText"><h3><UserRound/> Tu progreso</h3><p>Se guarda en <b>tu cuenta de Claude</b> y se sincroniza solo entre el móvil y el iPad: abre este mismo enlace en los dos. Nadie más puede verlo.</p>
+   <p className={`syncStatus ${sync.status}`}>{sync.status==="error"||sync.status==="off"?<CloudOff/>:<Cloud/>}{statusText}</p>
+   <small className="syncHint">¿Tienes progreso en la web antigua (labquiz-2-0.vercel.app)? Cuando vuelva a abrir, descarga allí una copia de seguridad y restáurala aquí abajo: se une con lo que ya tengas, no se pierde nada.</small>
+  </div>
+  <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"||sync.status==="off"}><RefreshCw/> Sincronizar ahora</button></div>
  </section>;
 }
 
@@ -1262,7 +1342,7 @@ function AccountSecurity({sync,justReset}){
   catch(err){fail(err)}finally{setBusy(false)}
  };
  const makeCode=async()=>{
-  if(info?.recoveryAt&&!window.confirm("Ya tienes un código de recuperación. Si creas otro, el anterior deja de valer. ¿Crear uno nuevo?"))return;
+  if(info?.recoveryAt&&!(await askConfirm("Ya tienes un código de recuperación. Si creas otro, el anterior deja de valer. ¿Crear uno nuevo?")))return;
   setBusy(true);setError(null);setCopied(false);
   try{const result=await sync.createRecoveryCode();setNewCode(result.code);setInfo(current=>({...current,recoveryAt:result.createdAt}));setPanel("code");}
   catch(err){fail(err)}finally{setBusy(false)}
