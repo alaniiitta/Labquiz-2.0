@@ -40,10 +40,13 @@ export class SyncError extends Error {
  }
 }
 
+// En Vercel la función está en la misma web; desde GitHub Pages se llama a la de Vercel.
+const API_URL = import.meta.env?.VITE_API_URL || "/api/sync";
+
 async function call(payload) {
  let response;
  try {
-  response = await fetch("/api/sync", {
+  response = await fetch(API_URL, {
    method: "POST",
    headers: { "Content-Type": "application/json" },
    body: JSON.stringify(payload),

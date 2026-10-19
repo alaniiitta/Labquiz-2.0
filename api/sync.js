@@ -262,8 +262,20 @@ async function accountInfo(body) {
 
 const actions = { register, login, sync, logout, password: changePassword, recovery: createRecovery, reset, account: accountInfo };
 
+// La app publicada en GitHub Pages llama a esta función desde otra dirección.
+const ALLOWED_ORIGINS = new Set(["https://alaniiitta.github.io"]);
+
 export default async function handler(req, res) {
  res.setHeader("Cache-Control", "no-store");
+ const origin = req.headers?.origin;
+ if (origin && ALLOWED_ORIGINS.has(origin)) {
+  res.setHeader("Access-Control-Allow-Origin", origin);
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Access-Control-Max-Age", "86400");
+  res.setHeader("Vary", "Origin");
+ }
+ if (req.method === "OPTIONS") return res.status(204).end();
  if (req.method !== "POST") {
   res.setHeader("Allow", "POST");
   return res.status(405).json({ error: "method-not-allowed" });
