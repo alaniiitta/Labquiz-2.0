@@ -58,6 +58,10 @@ async function call(payload) {
 
 export const registerAccount = (user, password) => call({ action: "register", user, password });
 export const loginAccount = (user, password) => call({ action: "login", user, password });
+export const changePassword = (token, password) => call({ action: "password", token, password });
+export const createRecoveryCode = token => call({ action: "recovery", token });
+export const resetPassword = (user, code, password) => call({ action: "reset", user, code, password });
+export const accountInfo = token => call({ action: "account", token });
 export const logoutAccount = token => call({ action: "logout", token }).catch(() => null);
 
 // Sube los datos locales; el servidor los une con los guardados y devuelve el resultado.

@@ -1,6 +1,6 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {createRoot} from "react-dom/client";
-import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive,ScrollText,CalendarDays,Hash,ShieldQuestion,Check,FlaskRound} from "lucide-react";
+import {Home,BookOpen,Brain,RotateCcw,BarChart3,Trophy,Search,ChevronRight,Star,FlaskConical,Menu,X,ArrowLeft,Target,Layers3,Settings,Download,Upload,ShieldCheck,CheckCircle2,Moon,Sun,Play,Hourglass,Timer,Flag,LayoutGrid,Sparkles,ExternalLink,NotebookPen,Pencil,Trash2,ClipboardPaste,Copy,Cloud,CloudOff,RefreshCw,LogIn,LogOut,UserRound,Eye,EyeOff,HardDrive,ScrollText,CalendarDays,Hash,ShieldQuestion,Check,FlaskRound,KeyRound} from "lucide-react";
 import "./styles.css";
 import "./theme-day.css";
 import "./theme-night.css";
@@ -20,7 +20,7 @@ import {explainQuestion} from "./lib/explainQuestion.js";
 import {EXAM_HISTORY_KEY,loadExamHistory,clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
 import {buildTopicIndex} from "./lib/summaryLinks.js";
-import {MIN_PASSWORD,USER_PATTERN,loadSyncSettings,loginAccount,logoutAccount,pushSync,registerAccount,saveSyncSettings} from "./lib/sync.js";
+import {MIN_PASSWORD,USER_PATTERN,accountInfo,changePassword,createRecoveryCode,loadSyncSettings,loginAccount,logoutAccount,pushSync,registerAccount,resetPassword,saveSyncSettings} from "./lib/sync.js";
 import {mergeUserData,syncFingerprint,syncSignature} from "./lib/syncMerge.js";
 import {bankPercentile,coverageTerm,difficultyFor,intrinsicScore} from "./lib/difficulty.js";
 
@@ -1148,13 +1148,19 @@ function useSync(userData,setUserData){
  },[settings?.token]);
 
  // crea la cuenta o entra; lanza SyncError con el motivo si no se puede
- const signIn=async(mode,user,password)=>{
-  const result=await (mode==="register"?registerAccount:loginAccount)(user,password);
+ const signIn=async(mode,user,password,code)=>{
+  const result=await (mode==="register"?registerAccount(user,password):mode==="reset"?resetPassword(user,code,password):loginAccount(user,password));
   const account={user:result.user,token:result.token,lastSyncAt:null,lastSignature:null};
   saveSyncSettings(account);setSettings(account);setStatus("idle");
  };
  const signOut=async()=>{const token=settings?.token;saveSyncSettings(null);setSettings(null);setStatus("off");if(token)await logoutAccount(token);};
- return {user:settings?.user??null,lastSyncAt:settings?.lastSyncAt??null,status,syncNow:()=>syncNow(),signIn,signOut};
+ // contraseña y código de recuperación (con la sesión abierta); si la sesión ya no vale, hay que volver a entrar
+ const withSession=action=>async(...args)=>{
+  try{return await action(settings?.token,...args)}
+  catch(error){if(error?.kind==="unauthorized"){saveSyncSettings(null);setSettings(null);setStatus("expired");}throw error}
+ };
+ return {user:settings?.user??null,lastSyncAt:settings?.lastSyncAt??null,status,syncNow:()=>syncNow(),signIn,signOut,
+  changePassword:withSession(changePassword),createRecoveryCode:withSession(createRecoveryCode),accountInfo:withSession(accountInfo)};
 }
 
 const timeAgo=ms=>{if(!ms)return "todavía no";const minutes=Math.round((Date.now()-ms)/60000);if(minutes<1)return "hace un momento";if(minutes<60)return `hace ${minutes} min`;const hours=Math.round(minutes/60);if(hours<24)return `hace ${hours} h`;return new Date(ms).toLocaleDateString("es-ES",{day:"numeric",month:"short"});};
@@ -1165,6 +1171,8 @@ const accountErrors={
  "user-taken":"Ese usuario ya existe. Si es tuyo, pulsa «Iniciar sesión».",
  "bad-credentials":"Usuario o contraseña incorrectos.",
  "too-many":"Demasiados intentos fallidos. Espera 15 minutos y vuelve a probar.",
+ "bad-code":"Usuario o código de recuperación incorrectos.",
+ "unauthorized":"Tu sesión se cerró. Vuelve a iniciar sesión.",
  "offline":"Sin conexión a internet. Inténtalo cuando tengas conexión.",
  "not-configured":"Falta conectar la base de datos en Vercel (Storage).",
 };
@@ -1173,7 +1181,9 @@ function SyncCard({sync}){
  const [mode,setMode]=useState(null);
  const [user,setUser]=useState("");
  const [password,setPassword]=useState("");
+ const [code,setCode]=useState("");
  const [showPassword,setShowPassword]=useState(false);
+ const [justReset,setJustReset]=useState(false);
  const [error,setError]=useState(null);
  const [busy,setBusy]=useState(false);
  const [,tick]=useState(0);
@@ -1183,9 +1193,10 @@ function SyncCard({sync}){
   e.preventDefault();
   const name=user.trim().toLowerCase();
   if(!USER_PATTERN.test(name)){setError(accountErrors["invalid-user"]);return;}
-  if(mode==="register"&&password.length<MIN_PASSWORD){setError(accountErrors["weak-password"]);return;}
+  if(mode!=="login"&&password.length<MIN_PASSWORD){setError(accountErrors["weak-password"]);return;}
+  if(mode==="reset"&&code.replace(/[^a-z0-9]/gi,"").length!==16){setError("El código de recuperación tiene 16 letras y números (p. ej. ABCD-EFGH-JKMN-PQRS).");return;}
   setBusy(true);setError(null);
-  try{await sync.signIn(mode,name,password);setMode(null);setPassword("");}
+  try{await sync.signIn(mode,name,password,code);setJustReset(mode==="reset");setMode(null);setPassword("");setCode("");}
   catch(err){
    const base=accountErrors[err?.kind]??"No se pudo completar. Vuelve a intentarlo.";
    setError(err?.kind==="not-configured"&&err.detail?`${base} ${err.detail.length?`Variables que ve Vercel: ${err.detail.join(", ")}.`:"Vercel no ve ninguna variable de base de datos: conéctala al proyecto y haz Redeploy."}`:base);
@@ -1197,12 +1208,15 @@ function SyncCard({sync}){
   <div className="settingsCardText"><h3><UserRound/> Tu cuenta</h3><p>Entra con tu usuario en el móvil y en el iPad para estudiar con el mismo progreso, favoritos y aclaraciones. Se unen automáticamente: no se pierde lo que hagas en cada uno.</p>
    {sync.status==="expired"&&<p className="syncStatus error"><CloudOff/>Tu sesión se cerró. Vuelve a iniciar sesión.</p>}
    {mode&&<form className="accountForm" onSubmit={submit}>
-    <b className="accountTitle">{mode==="register"?"Crear cuenta":"Iniciar sesión"}</b>
+    <b className="accountTitle">{mode==="register"?"Crear cuenta":mode==="reset"?"Recuperar la contraseña":"Iniciar sesión"}</b>
+    {mode==="reset"&&<small className="syncHint">Escribe tu usuario, el <b>código de recuperación</b> que guardaste y una contraseña nueva. ¿Sigues con la sesión abierta en el móvil o el iPad? Entonces es más fácil: allí, en Configuración → Tu cuenta → <b>Cambiar contraseña</b>.</small>}
     <label>Usuario<input value={user} onChange={e=>{setUser(e.target.value);setError(null)}} autoComplete="username" autoCapitalize="none" autoCorrect="off" spellCheck={false} placeholder="p. ej. alana" autoFocus/></label>
-    <label>Contraseña<span className="pwWrap"><input type={showPassword?"text":"password"} value={password} onChange={e=>{setPassword(e.target.value);setError(null)}} autoComplete={mode==="register"?"new-password":"current-password"} placeholder={mode==="register"?`Mínimo ${MIN_PASSWORD} caracteres`:""}/><button type="button" className="pwToggle" onClick={()=>setShowPassword(v=>!v)} aria-label={showPassword?"Ocultar contraseña":"Mostrar contraseña"}>{showPassword?<EyeOff/>:<Eye/>}</button></span></label>
-    {mode==="register"&&<small className="syncHint">No hay recuperación por email: apunta la contraseña o deja que el iPhone la guarde. Si la olvidas, tu progreso sigue en tus dispositivos y puedes crear otra cuenta.</small>}
+    {mode==="reset"&&<label>Código de recuperación<input value={code} onChange={e=>{setCode(e.target.value.toUpperCase());setError(null)}} autoComplete="one-time-code" autoCapitalize="characters" autoCorrect="off" spellCheck={false} placeholder="XXXX-XXXX-XXXX-XXXX" className="codeInput"/></label>}
+    <label>{mode==="reset"?"Contraseña nueva":"Contraseña"}<span className="pwWrap"><input type={showPassword?"text":"password"} value={password} onChange={e=>{setPassword(e.target.value);setError(null)}} autoComplete={mode==="login"?"current-password":"new-password"} placeholder={mode!=="login"?`Mínimo ${MIN_PASSWORD} caracteres`:""}/><button type="button" className="pwToggle" onClick={()=>setShowPassword(v=>!v)} aria-label={showPassword?"Ocultar contraseña":"Mostrar contraseña"}>{showPassword?<EyeOff/>:<Eye/>}</button></span></label>
+    {mode==="register"&&<small className="syncHint">No hay recuperación por email: deja que el iPhone guarde la contraseña y, al entrar, crea tu <b>código de recuperación</b> en «Tu cuenta».</small>}
+    {mode==="login"&&<button type="button" className="linkButton" onClick={()=>{setMode("reset");setError(null);setPassword("")}}>¿Has olvidado la contraseña?</button>}
     {error&&<small className="syncError" role="alert">{error}</small>}
-    <div className="accountActions"><button className="secondary" type="button" onClick={()=>{setMode(null);setError(null)}}>Cancelar</button><button className="primary" type="submit" disabled={busy}>{busy?"Un momento…":mode==="register"?"Crear cuenta":"Entrar"}</button></div>
+    <div className="accountActions"><button className="secondary" type="button" onClick={()=>{setMode(null);setError(null)}}>Cancelar</button><button className="primary" type="submit" disabled={busy}>{busy?"Un momento…":mode==="register"?"Crear cuenta":mode==="reset"?"Cambiar y entrar":"Entrar"}</button></div>
    </form>}
   </div>
   {!mode&&<div className="settingsActions"><button className="primary" type="button" onClick={()=>{setMode("register");setError(null)}}><UserRound/> Crear cuenta</button><button className="secondary" type="button" onClick={()=>{setMode("login");setError(null)}}><LogIn/> Iniciar sesión</button></div>}
@@ -1212,9 +1226,68 @@ function SyncCard({sync}){
  return <section className="settingsCard syncCard on">
   <div className="settingsCardText"><h3><UserRound/> Tu cuenta</h3><p>Sesión iniciada como <b>{sync.user}</b>. En el otro dispositivo, entra en Configuración → <b>Iniciar sesión</b> con el mismo usuario.</p>
    <p className={`syncStatus ${sync.status}`}>{sync.status==="offline"||sync.status==="error"||sync.status==="not-configured"?<CloudOff/>:<Cloud/>}{statusText}</p>
+   <AccountSecurity sync={sync} justReset={justReset}/>
   </div>
   <div className="settingsActions"><button className="primary" type="button" onClick={sync.syncNow} disabled={sync.status==="syncing"}><RefreshCw/> Sincronizar ahora</button><button className="secondary" type="button" onClick={()=>{if(window.confirm("¿Cerrar sesión en este dispositivo? Tu progreso se queda guardado aquí y en tu cuenta."))sync.signOut()}}><LogOut/> Cerrar sesión</button></div>
  </section>;
+}
+
+// Cambiar la contraseña y el código de recuperación (no hay email: el código es la única forma
+// de poner otra contraseña si no queda ningún dispositivo con la sesión abierta).
+function AccountSecurity({sync,justReset}){
+ const [info,setInfo]=useState(null);
+ const [panel,setPanel]=useState(null);
+ const [password,setPassword]=useState("");
+ const [showPassword,setShowPassword]=useState(false);
+ const [newCode,setNewCode]=useState(null);
+ const [copied,setCopied]=useState(false);
+ const [message,setMessage]=useState(null);
+ const [error,setError]=useState(null);
+ const [busy,setBusy]=useState(false);
+ useEffect(()=>{let alive=true;sync.accountInfo().then(result=>{if(alive)setInfo(result)}).catch(()=>{});return()=>{alive=false}},[sync.user]);
+ const fail=err=>setError(accountErrors[err?.kind]??"No se pudo completar. Vuelve a intentarlo.");
+ const open=next=>{setPanel(current=>current===next?null:next);setError(null);setMessage(null);setPassword("");};
+
+ const savePassword=async e=>{
+  e.preventDefault();
+  if(password.length<MIN_PASSWORD){setError(accountErrors["weak-password"]);return;}
+  setBusy(true);setError(null);
+  try{await sync.changePassword(password);setPanel(null);setPassword("");setMessage("Contraseña cambiada. Si el iPhone te pregunta, actualízala en Contraseñas.");}
+  catch(err){fail(err)}finally{setBusy(false)}
+ };
+ const makeCode=async()=>{
+  if(info?.recoveryAt&&!window.confirm("Ya tienes un código de recuperación. Si creas otro, el anterior deja de valer. ¿Crear uno nuevo?"))return;
+  setBusy(true);setError(null);setCopied(false);
+  try{const result=await sync.createRecoveryCode();setNewCode(result.code);setInfo(current=>({...current,recoveryAt:result.createdAt}));setPanel("code");}
+  catch(err){fail(err)}finally{setBusy(false)}
+ };
+ const copyCode=async()=>{try{await navigator.clipboard.writeText(newCode);setCopied(true)}catch{setCopied(false)}};
+
+ const hasCode=!!info?.recoveryAt;
+ return <div className="accountSecurity">
+  {info&&!hasCode&&!newCode&&<p className="recoveryWarn"><KeyRound/> {justReset?"Has usado tu código de recuperación: ya no vale. Crea uno nuevo y guárdalo.":"Aún no tienes código de recuperación. Créalo y guárdalo: es la única forma de recuperar la contraseña si la olvidas."}</p>}
+  {hasCode&&!newCode&&<p className="recoveryOk"><ShieldCheck/> Código de recuperación creado el {new Date(info.recoveryAt).toLocaleDateString("es-ES",{day:"numeric",month:"long",year:"numeric"})}.</p>}
+  {message&&<p className="recoveryOk"><CheckCircle2/> {message}</p>}
+  <div className="securityActions">
+   <button type="button" className="secondary" onClick={()=>open("password")}><KeyRound/> Cambiar contraseña</button>
+   <button type="button" className="secondary" onClick={makeCode} disabled={busy}><ShieldCheck/> {hasCode?"Nuevo código de recuperación":"Crear código de recuperación"}</button>
+  </div>
+  {panel==="password"&&<form className="accountForm" onSubmit={savePassword}>
+   <b className="accountTitle">Cambiar contraseña</b>
+   <input type="text" autoComplete="username" value={sync.user} readOnly hidden/>
+   <label>Contraseña nueva<span className="pwWrap"><input type={showPassword?"text":"password"} value={password} onChange={e=>{setPassword(e.target.value);setError(null)}} autoComplete="new-password" placeholder={`Mínimo ${MIN_PASSWORD} caracteres`} autoFocus/><button type="button" className="pwToggle" onClick={()=>setShowPassword(v=>!v)} aria-label={showPassword?"Ocultar contraseña":"Mostrar contraseña"}>{showPassword?<EyeOff/>:<Eye/>}</button></span></label>
+   <small className="syncHint">No hace falta la contraseña antigua: basta con tener la sesión abierta en este dispositivo.</small>
+   {error&&<small className="syncError" role="alert">{error}</small>}
+   <div className="accountActions"><button className="secondary" type="button" onClick={()=>open(null)}>Cancelar</button><button className="primary" type="submit" disabled={busy}>{busy?"Un momento…":"Guardar"}</button></div>
+  </form>}
+  {panel==="code"&&newCode&&<div className="accountForm recoveryCode">
+   <b className="accountTitle">Tu código de recuperación</b>
+   <code>{newCode}</code>
+   <small className="syncHint">Guárdalo ahora: <b>no se volverá a mostrar</b>. Por ejemplo, haz una captura de pantalla o pégalo en Notas o en la app Contraseñas (en la entrada de LabQuiz). Con tu usuario y este código podrás poner una contraseña nueva desde «Iniciar sesión → ¿Has olvidado la contraseña?». Solo vale una vez.</small>
+   <div className="accountActions"><button className="secondary" type="button" onClick={copyCode}><Copy/> {copied?"Copiado":"Copiar"}</button><button className="primary" type="button" onClick={()=>{setNewCode(null);setPanel(null)}}>Ya lo he guardado</button></div>
+  </div>}
+  {error&&panel!=="password"&&<small className="syncError" role="alert">{error}</small>}
+ </div>;
 }
 
 // Qué ocupa espacio en este dispositivo (lo que la página guarda en el navegador).

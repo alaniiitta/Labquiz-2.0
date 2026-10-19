@@ -6,6 +6,13 @@
 //   login    { user, password }  → devuelve { user, token }
 //   sync     { token, data }     → une lo recibido con lo guardado y devuelve { data, updatedAt }
 //   logout   { token }           → cierra esa sesión
+//   password { token, password } → cambia la contraseña (con la sesión abierta)
+//   recovery { token }           → crea un código de recuperación nuevo y lo devuelve una sola vez
+//   reset    { user, code, password } → con el código, pone otra contraseña y entra
+//   account  { token }           → dice si ya hay código de recuperación (y desde cuándo)
+//
+// No hay email: para recuperar la contraseña sin sesión hace falta el código de recuperación.
+// Se guarda cifrado como la contraseña y deja de valer en cuanto se usa o se crea otro.
 //
 // La contraseña se guarda cifrada con scrypt (sal propia por usuario) y las sesiones
 // solo por su huella SHA-256: en la base de datos no hay nada que se pueda reutilizar.
@@ -91,6 +98,37 @@ const hashPassword = (password, salt) => new Promise((resolve, reject) =>
 
 const normalizeUser = value => String(value ?? "").trim().toLowerCase();
 
+// sin 0/O, 1/I/L para que no haya dudas al copiarlo a mano
+const CODE_ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+const CODE_LENGTH = 16;
+const normalizeCode = value => String(value ?? "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+const newCode = () => Array.from(randomBytes(CODE_LENGTH), byte => CODE_ALPHABET[byte % CODE_ALPHABET.length]).join("");
+const formatCode = code => code.match(/.{4}/g).join("-");
+
+const readUser = async user => {
+ const raw = await redis(["GET", keys.user(user)]);
+ return raw ? JSON.parse(raw) : null;
+};
+const writeUser = (user, record) => redis(["SET", keys.user(user), JSON.stringify(record)]);
+
+const secretRecord = async secret => {
+ const salt = randomBytes(16);
+ return { salt: salt.toString("base64"), hash: (await hashPassword(secret, salt)).toString("base64") };
+};
+
+// compara siempre (también si no hay nada guardado) para tardar lo mismo
+async function matches(secret, stored) {
+ const expected = stored?.hash ? Buffer.from(stored.hash, "base64") : null;
+ const actual = await hashPassword(secret, stored?.salt ? Buffer.from(stored.salt, "base64") : randomBytes(16));
+ return !!expected && expected.length === actual.length && timingSafeEqual(expected, actual);
+}
+
+const tooManyFails = async user => (Number(await redis(["GET", keys.fails(user)])) || 0) >= MAX_FAILS;
+async function countFail(user) {
+ await redis(["INCR", keys.fails(user)]);
+ await redis(["EXPIRE", keys.fails(user), FAIL_WINDOW_S]);
+}
+
 async function newSession(user) {
  const token = randomBytes(32).toString("base64url");
  await redis(["SET", keys.session(token), user, "EX", SESSION_TTL_S]);
@@ -115,15 +153,9 @@ async function login(body) {
  const user = normalizeUser(body.user);
  const password = String(body.password ?? "");
  if (!USER.test(user) || !password) return [401, { error: "bad-credentials" }];
- const fails = Number(await redis(["GET", keys.fails(user)])) || 0;
- if (fails >= MAX_FAILS) return [429, { error: "too-many" }];
- const raw = await redis(["GET", keys.user(user)]);
- const stored = raw ? JSON.parse(raw) : null;
- const expected = stored ? Buffer.from(stored.hash, "base64") : null;
- const actual = await hashPassword(password, stored ? Buffer.from(stored.salt, "base64") : randomBytes(16));
- if (!expected || expected.length !== actual.length || !timingSafeEqual(expected, actual)) {
-  await redis(["INCR", keys.fails(user)]);
-  await redis(["EXPIRE", keys.fails(user), FAIL_WINDOW_S]);
+ if (await tooManyFails(user)) return [429, { error: "too-many" }];
+ if (!(await matches(password, await readUser(user)))) {
+  await countFail(user);
   return [401, { error: "bad-credentials" }];
  }
  await redis(["DEL", keys.fails(user)]);
@@ -153,7 +185,54 @@ async function logout(body) {
  return [200, { ok: true }];
 }
 
-const actions = { register, login, sync, logout };
+async function changePassword(body) {
+ const user = await sessionUser(body.token);
+ if (!user) return [401, { error: "unauthorized" }];
+ const password = String(body.password ?? "");
+ if (password.length < MIN_PASSWORD) return [400, { error: "weak-password" }];
+ const stored = await readUser(user);
+ if (!stored) return [401, { error: "unauthorized" }];
+ await writeUser(user, { ...stored, ...(await secretRecord(password)), passwordChangedAt: Date.now() });
+ return [200, { ok: true }];
+}
+
+async function createRecovery(body) {
+ const user = await sessionUser(body.token);
+ if (!user) return [401, { error: "unauthorized" }];
+ const stored = await readUser(user);
+ if (!stored) return [401, { error: "unauthorized" }];
+ const code = newCode();
+ await writeUser(user, { ...stored, recovery: { ...(await secretRecord(code)), createdAt: Date.now() } });
+ return [200, { code: formatCode(code), createdAt: Date.now() }];
+}
+
+async function reset(body) {
+ const user = normalizeUser(body.user);
+ const code = normalizeCode(body.code);
+ const password = String(body.password ?? "");
+ if (!USER.test(user) || code.length !== CODE_LENGTH) return [401, { error: "bad-code" }];
+ if (password.length < MIN_PASSWORD) return [400, { error: "weak-password" }];
+ if (await tooManyFails(user)) return [429, { error: "too-many" }];
+ const stored = await readUser(user);
+ if (!(await matches(code, stored?.recovery))) {
+  await countFail(user);
+  return [401, { error: "bad-code" }];
+ }
+ // el código solo vale una vez: se borra y hay que crear otro desde la cuenta
+ const { recovery, ...rest } = stored;
+ await writeUser(user, { ...rest, ...(await secretRecord(password)), passwordChangedAt: Date.now() });
+ await redis(["DEL", keys.fails(user)]);
+ return [200, { user, token: await newSession(user) }];
+}
+
+async function accountInfo(body) {
+ const user = await sessionUser(body.token);
+ if (!user) return [401, { error: "unauthorized" }];
+ const stored = await readUser(user);
+ return [200, { user, recoveryAt: stored?.recovery?.createdAt ?? null }];
+}
+
+const actions = { register, login, sync, logout, password: changePassword, recovery: createRecovery, reset, account: accountInfo };
 
 export default async function handler(req, res) {
  res.setHeader("Cache-Control", "no-store");
