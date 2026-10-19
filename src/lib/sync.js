@@ -64,9 +64,35 @@ export const resetPassword = (user, code, password) => call({ action: "reset", u
 export const accountInfo = token => call({ action: "account", token });
 export const logoutAccount = token => call({ action: "logout", token }).catch(() => null);
 
-// Sube los datos locales; el servidor los une con los guardados y devuelve el resultado.
-export async function pushSync(token, data) {
- const body = await call({ action: "sync", token, data });
+// gzip + base64 con las herramientas del navegador (Safari 16.4+); si no las hay, se envía sin comprimir.
+const canCompress = typeof CompressionStream === "function" && typeof DecompressionStream === "function";
+
+async function gzipBase64(text) {
+ const stream = new Blob([text]).stream().pipeThrough(new CompressionStream("gzip"));
+ const bytes = new Uint8Array(await new Response(stream).arrayBuffer());
+ let binary = "";
+ for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+ return btoa(binary);
+}
+
+async function gunzipBase64(base64) {
+ const bytes = Uint8Array.from(atob(base64), char => char.charCodeAt(0));
+ const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));
+ return new Response(stream).text();
+}
+
+// Sube los datos locales; el servidor los une con los guardados. Si data es null solo se comprueba
+// si hay algo nuevo en la nube. fp es la huella de lo que ya tiene este dispositivo: si coincide con
+// la de la nube, el servidor contesta { same: true } sin volver a mandar todo el progreso.
+export async function pushSync(token, data, fp) {
+ const payload = { action: "sync", token, fp, acceptGz: canCompress };
+ if (data != null) {
+  if (canCompress) payload.gz = await gzipBase64(JSON.stringify(data));
+  else payload.data = data;
+ }
+ const body = await call(payload);
+ if (body.same) return body;
+ if (typeof body.gz === "string") return { ...body, data: JSON.parse(await gunzipBase64(body.gz)) };
  if (!body.data) throw new SyncError("error");
  return body;
 }

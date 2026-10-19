@@ -126,8 +126,10 @@ export function mergeUserData(a, b) {
 }
 
 // Comparación estable para saber si hay algo nuevo que subir o que aplicar.
+// Se normaliza antes (unir con nada rellena los campos que falten) para que la nube y el
+// dispositivo den la misma huella cuando tienen lo mismo.
 export function syncSignature(data) {
- const payload = syncPayload(data);
+ const payload = mergeUserData(data, {});
  const sortKeys = value => Array.isArray(value) ? value.map(sortKeys)
   : isObject(value) ? Object.fromEntries(Object.keys(value).sort().map(key => [key, sortKeys(value[key])]))
   : value;

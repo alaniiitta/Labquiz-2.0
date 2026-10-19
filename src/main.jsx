@@ -1097,6 +1097,8 @@ function SettingsPage({sync,userData,onRestore,onThemeChange,onExamScope}){
 
 // Sincronización automática con la nube (con tu cuenta): al abrir, al volver a la app,
 // al recuperar la conexión y unos segundos después de cada cambio. Une los datos, nunca los sustituye.
+// espera tras el último cambio antes de subirlo (agrupa las respuestas de un test)
+const SYNC_DELAY=20000;
 function useSync(userData,setUserData){
  const [settings,setSettings]=useState(()=>loadSyncSettings());
  const [status,setStatus]=useState(settings?"idle":"off");
@@ -1111,9 +1113,12 @@ function useSync(userData,setUserData){
   runningRef.current=true;
   setStatus("syncing");
   try{
-   const record=await pushSync(account.token,dataRef.current);
-   const remoteSignature=syncFingerprint(record.data);
-   setUserData(local=>{
+   // sin cambios desde la última vez: solo se pregunta si hay algo nuevo (no se sube nada)
+   const localSignature=syncFingerprint(dataRef.current);
+   const unchanged=localSignature===(loadSyncSettings()?.lastSignature??account.lastSignature);
+   const record=await pushSync(account.token,unchanged?null:dataRef.current,localSignature);
+   const remoteSignature=record.same?record.fp:syncFingerprint(record.data);
+   if(!record.same) setUserData(local=>{
     const merged=mergeUserData(local,record.data);
     return syncSignature(merged)===syncSignature(local)?local:{...merged,theme:local.theme};
    });
@@ -1129,18 +1134,19 @@ function useSync(userData,setUserData){
   }
  };
 
- // tras cada cambio local (espera 3 s para agrupar varias respuestas seguidas)
+ // tras cada cambio local (espera 20 s para agrupar varias respuestas seguidas)
  useEffect(()=>{
   if(!settings?.token) return;
   if(syncFingerprint(userData)===settings.lastSignature) return;
-  const timer=setTimeout(()=>syncNow(),3000);
+  const timer=setTimeout(()=>syncNow(),SYNC_DELAY);
   return ()=>clearTimeout(timer);
  },[userData,settings?.token]);
 
  useEffect(()=>{
   if(!settings?.token) return;
   syncNow();
-  const onVisible=()=>{if(document.visibilityState==="visible")syncNow()};
+  // al volver a la app se mira si hay novedades; al salir se sube lo pendiente
+  const onVisible=()=>{if(document.visibilityState==="visible"||syncFingerprint(dataRef.current)!==loadSyncSettings()?.lastSignature)syncNow()};
   const onOnline=()=>syncNow();
   document.addEventListener("visibilitychange",onVisible);
   window.addEventListener("online",onOnline);

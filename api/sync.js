@@ -4,7 +4,11 @@
 // POST /api/sync con { action, ... }:
 //   register { user, password }  → crea la cuenta y devuelve { user, token }
 //   login    { user, password }  → devuelve { user, token }
-//   sync     { token, data }     → une lo recibido con lo guardado y devuelve { data, updatedAt }
+//   sync     { token, gz | data, fp } → une lo recibido con lo guardado. Devuelve { same: true } si
+//            el dispositivo ya lo tiene todo (fp = su huella) o { gz | data, updatedAt } si no.
+//            Sin datos (solo fp) es una comprobación rápida: no se sube nada.
+//            gz = JSON comprimido con gzip en base64: el plan gratuito de Vercel solo deja 10 GB
+//            al mes de tráfico de las funciones y el progreso completo ocupa más de 1 MB.
 //   logout   { token }           → cierra esa sesión
 //   password { token, password } → cambia la contraseña (con la sesión abierta)
 //   recovery { token }           → crea un código de recuperación nuevo y lo devuelve una sola vez
@@ -18,7 +22,8 @@
 // solo por su huella SHA-256: en la base de datos no hay nada que se pueda reutilizar.
 
 import { createHash, randomBytes, scrypt, timingSafeEqual } from "node:crypto";
-import { mergeUserData } from "../src/lib/syncMerge.js";
+import { gunzipSync, gzipSync } from "node:zlib";
+import { mergeUserData, syncFingerprint } from "../src/lib/syncMerge.js";
 
 const USER = /^[a-z0-9._-]{3,30}$/;
 const MIN_PASSWORD = 6;
@@ -167,16 +172,39 @@ async function sessionUser(token) {
  return await redis(["GET", keys.session(token)]);
 }
 
+const isPlainObject = value => !!value && typeof value === "object" && !Array.isArray(value);
+
+function incomingData(body) {
+ if (typeof body.gz === "string") {
+  try { return JSON.parse(gunzipSync(Buffer.from(body.gz, "base64"), { maxOutputLength: MAX_BYTES * 2 }).toString("utf8")); }
+  catch { return undefined; }
+ }
+ return body.data;
+}
+
 async function sync(body) {
  const user = await sessionUser(body.token);
  if (!user) return [401, { error: "unauthorized" }];
- if (!body.data || typeof body.data !== "object" || Array.isArray(body.data)) return [400, { error: "bad-data" }];
+ const incoming = incomingData(body);
+ const checkOnly = incoming == null && typeof body.fp === "string";
+ if (!checkOnly && !isPlainObject(incoming)) return [400, { error: "bad-data" }];
  const raw = await redis(["GET", keys.data(user)]);
  const stored = raw ? JSON.parse(raw) : null;
- const record = { data: mergeUserData(body.data, stored?.data ?? {}), updatedAt: Date.now() };
- const serialized = JSON.stringify(record);
- if (serialized.length > MAX_BYTES) return [413, { error: "too-large" }];
- await redis(["SET", keys.data(user), serialized]);
+ let record = stored ?? { data: {}, updatedAt: 0 };
+ if (!checkOnly) {
+  const merged = mergeUserData(incoming, stored?.data ?? {});
+  // solo se escribe si ha cambiado algo
+  if (!stored || syncFingerprint(merged) !== syncFingerprint(stored.data)) {
+   record = { data: merged, updatedAt: Date.now() };
+   const serialized = JSON.stringify(record);
+   if (serialized.length > MAX_BYTES) return [413, { error: "too-large" }];
+   await redis(["SET", keys.data(user), serialized]);
+  }
+ }
+ // el dispositivo ya tiene exactamente esto: no hace falta devolverlo
+ const fp = syncFingerprint(record.data);
+ if (fp === body.fp) return [200, { user, same: true, fp, updatedAt: record.updatedAt }];
+ if (body.acceptGz) return [200, { user, gz: gzipSync(JSON.stringify(record.data)).toString("base64"), fp, updatedAt: record.updatedAt }];
  return [200, { user, ...record }];
 }
 
