@@ -415,3 +415,7 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 .confirmBox{width:min(360px,100%);padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--text);box-shadow:0 18px 40px rgb(0 0 0 / .25)}
 .confirmBox p{margin:0 0 16px;font-size:14px;line-height:1.45}
 .confirmActions{display:flex;justify-content:flex-end;gap:8px}.confirmActions button{min-height:40px;padding:0 14px}
+/* Instalada en la pantalla de inicio (pantalla completa): que nada quede debajo de la hora y la batería */
+body{padding-top:env(safe-area-inset-top,0px)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:15;pointer-events:none}
+.sidebar{padding-top:calc(25px + env(safe-area-inset-top,0px))}

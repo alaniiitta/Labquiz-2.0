@@ -4,6 +4,12 @@ import blockThree from "./imports/topic-23_3.json" with { type: "json" };
 import blockFour from "./imports/topic-23_4.json" with { type: "json" };
 import blockFive from "./imports/topic-23_5.json" with { type: "json" };
 
+// Preguntas quitadas a petición (clave dudosa o mal planteada). Se quitan por id para que las
+// demás conserven el suyo y su progreso.
+const REMOVED = new Set([
+	"23.3-150", // «norma de higiene de Amalia y Fernando»: la clave da A, pero B y C también lo son
+]);
+
 const convertQuestions = (source, block) => source.questions
 	.map((question) => {
 		const optionKeys = Object.keys(question.options);
@@ -19,7 +25,8 @@ const convertQuestions = (source, block) => source.questions
 		};
 	})
 	// descarta preguntas con opciones truncadas/vacías en el JSON fuente
-	.filter((question) => question.answers.every((answer) => answer.trim() !== ""));
+	.filter((question) => question.answers.every((answer) => answer.trim() !== ""))
+	.filter((question) => !REMOVED.has(question.id));
 
 export default [
 	...convertQuestions(blockOne, 1),
