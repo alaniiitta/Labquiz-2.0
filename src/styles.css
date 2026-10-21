@@ -419,3 +419,8 @@ main{padding:28px 34px;min-width:0;overflow-x:clip}
 body{padding-top:env(safe-area-inset-top,0px)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:15;pointer-events:none}
 .sidebar{padding-top:calc(25px + env(safe-area-inset-top,0px))}
+/* Repaso: test con menos repetidas */
+.freshNote{margin:-6px 0 0;color:var(--muted);font-size:13px;line-height:1.45}
+.reviewCountRow.freshRow{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewCountRow.freshRow.ratios{grid-template-columns:repeat(3,minmax(0,1fr))}
+.freshSummary{color:var(--muted);font-size:12px;line-height:1.4}
+@media(max-width:600px){.reviewCountRow.freshRow.ratios{grid-template-columns:repeat(3,minmax(0,1fr))}}

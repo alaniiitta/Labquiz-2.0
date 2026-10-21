@@ -143,6 +143,23 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
   return shuffle(selected.map((item) => item.question), random);
 }
 
+// Test con un tope de preguntas ya vistas: repeatRatio (0–1) es la parte que puede repetirse.
+// Las nuevas salen al azar; las repetidas, por prioridad (primero las falladas). Si no quedan
+// nuevas suficientes se completa con vistas, y al revés, para no dejar el test corto.
+export function selectWithRepeatLimit(allQuestions = [], userProgress = {}, count = 30, repeatRatio = 0, random = Math.random, now = Date.now()) {
+  const stateOf = (question, index) => userProgress[getQuestionId(question, index)];
+  const fresh = allQuestions.filter((question, index) => !stateOf(question, index)?.vecesVista);
+  const seen = allQuestions.filter((question, index) => stateOf(question, index)?.vecesVista);
+  const target = Math.min(count, allQuestions.length);
+  let repeats = Math.min(Math.round(target * repeatRatio), seen.length);
+  const news = Math.min(target - repeats, fresh.length);
+  repeats = Math.min(target - news, seen.length);
+  return shuffle([
+    ...selectSmartQuestions(fresh, userProgress, news, null, random, now),
+    ...selectSmartQuestions(seen, userProgress, repeats, null, random, now),
+  ], random);
+}
+
 export function isQuestionCurrentlyFailed(state = createInitialQuestionProgress()) {
   return (state?.vecesFallada ?? 0) > 0 && state.marcadaAprendida !== true;
 }
