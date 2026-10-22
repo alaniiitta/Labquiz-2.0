@@ -134,14 +134,21 @@ const EXAM_DURATION=90*60*1000;
 // los simulacros de 60 van en modo examen con el mismo ritmo: 54 minutos
 const examDuration=count=>Math.round(EXAM_DURATION*count/EXAM_COUNT);
 const EXAM_PENALTY=1/4;
-const selectSimulacrumQuestions=(count,progress)=>{
+// usedIds: preguntas de simulacros anteriores; se evitan mientras el tema tenga otras sin usar
+const selectSimulacrumQuestions=(count,progress,usedIds=new Set())=>{
  const pools=topics.map(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(pool=>pool.length);
  const total=pools.reduce((sum,pool)=>sum+pool.length,0);
  const quotas=pools.map(pool=>count*pool.length/total);
  const counts=quotas.map(Math.floor);
  // reparte los huecos que faltan a los temas con mayor resto
  quotas.map((quota,index)=>[quota-Math.floor(quota),index]).sort((a,b)=>b[0]-a[0]).slice(0,count-counts.reduce((a,b)=>a+b,0)).forEach(([,index])=>{counts[index]+=1});
- const picked=pools.flatMap((pool,index)=>selectSmartQuestions(pool,progress,counts[index]));
+ const picked=pools.flatMap((pool,index)=>{
+  const unused=pool.filter(question=>!usedIds.has(getQuestionIdForProgress(question)));
+  if(unused.length>=counts[index]) return selectSmartQuestions(unused,progress,counts[index]);
+  // tema agotado: todas sus preguntas sin usar y el resto de las ya usadas
+  const used=pool.filter(question=>usedIds.has(getQuestionIdForProgress(question)));
+  return [...unused,...selectSmartQuestions(used,progress,counts[index]-unused.length)];
+ });
  for(let i=picked.length-1;i>0;i-=1){const j=Math.floor(Math.random()*(i+1));[picked[i],picked[j]]=[picked[j],picked[i]]}
  return picked;
 };
@@ -209,6 +216,8 @@ const recoveredExamEntries=(progress,recorded=[])=>{
   const chosenKnown=hasSelfReferentialOption(question.answers)&&Number.isInteger(item.chosen)&&item.chosen<question.answers.length&&item.shownCorrect===question.correctAnswer;
   return [index,item.failed?(chosenKnown?item.chosen:-1):question.correctAnswer]})),flags:[],confidence:{},scratch:{}}));
 };
+// Preguntas que ya salieron en simulacros (los registrados y los recuperados; los borrados no cuentan).
+const usedExamQuestionIds=(history,progress,deleted={})=>new Set(examRows(history,progress,deleted).flatMap(({entry})=>(entry.q??[]).map(item=>String(item).split("|")[0])));
 const formatClock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),sec=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(sec).padStart(2,"0")}`};
 const formatScore=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
 
@@ -264,9 +273,9 @@ function App(){
   {page==="home"&&<HomePage go={go} openTest={openTest} openExam={openExam} progress={userData.progress} planChecks={userData.planChecks} onTogglePlan={togglePlanCheck} onSetPlanTopics={(day,ids)=>setPlanCheck(day,"topics",ids)}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
-  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} repeatRatio={testConfig.repeatRatio} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}} onRecordExam={recordExam}/>}
+  {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} repeatRatio={testConfig.repeatRatio} usedExamIds={()=>usedExamQuestionIds(userData.examHistory,userData.progress,userData.examHistoryDeleted)} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}} onRecordExam={recordExam}/>}
   {page==="review"&&<ReviewPage go={go} examHistory={userData.examHistory} examDeleted={userData.examHistoryDeleted} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onFresh={(count,ratio)=>openTest(null,"fresh",null,count,null,null,ratio)} onStart={count=>count>=SIMULACRUM_MIN?openExam(false,null,null,count):openTest(null,"mixed",null,count)} onResumeExam={()=>openExam(true)}/>}
-  {page==="exam"&&<ExamPage key={examConfig.sessionId} examCount={examConfig.count??EXAM_COUNT} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
+  {page==="exam"&&<ExamPage key={examConfig.sessionId} usedExamIds={()=>usedExamQuestionIds(userData.examHistory,userData.progress,userData.examHistoryDeleted)} examCount={examConfig.count??EXAM_COUNT} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
   {page==="exams"&&<ExamsPage deleted={userData.examHistoryDeleted} onStart={count=>count==="resume"?openExam(true):openExam(false,null,null,count)} history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
   {page==="methods"&&<MethodsPage go={go}/>}
@@ -436,7 +445,7 @@ const crossTopicCopy={
 };
 const crossTopicTitle={fresh:"Test con menos repetidas",failed:"Preguntas falladas",notes:"Mis aclaraciones",numbers:"Cifras y valores",cheat:"Chuleta de fallos"};
 
-function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,repeatRatio=0,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote,onConfidence,confidenceLog={},onRecordExam}){
+function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,initialQuestionCount=null,repeatRatio=0,usedExamIds,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote,onConfidence,confidenceLog={},onRecordExam}){
  const [mode,setMode]=useState(initialMode);
  const [topicOrder,setTopicOrder]=useState("number");
  const [selectedTopicId,setSelectedTopicId]=useState(initialTopicId);
@@ -449,7 +458,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   if(initialMode==="numbers"){const pool=getNumberQuestions();return selectSmartQuestions(pool,questionProgress,Math.min(initialQuestionCount??20,pool.length)).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="notes"||initialMode==="cheat"){const ids=new Set(initialQuestionIds??[]);const pool=getAllQuestions(true).filter(question=>ids.has(getQuestionIdForProgress(question)));return selectSmartQuestions(pool,questionProgress,pool.length).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="fresh") return selectWithRepeatLimit(getAllQuestions(),questionProgress,initialQuestionCount??30,repeatRatio??0).map(question=>shuffleQuestionOptions(question));
-  if(initialMode==="mixed") return ((initialQuestionCount??20)>=SIMULACRUM_MIN?selectSimulacrumQuestions(initialQuestionCount,questionProgress):selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20)).map(question=>shuffleQuestionOptions(question));
+  if(initialMode==="mixed") return ((initialQuestionCount??20)>=SIMULACRUM_MIN?selectSimulacrumQuestions(initialQuestionCount,questionProgress,usedExamIds?.()):selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20)).map(question=>shuffleQuestionOptions(question));
   if(!initialTopicId) return [];
   let pool=getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId}));
   // test de un apartado del resumen: solo sus preguntas
@@ -576,7 +585,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
 }
 
 // Simulacro en modo examen real: sin soluciones hasta entregar, con reloj y penalización por fallo.
-function ExamPage({go,resume,examCount=EXAM_COUNT,historyEntry=null,repeatQuestions=null,onRepeat,onPracticeFailed,questionProgress={},onProgressChange,favorites=[],onToggleFavorite,notes={},onSaveNote,onConfidence,onRecord}){
+function ExamPage({go,resume,usedExamIds,examCount=EXAM_COUNT,historyEntry=null,repeatQuestions=null,onRepeat,onPracticeFailed,questionProgress={},onProgressChange,favorites=[],onToggleFavorite,notes={},onSaveNote,onConfidence,onRecord}){
  const [exam]=useState(()=>{
   // un simulacro ya entregado, abierto desde el historial para revisarlo
   const past=historyEntry?restoreExamFromHistory(historyEntry):null;
@@ -585,7 +594,7 @@ function ExamPage({go,resume,examCount=EXAM_COUNT,historyEntry=null,repeatQuesti
   if(saved) return saved;
   clearExamSession();
   const startedAt=Date.now();
-  const base=repeatQuestions?.length?shuffledCopy(repeatQuestions):selectSimulacrumQuestions(examCount,questionProgress);
+  const base=repeatQuestions?.length?shuffledCopy(repeatQuestions):selectSimulacrumQuestions(examCount,questionProgress,usedExamIds?.());
   return {questions:base.map(question=>shuffleQuestionOptions(question)),answers:{},flags:[],index:0,startedAt,deadline:startedAt+examDuration(base.length)};
  });
  const {questions,startedAt,deadline}=exam;
@@ -921,6 +930,7 @@ function ReviewPage({go,onStart,onResumeExam,onNumbers,onFresh,onReviewExam,exam
  const totalAvailable=useMemo(()=>getAllQuestions().length,[activeScopeKey]);
  if(!totalAvailable) return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando haya preguntas cargadas en los temas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
  const isExam=count>=SIMULACRUM_MIN;
+ const usedInExams=useMemo(()=>isExam?usedExamQuestionIds(examHistory,progress,examDeleted).size:0,[isExam,examHistory,examDeleted,progress]);
  return <div className="reviewPage">
   <div className="reviewHero"><h2>Repaso general</h2><p>Test que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p></div>
   <ExamHistory history={examHistory} progress={progress} deleted={examDeleted} onReview={onReviewExam} go={go}/>
@@ -930,7 +940,7 @@ function ReviewPage({go,onStart,onResumeExam,onNumbers,onFresh,onReviewExam,exam
    <div className="reviewCountRow">{[10,20,30,50].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>setCount(value)}>{value}</button>)}</div>
    <span className="reviewSetupLabel">Simulacro de examen</span>
    <div className="reviewCountRow examRow">{[60,100].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>setCount(value)}><Trophy/>{value}</button>)}</div>
-   {isExam&&<p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno en el banco.<> <b>Modo examen real:</b> {count===EXAM_COUNT?"1 h 30 min":"54 min (el mismo ritmo que el de 100)"}, sin soluciones hasta entregar y cada 4 fallos restan 1 acierto (las en blanco no restan).</></p>}
+   {isExam&&<p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno en el banco.<> <b>Modo examen real:</b> {count===EXAM_COUNT?"1 h 30 min":"54 min (el mismo ritmo que el de 100)"}, sin soluciones hasta entregar y cada 4 fallos restan 1 acierto (las en blanco no restan).</> <b>Sin repetir:</b> {usedInExams?`no saldrán las ${usedInExams} preguntas de tus simulacros anteriores (si un tema se queda sin preguntas, se completa con las de simulacros anteriores, primero las que fallaste).`:"cada simulacro nuevo evitará las preguntas de los anteriores."}</p>}
    <button className="primary" type="button" onClick={()=>onStart(count)}>{count===EXAM_COUNT?"Empezar examen de 100 · 1 h 30 min":isExam?`Empezar examen de ${count} · 54 min`:"Empezar repaso aleatorio"}</button>
   </div>
   <div className="reviewSetup freshSetup">
