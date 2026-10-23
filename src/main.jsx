@@ -1441,4 +1441,14 @@ function StorageCard(){
 
 function SimulacrumPage({go}){return <div><section className="simHero"><Trophy/><h2>Simulacro de oposición</h2><p>El simulacro estará disponible cuando haya preguntas cargadas.</p><button className="secondary" onClick={()=>go("test")}>Ver temas disponibles</button></section></div>}
 
+// App instalada en la pantalla de inicio: iOS a veces la dibuja debajo de la hora y la batería sin
+// avisar (env(safe-area-inset-top) = 0). Si la página ocupa toda la pantalla, se deja ese hueco.
+const fitStatusBar=()=>{
+ const standalone=window.navigator.standalone===true||window.matchMedia?.("(display-mode: standalone)").matches;
+ const fullScreen=Math.abs(window.innerHeight-window.screen.height)<2&&window.innerWidth<window.innerHeight;
+ const gap=standalone&&fullScreen?(window.screen.height>=812?50:20):0;
+ document.documentElement.style.setProperty("--status-gap",`${gap}px`);
+};
+fitStatusBar();
+window.addEventListener("resize",fitStatusBar);
 createRoot(document.getElementById("root")).render(<App/>);
