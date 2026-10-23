@@ -10,12 +10,15 @@ const MIN_EXAM_GROUP = 20;
 const MIN_SIM_QUESTIONS = 40;
 const MIN_SIM_TOPICS = 6;
 const SESSION_GAP = 30 * 60 * 1000;
+// Desde el 18-10-2026 (09:40, hora de Madrid) todos los simulacros se guardan en el registro: lo
+// posterior no se reconstruye, porque un repaso largo de varios temas se confundiría con un simulacro.
+export const REGISTRY_SINCE = Date.UTC(2026, 9, 18, 7, 40);
 
 const topicOf = (id, state) => Number(state?.tema ?? String(id).split("-")[0]);
 
 export function recoverPastExams(progress = {}, knownIds = new Set(), recorded = []) {
   const entries = Object.entries(progress)
-    .filter(([id, state]) => knownIds.has(id) && Number(state?.ultimaVezVista) > 0 && (state?.vecesVista ?? 0) > 0)
+    .filter(([id, state]) => knownIds.has(id) && Number(state?.ultimaVezVista) > 0 && Number(state?.ultimaVezVista) < REGISTRY_SINCE && (state?.vecesVista ?? 0) > 0)
     .map(([id, state]) => ({ id, state, at: Number(state.ultimaVezVista), failed: Number(state.ultimaVezFallada) === Number(state.ultimaVezVista) }));
   // no repetir los que ya están en el registro
   const covered = (at) => recorded.some((entry) => at >= Number(entry.startedAt) - 60000 && at <= Number(entry.endedAt) + 60000);
