@@ -274,7 +274,7 @@ function App(){
   <div className="svgDefs" aria-hidden="true" dangerouslySetInnerHTML={{__html:visualSummaryDefs}}/>
   <main className={page==="test"||page==="exam"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" type="button" onClick={()=>setMobile(true)} aria-label="Abrir menú"><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
-  {page==="home"&&<HomePage go={go} openTest={openTest} openExam={openExam} progress={userData.progress} planChecks={userData.planChecks} onTogglePlan={togglePlanCheck} onSetPlanTopics={(day,ids)=>setPlanCheck(day,"topics",ids)}/>}
+  {page==="home"&&<HomePage go={go} openTest={openTest} openExam={openExam} progress={userData.progress} examHistory={userData.examHistory} examDeleted={userData.examHistoryDeleted} reviewHistory={userData.reviewHistory} planChecks={userData.planChecks} onTogglePlan={togglePlanCheck} onSetPlanTopics={(day,ids)=>setPlanCheck(day,"topics",ids)}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} repeatRatio={testConfig.repeatRatio} usedExamIds={()=>usedExamQuestionIds(userData.examHistory,userData.progress,userData.examHistoryDeleted)} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}} onRecordExam={recordExam} reviewEntry={testConfig.reviewEntry} onRecordReview={recordReview}/>}
@@ -311,43 +311,80 @@ function ExamCountdown({go}){
  </section>
 }
 
-function HomePage({go,openTest,openExam,progress,planChecks,onTogglePlan,onSetPlanTopics}){
- const availableTopics=topics.filter(topic=>getQuestionBank(topic.id).length);
- const totalQuestions=topics.reduce((total,topic)=>total+getQuestionBank(topic.id).length,0);
- const progressByTopic=availableTopics.map(topic=>{const questions=getQuestionBank(topic.id);return {...getTopicProgress(questions,progress,topic.id),total:questions.length}});
- const practicedQuestions=progressByTopic.reduce((total,topic)=>total+topic.answered,0);
- const startedTopics=progressByTopic.filter(topic=>topic.answered>0).length;
- const globalMastery=totalQuestions?Math.round(progressByTopic.reduce((total,topic)=>total+topic.mastery*topic.total,0)/totalQuestions):0;
- const featuredTopics=availableTopics.slice(0,6);
- return <div className="homeDashboard">
-  <ExamCountdown go={go}/>
-  <StudyPlan progress={progress} planChecks={planChecks} onToggle={onTogglePlan} onSetTopics={onSetPlanTopics} openTest={openTest} openExam={openExam} go={go}/>
-  <section className="homeStart">
-   <div><span className="eyebrow">SESIÓN DE ESTUDIO</span><h2>¿Qué quieres practicar hoy?</h2><p>Elige un tema y empieza un test con su banco de preguntas.</p></div>
-    <button className="homePrimaryAction" onClick={()=>openTest(null)}><span><Brain/></span><div><b>Test por temas</b><small>{availableTopics.length} temas disponibles</small></div><ChevronRight/></button>
-  </section>
-  <section className="homeSection" aria-labelledby="quick-access-title">
-   <div className="homeSectionTitle"><div><span className="eyebrow">ACCESOS DIRECTOS</span><h3 id="quick-access-title">Tu estudio, a un toque</h3></div></div>
-   <div className="homeQuickGrid">
-    <button className="homeQuickAction failed" onClick={()=>go("wrong")}><span className="homeQuickIcon"><RotateCcw/></span><div><b>Preguntas falladas</b><small>Vuelve sobre tus errores</small></div><ChevronRight/></button>
-    <button className="homeQuickAction exams" onClick={()=>go("exams")}><span className="homeQuickIcon"><Trophy/></span><div><b>Mis simulacros</b><small>Revisa los que ya has hecho</small></div><ChevronRight/></button>
-    <button className="homeQuickAction cheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Las claves de lo que se te escapa</small></div><ChevronRight/></button>
-    <button className="homeQuickAction favorite" onClick={()=>go("favorites")}><span className="homeQuickIcon"><Star/></span><div><b>Preguntas favoritas</b><small>Practica las que guardes</small></div><ChevronRight/></button>
-    <button className="homeQuickAction progress" onClick={()=>go("progress")}><span className="homeQuickIcon"><BarChart3/></span><div><b>Ver mi progreso</b><small>Consulta tu evolución</small></div><ChevronRight/></button>
+// Inicio: empezar lo que más se usa (repaso sin repetidas y simulacro de 60), el avance del temario
+// y las notas. Las preguntas de hoy salen del mismo cálculo que tenía el plan de estudio.
+function HomePage({go,openTest,openExam,progress,examHistory,examDeleted,reviewHistory}){
+ const [freshCount,setFreshCount]=useState(30);
+ const [savedExam]=useState(()=>loadResumableExam());
+ const [savedTest]=useState(()=>loadResumableTest());
+ const today=new Date();today.setHours(0,0,0,0);
+ const examDay=new Date(EXAM_DATE);examDay.setHours(0,0,0,0);
+ const daysLeft=Math.round((examDay-today)/86400000);
+ const topicRows=useMemo(()=>topics.map(topic=>{const questions=getQuestionBank(topic.id);const {answered}=getTopicProgress(questions,progress,topic.id);return {topic,total:questions.length,seen:answered}}).filter(row=>row.total),[progress,activeScopeKey]);
+ const total=topicRows.reduce((sum,row)=>sum+row.total,0);
+ const seen=topicRows.reduce((sum,row)=>sum+row.seen,0);
+ const unseen=total-seen;
+ const failed=getFailedQuestions(progress).length;
+ // aciertos sobre todas las respuestas dadas y temas vistos casi enteros (90 % o más)
+ const totals=Object.values(progress).reduce((sum,state)=>({right:sum.right+(state?.vecesAcertada??0),seen:sum.seen+(state?.vecesVista??0)}),{right:0,seen:0});
+ const accuracy=totals.seen?Math.round(totals.right/totals.seen*100):null;
+ const doneTopics=topicRows.filter(row=>row.seen/row.total>=0.9).length;
+ const answeredToday=Object.values(progress).filter(state=>(state?.ultimaVezVista??0)>=today.getTime()).length;
+ const finalDays=daysLeft<=2;
+ const dailyTarget=finalDays?Math.max(20,Math.min(failed,80)):Math.min(300,Math.max(60,Math.ceil(unseen/Math.max(1,daysLeft-2))+Math.min(failed,40)));
+ const exams=useMemo(()=>examRows(examHistory,progress,examDeleted),[examHistory,progress,examDeleted]);
+ const reviews=useMemo(()=>reviewRows(reviewHistory),[reviewHistory]);
+ const unusedForExams=useMemo(()=>total-usedExamQuestionIds(examHistory,progress,examDeleted).size,[total,examHistory,progress,examDeleted]);
+ const grades=exams.map(row=>row.score.grade);
+ const pct=value=>`${value} %`;
+ const reviewPcts=reviews.map(row=>row.score.pct);
+ return <div className="homeDashboard home2">
+  <p className="home2Countdown"><Hourglass/><span>{daysLeft>0?<>Faltan <b>{daysLeft} días</b> · examen el</>:daysLeft===0?<b>¡Hoy es el examen! Mucha suerte</b>:<b>El examen ya pasó</b>} {EXAM_DATE.toLocaleDateString("es-ES",{day:"numeric",month:"long"})}</span></p>
+  {(savedExam||savedTest)&&<button type="button" className="home2Resume" onClick={()=>savedExam?openExam(true):openTest(null)}><Play/><div><b>{savedExam?"Tienes un simulacro a medias":"Tienes un test a medias"}</b><small>{savedExam?`${Object.keys(savedExam.answers).length} de ${savedExam.questions.length} respondidas`:`${Object.keys(savedTest.answers).length} de ${savedTest.questions.length} respondidas`}</small></div><span>Continuar <ChevronRight/></span></button>}
+  <section className="home2Start" aria-label="Empezar">
+   <div className="home2Card fresh">
+    <div className="home2CardHead"><span className="home2Icon"><Layers3/></span><div><b>Repaso sin repetidas</b><small>Solo preguntas nuevas de todos los temas</small></div></div>
+    <div className="home2Choice">{[30,50].map(value=><button key={value} type="button" className={freshCount===value?"selected":""} onClick={()=>setFreshCount(value)}>{value}</button>)}</div>
+    <button type="button" className="primary" onClick={()=>openTest(null,"fresh",null,freshCount,null,null,0)}>Empezar repaso de {freshCount}</button>
+   </div>
+   <div className="home2Card sim">
+    <div className="home2CardHead"><span className="home2Icon"><Timer/></span><div><b>Simulacro de 60</b><small>54 min · cada 4 fallos restan 1</small></div></div>
+    <p className="home2Note">{unusedForExams.toLocaleString("es-ES")} preguntas sin salir en tus simulacros</p>
+    <button type="button" className="primary" onClick={()=>openExam(false,null,null,60)}>Empezar simulacro</button>
    </div>
   </section>
-  <section className="homeProgress" aria-labelledby="progress-summary-title">
-   <div className="homeSectionTitle"><div><span className="eyebrow">TU PROGRESO</span><h3 id="progress-summary-title">Resumen de actividad</h3></div><button className="homeTextButton" onClick={()=>go("progress")}>Ver detalle <ChevronRight/></button></div>
-   <div className="homeProgressGrid">
-    <div className="homeMetric"><span><Target/></span><div><strong>{globalMastery}%</strong><small>Dominio global</small></div></div>
-    <div className="homeMetric"><span><Layers3/></span><div><strong>{startedTopics} de {availableTopics.length}</strong><small>Temas iniciados</small></div></div>
-    <div className="homeMetric"><span><Brain/></span><div><strong>{practicedQuestions.toLocaleString("es-ES")}</strong><small>Preguntas practicadas</small></div></div>
+  <section className="home2Block" aria-labelledby="home2-grades">
+   <div className="home2Title"><h3 id="home2-grades">Tus notas</h3></div>
+   <div className="home2Grades">
+    <button type="button" className="home2Grade" onClick={()=>go("exams")}>
+     <span className="home2GradeHead"><Trophy/> Simulacros <ChevronRight/></span>
+     {grades.length?<><div className="home2GradeNums"><div><strong>{formatScore(Math.round(grades[0]*100)/100)}</strong><small>última</small></div><div><strong>{formatScore(Math.round(grades.reduce((a,b)=>a+b,0)/grades.length*100)/100)}</strong><small>media</small></div><div><strong>{formatScore(Math.round(Math.max(...grades)*100)/100)}</strong><small>mejor</small></div></div>
+      <div className="examTrend home2Trend">{[...exams].reverse().slice(-12).map(row=><i key={row.entry.id} className={row.score.grade>=5?"pass":""} style={{height:`${Math.max(4,row.score.grade*10)}%`}}/>)}</div></>:<small className="home2Empty">Aún no has hecho ninguno</small>}
+    </button>
+    <button type="button" className="home2Grade" onClick={()=>go("reviews")}>
+     <span className="home2GradeHead"><ListChecks/> Repasos <ChevronRight/></span>
+     {reviewPcts.length?<><div className="home2GradeNums"><div><strong>{pct(reviewPcts[0])}</strong><small>último</small></div><div><strong>{pct(Math.round(reviewPcts.reduce((a,b)=>a+b,0)/reviewPcts.length))}</strong><small>media</small></div><div><strong>{reviews.length}</strong><small>hechos</small></div></div>
+      <div className="examTrend home2Trend">{[...reviews].reverse().slice(-12).map(row=><i key={row.entry.id} className={row.score.pct>=50?"pass":""} style={{height:`${Math.max(4,row.score.pct)}%`}}/>)}</div></>:<small className="home2Empty">Aún no has hecho ninguno</small>}
+    </button>
    </div>
   </section>
-  <section className="homeSection" aria-labelledby="featured-topics-title">
-   <div className="homeSectionTitle"><div><span className="eyebrow">EMPIEZA POR UN TEMA</span><h3 id="featured-topics-title">Temas disponibles</h3></div><button className="homeTextButton" onClick={()=>go("test")}>Ver todos <ChevronRight/></button></div>
-    <div className="homeTopicGrid">{featuredTopics.map(topic=><button className="homeTopicButton" key={topic.id} onClick={()=>openTest(topic.id)}><span>{String(topic.id).padStart(2,"0")}</span><div><b>{topic.title}</b><small>{getQuestionBank(topic.id).length.toLocaleString("es-ES")} preguntas</small></div><ChevronRight/></button>)}</div>
+  <section className="home2Block" aria-labelledby="home2-syllabus">
+   <div className="home2Title"><h3 id="home2-syllabus">Tu progreso</h3><button type="button" className="homeTextButton" onClick={()=>openTest(null)}>Por temas <ChevronRight/></button></div>
+   <div className="home2Big"><strong>{total?Math.round(seen/total*100):0} %</strong><span>del temario visto · <b>{seen.toLocaleString("es-ES")}</b> de {total.toLocaleString("es-ES")}</span></div>
+   <div className="home2Bar"><i style={{width:`${total?seen/total*100:0}%`}}/></div>
+   <div className="home2Stats">
+    <div><strong>{answeredToday}<small>/{dailyTarget}</small></strong><span>hoy</span></div>
+    <div><strong>{accuracy==null?"—":`${accuracy} %`}</strong><span>aciertos</span></div>
+    <div><strong>{doneTopics}<small>/{topicRows.length}</small></strong><span>temas vistos</span></div>
+   </div>
+   {daysLeft>0&&unseen>0&&<p className="home2Pace">Te quedan <b>{unseen.toLocaleString("es-ES")}</b> sin ver: unas <b>{Math.ceil(unseen/daysLeft)}</b> al día para verlas todas.</p>}
+   <div className="home2Strip" aria-label="Lo visto de cada tema">{topicRows.map(({topic,total:topicTotal,seen:topicSeen})=>{const value=Math.round(topicSeen/topicTotal*100);return <button key={topic.id} type="button" onClick={()=>openTest(topic.id)} title={`Tema ${topic.id} · ${topic.title}: ${value} % visto`} aria-label={`Tema ${topic.id}, ${topic.title}: ${value} % visto`} style={{"--fill":`${value}%`}}><span>{topic.id}</span></button>})}</div>
+   <small className="home2StripNote">Cada cuadro es un tema: cuanto más lleno, más visto. Tócalo para hacer un test de ese tema.</small>
   </section>
+  <div className="home2Links">
+   <button type="button" onClick={()=>go("wrong")}><RotateCcw/> Falladas{failed?<b>{failed}</b>:null}</button>
+   <button type="button" onClick={()=>go("cheatsheet")}><ScrollText/> Chuleta</button>
+  </div>
  </div>
 }
 
