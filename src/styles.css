@@ -428,3 +428,15 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:max(env(safe-area-i
 /* Menú lateral: se desplaza si no cabe y la tarjeta «Tu preparación» va al final, sin tapar opciones */
 .sidebar{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}
 .sidecard{position:static;margin-top:16px}
+/* Test y progreso: buscador de preguntas por palabras */
+.questionSearch{display:grid;gap:12px;margin:0 0 18px}
+.questionSearch .search{position:relative}.questionSearch .search input{width:100%;padding-right:44px}
+.searchClear{position:absolute;right:6px;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:34px;height:34px;padding:0;border:0;background:transparent;color:var(--muted)}.searchClear svg{width:18px}
+.searchResults{display:grid;gap:10px;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.searchSummary{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;font-size:14px}.searchSummary .primary{display:inline-flex;align-items:center;gap:6px}.searchSummary svg{width:16px}
+.searchList{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.searchList li{border:1px solid var(--line);border-radius:12px;background:var(--bg);overflow:hidden}
+.searchList li>button{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;width:100%;padding:10px 12px;border:0;background:transparent;color:var(--text);text-align:left;font:inherit;cursor:pointer}
+.searchList li>button b{flex-basis:100%;font-weight:600;font-size:14px;line-height:1.4}
+.searchTag{font-style:normal;font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;background:var(--soft);color:var(--primary)}.searchTag.fail{background:color-mix(in srgb,#c0392b 14%,var(--card));color:#b0413e}
+.searchAnswer{display:flex;gap:6px;align-items:flex-start;margin:0;padding:0 12px 12px;font-size:13px;color:var(--text)}.searchAnswer svg{flex:0 0 16px;width:16px;color:#3f8f5f}

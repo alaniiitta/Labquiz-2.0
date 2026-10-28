@@ -442,13 +442,14 @@ function TopicActions({go,onStartTest}){return <aside className="topicActions"><
 
 const crossTopicCopy={
  failed:{backPage:"wrong",backLabel:"Volver a preguntas falladas",emptyTitle:"No tienes preguntas falladas",emptyText:"Las preguntas que falles aparecerán aquí para volver a practicarlas.",restartLabel:"Volver a falladas"},
+ search:{backPage:"test",backLabel:"Volver al buscador",emptyTitle:"No hay preguntas",emptyText:"Ninguna pregunta coincide con esa búsqueda.",restartLabel:"Buscar otra palabra"},
  notes:{backPage:"notes",backLabel:"Volver a aclaraciones",emptyTitle:"No tienes aclaraciones",emptyText:"Guarda una aclaración después de responder una pregunta y aparecerá aquí.",restartLabel:"Volver a aclaraciones"},
  fresh:{backPage:"review",backLabel:"Volver a Repaso",emptyTitle:"No hay preguntas disponibles",emptyText:"No quedan preguntas en los temas activos.",restartLabel:"Volver a Repaso"},
  mixed:{backPage:"review",backLabel:"Volver al repaso general",emptyTitle:"No hay preguntas disponibles todavía",emptyText:"Añade preguntas a los temas para poder generar un repaso general.",restartLabel:"Volver al repaso"},
  numbers:{backPage:"review",backLabel:"Volver a Repaso",emptyTitle:"No hay preguntas de cifras",emptyText:"No se han encontrado preguntas con valores numéricos en los temas activos.",restartLabel:"Otro test de cifras"},
  cheat:{backPage:"cheatsheet",backLabel:"Volver a la chuleta",emptyTitle:"No hay preguntas en la chuleta",emptyText:"Las preguntas que falles aparecerán en la chuleta.",restartLabel:"Volver a la chuleta"}
 };
-const crossTopicTitle={fresh:"Test con menos repetidas",failed:"Preguntas falladas",notes:"Mis aclaraciones",numbers:"Cifras y valores",cheat:"Chuleta de fallos"};
+const crossTopicTitle={search:"Preguntas buscadas",fresh:"Test con menos repetidas",failed:"Preguntas falladas",notes:"Mis aclaraciones",numbers:"Cifras y valores",cheat:"Chuleta de fallos"};
 
 function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,reviewEntry=null,onRecordReview,initialQuestionCount=null,repeatRatio=0,usedExamIds,label=null,returnTo=null,onReturn,mode:initialMode="topic",questionProgress={},onProgressChange,favorites=[],onToggleFavorite,onMarkLearned,notes={},onSaveNote,onConfidence,confidenceLog={},onRecordExam}){
  const [mode,setMode]=useState(initialMode);
@@ -540,6 +541,10 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
   setSavedTest(null);
  };
 
+ // volver desde un test entre temas (al buscador, si salió de ahí)
+ const backToList=()=>crossTopicCopy[mode].backPage==="test"?onChangeTopic():go(crossTopicCopy[mode].backPage);
+ // test con las preguntas encontradas en el buscador
+ const startSearchTest=questions=>{setMode("search");setSelectedTopicId(null);setTestQuestions(selectSmartQuestions(questions,questionProgress,Math.min(SEARCH_TEST_MAX,questions.length)).map(question=>shuffleQuestionOptions(question)));setI(0);setAnswersByIndex({});setConfByIndex({});setReviewMode(null);setDone(false);attemptRef.current=Date.now();window.scrollTo(0,0)};
  const discardSavedTest=()=>{clearTestSession();setSavedTest(null)};
 
  // vuelve a empezar con estas preguntas, en otro orden y con las opciones barajadas de nuevo
@@ -568,7 +573,7 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
  const handlePrevious=()=>{if(reviewList){const prev=[...reviewList].reverse().find(index=>index<i);if(prev!=null){setI(prev);window.scrollTo(0,0)}return;}setI(index=>Math.max(0,index-1))};
 
  if(!isCrossTopic&&!selectedTopicId){
-   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{crossTopicTitle[savedTest.mode]??(savedTest.mode==="mixed"?"Repaso general":null)??`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<ProgressOverview progress={questionProgress}/><div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><TopicsProgressGrid progress={questionProgress} order={topicOrder} onOrder={setTopicOrder} onPick={startTopicTest}/><ConfidenceCard log={confidenceLog}/></div>;
+   return <div className="testThemeSelector"><div className="testMeta"><span>SELECCIÓN DE TEMA</span><b>{topics.length} temas</b></div>{savedTest&&<div className="resumeTestBanner" role="status"><div><b>Tienes un test sin terminar</b><small>{crossTopicTitle[savedTest.mode]??(savedTest.mode==="mixed"?"Repaso general":null)??`Tema ${String(savedTest.topicId).padStart(2,"0")}`} · {Object.keys(savedTest.answers).length} de {savedTest.questions.length} respondidas</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={resumeSavedTest}><Play/> Continuar</button><button className="secondary" type="button" onClick={discardSavedTest}>Descartar</button></div></div>}<QuestionSearch progress={questionProgress} onStart={startSearchTest}/><ProgressOverview progress={questionProgress}/><div className="testCountSelector"><span>Preguntas por test</span><div className="choiceRow">{[10,20,30].map(count=><button key={count} className={questionCount===count?"selected":""} onClick={()=>setQuestionCount(count)}>{count}</button>)}</div><small>La selección prioriza preguntas nuevas, errores pendientes y repasos programados.</small><span className="diffFilterLabel">Dificultad</span><div className="choiceRow diffChoice"><button className={!onlyHard?"selected":""} onClick={()=>setOnlyHard(false)}>Todas</button><button className={onlyHard?"selected":""} onClick={()=>setOnlyHard(true)}><DifficultyMeter difficulty={{id:"hard",label:"Solo difíciles",bars:3}}/></button></div></div><TopicsProgressGrid progress={questionProgress} order={topicOrder} onOrder={setTopicOrder} onPick={startTopicTest}/><ConfidenceCard log={confidenceLog}/></div>;
  }
 
 
@@ -587,13 +592,13 @@ function TestPage({go,onChangeTopic,initialTopicId=null,initialQuestionIds=null,
     {failedQuestions.length>0&&<button className="secondary" onClick={()=>startReview("failed")}><Eye/> Revisar solo las {failedQuestions.length} falladas</button>}
     <button className="secondary" onClick={()=>restartWith(testQuestions)}><RotateCcw/> Repetir el mismo test</button>
     {failedQuestions.length>0&&<button className="secondary" onClick={()=>restartWith(failedQuestions)}><Target/> Repetir solo las {failedQuestions.length} falladas</button>}
-    <button className="secondary" onClick={()=>isCrossTopic?go(crossTopicCopy[mode].backPage):startTopicTest(selectedTopicId)}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Crear otro test"}</button>
+    <button className="secondary" onClick={()=>isCrossTopic?backToList():startTopicTest(selectedTopicId)}>{isCrossTopic?crossTopicCopy[mode].restartLabel:"Crear otro test"}</button>
     {!isCrossTopic&&<button className="secondary" onClick={onChangeTopic}>Elegir otro tema</button>}
    </div>
   </div>;
  }
 
- return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{reviewList?`Revisión ${reviewList.indexOf(i)+1} / ${reviewList.length}`:`${i+1} / ${totalQuestions}`}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><ConfidencePicker value={confByIndex[i]??"s"} onChange={level=>setConfByIndex(current=>({...current,[i]:level}))} locked={showResult}/><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId??currentTopic?.id)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId??currentTopic?.id)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/><ExplanationFigures question={q} topicId={questionTopicId} explanation={structuredExplanation}/><AskClaudeButton key={i} question={q} topicId={questionTopicId} selected={selectedAnswer}/>{questionTopicId&&<NoteEditor key={`note-${i}`} question={{...q,topicId:questionTopicId}} note={notes[getQuestionIdForProgress({...q,topicId:questionTopicId})]} onSave={onSaveNote}/>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={reviewList?reviewList[0]===i:i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{reviewList?(reviewList[reviewList.length-1]===i?"Ver resultado":"Siguiente"):i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div>{reviewList?<button className="changeTopicButton" onClick={endReview}>Volver al resultado</button>:<button className="changeTopicButton" onClick={()=>returnTo?onReturn?.(returnTo):isCrossTopic?go(crossTopicCopy[mode].backPage):onChangeTopic()}>{returnTo?"Volver al resumen":isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button>}</div></div>;
+ return <div className="testWrap"><div className="testMeta"><span>{(label?`${currentTopic.title} · ${label.replace(/^Simulacro · /,"")}`:currentTopic.title).toUpperCase()}</span><b>{reviewList?`Revisión ${reviewList.indexOf(i)+1} / ${reviewList.length}`:`${i+1} / ${totalQuestions}`}</b></div><div className="progressLine"><i style={{width:((i+1)/totalQuestions*100)+"%"}}/></div><div className="testCard"><div className="qTags"><span className="badge">{isCrossTopic?`Tema ${String(q.topicId).padStart(2,"0")}`:`Tema ${String(currentTopic.id).padStart(2,"0")}`}</span><DifficultyMeter difficulty={questionTopicId?getQuestionDifficulty({...q,topicId:questionTopicId},questionProgress):null}/></div><h2>{q.number}. {q.question}</h2><ConfidencePicker value={confByIndex[i]??"s"} onChange={level=>setConfByIndex(current=>({...current,[i]:level}))} locked={showResult}/><div className="answers">{q.answers.map((answer,index)=><button key={answer+index} type="button" onClick={()=>handleAnswer(index)} disabled={showResult} className={showResult ? (index===q.correctAnswer ? "correct" : (selectedAnswer===index ? "incorrect" : "")) : ""}><span>{String.fromCharCode(65+index)}</span>{answer}{isDisputedKey(q,q.topicId??currentTopic?.id)&&index===q.correctAnswer&&<b className="keyStar" aria-label="respuesta de la clave oficial"> *</b>}</button>)}</div>{isDisputedKey(q,q.topicId??currentTopic?.id)&&<p className="keyStarNote">* La que da por buena la clave oficial, que es discutible: míralo en la explicación.</p>}{showResult&&<div className="testFeedback"><ExplanationDisplay structured={structuredExplanation} fallback={q.explanation} correctAnswerText={q.answers[q.correctAnswer]} isCorrect={selectedAnswer===q.correctAnswer}/><ExplanationFigures question={q} topicId={questionTopicId} explanation={structuredExplanation}/><AskClaudeButton key={i} question={q} topicId={questionTopicId} selected={selectedAnswer}/>{questionTopicId&&<NoteEditor key={`note-${i}`} question={{...q,topicId:questionTopicId}} note={notes[getQuestionIdForProgress({...q,topicId:questionTopicId})]} onSave={onSaveNote}/>}</div>}{mode==="failed"&&showResult&&<div className="failedQuestionAction"><button className="markLearnedButton" onClick={()=>onMarkLearned(q)} disabled={isLearned}><CheckCircle2/>{isLearned?"Marcada como aprendida":"Marcar como aprendida"}</button></div>}<div className="testActions"><button className="secondary" onClick={handlePrevious} disabled={reviewList?reviewList[0]===i:i===0}><ArrowLeft/> Anterior</button><button className={isFavorite?"secondary favoriteAction active":"secondary favoriteAction"} onClick={()=>onToggleFavorite(q)}><Star fill={isFavorite?"currentColor":"none"}/> Favoritos</button><button className="primary" onClick={handleNext}>{reviewList?(reviewList[reviewList.length-1]===i?"Ver resultado":"Siguiente"):i===totalQuestions-1?"Finalizar":"Siguiente"} <ChevronRight/></button></div>{reviewList?<button className="changeTopicButton" onClick={endReview}>Volver al resultado</button>:<button className="changeTopicButton" onClick={()=>returnTo?onReturn?.(returnTo):isCrossTopic?backToList():onChangeTopic()}>{returnTo?"Volver al resumen":isCrossTopic?crossTopicCopy[mode].backLabel:"Cambiar de tema"}</button>}</div></div>;
 }
 
 // Simulacro en modo examen real: sin soluciones hasta entregar, con reloj y penalización por fallo.
@@ -915,6 +920,39 @@ function ExamHistory({history,progress,deleted,onReview,go}){
  </div>;
 }
 const EXAM_HISTORY_LIMIT=40;
+
+// Buscador de preguntas por palabras (en Test y progreso): todas las palabras deben aparecer en la
+// pregunta o en sus opciones, sin importar tildes ni mayúsculas. Cada palabra buscada tiene que ser
+// el principio de una palabra («gram» encuentra «Gram» y «gramnegativo», pero no «programada»).
+const SEARCH_TEST_MAX=50;
+const plainText=text=>String(text??"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+let searchIndex={key:null,items:[]};
+const getSearchIndex=()=>{
+ if(searchIndex.key!==activeScopeKey) searchIndex={key:activeScopeKey,items:getAllQuestions().map(question=>({question,text:` ${plainText(`${question.question} ${question.answers.join(" ")}`).replace(/[^a-z0-9]+/g," ")}`}))};
+ return searchIndex.items;
+};
+let lastSearch="";
+function QuestionSearch({progress,onStart}){
+ const [query,setQuery]=useState(lastSearch);
+ const [shown,setShown]=useState(20);
+ const [open,setOpen]=useState(null);
+ const words=plainText(query).split(/[^a-z0-9]+/).filter(word=>word.length>=2);
+ const results=useMemo(()=>words.length?getSearchIndex().filter(item=>words.every(word=>item.text.includes(` ${word}`))).map(item=>item.question):[],[words.join(" "),activeScopeKey]);
+ useEffect(()=>{lastSearch=query;setShown(20);setOpen(null)},[query]);
+ const seen=results.filter(question=>progress[getQuestionIdForProgress(question)]?.vecesVista).length;
+ const failed=results.filter(question=>isQuestionCurrentlyFailed(progress[getQuestionIdForProgress(question)])).length;
+ return <section className="questionSearch" aria-label="Buscar preguntas por palabras">
+  <div className="search"><Search/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Buscar preguntas: Gram, Coombs, troponina…" aria-label="Buscar preguntas por palabras" enterKeyHint="search"/>{query&&<button type="button" className="searchClear" aria-label="Borrar búsqueda" onClick={()=>setQuery("")}><X/></button>}</div>
+  {words.length>0&&<div className="searchResults">
+   {!results.length?<p className="examNote">Ninguna pregunta contiene «{query.trim()}». Prueba con otra palabra o con menos palabras.</p>:<>
+    <div className="searchSummary"><span><b>{results.length}</b> {results.length===1?"pregunta":"preguntas"} · {seen} ya vistas{failed?` · ${failed} falladas`:""}</span><button type="button" className="primary" onClick={()=>onStart(results)}><Play/> Hacer test{results.length>SEARCH_TEST_MAX?` de ${SEARCH_TEST_MAX}`:` de ${results.length}`}</button></div>
+    {results.length>SEARCH_TEST_MAX&&<small className="freshSummary">Salen {SEARCH_TEST_MAX} de las {results.length}, primero las nuevas y las que más fallas. Añade otra palabra para afinar.</small>}
+    <ul className="searchList">{results.slice(0,shown).map(question=>{const id=getQuestionIdForProgress(question);const state=progress[id];return <li key={id}><button type="button" onClick={()=>setOpen(open===id?null:id)} aria-expanded={open===id}><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span>{isQuestionCurrentlyFailed(state)?<em className="searchTag fail">fallada</em>:state?.vecesVista?<em className="searchTag">vista</em>:null}<b>{question.question}</b></button>{open===id&&<p className="searchAnswer"><CheckCircle2/> {question.answers[question.correctAnswer]}</p>}</li>})}</ul>
+    {results.length>shown&&<button type="button" className="secondary" onClick={()=>setShown(count=>count+30)}>Ver más ({results.length-shown})</button>}
+   </>}
+  </div>}
+ </section>;
+}
 
 // «Mis repasos»: los tests de la página Repaso, aparte de los simulacros
 const REVIEW_HISTORY_LIMIT=60;
