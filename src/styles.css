@@ -425,3 +425,6 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:max(env(safe-area-i
 .reviewCountRow.freshRow{grid-template-columns:repeat(2,minmax(0,1fr))}.reviewCountRow.freshRow.ratios{grid-template-columns:repeat(3,minmax(0,1fr))}
 .freshSummary{color:var(--muted);font-size:12px;line-height:1.4}
 @media(max-width:600px){.reviewCountRow.freshRow.ratios{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Menú lateral: se desplaza si no cabe y la tarjeta «Tu preparación» va al final, sin tapar opciones */
+.sidebar{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}
+.sidecard{position:static;margin-top:16px}
