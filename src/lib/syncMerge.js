@@ -9,6 +9,8 @@
 // - planChecks (tareas del plan): por día y tarea gana la marca o desmarca más reciente.
 // - examHistory (simulacros hechos): se juntan los de los dos dispositivos; un borrado
 //   (examHistoryDeleted) gana siempre.
+// - reviewHistory (tests de repaso hechos, aparte de los simulacros): igual que examHistory,
+//   con sus propios borrados (reviewHistoryDeleted).
 // - El tema claro/oscuro es de cada dispositivo y no se sincroniza.
 
 import { mergeConfidence } from "./confidence.js";
@@ -91,15 +93,17 @@ function mergePlanChecks(a, b) {
 }
 
 export const EXAM_HISTORY_MAX = 40;
-function mergeExamHistory(a, b) {
- const deleted = { ...(isObject(a?.examHistoryDeleted) ? a.examHistoryDeleted : {}), ...(isObject(b?.examHistoryDeleted) ? b.examHistoryDeleted : {}) };
+export const REVIEW_HISTORY_MAX = 60;
+function mergeHistory(a, b, listKey, deletedKey, max) {
+ const deleted = { ...(isObject(a?.[deletedKey]) ? a[deletedKey] : {}), ...(isObject(b?.[deletedKey]) ? b[deletedKey] : {}) };
  const byId = new Map();
- [...(Array.isArray(a?.examHistory) ? a.examHistory : []), ...(Array.isArray(b?.examHistory) ? b.examHistory : [])].forEach((entry) => {
+ [...(Array.isArray(a?.[listKey]) ? a[listKey] : []), ...(Array.isArray(b?.[listKey]) ? b[listKey] : [])].forEach((entry) => {
   if (isObject(entry) && entry.id != null && !deleted[entry.id] && !byId.has(entry.id)) byId.set(entry.id, entry);
  });
- const examHistory = [...byId.values()].sort((x, y) => (Number(y.endedAt) || 0) - (Number(x.endedAt) || 0)).slice(0, EXAM_HISTORY_MAX);
- return { examHistory, examHistoryDeleted: deleted };
+ const list = [...byId.values()].sort((x, y) => (Number(y.endedAt) || 0) - (Number(x.endedAt) || 0)).slice(0, max);
+ return { [listKey]: list, [deletedKey]: deleted };
 }
+const mergeExamHistory = (a, b) => mergeHistory(a, b, "examHistory", "examHistoryDeleted", EXAM_HISTORY_MAX);
 
 // Datos que viajan a la nube (sin preferencias propias del dispositivo).
 export function syncPayload(data) {
@@ -122,6 +126,7 @@ export function mergeUserData(a, b) {
   confidence: mergeConfidence(isObject(left.confidence) ? left.confidence : {}, isObject(right.confidence) ? right.confidence : {}),
   planChecks: mergePlanChecks(left, right),
   ...mergeExamHistory(left, right),
+  ...mergeHistory(left, right, "reviewHistory", "reviewHistoryDeleted", REVIEW_HISTORY_MAX),
  };
 }
 
