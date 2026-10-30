@@ -3,6 +3,7 @@
 // texto consolidado de cada norma en el BOE; la explicación cita el artículo.
 import constitucion from "./constitucion.js";
 import lgs from "./lgs.js";
+import cohesion from "./cohesion.js";
 import ebep from "./ebep.js";
 import marco from "./marco.js";
 import prl from "./prl.js";
@@ -13,6 +14,7 @@ import autonomia from "./autonomia.js";
 export const LAWS = [
  { key: "constitucion", title: "Constitución española de 1978", questions: constitucion },
  { key: "lgs", title: "Ley General de Sanidad (Ley 14/1986)", questions: lgs },
+ { key: "cohesion", title: "Cohesión y calidad del SNS (Ley 16/2003)", questions: cohesion },
  { key: "autonomia", title: "Autonomía del paciente (Ley 41/2002)", questions: autonomia },
  { key: "ebep", title: "Estatuto Básico del Empleado Público (RDL 5/2015)", questions: ebep },
  { key: "marco", title: "Estatuto Marco (Ley 55/2003)", questions: marco },
