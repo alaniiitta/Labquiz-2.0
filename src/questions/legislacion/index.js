@@ -1,11 +1,13 @@
 // Tema 24 · Legislación: el «contenido jurídico común» (temas 1 a 10) del temario de técnico
 // especialista de laboratorio del IB-Salut (BOIB núm. 115, de 30-08-2025). Las preguntas salen del
 // texto consolidado de cada norma en el BOE; la explicación cita el artículo.
+import constitucion from "./constitucion.js";
 import marco from "./marco.js";
 import autonomia from "./autonomia.js";
 
 // orden del temario oficial; cada ley lleva su clave (forma parte del id de sus preguntas)
 export const LAWS = [
+ { key: "constitucion", title: "Constitución española de 1978", questions: constitucion },
  { key: "autonomia", title: "Autonomía del paciente (Ley 41/2002)", questions: autonomia },
  { key: "marco", title: "Estatuto Marco (Ley 55/2003)", questions: marco },
 ];
