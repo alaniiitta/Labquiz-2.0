@@ -2,6 +2,7 @@
 // especialista de laboratorio del IB-Salut (BOIB núm. 115, de 30-08-2025). Las preguntas salen del
 // texto consolidado de cada norma en el BOE; la explicación cita el artículo.
 import constitucion from "./constitucion.js";
+import estatuto from "./estatuto.js";
 import lgs from "./lgs.js";
 import cohesion from "./cohesion.js";
 import ebep from "./ebep.js";
@@ -14,6 +15,7 @@ import autonomia from "./autonomia.js";
 // orden del temario oficial; cada ley lleva su clave (forma parte del id de sus preguntas)
 export const LAWS = [
  { key: "constitucion", title: "Constitución española de 1978", questions: constitucion },
+ { key: "estatuto", title: "Estatuto de Autonomía de las Illes Balears", questions: estatuto },
  { key: "lgs", title: "Ley General de Sanidad (Ley 14/1986)", questions: lgs },
  { key: "cohesion", title: "Cohesión y calidad del SNS (Ley 16/2003)", questions: cohesion },
  { key: "autonomia", title: "Autonomía del paciente (Ley 41/2002)", questions: autonomia },
