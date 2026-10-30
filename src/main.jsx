@@ -39,7 +39,7 @@ const topics=[
  {id:17,title:"Metabolismo de hidratos de carbono"}, {id:18,title:"Hormonas"},
  {id:19,title:"Genética"}, {id:20,title:"Reproducción y cribados"},
  {id:21,title:"Drogas de abuso y fármacos"}, {id:22,title:"Marcadores tumorales"},
- {id:23,title:"Epidemiología, bioética y estadística"}
+ {id:23,title:"Epidemiología, bioética y estadística"}, {id:24,title:"Legislación"}
 ];
 
 const getTopicKey=id=>`tema-${String(id).padStart(2,"0")}`;
@@ -128,6 +128,8 @@ const getAllQuestions=(full=false)=>topics.flatMap(topic=>(full?fullQuestionBank
 // baraja una copia (Fisher-Yates) para repetir un test en otro orden
 const shuffledCopy=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
 const SIMULACRUM_MIN=60;
+const LAW_TOPIC=24;
+const LAW_MAX_SHARE=0.1;
 // examen real: solo el simulacro de 100 (1 h 30 min, cada 4 fallos restan 1 acierto, las en blanco no restan)
 const EXAM_COUNT=100;
 const EXAM_DURATION=90*60*1000;
@@ -138,7 +140,13 @@ const EXAM_PENALTY=1/4;
 const selectSimulacrumQuestions=(count,progress,usedIds=new Set())=>{
  const pools=topics.map(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(pool=>pool.length);
  const total=pools.reduce((sum,pool)=>sum+pool.length,0);
- const quotas=pools.map(pool=>count*pool.length/total);
+ let quotas=pools.map(pool=>count*pool.length/total);
+ // Legislación (tema 24): como mucho el 10 % del simulacro; lo que sobre se reparte entre el resto
+ const lawIndex=pools.findIndex(pool=>pool[0]?.topicId===LAW_TOPIC);
+ if(lawIndex>=0&&quotas[lawIndex]>count*LAW_MAX_SHARE){
+  const cap=Math.floor(count*LAW_MAX_SHARE);const restTotal=total-pools[lawIndex].length;
+  quotas=pools.map((pool,index)=>index===lawIndex?cap:(count-cap)*pool.length/restTotal);
+ }
  const counts=quotas.map(Math.floor);
  // reparte los huecos que faltan a los temas con mayor resto
  quotas.map((quota,index)=>[quota-Math.floor(quota),index]).sort((a,b)=>b[0]-a[0]).slice(0,count-counts.reduce((a,b)=>a+b,0)).forEach(([,index])=>{counts[index]+=1});

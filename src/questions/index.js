@@ -22,6 +22,7 @@ import topic20 from "./topic-20";
 import topic21 from "./topic-21";
 import topic22 from "./topic-22";
 import topic23 from "./topic-23";
+import topic24 from "./topic-24";
 
 const normalize = (value) => String(value ?? "").trim().toLowerCase().replace(/\s+/g, " ");
 
@@ -44,7 +45,7 @@ const withoutDuplicates = (topicId, questions) => {
 
 const topicsById = [
  topic01, topic02, topic03, topic04, topic05, topic06, topic07, topic08, topic09, topic10, topic11, topic12,
- topic13, topic14, topic15, topic16, topic17, topic18, topic19, topic20, topic21, topic22, topic23,
+ topic13, topic14, topic15, topic16, topic17, topic18, topic19, topic20, topic21, topic22, topic23, topic24,
 ];
 
 export default Object.fromEntries(

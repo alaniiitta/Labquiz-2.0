@@ -16,6 +16,7 @@ import topic20 from "./topic-20-explanations.json";
 import topic21 from "./topic-21-explanations.json";
 import topic22 from "./topic-22-explanations.json";
 import topic23 from "./topic-23-explanations.json";
+import { lawExplanations } from "../questions/legislacion/index.js";
 import topic04Part01 from "./topic-04-parts/part-01.json";
 import topic04Part02 from "./topic-04-parts/part-02.json";
 import topic04Part03 from "./topic-04-parts/part-03.json";
@@ -123,6 +124,7 @@ const explanationsByTopic = {
   "tema-21": topic21,
   "tema-22": topic22,
   "tema-23": topic23,
+  "tema-24": lawExplanations,
   "tema-09": {
     ...topic09Part01,
     ...topic09Part02,
