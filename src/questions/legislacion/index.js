@@ -5,6 +5,7 @@ import constitucion from "./constitucion.js";
 import lgs from "./lgs.js";
 import marco from "./marco.js";
 import prl from "./prl.js";
+import lopd from "./lopd.js";
 import autonomia from "./autonomia.js";
 
 // orden del temario oficial; cada ley lleva su clave (forma parte del id de sus preguntas)
@@ -14,6 +15,7 @@ export const LAWS = [
  { key: "autonomia", title: "Autonomía del paciente (Ley 41/2002)", questions: autonomia },
  { key: "marco", title: "Estatuto Marco (Ley 55/2003)", questions: marco },
  { key: "prl", title: "Prevención de riesgos laborales (Ley 31/1995)", questions: prl },
+ { key: "lopd", title: "Protección de datos (LO 3/2018)", questions: lopd },
 ];
 
 const LETTERS = ["A", "B", "C", "D"];
