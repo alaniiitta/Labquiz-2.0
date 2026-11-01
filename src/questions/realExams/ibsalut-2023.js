@@ -84,6 +84,8 @@ export default {
  source: "https://www.ibsalut.es/es/profesionales/recursos-humanos/trabaja-con-nosotros/oposiciones",
  scored: 60,
  minutes: 120,
+ points: 1,
+ keyNote: "Corrección con la plantilla oficial (incluida la rectificación de la pregunta 61)",
  penalty: 1 / 4,
  questions: rows.map(([question, answers, correctAnswer, why], index) => ({ number: index + 1, question, answers, correctAnswer, why, reserve: index >= 60 })),
 };

@@ -82,8 +82,8 @@ export function RealExamPage({examId,history=[],onRecord,onDelete,go}){
    <ul className="realExamFacts">
     <li><b>{exam.scored}</b> preguntas que puntúan y <b>{total-exam.scored}</b> de reserva (solo cuentan si el tribunal anula alguna)</li>
     <li><b>{minutesLabel(exam.minutes)}</b> para todo</li>
-    <li>Cada acierto suma 1 y cada fallo resta ¼; las en blanco no restan</li>
-    <li>Corrección con la plantilla oficial (incluida la rectificación de la pregunta 61)</li>
+    <li>{exam.points===1?"Cada acierto suma 1":`Cada acierto vale ${score(exam.points)} puntos`} y cada fallo resta ¼ de acierto; las en blanco no restan</li>
+    <li>{exam.keyNote}</li>
    </ul>
    <p className="examNote">Estas preguntas son aparte de tu banco: no cambian tu progreso ni tus falladas. Las opciones salen en su orden original.</p>
    <button className="primary" type="button" onClick={start}><Play/> Empezar · {minutesLabel(exam.minutes)}</button>
@@ -102,7 +102,7 @@ export function RealExamPage({examId,history=[],onRecord,onDelete,go}){
    <h2>{exam.title} · {attempt.auto?"se acabó el tiempo":"examen entregado"}</h2>
    <p className="examFormula">{new Date(attempt.endedAt).toLocaleString("es-ES",{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})}</p>
    <strong>{score(result.grade)}<small> / 10</small></strong>
-   <p className="resultPct">Puntuación neta: <b>{score(result.net)}</b> de {result.total}</p>
+   <p className="resultPct">Puntuación neta: <b>{score(result.net)}</b> de {result.total}{exam.points!==1&&<> · <b>{score(Math.round(Math.max(0,result.net)*exam.points*100)/100)}</b> de {score(Math.round(result.total*exam.points))} puntos</>}</p>
    <div className="examScore">
     <div className="ok"><b>{result.correct}</b><span>Aciertos</span><small>+{result.correct}</small></div>
     <div className="ko"><b>{result.wrong}</b><span>Fallos</span><small>−{score(result.wrong*exam.penalty)}</small></div>
