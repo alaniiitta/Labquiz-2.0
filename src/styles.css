@@ -483,3 +483,13 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:max(env(safe-area-i
 .home2Strip{grid-template-columns:repeat(8,minmax(0,1fr));gap:6px}
 .home2Strip button{aspect-ratio:auto;height:36px;min-height:0;border-radius:9px!important;display:grid;place-items:center}
 @media(min-width:701px){.home2Strip{grid-template-columns:repeat(12,minmax(0,1fr))}}
+/* Exámenes reales */
+.realExamsCard .reviewSetupLabel{display:flex;align-items:center;gap:6px}.realExamsCard .reviewSetupLabel svg{width:15px}
+.realExamRow{display:flex;align-items:center;gap:12px;width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text);text-align:left}
+.realExamRow:hover{border-color:var(--primary)}
+.realExamRow>div{flex:1;min-width:0}.realExamRow b,.realExamRow small{display:block}.realExamRow>div>b{font-size:15px}
+.realExamRow small{margin-top:4px;color:var(--muted);font-size:12px}.realExamRow small b{display:inline;color:var(--text)}
+.realExamRow>svg{width:17px;flex:0 0 17px;color:var(--muted)}
+.realExamRunning{display:flex!important;align-items:center;gap:4px;color:var(--primary)!important;font-weight:750}.realExamRunning svg{width:13px}
+.realExamFacts{margin:0;padding-left:18px;color:var(--text);font-size:14px;line-height:1.55}.realExamFacts li+li{margin-top:4px}
+.examGrid button.reserve{border-style:dashed}

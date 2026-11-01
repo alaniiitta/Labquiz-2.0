@@ -11,6 +11,7 @@
 //   (examHistoryDeleted) gana siempre.
 // - reviewHistory (tests de repaso hechos, aparte de los simulacros): igual que examHistory,
 //   con sus propios borrados (reviewHistoryDeleted).
+// - realExamHistory (intentos de exámenes reales): igual, con realExamHistoryDeleted.
 // - El tema claro/oscuro es de cada dispositivo y no se sincroniza.
 
 import { mergeConfidence } from "./confidence.js";
@@ -94,6 +95,7 @@ function mergePlanChecks(a, b) {
 
 export const EXAM_HISTORY_MAX = 40;
 export const REVIEW_HISTORY_MAX = 60;
+export const REAL_EXAM_HISTORY_MAX = 30;
 function mergeHistory(a, b, listKey, deletedKey, max) {
  const deleted = { ...(isObject(a?.[deletedKey]) ? a[deletedKey] : {}), ...(isObject(b?.[deletedKey]) ? b[deletedKey] : {}) };
  const byId = new Map();
@@ -127,6 +129,7 @@ export function mergeUserData(a, b) {
   planChecks: mergePlanChecks(left, right),
   ...mergeExamHistory(left, right),
   ...mergeHistory(left, right, "reviewHistory", "reviewHistoryDeleted", REVIEW_HISTORY_MAX),
+  ...mergeHistory(left, right, "realExamHistory", "realExamHistoryDeleted", REAL_EXAM_HISTORY_MAX),
  };
 }
 

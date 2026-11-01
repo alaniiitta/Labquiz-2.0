@@ -16,6 +16,7 @@ import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
 import {hasSelfReferentialOption,getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,selectWithRepeatLimit,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
+import {RealExamPage,RealExamsCard} from "./components/RealExam.jsx";
 import {explainQuestion} from "./lib/explainQuestion.js";
 import {EXAM_HISTORY_KEY,loadExamHistory,clearExamSession,clearTestSession,createBackup,loadSavedExam,loadSavedTest,saveExamSession,loadUserData,migrateDuplicateProgress,parseBackup,saveTestSession,saveUserData} from "./lib/storage.js";
 import {EXAM_DATE,getCountdown} from "./lib/studyPlan.js";
@@ -262,6 +263,11 @@ function App(){
  const recordReview=entry=>setUserData(data=>({...data,reviewHistory:[entry,...(data.reviewHistory??[]).filter(item=>item.id!==entry.id)].slice(0,REVIEW_HISTORY_LIMIT)}));
  const deleteReview=id=>setUserData(data=>({...data,reviewHistory:(data.reviewHistory??[]).filter(item=>item.id!==id),reviewHistoryDeleted:{...(data.reviewHistoryDeleted??{}),[id]:Date.now()}}));
  const openReviewLog=entry=>{setTestConfig(config=>({topicId:null,mode:entry.kind,questionIds:null,questionCount:null,label:null,returnTo:null,repeatRatio:null,reviewEntry:entry,sessionId:config.sessionId+1}));show("test")};
+ // exámenes reales de convocatorias anteriores (intentos sincronizados, aparte de los simulacros)
+ const [realExamId,setRealExamId]=useState(null);
+ const openRealExam=id=>{setRealExamId(id);show("realexam")};
+ const recordRealExam=entry=>setUserData(data=>({...data,realExamHistory:[entry,...(data.realExamHistory??[]).filter(item=>item.id!==entry.id)].slice(0,30)}));
+ const deleteRealExam=id=>setUserData(data=>({...data,realExamHistory:(data.realExamHistory??[]).filter(item=>item.id!==id),realExamHistoryDeleted:{...(data.realExamHistoryDeleted??{}),[id]:Date.now()}}));
  const deleteExam=id=>setUserData(data=>({...data,examHistory:(data.examHistory??[]).filter(item=>item.id!==id),examHistoryDeleted:{...(data.examHistoryDeleted??{}),[id]:Date.now()}}));
  // los simulacros que versiones anteriores guardaban solo en este dispositivo pasan a la cuenta
  useEffect(()=>{const old=loadExamHistory();if(!old.length)return;setUserData(data=>{const ids=new Set((data.examHistory??[]).map(item=>item.id));return {...data,examHistory:[...(data.examHistory??[]),...old.filter(item=>!ids.has(item.id))].sort((a,b)=>b.endedAt-a.endedAt).slice(0,40)}});try{localStorage.removeItem(EXAM_HISTORY_KEY)}catch{}},[]);
@@ -280,15 +286,16 @@ function App(){
    
   </aside>
   <div className="svgDefs" aria-hidden="true" dangerouslySetInnerHTML={{__html:visualSummaryDefs}}/>
-  <main className={page==="test"||page==="exam"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" type="button" onClick={()=>setMobile(true)} aria-label="Abrir menú"><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
+  <main className={page==="test"||page==="exam"||page==="realexam"?"testMain":""}><header className={page==="home"?"homeHeader":""}><button className="mobileMenu" type="button" onClick={()=>setMobile(true)} aria-label="Abrir menú"><Menu/></button><div><span className="eyebrow">OPOSICIONES · LABORATORIO</span><h1>{page==="home"?"Hola, Alana 👋":pageTitle(page)}</h1></div></header>
   {saveFailed&&<div className="saveWarning" role="alert"><b>⚠️ Tu progreso no se está guardando en este navegador.</b> Puede que el almacenamiento esté lleno o bloqueado (por ejemplo, en modo privado). Descarga una copia de seguridad para no perder tus datos. <button className="homeTextButton" type="button" onClick={()=>go("settings")}>Ir a Configuración <ChevronRight/></button></div>}
   {page==="home"&&<HomePage go={go} openTest={openTest} openExam={openExam} progress={userData.progress} examHistory={userData.examHistory} examDeleted={userData.examHistoryDeleted} reviewHistory={userData.reviewHistory} planChecks={userData.planChecks} onTogglePlan={togglePlanCheck} onSetPlanTopics={(day,ids)=>setPlanCheck(day,"topics",ids)}/>}
   {page==="summaries"&&<SummaryPage progress={userData.progress} openTopic={t=>openSummaryAt(t.id)}/>}
   {page==="topic"&&selected&&<TopicPage examScopeConfig={userData.examScopes} onExamScope={setExamScope} topic={selected} go={go} progress={userData.progress} focusSection={focusSection} onStartTest={()=>openTest(selected.id)} onPractice={(ids,label,sectionId)=>openTest(selected.id,"topic",ids,null,label,{topicId:selected.id,sectionId,title:label})}/>}
   {page==="test"&&<TestPage key={`${testConfig.mode}-${testConfig.topicId??"selector"}-${testConfig.sessionId}`} go={go} onChangeTopic={()=>openTest(null)} initialTopicId={testConfig.topicId} initialQuestionIds={testConfig.questionIds} initialQuestionCount={testConfig.questionCount} repeatRatio={testConfig.repeatRatio} usedExamIds={()=>usedExamQuestionIds(userData.examHistory,userData.progress,userData.examHistoryDeleted)} label={testConfig.label} returnTo={testConfig.returnTo} onReturn={target=>openSummaryAt(target.topicId,target.sectionId)} mode={testConfig.mode} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} onMarkLearned={markLearned} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence} confidenceLog={userData.confidence??{}} onRecordExam={recordExam} reviewEntry={testConfig.reviewEntry} onRecordReview={recordReview}/>}
-  {page==="review"&&<ReviewPage go={go} reviewHistory={userData.reviewHistory} onReviewLog={openReviewLog} examHistory={userData.examHistory} examDeleted={userData.examHistoryDeleted} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onFresh={(count,ratio)=>openTest(null,"fresh",null,count,null,null,ratio)} onStart={count=>count>=SIMULACRUM_MIN?openExam(false,null,null,count):openTest(null,"mixed",null,count)} onResumeExam={()=>openExam(true)}/>}
+  {page==="review"&&<ReviewPage go={go} reviewHistory={userData.reviewHistory} realExamHistory={userData.realExamHistory} onRealExam={openRealExam} onReviewLog={openReviewLog} examHistory={userData.examHistory} examDeleted={userData.examHistoryDeleted} progress={userData.progress} onReviewExam={entry=>openExam(false,null,entry)} onNumbers={count=>openTest(null,"numbers",null,count)} onFresh={(count,ratio)=>openTest(null,"fresh",null,count,null,null,ratio)} onStart={count=>count>=SIMULACRUM_MIN?openExam(false,null,null,count):openTest(null,"mixed",null,count)} onResumeExam={()=>openExam(true)}/>}
   {page==="exam"&&<ExamPage key={examConfig.sessionId} usedExamIds={()=>usedExamQuestionIds(userData.examHistory,userData.progress,userData.examHistoryDeleted)} examCount={examConfig.count??EXAM_COUNT} onRecord={recordExam} resume={examConfig.resume} historyEntry={examConfig.history} repeatQuestions={examConfig.questions} onRepeat={questions=>openExam(false,questions)} onPracticeFailed={ids=>openTest(null,"failed",ids)} go={go} questionProgress={userData.progress} onProgressChange={progress=>setUserData(data=>({...data,progress}))} favorites={userData.favorites} onToggleFavorite={toggleFavorite} notes={userData.notes??{}} onSaveNote={saveNote} onConfidence={saveConfidence}/>}
   {page==="notes"&&<NotesPage notes={userData.notes??{}} onSaveNote={saveNote} onStart={questionIds=>openTest(null,"notes",questionIds)} go={go}/>}
+  {page==="realexam"&&<RealExamPage key={realExamId} examId={realExamId} history={userData.realExamHistory??[]} onRecord={recordRealExam} onDelete={deleteRealExam} go={go}/>}
   {page==="reviews"&&<ReviewsPage history={userData.reviewHistory} onReview={openReviewLog} onDelete={deleteReview} go={go}/>}
   {page==="exams"&&<ExamsPage deleted={userData.examHistoryDeleted} onStart={count=>count==="resume"?openExam(true):openExam(false,null,null,count)} history={userData.examHistory} progress={userData.progress} onReview={entry=>openExam(false,null,entry)} onDelete={deleteExam} go={go}/>}
   {page==="methods"&&<MethodsPage go={go}/>}
@@ -301,7 +308,7 @@ function App(){
   </main>
  </div>
 }
-const pageTitle=p=>({methods:"Métodos y pruebas",exams:"Mis simulacros",reviews:"Mis repasos",cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test y progreso",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
+const pageTitle=p=>({methods:"Métodos y pruebas",exams:"Mis simulacros",reviews:"Mis repasos",cheatsheet:"Chuleta de fallos",summaries:"Resúmenes",topic:"Tema",test:"Test y progreso",review:"Repaso",notes:"Aclaraciones",exam:"Simulacro de examen",realexam:"Examen real",wrong:"Preguntas falladas",favorites:"Favoritas",progress:"Progreso",simulacrum:"Simulacro",settings:"Configuración"}[p]);
 
 function ExamCountdown({go}){
  const [now,setNow]=useState(()=>new Date());
@@ -1056,7 +1063,7 @@ function MethodsPage({go}){
  </div>;
 }
 
-function ReviewPage({go,reviewHistory,onReviewLog,onStart,onResumeExam,onNumbers,onFresh,onReviewExam,examHistory,examDeleted,progress}){
+function ReviewPage({go,reviewHistory,realExamHistory,onRealExam,onReviewLog,onStart,onResumeExam,onNumbers,onFresh,onReviewExam,examHistory,examDeleted,progress}){
  const [count,setCount]=useState(20);
  const [freshCount,setFreshCount]=useState(30);
  const [repeatRatio,setRepeatRatio]=useState(0);
@@ -1077,6 +1084,7 @@ function ReviewPage({go,reviewHistory,onReviewLog,onStart,onResumeExam,onNumbers
    {isExam&&<p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno en el banco.<> <b>Modo examen real:</b> {count===EXAM_COUNT?"1 h 30 min":"54 min (el mismo ritmo que el de 100)"}, sin soluciones hasta entregar y cada 4 fallos restan 1 acierto (las en blanco no restan).</> <b>Sin repetir:</b> {usedInExams?`no saldrán las ${usedInExams} preguntas de tus simulacros anteriores (si un tema se queda sin preguntas, se completa con las de simulacros anteriores, primero las que fallaste).`:"cada simulacro nuevo evitará las preguntas de los anteriores."}</p>}
    <button className="primary" type="button" onClick={()=>onStart(count)}>{count===EXAM_COUNT?"Empezar examen de 100 · 1 h 30 min":isExam?`Empezar examen de ${count} · 54 min`:"Empezar repaso aleatorio"}</button>
   </div>
+  <RealExamsCard history={realExamHistory??[]} onOpen={onRealExam}/>
   <div className="reviewSetup freshSetup">
    <span className="reviewSetupLabel">Test con menos repetidas</span>
    <p className="freshNote">Mezcla todos los temas y elige cuántas preguntas ya vistas pueden salir. Las nuevas salen al azar; las repetidas, primero las que has fallado.</p>
