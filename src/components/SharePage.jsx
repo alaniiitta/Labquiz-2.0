@@ -1,6 +1,6 @@
 import React,{useMemo,useState} from "react";
 import {CheckCircle2,Eye,EyeOff,MessageCircle,Search,Shuffle,Trash2} from "lucide-react";
-import {questionMessage,solutionMessage} from "./ShareWhatsApp.jsx";
+import {loadToShare,questionMessage,saveToShare,solutionMessage} from "./ShareWhatsApp.jsx";
 import {REAL_EXAMS} from "../questions/realExams/index.js";
 
 // Apartado «Compartir»: elegir una pregunta, mandarla al grupo de WhatsApp y,
@@ -26,6 +26,8 @@ export default function SharePage({topics,bank,failed,explain}){
  const [current,setCurrent]=useState(null);
  const [reveal,setReveal]=useState(false);
  const [sent,setSent]=useState(loadSent);
+ const [saved,setSaved]=useState(loadToShare);
+ const unsave=key=>{const list=saved.filter(item=>item.key!==key);setSaved(list);saveToShare(list)};
 
  const realPool=useMemo(()=>REAL_EXAMS.flatMap(exam=>exam.questions.filter(question=>!question.annulled&&question.correctAnswer>=0).map(question=>({key:`${exam.id}#${question.number}`,question:question.question,answers:question.answers,correctAnswer:question.correctAnswer,explanation:question.why??"",source:`Examen real ${exam.title}`,image:question.image}))),[]);
  const pool=useMemo(()=>{
@@ -39,13 +41,23 @@ export default function SharePage({topics,bank,failed,explain}){
  // la explicación se busca solo para la pregunta elegida (el banco es grande)
  const next=()=>{const item=pickRandom(pool,current?.key);if(!item){setCurrent(null);return}const {raw,...rest}=item;setCurrent(raw?{...rest,explanation:explain(raw)}:rest);setReveal(false)};
  const remember=item=>{const entry={...item,at:Date.now(),solved:false};const list=[entry,...sent.filter(old=>old.key!==item.key)];setSent(list);saveSent(list)};
- const sendQuestion=item=>{openWhatsApp(questionMessage(item));remember(item)};
+ // al enviarla, la guardada pasa a «Enviadas al grupo»
+ const sendQuestion=item=>{openWhatsApp(questionMessage(item));remember(item);if(saved.some(old=>old.key===item.key))unsave(item.key)};
  const sendSolution=item=>{openWhatsApp(solutionMessage(item));const list=sent.map(old=>old.key===item.key?{...old,solved:true}:old);setSent(list);saveSent(list)};
  const forget=key=>{const list=sent.filter(old=>old.key!==key);setSent(list);saveSent(list)};
  const chooseSource=id=>{setSource(id);setCurrent(null);setReveal(false)};
 
  return <div className="reviewPage sharePage">
   <div className="reviewHero"><h2>Compartir con tus compañeras</h2><p>Elige una pregunta, mándala al grupo de WhatsApp y, cuando hayan contestado, envía la solución.</p></div>
+
+  {saved.length>0&&<div className="reviewSetup">
+   <span className="reviewSetupLabel">Guardadas para compartir · {saved.length}</span>
+   <div className="shareSentList">{saved.map(item=><div key={item.key} className={current?.key===item.key?"shareSent active":"shareSent"}>
+    <div><b>{item.question}</b><small>{item.source??""}{item.source?" · ":""}guardada {when(item.at)}</small></div>
+    <button type="button" onClick={()=>{setCurrent(item);setReveal(false);setTimeout(()=>document.querySelector(".shareCard")?.scrollIntoView({behavior:"smooth",block:"start"}),50)}}><MessageCircle/>Abrir</button>
+    <button type="button" className="shareForget" onClick={()=>unsave(item.key)} aria-label="Quitar de guardadas"><Trash2/></button>
+   </div>)}</div>
+  </div>}
 
   <div className="reviewSetup">
    <span className="reviewSetupLabel">¿De dónde sale la pregunta?</span>
