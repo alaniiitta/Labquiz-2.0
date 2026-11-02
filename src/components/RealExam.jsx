@@ -1,6 +1,7 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {ArrowLeft,ChevronRight,FileText,Flag,LayoutGrid,Play,RotateCcw,Timer,Trash2} from "lucide-react";
 import ExplanationDisplay from "./ExplanationDisplay.jsx";
+import ShareWhatsApp from "./ShareWhatsApp.jsx";
 import {REAL_EXAMS,REAL_EXAM_GROUPS,realExamById} from "../questions/realExams/index.js";
 import {askConfirm} from "../lib/confirm.js";
 
@@ -157,7 +158,7 @@ export function RealExamPage({examId,history=[],onRecord,onDelete,go}){
    <div className="answers">{q.answers.map((answer,index)=><button key={index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing&&q.annulled?(selected===index?"picked":""):reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{LETTERS[index]}</span>{answer}</button>)}</div>
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":q.reserve?"Pregunta de reserva: no puntúa, pero practícala.":"Si no la sabes, déjala en blanco: no resta."}</p>}
    {reviewing&&q.annulled&&<p className="examHint">El tribunal anuló esta pregunta en la plantilla definitiva: no cuenta para la nota{plan.substitutes.size?" y en su lugar puntúa una de reserva":""}.</p>}
-   {reviewing&&!q.annulled&&<div className="testFeedback"><ExplanationDisplay structured={{porQueLaCorrecta:q.why}} correctAnswerText={`${LETTERS[q.correctAnswer]}) ${q.answers[q.correctAnswer]}`} isCorrect={hasAnswer?selected===q.correctAnswer:null}/></div>}
+   {reviewing&&!q.annulled&&<div className="testFeedback"><ExplanationDisplay structured={{porQueLaCorrecta:q.why}} correctAnswerText={`${LETTERS[q.correctAnswer]}) ${q.answers[q.correctAnswer]}`} isCorrect={hasAnswer?selected===q.correctAnswer:null}/><ShareWhatsApp question={q.question} answers={q.answers} correctAnswer={q.correctAnswer} explanation={q.why} source={`Examen real ${exam.title}`}/></div>}
    <div className="testActions">
     <button className="secondary" onClick={()=>goTo(Math.max(0,i-1))} disabled={i===0}><ArrowLeft/> Anterior</button>
     {!reviewing&&<button className={flags.includes(i)?"secondary favoriteAction active":"secondary favoriteAction"} onClick={toggleFlag}><Flag fill={flags.includes(i)?"currentColor":"none"}/> {flags.includes(i)?"Marcada":"Marcar"}</button>}
