@@ -1,17 +1,17 @@
 import React,{useEffect,useMemo,useRef,useState} from "react";
 import {ArrowLeft,ChevronRight,FileText,Flag,LayoutGrid,Play,RotateCcw,Timer,Trash2} from "lucide-react";
 import ExplanationDisplay from "./ExplanationDisplay.jsx";
-import {REAL_EXAMS,realExamById} from "../questions/realExams/index.js";
+import {REAL_EXAMS,REAL_EXAM_GROUPS,realExamById} from "../questions/realExams/index.js";
 import {askConfirm} from "../lib/confirm.js";
 
 // Exámenes reales de convocatorias anteriores: mismo orden, mismas opciones y la clave oficial.
 // Se hacen con su reloj y su penalización; las preguntas de reserva se responden pero no puntúan.
 const SESSION_KEY="labquiz.real-exam-session.v1";
-const LETTERS="ABCD";
+const LETTERS="ABCDE";
 const has=(object,key)=>Object.prototype.hasOwnProperty.call(object,key);
 const clock=ms=>{const total=Math.max(0,Math.ceil(ms/1000));const h=Math.floor(total/3600),m=Math.floor(total%3600/60),s=total%60;return `${h?h+":":""}${String(m).padStart(h?2:1,"0")}:${String(s).padStart(2,"0")}`};
 const score=value=>value.toLocaleString("es-ES",{maximumFractionDigits:2}).replace("-","−");
-const minutesLabel=minutes=>minutes%60?`${Math.floor(minutes/60)} h ${minutes%60} min`:`${minutes/60} h`;
+const minutesLabel=minutes=>minutes<60?`${minutes} min`:minutes%60?`${Math.floor(minutes/60)} h ${minutes%60} min`:`${minutes/60} h`;
 
 export const loadRealSession=()=>{try{const session=JSON.parse(localStorage.getItem(SESSION_KEY)||"null");return session&&realExamById(session.examId)&&Number.isFinite(session.deadline)?session:null}catch{return null}};
 const saveRealSession=session=>{try{localStorage.setItem(SESSION_KEY,JSON.stringify(session))}catch{}};
@@ -38,18 +38,22 @@ export function realExamScore(exam,answers={}){
 // Tarjeta para la página de Repaso
 export function RealExamsCard({history=[],onOpen}){
  const session=loadRealSession();
+ const [showOther,setShowOther]=useState(()=>!!session&&realExamById(session.examId)?.group==="other");
  return <div className="reviewSetup realExamsCard">
   <span className="reviewSetupLabel"><FileText/> Exámenes reales</span>
   <p className="freshNote">El examen oficial tal cual salió: mismas preguntas, mismo orden, su tiempo y la clave correctora oficial.</p>
-  {REAL_EXAMS.map(exam=>{
+  {REAL_EXAM_GROUPS.map(group=>{const exams=REAL_EXAMS.filter(exam=>exam.group===group.id);const open=group.id!=="other"||showOther;return <React.Fragment key={group.id}>
+  {group.id==="other"?<button type="button" className="realExamGroup" onClick={()=>setShowOther(value=>!value)} aria-expanded={open}><span>{group.title} · {exams.length} exámenes</span><ChevronRight className={open?"open":""}/></button>:<span className="realExamGroupTitle">{group.title}</span>}
+  {open&&exams.map(exam=>{
    const tries=history.filter(entry=>entry.examId===exam.id);
    const last=tries[0]?realExamScore(exam,tries[0].answers):null;
    const running=session?.examId===exam.id;
    return <button key={exam.id} type="button" className="realExamRow" onClick={()=>onOpen(exam.id)}>
-    <div><b>{exam.title}</b><small>{exam.scored} preguntas + {exam.questions.length-exam.scored} de reserva · {minutesLabel(exam.minutes)}</small>{running?<small className="realExamRunning"><Play/> Tienes este examen a medias</small>:last?<small>Último intento: <b>{score(last.grade)}</b> / 10 · {tries.length} {tries.length===1?"intento":"intentos"}</small>:<small>Sin hacer todavía</small>}</div>
+    <div><b>{exam.title}</b><small>{exam.scored} preguntas{exam.questions.length>exam.scored?` + ${exam.questions.length-exam.scored} de reserva`:""} · {minutesLabel(exam.minutes)}</small>{running?<small className="realExamRunning"><Play/> Tienes este examen a medias</small>:last?<small>Último intento: <b>{score(last.grade)}</b> / 10 · {tries.length} {tries.length===1?"intento":"intentos"}</small>:<small>Sin hacer todavía</small>}</div>
     <ChevronRight/>
    </button>;
   })}
+  </React.Fragment>})}
  </div>;
 }
 
@@ -90,8 +94,8 @@ export function RealExamPage({examId,history=[],onRecord,onDelete,go}){
   <div className="reviewSetup">
    <span className="reviewSetupLabel">Cómo fue el examen</span>
    <ul className="realExamFacts">
-    <li><b>{exam.scored}</b> preguntas que puntúan y <b>{total-exam.scored}</b> de reserva (solo cuentan si el tribunal anula alguna)</li>
-    <li><b>{minutesLabel(exam.minutes)}</b> para todo</li>
+    <li><b>{exam.scored}</b> preguntas que puntúan{total>exam.scored&&<> y <b>{total-exam.scored}</b> de reserva (solo cuentan si el tribunal anula alguna)</>}</li>
+    <li><b>{minutesLabel(exam.minutes)}</b> para todo{exam.minutesEstimated&&" (tiempo estimado: el PDF no dice la duración)"}</li>
     <li>{exam.points===1?"Cada acierto suma 1":`Cada acierto vale ${score(exam.points)} puntos`} y cada fallo resta ¼ de acierto; las en blanco no restan</li>
     <li>{exam.keyNote}</li>
     {plan.annulled>0&&<li>Al corregir verás las anuladas marcadas; en su lugar cuentan {Math.min(plan.annulled,plan.substitutes.size)===1?"la primera de reserva":`las ${plan.substitutes.size} primeras de reserva`}</li>}
@@ -149,6 +153,7 @@ export function RealExamPage({examId,history=[],onRecord,onDelete,go}){
    {q.context&&(i===0||questions[i-1].context!==q.context)&&<p className="realExamCase">{q.context}</p>}
    {q.context&&i>0&&questions[i-1].context===q.context&&<details className="realExamCase"><summary>{q.context.split(":")[0]} (ver el enunciado)</summary>{q.context}</details>}
    <h2>{q.number}. {q.question}</h2>
+   {q.image&&<img className="realExamImage" src={`${import.meta.env.BASE_URL}${reviewing&&q.imageReview?q.imageReview:q.image}`} alt={`Imagen de la pregunta ${q.number}`} loading="lazy"/>}
    <div className="answers">{q.answers.map((answer,index)=><button key={index} type="button" onClick={()=>!reviewing&&pick(index)} disabled={reviewing} aria-pressed={!reviewing?selected===index:undefined} className={reviewing&&q.annulled?(selected===index?"picked":""):reviewing?(index===q.correctAnswer?(selected===index?"correct":"correct missed"):selected===index?"incorrect":""):selected===index?"picked":""}><span>{LETTERS[index]}</span>{answer}</button>)}</div>
    {!reviewing&&<p className="examHint">{hasAnswer?"Toca de nuevo tu respuesta para dejarla en blanco.":q.reserve?"Pregunta de reserva: no puntúa, pero practícala.":"Si no la sabes, déjala en blanco: no resta."}</p>}
    {reviewing&&q.annulled&&<p className="examHint">El tribunal anuló esta pregunta en la plantilla definitiva: no cuenta para la nota{plan.substitutes.size?" y en su lugar puntúa una de reserva":""}.</p>}
