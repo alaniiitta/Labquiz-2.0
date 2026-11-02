@@ -493,3 +493,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:max(env(safe-area-i
 .realExamRunning{display:flex!important;align-items:center;gap:4px;color:var(--primary)!important;font-weight:750}.realExamRunning svg{width:13px}
 .realExamFacts{margin:0;padding-left:18px;color:var(--text);font-size:14px;line-height:1.55}.realExamFacts li+li{margin-top:4px}
 .examGrid button.reserve{border-style:dashed}
+.realExamCase{margin:10px 0 0;padding:10px 12px;border-left:3px solid var(--primary);border-radius:8px;background:var(--soft);color:var(--text);font-size:13px;line-height:1.5}
+details.realExamCase summary{cursor:pointer;font-weight:750;color:var(--primary)}
+.qTags .badge.realAnnulled,.testCard .badge.realAnnulled{background:#fdeceb;color:#8f302b}
+.examGrid button.annulled{opacity:.45;text-decoration:line-through}
