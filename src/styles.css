@@ -508,3 +508,25 @@ details.realExamCase summary{cursor:pointer;font-weight:750;color:var(--primary)
 .shareWhatsAppRow button{display:flex;align-items:center;justify-content:center;gap:6px;padding:9px 10px;border:1px solid #25d366;border-radius:10px;background:transparent;color:#128c4a;font-size:13px;font-weight:800}
 .shareWhatsAppRow button svg{width:16px;height:16px}
 .shareWhatsAppRow button:hover{background:rgba(37,211,102,.1)}
+/* Apartado Compartir */
+.shareSources{display:flex;flex-wrap:wrap;gap:6px}
+.shareSources button{padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--text);font-size:13px;font-weight:700}
+.shareSources button.selected{border-color:var(--primary);background:var(--soft);color:var(--primary)}
+.shareSelect{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--text);font-size:14px}
+.shareSearch{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+.shareSearch svg{width:16px;color:var(--muted)}.shareSearch input{flex:1;min-width:0;border:0;background:transparent;color:var(--text);font-size:14px;outline:none}
+.shareCard h3{margin:2px 0 4px;font-size:17px;line-height:1.35}
+.shareOptions{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.shareOptions li{display:flex;gap:10px;align-items:flex-start;padding:9px 11px;border:1px solid var(--line);border-radius:10px;font-size:14px;line-height:1.35}
+.shareOptions li b{display:grid;place-items:center;flex:0 0 24px;height:24px;border-radius:7px;background:var(--soft);color:var(--primary);font-size:12px}
+.shareOptions li.correct{border-color:#3ea46f;background:#eafaf1;color:#145c3d}
+.shareReveal{display:flex;align-items:center;gap:6px;align-self:flex-start;padding:4px 0;border:0;background:transparent;color:var(--primary);font-size:13px;font-weight:800}
+.shareReveal svg{width:16px}
+.shareExplanation{margin:0;padding:10px 12px;border-radius:10px;background:var(--soft);font-size:13px;line-height:1.5}
+.shareSentList{display:grid;gap:8px}
+.shareSent{display:flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--line);border-radius:12px}
+.shareSent>div{flex:1;min-width:0}.shareSent b{display:block;overflow:hidden;font-size:13px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.shareSent small{display:block;margin-top:3px;color:var(--muted);font-size:11px}
+.shareSent>button{display:flex;align-items:center;gap:4px;flex:0 0 auto;padding:7px 10px;border:1px solid #25d366;border-radius:9px;background:transparent;color:#128c4a;font-size:12px;font-weight:800}
+.shareSent>button svg{width:14px}.shareSent>button.done{border-color:var(--line);color:var(--muted)}
+.shareSent>button.shareForget{padding:7px;border:0;color:var(--muted)}
