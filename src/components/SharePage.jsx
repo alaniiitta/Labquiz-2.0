@@ -1,16 +1,12 @@
 import React,{useMemo,useState} from "react";
 import {CheckCircle2,Eye,EyeOff,MessageCircle,Search,Shuffle,Trash2} from "lucide-react";
-import {loadToShare,questionMessage,saveToShare,solutionMessage} from "./ShareWhatsApp.jsx";
+import {loadSent,loadToShare,questionMessage,saveSent,saveToShare,solutionMessage} from "./ShareWhatsApp.jsx";
 import {REAL_EXAMS} from "../questions/realExams/index.js";
 
 // Apartado «Compartir»: elegir una pregunta, mandarla al grupo de WhatsApp y,
 // cuando hayan contestado, mandar la solución. Lo enviado se recuerda en este
 // dispositivo para poder mandar la solución más tarde.
-const SENT_KEY="labquiz.shared.v1";
-const SENT_MAX=30;
 const LETTERS="ABCDE";
-const loadSent=()=>{try{const list=JSON.parse(localStorage.getItem(SENT_KEY)||"[]");return Array.isArray(list)?list:[]}catch{return []}};
-const saveSent=list=>{try{localStorage.setItem(SENT_KEY,JSON.stringify(list.slice(0,SENT_MAX)))}catch{}};
 const openWhatsApp=text=>window.open(`https://wa.me/?text=${encodeURIComponent(text)}`,"_blank","noopener");
 const plain=text=>String(text??"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"");
 const pickRandom=(list,avoid)=>{if(!list.length)return null;const pool=list.length>1?list.filter(item=>item.key!==avoid):list;return pool[Math.floor(Math.random()*pool.length)]};

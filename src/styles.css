@@ -534,3 +534,10 @@ details.realExamCase summary{cursor:pointer;font-weight:750;color:var(--primary)
 .saveToShare svg{width:14px;height:14px}
 .saveToShare.saved{border-color:#25d366;background:rgba(37,211,102,.1);color:#128c4a}
 .shareSent.active{border-color:var(--primary)}
+.shareMenuWrap{position:relative;margin-left:auto;display:inline-flex}
+.shareMenuWrap .saveToShare{margin-left:0}
+.shareMenu{position:absolute;top:calc(100% + 6px);right:0;z-index:30;display:grid;min-width:210px;padding:6px;border:1px solid var(--line);border-radius:12px;background:var(--card);box-shadow:0 12px 30px rgba(20,30,35,.18)}
+.shareMenu button{display:flex;align-items:center;gap:9px;padding:10px 10px;border:0;border-radius:8px;background:transparent;color:var(--text);font-size:14px;font-weight:700;text-align:left}
+.shareMenu button:hover{background:var(--soft)}
+.shareMenu button svg{width:17px;height:17px;color:#128c4a}
+.shareMenu button:last-child svg{color:var(--primary)}
