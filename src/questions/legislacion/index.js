@@ -28,6 +28,21 @@ export const LAWS = [
 
 const LETTERS = ["A", "B", "C", "D"];
 
+// Preguntas que se salen del «contenido jurídico común» del temario (BOIB núm. 115, de 30-08-2025):
+// se ocultan sin borrarlas para que no cambie el id de las demás ni se pierda el progreso.
+// - constitucion-40: estructura de la Constitución (el temario pide valores, principios, derechos y salud)
+// - cohesion-1/2/14-17: objeto, principios, catálogo y cartera (solo pide tarjeta sanitaria y usuario del SNS)
+// - ebep-1 a 4: clases de empleados y ámbito (solo pide derechos y deberes)
+// - igualdad-10: Observatorio para la Igualdad
+// - prl-28 a 34: delegados de prevención y Comité de Seguridad y Salud (consulta y participación)
+const HIDDEN = new Set([
+ "constitucion-40",
+ "cohesion-1", "cohesion-2", "cohesion-14", "cohesion-15", "cohesion-16", "cohesion-17",
+ "ebep-1", "ebep-2", "ebep-3", "ebep-4",
+ "igualdad-10",
+ "prl-28", "prl-29", "prl-30", "prl-31", "prl-32", "prl-33", "prl-34",
+]);
+
 // Preguntas en el formato del banco: id «24.<ley>-<n>»; la explicación se busca por «<ley>-<n>».
 export const lawQuestions = LAWS.flatMap(({ key, questions }) => questions.map(([question, answers, correct], index) => ({
  id: `24.${key}-${index + 1}`,
@@ -37,7 +52,7 @@ export const lawQuestions = LAWS.flatMap(({ key, questions }) => questions.map((
  answers,
  correctAnswer: correct,
  explanation: "",
-})));
+}))).filter(question => !HIDDEN.has(question.explanationId));
 
 export const lawExplanations = Object.fromEntries(LAWS.flatMap(({ key, questions }) => questions.map(([, , correct, why, memo], index) => [
  `${key}-${index + 1}`,
