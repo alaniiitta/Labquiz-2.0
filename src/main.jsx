@@ -1068,40 +1068,57 @@ function MethodsPage({go}){
  </div>;
 }
 
+// Repaso: tres pestañas (repasar, simulacros y exámenes reales). Se recuerda la última pestaña
+// y lo último elegido en el test de repaso.
+const REVIEW_PREFS_KEY="labquiz.review-prefs.v1";
+const loadReviewPrefs=()=>{try{return JSON.parse(localStorage.getItem(REVIEW_PREFS_KEY)||"{}")||{}}catch{return {}}};
+const saveReviewPrefs=prefs=>{try{localStorage.setItem(REVIEW_PREFS_KEY,JSON.stringify(prefs))}catch{}};
+const REVIEW_TABS=[["practice","Repasar",Layers3],["sims","Simulacros",Trophy],["real","Exámenes reales",ScrollText]];
+// «Sin límite» es el repaso aleatorio de siempre (prioriza falladas y las que toca repasar)
+const REPEAT_OPTIONS=[[0,"0 %"],[0.25,"25 %"],[0.5,"50 %"],["any","Sin límite"]];
 function ReviewPage({go,reviewHistory,realExamHistory,onRealExam,onReviewLog,onStart,onResumeExam,onNumbers,onFresh,onReviewExam,examHistory,examDeleted,progress}){
- const [count,setCount]=useState(20);
- const [freshCount,setFreshCount]=useState(30);
- const [repeatRatio,setRepeatRatio]=useState(0);
+ const [prefs,setPrefs]=useState(()=>{const saved=loadReviewPrefs();return {tab:saved.tab??"practice",count:saved.count??30,repeat:saved.repeat??0,sim:saved.sim??60}});
+ const update=change=>setPrefs(current=>{const next={...current,...change};saveReviewPrefs(next);return next});
  const [savedExam,setSavedExam]=useState(()=>loadResumableExam());
  const totalAvailable=useMemo(()=>getAllQuestions().length,[activeScopeKey]);
+ const usedInExams=useMemo(()=>prefs.tab==="sims"?usedExamQuestionIds(examHistory,progress,examDeleted).size:0,[prefs.tab,examHistory,examDeleted,progress]);
  if(!totalAvailable) return <div><div className="reviewHero"><h2>Tu zona de repaso</h2><p>El repaso se activará cuando haya preguntas cargadas en los temas.</p><button className="primary" onClick={()=>go("test")}>Empezar un test</button></div></div>;
- const isExam=count>=SIMULACRUM_MIN;
- const usedInExams=useMemo(()=>isExam?usedExamQuestionIds(examHistory,progress,examDeleted).size:0,[isExam,examHistory,examDeleted,progress]);
- return <div className="reviewPage">
-  <div className="reviewHero"><h2>Repaso general</h2><p>Test que mezcla preguntas de los {topics.length} temas para practicar un repaso real, como en el examen.</p></div>
-  <ExamHistory history={examHistory} progress={progress} deleted={examDeleted} onReview={onReviewExam} go={go}/>
-  {savedExam&&<div className="resumeTestBanner" role="status"><div><b>{savedExam.deadline>Date.now()?"Tienes un simulacro en curso":"Tu simulacro se quedó sin tiempo"}</b><small>{Object.keys(savedExam.answers).length} de {savedExam.questions.length} respondidas · {savedExam.deadline>Date.now()?`quedan ${formatClock(savedExam.deadline-Date.now())}`:"se entregará con lo que respondiste"}</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={onResumeExam}><Play/> {savedExam.deadline>Date.now()?"Continuar":"Ver nota"}</button><button className="secondary" type="button" onClick={()=>{clearExamSession();setSavedExam(null)}}>Descartar</button></div></div>}
-  <div className="reviewSetup">
-   <span className="reviewSetupLabel">Repaso rápido</span>
-   <div className="reviewCountRow">{[10,20,30,50].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>setCount(value)}>{value}</button>)}</div>
-   <span className="reviewSetupLabel">Simulacro de examen</span>
-   <div className="reviewCountRow examRow">{[60,100].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>setCount(value)}><Trophy/>{value}</button>)}</div>
-   {isExam&&<p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno en el banco.<> <b>Modo examen real:</b> {count===EXAM_COUNT?"1 h 30 min":"54 min (el mismo ritmo que el de 100)"}, sin soluciones hasta entregar y cada 4 fallos restan 1 acierto (las en blanco no restan).</> <b>Sin repetir:</b> {usedInExams?`no saldrán las ${usedInExams} preguntas de tus simulacros anteriores (si un tema se queda sin preguntas, se completa con las de simulacros anteriores, primero las que fallaste).`:"cada simulacro nuevo evitará las preguntas de los anteriores."}</p>}
-   <button className="primary" type="button" onClick={()=>onStart(count)}>{count===EXAM_COUNT?"Empezar examen de 100 · 1 h 30 min":isExam?`Empezar examen de ${count} · 54 min`:"Empezar repaso aleatorio"}</button>
-  </div>
-  <RealExamsCard history={realExamHistory??[]} onOpen={onRealExam}/>
-  <div className="reviewSetup freshSetup">
-   <span className="reviewSetupLabel">Test con menos repetidas</span>
-   <p className="freshNote">Mezcla todos los temas y elige cuántas preguntas ya vistas pueden salir. Las nuevas salen al azar; las repetidas, primero las que has fallado.</p>
-   <div className="reviewCountRow freshRow">{[30,50].map(value=><button key={value} type="button" className={freshCount===value?"selected":""} onClick={()=>setFreshCount(value)}>{value} preguntas</button>)}</div>
-   <span className="reviewSetupLabel">Preguntas repetidas</span>
-   <div className="reviewCountRow freshRow ratios">{[0,0.25,0.5].map(value=><button key={value} type="button" className={repeatRatio===value?"selected":""} onClick={()=>setRepeatRatio(value)}>{value*100} %</button>)}</div>
-   <small className="freshSummary">{repeatRatio===0?`${freshCount} preguntas nuevas`:`${freshCount-Math.round(freshCount*repeatRatio)} nuevas y ${Math.round(freshCount*repeatRatio)} ya vistas`} · si no quedan nuevas suficientes se completa con vistas</small>
-   <button className="primary" type="button" onClick={()=>onFresh(freshCount,repeatRatio)}>Empezar test de {freshCount}</button>
-  </div>
-  <ReviewLogCard history={reviewHistory} onReview={onReviewLog} go={go}/>
-  <NumbersCard onStart={onNumbers}/>
-  <button type="button" className="homeQuickAction cheat reviewCheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Repasa en pocos minutos las claves de lo que has fallado</small></div><ChevronRight/></button>
+ const {tab,count,repeat,sim}=prefs;
+ const seen=repeat==="any"?null:Math.round(count*repeat);
+ const summary=repeat==="any"?`${count} preguntas al azar, priorizando las que has fallado y las que toca repasar`:seen?`${count} preguntas: ${count-seen} nuevas y ${seen} ya vistas`:`${count} preguntas nuevas`;
+ const startPractice=()=>repeat==="any"?onStart(count):onFresh(count,repeat);
+ const examRunning=savedExam&&savedExam.deadline>Date.now();
+ return <div className="reviewPage reviewTabsPage">
+  <div className="reviewTabs" role="tablist">{REVIEW_TABS.map(([id,label,Icon])=><button key={id} type="button" role="tab" aria-selected={tab===id} className={tab===id?"active":""} onClick={()=>update({tab:id})}><Icon/>{label}{id==="sims"&&savedExam&&<i className="reviewTabDot" aria-label="simulacro a medias"/>}</button>)}</div>
+
+  {tab==="practice"&&<>
+   <div className="reviewSetup practiceSetup">
+    <span className="reviewSetupLabel"><Layers3/> Test de repaso</span>
+    <p className="freshNote">Mezcla todos los temas.</p>
+    <span className="reviewSetupLabel">¿Cuántas preguntas?</span>
+    <div className="reviewCountRow">{[10,20,30,50].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>update({count:value})}>{value}</button>)}</div>
+    <span className="reviewSetupLabel">¿Cuántas ya vistas pueden salir?</span>
+    <div className="reviewCountRow repeatRow">{REPEAT_OPTIONS.map(([value,label])=><button key={label} type="button" className={repeat===value?"selected":""} onClick={()=>update({repeat:value})}>{label}</button>)}</div>
+    <small className="freshSummary">{summary}{repeat!=="any"?" · si no quedan nuevas suficientes, se completa con vistas":""}</small>
+    <button className="primary" type="button" onClick={startPractice}>Empezar test de {count}</button>
+   </div>
+   <NumbersCard onStart={onNumbers}/>
+   <button type="button" className="homeQuickAction cheat reviewCheat" onClick={()=>go("cheatsheet")}><span className="homeQuickIcon"><ScrollText/></span><div><b>Chuleta de fallos</b><small>Repasa en pocos minutos las claves de lo que has fallado</small></div><ChevronRight/></button>
+   <ReviewLogCard history={reviewHistory} onReview={onReviewLog} go={go}/>
+  </>}
+
+  {tab==="sims"&&<>
+   {savedExam&&<div className="resumeTestBanner" role="status"><div><b>{examRunning?"Tienes un simulacro en curso":"Tu simulacro se quedó sin tiempo"}</b><small>{Object.keys(savedExam.answers).length} de {savedExam.questions.length} respondidas · {examRunning?`quedan ${formatClock(savedExam.deadline-Date.now())}`:"se entregará con lo que respondiste"}</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={onResumeExam}><Play/> {examRunning?"Continuar":"Ver nota"}</button><button className="secondary" type="button" onClick={()=>{clearExamSession();setSavedExam(null)}}>Descartar</button></div></div>}
+   <div className="reviewSetup">
+    <span className="reviewSetupLabel"><Trophy/> Simulacro de examen</span>
+    <div className="simChoice">{[[60,"54 min"],[100,"1 h 30 min"]].map(([value,time])=><button key={value} type="button" className={sim===value?"selected":""} onClick={()=>update({sim:value})}><b>{value}</b><span>preguntas</span><small>{time}</small></button>)}</div>
+    <p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno (Legislación, como mucho el 10 %). <b>Modo examen real:</b> sin soluciones hasta entregar y cada 4 fallos restan 1 acierto; las en blanco no restan. <b>Sin repetir:</b> {usedInExams?`no saldrán las ${usedInExams} preguntas de tus simulacros anteriores.`:"cada simulacro nuevo evita las preguntas de los anteriores."}</p>
+    <button className="primary" type="button" onClick={()=>onStart(sim)}>Empezar simulacro de {sim}</button>
+   </div>
+   <ExamHistory history={examHistory} progress={progress} deleted={examDeleted} onReview={onReviewExam} go={go}/>
+  </>}
+
+  {tab==="real"&&<RealExamsCard history={realExamHistory??[]} onOpen={onRealExam}/>}
  </div>;
 }
 
