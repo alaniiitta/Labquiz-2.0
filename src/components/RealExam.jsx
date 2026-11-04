@@ -38,12 +38,14 @@ export function realExamScore(exam,answers={}){
 // Tarjeta para la página de Repaso
 export function RealExamsCard({history=[],onOpen}){
  const session=loadRealSession();
- const [showOther,setShowOther]=useState(()=>!!session&&realExamById(session.examId)?.group==="other");
+ // los grupos largos (simulacros y otras comunidades) van plegados; se abre el del examen a medias
+ const [openGroups,setOpenGroups]=useState(()=>new Set(session?[realExamById(session.examId)?.group]:[]));
+ const toggleGroup=id=>setOpenGroups(current=>{const next=new Set(current);if(next.has(id))next.delete(id);else next.add(id);return next});
  return <div className="reviewSetup realExamsCard">
   <span className="reviewSetupLabel"><FileText/> Exámenes reales</span>
   <p className="freshNote">El examen oficial tal cual salió: mismas preguntas, mismo orden, su tiempo y la clave correctora oficial.</p>
-  {REAL_EXAM_GROUPS.map(group=>{const exams=REAL_EXAMS.filter(exam=>exam.group===group.id);const open=group.id!=="other"||showOther;return <React.Fragment key={group.id}>
-  {group.id==="other"?<button type="button" className="realExamGroup" onClick={()=>setShowOther(value=>!value)} aria-expanded={open}><span>{group.title} · {exams.length} exámenes</span><ChevronRight className={open?"open":""}/></button>:<span className="realExamGroupTitle">{group.title}</span>}
+  {REAL_EXAM_GROUPS.map(group=>{const exams=REAL_EXAMS.filter(exam=>exam.group===group.id);const foldable=group.id!=="baleares";const open=!foldable||openGroups.has(group.id);return <React.Fragment key={group.id}>
+  {foldable?<button type="button" className="realExamGroup" onClick={()=>toggleGroup(group.id)} aria-expanded={open}><span>{group.title} · {exams.length} {group.id==="simulacros"?"simulacros":"exámenes"}</span><ChevronRight className={open?"open":""}/></button>:<span className="realExamGroupTitle">{group.title}</span>}
   {open&&exams.map(exam=>{
    const tries=history.filter(entry=>entry.examId===exam.id);
    const last=tries[0]?realExamScore(exam,tries[0].answers):null;
