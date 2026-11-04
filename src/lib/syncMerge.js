@@ -127,6 +127,8 @@ export function mergeUserData(a, b) {
   examScopes: mergeScopes(left, right),
   confidence: mergeConfidence(isObject(left.confidence) ? left.confidence : {}, isObject(right.confidence) ? right.confidence : {}),
   planChecks: mergePlanChecks(left, right),
+  // repetidas cuyo progreso ya se trasladó (para no sumarlo dos veces): gana la fecha mayor
+  migratedAliases: Object.fromEntries([...new Set([...Object.keys(isObject(left.migratedAliases) ? left.migratedAliases : {}), ...Object.keys(isObject(right.migratedAliases) ? right.migratedAliases : {})])].map(id => [id, Math.max(Number(left.migratedAliases?.[id]) || 0, Number(right.migratedAliases?.[id]) || 0)])),
   ...mergeExamHistory(left, right),
   ...mergeHistory(left, right, "reviewHistory", "reviewHistoryDeleted", REVIEW_HISTORY_MAX),
   ...mergeHistory(left, right, "realExamHistory", "realExamHistoryDeleted", REAL_EXAM_HISTORY_MAX),

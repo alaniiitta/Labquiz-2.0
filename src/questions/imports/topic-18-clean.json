@@ -414,7 +414,7 @@
         "A": "Disminuye la reabsorción de Na en el túbulo distal, disminuyendo la producción de orina.",
         "B": "Aumenta la reabsorción de Na en el túbulo distal, disminuyendo la producción de orina.",
         "C": "Aumenta la reabsorción de Na en el túbulo distal, incrementando la producción de orina.",
-        "D": "Disminuye la reabsorción de Na en el túbulo distal, disminuyendo la producción de orina."
+        "D": "Disminuye la reabsorción de agua en el túbulo colector, aumentando la producción de orina."
       },
       "page": 3,
       "correctAnswer": "B",
@@ -1597,7 +1597,7 @@
         "A": "Aumento TSH, disminución T3, disminución T4",
         "B": "Disminución TSH, disminución T3, disminución T4",
         "C": "Aumento TSH, aumento T3, disminución T4",
-        "D": "Disminución TSH, disminución T3, disminución T4"
+        "D": "Aumento TSH, aumento T3, aumento T4"
       },
       "page": 12,
       "correctAnswer": "A",

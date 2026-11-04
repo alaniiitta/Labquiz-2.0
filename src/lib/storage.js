@@ -220,10 +220,16 @@ export const migrateDuplicateProgress = (userData, aliases) => {
   if (!entries.some(([removed]) => progress[removed] || favorites.includes(removed) || notes[removed])) return userData;
 
   const nextProgress = { ...progress };
+  // migratedAliases: hasta qué momento ya se trasladó el progreso de cada repetida. Si otro
+  // dispositivo o la nube la devuelven sin nada nuevo, se quita sin volver a sumarla.
+  const migrated = { ...(isPlainObject(userData?.migratedAliases) ? userData.migratedAliases : {}) };
   entries.forEach(([removed, kept]) => {
     const old = nextProgress[removed];
     if (!old) return;
     const current = nextProgress[kept];
+    const seenAt = Number(old.ultimaVezVista) || 0;
+    if (current && migrated[removed] != null && seenAt <= migrated[removed]) { delete nextProgress[removed]; return; }
+    migrated[removed] = seenAt;
     if (!current) {
       nextProgress[kept] = old;
     } else {
@@ -250,5 +256,5 @@ export const migrateDuplicateProgress = (userData, aliases) => {
     nextNotes[kept] = current ? { text: `${current.text}\n\n${old.text}`, updatedAt: Math.max(current.updatedAt ?? 0, old.updatedAt ?? 0) } : old;
     delete nextNotes[removed];
   });
-  return { ...userData, progress: nextProgress, favorites: nextFavorites, notes: nextNotes };
+  return { ...userData, progress: nextProgress, favorites: nextFavorites, notes: nextNotes, migratedAliases: migrated };
 };
