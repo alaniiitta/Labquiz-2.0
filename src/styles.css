@@ -555,3 +555,9 @@ details.realExamCase summary{cursor:pointer;font-weight:750;color:var(--primary)
 .simChoice button.selected{border-color:var(--primary);background:var(--soft);box-shadow:inset 0 0 0 1px var(--primary)}
 .reviewTabsPage .reviewSetupLabel{display:flex;align-items:center;gap:6px}
 .reviewTabsPage .reviewSetupLabel svg{width:15px;height:15px;flex:0 0 15px}
+/* Pestañas de cada apartado del menú */
+.hubTabs.tabs2{grid-template-columns:repeat(2,1fr)}
+.hubTabs.tabs3{grid-template-columns:repeat(3,1fr)}
+.hubTabs.tabs4{grid-template-columns:repeat(4,1fr)}
+.hubTabs.tabs4 button{font-size:11px}
+.testThemeSelector>.hubTabs{margin-bottom:12px}
