@@ -561,3 +561,14 @@ details.realExamCase summary{cursor:pointer;font-weight:750;color:var(--primary)
 .hubTabs.tabs4{grid-template-columns:repeat(4,1fr)}
 .hubTabs.tabs4 button{font-size:11px}
 .testThemeSelector>.hubTabs{margin-bottom:12px}
+/* Buscador: todas las opciones de cada pregunta */
+.searchOptions{display:grid;gap:4px;width:100%;margin:8px 0 0;padding:0;list-style:none;text-align:left}
+.searchOptions li{display:flex;align-items:flex-start;gap:8px;padding:6px 8px;border-radius:8px;font-size:13px;font-weight:500;line-height:1.35;color:var(--text)}
+.searchOptions li>span{display:grid;place-items:center;flex:0 0 20px;height:20px;border-radius:6px;background:var(--soft);color:var(--primary);font-size:11px;font-weight:800}
+.searchOptions li.correct{background:#eafaf1;color:#145c3d;font-weight:700}
+.searchOptions li.correct>span{background:#3ea46f;color:#fff}
+.searchOptions li svg{width:15px;height:15px;flex:0 0 15px;margin-left:auto;color:#3ea46f}
+:root[data-theme="dark"] .searchOptions li.correct{background:rgba(62,164,111,.18);color:#9be3bd}
+.searchHideToggle{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin:10px 0 2px;font-size:13px;font-weight:700}
+.searchHideToggle input{width:18px;height:18px;accent-color:var(--primary)}
+.searchHideToggle small{flex-basis:100%;margin-left:26px;color:var(--muted);font-weight:500;font-size:12px}

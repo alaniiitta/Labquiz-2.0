@@ -1021,6 +1021,9 @@ function QuestionSearch({progress,onStart}){
  const [query,setQuery]=useState(lastSearch);
  const [shown,setShown]=useState(20);
  const [open,setOpen]=useState(null);
+ // se ven todas las opciones; con «Ocultar la correcta» solo se marca al tocar la pregunta
+ const [hideCorrect,setHideCorrect]=useState(()=>{try{return localStorage.getItem("labquiz.search-hide.v1")==="1"}catch{return false}});
+ const toggleHide=()=>setHideCorrect(value=>{try{localStorage.setItem("labquiz.search-hide.v1",value?"0":"1")}catch{}return !value});
  const words=plainText(query).split(/[^a-z0-9]+/).filter(word=>word.length>=2);
  const results=useMemo(()=>words.length?getSearchIndex().filter(item=>words.every(word=>item.text.includes(` ${word}`))).map(item=>item.question):[],[words.join(" "),activeScopeKey]);
  useEffect(()=>{lastSearch=query;setShown(20);setOpen(null)},[query]);
@@ -1032,7 +1035,8 @@ function QuestionSearch({progress,onStart}){
    {!results.length?<p className="examNote">Ninguna pregunta contiene «{query.trim()}». Prueba con otra palabra o con menos palabras.</p>:<>
     <div className="searchSummary"><span><b>{results.length}</b> {results.length===1?"pregunta":"preguntas"} · {seen} ya vistas{failed?` · ${failed} falladas`:""}</span><button type="button" className="primary" onClick={()=>onStart(results)}><Play/> Hacer test{results.length>SEARCH_TEST_MAX?` de ${SEARCH_TEST_MAX}`:` de ${results.length}`}</button></div>
     {results.length>SEARCH_TEST_MAX&&<small className="freshSummary">Salen {SEARCH_TEST_MAX} de las {results.length}, primero las nuevas y las que más fallas. Añade otra palabra para afinar.</small>}
-    <ul className="searchList">{results.slice(0,shown).map(question=>{const id=getQuestionIdForProgress(question);const state=progress[id];return <li key={id}><button type="button" onClick={()=>setOpen(open===id?null:id)} aria-expanded={open===id}><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span>{isQuestionCurrentlyFailed(state)?<em className="searchTag fail">fallada</em>:state?.vecesVista?<em className="searchTag">vista</em>:null}<b>{question.question}</b></button>{open===id&&<p className="searchAnswer"><CheckCircle2/> {question.answers[question.correctAnswer]}</p>}</li>})}</ul>
+    <label className="searchHideToggle"><input type="checkbox" checked={hideCorrect} onChange={toggleHide}/><span>Ocultar la correcta</span><small>{hideCorrect?"Toca una pregunta para verla":"La correcta sale en verde"}</small></label>
+    <ul className="searchList">{results.slice(0,shown).map(question=>{const id=getQuestionIdForProgress(question);const state=progress[id];return <li key={id}><button type="button" onClick={()=>setOpen(open===id?null:id)} aria-expanded={open===id}><span className="badge">Tema {String(question.topicId).padStart(2,"0")}</span>{isQuestionCurrentlyFailed(state)?<em className="searchTag fail">fallada</em>:state?.vecesVista?<em className="searchTag">vista</em>:null}<b>{question.question}</b><ol className="searchOptions">{question.answers.map((answer,index)=>{const show=index===question.correctAnswer&&(!hideCorrect||open===id);return <li key={index} className={show?"correct":""}><span>{String.fromCharCode(65+index)}</span>{answer}{show&&<CheckCircle2/>}</li>})}</ol></button></li>})}</ul>
     {results.length>shown&&<button type="button" className="secondary" onClick={()=>setShown(count=>count+30)}>Ver más ({results.length-shown})</button>}
    </>}
   </div>}
