@@ -145,9 +145,10 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
 
 // Nuevas con cabeza: se reparten entre temas en lugar de salir al azar puro. Cada tema pesa por
 // las preguntas nuevas que le quedan, y más si lo has visto poco o si lo llevas peor (aciertos).
-// Legislación (tema 24) entra como mucho en un 10 %, como en los simulacros.
+// Legislación (tema 24) es lo que menos importa en los repasos: como mucho 1 de cada 20 preguntas
+// y sin el empujón por tema poco visto o mal llevado (en los simulacros, en cambio, hasta el 10 %).
 const LAW_TOPIC = 24;
-const LAW_MAX_SHARE = 0.1;
+const LAW_MAX_SHARE = 0.05;
 function topicStats(allQuestions, userProgress) {
   const stats = new Map();
   allQuestions.forEach((question, index) => {
@@ -167,6 +168,7 @@ function selectNewByTopic(fresh, stats, amount, random) {
   const topics = [...byTopic.keys()];
   const weightOf = (topic) => {
     const pool = byTopic.get(topic).length;
+    if (topic === LAW_TOPIC) return pool * 0.5;
     const s = stats.get(topic) ?? { total: pool, seen: 0, right: 0, wrong: 0 };
     const unseenShare = 1 - s.seen / Math.max(1, s.total); // 1 = tema sin empezar
     const answered = s.right + s.wrong;
@@ -184,13 +186,19 @@ function selectNewByTopic(fresh, stats, amount, random) {
   }
   // cupos enteros sin pasarse de lo que tiene cada tema; lo que falte, a los de mayor resto
   const counts = quotas.map((quota, index) => Math.min(Math.floor(quota), byTopic.get(topics[index]).length));
+  // Legislación: su parte se sortea (sale de vez en cuando) y nunca pasa del tope
+  if (law >= 0) {
+    const quota = quotas[law];
+    counts[law] = Math.min(Math.floor(amount * LAW_MAX_SHARE), byTopic.get(LAW_TOPIC).length, Math.floor(quota) + (random() < quota - Math.floor(quota) ? 1 : 0));
+    quotas[law] = counts[law];
+  }
   const order = quotas.map((quota, index) => [quota - Math.floor(quota), index]).sort((a, b) => b[0] - a[0]);
   let missing = amount - counts.reduce((sum, value) => sum + value, 0);
   for (let pass = 0; missing > 0 && pass < 50; pass += 1) {
     let moved = false;
     for (const [, index] of order) {
       if (missing <= 0) break;
-      if (topics[index] === LAW_TOPIC && counts[index] >= Math.max(1, Math.floor(amount * LAW_MAX_SHARE))) continue;
+      if (topics[index] === LAW_TOPIC) continue;
       if (counts[index] < byTopic.get(topics[index]).length) { counts[index] += 1; missing -= 1; moved = true; }
     }
     if (!moved) break;
@@ -234,10 +242,22 @@ export function selectWithRepeatLimit(allQuestions = [], userProgress = {}, coun
   let repeats = Math.min(Math.round(target * repeatRatio), seen.length);
   const news = Math.min(target - repeats, fresh.length);
   repeats = Math.min(target - news, seen.length);
-  return shuffle([
+  const picked = [
     ...selectNewByTopic(fresh, topicStats(allQuestions, userProgress), news, random),
     ...selectSeenSmart(seen, userProgress, repeats, random, now),
-  ], random);
+  ];
+  return shuffle(limitLawShare(picked, allQuestions, target, userProgress, random, now), random);
+}
+
+// Recorta Legislación a 1 de cada 20 y rellena el hueco con preguntas de otros temas.
+export function limitLawShare(selected, pool, count, userProgress = {}, random = Math.random, now = Date.now()) {
+  const allowed = Math.floor(count * LAW_MAX_SHARE);
+  const law = selected.filter((question) => getQuestionTopic(question) === LAW_TOPIC);
+  if (law.length <= allowed) return selected;
+  const kept = selected.filter((question) => getQuestionTopic(question) !== LAW_TOPIC).concat(law.slice(0, allowed));
+  const used = new Set(kept);
+  const others = pool.filter((question) => getQuestionTopic(question) !== LAW_TOPIC && !used.has(question));
+  return kept.concat(selectSmartQuestions(others, userProgress, selected.length - kept.length, null, random, now));
 }
 
 export function isQuestionCurrentlyFailed(state = createInitialQuestionProgress()) {

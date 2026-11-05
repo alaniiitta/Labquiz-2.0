@@ -15,7 +15,7 @@ import {METHODS} from "./lib/methods.js";
 import {BREAK_EVEN,CONFIDENCE_LEVELS,confidenceAdvice,confidenceStats,expectedValue,recordConfidence} from "./lib/confidence.js";
 import summaryBank from "./summaries/index.js";
 import visualSummaryBank,{sharedDefs as visualSummaryDefs} from "./summaries/visual/index.js";
-import {hasSelfReferentialOption,getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,selectSmartQuestions,selectWithRepeatLimit,shuffleQuestionOptions} from "./smartQuestionSelector.js";
+import {hasSelfReferentialOption,getQuestionIdForProgress,getTopicProgress,isQuestionCurrentlyFailed,markQuestionAsLearned,recordQuestionAnswer,limitLawShare,selectSmartQuestions,selectWithRepeatLimit,shuffleQuestionOptions} from "./smartQuestionSelector.js";
 import ExplanationDisplay from "./components/ExplanationDisplay.jsx";
 import SharePage from "./components/SharePage.jsx";
 import {SaveToShareButton} from "./components/ShareWhatsApp.jsx";
@@ -552,7 +552,7 @@ function TestPage({hubTabs=null,go,onChangeTopic,initialTopicId=null,initialQues
   if(initialMode==="numbers"){const pool=getNumberQuestions();return selectSmartQuestions(pool,questionProgress,Math.min(initialQuestionCount??20,pool.length)).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="notes"||initialMode==="cheat"){const ids=new Set(initialQuestionIds??[]);const pool=getAllQuestions(true).filter(question=>ids.has(getQuestionIdForProgress(question)));return selectSmartQuestions(pool,questionProgress,pool.length).map(question=>shuffleQuestionOptions(question));}
   if(initialMode==="fresh") return selectWithRepeatLimit(getAllQuestions(),questionProgress,initialQuestionCount??30,repeatRatio??0).map(question=>shuffleQuestionOptions(question));
-  if(initialMode==="mixed") return ((initialQuestionCount??20)>=SIMULACRUM_MIN?selectSimulacrumQuestions(initialQuestionCount,questionProgress,usedExamIds?.()):selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20)).map(question=>shuffleQuestionOptions(question));
+  if(initialMode==="mixed") return ((initialQuestionCount??20)>=SIMULACRUM_MIN?selectSimulacrumQuestions(initialQuestionCount,questionProgress,usedExamIds?.()):limitLawShare(selectSmartQuestions(getAllQuestions(),questionProgress,initialQuestionCount??20),getAllQuestions(),initialQuestionCount??20,questionProgress)).map(question=>shuffleQuestionOptions(question));
   if(!initialTopicId) return [];
   let pool=getQuestionBank(initialTopicId).map(question=>({...question,topicId:initialTopicId}));
   // test de un apartado del resumen: solo sus preguntas
