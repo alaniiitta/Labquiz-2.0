@@ -1,5 +1,5 @@
 import React from "react";
-import {MessageCircle,CheckCircle2,Forward,Bookmark} from "lucide-react";
+import {MessageCircle,CheckCircle2,Forward,Bookmark,Copy,MoreHorizontal,Check} from "lucide-react";
 
 // Compartir una pregunta por WhatsApp para comentarla con las compañeras:
 // primero la pregunta (para que contesten con la letra) y después la solución.
@@ -7,6 +7,13 @@ import {MessageCircle,CheckCircle2,Forward,Bookmark} from "lucide-react";
 const LETTERS="ABCDE";
 const clean=text=>String(text??"").replace(/\s+/g," ").trim();
 const openWhatsApp=text=>window.open(`https://wa.me/?text=${encodeURIComponent(text)}`,"_blank","noopener");
+
+// Copia el texto para pegarlo en WhatsApp (con un plan B para navegadores sin portapapeles moderno).
+export function copyText(text){
+ const fallback=()=>{try{const area=document.createElement("textarea");area.value=text;area.setAttribute("readonly","");area.style.position="fixed";area.style.opacity="0";document.body.appendChild(area);area.select();area.setSelectionRange(0,text.length);const ok=document.execCommand("copy");area.remove();return ok}catch{return false}};
+ try{if(navigator.clipboard?.writeText)return navigator.clipboard.writeText(text).then(()=>true,()=>fallback())}catch{}
+ return Promise.resolve(fallback());
+}
 
 export function questionMessage({question,answers,source}){
  return [
@@ -69,15 +76,20 @@ export function SaveToShareButton({itemKey,getItem}){
  const item=()=>({...getItem(),key:itemKey});
  const unsave=()=>{saveToShare(loadToShare().filter(entry=>entry.key!==itemKey));setSaved(false)};
  const toggleSaved=()=>{if(saved)unsave();else{saveToShare([{...item(),at:Date.now()},...loadToShare()]);setSaved(true)}setOpen(false)};
- // al enviarla pasa a «Enviadas al grupo» (y deja de estar en guardadas)
- const sendQuestion=()=>{const data=item();openWhatsApp(questionMessage(data));markSent(data);if(saved)unsave();setDone("question");setOpen(false)};
- const sendSolution=()=>{const data=item();openWhatsApp(solutionMessage(data));markSent(data,true);if(saved)unsave();setDone("solution");setOpen(false)};
- const label=done==="question"?"Enviada":done==="solution"?"Solución enviada":saved?"Guardada":"Compartir";
- return <span className="shareMenuWrap" ref={ref}>
-  <button type="button" className={saved||done?"saveToShare saved":"saveToShare"} onClick={()=>setOpen(value=>!value)} aria-expanded={open} aria-haspopup="menu"><Forward/>{label}</button>
+ // al copiar la pregunta pasa a «Enviadas al grupo» (y deja de estar en guardadas) para copiar la solución más tarde
+ const copyQuestion=()=>{const data=item();copyText(questionMessage(data)).then(ok=>setDone(ok?"question":"error"));markSent(data);if(saved)unsave();setOpen(false)};
+ const copySolution=()=>{const data=item();copyText(solutionMessage(data)).then(ok=>setDone(ok?"solution":"error"));markSent(data,true);if(saved)unsave();setOpen(false)};
+ // el aviso de «copiada» dura unos segundos y desaparece: los botones son discretos
+ React.useEffect(()=>{if(!done)return;const timer=setTimeout(()=>setDone(null),2200);return()=>clearTimeout(timer)},[done]);
+ const note={question:"Pregunta copiada",solution:"Solución copiada",error:"No se pudo copiar"}[done];
+ return <span className="shareMenuWrap quiet" ref={ref}>
+  {note&&<span className={done==="error"?"quietNote error":"quietNote"} role="status">{note}</span>}
+  {saved&&!note&&<span className="quietNote saved" title="Guardada para compartir"><Bookmark/></span>}
+  <button type="button" className="quietButton" onClick={copyQuestion} aria-label="Copiar pregunta" title="Copiar pregunta">{done==="question"?<Check/>:<Copy/>}</button>
+  <button type="button" className="quietButton" onClick={()=>setOpen(value=>!value)} aria-expanded={open} aria-haspopup="menu" aria-label="Más opciones para compartir" title="Más opciones"><MoreHorizontal/></button>
   {open&&<span className="shareMenu" role="menu">
-   <button type="button" role="menuitem" onClick={sendQuestion}><MessageCircle/>Enviar a WhatsApp</button>
-   <button type="button" role="menuitem" onClick={sendSolution}><CheckCircle2/>Enviar solución</button>
+   <button type="button" role="menuitem" onClick={copyQuestion}><Copy/>Copiar pregunta</button>
+   <button type="button" role="menuitem" onClick={copySolution}><CheckCircle2/>Copiar solución</button>
    <button type="button" role="menuitem" onClick={toggleSaved}><Bookmark/>{saved?"Quitar de guardadas":"Guardar para luego"}</button>
   </span>}
  </span>;

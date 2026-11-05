@@ -1,6 +1,6 @@
 import React,{useMemo,useState} from "react";
-import {CheckCircle2,Eye,EyeOff,MessageCircle,Search,Shuffle,Trash2} from "lucide-react";
-import {loadSent,loadToShare,questionMessage,saveSent,saveToShare,solutionMessage} from "./ShareWhatsApp.jsx";
+import {CheckCircle2,Copy,Eye,EyeOff,MessageCircle,Search,Shuffle,Trash2} from "lucide-react";
+import {copyText,loadSent,loadToShare,questionMessage,saveSent,saveToShare,solutionMessage} from "./ShareWhatsApp.jsx";
 import {REAL_EXAMS} from "../questions/realExams/index.js";
 
 // Apartado «Compartir»: elegir una pregunta, mandarla al grupo de WhatsApp y,
@@ -38,13 +38,17 @@ export default function SharePage({topics,bank,failed,explain}){
  const next=()=>{const item=pickRandom(pool,current?.key);if(!item){setCurrent(null);return}const {raw,...rest}=item;setCurrent(raw?{...rest,explanation:explain(raw)}:rest);setReveal(false)};
  const remember=item=>{const entry={...item,at:Date.now(),solved:false};const list=[entry,...sent.filter(old=>old.key!==item.key)];setSent(list);saveSent(list)};
  // al enviarla, la guardada pasa a «Enviadas al grupo»
- const sendQuestion=item=>{openWhatsApp(questionMessage(item));remember(item);if(saved.some(old=>old.key===item.key))unsave(item.key)};
- const sendSolution=item=>{openWhatsApp(solutionMessage(item));const list=sent.map(old=>old.key===item.key?{...old,solved:true}:old);setSent(list);saveSent(list)};
+ // se copia el texto para pegarlo en WhatsApp; el aviso dice qué se ha copiado
+ const [copied,setCopied]=useState(null);
+ const flash=(key,what)=>ok=>{setCopied(ok?{key,what}:{key,what:"error"});setTimeout(()=>setCopied(current=>current?.key===key&&current.what===(ok?what:"error")?null:current),2500)};
+ const sendQuestion=item=>{copyText(questionMessage(item)).then(flash(item.key,"question"));remember(item);if(saved.some(old=>old.key===item.key))unsave(item.key)};
+ const sendSolution=item=>{copyText(solutionMessage(item)).then(flash(item.key,"solution"));const list=sent.map(old=>old.key===item.key?{...old,solved:true}:old);setSent(list);saveSent(list)};
+ const copiedText=key=>copied?.key!==key?null:copied.what==="error"?"No se pudo copiar":copied.what==="question"?"Pregunta copiada · pégala en WhatsApp":"Solución copiada · pégala en WhatsApp";
  const forget=key=>{const list=sent.filter(old=>old.key!==key);setSent(list);saveSent(list)};
  const chooseSource=id=>{setSource(id);setCurrent(null);setReveal(false)};
 
  return <div className="reviewPage sharePage">
-  <div className="reviewHero"><h2>Compartir con tus compañeras</h2><p>Elige una pregunta, mándala al grupo de WhatsApp y, cuando hayan contestado, envía la solución.</p></div>
+  <div className="reviewHero"><h2>Compartir con tus compañeras</h2><p>Elige una pregunta, cópiala y pégala en tu grupo de WhatsApp. Cuando hayan contestado, copia la solución.</p></div>
 
   {saved.length>0&&<div className="reviewSetup">
    <span className="reviewSetupLabel">Guardadas para compartir · {saved.length}</span>
@@ -71,17 +75,18 @@ export default function SharePage({topics,bank,failed,explain}){
    <button type="button" className="shareReveal" onClick={()=>setReveal(value=>!value)}>{reveal?<><EyeOff/> Ocultar solución</>:<><Eye/> Ver la solución</>}</button>
    {reveal&&current.explanation&&<p className="shareExplanation">💡 {current.explanation}</p>}
    <div className="shareWhatsAppRow">
-    <button type="button" onClick={()=>sendQuestion(current)}><MessageCircle/> Enviar pregunta</button>
-    <button type="button" onClick={()=>sendSolution(current)}><CheckCircle2/> Enviar solución</button>
+    <button type="button" onClick={()=>sendQuestion(current)}><Copy/> Copiar pregunta</button>
+    <button type="button" onClick={()=>sendSolution(current)}><CheckCircle2/> Copiar solución</button>
    </div>
+   {copiedText(current.key)&&<p className="shareCopied" role="status">{copiedText(current.key)}</p>}
   </div>}
 
   <div className="reviewSetup">
    <span className="reviewSetupLabel">Enviadas al grupo</span>
-   {!sent.length?<p className="freshNote">Aquí verás las preguntas que mandes, para enviar la solución cuando hayan contestado.</p>:
+   {!sent.length?<p className="freshNote">Aquí verás las preguntas que copies, para copiar la solución cuando hayan contestado.</p>:
    <div className="shareSentList">{sent.map(item=><div key={item.key} className="shareSent">
-    <div><b>{item.question}</b><small>{when(item.at)} · {item.solved?"solución enviada":"falta la solución"}</small></div>
-    <button type="button" className={item.solved?"done":""} onClick={()=>sendSolution(item)} aria-label="Enviar solución"><CheckCircle2/>{item.solved?"Reenviar":"Solución"}</button>
+    <div><b>{item.question}</b><small>{copiedText(item.key)??`${when(item.at)} · ${item.solved?"solución copiada":"falta la solución"}`}</small></div>
+    <button type="button" className={item.solved?"done":""} onClick={()=>sendSolution(item)} aria-label="Copiar solución"><CheckCircle2/>{item.solved?"Copiar otra vez":"Copiar solución"}</button>
     <button type="button" className="shareForget" onClick={()=>forget(item.key)} aria-label="Quitar de la lista"><Trash2/></button>
    </div>)}</div>}
   </div>

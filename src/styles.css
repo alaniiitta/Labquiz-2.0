@@ -572,3 +572,14 @@ details.realExamCase summary{cursor:pointer;font-weight:750;color:var(--primary)
 .searchHideToggle{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin:10px 0 2px;font-size:13px;font-weight:700}
 .searchHideToggle input{width:18px;height:18px;accent-color:var(--primary)}
 .searchHideToggle small{flex-basis:100%;margin-left:26px;color:var(--muted);font-weight:500;font-size:12px}
+.shareCopied{margin:8px 0 0;padding:8px 10px;border-radius:9px;background:rgba(37,211,102,.12);color:#128c4a;font-size:13px;font-weight:800;text-align:center}
+:root[data-theme="dark"] .shareCopied{color:#7fe0a8}
+/* Copiar desde el test: iconos discretos, sin borde */
+.shareMenuWrap.quiet{align-items:center;gap:2px}
+.quietButton{display:grid;place-items:center;width:30px;height:30px;padding:0;border:0;border-radius:8px;background:transparent;color:var(--muted);opacity:.65}
+.quietButton:hover,.quietButton:focus-visible{opacity:1;background:var(--soft)}
+.quietButton svg{width:16px;height:16px}
+.quietNote{display:inline-flex;align-items:center;margin-right:2px;color:#128c4a;font-size:11px;font-weight:800;white-space:nowrap}
+.quietNote.error{color:var(--danger,#b14a43)}
+.quietNote.saved{color:var(--muted);opacity:.7}.quietNote.saved svg{width:14px;height:14px}
+:root[data-theme="dark"] .quietNote{color:#7fe0a8}
