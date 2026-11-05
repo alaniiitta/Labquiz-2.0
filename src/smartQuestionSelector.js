@@ -143,9 +143,89 @@ export function selectSmartQuestions(allQuestions = [], userProgress = {}, count
   return shuffle(selected.map((item) => item.question), random);
 }
 
+// Nuevas con cabeza: se reparten entre temas en lugar de salir al azar puro. Cada tema pesa por
+// las preguntas nuevas que le quedan, y más si lo has visto poco o si lo llevas peor (aciertos).
+// Legislación (tema 24) entra como mucho en un 10 %, como en los simulacros.
+const LAW_TOPIC = 24;
+const LAW_MAX_SHARE = 0.1;
+function topicStats(allQuestions, userProgress) {
+  const stats = new Map();
+  allQuestions.forEach((question, index) => {
+    const topic = getQuestionTopic(question);
+    const entry = stats.get(topic) ?? { total: 0, seen: 0, right: 0, wrong: 0 };
+    const state = userProgress[getQuestionId(question, index)];
+    entry.total += 1;
+    if (state?.vecesVista) { entry.seen += 1; entry.right += state.vecesAcertada ?? 0; entry.wrong += state.vecesFallada ?? 0; }
+    stats.set(topic, entry);
+  });
+  return stats;
+}
+function selectNewByTopic(fresh, stats, amount, random) {
+  if (amount <= 0) return [];
+  const byTopic = new Map();
+  fresh.forEach((question) => { const topic = getQuestionTopic(question); (byTopic.get(topic) ?? byTopic.set(topic, []).get(topic)).push(question); });
+  const topics = [...byTopic.keys()];
+  const weightOf = (topic) => {
+    const pool = byTopic.get(topic).length;
+    const s = stats.get(topic) ?? { total: pool, seen: 0, right: 0, wrong: 0 };
+    const unseenShare = 1 - s.seen / Math.max(1, s.total); // 1 = tema sin empezar
+    const answered = s.right + s.wrong;
+    const errorShare = answered >= 10 ? s.wrong / answered : 0.3; // con pocos datos, valor neutro
+    return pool * (1 + unseenShare) * (1 + errorShare);
+  };
+  let weights = topics.map(weightOf);
+  let total = weights.reduce((sum, weight) => sum + weight, 0) || 1;
+  let quotas = weights.map((weight) => (amount * weight) / total);
+  const law = topics.indexOf(LAW_TOPIC);
+  if (law >= 0 && quotas[law] > amount * LAW_MAX_SHARE) {
+    const cap = Math.floor(amount * LAW_MAX_SHARE);
+    const rest = total - weights[law];
+    quotas = weights.map((weight, index) => (index === law ? cap : rest ? ((amount - cap) * weight) / rest : 0));
+  }
+  // cupos enteros sin pasarse de lo que tiene cada tema; lo que falte, a los de mayor resto
+  const counts = quotas.map((quota, index) => Math.min(Math.floor(quota), byTopic.get(topics[index]).length));
+  const order = quotas.map((quota, index) => [quota - Math.floor(quota), index]).sort((a, b) => b[0] - a[0]);
+  let missing = amount - counts.reduce((sum, value) => sum + value, 0);
+  for (let pass = 0; missing > 0 && pass < 50; pass += 1) {
+    let moved = false;
+    for (const [, index] of order) {
+      if (missing <= 0) break;
+      if (topics[index] === LAW_TOPIC && counts[index] >= Math.max(1, Math.floor(amount * LAW_MAX_SHARE))) continue;
+      if (counts[index] < byTopic.get(topics[index]).length) { counts[index] += 1; missing -= 1; moved = true; }
+    }
+    if (!moved) break;
+  }
+  return topics.flatMap((topic, index) => shuffle(byTopic.get(topic), random).slice(0, counts[index]));
+}
+
+// Ya vistas con cabeza: 55 % falladas o difíciles, 30 % las que toca repasar y el resto de las
+// demás; dentro de cada grupo, más papeletas para las que más lo necesitan (getQuestionPriority).
+function selectSeenSmart(seen, userProgress, amount, random, now) {
+  if (amount <= 0) return [];
+  const items = seen.map((question, index) => {
+    const state = userProgress[getQuestionId(question, index)] ?? createInitialQuestionProgress();
+    return { question, state, priority: getQuestionPriority(question, state, now) };
+  });
+  const remaining = [...items];
+  const selected = [];
+  const groups = [
+    { items: items.filter((item) => isQuestionCurrentlyFailed(item.state) || item.state.estado === LEARNING_STATUS.DIFFICULT), ratio: 0.55 },
+    { items: items.filter((item) => item.state.fechaProximoRepaso && item.state.fechaProximoRepaso <= now), ratio: 0.3 },
+    { items, ratio: 1 },
+  ];
+  groups.forEach((group, groupIndex) => {
+    const available = group.items.filter((item) => remaining.includes(item));
+    const want = groupIndex === groups.length - 1 ? amount - selected.length : Math.round(amount * group.ratio);
+    const picked = pickFromGroup(available, Math.min(want, available.length), random);
+    selected.push(...picked);
+    picked.forEach((item) => remaining.splice(remaining.indexOf(item), 1));
+  });
+  return selected.map((item) => item.question);
+}
+
 // Test con un tope de preguntas ya vistas: repeatRatio (0–1) es la parte que puede repetirse.
-// Las nuevas salen al azar; las repetidas, por prioridad (primero las falladas). Si no quedan
-// nuevas suficientes se completa con vistas, y al revés, para no dejar el test corto.
+// Las nuevas se reparten por temas (selectNewByTopic) y las repetidas, por prioridad
+// (selectSeenSmart). Si no quedan nuevas suficientes se completa con vistas, y al revés.
 export function selectWithRepeatLimit(allQuestions = [], userProgress = {}, count = 30, repeatRatio = 0, random = Math.random, now = Date.now()) {
   const stateOf = (question, index) => userProgress[getQuestionId(question, index)];
   const fresh = allQuestions.filter((question, index) => !stateOf(question, index)?.vecesVista);
@@ -155,8 +235,8 @@ export function selectWithRepeatLimit(allQuestions = [], userProgress = {}, coun
   const news = Math.min(target - repeats, fresh.length);
   repeats = Math.min(target - news, seen.length);
   return shuffle([
-    ...selectSmartQuestions(fresh, userProgress, news, null, random, now),
-    ...selectSmartQuestions(seen, userProgress, repeats, null, random, now),
+    ...selectNewByTopic(fresh, topicStats(allQuestions, userProgress), news, random),
+    ...selectSeenSmart(seen, userProgress, repeats, random, now),
   ], random);
 }
 

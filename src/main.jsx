@@ -1129,7 +1129,7 @@ function ReviewPage({tab:activeTab,go,reviewHistory,realExamHistory,onRealExam,o
     <div className="reviewCountRow">{[10,20,30,50].map(value=><button key={value} type="button" className={count===value?"selected":""} onClick={()=>update({count:value})}>{value}</button>)}</div>
     <span className="reviewSetupLabel">¿Cuántas ya vistas pueden salir?</span>
     <div className="reviewCountRow repeatRow">{REPEAT_OPTIONS.map(([value,label])=><button key={label} type="button" className={repeat===value?"selected":""} onClick={()=>update({repeat:value})}>{label}</button>)}</div>
-    <small className="freshSummary">{summary}{repeat!=="any"?" · si no quedan nuevas suficientes, se completa con vistas":""}</small>
+    <small className="freshSummary">{summary}{repeat!=="any"?` · las nuevas, sobre todo de los temas que menos has visto o peor llevas${seen?"; las vistas, primero las falladas y las que toca repasar":""}`:""}</small>
     <button className="primary" type="button" onClick={startPractice}>Empezar test de {count}</button>
    </div>
    <NumbersCard onStart={onNumbers}/>
