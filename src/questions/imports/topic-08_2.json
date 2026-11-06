@@ -2,7 +2,7 @@
   "tema": "08.2",
   "titulo": "Fisiología y metabolismo leucocitario y plaquetar",
   "source_file": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf",
-  "total_questions": 294,
+  "total_questions": 295,
   "questions": [
     {
       "id": 1,
@@ -3808,6 +3808,18 @@
       "page": 30,
       "correctAnswer": "C",
       "correctText": "Alteraciones en la función plaquetaria."
+    },
+    {
+      "id": 295,
+      "question": "Un paciente presenta VCM elevado, neutrófilos hipersegmentados y concentración baja de vitamina B12. ¿Qué alteración bioquímica puede acompañar al déficit de B12?",
+      "options": {
+        "A": "Disminución de homocisteína",
+        "B": "Aumento de ácido metilmalónico",
+        "C": "Disminución de ácido metilmalónico",
+        "D": "Aumento de ferritina como hallazgo específico"
+      },
+      "correctAnswer": "B",
+      "correctText": "Aumento de ácido metilmalónico"
     }
   ]
 }

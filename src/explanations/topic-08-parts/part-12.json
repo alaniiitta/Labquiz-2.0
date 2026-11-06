@@ -634,5 +634,16 @@
     },
     "claveMemorizar": "Trombopatía = defecto cualitativo de función; trombocitopenia = defecto cuantitativo.",
     "fuente": "TEST Tema 8.2 Fisiología y metabolismo leucocitario y plaquetar (respuestas)_d37190aae644347653d96c6922afb89b.pdf, p. 30"
+  },
+  "2-295": {
+    "respuestaCorrecta": "B",
+    "porQueLaCorrecta": "La vitamina B12 es el cofactor de la metilmalonil-CoA mutasa, que transforma el metilmalonil-CoA en succinil-CoA. Si falta B12, el metilmalonil-CoA se acumula y aumenta el ácido metilmalónico (MMA) en sangre y orina. Es el marcador más específico del déficit de B12.",
+    "motivosPorOpcion": {
+      "Disminución de homocisteína": "La B12 también es cofactor de la metionina sintasa (homocisteína → metionina); si falta, la homocisteína aumenta, no disminuye.",
+      "Disminución de ácido metilmalónico": "Es al revés: sin B12 no se metaboliza el metilmalonil-CoA y el MMA se acumula.",
+      "Aumento de ferritina como hallazgo específico": "La ferritina refleja los depósitos de hierro y sube también en inflamación; no es un marcador específico del déficit de B12."
+    },
+    "claveMemorizar": "Déficit de B12: ↑ homocisteína y ↑ ácido metilmalónico. Déficit de fólico: ↑ homocisteína con MMA normal.",
+    "fuente": "Pregunta añadida a petición de la usuaria (anemia megaloblástica)."
   }
 }
