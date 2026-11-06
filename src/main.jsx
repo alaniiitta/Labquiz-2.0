@@ -138,27 +138,36 @@ const getAllQuestions=(full=false)=>topics.flatMap(topic=>(full?fullQuestionBank
 const shuffledCopy=items=>{const copy=[...items];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;};
 const SIMULACRUM_MIN=60;
 const LAW_TOPIC=24;
-const LAW_MAX_SHARE=0.1;
 // examen real: solo el simulacro de 100 (1 h 30 min, cada 4 fallos restan 1 acierto, las en blanco no restan)
 const EXAM_COUNT=100;
 const EXAM_DURATION=90*60*1000;
-// los simulacros de 60 van en modo examen con el mismo ritmo: 54 minutos
-const examDuration=count=>Math.round(EXAM_DURATION*count/EXAM_COUNT);
+// el simulacro de 60 tiene 1 h 20 min; otros tamaños, al ritmo del de 100
+const EXAM_60_DURATION=80*60*1000;
+const examDuration=count=>count===60?EXAM_60_DURATION:Math.round(EXAM_DURATION*count/EXAM_COUNT);
 const EXAM_PENALTY=1/4;
+// Reparto por temas como en los exámenes oficiales: 70 % según los IB-Salut 2023 y 2018 y 30 % según
+// los 10 Simulacros Baleares (preguntas clasificadas por tema comparándolas con el banco). Legislación, aparte.
+const EXAM_TOPIC_WEIGHTS={1:9.6,2:3.1,3:6.2,4:3.0,5:4.3,6:1.7,7:6.6,8:11.1,9:3.2,10:3.9,11:5.3,12:0.3,13:11.9,14:8.5,15:2.3,16:1.9,17:2.0,18:2.5,19:3.2,20:2.2,21:0.9,22:1.9,23:4.4};
+const EXAM_LAW_SHARE=0.07;
 // usedIds: preguntas de simulacros anteriores; se evitan mientras el tema tenga otras sin usar
 const selectSimulacrumQuestions=(count,progress,usedIds=new Set())=>{
  const pools=topics.map(topic=>getQuestionBank(topic.id).map(question=>({...question,topicId:topic.id}))).filter(pool=>pool.length);
- const total=pools.reduce((sum,pool)=>sum+pool.length,0);
- let quotas=pools.map(pool=>count*pool.length/total);
- // Legislación (tema 24): como mucho el 10 % del simulacro; lo que sobre se reparte entre el resto
  const lawIndex=pools.findIndex(pool=>pool[0]?.topicId===LAW_TOPIC);
- if(lawIndex>=0&&quotas[lawIndex]>count*LAW_MAX_SHARE){
-  const cap=Math.floor(count*LAW_MAX_SHARE);const restTotal=total-pools[lawIndex].length;
-  quotas=pools.map((pool,index)=>index===lawIndex?cap:(count-cap)*pool.length/restTotal);
- }
+ const lawCount=lawIndex>=0?Math.min(Math.round(count*EXAM_LAW_SHARE),pools[lawIndex].length):0;
+ // cada tema, al menos una pregunta (si caben); el resto según su peso y sin pasar de las que tiene
+ const weights=pools.map((pool,index)=>index===lawIndex?0:(EXAM_TOPIC_WEIGHTS[pool[0].topicId]??1));
+ const rest=count-lawCount;
+ let quotas=pools.map((pool,index)=>index===lawIndex?0:Math.max(rest*weights[index]/weights.reduce((a,b)=>a+b,0),pools.length<=rest?1:0));
+ const scale=rest/quotas.reduce((a,b)=>a+b,0);
+ quotas=quotas.map((quota,index)=>Math.min(quota*scale,pools[index].length));
+ if(lawIndex>=0) quotas[lawIndex]=lawCount;
  const counts=quotas.map(Math.floor);
- // reparte los huecos que faltan a los temas con mayor resto
- quotas.map((quota,index)=>[quota-Math.floor(quota),index]).sort((a,b)=>b[0]-a[0]).slice(0,count-counts.reduce((a,b)=>a+b,0)).forEach(([,index])=>{counts[index]+=1});
+ // reparte los huecos que faltan a los temas con mayor resto (y, si un tema se queda corto, a los de más peso)
+ const roomy=index=>counts[index]<pools[index].length&&index!==lawIndex;
+ let missing=count-counts.reduce((a,b)=>a+b,0);
+ for(const [,index] of quotas.map((quota,index)=>[quota-Math.floor(quota),index]).sort((a,b)=>b[0]-a[0])){if(missing<=0)break;if(roomy(index)){counts[index]+=1;missing-=1}}
+ const byWeight=pools.map((_,index)=>index).sort((a,b)=>weights[b]-weights[a]);
+ while(missing>0&&byWeight.some(roomy)){for(const index of byWeight){if(missing<=0)break;if(roomy(index)){counts[index]+=1;missing-=1}}}
  const picked=pools.flatMap((pool,index)=>{
   const unused=pool.filter(question=>!usedIds.has(getQuestionIdForProgress(question)));
   if(unused.length>=counts[index]) return selectSmartQuestions(unused,progress,counts[index]);
@@ -249,7 +258,7 @@ function App(){
  // simulacro de 100 preguntas en modo examen real (nuevo o continuando el guardado)
  // questions: para repetir un simulacro con las mismas preguntas
  // history: un simulacro ya entregado, para revisarlo
- // count: 100 (1 h 30 min) o 60 (54 min), los dos en modo examen real
+ // count: 100 (1 h 30 min) o 60 (1 h 20 min), los dos en modo examen real
  const openExam=(resume=false,questions=null,history=null,count=EXAM_COUNT)=>{setExamConfig(config=>({resume,questions,history,count,sessionId:config.sessionId+1}));show("exam")};
  // abre el resumen de un tema colocado en un apartado concreto
  const openSummaryAt=(topicId,sectionId=null)=>{setSelected(topics.find(t=>t.id===topicId));setFocusSection(sectionId);show("topic")};
@@ -396,7 +405,7 @@ function HomePage({go,openTest,openExam,progress,examHistory,examDeleted,reviewH
     <button type="button" className="primary" onClick={()=>openTest(null,"fresh",null,freshCount,null,null,0)}>Empezar repaso de {freshCount}</button>
    </div>
    <div className="home2Card sim">
-    <div className="home2CardHead"><span className="home2Icon"><Timer/></span><div><b>Simulacro de 60</b><small>54 min · cada 4 fallos restan 1</small></div></div>
+    <div className="home2CardHead"><span className="home2Icon"><Timer/></span><div><b>Simulacro de 60</b><small>1 h 20 min · cada 4 fallos restan 1</small></div></div>
     <p className="home2Note">{unusedForExams.toLocaleString("es-ES")} preguntas sin salir en tus simulacros</p>
     <button type="button" className="primary" onClick={()=>openExam(false,null,null,60)}>Empezar simulacro</button>
    </div>
@@ -970,7 +979,7 @@ function StartExamButtons({onStart}){
  return <div className="examStart">
   {saved&&<button type="button" className="primary" onClick={()=>onStart?.("resume")}><Play/> {saved.deadline>Date.now()?"Continuar":"Ver nota"}</button>}
   <button type="button" className={saved?"secondary":"primary"} onClick={()=>onStart?.(EXAM_COUNT)} title="1 h 30 min · sin soluciones hasta entregar · cada 4 fallos restan 1"><Timer/> Examen de 100</button>
-  <button type="button" className="secondary" onClick={()=>onStart?.(60)} title="54 min · sin soluciones hasta entregar · cada 4 fallos restan 1"><Timer/> Examen de 60</button>
+  <button type="button" className="secondary" onClick={()=>onStart?.(60)} title="1 h 20 min · sin soluciones hasta entregar · cada 4 fallos restan 1"><Timer/> Examen de 60</button>
  </div>;
 }
 
@@ -1141,7 +1150,7 @@ function ReviewPage({tab:activeTab,go,reviewHistory,realExamHistory,onRealExam,o
    {savedExam&&<div className="resumeTestBanner" role="status"><div><b>{examRunning?"Tienes un simulacro en curso":"Tu simulacro se quedó sin tiempo"}</b><small>{Object.keys(savedExam.answers).length} de {savedExam.questions.length} respondidas · {examRunning?`quedan ${formatClock(savedExam.deadline-Date.now())}`:"se entregará con lo que respondiste"}</small></div><div className="resumeTestActions"><button className="primary" type="button" onClick={onResumeExam}><Play/> {examRunning?"Continuar":"Ver nota"}</button><button className="secondary" type="button" onClick={()=>{clearExamSession();setSavedExam(null)}}>Descartar</button></div></div>}
    <div className="reviewSetup">
     <span className="reviewSetupLabel"><Trophy/> Simulacro de examen</span>
-    <div className="simChoice">{[[60,"54 min"],[100,"1 h 30 min"]].map(([value,time])=><button key={value} type="button" className={sim===value?"selected":""} onClick={()=>update({sim:value})}><b>{value}</b><span>preguntas</span><small>{time}</small></button>)}</div>
+    <div className="simChoice">{[[60,"1 h 20 min"],[100,"1 h 30 min"]].map(([value,time])=><button key={value} type="button" className={sim===value?"selected":""} onClick={()=>update({sim:value})}><b>{value}</b><span>preguntas</span><small>{time}</small></button>)}</div>
     <p className="examNote">Las preguntas se reparten entre los {topics.length} temas según el peso de cada uno (Legislación, como mucho el 10 %). <b>Modo examen real:</b> sin soluciones hasta entregar y cada 4 fallos restan 1 acierto; las en blanco no restan. <b>Sin repetir:</b> {usedInExams?`no saldrán las ${usedInExams} preguntas de tus simulacros anteriores.`:"cada simulacro nuevo evita las preguntas de los anteriores."}</p>
     <button className="primary" type="button" onClick={()=>onStart(sim)}>Empezar simulacro de {sim}</button>
    </div>
